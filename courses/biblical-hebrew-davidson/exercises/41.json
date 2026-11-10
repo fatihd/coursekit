@@ -5,29 +5,128 @@
     {
       "unit": 41,
       "n": 1,
-      "typeGuess": "translate-phrase",
-      "confidence": 0.5,
-      "prompt": "Translate this English sentence into Hebrew",
-      "body_raw": "And he offered the ram of the burnt-offering",
-      "answer_raw": "קוּמי הָעִיִרָה הַעולֶה וְתאמַר"
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "עֵינַי עַל־כָּל־דַּרְכֵיהֶם לֹא נִסְתְּרוּ מִלְּפָנָי וְלֹא־נִצְפַּן עֲוֹנָם מִנֶּגֶד עֵינָי",
+      "answer_raw": "Mine eyes are upon all their ways, they are not hidden from my face; neither is their iniquity concealed from mine eyes."
     },
     {
       "unit": 41,
       "n": 2,
-      "typeGuess": "translate-phrase",
-      "confidence": 0.5,
-      "prompt": "Translate this English sentence into Hebrew",
-      "body_raw": "And the men feared to return to their houses",
-      "answer_raw": "את לָכִי לְבִיתַד גלד"
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "לֹא תְמוּתוּן כִּי יֹדֵעַ אֱלֹהִים כִּי בְּיוֹם אֲכָלְכֶם מִן־הָעֵץ וְנִפְקְחוּ עֵינֵיכֶם",
+      "answer_raw": "Ye shall not die, for God knoweth that in the day that ye eat of the tree, your eyes shall be opened."
     },
     {
       "unit": 41,
       "n": 3,
       "typeGuess": "mcq",
-      "confidence": 0.5,
-      "prompt": "Translate this Hebrew sentence into English",
-      "body_raw": "גוים יבאו לד",
-      "answer_raw": "The wealth\" of the nations shall come\" unto thee.\""
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "כַּרְמֵיכֶם וְזֵיתֵיכֶם יֹאכַל הָאַרְבֶּה",
+      "answer_raw": "Your vineyards and olive-trees the locusts repeatedly devoured."
+    },
+    {
+      "unit": 41,
+      "n": 4,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "חֵיל גּוֹיִם יָבֹאוּ לָךְ",
+      "answer_raw": "The wealth of the nations shall come unto thee."
+    },
+    {
+      "unit": 41,
+      "n": 5,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "הִצַּלְתֶּם אֶת־נַפְשֹׁתֵינוּ מִמָּוֶת",
+      "answer_raw": "Ye have delivered our lives from death."
+    },
+    {
+      "unit": 41,
+      "n": 6,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "לֹא אֶחְפֹּץ בְּמוֹת הַמֵּת",
+      "answer_raw": "I have no pleasure in the death of him that dieth."
+    },
+    {
+      "unit": 41,
+      "n": 7,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "וישמעו את־קול יהוה מתהלך בתוך עץ הגן לרוח היום ויתחבא האדם ואשתו מפניו",
+      "answer_raw": "And they heard the voice of Yahweh as he walked in the midst of the trees of the garden in the cool of the day, and the man and his wife hid themselves from his presence."
+    },
+    {
+      "unit": 41,
+      "n": 8,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "ולמדתם את־דברי את־בניכם לדבר בם בשבתך בביתך ובלכתך בדרך ובשכבך ובקומך",
+      "answer_raw": "And ye shall teach my words to your children, speaking of them when thou sittest in thy house, and when thou walkest by the way, and when thou liest down, and when thou risest up."
+    },
+    {
+      "unit": 41,
+      "n": 9,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "Behold I am old, I know not the day of my death.",
+      "answer_raw": "הִנֵּה זָקַנְתִּי לֹא יָדַעְתִּי אֶת־יוֹם מוֹתִי"
+    },
+    {
+      "unit": 41,
+      "n": 10,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "In those days there-was-not a king in Israel, (every) man did the (thing) upright in his (own) eyes.",
+      "answer_raw": "בַּיָּמִים הָהֵם אֵין מֶלֶךְ בְּיִשְׂרָאֵל אִישׁ הַיָּשָׁר בְּעֵינָיו יַעֲשֶׂה"
+    },
+    {
+      "unit": 41,
+      "n": 11,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "And Noah awoke from his wine and knew what his younger (little) son had done to him.",
+      "answer_raw": "וַיִּיקַץ נֹחַ מִיֵּינוֹ וַיֵּדַע אֵת אֲשֶׁר־עָשָׂה לוֹ בְּנוֹ הַקָּטָן"
+    },
+    {
+      "unit": 41,
+      "n": 12,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "And the prophet said unto her, And thou (fem.) arise, go to thy house; when thy feet come to-the-city, then (waw cons.) the boy shall die.",
+      "answer_raw": "וַיֹּאמֶר אֵלֶיהָ הַנָּבִיא וְאַתְּ קוּמִי לְכִי לְבֵיתֵךְ בְּבֹא רַגְלַיִךְ הָעִירָה וּמֵת הַיָּלֶד"
+    },
+    {
+      "unit": 41,
+      "n": 13,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "And he offered the ram of the burnt-offering.",
+      "answer_raw": "וַיַּקְרֵב אֶת־אֵיל הָעוֹלָה"
+    },
+    {
+      "unit": 41,
+      "n": 14,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "And the men feared to return to their houses.",
+      "answer_raw": "וַיִּירְאוּ הָאֲנָשִׁים מִשּׁוּב אֶל־בָּתֵּיהֶם (or לָשׁוּב)"
     }
   ]
 }

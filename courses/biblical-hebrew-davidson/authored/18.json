@@ -3,120 +3,3323 @@
   "unit": 18,
   "items": [
     {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "לֹא שָׁתָה הָעָם מִמֵּי הַיְאֹר",
+      "stimulusIsScript": true,
+      "options": [
+        "There came a great army from the ends of the earth and from the four winds of heaven.",
+        "The people did not drink from the waters of the river.",
+        "And in the law of Yahweh thou hast not walked.",
+        "We have not kept the law of Yahweh, the God of Israel."
+      ],
+      "answer": "The people did not drink from the waters of the river.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §17 A 1; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n81/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n81.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n33/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n33.jpg",
+        "exwb": "davidson-s17#A1",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "לָקַח דָּוִד אֲבִיגַיִל לְאִשָּׁה וְהִיא אִשָּׁה טוֹבַת שֶׂכֶל",
+      "stimulusIsScript": true,
+      "options": [
+        "On that day Yahweh wrought deliverance in Israel.",
+        "The poor of the people are righteous.",
+        "The law of Yahweh is good.",
+        "David took Abigail to wife, and she was a woman of good understanding."
+      ],
+      "answer": "David took Abigail to wife, and she was a woman of good understanding.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §17 A 2; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n81/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n81.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n33/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n33.jpg",
+        "exwb": "davidson-s17#A2",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אֶבְיוֹנֵי הָעָם הֵם צַדִּיקִים",
+      "stimulusIsScript": true,
+      "options": [
+        "David took Abigail to wife, and she was a woman of good understanding.",
+        "The boy lay on the bed of the man of God.",
+        "The poor of the people are righteous.",
+        "We ate of every tree of the garden."
+      ],
+      "answer": "The poor of the people are righteous.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §17 A 3; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n81/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n81.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n33/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n33.jpg",
+        "exwb": "davidson-s17#A3",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "לֹא שָׁמַרְנוּ תּוֹרַת יהוה אֱלֹהֵי יִשְׂרָאֵל",
+      "stimulusIsScript": true,
+      "options": [
+        "David took Abigail to wife, and she was a woman of good understanding.",
+        "We have not kept the law of Yahweh, the God of Israel.",
+        "There was a famine in the land, and Abraham went down into Egypt, for the famine was sore in the land.",
+        "The prince did according to the king's commandment."
+      ],
+      "answer": "We have not kept the law of Yahweh, the God of Israel.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §17 A 4; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n81/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n81.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n33/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n33.jpg",
+        "exwb": "davidson-s17#A4",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "עָשָׂה הַשַּׂר כְּמִצְוַת הַמֶּלֶךְ",
+      "stimulusIsScript": true,
+      "options": [
+        "The prince did according to the king's commandment.",
+        "We ate of every tree of the garden.",
+        "We have not kept the law of Yahweh, the God of Israel.",
+        "The poor of the people are righteous."
+      ],
+      "answer": "The prince did according to the king's commandment.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §17 A 5; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n81/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n81.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n33/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n33.jpg",
+        "exwb": "davidson-s17#A5",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וּבְתוֹרַת יהוה לֹא הָלָכְתָּ",
+      "stimulusIsScript": true,
+      "options": [
+        "Now the queen of the land was the daughter of a mighty man of valour.",
+        "These are the commandments of the God of all the earth which I have written this day.",
+        "The poor of the people are righteous.",
+        "And in the law of Yahweh thou hast not walked."
+      ],
+      "answer": "And in the law of Yahweh thou hast not walked.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §17 A 6; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n81/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n81.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n33/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n33.jpg",
+        "exwb": "davidson-s17#A6",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אֵלֶּה מִצְוֹת אֱלֹהֵי כָּל־הָאָרֶץ אֲשֶׁר כָּתַבְתִּי הַיּוֹם הַזֶּה",
+      "stimulusIsScript": true,
+      "options": [
+        "These are the commandments of the God of all the earth which I have written this day.",
+        "The law of Yahweh is good.",
+        "The poor of the people are righteous.",
+        "The boy lay on the bed of the man of God."
+      ],
+      "answer": "These are the commandments of the God of all the earth which I have written this day.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §17 A 7; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n81/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n81.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n33/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n33.jpg",
+        "exwb": "davidson-s17#A7",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "שָׁכַב הַיֶּלֶד עַל־מִטַּת אִישׁ הָאֱלֹהִים",
+      "stimulusIsScript": true,
+      "options": [
+        "On that day Yahweh wrought deliverance in Israel.",
+        "These are the commandments of the God of all the earth which I have written this day.",
+        "And in the law of Yahweh thou hast not walked.",
+        "The boy lay on the bed of the man of God."
+      ],
+      "answer": "The boy lay on the bed of the man of God.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §17 A 8; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n81/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n81.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n33/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n33.jpg",
+        "exwb": "davidson-s17#A8",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "בָּא חַיִל גָּדוֹל מִיַּרְכְּתֵי הָאָרֶץ וּמֵאַרְבַּע רוּחוֹת הַשָּׁמָיִם",
+      "stimulusIsScript": true,
+      "options": [
+        "There was a famine in the land, and Abraham went down into Egypt, for the famine was sore in the land.",
+        "The law of Yahweh is good.",
+        "The poor of the people are righteous.",
+        "There came a great army from the ends of the earth and from the four winds of heaven."
+      ],
+      "answer": "There came a great army from the ends of the earth and from the four winds of heaven.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §17 A 9; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n81/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n81.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n33/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n33.jpg",
+        "exwb": "davidson-s17#A9",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אָכַלְנוּ מִכָּל־עֵץ הַגָּן",
+      "stimulusIsScript": true,
+      "options": [
+        "There came a great army from the ends of the earth and from the four winds of heaven.",
+        "The boy lay on the bed of the man of God.",
+        "We ate of every tree of the garden.",
+        "The people did not drink from the waters of the river."
+      ],
+      "answer": "We ate of every tree of the garden.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §17 A 10; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n81/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n81.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n33/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n33.jpg",
+        "exwb": "davidson-s17#A10",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וּמַלְכַּת הָאָרֶץ בַּת אִישׁ גִּבּוֹר חָיִל",
+      "stimulusIsScript": true,
+      "options": [
+        "On that day Yahweh wrought deliverance in Israel.",
+        "Now the queen of the land was the daughter of a mighty man of valour.",
+        "These are the commandments of the God of all the earth which I have written this day.",
+        "The prince did according to the king's commandment."
+      ],
+      "answer": "Now the queen of the land was the daughter of a mighty man of valour.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §17 A 11; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n81/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n81.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n33/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n33.jpg",
+        "exwb": "davidson-s17#A11",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָיָה רָעָב בָּאָרֶץ וְאַבְרָם יָרַד מִצְרַיְמָה כִּי כָבֵד הָרָעָב בָּאָרֶץ",
+      "stimulusIsScript": true,
+      "options": [
+        "The boy lay on the bed of the man of God.",
+        "The law of Yahweh is good.",
+        "There was a famine in the land, and Abraham went down into Egypt, for the famine was sore in the land.",
+        "The poor of the people are righteous."
+      ],
+      "answer": "There was a famine in the land, and Abraham went down into Egypt, for the famine was sore in the land.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §17 A 12; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n81/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n81.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n33/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n33.jpg",
+        "exwb": "davidson-s17#A12",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "תורת יהוה טובה",
+      "stimulusIsScript": true,
+      "options": [
+        "The prince did according to the king's commandment.",
+        "The people did not drink from the waters of the river.",
+        "The law of Yahweh is good.",
+        "There came a great army from the ends of the earth and from the four winds of heaven."
+      ],
+      "answer": "The law of Yahweh is good.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "hint": "With vowel points: תּוֹרַת יְהוָה טוֹבָה",
+      "data": {
+        "pointed": "תּוֹרַת יְהוָה טוֹבָה"
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §17 A 13; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n81/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n81.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n33/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n33.jpg",
+        "exwb": "davidson-s17#A13",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "ביום ההוא עשה יהוה ישועה בישראל",
+      "stimulusIsScript": true,
+      "options": [
+        "There was a famine in the land, and Abraham went down into Egypt, for the famine was sore in the land.",
+        "On that day Yahweh wrought deliverance in Israel.",
+        "The law of Yahweh is good.",
+        "And in the law of Yahweh thou hast not walked."
+      ],
+      "answer": "On that day Yahweh wrought deliverance in Israel.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "hint": "With vowel points: בַּיּוֹם הַהוּא עָשָׂה יְהוָה יְשׁוּעָה בְּיִשְׂרָאֵל",
+      "data": {
+        "pointed": "בַּיּוֹם הַהוּא עָשָׂה יְהוָה יְשׁוּעָה בְּיִשְׂרָאֵל"
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §17 A 14; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n81/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n81.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n33/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n33.jpg",
+        "exwb": "davidson-s17#A14",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
       "type": "translate-phrase",
-      "prompt": "Translate this English sentence into Hebrew",
-      "stimulus": "God gave the woman to the man for wife",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "The great day of Yahweh",
       "stimulusIsScript": false,
       "accepted": [
-        "אֶלְהִים",
-        "אלהים"
+        "יוֹם יְהוָה הַגָּדוֹל"
       ],
       "answerIsScript": true,
+      "shape": "en-he",
       "source": {
-        "citation": "Davidson, Introductory Hebrew Grammar (22nd ed.) exercise on §14; Key to the Exercises (1924) §14",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n28/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n28.jpg",
-        "sanityScore": 0.2,
-        "sanity": "weak",
-        "note": "Read from the scans by OCR; open them if a reading looks wrong."
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §17 B 1; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n81/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n81.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n33/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n33.jpg",
+        "exwb": "davidson-s17#B1",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "The day of Yahweh is great.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "גָּדוֹל יוֹם יְהוָה"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §17 B 2; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n81/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n81.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n33/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n33.jpg",
+        "exwb": "davidson-s17#B2",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "The good queen of the land",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מַלְכַּת הָאָרֶץ הַטּוֹבָה"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §17 B 3; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n81/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n81.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n33/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n33.jpg",
+        "exwb": "davidson-s17#B3",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "All the people of the earth",
+      "stimulusIsScript": false,
+      "accepted": [
+        "כָּל־עַם הָאָרֶץ"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §17 B 4; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n81/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n81.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n33/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n33.jpg",
+        "exwb": "davidson-s17#B4",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "All the king's good asses",
+      "stimulusIsScript": false,
+      "accepted": [
+        "כָּל־חֲמוֹרֵי הַמֶּלֶךְ הַטּוֹבִים"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §17 B 5; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n81/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n81.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n33/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n33.jpg",
+        "exwb": "davidson-s17#B5",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "The captain (prince) reviewed all the mighty-men of valour and all the people of war.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "פָּקַד הַשַּׂר אֶת־כָּל־גִּבּוֹרֵי הַחַיִל וְאֶת־כָּל־עַם הַמִּלְחָמָה"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §17 B 6; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n81/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n81.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n33/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n33.jpg",
+        "exwb": "davidson-s17#B6",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "In the two-sides of the temple",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בְּיַרְכְּתֵי הַהֵיכָל"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §17 B 7; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n81/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n81.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n33/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n33.jpg",
+        "exwb": "davidson-s17#B7",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "I have gone northward.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָלַכְתִּי צָפוֹנָה"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §17 B 8; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n81/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n81.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n33/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n33.jpg",
+        "exwb": "davidson-s17#B8",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "We are gone down to Sheol.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "יָרַדְנוּ שְׁאוֹלָה"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §17 B 9; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n81/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n81.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n33/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n33.jpg",
+        "exwb": "davidson-s17#B9",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "He went towards-the-mountain.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָלַךְ הָהָרָה"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §17 B 10; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n81/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n81.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n33/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n33.jpg",
+        "exwb": "davidson-s17#B10",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "We slew the man's ass.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָרַגְנוּ אֶת־חֲמוֹר הָאִישׁ"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §17 B 11; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n81/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n81.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n33/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n33.jpg",
+        "exwb": "davidson-s17#B11",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "The people did not drink from the waters of the river, for they (were) blood.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "לֹא שָׁתָה הָעָם מִמֵּי הַיְאֹר כִּי דָם הֵם"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §17 B 12; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n81/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n81.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n33/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n33.jpg",
+        "exwb": "davidson-s17#B12",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "Ye have not kept the commandments of the God of all the earth.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "לֹא שְׁמַרְתֶּם אֶת־מִצְוֹת אֱלֹהֵי כָל־הָאָרֶץ"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §17 B 13; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n81/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n81.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n33/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n33.jpg",
+        "exwb": "davidson-s17#B13",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "The spirit of God (was) upon the waters.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "רוּחַ אֱלֹהִים עַל־הַמָּיִם"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §17 B 14; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n81/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n81.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n33/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n33.jpg",
+        "exwb": "davidson-s17#B14",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "God of the spirits (that belong) to all flesh",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֱלֹהֵי הָרוּחֹת לְכָל־בָּשָׂר"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §17 B 15; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n81/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n81.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n33/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n33.jpg",
+        "exwb": "davidson-s17#B15",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "I have broken down all the walls of the city.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "נָתַצְתִּי אֶת־כָּל־חוֹמֹת הָעִיר"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §17 B 16; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n81/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n81.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n33/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n33.jpg",
+        "exwb": "davidson-s17#B16",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "Thou hast kept the poor of the land from all ill.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שָׁמַרְתָּ אֶת־אֶבְיוֹנֵי הָאָרֶץ מִכָּל־רָע"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §17 B 17; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n81/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n81.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n33/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n33.jpg",
+        "exwb": "davidson-s17#B17",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "Thou (f.) hast eaten of the tree of the garden.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אָכַלְתְּ מֵעֵץ הַגָּן"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §17 B 18; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n81/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n81.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n33/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n33.jpg",
+        "exwb": "davidson-s17#B18",
+        "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
       "type": "mcq",
-      "prompt": "Translate this Hebrew sentence into English",
-      "stimulus": "קרא אלהִים ולחשף *לְיְלָה",
+      "prompt": "Choose the construct singular of this word (male)",
+      "stimulus": "זָכָר",
       "stimulusIsScript": true,
       "options": [
-        "God is in the temple.? The boy wrote in the& book",
-        "God rested on the seventh day from the work which he had made.?",
-        "The man & heard the voice in the garden",
-        "The king ruled over the people"
+        "זָכָר",
+        "זְכָרִים",
+        "זְכַר",
+        "זִכְרֵי"
       ],
-      "answer": "God is in the temple.? The boy wrote in the& book",
-      "optionIsScript": false,
+      "answer": "זְכַר",
+      "optionIsScript": true,
+      "shape": "he-form",
+      "explain": "This form does not occur in the Old Testament.",
       "source": {
-        "citation": "Davidson, Introductory Hebrew Grammar (22nd ed.) exercise on §14; Key to the Exercises (1924) §14",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
-        "sanityScore": 0.2,
-        "sanity": "weak",
-        "note": "Read from the scans by OCR; open them if a reading looks wrong."
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 A L1a; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#AL1a",
+        "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
       "type": "mcq",
-      "prompt": "Translate this Hebrew sentence into English",
-      "stimulus": "ישב בּמּקוס",
+      "prompt": "Choose the absolute plural of this word (male)",
+      "stimulus": "זָכָר",
       "stimulusIsScript": true,
       "options": [
-        "The boy sat in this place",
-        "God rested on the seventh day from the work which he had made.?",
-        "The man & heard the voice in the garden",
-        "The king ruled over the people"
+        "זָכָר",
+        "זִכְרֵי",
+        "זְכַר",
+        "זְכָרִים"
       ],
-      "answer": "The boy sat in this place",
-      "optionIsScript": false,
+      "answer": "זְכָרִים",
+      "optionIsScript": true,
+      "shape": "he-form",
       "source": {
-        "citation": "Davidson, Introductory Hebrew Grammar (22nd ed.) exercise on §14; Key to the Exercises (1924) §14",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
-        "sanityScore": 0.67,
-        "sanity": "ok",
-        "note": "Read from the scans by OCR; open them if a reading looks wrong."
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 A L1b; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#AL1b",
+        "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
       "type": "mcq",
-      "prompt": "Translate this Hebrew sentence into English",
-      "stimulus": "עָשָה",
+      "prompt": "Choose the construct plural of this word (male)",
+      "stimulus": "זָכָר",
       "stimulusIsScript": true,
       "options": [
-        "God made the man out of dust& from the ground",
-        "God rested on the seventh day from the work which he had made.?",
-        "The man & heard the voice in the garden",
-        "The king ruled over the people"
+        "זָכָר",
+        "זִכְרֵי",
+        "זְכַר",
+        "זְכָרִים"
       ],
-      "answer": "God made the man out of dust& from the ground",
-      "optionIsScript": false,
+      "answer": "זִכְרֵי",
+      "optionIsScript": true,
+      "shape": "he-form",
+      "explain": "This form does not occur in the Old Testament.",
       "source": {
-        "citation": "Davidson, Introductory Hebrew Grammar (22nd ed.) exercise on §14; Key to the Exercises (1924) §14",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
-        "sanityScore": 0.17,
-        "sanity": "weak",
-        "note": "Read from the scans by OCR; open them if a reading looks wrong."
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 A L1c; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#AL1c",
+        "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
       "type": "mcq",
-      "prompt": "Translate this Hebrew sentence into English",
-      "stimulus": "נָתַן אתיהחְרֶב למלְך",
+      "prompt": "Choose the construct singular of this word (word)",
+      "stimulus": "דָּבָר",
       "stimulusIsScript": true,
       "options": [
-        "The king ruled over the people",
-        "God rested on the seventh day from the work which he had made.?",
-        "The man & heard the voice in the garden",
-        "The boy sat in this place"
+        "דְּבָרִים",
+        "דָּבָר",
+        "דִּבְרֵי",
+        "דְּבַר"
       ],
-      "answer": "The king ruled over the people",
-      "optionIsScript": false,
+      "answer": "דְּבַר",
+      "optionIsScript": true,
+      "shape": "he-form",
       "source": {
-        "citation": "Davidson, Introductory Hebrew Grammar (22nd ed.) exercise on §14; Key to the Exercises (1924) §14",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
-        "sanityScore": 0.25,
-        "sanity": "weak",
-        "note": "Read from the scans by OCR; open them if a reading looks wrong."
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 A L2a; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#AL2a",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the absolute plural of this word (word)",
+      "stimulus": "דָּבָר",
+      "stimulusIsScript": true,
+      "options": [
+        "דְּבָרִים",
+        "דָּבָר",
+        "דִּבְרֵי",
+        "דְּבַר"
+      ],
+      "answer": "דְּבָרִים",
+      "optionIsScript": true,
+      "shape": "he-form",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 A L2b; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#AL2b",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the construct plural of this word (word)",
+      "stimulus": "דָּבָר",
+      "stimulusIsScript": true,
+      "options": [
+        "דְּבָרִים",
+        "דְּבַר",
+        "דָּבָר",
+        "דִּבְרֵי"
+      ],
+      "answer": "דִּבְרֵי",
+      "optionIsScript": true,
+      "shape": "he-form",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 A L2c; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#AL2c",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the construct singular of this word (proverb)",
+      "stimulus": "מָשָׁל",
+      "stimulusIsScript": true,
+      "options": [
+        "מְשָׁלִים",
+        "מִשְׁלֵי",
+        "מָשָׁל",
+        "מְשַׁל"
+      ],
+      "answer": "מְשַׁל",
+      "optionIsScript": true,
+      "shape": "he-form",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 A L3a; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#AL3a",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the absolute plural of this word (proverb)",
+      "stimulus": "מָשָׁל",
+      "stimulusIsScript": true,
+      "options": [
+        "מִשְׁלֵי",
+        "מְשַׁל",
+        "מָשָׁל",
+        "מְשָׁלִים"
+      ],
+      "answer": "מְשָׁלִים",
+      "optionIsScript": true,
+      "shape": "he-form",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 A L3b; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#AL3b",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the construct plural of this word (proverb)",
+      "stimulus": "מָשָׁל",
+      "stimulusIsScript": true,
+      "options": [
+        "מְשָׁלִים",
+        "מְשַׁל",
+        "מָשָׁל",
+        "מִשְׁלֵי"
+      ],
+      "answer": "מִשְׁלֵי",
+      "optionIsScript": true,
+      "shape": "he-form",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 A L3c; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#AL3c",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the construct singular of this word (heavy)",
+      "stimulus": "כָּבֵד",
+      "stimulusIsScript": true,
+      "options": [
+        "כִּבְדֵי",
+        "כָּבֵד",
+        "כְּבֵדִים",
+        "כְּבַד or כְּבֵד"
+      ],
+      "answer": "כְּבַד or כְּבֵד",
+      "optionIsScript": true,
+      "shape": "he-form",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 A L4a; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#AL4a",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the absolute plural of this word (heavy)",
+      "stimulus": "כָּבֵד",
+      "stimulusIsScript": true,
+      "options": [
+        "כִּבְדֵי",
+        "כָּבֵד",
+        "כְּבֵדִים",
+        "כְּבַד or כְּבֵד"
+      ],
+      "answer": "כְּבֵדִים",
+      "optionIsScript": true,
+      "shape": "he-form",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 A L4b; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#AL4b",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the construct plural of this word (heavy)",
+      "stimulus": "כָּבֵד",
+      "stimulusIsScript": true,
+      "options": [
+        "כְּבַד or כְּבֵד",
+        "כָּבֵד",
+        "כִּבְדֵי",
+        "כְּבֵדִים"
+      ],
+      "answer": "כִּבְדֵי",
+      "optionIsScript": true,
+      "shape": "he-form",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 A L4c; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#AL4c",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the construct singular of this word (leopard)",
+      "stimulus": "נָמֵר",
+      "stimulusIsScript": true,
+      "options": [
+        "נְמֵרִים",
+        "נְמַר",
+        "נִמְרֵי",
+        "נָמֵר"
+      ],
+      "answer": "נְמַר",
+      "optionIsScript": true,
+      "shape": "he-form",
+      "explain": "This form does not occur in the Old Testament.",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 A L5a; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#AL5a",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the absolute plural of this word (leopard)",
+      "stimulus": "נָמֵר",
+      "stimulusIsScript": true,
+      "options": [
+        "נְמַר",
+        "נִמְרֵי",
+        "נָמֵר",
+        "נְמֵרִים"
+      ],
+      "answer": "נְמֵרִים",
+      "optionIsScript": true,
+      "shape": "he-form",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 A L5b; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#AL5b",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the construct plural of this word (leopard)",
+      "stimulus": "נָמֵר",
+      "stimulusIsScript": true,
+      "options": [
+        "נָמֵר",
+        "נְמַר",
+        "נְמֵרִים",
+        "נִמְרֵי"
+      ],
+      "answer": "נִמְרֵי",
+      "optionIsScript": true,
+      "shape": "he-form",
+      "explain": "This form does not occur in the Old Testament.",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 A L5c; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#AL5c",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the construct singular of this word (short)",
+      "stimulus": "קָצֵר",
+      "stimulusIsScript": true,
+      "options": [
+        "קִצְרֵי",
+        "קְצֵרִים",
+        "קְצַר",
+        "קָצֵר"
+      ],
+      "answer": "קְצַר",
+      "optionIsScript": true,
+      "shape": "he-form",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 A L6a; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#AL6a",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the absolute plural of this word (short)",
+      "stimulus": "קָצֵר",
+      "stimulusIsScript": true,
+      "options": [
+        "קִצְרֵי",
+        "קָצֵר",
+        "קְצַר",
+        "קְצֵרִים"
+      ],
+      "answer": "קְצֵרִים",
+      "optionIsScript": true,
+      "shape": "he-form",
+      "explain": "This form does not occur in the Old Testament.",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 A L6b; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#AL6b",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the construct plural of this word (short)",
+      "stimulus": "קָצֵר",
+      "stimulusIsScript": true,
+      "options": [
+        "קָצֵר",
+        "קְצֵרִים",
+        "קְצַר",
+        "קִצְרֵי"
+      ],
+      "answer": "קִצְרֵי",
+      "optionIsScript": true,
+      "shape": "he-form",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 A L6c; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#AL6c",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the construct singular of this word (luminary)",
+      "stimulus": "מָאוֹר",
+      "stimulusIsScript": true,
+      "options": [
+        "מְאוֹר",
+        "מְאוֹרֹת",
+        "מָאוֹר",
+        "מְאוֹרֵי"
+      ],
+      "answer": "מְאוֹר",
+      "optionIsScript": true,
+      "shape": "he-form",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 A L7a; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#AL7a",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the absolute plural of this word (luminary)",
+      "stimulus": "מָאוֹר",
+      "stimulusIsScript": true,
+      "options": [
+        "מְאוֹרֹת",
+        "מְאוֹר",
+        "מָאוֹר",
+        "מְאוֹרֵי"
+      ],
+      "answer": "מְאוֹרֹת",
+      "optionIsScript": true,
+      "shape": "he-form",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 A L7b; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#AL7b",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the construct plural of this word (luminary)",
+      "stimulus": "מָאוֹר",
+      "stimulusIsScript": true,
+      "options": [
+        "מְאוֹרֹת",
+        "מְאוֹר",
+        "מָאוֹר",
+        "מְאוֹרֵי"
+      ],
+      "answer": "מְאוֹרֵי",
+      "optionIsScript": true,
+      "shape": "he-form",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 A L7c; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#AL7c",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the construct singular of this word (prophet)",
+      "stimulus": "נָבִיא",
+      "stimulusIsScript": true,
+      "options": [
+        "נְבִיאֵי",
+        "נָבִיא",
+        "נְבִיאִים",
+        "נְבִיא"
+      ],
+      "answer": "נְבִיא",
+      "optionIsScript": true,
+      "shape": "he-form",
+      "explain": "This form does not occur in the Old Testament.",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 A L8a; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#AL8a",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the absolute plural of this word (prophet)",
+      "stimulus": "נָבִיא",
+      "stimulusIsScript": true,
+      "options": [
+        "נְבִיא",
+        "נְבִיאִים",
+        "נְבִיאֵי",
+        "נָבִיא"
+      ],
+      "answer": "נְבִיאִים",
+      "optionIsScript": true,
+      "shape": "he-form",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 A L8b; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#AL8b",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the construct plural of this word (prophet)",
+      "stimulus": "נָבִיא",
+      "stimulusIsScript": true,
+      "options": [
+        "נְבִיאִים",
+        "נְבִיאֵי",
+        "נָבִיא",
+        "נְבִיא"
+      ],
+      "answer": "נְבִיאֵי",
+      "optionIsScript": true,
+      "shape": "he-form",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 A L8c; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#AL8c",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the construct singular of this word (fat)",
+      "stimulus": "בָּרִיא",
+      "stimulusIsScript": true,
+      "options": [
+        "בְּרִיאֵי",
+        "בָּרִיא",
+        "בְּרִיא",
+        "בְּרִיאִים"
+      ],
+      "answer": "בְּרִיא",
+      "optionIsScript": true,
+      "shape": "he-form",
+      "explain": "This form does not occur in the Old Testament.",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 A L9a; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#AL9a",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the absolute plural of this word (fat)",
+      "stimulus": "בָּרִיא",
+      "stimulusIsScript": true,
+      "options": [
+        "בְּרִיאִים",
+        "בְּרִיאֵי",
+        "בָּרִיא",
+        "בְּרִיא"
+      ],
+      "answer": "בְּרִיאִים",
+      "optionIsScript": true,
+      "shape": "he-form",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 A L9b; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#AL9b",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the construct plural of this word (fat)",
+      "stimulus": "בָּרִיא",
+      "stimulusIsScript": true,
+      "options": [
+        "בָּרִיא",
+        "בְּרִיא",
+        "בְּרִיאֵי",
+        "בְּרִיאִים"
+      ],
+      "answer": "בְּרִיאֵי",
+      "optionIsScript": true,
+      "shape": "he-form",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 A L9c; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#AL9c",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the construct singular of this word (perfect)",
+      "stimulus": "תָּמִים",
+      "stimulusIsScript": true,
+      "options": [
+        "תְּמִימִים",
+        "תְּמִימֵי",
+        "תְּמִים",
+        "תָּמִים"
+      ],
+      "answer": "תְּמִים",
+      "optionIsScript": true,
+      "shape": "he-form",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 A L10a; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#AL10a",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the absolute plural of this word (perfect)",
+      "stimulus": "תָּמִים",
+      "stimulusIsScript": true,
+      "options": [
+        "תָּמִים",
+        "תְּמִים",
+        "תְּמִימִים",
+        "תְּמִימֵי"
+      ],
+      "answer": "תְּמִימִים",
+      "optionIsScript": true,
+      "shape": "he-form",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 A L10b; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#AL10b",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the construct plural of this word (perfect)",
+      "stimulus": "תָּמִים",
+      "stimulusIsScript": true,
+      "options": [
+        "תְּמִימִים",
+        "תְּמִים",
+        "תְּמִימֵי",
+        "תָּמִים"
+      ],
+      "answer": "תְּמִימֵי",
+      "optionIsScript": true,
+      "shape": "he-form",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 A L10c; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#AL10c",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the construct singular of this word (lip (f.))",
+      "stimulus": "שָׂפָה",
+      "stimulusIsScript": true,
+      "options": [
+        "שְׂפַת",
+        "שְׂפָתַיִם",
+        "שָׂפָה",
+        "שִׂפְתֵי"
+      ],
+      "answer": "שְׂפַת",
+      "optionIsScript": true,
+      "shape": "he-form",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 A L11a; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#AL11a",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the absolute dual of this word (lip (f.))",
+      "stimulus": "שָׂפָה",
+      "stimulusIsScript": true,
+      "options": [
+        "שָׂפָה",
+        "שְׂפַת",
+        "שִׂפְתֵי",
+        "שְׂפָתַיִם"
+      ],
+      "answer": "שְׂפָתַיִם",
+      "optionIsScript": true,
+      "shape": "he-form",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 A L11b; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#AL11b",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the construct dual of this word (lip (f.))",
+      "stimulus": "שָׂפָה",
+      "stimulusIsScript": true,
+      "options": [
+        "שְׂפָתַיִם",
+        "שְׂפַת",
+        "שִׂפְתֵי",
+        "שָׂפָה"
+      ],
+      "answer": "שִׂפְתֵי",
+      "optionIsScript": true,
+      "shape": "he-form",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 A L11c; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#AL11c",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the construct singular of this word (blessing (f.))",
+      "stimulus": "בְּרָכָה",
+      "stimulusIsScript": true,
+      "options": [
+        "בְּרָכָה",
+        "בְּרָכוֹת",
+        "בִּרְכַּת",
+        "בִּרְכוֹת"
+      ],
+      "answer": "בִּרְכַּת",
+      "optionIsScript": true,
+      "shape": "he-form",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 A L12a; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#AL12a",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the absolute plural of this word (blessing (f.))",
+      "stimulus": "בְּרָכָה",
+      "stimulusIsScript": true,
+      "options": [
+        "בִּרְכוֹת",
+        "בְּרָכָה",
+        "בְּרָכוֹת",
+        "בִּרְכַּת"
+      ],
+      "answer": "בְּרָכוֹת",
+      "optionIsScript": true,
+      "shape": "he-form",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 A L12b; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#AL12b",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the construct plural of this word (blessing (f.))",
+      "stimulus": "בְּרָכָה",
+      "stimulusIsScript": true,
+      "options": [
+        "בְּרָכוֹת",
+        "בִּרְכוֹת",
+        "בִּרְכַּת",
+        "בְּרָכָה"
+      ],
+      "answer": "בִּרְכוֹת",
+      "optionIsScript": true,
+      "shape": "he-form",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 A L12c; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#AL12c",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the construct singular of this word (vengeance (f.))",
+      "stimulus": "נְקָמָה",
+      "stimulusIsScript": true,
+      "options": [
+        "נִקְמוֹת",
+        "נְקָמָה",
+        "נְקָמוֹת",
+        "נִקְמַת"
+      ],
+      "answer": "נִקְמַת",
+      "optionIsScript": true,
+      "shape": "he-form",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 A L13a; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#AL13a",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the absolute plural of this word (vengeance (f.))",
+      "stimulus": "נְקָמָה",
+      "stimulusIsScript": true,
+      "options": [
+        "נִקְמַת",
+        "נְקָמוֹת",
+        "נִקְמוֹת",
+        "נְקָמָה"
+      ],
+      "answer": "נְקָמוֹת",
+      "optionIsScript": true,
+      "shape": "he-form",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 A L13b; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#AL13b",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the construct plural of this word (vengeance (f.))",
+      "stimulus": "נְקָמָה",
+      "stimulusIsScript": true,
+      "options": [
+        "נְקָמוֹת",
+        "נְקָמָה",
+        "נִקְמַת",
+        "נִקְמוֹת"
+      ],
+      "answer": "נִקְמוֹת",
+      "optionIsScript": true,
+      "shape": "he-form",
+      "explain": "This form does not occur in the Old Testament.",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 A L13c; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#AL13c",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the construct singular of this word (corpse (f.))",
+      "stimulus": "נְבֵלָה",
+      "stimulusIsScript": true,
+      "options": [
+        "נְבֵלוֹת",
+        "נְבֵלָה",
+        "נִבְלַת",
+        "נִבְלוֹת"
+      ],
+      "answer": "נִבְלַת",
+      "optionIsScript": true,
+      "shape": "he-form",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 A L14a; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#AL14a",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the absolute plural of this word (corpse (f.))",
+      "stimulus": "נְבֵלָה",
+      "stimulusIsScript": true,
+      "options": [
+        "נִבְלַת",
+        "נְבֵלָה",
+        "נִבְלוֹת",
+        "נְבֵלוֹת"
+      ],
+      "answer": "נְבֵלוֹת",
+      "optionIsScript": true,
+      "shape": "he-form",
+      "explain": "This form does not occur in the Old Testament.",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 A L14b; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#AL14b",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the construct plural of this word (corpse (f.))",
+      "stimulus": "נְבֵלָה",
+      "stimulusIsScript": true,
+      "options": [
+        "נְבֵלָה",
+        "נִבְלַת",
+        "נִבְלוֹת",
+        "נְבֵלוֹת"
+      ],
+      "answer": "נִבְלוֹת",
+      "optionIsScript": true,
+      "shape": "he-form",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 A L14c; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#AL14c",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the construct singular of this word (holy)",
+      "stimulus": "קָדוֹשׁ",
+      "stimulusIsScript": true,
+      "options": [
+        "קָדוֹשׁ",
+        "קְדוֹשׁ",
+        "קְדוֹשֵׁי",
+        "קְדוֹשִׁים"
+      ],
+      "answer": "קְדוֹשׁ",
+      "optionIsScript": true,
+      "shape": "he-form",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 A L15a; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#AL15a",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the absolute plural of this word (holy)",
+      "stimulus": "קָדוֹשׁ",
+      "stimulusIsScript": true,
+      "options": [
+        "קְדוֹשִׁים",
+        "קְדוֹשׁ",
+        "קָדוֹשׁ",
+        "קְדוֹשֵׁי"
+      ],
+      "answer": "קְדוֹשִׁים",
+      "optionIsScript": true,
+      "shape": "he-form",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 A L15b; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#AL15b",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the construct plural of this word (holy)",
+      "stimulus": "קָדוֹשׁ",
+      "stimulusIsScript": true,
+      "options": [
+        "קְדוֹשׁ",
+        "קְדוֹשֵׁי",
+        "קָדוֹשׁ",
+        "קְדוֹשִׁים"
+      ],
+      "answer": "קְדוֹשֵׁי",
+      "optionIsScript": true,
+      "shape": "he-form",
+      "explain": "This form does not occur in the Old Testament.",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 A L15c; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#AL15c",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "parse-form",
+      "prompt": "Parse this form",
+      "stimulus": "בְּרִיאוֹת",
+      "stimulusIsScript": true,
+      "fields": [
+        {
+          "key": "gender",
+          "label": "Gender",
+          "options": [
+            "masc.",
+            "fem."
+          ]
+        },
+        {
+          "key": "number",
+          "label": "Number",
+          "options": [
+            "sing.",
+            "plur.",
+            "dual"
+          ]
+        },
+        {
+          "key": "state",
+          "label": "State",
+          "options": [
+            "absolute",
+            "construct"
+          ]
+        },
+        {
+          "key": "root",
+          "label": "Root",
+          "options": [
+            "נְקָמָה",
+            "בָּרִיא",
+            "רָקִיעַ",
+            "שָׂפָה"
+          ],
+          "isScript": true
+        }
+      ],
+      "readings": [
+        {
+          "state": "absolute",
+          "root": "בָּרִיא",
+          "gender": "fem.",
+          "number": "plur."
+        },
+        {
+          "gender": "fem.",
+          "number": "plur.",
+          "state": "construct",
+          "root": "בָּרִיא"
+        }
+      ],
+      "shape": "parse",
+      "explain": "Key: abs. or cstr. plur. fem. of בָּרִיא fat",
+      "data": {
+        "parse": {
+          "state": "absolute",
+          "root": "בָּרִיא",
+          "alt": "cstr. plur. fem. of בָּרִיא fat"
+        }
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 B L1; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#BL1",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "parse-form",
+      "prompt": "Parse this form",
+      "stimulus": "דְּגַת",
+      "stimulusIsScript": true,
+      "fields": [
+        {
+          "key": "number",
+          "label": "Number",
+          "options": [
+            "sing.",
+            "plur.",
+            "dual"
+          ]
+        },
+        {
+          "key": "state",
+          "label": "State",
+          "options": [
+            "absolute",
+            "construct"
+          ]
+        },
+        {
+          "key": "root",
+          "label": "Root",
+          "options": [
+            "נָבִיא",
+            "רָקִיעַ",
+            "לֵבָב",
+            "דָּגָה"
+          ],
+          "isScript": true
+        }
+      ],
+      "readings": [
+        {
+          "number": "sing.",
+          "state": "construct",
+          "root": "דָּגָה"
+        }
+      ],
+      "shape": "parse",
+      "explain": "Key: cstr. sing. of דָּגָה fish (almost always collective), fem. of דָּג",
+      "data": {
+        "parse": {
+          "number": "sing.",
+          "state": "construct",
+          "root": "דָּגָה"
+        }
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 B L2; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#BL2",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "parse-form",
+      "prompt": "Parse this form",
+      "stimulus": "נְבִיאֵי",
+      "stimulusIsScript": true,
+      "fields": [
+        {
+          "key": "number",
+          "label": "Number",
+          "options": [
+            "sing.",
+            "plur.",
+            "dual"
+          ]
+        },
+        {
+          "key": "state",
+          "label": "State",
+          "options": [
+            "absolute",
+            "construct"
+          ]
+        },
+        {
+          "key": "root",
+          "label": "Root",
+          "options": [
+            "יָד",
+            "נָבִיא",
+            "יָשָׁר",
+            "מָאוֹר"
+          ],
+          "isScript": true
+        }
+      ],
+      "readings": [
+        {
+          "number": "plur.",
+          "state": "construct",
+          "root": "נָבִיא"
+        }
+      ],
+      "shape": "parse",
+      "explain": "Key: cstr. plur. of נָבִיא prophet",
+      "data": {
+        "parse": {
+          "number": "plur.",
+          "state": "construct",
+          "root": "נָבִיא"
+        }
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 B L3; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#BL3",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "parse-form",
+      "prompt": "Parse this form",
+      "stimulus": "יִשְׁרֵי",
+      "stimulusIsScript": true,
+      "fields": [
+        {
+          "key": "gender",
+          "label": "Gender",
+          "options": [
+            "masc.",
+            "fem."
+          ]
+        },
+        {
+          "key": "number",
+          "label": "Number",
+          "options": [
+            "sing.",
+            "plur.",
+            "dual"
+          ]
+        },
+        {
+          "key": "state",
+          "label": "State",
+          "options": [
+            "absolute",
+            "construct"
+          ]
+        },
+        {
+          "key": "root",
+          "label": "Root",
+          "options": [
+            "לֵבָב",
+            "רָקִיעַ",
+            "יָשָׁר",
+            "בָּרִיא"
+          ],
+          "isScript": true
+        }
+      ],
+      "readings": [
+        {
+          "gender": "masc.",
+          "number": "plur.",
+          "state": "construct",
+          "root": "יָשָׁר"
+        }
+      ],
+      "shape": "parse",
+      "explain": "Key: cstr. plur. masc. of יָשָׁר upright",
+      "data": {
+        "parse": {
+          "gender": "masc.",
+          "number": "plur.",
+          "state": "construct",
+          "root": "יָשָׁר"
+        }
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 B L4; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#BL4",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "parse-form",
+      "prompt": "Parse this form",
+      "stimulus": "רְקִיעַ",
+      "stimulusIsScript": true,
+      "fields": [
+        {
+          "key": "number",
+          "label": "Number",
+          "options": [
+            "sing.",
+            "plur.",
+            "dual"
+          ]
+        },
+        {
+          "key": "state",
+          "label": "State",
+          "options": [
+            "absolute",
+            "construct"
+          ]
+        },
+        {
+          "key": "root",
+          "label": "Root",
+          "options": [
+            "דָּגָה",
+            "לֵבָב",
+            "רָקִיעַ",
+            "בְּרָכָה"
+          ],
+          "isScript": true
+        }
+      ],
+      "readings": [
+        {
+          "number": "sing.",
+          "state": "construct",
+          "root": "רָקִיעַ"
+        }
+      ],
+      "shape": "parse",
+      "explain": "Key: cstr. sing. of רָקִיעַ firmament",
+      "data": {
+        "parse": {
+          "number": "sing.",
+          "state": "construct",
+          "root": "רָקִיעַ"
+        }
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 B L5; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#BL5",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "parse-form",
+      "prompt": "Parse this form",
+      "stimulus": "לְבָבוֹת",
+      "stimulusIsScript": true,
+      "fields": [
+        {
+          "key": "number",
+          "label": "Number",
+          "options": [
+            "sing.",
+            "plur.",
+            "dual"
+          ]
+        },
+        {
+          "key": "state",
+          "label": "State",
+          "options": [
+            "absolute",
+            "construct"
+          ]
+        },
+        {
+          "key": "root",
+          "label": "Root",
+          "options": [
+            "בְּרָכָה",
+            "מָאוֹר",
+            "נָבִיא",
+            "לֵבָב"
+          ],
+          "isScript": true
+        }
+      ],
+      "readings": [
+        {
+          "number": "plur.",
+          "state": "absolute",
+          "root": "לֵבָב"
+        }
+      ],
+      "shape": "parse",
+      "explain": "Key: abs. plur. of לֵבָב heart (occurs only once, 1 Chr. 28:9)",
+      "data": {
+        "parse": {
+          "number": "plur.",
+          "state": "absolute",
+          "root": "לֵבָב"
+        }
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 B L6; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#BL6",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "parse-form",
+      "prompt": "Parse this form",
+      "stimulus": "מְאוֹר",
+      "stimulusIsScript": true,
+      "fields": [
+        {
+          "key": "number",
+          "label": "Number",
+          "options": [
+            "sing.",
+            "plur.",
+            "dual"
+          ]
+        },
+        {
+          "key": "state",
+          "label": "State",
+          "options": [
+            "absolute",
+            "construct"
+          ]
+        },
+        {
+          "key": "root",
+          "label": "Root",
+          "options": [
+            "מָאוֹר",
+            "יָשָׁר",
+            "דָּגָה",
+            "נְקָמָה"
+          ],
+          "isScript": true
+        }
+      ],
+      "readings": [
+        {
+          "number": "sing.",
+          "state": "construct",
+          "root": "מָאוֹר"
+        }
+      ],
+      "shape": "parse",
+      "explain": "Key: cstr. sing. of מָאוֹר luminary",
+      "data": {
+        "parse": {
+          "number": "sing.",
+          "state": "construct",
+          "root": "מָאוֹר"
+        }
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 B L7; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#BL7",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "parse-form",
+      "prompt": "Parse this form",
+      "stimulus": "מִשְׁלֵי",
+      "stimulusIsScript": true,
+      "fields": [
+        {
+          "key": "number",
+          "label": "Number",
+          "options": [
+            "sing.",
+            "plur.",
+            "dual"
+          ]
+        },
+        {
+          "key": "state",
+          "label": "State",
+          "options": [
+            "absolute",
+            "construct"
+          ]
+        },
+        {
+          "key": "root",
+          "label": "Root",
+          "options": [
+            "לֵבָב",
+            "רָקִיעַ",
+            "בָּרִיא",
+            "מָשָׁל"
+          ],
+          "isScript": true
+        }
+      ],
+      "readings": [
+        {
+          "number": "plur.",
+          "state": "construct",
+          "root": "מָשָׁל"
+        }
+      ],
+      "shape": "parse",
+      "explain": "Key: cstr. plur. of מָשָׁל proverb",
+      "data": {
+        "parse": {
+          "number": "plur.",
+          "state": "construct",
+          "root": "מָשָׁל"
+        }
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 B L8; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#BL8",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "parse-form",
+      "prompt": "Parse this form",
+      "stimulus": "כְּבַד",
+      "stimulusIsScript": true,
+      "fields": [
+        {
+          "key": "gender",
+          "label": "Gender",
+          "options": [
+            "masc.",
+            "fem."
+          ]
+        },
+        {
+          "key": "number",
+          "label": "Number",
+          "options": [
+            "sing.",
+            "plur.",
+            "dual"
+          ]
+        },
+        {
+          "key": "state",
+          "label": "State",
+          "options": [
+            "absolute",
+            "construct"
+          ]
+        },
+        {
+          "key": "root",
+          "label": "Root",
+          "options": [
+            "רָקִיעַ",
+            "שָׂפָה",
+            "מָשָׁל",
+            "כָּבֵד"
+          ],
+          "isScript": true
+        }
+      ],
+      "readings": [
+        {
+          "gender": "masc.",
+          "number": "sing.",
+          "state": "construct",
+          "root": "כָּבֵד"
+        }
+      ],
+      "shape": "parse",
+      "explain": "Key: cstr. sing. masc. of כָּבֵד heavy",
+      "data": {
+        "parse": {
+          "gender": "masc.",
+          "number": "sing.",
+          "state": "construct",
+          "root": "כָּבֵד"
+        }
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 B L9; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#BL9",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "parse-form",
+      "prompt": "Parse this form",
+      "stimulus": "פְּקִידֵי",
+      "stimulusIsScript": true,
+      "fields": [
+        {
+          "key": "number",
+          "label": "Number",
+          "options": [
+            "sing.",
+            "plur.",
+            "dual"
+          ]
+        },
+        {
+          "key": "state",
+          "label": "State",
+          "options": [
+            "absolute",
+            "construct"
+          ]
+        },
+        {
+          "key": "root",
+          "label": "Root",
+          "options": [
+            "כָּבֵד",
+            "בָּרִיא",
+            "פָּקִיד",
+            "נְקָמָה"
+          ],
+          "isScript": true
+        }
+      ],
+      "readings": [
+        {
+          "number": "plur.",
+          "state": "construct",
+          "root": "פָּקִיד"
+        }
+      ],
+      "shape": "parse",
+      "explain": "Key: cstr. plur. of פָּקִיד overseer",
+      "data": {
+        "parse": {
+          "number": "plur.",
+          "state": "construct",
+          "root": "פָּקִיד"
+        }
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 B L10; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#BL10",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "parse-form",
+      "prompt": "Parse this form",
+      "stimulus": "לְבַב",
+      "stimulusIsScript": true,
+      "fields": [
+        {
+          "key": "number",
+          "label": "Number",
+          "options": [
+            "sing.",
+            "plur.",
+            "dual"
+          ]
+        },
+        {
+          "key": "state",
+          "label": "State",
+          "options": [
+            "absolute",
+            "construct"
+          ]
+        },
+        {
+          "key": "root",
+          "label": "Root",
+          "options": [
+            "לֵבָב",
+            "בָּרִיא",
+            "כָּבֵד",
+            "שָׂפָה"
+          ],
+          "isScript": true
+        }
+      ],
+      "readings": [
+        {
+          "number": "sing.",
+          "state": "construct",
+          "root": "לֵבָב"
+        }
+      ],
+      "shape": "parse",
+      "explain": "Key: cstr. sing. of לֵבָב heart",
+      "data": {
+        "parse": {
+          "number": "sing.",
+          "state": "construct",
+          "root": "לֵבָב"
+        }
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 B L11; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#BL11",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "parse-form",
+      "prompt": "Parse this form",
+      "stimulus": "שִׂפְתֵי",
+      "stimulusIsScript": true,
+      "fields": [
+        {
+          "key": "number",
+          "label": "Number",
+          "options": [
+            "sing.",
+            "plur.",
+            "dual"
+          ]
+        },
+        {
+          "key": "state",
+          "label": "State",
+          "options": [
+            "absolute",
+            "construct"
+          ]
+        },
+        {
+          "key": "root",
+          "label": "Root",
+          "options": [
+            "מָשָׁל",
+            "דָּגָה",
+            "בְּרָכָה",
+            "שָׂפָה"
+          ],
+          "isScript": true
+        }
+      ],
+      "readings": [
+        {
+          "number": "dual",
+          "state": "construct",
+          "root": "שָׂפָה"
+        }
+      ],
+      "shape": "parse",
+      "explain": "Key: cstr. dual of שָׂפָה lip",
+      "data": {
+        "parse": {
+          "number": "dual",
+          "state": "construct",
+          "root": "שָׂפָה"
+        }
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 B L12; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#BL12",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "parse-form",
+      "prompt": "Parse this form",
+      "stimulus": "נִקְמַת",
+      "stimulusIsScript": true,
+      "fields": [
+        {
+          "key": "number",
+          "label": "Number",
+          "options": [
+            "sing.",
+            "plur.",
+            "dual"
+          ]
+        },
+        {
+          "key": "state",
+          "label": "State",
+          "options": [
+            "absolute",
+            "construct"
+          ]
+        },
+        {
+          "key": "root",
+          "label": "Root",
+          "options": [
+            "בְּרָכָה",
+            "נָבִיא",
+            "נְקָמָה",
+            "בָּרִיא"
+          ],
+          "isScript": true
+        }
+      ],
+      "readings": [
+        {
+          "number": "sing.",
+          "state": "construct",
+          "root": "נְקָמָה"
+        }
+      ],
+      "shape": "parse",
+      "explain": "Key: cstr. sing. of נְקָמָה vengeance",
+      "data": {
+        "parse": {
+          "number": "sing.",
+          "state": "construct",
+          "root": "נְקָמָה"
+        }
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 B L13; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#BL13",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "parse-form",
+      "prompt": "Parse this form",
+      "stimulus": "בִּרְכוֹת",
+      "stimulusIsScript": true,
+      "fields": [
+        {
+          "key": "number",
+          "label": "Number",
+          "options": [
+            "sing.",
+            "plur.",
+            "dual"
+          ]
+        },
+        {
+          "key": "state",
+          "label": "State",
+          "options": [
+            "absolute",
+            "construct"
+          ]
+        },
+        {
+          "key": "root",
+          "label": "Root",
+          "options": [
+            "בָּרִיא",
+            "בְּרָכָה",
+            "כָּבֵד",
+            "נָבִיא"
+          ],
+          "isScript": true
+        }
+      ],
+      "readings": [
+        {
+          "number": "plur.",
+          "state": "construct",
+          "root": "בְּרָכָה"
+        }
+      ],
+      "shape": "parse",
+      "explain": "Key: cstr. plur. of בְּרָכָה blessing",
+      "data": {
+        "parse": {
+          "number": "plur.",
+          "state": "construct",
+          "root": "בְּרָכָה"
+        }
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 B L14; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#BL14",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "parse-form",
+      "prompt": "Parse this form",
+      "stimulus": "יָדַיִם",
+      "stimulusIsScript": true,
+      "fields": [
+        {
+          "key": "number",
+          "label": "Number",
+          "options": [
+            "sing.",
+            "plur.",
+            "dual"
+          ]
+        },
+        {
+          "key": "state",
+          "label": "State",
+          "options": [
+            "absolute",
+            "construct"
+          ]
+        },
+        {
+          "key": "root",
+          "label": "Root",
+          "options": [
+            "שָׂפָה",
+            "יָד",
+            "נָבִיא",
+            "יָשָׁר"
+          ],
+          "isScript": true
+        }
+      ],
+      "readings": [
+        {
+          "number": "dual",
+          "state": "absolute",
+          "root": "יָד"
+        }
+      ],
+      "shape": "parse",
+      "explain": "Key: abs. dual of יָד hand",
+      "data": {
+        "parse": {
+          "number": "dual",
+          "state": "absolute",
+          "root": "יָד"
+        }
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 B L15; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#BL15",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וְחֹשֶׁךְ עַל־פְּנֵי הַמָּיִם",
+      "stimulusIsScript": true,
+      "options": [
+        "The law of Yahweh is in the heart of the righteous.",
+        "The prophet wrote all the words in a book.",
+        "And darkness was upon the face of the waters.",
+        "I am heavy of tongue (i.e. slow of speech)."
+      ],
+      "answer": "And darkness was upon the face of the waters.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 C 1; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#C1",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "כָּתַב הַנָּבִיא אֶת־כָּל־הַדְּבָרִים בַּסֵּפֶר",
+      "stimulusIsScript": true,
+      "options": [
+        "Ezra read in the book of the law of God.",
+        "None of the elders of Israel was there.",
+        "The prophet wrote all the words in a book.",
+        "The law of Yahweh is in the heart of the righteous."
+      ],
+      "answer": "The prophet wrote all the words in a book.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 C 2; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#C2",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָיָה דְבַר יהוה אֶל־הַנְּבִיאִים",
+      "stimulusIsScript": true,
+      "options": [
+        "The word of Yahweh came to the prophets.",
+        "And darkness was upon the face of the waters.",
+        "I am heavy of tongue (i.e. slow of speech).",
+        "The prophet wrote all the words in a book."
+      ],
+      "answer": "The word of Yahweh came to the prophets.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 C 3; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#C3",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "תּוֹרַת יהוה בִּלְבַב הַצַּדִּיקִים",
+      "stimulusIsScript": true,
+      "options": [
+        "And darkness was upon the face of the waters.",
+        "The word of Yahweh came to the prophets.",
+        "The law of Yahweh is in the heart of the righteous.",
+        "I am heavy of tongue (i.e. slow of speech)."
+      ],
+      "answer": "The law of Yahweh is in the heart of the righteous.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 C 4; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#C4",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "כָּתַבְתִּי לָעָם הַזֶּה אֶת־כָּל־דִּבְרֵי תּוֹרַת יהוה",
+      "stimulusIsScript": true,
+      "options": [
+        "God set the two great luminaries in the firmament of heaven.",
+        "Isaac said, The voice is the voice of Jacob, but the hands are the hands of Esau.",
+        "The prince gathered an army, great as the stars of heaven or the sand on the seashore.",
+        "I have written for this people all the words of the law of Yahweh."
+      ],
+      "answer": "I have written for this people all the words of the law of Yahweh.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 C 5; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#C5",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "לֹא הָיָה שָׁם אִישׁ מִזִּקְנֵי יִשְׂרָאֵל",
+      "stimulusIsScript": true,
+      "options": [
+        "The aged prophet lifted the corpse of the man of God on to the ass.",
+        "I am heavy of tongue (i.e. slow of speech).",
+        "None of the elders of Israel was there.",
+        "The law of Yahweh is in the heart of the righteous."
+      ],
+      "answer": "None of the elders of Israel was there.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 C 6; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#C6",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "נָתַן אֱלֹהִים אֶת־שְׁנֵי הַמְּאוֹרוֹת הַגְּדֹלִים בִּרְקִיעַ הַשָּׁמָיִם",
+      "stimulusIsScript": true,
+      "options": [
+        "Ezra read in the book of the law of God.",
+        "I have written for this people all the words of the law of Yahweh.",
+        "God set the two great luminaries in the firmament of heaven.",
+        "The law of Yahweh is in the heart of the righteous."
+      ],
+      "answer": "God set the two great luminaries in the firmament of heaven.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 C 7; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#C7",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אָסַף הַשַּׂר חַיִל כָּבֵד כְּכוֹכְבֵי הַשָּׁמַיִם וְכַחוֹל אֲשֶׁר עַל־שְׂפַת הַיָּם",
+      "stimulusIsScript": true,
+      "options": [
+        "The law of Yahweh is in the heart of the righteous.",
+        "Ezra read in the book of the law of God.",
+        "I have written for this people all the words of the law of Yahweh.",
+        "The prince gathered an army, great as the stars of heaven or the sand on the seashore."
+      ],
+      "answer": "The prince gathered an army, great as the stars of heaven or the sand on the seashore.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 C 8; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#C8",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אָמַר יִצְחָק הַקֹּל קוֹל יַעֲקֹב וְהַיָּדַיִם יְדֵי עֵשָׂו",
+      "stimulusIsScript": true,
+      "options": [
+        "The prince gathered an army, great as the stars of heaven or the sand on the seashore.",
+        "Isaac said, The voice is the voice of Jacob, but the hands are the hands of Esau.",
+        "The law of Yahweh is in the heart of the righteous.",
+        "I have written for this people all the words of the law of Yahweh."
+      ],
+      "answer": "Isaac said, The voice is the voice of Jacob, but the hands are the hands of Esau.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 C 9; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#C9",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "נָשָׂא הַנָּבִיא הַזָּקֵן אֶת־נִבְלַת אִישׁ הָאֱלֹהִים אֶל־הַחֲמוֹר",
+      "stimulusIsScript": true,
+      "options": [
+        "None of the elders of Israel was there.",
+        "The prince gathered an army, great as the stars of heaven or the sand on the seashore.",
+        "Ezra read in the book of the law of God.",
+        "The aged prophet lifted the corpse of the man of God on to the ass."
+      ],
+      "answer": "The aged prophet lifted the corpse of the man of God on to the ass.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 C 10; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#C10",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "כבד־לשון אנכי",
+      "stimulusIsScript": true,
+      "options": [
+        "The prince gathered an army, great as the stars of heaven or the sand on the seashore.",
+        "God set the two great luminaries in the firmament of heaven.",
+        "I am heavy of tongue (i.e. slow of speech).",
+        "The word of Yahweh came to the prophets."
+      ],
+      "answer": "I am heavy of tongue (i.e. slow of speech).",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "hint": "With vowel points: כְּבַד־לָשׁוֹן אָנֹכִי",
+      "data": {
+        "pointed": "כְּבַד־לָשׁוֹן אָנֹכִי"
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 C 11; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#C11",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "קרא עזרא בספר תורת האלהים",
+      "stimulusIsScript": true,
+      "options": [
+        "None of the elders of Israel was there.",
+        "I am heavy of tongue (i.e. slow of speech).",
+        "I have written for this people all the words of the law of Yahweh.",
+        "Ezra read in the book of the law of God."
+      ],
+      "answer": "Ezra read in the book of the law of God.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "hint": "With vowel points: קָרָא עֶזְרָא בְּסֵפֶר תּוֹרַת הָאֱלֹהִים",
+      "data": {
+        "pointed": "קָרָא עֶזְרָא בְּסֵפֶר תּוֹרַת הָאֱלֹהִים"
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 C 12; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#C12",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "The law of Yahweh is perfect.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "תּוֹרַת יְהוָה תְּמִימָה"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 D 1; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#D1",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "The king saw the fat kine upon the bank (lip) of the river.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "רָאָה הַמֶּלֶךְ אֶת־הַפָּרוֹת הַבְּרִיאוֹת עַל־שְׂפַת הַיְאֹר"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 D 2; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#D2",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "Ye have eaten the flesh of fat oxen.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֲכַלְתֶּם בְּשַׂר פָּרִים בְּרִאִים"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 D 3; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#D3",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "The words of the lips of Yahweh (are) upright.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "יְשָׁרִים דִּבְרֵי שִׂפְתֵי יְהוָה"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 D 4; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#D4",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "I (am) not a man of words.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "לֹא אִישׁ דְּבָרִים אָנֹכִי"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 D 5; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#D5",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "Good (are) the words of the law of Yahweh.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "טוֹבִים דִּבְרֵי תּוֹרַת יְהוָה"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 D 6; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#D6",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "The waters (are) upon the face of the ground.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַמַּיִם עַל־פְּנֵי הָאֲדָמָה"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 D 7; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#D7",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "We have heard the words of the prophets of the God of all the earth.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שָׁמַעְנוּ אֶת־דִּבְרֵי נְבִיאֵי אֱלֹהֵי כָל־הָאָרֶץ"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 D 8; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#D8",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "Thou hast kept the heart of this people from evil.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שָׁמַרְתָּ אֶת־לְבַב הָעָם הַזֶּה מֵרָע"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 D 9; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#D9",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "Very great (are) the righteousnesses of God.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "גְּדֹלוֹת מְאֹד צִדְקוֹת אֱלֹהִים"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 D 10; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#D10",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "Blessed (are) the upright of heart.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בְּרוּכִים יִשְׁרֵי לֵב"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 D 11; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#D11",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "The vengeance of the people (was) great.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "גְּדוֹלָה נִקְמַת הָעָם"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 D 12; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#D12",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "The proverbs of the wise king (are) perfect.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מִשְׁלֵי הַמֶּלֶךְ הֶחָכָם תְּמִימִים"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 D 13; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#D13",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "He destroyed all the fishes of the river.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מָחָה אֶת־כָּל־דְּגַת הַיְאֹר"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 D 14; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "exwb": "davidson-s18#D14",
+        "note": "Transcribed by hand from the scans and checked against the Key."
       }
     }
   ]

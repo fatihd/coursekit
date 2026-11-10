@@ -78,6 +78,7 @@ export default {
   render(item, ctx) {
     const root = el("div", "ex ex--mcq");
 
+    if (item.prompt) root.appendChild(el("p", "ex-instruction", item.prompt));
     const prompt = el("div", "ex-prompt");
     const stim = el("span", "ex-stimulus");
     if (item.stimulusIsScript) stim.appendChild(scriptSpan(ctx.course, item.stimulus));

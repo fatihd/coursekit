@@ -4,50 +4,809 @@
   "items": [
     {
       "type": "mcq",
-      "prompt": "Translate this Hebrew sentence into English",
-      "stimulus": "בְּהַשָמַע",
+      "prompt": "Choose the translation",
+      "stimulus": "אֶשְׁמַע",
       "stimulusIsScript": true,
       "options": [
-        "When it was heard (cstr. inf",
+        "Thou (f.) that hast been forgotten (a difficult form; see the key's note on Isa. 23:15)",
+        "I will send thee (m.)",
         "I will hear",
-        "Let me hear or 1 would (fain) hear (cf",
-        "Niph)"
+        "Thou (f.) hast forgotten"
       ],
-      "answer": "When it was heard (cstr. inf",
+      "answer": "I will hear",
       "optionIsScript": false,
+      "shape": "he-en",
       "source": {
-        "citation": "Davidson, Introductory Hebrew Grammar (22nd ed.) exercise on §37; Key to the Exercises (1924) §37",
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §37 A L1; McFadyen, Key to the Exercises (1924)",
         "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n142/mode/1up",
         "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n142.jpg",
         "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n94/mode/1up",
         "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n94.jpg",
-        "sanityScore": 0.25,
-        "sanity": "weak",
-        "note": "Read from the scans by OCR; open them if a reading looks wrong."
+        "exwb": "davidson-s37#AL1",
+        "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
       "type": "mcq",
-      "prompt": "Translate this Hebrew sentence into English",
-      "stimulus": "שַכַחַתּ",
+      "prompt": "Choose the translation",
+      "stimulus": "אֶשְׁמְעָה",
       "stimulusIsScript": true,
       "options": [
-        "Thou (f.) that hast been forgotten.I",
         "I will hear",
-        "Let me hear or 1 would (fain) hear (cf",
-        "When it was heard (cstr. inf"
+        "He will forget him",
+        "Thou (f.) hast forgotten",
+        "Let me hear, or I would (fain) hear (cf. Ps. 85:9)"
       ],
-      "answer": "Thou (f.) that hast been forgotten.I",
+      "answer": "Let me hear, or I would (fain) hear (cf. Ps. 85:9)",
       "optionIsScript": false,
+      "shape": "he-en",
       "source": {
-        "citation": "Davidson, Introductory Hebrew Grammar (22nd ed.) exercise on §37; Key to the Exercises (1924) §37",
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §37 A L2; McFadyen, Key to the Exercises (1924)",
         "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n142/mode/1up",
         "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n142.jpg",
         "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n94/mode/1up",
         "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n94.jpg",
-        "sanityScore": 0.25,
-        "sanity": "weak",
-        "note": "Read from the scans by OCR; open them if a reading looks wrong."
+        "exwb": "davidson-s37#AL2",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "parse-form",
+      "prompt": "Parse this form",
+      "stimulus": "בְּהִשָּׁמַע",
+      "stimulusIsScript": true,
+      "fields": [
+        {
+          "key": "stem",
+          "label": "Stem",
+          "options": [
+            "Qal",
+            "Niph'al",
+            "Pi'el",
+            "Pu'al",
+            "Hithpa'el",
+            "Hiph'il",
+            "Hoph'al",
+            "Po'lel"
+          ]
+        },
+        {
+          "key": "form",
+          "label": "Form",
+          "options": [
+            "perfect",
+            "imperfect",
+            "imperative",
+            "jussive",
+            "cohortative",
+            "participle",
+            "infinitive construct",
+            "infinitive absolute"
+          ]
+        }
+      ],
+      "readings": [
+        {
+          "form": "infinitive construct",
+          "stem": "Niph'al"
+        }
+      ],
+      "shape": "parse",
+      "explain": "Key: When it was heard (cstr. inf. Niph.)",
+      "data": {
+        "parse": {
+          "form": "infinitive construct",
+          "stem": "Niph'al",
+          "gloss": "When it was heard"
+        }
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §37 A L3; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n142/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n142.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n94/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n94.jpg",
+        "exwb": "davidson-s37#AL3",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "parse-form",
+      "prompt": "Parse this form",
+      "stimulus": "תַּשְׁמַע",
+      "stimulusIsScript": true,
+      "fields": [
+        {
+          "key": "stem",
+          "label": "Stem",
+          "options": [
+            "Qal",
+            "Niph'al",
+            "Pi'el",
+            "Pu'al",
+            "Hithpa'el",
+            "Hiph'il",
+            "Hoph'al",
+            "Po'lel"
+          ]
+        },
+        {
+          "key": "form",
+          "label": "Form",
+          "options": [
+            "perfect",
+            "imperfect",
+            "imperative",
+            "jussive",
+            "cohortative",
+            "participle",
+            "infinitive construct",
+            "infinitive absolute"
+          ]
+        }
+      ],
+      "readings": [
+        {
+          "form": "jussive",
+          "stem": "Hiph'il"
+        }
+      ],
+      "shape": "parse",
+      "explain": "Key: Cause to hear (jussive Hiph., proper after אַל; not 'thou shalt cause to hear', which would be תַּשְׁמִיעַ)",
+      "data": {
+        "parse": {
+          "form": "jussive",
+          "stem": "Hiph'il",
+          "gloss": "Cause to hear"
+        }
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §37 A L4; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n142/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n142.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n94/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n94.jpg",
+        "exwb": "davidson-s37#AL4",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "parse-form",
+      "prompt": "Parse this form",
+      "stimulus": "שֹׁלַחֲךָ",
+      "stimulusIsScript": true,
+      "fields": [
+        {
+          "key": "stem",
+          "label": "Stem",
+          "options": [
+            "Qal",
+            "Niph'al",
+            "Pi'el",
+            "Pu'al",
+            "Hithpa'el",
+            "Hiph'il",
+            "Hoph'al",
+            "Po'lel"
+          ]
+        },
+        {
+          "key": "form",
+          "label": "Form",
+          "options": [
+            "perfect",
+            "imperfect",
+            "imperative",
+            "jussive",
+            "cohortative",
+            "participle",
+            "infinitive construct",
+            "infinitive absolute"
+          ]
+        }
+      ],
+      "readings": [
+        {
+          "form": "participle",
+          "stem": "Qal"
+        }
+      ],
+      "shape": "parse",
+      "explain": "Key: He (or one) who sends thee (ptc. Qal)",
+      "data": {
+        "parse": {
+          "form": "participle",
+          "stem": "Qal",
+          "gloss": "He (or one) who sends thee"
+        }
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §37 A L5; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n142/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n142.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n94/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n94.jpg",
+        "exwb": "davidson-s37#AL5",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "parse-form",
+      "prompt": "Parse this form",
+      "stimulus": "שְׁלֹחַ",
+      "stimulusIsScript": true,
+      "fields": [
+        {
+          "key": "form",
+          "label": "Form",
+          "options": [
+            "perfect",
+            "imperfect",
+            "imperative",
+            "jussive",
+            "cohortative",
+            "participle",
+            "infinitive construct",
+            "infinitive absolute"
+          ]
+        }
+      ],
+      "readings": [
+        {
+          "form": "infinitive construct"
+        }
+      ],
+      "shape": "parse",
+      "explain": "Key: To send (inf. cstr.)",
+      "data": {
+        "parse": {
+          "form": "infinitive construct",
+          "gloss": "To send"
+        }
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §37 A L6; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n142/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n142.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n94/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n94.jpg",
+        "exwb": "davidson-s37#AL6",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "parse-form",
+      "prompt": "Parse this form",
+      "stimulus": "שְׁלַח",
+      "stimulusIsScript": true,
+      "fields": [
+        {
+          "key": "form",
+          "label": "Form",
+          "options": [
+            "perfect",
+            "imperfect",
+            "imperative",
+            "jussive",
+            "cohortative",
+            "participle",
+            "infinitive construct",
+            "infinitive absolute"
+          ]
+        },
+        {
+          "key": "gender",
+          "label": "Gender",
+          "options": [
+            "masc.",
+            "fem."
+          ]
+        }
+      ],
+      "readings": [
+        {
+          "gender": "masc.",
+          "form": "imperative"
+        }
+      ],
+      "shape": "parse",
+      "explain": "Key: Send thou (imper. masc.)",
+      "data": {
+        "parse": {
+          "gender": "masc.",
+          "form": "imperative",
+          "gloss": "Send thou"
+        }
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §37 A L7; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n142/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n142.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n94/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n94.jpg",
+        "exwb": "davidson-s37#AL7",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "parse-form",
+      "prompt": "Parse this form",
+      "stimulus": "שִׁלַּחֲךָ",
+      "stimulusIsScript": true,
+      "fields": [
+        {
+          "key": "stem",
+          "label": "Stem",
+          "options": [
+            "Qal",
+            "Niph'al",
+            "Pi'el",
+            "Pu'al",
+            "Hithpa'el",
+            "Hiph'il",
+            "Hoph'al",
+            "Po'lel"
+          ]
+        },
+        {
+          "key": "gender",
+          "label": "Gender",
+          "options": [
+            "masc.",
+            "fem."
+          ]
+        }
+      ],
+      "readings": [
+        {
+          "stem": "Pi'el",
+          "gender": "masc."
+        }
+      ],
+      "shape": "parse",
+      "explain": "Key: He sent thee (m.) away (Pi.; not simply 'he sent thee', which would be Qal שְׁלָחֲךָ)",
+      "data": {
+        "parse": {
+          "stem": "Pi'el",
+          "gloss": "He sent thee (m.) away"
+        }
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §37 A L8; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n142/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n142.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n94/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n94.jpg",
+        "exwb": "davidson-s37#AL8",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אֶשְׁלָחֲךָ",
+      "stimulusIsScript": true,
+      "options": [
+        "He will forget him",
+        "Thou (f.) hast forgotten",
+        "I will send thee (m.)",
+        "Let me hear, or I would (fain) hear (cf. Ps. 85:9)"
+      ],
+      "answer": "I will send thee (m.)",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §37 A L9; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n142/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n142.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n94/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n94.jpg",
+        "exwb": "davidson-s37#AL9",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "יִשְׁכָּחֵהוּ",
+      "stimulusIsScript": true,
+      "options": [
+        "Thou (f.) hast forgotten",
+        "He will forget him",
+        "I will hear",
+        "Thou (f.) that hast been forgotten (a difficult form; see the key's note on Isa. 23:15)"
+      ],
+      "answer": "He will forget him",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §37 A L10; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n142/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n142.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n94/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n94.jpg",
+        "exwb": "davidson-s37#AL10",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "שָׁכַחַתְּ",
+      "stimulusIsScript": true,
+      "options": [
+        "Thou (f.) hast forgotten",
+        "Thou (f.) that hast been forgotten (a difficult form; see the key's note on Isa. 23:15)",
+        "I will hear",
+        "He will forget him"
+      ],
+      "answer": "Thou (f.) hast forgotten",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §37 A L11; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n142/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n142.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n94/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n94.jpg",
+        "exwb": "davidson-s37#AL11",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "נִשְׁכַּחַת",
+      "stimulusIsScript": true,
+      "options": [
+        "Let me hear, or I would (fain) hear (cf. Ps. 85:9)",
+        "Thou (f.) that hast been forgotten (a difficult form; see the key's note on Isa. 23:15)",
+        "He will forget him",
+        "I will send thee (m.)"
+      ],
+      "answer": "Thou (f.) that hast been forgotten (a difficult form; see the key's note on Isa. 23:15)",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §37 A L12; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n142/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n142.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n94/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n94.jpg",
+        "exwb": "davidson-s37#AL12",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הִנֵּה אָנֹכִי שֹׁלֵחַ מַלְאָךְ לְפָנֶיךָ לִשְׁמָרְךָ בַּדָּרֶךְ הִשָּׁמֶר מִפָּנָיו וּשְׁמַע בְּקֹלוֹ",
+      "stimulusIsScript": true,
+      "options": [
+        "And he made me swear, saying, Thou shalt not take a wife for my son from the daughters of the Canaanites, in whose land I am dwelling.",
+        "And Jacob took his wives and his children and crossed the ford of the Jabbok; and he took them and sent them across the stream, and he sent across what he had. And there wrestled a man with Jacob; and the man said, Let me go, for the dawn has risen. And he said, I will not let thee go, unless thou bless me. And the angel said to him, Thy name shall no more be called Jacob, but Israel; and he blessed him there. And the sun rose upon him as he passed over Penu'el, and he was limping upon his thigh.",
+        "Make me to hear thy kindness in the morning, for in thee do I trust.",
+        "Behold, I am sending an angel before thee to keep thee in the way: take thou heed before him and hearken unto his voice."
+      ],
+      "answer": "Behold, I am sending an angel before thee to keep thee in the way: take thou heed before him and hearken unto his voice.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §37 B 1; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n142/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n142.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n94/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n94.jpg",
+        "exwb": "davidson-s37#B1",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אֶבְיוֹנֵי צִיּוֹן אַשְׂבִּיעַ לֶחֶם וְכֹהֲנֶיהָ אַלְבִּישׁ יֶשַׁע",
+      "stimulusIsScript": true,
+      "options": [
+        "Behold, I am sending an angel before thee to keep thee in the way: take thou heed before him and hearken unto his voice.",
+        "And he made me swear, saying, Thou shalt not take a wife for my son from the daughters of the Canaanites, in whose land I am dwelling.",
+        "And Jacob took his wives and his children and crossed the ford of the Jabbok; and he took them and sent them across the stream, and he sent across what he had. And there wrestled a man with Jacob; and the man said, Let me go, for the dawn has risen. And he said, I will not let thee go, unless thou bless me. And the angel said to him, Thy name shall no more be called Jacob, but Israel; and he blessed him there. And the sun rose upon him as he passed over Penu'el, and he was limping upon his thigh.",
+        "The poor of Zion I will satisfy with bread, and her priests I will clothe with salvation."
+      ],
+      "answer": "The poor of Zion I will satisfy with bread, and her priests I will clothe with salvation.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §37 B 2; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n142/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n142.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n94/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n94.jpg",
+        "exwb": "davidson-s37#B2",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיִּטַּע יהוה גַּן בְּעֵדֶן וַיַּצְמַח מִן־הָאֲדָמָה כָּל־עֵץ נֶחְמָד לְמַרְאֶה וְטוֹב לְמַאֲכָל",
+      "stimulusIsScript": true,
+      "options": [
+        "Make me to hear thy kindness in the morning, for in thee do I trust.",
+        "And Yahweh planted a garden in Eden, and he made to grow out of the ground every kind of tree, desirable in appearance and good for food.",
+        "Behold, I am sending an angel before thee to keep thee in the way: take thou heed before him and hearken unto his voice.",
+        "And he made me swear, saying, Thou shalt not take a wife for my son from the daughters of the Canaanites, in whose land I am dwelling."
+      ],
+      "answer": "And Yahweh planted a garden in Eden, and he made to grow out of the ground every kind of tree, desirable in appearance and good for food.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §37 B 3; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n142/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n142.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n94/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n94.jpg",
+        "exwb": "davidson-s37#B3",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיִּקַּח יַעֲקֹב אֶת־נָשָׁיו וְאֶת־יְלָדָיו וַיַּעֲבֹר אֶת־מַעֲבַר יַבֹּק וַיִּקָּחֵם וַיַּעֲבִרֵם אֶת־הַנַּחַל וַיַּעֲבֵר אֶת־אֲשֶׁר לוֹ וַיֵּאָבֵק אִישׁ עִם יַעֲקֹב וַיֹּאמֶר הָאִישׁ שַׁלְּחֵנִי כִּי עָלָה הַשָּׁחַר וַיֹּאמֶר לֹא אֲשַׁלֵּחֲךָ כִּי אִם בֵּרַכְתָּנִי וַיֹּאמֶר לוֹ הַמַּלְאָךְ לֹא יֵאָמֵר עוֹד יַעֲקֹב שִׁמְךָ כִּי אִם יִשְׂרָאֵל וַיְבָרֶךְ אֹתוֹ שָׁם וַיִּזְרַח לוֹ הַשֶּׁמֶשׁ כַּאֲשֶׁר עָבַר אֶת־פְּנוּאֵל וְהוּא צֹלֵעַ עַל־יְרֵכוֹ",
+      "stimulusIsScript": true,
+      "options": [
+        "Behold, I am sending an angel before thee to keep thee in the way: take thou heed before him and hearken unto his voice.",
+        "The poor of Zion I will satisfy with bread, and her priests I will clothe with salvation.",
+        "And Jacob took his wives and his children and crossed the ford of the Jabbok; and he took them and sent them across the stream, and he sent across what he had. And there wrestled a man with Jacob; and the man said, Let me go, for the dawn has risen. And he said, I will not let thee go, unless thou bless me. And the angel said to him, Thy name shall no more be called Jacob, but Israel; and he blessed him there. And the sun rose upon him as he passed over Penu'el, and he was limping upon his thigh.",
+        "Make me to hear thy kindness in the morning, for in thee do I trust."
+      ],
+      "answer": "And Jacob took his wives and his children and crossed the ford of the Jabbok; and he took them and sent them across the stream, and he sent across what he had. And there wrestled a man with Jacob; and the man said, Let me go, for the dawn has risen. And he said, I will not let thee go, unless thou bless me. And the angel said to him, Thy name shall no more be called Jacob, but Israel; and he blessed him there. And the sun rose upon him as he passed over Penu'el, and he was limping upon his thigh.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §37 B 4; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n142/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n142.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n94/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n94.jpg",
+        "exwb": "davidson-s37#B4",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וישביעני לאמר לא־תקח אשה לבני מבנות הכנעני אשר אנכי ישב בארצו",
+      "stimulusIsScript": true,
+      "options": [
+        "Behold, I am sending an angel before thee to keep thee in the way: take thou heed before him and hearken unto his voice.",
+        "The poor of Zion I will satisfy with bread, and her priests I will clothe with salvation.",
+        "And Yahweh planted a garden in Eden, and he made to grow out of the ground every kind of tree, desirable in appearance and good for food.",
+        "And he made me swear, saying, Thou shalt not take a wife for my son from the daughters of the Canaanites, in whose land I am dwelling."
+      ],
+      "answer": "And he made me swear, saying, Thou shalt not take a wife for my son from the daughters of the Canaanites, in whose land I am dwelling.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "hint": "With vowel points: וַיַּשְׁבִּעֵנִי לֵאמֹר לֹא־תִקַּח אִשָּׁה לִבְנִי מִבְּנוֹת הַכְּנַעֲנִי אֲשֶׁר אָנֹכִי יֹשֵׁב בְּאַרְצוֹ",
+      "data": {
+        "pointed": "וַיַּשְׁבִּעֵנִי לֵאמֹר לֹא־תִקַּח אִשָּׁה לִבְנִי מִבְּנוֹת הַכְּנַעֲנִי אֲשֶׁר אָנֹכִי יֹשֵׁב בְּאַרְצוֹ"
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §37 B 5; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n142/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n142.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n94/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n94.jpg",
+        "exwb": "davidson-s37#B5",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "השמיעני בבקר חסדך כי־בך בטחתי",
+      "stimulusIsScript": true,
+      "options": [
+        "The poor of Zion I will satisfy with bread, and her priests I will clothe with salvation.",
+        "And Yahweh planted a garden in Eden, and he made to grow out of the ground every kind of tree, desirable in appearance and good for food.",
+        "And Jacob took his wives and his children and crossed the ford of the Jabbok; and he took them and sent them across the stream, and he sent across what he had. And there wrestled a man with Jacob; and the man said, Let me go, for the dawn has risen. And he said, I will not let thee go, unless thou bless me. And the angel said to him, Thy name shall no more be called Jacob, but Israel; and he blessed him there. And the sun rose upon him as he passed over Penu'el, and he was limping upon his thigh.",
+        "Make me to hear thy kindness in the morning, for in thee do I trust."
+      ],
+      "answer": "Make me to hear thy kindness in the morning, for in thee do I trust.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "hint": "With vowel points: הַשְׁמִיעֵנִי בַבֹּקֶר חַסְדֶּךָ כִּי־בְךָ בָטָחְתִּי",
+      "data": {
+        "pointed": "הַשְׁמִיעֵנִי בַבֹּקֶר חַסְדֶּךָ כִּי־בְךָ בָטָחְתִּי"
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §37 B 6; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n142/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n142.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n94/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n94.jpg",
+        "exwb": "davidson-s37#B6",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "This song shall never be forgotten.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "לֹא תִשָּׁכַח הַשִּׁירָה הַזֹּאת לְעוֹלָם"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §37 C 1; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n142/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n142.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n94/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n94.jpg",
+        "exwb": "davidson-s37#C1",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "In the day of his being anointed (Niph.)",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בְּיוֹם הִמָּשַׁח אֹתוֹ"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §37 C 2; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n142/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n142.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n94/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n94.jpg",
+        "exwb": "davidson-s37#C2",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "And now lest he put forth (send) his hand and take of the tree of life and eat and live for ever.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וְעַתָּה פֶּן־יִשְׁלַח אֶת־יָדוֹ וְלָקַח מֵעֵץ הַחַיִּים וְאָכַל וָחַי לְעוֹלָם"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §37 C 3; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n142/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n142.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n94/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n94.jpg",
+        "exwb": "davidson-s37#C3",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "Yahweh will give you in the evening flesh to eat, and bread in the morning to be satisfied (inf. Qal).",
+      "stimulusIsScript": false,
+      "accepted": [
+        "יִתֵּן יְהוָה לָכֶם בָּעֶרֶב בָּשָׂר לֶאֱכֹל וְלֶחֶם בַּבֹּקֶר לִשְׂבֹּעַ"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §37 C 4; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n142/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n142.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n94/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n94.jpg",
+        "exwb": "davidson-s37#C4",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "He caused thee to hear his words out of the fire.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הִשְׁמִיעֲךָ אֶת־דְּבָרָיו מִתּוֹךְ הָאֵשׁ"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §37 C 5; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n142/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n142.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n94/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n94.jpg",
+        "exwb": "davidson-s37#C5",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "Let those-loving (ptc. cstr.) thy salvation say: Let God be great!",
+      "stimulusIsScript": false,
+      "accepted": [
+        "יֹאמְרוּ אֹהֲבֵי יְשׁוּעָתְךָ יִגְדַּל אֱלֹהִים"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §37 C 6; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n142/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n142.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n94/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n94.jpg",
+        "exwb": "davidson-s37#C6",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "Ye shall surely hearken to the voice of my messenger, when I send him to you.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שָׁמוֹעַ תִּשְׁמְעוּ בְּקוֹל מַלְאָכִי בְּשָׁלְחִי אֹתוֹ אֲלֵיכֶם"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §37 C 7; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n142/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n142.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n94/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n94.jpg",
+        "exwb": "davidson-s37#C7",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "And Samuel said, Speak, Yahweh, for thy servant is listening (ptc.).",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיֹּאמֶר שְׁמוּאֵל דַּבֵּר יְהוָה כִּי שֹׁמֵעַ עַבְדֶּךָ"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §37 C 8; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n142/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n142.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n94/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n94.jpg",
+        "exwb": "davidson-s37#C8",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "And he fought against the city all that day, and he took the city, and the people that (was) in it he slew, and he pulled down the city and sowed it with salt (acc.).",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיִּלָּחֶם עַל־הָעִיר כָּל־הַיּוֹם הַהוּא וַיִּלְכֹּד אֶת־הָעִיר וְאֶת־הָעָם אֲשֶׁר בָּהּ הָרָג וַיִּתֹּץ אֶת־הָעִיר וַיִּזְרָעֶהָ מֶלַח"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §37 C 9; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n142/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n142.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n94/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n94.jpg",
+        "exwb": "davidson-s37#C9",
+        "note": "Transcribed by hand from the scans and checked against the Key."
       }
     }
   ]

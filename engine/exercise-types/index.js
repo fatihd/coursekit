@@ -20,6 +20,7 @@ import buildConstructChain from "./build-construct-chain.js";
 import parseNoun from "./parse-noun.js";
 import parseVerb from "./parse-verb.js";
 import produceForm from "./produce-form.js";
+import parseForm from "./parse-form.js";
 
 const registry = new Map();
 
@@ -48,6 +49,7 @@ register(identifyBinyan);
 register(buildConstructChain);
 register(parseNoun);
 register(parseVerb);
+register(parseForm);
 register(produceForm);
 
 export function getType(id) {

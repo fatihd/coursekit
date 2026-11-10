@@ -13,7 +13,7 @@ locally, not published. The course follows the 22nd edition (ADR-021).
 
 | File | Source | SHA-256 | Use/status |
 |---|---|---|---|
-| `grammar.txt` | OCR text for Davidson/McFadyen, *An Introductory Hebrew Grammar*, 19th ed. (1914), Internet Archive item [`introductoryheb00daviuoft`](https://archive.org/details/introductoryheb00daviuoft) | `e2ae2e2ff5b0630d7576f7e3532dde3da67d1df0ce4ffa25a46e25e4ae6de50c` | Course grammar reference. OCR is a locator; verify Hebrew against page images. |
+| `grammar.txt` | OCR text for Davidson/McFadyen, *An Introductory Hebrew Grammar*, 19th ed. (1914), Internet Archive item [`introductoryheb00daviuoft`](https://archive.org/details/introductoryheb00daviuoft) | `e2ae2e2ff5b0630d7576f7e3532dde3da67d1df0ce4ffa25a46e25e4ae6de50c` | Historical: the course's first sequence reference; since ADR-021 the course follows the 22nd edition. OCR is a locator. |
 | `key-1924.pdf` | McFadyen, *Key to the Exercises in the late Professor A. B. Davidson's revised Introductory Hebrew Grammar* (1924), Internet Archive item [`keytoexercisesin0000mcfa`](https://archive.org/details/keytoexercisesin0000mcfa) | `1ae03d6a194cd9b23bcbf135d0b98d4eeed37c95ca3cd95cc2a8d82407254808` | Scan downloaded from `https://archive.org/download/keytoexercisesin0000mcfa/keytoexercisesin0000mcfa.pdf`. The printed edition history identifies 1924 as the first edition; the references section explicitly says bare § references are to the grammar's 22nd edition. Used as the answer source for the 22nd-edition prompts, with best-effort OCR and per-item scan links (ADR-017). |
 | `key-1924-djvu.txt` | Internet Archive OCR for the 1924 key, same item | `9d9aec3fd6ffd59406125b5d486e15ac2d0d7b0b2533b74166afbc5845ab2278` | Downloaded from `https://archive.org/download/keytoexercisesin0000mcfa/keytoexercisesin0000mcfa_djvu.txt`; locator only, not authoritative for Hebrew forms. |
 | `grammar-1923-22nd-djvu.txt` | Internet Archive OCR for Davidson/McFadyen, 22nd ed. (catalogued 1923), item [`introductoryhebr0000davi_w1b2`](https://archive.org/details/introductoryhebr0000davi_w1b2) | `52f71527b97ba9cefdcf1314e9807ff785de4e819c71a95005d12f0825d09671` | Downloaded from `https://archive.org/download/introductoryhebr0000davi_w1b2/introductoryhebr0000davi_w1b2_djvu.txt`. OCR locator for the edition comparison; Hebrew prompts still require scan verification. |
@@ -26,7 +26,8 @@ locally, not published. The course follows the 22nd edition (ADR-021).
 | `grammar-exercise-inventory.json` | Full grammar exercise-block inventory (ADR-018) | generated | `build/inventory_davidson_exercises.py --write`; 48 blocks with items, OCR regions, and prompt-page links. |
 | `key-answer-inventory.json` | Answer-side inventory of the 1924 key (ADR-018) | generated | `build/inventory_davidson_answers.py --write`; per §/part numbered items — part A English via Vision, parts B/C/D Hebrew via the tesseract `heb+eng` TSV pass with DjVu §/part tracking — each with its own key leaf. |
 | `_tess/` (key + grammar) | Tesseract 5.5.4 `heb+eng` per-page TSV at 400 DPI | generated | `build/_sources/davidson/ocr_tesseract.sh` (poppler + tesseract, both brew-installed 2026-11-05); word boxes + text for all 168 key and 264 grammar pages. This is the Hebrew OCR the recovery was originally asked to install; it reads the key's small pointed Hebrew far better than Vision or the IA DjVu export. |
-| `pair-inventory.json` | Prompt↔answer pairing ledger (ADR-018) | generated | `build/pair_davidson_exercises.py --write`; every pair with §, part, number, direction, lexical sanity score/tier, and both leaves. Emits `authored/`/`exercises/` for ok+weak pairs only. |
+| `exwb-units.json` | Curated exwb block → course unit map (P9-T6) | hand-written | Read by `build/exwb_to_authored.py`; lists held blocks, correction blocks, the grammar/key leaf offsets (+19/+15) and a reason per block. |
+| `pair-inventory.json` | Prompt↔answer pairing ledger (ADR-018; historical — its `--write` is retired, drills now come from `exwb/curated/`) | generated | `build/pair_davidson_exercises.py --write`; every pair with §, part, number, direction, lexical sanity score/tier, and both leaves. Emits `authored/`/`exercises/` for ok+weak pairs only. |
 
 ## Edition relationship finding
 
@@ -37,6 +38,13 @@ The 22nd-edition grammar's title and preface identify that edition as revised in
 preface to the 19th edition says the translation exercises had been modified in places, and
 its later-edition prefaces record further revisions. Therefore section-number agreement is
 not sufficient evidence that an individual prompt or answer matches.
+
+**Resolution (2026-11-10, ADR-021, ROADMAP P9-T5b):** the course now follows the 22nd edition. A heading
+comparison of both OCR texts shows the same §1–§49 numbering and section titles, so every lesson's § reference
+carries over. Paragraph-level references were checked in the 22nd edition: §1.2 (consonant sounds), §2.3
+(vocalization / vowel letters) and §20.1 (the root) match; "§23.6" existed in neither edition (§23 has three
+numbered paragraphs) and is now cited as "§23 (final clauses)", the sub-point on purpose clauses. Lesson Source
+lines read "(22nd ed., 1923)". The exercises and key answers already come from this edition.
 
 A limited OCR comparison found the §1 alphabet prompt in both grammar editions with the same
 listed exercise items. The §3 transliteration exercise has changed sample transliterations

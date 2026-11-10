@@ -18,21 +18,23 @@ Hebrew review**; that review and editing is a release gate.
 ## Sequence and coverage reference
 
 - **A. B. Davidson,** *An Introductory Hebrew Grammar, with Progressive Exercises in
-  Reading, Writing, and Pointing* (19th edition, revised by John Edgar McFadyen,
-  Edinburgh: T. & T. Clark, 1914). Public domain in the United States (published before
-  1931) and in life-plus-70 jurisdictions. Used as the **topic sequence** reference only.
+  Reading, Writing, and Pointing* (22nd edition, revised by John Edgar McFadyen,
+  Edinburgh: T. & T. Clark, 1923). Public domain in the United States (published before
+  1931) and in life-plus-70 jurisdictions (Davidson d. 1902, McFadyen d. 1933). It is the
+  course's **topic sequence** reference; the § numbers cited in each lesson's Source line refer
+  to this edition (ADR-021). Its §1–§49 numbering and section titles are the same as in the
+  19th edition (1914) the course was first planned from.
 - **John Edgar McFadyen,** *Key to the Exercises in the late Professor A. B. Davidson's
-  revised Introductory Hebrew Grammar* (1924). Public domain. Its references specify the
-  22nd edition; the exercise prompts are paired with the 22nd-edition grammar (1923), while
-  this course's lesson sequence follows the 19th edition (1914). The key's Hebrew answers are
-  recovered by OCR and are **best-effort**: every exercise item links back to its original
-  prompt and answer scan pages (`source.promptUrl` / `source.answerUrl`), so a reading can be
-  checked against the printed page. The key is not reproduced wholesale; only individual
-  exercise prompts and answers are surfaced, each with its scan citation. See
-  `build/_sources/davidson/SOURCES.md` and `docs/DECISIONS/ADR-017-*.md`.
-- Archive: <https://archive.org/details/introductoryheb00daviuoft>
+  revised Introductory Hebrew Grammar* (1924). Public domain (US pre-1931; McFadyen d. 1933). It
+  answers the 22nd edition's exercises. The course drills (`authored/`) are the grammar's
+  exercises §6, §8, §11–§49 with the key's answers, transcribed by hand from the scans in the
+  Exercise Workbench (`exwb/curated/`, CC0 transcription) and generated into the course by
+  `build/exwb_to_authored.py`. Every item links back to its prompt and answer scan pages
+  (`source.promptUrl` / `source.answerUrl`) and cites its § and item number. The reading and
+  transliteration drills (§1–§5, §7, §9) are held for now (`exwb/EXEMPTIONS.md`). See `build/_sources/davidson/SOURCES.md` and `docs/DECISIONS/ADR-017-*.md`.
 - Grammar (22nd ed.): <https://archive.org/details/introductoryhebr0000davi_w1b2>
 - Key: <https://archive.org/details/keytoexercisesin0000mcfa>
+- 19th edition (1914), historical: <https://archive.org/details/introductoryheb00daviuoft>
 - Edition-compatibility audit and local source checksums: `build/_sources/davidson/SOURCES.md`
 
 ## Reference and supplementary sources

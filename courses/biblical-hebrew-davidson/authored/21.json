@@ -3,69 +3,691 @@
   "unit": 21,
   "items": [
     {
-      "type": "translate-phrase",
-      "prompt": "Translate this English sentence into Hebrew",
-      "stimulus": "The fire of God fell from heaven",
-      "stimulusIsScript": false,
-      "accepted": [
-        "אֶת-לְשונִי נָפַלְתּ רְעִים נַפְלוּ",
-        "את-לשוני נפלת רעים נפלו"
-      ],
-      "answerIsScript": true,
-      "source": {
-        "citation": "Davidson, Introductory Hebrew Grammar (22nd ed.) exercise on §20; Key to the Exercises (1924) §20",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n94/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n94.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n45/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n45.jpg",
-        "sanityScore": 0.25,
-        "sanity": "weak",
-        "note": "Read from the scans by OCR; open them if a reading looks wrong."
-      }
-    },
-    {
-      "type": "translate-phrase",
-      "prompt": "Translate this English sentence into Hebrew",
-      "stimulus": "God set (gave) luminaries in the firmament of the heavens",
-      "stimulusIsScript": false,
-      "accepted": [
-        "לאלקים הַשְמִיִם",
-        "לאלקים השמים"
-      ],
-      "answerIsScript": true,
-      "source": {
-        "citation": "Davidson, Introductory Hebrew Grammar (22nd ed.) exercise on §20; Key to the Exercises (1924) §20",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n94/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n94.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n45/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n45.jpg",
-        "sanityScore": 0.17,
-        "sanity": "weak",
-        "note": "Read from the scans by OCR; open them if a reading looks wrong."
-      }
-    },
-    {
       "type": "mcq",
-      "prompt": "Translate this Hebrew sentence into English",
-      "stimulus": "טוב מָאד",
+      "prompt": "Choose the translation",
+      "stimulus": "לֹא שָׁמַרְתָּ בְּרִיתִי",
       "stimulusIsScript": true,
       "options": [
-        "Ye burned the city with® fire. I1. God saw all that he had made, and, behold, it was very good",
-        "They have not kept thy law",
-        "I have kept thy statutes with all my heart",
-        "She did not remember her latter end"
+        "Samuel said to the people, Whose ox have I taken or whose ass have I taken, or whom have I oppressed, or from whose hand have I taken a bribe? And all the people said, Thou hast oppressed no one, and thou hast not taken anything from the hand of any one.",
+        "The woman stood before the king.",
+        "Thou hast not kept my covenant.",
+        "She did not remember her latter end."
       ],
-      "answer": "Ye burned the city with® fire. I1. God saw all that he had made, and, behold, it was very good",
+      "answer": "Thou hast not kept my covenant.",
       "optionIsScript": false,
+      "shape": "he-en",
       "source": {
-        "citation": "Davidson, Introductory Hebrew Grammar (22nd ed.) exercise on §20; Key to the Exercises (1924) §20",
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §20 A 1; McFadyen, Key to the Exercises (1924)",
         "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n94/mode/1up",
         "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n94.jpg",
         "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n44/mode/1up",
         "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n44.jpg",
-        "sanityScore": 0.2,
-        "sanity": "weak",
-        "note": "Read from the scans by OCR; open them if a reading looks wrong."
+        "exwb": "davidson-s20#A1",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "לֹא שָׁמְרוּ תּוֹרָתֶךָ",
+      "stimulusIsScript": true,
+      "options": [
+        "God rested on the seventh day from the work which he had made.",
+        "They have not kept thy law.",
+        "Thou hast not kept my covenant.",
+        "There flew to me one of the seraphs, with a glowing stone in his hand, which he had taken with the tongs from off the altar."
+      ],
+      "answer": "They have not kept thy law.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §20 A 2; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n94/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n94.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n44/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n44.jpg",
+        "exwb": "davidson-s20#A2",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "שָׁמַרְתִּי פִקּוּדֶיךָ בְּכָל־לִבִּי",
+      "stimulusIsScript": true,
+      "options": [
+        "Ye burned the city with fire.",
+        "I have kept thy statutes with all my heart.",
+        "They have not kept thy law.",
+        "I am Joseph whom ye sold into Egypt."
+      ],
+      "answer": "I have kept thy statutes with all my heart.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §20 A 3; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n94/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n94.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n44/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n44.jpg",
+        "exwb": "davidson-s20#A3",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "לֹא זָכְרָה אַחֲרִיתָהּ",
+      "stimulusIsScript": true,
+      "options": [
+        "She did not remember her latter end.",
+        "Thy voice we heard out of the fire.",
+        "Why is thy countenance fallen?",
+        "I have kept thy statutes with all my heart."
+      ],
+      "answer": "She did not remember her latter end.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §20 A 4; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n94/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n94.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n44/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n44.jpg",
+        "exwb": "davidson-s20#A4",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "שָׁכְחוּ אֶת־אֱלֹהֵיהֶם",
+      "stimulusIsScript": true,
+      "options": [
+        "I am Joseph whom ye sold into Egypt.",
+        "Samuel said to the people, Whose ox have I taken or whose ass have I taken, or whom have I oppressed, or from whose hand have I taken a bribe? And all the people said, Thou hast oppressed no one, and thou hast not taken anything from the hand of any one.",
+        "They forgot their God.",
+        "Why is thy countenance fallen?"
+      ],
+      "answer": "They forgot their God.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §20 A 5; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n94/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n94.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n44/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n44.jpg",
+        "exwb": "davidson-s20#A5",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אֶת־קוֹלְךָ שָׁמַעְנוּ מִן־הָאֵשׁ",
+      "stimulusIsScript": true,
+      "options": [
+        "I have kept thy statutes with all my heart.",
+        "They have not kept thy law.",
+        "They forgot their God.",
+        "Thy voice we heard out of the fire."
+      ],
+      "answer": "Thy voice we heard out of the fire.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §20 A 6; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n94/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n94.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n44/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n44.jpg",
+        "exwb": "davidson-s20#A6",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אֲנִי יוֹסֵף אֲשֶׁר־מְכַרְתֶּם אֹתִי מִצְרָיְמָה",
+      "stimulusIsScript": true,
+      "options": [
+        "Why is thy countenance fallen?",
+        "I am Joseph whom ye sold into Egypt.",
+        "They shed blood like water.",
+        "God saw all that he had made, and, behold, it was very good."
+      ],
+      "answer": "I am Joseph whom ye sold into Egypt.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §20 A 7; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n94/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n94.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n44/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n44.jpg",
+        "exwb": "davidson-s20#A7",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "לָמָּה נָפְלוּ פָנֶיךָ",
+      "stimulusIsScript": true,
+      "options": [
+        "Why is thy countenance fallen?",
+        "She did not remember her latter end.",
+        "Samuel said to the people, Whose ox have I taken or whose ass have I taken, or whom have I oppressed, or from whose hand have I taken a bribe? And all the people said, Thou hast oppressed no one, and thou hast not taken anything from the hand of any one.",
+        "Thy voice we heard out of the fire."
+      ],
+      "answer": "Why is thy countenance fallen?",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §20 A 8; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n94/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n94.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n44/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n44.jpg",
+        "exwb": "davidson-s20#A8",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "שָׁפְכוּ דָמִים כַּמָּיִם",
+      "stimulusIsScript": true,
+      "options": [
+        "Thy voice we heard out of the fire.",
+        "They shed blood like water.",
+        "I am Joseph whom ye sold into Egypt.",
+        "They forgot their God."
+      ],
+      "answer": "They shed blood like water.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §20 A 9; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n94/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n94.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n44/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n44.jpg",
+        "exwb": "davidson-s20#A9",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "שְׂרַפְתֶּם אֶת־הָעִיר בָּאֵשׁ",
+      "stimulusIsScript": true,
+      "options": [
+        "I have kept thy statutes with all my heart.",
+        "Thy voice we heard out of the fire.",
+        "God rested on the seventh day from the work which he had made.",
+        "Ye burned the city with fire."
+      ],
+      "answer": "Ye burned the city with fire.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §20 A 10; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n94/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n94.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n44/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n44.jpg",
+        "exwb": "davidson-s20#A10",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "רָאָה אֱלֹהִים אֶת־כָּל־אֲשֶׁר עָשָׂה וְהִנֵּה טוֹב מְאֹד",
+      "stimulusIsScript": true,
+      "options": [
+        "I have kept thy statutes with all my heart.",
+        "God saw all that he had made, and, behold, it was very good.",
+        "They shed blood like water.",
+        "Thou hast not kept my covenant."
+      ],
+      "answer": "God saw all that he had made, and, behold, it was very good.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §20 A 11; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n94/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n94.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n44/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n44.jpg",
+        "exwb": "davidson-s20#A11",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אָמַר שְׁמוּאֵל אֶל־הָעָם אֶת־שׁוֹר מִי לָקַחְתִּי וַחֲמוֹר מִי לָקַחְתִּי וְאֶת־מִי עָשַׁקְתִּי וּמִיַּד מִי לָקַחְתִּי כֹפֶר וְכָל־הָעָם אָמַר לֹא עָשַׁקְתָּ אִישׁ וְלֹא לָקַחְתָּ מִיַּד אִישׁ מְאוּמָה",
+      "stimulusIsScript": true,
+      "options": [
+        "Thy voice we heard out of the fire.",
+        "They have not kept thy law.",
+        "Samuel said to the people, Whose ox have I taken or whose ass have I taken, or whom have I oppressed, or from whose hand have I taken a bribe? And all the people said, Thou hast oppressed no one, and thou hast not taken anything from the hand of any one.",
+        "There flew to me one of the seraphs, with a glowing stone in his hand, which he had taken with the tongs from off the altar."
+      ],
+      "answer": "Samuel said to the people, Whose ox have I taken or whose ass have I taken, or whom have I oppressed, or from whose hand have I taken a bribe? And all the people said, Thou hast oppressed no one, and thou hast not taken anything from the hand of any one.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §20 A 12; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n94/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n94.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n44/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n44.jpg",
+        "exwb": "davidson-s20#A12",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "עָף אֵלַי אֶחָד מִן־הַשְּׂרָפִים וּבְיָדוֹ רִצְפָּה בְּמֶלְקָחַיִם לָקַח מֵעַל הַמִּזְבֵּחַ",
+      "stimulusIsScript": true,
+      "options": [
+        "They have not kept thy law.",
+        "The woman stood before the king.",
+        "Ye burned the city with fire.",
+        "There flew to me one of the seraphs, with a glowing stone in his hand, which he had taken with the tongs from off the altar."
+      ],
+      "answer": "There flew to me one of the seraphs, with a glowing stone in his hand, which he had taken with the tongs from off the altar.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §20 A 13; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n94/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n94.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n44/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n44.jpg",
+        "exwb": "davidson-s20#A13",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "עמדה האשה לפני המלך",
+      "stimulusIsScript": true,
+      "options": [
+        "The woman stood before the king.",
+        "God rested on the seventh day from the work which he had made.",
+        "I have kept thy statutes with all my heart.",
+        "Thy voice we heard out of the fire."
+      ],
+      "answer": "The woman stood before the king.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "hint": "With vowel points: עָמְדָה הָאִשָּׁה לִפְנֵי הַמֶּלֶךְ",
+      "data": {
+        "pointed": "עָמְדָה הָאִשָּׁה לִפְנֵי הַמֶּלֶךְ"
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §20 A 14; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n94/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n94.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n44/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n44.jpg",
+        "exwb": "davidson-s20#A14",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "שבת אלהים ביום השביעי מהמלאכה אשר עשה",
+      "stimulusIsScript": true,
+      "options": [
+        "God rested on the seventh day from the work which he had made.",
+        "They shed blood like water.",
+        "Ye burned the city with fire.",
+        "God saw all that he had made, and, behold, it was very good."
+      ],
+      "answer": "God rested on the seventh day from the work which he had made.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "hint": "With vowel points: שָׁבַת אֱלֹהִים בַּיּוֹם הַשְּׁבִיעִי מֵהַמְּלָאכָה אֲשֶׁר עָשָׂה",
+      "data": {
+        "pointed": "שָׁבַת אֱלֹהִים בַּיּוֹם הַשְּׁבִיעִי מֵהַמְּלָאכָה אֲשֶׁר עָשָׂה"
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §20 A 15; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n94/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n94.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n44/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n44.jpg",
+        "exwb": "davidson-s20#A15",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "Ye did not keep my words.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "לֹא שְׁמַרְתֶּם אֶת־דְּבָרָי"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §20 B 1; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n94/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n94.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n44/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n44.jpg",
+        "exwb": "davidson-s20#B1",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "The fire of God fell from heaven.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "נָפְלָה אֵשׁ אֱלֹהִים מִן־הַשָּׁמָיִם"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §20 B 2; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n94/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n94.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n44/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n44.jpg",
+        "exwb": "davidson-s20#B2",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "God set (gave) luminaries in the firmament of the heavens.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "נָתַן אֱלֹהִים מְאוֹרֹת בִּרְקִיעַ הַשָּׁמָיִם"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §20 B 3; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n94/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n94.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n44/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n44.jpg",
+        "exwb": "davidson-s20#B3",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "All the males fell before the sword.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "נָפְלוּ כָּל־הַזְּכָרִים לִפְנֵי הֶחָרֶב"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §20 B 4; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n94/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n94.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n44/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n44.jpg",
+        "exwb": "davidson-s20#B4",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "The heavens of the heavens are God's (dat.), and the earth he has given to the sons of man.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שְׁמֵי הַשָּׁמַיִם לֵאלֹהִים וְהָאָרֶץ נָתַן לִבְנֵי אָדָם"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §20 B 5; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n94/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n94.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n44/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n44.jpg",
+        "exwb": "davidson-s20#B5",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "Thou hast fallen, O (art.) city, in the heart of the sea.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "נָפַלְתְּ הָעִיר בְּלֵב הַיָּם"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §20 B 6; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n94/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n94.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n44/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n44.jpg",
+        "exwb": "davidson-s20#B6",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "I kept my tongue from evil words.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שָׁמַרְתִּי אֶת־לְשׁוֹנִי מִדְּבָרִים רָעִים"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §20 B 7; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n94/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n94.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n44/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n44.jpg",
+        "exwb": "davidson-s20#B7",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "These (are) the proverbs of Solomon the wise king of Israel.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֵלֶּה מִשְׁלֵי שְׁלֹמֹה מֶלֶךְ יִשְׂרָאֵל הֶחָכָם"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §20 B 8; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n94/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n94.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n44/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n44.jpg",
+        "exwb": "davidson-s20#B8",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "We heard his voice from his temple.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שָׁמַעְנוּ אֶת־קוֹלוֹ מֵהֵיכָלוֹ"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §20 B 9; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n94/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n94.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n44/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n44.jpg",
+        "exwb": "davidson-s20#B9",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "Their faces fell.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "נָפְלוּ פְנֵיהֶם"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §20 B 10; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n94/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n94.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n44/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n44.jpg",
+        "exwb": "davidson-s20#B10",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "We leant our hands upon her head.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "סָמַכְנוּ אֶת־יָדֵינוּ עַל־רֹאשָׁהּ"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §20 B 11; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n94/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n94.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n44/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n44.jpg",
+        "exwb": "davidson-s20#B11",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "The blessing of Yahweh (be) upon thy children (sons).",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בִּרְכַּת יְהוָה עַל־בָּנֶיךָ"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §20 B 12; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n94/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n94.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n44/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n44.jpg",
+        "exwb": "davidson-s20#B12",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "We sat by (עַל) the waters of the great rivers.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "יָשַׁבְנוּ עַל־מֵי הַנְּהָרוֹת הַגְּדוֹלִים"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §20 B 13; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n94/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n94.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n44/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n44.jpg",
+        "exwb": "davidson-s20#B13",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "Ye have burnt their city in the fire.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שְׂרַפְתֶּם אֶת־עִירָם בָּאֵשׁ"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §20 B 14; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n94/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n94.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n44/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n44.jpg",
+        "exwb": "davidson-s20#B14",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "She bare to her husband a son to his old age.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "יָלְדָה לְאִישָׁהּ בֵּן לִזְקֻנָיו"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §20 B 15; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n94/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n94.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n44/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n44.jpg",
+        "exwb": "davidson-s20#B15",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "They have forgotten my words and the proverbs of my lips.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שָׁכְחוּ אֶת־דְּבָרַי וְאֶת־מִשְׁלֵי שְׂפָתָי"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §20 B 16; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n94/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n94.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n44/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n44.jpg",
+        "exwb": "davidson-s20#B16",
+        "note": "Transcribed by hand from the scans and checked against the Key."
       }
     }
   ]

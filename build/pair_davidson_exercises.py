@@ -7,7 +7,9 @@ pairs that score as mis-paired, and emits engine-consumable authored items per
 course unit with scan links on both sides.
 
     python build/pair_davidson_exercises.py            # report only
-    python build/pair_davidson_exercises.py --write    # emit authored/ + scaffolds + ledger
+
+Report only: the course drills now come from the hand-checked exwb set
+(build/exwb_to_authored.py, ROADMAP P9-T6); --write is retired.
 
 Mappings:
   * translation B (English prompt -> key Hebrew answer): translate-phrase,
@@ -638,7 +640,8 @@ def main() -> None:
             print(f"    \u00a7{pair['section']} {pair['direction']} "
                   f"'{pair['prompt'][:40]}' -> '{pair['answer'][:34]}' ({pair['score']:.2f})")
     if args.write:
-        write_outputs(pairs, stats)
+        sys.exit("--write is retired: course drills now come from the curated exwb set "
+                 "(python build/exwb_to_authored.py --course courses/biblical-hebrew-davidson, P9-T6)")
 
 
 if __name__ == "__main__":

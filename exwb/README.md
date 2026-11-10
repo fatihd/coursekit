@@ -3,12 +3,20 @@
 Rule-based candidate generation + a local review UI for recovering exercises from OCR'd books.
 No AI, no dependencies: Python 3.9+ standard library only. State lives in one SQLite file.
 
+Part 3 of the project's three-part split (`AGENTS.md` §2): exwb is standalone (stdlib only, no imports
+from `build/` or `scripts/`); it borrows the engine's on-screen keyboard over HTTP. `tests/test_layout.py`
+checks these boundaries.
+
 ## Run
     python3 -m exwb build profiles/davidson.json myproject    # ingest OCR + generate candidates (safe to re-run: never touches existing work)
     python3 -m exwb serve myproject                           # http://127.0.0.1:8765
     python3 -m exwb export myproject -o done.json             # verified blocks only (--all for everything)
     python3 -m exwb reset myproject [--block 14 15]           # discard review work -> fresh candidates (backs up exwb.db; log kept)
     python3 -m exwb ocr myproject [--block 12 20] [--force]    # local tesseract OCR of exercise lines + their key pages (~3 min for all)
+
+The tracked snapshot `curated/` feeds the Davidson course through the authoring step
+`python build/exwb_to_authored.py --course courses/biblical-hebrew-davidson` (P9-T6); the course
+never reads exwb directly.
 
 `build` and "Re-detect items" run no OCR; they re-apply the rules to stored text. Only `ocr` / the UI button "Local OCR → items" OCR.
 

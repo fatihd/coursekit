@@ -36,7 +36,8 @@
   `unit<N>`, per the P5-T7 conventions (P5-T8).
 - `e2e.py`, `e2e-fork.py` — browser regression gates incl. progress export/import (see
   `docs/ROADMAP.md` cross-cutting section).
-- `e2e.py --authored` — authored-exercise render/grade harness + session-mix contract.
+- `e2e.py --authored` — authored-exercise render/grade harness, one course item per `shape`
+  (the Davidson exwb shapes), and the session-mix contract (honours `features.authoredPerSession`).
 - `e2e.py --accessibility` — roadmap keyboard navigation + on-screen Hebrew keyboard.
 - `e2e-synthetic.py` — generic-engine acceptance on a tiny non-Hebrew course (launch,
   keyboard nav, drill, unlock, authored item, progress restore).

@@ -26,7 +26,7 @@ This is explicitly **NOT spaced repetition** (ADR-005). Progress is a visible un
 | `engine/store.js` | Progress state in localStorage; `exportProgress` / `importProgress` / `mergeProgress`; unit states |
 | `engine/views/roadmap.js` | 30-unit path in 3 parts; node states; soft-linear highlight of recommended next |
 | `engine/views/lesson.js` | Paged teaching: renders typed blocks (headed prose, table, vocab, callout, paradigm); "Mark lesson read → start drills" gate |
-| `engine/views/drill.js` | One item at a time, immediate feedback, end-of-session score → unlock next; manages question focus and Enter-to-advance after checking |
+| `engine/views/drill.js` | One item at a time, immediate feedback, end-of-session score → unlock next; manages question focus and Enter-to-advance after checking; an item's optional `hint` shows behind a "Show hint" button before answering, its `explain` appears with the feedback (P9-T7); calls a type's optional `annotate` after grading to mark the answer in place (P9-T8) |
 | `engine/views/lesson.js` | Also renders the optional warm-up (weak prior units) when `features.reviewWarmup` is on (ADR-015) |
 | `engine/exercise-types/` | Plugin registry. Each plugin = `{id, generate(params, pool), render(item), grade(item, answer)}` (see `docs/EXERCISE-TYPES.md`) |
 | `engine/keyboards/` | On-screen keyboards per script (`he_IL`, `el_GR`, `arc`) for typing niqqud/diacritics |
@@ -59,8 +59,9 @@ courses/biblical-hebrew-davidson/
 ```
 
 `exercises/NN.json` and `answer-key/NN.json` are author-side workbook extraction artifacts;
-they are not included in student releases. Only human-authored `authored/NN.json` exercises
-are consumed by the student app.
+they are not included in student releases. Only `authored/NN.json` exercises are consumed by the
+student app: hand-written items, or (Davidson) items generated from the hand-checked exwb
+transcriptions by `build/exwb_to_authored.py` (P9-T6).
 
 A `release-course <name>` output strips `build/`, `source/`, author-side `units.json`, and
 textbook page references, vendors a pinned `engine/`, adds Docker launchers, creates an
@@ -136,6 +137,9 @@ the gate just tracks `lessonRead` in progress.
   "Review Unit N" link on a wrong answer.
 - `reviewWarmup` renders an optional warm-up of weak prior units on the lesson view.
 - `targetItems` / `reviewItems` set session size and the number of front-loaded review items.
+- `authoredPerSession` caps how many of a unit's authored items one session draws (a fresh
+  random sample each session; default: all). Davidson uses 10, because its units carry up to
+  86 transcribed exercises (P9-T6).
 
 These flags flow `main.js → buildSession` and into `views/drill.js` / `views/lesson.js`;
 when absent (all existing courses), the prior drill mix and progress shape are unchanged.

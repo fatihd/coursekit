@@ -33,7 +33,7 @@ SUPPORTED_EXERCISE_TYPES = {
     "paradigm-tag", "paradigm-fill", "multi-translation", "fill-blank-verse",
     "scan-text", "synonym-antonym", "dictation", "translit-normalize",
     "gap-fill-verse", "flash-timed", "identify-binyan", "build-construct-chain",
-    "root-pattern-compose", "spot-error",
+    "root-pattern-compose", "spot-error", "parse-form",
 }
 
 MIN_WORKBOOK_COVERAGE = 0.75  # P6-T4 acceptance: >=75% of workbook items typed

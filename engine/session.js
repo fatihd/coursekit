@@ -42,7 +42,11 @@ export function buildSession(course, pool, options = {}) {
 
   const features = options.features || {};
   const target = options.count || features.targetItems || 14;
-  const authored = options.authored || [];
+  const allAuthored = options.authored || [];
+  const authoredCap = features.authoredPerSession;
+  const authored = authoredCap && allAuthored.length > authoredCap
+    ? shuffle(allAuthored).slice(0, authoredCap)
+    : allAuthored;
 
   const reviewCount = features.reviewItems || 2;
   const picker = features.diagnostics ? reviewItems : spiralItems;

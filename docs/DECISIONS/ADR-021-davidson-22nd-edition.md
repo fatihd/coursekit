@@ -27,6 +27,7 @@ its scan stays in the archive references only as history.
 
 ## Consequences
 
-- ROADMAP P9-T5b: re-check the unit map and lesson § references against the 22nd edition, and update
-  `content/ATTRIBUTION.md`, `build/_sources/davidson/SOURCES.md` and ADR-014's note.
+- ROADMAP P9-T5b (done 2026-11-10): the 22nd edition has the same §1–§49 numbering and titles as the 19th, so
+  the unit map stands; lesson Source lines now cite "(22nd ed., 1923)"; the non-existent "§23.6" became
+  "§23 (final clauses)"; `content/ATTRIBUTION.md`, `build/_sources/davidson/SOURCES.md` and ADR-014 updated.
 - P9-T6 can then map the exwb exercises to units by section without a crosswalk.

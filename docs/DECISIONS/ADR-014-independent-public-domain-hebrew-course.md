@@ -38,7 +38,8 @@ only for an individual exercise whose exact prompt and answer have been checked 
 19th-edition scan. See `build/_sources/davidson/SOURCES.md` for provenance, hashes, and the
 limited comparison result. Superseded on the answer-authority question by ADR-017
 (2026-11-05), which recovers the 22nd-edition key exercises as best-effort OCR with per-item
-scan links rather than requiring an item-by-item 19th-edition cross-check.
+scan links rather than requiring an item-by-item 19th-edition cross-check. Superseded on the edition question by
+ADR-021 (2026-11-09): the course follows the 22nd edition (1923); the migration (ROADMAP P9-T5b) is done.
 
 - The course has its own `course.json`, `units.json`, `content/`, `app/`, `progress/`,
   `prerequisites/`, and `content/ATTRIBUTION.md`.

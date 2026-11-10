@@ -28,6 +28,7 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import sys
 from collections import defaultdict
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -883,7 +884,8 @@ def main() -> None:
     if args.report or not args.write:
         report(records, stats)
     if args.write:
-        write_outputs(records, stats)
+        sys.exit("--write is retired: course drills now come from the curated exwb set "
+                 "(python build/exwb_to_authored.py --course courses/biblical-hebrew-davidson, P9-T6)")
 
 
 if __name__ == "__main__":

@@ -23,7 +23,8 @@
         { "$ref": "#/$defs/translatePhrase" },
         { "$ref": "#/$defs/dictation" },
         { "$ref": "#/$defs/paradigmFill" },
-        { "$ref": "#/$defs/fillBlankVerse" }
+        { "$ref": "#/$defs/fillBlankVerse" },
+        { "$ref": "#/$defs/parseForm" }
       ]
     },
     "mcqFamily": {
@@ -31,6 +32,8 @@
       "required": ["type", "stimulus", "stimulusIsScript", "options", "answer", "optionIsScript"],
       "properties": {
         "type": { "enum": ["mcq", "paradigm-tag", "root-pattern-compose", "spot-error", "flash-timed"] },
+        "hint": { "type": "string", "minLength": 1 },
+        "explain": { "type": "string", "minLength": 1 },
         "stimulus": { "type": "string" },
         "stimulusIsScript": { "type": "boolean" },
         "options": { "type": "array", "minItems": 1, "items": { "type": "string" } },
@@ -46,6 +49,8 @@
       "required": ["type", "direction", "stimulus", "stimulusIsScript", "answer", "answerIsScript"],
       "properties": {
         "type": { "const": "translit-normalize" },
+        "hint": { "type": "string", "minLength": 1 },
+        "explain": { "type": "string", "minLength": 1 },
         "direction": { "enum": ["translit->script", "script->translit"] },
         "stimulus": { "type": "string" },
         "stimulusIsScript": { "type": "boolean" },
@@ -60,6 +65,8 @@
       "required": ["type", "prompt", "left", "right", "answer", "leftIsScript"],
       "properties": {
         "type": { "const": "match-by-line" },
+        "hint": { "type": "string", "minLength": 1 },
+        "explain": { "type": "string", "minLength": 1 },
         "prompt": { "type": "string" },
         "left": { "type": "array", "minItems": 1, "items": { "type": "string" } },
         "right": { "type": "array", "minItems": 1, "items": { "type": "string" } },
@@ -73,6 +80,8 @@
       "required": ["type", "prompt", "columns", "words", "isScript"],
       "properties": {
         "type": { "const": "categorize" },
+        "hint": { "type": "string", "minLength": 1 },
+        "explain": { "type": "string", "minLength": 1 },
         "prompt": { "type": "string" },
         "columns": { "type": "array", "minItems": 1, "items": { "type": "string" } },
         "words": {
@@ -97,6 +106,8 @@
       "required": ["type", "prompt", "stimulus", "stimulusIsScript", "accepted"],
       "properties": {
         "type": { "const": "translate-phrase" },
+        "hint": { "type": "string", "minLength": 1 },
+        "explain": { "type": "string", "minLength": 1 },
         "prompt": { "type": "string" },
         "stimulus": { "type": "string" },
         "stimulusIsScript": { "type": "boolean" },
@@ -109,6 +120,8 @@
       "required": ["type", "prompt", "stimulus", "stimulusIsScript", "answer", "transliteration"],
       "properties": {
         "type": { "const": "dictation" },
+        "hint": { "type": "string", "minLength": 1 },
+        "explain": { "type": "string", "minLength": 1 },
         "prompt": { "type": "string" },
         "stimulus": { "type": "string" },
         "stimulusIsScript": { "type": "boolean" },
@@ -117,11 +130,46 @@
       },
       "additionalProperties": true
     },
+    "parseForm": {
+      "type": "object",
+      "required": ["type", "stimulus", "stimulusIsScript", "fields", "readings"],
+      "properties": {
+        "type": { "const": "parse-form" },
+        "hint": { "type": "string", "minLength": 1 },
+        "explain": { "type": "string", "minLength": 1 },
+        "prompt": { "type": "string" },
+        "stimulus": { "type": "string" },
+        "stimulusIsScript": { "type": "boolean" },
+        "fields": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": ["key", "label", "options"],
+            "properties": {
+              "key": { "type": "string", "minLength": 1 },
+              "label": { "type": "string", "minLength": 1 },
+              "options": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+              "isScript": { "type": "boolean" }
+            },
+            "additionalProperties": false
+          }
+        },
+        "readings": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "object", "additionalProperties": { "type": "string" } }
+        }
+      },
+      "additionalProperties": true
+    },
     "paradigmFill": {
       "type": "object",
       "required": ["type", "prompt", "rows", "isScript"],
       "properties": {
         "type": { "const": "paradigm-fill" },
+        "hint": { "type": "string", "minLength": 1 },
+        "explain": { "type": "string", "minLength": 1 },
         "prompt": { "type": "string" },
         "rows": {
           "type": "array",
@@ -146,6 +194,8 @@
       "required": ["type", "prompt", "before", "after", "options", "answer", "isScript"],
       "properties": {
         "type": { "const": "fill-blank-verse" },
+        "hint": { "type": "string", "minLength": 1 },
+        "explain": { "type": "string", "minLength": 1 },
         "prompt": { "type": "string" },
         "before": { "type": "string" },
         "after": { "type": "string" },

@@ -5,83 +5,272 @@
     {
       "unit": 15,
       "n": 1,
-      "typeGuess": "translate-phrase",
-      "confidence": 0.5,
-      "prompt": "Translate this English sentence into Hebrew",
-      "body_raw": "That great day",
-      "answer_raw": "עַלהָפֶרֶץ היום"
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "מִי אַתֶּם",
+      "answer_raw": "Who are ye?"
     },
     {
       "unit": 15,
       "n": 2,
-      "typeGuess": "translate-phrase",
-      "confidence": 0.5,
-      "prompt": "Translate this English sentence into Hebrew",
-      "body_raw": "\"This (is) a good head",
-      "answer_raw": "הַהוּא ראש טוב הטוב"
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "רָם מְאֹד הָהָר הַזֶּה",
+      "answer_raw": "This mountain is very high."
     },
     {
       "unit": 15,
       "n": 3,
-      "typeGuess": "translate-phrase",
-      "confidence": 0.5,
-      "prompt": "Translate this English sentence into Hebrew",
-      "body_raw": "This good head",
-      "answer_raw": "הראש הָטוב זֶה 0ג"
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "הַלַּיְלָה הַהוּא",
+      "answer_raw": "That night"
     },
     {
       "unit": 15,
       "n": 4,
       "typeGuess": "mcq",
-      "confidence": 0.5,
-      "prompt": "Translate this Hebrew sentence into English",
-      "body_raw": "מָאד הַהֶר הַאֶּה",
-      "answer_raw": "This mountain is very high"
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "זֶה הַיּוֹם אֲשֶׁר עָשָׂה אֱלֹהִים",
+      "answer_raw": "This is the day which God made."
     },
     {
       "unit": 15,
       "n": 5,
       "typeGuess": "mcq",
-      "confidence": 0.5,
-      "prompt": "Translate this Hebrew sentence into English",
-      "body_raw": "זה המלך החכם",
-      "answer_raw": "The king sat upon the dust"
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "הָעָם הֶעָצוּם הַזֶּה",
+      "answer_raw": "This powerful people"
     },
     {
       "unit": 15,
       "n": 6,
-      "typeGuess": "translate-phrase",
-      "confidence": 0.5,
-      "prompt": "Translate this English sentence into Hebrew",
-      "body_raw": "I said tothe man",
-      "answer_raw": "לא כָּאלְהִים מַשָלְתּ לאמר"
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "זֶה הַיֶּלֶד אֲשֶׁר שָׁמַע אֶת־הַקּוֹל",
+      "answer_raw": "This is the boy who heard the voice."
     },
     {
       "unit": 15,
       "n": 7,
-      "typeGuess": "translate-phrase",
-      "confidence": 0.5,
-      "prompt": "Translate this English sentence into Hebrew",
-      "body_raw": "God destroyed from the earth | man and cattle",
-      "answer_raw": "זעק אלהים"
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "מִי יָלַד אֶת־אֵלֶּה",
+      "answer_raw": "Who has borne these?"
     },
     {
       "unit": 15,
       "n": 8,
       "typeGuess": "mcq",
-      "confidence": 0.5,
-      "prompt": "Translate this Hebrew sentence into English",
-      "body_raw": "בַאלְהים וּבְמשה",
-      "answer_raw": "In' God and Moses"
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "יָשַׁב הַמֶּלֶךְ עַל־הֶעָפָר",
+      "answer_raw": "The king sat upon the dust."
     },
     {
       "unit": 15,
       "n": 9,
       "typeGuess": "mcq",
-      "confidence": 0.5,
-      "prompt": "Translate this Hebrew sentence into English",
-      "body_raw": "לאלהים וקו בַּמִּלְחָמָה",
-      "answer_raw": "They cried to\" God in the battle"
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "בָּא הָאִישׁ אֲשֶׁר שָׁפַךְ הַמַּיִם עַל־הָאָרֶץ",
+      "answer_raw": "The man came, who had poured the water upon the ground."
+    },
+    {
+      "unit": 15,
+      "n": 10,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "מַה־טּוֹב הַיּוֹם הַזֶּה",
+      "answer_raw": "How good is this day!"
+    },
+    {
+      "unit": 15,
+      "n": 11,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ",
+      "answer_raw": "God created the heavens and the earth."
+    },
+    {
+      "unit": 15,
+      "n": 12,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "וְקָרָא זֶה אֶל־זֶה וְאָמַר קָדוֹשׁ יהוה",
+      "answer_raw": "And one called to another and said, Holy is Yahweh."
+    },
+    {
+      "unit": 15,
+      "n": 13,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "לקח המלך את־החרב",
+      "answer_raw": "The king took the sword."
+    },
+    {
+      "unit": 15,
+      "n": 14,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "זה המלך החכם",
+      "answer_raw": "This is the wise king."
+    },
+    {
+      "unit": 15,
+      "n": 15,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "Who (are) these?",
+      "answer_raw": "מִי אֵלֶּה"
+    },
+    {
+      "unit": 15,
+      "n": 16,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "What (are) ye?",
+      "answer_raw": "מָה אַתֶּם"
+    },
+    {
+      "unit": 15,
+      "n": 17,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "Who (is) this woman?",
+      "answer_raw": "מִי הָאִשָּׁה הַזֹּאת"
+    },
+    {
+      "unit": 15,
+      "n": 18,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "I (am) the great king who (is) over (עַל) the land.",
+      "answer_raw": "אֲנִי הַמֶּלֶךְ הַגָּדוֹל אֲשֶׁר עַל־הָאָרֶץ"
+    },
+    {
+      "unit": 15,
+      "n": 19,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "That great day",
+      "answer_raw": "הַיּוֹם הַגָּדוֹל הַהוּא"
+    },
+    {
+      "unit": 15,
+      "n": 20,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "This (is) a good head.",
+      "answer_raw": "זֶה רֹאשׁ טוֹב"
+    },
+    {
+      "unit": 15,
+      "n": 21,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "This (is) the good head.",
+      "answer_raw": "זֶה הָרֹאשׁ הַטּוֹב"
+    },
+    {
+      "unit": 15,
+      "n": 22,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "This head (is) good.",
+      "answer_raw": "טוֹב הָרֹאשׁ הַזֶּה"
+    },
+    {
+      "unit": 15,
+      "n": 23,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "This good head",
+      "answer_raw": "הָרֹאשׁ הַטּוֹב הַזֶּה"
+    },
+    {
+      "unit": 15,
+      "n": 24,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "This (is) the bad boy who spilt the water upon the earth.",
+      "answer_raw": "זֶה הַיֶּלֶד הָרַע אֲשֶׁר שָׁפַךְ אֶת־הַמַּיִם עַל־הָאָרֶץ"
+    },
+    {
+      "unit": 15,
+      "n": 25,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "What has the man done?",
+      "answer_raw": "מֶה עָשָׂה הָאִישׁ"
+    },
+    {
+      "unit": 15,
+      "n": 26,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "What (are) these?",
+      "answer_raw": "מָה אֵלֶּה"
+    },
+    {
+      "unit": 15,
+      "n": 27,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "These (are) the heavens and the earth which God created this day.",
+      "answer_raw": "אֵלֶּה הַשָּׁמַיִם וְהָאָרֶץ אֲשֶׁר בָּרָא אֱלֹהִים הַיּוֹם"
+    },
+    {
+      "unit": 15,
+      "n": 28,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "That great and sore disease",
+      "answer_raw": "הַחֳלִי הַגָּדוֹל וְהָרַע הַהוּא"
+    },
+    {
+      "unit": 15,
+      "n": 29,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "He sat by (עַל) those waters.",
+      "answer_raw": "יָשַׁב עַל־הַמַּיִם הָהֵם"
+    },
+    {
+      "unit": 15,
+      "n": 30,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "How great (is) that palace!",
+      "answer_raw": "מַה־גָּדוֹל הַהֵיכָל הַהוּא"
     }
   ]
 }

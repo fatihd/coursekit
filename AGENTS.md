@@ -46,16 +46,18 @@ lang-research/                      # authoring hub (THIS repo)
   scripts/                          # release-course, sync-engine, validate, run
 ```
 
-The project is being split into three separate concerns (decided 2026-11-06; physical
-restructure not yet done):
+The project has three separate parts (decided 2026-11-06; P10-T6 done 2026-11-10 by mapping them
+onto the existing folders — no folder moves). `tests/test_layout.py` enforces the boundaries.
 
-1. **Main course app** — `engine/` + the student-facing runtime of `courses/*`.
-2. **Course editing** — authoring course content (`courses/*/content/`, `build/` textify/
-   materialize/lesson generation).
-3. **Exercise extraction & editing** — recovering exercises + key answers from OCR'd books;
-   mostly bespoke per book. Its tool is `exwb/` (stdlib Python + SQLite + local review UI;
-   see `exwb/README.md`). exwb is a separate tool: it does not import the engine, and its
-   per-project `exwb.db` review state is git-ignored (snapshot with `exwb export --all`).
+| Part | Folders | README | Run | May depend on |
+|---|---|---|---|---|
+| **1. Course app** (student runtime) | `engine/`; per course: `course.json`, `vocab.json`, `units/NN.json`, `authored/`, `prerequisites/`, `app/` | `engine/README.md` | `python scripts/run courses/<course>`; site: `python scripts/build-site` | only its own files (engine imports stay inside `engine/`) |
+| **2. Course authoring** | `build/`; per course: `content/` (canonical text), `units.json`, `exercises/`; `site/site.json` | `build/README.md` | `python build/materialize.py --course courses/<course>` then `python scripts/validate courses/<course>` | writes part-1 data; never imports `exwb/` |
+| **3. Exercise extraction** | `exwb/` (curated output in `exwb/curated/`) | `exwb/README.md` | `cd exwb && python3 -m exwb serve myproject` | stdlib only; reads `engine/keyboard.js`, `dom.js`, `keyboards/he_IL.js` over HTTP for its on-screen keyboard; its `exwb.db` is git-ignored (snapshot with `exwb export --all`) |
+
+Shared tooling (release, tests, audit) lives in `scripts/` (`scripts/README.md`). exwb output reaches
+a course only through an explicit authoring step (`build/exwb_to_authored.py`, P9-T6), never by the
+engine reading exwb.
 
 ## 3. How to run things
 

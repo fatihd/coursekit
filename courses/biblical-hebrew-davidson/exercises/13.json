@@ -5,83 +5,470 @@
     {
       "unit": 13,
       "n": 1,
-      "typeGuess": "translate-phrase",
-      "confidence": 0.5,
-      "prompt": "Translate this English sentence into Hebrew",
-      "body_raw": "To-day",
-      "answer_raw": "טוב הָאִיש היום"
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "הַלַּיְלָה וְהַיּוֹם",
+      "answer_raw": "The night and the day"
     },
     {
       "unit": 13,
       "n": 2,
-      "typeGuess": "translate-phrase",
-      "confidence": 0.5,
-      "prompt": "Translate this English sentence into Hebrew",
-      "body_raw": "The light (is)! good",
-      "answer_raw": "גדל הטוב"
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "הָאִישׁ וְהָאִשָּׁה",
+      "answer_raw": "The man and the woman"
     },
     {
       "unit": 13,
       "n": 3,
-      "typeGuess": "translate-phrase",
-      "confidence": 0.5,
-      "prompt": "Translate this English sentence into Hebrew",
-      "body_raw": "The man and the woman",
-      "answer_raw": "גדל גְּדוּל החשְף הָאִיש"
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "הַחֹשֶׁךְ הַגָּדוֹל",
+      "answer_raw": "The great darkness"
     },
     {
       "unit": 13,
       "n": 4,
-      "typeGuess": "translate-phrase",
-      "confidence": 0.5,
-      "prompt": "Translate this English sentence into Hebrew",
-      "body_raw": "The good man",
-      "answer_raw": "הרקיע האיש יום הַחשְף"
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "רָם הָרָקִיעַ",
+      "answer_raw": "The firmament is high."
     },
     {
       "unit": 13,
       "n": 5,
-      "typeGuess": "translate-phrase",
-      "confidence": 0.5,
-      "prompt": "Translate this English sentence into Hebrew",
-      "body_raw": "A great day. , The gold (is)! good",
-      "answer_raw": "אישה אשה טוב"
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "טוֹב הַכֶּסֶף",
+      "answer_raw": "The silver is good."
     },
     {
       "unit": 13,
       "n": 6,
       "typeGuess": "mcq",
-      "confidence": 0.5,
-      "prompt": "Translate this Hebrew sentence into English",
-      "body_raw": "הָאִיש וְהָאֶשֶה+",
-      "answer_raw": "The man and the woman"
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "הָעֶרֶב וְהַבֹּקֶר",
+      "answer_raw": "The evening and the morning"
     },
     {
       "unit": 13,
       "n": 7,
       "typeGuess": "mcq",
-      "confidence": 0.5,
-      "prompt": "Translate this Hebrew sentence into English",
-      "body_raw": "הַגּדוּל",
-      "answer_raw": "The great darkness"
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "גָּדוֹל הַחֹשֶׁךְ עַל־הַמָּיִם",
+      "answer_raw": "The darkness is great upon the waters."
     },
     {
       "unit": 13,
       "n": 8,
       "typeGuess": "mcq",
-      "confidence": 0.5,
-      "prompt": "Translate this Hebrew sentence into English",
-      "body_raw": "טוב הַדכָּסַףּ",
-      "answer_raw": "The § II. A.-B. silver is good"
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "טוֹב הָאִישׁ",
+      "answer_raw": "The man is good."
     },
     {
       "unit": 13,
       "n": 9,
       "typeGuess": "mcq",
-      "confidence": 0.5,
-      "prompt": "Translate this Hebrew sentence into English",
-      "body_raw": "וְהַבּקֶר:ּ",
-      "answer_raw": "The evening and the morning"
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "הַיּוֹם הַגָּדוֹל",
+      "answer_raw": "The great day"
+    },
+    {
+      "unit": 13,
+      "n": 10,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "To-day",
+      "answer_raw": "הַיּוֹם"
+    },
+    {
+      "unit": 13,
+      "n": 11,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "The morning",
+      "answer_raw": "הַבֹּקֶר"
+    },
+    {
+      "unit": 13,
+      "n": 12,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "The night",
+      "answer_raw": "הַלָּיְלָה"
+    },
+    {
+      "unit": 13,
+      "n": 13,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "The light (is) good.",
+      "answer_raw": "הָאוֹר טוֹב or טוֹב הָאוֹר"
+    },
+    {
+      "unit": 13,
+      "n": 14,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "The good light",
+      "answer_raw": "הָאוֹר הַטּוֹב"
+    },
+    {
+      "unit": 13,
+      "n": 15,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "The lofty firmament",
+      "answer_raw": "הָרָקִיעַ הָרָם"
+    },
+    {
+      "unit": 13,
+      "n": 16,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "The man and the woman",
+      "answer_raw": "הָאִישׁ וְהָאִשָּׁה"
+    },
+    {
+      "unit": 13,
+      "n": 17,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "The darkness is great.",
+      "answer_raw": "הַחֹשֶׁךְ גָּדוֹל or גָּדוֹל הַחֹשֶׁךְ"
+    },
+    {
+      "unit": 13,
+      "n": 18,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "The good man",
+      "answer_raw": "הָאִישׁ הַטּוֹב"
+    },
+    {
+      "unit": 13,
+      "n": 19,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "A great day",
+      "answer_raw": "יוֹם גָּדוֹל"
+    },
+    {
+      "unit": 13,
+      "n": 20,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "The gold (is) good.",
+      "answer_raw": "טוֹב הַזָּהָב or הַזָּהָב טוֹב"
+    },
+    {
+      "unit": 13,
+      "n": 21,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "The dust (is) upon the waters.",
+      "answer_raw": "הֶעָפָר עַל־הַמָּיִם"
+    },
+    {
+      "unit": 13,
+      "n": 22,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "רָם הַהֵיכָל",
+      "answer_raw": "The palace is lofty."
+    },
+    {
+      "unit": 13,
+      "n": 23,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "הָהָר הוּא רָם מְאֹד",
+      "answer_raw": "The mountain is very high."
+    },
+    {
+      "unit": 13,
+      "n": 24,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "טוֹב הָעֶרֶב",
+      "answer_raw": "The evening is good."
+    },
+    {
+      "unit": 13,
+      "n": 25,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "אַתָּה הוּא הָאֱלֹהִים",
+      "answer_raw": "Thou art God."
+    },
+    {
+      "unit": 13,
+      "n": 26,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "אַתְּ הָאִשָּׁה",
+      "answer_raw": "Thou art the woman."
+    },
+    {
+      "unit": 13,
+      "n": 27,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "הַחֶרֶב הִיא עַל־הֶעָפָר",
+      "answer_raw": "The sword is on the dust."
+    },
+    {
+      "unit": 13,
+      "n": 28,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "הָעֶבֶד הַטּוֹב",
+      "answer_raw": "The good servant"
+    },
+    {
+      "unit": 13,
+      "n": 29,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "עַם רָם וְגָדוֹל",
+      "answer_raw": "A tall and great people"
+    },
+    {
+      "unit": 13,
+      "n": 30,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "הָעָם הוּא עָצוּם מְאֹד",
+      "answer_raw": "The people are very powerful."
+    },
+    {
+      "unit": 13,
+      "n": 31,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "הַיָּד וְהָעַיִן",
+      "answer_raw": "The hand and the eye"
+    },
+    {
+      "unit": 13,
+      "n": 32,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "הַשָּׁמַיִם וְהָאָרֶץ",
+      "answer_raw": "The heavens and the earth"
+    },
+    {
+      "unit": 13,
+      "n": 33,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "הָעָם הֶעָצוּם וְהַגָּדוֹל",
+      "answer_raw": "The powerful and great people"
+    },
+    {
+      "unit": 13,
+      "n": 34,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "אֲנִי הָאִישׁ הֶחָכָם",
+      "answer_raw": "I am the wise man."
+    },
+    {
+      "unit": 13,
+      "n": 35,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "חכם האיש",
+      "answer_raw": "The man is wise."
+    },
+    {
+      "unit": 13,
+      "n": 36,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "החלי הרע",
+      "answer_raw": "The sore disease"
+    },
+    {
+      "unit": 13,
+      "n": 37,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "The eye",
+      "answer_raw": "הָעַיִן"
+    },
+    {
+      "unit": 13,
+      "n": 38,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "The hand",
+      "answer_raw": "הַיָּד"
+    },
+    {
+      "unit": 13,
+      "n": 39,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "The mountain is very lofty.",
+      "answer_raw": "הָהָר רָם מְאֹד הוּא (or רָם מְאֹד הָהָר)"
+    },
+    {
+      "unit": 13,
+      "n": 40,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "The dust is upon the waters.",
+      "answer_raw": "הֶעָפָר עַל־הַמַּיִם הוּא"
+    },
+    {
+      "unit": 13,
+      "n": 41,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "I (am) the man.",
+      "answer_raw": "אֲנִי הָאִישׁ"
+    },
+    {
+      "unit": 13,
+      "n": 42,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "We (are) the people.",
+      "answer_raw": "אֲנַחְנוּ הָעָם"
+    },
+    {
+      "unit": 13,
+      "n": 43,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "The sword",
+      "answer_raw": "הַחֶרֶב"
+    },
+    {
+      "unit": 13,
+      "n": 44,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "The good man is the wise man.",
+      "answer_raw": "הָאִישׁ הַטּוֹב הוּא הָאִישׁ הֶחָכָם"
+    },
+    {
+      "unit": 13,
+      "n": 45,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "The good and powerful people",
+      "answer_raw": "הָעָם הַטּוֹב וְהֶעָצוּם"
+    },
+    {
+      "unit": 13,
+      "n": 46,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "The morning and the evening are the day.",
+      "answer_raw": "הַבֹּקֶר וְהָעֶרֶב הֵם הַיּוֹם"
+    },
+    {
+      "unit": 13,
+      "n": 47,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "The darkness is the night.",
+      "answer_raw": "הַחֹשֶׁךְ הוּא הַלָּיְלָה"
+    },
+    {
+      "unit": 13,
+      "n": 48,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "The great and lofty mountain",
+      "answer_raw": "הָהָר הַגָּדוֹל וְהָרָם"
+    },
+    {
+      "unit": 13,
+      "n": 49,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "The darkness is very great upon the earth and upon the waters.",
+      "answer_raw": "הַחֹשֶׁךְ גָּדוֹל מְאֹד עַל־הָאָרֶץ וְעַל־הַמָּיִם"
+    },
+    {
+      "unit": 13,
+      "n": 50,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "Thou (art) the man.",
+      "answer_raw": "אַתָּה הָאִישׁ"
+    },
+    {
+      "unit": 13,
+      "n": 51,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "They (are) the heavens.",
+      "answer_raw": "הֵם הַשָּׁמַיִם"
+    },
+    {
+      "unit": 13,
+      "n": 52,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "The stone",
+      "answer_raw": "הָאֶבֶן (in pause הָאָבֶן)"
     }
   ]
 }

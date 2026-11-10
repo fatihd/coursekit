@@ -134,6 +134,13 @@ def answer_authored(page, items):
             if stim_el and stim_el.text_content().strip() == it.get("stimulus"):
                 page.fill(".ex--translit .hebrew-input", it["answer"])
                 return True
+        elif t == "parse-form":
+            stim_el = page.query_selector(".ex--parse-form .ex-stimulus")
+            if stim_el and stim_el.text_content().strip() == it.get("stimulus"):
+                for f in it["fields"]:
+                    page.select_option(f".ex--parse-form .ex-select[data-field='{f['key']}']",
+                                       value=it["readings"][0].get(f["key"], "—"))
+                return True
         elif t == "paradigm-fill":
             el = page.query_selector(".ex--paradigm-fill")
             if el:
@@ -455,6 +462,8 @@ async () => {
           const w = item.words.find((w) => w.text === sel.dataset.word);
           if (w) sel.value = w.cat;
         });
+      } else if (item.fields) {
+        node.querySelectorAll(".ex-select").forEach((sel) => { sel.value = item.readings[0][sel.dataset.field] || "—"; });
       } else if (item.rows) {
         node.querySelectorAll(".ex-select").forEach((sel) => {
           const r = item.rows.find((r) => r.label === sel.dataset.label);
@@ -499,11 +508,12 @@ async () => {
   } catch (e) {
     return { unit, error: "authored/" + String(unit).padStart(2, "0") + ".json not loadable: " + e.message };
   }
-  const items = buildSession(course, pool, { unitN: unit, vocabList: vocab.items, progress: { units: {} }, authored });
+  const items = buildSession(course, pool, { unitN: unit, vocabList: vocab.items, progress: { units: {} }, authored, features: course.features || {} });
   const authoredSet = new Set(authored);
   const firstAuthored = items.findIndex((i) => authoredSet.has(i));
   const generatedStart = items.findIndex((i) => !i.spiral && !authoredSet.has(i));
-  const inSession = authored.every((a) => items.includes(a));
+  const cap = (course.features || {}).authoredPerSession || authored.length;
+  const inSession = items.filter((i) => authoredSet.has(i)).length === Math.min(cap, authored.length);
   const beforeGenerated = authored.length === 0 || generatedStart === -1 || (firstAuthored >= 0 && firstAuthored < generatedStart);
   return {
     unit,
@@ -534,15 +544,129 @@ def run_authored_harness(page, failures, benchmark_units=None):
         check(r.get("ok", False), msg, failures)
         if not r.get("ok"):
             print(f"      error: {r.get('error', '?')}")
-    for unit in benchmark_units or AUTHORED_BENCHMARK_UNITS:
+    for unit in AUTHORED_BENCHMARK_UNITS if benchmark_units is None else benchmark_units:
         mix = page.evaluate(SESSION_MIX_HARNESS_JS % {"unit": unit})
         if "error" in mix:
             check(False, f"session mix loads authored/{unit:02d}.json ({mix['error']})", failures)
             continue
-        check(mix["inSession"], f"session mix (unit {unit}) includes every authored item", failures)
+        check(mix["inSession"], f"session mix (unit {unit}) includes every authored item (or authoredPerSession of them)", failures)
         check(mix["beforeGenerated"], f"authored items (unit {unit}) precede generated fill", failures)
         print(f"  session mix unit {unit}: {mix['authoredCount']} authored items in a {mix['sessionCount']}-item session, types={mix['types']}")
     return len(results)
+
+
+DRILL_TIP_JS = r"""
+async (items) => {
+  const origin = window.location.origin;
+  const { renderDrill } = await import(origin + "/engine/views/drill.js");
+  const course = await (await fetch(origin + "/course.json")).json();
+  const out = [];
+  for (const item of items) {
+    const root = document.createElement("div");
+    document.body.appendChild(root);
+    renderDrill(root, { course, items: [item], unit: { n: 1 }, navigate() {}, onComplete() {}, features: {} });
+    const r = { hint: !!item.hint, explain: !!item.explain };
+    r.toggleBefore = !!root.querySelector(".drill-tip-toggle");
+    r.explainBefore = !!root.querySelector(".drill-explain");
+    const toggle = root.querySelector(".drill-tip-toggle");
+    if (toggle) toggle.click();
+    r.hintText = (root.querySelector(".drill-tip-text") || {}).textContent || "";
+    const check = Array.from(root.querySelectorAll(".gate-btn")).find((b) => b.textContent === "Check");
+    const input = root.querySelector(".ex-text");
+    if (input) input.value = (item.accepted || [""])[0];
+    const opt = Array.from(root.querySelectorAll(".ex-option")).find((b) => b.dataset.value === item.answer);
+    if (opt) opt.click();
+    check.click();
+    r.correct = !!root.querySelector(".drill-ok");
+    r.explainText = (root.querySelector(".drill-explain") || {}).textContent || "";
+    root.remove();
+    out.push(r);
+  }
+  return out;
+}
+"""
+
+
+def run_drill_tips(page, authored, failures):
+    """P9-T7: a hint opens on request before answering; an explanation appears with feedback."""
+    flat = [it for unit in sorted(authored) for it in authored[unit]]
+    picks = [next((it for it in flat if it.get("hint")), None), next((it for it in flat if it.get("explain")), None)]
+    picks = [p for p in picks if p]
+    if not picks:
+        return 0
+    for item, r in zip(picks, page.evaluate(DRILL_TIP_JS, picks)):
+        if item.get("hint"):
+            check(r["toggleBefore"] and r["hintText"] == item["hint"],
+                  "hint: 'Show hint' button before answering opens the hint text", failures)
+        if item.get("explain"):
+            check(not r["explainBefore"] and r["explainText"] == item["explain"],
+                  "explain: hidden before answering, shown with the feedback", failures)
+        check(r["correct"], "drill with hint/explain still grades the right answer correct", failures)
+    return len(picks)
+
+
+PARSE_FIELDS_JS = r"""
+async (item) => {
+  const origin = window.location.origin;
+  const { getType } = await import(origin + "/engine/exercise-types/index.js");
+  const course = await (await fetch(origin + "/course.json")).json();
+  const t = getType("parse-form");
+  const run = (wrongKey) => {
+    const node = t.render(item, { course });
+    document.body.appendChild(node);
+    node.querySelectorAll(".ex-select").forEach((sel) => {
+      const key = sel.dataset.field;
+      const right = item.readings[0][key] || "—";
+      sel.value = key === wrongKey ? Array.from(sel.options).map((o) => o.value).find((v) => v && v !== right && !item.readings.some((r) => r[key] === v)) : right;
+    });
+    const answer = t.collect(node);
+    const res = t.grade(item, answer);
+    t.annotate(node, item, answer, res);
+    const marked = node.querySelector(".ex-select[data-field='" + wrongKey + "']");
+    const out = { correct: res.correct, fields: res.fields, expected: res.expected,
+                  markedWrong: !!(marked && marked.classList.contains("ex-select--no")),
+                  othersOk: Array.from(node.querySelectorAll(".ex-select")).filter((s) => s.dataset.field !== wrongKey).every((s) => s.classList.contains("ex-select--ok")) };
+    node.remove();
+    return out;
+  };
+  return { right: run(null), wrong: run(item.fields[0].key), wrongKey: item.fields[0].key };
+}
+"""
+
+
+def run_parse_fields(page, authored, failures):
+    """P9-T8: a parse item grades field by field (right answer; one wrong field flagged alone)."""
+    item = next((it for u in sorted(authored) for it in authored[u]
+                 if it.get("type") == "parse-form" and len(it["fields"]) >= 4), None)
+    if not item:
+        return 0
+    r = page.evaluate(PARSE_FIELDS_JS, item)
+    check(r["right"]["correct"] and all(r["right"]["fields"].values()),
+          f"parse-form {item['stimulus']}: all fields right -> correct", failures)
+    wk = r["wrongKey"]
+    check(not r["wrong"]["correct"] and r["wrong"]["fields"][wk] is False
+          and all(v for k, v in r["wrong"]["fields"].items() if k != wk),
+          f"parse-form: one wrong field ({wk}) -> incorrect, only that field marked wrong", failures)
+    check(r["wrong"]["markedWrong"] and r["wrong"]["othersOk"],
+          "parse-form: the drill marks the wrong select red and the others green", failures)
+    print(f"  parse-form feedback: {r['wrong']['expected']}")
+    return 1
+
+
+def run_course_shapes(page, authored, failures):
+    """One course item per exercise shape (e.g. the exwb shapes) through render->collect->grade."""
+    picked = {}
+    for unit in sorted(authored):
+        for it in authored[unit]:
+            shape = it.get("shape")
+            if shape and shape not in picked:
+                picked[shape] = it
+    if not picked:
+        return 0
+    results = page.evaluate(AUTHORED_HARNESS_JS % {"samples": json.dumps(list(picked.values()), ensure_ascii=False)})
+    for shape, r in zip(picked, results):
+        check(r.get("ok", False), f"course shape {shape} ({r['type']}): render->collect->grade correct", failures)
+    return len(picked)
 
 
 def run_type_harness(page, failures):
@@ -697,6 +821,11 @@ def main():
                 print("=== authored-exercise harness ===")
                 n = run_authored_harness(page, failures, _authored_units(args.course))
                 check(n == len(AUTHORED_SAMPLES), "authored harness returned a result per sample", failures)
+                shapes = run_course_shapes(page, authored, failures)
+                print(f"  course item shapes checked: {shapes}")
+                tips = run_drill_tips(page, authored, failures)
+                run_parse_fields(page, authored, failures)
+                print(f"  hint/explain drill items checked: {tips}")
                 browser.close()
             elif args.accessibility:
                 print("=== accessibility harness ===")

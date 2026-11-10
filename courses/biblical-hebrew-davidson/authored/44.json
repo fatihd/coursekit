@@ -3,24 +3,391 @@
   "unit": 44,
   "items": [
     {
-      "type": "translate-phrase",
-      "prompt": "Translate this English sentence into Hebrew",
-      "stimulus": "And = the waters increased very (much), and the heads of the moun- © tains were covered",
-      "stimulusIsScript": false,
-      "accepted": [
-        "הַמִיִם מָאד הגן אָטֶר",
-        "המים מאד הגן אטר"
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "כֹּה אָמַר יהוה לָעֲצָמוֹת הָאֵלֶּה הִנֵּה אֲנִי מֵבִיא בָכֶם רוּחַ וִחְיִיתֶם",
+      "stimulusIsScript": true,
+      "options": [
+        "And I, behold, I will cause it to rain upon the earth forty days and forty nights, and I will blot out every thing that I have made from off the face of the ground.",
+        "And it shall be that when I bring clouds over the earth, then the bow shall be seen in the clouds, and the bow shall be in the clouds, and I will look upon it, to remember my covenant.",
+        "Command the priests that bear the ark of Yahweh that they come up out of the Jordan.",
+        "Thus saith Yahweh to these bones, Behold, I will cause breath to enter into you, and ye shall live."
       ],
-      "answerIsScript": true,
+      "answer": "Thus saith Yahweh to these bones, Behold, I will cause breath to enter into you, and ye shall live.",
+      "optionIsScript": false,
+      "shape": "he-en",
       "source": {
-        "citation": "Davidson, Introductory Hebrew Grammar (22nd ed.) exercise on §44; Key to the Exercises (1924) §44",
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §44 A 1; McFadyen, Key to the Exercises (1924)",
         "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n164/mode/1up",
         "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n164.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n126/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n126.jpg",
-        "sanityScore": 0.25,
-        "sanity": "weak",
-        "note": "Read from the scans by OCR; open them if a reading looks wrong."
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n124/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n124.jpg",
+        "exwb": "davidson-s44#A1",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "צַוֵּה אֶת־הַכֹּהֲנִים נֹשְׂאֵי אֲרוֹן יהוה וְיַעֲלוּ מִן־הַיַּרְדֵּן",
+      "stimulusIsScript": true,
+      "options": [
+        "And I, behold, I will cause it to rain upon the earth forty days and forty nights, and I will blot out every thing that I have made from off the face of the ground.",
+        "Command the priests that bear the ark of Yahweh that they come up out of the Jordan.",
+        "Thus saith Yahweh to these bones, Behold, I will cause breath to enter into you, and ye shall live.",
+        "I have been young and now am old: yet have I not seen the righteous forsaken, nor his seed seeking bread."
+      ],
+      "answer": "Command the priests that bear the ark of Yahweh that they come up out of the Jordan.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §44 A 2; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n164/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n164.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n124/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n124.jpg",
+        "exwb": "davidson-s44#A2",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "לֹא אֹסִף עוֹד לְהַכּוֹת אֶת־כָּל־חַי כַּאֲשֶׁר עָשִׂיתִי",
+      "stimulusIsScript": true,
+      "options": [
+        "I will not again smite any more every living thing, as I have done.",
+        "I have been young and now am old: yet have I not seen the righteous forsaken, nor his seed seeking bread.",
+        "O that I had water to drink!",
+        "And Pharaoh said, Depart from me, take heed to thyself, see my face no more; for in the day thou seest my face thou shalt die."
+      ],
+      "answer": "I will not again smite any more every living thing, as I have done.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §44 A 3; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n164/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n164.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n124/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n124.jpg",
+        "exwb": "davidson-s44#A3",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אֶבֶן מָאֲסוּ הַבּוֹנִים הָיְתָה לְרֹאשׁ פִּנָּה",
+      "stimulusIsScript": true,
+      "options": [
+        "Command the priests that bear the ark of Yahweh that they come up out of the Jordan.",
+        "The stone which the builders rejected is become the head of the corner.",
+        "And it shall be that when I bring clouds over the earth, then the bow shall be seen in the clouds, and the bow shall be in the clouds, and I will look upon it, to remember my covenant.",
+        "Lift up now thine eyes and look; for all the land which thou art looking upon, to thee will I give it; and I will make thy seed as the dust of the earth, so that if a man can number the dust of the earth, thy seed also may be numbered."
+      ],
+      "answer": "The stone which the builders rejected is become the head of the corner.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §44 A 4; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n164/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n164.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n124/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n124.jpg",
+        "exwb": "davidson-s44#A4",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וְהָיָה בְּעַנְנִי עָנָן עַל־הָאָרֶץ וְנִרְאֲתָה הַקֶּשֶׁת בֶּעָנָן וְהָיְתָה הַקֶּשֶׁת בֶּעָנָן וּרְאִיתִיהָ לִזְכֹּר בְּרִיתִי",
+      "stimulusIsScript": true,
+      "options": [
+        "And it shall be that when I bring clouds over the earth, then the bow shall be seen in the clouds, and the bow shall be in the clouds, and I will look upon it, to remember my covenant.",
+        "I have been young and now am old: yet have I not seen the righteous forsaken, nor his seed seeking bread.",
+        "The stone which the builders rejected is become the head of the corner.",
+        "I will not again smite any more every living thing, as I have done."
+      ],
+      "answer": "And it shall be that when I bring clouds over the earth, then the bow shall be seen in the clouds, and the bow shall be in the clouds, and I will look upon it, to remember my covenant.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §44 A 5; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n164/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n164.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n124/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n124.jpg",
+        "exwb": "davidson-s44#A5",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "שָׂא נָא עֵינֶיךָ וּרְאֵה כִּי אֶת־כָּל־הָאָרֶץ אֲשֶׁר אַתָּה רֹאֶה לְךָ אֶתְּנֶנָּה וְשַׂמְתִּי אֶת־זַרְעֲךָ כַּעֲפַר הָאָרֶץ אֲשֶׁר אִם יוּכַל אִישׁ לִמְנוֹת אֶת־עֲפַר הָאָרֶץ גַּם זַרְעֲךָ יִמָּנֶה",
+      "stimulusIsScript": true,
+      "options": [
+        "Lift up now thine eyes and look; for all the land which thou art looking upon, to thee will I give it; and I will make thy seed as the dust of the earth, so that if a man can number the dust of the earth, thy seed also may be numbered.",
+        "And I, behold, I will cause it to rain upon the earth forty days and forty nights, and I will blot out every thing that I have made from off the face of the ground.",
+        "Thus saith Yahweh to these bones, Behold, I will cause breath to enter into you, and ye shall live.",
+        "The stone which the builders rejected is become the head of the corner."
+      ],
+      "answer": "Lift up now thine eyes and look; for all the land which thou art looking upon, to thee will I give it; and I will make thy seed as the dust of the earth, so that if a man can number the dust of the earth, thy seed also may be numbered.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §44 A 6; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n164/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n164.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n124/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n124.jpg",
+        "exwb": "davidson-s44#A6",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיֹּאמֶר פַּרְעֹה לֵךְ מֵעָלָי הִשָּׁמֶר לְךָ אַל־תֹּסֶף רְאוֹת פָּנַי כִּי בְּיוֹם רְאֹתְךָ פָּנַי תָּמוּת",
+      "stimulusIsScript": true,
+      "options": [
+        "Lift up now thine eyes and look; for all the land which thou art looking upon, to thee will I give it; and I will make thy seed as the dust of the earth, so that if a man can number the dust of the earth, thy seed also may be numbered.",
+        "And Pharaoh said, Depart from me, take heed to thyself, see my face no more; for in the day thou seest my face thou shalt die.",
+        "Thus saith Yahweh to these bones, Behold, I will cause breath to enter into you, and ye shall live.",
+        "O that I had water to drink!"
+      ],
+      "answer": "And Pharaoh said, Depart from me, take heed to thyself, see my face no more; for in the day thou seest my face thou shalt die.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §44 A 7; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n164/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n164.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n124/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n124.jpg",
+        "exwb": "davidson-s44#A7",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "מִי יַשְׁקֵנִי מַיִם",
+      "stimulusIsScript": true,
+      "options": [
+        "Command the priests that bear the ark of Yahweh that they come up out of the Jordan.",
+        "O that I had water to drink!",
+        "Thus saith Yahweh to these bones, Behold, I will cause breath to enter into you, and ye shall live.",
+        "And it shall be that when I bring clouds over the earth, then the bow shall be seen in the clouds, and the bow shall be in the clouds, and I will look upon it, to remember my covenant."
+      ],
+      "answer": "O that I had water to drink!",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §44 A 8; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n164/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n164.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n124/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n124.jpg",
+        "exwb": "davidson-s44#A8",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "ואני הנני ממטיר על־הארץ ארבעים יום וארבעים לילה ומחיתי את־כל אשר עשיתי מעל פני האדמה",
+      "stimulusIsScript": true,
+      "options": [
+        "Thus saith Yahweh to these bones, Behold, I will cause breath to enter into you, and ye shall live.",
+        "The stone which the builders rejected is become the head of the corner.",
+        "And I, behold, I will cause it to rain upon the earth forty days and forty nights, and I will blot out every thing that I have made from off the face of the ground.",
+        "I have been young and now am old: yet have I not seen the righteous forsaken, nor his seed seeking bread."
+      ],
+      "answer": "And I, behold, I will cause it to rain upon the earth forty days and forty nights, and I will blot out every thing that I have made from off the face of the ground.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "hint": "With vowel points: וַאֲנִי הִנְנִי מַמְטִיר עַל־הָאָרֶץ אַרְבָּעִים יוֹם וְאַרְבָּעִים לַיְלָה וּמָחִיתִי אֶת־כָּל־אֲשֶׁר עָשִׂיתִי מֵעַל פְּנֵי הָאֲדָמָה",
+      "data": {
+        "pointed": "וַאֲנִי הִנְנִי מַמְטִיר עַל־הָאָרֶץ אַרְבָּעִים יוֹם וְאַרְבָּעִים לַיְלָה וּמָחִיתִי אֶת־כָּל־אֲשֶׁר עָשִׂיתִי מֵעַל פְּנֵי הָאֲדָמָה"
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §44 A 9; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n164/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n164.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n124/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n124.jpg",
+        "exwb": "davidson-s44#A9",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "נער הייתי גם־זקנתי ולא ראיתי צדיק נעזב וזרעו מבקש־לחם",
+      "stimulusIsScript": true,
+      "options": [
+        "The stone which the builders rejected is become the head of the corner.",
+        "I will not again smite any more every living thing, as I have done.",
+        "O that I had water to drink!",
+        "I have been young and now am old: yet have I not seen the righteous forsaken, nor his seed seeking bread."
+      ],
+      "answer": "I have been young and now am old: yet have I not seen the righteous forsaken, nor his seed seeking bread.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "hint": "With vowel points: נַעַר הָיִיתִי גַּם־זָקַנְתִּי וְלֹא רָאִיתִי צַדִּיק נֶעֱזָב וְזַרְעוֹ מְבַקֶּשׁ־לָחֶם",
+      "data": {
+        "pointed": "נַעַר הָיִיתִי גַּם־זָקַנְתִּי וְלֹא רָאִיתִי צַדִּיק נֶעֱזָב וְזַרְעוֹ מְבַקֶּשׁ־לָחֶם"
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §44 A 10; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n164/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n164.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n124/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n124.jpg",
+        "exwb": "davidson-s44#A10",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "Behold, thy maid is in thy (f.) hand, do to her the (thing) good in thine eyes.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הִנֵּה שִׁפְחָתֵךְ בְּיָדֵךְ עֲשִׂי־לָהּ הַטּוֹב בְּעֵינָיִךְ"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §44 B 1; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n164/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n164.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n124/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n124.jpg",
+        "exwb": "davidson-s44#B1",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "And they left off building the city.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיַּחְדְּלוּ לִבְנֹת הָעִיר"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §44 B 2; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n164/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n164.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n124/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n124.jpg",
+        "exwb": "davidson-s44#B2",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "I am not able to do (any)thing until thou come thither.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "לֹא אוּכַל לַעֲשׂוֹת דָּבָר עַד־בֹּאֲךָ שָׁמָּה"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §44 B 3; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n164/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n164.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n124/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n124.jpg",
+        "exwb": "davidson-s44#B3",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "And the waters increased very (much), and the heads of the mountains were covered.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיִּרְבּוּ הַמַּיִם מְאֹד וַיְכֻסּוּ רָאשֵׁי הֶהָרִים"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §44 B 4; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n164/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n164.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n124/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n124.jpg",
+        "exwb": "davidson-s44#B4",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "I have commanded thee not to eat of the tree which is in the midst of the garden, lest thou die.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "צִוִּיתִיךָ לְבִלְתִּי אֲכָל מִן־הָעֵץ אֲשֶׁר בְּתוֹךְ הַגָּן פֶּן־תָּמוּת"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §44 B 5; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n164/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n164.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n124/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n124.jpg",
+        "exwb": "davidson-s44#B5",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "For thou, Yahweh of hosts, God of Israel, hast opened the ear of thy servant saying, A house will I build for thee.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "כִּי־אַתָּה יְהוָה צְבָאוֹת אֱלֹהֵי יִשְׂרָאֵל גָּלִיתָה אֶת־אֹזֶן עַבְדְּךָ לֵאמֹר בַּיִת אֶבְנֶה־לָּךְ"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §44 B 6; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n164/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n164.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n124/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n124.jpg",
+        "exwb": "davidson-s44#B6",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "And he said unto the children of Israel, (At)-evening (acc.) then (waw. cons. pf.) shall ye know that Yahweh hath brought you out from the land of Egypt, and (in-the)-morning (acc.) then shall ye see his glory.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיֹּאמֶר אֶל־בְּנֵי יִשְׂרָאֵל עֶרֶב וִידַעְתֶּם כִּי יְהוָה הוֹצִיא אֶתְכֶם מֵאֶרֶץ מִצְרַיִם וּבֹקֶר וּרְאִיתֶם אֶת־כְּבוֹדוֹ"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §44 B 7; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n164/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n164.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n124/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n124.jpg",
+        "exwb": "davidson-s44#B7",
+        "note": "Transcribed by hand from the scans and checked against the Key."
       }
     }
   ]

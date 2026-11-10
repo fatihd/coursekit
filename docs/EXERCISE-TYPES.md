@@ -68,6 +68,7 @@ that spelling so each displayed left item has one unambiguous gloss.
 | `build-construct-chain` | Compose | Build a construct chain that translates a given English phrase (e.g., "the king of the land"). |
 | `parse-noun` | Classify | Choose a noun's gender and number from its pointed form (built from `gender`/`number`). |
 | `parse-verb` | Classify | Choose a verb's stem, conjugation, person, gender, and number from its form (built from `extra.parse`). |
+| `parse-form` | Classify (field by field) | Authored only (P9-T8): one dropdown per parse field (stem, form, person, gender, number, state, root); graded field by field against one or more accepted readings. |
 | `produce-form` | Compose | Reverse production: choose the plural of a noun, or the Hebrew form matching a `root + features` description (built from `extra.parse` + `root`). |
 
 ## 3. Type → plugin map (initial)
@@ -97,10 +98,15 @@ that spelling so each displayed left item has one unambiguous gloss.
   16) so parsing follows the grammar sequence. Exercised by `scripts/e2e.py
   courses/biblical-hebrew-davidson --units 30`.
 
+- P9-T8 (2026-11-10): `parse-form` registered (22 total) — authored-only parse drill
+  (`generate` returns nothing). It also introduced the optional `annotate` hook below.
+
 **Plugin contract note (P3-T4):** the contract now includes an optional
 `collect(node, item) -> answer` step so non-MCQ types can gather a structured answer
 (selections, text) before grading. `render` returns the input DOM; the drill view calls
-`collect` on "Check", then `grade`. Answer grading normalizes text via `util.js`
+`collect` on "Check", then `grade`. Optional `annotate(node, item, answer, result)` (P9-T8) is
+called right after `grade` to mark the answer in place (`parse-form` outlines each select green
+or red from `result.fields`). Answer grading normalizes text via `util.js`
 (`normalize`). Types that generate from the vocab pool (`mcq`, `match-by-line`,
 `translate-phrase`) are mixed into unit drill sessions by `engine/session.js`; the
 paradigm/verb-centric types are authored-only until P6 (instances promoted from
@@ -118,13 +124,24 @@ units), so it was removed from `buildSession` to avoid trivial one-column sorts.
   config + the student's known set. Output instance shape matches the authored shape, so
   the same `render`/`grade` applies.
 - **Session composition** (`engine/session.js` `buildSession`): spiral review items first,
-  then **authored items** (always present, never truncated), then generated fill up to the
+  then **authored items** (all of them, or a fresh random sample of
+  `features.authoredPerSession` when the course sets it), then generated fill up to the
   session target. `engine/main.js` fetches `authored/NN.json` and passes `options.authored`;
   units without an authored file keep generated-only behavior.
 - The raw workbook scaffolds in `exercises/NN.json` (`typeGuess`/`body_raw`/`answer_raw`)
-  are author-side coverage input, not runtime items. They are promoted to
+  are author-side coverage input, not runtime items. OCR-extracted scaffolds are promoted to
   `authored/NN.json` **by hand**, not mechanically, because their extracted text is
-  unreliable.
+  unreliable. The exception is Davidson: its exercises were transcribed and checked by hand in
+  exwb, so `build/exwb_to_authored.py` generates both files from that set (P9-T6; shapes in
+  `docs/DATA-MODEL.md` §4).
+- `mcq` (and the types that reuse its renderer) shows an item's optional `prompt` as an
+  instruction line above the stimulus.
+- **Hints and explanations (P9-T7).** Any authored item may carry `hint` and `explain`
+  (non-empty strings, in every item schema). `engine/views/drill.js` adds a "Show hint" button
+  under the exercise when `hint` is set (the text replaces the button; the button is disabled
+  once the answer is checked) and shows `explain` under the exercise together with the
+  right/wrong feedback. Both use `dir="auto"` so Hebrew-led text reads correctly. A hint does
+  not change scoring.
 
 ### Authored item shapes (per type)
 
@@ -137,6 +154,7 @@ units), so it was removed from `buildSession` to avoid trivial one-column sorts.
 | `translate-phrase` | `prompt, stimulus, stimulusIsScript, accepted[]` (`answerIsScript` optional → typed Hebrew, RTL input, niqqud-insensitive; `source` optional → scan links) |
 | `dictation` | `prompt, stimulus, stimulusIsScript, answer, transliteration` |
 | `paradigm-fill` | `prompt, rows[{label, answer, options[]}], isScript` |
+| `parse-form` | `prompt?, stimulus, stimulusIsScript, fields[{key, label, options[], isScript?}], readings[{field: value}]` — every select also offers "—" (not applicable); an answer is correct when it matches any reading, and a field a reading leaves out accepts any value; `grade` returns `fields{key: bool}` against the closest reading and `expected` = that reading + the fields to check |
 | `fill-blank-verse` | `prompt, before, after, options[], answer, isScript` (`blankLabel` optional) |
 
 Validation is enforced by `build/schemas/authored-exercises.json` via

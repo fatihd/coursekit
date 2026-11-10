@@ -40,7 +40,8 @@
     "diagnostics": true,              // record per-unit skills; show "Review Unit N" on errors
     "reviewWarmup": true,             // offer an optional warm-up from weak prior units
     "targetItems": 24,                // session size (default 14 when absent)
-    "reviewItems": 5                  // spiral/review items pulled to the front (default 2)
+    "reviewItems": 5,                 // spiral/review items pulled to the front (default 2)
+    "authoredPerSession": 10          // random sample of authored items per session (default all)
   }
 }
 ```
@@ -181,7 +182,48 @@ Two distinct artifacts exist; only one is consumed by the engine at runtime:
 Authored items must be hand-written and human-reviewed; the raw `body_raw`/`answer_raw`
 scaffolds are not mechanically promoted because their extracted text is unreliable.
 
-**OCR-derived items (Davidson, ADR-017).** `build/recover_davidson_exercises.py` emits
+**exwb-derived items (Davidson, P9-T6, current).** `build/exwb_to_authored.py --course
+courses/biblical-hebrew-davidson` turns the hand-checked exwb transcriptions
+(`exwb/curated/davidson-*.json`, held blocks skipped) into `authored/NN.json` and
+`exercises/NN.json` (scaffolds, `confidence: 1.0`). Units come from
+`build/_sources/davidson/exwb-units.json` (block → unit, with a reason per block). Each item
+keeps the engine shape of its type and adds:
+
+```jsonc
+{ "type": "parse-form", "prompt": "Parse this form", "stimulus": "אֶשְׁמֹר", "stimulusIsScript": true,
+  "fields": [ { "key": "stem", "label": "Stem", "options": ["Qal", "Niph'al", "…"] },
+              { "key": "form", "label": "Form", "options": ["perfect", "imperfect", "…"] },
+              { "key": "person", "label": "Person", "options": ["1", "2", "3"] },
+              { "key": "number", "label": "Number", "options": ["sing.", "plur.", "dual"] },
+              { "key": "root", "label": "Root", "options": ["שָׁמַר", "…"], "isScript": true } ],
+  "readings": [ { "person": "1", "number": "sing.", "form": "imperfect", "stem": "Qal",
+                  "root": "שָׁמַר" } ],  // all accepted parses (P9-T8)
+  "shape": "parse",            // en-he | he-en | parse | correct-pointing | he-form
+  "hint": "…", "explain": "…", // optional (schema: any item type, P9-T7); hint = shown on request
+                               // before answering, explain = shown with the feedback. Unpointed
+                               // prompts get "hint": "With vowel points: <pointed form>"
+  "data": { "parse": { "person": "1", "number": "sing.", "form": "imperfect", "stem": "Qal",
+                       "root": "שָׁמַר" } },          // optional, from exwb (P9-T8)
+  "source": { "citation": "Davidson … exercise §21 A L1; McFadyen, Key … (1924)",
+              "promptUrl": "…/page/n98/mode/1up", "answerUrl": "…/page/n46/mode/1up",
+              "promptImageUrl": "…", "answerImageUrl": "…",
+              "exwb": "davidson-s21#AL1", "note": "Transcribed by hand from the scans …" } }
+```
+
+`parse` items are `parse-form` drills (P9-T8): `readings` = exwb `data.parse` (closed fields only),
+with missing person/gender/number filled from the key's answer text ("2 or 3 plur. fem." → two
+readings), plus the key's alternative (`data.parse.alt`, parsed; it inherits root and stem, and
+gender/number/state when its form is the same). Fields shown = those any reading sets; root
+options = the item's root + three other roots of the block. `explain` = "Key: <answer>".
+`he-form` prompts ("זָכָר (male) → cstr. sing.") are split: the Hebrew word is the stimulus,
+the instruction names the form ("Choose the construct singular of this word (male)"), and the
+distractors are the word's other forms plus the word itself. `en-he` items are typed-Hebrew `translate-phrase` (`accepted` = the key's answer plus its
+"(or …)" / "X or Y" / "(in pause …)" variants); every other shape except `parse` is an `mcq` whose
+distractors are other answers of the same block and part (corrections also offer the
+mispointed form). Scan leaves are the block note's printed page + 19 (grammar) / + 15 (key).
+`--check` fails when the course files differ from what the generator would write.
+
+**OCR-derived items (Davidson, ADR-017; superseded by the exwb set above, kept for history).** `build/recover_davidson_exercises.py` emits
 Davidson-key `translate-phrase` items that are best-effort OCR, so each carries a `source`
 block instead of a hand-review guarantee:
 

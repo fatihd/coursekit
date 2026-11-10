@@ -109,6 +109,16 @@ score. Current yield: 380 pairs (67 ok, 43 weak, 270 suspect); ok/weak pairs emi
 placements across 32 units. The grammar's Hebrew prompts now use the same coordinate
 segmentation as the key's answers.
 
+**Course drills from exwb (2026-11-10, P9-T6) — current.** The OCR pairs above are no longer
+emitted. `python build/exwb_to_authored.py --course courses/biblical-hebrew-davidson` turns the
+hand-checked exwb transcriptions (`exwb/curated/`, 40 blocks / 1,138 items; held §1–5/7/9 skipped)
+into `authored/` + `exercises/` for 34 units, placed by `build/_sources/davidson/exwb-units.json`
+(a block goes to the unit teaching its topic, moved later when its sentences need later
+grammar: §47–§49 land in units 50/55 though comparison, numerals and particles are taught in
+units 14/19/20). Shapes: 427 typed English→Hebrew, 442 Hebrew→English choice, 181 parse choice,
+43 pointing corrections, 45 "give the form" choice; item format in `docs/DATA-MODEL.md` §4.
+The pairing and recovery scripts are report-only (`--write` retired).
+
 Run commands: `python build/inventory_davidson_exercises.py` (grammar blocks),
 `python build/inventory_davidson_answers.py` (key answers), and
 `python build/pair_davidson_exercises.py` (pairing + authored emission); add `--write` to emit.

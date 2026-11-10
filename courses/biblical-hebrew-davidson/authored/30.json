@@ -4,50 +4,410 @@
   "items": [
     {
       "type": "mcq",
-      "prompt": "Translate this Hebrew sentence into English",
-      "stimulus": "אָלהִים לפנִי גן",
+      "prompt": "Choose the translation",
+      "stimulus": "אַתָּה הִמְלַכְתָּ אֹתִי תַּחַת דָּוִד אָבִי",
       "stimulusIsScript": true,
       "options": [
-        "And God stationed the cherubim before the garden of Eden, to guard the way to the tree of lifc",
-        "Behold my face is against this people and I will destroy them from off the face of the ground",
-        "God set luminaries in the firmament of heaven, to divide the day from the night",
-        "And Is will assuredly hide my face on that day"
+        "Behold my face is against this people and I will destroy them from off the face of the ground.",
+        "Behold, his head will be thrown to thee over the wall.",
+        "And the firmament permanently divided the waters from the waters.",
+        "Thou hast made me king instead of David my father."
       ],
-      "answer": "And God stationed the cherubim before the garden of Eden, to guard the way to the tree of lifc",
+      "answer": "Thou hast made me king instead of David my father.",
       "optionIsScript": false,
+      "shape": "he-en",
       "source": {
-        "citation": "Davidson, Introductory Hebrew Grammar (22nd ed.) exercise on §27; Key to the Exercises (1924) §27",
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §27 A 1; McFadyen, Key to the Exercises (1924)",
         "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n116/mode/1up",
         "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n116.jpg",
         "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n65/mode/1up",
         "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n65.jpg",
-        "sanityScore": 0.3,
-        "sanity": "weak",
-        "note": "Read from the scans by OCR; open them if a reading looks wrong."
+        "exwb": "davidson-s27#A1",
+        "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
       "type": "mcq",
-      "prompt": "Translate this Hebrew sentence into English",
-      "stimulus": "הנה ראשו",
+      "prompt": "Choose the translation",
+      "stimulus": "הִנֵּה פָנַי בָּעָם הַזֶּה וְהִשְׁמַדְתִּי אֹתָם מֵעַל־פְּנֵי הָאֲדָמָה",
       "stimulusIsScript": true,
       "options": [
-        "Behold, his head will be thrown ® to thee over the wall",
-        "Behold my face is against this people and I will destroy them from off the face of the ground",
-        "And God stationed the cherubim before the garden of Eden, to guard the way to the tree of lifc",
-        "God set luminaries in the firmament of heaven, to divide the day from the night"
+        "And the firmament permanently divided the waters from the waters.",
+        "Behold my face is against this people and I will destroy them from off the face of the ground.",
+        "Hide not thy face from this people.",
+        "Behold, his head will be thrown to thee over the wall."
       ],
-      "answer": "Behold, his head will be thrown ® to thee over the wall",
+      "answer": "Behold my face is against this people and I will destroy them from off the face of the ground.",
       "optionIsScript": false,
+      "shape": "he-en",
       "source": {
-        "citation": "Davidson, Introductory Hebrew Grammar (22nd ed.) exercise on §27; Key to the Exercises (1924) §27",
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §27 A 2; McFadyen, Key to the Exercises (1924)",
         "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n116/mode/1up",
         "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n116.jpg",
         "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n65/mode/1up",
         "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n65.jpg",
-        "sanityScore": 0.33,
-        "sanity": "weak",
-        "note": "Read from the scans by OCR; open them if a reading looks wrong."
+        "exwb": "davidson-s27#A2",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיַּשְׁכֵּן אֱלֹהִים לִפְנֵי גַן עֵדֶן אֶת־הַכְּרֻבִים לִשְׁמֹר דֶּרֶךְ עֵץ הַחַיִּים",
+      "stimulusIsScript": true,
+      "options": [
+        "And God stationed the cherubim before the garden of Eden, to guard the way to the tree of life.",
+        "Hide not thy face from this people.",
+        "And Yahweh rained fire from heaven upon the city and destroyed it from off the face of the earth.",
+        "Thou hast made me king instead of David my father."
+      ],
+      "answer": "And God stationed the cherubim before the garden of Eden, to guard the way to the tree of life.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §27 A 3; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n116/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n116.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n65/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n65.jpg",
+        "exwb": "davidson-s27#A3",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "נָתַן אֱלֹהִים מְאֹרוֹת בִּרְקִיעַ הַשָּׁמַיִם לְהַבְדִּיל בֵּין הַיּוֹם וּבֵין הַלָּיְלָה",
+      "stimulusIsScript": true,
+      "options": [
+        "God set luminaries in the firmament of heaven, to divide the day from the night.",
+        "And they sent and called Jeroboam, and they made him king over Israel.",
+        "And I will assuredly hide my face on that day.",
+        "And Yahweh rained fire from heaven upon the city and destroyed it from off the face of the earth."
+      ],
+      "answer": "God set luminaries in the firmament of heaven, to divide the day from the night.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §27 A 4; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n116/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n116.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n65/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n65.jpg",
+        "exwb": "davidson-s27#A4",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וְאָנֹכִי הַסְתֵּר אַסְתִּיר פָּנַי בַּיּוֹם הַהוּא",
+      "stimulusIsScript": true,
+      "options": [
+        "Thou hast made me king instead of David my father.",
+        "God set luminaries in the firmament of heaven, to divide the day from the night.",
+        "Hide not thy face from this people.",
+        "And I will assuredly hide my face on that day."
+      ],
+      "answer": "And I will assuredly hide my face on that day.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §27 A 5; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n116/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n116.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n65/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n65.jpg",
+        "exwb": "davidson-s27#A5",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הִנֵּה רֹאשׁוֹ מֻשְׁלָךְ אֵלֶיךָ בְּעַד הַחוֹמָה",
+      "stimulusIsScript": true,
+      "options": [
+        "Behold, his head will be thrown to thee over the wall.",
+        "And the firmament permanently divided the waters from the waters.",
+        "And they sent and called Jeroboam, and they made him king over Israel.",
+        "And God stationed the cherubim before the garden of Eden, to guard the way to the tree of life."
+      ],
+      "answer": "Behold, his head will be thrown to thee over the wall.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §27 A 6; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n116/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n116.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n65/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n65.jpg",
+        "exwb": "davidson-s27#A6",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיִּשְׁלְחוּ וַיִּקְרְאוּ אֶת־יָרָבְעָם וַיַּמְלִיכוּ אֹתוֹ עַל־יִשְׂרָאֵל",
+      "stimulusIsScript": true,
+      "options": [
+        "And they sent and called Jeroboam, and they made him king over Israel.",
+        "And Yahweh rained fire from heaven upon the city and destroyed it from off the face of the earth.",
+        "Behold, his head will be thrown to thee over the wall.",
+        "God set luminaries in the firmament of heaven, to divide the day from the night."
+      ],
+      "answer": "And they sent and called Jeroboam, and they made him king over Israel.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §27 A 7; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n116/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n116.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n65/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n65.jpg",
+        "exwb": "davidson-s27#A7",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וְהָרָקִיעַ הָיָה מַבְדִּיל בֵּין מַיִם לָמָיִם",
+      "stimulusIsScript": true,
+      "options": [
+        "Hide not thy face from this people.",
+        "Behold my face is against this people and I will destroy them from off the face of the ground.",
+        "And the firmament permanently divided the waters from the waters.",
+        "And Yahweh rained fire from heaven upon the city and destroyed it from off the face of the earth."
+      ],
+      "answer": "And the firmament permanently divided the waters from the waters.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §27 A 8; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n116/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n116.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n65/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n65.jpg",
+        "exwb": "davidson-s27#A8",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אל־תסתר את־פניך מהעם הזה",
+      "stimulusIsScript": true,
+      "options": [
+        "Thou hast made me king instead of David my father.",
+        "And they sent and called Jeroboam, and they made him king over Israel.",
+        "And Yahweh rained fire from heaven upon the city and destroyed it from off the face of the earth.",
+        "Hide not thy face from this people."
+      ],
+      "answer": "Hide not thy face from this people.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "hint": "With vowel points: אַל־תַּסְתֵּר אֶת־פָּנֶיךָ מֵהָעָם הַזֶּה",
+      "data": {
+        "pointed": "אַל־תַּסְתֵּר אֶת־פָּנֶיךָ מֵהָעָם הַזֶּה"
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §27 A 9; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n116/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n116.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n65/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n65.jpg",
+        "exwb": "davidson-s27#A9",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וימטר יהוה על־העיר אש מן־השמים וישמד אותה מעל־פני האדמה",
+      "stimulusIsScript": true,
+      "options": [
+        "Thou hast made me king instead of David my father.",
+        "And Yahweh rained fire from heaven upon the city and destroyed it from off the face of the earth.",
+        "Behold, his head will be thrown to thee over the wall.",
+        "Hide not thy face from this people."
+      ],
+      "answer": "And Yahweh rained fire from heaven upon the city and destroyed it from off the face of the earth.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "hint": "With vowel points: וַיַּמְטֵר יְהוָה עַל־הָעִיר אֵשׁ מִן־הַשָּׁמַיִם וַיַּשְׁמֵד אוֹתָהּ מֵעַל־פְּנֵי הָאֲדָמָה",
+      "data": {
+        "pointed": "וַיַּמְטֵר יְהוָה עַל־הָעִיר אֵשׁ מִן־הַשָּׁמַיִם וַיַּשְׁמֵד אוֹתָהּ מֵעַל־פְּנֵי הָאֲדָמָה"
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §27 A 10; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n116/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n116.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n65/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n65.jpg",
+        "exwb": "davidson-s27#A10",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "There is a time to keep and a time to cast away.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "יֵשׁ־עֵת לִשְׁמֹר וְעֵת לְהַשְׁלִיךְ"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §27 B 1; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n116/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n116.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n65/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n65.jpg",
+        "exwb": "davidson-s27#B1",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "Justify not the wicked.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אַל־תַּצְדֵּק אֶת־הָרְשָׁעִים"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §27 B 2; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n116/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n116.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n65/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n65.jpg",
+        "exwb": "davidson-s27#B2",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "Let me hide my face from this evil people, for they have done-corruptly (Hiph.) before me upon the earth.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אַסְתִּירָה פָנַי מִן־הָעָם הָרַע הַזֶּה כִּי הִשְׁחִיתוּ לְפָנַי עַל־הָאָרֶץ"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §27 B 3; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n116/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n116.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n65/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n65.jpg",
+        "exwb": "davidson-s27#B3",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "The king said, Cast his head unto us over the wall; and they cast his head unto them.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אָמַר הַמֶּלֶךְ הַשְׁלִיכוּ אֶת־רֹאשׁוֹ אֵלֵינוּ בְּעַד הַחוֹמָה וַיַּשְׁלִיכוּ אֶת־רֹאשׁוֹ אֲלֵיהֶם"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §27 B 4; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n116/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n116.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n65/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n65.jpg",
+        "exwb": "davidson-s27#B4",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "For he will surely (inf. abs.) rain fire from heaven upon that evil city and will destroy it, and it shall not be remembered any more for ever.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "כִּי הַמְטֵר יַמְטִיר עַל־הָעִיר הָרָעָה הַהִיא אֵשׁ מִן־הַשָּׁמַיִם וְהִשְׁמִיד אֹתָהּ וְלֹא תִזָּכֵר עוֹד לְעוֹלָם"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §27 B 5; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n116/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n116.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n65/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n65.jpg",
+        "exwb": "davidson-s27#B5",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "The prophet found the child laid (Hoph. ptc. of שָׁכַב) upon his bed.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מָצָא הַנָּבִיא אֶת־הַיֶּלֶד מֻשְׁכָּב עַל־מִטָּתוֹ"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §27 B 6; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n116/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n116.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n65/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n65.jpg",
+        "exwb": "davidson-s27#B6",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "We went down unto the city to fight against it, but we could not destroy it.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "יָרַדְנוּ אֶל־הָעִיר לְהִלָּחֵם עָלֶיהָ וְלֹא יָכֹלְנוּ לְהַשְׁמִיד אֹתָהּ"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §27 B 7; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n116/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n116.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n65/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n65.jpg",
+        "exwb": "davidson-s27#B7",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "Reuben said, Spill not blood, cast him into this pit which (is) in the wilderness; and they stripped Joseph and cast him (into) the pit (acc., § 17. 3), and the pit (was) empty.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אָמַר רְאוּבֵן אַל־תִּשְׁפְּכוּ־דָם הַשְׁלִיכוּ אֹתוֹ אֶל־הַבּוֹר הַזֶּה אֲשֶׁר בַּמִּדְבָּר וַיַּפְשִׁיטוּ אֶת־יוֹסֵף וַיַּשְׁלִיכוּ אֹתוֹ הַבּוֹרָה וְהַבּוֹר רֵק"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §27 B 8; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n116/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n116.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n65/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n65.jpg",
+        "exwb": "davidson-s27#B8",
+        "note": "Transcribed by hand from the scans and checked against the Key."
       }
     }
   ]

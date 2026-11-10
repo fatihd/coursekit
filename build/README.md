@@ -18,7 +18,24 @@
 - `_raw/` — intermediate extracted text (gitignored).
 - `_sources/<book>/` — scan provenance (`SOURCES.md`, `manifest.json`); the scans themselves are
   downloaded with `python scripts/fetch-sources <book>` (git-ignored in the public repo).
-- `*davidson*.py`, `tess.py` — the earlier Davidson OCR/exercise-recovery pipeline (ADR-017/018).
+- `exwb_to_authored.py` — Davidson drills from the hand-checked exwb set: reads
+  `exwb/curated/davidson-*.json` + `_sources/davidson/exwb-units.json`, writes the course's
+  `authored/NN.json` + `exercises/NN.json` (`--check` to verify they are current; P9-T6).
+- `*davidson*.py`, `tess.py` — the earlier Davidson OCR/exercise-recovery pipeline (ADR-017/018);
+  report-only now (their `--write` is retired).
+
+## Run
+
+```bash
+python build/materialize.py --course courses/<course>   # content/ -> engine JSON
+python scripts/validate courses/<course>
+python build/textify.py --course courses/<course>       # engine JSON -> content/ (round-trip)
+python build/generate-lessons.py --course courses/<course>   # optional OER enrichment
+python build/exwb_to_authored.py --course courses/biblical-hebrew-davidson   # exwb exercises -> drills
+```
+
+Part 2 of the three-part split (AGENTS.md §2): authoring writes course data for the app; it
+never imports `exwb/` (it only reads the curated JSON files exwb exports).
 
 ## Status
 

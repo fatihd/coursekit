@@ -5,20 +5,299 @@
     {
       "unit": 27,
       "n": 1,
-      "typeGuess": "translate-phrase",
-      "confidence": 0.5,
-      "prompt": "Translate this English sentence into Hebrew",
-      "body_raw": "Yahweh is near to the broken of heart",
-      "answer_raw": "אלדי קרוב הוה לנשבּררלב"
+      "typeGuess": "parse-form",
+      "confidence": 1.0,
+      "prompt": "Parse this form",
+      "body_raw": "נִשְׁמָר",
+      "answer_raw": "sing. masc. ptc. Niph. of שׁמר; it might also be the pausal form of 3 sing. masc. pf. Niph. (נִשְׁמַר)"
     },
     {
       "unit": 27,
       "n": 2,
+      "typeGuess": "parse-form",
+      "confidence": 1.0,
+      "prompt": "Parse this form",
+      "body_raw": "הִשָּׁפֵט",
+      "answer_raw": "2 sing. masc. imperat. Niph. or cstr. inf. Niph. of שׁפט"
+    },
+    {
+      "unit": 27,
+      "n": 3,
+      "typeGuess": "parse-form",
+      "confidence": 1.0,
+      "prompt": "Parse this form",
+      "body_raw": "נִפְקַדְתֶּם",
+      "answer_raw": "2 plur. masc. pf. Niph. of פקד"
+    },
+    {
+      "unit": 27,
+      "n": 4,
+      "typeGuess": "parse-form",
+      "confidence": 1.0,
+      "prompt": "Parse this form",
+      "body_raw": "אֶשָּׁבֵר",
+      "answer_raw": "1 sing. impf. Niph. of שׁבר"
+    },
+    {
+      "unit": 27,
+      "n": 5,
+      "typeGuess": "parse-form",
+      "confidence": 1.0,
+      "prompt": "Parse this form",
+      "body_raw": "נִכְתְּבוּ",
+      "answer_raw": "3 plur. pf. Niph. of כתב"
+    },
+    {
+      "unit": 27,
+      "n": 6,
+      "typeGuess": "parse-form",
+      "confidence": 1.0,
+      "prompt": "Parse this form",
+      "body_raw": "נִשָּׁפְטָה",
+      "answer_raw": "1 plur. cohortative (§ 23. 1. 2) Niph. of שׁפט"
+    },
+    {
+      "unit": 27,
+      "n": 7,
+      "typeGuess": "parse-form",
+      "confidence": 1.0,
+      "prompt": "Parse this form",
+      "body_raw": "לְהִמָּלֵט",
+      "answer_raw": "cstr. inf. Niph. of מלט, with the prepos. לְ"
+    },
+    {
+      "unit": 27,
+      "n": 8,
+      "typeGuess": "parse-form",
+      "confidence": 1.0,
+      "prompt": "Parse this form",
+      "body_raw": "יִשָּׁקֵל",
+      "answer_raw": "3 sing. masc. impf. Niph. of שׁקל"
+    },
+    {
+      "unit": 27,
+      "n": 9,
+      "typeGuess": "parse-form",
+      "confidence": 1.0,
+      "prompt": "Parse this form",
+      "body_raw": "תִּלָּחֵם",
+      "answer_raw": "2 sing. masc. or 3 sing. fem. impf. Niph. of לחם"
+    },
+    {
+      "unit": 27,
+      "n": 10,
+      "typeGuess": "parse-form",
+      "confidence": 1.0,
+      "prompt": "Parse this form",
+      "body_raw": "נִלְחַמְתִּי",
+      "answer_raw": "1 sing. pf. Niph. of לחם"
+    },
+    {
+      "unit": 27,
+      "n": 11,
+      "typeGuess": "parse-form",
+      "confidence": 1.0,
+      "prompt": "Parse this form",
+      "body_raw": "תִּזָּכַרְנָה",
+      "answer_raw": "2 or 3 plur. fem. impf. Niph. of זכר"
+    },
+    {
+      "unit": 27,
+      "n": 12,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "הָרְשָׁעִים לֹא יִכָּתְבוּ בְּסֵפֶר חַיִּים",
+      "answer_raw": "The wicked shall not be written in the book of the living."
+    },
+    {
+      "unit": 27,
+      "n": 13,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "הַפַּח נִשְׁבָּר וַאֲנַחְנוּ נִמְלָטְנוּ",
+      "answer_raw": "The snare is broken, and, as for us, we are escaped."
+    },
+    {
+      "unit": 27,
+      "n": 14,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "וַתִּשָּׁחֵת הָאָרֶץ לִפְנֵי אֱלֹהִים וַתִּמָּלֵא הָאָרֶץ חָמָס",
+      "answer_raw": "And the earth was corrupted before God, and the earth was filled with violence."
+    },
+    {
+      "unit": 27,
+      "n": 15,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "שֹׁפֵךְ דַּם הָאָדָם בָּאָדָם דָּמוֹ יִשָּׁפֵךְ",
+      "answer_raw": "He that sheddeth man's blood, by man shall his blood be shed."
+    },
+    {
+      "unit": 27,
+      "n": 16,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "וַיִּגְדַּל הַיֶּלֶד וַיִּגָּמַל",
+      "answer_raw": "And the child grew and was weaned."
+    },
+    {
+      "unit": 27,
+      "n": 17,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "נִגְרַשְׁתִּי הַיּוֹם מֵעַל פְּנֵי הָאֲדָמָה וּמִפָּנֶיךָ אֶסָּתֵר",
+      "answer_raw": "I have been driven out this day from the face of the ground, and from thy face shall I be hidden."
+    },
+    {
+      "unit": 27,
+      "n": 18,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "וַיִּנָּחֶם יהוה כִּי עָשָׂה אֶת־הָאָדָם בָּאָרֶץ",
+      "answer_raw": "And Yahweh repented that he had made man on the earth."
+    },
+    {
+      "unit": 27,
+      "n": 19,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "לֹא יִכָּרֵת עוֹד כָּל־בָּשָׂר מִמֵּי הַמַּבּוּל",
+      "answer_raw": "Never again shall all flesh be cut off by the waters of the flood."
+    },
+    {
+      "unit": 27,
+      "n": 20,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "בָּא הָאֹיֵב אֶל־הָעִיר וְלֹא יָכֹל לְהִלָּחֵם עָלֶיהָ",
+      "answer_raw": "The enemy came to the city, but he was not able to fight against it."
+    },
+    {
+      "unit": 27,
+      "n": 21,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "ותשרף העיר באש",
+      "answer_raw": "And the city was burned with fire."
+    },
+    {
+      "unit": 27,
+      "n": 22,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "השמר לך פן־תכרת ברית ליושב הארץ ולקחת מבנותיו לבניך",
+      "answer_raw": "Beware lest thou make a covenant with the inhabitants of the land and take of their daughters for thy sons."
+    },
+    {
+      "unit": 27,
+      "n": 23,
       "typeGuess": "translate-phrase",
-      "confidence": 0.5,
-      "prompt": "Translate this English sentence into Hebrew",
-      "body_raw": "The arms of the wicked shall be broken",
-      "answer_raw": "רשעים צדִיקים את חיים"
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "Yahweh is near to the broken of heart.",
+      "answer_raw": "קָרוֹב יְהוָה לְנִשְׁבְּרֵי־לֵב"
+    },
+    {
+      "unit": 27,
+      "n": 24,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "I am hidden from the face of my God.",
+      "answer_raw": "נִסְתַּרְתִּי מִפְּנֵי אֱלֹהָי"
+    },
+    {
+      "unit": 27,
+      "n": 25,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "Hide thyself from his face.",
+      "answer_raw": "הִסָּתֵר מִפָּנָיו"
+    },
+    {
+      "unit": 27,
+      "n": 26,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "Ye shall hide yourselves on that day.",
+      "answer_raw": "תִּסָּתְרוּ בַּיּוֹם הַהוּא"
+    },
+    {
+      "unit": 27,
+      "n": 27,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "And the earth was corrupted, and all flesh was cut off by the waters of the flood.",
+      "answer_raw": "וַתִּשָּׁחֵת הָאָרֶץ וַיִּכָּרֵת כָּל־בָּשָׂר מִמֵּי הַמַּבּוּל"
+    },
+    {
+      "unit": 27,
+      "n": 28,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "The arms of the wicked shall be broken.",
+      "answer_raw": "זְרֹעוֹת הָרְשָׁעִים תִּשָּׁבַרְנָה"
+    },
+    {
+      "unit": 27,
+      "n": 29,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "Let me escape in the day of fighting (inf. cons.).",
+      "answer_raw": "אִמָּלְטָה בְּיוֹם הִלָּחֵם"
+    },
+    {
+      "unit": 27,
+      "n": 30,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "And the earth was filled with blood (acc.).",
+      "answer_raw": "וַתִּמָּלֵא הָאָרֶץ דָּמִים"
+    },
+    {
+      "unit": 27,
+      "n": 31,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "His dead was buried out of his sight.",
+      "answer_raw": "נִקְבַּר מֵתוֹ מִלְּפָנָיו"
+    },
+    {
+      "unit": 27,
+      "n": 32,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "Thus saith (perf.) Yahweh the God of Israel: Behold I give (ptc.) this city into the hand of the king of Babylon and he shall burn it with fire, and thou shalt not escape from his hand, but thou shalt be captured and given into his hand.",
+      "answer_raw": "כֹּה אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל הִנְנִי נֹתֵן אֶת־הָעִיר הַזֹּאת בְּיַד מֶלֶךְ־בָּבֶל וְשָׂרְפָהּ בָּאֵשׁ וְאַתָּה לֹא תִמָּלֵט מִיָּדוֹ כִּי תִלָּכֵד וְנִתַּתָּ בְיָדוֹ"
+    },
+    {
+      "unit": 27,
+      "n": 33,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "Trust in Yahweh with all thy heart, and lean not unto (אֶל־) thine own understanding.",
+      "answer_raw": "בְּטַח בַּיהוָה בְּכָל־לִבְּךָ וְאַל־תִּשָּׁעֵן אֶל־בִּינָתְךָ"
     }
   ]
 }

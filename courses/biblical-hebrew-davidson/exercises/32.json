@@ -5,11 +5,659 @@
     {
       "unit": 32,
       "n": 1,
+      "typeGuess": "parse-form",
+      "confidence": 1.0,
+      "prompt": "Parse this form",
+      "body_raw": "כָּתַבְתִּי",
+      "answer_raw": "1 sing. pf. Qal of כתב"
+    },
+    {
+      "unit": 32,
+      "n": 2,
+      "typeGuess": "parse-form",
+      "confidence": 1.0,
+      "prompt": "Parse this form",
+      "body_raw": "כֹּתְבִים",
+      "answer_raw": "plur. masc. abs. act. ptc. Qal of כתב"
+    },
+    {
+      "unit": 32,
+      "n": 3,
+      "typeGuess": "parse-form",
+      "confidence": 1.0,
+      "prompt": "Parse this form",
+      "body_raw": "כְּתוּבִים",
+      "answer_raw": "plur. masc. abs. pass. ptc. Qal of כתב (also the Hebrew name of the 'Writings')"
+    },
+    {
+      "unit": 32,
+      "n": 4,
+      "typeGuess": "parse-form",
+      "confidence": 1.0,
+      "prompt": "Parse this form",
+      "body_raw": "תִּכְתֹּב",
+      "answer_raw": "2 sing. masc. or 3 sing. fem. impf. Qal of כתב"
+    },
+    {
+      "unit": 32,
+      "n": 5,
+      "typeGuess": "parse-form",
+      "confidence": 1.0,
+      "prompt": "Parse this form",
+      "body_raw": "יִכָּתֵב",
+      "answer_raw": "3 sing. masc. impf. Niph. of כתב"
+    },
+    {
+      "unit": 32,
+      "n": 6,
+      "typeGuess": "parse-form",
+      "confidence": 1.0,
+      "prompt": "Parse this form",
+      "body_raw": "שְׁמֹר",
+      "answer_raw": "inf. cstr. or 2 sing. masc. imperat. Qal of שׁמר"
+    },
+    {
+      "unit": 32,
+      "n": 7,
+      "typeGuess": "parse-form",
+      "confidence": 1.0,
+      "prompt": "Parse this form",
+      "body_raw": "נִשְׁמָר",
+      "answer_raw": "sing. masc. abs. ptc. Niph. of שׁמר (or pausal form of the 3 sing. masc. pf. Niph.)"
+    },
+    {
+      "unit": 32,
+      "n": 8,
+      "typeGuess": "parse-form",
+      "confidence": 1.0,
+      "prompt": "Parse this form",
+      "body_raw": "נִשְׁמֹר",
+      "answer_raw": "1 plur. impf. Qal or inf. abs. Niph. of שׁמר"
+    },
+    {
+      "unit": 32,
+      "n": 9,
+      "typeGuess": "parse-form",
+      "confidence": 1.0,
+      "prompt": "Parse this form",
+      "body_raw": "הִשָּׁמֵר",
+      "answer_raw": "2 sing. masc. imperat. (or inf. cstr.) Niph. of שׁמר"
+    },
+    {
+      "unit": 32,
+      "n": 10,
+      "typeGuess": "parse-form",
+      "confidence": 1.0,
+      "prompt": "Parse this form",
+      "body_raw": "מְשַׁמֵּר",
+      "answer_raw": "sing. masc. abs. or cstr. ptc. Pi. of שׁמר"
+    },
+    {
+      "unit": 32,
+      "n": 11,
+      "typeGuess": "parse-form",
+      "confidence": 1.0,
+      "prompt": "Parse this form",
+      "body_raw": "יְרַדֵּף",
+      "answer_raw": "3 sing. masc. impf. Pi. of רדף"
+    },
+    {
+      "unit": 32,
+      "n": 12,
+      "typeGuess": "parse-form",
+      "confidence": 1.0,
+      "prompt": "Parse this form",
+      "body_raw": "אֶשְׁבֹּר",
+      "answer_raw": "1 sing. impf. Qal of שׁבר"
+    },
+    {
+      "unit": 32,
+      "n": 13,
+      "typeGuess": "parse-form",
+      "confidence": 1.0,
+      "prompt": "Parse this form",
+      "body_raw": "אֲשַׁבֵּר",
+      "answer_raw": "1 sing. impf. Pi. of שׁבר"
+    },
+    {
+      "unit": 32,
+      "n": 14,
+      "typeGuess": "parse-form",
+      "confidence": 1.0,
+      "prompt": "Parse this form",
+      "body_raw": "מַזְכִּיר",
+      "answer_raw": "sing. masc. abs. or cstr. ptc. Hiph. of זכר"
+    },
+    {
+      "unit": 32,
+      "n": 15,
+      "typeGuess": "parse-form",
+      "confidence": 1.0,
+      "prompt": "Parse this form",
+      "body_raw": "הַמְשֵׁל",
+      "answer_raw": "inf. abs. or 2 sing. masc. imperat. Hiph. of משׁל"
+    },
+    {
+      "unit": 32,
+      "n": 16,
+      "typeGuess": "parse-form",
+      "confidence": 1.0,
+      "prompt": "Parse this form",
+      "body_raw": "רֻדַּף",
+      "answer_raw": "3 sing. masc. pf. Pu. of רדף"
+    },
+    {
+      "unit": 32,
+      "n": 17,
+      "typeGuess": "parse-form",
+      "confidence": 1.0,
+      "prompt": "Parse this form",
+      "body_raw": "הָשְׁבַּר",
+      "answer_raw": "3 sing. masc. pf. Hoph. of שׁבר"
+    },
+    {
+      "unit": 32,
+      "n": 18,
+      "typeGuess": "parse-form",
+      "confidence": 1.0,
+      "prompt": "Parse this form",
+      "body_raw": "זָכוֹר",
+      "answer_raw": "inf. abs. Qal of זכר"
+    },
+    {
+      "unit": 32,
+      "n": 19,
+      "typeGuess": "parse-form",
+      "confidence": 1.0,
+      "prompt": "Parse this form",
+      "body_raw": "תַּמְשִׁילוּ",
+      "answer_raw": "2 plur. masc. impf. Hiph. of משׁל"
+    },
+    {
+      "unit": 32,
+      "n": 20,
+      "typeGuess": "parse-form",
+      "confidence": 1.0,
+      "prompt": "Parse this form",
+      "body_raw": "תִּשְׁקְלִי",
+      "answer_raw": "2 sing. fem. impf. Qal of שׁקל"
+    },
+    {
+      "unit": 32,
+      "n": 21,
+      "typeGuess": "parse-form",
+      "confidence": 1.0,
+      "prompt": "Parse this form",
+      "body_raw": "שְׁקֹל",
+      "answer_raw": "inf. cstr. or 2 sing. masc. imperat. Qal of שׁקל"
+    },
+    {
+      "unit": 32,
+      "n": 22,
+      "typeGuess": "parse-form",
+      "confidence": 1.0,
+      "prompt": "Parse this form",
+      "body_raw": "שְׁכַב",
+      "answer_raw": "2 sing. masc. imperat. Qal of שׁכב (may also be inf. cstr. Qal)"
+    },
+    {
+      "unit": 32,
+      "n": 23,
+      "typeGuess": "parse-form",
+      "confidence": 1.0,
+      "prompt": "Parse this form",
+      "body_raw": "מֹלֶכֶת",
+      "answer_raw": "sing. fem. abs. or cstr. act. ptc. Qal of מלך"
+    },
+    {
+      "unit": 32,
+      "n": 24,
+      "typeGuess": "parse-form",
+      "confidence": 1.0,
+      "prompt": "Parse this form",
+      "body_raw": "יַמְטִיר",
+      "answer_raw": "3 sing. masc. impf. Hiph. of מטר"
+    },
+    {
+      "unit": 32,
+      "n": 25,
+      "typeGuess": "parse-form",
+      "confidence": 1.0,
+      "prompt": "Parse this form",
+      "body_raw": "יַפְקֵד",
+      "answer_raw": "3 sing. masc. jussive Hiph. of פקד"
+    },
+    {
+      "unit": 32,
+      "n": 26,
+      "typeGuess": "parse-form",
+      "confidence": 1.0,
+      "prompt": "Parse this form",
+      "body_raw": "מִסְתַּתֵּר",
+      "answer_raw": "sing. masc. abs. or cstr. ptc. Hithpa. of סתר"
+    },
+    {
+      "unit": 32,
+      "n": 27,
+      "typeGuess": "parse-form",
+      "confidence": 1.0,
+      "prompt": "Parse this form",
+      "body_raw": "יִקְדַּשׁ",
+      "answer_raw": "3 sing. masc. impf. Qal of קדשׁ"
+    },
+    {
+      "unit": 32,
+      "n": 28,
+      "typeGuess": "parse-form",
+      "confidence": 1.0,
+      "prompt": "Parse this form",
+      "body_raw": "תִּלְבַּשְׁנָה",
+      "answer_raw": "2 or 3 plur. fem. impf. Qal of לבשׁ"
+    },
+    {
+      "unit": 32,
+      "n": 29,
+      "typeGuess": "parse-form",
+      "confidence": 1.0,
+      "prompt": "Parse this form",
+      "body_raw": "תִּזָּכַרְנָה",
+      "answer_raw": "2 or 3 plur. fem. impf. Niph. of זכר"
+    },
+    {
+      "unit": 32,
+      "n": 30,
       "typeGuess": "mcq",
-      "confidence": 0.5,
-      "prompt": "Translate this Hebrew sentence into English",
-      "body_raw": "הַשָמִיִם מִסַפְּרִים כְּבוּד",
-      "answer_raw": "The heavens are telling\" the glory of God"
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "וַיִּבְרָא אֱלֹהִים אֶת־הָאָדָם בְּצַלְמוֹ",
+      "answer_raw": "And God created man in his (own) image."
+    },
+    {
+      "unit": 32,
+      "n": 31,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "לֹא דְרָכַי דַּרְכֵיכֶם",
+      "answer_raw": "Your ways are not my ways."
+    },
+    {
+      "unit": 32,
+      "n": 32,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "וְעַתָּה יוֹשֵׁב יְרוּשָׁלַםִ וְאִישׁ יְהוּדָה שִׁפְטוּ־נָא בֵּינִי וּבֵין כַּרְמִי",
+      "answer_raw": "And now, ye inhabitants of Jerusalem and ye men of Judah, judge, I pray you, between me and my vineyard."
+    },
+    {
+      "unit": 32,
+      "n": 33,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "וַיַּסְתִּרוּ אֶת־הַיֶּלֶד וְאֶת־מֵינִקְתּוֹ מִפְּנֵי הַמַּלְכָּה",
+      "answer_raw": "And they hid the child and his nurse from the face of the queen."
+    },
+    {
+      "unit": 32,
+      "n": 34,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "נֵר לְרַגְלִי דְבָרֶךָ וְאוֹר לִנְתִיבָתִי",
+      "answer_raw": "Thy word is a lamp to my foot and a light to my path."
+    },
+    {
+      "unit": 32,
+      "n": 35,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "הַשְׁמֵן לֵב־הָעָם הַזֶּה וְאָזְנָיו הַכְבֵּד",
+      "answer_raw": "Make fat the heart of this people and make heavy their ears."
+    },
+    {
+      "unit": 32,
+      "n": 36,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "וּרְחֹבוֹת הָעִיר יִמָּלְאוּ יְלָדִים וִילָדוֹת",
+      "answer_raw": "And the broad open places of the city shall be filled with boys and girls."
+    },
+    {
+      "unit": 32,
+      "n": 37,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "פני יהוה ברשעים להכרית מהארץ זכרם",
+      "answer_raw": "The face of Yahweh is against the wicked, to cut off the remembrance of them from the earth."
+    },
+    {
+      "unit": 32,
+      "n": 38,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "כספך וזהבך לא חפצתי",
+      "answer_raw": "Thy silver and gold I do not delight in."
+    },
+    {
+      "unit": 32,
+      "n": 39,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "My king",
+      "answer_raw": "מַלְכִּי"
+    },
+    {
+      "unit": 32,
+      "n": 40,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "Our kings",
+      "answer_raw": "מְלָכֵינוּ"
+    },
+    {
+      "unit": 32,
+      "n": 41,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "His books",
+      "answer_raw": "סְפָרָיו"
+    },
+    {
+      "unit": 32,
+      "n": 42,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "Her righteousness",
+      "answer_raw": "צִדְקָתָהּ"
+    },
+    {
+      "unit": 32,
+      "n": 43,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "Our knees (du.)",
+      "answer_raw": "בִּרְכֵּינוּ"
+    },
+    {
+      "unit": 32,
+      "n": 44,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "Thy feet (du.)",
+      "answer_raw": "(m.) רַגְלֶיךָ or (f.) רַגְלַיִךְ"
+    },
+    {
+      "unit": 32,
+      "n": 45,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "Our horn",
+      "answer_raw": "קַרְנֵנוּ"
+    },
+    {
+      "unit": 32,
+      "n": 46,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "Their silver",
+      "answer_raw": "כַּסְפָּם"
+    },
+    {
+      "unit": 32,
+      "n": 47,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "My way is hid (perf. fem.) from my God.",
+      "answer_raw": "נִסְתְּרָה דַרְכִּי מֵאֱלֹהָי"
+    },
+    {
+      "unit": 32,
+      "n": 48,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "For all flesh had corrupted his way upon the earth.",
+      "answer_raw": "כִּי הִשְׁחִית כָּל־בָּשָׂר אֶת־דַּרְכּוֹ עַל־הָאָרֶץ"
+    },
+    {
+      "unit": 32,
+      "n": 49,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "Their ways are not our ways.",
+      "answer_raw": "לֹא דַרְכֵינוּ דַּרְכֵיהֶם"
+    },
+    {
+      "unit": 32,
+      "n": 50,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "And all the people bowed-down upon their knees before their king.",
+      "answer_raw": "וַיִּכְרַע כָּל־הָעָם עַל־בִּרְכָּיו לִפְנֵי הַמֶּלֶךְ"
+    },
+    {
+      "unit": 32,
+      "n": 51,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "Let thine hand-maid speak in the ears of the king.",
+      "answer_raw": "תְּדַבֶּר־נָא שִׁפְחָתְךָ בְּאָזְנֵי הַמֶּלֶךְ"
+    },
+    {
+      "unit": 32,
+      "n": 52,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "My God and my king reigns upon Zion his holy hill.",
+      "answer_raw": "מָלַךְ אֱלֹהַי וּמַלְכִּי עַל־צִיּוֹן הַר קָדְשׁוֹ"
+    },
+    {
+      "unit": 32,
+      "n": 53,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "My mantle",
+      "answer_raw": "אַדַּרְתִּי"
+    },
+    {
+      "unit": 32,
+      "n": 54,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "Her mistress",
+      "answer_raw": "גְּבִרְתָּהּ"
+    },
+    {
+      "unit": 32,
+      "n": 55,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "His kingdom is an everlasting kingdom (k. of eternity).",
+      "answer_raw": "מַלְכוּתוֹ מַמְלֶכֶת עוֹלָם"
+    },
+    {
+      "unit": 32,
+      "n": 56,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "I will cut off their bow and all their weapons of warfare.",
+      "answer_raw": "אַכְרִית קַשְׁתָּם וְכָל־כְּלֵי מִלְחַמְתָּם"
+    },
+    {
+      "unit": 32,
+      "n": 57,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "אָכְלוּ בְנֵי־יִשְׂרָאֵל אֶת־הַפֶּסַח מָתְנֵיהֶם חֲגֻרִים נַעֲלֵיהֶם בְּרַגְלֵיהֶם וּמַקְלָם בְּיָדָם",
+      "answer_raw": "The Israelites ate the passover with their loins girt, their sandals on their feet, and their staff in their hand."
+    },
+    {
+      "unit": 32,
+      "n": 58,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "עָשָׂה מַלְכְּכֶם חֶסֶד עִם־מַלְכֵּנוּ וְעִם כֹּהֲנֵינוּ וְעִם־נְבִיאֵינוּ",
+      "answer_raw": "Their king dealt kindly with our king, our priests, and our prophets."
+    },
+    {
+      "unit": 32,
+      "n": 59,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "שִׁלַּחְתִּי אֶת־אֹיְבִי וַיִּמָּלֵט",
+      "answer_raw": "I let mine enemy go and he escaped."
+    },
+    {
+      "unit": 32,
+      "n": 60,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "מֵת אֹיִבְךָ הַמְבַקֵּשׁ אֶת־נַפְשֶׁךָ",
+      "answer_raw": "Thine enemy is dead who sought thy life."
+    },
+    {
+      "unit": 32,
+      "n": 61,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "וְהָלְכוּ יוֹשְׁבֵי הָאָרֶץ כַּעִוְרִים וְשֻׁפַּךְ דָּמָם כֶּעָפָר",
+      "answer_raw": "And the inhabitants of the land shall go (i.e. walk) like blind men, and their blood shall be poured out like dust."
+    },
+    {
+      "unit": 32,
+      "n": 62,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "בני אתה",
+      "answer_raw": "Thou art my son."
+    },
+    {
+      "unit": 32,
+      "n": 63,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "אתם בני",
+      "answer_raw": "Ye are my sons."
+    },
+    {
+      "unit": 32,
+      "n": 64,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "לא־אדבר עוד בשמו",
+      "answer_raw": "I will speak no more in his name."
+    },
+    {
+      "unit": 32,
+      "n": 65,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Choose the translation",
+      "body_raw": "ולקחתם את־מקלכם בידכם",
+      "answer_raw": "And ye shall take your staff in your hand."
+    },
+    {
+      "unit": 32,
+      "n": 66,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "This (is) my son and these (are) my son's sons.",
+      "answer_raw": "זֶה בְּנִי וְאֵלֶּה בְּנֵי בְנִי"
+    },
+    {
+      "unit": 32,
+      "n": 67,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "He sent the frogs upon all the land.",
+      "answer_raw": "שִׁלַּח אֶת־הַצְפַרְדְּעִים עַל־כָּל־הָאָרֶץ"
+    },
+    {
+      "unit": 32,
+      "n": 68,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "All his prophets are dumb dogs, they cannot bark.",
+      "answer_raw": "כָּל־נְבִיאָיו כְּלָבִים אִלְּמִים לֹא יָכְלוּ לִנְבֹּחַ"
+    },
+    {
+      "unit": 32,
+      "n": 69,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "In Jerusalem is my holy throne.",
+      "answer_raw": "בִּירוּשָׁלַםִ כִּסֵּא קָדְשִׁי"
+    },
+    {
+      "unit": 32,
+      "n": 70,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "We took our staves in our hand.",
+      "answer_raw": "לָקַחְנוּ אֶת־מַקְלֵנוּ בְּיָדֵנוּ"
+    },
+    {
+      "unit": 32,
+      "n": 71,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "Our enemies dealt kindly with our children.",
+      "answer_raw": "עָשׂוּ אֹיְבֵינוּ חֶסֶד עִם־בָּנֵינוּ"
+    },
+    {
+      "unit": 32,
+      "n": 72,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "These are the statutes and the judgments which ye shall keep in the land whither ye (are) crossing, thou and thy son and thy son's son.",
+      "answer_raw": "אֵלֶּה הַחֻקִּים וְהַמִּשְׁפָּטִים אֲשֶׁר תִּשְׁמְרוּ בָּאָרֶץ אֲשֶׁר אַתֶּם עֹבְרִים שָׁמָּה אַתָּה וּבִנְךָ וּבֶן־בִּנְךָ"
+    },
+    {
+      "unit": 32,
+      "n": 73,
+      "typeGuess": "translate-phrase",
+      "confidence": 1.0,
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "Their land swarmed-with frogs (acc.) in the chambers of their kings.",
+      "answer_raw": "שָׁרְצָה אַרְצָם צְפַרְדְּעִים בְּחַדְרֵי מַלְכֵיהֶם"
     }
   ]
 }

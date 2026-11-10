@@ -27,6 +27,19 @@ function renderSource(source) {
   return box;
 }
 
+function renderHint(text) {
+  const box = el("div", "drill-tip");
+  const toggle = el("button", "drill-tip-toggle", "Show hint");
+  toggle.type = "button";
+  toggle.addEventListener("click", () => {
+    const body = el("p", "drill-tip-text", text);
+    body.dir = "auto";
+    box.replaceChildren(body);
+  });
+  box.appendChild(toggle);
+  return box;
+}
+
 function focusFirst(container) {
   const input = container.querySelector(".ex-text, .hebrew-input");
   if (input) {
@@ -109,6 +122,8 @@ export function renderDrill(root, ctx) {
     const node = type.render(item, { course });
     stage.appendChild(node);
 
+    if (item.hint) stage.appendChild(renderHint(item.hint));
+
     if (item.source && (item.source.promptUrl || item.source.answerUrl)) {
       stage.appendChild(renderSource(item.source));
     }
@@ -123,6 +138,7 @@ export function renderDrill(root, ctx) {
       }
 
       const result = type.grade(item, answer);
+      if (type.annotate) type.annotate(node, item, answer, result);
       if (result.correct) correctCount += 1;
       detail.push({ unit: item.sourceUnit || unit.n, correct: result.correct });
 
@@ -138,6 +154,12 @@ export function renderDrill(root, ctx) {
           result.correct ? "Correct!" : `Not quite — answer: ${result.expected}`,
         ),
       );
+      if (item.explain) {
+        const explain = el("p", "drill-explain", item.explain);
+        explain.dir = "auto";
+        const source = stage.querySelector(".drill-source");
+        stage.insertBefore(explain, source);
+      }
       if (!result.correct && features.diagnostics) {
         const srcUnit = item.sourceUnit || unit.n;
         const review = el("button", "back", `Review Unit ${srcUnit} — ${unitTitle(course, srcUnit)}`);

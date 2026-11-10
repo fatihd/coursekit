@@ -15,7 +15,14 @@ body { margin: 0; background: var(--bg); color: var(--ink); font: 1rem/1.5 syste
 button, input, select { font: inherit; }
 .roadmap-header h1 { margin: 0 0 0.25rem; }
 .roadmap-stats, .lesson-desc, .drill-progress { color: var(--muted); }
-.sync, .drill-feedback { display: flex; align-items: center; gap: 0.75rem; margin: 1rem 0; }
+.sync, .ex-parse-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr)); gap: 0.6rem 1rem; }
+.ex-parse-field { display: flex; flex-direction: column; gap: 0.2rem; font-size: 0.9rem; color: var(--muted); }
+.ex-select--ok { outline: 2px solid #3f8f4f; }
+.ex-select--no { outline: 2px solid #c0392b; }
+.drill-tip { margin: 0.75rem 0 0; }
+.drill-tip-toggle { background: none; border: 1px dashed var(--muted); border-radius: 6px; padding: 0.3rem 0.7rem; color: var(--accent); cursor: pointer; font: inherit; font-size: 0.9rem; }
+.drill-tip-text, .drill-explain { margin: 0.75rem 0 0; padding: 0.5rem 0.75rem; border-left: 3px solid var(--accent); background: rgba(127, 127, 127, 0.08); font-size: 0.95rem; }
+.drill-feedback { display: flex; align-items: center; gap: 0.75rem; margin: 1rem 0; }
 .part { margin: 2rem 0; }
 .part h2 { color: var(--muted); border-bottom: 1px solid #ddd6ca; padding-bottom: 0.4rem; }
 .roadmap { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 0.6rem; }
@@ -45,6 +52,7 @@ button, input, select { font: inherit; }
 .table-caption { margin: 0 0 0.4rem; color: var(--muted); font-style: italic; }
 .gate { margin: 2rem 0; padding-top: 1rem; border-top: 1px solid #ddd6ca; }
 .gate-btn { padding: 0.65rem 1rem; border: 0; border-radius: 7px; background: var(--accent); color: white; cursor: pointer; }
+.ex-instruction { margin: 0 0 0.5rem; color: var(--muted); font-size: 0.95rem; }
 .ex-prompt { display: flex; align-items: center; min-height: 3rem; margin: 0 0 1rem; padding: 0.65rem 0.9rem; border-radius: 8px; background: #eee8de; font-size: 1.1rem; }
 .ex-prompt-text { margin-left: 0.5rem; font-size: 0.95rem; color: var(--muted); }
 .ex-options { display: grid; grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr)); gap: 0.6rem; }

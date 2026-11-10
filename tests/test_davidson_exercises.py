@@ -1,9 +1,9 @@
-"""Provenance and shape checks for Davidson OCR exercise inventories.
+"""Provenance and shape checks for the Davidson exercises.
 
-These exercises are OCR-derived from the 1924 *Key to the Exercises*; the test
-guards the structural guarantees we can promise (all detected exercise blocks,
-scan provenance, and answer-number order) rather than the OCR text itself, which
-is best-effort and links back to the original scans.
+The OCR inventories (grammar, Key, pairs) are best-effort build artifacts; the
+course drills come from the hand-checked exwb set (`exwb/curated/`) through
+`build/exwb_to_authored.py` (ROADMAP P9-T6), mapped to units by
+`build/_sources/davidson/exwb-units.json`.
 """
 
 import json
@@ -11,15 +11,9 @@ import unittest
 from pathlib import Path
 
 COURSE = Path("courses/biblical-hebrew-davidson")
+CURATED = Path("exwb/curated")
+UNIT_MAP = Path("build/_sources/davidson/exwb-units.json")
 AUTHORED = COURSE / "authored"
-CHAPTERS = COURSE / "content" / "chapters"
-
-
-def _chapter_sections(unit: int) -> set[int]:
-    text = (CHAPTERS / f"{unit:02d}.md").read_text(encoding="utf-8")
-    import re
-
-    return {int(n) for n in re.findall(r"\u00a7+\s*(\d{1,2})", text)}
 
 
 class DavidsonExercisesTests(unittest.TestCase):
@@ -30,29 +24,30 @@ class DavidsonExercisesTests(unittest.TestCase):
     def test_has_recovered_exercises(self):
         self.assertGreater(len(self.files), 10)
 
-    def test_inventory_record_count_matches_emitted_items(self):
-        emitted = sum(
-            len(json.loads(path.read_text(encoding="utf-8"))["items"])
-            for path in self.files
+    def test_emitted_items_are_the_unheld_curated_items(self):
+        unit_map = json.loads(UNIT_MAP.read_text(encoding="utf-8"))
+        held = set(unit_map["held"])
+        curated = {
+            p.stem: len(json.loads(p.read_text(encoding="utf-8"))["items"])
+            for p in CURATED.glob("davidson-*.json")
+        }
+        refs = []
+        for path in self.files:
+            for item in json.loads(path.read_text(encoding="utf-8"))["items"]:
+                refs.append(item["source"]["exwb"])
+        self.assertEqual(len(refs), len(set(refs)))
+        self.assertEqual(len(refs), sum(n for stem, n in curated.items() if stem not in held))
+        self.assertFalse({r.split("#")[0] for r in refs} & held)
+
+    def test_generated_files_are_up_to_date(self):
+        import subprocess
+        import sys
+
+        r = subprocess.run(
+            [sys.executable, "build/exwb_to_authored.py", "--course", str(COURSE), "--check"],
+            capture_output=True, text=True,
         )
-        inventory = json.loads(
-            (Path("build/_sources/davidson") / "exercise-inventory.json").read_text(
-                encoding="utf-8"
-            )
-        )
-        pairs = json.loads(
-            (Path("build/_sources/davidson") / "pair-inventory.json").read_text(
-                encoding="utf-8"
-            )
-        )
-        self.assertEqual(inventory["stats"]["candidateRecords"], inventory["stats"]["records"])
-        self.assertGreaterEqual(inventory["stats"]["records"], 80)
-        # The emitted authored items are the ok/weak pair placements.
-        emitted_pairs = sum(
-            1 for record in pairs["pairs"] if record["sanity"] != "suspect"
-        )
-        self.assertGreaterEqual(emitted, emitted_pairs)
-        self.assertGreater(emitted, 100)
+        self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
 
     def test_each_item_has_scan_provenance(self):
         for path in self.files:
@@ -74,27 +69,29 @@ class DavidsonExercisesTests(unittest.TestCase):
                 with self.subTest(file=path.name):
                     self.assertIn(
                         item["type"],
-                        ("translate-phrase", "mcq", "translit-normalize"),
+                        ("translate-phrase", "mcq", "translit-normalize", "parse-form"),
                     )
                     if item["type"] == "translate-phrase":
                         self.assertTrue(item["accepted"])
                     elif item["type"] == "mcq":
                         self.assertGreaterEqual(len(item["options"]), 2)
+                    elif item["type"] == "parse-form":
+                        self.assertTrue(item["readings"])
+                        options = {f["key"]: f["options"] for f in item["fields"]}
+                        for reading in item["readings"]:
+                            for key, value in reading.items():
+                                self.assertIn(value, options.get(key, []), key)
                     else:
                         self.assertTrue(item["answer"])
 
-    def test_unit_maps_to_a_cited_section(self):
-        # Every unit that carries recovered items must cite a Davidson § whose
-        # exercise produced them. (Sections were matched, so a unit's section
-        # must appear in its chapter's Source block.)
+    def test_items_sit_in_their_mapped_unit(self):
+        blocks = json.loads(UNIT_MAP.read_text(encoding="utf-8"))["blocks"]
         for path in self.files:
             unit = int(path.stem)
-            data = json.loads(path.read_text(encoding="utf-8"))
-            cited = _chapter_sections(unit)
-            for item in data["items"]:
-                section = _section_of(item)
-                with self.subTest(file=path.name, section=section):
-                    self.assertIn(section, cited, f"§{section} not cited by unit {unit}")
+            for item in json.loads(path.read_text(encoding="utf-8"))["items"]:
+                stem = item["source"]["exwb"].split("#")[0]
+                with self.subTest(file=path.name, block=stem):
+                    self.assertEqual(blocks[stem]["unit"], unit)
 
     def test_full_grammar_inventory_has_every_detected_exercise_block(self):
         inventory = json.loads(
@@ -181,7 +178,7 @@ class DavidsonExercisesTests(unittest.TestCase):
         self.assertGreaterEqual(len(numbers), 6)
         self.assertTrue(all(1 <= number <= 12 for number in numbers))
 
-    def test_pairing_sanity_gates_emission(self):
+    def test_pair_inventory_records_are_well_formed(self):
         pairs = json.loads(
             (Path("build/_sources/davidson") / "pair-inventory.json").read_text(
                 encoding="utf-8"
@@ -197,17 +194,6 @@ class DavidsonExercisesTests(unittest.TestCase):
                 self.assertIn(record["sanity"], ("ok", "weak", "suspect"))
                 self.assertGreater(record["promptLeaf"], 0)
                 self.assertGreater(record["answerLeaf"], 0)
-        emitted = 0
-        for path in self.files:
-            data = json.loads(path.read_text(encoding="utf-8"))
-            for item in data["items"]:
-                source = item["source"]
-                self.assertIn(source["sanity"], ("ok", "weak"), path.name)
-                self.assertIn("sanityScore", source)
-                self.assertTrue(source["promptUrl"].startswith("https://archive.org/details/"))
-                self.assertTrue(source["answerUrl"].startswith("https://archive.org/details/"))
-                emitted += 1
-        self.assertGreater(emitted, 100)
 
     def test_answer_source_url_uses_the_item_leaf(self):
         import re
@@ -221,15 +207,6 @@ class DavidsonExercisesTests(unittest.TestCase):
                     self.assertIsNotNone(answer_leaf)
                     self.assertIsNotNone(prompt_leaf)
                     self.assertGreater(int(answer_leaf.group(1)), 0)
-
-
-def _section_of(item: dict) -> int:
-    import re
-
-    citation = item["source"]["citation"]
-    match = re.search(r"exercise on \u00a7(\d{1,2})", citation)
-    assert match, citation
-    return int(match.group(1))
 
 
 if __name__ == "__main__":
