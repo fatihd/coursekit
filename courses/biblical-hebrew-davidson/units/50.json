@@ -3,8 +3,30 @@
   "unit": 50,
   "title": "Verb Review and Reading",
   "description": "Consolidate the verb system in short phrases.",
-  "teaches": [],
-  "assumes": [],
+  "teaches": [
+    "he-dav-13-034",
+    "he-dav-10-046",
+    "he-dav-10-057",
+    "he-dav-09-066",
+    "he-dav-09-097",
+    "he-dav-10-044",
+    "he-dav-09-053",
+    "he-dav-20-004",
+    "he-dav-54-001",
+    "he-dav-09-120"
+  ],
+  "assumes": [
+    "he-dav-13-020",
+    "he-dav-10-033",
+    "he-dav-10-066",
+    "he-dav-09-061",
+    "he-dav-09-080",
+    "he-dav-10-047",
+    "he-dav-09-041",
+    "he-dav-09-042",
+    "he-dav-10-073",
+    "he-dav-13-027"
+  ],
   "blocks": [
     {
       "type": "prose",
@@ -53,7 +75,18 @@
     },
     {
       "type": "vocab",
-      "refs": []
+      "refs": [
+        "he-dav-13-034",
+        "he-dav-10-046",
+        "he-dav-10-057",
+        "he-dav-09-066",
+        "he-dav-09-097",
+        "he-dav-10-044",
+        "he-dav-09-053",
+        "he-dav-20-004",
+        "he-dav-54-001",
+        "he-dav-09-120"
+      ]
     }
   ],
   "didYouKnow": ""

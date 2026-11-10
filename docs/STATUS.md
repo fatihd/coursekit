@@ -18,6 +18,6 @@
 ## Open items
 
 - R3/R4 human review: Davidson Units 21–22 and a sample of OER units.
-- P9-T11 pointing in typed answers (parked until the backlog is done); P9-T9 deferred indefinitely.
+- Deferred (user, 2026-11-10): P9-T11 pointing in typed answers, P9-T9 reading exercises.
 - Parked (user, 2026-11-10): P11 Greek, P10-T10 Cloudflare Pages mirror.
 - Bundled Hebrew font still deferred.

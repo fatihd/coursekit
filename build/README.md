@@ -21,6 +21,11 @@
 - `exwb_to_authored.py` — Davidson drills from the hand-checked exwb set: reads
   `exwb/curated/davidson-*.json` + `_sources/davidson/exwb-units.json`, writes the course's
   `authored/NN.json` + `exercises/NN.json` (`--check` to verify they are current; P9-T6).
+- `rebalance_vocab.py` — spreads a course's words evenly over its units (Davidson: `--layout
+  _sources/davidson/vocab-layout.json`, pinned ids + topic units); rewrites the `unit` column of
+  `content/vocab.csv` and the chapters' Vocabulary/Teaches/Assumes lists; `--recount _oer/morphhb/books`
+  refills `frequency` from OSHB; `--check` verifies (P9-T12). Do not run `generate-lessons.py` on Davidson:
+  it predates the hand-edited chapters and would re-add old tables.
 - `*davidson*.py`, `tess.py` — the earlier Davidson OCR/exercise-recovery pipeline (ADR-017/018);
   report-only now (their `--write` is retired).
 
@@ -32,6 +37,7 @@ python scripts/validate courses/<course>
 python build/textify.py --course courses/<course>       # engine JSON -> content/ (round-trip)
 python build/generate-lessons.py --course courses/<course>   # optional OER enrichment
 python build/exwb_to_authored.py --course courses/biblical-hebrew-davidson   # exwb exercises -> drills
+python build/rebalance_vocab.py --course courses/biblical-hebrew-davidson --layout build/_sources/davidson/vocab-layout.json
 ```
 
 Part 2 of the three-part split (AGENTS.md §2): authoring writes course data for the app; it

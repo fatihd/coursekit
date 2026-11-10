@@ -3,8 +3,30 @@
   "unit": 49,
   "title": "Form Production",
   "description": "Produce verb forms from root, stem, and features.",
-  "teaches": [],
-  "assumes": [],
+  "teaches": [
+    "he-dav-13-020",
+    "he-dav-10-033",
+    "he-dav-10-066",
+    "he-dav-09-061",
+    "he-dav-09-080",
+    "he-dav-10-047",
+    "he-dav-09-041",
+    "he-dav-09-042",
+    "he-dav-10-073",
+    "he-dav-13-027"
+  ],
+  "assumes": [
+    "he-dav-09-111",
+    "he-dav-09-035",
+    "he-dav-09-048",
+    "he-dav-10-041",
+    "he-dav-09-065",
+    "he-dav-10-080",
+    "he-dav-09-101",
+    "he-dav-09-052",
+    "he-dav-10-070",
+    "he-dav-09-038"
+  ],
   "blocks": [
     {
       "type": "prose",
@@ -43,7 +65,18 @@
     },
     {
       "type": "vocab",
-      "refs": []
+      "refs": [
+        "he-dav-13-020",
+        "he-dav-10-033",
+        "he-dav-10-066",
+        "he-dav-09-061",
+        "he-dav-09-080",
+        "he-dav-10-047",
+        "he-dav-09-041",
+        "he-dav-09-042",
+        "he-dav-10-073",
+        "he-dav-13-027"
+      ]
     }
   ],
   "didYouKnow": ""

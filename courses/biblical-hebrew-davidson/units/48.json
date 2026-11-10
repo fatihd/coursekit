@@ -3,8 +3,30 @@
   "unit": 48,
   "title": "Complete Parsing",
   "description": "Parse verbs fully by root, stem, conjugation, and person.",
-  "teaches": [],
-  "assumes": [],
+  "teaches": [
+    "he-dav-09-111",
+    "he-dav-09-035",
+    "he-dav-09-048",
+    "he-dav-10-041",
+    "he-dav-09-065",
+    "he-dav-10-080",
+    "he-dav-09-101",
+    "he-dav-09-052",
+    "he-dav-10-070",
+    "he-dav-09-038"
+  ],
+  "assumes": [
+    "he-dav-13-017",
+    "he-dav-13-025",
+    "he-dav-09-015",
+    "he-dav-10-024",
+    "he-dav-09-071",
+    "he-dav-13-013",
+    "he-dav-10-027",
+    "he-dav-10-069",
+    "he-dav-09-063",
+    "he-dav-09-096"
+  ],
   "blocks": [
     {
       "type": "prose",
@@ -48,7 +70,18 @@
     },
     {
       "type": "vocab",
-      "refs": []
+      "refs": [
+        "he-dav-09-111",
+        "he-dav-09-035",
+        "he-dav-09-048",
+        "he-dav-10-041",
+        "he-dav-09-065",
+        "he-dav-10-080",
+        "he-dav-09-101",
+        "he-dav-09-052",
+        "he-dav-10-070",
+        "he-dav-09-038"
+      ]
     }
   ],
   "didYouKnow": ""

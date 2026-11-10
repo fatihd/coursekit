@@ -3,8 +3,32 @@
   "unit": 24,
   "title": "Weqatal",
   "description": "Read the waw-consecutive perfect in continuing sequences.",
-  "teaches": [],
-  "assumes": [],
+  "teaches": [
+    "he-dav-15-001",
+    "he-dav-10-008",
+    "he-dav-20-003",
+    "he-dav-18-009",
+    "he-dav-18-014",
+    "he-dav-09-010",
+    "he-dav-19-024",
+    "he-dav-19-025",
+    "he-dav-19-026",
+    "he-dav-19-027",
+    "he-dav-19-028"
+  ],
+  "assumes": [
+    "he-dav-51-013",
+    "he-dav-51-006",
+    "he-dav-13-012",
+    "he-dav-18-011",
+    "he-dav-56-003",
+    "he-dav-51-009",
+    "he-dav-19-019",
+    "he-dav-19-020",
+    "he-dav-19-021",
+    "he-dav-19-022",
+    "he-dav-19-023"
+  ],
   "blocks": [
     {
       "type": "prose",
@@ -43,7 +67,19 @@
     },
     {
       "type": "vocab",
-      "refs": []
+      "refs": [
+        "he-dav-15-001",
+        "he-dav-10-008",
+        "he-dav-20-003",
+        "he-dav-18-009",
+        "he-dav-18-014",
+        "he-dav-09-010",
+        "he-dav-19-024",
+        "he-dav-19-025",
+        "he-dav-19-026",
+        "he-dav-19-027",
+        "he-dav-19-028"
+      ]
     }
   ],
   "didYouKnow": ""

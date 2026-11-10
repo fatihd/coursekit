@@ -1,4 +1,6 @@
 import csv
+import subprocess
+import sys
 import unittest
 from pathlib import Path
 
@@ -26,10 +28,34 @@ class DavidsonContentTests(unittest.TestCase):
                 self.assertTrue(forms.issubset({row["scriptForm"] for row in rows}))
                 self.assertGreaterEqual(sum(bool(row["plural"]) for row in rows), 2)
 
+    def test_numerals_unit_teaches_the_core_numerals(self):
+        core = {item["gloss"] for item in self.items
+                if int(item["unit"]) == 19 and item["category"] == "numeral"}
+        for gloss in ("one", "two", "three", "four", "five", "six", "seven", "eight",
+                      "nine", "ten", "hundred", "thousand"):
+            with self.subTest(gloss=gloss):
+                self.assertIn(gloss, core)
+
+    def test_vocabulary_is_spread_evenly(self):
+        counts = {}
+        for item in self.items:
+            counts[int(item["unit"])] = counts.get(int(item["unit"]), 0) + 1
+        for unit in range(9, 57):
+            with self.subTest(unit=unit):
+                self.assertTrue(8 <= counts.get(unit, 0) <= 16, counts.get(unit, 0))
+
+    def test_vocabulary_layout_is_up_to_date(self):
+        result = subprocess.run(
+            [sys.executable, "build/rebalance_vocab.py", "--course", str(COURSE),
+             "--layout", "build/_sources/davidson/vocab-layout.json", "--check"],
+            capture_output=True, text=True,
+        )
+        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+
     def test_numerals_cover_gendered_11_to_19_and_feminine_ordinals(self):
         numerals = [
             item for item in self.items
-            if int(item["unit"]) == 19 and item["category"] == "numeral"
+            if 19 <= int(item["unit"]) <= 35 and item["category"] == "numeral"
         ]
         gloss_gender = {(item["gloss"], item["gender"]) for item in numerals}
         numbers = {

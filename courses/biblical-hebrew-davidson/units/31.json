@@ -3,12 +3,31 @@
   "unit": 31,
   "title": "Hophal",
   "description": "Learn the Hophal stem, the passive of Hiphil.",
-  "teaches": [],
+  "teaches": [
+    "he-dav-10-060",
+    "he-dav-20-002",
+    "he-dav-10-025",
+    "he-dav-09-040",
+    "he-dav-44-015",
+    "he-dav-10-001",
+    "he-dav-19-055",
+    "he-dav-19-056",
+    "he-dav-19-058",
+    "he-dav-19-059",
+    "he-dav-19-060"
+  ],
   "assumes": [
-    "he-dav-30-001",
+    "he-dav-13-019",
+    "he-dav-17-004",
+    "he-dav-44-008",
     "he-dav-30-002",
+    "he-dav-30-001",
     "he-dav-30-003",
-    "he-dav-30-004"
+    "he-dav-21-018",
+    "he-dav-30-004",
+    "he-dav-19-052",
+    "he-dav-19-053",
+    "he-dav-19-054"
   ],
   "blocks": [
     {
@@ -48,7 +67,19 @@
     },
     {
       "type": "vocab",
-      "refs": []
+      "refs": [
+        "he-dav-10-060",
+        "he-dav-20-002",
+        "he-dav-10-025",
+        "he-dav-09-040",
+        "he-dav-44-015",
+        "he-dav-10-001",
+        "he-dav-19-055",
+        "he-dav-19-056",
+        "he-dav-19-058",
+        "he-dav-19-059",
+        "he-dav-19-060"
+      ]
     }
   ],
   "didYouKnow": ""

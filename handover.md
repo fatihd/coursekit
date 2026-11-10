@@ -25,5 +25,7 @@
 - 2026-11-10: wrong-answer feedback fixed — the "Review Unit …" link sat in the same grid cell as the red
   "Not quite — answer: …" line and covered it; it now has its own row (`--authored` checks no overlap at 1000/400 px).
   P11 Greek and the Cloudflare mirror (P10-T10) parked (user, 2026-11-10).
-- Next up: backlog done(ish) — P9-T11 pointing in typed answers (highlight missing/wrong niqqud in red, maybe
-  compulsory pointing for some exercises) is the open candidate; P11 Greek, P10-T10 Cloudflare mirror and P9-T9 parked/deferred.
+- 2026-11-10: P9-T11 deferred (user). P9-T12 done — Davidson vocabulary even (units 9–56: 10–15 words, were 0–113):
+  `build/rebalance_vocab.py --layout build/_sources/davidson/vocab-layout.json` (`--recount build/_oer/morphhb/books`
+  refilled `frequency` from OSHB). `generate-lessons.py` is stale for Davidson — do not run it.
+- Next up: nothing queued; P9-T9, P9-T11, P10-T10 and P11 are deferred/parked (user, 2026-11-10).

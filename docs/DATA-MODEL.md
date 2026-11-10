@@ -72,7 +72,7 @@ which source columns map to which fields for a language (see §7).
   "gloss": "brother",               // clean English translation (no gender/number suffix)
   "gender": "m",                    // m | f | c (common) | null  (parsed from "(m.s.)" etc.)
   "number": "s",                    // s | p | d (dual) | null
-  "frequency": 629,                  // biblical frequency (optional)
+  "frequency": 629,                  // biblical frequency (optional; Davidson: OSHB count by Strong's number)
   "root": null,                     // optional (Hebrew 3-letter root)
   "extra": {                         // per-language extras; see §7 column maps
     // verbs with a stem: "binyan": "Qal"

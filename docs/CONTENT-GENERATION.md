@@ -117,6 +117,13 @@ into `authored/` + `exercises/` for 34 units, placed by `build/_sources/davidson
 grammar: §47–§49 land in units 50/55 though comparison, numerals and particles are taught in
 units 14/19/20). Shapes: 427 typed English→Hebrew, 442 Hebrew→English choice, 181 parse choice,
 43 pointing corrections, 45 "give the form" choice; item format in `docs/DATA-MODEL.md` §4.
+
+**Vocabulary layout (2026-11-10, P9-T12).** `build/rebalance_vocab.py --course courses/biblical-hebrew-davidson
+--layout build/_sources/davidson/vocab-layout.json` sets the unit of every word: units 9–56 get about the same
+number (10–15); a word used in a unit's drills is taught there or earlier; pinned ids stay put; topic words (a verb
+class, the numerals) start at their topic unit and overflow at most half of the following units; frequent words
+first. `--recount build/_oer/morphhb/books` refills `frequency` from OSHB (Strong's-number counts; one-letter
+prefixes from OSHB's prefix codes). Ids never change, so saved progress stays valid. Then run `materialize.py`.
 The pairing and recovery scripts are report-only (`--write` retired).
 
 Run commands: `python build/inventory_davidson_exercises.py` (grammar blocks),

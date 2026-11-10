@@ -4,17 +4,32 @@
   "title": "Pe-Nun Verbs",
   "description": "Track the weak first radical nun and its changes.",
   "teaches": [
-    "he-dav-33-001",
-    "he-dav-33-002",
-    "he-dav-33-003",
-    "he-dav-33-004",
     "he-dav-33-005",
+    "he-dav-33-003",
+    "he-dav-33-001",
+    "he-dav-21-025",
+    "he-dav-21-009",
     "he-dav-33-006",
     "he-dav-33-007",
+    "he-dav-33-002",
+    "he-dav-33-009",
     "he-dav-33-008",
-    "he-dav-33-009"
+    "he-dav-19-066",
+    "he-dav-19-067"
   ],
-  "assumes": [],
+  "assumes": [
+    "he-dav-10-029",
+    "he-dav-09-110",
+    "he-dav-10-051",
+    "he-dav-10-040",
+    "he-dav-09-108",
+    "he-dav-09-069",
+    "he-dav-19-061",
+    "he-dav-19-062",
+    "he-dav-19-063",
+    "he-dav-19-064",
+    "he-dav-19-065"
+  ],
   "blocks": [
     {
       "type": "prose",
@@ -59,15 +74,18 @@
     {
       "type": "vocab",
       "refs": [
-        "he-dav-33-001",
-        "he-dav-33-002",
-        "he-dav-33-003",
-        "he-dav-33-004",
         "he-dav-33-005",
+        "he-dav-33-003",
+        "he-dav-33-001",
+        "he-dav-21-025",
+        "he-dav-21-009",
         "he-dav-33-006",
         "he-dav-33-007",
+        "he-dav-33-002",
+        "he-dav-33-009",
         "he-dav-33-008",
-        "he-dav-33-009"
+        "he-dav-19-066",
+        "he-dav-19-067"
       ]
     }
   ],
