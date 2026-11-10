@@ -20,5 +20,10 @@
   "give the form" items fixed (Hebrew-only stimulus, sibling-form distractors).
 - 2026-11-10: P9-T8 done — `parse-form` exercise type (field-by-field parse drill, red/green selects) for the
   181 Davidson parse items.
-- Next up: P9-T9, P9-T10 (ROADMAP). Later (user, 2026-11-10): pointing in typed answers —
-  highlight missing/wrong niqqud in red, maybe compulsory pointing for some exercises; raise when the backlog is done.
+- 2026-11-10: pushed to public `coursekit` (0f45c23, deploy green, live e2e PASS). P9-T9 deferred indefinitely.
+  P9-T10 done (unread scan extras untracked + ignored; `EXERCISES-REPORT.md` removed).
+- 2026-11-10: wrong-answer feedback fixed — the "Review Unit …" link sat in the same grid cell as the red
+  "Not quite — answer: …" line and covered it; it now has its own row (`--authored` checks no overlap at 1000/400 px).
+  P11 Greek and the Cloudflare mirror (P10-T10) parked (user, 2026-11-10).
+- Next up: backlog done(ish) — P9-T11 pointing in typed answers (highlight missing/wrong niqqud in red, maybe
+  compulsory pointing for some exercises) is the open candidate; P11 Greek, P10-T10 Cloudflare mirror and P9-T9 parked/deferred.

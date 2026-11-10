@@ -77,8 +77,8 @@ not modify or reuse the other courses.
 | P9-T6 | Wire exwb exercises into the Davidson course | ✅ Done 2026-11-10: `build/exwb_to_authored.py` (map `build/_sources/davidson/exwb-units.json`); 1,138 items in 34 units, 10 sampled per session. `exwb export --all` output (40 blocks / 1,138 items; held §1–5/7/9 excluded) becomes `courses/biblical-hebrew-davidson/authored/*` via a build step, mapped to units by 22nd-ed. section (after P9-T5b) | `scripts/validate` green; `scripts/e2e.py courses/biblical-hebrew-davidson --authored` drives at least one item per exwb block shape |
 | P9-T7 | Show `hint` / `explain` in the drill | ✅ Done 2026-11-10: "Show hint" button + explanation with feedback; 65 Davidson items hint the pointed form, 13 carry explanations. Authored-exercise schema gains optional `hint` (shown before answering, on request) and `explain` (shown with feedback); engine renders both | `--authored` e2e asserts a hint opens before answering and an explanation appears with feedback; `docs/EXERCISE-TYPES.md` + `docs/DATA-MODEL.md` updated |
 | P9-T8 | Parse lists → parse drills | ✅ Done 2026-11-10: new authored type `parse-form` (dropdown per field, accepted readings incl. the key's alternatives, wrong fields outlined red); 181 Davidson items. exwb `data.parse` (person/gender/number/form/stem/state/root/suffix) feeds `parse-verb`/`parse-noun` items instead of free-text answers | A parse-list item grades field by field in e2e |
-| P9-T9 | Reading exercises (later) | The held §1–5/7/9 blocks (transliteration/syllable/reading) get a reading exercise type; until then they stay held | Out of scope until a reading type is designed (`exwb/EXEMPTIONS.md`) |
-| P9-T10 | Repo hygiene (private hub) | Remove the staged redundant OCR files (`build/_sources/davidson/*.gz` duplicates, the ~13–22 MB `*_hocr.html`) and the stale root `EXERCISES-REPORT.md`, or move them out of git | `git ls-files build/_sources` lists only inputs the build/exwb actually read |
+| P9-T9 | Reading exercises (later) | ⏸ Deferred indefinitely (user, 2026-11-10); the held blocks stay in exwb. The held §1–5/7/9 blocks (transliteration/syllable/reading) get a reading exercise type; until then they stay held | Out of scope until a reading type is designed (`exwb/EXEMPTIONS.md`) |
+| P9-T10 | Repo hygiene (private hub) | ✅ Done 2026-11-10: unread archive.org extras untracked + git-ignored (still on disk, re-fetchable with `fetch-sources --all`), `EXERCISES-REPORT.md` removed; `tests/test_layout.py` keeps the extras out of git. Remove the staged redundant OCR files (`build/_sources/davidson/*.gz` duplicates, the ~13–22 MB `*_hocr.html`) and the stale root `EXERCISES-REPORT.md`, or move them out of git | `git ls-files build/_sources` lists only inputs the build/exwb actually read |
 | P9-T11 | Pointing in typed Hebrew answers (parked 2026-11-10; raise after the current backlog) | Grading stays niqqud-insensitive by default; feedback highlights missing or wrong vowel points in red; optional per-item `pointingRequired` for exercises where pointing is the skill (open question: which ones) | e2e: a correct-consonant answer with a wrong vowel shows the highlight; a `pointingRequired` item marks it wrong |
 
 ---
@@ -102,6 +102,7 @@ all source PDFs stay in a private repository. Decision record: ADR-020.
 | P10-T7 | Docs scrub | Public docs describe only the open courses; private passages in hub docs sit in `<!-- private -->` blocks (dropped by the snapshot) with `<!-- public` replacements; private-only docs/ADRs are denied; root `README.md` for the public repo | ✅ Done 2026-11-09: snapshot `public-audit` PASS (0 problems) |
 | P10-T8 | Static site build + hosting | `scripts/build-site` writes `_site/`: landing page listing the two courses ("preview" banner), each course at `/<course-id>/` with its vendored engine; GitHub Actions deploys to Pages. Progress stays per course in `localStorage` (keyed by course id) with Export/Import | ✅ Done 2026-11-10: live at <https://fatihd.github.io/coursekit/>; workflow green; `e2e-site.py --url https://fatihd.github.io/coursekit/` PASS |
 | P10-T9 | Publish | Fresh-history public repo pushed (only after explicit user go-ahead); private repo keeps the full history | ✅ Done 2026-11-10: `github.com/fatihd/coursekit` public with a single clean commit; the earlier private push was renamed to `coursekit-old` (private) so no older commit is reachable |
+| P10-T10 | Cloudflare Pages mirror (parked 2026-11-10, user) | Same `_site/` build deployed to Cloudflare Pages as a second host | `e2e-site.py --url <cloudflare url>` PASS |
 
 
 Order: T1 → T2 → T3/T4/T5 → T7 → T8 → T9; T6 any time. P9-T5b–T7 are not prerequisites
@@ -110,6 +111,8 @@ Order: T1 → T2 → T3/T4/T5 → T7 → T8 → T9; T6 any time. P9-T5b–T7 are
 ---
 
 ## P11 — Biblical Greek support (reach goal, planned 2026-11-06)
+
+**Parked 2026-11-10 (user).**
 
 A Greek course built **only from open sources**, so it can be public. Copyrighted Greek
 course PDFs stay private and are not part of this plan.

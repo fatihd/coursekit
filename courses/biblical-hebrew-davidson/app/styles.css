@@ -70,7 +70,7 @@ button, input, select { font: inherit; }
 .drill-feedback { display: grid; grid-template-columns: minmax(0, 1fr) auto; grid-template-areas: "status action"; align-items: center; gap: 0.5rem 1rem; min-height: 3.25rem; margin: 0.75rem 0; }
 .drill-feedback p { grid-area: status; min-height: 2.5rem; display: flex; align-items: center; margin: 0; }
 .drill-feedback .gate-btn { grid-area: action; }
-.drill-feedback .back { grid-area: status; justify-self: start; margin: 0; }
+.drill-feedback .back { grid-column: 1 / -1; grid-row: 2; justify-self: start; margin: 0; }
 .drill-ok { color: var(--done); font-weight: 700; }
 .drill-no { color: #b00020; font-weight: 600; }
 .drill-hint { color: var(--accent); }
@@ -93,4 +93,5 @@ button, input, select { font: inherit; }
   #app { padding: 1rem 0.75rem 3rem; }
   .drill-feedback { grid-template-columns: 1fr; grid-template-areas: "status" "action"; }
   .drill-feedback .gate-btn { justify-self: start; }
+  .drill-feedback .back { grid-row: 3; }
 }

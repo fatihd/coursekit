@@ -634,6 +634,44 @@ async (item) => {
 """
 
 
+WRONG_FEEDBACK_JS = r"""
+async (item) => {
+  const origin = window.location.origin;
+  const { renderDrill } = await import(origin + "/engine/views/drill.js");
+  const course = await (await fetch(origin + "/course.json")).json();
+  const root = document.createElement("div");
+  document.body.appendChild(root);
+  renderDrill(root, { course, items: [item], unit: { n: 1 }, navigate() {}, onComplete() {}, features: { diagnostics: true } });
+  const opt = Array.from(root.querySelectorAll(".ex-option")).find((b) => b.dataset.value !== item.answer);
+  opt.click();
+  Array.from(root.querySelectorAll(".gate-btn")).find((b) => b.textContent === "Check").click();
+  const boxes = Array.from(root.querySelectorAll(".drill-feedback > *")).map((n) => n.getBoundingClientRect());
+  const hit = (a, b) => a.left < b.right && b.left < a.right && a.top < b.bottom && b.top < a.bottom;
+  let overlap = false;
+  for (let i = 0; i < boxes.length; i++) for (let j = i + 1; j < boxes.length; j++) if (hit(boxes[i], boxes[j])) overlap = true;
+  const out = { wrong: !!root.querySelector(".drill-no"), review: !!root.querySelector(".drill-feedback .back"), overlap };
+  root.remove();
+  return out;
+}
+"""
+
+
+def run_wrong_feedback_layout(page, authored, failures):
+    """The red 'Not quite' line, the review link and Next never overlap (desktop and phone width)."""
+    item = next((it for u in sorted(authored) for it in authored[u]
+                 if it.get("type") == "mcq" and len(it.get("options", [])) >= 2), None)
+    if not item:
+        return 0
+    size = page.viewport_size
+    for width in (1000, 400):
+        page.set_viewport_size({"width": width, "height": 800})
+        r = page.evaluate(WRONG_FEEDBACK_JS, item)
+        check(r["wrong"] and r["review"] and not r["overlap"],
+              f"wrong-answer feedback at {width}px: message, review link and Next do not overlap", failures)
+    page.set_viewport_size(size)
+    return 1
+
+
 def run_parse_fields(page, authored, failures):
     """P9-T8: a parse item grades field by field (right answer; one wrong field flagged alone)."""
     item = next((it for u in sorted(authored) for it in authored[u]
@@ -825,6 +863,7 @@ def main():
                 print(f"  course item shapes checked: {shapes}")
                 tips = run_drill_tips(page, authored, failures)
                 run_parse_fields(page, authored, failures)
+                run_wrong_feedback_layout(page, authored, failures)
                 print(f"  hint/explain drill items checked: {tips}")
                 browser.close()
             elif args.accessibility:

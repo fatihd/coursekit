@@ -1,6 +1,12 @@
 # Davidson source audit
 
-Last updated: 2026-11-09.
+Last updated: 2026-11-10.
+
+**Tracked in the hub (2026-11-10, ROADMAP P9-T10):** only what `build/` and `exwb/` read — both PDFs, both DjVu
+XMLs, the Vision OCR JSONs, `_tess/`, the OCR scripts, the generated inventories, `manifest.json`,
+`exwb-units.json` and this file. The archive.org extras nothing reads (`*_hocr.html`, hOCR search text and page
+index incl. their `.gz` copies, `key-1924_page_numbers.json`, both `*-djvu.txt`, the 19th-ed. `grammar.txt`) are
+git-ignored; fetch them with `python scripts/fetch-sources davidson --all` when needed.
 
 **Downloadable inputs (2026-11-09, ROADMAP P10-T3):** every Internet Archive file below is listed with its
 URL and sha256 in `manifest.json` (byte-identical to the IA downloads, verified). In the public repo they are

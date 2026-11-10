@@ -53,6 +53,16 @@ class LayoutBoundaryTests(unittest.TestCase):
         used = set(re.findall(r"/engine/([\w./-]+\.js)", html))
         self.assertTrue(used <= EXWB_ENGINE_FILES, f"exwb UI loads extra engine files: {used - EXWB_ENGINE_FILES}")
 
+    def test_unread_scan_extras_are_not_tracked(self):
+        import subprocess
+
+        r = subprocess.run(["git", "ls-files", "build/_sources"], cwd=ROOT, capture_output=True, text=True)
+        if r.returncode != 0:
+            self.skipTest("not a git checkout")
+        extras = re.compile(r"(_hocr|_page_numbers\.json|-djvu\.txt|\.gz$|/grammar\.txt$)")
+        tracked = [f for f in r.stdout.splitlines() if extras.search(f)]
+        self.assertEqual(tracked, [], "unread archive.org extras are tracked (P9-T10)")
+
     def test_build_and_engine_do_not_use_exwb(self):
         for py in (ROOT / "build").glob("*.py"):
             self.assertNotIn("exwb", py_imports(py), py.name)
