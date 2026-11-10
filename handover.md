@@ -10,4 +10,5 @@
 - Before any commit: `python scripts/public-audit`, `ruff check build/ scripts/`, `python -m unittest discover tests`,
   `python scripts/e2e.py courses/biblical-hebrew-davidson --units 2`.
 - Site: `python scripts/build-site --out _site`; test with `python scripts/e2e-site.py` (or `--url` for the live site).
-- Next up: Pages deploy check, P10-T6 (three-way split), P9-T5b (22nd-edition migration), P9-T6 (exwb exercises).
+- Live site: <https://fatihd.github.io/coursekit/> (redeployed on every push to `main`).
+- Next up: P10-T6 (three-way split), P9-T5b (22nd-edition migration), P9-T6 (exwb exercises).

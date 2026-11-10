@@ -20,7 +20,7 @@ Details and attribution: each course's `content/ATTRIBUTION.md`.
 
 ## Use it online
 
-<https://fatihd.github.io/coursekit/> (once GitHub Pages is enabled for this repository).
+<https://fatihd.github.io/coursekit/>
 
 ## Run a course
 
