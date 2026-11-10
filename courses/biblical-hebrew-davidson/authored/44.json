@@ -1,0 +1,27 @@
+{
+  "schema": "authored-exercises-v1.json",
+  "unit": 44,
+  "items": [
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate this English sentence into Hebrew",
+      "stimulus": "And = the waters increased very (much), and the heads of the moun- © tains were covered",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַמִיִם מָאד הגן אָטֶר",
+        "המים מאד הגן אטר"
+      ],
+      "answerIsScript": true,
+      "source": {
+        "citation": "Davidson, Introductory Hebrew Grammar (22nd ed.) exercise on §44; Key to the Exercises (1924) §44",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n164/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n164.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n126/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n126.jpg",
+        "sanityScore": 0.25,
+        "sanity": "weak",
+        "note": "Read from the scans by OCR; open them if a reading looks wrong."
+      }
+    }
+  ]
+}

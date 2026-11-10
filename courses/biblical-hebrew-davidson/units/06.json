@@ -1,0 +1,70 @@
+{
+  "schema": "unit-lesson-v1.json",
+  "unit": 6,
+  "title": "Syllables and Shewa",
+  "description": "Divide words into syllables and distinguish vocal from silent shewa.",
+  "teaches": [
+    "he-dav-06-001",
+    "he-dav-06-003"
+  ],
+  "assumes": [
+    "he-dav-05-001",
+    "he-dav-05-003"
+  ],
+  "blocks": [
+    {
+      "type": "prose",
+      "caption": "Summary",
+      "html": "<p>A Hebrew syllable normally opens with a consonant and may be open (ending in a vowel) or closed (ending in a consonant). The shewa (two vertical dots) is vocal when it carries a very short vowel at the start of a syllable, and silent when it simply closes a syllable and has no sound. Dividing a word correctly into syllables tells you which shewas to pronounce and how long each vowel is — the foundation for accurate reading.</p>"
+    },
+    {
+      "type": "table",
+      "caption": "Shewa",
+      "columns": [
+        "Kind",
+        "Where",
+        "Example"
+      ],
+      "rows": [
+        [
+          "Vocal",
+          "under a consonant at the start of a syllable",
+          "דְּבָרִים (dəḇārîm)"
+        ],
+        [
+          "Silent",
+          "closing a syllable",
+          "מִשְׁפָּט (mišpāṭ)"
+        ]
+      ]
+    },
+    {
+      "type": "prose",
+      "caption": "Syllable structure",
+      "html": "<p>One consonant usually begins each syllable. A syllable with a consonant followed by a vowel and nothing more is open (like the first syllable of דָּבָר, dā); a syllable that ends in a consonant is closed (like the second, bār). Hebrew tends to prefer open syllables, which is why a silent shewa appears where a syllable closes.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Vocal and silent shewa",
+      "html": "<p>A shewa at the start of a word, or under a letter after a long vowel, is usually vocal and is pronounced as a very short e. A shewa that closes a syllable, especially after a short vowel, is silent. Under a guttural, a composite shewa carries an audible short vowel. Reading the two correctly keeps syllables distinct.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Common confusion",
+      "html": "<p>The same two dots can be silent or sounded, so never guess from the mark alone; decide from the syllable. If you can divide the word so the shewa closes a syllable, it is silent; if it must open a syllable, it is vocal. Practise dividing before pronouncing.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Source",
+      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (1914), §5–6.</p>"
+    },
+    {
+      "type": "vocab",
+      "refs": [
+        "he-dav-06-001",
+        "he-dav-06-003"
+      ]
+    }
+  ],
+  "didYouKnow": ""
+}

@@ -1,0 +1,152 @@
+{
+  "schema": "unit-lesson-v1.json",
+  "unit": 13,
+  "title": "The Definite Article and Adjectives",
+  "description": "Identify definiteness and adjective agreement in noun phrases.",
+  "teaches": [
+    "he-dav-13-001",
+    "he-dav-13-002",
+    "he-dav-13-003",
+    "he-dav-13-004",
+    "he-dav-13-005",
+    "he-dav-13-006",
+    "he-dav-13-007",
+    "he-dav-13-008",
+    "he-dav-13-009",
+    "he-dav-13-010",
+    "he-dav-13-011",
+    "he-dav-13-012",
+    "he-dav-13-013",
+    "he-dav-13-014",
+    "he-dav-13-015",
+    "he-dav-13-016",
+    "he-dav-13-017",
+    "he-dav-13-018",
+    "he-dav-13-019",
+    "he-dav-13-020",
+    "he-dav-13-021",
+    "he-dav-13-022",
+    "he-dav-13-023",
+    "he-dav-13-024",
+    "he-dav-13-025",
+    "he-dav-13-026",
+    "he-dav-13-027",
+    "he-dav-13-028",
+    "he-dav-13-029",
+    "he-dav-13-030",
+    "he-dav-13-031",
+    "he-dav-13-032",
+    "he-dav-13-033",
+    "he-dav-13-034",
+    "he-dav-13-035",
+    "he-dav-13-036",
+    "he-dav-13-037",
+    "he-dav-13-038",
+    "he-dav-13-039"
+  ],
+  "assumes": [
+    "he-dav-12-001",
+    "he-dav-12-002",
+    "he-dav-12-003",
+    "he-dav-12-004",
+    "he-dav-12-005",
+    "he-dav-12-006",
+    "he-dav-12-007",
+    "he-dav-12-008",
+    "he-dav-12-009"
+  ],
+  "blocks": [
+    {
+      "type": "prose",
+      "caption": "Summary",
+      "html": "<p>Hebrew marks a noun as definite by prefixing the article ha- (הַ-), as in הַמֶּלֶךְ (the king). There is no indefinite article: a bare noun is indefinite. An adjective follows its noun and agrees with it in gender and number, and when the noun is definite the adjective is also made definite. This three-way agreement — gender, number, definiteness — is the heart of the noun phrase.</p>"
+    },
+    {
+      "type": "table",
+      "caption": "Definiteness and agreement",
+      "columns": [
+        "Phrase",
+        "Meaning"
+      ],
+      "rows": [
+        [
+          "הַמֶּלֶךְ הַטּוֹב",
+          "the good king"
+        ],
+        [
+          "מֶלֶךְ טוֹב",
+          "a good king"
+        ],
+        [
+          "הַמַּלְכָּה הַטּוֹבָה",
+          "the good queen"
+        ]
+      ]
+    },
+    {
+      "type": "prose",
+      "caption": "The article",
+      "html": "<p>The article is the syllable הַ- prefixed to the noun, with the consonant after it doubled: מֶלֶךְ (a king) becomes הַמֶּלֶךְ (the king). Before a guttural the doubling is often dropped and the vowel adjusts. The article makes a specific, known thing; without it the noun is general or indefinite.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Adjective agreement",
+      "html": "<p>An attributive adjective follows its noun and copies its gender and number: מֶלֶךְ טוֹב (a good king), מַלְכָּה טוֹבָה (a good queen). When the noun is definite, the adjective takes the article too: הַמֶּלֶךְ הַטּוֹב (the good king). This shared definiteness is a strong clue that an adjective modifies a noun rather than standing as a predicate.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Common confusion",
+      "html": "<p>Do not translate every adjective as a predicate. מֶלֶךְ טוֹב is &quot;a good king&quot;, an attributive phrase; טוֹב הַמֶּלֶךְ (or with a change of order) can be &quot;the king is good&quot;, a predicate. The word order and the article tell you which reading is meant.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Source",
+      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (1914), §11.</p>"
+    },
+    {
+      "type": "vocab",
+      "refs": [
+        "he-dav-13-001",
+        "he-dav-13-002",
+        "he-dav-13-003",
+        "he-dav-13-004",
+        "he-dav-13-005",
+        "he-dav-13-006",
+        "he-dav-13-007",
+        "he-dav-13-008",
+        "he-dav-13-009",
+        "he-dav-13-010",
+        "he-dav-13-011",
+        "he-dav-13-012",
+        "he-dav-13-013",
+        "he-dav-13-014",
+        "he-dav-13-015",
+        "he-dav-13-016",
+        "he-dav-13-017",
+        "he-dav-13-018",
+        "he-dav-13-019",
+        "he-dav-13-020",
+        "he-dav-13-021",
+        "he-dav-13-022",
+        "he-dav-13-023",
+        "he-dav-13-024",
+        "he-dav-13-025",
+        "he-dav-13-026",
+        "he-dav-13-027",
+        "he-dav-13-028",
+        "he-dav-13-029",
+        "he-dav-13-030",
+        "he-dav-13-031",
+        "he-dav-13-032",
+        "he-dav-13-033",
+        "he-dav-13-034",
+        "he-dav-13-035",
+        "he-dav-13-036",
+        "he-dav-13-037",
+        "he-dav-13-038",
+        "he-dav-13-039"
+      ]
+    }
+  ],
+  "didYouKnow": ""
+}

@@ -1,0 +1,294 @@
+# DATA-MODEL
+
+> Generic, language-agnostic JSON schemas. Per-language variation is handled by
+> **column maps** and an `extra` bag, not by forking the schema per course (ADR-006).
+> Schemas will live as JSON Schema files under `build/schemas/` (P2-T4); this doc is the
+> authoritative sketch until then. JSON: 2-space indent, UTF-8, trailing newline, with
+> multi-script text inline (not `\u`-escaped).
+
+## 1. `course.json` (manifest)
+
+```jsonc
+{
+  "id": "biblical-hebrew-davidson",
+  "title": "Biblical Hebrew — Davidson Course",
+  "language": "he",                 // ISO 639-1; affects script config
+  "level": "A",
+  "script": {
+    "direction": "rtl",
+    "font": "EzraSIL",
+    "fontFile": "fonts/EzraSIL-Regular.woff2",
+    "keyboard": "he_IL",            // maps to engine/keyboards/he_IL
+    "translitScheme": "he-sbl"       // maps to engine/translit/he-sbl
+  },
+   "units": [
+    { "id": "u01", "n": 1, "title": "The Aleph-Bet",
+      "part": 1, "textbookPage": 1 }
+    // ...one entry per unit
+  ],
+  "parts": [
+    { "n": 1, "title": "Foundations", "units": [1,9] },
+    { "n": 2, "title": "Nouns",       "units": [10,19] },
+    { "n": 3, "title": "Verbs",       "units": [20,30] }
+  ],
+  "prerequisites": [
+    { "course": "biblical-hebrew-oer", "level": "A" }  // example; empty for a first course
+  ],
+  "knowledgeGraph": "prerequisites/knowledge.json",
+  "features": {                       // optional, opt-in (ADR-015)
+    "parsing": true,                  // mix parse-noun/parse-verb/produce-form into drills
+    "diagnostics": true,              // record per-unit skills; show "Review Unit N" on errors
+    "reviewWarmup": true,             // offer an optional warm-up from weak prior units
+    "targetItems": 24,                // session size (default 14 when absent)
+    "reviewItems": 5                  // spiral/review items pulled to the front (default 2)
+  }
+}
+```
+
+`features` is optional; courses that omit it keep the default drill mix and progress shape
+unchanged. `parsing` exercise types are additionally gated by unit range (noun parsing from
+unit 9, verb parsing from unit 16) so they follow the grammar sequence.
+
+`textbookPage` is optional author-side source metadata for courses tied to a print textbook.
+OER-only courses may omit it. `scripts/release-course` removes it from the student
+`course.json`; the hub's `units.json` is also omitted from the release.
+
+## 2. `vocab.json` (generic lexicon)
+
+Generic shape; per-language column differences ride in `extra`. A **column map** declares
+which source columns map to which fields for a language (see §7).
+
+```jsonc
+{
+  "id": "he-dav-01-001",            // stable id: <lang>-<course>-<unit>-<n>
+  "unit": 1,
+  "category": "noun",               // shared taxonomy: noun|verb|adjective|preposition|
+                                     //   proper-noun|number|adverb|demonstrative|pronoun|particle
+  "scriptForm": "אָח",
+  "plural": "אַחִים",                // optional
+  "transliteration": "ʼāḥ",
+  "pronunciation": "ʼaḥ",
+  "gloss": "brother",               // clean English translation (no gender/number suffix)
+  "gender": "m",                    // m | f | c (common) | null  (parsed from "(m.s.)" etc.)
+  "number": "s",                    // s | p | d (dual) | null
+  "frequency": 629,                  // biblical frequency (optional)
+  "root": null,                     // optional (Hebrew 3-letter root)
+  "extra": {                         // per-language extras; see §7 column maps
+    // verbs with a stem: "binyan": "Qal"
+    // Greek: declension info embedded in scriptForm by convention
+    // OER enrichment (P6-T2; written by build/generate-lessons.py):
+  }
+}
+```
+
+`gender`/`number` are **stored separately from `gloss`** (not stuffed into it), so a
+recall exercise can grade the translation (`gloss`) without penalising a missing
+"(m.s.)" suffix; other parentheticals (clarifications) stay in `gloss`.
+
+**OER enrichment (P6-T2).** `build/generate-lessons.py` fills in OER-sourced fields from
+the local cache (`build/_oer/`, see `docs/CONTENT-GENERATION.md` §4):
+
+- `root` — triliteral root (Wiktionary `he-rootbox`), or `null`.
+- `extra.strong` — Strong's number(s) (OSHB/MorphHB), string or absent.
+- `extra.pos` — OSHB part-of-speech label, or absent.
+- `extra.source` / `extra.license` — attribution, `; `-joined when multiple sources, per
+  ADR-004. Rows with no enrichment carry **none of these keys** (no false attribution).
+- `extra.parse` — a verb's full grammatical description (e.g. `Qal Qatal 3ms`), used by
+  `parse-verb` (the answer) and `produce-form` (the reverse-production stimulus, combined
+  with `root`). Optional; only verb rows carry it.
+
+### Shared category taxonomy
+
+`noun | verb | adjective | preposition | proper-noun | number | adverb | demonstrative |
+pronoun | particle | conjunction | interjection | article | other`
+
+Course column maps MAY refine (e.g., Greek uses `noun (proper)`); the engine normalizes to
+the taxonomy above, putting the raw source value in `extra.sourceCategory`.
+
+## 3. Unit lesson — `units/NN.json`
+
+A lesson is an ordered list of typed **blocks** rendered by the lesson view.
+
+```jsonc
+{
+  "unit": 1,
+  "title": "The Aleph-Bet",
+  "description": "Welcome! ...",
+  "teaches": ["he-dav-alpha-history", "he-dav-letter-aleph", /* … */],
+  "assumes": [],
+  "blocks": [
+    { "type": "prose", "caption": "Summary", "html": "This unit explored the historical development..." },
+    { "type": "table",
+      "caption": "The Hebrew Vowels",
+      "columns": ["Vowel", "Transliteration", "Name", "Examples"],
+      "rows": [ ["a", "ă", "ḥataf pataḥ", "מַחֲלָצוֹת maḥălāṣôt"], /* … */ ] },
+    { "type": "vocab", "refs": ["he-dav-01-001", "he-dav-01-002"] },
+    { "type": "callout", "variant": "did-you-know",
+      "html": "Yiqtol forms are the basis for numerous names..." },
+    { "type": "paradigm",
+      "caption": "Qatal paradigm (Qal)",
+      "columns": ["Person", "Singular", "Plural"],
+      "rows": [ ["1", "קָטַלְתִּי", "קָטַלְנוּ"], /* … */ ] }
+  ],
+  "exercises": {
+    "authored": ["exercises/01.json#ex1", "exercises/01.json#ex2"],
+    "generated": {
+      "types": ["mcq", "match-by-line", "categorize"],
+      "count": 12,
+      "distractorDepth": "within-unit"   // | "recent" | "known"
+    }
+  },
+  "didYouKnow": "..."     // optional; also reachable as a callout block
+}
+```
+
+Block types: `prose | table | vocab | callout | paradigm`. Prose blocks may carry a
+`caption` heading, preserved by `materialize`/`textify` and rendered above the prose body.
+New block types require a DATA-MODEL update + a lesson-view renderer (mandatory doc update
+per AGENTS.md §5).
+
+Filled in by `build/generate-lessons.py` (P6-T2): `teaches` = the unit's vocab item ids;
+`assumes` = the *prior* unit's ids (spiral recap); a `table` block "Word roots (OER)"
+(columns Hebrew, Transliteration, Gloss, Root, Strong) when any item has root/strong
+data; and `didYouKnow` = the unit's most-frequent OSHB token, attributed. Round-tripped
+through the text via `docs/CONTENT-PORTABILITY.md` §3.
+
+## 4. Authored exercises — `authored/NN.json`
+
+Two distinct artifacts exist; only one is consumed by the engine at runtime:
+
+- **`exercises/NN.json`** (schema `workbook-exercises-v1.json`) — author-side **raw
+  scaffolds** parsed from the workbook (`typeGuess`, `confidence`, `prompt`,
+  `body_raw`, `answer_raw`). These are provenance/coverage input, **not** rendered by
+  the engine, and are excluded from student releases together with `answer-key/NN.json`.
+- **`authored/NN.json`** (schema `authored-exercises-v1.json`) — engine-consumable
+  items in the per-type plugin shape. `scripts/release-course` ships this directory;
+  `engine/main.js` loads `authored/<unit>.json` when it exists and mixes the items into
+  the drill session (see `docs/EXERCISE-TYPES.md` §4).
+
+```jsonc
+{
+  "schema": "authored-exercises-v1.json",
+  "unit": 20,
+  "items": [
+    { "type": "match-by-line", "prompt": "…", "left": ["בָרַח"], "right": ["he fled"],
+      "answer": { "בָרַח": "he fled" }, "leftIsScript": true }
+    // per-type item shapes are defined in docs/EXERCISE-TYPES.md §4
+  ]
+}
+```
+
+Authored items must be hand-written and human-reviewed; the raw `body_raw`/`answer_raw`
+scaffolds are not mechanically promoted because their extracted text is unreliable.
+
+**OCR-derived items (Davidson, ADR-017).** `build/recover_davidson_exercises.py` emits
+Davidson-key `translate-phrase` items that are best-effort OCR, so each carries a `source`
+block instead of a hand-review guarantee:
+
+```jsonc
+{ "type": "translate-phrase", "prompt": "…", "stimulus": "To-day", "stimulusIsScript": false,
+  "accepted": ["הַיּוֹם", "היום"], "answerIsScript": true,
+  "source": { "citation": "…§11; Key … §11 B",
+              "promptUrl": "https://archive.org/details/…/page/n64/mode/1up",
+              "answerUrl": "https://archive.org/details/…/page/n23/mode/1up",
+              "promptImageUrl": "…", "answerImageUrl": "…",
+              "note": "Read from the scans by OCR; open them if a reading looks wrong." } }
+```
+
+`source` is additive (`additionalProperties: true`) and is rendered by the drill as scan
+links. The `exercises/NN.json` scaffolds and the `build/_sources/davidson/exercise-inventory.json`
+ledger are the author-side provenance (not shipped to students). The inventory records both
+`grammarLeaf` and item-level `keyLeaf`; answer lists are parsed by DjVu word-box coordinates
+and printed number, so an unreadable label can omit that item without shifting later matches.
+
+**Complete grammar exercise-block inventory (ADR-018).**
+`build/_sources/davidson/grammar-exercise-inventory.json` is independent of `authored/` and the
+answer key. It preserves every OCR-detected exercise block — heading, type guess, Vision and
+DjVu OCR regions, extracted items (numbered and unnumbered, Hebrew and English), and
+`promptUrl`/`promptImageUrl`. It currently contains 48 blocks and 865 extracted items with
+no per-unit cap. A coordinate-based pass maps the DjVu word boxes to the Vision coordinate
+space (anchored on the exercise heading) to drop the pointed-Hebrew rows Vision reads as
+Latin garble and salvage the clean English runs of mixed lines; the inventory reports 0
+unrecoverable fragments. The counts are OCR yields, not a verified printed total; the raw
+page OCR and scan links are retained so the printed page remains the arbiter.
+
+**Answer-side inventory (ADR-018).**
+`build/_sources/davidson/key-answer-inventory.json` inventories the 1924 key the same way:
+each OCR-detectable answer carries its §, part (A/B/C/D), printed item number, script, exact
+key leaf, and scan URL. Part A (English) via Vision; parts B/C/D (pointed Hebrew) via the
+DjVu coordinate segmentation. Current yield: 885 items (600 English, 285 Hebrew). No caps, no
+grammar matching.
+
+**Pairing ledger (ADR-018).**
+`build/_sources/davidson/pair-inventory.json` holds every prompt↔answer pair with §, part,
+number, direction, a lexical sanity score/tier (course-vocabulary gloss overlap for
+translations, consonant patterns for transliterations), and both scan leaves. The pairing
+script emits `authored/`/`exercises/` only for ok/weak pairs; suspect pairs remain in the
+ledger.
+
+## 5. Knowledge item — `prerequisites/knowledge.json`
+
+A snapshot of items taught by earlier levels, so a later course stands alone for recap/spiral
+review even if the student never ran those levels.
+
+```jsonc
+{
+  "items": [
+    { "id": "he-dav-01-001",
+      "language": "he",
+      "kind": "lexeme",                 // lexeme | morpheme | paradigm | grammar
+      "level": "A", "unit": 1,
+      "scriptForm": "אָח", "transliteration": "ʼāḥ",
+      "gloss": "brother (m.s.)",
+      "category": "noun",
+      "props": { "gender": "m", "number": "s" }
+    },
+    { "id": "he-dav-paradigm-qatal",
+      "language": "he", "kind": "paradigm",
+      "level": "A", "unit": 20,
+      "gloss": "Qatal suffix conjugation",
+      "props": { "binyan": "Qal" }
+    }
+    // …
+  ]
+}
+```
+
+Item IDs are **globally unique** across levels (`<lang>-<level>-<n>` or a slug for
+non-lexeme kinds). Units reference them in `teaches`/`assumes`.
+
+## 6. Progress object (localStorage value and Export/Import file)
+
+```jsonc
+{
+  "schema": "progress/progress-v1.json",
+  "courseId": "biblical-hebrew-davidson",
+  "student": { "name": "", "forkRemote": "" },        // forkRemote: legacy, unused
+  "currentUnit": 3,
+  "units": {
+    "u01": { "state": "done",     "lessonRead": true,  "bestScore": 90, "lastPlayed": "2026-08-12T10:00Z" },
+    "u02": { "state": "done",     "lessonRead": true,  "bestScore": 85, "lastPlayed": "2026-08-12T11:00Z" },
+    "u03": { "state": "in-progress","lessonRead": true, "bestScore": 0,  "lastPlayed": "2026-08-12T12:00Z" }
+  },
+  "knownSet": ["he-dav-01-001", "he-dav-01-002", /* … items from completed units */],
+  "skills": { "20": { "correct": 12, "attempts": 14 } },   // optional, ADR-015
+  "xp": 175,
+  "lastAttemptBranch": null,                            // legacy, unused (ADR-019)
+  "lastExportedAt": "2026-08-12T12:00:00Z",             // set by Export progress
+  "updatedAt": "2026-08-12T12:00:00Z"
+}
+```
+
+Schema-versioned (`schema` field; schema `build/schemas/progress.json`) for forward
+migration. Stored in `localStorage` under `lang-research.progress.<courseId>`; exported as
+`<courseId>-progress-<YYYY-MM-DD>.json`; imports are merged (ADR-019). Courses no longer
+contain a `progress/` folder.
+
+
+## 8. Versioning and migration
+
+- Every top-level JSON file carries a `schema` field where applicable (course.json, vocab
+  entries via the file's outer wrapper, progress.json).
+- Breaking schema changes bump the version and ship a migration in `build/migrate/`.
+- Migration policy: the engine reads the highest version it knows; older `progress.json`
+  on a student's fork is auto-migrated on load (with a backup written alongside).

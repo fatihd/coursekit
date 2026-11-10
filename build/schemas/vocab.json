@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "vocab.json",
+  "title": "Vocabulary (generic per-language lexicon)",
+  "type": "object",
+  "required": ["schema", "items"],
+  "properties": {
+    "schema": { "type": "string", "const": "vocab-v1.json" },
+    "source": { "type": "string" },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "unit", "category", "scriptForm", "gloss"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "unit": { "type": "integer", "minimum": 1 },
+          "category_raw": { "type": "string" },
+          "category": { "type": "string", "minLength": 1 },
+          "scriptForm": { "type": "string", "minLength": 1 },
+          "plural": { "type": "string" },
+          "transliteration": { "type": "string" },
+          "pronunciation": { "type": "string" },
+          "gloss": { "type": "string", "minLength": 1 },
+          "gender": { "enum": ["m", "f", "c", null] },
+          "number": { "enum": ["s", "p", "d", null] },
+          "frequency": { "type": ["integer", "null"] },
+          "root": { "type": ["string", "null"] },
+          "extra": { "type": "object" }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": false
+}

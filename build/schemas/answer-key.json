@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "answer-key.json",
+  "title": "Answer key (per-exercise)",
+  "type": "object",
+  "required": ["schema", "unit", "items"],
+  "properties": {
+    "schema": { "type": "string", "const": "answer-key-v1.json" },
+    "unit": { "type": "integer", "minimum": 1 },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["n", "answer"],
+        "properties": {
+          "n": { "type": "integer", "minimum": 1 },
+          "answer": { "type": "string", "minLength": 1 }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,460 @@
+{
+  "block_id": 27,
+  "note": "§28 parse exercise. Transcribed from scan (grammar p. 99, key pp. 53-54); the key's §28 has no A/B marker, so it was never matched automatically.",
+  "items": [
+    {
+      "part": "A",
+      "num": "L1",
+      "prompt": "כָּתַבְתִּי",
+      "answer": "1 sing. pf. Qal of כתב",
+      "data": {
+        "parse": {
+          "person": "1",
+          "number": "sing.",
+          "form": "perfect",
+          "stem": "Qal",
+          "root": "כתב"
+        }
+      }
+    },
+    {
+      "part": "A",
+      "num": "L2",
+      "prompt": "כֹּתְבִים",
+      "answer": "plur. masc. abs. act. ptc. Qal of כתב",
+      "data": {
+        "parse": {
+          "gender": "masc.",
+          "number": "plur.",
+          "form": "participle",
+          "stem": "Qal",
+          "state": "absolute",
+          "root": "כתב"
+        }
+      }
+    },
+    {
+      "part": "A",
+      "num": "L3",
+      "prompt": "כְּתוּבִים",
+      "answer": "plur. masc. abs. pass. ptc. Qal of כתב (also the Hebrew name of the 'Writings')",
+      "data": {
+        "parse": {
+          "gender": "masc.",
+          "number": "plur.",
+          "form": "participle",
+          "stem": "Qal",
+          "state": "absolute",
+          "root": "כתב"
+        }
+      }
+    },
+    {
+      "part": "A",
+      "num": "L4",
+      "prompt": "תִּכְתֹּב",
+      "answer": "2 sing. masc. or 3 sing. fem. impf. Qal of כתב",
+      "data": {
+        "parse": {
+          "person": "2",
+          "gender": "masc.",
+          "number": "sing.",
+          "form": "imperfect",
+          "stem": "Qal",
+          "root": "כתב",
+          "alt": "3 sing. fem. impf. Qal of כתב"
+        }
+      }
+    },
+    {
+      "part": "A",
+      "num": "L5",
+      "prompt": "יִכָּתֵב",
+      "answer": "3 sing. masc. impf. Niph. of כתב",
+      "data": {
+        "parse": {
+          "person": "3",
+          "gender": "masc.",
+          "number": "sing.",
+          "form": "imperfect",
+          "stem": "Niph'al",
+          "root": "כתב"
+        }
+      }
+    },
+    {
+      "part": "A",
+      "num": "L6",
+      "prompt": "שְׁמֹר",
+      "answer": "inf. cstr. or 2 sing. masc. imperat. Qal of שׁמר",
+      "data": {
+        "parse": {
+          "form": "infinitive construct",
+          "stem": "Qal",
+          "root": "שׁמר",
+          "alt": "2 sing. masc. imperat. Qal of שׁמר"
+        }
+      }
+    },
+    {
+      "part": "A",
+      "num": "L7",
+      "prompt": "נִשְׁמָר",
+      "answer": "sing. masc. abs. ptc. Niph. of שׁמר (or pausal form of the 3 sing. masc. pf. Niph.)",
+      "data": {
+        "parse": {
+          "gender": "masc.",
+          "number": "sing.",
+          "form": "participle",
+          "stem": "Niph'al",
+          "state": "absolute",
+          "root": "שׁמר"
+        }
+      }
+    },
+    {
+      "part": "A",
+      "num": "L8",
+      "prompt": "נִשְׁמֹר",
+      "answer": "1 plur. impf. Qal or inf. abs. Niph. of שׁמר",
+      "data": {
+        "parse": {
+          "person": "1",
+          "number": "plur.",
+          "form": "imperfect",
+          "stem": "Qal",
+          "root": "שׁמר",
+          "alt": "inf. abs. Niph. of שׁמר"
+        }
+      }
+    },
+    {
+      "part": "A",
+      "num": "L9",
+      "prompt": "הִשָּׁמֵר",
+      "answer": "2 sing. masc. imperat. (or inf. cstr.) Niph. of שׁמר",
+      "data": {
+        "parse": {
+          "person": "2",
+          "gender": "masc.",
+          "number": "sing.",
+          "form": "imperative",
+          "stem": "Niph'al",
+          "root": "שׁמר"
+        }
+      }
+    },
+    {
+      "part": "A",
+      "num": "L10",
+      "prompt": "מְשַׁמֵּר",
+      "answer": "sing. masc. abs. or cstr. ptc. Pi. of שׁמר",
+      "data": {
+        "parse": {
+          "gender": "masc.",
+          "number": "sing.",
+          "state": "absolute",
+          "form": "participle",
+          "stem": "Pi'el",
+          "root": "שׁמר",
+          "alt": "cstr. ptc. Pi. of שׁמר"
+        }
+      }
+    },
+    {
+      "part": "A",
+      "num": "L11",
+      "prompt": "יְרַדֵּף",
+      "answer": "3 sing. masc. impf. Pi. of רדף",
+      "data": {
+        "parse": {
+          "person": "3",
+          "gender": "masc.",
+          "number": "sing.",
+          "form": "imperfect",
+          "stem": "Pi'el",
+          "root": "רדף"
+        }
+      }
+    },
+    {
+      "part": "A",
+      "num": "L12",
+      "prompt": "אֶשְׁבֹּר",
+      "answer": "1 sing. impf. Qal of שׁבר",
+      "data": {
+        "parse": {
+          "person": "1",
+          "number": "sing.",
+          "form": "imperfect",
+          "stem": "Qal",
+          "root": "שׁבר"
+        }
+      }
+    },
+    {
+      "part": "A",
+      "num": "L13",
+      "prompt": "אֲשַׁבֵּר",
+      "answer": "1 sing. impf. Pi. of שׁבר",
+      "data": {
+        "parse": {
+          "person": "1",
+          "number": "sing.",
+          "form": "imperfect",
+          "stem": "Pi'el",
+          "root": "שׁבר"
+        }
+      }
+    },
+    {
+      "part": "A",
+      "num": "L14",
+      "prompt": "מַזְכִּיר",
+      "answer": "sing. masc. abs. or cstr. ptc. Hiph. of זכר",
+      "data": {
+        "parse": {
+          "gender": "masc.",
+          "number": "sing.",
+          "state": "absolute",
+          "form": "participle",
+          "stem": "Hiph'il",
+          "root": "זכר",
+          "alt": "cstr. ptc. Hiph. of זכר"
+        }
+      }
+    },
+    {
+      "part": "A",
+      "num": "L15",
+      "prompt": "הַמְשֵׁל",
+      "answer": "inf. abs. or 2 sing. masc. imperat. Hiph. of משׁל",
+      "data": {
+        "parse": {
+          "form": "infinitive absolute",
+          "stem": "Hiph'il",
+          "root": "משׁל",
+          "alt": "2 sing. masc. imperat. Hiph. of משׁל"
+        }
+      }
+    },
+    {
+      "part": "A",
+      "num": "L16",
+      "prompt": "רֻדַּף",
+      "answer": "3 sing. masc. pf. Pu. of רדף",
+      "data": {
+        "parse": {
+          "person": "3",
+          "gender": "masc.",
+          "number": "sing.",
+          "form": "perfect",
+          "stem": "Pu'al",
+          "root": "רדף"
+        }
+      }
+    },
+    {
+      "part": "A",
+      "num": "L17",
+      "prompt": "הָשְׁבַּר",
+      "answer": "3 sing. masc. pf. Hoph. of שׁבר",
+      "data": {
+        "parse": {
+          "person": "3",
+          "gender": "masc.",
+          "number": "sing.",
+          "form": "perfect",
+          "stem": "Hoph'al",
+          "root": "שׁבר"
+        }
+      }
+    },
+    {
+      "part": "A",
+      "num": "L18",
+      "prompt": "זָכוֹר",
+      "answer": "inf. abs. Qal of זכר",
+      "data": {
+        "parse": {
+          "form": "infinitive absolute",
+          "stem": "Qal",
+          "root": "זכר"
+        }
+      }
+    },
+    {
+      "part": "A",
+      "num": "L19",
+      "prompt": "תַּמְשִׁילוּ",
+      "answer": "2 plur. masc. impf. Hiph. of משׁל",
+      "data": {
+        "parse": {
+          "person": "2",
+          "gender": "masc.",
+          "number": "plur.",
+          "form": "imperfect",
+          "stem": "Hiph'il",
+          "root": "משׁל"
+        }
+      }
+    },
+    {
+      "part": "A",
+      "num": "L20",
+      "prompt": "תִּשְׁקְלִי",
+      "answer": "2 sing. fem. impf. Qal of שׁקל",
+      "data": {
+        "parse": {
+          "person": "2",
+          "gender": "fem.",
+          "number": "sing.",
+          "form": "imperfect",
+          "stem": "Qal",
+          "root": "שׁקל"
+        }
+      }
+    },
+    {
+      "part": "A",
+      "num": "L21",
+      "prompt": "שְׁקֹל",
+      "answer": "inf. cstr. or 2 sing. masc. imperat. Qal of שׁקל",
+      "data": {
+        "parse": {
+          "form": "infinitive construct",
+          "stem": "Qal",
+          "root": "שׁקל",
+          "alt": "2 sing. masc. imperat. Qal of שׁקל"
+        }
+      }
+    },
+    {
+      "part": "A",
+      "num": "L22",
+      "prompt": "שְׁכַב",
+      "answer": "2 sing. masc. imperat. Qal of שׁכב (may also be inf. cstr. Qal)",
+      "data": {
+        "parse": {
+          "person": "2",
+          "gender": "masc.",
+          "number": "sing.",
+          "form": "imperative",
+          "stem": "Qal",
+          "root": "שׁכב",
+          "gloss": "Qal)"
+        }
+      }
+    },
+    {
+      "part": "A",
+      "num": "L23",
+      "prompt": "מֹלֶכֶת",
+      "answer": "sing. fem. abs. or cstr. act. ptc. Qal of מלך",
+      "data": {
+        "parse": {
+          "gender": "fem.",
+          "number": "sing.",
+          "state": "absolute",
+          "form": "participle",
+          "stem": "Qal",
+          "root": "מלך",
+          "alt": "cstr. act. ptc. Qal of מלך"
+        }
+      }
+    },
+    {
+      "part": "A",
+      "num": "L24",
+      "prompt": "יַמְטִיר",
+      "answer": "3 sing. masc. impf. Hiph. of מטר",
+      "data": {
+        "parse": {
+          "person": "3",
+          "gender": "masc.",
+          "number": "sing.",
+          "form": "imperfect",
+          "stem": "Hiph'il",
+          "root": "מטר"
+        }
+      }
+    },
+    {
+      "part": "A",
+      "num": "L25",
+      "prompt": "יַפְקֵד",
+      "answer": "3 sing. masc. jussive Hiph. of פקד",
+      "data": {
+        "parse": {
+          "person": "3",
+          "gender": "masc.",
+          "number": "sing.",
+          "form": "jussive",
+          "stem": "Hiph'il",
+          "root": "פקד"
+        }
+      }
+    },
+    {
+      "part": "A",
+      "num": "L26",
+      "prompt": "מִסְתַּתֵּר",
+      "answer": "sing. masc. abs. or cstr. ptc. Hithpa. of סתר",
+      "data": {
+        "parse": {
+          "gender": "masc.",
+          "number": "sing.",
+          "state": "absolute",
+          "form": "participle",
+          "stem": "Hithpa'el",
+          "root": "סתר",
+          "alt": "cstr. ptc. Hithpa. of סתר"
+        }
+      }
+    },
+    {
+      "part": "A",
+      "num": "L27",
+      "prompt": "יִקְדַּשׁ",
+      "answer": "3 sing. masc. impf. Qal of קדשׁ",
+      "data": {
+        "parse": {
+          "person": "3",
+          "gender": "masc.",
+          "number": "sing.",
+          "form": "imperfect",
+          "stem": "Qal",
+          "root": "קדשׁ"
+        }
+      }
+    },
+    {
+      "part": "A",
+      "num": "L28",
+      "prompt": "תִּלְבַּשְׁנָה",
+      "answer": "2 or 3 plur. fem. impf. Qal of לבשׁ",
+      "data": {
+        "parse": {
+          "form": "imperfect",
+          "stem": "Qal",
+          "root": "לבשׁ",
+          "alt": "3 plur. fem. impf. Qal of לבשׁ"
+        }
+      }
+    },
+    {
+      "part": "A",
+      "num": "L29",
+      "prompt": "תִּזָּכַרְנָה",
+      "answer": "2 or 3 plur. fem. impf. Niph. of זכר",
+      "data": {
+        "parse": {
+          "form": "imperfect",
+          "stem": "Niph'al",
+          "root": "זכר",
+          "alt": "3 plur. fem. impf. Niph. of זכר"
+        }
+      }
+    }
+  ]
+}

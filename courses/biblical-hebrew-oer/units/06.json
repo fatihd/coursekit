@@ -1,0 +1,65 @@
+{
+  "schema": "unit-lesson-v1.json",
+  "unit": 6,
+  "title": "Syllables and Shewa",
+  "description": "Word reading becomes more reliable when vowel signs are grouped into syllables. This unit distinguishes open and closed syllables and the two functions of shewa.",
+  "teaches": [
+    "he-oer-06-001",
+    "he-oer-06-002",
+    "he-oer-06-003"
+  ],
+  "assumes": [
+    "he-oer-05-001",
+    "he-oer-05-002",
+    "he-oer-05-003"
+  ],
+  "blocks": [
+    {
+      "type": "prose",
+      "html": "<p>An open syllable ends in a vowel; a closed syllable ends in a consonant. Vocal shewa begins a syllable with a brief vowel, while silent shewa marks a consonant at the end of a syllable. The same written mark can play either role. Use its position, neighboring vowels, and stress as clues, and check the whole word when the pattern is irregular.</p>"
+    },
+    {
+      "type": "table",
+      "caption": "Word roots (OER)",
+      "columns": [
+        "Hebrew",
+        "Transliteration",
+        "Gloss",
+        "Root",
+        "Strong"
+      ],
+      "rows": [
+        [
+          "מֶלֶךְ",
+          "meleḵ",
+          "king",
+          "מלך",
+          "4428"
+        ],
+        [
+          "בַּיִת",
+          "bayit",
+          "house",
+          "בית",
+          "1004"
+        ],
+        [
+          "סוּס",
+          "sûs",
+          "horse",
+          "סוס",
+          "5483 b"
+        ]
+      ]
+    },
+    {
+      "type": "vocab",
+      "refs": [
+        "he-oer-06-001",
+        "he-oer-06-002",
+        "he-oer-06-003"
+      ]
+    }
+  ],
+  "didYouKnow": "According to OSHB/MorphHB (CC BY 4.0), the most frequent word in this unit is מֶלֶךְ (meleḵ), occurring 2337 times in the Westminster Leningrad Codex."
+}

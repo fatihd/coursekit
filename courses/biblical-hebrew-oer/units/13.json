@@ -1,0 +1,51 @@
+{
+  "schema": "unit-lesson-v1.json",
+  "unit": 13,
+  "title": "Prefix Prepositions",
+  "description": "Three common prepositions attach directly to the following word. Their surface form changes in predictable sound environments.",
+  "teaches": [
+    "he-oer-13-001",
+    "he-oer-13-002",
+    "he-oer-13-003"
+  ],
+  "assumes": [
+    "he-oer-12-001",
+    "he-oer-12-002",
+    "he-oer-12-003"
+  ],
+  "blocks": [
+    {
+      "type": "prose",
+      "html": "<p>The prefixes בְּ, כְּ, and לְ express several relations, including location, comparison, and direction. Because they attach to the host, read them as part of the written word while identifying their grammatical role. Before the definite article or a shewa, their vowels may change. A prefix&#x27;s English translation depends on its phrase and context rather than a single fixed gloss.</p>"
+    },
+    {
+      "type": "table",
+      "caption": "Word roots (OER)",
+      "columns": [
+        "Hebrew",
+        "Transliteration",
+        "Gloss",
+        "Root",
+        "Strong"
+      ],
+      "rows": [
+        [
+          "לְ",
+          "lə",
+          "to; for",
+          "",
+          "3605"
+        ]
+      ]
+    },
+    {
+      "type": "vocab",
+      "refs": [
+        "he-oer-13-001",
+        "he-oer-13-002",
+        "he-oer-13-003"
+      ]
+    }
+  ],
+  "didYouKnow": "According to OSHB/MorphHB (CC BY 4.0), the most frequent word in this unit is לְ (lə), occurring 2 times in the Westminster Leningrad Codex."
+}

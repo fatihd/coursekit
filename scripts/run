@@ -1,0 +1,60 @@
+#!/usr/bin/env python3
+"""scripts/run — serve a course locally and open it in the browser.
+
+The engine is developed in the hub `engine/` and vendored into released course
+repos. For local development this script symlinks the hub engine into the course
+dir (if a vendored engine isn't already present), then serves the course over HTTP
+and opens `/app/index.html`. ES modules + fetch require HTTP (not file://).
+
+This is a plain static server: progress lives in the browser (localStorage) and is
+moved between browsers with the app's Export/Import buttons (ADR-019).
+
+Usage:
+    python scripts/run courses/biblical-hebrew-davidson [--host 127.0.0.1] [--port 8000]
+"""
+
+import argparse
+import contextlib
+import http.server
+import os
+import socketserver
+import sys
+import threading
+import webbrowser
+from pathlib import Path
+
+
+class ReusableServer(socketserver.TCPServer):
+    allow_reuse_address = True
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("course", nargs="?", default=".", help="path to course dir, e.g. courses/biblical-hebrew-davidson")
+    ap.add_argument("--host", default="127.0.0.1")
+    ap.add_argument("--port", type=int, default=8000)
+    ap.add_argument("--no-browser", action="store_true", help="serve only, don't open a browser")
+    args = ap.parse_args()
+
+    course = Path(args.course).resolve()
+    if not (course / "course.json").exists():
+        sys.exit(f"no course.json found in {course}")
+
+    engine_link = course / "engine"
+    hub_engine = Path(__file__).resolve().parent.parent / "engine"
+    if not engine_link.exists() and hub_engine.exists():
+        os.symlink(hub_engine, engine_link)
+
+    os.chdir(course)
+    url = f"http://127.0.0.1:{args.port}/app/index.html"
+
+    with ReusableServer((args.host, args.port), http.server.SimpleHTTPRequestHandler) as httpd:
+        if not args.no_browser:
+            threading.Timer(0.6, lambda: webbrowser.open(url)).start()
+        print(f"serving {course.name} at {url}")
+        with contextlib.suppress(KeyboardInterrupt):
+            httpd.serve_forever()
+
+
+if __name__ == "__main__":
+    main()

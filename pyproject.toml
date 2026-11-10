@@ -1,0 +1,9 @@
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+
+[tool.ruff.lint]
+select = ["E", "F", "C4", "EXE", "UP", "B", "SIM", "I"]
+ignore = [
+    "E501",  # line length handled by formatter; not blocking
+]

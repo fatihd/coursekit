@@ -1,0 +1,123 @@
+{
+  "schema": "authored-exercises-v1.json",
+  "unit": 16,
+  "items": [
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate this English sentence into Hebrew",
+      "stimulus": "God gave the woman to the man for wife",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֶלְהִים",
+        "אלהים"
+      ],
+      "answerIsScript": true,
+      "source": {
+        "citation": "Davidson, Introductory Hebrew Grammar (22nd ed.) exercise on §14; Key to the Exercises (1924) §14",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n28/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n28.jpg",
+        "sanityScore": 0.2,
+        "sanity": "weak",
+        "note": "Read from the scans by OCR; open them if a reading looks wrong."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Translate this Hebrew sentence into English",
+      "stimulus": "קרא אלהִים ולחשף *לְיְלָה",
+      "stimulusIsScript": true,
+      "options": [
+        "God is in the temple.? The boy wrote in the& book",
+        "God rested on the seventh day from the work which he had made.?",
+        "The man & heard the voice in the garden",
+        "The king ruled over the people"
+      ],
+      "answer": "God is in the temple.? The boy wrote in the& book",
+      "optionIsScript": false,
+      "source": {
+        "citation": "Davidson, Introductory Hebrew Grammar (22nd ed.) exercise on §14; Key to the Exercises (1924) §14",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
+        "sanityScore": 0.2,
+        "sanity": "weak",
+        "note": "Read from the scans by OCR; open them if a reading looks wrong."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Translate this Hebrew sentence into English",
+      "stimulus": "ישב בּמּקוס",
+      "stimulusIsScript": true,
+      "options": [
+        "The boy sat in this place",
+        "God rested on the seventh day from the work which he had made.?",
+        "The man & heard the voice in the garden",
+        "The king ruled over the people"
+      ],
+      "answer": "The boy sat in this place",
+      "optionIsScript": false,
+      "source": {
+        "citation": "Davidson, Introductory Hebrew Grammar (22nd ed.) exercise on §14; Key to the Exercises (1924) §14",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
+        "sanityScore": 0.67,
+        "sanity": "ok",
+        "note": "Read from the scans by OCR; open them if a reading looks wrong."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Translate this Hebrew sentence into English",
+      "stimulus": "עָשָה",
+      "stimulusIsScript": true,
+      "options": [
+        "God made the man out of dust& from the ground",
+        "God rested on the seventh day from the work which he had made.?",
+        "The man & heard the voice in the garden",
+        "The king ruled over the people"
+      ],
+      "answer": "God made the man out of dust& from the ground",
+      "optionIsScript": false,
+      "source": {
+        "citation": "Davidson, Introductory Hebrew Grammar (22nd ed.) exercise on §14; Key to the Exercises (1924) §14",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
+        "sanityScore": 0.17,
+        "sanity": "weak",
+        "note": "Read from the scans by OCR; open them if a reading looks wrong."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Translate this Hebrew sentence into English",
+      "stimulus": "נָתַן אתיהחְרֶב למלְך",
+      "stimulusIsScript": true,
+      "options": [
+        "The king ruled over the people",
+        "God rested on the seventh day from the work which he had made.?",
+        "The man & heard the voice in the garden",
+        "The boy sat in this place"
+      ],
+      "answer": "The king ruled over the people",
+      "optionIsScript": false,
+      "source": {
+        "citation": "Davidson, Introductory Hebrew Grammar (22nd ed.) exercise on §14; Key to the Exercises (1924) §14",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
+        "sanityScore": 0.25,
+        "sanity": "weak",
+        "note": "Read from the scans by OCR; open them if a reading looks wrong."
+      }
+    }
+  ]
+}

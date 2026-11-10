@@ -1,0 +1,96 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "progress.json",
+  "title": "Student progress",
+  "type": "object",
+  "required": [
+    "schema",
+    "courseId",
+    "student",
+    "currentUnit",
+    "units",
+    "knownSet",
+    "xp"
+  ],
+  "properties": {
+    "schema": {
+      "type": "string",
+      "const": "progress-v1.json"
+    },
+    "courseId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "student": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "forkRemote": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "currentUnit": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "units": {
+      "type": "object"
+    },
+    "knownSet": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "xp": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "skills": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "correct",
+          "attempts"
+        ],
+        "properties": {
+          "correct": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "attempts": {
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "lastAttemptBranch": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "updatedAt": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "lastExportedAt": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "ISO time of the last Export progress download"
+    }
+  },
+  "additionalProperties": false,
+  "description": "Format of the file produced by Export progress (and of the browser's localStorage copy); no longer stored in course folders (ADR-019)."
+}

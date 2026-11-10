@@ -1,0 +1,81 @@
+{
+  "schema": "unit-lesson-v1.json",
+  "unit": 55,
+  "title": "Conditional and Purpose Clauses",
+  "description": "Recognize conditional and purpose structures.",
+  "teaches": [
+    "he-dav-55-001",
+    "he-dav-55-002",
+    "he-dav-55-003",
+    "he-dav-55-004",
+    "he-dav-55-005",
+    "he-dav-55-006",
+    "he-dav-55-007"
+  ],
+  "assumes": [
+    "he-dav-54-001",
+    "he-dav-54-002"
+  ],
+  "blocks": [
+    {
+      "type": "prose",
+      "caption": "Summary",
+      "html": "<p>A condition is introduced by אִם (if) or, in some constructions, כִּי (if, when), and states the circumstance on which the main clause depends. A purpose clause is introduced by לְמַעַן (so that) or פֶּן (lest). Identify the condition and its consequence, or the purpose and the action it motivates, then translate each clause in its own order.</p>"
+    },
+    {
+      "type": "table",
+      "caption": "Condition and purpose",
+      "columns": [
+        "Clause",
+        "Meaning"
+      ],
+      "rows": [
+        [
+          "אִם תִּשְׁמֹר",
+          "if you will keep"
+        ],
+        [
+          "לְמַעַן תִּחְיֶה",
+          "so that you may live"
+        ],
+        [
+          "פֶּן תִּשְׁכַּח",
+          "lest you forget"
+        ]
+      ]
+    },
+    {
+      "type": "prose",
+      "caption": "Conditions",
+      "html": "<p>אִם opens a condition: אִם תִּשְׁמֹר, &quot;if you will keep&quot;. The consequence follows in the main clause, often with the conjunction ו or simply by sequence. Read the condition first, then the result, and keep the &quot;if … then …&quot; structure clear even when English would reorder it.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Purpose",
+      "html": "<p>לְמַעַן states a positive purpose, &quot;so that&quot;: לְמַעַן תִּחְיֶה, &quot;so that you may live&quot;. פֶּן states a negative purpose, &quot;lest&quot;: פֶּן תִּשְׁכַּח, &quot;lest you forget&quot;. These often follow an imperative or a command, giving the reason for it.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Common confusion",
+      "html": "<p>Do not flatten אִם into a single meaning. It is &quot;if&quot; in conditions, but can also be &quot;or&quot; in questions. And do not translate פֶּן as a simple negative; it carries the idea of a feared result, &quot;lest&quot;, which is why it pairs naturally with commands and warnings.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Source",
+      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (1914), §23.6, §49.</p>"
+    },
+    {
+      "type": "vocab",
+      "refs": [
+        "he-dav-55-001",
+        "he-dav-55-002",
+        "he-dav-55-003",
+        "he-dav-55-004",
+        "he-dav-55-005",
+        "he-dav-55-006",
+        "he-dav-55-007"
+      ]
+    }
+  ],
+  "didYouKnow": ""
+}

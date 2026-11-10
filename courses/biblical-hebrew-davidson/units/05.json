@@ -1,0 +1,84 @@
+{
+  "schema": "unit-lesson-v1.json",
+  "unit": 5,
+  "title": "Vowel Qualities and Vowel Letters",
+  "description": "Compare pure-long, tone-long, and short vowels.",
+  "teaches": [
+    "he-dav-05-001",
+    "he-dav-05-003"
+  ],
+  "assumes": [
+    "he-dav-04-003"
+  ],
+  "blocks": [
+    {
+      "type": "prose",
+      "caption": "Summary",
+      "html": "<p>Hebrew has three primary vowel qualities — a, i, and u — and two more, e and o. Each appears long or short. Length matters: a long vowel fills a syllable differently from a short one, and many noun and verb patterns depend on the difference. Learn the pairs — long ā and short a, long ē and short e, long î and short i, long ô and short o, long û and short u — and notice that the vowel letters ו and י usually accompany the long forms.</p>"
+    },
+    {
+      "type": "table",
+      "caption": "Vowel qualities",
+      "columns": [
+        "Quality",
+        "Long",
+        "Short"
+      ],
+      "rows": [
+        [
+          "a",
+          "ā (qamets)",
+          "a (patah)"
+        ],
+        [
+          "e",
+          "ē (tsere)",
+          "e (segol)"
+        ],
+        [
+          "i",
+          "î (hiriq-yod)",
+          "i (hiriq)"
+        ],
+        [
+          "o",
+          "ô (holem)",
+          "o (qamets-hatuf)"
+        ],
+        [
+          "u",
+          "û (shureq)",
+          "u (qibbuts)"
+        ]
+      ]
+    },
+    {
+      "type": "prose",
+      "caption": "Vowel length",
+      "html": "<p>A long vowel is often written with a vowel letter to hold it, while a short vowel usually stands alone. Compare קָטַל (qāṭal): the first vowel is long ā under ק, the second is short a under ט. The pattern of long and short vowels is part of the word&#x27;s identity, so changing length often changes meaning or form.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Qamets and qamets-hatuf",
+      "html": "<p>The sign qamets (ָ) usually stands for long ā, but in a closed, unaccented syllable it is read as short o, called qamets-hatuf. The difference is governed by the syllable, so it is best learned together with syllable division: a qamets in a closed syllable that is not stressed is the short o.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Common confusion",
+      "html": "<p>Do not assume one sign always means one sound in every position. Qamets is the clearest example: ā in one syllable, o in another. When you meet a new word, divide it into syllables first, then decide how a qamets is read.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Source",
+      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (1914), §2.</p>"
+    },
+    {
+      "type": "vocab",
+      "refs": [
+        "he-dav-05-001",
+        "he-dav-05-003"
+      ]
+    }
+  ],
+  "didYouKnow": ""
+}

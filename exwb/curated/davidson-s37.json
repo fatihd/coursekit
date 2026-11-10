@@ -1,0 +1,216 @@
+{
+  "block_id": 35,
+  "note": "§37 (Lamedh guttural verbs). Transcribed from scan (grammar pp. 123-124, key pp. 79-82); list forms read with the key's translations; B5-6 unpointed in print (pointed in key).",
+  "items": [
+    {
+      "part": "A",
+      "num": "L1",
+      "prompt": "אֶשְׁמַע",
+      "answer": "I will hear"
+    },
+    {
+      "part": "A",
+      "num": "L2",
+      "prompt": "אֶשְׁמְעָה",
+      "answer": "Let me hear, or I would (fain) hear (cf. Ps. 85:9)"
+    },
+    {
+      "part": "A",
+      "num": "L3",
+      "prompt": "בְּהִשָּׁמַע",
+      "answer": "When it was heard (cstr. inf. Niph.)",
+      "data": {
+        "parse": {
+          "form": "infinitive construct",
+          "stem": "Niph'al",
+          "gloss": "When it was heard"
+        }
+      }
+    },
+    {
+      "part": "A",
+      "num": "L4",
+      "prompt": "תַּשְׁמַע",
+      "answer": "Cause to hear (jussive Hiph., proper after אַל; not 'thou shalt cause to hear', which would be תַּשְׁמִיעַ)",
+      "data": {
+        "parse": {
+          "form": "jussive",
+          "stem": "Hiph'il",
+          "gloss": "Cause to hear"
+        }
+      }
+    },
+    {
+      "part": "A",
+      "num": "L5",
+      "prompt": "שֹׁלַחֲךָ",
+      "answer": "He (or one) who sends thee (ptc. Qal)",
+      "note": "verify pointing against scan",
+      "data": {
+        "parse": {
+          "form": "participle",
+          "stem": "Qal",
+          "gloss": "He (or one) who sends thee"
+        }
+      }
+    },
+    {
+      "part": "A",
+      "num": "L6",
+      "prompt": "שְׁלֹחַ",
+      "answer": "To send (inf. cstr.)",
+      "data": {
+        "parse": {
+          "form": "infinitive construct",
+          "gloss": "To send"
+        }
+      }
+    },
+    {
+      "part": "A",
+      "num": "L7",
+      "prompt": "שְׁלַח",
+      "answer": "Send thou (imper. masc.)",
+      "data": {
+        "parse": {
+          "gender": "masc.",
+          "form": "imperative",
+          "gloss": "Send thou"
+        }
+      }
+    },
+    {
+      "part": "A",
+      "num": "L8",
+      "prompt": "שִׁלַּחֲךָ",
+      "answer": "He sent thee (m.) away (Pi.; not simply 'he sent thee', which would be Qal שְׁלָחֲךָ)",
+      "data": {
+        "parse": {
+          "stem": "Pi'el",
+          "gloss": "He sent thee (m.) away"
+        }
+      }
+    },
+    {
+      "part": "A",
+      "num": "L9",
+      "prompt": "אֶשְׁלָחֲךָ",
+      "answer": "I will send thee (m.)",
+      "note": "verify pointing against scan"
+    },
+    {
+      "part": "A",
+      "num": "L10",
+      "prompt": "יִשְׁכָּחֵהוּ",
+      "answer": "He will forget him"
+    },
+    {
+      "part": "A",
+      "num": "L11",
+      "prompt": "שָׁכַחַתְּ",
+      "answer": "Thou (f.) hast forgotten"
+    },
+    {
+      "part": "A",
+      "num": "L12",
+      "prompt": "נִשְׁכַּחַת",
+      "answer": "Thou (f.) that hast been forgotten (a difficult form; see the key's note on Isa. 23:15)"
+    },
+    {
+      "part": "B",
+      "num": "1",
+      "prompt": "הִנֵּה אָנֹכִי שֹׁלֵחַ מַלְאָךְ לְפָנֶיךָ לִשְׁמָרְךָ בַּדָּרֶךְ הִשָּׁמֶר מִפָּנָיו וּשְׁמַע בְּקֹלוֹ",
+      "answer": "Behold, I am sending an angel before thee to keep thee in the way: take thou heed before him and hearken unto his voice."
+    },
+    {
+      "part": "B",
+      "num": "2",
+      "prompt": "אֶבְיוֹנֵי צִיּוֹן אַשְׂבִּיעַ לֶחֶם וְכֹהֲנֶיהָ אַלְבִּישׁ יֶשַׁע",
+      "answer": "The poor of Zion I will satisfy with bread, and her priests I will clothe with salvation."
+    },
+    {
+      "part": "B",
+      "num": "3",
+      "prompt": "וַיִּטַּע יהוה גַּן בְּעֵדֶן וַיַּצְמַח מִן־הָאֲדָמָה כָּל־עֵץ נֶחְמָד לְמַרְאֶה וְטוֹב לְמַאֲכָל",
+      "answer": "And Yahweh planted a garden in Eden, and he made to grow out of the ground every kind of tree, desirable in appearance and good for food."
+    },
+    {
+      "part": "B",
+      "num": "4",
+      "prompt": "וַיִּקַּח יַעֲקֹב אֶת־נָשָׁיו וְאֶת־יְלָדָיו וַיַּעֲבֹר אֶת־מַעֲבַר יַבֹּק וַיִּקָּחֵם וַיַּעֲבִרֵם אֶת־הַנַּחַל וַיַּעֲבֵר אֶת־אֲשֶׁר לוֹ וַיֵּאָבֵק אִישׁ עִם יַעֲקֹב וַיֹּאמֶר הָאִישׁ שַׁלְּחֵנִי כִּי עָלָה הַשָּׁחַר וַיֹּאמֶר לֹא אֲשַׁלֵּחֲךָ כִּי אִם בֵּרַכְתָּנִי וַיֹּאמֶר לוֹ הַמַּלְאָךְ לֹא יֵאָמֵר עוֹד יַעֲקֹב שִׁמְךָ כִּי אִם יִשְׂרָאֵל וַיְבָרֶךְ אֹתוֹ שָׁם וַיִּזְרַח לוֹ הַשֶּׁמֶשׁ כַּאֲשֶׁר עָבַר אֶת־פְּנוּאֵל וְהוּא צֹלֵעַ עַל־יְרֵכוֹ",
+      "answer": "And Jacob took his wives and his children and crossed the ford of the Jabbok; and he took them and sent them across the stream, and he sent across what he had. And there wrestled a man with Jacob; and the man said, Let me go, for the dawn has risen. And he said, I will not let thee go, unless thou bless me. And the angel said to him, Thy name shall no more be called Jacob, but Israel; and he blessed him there. And the sun rose upon him as he passed over Penu'el, and he was limping upon his thigh."
+    },
+    {
+      "part": "B",
+      "num": "5",
+      "prompt": "וישביעני לאמר לא־תקח אשה לבני מבנות הכנעני אשר אנכי ישב בארצו",
+      "answer": "And he made me swear, saying, Thou shalt not take a wife for my son from the daughters of the Canaanites, in whose land I am dwelling.",
+      "data": {
+        "pointed": "וַיַּשְׁבִּעֵנִי לֵאמֹר לֹא־תִקַּח אִשָּׁה לִבְנִי מִבְּנוֹת הַכְּנַעֲנִי אֲשֶׁר אָנֹכִי יֹשֵׁב בְּאַרְצוֹ"
+      }
+    },
+    {
+      "part": "B",
+      "num": "6",
+      "prompt": "השמיעני בבקר חסדך כי־בך בטחתי",
+      "answer": "Make me to hear thy kindness in the morning, for in thee do I trust.",
+      "data": {
+        "pointed": "הַשְׁמִיעֵנִי בַבֹּקֶר חַסְדֶּךָ כִּי־בְךָ בָטָחְתִּי"
+      }
+    },
+    {
+      "part": "C",
+      "num": "1",
+      "prompt": "This song shall never be forgotten.",
+      "answer": "לֹא תִשָּׁכַח הַשִּׁירָה הַזֹּאת לְעוֹלָם"
+    },
+    {
+      "part": "C",
+      "num": "2",
+      "prompt": "In the day of his being anointed (Niph.)",
+      "answer": "בְּיוֹם הִמָּשַׁח אֹתוֹ"
+    },
+    {
+      "part": "C",
+      "num": "3",
+      "prompt": "And now lest he put forth (send) his hand and take of the tree of life and eat and live for ever.",
+      "answer": "וְעַתָּה פֶּן־יִשְׁלַח אֶת־יָדוֹ וְלָקַח מֵעֵץ הַחַיִּים וְאָכַל וָחַי לְעוֹלָם"
+    },
+    {
+      "part": "C",
+      "num": "4",
+      "prompt": "Yahweh will give you in the evening flesh to eat, and bread in the morning to be satisfied (inf. Qal).",
+      "answer": "יִתֵּן יְהוָה לָכֶם בָּעֶרֶב בָּשָׂר לֶאֱכֹל וְלֶחֶם בַּבֹּקֶר לִשְׂבֹּעַ"
+    },
+    {
+      "part": "C",
+      "num": "5",
+      "prompt": "He caused thee to hear his words out of the fire.",
+      "answer": "הִשְׁמִיעֲךָ אֶת־דְּבָרָיו מִתּוֹךְ הָאֵשׁ"
+    },
+    {
+      "part": "C",
+      "num": "6",
+      "prompt": "Let those-loving (ptc. cstr.) thy salvation say: Let God be great!",
+      "answer": "יֹאמְרוּ אֹהֲבֵי יְשׁוּעָתְךָ יִגְדַּל אֱלֹהִים"
+    },
+    {
+      "part": "C",
+      "num": "7",
+      "prompt": "Ye shall surely hearken to the voice of my messenger, when I send him to you.",
+      "answer": "שָׁמוֹעַ תִּשְׁמְעוּ בְּקוֹל מַלְאָכִי בְּשָׁלְחִי אֹתוֹ אֲלֵיכֶם"
+    },
+    {
+      "part": "C",
+      "num": "8",
+      "prompt": "And Samuel said, Speak, Yahweh, for thy servant is listening (ptc.).",
+      "answer": "וַיֹּאמֶר שְׁמוּאֵל דַּבֵּר יְהוָה כִּי שֹׁמֵעַ עַבְדֶּךָ"
+    },
+    {
+      "part": "C",
+      "num": "9",
+      "prompt": "And he fought against the city all that day, and he took the city, and the people that (was) in it he slew, and he pulled down the city and sowed it with salt (acc.).",
+      "answer": "וַיִּלָּחֶם עַל־הָעִיר כָּל־הַיּוֹם הַהוּא וַיִּלְכֹּד אֶת־הָעִיר וְאֶת־הָעָם אֲשֶׁר בָּהּ הָרָג וַיִּתֹּץ אֶת־הָעִיר וַיִּזְרָעֶהָ מֶלַח"
+    }
+  ]
+}

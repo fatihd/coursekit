@@ -1,0 +1,153 @@
+#!/usr/bin/env python3
+"""scripts/release-course — stamp a self-contained forkable course repo.
+
+Copies a course's runtime content + a pinned vendored copy of the hub `engine/` into
+`dist/<course>/`. It omits author-side `build/`, `source/`, `units.json`, raw summaries,
+workbook exercises, answer keys, and textbook page references. It adds a `scripts/run`
+launcher, writes a student README, and initializes the result as a git repo ready to fork.
+
+Usage:
+    python scripts/release-course biblical-hebrew-davidson [--out DIR] [--no-git] [--site]
+
+See ADR-001 (engine/course split + vendored release), docs/ARCHITECTURE.md.
+"""
+
+import argparse
+import json
+import shutil
+import subprocess
+import sys
+from pathlib import Path
+
+CONTENT_FILES = ["course.json", "vocab.json", "README.md"]
+CONTENT_DIRS = ["app", "prerequisites", "content", "authored"]
+LAUNCH_FILES = ["Dockerfile", ".dockerignore", "run.sh", "run.command", "run.bat"]
+
+
+def vendor_engine(out_dir):
+    src = Path("engine")
+    dst = out_dir / "engine"
+    if dst.exists():
+        shutil.rmtree(dst)
+    shutil.copytree(src, dst)
+
+
+def copy_lessons(course_dir, out_dir):
+    (out_dir / "units").mkdir()
+    for p in sorted((course_dir / "units").glob("*.json")):
+        shutil.copy2(p, out_dir / "units" / p.name)
+
+
+def write_readme(out_dir, course_name):
+    text = f"""# {course_name}
+
+A self-contained Biblical-languages course.
+
+## Run
+
+The course is a set of static files: serve the folder with any static web server,
+or host it (e.g. GitHub Pages) and open `app/index.html`. Opening the file directly
+(`file://`) does not work.
+
+With Docker Desktop, the bundled launcher serves it for you:
+
+```bash
+./run.sh                       # builds/runs a local static server
+# or double-click run.command on macOS, run.bat on Windows
+```
+
+If the ZIP did not preserve executable permissions, run `sh run.sh`.
+
+## Your progress
+
+Progress is kept in your browser on this computer. Use **Export progress** on the
+roadmap to download it as a file (do this regularly, e.g. after each unit), and
+**Import progress** to load it in another browser or computer. Importing merges:
+whatever you completed in either place is kept.
+"""
+    (out_dir / "README.md").write_text(text, encoding="utf-8")
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("course", help="course name, e.g. biblical-hebrew-davidson")
+    ap.add_argument("--out", default=None, help="output dir (default dist/<course>)")
+    ap.add_argument("--no-git", action="store_true", help="don't git init the output")
+    ap.add_argument(
+        "--site", action="store_true",
+        help="static-site copy: no git, no Docker launchers, no scripts/ (used by build-site)",
+    )
+    args = ap.parse_args()
+
+    course_dir = Path("courses") / args.course
+    if not (course_dir / "course.json").exists():
+        sys.exit(f"no course at {course_dir}")
+
+    validation = subprocess.run(
+        [sys.executable, "scripts/validate", str(course_dir)],
+        capture_output=True,
+        text=True,
+    )
+    if validation.returncode != 0:
+        sys.stderr.write(validation.stdout)
+        sys.stderr.write(validation.stderr)
+        sys.exit("course validation failed; release was not created")
+
+    out = Path(args.out) if args.out else Path("dist") / args.course
+    if out.exists():
+        shutil.rmtree(out)
+    out.mkdir(parents=True)
+
+    for f in CONTENT_FILES:
+        src = course_dir / f
+        if src.exists():
+            if f == "course.json":
+                manifest = json.loads(src.read_text(encoding="utf-8"))
+                for unit in manifest.get("units", []):
+                    unit.pop("textbookPage", None)
+                (out / f).write_text(
+                    json.dumps(manifest, ensure_ascii=False, indent=2) + "\n",
+                    encoding="utf-8",
+                )
+            else:
+                shutil.copy2(src, out / f)
+    for d in CONTENT_DIRS:
+        src = course_dir / d
+        if src.exists():
+            shutil.copytree(src, out / d)
+    for f in [] if args.site else LAUNCH_FILES:
+        src = Path(f)
+        if src.exists():
+            shutil.copy2(src, out / f)
+
+    copy_lessons(course_dir, out)
+    vendor_engine(out)
+
+    if not args.site:
+        (out / "scripts").mkdir()
+        shutil.copy2(Path("scripts/run"), out / "scripts" / "run")
+        write_readme(out, args.course)
+
+    if not (args.no_git or args.site):
+        subprocess.run(["git", "init", "-b", "main"], cwd=out, capture_output=True, check=True)
+        subprocess.run(["git", "add", "."], cwd=out, capture_output=True, check=True)
+        subprocess.run(
+            [
+                "git", "-c", "user.name=Course Release",
+                "-c", "user.email=course-release@localhost",
+                "commit", "-m", "Initial course release",
+            ],
+            cwd=out,
+            capture_output=True,
+            check=True,
+        )
+
+    print(f"released {args.course} -> {out}")
+    if args.site:
+        return
+    print("publish/fork: cd dist/{0} && gh repo create --private --push".format(args.course))
+    print("run locally: sh dist/{0}/run.sh".format(args.course))
+
+
+if __name__ == "__main__":
+    main()

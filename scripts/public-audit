@@ -1,0 +1,321 @@
+#!/usr/bin/env python3
+"""scripts/public-audit — check that a tree is safe to publish (ROADMAP P10-T2, ADR-020).
+
+Fails (exit 1) on any of:
+  path         file not covered by the allowlist, or explicitly denied ("!" lines)
+  type         banned file type (PDF, DjVu, hOCR, office files, archives, databases, scans)
+  size         file larger than --max-bytes (fonts excepted)
+  mention      private-course ids/names or private source file names in text
+  secret       token / key patterns
+  fingerprint  a text line whose hash is in a private fingerprint file (--fingerprints)
+  fetched      a file listed in build/_sources/*/manifest.json is committed (must be fetched)
+  marker       unbalanced <!-- private --> / <!-- public --> doc markers
+  license      a "require:" file from the allowlist is missing, or LICENSE is not MIT
+
+Usage:
+    python scripts/public-audit [ROOT] [--allowlist FILE] [--fingerprints FILE]
+                                [--max-bytes N] [--summary]
+    python scripts/public-audit --make-fingerprints OUT --private DIR [DIR ...]
+                                [--open DIR [DIR ...]]
+
+ROOT defaults to the current directory. In a git work tree the audited files are the
+tracked + untracked-not-ignored files; otherwise every file under ROOT (minus .git).
+Mentions and fingerprints are checked on the public version of each file: lines inside
+`<!-- private -->` … `<!-- /private -->` are skipped (make-public-snapshot drops them) and
+`<!-- public` … `-->` blocks count as public text. Secrets are checked on every line.
+Fingerprint files hold hashes of private text lines (not the text) and stay in the
+private repo; build them from the private course dirs, minus lines also present in the
+open course dirs.
+"""
+
+import argparse
+import fnmatch
+import hashlib
+import json
+import re
+import subprocess
+import sys
+import unicodedata
+from collections import Counter
+from pathlib import Path
+
+HERE = Path(__file__).resolve().parent
+DEFAULT_ALLOWLIST = HERE / "public-allowlist.txt"
+SELF = {"scripts/public-audit", "scripts/public-allowlist.txt", "tests/test_public_audit.py"}
+
+BANNED_SUFFIXES = {
+    ".pdf", ".djvu", ".djv", ".xls", ".xlsx", ".doc", ".docx", ".odt", ".ods", ".epub",
+    ".mobi", ".tif", ".tiff", ".zip", ".gz", ".tgz", ".bz2", ".xz", ".7z", ".rar", ".db",
+    ".sqlite", ".sqlite3", ".pyc",
+}
+BANNED_GLOBS = ["*_hocr.html", "*_djvu.xml", "*-djvu.xml", "*.db-journal", ".DS_Store"]
+FONT_SUFFIXES = {".woff2", ".woff", ".ttf", ".otf"}
+TEXT_SUFFIXES = {
+    "", ".md", ".txt", ".json", ".csv", ".tsv", ".js", ".mjs", ".css", ".html", ".py",
+    ".sh", ".bat", ".command", ".toml", ".yml", ".yaml", ".xml", ".svg", ".cfg", ".ini",
+}
+
+MENTIONS = [
+    (r"\bhe-[ab]-[a-z0-9]", "private-course id"),
+    (r"\bbiblical-hebrew-[ab]\b", "private course name"),
+    (r"\bHebrew [AB]\b", "private course name"),
+    (r"BiblicalA-En", "private source file"),
+    (r"Biblical_B\d\d", "private source file"),
+    (r"Biblical Hebrew B 2025", "private source file"),
+    (r"Biblical Hebrew Lexicon - Course", "private source file"),
+    (r"Level B_Workbook", "private source file"),
+    (r"Greek_[AC]_EN", "private source file"),
+    (r"Vocabulary_Greek-EN", "private source file"),
+    (r"Basics of Biblical Hebrew Grammar", "private reference grammar"),
+    (r"ספר תרגול", "private source file"),
+]
+SECRETS = [
+    (r"gh[pousr]_[A-Za-z0-9]{36}", "GitHub token"),
+    (r"github_pat_[A-Za-z0-9_]{40,}", "GitHub token"),
+    (r"AKIA[0-9A-Z]{16}", "AWS key"),
+    (r"-----BEGIN (?:[A-Z]+ )?PRIVATE KEY-----", "private key"),
+    (r"sk-ant-[A-Za-z0-9_-]{20,}", "Anthropic key"),
+    (r"sk-[A-Za-z0-9]{40,}", "API key"),
+    (r"xox[abprs]-[A-Za-z0-9-]{10,}", "Slack token"),
+    (r"AIza[0-9A-Za-z_-]{35}", "Google key"),
+]
+MENTION_RES = [(re.compile(p), why) for p, why in MENTIONS]
+SECRET_RES = [(re.compile(p), why) for p, why in SECRETS]
+
+
+def norm_line(line):
+    s = unicodedata.normalize("NFC", line).strip().lower()
+    s = re.sub(r"\s+", " ", s)
+    if len(s) < 24 or not re.search(r"[^\W\d_]", s):
+        return None
+    return s
+
+
+def line_hash(s):
+    return hashlib.sha256(s.encode("utf-8")).hexdigest()[:20]
+
+
+def read_allowlist(path):
+    allow, deny, require = [], [], []
+    for raw in Path(path).read_text(encoding="utf-8").splitlines():
+        line = raw.split("#", 1)[0].strip()
+        if not line:
+            continue
+        if line.startswith("require:"):
+            require.append(line[len("require:"):].strip())
+        elif line.startswith("!"):
+            deny.append(line[1:].strip())
+        else:
+            allow.append(line)
+    return allow, deny, require
+
+
+def matches(rel, pattern):
+    if pattern.endswith("/"):
+        return rel.startswith(pattern)
+    return fnmatch.fnmatchcase(rel, pattern)
+
+
+def list_files(root):
+    try:
+        out = subprocess.run(
+            ["git", "-C", str(root), "ls-files", "-co", "--exclude-standard", "-z"],
+            capture_output=True, check=True,
+        ).stdout.decode("utf-8")
+        top = subprocess.run(
+            ["git", "-C", str(root), "rev-parse", "--show-toplevel"],
+            capture_output=True, check=True, text=True,
+        ).stdout.strip()
+        if Path(top).resolve() == Path(root).resolve():
+            return sorted(f for f in out.split("\0") if f and (root / f).is_file())
+    except (subprocess.CalledProcessError, FileNotFoundError):
+        pass
+    return sorted(
+        p.relative_to(root).as_posix() for p in root.rglob("*")
+        if p.is_file() and ".git" not in p.relative_to(root).parts
+    )
+
+
+def is_text(rel, data):
+    suffix = Path(rel).suffix.lower()
+    if suffix not in TEXT_SUFFIXES or b"\0" in data[:4096]:
+        return None
+    try:
+        return data.decode("utf-8")
+    except UnicodeDecodeError:
+        return None
+
+
+PRIVATE_OPEN, PRIVATE_CLOSE = "<!-- private -->", "<!-- /private -->"
+PUBLIC_OPEN, PUBLIC_CLOSE = "<!-- public", "-->"
+
+
+def public_lines(text):
+    """(lineno, line) pairs of the public version of a hub file, and marker errors.
+
+    Hub docs may hold `<!-- private -->` … `<!-- /private -->` blocks (dropped from the
+    public tree) and `<!-- public` … `-->` blocks (shown only in the public tree)."""
+    out, errors, mode, start = [], [], None, 0
+    for n, line in enumerate(text.splitlines(), 1):
+        t = line.strip()
+        if mode is None:
+            if t == PRIVATE_OPEN:
+                mode, start = "private", n
+            elif t == PUBLIC_OPEN:
+                mode, start = "public", n
+            elif t in (PRIVATE_CLOSE,):
+                errors.append((n, "closing marker without opening"))
+            else:
+                out.append((n, line))
+        elif mode == "private":
+            if t == PRIVATE_CLOSE:
+                mode = None
+            elif t in (PRIVATE_OPEN, PUBLIC_OPEN):
+                errors.append((n, "nested marker"))
+        elif mode == "public":
+            if t == PUBLIC_CLOSE:
+                mode = None
+            elif t in (PRIVATE_OPEN, PUBLIC_OPEN, PRIVATE_CLOSE):
+                errors.append((n, "nested marker"))
+            else:
+                out.append((n, line))
+    if mode:
+        errors.append((start, f"unclosed {mode} block"))
+    return out, errors
+
+
+def public_text(text):
+    lines, _ = public_lines(text)
+    body = "\n".join(line for _, line in lines)
+    return body + ("\n" if text.endswith("\n") else "")
+
+
+def audit(root, allowlist, fingerprints, max_bytes):
+    allow, deny, require = read_allowlist(allowlist)
+    problems = []
+    fetched = set()
+    for man in root.glob("build/_sources/*/manifest.json"):
+        base = man.parent.relative_to(root).as_posix()
+        fetched |= {f"{base}/{e['file']}" for e in json.loads(man.read_text("utf-8"))["files"]}
+    for rel in list_files(root):
+        path = root / rel
+        name = Path(rel).name
+        suffix = Path(rel).suffix.lower()
+        if any(matches(rel, d) for d in deny):
+            problems.append(("path", rel, "denied by allowlist"))
+            continue
+        if not any(matches(rel, a) for a in allow):
+            problems.append(("path", rel, "not in allowlist"))
+            continue
+        if rel in fetched:
+            problems.append(("fetched", rel, "listed in a sources manifest; download, don't commit"))
+            continue
+        if suffix in BANNED_SUFFIXES or any(fnmatch.fnmatchcase(name, g) for g in BANNED_GLOBS):
+            problems.append(("type", rel, f"banned file type ({suffix or name})"))
+            continue
+        size = path.stat().st_size
+        if size > max_bytes and suffix not in FONT_SUFFIXES:
+            problems.append(("size", rel, f"{size:,} bytes > {max_bytes:,}"))
+            continue
+        if rel in SELF:
+            continue
+        text = is_text(rel, path.read_bytes())
+        if text is None:
+            continue
+        for n, line in enumerate(text.splitlines(), 1):
+            for rx, why in SECRET_RES:
+                if rx.search(line):
+                    problems.append(("secret", f"{rel}:{n}", why))
+        lines, errors = public_lines(text)
+        for n, why in errors:
+            problems.append(("marker", f"{rel}:{n}", why))
+        for n, line in lines:
+            for rx, why in MENTION_RES:
+                m = rx.search(line)
+                if m:
+                    problems.append(("mention", f"{rel}:{n}", f"{why}: {m.group(0)}"))
+            if fingerprints:
+                s = norm_line(line)
+                if s and line_hash(s) in fingerprints:
+                    problems.append(("fingerprint", f"{rel}:{n}", "matches private text"))
+    for req in require:
+        if not (root / req).is_file():
+            problems.append(("license", req, "required file missing"))
+    lic = root / "LICENSE"
+    if lic.is_file() and "MIT License" not in lic.read_text(encoding="utf-8", errors="replace"):
+        problems.append(("license", "LICENSE", "not the MIT License (ADR-020)"))
+    return problems
+
+
+def text_lines(dirs):
+    out = set()
+    for d in dirs:
+        for p in Path(d).rglob("*"):
+            if not p.is_file():
+                continue
+            text = is_text(p.name, p.read_bytes())
+            if text is None:
+                continue
+            for line in text.splitlines():
+                s = norm_line(line)
+                if s:
+                    out.add(s)
+    return out
+
+
+def make_fingerprints(out, private, open_dirs):
+    lines = text_lines(private) - text_lines(open_dirs or [])
+    hashes = sorted({line_hash(s) for s in lines})
+    Path(out).write_text(
+        "# public-audit fingerprints: sha256[:20] of normalized private text lines\n"
+        + "\n".join(hashes) + "\n",
+        encoding="utf-8",
+    )
+    print(f"wrote {len(hashes):,} fingerprints to {out}")
+
+
+def load_fingerprints(path):
+    if not path:
+        return set()
+    return {
+        ln.strip() for ln in Path(path).read_text(encoding="utf-8").splitlines()
+        if ln.strip() and not ln.startswith("#")
+    }
+
+
+def main():
+    ap = argparse.ArgumentParser(description="Check that a tree is safe to publish.")
+    ap.add_argument("root", nargs="?", default=".")
+    ap.add_argument("--allowlist", default=str(DEFAULT_ALLOWLIST))
+    ap.add_argument("--fingerprints")
+    ap.add_argument("--max-bytes", type=int, default=1_000_000)
+    ap.add_argument("--summary", action="store_true", help="counts per category and top dirs only")
+    ap.add_argument("--make-fingerprints", metavar="OUT")
+    ap.add_argument("--private", nargs="+", default=[])
+    ap.add_argument("--open", nargs="+", default=[])
+    args = ap.parse_args()
+
+    if args.make_fingerprints:
+        if not args.private:
+            ap.error("--make-fingerprints needs --private DIR")
+        make_fingerprints(args.make_fingerprints, args.private, args.open)
+        return 0
+
+    root = Path(args.root).resolve()
+    problems = audit(root, args.allowlist, load_fingerprints(args.fingerprints), args.max_bytes)
+    if args.summary:
+        for cat, n in Counter(p[0] for p in problems).most_common():
+            tops = Counter("/".join(p[1].split(":")[0].split("/")[:2]) for p in problems if p[0] == cat)
+            print(f"{cat:12} {n:6}  " + ", ".join(f"{d} ({c})" for d, c in tops.most_common(6)))
+    else:
+        for cat, where, why in problems:
+            print(f"{cat:12} {where}  {why}")
+    if problems:
+        print(f"PUBLIC-AUDIT FAIL — {len(problems)} problem(s)", file=sys.stderr)
+        return 1
+    print("PUBLIC-AUDIT PASS")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

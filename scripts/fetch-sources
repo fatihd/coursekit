@@ -1,0 +1,82 @@
+#!/usr/bin/env python3
+"""scripts/fetch-sources — download a course's public-domain scan inputs (ROADMAP P10-T3).
+
+Large scans, PDFs and OCR dumps are not committed to the public repo (ADR-020). Each
+`build/_sources/<name>/manifest.json` lists the files with their Internet Archive URL and
+sha256; this script downloads the missing ones, verifies the hash and (for `.gz` URLs)
+decompresses. Files already present with the right hash are skipped.
+
+Usage:
+    python scripts/fetch-sources davidson            # files exwb/build need
+    python scripts/fetch-sources davidson --all      # plus optional locators / hOCR
+    python scripts/fetch-sources davidson --only key-1924_page_numbers.json --dest /tmp/x
+"""
+
+import argparse
+import gzip
+import hashlib
+import json
+import sys
+import urllib.request
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+
+def sha256(path):
+    h = hashlib.sha256()
+    with open(path, "rb") as f:
+        for chunk in iter(lambda: f.read(1 << 20), b""):
+            h.update(chunk)
+    return h.hexdigest()
+
+
+def fetch(entry, dest):
+    target = dest / entry["file"]
+    if target.exists() and sha256(target) == entry["sha256"]:
+        print(f"ok       {entry['file']}")
+        return True
+    print(f"fetch    {entry['file']}  <- {entry['url']}", flush=True)
+    req = urllib.request.Request(entry["url"], headers={"User-Agent": "lang-research-fetch-sources"})
+    with urllib.request.urlopen(req, timeout=120) as resp:
+        data = resp.read()
+    if entry.get("gunzip"):
+        data = gzip.decompress(data)
+    tmp = target.with_suffix(target.suffix + ".part")
+    tmp.write_bytes(data)
+    got = sha256(tmp)
+    if got != entry["sha256"]:
+        tmp.unlink()
+        print(f"MISMATCH {entry['file']}: sha256 {got} != {entry['sha256']}", file=sys.stderr)
+        return False
+    tmp.replace(target)
+    return True
+
+
+def main():
+    ap = argparse.ArgumentParser(description="Download public-domain scan inputs for a course.")
+    ap.add_argument("name", help="folder under build/_sources/, e.g. davidson")
+    ap.add_argument("--all", action="store_true", help="include optional files")
+    ap.add_argument("--only", nargs="+", help="fetch just these manifest file names")
+    ap.add_argument("--dest", help="download folder (default: build/_sources/<name>)")
+    args = ap.parse_args()
+
+    src = ROOT / "build" / "_sources" / args.name
+    manifest = json.loads((src / "manifest.json").read_text(encoding="utf-8"))
+    dest = Path(args.dest) if args.dest else src
+    dest.mkdir(parents=True, exist_ok=True)
+    entries = manifest["files"]
+    if args.only:
+        entries = [e for e in entries if e["file"] in set(args.only)]
+    elif not args.all:
+        entries = [e for e in entries if not e.get("optional")]
+    failed = [e["file"] for e in entries if not fetch(e, dest)]
+    if failed:
+        print(f"FETCH FAIL — {len(failed)} file(s): {', '.join(failed)}", file=sys.stderr)
+        return 1
+    print(f"FETCH OK — {len(entries)} file(s) in {dest}")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

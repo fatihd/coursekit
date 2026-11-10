@@ -1,0 +1,258 @@
+#!/usr/bin/env python3
+"""scripts/validate — validate course JSON against schemas in build/schemas/.
+
+Exit codes: 0 on success, nonzero on any validation failure (each error is printed
+to stderr with the file path + schema path). Also performs a few cross-file
+consistency checks (file->unit, units.json vs course.json entries).
+
+Usage:
+    python scripts/validate courses/biblical-hebrew-davidson
+    python scripts/validate courses/biblical-hebrew-davidson --snapshot   # also emit prerequisites/knowledge.json
+
+See docs/DATA-MODEL.md, docs/ROADMAP.md (P2-T4).
+"""
+
+import argparse
+import json
+import re
+import sys
+from pathlib import Path
+
+try:
+    import jsonschema
+except ImportError:
+    sys.exit("jsonschema not installed. Run: .venv/bin/pip install jsonschema")
+
+
+SCHEMAS_DIR = Path("build/schemas")
+
+# Exercise types the engine can render (registered in engine/exercise-types/).
+# Workbook items whose typeGuess is NOT in this set count as uncovered (P6-T4 gate).
+SUPPORTED_EXERCISE_TYPES = {
+    "mcq", "match-by-line", "categorize", "translate-phrase", "transform",
+    "paradigm-tag", "paradigm-fill", "multi-translation", "fill-blank-verse",
+    "scan-text", "synonym-antonym", "dictation", "translit-normalize",
+    "gap-fill-verse", "flash-timed", "identify-binyan", "build-construct-chain",
+    "root-pattern-compose", "spot-error",
+}
+
+MIN_WORKBOOK_COVERAGE = 0.75  # P6-T4 acceptance: >=75% of workbook items typed
+
+SCHEMA_FOR_FILE = {
+    "course.json": "course.json",
+    "vocab.json": "vocab.json",
+    "units.json": "units.json",
+    "prerequisites/knowledge.json": "knowledge.json",
+}
+
+NUM_FILE_RE = re.compile(r"^(\d{2})\.json$")
+
+
+def load_schema(name):
+    path = SCHEMAS_DIR / name
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def validate_file(file_path, schema):
+    try:
+        data = json.loads(file_path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as e:
+        return [(str(file_path), "<parse>", f"invalid JSON: {e}")]
+    errors = []
+    for err in jsonschema.Draft202012Validator(schema).iter_errors(data):
+        loc = ".".join(str(p) for p in err.absolute_path) or "<root>"
+        errors.append((str(file_path), loc, err.message))
+    return errors, data
+
+
+def validate_course(course_dir):
+    errors = []
+    course_dir = Path(course_dir)
+    if not course_dir.is_dir():
+        return [(str(course_dir), "<path>", "course directory not found")]
+
+    loaded = {}
+
+    for rel, schema_name in SCHEMA_FOR_FILE.items():
+        path = course_dir / rel
+        if not path.exists():
+            continue
+        schema = load_schema(schema_name)
+        file_errors, data = validate_file(path, schema)
+        errors.extend(file_errors)
+        loaded[rel] = data
+
+    for ex_path in sorted((course_dir / "exercises").glob("*.json")):
+        schema = load_schema("workbook-exercises.json")
+        file_errors, data = validate_file(ex_path, schema)
+        errors.extend(file_errors)
+        loaded[f"exercises/{ex_path.name}"] = data
+
+    for a_path in sorted((course_dir / "authored").glob("*.json")):
+        schema = load_schema("authored-exercises.json")
+        file_errors, data = validate_file(a_path, schema)
+        errors.extend(file_errors)
+        loaded[f"authored/{a_path.name}"] = data
+
+    for ul_path in sorted((course_dir / "units").glob("*.json")):
+        schema = load_schema("unit-lesson.json")
+        file_errors, data = validate_file(ul_path, schema)
+        errors.extend(file_errors)
+        loaded[f"units/{ul_path.name}"] = data
+
+    for ak_path in sorted((course_dir / "answer-key").glob("*.json")):
+        schema = load_schema("answer-key.json")
+        file_errors, data = validate_file(ak_path, schema)
+        errors.extend(file_errors)
+        loaded[f"answer-key/{ak_path.name}"] = data
+
+    cross_errs = cross_file_checks(course_dir, loaded)
+    errors.extend(cross_errs)
+
+    return errors
+
+
+def cross_file_checks(course_dir, loaded):
+    """Consistency checks across files. Reports (path, loc, message) tuples."""
+    errs = []
+
+    course = loaded.get("course.json")
+    units = loaded.get("units.json")
+    if course and units:
+        course_unit_ns = {u["n"] for u in course.get("units", [])}
+        unit_json_ns = {u["n"] for u in units.get("units", [])}
+        missing = course_unit_ns - unit_json_ns
+        extra = unit_json_ns - course_unit_ns
+        if missing:
+            errs.append(("course.json", "units",
+                         f"units declared but missing from units.json: {sorted(missing)}"))
+        if extra:
+            errs.append(("units.json", "units",
+                         f"units present but not in course.json: {sorted(extra)}"))
+
+    for key, data in loaded.items():
+        m = NUM_FILE_RE.match(Path(key).name)
+        if not m:
+            continue
+        file_n = int(m.group(1))
+        if "unit" in data and data["unit"] != file_n:
+            errs.append((key, "unit",
+                         f"file is for unit {file_n} but 'unit' field is {data['unit']}"))
+
+    for key, data in loaded.items():
+        if not key.startswith("exercises/"):
+            continue
+        for it in data.get("items", []):
+            if it.get("confidence") and not (0.0 <= it["confidence"] <= 1.0):
+                errs.append((key, f"items[{it.get('n')}]",
+                             f"confidence out of [0,1]: {it['confidence']}"))
+
+    course_id = Path(course_dir).name
+    course = loaded.get("course.json")
+    if course and course.get("id") != course_id:
+        errs.append(("course.json", "id",
+            f"course.json id {course.get('id')!r} != dir name {course_id!r}"))
+
+    return errs
+
+
+def emit_snapshot(course_dir):
+    """Emit `prerequisites/knowledge.json` for a course from its authored vocab.
+
+    Every vocab lexeme becomes a knowledge item (kind `lexeme`) so a later level
+    can stand alone for recap/spiral review even if the student never ran this
+    course. IDs are the vocab rows' own ids (globally unique across levels).
+    """
+    course = json.loads((course_dir / "course.json").read_text(encoding="utf-8"))
+    vocab = json.loads((course_dir / "vocab.json").read_text(encoding="utf-8"))
+    language = course.get("language")
+    level = course.get("level")
+    items = []
+    for r in vocab.get("items", []):
+        if not (r.get("scriptForm") or r.get("gloss") or r.get("transliteration")):
+            continue
+        item = {
+            "id": r["id"],
+            "language": language,
+            "kind": "lexeme",
+            "level": level,
+            "unit": r["unit"],
+        }
+        for k in ("scriptForm", "transliteration", "gloss", "category"):
+            if r.get(k):
+                item[k] = r[k]
+        props = {}
+        if r.get("gender"):
+            props["gender"] = r["gender"]
+        if r.get("number"):
+            props["number"] = r["number"]
+        if props:
+            item["props"] = props
+        items.append(item)
+    out = {"schema": "knowledge-v1.json", "items": items}
+    out_path = course_dir / "prerequisites" / "knowledge.json"
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    out_path.write_text(json.dumps(out, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(f"snapshot: wrote {len(items)} knowledge items to {out_path}")
+
+
+def workbook_coverage(course_dir):
+    """Return (covered, total, uncovered_by_unit) for workbook exercise items.
+
+    Covered = item's typeGuess maps to a type the engine can render. Prints a
+    summary line; returns coverage fraction for the P6-T4 >=75% gate.
+    """
+    supported = SUPPORTED_EXERCISE_TYPES
+    total = covered = 0
+    missing = {}
+    for ex_path in sorted((Path(course_dir) / "exercises").glob("*.json")):
+        data = json.loads(ex_path.read_text(encoding="utf-8"))
+        for it in data.get("items", []):
+            total += 1
+            if it.get("typeGuess") in supported:
+                covered += 1
+            else:
+                missing.setdefault(f"{data.get('unit'):02d}", []).append(
+                    (it.get("n"), it.get("typeGuess")))
+    frac = covered / total if total else 1.0
+    print(f"workbook coverage: {covered}/{total} = {100*frac:.0f}% of items map to a supported exercise type")
+    if missing:
+        unit_list = ", ".join(f"{u}:{sorted(ns)}" for u, ns in sorted(missing.items()))
+        print(f"  unsupported typeGuess items: {unit_list}")
+    return frac
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("course", help="path to course dir, e.g. courses/biblical-hebrew-davidson")
+    ap.add_argument(
+        "--snapshot",
+        action="store_true",
+        help="after validating, emit prerequisites/knowledge.json from the course's "
+        "authored vocab (kind=lexeme items with the vocab rows' own ids)",
+    )
+    args = ap.parse_args()
+
+    errors = validate_course(args.course)
+    if errors:
+        print(f"❌ {len(errors)} validation error(s) in {args.course}:", file=sys.stderr)
+        for path, loc, msg in errors:
+            print(f"  {path} :: {loc} :: {msg}", file=sys.stderr)
+        sys.exit(1)
+
+    frac = workbook_coverage(args.course)
+    # P6-T4 gate: report workbook exercise coverage (must be >= 75%).
+    if frac < MIN_WORKBOOK_COVERAGE:
+        print(f"❌ workbook coverage {100*frac:.0f}% < required {100*MIN_WORKBOOK_COVERAGE:.0f}%", file=sys.stderr)
+        sys.exit(1)
+
+    print(f"✓ {args.course} validates clean")
+
+    if args.snapshot:
+        emit_snapshot(Path(args.course))
+
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

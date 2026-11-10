@@ -1,0 +1,84 @@
+{
+  "schema": "unit-lesson-v1.json",
+  "unit": 25,
+  "title": "Qal Imperative, Jussive, Cohortative, and Infinitives",
+  "description": "Distinguish the Qal command, wish, and verbal-noun forms.",
+  "teaches": [],
+  "assumes": [],
+  "blocks": [
+    {
+      "type": "prose",
+      "caption": "Summary",
+      "html": "<p>Besides the Qatal and Yiqtol, Hebrew has forms for command, wish, and verbal noun. The imperative commands directly and is built on the second person: שְׁמֹר (keep!), שִׁמְרוּ (keep!, plural). The jussive and cohortative express a wish or a softened command: יְהִי (let it be), אֶשְׁמְרָה (let me keep). The infinitive construct, usually with לְ, acts as a verbal noun: לִשְׁמֹר (to keep).</p>"
+    },
+    {
+      "type": "table",
+      "caption": "Non-indicative Qal forms",
+      "columns": [
+        "Form",
+        "Meaning"
+      ],
+      "rows": [
+        [
+          "שְׁמֹר",
+          "keep! (2ms)"
+        ],
+        [
+          "שִׁמְרוּ",
+          "keep! (2mp)"
+        ],
+        [
+          "אֶשְׁמְרָה",
+          "let me keep (cohortative)"
+        ],
+        [
+          "יְהִי",
+          "let it be (jussive)"
+        ],
+        [
+          "לִשְׁמֹר",
+          "to keep (infinitive construct)"
+        ],
+        [
+          "שָׁמוֹר",
+          "keep surely (infinitive absolute)"
+        ]
+      ]
+    },
+    {
+      "type": "prose",
+      "caption": "The imperative",
+      "html": "<p>The imperative exists only for the second person, since one commands the one addressed: שְׁמֹר (keep, to a man), שִׁמְרִי (keep, to a woman), שִׁמְרוּ (keep, to a group). It is a short form of the Yiqtol with the prefix removed. Its brevity and its second-person meaning identify it at once.</p><p>Because the imperative addresses a hearer, Hebrew has no third-person imperative. A command or wish about a third person is expressed by the jussive. In the regular strong Qal, imperative forms are closely related to the corresponding imperfect: the second-person prefix is absent, and the remaining form follows the same stem pattern. Some weak verbs shorten or alter the form, so compare the imperative with the verb&#x27;s imperfect rather than assuming that every command is formed by simply deleting a letter.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Jussive, cohortative, infinitive",
+      "html": "<p>The jussive expresses a wish about a third or second person, often with a shortened vowel: יְהִי, &quot;let it be&quot;. The cohortative adds -āh to the first person to express &quot;let me/let us&quot;: אֶשְׁמְרָה. The infinitive construct is a noun made from the verb, and with לְ it means &quot;to do&quot;: לִשְׁמֹר, &quot;to keep&quot;. The infinitive absolute is a rarer emphatic form such as שָׁמוֹר.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Will, prohibition, and emphasis",
+      "html": "<p>Davidson describes the jussive and cohortative as ways of marking the speaker&#x27;s attitude. The jussive is brief and peremptory: it can command, entreat, or dissuade, and it is found in the second and third persons. In a negative prohibition it normally follows אַל; an imperative is not the form used to say “do not.” The cohortative points the speaker&#x27;s will toward an action—desire, intention, self-encouragement, or, in the first-person plural, exhortation. Its added -āh is a useful clue, but the sense still depends on context.</p><p>An imperative can also take -āh for emphasis. Do not automatically call every emphatic imperative a cohortative: the person and function differ. The cohortative is first person; the emphatic imperative still addresses the second person. Davidson notes that the added syllable does not always carry an obvious extra emphasis in translation.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Two infinitives, two jobs",
+      "html": "<p>The infinitive construct behaves like a verbal noun. It can take a preposition—especially לְ—and pronominal suffixes, and it commonly follows verbs such as “begin,” “continue,” or “cease,” or expresses purpose (“in order to…”). The infinitive absolute is different: it stands without a prefix or suffix and often accompanies a finite verb to emphasize the action (“surely,” “indeed”) or to suggest continuation. Davidson stresses that these infinitives are of independent origin, not merely two versions of one form. When parsing, identify which one you have before translating its role.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Common confusion",
+      "html": "<p>Do not read the imperative as a past or future. It is a command, not a statement of fact. The infinitive construct with לְ looks like a purpose phrase and usually translates &quot;to …&quot;; do not parse it as a finite verb. Keep the jussive&#x27;s shortened form distinct from the ordinary Yiqtol.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Source",
+      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (1914), §21, §23.</p>"
+    },
+    {
+      "type": "vocab",
+      "refs": []
+    }
+  ],
+  "didYouKnow": ""
+}

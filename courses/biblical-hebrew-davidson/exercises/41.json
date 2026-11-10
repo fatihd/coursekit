@@ -1,0 +1,33 @@
+{
+  "schema": "workbook-exercises-v1.json",
+  "unit": 41,
+  "items": [
+    {
+      "unit": 41,
+      "n": 1,
+      "typeGuess": "translate-phrase",
+      "confidence": 0.5,
+      "prompt": "Translate this English sentence into Hebrew",
+      "body_raw": "And he offered the ram of the burnt-offering",
+      "answer_raw": "קוּמי הָעִיִרָה הַעולֶה וְתאמַר"
+    },
+    {
+      "unit": 41,
+      "n": 2,
+      "typeGuess": "translate-phrase",
+      "confidence": 0.5,
+      "prompt": "Translate this English sentence into Hebrew",
+      "body_raw": "And the men feared to return to their houses",
+      "answer_raw": "את לָכִי לְבִיתַד גלד"
+    },
+    {
+      "unit": 41,
+      "n": 3,
+      "typeGuess": "mcq",
+      "confidence": 0.5,
+      "prompt": "Translate this Hebrew sentence into English",
+      "body_raw": "גוים יבאו לד",
+      "answer_raw": "The wealth\" of the nations shall come\" unto thee.\""
+    }
+  ]
+}

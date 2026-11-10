@@ -1,0 +1,81 @@
+{
+  "schema": "unit-lesson-v1.json",
+  "unit": 16,
+  "title": "The Verb Stems",
+  "description": "Hebrew uses several stems built from a root. This unit compares their common form markers and semantic tendencies.",
+  "teaches": [
+    "he-oer-16-001",
+    "he-oer-16-002",
+    "he-oer-16-003"
+  ],
+  "assumes": [
+    "he-oer-15-001",
+    "he-oer-15-002",
+    "he-oer-15-003"
+  ],
+  "blocks": [
+    {
+      "type": "prose",
+      "html": "<p>The major stems include Qal, Nifal, Piel, Pual, Hitpael, Hifil, and Hofal. Stem changes can affect voice, valency, or lexical meaning. Nifal often has passive or middle uses; Piel and Pual frequently form an active/passive pair; Hitpael often has reflexive or reciprocal uses; Hifil and Hofal commonly express causative and passive-causative relations. These are tendencies, not translation rules; verify each verb in a lexicon.</p>"
+    },
+    {
+      "type": "table",
+      "caption": "Stem Patterns",
+      "columns": [
+        "Stem",
+        "Common marker in strong forms"
+      ],
+      "rows": [
+        [
+          "Qal",
+          "basic pattern"
+        ],
+        [
+          "Nifal",
+          "נִ־ in many forms"
+        ],
+        [
+          "Piel / Pual",
+          "doubled middle radical"
+        ],
+        [
+          "Hitpael",
+          "הִתְ־ in many forms"
+        ],
+        [
+          "Hifil / Hofal",
+          "הִ־ / הָ־ in many forms"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Word roots (OER)",
+      "columns": [
+        "Hebrew",
+        "Transliteration",
+        "Gloss",
+        "Root",
+        "Strong"
+      ],
+      "rows": [
+        [
+          "קָטַל",
+          "qāṭal",
+          "he did",
+          "",
+          "6993"
+        ]
+      ]
+    },
+    {
+      "type": "vocab",
+      "refs": [
+        "he-oer-16-001",
+        "he-oer-16-002",
+        "he-oer-16-003"
+      ]
+    }
+  ],
+  "didYouKnow": "According to OSHB/MorphHB (CC BY 4.0), the most frequent word in this unit is קָטַל (qāṭal), occurring 1 times in the Westminster Leningrad Codex."
+}

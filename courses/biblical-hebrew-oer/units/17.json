@@ -1,0 +1,87 @@
+{
+  "schema": "unit-lesson-v1.json",
+  "unit": 17,
+  "title": "Yiqtol and Tenseless Forms",
+  "description": "Yiqtol uses prefixes to mark person. Some related forms express possibility, desire, command, or verbal action without a fixed time reference.",
+  "teaches": [
+    "he-oer-17-001",
+    "he-oer-17-002",
+    "he-oer-17-003"
+  ],
+  "assumes": [
+    "he-oer-16-001",
+    "he-oer-16-002",
+    "he-oer-16-003"
+  ],
+  "blocks": [
+    {
+      "type": "prose",
+      "html": "<p>Yiqtol has a prefix in every person and suffixes in some gender-and-number forms. It can express future, repeated, general, or modal meanings, so it is not equivalent to one English tense. Some forms are identical and must be interpreted from context. Imperatives, jussives, cohortatives, and infinitives share parts of the verbal system but have distinct clause roles.</p>"
+    },
+    {
+      "type": "table",
+      "caption": "Qal Yiqtol pattern",
+      "columns": [
+        "Person",
+        "Singular",
+        "Plural"
+      ],
+      "rows": [
+        [
+          "3rd masculine",
+          "יִקְטֹל",
+          "יִקְטְלוּ"
+        ],
+        [
+          "3rd feminine",
+          "תִּקְטֹל",
+          "תִּקְטֹלְנָה"
+        ],
+        [
+          "2nd masculine",
+          "תִּקְטֹל",
+          "תִּקְטְלוּ"
+        ],
+        [
+          "2nd feminine",
+          "תִּקְטְלִי",
+          "תִּקְטֹלְנָה"
+        ],
+        [
+          "1st common",
+          "אֶקְטֹל",
+          "נִקְטֹל"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Word roots (OER)",
+      "columns": [
+        "Hebrew",
+        "Transliteration",
+        "Gloss",
+        "Root",
+        "Strong"
+      ],
+      "rows": [
+        [
+          "יִקְטֹל",
+          "yiqṭōl",
+          "he will do",
+          "",
+          "6991"
+        ]
+      ]
+    },
+    {
+      "type": "vocab",
+      "refs": [
+        "he-oer-17-001",
+        "he-oer-17-002",
+        "he-oer-17-003"
+      ]
+    }
+  ],
+  "didYouKnow": "According to OSHB/MorphHB (CC BY 4.0), the most frequent word in this unit is יִקְטֹל (yiqṭōl), occurring 1 times in the Westminster Leningrad Codex."
+}

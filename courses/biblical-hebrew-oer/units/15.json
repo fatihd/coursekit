@@ -1,0 +1,101 @@
+{
+  "schema": "unit-lesson-v1.json",
+  "unit": 15,
+  "title": "Qatal and Participles",
+  "description": "The verb sequence begins with Qatal and the participle. This unit focuses on their forms before treating their full range of meanings.",
+  "teaches": [
+    "he-oer-15-001",
+    "he-oer-15-002",
+    "he-oer-15-003"
+  ],
+  "assumes": [
+    "he-oer-14-001",
+    "he-oer-14-002",
+    "he-oer-14-003"
+  ],
+  "blocks": [
+    {
+      "type": "prose",
+      "html": "<p>Qatal is a suffix conjugation: most forms attach subject endings to the stem. The 3ms form is commonly used as the dictionary citation form. Qal is the basic stem for the paradigm. Participles have gender and number forms and can function adjectivally or verbally. Learn the endings and identify the stem before deciding how a form functions in its clause.</p>"
+    },
+    {
+      "type": "table",
+      "caption": "Qal Qatal pattern",
+      "columns": [
+        "Person",
+        "Singular",
+        "Plural"
+      ],
+      "rows": [
+        [
+          "3rd masculine",
+          "קָטַל",
+          "קָטְלוּ"
+        ],
+        [
+          "3rd feminine",
+          "קָטְלָה",
+          "קָטְלוּ"
+        ],
+        [
+          "2nd masculine",
+          "קָטַלְתָּ",
+          "קְטַלְתֶּם"
+        ],
+        [
+          "2nd feminine",
+          "קָטַלְתְּ",
+          "קְטַלְתֶּן"
+        ],
+        [
+          "1st common",
+          "קָטַלְתִּי",
+          "קָטַלְנוּ"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Word roots (OER)",
+      "columns": [
+        "Hebrew",
+        "Transliteration",
+        "Gloss",
+        "Root",
+        "Strong"
+      ],
+      "rows": [
+        [
+          "מִן",
+          "min",
+          "from",
+          "",
+          "4480"
+        ],
+        [
+          "עַל",
+          "‘al",
+          "on; upon",
+          "עלה",
+          "5921"
+        ],
+        [
+          "אֵת",
+          "’ēt",
+          "definite object marker",
+          "",
+          "0853"
+        ]
+      ]
+    },
+    {
+      "type": "vocab",
+      "refs": [
+        "he-oer-15-001",
+        "he-oer-15-002",
+        "he-oer-15-003"
+      ]
+    }
+  ],
+  "didYouKnow": "According to OSHB/MorphHB (CC BY 4.0), the most frequent word in this unit is אֵת (’ēt), occurring 9753 times in the Westminster Leningrad Codex."
+}

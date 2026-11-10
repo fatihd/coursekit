@@ -1,0 +1,58 @@
+{
+  "schema": "unit-lesson-v1.json",
+  "unit": 18,
+  "title": "Imperative, Jussive, Cohortative, and Infinitives",
+  "description": "These forms express commands, wishes, intentions, and actions treated as nouns. Their subject and clause roles distinguish them from ordinary finite statements.",
+  "teaches": [
+    "he-oer-18-001",
+    "he-oer-18-002",
+    "he-oer-18-003"
+  ],
+  "assumes": [
+    "he-oer-17-001",
+    "he-oer-17-002",
+    "he-oer-17-003"
+  ],
+  "blocks": [
+    {
+      "type": "prose",
+      "html": "<p>An imperative normally addresses the listener. A jussive expresses a desired or directed action for a third person, while a cohortative presents the speaker&#x27;s or group&#x27;s intention. The infinitive construct can function as a noun or form a subordinate clause and is often translated with “to.” The infinitive absolute can emphasize an action or serve other constructions. Use the form and clause context together to select a translation.</p>"
+    },
+    {
+      "type": "table",
+      "caption": "Word roots (OER)",
+      "columns": [
+        "Hebrew",
+        "Transliteration",
+        "Gloss",
+        "Root",
+        "Strong"
+      ],
+      "rows": [
+        [
+          "קְטֹל",
+          "qəṭōl",
+          "do! (masculine singular command)",
+          "",
+          "6993"
+        ],
+        [
+          "קָטֹל",
+          "qāṭōl",
+          "do surely (infinitive absolute)",
+          "",
+          "6993"
+        ]
+      ]
+    },
+    {
+      "type": "vocab",
+      "refs": [
+        "he-oer-18-001",
+        "he-oer-18-002",
+        "he-oer-18-003"
+      ]
+    }
+  ],
+  "didYouKnow": "According to OSHB/MorphHB (CC BY 4.0), the most frequent word in this unit is קְטֹל (qəṭōl), occurring 1 times in the Westminster Leningrad Codex."
+}

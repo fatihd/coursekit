@@ -1,0 +1,48 @@
+{
+  "schema": "authored-exercises-v1.json",
+  "unit": 27,
+  "items": [
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate this English sentence into Hebrew",
+      "stimulus": "Yahweh is near to the broken of heart",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אלדי קרוב הוה לנשבּררלב",
+        "אלדי קרוב הוה לנשבררלב"
+      ],
+      "answerIsScript": true,
+      "source": {
+        "citation": "Davidson, Introductory Hebrew Grammar (22nd ed.) exercise on §25; Key to the Exercises (1924) §25",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n110/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n110.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n60/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n60.jpg",
+        "sanityScore": 0.25,
+        "sanity": "weak",
+        "note": "Read from the scans by OCR; open them if a reading looks wrong."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate this English sentence into Hebrew",
+      "stimulus": "The arms of the wicked shall be broken",
+      "stimulusIsScript": false,
+      "accepted": [
+        "רשעים צדִיקים את חיים",
+        "רשעים צדיקים את חיים"
+      ],
+      "answerIsScript": true,
+      "source": {
+        "citation": "Davidson, Introductory Hebrew Grammar (22nd ed.) exercise on §25; Key to the Exercises (1924) §25",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n110/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n110.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n62/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n62.jpg",
+        "sanityScore": 0.25,
+        "sanity": "weak",
+        "note": "Read from the scans by OCR; open them if a reading looks wrong."
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "schema": "unit-lesson-v1.json",
+  "unit": 39,
+  "title": "Pe-Yod and Pe-Waw Verbs",
+  "description": "Track the weak first radical yod and waw.",
+  "teaches": [
+    "he-dav-39-001",
+    "he-dav-39-002",
+    "he-dav-39-003",
+    "he-dav-39-004",
+    "he-dav-39-005",
+    "he-dav-39-006",
+    "he-dav-39-007",
+    "he-dav-39-008"
+  ],
+  "assumes": [
+    "he-dav-38-001",
+    "he-dav-38-002",
+    "he-dav-38-003",
+    "he-dav-38-004",
+    "he-dav-38-005",
+    "he-dav-38-006",
+    "he-dav-38-007"
+  ],
+  "blocks": [
+    {
+      "type": "prose",
+      "caption": "Summary",
+      "html": "<p>Pe-Yod and Pe-Waw verbs have a weak yod or waw as the first radical. In Qal, the classes can look alike because an original waw at the beginning of a Hebrew word is represented by yod. That surface resemblance does not make the roots identical: in Hiphil and Niphal, forms from Pe-Waw roots can preserve the waw clue, while Pe-Yod roots follow their own pattern. Use the root and the other stem forms together to identify the class.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Pe-Yod",
+      "html": "<p>The Qal imperfect of a Pe-Yod verb is formed regularly, with a as its final vowel; the first yod may quiesce beside the imperfect prefix. Thus יָדַע (he knew) gives יֵדַע (he will know): one yod belongs to the root and the other marks the imperfect, though the root yod is not pronounced as a separate consonant. The same visible change occurs in several frequent Pe-Yod verbs. Compare each imperfect with its perfect citation form so that the prefix yod is not mistaken for the first radical.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Pe-Waw",
+      "html": "<p>In Pe-Waw verbs the original waw is clearest in Hiphil and Niphal, where it can remain consonantal or appear in the stem&#x27;s vowel pattern. In Qal imperfects there are two patterns: some retain the initial radical and form much like Pe-Yod verbs; in others the first radical drops, leaving an e-vowel with the preformative and, usually, at the end of the form. Davidson singles out six very common verbs in this second group—“know,” “bear,” “go out,” “go down,” “sit/dwell,” and “go.” Learn their attested imperfects as a set rather than trying to derive every form from a single rule.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Recovering the weak radical",
+      "html": "<p>The imperfect prefix itself is often yod, so the written yod at the start of a form does not prove that the root begins with yod. Start with the perfect or another form in which the first radical is visible. Then compare the Qal imperfect with Hiphil or Niphal if those stems are available. Some Pe-Yod and Pe-Waw roots also assimilate their first radical to the next consonant; a doubled consonant can be the trace of that lost radical. Do not force the surface form into a strong three-consonant pattern.</p><p>The imperative and infinitive construct follow the imperfect pattern. In Pe-Waw verbs whose initial radical has dropped, the infinitive construct may add a final he and take the segholate shape Davidson compares to Pe-Nun verbs. This gives another way to recognize the weak class, but the root remains the anchor: use forms already learned for the particular verb instead of constructing an unattested form by analogy.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "The common verbs",
+      "html": "<p>Six verbs are especially common and should be learned carefully: יָדַע (know), יָלַד (bear), יָצָא (go out), יָרַד (go down), יָשַׁב (sit), and הָלַךְ (go). Their imperfects — יֵדַע, יֵלֵד, יֵצֵא, יֵרֵד, יֵשֵׁב, יֵלֵךְ — recur constantly.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Common confusion",
+      "html": "<p>Because every verb&#x27;s imperfect begins with a person prefix, a Pe-Yod imperfect can appear to have two initial yods; in a Pe-Waw verb, the original waw may no longer be visible in Qal. Recover the root from the perfect and use the Hiphil/Niphal contrast when known. Do not confuse these classes with Pe-Nun: nun assimilation has its own pattern and the doubled consonant may mark the lost nun, not an initial yod or waw.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Worked example",
+      "html": "<p>Take יָשַׁב (&quot;he sat&quot;) and its imperfect יֵשֵׁב (&quot;he will sit&quot;). The first yod of the root quiesces, leaving the e of the preformative to carry the sound. Compare the perfect, where the yod is visible, to recover the root.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Reading practice",
+      "html": "<p>Read and parse. יָשַׁב הָעָם — &quot;the people sat&quot;. יָדַע הָאִישׁ — &quot;the man knew&quot;. The first yod is the root; in the imperfect it quiesces (יֵשֵׁב, יֵדַע). Compare the perfect to recover the root.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Source",
+      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (1914), §39.</p>"
+    },
+    {
+      "type": "vocab",
+      "refs": [
+        "he-dav-39-001",
+        "he-dav-39-002",
+        "he-dav-39-003",
+        "he-dav-39-004",
+        "he-dav-39-005",
+        "he-dav-39-006",
+        "he-dav-39-007",
+        "he-dav-39-008"
+      ]
+    }
+  ],
+  "didYouKnow": ""
+}

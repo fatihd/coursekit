@@ -1,0 +1,124 @@
+#!/usr/bin/env python3
+"""scripts/build-site — build the static site for hosting (ROADMAP P10-T8).
+
+Reads `site/site.json`, releases each listed course with `scripts/release-course --site`
+into `<out>/<course-id>/`, and writes a landing page, a per-course redirect to `app/`,
+`404.html` and `.nojekyll`. Every link is relative, so the site works at any base path
+(e.g. https://<user>.github.io/coursekit/) and on any static host.
+
+Usage:
+    python scripts/build-site [--out _site] [--config site/site.json]
+"""
+
+import argparse
+import html
+import json
+import shutil
+import subprocess
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+STYLE = """
+:root { --bg:#faf7f2; --card:#fff; --ink:#1f1d1a; --muted:#5f5a52; --line:#e4ddd0; --accent:#7a3e12;
+  --note-bg:#fff4dc; --note-line:#e8c97a; color-scheme: light; }
+@media (prefers-color-scheme: dark) { :root { --bg:#181715; --card:#22201d; --ink:#ece7de;
+  --muted:#a9a196; --line:#3a3630; --accent:#e0a36b; --note-bg:#2e2716; --note-line:#6b5523;
+  color-scheme: dark; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--ink); font:1rem/1.55 system-ui, sans-serif; }
+main { max-width: 46rem; margin: 0 auto; padding: 2.5rem 1rem 3rem; }
+h1 { margin: 0 0 .25rem; font-size: 2rem; letter-spacing: -.01em; }
+.tagline { margin: 0 0 1.25rem; color: var(--muted); }
+.notice { background: var(--note-bg); border: 1px solid var(--note-line); border-radius: .5rem;
+  padding: .6rem .8rem; margin: 0 0 1.5rem; font-size: .95rem; }
+.course { display:block; background:var(--card); border:1px solid var(--line); border-radius:.6rem;
+  padding: 1rem 1.1rem; margin: 0 0 1rem; color: inherit; text-decoration: none; }
+.course:hover, .course:focus-visible { border-color: var(--accent); outline: none; }
+.course h2 { margin: 0 0 .2rem; font-size: 1.2rem; color: var(--accent); }
+.course p { margin: .25rem 0; }
+.meta { color: var(--muted); font-size: .88rem; }
+footer { color: var(--muted); font-size: .88rem; margin-top: 2rem; }
+footer a { color: inherit; }
+"""
+
+
+def page(title, body):
+    return (
+        "<!doctype html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n"
+        "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n"
+        f"<title>{html.escape(title)}</title>\n<style>{STYLE}</style>\n</head>\n"
+        f"<body>\n<main>\n{body}\n</main>\n</body>\n</html>\n"
+    )
+
+
+def redirect(target):
+    t = html.escape(target)
+    return (
+        "<!doctype html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n"
+        f"<meta http-equiv=\"refresh\" content=\"0; url={t}\">\n<title>Redirecting…</title>\n"
+        f"</head>\n<body><a href=\"{t}\">Open the course</a></body>\n</html>\n"
+    )
+
+
+def main():
+    ap = argparse.ArgumentParser(description="Build the static site.")
+    ap.add_argument("--out", default="_site")
+    ap.add_argument("--config", default=str(ROOT / "site" / "site.json"))
+    args = ap.parse_args()
+
+    cfg = json.loads(Path(args.config).read_text(encoding="utf-8"))
+    out = Path(args.out).resolve()
+    if out == ROOT or out in ROOT.parents:
+        sys.exit("refusing to write the site over the repository")
+    if out.exists():
+        shutil.rmtree(out)
+    out.mkdir(parents=True)
+
+    cards = []
+    for c in cfg["courses"]:
+        cid = c["id"]
+        r = subprocess.run(
+            [sys.executable, "scripts/release-course", cid, "--site", "--out", str(out / cid)],
+            cwd=ROOT, capture_output=True, text=True,
+        )
+        if r.returncode != 0:
+            sys.stderr.write(r.stdout + r.stderr)
+            sys.exit(f"release of {cid} failed")
+        manifest = json.loads((out / cid / "course.json").read_text(encoding="utf-8"))
+        (out / cid / "index.html").write_text(redirect("app/index.html"), encoding="utf-8")
+        units = len(manifest.get("units", []))
+        cards.append(
+            f'<a class="course" href="{html.escape(cid)}/app/index.html">\n'
+            f"<h2>{html.escape(manifest['title'])}</h2>\n"
+            f"<p>{html.escape(c.get('blurb', ''))}</p>\n"
+            f'<p class="meta">{units} units · {html.escape(c.get("source", ""))} · '
+            f"{html.escape(c.get('license', ''))}</p>\n</a>"
+        )
+
+    repo = cfg.get("repo")
+    footer = (
+        "<footer>Progress is saved in this browser only. Use <strong>Export progress</strong> on a "
+        "course's map to keep a copy, and <strong>Import progress</strong> to restore it elsewhere."
+        + (f' · <a href="{html.escape(repo)}">Source code</a> (MIT)' if repo else "")
+        + "</footer>"
+    )
+    body = (
+        f"<h1>{html.escape(cfg['title'])}</h1>\n"
+        f"<p class=\"tagline\">{html.escape(cfg.get('tagline', ''))}</p>\n"
+        + (f"<p class=\"notice\">{html.escape(cfg['notice'])}</p>\n" if cfg.get("notice") else "")
+        + "\n".join(cards) + "\n" + footer
+    )
+    (out / "index.html").write_text(page(cfg["title"], body), encoding="utf-8")
+    (out / "404.html").write_text(
+        page("Not found", f'<h1>Not found</h1>\n<p><a href="{html.escape(cfg.get("base", "./"))}">'
+             "Back to the course list</a></p>"),
+        encoding="utf-8",
+    )
+    (out / ".nojekyll").write_text("", encoding="utf-8")
+    print(f"site: {len(cards)} course(s) -> {out}")
+
+
+if __name__ == "__main__":
+    main()

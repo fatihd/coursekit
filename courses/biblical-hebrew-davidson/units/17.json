@@ -1,0 +1,99 @@
+{
+  "schema": "unit-lesson-v1.json",
+  "unit": 17,
+  "title": "Pronominal Suffixes",
+  "description": "Interpret possessive and prepositional pronominal suffixes.",
+  "teaches": [
+    "he-dav-17-002",
+    "he-dav-17-003",
+    "he-dav-17-004",
+    "he-dav-17-005"
+  ],
+  "assumes": [
+    "he-dav-16-001",
+    "he-dav-16-002",
+    "he-dav-16-003",
+    "he-dav-16-004"
+  ],
+  "blocks": [
+    {
+      "type": "prose",
+      "caption": "Summary",
+      "html": "<p>Hebrew expresses possession by attaching a short suffix to the end of a noun: בֵּיתִי (my house), בֵּיתוֹ (his house). The same suffixes attach to prepositions to express the object of the preposition: לִי (to me), בּוֹ (in it). The suffix carries person, gender, and number, so reading the suffix tells you who owns the thing or who is meant by the preposition.</p>"
+    },
+    {
+      "type": "table",
+      "caption": "Possessive suffixes on בַּיִת",
+      "columns": [
+        "Suffix",
+        "Meaning"
+      ],
+      "rows": [
+        [
+          "בֵּיתִי",
+          "my house"
+        ],
+        [
+          "בֵּיתְךָ",
+          "your (ms) house"
+        ],
+        [
+          "בֵּיתֵךְ",
+          "your (fs) house"
+        ],
+        [
+          "בֵּיתוֹ",
+          "his house"
+        ],
+        [
+          "בֵּיתָהּ",
+          "her house"
+        ],
+        [
+          "בֵּיתֵנוּ",
+          "our house"
+        ]
+      ]
+    },
+    {
+      "type": "prose",
+      "caption": "Possessive suffixes",
+      "html": "<p>The noun takes a suffix in place of a separate possessive word: בֵּיתִי (my house), בֵּיתְךָ (your house), בֵּיתוֹ (his house), בֵּיתָהּ (her house), בֵּיתֵנוּ (our house). The noun may shorten or change vowels when the suffix is added, because the stress moves to the suffix.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "The suffix as a pronoun",
+      "html": "<p>Davidson explains the possessive construction as if the noun were in the construct state followed by an independent pronoun: “house of me” gives “my house.” In ordinary writing the pronoun is not separate; its significant consonants are attached to the noun. This is why a suffix is not simply another plural or gender ending: it supplies a possessor, and the noun becomes related to that possessor.</p><p>The pronoun is not always easy to recognize from its full independent form. Sound changes and helper vowels can obscure the original boundary. First identify the noun, then identify the attached pronoun by its person, gender, and number. The relation is still possessive even when the suffix looks quite different from the independent pronoun you learned earlier.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Prepositional suffixes",
+      "html": "<p>The same suffixes on a preposition give the object of that preposition: לְ becomes לִי (to me), לְךָ (to you), לוֹ (to him); בְּ becomes בִּי (in me), בּוֹ (in it). A few prepositions, like עַל and אֶל, change shape a little before the suffix. Learn the suffixes once and they serve both nouns and prepositions.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Light and heavy suffixes",
+      "html": "<p>Davidson groups suffixes by their effect on the word before them. A “heavy” suffix contains two consonants; a “light” suffix does not. Heavy suffixes normally take the stress and cause the noun to appear in its true construct form. With light suffixes, ordinary stress and vowel rules apply, and the noun does not always show the same construct shape. Singular and plural nouns can also have different suffix forms. These labels explain why the noun stem changes; they are not extra meanings to add in translation.</p><p>The stress is therefore a useful diagnostic. Locate the stressed suffix or syllable first, then check which syllable has become open, closed, or pretonic. A vowel that changes is often responding to that new stress pattern rather than marking a new root or stem. Davidson&#x27;s paradigms illustrate the patterns across several noun types; this unit&#x27;s house paradigm is a first model, not a rule that every noun copies exactly.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Common confusion",
+      "html": "<p>Do not confuse a possessive suffix with a plural ending. בָּנַי (my sons) ends in -ay, a first-person singular suffix, while בָּנִים (sons) ends in -îm, the masculine plural. The suffix attaches to the construct form of the noun, which is often shortened — one reason the construct state is taught together with suffixes.</p><p>When a suffix is attached to a preposition, it is the object of that preposition, not the subject of a sentence. Thus a form meaning “to him” answers “to whom?”, while a suffix on a noun answers “whose?”. Keep this apart from verbal suffixes, which mark the direct object of an action and are treated later. The suffix itself is a pronoun in each case; its grammatical job comes from the word to which it is attached.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Source",
+      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (1914), §19.</p>"
+    },
+    {
+      "type": "vocab",
+      "refs": [
+        "he-dav-17-002",
+        "he-dav-17-003",
+        "he-dav-17-004",
+        "he-dav-17-005"
+      ]
+    }
+  ],
+  "didYouKnow": ""
+}

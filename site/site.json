@@ -1,0 +1,21 @@
+{
+  "title": "coursekit",
+  "tagline": "Local-first courses taught one unit at a time: read the lesson, drill, unlock the next unit.",
+  "notice": "Preview: the courses are playable end to end, but their lessons have not had a full human review yet.",
+  "repo": "https://github.com/fatihd/coursekit",
+  "base": "/coursekit/",
+  "courses": [
+    {
+      "id": "biblical-hebrew-davidson",
+      "blurb": "A full beginner grammar course following A. B. Davidson's Introductory Hebrew Grammar, with parsing and production drills.",
+      "source": "A. B. Davidson, An Introductory Hebrew Grammar (22nd ed., 1923) and J. E. McFadyen's Key (1924) — public domain",
+      "license": "Lesson prose CC BY-SA 3.0"
+    },
+    {
+      "id": "biblical-hebrew-oer",
+      "blurb": "A shorter introduction built on an open textbook.",
+      "source": "Aaron Christianson, An Open Introduction to Biblical Hebrew (2014)",
+      "license": "CC BY-SA 3.0"
+    }
+  ]
+}

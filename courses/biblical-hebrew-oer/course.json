@@ -1,0 +1,42 @@
+{
+  "id": "biblical-hebrew-oer",
+  "title": "Biblical Hebrew — Open Course",
+  "language": "he",
+  "level": "A",
+  "script": {
+    "direction": "rtl",
+    "font": "EzraSIL",
+    "fontFile": "fonts/EzraSIL-Regular.woff2",
+    "keyboard": "he_IL",
+    "translitScheme": "he-sbl"
+  },
+  "units": [
+    { "id": "u01", "n": 1, "title": "The Aleph-Bet", "part": 1 },
+    { "id": "u02", "n": 2, "title": "Gutturals and Consonant Sounds", "part": 1 },
+    { "id": "u03", "n": 3, "title": "Matres Lectionis", "part": 1 },
+    { "id": "u04", "n": 4, "title": "Masoretic Pointing and Vowel Signs", "part": 1 },
+    { "id": "u05", "n": 5, "title": "Vowel Qualities", "part": 1 },
+    { "id": "u06", "n": 6, "title": "Syllables and Shewa", "part": 1 },
+    { "id": "u07", "n": 7, "title": "Dagesh and Meteg", "part": 1 },
+    { "id": "u08", "n": 8, "title": "Roots and Patterns", "part": 2 },
+    { "id": "u09", "n": 9, "title": "Gender and Number", "part": 2 },
+    { "id": "u10", "n": 10, "title": "Independent Pronouns", "part": 2 },
+    { "id": "u11", "n": 11, "title": "The Definite Article and Adjectives", "part": 2 },
+    { "id": "u12", "n": 12, "title": "Demonstratives and Waw", "part": 2 },
+    { "id": "u13", "n": 13, "title": "Prefix Prepositions", "part": 2 },
+    { "id": "u14", "n": 14, "title": "Pronominal Suffixes and Other Prepositions", "part": 2 },
+    { "id": "u15", "n": 15, "title": "Qatal and Participles", "part": 3 },
+    { "id": "u16", "n": 16, "title": "The Verb Stems", "part": 3 },
+    { "id": "u17", "n": 17, "title": "Yiqtol and Tenseless Forms", "part": 3 },
+    { "id": "u18", "n": 18, "title": "Imperative, Jussive, Cohortative, and Infinitives", "part": 3 },
+    { "id": "u19", "n": 19, "title": "Weak Verbs: Pe-Nun and Pe-Yod", "part": 3 },
+    { "id": "u20", "n": 20, "title": "Hollow and Lamed-He Verbs; Review", "part": 3 }
+  ],
+  "parts": [
+    { "n": 1, "title": "Writing System", "units": [1, 7] },
+    { "n": 2, "title": "Nouns and Particles", "units": [8, 14] },
+    { "n": 3, "title": "Verbs", "units": [15, 20] }
+  ],
+  "prerequisites": [],
+  "knowledgeGraph": "prerequisites/knowledge.json"
+}

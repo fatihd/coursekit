@@ -1,0 +1,205 @@
+{
+  "schema": "authored-exercises-v1.json",
+  "unit": 13,
+  "items": [
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate this English sentence into Hebrew",
+      "stimulus": "To-day",
+      "stimulusIsScript": false,
+      "accepted": [
+        "טוב הָאִיש היום",
+        "טוב האיש היום"
+      ],
+      "answerIsScript": true,
+      "source": {
+        "citation": "Davidson, Introductory Hebrew Grammar (22nd ed.) exercise on §11; Key to the Exercises (1924) §11",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n64/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n64.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n23/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n23.jpg",
+        "sanityScore": 1.0,
+        "sanity": "ok",
+        "note": "Read from the scans by OCR; open them if a reading looks wrong."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate this English sentence into Hebrew",
+      "stimulus": "The light (is)! good",
+      "stimulusIsScript": false,
+      "accepted": [
+        "גדל הטוב"
+      ],
+      "answerIsScript": true,
+      "source": {
+        "citation": "Davidson, Introductory Hebrew Grammar (22nd ed.) exercise on §11; Key to the Exercises (1924) §11",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n64/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n64.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n23/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n23.jpg",
+        "sanityScore": 0.5,
+        "sanity": "ok",
+        "note": "Read from the scans by OCR; open them if a reading looks wrong."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate this English sentence into Hebrew",
+      "stimulus": "The man and the woman",
+      "stimulusIsScript": false,
+      "accepted": [
+        "גדל גְּדוּל החשְף הָאִיש",
+        "גדל גדול החשף האיש"
+      ],
+      "answerIsScript": true,
+      "source": {
+        "citation": "Davidson, Introductory Hebrew Grammar (22nd ed.) exercise on §11; Key to the Exercises (1924) §11",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n64/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n64.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n23/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n23.jpg",
+        "sanityScore": 0.5,
+        "sanity": "ok",
+        "note": "Read from the scans by OCR; open them if a reading looks wrong."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate this English sentence into Hebrew",
+      "stimulus": "The good man",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הרקיע האיש יום הַחשְף",
+        "הרקיע האיש יום החשף"
+      ],
+      "answerIsScript": true,
+      "source": {
+        "citation": "Davidson, Introductory Hebrew Grammar (22nd ed.) exercise on §11; Key to the Exercises (1924) §11",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n64/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n64.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n23/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n23.jpg",
+        "sanityScore": 0.5,
+        "sanity": "ok",
+        "note": "Read from the scans by OCR; open them if a reading looks wrong."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate this English sentence into Hebrew",
+      "stimulus": "A great day. , The gold (is)! good",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אישה אשה טוב"
+      ],
+      "answerIsScript": true,
+      "source": {
+        "citation": "Davidson, Introductory Hebrew Grammar (22nd ed.) exercise on §11; Key to the Exercises (1924) §11",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n64/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n64.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n23/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n23.jpg",
+        "sanityScore": 0.25,
+        "sanity": "weak",
+        "note": "Read from the scans by OCR; open them if a reading looks wrong."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Translate this Hebrew sentence into English",
+      "stimulus": "הָאִיש וְהָאֶשֶה+",
+      "stimulusIsScript": true,
+      "options": [
+        "The man and the woman",
+        "The great darkness",
+        "The firmament is high",
+        "The § II. A.-B. silver is good"
+      ],
+      "answer": "The man and the woman",
+      "optionIsScript": false,
+      "source": {
+        "citation": "Davidson, Introductory Hebrew Grammar (22nd ed.) exercise on §11; Key to the Exercises (1924) §11",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n64/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n64.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n22/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n22.jpg",
+        "sanityScore": 1.0,
+        "sanity": "ok",
+        "note": "Read from the scans by OCR; open them if a reading looks wrong."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Translate this Hebrew sentence into English",
+      "stimulus": "הַגּדוּל",
+      "stimulusIsScript": true,
+      "options": [
+        "The great darkness",
+        "The man and the woman",
+        "The firmament is high",
+        "The § II. A.-B. silver is good"
+      ],
+      "answer": "The great darkness",
+      "optionIsScript": false,
+      "source": {
+        "citation": "Davidson, Introductory Hebrew Grammar (22nd ed.) exercise on §11; Key to the Exercises (1924) §11",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n64/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n64.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n22/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n22.jpg",
+        "sanityScore": 0.5,
+        "sanity": "ok",
+        "note": "Read from the scans by OCR; open them if a reading looks wrong."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Translate this Hebrew sentence into English",
+      "stimulus": "טוב הַדכָּסַףּ",
+      "stimulusIsScript": true,
+      "options": [
+        "The § II. A.-B. silver is good",
+        "The man and the woman",
+        "The great darkness",
+        "The firmament is high"
+      ],
+      "answer": "The § II. A.-B. silver is good",
+      "optionIsScript": false,
+      "source": {
+        "citation": "Davidson, Introductory Hebrew Grammar (22nd ed.) exercise on §11; Key to the Exercises (1924) §11",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n64/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n64.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n22/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n22.jpg",
+        "sanityScore": 0.25,
+        "sanity": "weak",
+        "note": "Read from the scans by OCR; open them if a reading looks wrong."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Translate this Hebrew sentence into English",
+      "stimulus": "וְהַבּקֶר:ּ",
+      "stimulusIsScript": true,
+      "options": [
+        "The evening and the morning",
+        "The man and the woman",
+        "The great darkness",
+        "The firmament is high"
+      ],
+      "answer": "The evening and the morning",
+      "optionIsScript": false,
+      "source": {
+        "citation": "Davidson, Introductory Hebrew Grammar (22nd ed.) exercise on §11; Key to the Exercises (1924) §11",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n64/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n64.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n22/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n22.jpg",
+        "sanityScore": 0.5,
+        "sanity": "ok",
+        "note": "Read from the scans by OCR; open them if a reading looks wrong."
+      }
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "schema": "authored-exercises-v1.json",
+  "unit": 41,
+  "items": [
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate this English sentence into Hebrew",
+      "stimulus": "And he offered the ram of the burnt-offering",
+      "stimulusIsScript": false,
+      "accepted": [
+        "קוּמי הָעִיִרָה הַעולֶה וְתאמַר",
+        "קומי העירה העולה ותאמר"
+      ],
+      "answerIsScript": true,
+      "source": {
+        "citation": "Davidson, Introductory Hebrew Grammar (22nd ed.) exercise on §41; Key to the Exercises (1924) §41",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n156/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n156.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n115/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n115.jpg",
+        "sanityScore": 0.5,
+        "sanity": "ok",
+        "note": "Read from the scans by OCR; open them if a reading looks wrong."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate this English sentence into Hebrew",
+      "stimulus": "And the men feared to return to their houses",
+      "stimulusIsScript": false,
+      "accepted": [
+        "את לָכִי לְבִיתַד גלד",
+        "את לכי לביתד גלד"
+      ],
+      "answerIsScript": true,
+      "source": {
+        "citation": "Davidson, Introductory Hebrew Grammar (22nd ed.) exercise on §41; Key to the Exercises (1924) §41",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n156/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n156.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n115/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n115.jpg",
+        "sanityScore": 0.25,
+        "sanity": "weak",
+        "note": "Read from the scans by OCR; open them if a reading looks wrong."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Translate this Hebrew sentence into English",
+      "stimulus": "גוים יבאו לד",
+      "stimulusIsScript": true,
+      "options": [
+        "The wealth\" of the nations shall come\" unto thee.\"",
+        "Ye shall not die, for God knoweth that in the day that ye eat& of the tree, your eyes shall be opened.\"",
+        "Your vineyards and olive-trees the locusts repeatedly devoured",
+        "Ye have delivered our lives from"
+      ],
+      "answer": "The wealth\" of the nations shall come\" unto thee.\"",
+      "optionIsScript": false,
+      "source": {
+        "citation": "Davidson, Introductory Hebrew Grammar (22nd ed.) exercise on §41; Key to the Exercises (1924) §41",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n156/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n156.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n112/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n112.jpg",
+        "sanityScore": 0.2,
+        "sanity": "weak",
+        "note": "Read from the scans by OCR; open them if a reading looks wrong."
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "unit-lesson-v1.json",
+  "unit": 5,
+  "title": "Vowel Qualities",
+  "description": "This unit compares full and reduced vowel signs and relates them to the spellings introduced earlier.",
+  "teaches": [
+    "he-oer-05-001",
+    "he-oer-05-002",
+    "he-oer-05-003"
+  ],
+  "assumes": [
+    "he-oer-04-001",
+    "he-oer-04-002",
+    "he-oer-04-003"
+  ],
+  "blocks": [
+    {
+      "type": "prose",
+      "html": "<p>Pataḥ and qamats commonly represent an a quality; segol and tsere represent e; hiriq represents i; holam and qamats qatan represent o; and qibbuts or shureq represent u. Reduced vowels include shewa and the three ḥataf signs. The written sign, syllable, and stress jointly help determine a vowel&#x27;s reading. Learn common combinations as patterns, while remembering that spelling conventions vary by word.</p>"
+    },
+    {
+      "type": "table",
+      "caption": "Word roots (OER)",
+      "columns": [
+        "Hebrew",
+        "Transliteration",
+        "Gloss",
+        "Root",
+        "Strong"
+      ],
+      "rows": [
+        [
+          "בֹּקֶר",
+          "bōqer",
+          "morning",
+          "בקר",
+          "1241"
+        ],
+        [
+          "עֶרֶב",
+          "‘ereb",
+          "evening",
+          "ערב",
+          "6152 b"
+        ],
+        [
+          "לַיְלָה",
+          "laylāh",
+          "night",
+          "ליל",
+          "3915"
+        ]
+      ]
+    },
+    {
+      "type": "vocab",
+      "refs": [
+        "he-oer-05-001",
+        "he-oer-05-002",
+        "he-oer-05-003"
+      ]
+    }
+  ],
+  "didYouKnow": "According to OSHB/MorphHB (CC BY 4.0), the most frequent word in this unit is בֹּקֶר (bōqer), occurring 372 times in the Westminster Leningrad Codex."
+}

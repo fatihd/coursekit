@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Exercise Workbench</title>
+<style>
+:root{--bg:#f6f5f2;--panel:#fff;--ink:#1d1d1b;--mut:#6b6a66;--line:#dcdad3;--acc:#2f5d8a;--ok:#2e7d4f;--warn:#b26a00;--bad:#b3322d;--hl:#fff3c4;--sel:#cfe3f7}
+@media(prefers-color-scheme:dark){:root{--bg:#161615;--panel:#201f1d;--ink:#ecebe6;--mut:#9a988f;--line:#3a3935;--acc:#7fb0e0;--ok:#6fcf97;--warn:#e0a84a;--bad:#ef7b75;--hl:#4a4020;--sel:#27425e}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.4 system-ui,-apple-system,Segoe UI,sans-serif;height:100vh;display:flex;flex-direction:column}
+header{display:flex;gap:10px;align-items:center;padding:8px 12px;border-bottom:1px solid var(--line);background:var(--panel);flex-wrap:wrap}
+header h1{font-size:15px;margin:0 8px 0 0}.prog{color:var(--mut)}.bar{width:140px;height:8px;background:var(--line);border-radius:4px;overflow:hidden}.bar i{display:block;height:100%;background:var(--ok)}
+button,select,input,textarea{font:inherit;color:inherit}button{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:4px 10px;cursor:pointer}button:hover{border-color:var(--acc)}
+button.pri{background:var(--acc);color:#fff;border-color:var(--acc)}button.ok{background:var(--ok);color:#fff;border-color:var(--ok)}button.sm{padding:1px 6px;font-size:12px}
+main{flex:1;display:grid;grid-template-columns:250px minmax(420px,1fr) minmax(320px,.8fr);min-height:0}
+aside,section,.right{overflow:auto;min-height:0}aside{border-right:1px solid var(--line);background:var(--panel)}.right{border-left:1px solid var(--line);background:var(--panel)}
+section{padding:12px 16px}
+.bl{padding:6px 10px;border-bottom:1px solid var(--line);cursor:pointer;display:flex;gap:6px;align-items:baseline}.bl:hover{background:var(--bg)}.bl.cur{background:var(--sel)}
+.dot{width:9px;height:9px;border-radius:50%;flex:none;background:var(--mut)}.s-done .dot{background:var(--ok)}.s-in_progress .dot{background:var(--warn)}.s-skipped{opacity:.5}.s-candidate .dot{background:var(--line);border:1px solid var(--mut)}
+.bl small{color:var(--mut)}
+.row{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:8px}label.f{display:flex;flex-direction:column;font-size:12px;color:var(--mut);gap:2px}label.f input,label.f textarea{padding:4px 6px;border:1px solid var(--line);border-radius:5px;background:var(--panel);color:var(--ink)}
+table{width:100%;border-collapse:collapse}th{font-size:12px;color:var(--mut);text-align:left;font-weight:500}td{vertical-align:top;padding:3px 3px;border-top:1px solid var(--line)}
+td textarea{width:100%;min-height:34px;resize:vertical;padding:4px 6px;border:1px solid var(--line);border-radius:5px;background:var(--panel);font-size:15px;font-family:"SBL Hebrew","Ezra SIL","Times New Roman","Noto Serif Hebrew",serif}
+td textarea.edited{border-color:var(--acc)}td.n{width:56px;color:var(--mut)}td.n input{width:44px;border:1px solid var(--line);border-radius:4px;background:var(--panel);padding:2px}
+td.act{width:92px;white-space:nowrap}.warn{color:var(--warn)}.bad{color:var(--bad)}.mut{color:var(--mut)}.pill{font-size:11px;padding:1px 7px;border-radius:9px;border:1px solid var(--line)}
+.tabs{display:flex;border-bottom:1px solid var(--line);position:sticky;top:0;background:var(--panel);z-index:2}.tabs button{border:0;border-radius:0;padding:8px 14px;border-bottom:2px solid transparent}.tabs button.on{border-bottom-color:var(--acc);font-weight:600}
+.pv{padding:8px 12px}.ln{display:flex;gap:8px;padding:1px 4px;cursor:pointer;border-radius:3px;font-family:"SBL Hebrew","Times New Roman",serif;font-size:14px}.ln:hover{background:var(--bg)}.ln b{font:11px monospace;color:var(--mut);width:24px;flex:none;text-align:right}.ln span{flex:1;unicode-bidi:plaintext;white-space:pre-wrap}
+.ln.inb{background:var(--hl)}.ln.sel{background:var(--sel)}.keyit{display:flex;gap:6px;padding:3px 0;border-top:1px solid var(--line)}.keyit span{flex:1;font-family:"SBL Hebrew","Times New Roman",serif;unicode-bidi:plaintext}
+#toast{position:fixed;bottom:14px;left:50%;transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:6px 14px;border-radius:6px;opacity:0;transition:.2s;pointer-events:none}#toast.on{opacity:.92}
+a{color:var(--acc)}img.scan{max-width:100%}.empty{color:var(--mut);padding:30px;text-align:center}
+td textarea[dir=rtl],td textarea.he{font-size:19px;line-height:1.5}
+.keyrow{display:flex;gap:10px;align-items:center;flex-wrap:wrap;padding:6px 8px;border:1px dashed var(--line);border-radius:6px;margin-bottom:8px;font-size:13px}
+button.on{background:var(--sel);border-color:var(--acc)}
+#legend{position:fixed;top:48px;right:12px;z-index:50;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:10px 12px;box-shadow:0 4px 16px rgb(0 0 0/.15);font-size:13px;max-width:380px}
+#legend table td{border:0;padding:1px 6px}#legend .he{font-family:"SBL Hebrew","Times New Roman",serif;font-size:18px}
+.scanwrap{position:relative;margin-top:6px}.scanwrap img{display:block;width:100%}.band{position:absolute;left:0;right:0;background:rgb(255 200 0/.22);border-top:2px solid var(--warn);border-bottom:2px solid var(--warn);pointer-events:none}
+.keyboard{position:fixed;z-index:100;left:50%;bottom:8px;transform:translateX(-50%);width:min(64rem,calc(100vw - 1rem));max-height:46vh;overflow-y:auto;padding:.6rem;border:1px solid var(--line);border-radius:12px;background:var(--panel);box-shadow:0 -4px 20px rgb(0 0 0/.16)}
+.kb-row{display:flex;justify-content:center;gap:.3rem;width:100%;margin-bottom:.35rem}.kb-row--niqqud{flex-wrap:wrap}
+.kb-key{flex:1 1 0;min-width:1.9rem;max-width:3.4rem;padding:.45rem .25rem;border:1px solid var(--line);border-radius:6px;background:var(--panel);color:var(--ink);font-size:1.15rem;font-family:"SBL Hebrew","Times New Roman",serif;cursor:pointer}
+.kb-key:hover{background:var(--bg)}.kb-key--niqqud{color:var(--acc);font-size:1.3rem}
+body.kb-on section{padding-bottom:42vh}
+input.fx{width:100%;font-size:12px;margin-top:2px;border:1px dashed var(--line);border-radius:4px;background:var(--panel);color:var(--ink);padding:2px 4px}
+.ln small.ocr{color:var(--ok);font-size:14px}.ln small.ocr.rej{color:var(--mut);text-decoration:line-through;text-decoration-color:var(--line)}
+@media(max-width:1100px){main{grid-template-columns:200px 1fr}.right{display:none}}
+</style></head><body>
+<header>
+  <h1 id="title">Exercise Workbench</h1>
+  <span class="prog" id="prog"></span><div class="bar"><i id="barfill" style="width:0"></i></div>
+  <button class="pri" id="bNext" title="Alt+Right">Next unfinished ›</button>
+  <button id="bNew">+ Block from selection</button>
+  <button id="bExport">Export JSON</button>
+  <button id="bKb" title="Show the course app's on-screen Hebrew keyboard when a prompt/answer box has focus">⌨ א keyboard</button>
+  <button id="bPh" title="Alt+H: your physical keys type Hebrew in prompt/answer boxes (see legend)">Type Hebrew (Alt+H)</button>
+  <button id="bLeg" class="sm" title="Hebrew typing map">?</button>
+  <label class="mut" title="Archive leaf = scan + this. Click a scan link and adjust if it lands on the wrong page.">leaf Δ <input id="leaf" type="number" style="width:52px"></label>
+  <select id="filter"><option value="open">Unfinished</option><option value="all">All</option><option value="done">Done</option><option value="skipped">Skipped</option></select>
+  <span class="mut" id="saved"></span>
+</header>
+<main>
+  <aside id="list"></aside>
+  <section id="editor"><div class="empty">Pick a block on the left.</div></section>
+  <div class="right">
+    <div class="tabs"><button data-t="page" class="on">Source page</button><button data-t="key">Key</button><button data-t="img">Scan</button></div>
+    <div id="pane" class="pv"></div>
+  </div>
+</main>
+<div id="toast"></div>
+<div id="legend" hidden></div>
+<script type="module">
+const $=s=>document.querySelector(s);let KEY=null,ZOOM=100,KB=false,PH=false;let S={blocks:[],sources:[]},cur=null,B=null,tab='page',PG=null,sel={a:null,b:null},lastAns=null,saveT=null;
+const api=async(p,body)=>{const r=await fetch(p,body===undefined?{}:{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});return r.json()};
+const esc=s=>(s??'').toString().replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function toast(t){const e=$('#toast');e.textContent=t;e.classList.add('on');setTimeout(()=>e.classList.remove('on'),1800)}
+function saved(t){$('#saved').textContent=t}
+
+async function load(keep){S=await api('/api/state');$('#title').textContent=S.profile_name||'Exercise Workbench';$('#leaf').value=S.leaf_delta;
+  const tot=S.blocks.filter(b=>b.status!='skipped').length,done=S.blocks.filter(b=>b.status=='done').length;
+  $('#prog').textContent=`${done}/${tot} done`;$('#barfill').style.width=tot?100*done/tot+'%':0;renderList()}
+function renderList(){const f=$('#filter').value;const L=S.blocks.filter(b=>f=='all'||(f=='open'&&['candidate','in_progress'].includes(b.status))||b.status==f);
+  $('#list').innerHTML=L.map(b=>`<div class="bl s-${b.status} ${b.id==cur?'cur':''}" data-id="${b.id}"><i class="dot"></i><div>§${esc(b.section||'?')} <small>${esc(b.key_ref||'')}</small><br><small>p.${b.printed??'?'} · scan ${b.start_scan} · ${b.n} items${b.na?` · ${b.na} ans`:''}${b.origin=='manual'?' · manual':''}</small></div></div>`).join('')||'<div class="empty">Nothing here.</div>';
+  document.querySelectorAll('.bl').forEach(e=>e.onclick=()=>open(+e.dataset.id))}
+async function open(id){if(saveT){clearTimeout(saveT);await flush()}cur=id;B=await api('/api/block/'+id);renderList();renderEditor();
+  PG=null;await showPage(B.source,B.start_scan);if(tab=='key')renderKey()}
+function dirty(){saved('editing…');clearTimeout(saveT);saveT=setTimeout(flush,700)}
+async function flush(){saveT=null;if(!B)return;const items=[...document.querySelectorAll('#items tr')].map(tr=>({id:tr.dataset.id?+tr.dataset.id:null,part:tr.querySelector('.part').value,num:tr.querySelector('.num').value,prompt:tr.querySelector('.p').value,answer:tr.querySelector('.a').value,note:tr.dataset.note||'',hint:tr.querySelector('.h').value,explain:tr.querySelector('.x').value}));
+  B=await api(`/api/block/${B.id}/items`,{items});document.querySelectorAll('#items tr').forEach((tr,i)=>{if(B.items[i])tr.dataset.id=B.items[i].id});await api('/api/block/'+B.id,metaFields());saved('saved ✓');await load();}
+function metaFields(){return{section:$('#fSec').value,key_ref:$('#fKey').value,instruction:$('#fIns').value,note:$('#fNote').value}}
+function renderEditor(){if(!B){$('#editor').innerHTML='<div class="empty">Pick a block.</div>';return}
+  const pc=p=>B.items.filter(i=>i.part==p).length;const parts=[...new Set(B.items.map(i=>i.part))];
+  $('#editor').innerHTML=`
+  <div class="row"><b>Block ${B.id}</b> <span class="pill">${B.status}</span> <span class="pill">${B.origin}</span>
+   <span class="mut">p.${B.printed??'?'} (scan ${B.start_scan}${B.end_scan!=B.start_scan?'–'+B.end_scan:''})</span>${B.url?` <a href="${esc(B.url)}" target="_blank" rel="noopener">open on archive ↗</a>`:''}
+   ${B.section_basis=='running-header'?'<span class="warn">section inferred from running header – check</span>':''}</div>
+  <div class="keyrow" id="keyrow"><span class="mut">Key: looking…</span></div>
+  <div class="row"><label class="f">Section<input id="fSec" value="${esc(B.section)}" size="5"></label>
+   <label class="f" title="section:n  → the n-th exercise of that section in the key">Key ref<input id="fKey" value="${esc(B.key_ref)}" size="7"></label>
+   <label class="f" style="flex:1;min-width:200px">Instruction (as printed)<input id="fIns" value="${esc(B.instruction)}"></label>
+   <label class="f" style="flex:1;min-width:160px">Note<input id="fNote" value="${esc(B.note)}"></label></div>
+  <div class="row">${B.status=='done'?'<button id="bReopen">Reopen</button>':'<button class="ok" id="bDone" title="Ctrl+Enter">✓ Mark done &amp; next</button>'}
+   <button id="bSkip" title="Not an exercise / duplicate">${B.origin=='manual'?'Delete block':'Skip (not an exercise)'}</button>
+   <button id="bKeyFill">Fill empty answers from key</button><button id="bMerge" title="Merge this block with the next one (kept across build/reset)">⇣ Merge with next block</button>
+   <button id="bRegen" title="Discard edits, re-derive items from the stored text (local OCR where cached, else DjVu). Runs no OCR.">Re-detect items</button>
+   <button id="bOcr" title="Run tesseract locally on each line of this block (Hebrew lines: heb, English lines: eng+heb), then re-derive items">Local OCR → items</button>
+   <span class="mut" id="cmp"></span></div>
+  <table><thead><tr><th>#</th><th>Prompt (printed)</th><th>Answer (key / yours)</th><th></th></tr></thead><tbody id="items"></tbody></table>
+  <div class="row" style="margin-top:8px"><button id="addA">+ item</button><span class="mut">L1, L2… = unnumbered list entries (renumbered automatically on split/merge/move/delete; key answers match by label). Parts: ${parts.map(p=>p+'='+pc(p)).join(', ')||'none'}. OCR originals are kept alongside your edits.</span></div>`;
+  const tb=$('#items');B.items.forEach((it,i)=>tb.appendChild(row(it)));
+  ['#fSec','#fKey','#fIns','#fNote'].forEach(s=>$(s).oninput=dirty);
+  $('#addA').onclick=()=>{tb.appendChild(row({part:B.items.at(-1)?.part||'A',num:'',prompt:'',answer:''}));dirty()};
+  $('#bDone')&&($('#bDone').onclick=markDone);$('#bReopen')&&($('#bReopen').onclick=async()=>{await flush();await api('/api/block/'+B.id,{status:'in_progress'});await load();open(B.id)});
+  $('#bSkip').onclick=async()=>{if(!confirm(B.origin=='manual'?'Delete this manual block?':'Mark as not-an-exercise?'))return;await api(`/api/block/${B.id}/delete`,{});await load();goNext()};
+  $('#bRegen').onclick=async()=>{if(!confirm('Replace all items with fresh OCR candidates? Your edits to this block will be lost (kept in the log).'))return;B=await api(`/api/block/${B.id}/regenerate`,{});renderEditor();load()};
+  $('#bOcr').onclick=async()=>{const edited=B.status!='candidate';if(edited&&!confirm('OCR the block, then replace its items with candidates from the new text? Your edits stay in the log.'))return;
+    const btn=$('#bOcr');btn.disabled=true;btn.textContent='OCR running…';const r=await api(`/api/block/${B.id}/ocr`,{redetect:true});btn.disabled=false;btn.textContent='Local OCR → items';
+    if(r.error){toast('OCR: '+r.error);return}B=r;renderEditor();load();toast(r.ocr_lines?`OCR'd ${r.ocr_lines} lines`:'All lines were already OCR\'d – items re-derived');if(PG)showPage(PG.source,PG.scan)};
+  $('#bMerge').onclick=async()=>{if(!confirm('Merge this block with the next block? Items are re-derived for the merged span.'))return;await flush();const r=await api(`/api/block/${B.id}/merge`,{});if(r.error){toast(r.error);return}B=r;renderEditor();load();toast('Merged')};
+  $('#fSec').onchange=async e=>{await flush();B=await api(`/api/block/${B.id}/section`,{section:e.target.value});renderEditor();load();toast('Section set (kept across build/reset); items re-derived')};
+  $('#bKeyFill').onclick=async()=>{await flush();const r=await api(`/api/block/${B.id}/prefill`,{});B=r;renderEditor();toast(r.report.join(' | '));load()};
+  cmpKey()}
+async function cmpKey(){const k=await api('/api/key/'+B.id);KEY=k;const el=$('#cmp');if(!el)return;
+  const msgs=[...new Set(B.items.map(i=>i.part))].map(p=>{const kk=k.segments.find(c=>c.part==p);const m=B.items.filter(i=>i.part==p).length;return kk?(kk.items.length==m?`part ${p}: ${m} = key ✓`:`<span class="warn">part ${p}: ${m} items vs key ${kk.items.length}</span>`):`<span class="warn">part ${p}: no key segment</span>`});el.innerHTML=msgs.join(' · ');
+  $('#keyrow').innerHTML=k.guesses.length?k.guesses.map(g=>`<b>${esc(g.name)} §${esc(g.section)}</b> p.${g.printed??'?'} (scan ${g.scan}) <span class="${g.basis=='matched key segment'||g.basis=='heading'?'mut':'warn'}">${esc(g.basis)}</span>${g.scans.length>1?` <span class="mut">pages ${g.scans.join(', ')}</span>`:''}
+    <button class="sm" data-kp="${esc(g.source)}:${g.scan}">view text</button><button class="sm" data-ks="${esc(g.source)}:${g.scan}">view scan</button>${g.url?` <a href="${esc(g.url)}" target="_blank" rel="noopener">archive ↗</a>`:''}`).join('<br>'):'<span class="warn">No key page found for this section – set Section / Key ref.</span>';
+  document.querySelectorAll('[data-kp],[data-ks]').forEach(b=>b.onclick=()=>{const [s,n]=(b.dataset.kp||b.dataset.ks).split(':');tab=b.dataset.kp?'page':'img';setTab();showPage(s,+n)})}
+function row(it){const tr=document.createElement('tr');if(it.id)tr.dataset.id=it.id;tr.dataset.note=it.note||'';
+  tr.innerHTML=`<td class="n"><input class="part" value="${esc(it.part)}" size="2" title="part: A=Hebrew→English, B=English→Hebrew"><input class="num" value="${esc(it.num)}"></td>
+   <td><textarea class="p" dir="auto">${esc(it.prompt)}</textarea>${it.note?`<div class="warn" style="font-size:11px">${esc(it.note)}</div>`:''}</td><td><textarea class="a" dir="auto">${esc(it.answer)}</textarea><input class="h fx" placeholder="hint — shown before answering" value="${esc(it.hint||'')}" title="Student-facing hint, shown before answering (tooltip on the prompt)">
+     <input class="x fx" placeholder="explanation — shown with the feedback" value="${esc(it.explain||'')}" title="Student-facing explanation, shown after answering">${it.data?`<div class="mut" style="font-size:11px" title="${esc(it.data)}">${(()=>{try{const d=JSON.parse(it.data);return [d.parse?'parse: '+Object.entries(d.parse).filter(([k])=>k!='gloss'&&k!='alt').map(([k,v])=>v).join(' · '):'',d.pointed?'pointed: '+esc(d.pointed):''].filter(Boolean).join(' | ')}catch(e){return ''}})()}</div>`:''}</td>
+   <td class="act"><button class="sm" data-a="up">↑</button><button class="sm" data-a="dn">↓</button><button class="sm" data-a="mg" title="merge with next row">⇣⊕</button><button class="sm" data-a="sp" title="split prompt at cursor">✂</button><button class="sm" data-a="rm">✕</button></td>`;
+  const p=tr.querySelector('.p'),a=tr.querySelector('.a');
+  [p,a].forEach(t=>{t.classList.toggle('hebrew-input',KB);if(/[\u0590-\u05ff]/.test(t.value)&&!/[A-Za-z]{3,}.*[A-Za-z]{3,}/.test(t.value.replace(/⟨[^⟩]*⟩/g,'')))t.classList.add('he')});
+  const mark=()=>{p.classList.toggle('edited',!!it.prompt_ocr&&p.value!==it.prompt_ocr);};mark();
+  p.oninput=()=>{mark();dirty()};a.oninput=dirty;a.onfocus=()=>lastAns=a;tr.querySelectorAll('.part,.num,.h,.x').forEach(e=>e.oninput=dirty);p.title=it.hint||'';
+  tr.querySelectorAll('button').forEach(b=>b.onclick=()=>{const t=tr.parentNode,act=b.dataset.a;
+    if(act=='up'&&tr.previousElementSibling)t.insertBefore(tr,tr.previousElementSibling);
+    if(act=='dn'&&tr.nextElementSibling)t.insertBefore(tr.nextElementSibling,tr);
+    if(act=='rm')tr.remove();
+    if(act=='mg'&&tr.nextElementSibling){const n=tr.nextElementSibling;p.value=(p.value+' '+n.querySelector('.p').value).trim();a.value=(a.value+' '+n.querySelector('.a').value).trim();n.remove()}
+    if(act=='sp'){const i=p.selectionStart;if(i>0&&i<p.value.length){const n=row({part:it.part,num:/^L\d+$/.test(tr.querySelector('.num').value)?'L':'',prompt:p.value.slice(i).trim(),answer:''});p.value=p.value.slice(0,i).trim();t.insertBefore(n,tr.nextSibling)}}
+    renumberL();dirty()});return tr}
+function renumberL(){const k={};document.querySelectorAll('#items tr').forEach(tr=>{const n=tr.querySelector('.num'),pt=tr.querySelector('.part').value;if(/^L\d*$/.test(n.value)){k[pt]=(k[pt]||0)+1;n.value='L'+k[pt]}})}
+async function markDone(){await flush();await api('/api/block/'+B.id,{status:'done'});await load();goNext()}
+async function goNext(){const r=await api('/api/next?after='+(cur||''));if(r.id)open(r.id);else{B=null;cur=null;renderEditor();toast('All blocks finished 🎉')}}
+
+/* right panel */
+async function showPage(src,scan){PG=await api(`/api/page/${src}/${scan}`);renderPane()}
+function renderPane(){if(tab=='page')renderPage();else if(tab=='key')renderKey();else renderImg()}
+function renderPage(){if(!PG||PG.error){$('#pane').innerHTML='<div class="empty">No such page.</div>';return}
+  const inb=i=>B&&PG.source==B.source&&((PG.scan>B.start_scan||(PG.scan==B.start_scan&&i>=B.start_line))&&(PG.scan<B.end_scan||(PG.scan==B.end_scan&&i<B.end_line)));
+  const isSel=i=>sel.a&&sel.b&&sel.a.source==PG.source&&((PG.scan>sel.a.scan||(PG.scan==sel.a.scan&&i>=sel.a.line))&&(PG.scan<sel.b.scan||(PG.scan==sel.b.scan&&i<=sel.b.line)))||(sel.a&&!sel.b&&sel.a.scan==PG.scan&&sel.a.line==i&&sel.a.source==PG.source);
+  $('#pane').innerHTML=`<div class="row"><button id="pPrev">‹</button><input id="pNum" type="number" value="${PG.scan}" style="width:70px"><button id="pNext">›</button><span class="mut">printed ${PG.printed??'?'} · ${esc(PG.source)}</span>${PG.url?`<a href="${esc(PG.url)}" target="_blank" rel="noopener">archive ↗</a>`:''}${PG.has_image?' <button class="sm" id="pImg">scan</button>':''}</div>
+  <div class="mut" style="font-size:12px;margin-bottom:6px">Yellow = current block; green = local OCR used for items; struck-through grey = OCR kept but not clearly better than DjVu. Click a line to start a selection, Shift-click to end it (can span pages), then “+ Block from selection” for a missing exercise.</div>
+  ${PG.lines.map((t,i)=>`<div class="ln ${inb(i)?'inb':''} ${isSel(i)?'sel':''}" data-i="${i}"><b>${i}</b><span dir="${PG.dirs?.[i]=='rtl'?'rtl':'auto'}">${esc(t)}${PG.ocr?.[i]?`<br><small class="ocr ${PG.ocr_used?.[i]?'':'rej'}" dir="auto" title="${PG.ocr_used?.[i]?'local OCR – used (better than DjVu)':'local OCR – not used (not clearly better than DjVu)'}">${esc(PG.ocr[i])}</small>`:''}</span></div>`).join('')}`;
+  $('#pImg')&&($('#pImg').onclick=()=>{tab='img';setTab()});$('#pPrev').onclick=()=>showPage(PG.source,PG.scan-1);$('#pNext').onclick=()=>showPage(PG.source,PG.scan+1);$('#pNum').onchange=e=>showPage(PG.source,+e.target.value);
+  document.querySelectorAll('.ln').forEach(e=>e.onclick=ev=>{const p={source:PG.source,scan:PG.scan,line:+e.dataset.i};if(ev.shiftKey&&sel.a)sel.b=p;else{sel={a:p,b:null}}renderPage()})}
+async function renderKey(){if(!B){$('#pane').innerHTML='<div class="empty">No block.</div>';return}const K=await api('/api/key/'+B.id),k=K.segments;
+  $('#pane').innerHTML=`<div class="mut" style="font-size:12px;margin-bottom:6px">Key segments for ref <b>${esc(B.key_ref)}</b> (edit “Key ref” if wrong). “→” puts an entry into the answer box you last used.</div>`+
+  (k.map(c=>`<h4 style="margin:10px 0 4px">Part ${c.part} · key p.${c.printed??'?'} ${c.url?`<a href="${esc(c.url)}" target="_blank" rel="noopener">↗</a>`:''} <button class="sm" data-pg="${c.source}:${c.scan}">view page</button> <span class="mut">${c.items.length} entries</span></h4>`+c.items.map(i=>`<div class="keyit"><b class="mut">${esc(i.num)}</b><span dir="auto">${esc(i.text)}</span><button class="sm" data-put="${esc(i.text)}">→</button></div>`).join('')).join('')||`<div class="empty">No numbered key segment matched ref “${esc(B.key_ref)}”.${K.guesses.length?`<br><br>Best guess: ${esc(K.guesses[0].name)} p.${K.guesses[0].printed??'?'} (scan ${K.guesses[0].scan}, ${esc(K.guesses[0].basis)}).<br><button class="sm" data-pg="${K.guesses[0].source}:${K.guesses[0].scan}">view key page text</button>`:''}</div>`);
+  document.querySelectorAll('[data-put]').forEach(b=>b.onclick=()=>{const t=lastAns||[...document.querySelectorAll('#items .a')].find(x=>!x.value);if(t){t.value=b.dataset.put;t.dispatchEvent(new Event('input'));t.focus()}});
+  document.querySelectorAll('[data-pg]').forEach(b=>b.onclick=()=>{const [s,n]=b.dataset.pg.split(':');tab='page';setTab();showPage(s,+n)})}
+function renderImg(){if(!PG||PG.error){$('#pane').innerHTML='<div class="empty">No page.</div>';return}
+  const nav=`<div class="row"><button id="iPrev">‹</button><input id="iNum" type="number" value="${PG.scan}" style="width:70px"><button id="iNext">›</button><span class="mut">printed ${PG.printed??'?'} · ${esc(PG.source)}</span>${PG.url?`<a href="${esc(PG.url)}" target="_blank" rel="noopener">archive ↗</a>`:''}
+    <select id="zoom">${[100,150,200,300].map(z=>`<option ${z==ZOOM?'selected':''} value="${z}">${z}%</option>`).join('')}</select></div>`;
+  if(!PG.has_image){$('#pane').innerHTML=nav+`<div class="empty">No scan source for “${esc(PG.source)}”. Set <code>pdf</code> (rendered locally with pdftoppm) or <code>images_dir</code> in the profile.</div>`}
+  else{let band='';if(B&&PG.source==B.source&&PG.h){const ys=PG.boxes.map((b,i)=>b&&((PG.scan>B.start_scan||i>=B.start_line)&&(PG.scan<B.end_scan||i<B.end_line))?b:null).filter(Boolean);
+      if(ys.length){const y0=Math.min(...ys.map(b=>b[1]))/PG.h*100,y1=Math.max(...ys.map(b=>b[3]))/PG.h*100;band=`<div class="band" style="top:${Math.max(0,y0-1)}%;height:${y1-y0+2}%"></div>`}}
+    $('#pane').innerHTML=nav+`<div style="overflow:auto"><div class="scanwrap" style="width:${ZOOM}%"><img src="/img/${PG.source}/${PG.scan}" alt="scan ${PG.scan}">${band}</div></div><div class="mut" style="font-size:12px">Rendered from the local PDF; the first view of a page takes a moment.</div>`;
+    const b=$('#pane .band');if(b)$('#pane img').onload=()=>b.scrollIntoView({block:'center'})}
+  $('#iPrev').onclick=()=>showPage(PG.source,PG.scan-1);$('#iNext').onclick=()=>showPage(PG.source,PG.scan+1);$('#iNum').onchange=e=>showPage(PG.source,+e.target.value);
+  $('#zoom').onchange=e=>{ZOOM=+e.target.value;renderImg()}}
+function setTab(){document.querySelectorAll('.tabs button').forEach(b=>b.classList.toggle('on',b.dataset.t==tab));renderPane()}
+document.querySelectorAll('.tabs button').forEach(b=>b.onclick=()=>{tab=b.dataset.t;setTab()});
+
+const PHMAP={"'":"א",b:"ב",v:"ב",g:"ג",d:"ד",h:"ה",w:"ו",z:"ז",x:"ח",T:"ט",y:"י",k:"כ",K:"ך",l:"ל",m:"מ",M:"ם",n:"נ",N:"ן",s:"ס","`":"ע",p:"פ",f:"פ",P:"ף",c:"צ",C:"ץ",q:"ק",r:"ר",S:"ש",t:"ת",
+  a:"ַ",A:"ָ",e:"ֶ",E:"ֵ",i:"ִ",o:"ֹ",u:"ֻ",";":"ְ",".":"ּ","!":"ֲ","@":"ֱ","#":"ֳ","[":"ׁ","]":"ׂ","_":"־","|":"ֽ","~":"׃"};
+const MARKS=[["ׁ","shin dot"],["ׂ","sin dot"],["ֽ","meteg"],["־","maqaf"],["׃","sof pasuq"],["ֲ","ḥaṭef pataḥ"],["ֱ","ḥaṭef segol"],["ֳ","ḥaṭef qameṣ"]];
+function insertText(t,txt){const a=t.selectionStart,b=t.selectionEnd;t.value=t.value.slice(0,a)+txt+t.value.slice(b);t.setSelectionRange(a+txt.length,a+txt.length);t.dispatchEvent(new Event('input',{bubbles:true}))}
+function setPH(on){PH=on;$('#bPh').classList.toggle('on',on);toast(on?'Hebrew typing ON (Alt+H to switch off)':'Hebrew typing off')}
+function setKB(on){KB=on;$('#bKb').classList.toggle('on',on);document.body.classList.toggle('kb-on',on);document.querySelectorAll('#items textarea').forEach(t=>t.classList.toggle('hebrew-input',on));
+  const f=document.activeElement;if(f&&f.tagName=='TEXTAREA'){f.blur();f.focus()}}
+$('#bPh').onclick=()=>setPH(!PH);$('#bKb').onclick=()=>setKB(!KB);
+$('#legend').innerHTML='<b>Type Hebrew (Alt+H)</b> – in prompt/answer boxes only; Ctrl/Cmd shortcuts unaffected.<table>'+
+  Object.entries(PHMAP).map(([k,v])=>`<tr><td><code>${esc(k)}</code></td><td class="he">${/[\u0591-\u05c7]/.test(v)&&v.length==1?'◌'+v:v}</td></tr>`).reduce((a,r,i)=>{a[i%3]+=r;return a},['','','']).map(c=>`<td style="vertical-align:top"><table>${c}</table></td>`).join('')+'</table><div class="mut">Capitals = final forms (K M N P C) and ṭet (T), šin (S), ṣere (E), qameṣ (A). Unmapped keys type normally. <code>-</code> and <code>:</code> stay ASCII like the OCR.</div>';
+$('#bLeg').onclick=()=>{$('#legend').hidden=!$('#legend').hidden};
+document.addEventListener('keydown',e=>{const t=e.target;if(!PH||e.ctrlKey||e.metaKey||e.altKey||t.tagName!='TEXTAREA'||!t.closest('#items'))return;const v=PHMAP[e.key];if(v){e.preventDefault();insertText(t,v)}},true);
+import('/engine/keyboard.js').then(m=>{m.initKeyboard(document.body,'he_IL');const ov=document.querySelector('.keyboard');if(!ov)return;ov.querySelectorAll('.kb-key--niqqud').forEach(k=>{if(!k.textContent.includes('◌'))k.textContent='◌'+k.textContent});const r=document.createElement('div');r.className='kb-row kb-row--niqqud';
+  MARKS.forEach(([c,n])=>{const b=document.createElement('button');b.type='button';b.className='kb-key kb-key--niqqud';b.textContent='◌'+c;b.title=n;b.onmousedown=e=>{e.preventDefault();const t=document.activeElement;if(t&&t.tagName=='TEXTAREA')insertText(t,c)};r.appendChild(b)});ov.appendChild(r)})
+  .catch(()=>{$('#bKb').disabled=true;$('#bKb').title='engine/keyboard.js not found (set EXWB_ENGINE_DIR)'});
+$('#bNext').onclick=goNext;$('#filter').onchange=renderList;
+$('#leaf').onchange=async e=>{await api('/api/settings',{leaf_delta:+e.target.value});toast('Link offset saved');await load();if(cur)open(cur)};
+$('#bExport').onclick=()=>{window.open('/api/export?only=done','_blank')};
+$('#bNew').onclick=async()=>{if(!sel.a){toast('Select lines in the Source page tab first');return}const a=sel.a,b=sel.b||sel.a;const sec=prompt('Section number for the new block?',B?B.section:'')??null;if(sec===null)return;
+  const r=await api('/api/block',{source:a.source,start_scan:a.scan,start_line:a.line,end_scan:b.scan,end_line:b.line+1,section:sec});sel={a:null,b:null};await load();open(r.id);toast('Block created from selection')};
+addEventListener('keydown',e=>{if(e.altKey&&e.code=='KeyH'){e.preventDefault();setPH(!PH);return}if(e.ctrlKey&&e.key=='Enter'){e.preventDefault();B&&B.status!='done'&&markDone()}if(e.altKey&&e.key=='ArrowRight'){e.preventDefault();goNext()}});
+addEventListener('beforeunload',e=>{if(saveT){flush()}});
+load().then(()=>goNext());
+</script></body></html>

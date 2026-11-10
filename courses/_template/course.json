@@ -1,0 +1,17 @@
+{
+  "id": "<course-id>",
+  "title": "<Course Title>",
+  "language": "<ISO639-1>",
+  "level": "<A|B|C|D|E>",
+  "script": {
+    "direction": "rtl|ltr",
+    "font": "<FontId>",
+    "fontFile": "fonts/<font>.woff2",
+    "keyboard": "<layout-id>",
+    "translitScheme": "<scheme-id>"
+  },
+  "units": [],
+  "parts": [],
+  "prerequisites": [],
+  "knowledgeGraph": "prerequisites/knowledge.json"
+}

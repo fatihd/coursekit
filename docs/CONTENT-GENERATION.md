@@ -1,0 +1,198 @@
+# CONTENT-GENERATION
+
+> Extraction pipeline + lesson generation + the **OER allowlist**. Author-side, offline.
+> Produces validated JSON consumed by the engine. Per AGENTS.md §6: do NOT reproduce
+> copyrighted text; lessons paraphrase/transform owned material and use only approved OER
+> sources.
+
+## 1. Pipeline overview
+
+```
+archive.org scans ─▶ scripts/fetch-sources ─▶ exwb/ (exercise review) + build/*davidson*.py
+                                          │
+                  build/generate-lessons.py + OER fetch
+                                          ▼
+                           course content JSON (units/, vocab, exercises, knowledge)
+                                          │
+                                scripts/validate (JSON Schema)
+                                          ▼
+                                    course ready
+```
+
+
+## 3. Lesson generation — `build/generate-lessons.py`
+
+Second pass (P6-T2): reads the **canonical text** (`content/vocab.csv` +
+`content/chapters/NN.md`) and the local OER cache (`build/_oer/`), and enriches the
+text in place. It does **not** write JSON directly — the text stays the source of
+truth; run `build/materialize.py` afterwards to regenerate the engine JSON.
+
+Per unit, it adds:
+- **`vocab.csv`**: OER columns `root`, `strong`, `pos`, `oer_source`, `oer_license`
+  (per-row attribution — ADR-004). `root` comes from the Wiktionary `he-rootbox`;
+  `strong`/`pos` from the OSHB/MorphHB lexicon (joined on a stripped, prefix-free
+  base form — prefixed token forms like `וָ/יָֽפֶת` are normalized to the lexeme).
+- **`chapters/NN.md`**:
+  - a **Word roots (OER)** GFM table (`## Word roots (OER)`): Hebrew, transliteration,
+    gloss, root, strong — emitted only when ≥1 unit item has root/strong data;
+  - `## Teaches` — the unit's vocab item ids;
+  - `## Assumes` — the *prior* unit's item ids (spiral recap; absent for unit 1);
+  - `## Did You Know` — the unit's most-frequent token per OSHB counts, attributed to
+    "OSHB/MorphHB (CC BY 4.0)".
+
+`build/generate-lessons.py` now preserves the canonical `## Summary` in
+`content/chapters/NN.md`; it does not read or copy `units/NN.summary.md`. It reconstructs
+the OER table, vocabulary references, teaches/assumes lists, and frequency note.
+
+Called as:
+```bash
+python build/generate-lessons.py --course courses/<course>
+# then: python build/materialize.py --course … && scripts/validate …
+```
+
+Output is schema-validated (`scripts/validate`). Stubbed first in P2-T6 (30 placeholder
+lesson stubs with prose + vocab blocks); OER enrichment landed in P6-T2 (2026-08-15).
+
+
+**Public-domain course (2026-11-03, updated 2026-11-05):** `courses/biblical-hebrew-davidson`
+(ADR-014, ADR-016, ADR-017) is a separate 56-unit course built on public-domain grammars; it reuses
+no other course's data. Its vocabulary CSV adds a `parse` column (mapped to
+`extra.parse` by `materialize.py`/`textify.py`), carrying each verb's grammatical description
+for the `parse-verb`/`produce-form` exercise types (ADR-015). `oer_source`/`oer_license` there
+record `BDB; OSHB` and `public domain; CC BY 4.0`.
+
+**Davidson exercise recovery (2026-11-05, ADR-017).** `build/recover_davidson_exercises.py`
+rebuilds the 1924 key's English→Hebrew `translate-phrase` exercises: English prompts are read
+from the 22nd-edition grammar via Apple Vision OCR (`grammar-vision-en.json`), pointed Hebrew
+answers from the key's DjVu export (`key-1924-djvu.xml`, which keeps Hebrew script), and each
+item is matched to a unit via the chapter's `## Source` §. It emits `exercises/NN.json`
+(scaffolds), `authored/NN.json` (engine items), and `build/_sources/davidson/exercise-inventory.json`
+(provenance ledger). Key answers are segmented using the DjVu XML word-box x-coordinates and
+printed item numbers (right-to-left); each record retains its own answer leaf, and mapping is
+by printed item number so an unreadable label does not shift the rest of the list. Every item
+carries `source.promptUrl`/`source.answerUrl` scan links, so OCR misreadings are a link-click
+away from the original page rather than a dead end. The OCR tool
+(`build/_sources/davidson/ocr_pdf.swift` → `ocr_pdf`) is a macOS Vision wrapper. Current
+regeneration emits 85 key-paired records across 22 units, without a per-unit cap or
+duplicate-stimulus suppression. This is an optional English→Hebrew drill subset, not the
+whole-book inventory or a prerequisite for inclusion there.
+
+**Complete grammar-only exercise inventory (2026-11-05, ADR-018).**
+`build/inventory_davidson_exercises.py --write` inventories every OCR-detected exercise block
+in the 22nd-edition grammar without consulting or matching the answer key. It writes
+`build/_sources/davidson/grammar-exercise-inventory.json`, preserving each block's heading,
+type guess, Vision OCR region, DjVu OCR region (Hebrew script), extracted items, and exact
+prompt-page scan links. Current inventory: **48 blocks and 865 extracted items** (339 Hebrew, 526 English), no
+caps — 29 translation, 7 parsing, 6 writing, 2 correction, 1 transliteration, 1 pointing,
+1 pronunciation, 1 unspecified. A coordinate-based pass uses the DjVu word boxes (mapped to
+the Vision coordinate space via the heading anchor) to drop the pointed-Hebrew rows that
+Vision reads as Latin garble and to salvage the clean English runs of mixed lines; the
+inventory now reports 0 unrecoverable fragments and 791 distinct items. "Recoverable"
+still allows letter-level OCR errors — each block links its scan page as the arbiter.
+
+**Answer-side inventory (2026-11-05, ADR-018).**
+`build/inventory_davidson_answers.py --write` inventories the 1924 key the same way:
+`build/_sources/davidson/key-answer-inventory.json` holds every OCR-detectable answer — part A
+(English, via Vision, keyed by printed "N." markers) and parts B/C/D (pointed Hebrew, via the
+DjVu coordinate segmentation) — each with its §, part, item number, script, exact key leaf, and
+scan link. Current yield: 885 items (600 English, 285 Hebrew). No caps, no grammar matching;
+the same OCR-variant handling applies.
+
+**Pairing with sanity checks (2026-11-05).**
+`build/pair_davidson_exercises.py --write` joins the two inventories on § + part + printed item
+number and scores each prompt↔answer pair against the course vocabulary — gloss overlap for
+translation pairs, consonant patterns for transliteration pairs — re-assigning pairs that score
+as belonging to another item. Emitted drills are ok/weak pairs only: typed-Hebrew
+`translate-phrase` (English→Hebrew), `mcq` (Hebrew→English, transliteration); suspect pairs stay
+in `pair-inventory.json` with their score. Every item carries both scan links and its sanity
+score. Current yield: 380 pairs (67 ok, 43 weak, 270 suspect); ok/weak pairs emit 176 item
+placements across 32 units. The grammar's Hebrew prompts now use the same coordinate
+segmentation as the key's answers.
+
+Run commands: `python build/inventory_davidson_exercises.py` (grammar blocks),
+`python build/inventory_davidson_answers.py` (key answers), and
+`python build/pair_davidson_exercises.py` (pairing + authored emission); add `--write` to emit.
+`build/recover_davidson_exercises.py` is superseded by the pairing pipeline for emission but
+still supplies the key's coordinate segmentation.
+
+## 4. OER allowlist (approved sources)
+
+| Source | Lang | License | Use |
+|---|---|---|---|
+| Aaron Christianson, *An Open Introduction to Biblical Hebrew* | Hebrew | CC BY-SA 3.0 | Primary source of the `biblical-hebrew-oer` course and an open reference for lesson explanations; adapt and attribute, do not reproduce exercises or unlicensed assets |
+| OpenScriptures Hebrew Bible (OSHB) / MorphHB | Hebrew | CC BY 4.0 | Morphology, roots, glosses, frequency |
+| Wiktionary Hebrew | Hebrew | CC BY-SA | Glosses, usage notes, etymology |
+| SBLGNT (SBL Greek New Testament) | Greek | CC BY-SA 4.0 | Greek text for gap-fill, examples |
+| Wiktionary Greek | Greek | CC BY-SA | Glosses, morphology, etymology |
+| Perseus (Greek/Latin) | Greek | open (varies) | Morphology, lexicon |
+| Comprehensive Aramaic Lexicon (CAL) | Aramaic | scholarly open | Aramaic lexicon, morphology |
+| A. B. Davidson, *An Introductory Hebrew Grammar* (22nd ed., 1923 — the course's source per ADR-021; 19th ed., 1914, historical) + McFadyen *Key* (1924; keyed to the 22nd ed.) | Hebrew | Public domain | Primary sequence for `biblical-hebrew-davidson`; the key is the answer source for recovered exercises, with every item linking its prompt/answer scans (best-effort OCR, ADR-017). Edition audit: `build/_sources/davidson/SOURCES.md` (ADR-014) |
+| Gesenius–Kautzsch–Cowley, *Gesenius' Hebrew Grammar* (1910) | Hebrew | Public domain | Grammar/syntax reference |
+| Kalisch, *A Hebrew Grammar, with Exercises* (1875) + *Key* (1881) | Hebrew | Public domain | Supplementary exercises |
+| Harper, *Hebrew Vocabularies* (1890) | Hebrew | Public domain | Frequency cross-check |
+| Brown–Driver–Briggs (1906), Strong's (1890) | Hebrew | Public domain | Glosses and Strong's references |
+
+- Each OER-sourced row must carry **attribution** + license in `extra.source`/`extra.license`
+  (written into `vocab.json` or `units/NN.json` block metadata).
+- Cache fetched OER data under `build/_oer/` (gitignored if large; keep a manifest).
+- **Not on the allowlist**: any copyrighted textbook/grammar. The student's own course
+  PDFs are transformed (paraphrased), not reproduced. 
+
+### `build/fetch_oer.py` (P6-T1)
+
+Fetches the two approved Hebrew sources into `build/_oer/`:
+
+```
+build/_oer/
+  manifest.json              # attribution manifest (tracked; lists source+license per dataset)
+  morphhb/
+    books/*.xml              # WLC per-book XML (gitignored)
+    wordlist.csv             # WlcWordList: strong <-> form mapping (gitignored)
+    lexicon.json             # token index: scriptForm -> {strong, pos, morph, count} (gitignored)
+  wiktionary/
+    <word>.json              # per-word raw wikitext + attribution (gitignored)
+    index.json               # word -> url/source/license/authorship (tracked)
+```
+
+- Usage: `python build/fetch_oer.py --source all --course courses/<course>`
+  (`--source morphhb|wiktionary`, `--limit N` for wiktionary, `--course` for the vocab list).
+- **Resumable**: per-book XML, `wordlist.csv`, and per-word pages are skipped once present.
+- **Rate-limiting**: polite backoff on 429/5xx; Wiktionary pages fetched in batches of 50
+  titles per API call via `action=query&prop=revisions&rvprop=content`.
+- **Attribution**: every cached row carries `source`+`license` (+`authorship`); the tracked
+  `manifest.json` lists each dataset (name, licence, homepage, rows file). Follows the
+  ADR-004 guardrail: cache text is transformed/paraphrased before it reaches students.
+- P6-T1 result (2026-08-15): 39 book XMLs + `lexicon.json` (109,135 token forms, Strong's
+  + POS/morph per form) + 366 Wiktionary pages for the first course's vocab. ~37 vocab forms not
+  fetchable — these are exactly the truncated/garbled rows already on the P6-T2 hand-fix
+  list (e.g. `רֹא`, `מִשְנָט`, `הוּא11`), so nothing real is missing.
+
+The original workbook summaries at `units/NN.summary.md` remain author-only provenance and
+are no longer a generator input. `build/generate-lessons.py` now preserves the Summary section
+from canonical `content/chapters/NN.md` instead of copying the workbook extraction back into
+the student-facing chapter.
+
+
+## 8. Lint / format (P2-T5)
+
+- Python: `ruff` — config in `pyproject.toml` (to be added). `ruff check build/` clean.
+- Vanilla JS: no eslint (no build step); instead a short style guide note here:
+  - 2-space indent, semi-colons, ES modules, no comments unless asked.
+  - Functions documented in design docs, not inline.
+
+## 9. Python environment
+
+- `pypdf` and `jsonschema` are the third-party deps. Project venv at the repo root:
+  `python3 -m venv .venv && .venv/bin/pip install pypdf ruff jsonschema`.
+- Do NOT commit the venv; `.gitignore` excludes it.
+- Run lesson scaffold: `.venv/bin/python build/generate-lessons.py --course courses/<course>`.
+- Run validator: `.venv/bin/python scripts/validate courses/<course>`.
+- Schemas live in `build/schemas/` (course, vocab, units, unit-lesson,
+  workbook-exercises, answer-key, progress, knowledge).
+- Lint: `.venv/bin/ruff check build/ scripts/` (config in `pyproject.toml`).
+
+### Test dependency (dev-only)
+
+- Browser regression test `scripts/e2e.py` needs Playwright:
+  `.venv/bin/pip install playwright && .venv/bin/python -m playwright install chromium`.
+  Not required to run the course itself; see ROADMAP §Cross-cutting (regression gate).

@@ -1,0 +1,182 @@
+{
+  "schema": "unit-lesson-v1.json",
+  "unit": 1,
+  "title": "The Aleph-Bet",
+  "description": "Hebrew is written from right to left. Begin by learning the consonant inventory, letter names, and final forms; vowel points are introduced in later units.",
+  "teaches": [
+    "he-oer-01-001",
+    "he-oer-01-002",
+    "he-oer-01-003"
+  ],
+  "assumes": [],
+  "blocks": [
+    {
+      "type": "prose",
+      "html": "<p>The Hebrew alphabet has 22 consonant letters. Five letters use a special shape at the end of a word, but these are positional variants rather than additional letters. Read each sign as a consonant and track the direction of the line from right to left. In a pointed text, vowel marks are written around these consonants without changing the consonantal alphabet itself.</p>"
+    },
+    {
+      "type": "table",
+      "caption": "Consonants",
+      "columns": [
+        "Letter",
+        "Name",
+        "Transliteration"
+      ],
+      "rows": [
+        [
+          "א",
+          "Aleph",
+          "ʾ"
+        ],
+        [
+          "ב",
+          "Bet",
+          "b"
+        ],
+        [
+          "ג",
+          "Gimel",
+          "g"
+        ],
+        [
+          "ד",
+          "Dalet",
+          "d"
+        ],
+        [
+          "ה",
+          "He",
+          "h"
+        ],
+        [
+          "ו",
+          "Waw",
+          "w"
+        ],
+        [
+          "ז",
+          "Zayin",
+          "z"
+        ],
+        [
+          "ח",
+          "Het",
+          "ḥ"
+        ],
+        [
+          "ט",
+          "Tet",
+          "ṭ"
+        ],
+        [
+          "י",
+          "Yod",
+          "y"
+        ],
+        [
+          "כ ך",
+          "Kaf",
+          "k"
+        ],
+        [
+          "ל",
+          "Lamed",
+          "l"
+        ],
+        [
+          "מ ם",
+          "Mem",
+          "m"
+        ],
+        [
+          "נ ן",
+          "Nun",
+          "n"
+        ],
+        [
+          "ס",
+          "Samekh",
+          "s"
+        ],
+        [
+          "ע",
+          "Ayin",
+          "ʿ"
+        ],
+        [
+          "פ ף",
+          "Pe",
+          "p"
+        ],
+        [
+          "צ ץ",
+          "Tsade",
+          "ṣ"
+        ],
+        [
+          "ק",
+          "Qof",
+          "q"
+        ],
+        [
+          "ר",
+          "Resh",
+          "r"
+        ],
+        [
+          "שׂ שׁ",
+          "Sin / Shin",
+          "ś / š"
+        ],
+        [
+          "ת",
+          "Tav",
+          "t"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Word roots (OER)",
+      "columns": [
+        "Hebrew",
+        "Transliteration",
+        "Gloss",
+        "Root",
+        "Strong"
+      ],
+      "rows": [
+        [
+          "אָב",
+          "’āb",
+          "father",
+          "אבב",
+          "1"
+        ],
+        [
+          "אֵם",
+          "’ēm",
+          "mother",
+          "אמם",
+          "0518"
+        ],
+        [
+          "בֵּן",
+          "bēn",
+          "son",
+          "בן",
+          "1121"
+        ]
+      ]
+    },
+    {
+      "type": "vocab",
+      "refs": [
+        "he-oer-01-001",
+        "he-oer-01-002",
+        "he-oer-01-003"
+      ]
+    }
+  ],
+  "didYouKnow": "According to OSHB/MorphHB (CC BY 4.0), the most frequent word in this unit is בֵּן (bēn), occurring 1759 times in the Westminster Leningrad Codex."
+}

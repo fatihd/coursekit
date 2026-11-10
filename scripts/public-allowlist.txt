@@ -1,0 +1,64 @@
+# Paths allowed in the public repository (ROADMAP P10, ADR-020); read by scripts/public-audit.
+# "dir/" = prefix, otherwise a glob on the repo-relative path. "!" denies (wins over allow).
+# "require: path" = must exist. Files listed in build/_sources/*/manifest.json are
+# downloaded by scripts/fetch-sources and must be git-ignored, never committed.
+
+.gitignore
+.dockerignore
+.github/
+Dockerfile
+LICENSE
+README.md
+AGENTS.md
+handover.md
+pyproject.toml
+run.sh
+run.bat
+run.command
+.public-snapshot
+engine/
+courses/_template/
+courses/biblical-hebrew-davidson/
+courses/biblical-hebrew-oer/
+exwb/
+build/
+scripts/
+docs/
+tests/
+site/
+prompts/
+
+!source/
+!courses/biblical-hebrew-a/
+!courses/biblical-hebrew-b/
+!build/column-maps/he-a.json
+!build/column-maps/he-b.json
+!build/known-data/he-a-*
+!build/known-data/he-b-*
+!build/known-fixes.json
+!build/workbook-exercise-fixes.json
+!build/parse_workbook.py
+!build/parse_workbook_exercises.py
+!build/parse_units.py
+!build/extract.py
+!build/column-maps/
+!build/known-data/
+!build/_sources/davidson/*.gz
+!build/_sources/davidson/*-vision-en.json
+!scripts/make-public-snapshot
+!scripts/public-overlay/
+!EXERCISES-REPORT.md
+!build/private-fingerprints.txt
+!build/_oer/wiktionary/index.json
+!build/_tmp/
+!build/_sources/davidson/_tess/
+!build/_sources/davidson/_pages_hi/
+!docs/COPYRIGHT-AUDIT-HEBREW-A.md
+!docs/DECISIONS/ADR-007-reference-grammar-deferred.md
+!docs/DECISIONS/ADR-008-hebrew-b-source-resolution.md
+!docs/DECISIONS/ADR-012-hebrew-a-open-content-sources.md
+
+require: LICENSE
+require: courses/biblical-hebrew-davidson/content/ATTRIBUTION.md
+require: courses/biblical-hebrew-oer/content/ATTRIBUTION.md
+require: exwb/curated/LICENSE

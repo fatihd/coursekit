@@ -1,0 +1,65 @@
+{
+  "schema": "unit-lesson-v1.json",
+  "unit": 8,
+  "title": "Roots and Patterns",
+  "description": "Hebrew words can be organized by consonantal roots and recurring word patterns. This unit introduces the analytical method and its limits.",
+  "teaches": [
+    "he-oer-08-001",
+    "he-oer-08-002",
+    "he-oer-08-003"
+  ],
+  "assumes": [
+    "he-oer-07-001",
+    "he-oer-07-002",
+    "he-oer-07-003"
+  ],
+  "blocks": [
+    {
+      "type": "prose",
+      "html": "<p>Many Hebrew roots contain three consonants. A pattern places vowels and sometimes additional consonants around the root to form a noun, adjective, or verb. Several words may share a root but differ in grammatical form and meaning. Root analysis helps organize vocabulary; it does not reliably predict an unfamiliar word&#x27;s meaning, so confirm each form in a lexicon.</p>"
+    },
+    {
+      "type": "table",
+      "caption": "Word roots (OER)",
+      "columns": [
+        "Hebrew",
+        "Transliteration",
+        "Gloss",
+        "Root",
+        "Strong"
+      ],
+      "rows": [
+        [
+          "מַלְכָּה",
+          "malkāh",
+          "queen",
+          "",
+          "4435"
+        ],
+        [
+          "מַמְלָכָה",
+          "mamlāḵāh",
+          "kingdom",
+          "מלך",
+          "4467"
+        ],
+        [
+          "מְלוּכָה",
+          "melûḵāh",
+          "kingship",
+          "מלך",
+          "4427"
+        ]
+      ]
+    },
+    {
+      "type": "vocab",
+      "refs": [
+        "he-oer-08-001",
+        "he-oer-08-002",
+        "he-oer-08-003"
+      ]
+    }
+  ],
+  "didYouKnow": "According to OSHB/MorphHB (CC BY 4.0), the most frequent word in this unit is מַמְלָכָה (mamlāḵāh), occurring 43 times in the Westminster Leningrad Codex."
+}

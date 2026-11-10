@@ -1,0 +1,55 @@
+{
+  "schema": "unit-lesson-v1.json",
+  "unit": 31,
+  "title": "Hophal",
+  "description": "Learn the Hophal stem, the passive of Hiphil.",
+  "teaches": [],
+  "assumes": [
+    "he-dav-30-001",
+    "he-dav-30-002",
+    "he-dav-30-003",
+    "he-dav-30-004"
+  ],
+  "blocks": [
+    {
+      "type": "prose",
+      "caption": "Summary",
+      "html": "<p>Hophal is the passive of Hiphil. Where Hiphil הִקְטִיל means &quot;he caused to kill&quot;, Hophal הָקְטַל means &quot;he was caused to kill&quot; or &quot;it was brought about&quot;. It uses an o-class vowel (a short o) with the same he prefix, and it is uncommon, so recognising it is the main task.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "The form",
+      "html": "<p>Hophal keeps the he prefix of Hiphil but replaces the i-vowel with an o (a qamets-hatuf): הָקְטַל against הִקְטִיל. The imperfect is יָקְטַל. The distinction between the two vowels — i for the causative active, o for its passive — is the whole trick of telling them apart.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Hiphil and Hophal",
+      "html": "<p>The two belong together as one pair: the causative active and its passive. Teach them side by side, because every Hophal is the passive counterpart of a Hiphil, and a Hophal in the text points back to a causative idea. When you see a passive-looking he-prefixed verb, ask what causative idea it is the passive of.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Common confusion",
+      "html": "<p>Do not confuse Hophal with the Qal passive or with Pual. All three can be passive, but only Hophal carries the he prefix of the causative. Match the passive to its active stem — Hiphil for Hophal — and the parse is settled.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Worked example",
+      "html": "<p>Take הָקְטַל (&quot;he was caused to kill&quot;). The he prefix is the same as Hiphil, but the o-vowel (a short o) replaces the i, marking the passive. Match every Hophal back to its Hiphil: הָקְטַל is the passive of הִקְטִיל.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Reading practice",
+      "html": "<p>Read and parse. הָקְטַל הָעָם — &quot;the people were caused to be slain&quot;. The he prefix with the o-vowel (not the Hiphil i) marks Hophal, the passive of the causative. Match each Hophal back to its Hiphil.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Source",
+      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (1914), §27.</p>"
+    },
+    {
+      "type": "vocab",
+      "refs": []
+    }
+  ],
+  "didYouKnow": ""
+}

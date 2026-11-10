@@ -1,0 +1,165 @@
+{
+  "schema": "authored-exercises-v1.json",
+  "unit": 52,
+  "items": [
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate this English sentence into Hebrew",
+      "stimulus": "The great day of Yahweh. ~The day of Yahweh is great. =‏ The good queen of the land. 4All the people of the earth",
+      "stimulusIsScript": false,
+      "accepted": [
+        "ללת הטובים הַארִץ לא",
+        "ללת הטובים הארץ לא"
+      ],
+      "answerIsScript": true,
+      "source": {
+        "citation": "Davidson, Introductory Hebrew Grammar (22nd ed.) exercise on §17; Key to the Exercises (1924) §17",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n81/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n81.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n35/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n35.jpg",
+        "sanityScore": 0.18,
+        "sanity": "weak",
+        "note": "Read from the scans by OCR; open them if a reading looks wrong."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate this English sentence into Hebrew",
+      "stimulus": "All the king’s good asses, (The captain (prince) reviewed all = the mighty-men of valour and all the people of war",
+      "stimulusIsScript": false,
+      "accepted": [
+        "חמורי הטוב לא הָאִיש",
+        "חמורי הטוב לא האיש"
+      ],
+      "answerIsScript": true,
+      "source": {
+        "citation": "Davidson, Introductory Hebrew Grammar (22nd ed.) exercise on §17; Key to the Exercises (1924) §17",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n81/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n81.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n35/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n35.jpg",
+        "sanityScore": 0.17,
+        "sanity": "weak",
+        "note": "Read from the scans by OCR; open them if a reading looks wrong."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate this English sentence into Hebrew",
+      "stimulus": "K We are gone down to Sheol. 1» He went towards-the-mountain",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וירדוּ חיים",
+        "וירדו חיים"
+      ],
+      "answerIsScript": true,
+      "source": {
+        "citation": "Davidson, Introductory Hebrew Grammar (22nd ed.) exercise on §17; Key to the Exercises (1924) §17",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n81/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n81.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+        "sanityScore": 0.29,
+        "sanity": "weak",
+        "note": "Read from the scans by OCR; open them if a reading looks wrong."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Translate this Hebrew sentence into English",
+      "stimulus": "לְקח אַבִיגְיִל לְאֶשָה",
+      "stimulusIsScript": true,
+      "options": [
+        "David took Abigail to wife,' and she was a woman of good understanding?",
+        "The poor of the people are righteous",
+        "We have not kept the law of Yahweh, the God of Israel",
+        "The prince did according to the king's commandment"
+      ],
+      "answer": "David took Abigail to wife,' and she was a woman of good understanding?",
+      "optionIsScript": false,
+      "source": {
+        "citation": "Davidson, Introductory Hebrew Grammar (22nd ed.) exercise on §17; Key to the Exercises (1924) §17",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n81/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n81.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n33/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n33.jpg",
+        "sanityScore": 0.25,
+        "sanity": "weak",
+        "note": "Read from the scans by OCR; open them if a reading looks wrong."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Translate this Hebrew sentence into English",
+      "stimulus": "הַעַם צדיקים",
+      "stimulusIsScript": true,
+      "options": [
+        "The poor of the people are righteous",
+        "David took Abigail to wife,' and she was a woman of good understanding?",
+        "We have not kept the law of Yahweh, the God of Israel",
+        "The prince did according to the king's commandment"
+      ],
+      "answer": "The poor of the people are righteous",
+      "optionIsScript": false,
+      "source": {
+        "citation": "Davidson, Introductory Hebrew Grammar (22nd ed.) exercise on §17; Key to the Exercises (1924) §17",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n81/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n81.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n33/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n33.jpg",
+        "sanityScore": 0.67,
+        "sanity": "ok",
+        "note": "Read from the scans by OCR; open them if a reading looks wrong."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Translate this Hebrew sentence into English",
+      "stimulus": "הָשָר",
+      "stimulusIsScript": true,
+      "options": [
+        "The prince did according to the king's commandment",
+        "David took Abigail to wife,' and she was a woman of good understanding?",
+        "The poor of the people are righteous",
+        "We have not kept the law of Yahweh, the God of Israel"
+      ],
+      "answer": "The prince did according to the king's commandment",
+      "optionIsScript": false,
+      "source": {
+        "citation": "Davidson, Introductory Hebrew Grammar (22nd ed.) exercise on §17; Key to the Exercises (1924) §17",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n81/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n81.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n33/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n33.jpg",
+        "sanityScore": 0.2,
+        "sanity": "weak",
+        "note": "Read from the scans by OCR; open them if a reading looks wrong."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Translate this Hebrew sentence into English",
+      "stimulus": "אֶלָה מצות אֶלְהַי",
+      "stimulusIsScript": true,
+      "options": [
+        "These are the commandments of the God of all3 the earth which I have written this day",
+        "David took Abigail to wife,' and she was a woman of good understanding?",
+        "The poor of the people are righteous",
+        "We have not kept the law of Yahweh, the God of Israel"
+      ],
+      "answer": "These are the commandments of the God of all3 the earth which I have written this day",
+      "optionIsScript": false,
+      "source": {
+        "citation": "Davidson, Introductory Hebrew Grammar (22nd ed.) exercise on §17; Key to the Exercises (1924) §17",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n81/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n81.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n33/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n33.jpg",
+        "sanityScore": 0.29,
+        "sanity": "weak",
+        "note": "Read from the scans by OCR; open them if a reading looks wrong."
+      }
+    }
+  ]
+}

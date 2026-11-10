@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "units.json",
+  "title": "Unit metadata",
+  "type": "object",
+  "required": ["schema", "units"],
+  "properties": {
+    "schema": { "type": "string", "const": "units-v1.json" },
+    "source": { "type": "string" },
+    "titlesSource": { "type": "string" },
+    "units": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "n", "title", "description", "part"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^u\\d{2}$" },
+          "n": { "type": "integer", "minimum": 1 },
+          "title": { "type": "string", "minLength": 1 },
+          "description": { "type": "string", "minLength": 1 },
+          "textbookPage": { "type": "integer", "minimum": 1 },
+          "part": { "type": "integer", "minimum": 1 }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,24 @@
+{
+  "schema": "oer-manifest-v1.json",
+  "purpose": "Local cache of approved OER sources for lesson enrichment (P6).",
+  "lastFetched": "2026-08-16",
+  "disclaimer": "Cached text is license-marked per row. Engine/course output must paraphrase/attribute; never reproduce wholesale (see ADR-004).",
+  "sources": [
+    {
+      "id": "morphhb",
+      "name": "OpenScriptures Hebrew Bible / MorphHB",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "homepage": "https://github.com/openscriptures/morphhb",
+      "rows": "build/_oer/morphhb/lexicon.json"
+    },
+    {
+      "id": "wiktionary",
+      "name": "Wiktionary (English) Hebrew",
+      "license": "CC BY-SA 3.0 / GFDL",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "homepage": "https://en.wiktionary.org",
+      "rows": "build/_oer/wiktionary/index.json"
+    }
+  ]
+}

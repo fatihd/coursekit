@@ -1,0 +1,85 @@
+{
+  "schema": "unit-lesson-v1.json",
+  "unit": 2,
+  "title": "Gutturals and Consonant Sounds",
+  "description": "Recognize the guttural letters and use a consistent transliteration.",
+  "teaches": [
+    "he-dav-02-001",
+    "he-dav-02-002"
+  ],
+  "assumes": [
+    "he-dav-01-001",
+    "he-dav-01-002"
+  ],
+  "blocks": [
+    {
+      "type": "prose",
+      "caption": "Summary",
+      "html": "<p>Four letters are called gutturals: א (aleph), ה (he), ח (het), and ע (ayin); the letter ר (resh) shares some of their behaviour even though it is not classed with them. Gutturals have two practical effects. First, they dislike a simple vocal shewa and usually take a composite shewa, one that carries a short vowel sound, so the mouth has a vowel to move through. Second, they prefer an a-class vowel next to them, so vowels often shift toward a or the short a-like sounds when a guttural is near.</p>"
+    },
+    {
+      "type": "table",
+      "caption": "Gutturals",
+      "columns": [
+        "Letter",
+        "Name",
+        "Quality"
+      ],
+      "rows": [
+        [
+          "א",
+          "Aleph",
+          "glottal stop (often silent)"
+        ],
+        [
+          "ה",
+          "He",
+          "h"
+        ],
+        [
+          "ח",
+          "Het",
+          "strong h (ḥ)"
+        ],
+        [
+          "ע",
+          "Ayin",
+          "deep guttural (ʼ)"
+        ],
+        [
+          "ר",
+          "Resh",
+          "treated like a guttural for shewa"
+        ]
+      ]
+    },
+    {
+      "type": "prose",
+      "caption": "The guttural letters",
+      "html": "<p>Learn the gutturals as a group and treat them as a unit when you read. א is a glottal stop that is usually silent in modern pronunciation; ה is a plain h; ח is a strong h from the back of the throat; ע is a deep guttural made deep in the throat. Because these four letters sit at the back of the mouth, the vowel beside them naturally opens into an a sound, and a shewa under them becomes a short vowel shewa rather than a silent stroke.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Transliteration",
+      "html": "<p>Use one transliteration system and keep it steady. This course writes ʼ for both א and ע, ḥ for ח, š for שׁ, ś for שׂ, ṣ for צ, and ṭ for ט. The mark ʼ does not distinguish aleph from ayin; if you need that distinction later, write ʿ for ע and ʾ for א. The point of transliteration is only to let you record and check sounds; the goal is to read the Hebrew signs directly.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Common confusion",
+      "html": "<p>Do not treat gutturals as optional or silent letters to ignore. Even when א is not pronounced, it still occupies a place in the word and affects the vowels around it. When you meet a composite shewa (a shewa joined to a short vowel) under a letter, that is usually a sign that the letter is a guttural; expect the following vowel to be a-class.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Source",
+      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (1914), §1.2, §8.</p>"
+    },
+    {
+      "type": "vocab",
+      "refs": [
+        "he-dav-02-001",
+        "he-dav-02-002"
+      ]
+    }
+  ],
+  "didYouKnow": ""
+}

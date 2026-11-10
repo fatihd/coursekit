@@ -1,0 +1,116 @@
+{
+  "schema": "unit-lesson-v1.json",
+  "unit": 51,
+  "title": "Noun Clauses and Verbless Sentences",
+  "description": "Recognize sentences that have no finite verb.",
+  "teaches": [
+    "he-dav-51-001",
+    "he-dav-51-002",
+    "he-dav-51-003",
+    "he-dav-51-004",
+    "he-dav-51-005",
+    "he-dav-51-006",
+    "he-dav-51-007",
+    "he-dav-51-008",
+    "he-dav-51-009",
+    "he-dav-51-010",
+    "he-dav-51-011",
+    "he-dav-51-012",
+    "he-dav-51-013",
+    "he-dav-51-014",
+    "he-dav-51-015",
+    "he-dav-51-016",
+    "he-dav-51-017",
+    "he-dav-51-018",
+    "he-dav-51-019",
+    "he-dav-51-020",
+    "he-dav-51-021",
+    "he-dav-51-022",
+    "he-dav-51-023",
+    "he-dav-51-024",
+    "he-dav-51-025",
+    "he-dav-51-026"
+  ],
+  "assumes": [],
+  "blocks": [
+    {
+      "type": "prose",
+      "caption": "Summary",
+      "html": "<p>A noun clause (or verbless sentence) identifies or describes a subject without a finite verb, joining subject and predicate by word order: הָאִישׁ טוֹב (the man is good). The present tense is understood. The particles יֵשׁ (there is) and אֵין (there is not) open existential clauses. Reading these requires watching for the missing &quot;is&quot;, which English supplies but Hebrew does not.</p>"
+    },
+    {
+      "type": "table",
+      "caption": "Verbless sentences",
+      "columns": [
+        "Sentence",
+        "Meaning"
+      ],
+      "rows": [
+        [
+          "הָאִישׁ טוֹב",
+          "the man is good"
+        ],
+        [
+          "יֵשׁ אִישׁ",
+          "there is a man"
+        ],
+        [
+          "אֵין אִישׁ",
+          "there is no man"
+        ]
+      ]
+    },
+    {
+      "type": "prose",
+      "caption": "The verbless clause",
+      "html": "<p>When two nouns, or a noun and an adjective, stand together with no verb, supply &quot;is/are&quot;: הָאִישׁ טוֹב, &quot;the man is good&quot;; דָּוִד מֶלֶךְ, &quot;David is king&quot;. The subject usually comes first, then the predicate. Definiteness helps decide which is which: the definite noun is normally the subject, the indefinite or adjectival one the predicate.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Existential clauses",
+      "html": "<p>יֵשׁ and אֵין state existence or possession: יֵשׁ אִישׁ, &quot;there is a man&quot;; אֵין אִישׁ, &quot;there is no man&quot;. With a pronominal suffix they express possession: יֶשְׁנוֹ, &quot;he has&quot;; אֵינֶנּוּ, &quot;he has not&quot;. These are the standard way to say &quot;have&quot; in Hebrew.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Common confusion",
+      "html": "<p>Do not look for a verb that is not there. When a sentence lacks a verb, do not add a word like &quot;was&quot; unless the context is past. Also remember אֵין is a negation of existence, not a verb; translate it as &quot;there is not&quot; or &quot;he has not&quot; rather than a simple &quot;no&quot;.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Source",
+      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (1914), Davidson, Hebrew Syntax (1901).</p>"
+    },
+    {
+      "type": "vocab",
+      "refs": [
+        "he-dav-51-001",
+        "he-dav-51-002",
+        "he-dav-51-003",
+        "he-dav-51-004",
+        "he-dav-51-005",
+        "he-dav-51-006",
+        "he-dav-51-007",
+        "he-dav-51-008",
+        "he-dav-51-009",
+        "he-dav-51-010",
+        "he-dav-51-011",
+        "he-dav-51-012",
+        "he-dav-51-013",
+        "he-dav-51-014",
+        "he-dav-51-015",
+        "he-dav-51-016",
+        "he-dav-51-017",
+        "he-dav-51-018",
+        "he-dav-51-019",
+        "he-dav-51-020",
+        "he-dav-51-021",
+        "he-dav-51-022",
+        "he-dav-51-023",
+        "he-dav-51-024",
+        "he-dav-51-025",
+        "he-dav-51-026"
+      ]
+    }
+  ],
+  "didYouKnow": ""
+}

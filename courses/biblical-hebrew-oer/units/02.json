@@ -1,0 +1,65 @@
+{
+  "schema": "unit-lesson-v1.json",
+  "unit": 2,
+  "title": "Gutturals and Consonant Sounds",
+  "description": "Several consonants are pronounced in the throat or have special phonological behavior. This unit introduces those groups and the transliteration signs used to keep them distinct.",
+  "teaches": [
+    "he-oer-02-001",
+    "he-oer-02-002",
+    "he-oer-02-003"
+  ],
+  "assumes": [
+    "he-oer-01-001",
+    "he-oer-01-002",
+    "he-oer-01-003"
+  ],
+  "blocks": [
+    {
+      "type": "prose",
+      "html": "<p>Aleph, he, het, and ayin are the principal gutturals. Resh is not usually called a guttural, but it shares some restrictions with them. Transliteration distinguishes aleph (ʾ) from ayin (ʿ), het (ḥ) from he (h), and emphatic consonants such as tet (ṭ) and tsade (ṣ). Pronunciation varies among reading traditions; consistent transliteration preserves distinctions even when the spoken sounds are reduced.</p>"
+    },
+    {
+      "type": "table",
+      "caption": "Word roots (OER)",
+      "columns": [
+        "Hebrew",
+        "Transliteration",
+        "Gloss",
+        "Root",
+        "Strong"
+      ],
+      "rows": [
+        [
+          "אִישׁ",
+          "’îš",
+          "man",
+          "אנשׁ",
+          "0376"
+        ],
+        [
+          "אִשָּׁה",
+          "’iššāh",
+          "woman",
+          "",
+          "802"
+        ],
+        [
+          "רֹאשׁ",
+          "rō’š",
+          "head",
+          "ראשׁ",
+          "7218"
+        ]
+      ]
+    },
+    {
+      "type": "vocab",
+      "refs": [
+        "he-oer-02-001",
+        "he-oer-02-002",
+        "he-oer-02-003"
+      ]
+    }
+  ],
+  "didYouKnow": "According to OSHB/MorphHB (CC BY 4.0), the most frequent word in this unit is אִישׁ (’îš), occurring 1616 times in the Westminster Leningrad Codex."
+}

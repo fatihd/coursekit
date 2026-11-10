@@ -1,0 +1,65 @@
+{
+  "schema": "unit-lesson-v1.json",
+  "unit": 19,
+  "title": "Weak Verbs: Pe-Nun and Pe-Yod",
+  "description": "Weak verbs contain a root consonant that changes or disappears in certain patterns. This unit begins with roots whose first radical is nun or yod.",
+  "teaches": [
+    "he-oer-19-001",
+    "he-oer-19-002",
+    "he-oer-19-003"
+  ],
+  "assumes": [
+    "he-oer-18-001",
+    "he-oer-18-002",
+    "he-oer-18-003"
+  ],
+  "blocks": [
+    {
+      "type": "prose",
+      "html": "<p>When a prefix places the first radical directly beside the second, a weak initial consonant may assimilate or change. In Pe-Nun verbs, nun can disappear before a consonant that takes dagesh; before letters that resist doubling, it may remain visible. Pe-Yod verbs show changes in several Qal forms. Identify the root class first, then compare forms across the paradigm rather than treating each surface change as a separate lexeme.</p>"
+    },
+    {
+      "type": "table",
+      "caption": "Word roots (OER)",
+      "columns": [
+        "Hebrew",
+        "Transliteration",
+        "Gloss",
+        "Root",
+        "Strong"
+      ],
+      "rows": [
+        [
+          "נָתַן",
+          "nāṯan",
+          "he gave",
+          "נתן",
+          "5416"
+        ],
+        [
+          "יִתֵּן",
+          "yittēn",
+          "he will give",
+          "",
+          "5414"
+        ],
+        [
+          "תֵּן",
+          "tēn",
+          "give! (masculine singular command)",
+          "",
+          "5414"
+        ]
+      ]
+    },
+    {
+      "type": "vocab",
+      "refs": [
+        "he-oer-19-001",
+        "he-oer-19-002",
+        "he-oer-19-003"
+      ]
+    }
+  ],
+  "didYouKnow": "According to OSHB/MorphHB (CC BY 4.0), the most frequent word in this unit is נָתַן (nāṯan), occurring 416 times in the Westminster Leningrad Codex."
+}

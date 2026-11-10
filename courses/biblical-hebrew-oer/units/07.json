@@ -1,0 +1,65 @@
+{
+  "schema": "unit-lesson-v1.json",
+  "unit": 7,
+  "title": "Dagesh and Meteg",
+  "description": "Dagesh marks either pronunciation or consonant doubling. Meteg provides another clue for reading a pointed word.",
+  "teaches": [
+    "he-oer-07-001",
+    "he-oer-07-002",
+    "he-oer-07-003"
+  ],
+  "assumes": [
+    "he-oer-06-001",
+    "he-oer-06-002",
+    "he-oer-06-003"
+  ],
+  "blocks": [
+    {
+      "type": "prose",
+      "html": "<p>Dagesh qal occurs in a Begadkephat letter and often marks its stop pronunciation. Dagesh hazaq marks a doubled consonant and can appear in many other letters, though gutturals and resh resist doubling. Meteg is a short vertical mark beneath a letter and can support syllable or stress interpretation. Identify the letter class and syllable position before deciding what a dagesh means.</p>"
+    },
+    {
+      "type": "table",
+      "caption": "Word roots (OER)",
+      "columns": [
+        "Hebrew",
+        "Transliteration",
+        "Gloss",
+        "Root",
+        "Strong"
+      ],
+      "rows": [
+        [
+          "חָכָם",
+          "ḥāḵām",
+          "wise",
+          "חכם",
+          "2450"
+        ],
+        [
+          "גָּדוֹל",
+          "gādôl",
+          "large",
+          "גדל",
+          "1419 a"
+        ],
+        [
+          "קָטֹן",
+          "qāṭōn",
+          "small",
+          "קטן",
+          "6996 b"
+        ]
+      ]
+    },
+    {
+      "type": "vocab",
+      "refs": [
+        "he-oer-07-001",
+        "he-oer-07-002",
+        "he-oer-07-003"
+      ]
+    }
+  ],
+  "didYouKnow": "According to OSHB/MorphHB (CC BY 4.0), the most frequent word in this unit is גָּדוֹל (gādôl), occurring 286 times in the Westminster Leningrad Codex."
+}

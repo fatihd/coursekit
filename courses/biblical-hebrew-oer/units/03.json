@@ -1,0 +1,91 @@
+{
+  "schema": "unit-lesson-v1.json",
+  "unit": 3,
+  "title": "Matres Lectionis",
+  "description": "Some Hebrew consonant letters also help write long vowels. This unit explains the main consonant-vowel overlap and how position helps identify it.",
+  "teaches": [
+    "he-oer-03-001",
+    "he-oer-03-002",
+    "he-oer-03-003"
+  ],
+  "assumes": [
+    "he-oer-02-001",
+    "he-oer-02-002",
+    "he-oer-02-003"
+  ],
+  "blocks": [
+    {
+      "type": "prose",
+      "html": "<p>Waw, yod, and final he can function as matres lectionis. In this use, waw commonly accompanies û or ô, yod can accompany î or ê, and final he can accompany a vowel at the end of a word. A mater is not a vowel point; it is a consonant letter used as a spelling aid. If the same letter has its own vowel point or begins a syllable, it is more likely functioning as a consonant.</p>"
+    },
+    {
+      "type": "table",
+      "caption": "Mater Lectionis Patterns",
+      "columns": [
+        "Letter",
+        "Common vowel values",
+        "Common position"
+      ],
+      "rows": [
+        [
+          "ו",
+          "û, ô",
+          "medial or final"
+        ],
+        [
+          "י",
+          "î, ê",
+          "medial or final"
+        ],
+        [
+          "ה",
+          "â, ê, ô",
+          "word-final"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Word roots (OER)",
+      "columns": [
+        "Hebrew",
+        "Transliteration",
+        "Gloss",
+        "Root",
+        "Strong"
+      ],
+      "rows": [
+        [
+          "אוֹר",
+          "’ôr",
+          "light",
+          "אור",
+          "0217"
+        ],
+        [
+          "יוֹם",
+          "yôm",
+          "day",
+          "יום",
+          "3117"
+        ],
+        [
+          "מַיִם",
+          "mayim",
+          "water",
+          "מים",
+          "4325"
+        ]
+      ]
+    },
+    {
+      "type": "vocab",
+      "refs": [
+        "he-oer-03-001",
+        "he-oer-03-002",
+        "he-oer-03-003"
+      ]
+    }
+  ],
+  "didYouKnow": "According to OSHB/MorphHB (CC BY 4.0), the most frequent word in this unit is יוֹם (yôm), occurring 1426 times in the Westminster Leningrad Codex."
+}

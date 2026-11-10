@@ -1,0 +1,63 @@
+{
+  "schema": "unit-lesson-v1.json",
+  "unit": 42,
+  "title": "Double-Ayin (Geminate) Verbs",
+  "description": "Recognize doubled (geminate) verbs.",
+  "teaches": [
+    "he-dav-42-001",
+    "he-dav-42-002"
+  ],
+  "assumes": [
+    "he-dav-41-001",
+    "he-dav-41-002",
+    "he-dav-41-003",
+    "he-dav-41-004",
+    "he-dav-41-005",
+    "he-dav-41-006"
+  ],
+  "blocks": [
+    {
+      "type": "prose",
+      "caption": "Summary",
+      "html": "<p>Double-Ayin (geminate) verbs have the same letter as their second and third radicals, so the root collapses into a doubled consonant that behaves as a single strengthened letter. סָבַב (he surrounded, from סבב) becomes יָסֹב (he will surround), and מָדַד (he measured) becomes יָמֹד. The two identical letters often merge into one.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "The doubled radical",
+      "html": "<p>A geminate verb writes its second and third radicals as one doubled letter. In the perfect the doubling shows — סָבַב — but in the imperfect the two letters collapse, and the form shortens to יָסֹב. The root is recovered from the doubled consonant in the perfect.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "The forms",
+      "html": "<p>The imperfect of the geminate is built on a shortened stem, and the other parts follow it. Because the middle and final radicals are identical, the verb looks like a hollow verb at a glance, but the perfect preserves the doubled consonant, which identifies the class.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Common confusion",
+      "html": "<p>Do not confuse a geminate verb with a Pe-Nun verb: both can show doubling, but in a geminate the middle and final radicals are genuinely identical, while in Pe-Nun the doubling comes from a dropped nun. Compare the perfect to see which is which.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Worked example",
+      "html": "<p>Take סָבַב (&quot;he surrounded&quot;, from סבב) and יָסֹב (&quot;he will surround&quot;). The two identical letters collapse into a single doubled consonant in the perfect and a short form in the imperfect. The doubled consonant in the perfect is the identifying mark.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Reading practice",
+      "html": "<p>Read and parse. סָבַב הָעָם — &quot;the people surrounded&quot;. יָסֹב — &quot;he will surround&quot;. The doubled consonant in the perfect collapses in the imperfect; the doubled letter identifies the geminate root.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Source",
+      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (1914), §42.</p>"
+    },
+    {
+      "type": "vocab",
+      "refs": [
+        "he-dav-42-001",
+        "he-dav-42-002"
+      ]
+    }
+  ],
+  "didYouKnow": ""
+}

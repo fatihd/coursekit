@@ -1,0 +1,75 @@
+{
+  "schema": "unit-lesson-v1.json",
+  "unit": 33,
+  "title": "Pe-Nun Verbs",
+  "description": "Track the weak first radical nun and its changes.",
+  "teaches": [
+    "he-dav-33-001",
+    "he-dav-33-002",
+    "he-dav-33-003",
+    "he-dav-33-004",
+    "he-dav-33-005",
+    "he-dav-33-006",
+    "he-dav-33-007",
+    "he-dav-33-008",
+    "he-dav-33-009"
+  ],
+  "assumes": [],
+  "blocks": [
+    {
+      "type": "prose",
+      "caption": "Summary",
+      "html": "<p>Pe-Nun verbs begin with the root letter nun, which is weak and is often assimilated to the following consonant, which is then doubled. So נָפַל (he fell) becomes יִפֹּל (he will fall), and נָתַן (he gave) becomes יִתֵּן (he will give). The nun behaves exactly as it does in other languages when it is not followed by a full vowel: its sound is absorbed into the next consonant.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Assimilation",
+      "html": "<p>When the nun stands at the end of a syllable — as in the Qal imperfect, and in the Niphal, Hiphil, and Hophal — it is usually assimilated to the next consonant, which doubles: yinpol becomes yippol, hinpil becomes hippil. Read the doubled consonant as the trace of the lost nun.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "The exception",
+      "html": "<p>The nun is not usually assimilated when the middle radical is a guttural, because a guttural cannot be doubled. In such verbs the nun stays written, and the guttural simply follows it. This is the one regular exception to remember.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Imperative and infinitive",
+      "html": "<p>In verbs whose imperfect has the a vowel, the nun is almost always dropped in the imperative, and in the infinitive construct, which then adds a feminine ending and takes a segholate form — the infinitive נָתַן becomes תֵּת. In verbs whose imperfect has o, the nun is kept. Distinguish the two imperfect types carefully.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Common confusion",
+      "html": "<p>Do not mistake a Pe-Nun imperfect for a geminate verb. Both can show a doubled consonant, but in Pe-Nun the doubling comes from a dropped nun, not from two identical root letters. Compare the perfect, where the nun is still visible, to recover the root.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Worked example",
+      "html": "<p>Take נָפַל (&quot;he fell&quot;) and its imperfect יִפֹּל (&quot;he will fall&quot;). The nun of the perfect disappears in the imperfect, and the pe doubles: yinpol becomes yippol. The doubled letter is the trace of the dropped nun, and this is the pattern to recognise in Pe-Nun imperfects.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Reading practice",
+      "html": "<p>Read and parse. נָפַל הָעָם — &quot;the people fell&quot;. יִפֹּל הָאִישׁ — &quot;the man will fall&quot;. The perfect keeps the nun; the imperfect drops it and doubles the next consonant. The doubled letter is the trace of the lost nun.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Source",
+      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (1914), §33.</p>"
+    },
+    {
+      "type": "vocab",
+      "refs": [
+        "he-dav-33-001",
+        "he-dav-33-002",
+        "he-dav-33-003",
+        "he-dav-33-004",
+        "he-dav-33-005",
+        "he-dav-33-006",
+        "he-dav-33-007",
+        "he-dav-33-008",
+        "he-dav-33-009"
+      ]
+    }
+  ],
+  "didYouKnow": ""
+}

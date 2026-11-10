@@ -1,0 +1,5 @@
+# Review projects: per-machine SQLite state (back up via `python3 -m exwb export <proj> --all`)
+*/exwb.db
+*/exwb.db-journal
+*/cache/
+*/*.db.bak

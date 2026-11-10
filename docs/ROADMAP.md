@@ -1,0 +1,166 @@
+# ROADMAP — Phased plan with task IDs + acceptance tests
+
+> Task IDs are referenced in commit messages and PR titles once git is initialized (P1-T1).
+> Live state lives in `docs/STATUS.md`. Dates are ISO `YYYY-MM-DD`. Last updated: 2026-11-09.
+> Each task lists **exit criteria** (artifacts produced) and an **acceptance test** (a
+> concrete command/check that must pass). A task is Done only when its acceptance test
+> passes AND `STATUS.md`/`handover.md` reflect it (see AGENTS.md §5).
+
+## Rescue phase — release-quality gates
+
+The earlier phases built a prototype; this phase makes it a verified student product before
+further expansion. Scope and acceptance tests: `docs/RESCUE-PLAN.md`; decision: ADR-010.
+
+| ID | Task | Exit criteria | Acceptance test |
+|---|---|---|---|
+| R1 | Reconcile contracts and docs | Docs describe actual behavior | ✅ Done |
+| R2 | Runtime foundations | Launch, release, browser-only progress with Export/Import (ADR-019), local-only use | ✅ Done: fresh release → launch → restart → export → import restores progress |
+| R3 | Substantive lesson flow | Davidson Units 21–22 human-reviewed; their exercises run in the drill | A student can learn and practice the unit's grammar, not only vocabulary MCQs |
+| R4 | Student release gate | Exact release artifact / site passes platform, course, accessibility, and content checks | Synthetic + Davidson + OER contract tests and human checklist pass |
+
+Legend for acceptance tests:
+- `AT-<id>`: the check that must pass for task `<id>`.
+- Visual/QA checks ("show sample", "eyeball") require the human/agent reviewer to confirm.
+
+---
+
+## P1–P7 — Foundation, engine, release, portability, content generation
+
+Done in the private hub before the public repository existed: docs and repo skeleton (P1),
+extraction pipeline and schemas (P2), engine runtime — roadmap, lesson, drill, known set,
+on-screen keyboard (P3), release and engine vendoring (P4; its git progress sync was replaced
+by ADR-019), plaintext canonical content and AI-exam conventions (P5, see
+`docs/CONTENT-PORTABILITY.md`, `docs/AI-EXAMS.md`), and OER enrichment plus extra exercise
+types (P6). P7 (more courses) continues as P11 for Greek.
+
+---
+
+## P8 — Independent Hebrew OER course
+
+This scoped exception creates a separate Biblical Hebrew course from *An Open Introduction
+to Biblical Hebrew* (CC BY-SA 3.0). It does not reuse any other course's data.
+
+| ID | Task | Exit criteria | Acceptance test |
+|---|---|---|---|
+| P8-T1 | Record OER source and license | ADR-013 and a shipped attribution notice identify the author, title, URI, license, and changes | Attribution notice is present in a fresh release |
+| P8-T2 | Create independent unitized course | `courses/biblical-hebrew-oer` has its own 20-unit map, chapters, vocabulary, progress, and app shell; no other course's source artifacts | `scripts/validate courses/biblical-hebrew-oer` passes; source scan finds no other course's IDs or workbook artifacts |
+| P8-T3 | Verify student study and release | Fresh release omits author-only metadata and launches with its own content | `scripts/e2e.py courses/biblical-hebrew-oer --units 20` and `scripts/e2e-fork.py biblical-hebrew-oer` pass |
+
+---
+
+## P9 — Independent public-domain Hebrew course (user-directed exception)
+
+Creates a third course, `biblical-hebrew-davidson`, built on public-domain grammars
+(ADR-014) with opt-in grammar diagnostics and parsing/production drills (ADR-015). It does
+not modify or reuse the other courses.
+
+| ID | Task | Exit criteria | Acceptance test |
+|---|---|---|---|
+| P9-T1 | Scaffold the public-domain course | `courses/biblical-hebrew-davidson` has its own 56-unit map, chapters, vocabulary, progress, app shell, and attribution; no other course's artifacts | `scripts/validate courses/biblical-hebrew-davidson` passes; source scan finds no other course's ids |
+| P9-T2 | Author lessons and independent vocabulary | 56 units with lesson prose + tables; a curated public-domain-sourced vocabulary | `build/materialize.py` + `scripts/validate` green; no duplicate scriptForm/gloss/transliteration in the vocab |
+| P9-T3 | Add opt-in parsing/production + diagnostics | `features`-gated `parse-noun`/`parse-verb`/`produce-form`, per-unit skills, review links, and warm-up; existing courses unchanged | `scripts/e2e.py courses/biblical-hebrew-davidson --units 56` passes; the other courses' `e2e.py` runs still pass |
+| P9-T4 | Verify release + fork flow | Fresh release is self-contained with attribution and no author-only data | `scripts/e2e-fork.py biblical-hebrew-davidson` passes |
+
+> P9 follow-up (2026-11-04, ADR-016): the course was expanded from its initial 30-unit map
+> to a **56-unit** map that covers the whole Davidson grammar, including the previously
+> omitted sections (§§10, 18, 22, 29–30, 41, 43, 45, 47, 48, 49). Noun inflection is taught by
+> pattern family rather than by Davidson's numbered declensions, and the `categorize` exercise
+> was removed from generated sessions. `scripts/e2e.py courses/biblical-hebrew-davidson
+> --units 56` (and `--keyboard`) are green.
+
+### P9 follow-ups (added 2026-11-06)
+
+| ID | Task | Exit criteria | Acceptance test |
+|---|---|---|---|
+| P9-T5 | Decide the Davidson edition | ✅ Done 2026-11-09: **22nd edition (1923)**, verified public domain (ADR-021) | ADR-021 accepted |
+| P9-T5b | Move the course to the 22nd edition | Unit map + lesson § references checked against the 22nd ed.; `content/ATTRIBUTION.md`, `build/_sources/davidson/SOURCES.md`, ADR-014 note updated | `scripts/validate` + `e2e.py courses/biblical-hebrew-davidson --units 56` green; no remaining 19th-ed. source claims |
+| P9-T6 | Wire exwb exercises into the Davidson course | `exwb export --all` output (40 blocks / 1,138 items; held §1–5/7/9 excluded) becomes `courses/biblical-hebrew-davidson/authored/*` via a build step, mapped to units by 22nd-ed. section (after P9-T5b) | `scripts/validate` green; `scripts/e2e.py courses/biblical-hebrew-davidson --authored` drives at least one item per exwb block shape |
+| P9-T7 | Show `hint` / `explain` in the drill | Authored-exercise schema gains optional `hint` (shown before answering, on request) and `explain` (shown with feedback); engine renders both | `--authored` e2e asserts a hint opens before answering and an explanation appears with feedback; `docs/EXERCISE-TYPES.md` + `docs/DATA-MODEL.md` updated |
+| P9-T8 | Parse lists → parse drills | exwb `data.parse` (person/gender/number/form/stem/state/root/suffix) feeds `parse-verb`/`parse-noun` items instead of free-text answers | A parse-list item grades field by field in e2e |
+| P9-T9 | Reading exercises (later) | The held §1–5/7/9 blocks (transliteration/syllable/reading) get a reading exercise type; until then they stay held | Out of scope until a reading type is designed (`exwb/EXEMPTIONS.md`) |
+| P9-T10 | Repo hygiene (private hub) | Remove the staged redundant OCR files (`build/_sources/davidson/*.gz` duplicates, the ~13–22 MB `*_hocr.html`) and the stale root `EXERCISES-REPORT.md`, or move them out of git | `git ls-files build/_sources` lists only inputs the build/exwb actually read |
+
+---
+
+## P10 — Public release: open courses only, hosted (planned 2026-11-06)
+
+Goal: a **public** repository and a **hosted** app with the two courses whose content is
+open — `biblical-hebrew-davidson` (public-domain sources) and `biblical-hebrew-oer`
+(CC BY-SA 3.0) — shipped as "preview" quality. Courses built from copyrighted material and
+all source PDFs stay in a private repository. Decision record: ADR-020.
+
+
+| ID | Task | Exit criteria | Acceptance test |
+|---|---|---|---|
+| P10-T1 | Decide public scope (user decisions) | ADR-020 accepted. Decided 2026-11-09: **new public repo** from a clean snapshot; **GitHub Pages** first, Cloudflare Pages later; **no large files** in the new repo. Licenses: code **MIT**, curated exwb data **CC0 1.0** | ✅ Done 2026-11-09 (ADR-020 Accepted) |
+| P10-T2 | Allowlist + audit script | `scripts/public-audit` fails on private paths, private-course ids/names/text, PDFs/scans, files over 1 MB (fonts excepted), secrets, unbalanced doc markers, or missing licenses; a public allowlist of paths | ✅ Done 2026-11-09: `scripts/public-audit` + `scripts/public-allowlist.txt`; `python3 -m unittest tests.test_public_audit` |
+| P10-T3 | Clean public tree | Private courses, their build data and private-only scripts/docs are left out; no scans, PDFs, DjVu/hOCR dumps or OCR caches are committed: `scripts/fetch-sources davidson` downloads them from archive.org into a git-ignored folder; licenses added | ✅ Done 2026-11-09: `scripts/make-public-snapshot OUT` (hub-only) builds the tree with the overlay licenses; scan hashes verified against archive.org; `validate` green for both courses; `e2e.py courses/biblical-hebrew-davidson --units 2` PASS |
+| P10-T4 | Re-point regression gates | Test harnesses and script examples default to Davidson/OER; no private-course content, fixtures, expected answers or ids are carried over; content-generation tools require an explicit `--course` | ✅ Done 2026-11-09: on Davidson `e2e.py --units 2`, `--exercise-types`, `--authored`, `--accessibility`, `--keyboard`, `e2e-fork.py`, `e2e-docker.py` PASS; OER `--units 2` + `e2e-fork.py` PASS; `e2e-fork.py` reuses the `e2e.py` answerer |
+| P10-T5 | Re-base the rescue gates | Benchmarks: Davidson Unit 1 (smoke), Units 21–22 (grammar), OER; R4 = both courses + synthetic | ✅ Done 2026-11-09 (docs): public `docs/RESCUE-PLAN.md`, ADR-010 public text, `docs/MANUAL-TEST.md`; human review still open (R3) |
+| P10-T6 | Three-way split in the tree | Physical layout for the split recorded in AGENTS.md: app (`engine/` + course runtime), course authoring (`build/`, `courses/*/content/`), exercise extraction (`exwb/`) — directories, READMEs and ownership of each | Layout matches AGENTS.md §2; each part has its own README and run command |
+| P10-T7 | Docs scrub | Public docs describe only the open courses; private passages in hub docs sit in `<!-- private -->` blocks (dropped by the snapshot) with `<!-- public` replacements; private-only docs/ADRs are denied; root `README.md` for the public repo | ✅ Done 2026-11-09: snapshot `public-audit` PASS (0 problems) |
+| P10-T8 | Static site build + hosting | `scripts/build-site` writes `_site/`: landing page listing the two courses ("preview" banner), each course at `/<course-id>/` with its vendored engine; GitHub Actions deploys to Pages. Progress stays per course in `localStorage` (keyed by course id) with Export/Import | Built 2026-11-10: `scripts/build-site`, `site/site.json`, `release-course --site`, `scripts/e2e-site.py` PASS locally (served under `/coursekit/`); workflow `.github/workflows/pages.yml` in the public copy. **Open:** enable Pages (needs the repo public on a free plan) → deploy → `e2e-site.py --url https://fatihd.github.io/coursekit/` |
+| P10-T9 | Publish | Fresh-history public repo pushed (only after explicit user go-ahead); private repo keeps the full history | Public repo clone → `public-audit` green → Pages URL live |
+
+
+Order: T1 → T2 → T3/T4/T5 → T7 → T8 → T9; T6 any time. P9-T5b–T7 are not prerequisites
+(the courses ship as preview) but make the Davidson course much better if done first.
+
+---
+
+## P11 — Biblical Greek support (reach goal, planned 2026-11-06)
+
+A Greek course built **only from open sources**, so it can be public. Copyrighted Greek
+course PDFs stay private and are not part of this plan.
+
+| ID | Task | Exit criteria | Acceptance test |
+|---|---|---|---|
+| P11-T1 | Choose the open Greek sources (user decision) | ADR picks the grammar and data, e.g. Machen, *New Testament Greek for Beginners* (1923, public domain) or Davis, *Beginner's Grammar of the Greek NT* (1923); text/vocab from SBLGNT (CC BY 4.0), MorphGNT (CC BY-SA), Dodson lexicon (PD) | ADR accepted; licenses recorded in `docs/CONTENT-GENERATION.md` allowlist |
+| P11-T2 | Greek script support in the engine | `docs/I18N-SCRIPTS.md` Greek profile: polytonic `el_GR` on-screen keyboard (breathings, accents, iota subscript), open font (e.g. Gentium Plus / GFS, OFL), LTR, transliteration scheme; grader normalises Unicode (NFC, final sigma, optional accent-insensitive mode) | `e2e.py --accessibility` and `--keyboard` on a Greek course: type a polytonic word with the on-screen keyboard; accent-insensitive mode grades `λογος` = `λόγος` when enabled |
+| P11-T3 | Greek parse features | `parse-noun`/`parse-verb` generalised to Greek categories (case/number/gender; tense/voice/mood/person/number) via course config, not Hebrew-specific code | Synthetic Greek parse items grade field by field |
+| P11-T4 | exwb Greek profile | exwb profile for the chosen grammar (LTR, tesseract `grc`+`eng`), exercises + answers curated (no key exists for Machen — answers authored and reviewed) | `exwb export --all` produces valid authored items |
+| P11-T5 | `courses/biblical-greek-<name>` | Unit map, lessons, vocabulary, authored exercises, attribution | `scripts/validate` + `e2e.py --units N` green; human Greek review |
+| P11-T6 | Add to the hosted site | Third course on the P10 site | Deployed smoke test covers the Greek course |
+
+---
+
+## Cross-cutting (apply throughout)
+
+- **Doc-sync rule** (AGENTS.md §5): every task update also updates STATUS + handover.
+- **Acceptance tests are executable checks or eyeball checks** — both count; eyeball
+  checks require an explicit human/agent reviewer statement.
+- **New tasks/reprioritization** go here AND propagate to STATUS + handover.
+- **ADRs**: any new architectural decision creates `ADR-NNN-…md` and updates this map.
+- **Regression gate (engine/UI):** `python scripts/e2e.py courses/biblical-hebrew-davidson
+  --units 2` is the pinned browser regression test — it headlessly drives the app and
+  asserts the teach→drill→unlock loop (completes units 1..N, verifies unit N+1 unlocks,
+  checks the progress stored in the browser). Run it after any engine/UI change and before a manual
+  test. Requires Playwright (`pip install playwright` + `playwright install chromium`).
+- **Regression gate (exercise types):** `python scripts/e2e.py courses/biblical-hebrew-davidson
+  --exercise-types` drives every registered exercise-type plugin (generate→render→
+  collect→grade with the correct answer) in a headless browser and asserts each grades
+  correct. Run after adding/changing any exercise type; does not touch `progress.json`.
+- **Regression gate (authored exercises):** `python scripts/e2e.py courses/biblical-hebrew-davidson
+  --authored` drives authored item shapes (render→collect→grade with the item's own
+  correct answer) and asserts `buildSession` includes authored items before generated
+  fill. Run after changing the authored schema, session builder, or `main.js` loading;
+  does not touch `progress.json`.
+- **Regression gate (accessibility):** `python scripts/e2e.py courses/biblical-hebrew-davidson
+  --accessibility` asserts roadmap keyboard navigation (Enter opens a unit) and the
+  on-screen Hebrew keyboard (shows on focus, inserts a key). Run after changing roadmap
+  rendering or keyboard handling; does not touch `progress.json`.
+- **Regression gate (generic engine):** `python scripts/e2e-synthetic.py` builds a tiny
+  two-unit non-Hebrew course, validates it, and drives launch → keyboard nav → lesson →
+  drill → unlock → authored item → export → import into a fresh browser → merge →
+  wrong-course rejection. Run after changing engine bootstrap, session building, or progress.
+  next unit exists).
+- **Regression gate (fork flow):** `python scripts/e2e-fork.py biblical-hebrew-davidson`
+  releases → pushes to a bare remote → clones the fork → runs the vendored app →
+  completes a drill → exports progress → imports it into a fresh browser and asserts
+  unit 1 is restored.
+- **Regression gate (hosted site):** `python scripts/e2e-site.py` builds the static site
+  (`scripts/build-site`), serves it under `/coursekit/`, and checks the landing page, every course's
+  roadmap, a unit-1 drill, export/import and per-course progress; `--url <site>` runs it on the live site.
+- **Regression gate (Docker ZIP flow):** `python scripts/e2e-docker.py biblical-hebrew-davidson`
+  builds a fresh release, serves it read-only in Docker, checks the served engine is the
+  browser-only progress version and no `progress/` folder ships, and restarts it.

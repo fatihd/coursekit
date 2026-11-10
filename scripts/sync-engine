@@ -1,0 +1,44 @@
+#!/usr/bin/env python3
+"""scripts/sync-engine — re-vendor the hub `engine/` into a course repo.
+
+Used to update a released/forkable course repo's vendored engine copy to the
+current hub engine (fix drift). Never edit a vendored engine in situ — edit
+`engine/` in the hub, then run this.
+
+Usage:
+    python scripts/sync-engine courses/biblical-hebrew-davidson
+    python scripts/sync-engine /path/to/released/repo
+
+See ADR-001.
+"""
+
+import argparse
+import shutil
+import sys
+from pathlib import Path
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("course", help="course dir (hub path or released repo path)")
+    args = ap.parse_args()
+
+    target = Path(args.course)
+    if not target.is_dir():
+        sys.exit(f"no such dir: {target}")
+
+    src = Path("engine")
+    if not src.is_dir():
+        sys.exit("hub engine/ not found")
+
+    dst = target / "engine"
+    if dst.is_symlink():
+        dst.unlink()
+    elif dst.exists():
+        shutil.rmtree(dst)
+    shutil.copytree(src, dst)
+    print(f"vendored {src} -> {dst}")
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,250 @@
+#!/usr/bin/env python3
+"""scripts/export-exam — bundle a self-contained exam pack (P5-T8).
+
+Reads a course's canonical content (`content/vocab.csv` + `course.json`) and emits a
+markable exam pack for a unit or part: `rubric.md` + `exam-blank.md` +
+`exam-answers.md`, conforming to the P5-T7 conventions in `docs/AI-EXAMS.md` §2–§3.
+
+Generation is **seeded** (deterministic per course+scope, fixed `--seed` override) so
+a student can retake the same exam parameters and get the same paper — the non-SRS
+repeatable-generation idea (ROADMAP P5 icebox; ADR-005).
+
+Questions draw ONLY from vocab in the requested scope's units (no invented words).
+Grammar beyond lexemes (verb parsing, etc.) is intentionally OUT of scope for this
+mechanical helper — use `prompts/practice-exam.md` with a free AI for exam types the
+helper cannot produce (see docs/AI-EXAMS.md).
+
+Usage:
+    python scripts/export-exam courses/biblical-hebrew-davidson part1
+    python scripts/export-exam courses/biblical-hebrew-davidson unit12
+    python scripts/export-exam courses/biblical-hebrew-davidson part3 --items 5 --out /tmp/exam
+
+Exit codes: 0 on success, nonzero if the scope / course is invalid.
+"""
+
+import argparse
+import csv
+import json
+import random
+import re
+import sys
+import unicodedata
+from pathlib import Path
+
+PACK_FILES = ("rubric.md", "exam-blank.md", "exam-answers.md")
+
+# Extract-artifact guard: a few verb rows have the transliterated lemma glued onto the
+# gloss (e.g. "'akhal he ate, he consumed" instead of "he ate, he consumed"), or a
+# truncated gloss tail (", he$", "-$", or a stray translit prefix like "k bətokh…").
+# Exclude them so generated answer keys stay clean (known data-debt; see STATUS P6-T2).
+GARBLED_GLOSS_RE = re.compile(r"(^[^\s]+\s+he\s|,\s+he$|-$|^k\s|^[a-z]\s[bə])")
+
+HEBREW_MARKS = "\u0591-\u05C7\u05B0-\u05BD\u05BF\u05C0"
+
+
+def plural_consonants(value):
+    """Strip niqqud/pointing marks from a Hebrew string, returning bare consonants.
+
+    Used to reject extract-truncated plural cells (e.g. "וֹ" or "/of…") that would
+    otherwise leak into Section D answer keys.
+    """
+    return re.sub(f"[{HEBREW_MARKS}]", "", unicodedata.normalize("NFC", value))
+
+
+def usable_plural(row):
+    """True if the row's plural cell looks like a real, complete plural form."""
+    p = row.get("plural") or ""
+    p = p.strip()
+    if not p or " " in p:
+        return False
+    if row.get("category") not in ("noun", "number"):
+        return False
+    if p == (row.get("scriptForm") or "").strip():
+        return False
+    cons = plural_consonants(p)
+    # broken truncations are short and often start with a wayward vav ("וֹד", "וֹת")
+    return len(cons) >= 4 and not cons.startswith("ו")
+
+SECTION_SPECS = [  # (title, count, points, instruction, answer_dir)
+    ("A", "Script → gloss", "GIVE the English gloss.", 2),
+    ("B", "Gloss → script", "WRITE the pointed Hebrew word.", 2),
+    ("C", "Transliteration", "TRANSLITERATE into Latin script (macrons optional).", 2),
+    ("D", "Plural forms", "GIVE the plural (pointed Hebrew).", 2),
+]
+
+PARTIAL_RULES = {
+    "A": "- 2 pts: gloss correct (any accepted synonym from the answer key).\n"
+         "- 1 pt: gloss recognizable but imprecise.\n- 0 pts: wrong or unrelated gloss.",
+    "B": "- 2 pts: correct word, correctly pointed.\n"
+         "- 1 pt: correct consonants but missing/wrong niqqud, or a minor spelling slip.\n"
+         "- 0 pts: wrong lexeme.",
+    "C": "- 2 pts: all consonants + vowels accurate (macrons optional).\n"
+         "- 1 pt: one consonant/vowel wrong, rest accurate.\n- 0 pts: two or more errors.",
+    "D": "- 2 pts: correct plural, correctly pointed.\n"
+         "- 1 pt: correct plural but niqqud imperfect.\n- 0 pts: wrong plural.",
+}
+
+
+def resolve_scope(course_json, scope):
+    """Return (label, lo_unit, hi_unit) for 'part<N>' or 'unit<N>', else None."""
+    scope = scope.lower().strip()
+    if scope.startswith("part"):
+        n = scope[4:]
+        if not n.isdigit():
+            return None
+        for p in course_json.get("parts", []):
+            if p["n"] == int(n):
+                lo, hi = p["units"]
+                return (f"Part {n} — {p['title']}", lo, hi)
+        return None
+    if scope.startswith("unit"):
+        n = scope[4:]
+        if not n.isdigit():
+            return None
+        return (f"Unit {int(n)}", int(n), int(n))
+    return None
+
+
+def load_vocab(content_dir):
+    with (content_dir / "vocab.csv").open(newline="", encoding="utf-8") as f:
+        return list(csv.DictReader(f))
+
+
+def question_line(letter, i, it):
+    """The question that the student sees for item `it` in section `letter`."""
+    if letter == "B":
+        return f"Q{letter}{i}. {it['gloss']}"
+    return f"Q{letter}{i}. {it['scriptForm']}"
+
+
+def answer_line(letter, i, it):
+    """The accepted answer for item `it` at index `i` in section `letter`."""
+    if letter == "B":
+        return f"Q{letter}{i}: {it['scriptForm']}"
+    if letter == "C":
+        translit = (it.get("transliteration") or "").strip()
+        return f"Q{letter}{i}: {translit}"
+    if letter == "D":
+        plural = (it.get("plural") or "").strip()
+        return f"Q{letter}{i}: {plural}"
+    return f"Q{letter}{i}: {it['gloss']}"
+
+
+def make_section(letter, title, items, instruction, points):
+    lines = []
+    for i, it in enumerate(items, start=1):
+        lines.append(question_line(letter, i, it))
+    key_lines = []
+    for i, it in enumerate(items, start=1):
+        key_lines.append(answer_line(letter, i, it))
+    return {
+        "letter": letter, "title": title, "instruction": instruction,
+        "points": points, "body": "\n".join(lines), "key_lines": key_lines,
+    }
+
+
+def main():
+    ap = argparse.ArgumentParser(description="Export a self-contained exam pack for a course.")
+    ap.add_argument("course", help="path to course dir, e.g. courses/biblical-hebrew-davidson")
+    ap.add_argument("scope", help="which scope: part<N> or unit<N>, e.g. 'part1' or 'unit12'")
+    ap.add_argument("--items", type=int, default=4, help="questions per section (default 4)")
+    ap.add_argument("--seed", type=int, default=None,
+                    help="RNG seed (default derived from course+scope)")
+    ap.add_argument("--out", default=None, help="output dir (default exams/generated/<course>-<scope>)")
+    args = ap.parse_args()
+
+    course_dir = Path(args.course)
+    course_json_path = course_dir / "course.json"
+    content_dir = course_dir / "content"
+    if not course_json_path.exists():
+        sys.exit(f"course.json missing: {course_json_path}")
+    if not (content_dir / "vocab.csv").exists():
+        sys.exit(f"content/vocab.csv missing in {course_dir}; run build/textify.py first")
+
+    course_json = json.loads(course_json_path.read_text(encoding="utf-8"))
+    scope = resolve_scope(course_json, args.scope)
+    if scope is None:
+        sys.exit(f"invalid scope {args.scope!r}; use part<N> or unit<N> (parts from course.json)")
+
+    label, lo, hi = scope
+    vocab = load_vocab(content_dir)
+    scoped = [r for r in vocab
+              if lo <= int(r["unit"]) <= hi and not GARBLED_GLOSS_RE.match(r["gloss"])]
+    if len(scoped) < args.items * 4:
+        max_items = max(1, len(scoped) // 4)
+        sys.exit(f"not enough vocab in {label} ({len(scoped)} items) for {args.items} per "
+                 f"section; use --items {max_items} or a part/unit with more vocab")
+
+    seed = args.seed if args.seed is not None else hash(f"{course_dir.name}:{args.scope.lower()}")
+    rng = random.Random(seed)
+
+    with_plural = [r for r in scoped if usable_plural(r)]
+    # Section D draws from plural pool; sections A–C from the general pool. Sample
+    # disjoint sets (D first from its own pool, then A/B/C from what's left) so a
+    # word never appears twice on the paper.
+    need_abc = args.items * 3
+    if len(with_plural) < args.items:
+        sys.exit(f"section D needs {args.items} plural-able items but only {len(with_plural)} available in {label}")
+    d_pick = rng.sample(with_plural, args.items)
+    remaining = [r for r in scoped if r["id"] not in {it["id"] for it in d_pick}]
+    if len(remaining) < need_abc:
+        sys.exit(f"not enough remaining vocab in {label} for {args.items} per section A–C")
+
+    sections = []
+    abc_pool = remaining
+    for letter, title, inst, pts in SECTION_SPECS:
+        if letter == "D":
+            picked = d_pick
+        else:
+            picked = rng.sample(abc_pool, args.items)
+            abc_pool = [r for r in abc_pool if r["id"] not in {it["id"] for it in picked}]
+        sections.append(make_section(letter, title, picked, inst, pts))
+
+    n_q = sum(len(s["key_lines"]) for s in sections)
+    total = n_q * 2
+    bands = {
+        "A": int(total * 0.9), "B": int(total * 0.8),
+        "C": int(total * 0.7), "D": int(total * 0.6),
+    }
+
+    out_dir = Path(args.out) if args.out else Path("exams/generated") / f"{course_dir.name}-{args.scope.lower()}"
+    out_dir.mkdir(parents=True, exist_ok=True)
+
+    rubric = ["# Rubric — {course_title}, {label}".format(course_title=course_json["title"], label=label), "",
+              f"Total: {total}. Grading bands: A ≥ 90% (≥{bands['A']}), B ≥ 80% (≥{bands['B']}), "
+              f"C ≥ 70% (≥{bands['C']}), D ≥ 60% (≥{bands['D']}).", ""]
+    for s in sections:
+        sec_total = len(s["key_lines"]) * s["points"]
+        rubric += [f"## Section {s['letter']} — {s['title']} (Q1–Q{len(s['key_lines'])}, "
+                   f"{s['points']} pts each = {sec_total})", "", PARTIAL_RULES[s["letter"]], ""]
+    rubric += ["Conformance (P5-T7): answer format = canonical ```` ```answer ```` block, "
+               "one `Q<n>:` per answer; marking output = per-question marks → section subtotals → "
+               "total → band.", ""]
+    rubric_text = "\n".join(rubric).rstrip() + "\n"
+
+    blank = ["# Exam (blank) — {title}, {label}".format(title=course_json["title"], label=label), "",
+             f"Total: {total}. Time: ~60 min.", "", "## Instructions", "",
+             "Answer format (P5-T7 canonical): write your answers in a ```answer fenced block, one "
+             "`Q<n>:` line per answer; skip → `Q<n>: —`. Nothing outside the block is marked. "
+             "No extra tokens should be present outside the block.", ""]
+    for s in sections:
+        blank += [f"## Section {s['letter']} — {s['title']} "
+                  f"(Q1–Q{len(s['key_lines'])}, {s['points']} pts each)", "", s["instruction"], "", "```", s["body"], "```", ""]
+    blank_text = "\n".join(blank).rstrip() + "\n"
+
+    answers = ["# Exam (answers) — {title}, {label}".format(title=course_json["title"], label=label), "",
+               "Model answer key. Bands as in `rubric.md`.", ""]
+    for s in sections:
+        answers += [f"## Section {s['letter']} — {s['title']}", "", "```answer", *s["key_lines"], "```", ""]
+    answers_text = "\n".join(answers).rstrip() + "\n"
+
+    for name, text in zip(PACK_FILES, (rubric_text, blank_text, answers_text)):
+        (out_dir / name).write_text(text, encoding="utf-8")
+
+    print(f"✓ exported {course_dir.name} exam pack for {label} -> {out_dir}/")
+    print(f"  {n_q} questions, total {total} pts, seed {seed}")
+    print(f"  files: {', '.join(PACK_FILES)}")
+
+
+if __name__ == "__main__":
+    main()

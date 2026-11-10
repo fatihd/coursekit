@@ -1,0 +1,55 @@
+{
+  "schema": "unit-lesson-v1.json",
+  "unit": 48,
+  "title": "Complete Parsing",
+  "description": "Parse verbs fully by root, stem, conjugation, and person.",
+  "teaches": [],
+  "assumes": [],
+  "blocks": [
+    {
+      "type": "prose",
+      "caption": "Summary",
+      "html": "<p>Parsing a verb means naming its root, stem, conjugation, person, gender, and number. Work in a fixed order — root, stem, conjugation, then person — and state each part clearly, for example &quot;Qal perfect 3ms of שָׁמַר&quot;. Parsing before translating prevents guessing.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "The parsing order",
+      "html": "<p>First recover the root, stripping the known affixes and reversing any weak-letter change. Then name the stem (Qal, Niphal, Piel, Pual, Hiphil, Hophal, Hitpael), then the conjugation (perfect, imperfect, imperative, infinitive, participle), and finally the person, gender, and number from the prefix and suffix.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Separate the form from its translation",
+      "html": "<p>Davidson&#x27;s §46 makes an important distinction: the perfect presents an action as complete, while the imperfect presents it as entering into or continuing toward completion. Those descriptions are not English tense labels. A perfect can refer to a past event, a completed experience translated with an English present (“I know”), or—in a promise or prediction—to something viewed as already accomplished. An imperfect can describe present or past repetition, a future event, or a possible or intended action. State the form first; choose its translation only after reading the clause and context.</p><p>The participle has a different profile again. It presents an action or condition in continuity—“is/was doing”—whereas the imperfect often presents a succession or recurrence of actions. It is not automatically an English past participle. A sequence of Hebrew finite verbs may need to be translated with connected English clauses rather than with an English participial phrase.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "A worked example",
+      "html": "<p>Take יִקָּטֵל. Strip the yod prefix, and the doubled qof with the nun-prefix reveals a Niphal. The imperfect prefix yod gives the third-person masculine singular. So the parse is &quot;Niphal imperfect 3ms of קָטַל&quot;, translated &quot;he will be killed&quot;. Working in order, each part falls into place.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Common confusion",
+      "html": "<p>Do not translate before you parse. A form can look like a noun or another verb if its affixes are misread. Name every part in order, state it clearly, and the translation follows. Then make a second decision: what does this conjugation mean in this particular clause? Parsing identifies the form; context identifies whether its completed or incomplete action is past, present, future, habitual, or modal in English.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Worked example",
+      "html": "<p>Take יִקָּטֵל. First identify the imperfect prefix yod, then recognize the doubled first radical as the trace of the assimilated Niphal nun. The stem is Niphal, the conjugation imperfect, and the prefix marks third masculine singular. Parse it as “Niphal imperfect 3ms of the model root קטל.” Only then translate it from the clause: in a suitable context it may mean “he will be killed,” but the parse alone does not determine the English time reference.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Reading practice",
+      "html": "<p>Read and parse each form in order: root, stem, conjugation, person, gender, and number. יִשְׁמֹר is Qal imperfect 3ms; תִּשְׁמְרִי is Qal imperfect 2fs; נִשְׁמְרוּ is Niphal perfect 3cp. For each, state the morphology before translating. Then ask what the clause contributes: a completed event, a repeated action, an ongoing state, a wish, or a future continuation. Do not make the English tense choice from the form&#x27;s name alone.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Source",
+      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (1914), §46.</p>"
+    },
+    {
+      "type": "vocab",
+      "refs": []
+    }
+  ],
+  "didYouKnow": ""
+}

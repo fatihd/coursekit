@@ -1,0 +1,96 @@
+{
+  "schema": "authored-exercises-v1.json",
+  "unit": 9,
+  "items": [
+    {
+      "type": "mcq",
+      "prompt": "Translate this Hebrew sentence into English",
+      "stimulus": "מְשַל בַּבְהמָה וּבִִים",
+      "stimulusIsScript": true,
+      "options": [
+        "Man has6 dominion over the beasts ® and the fish",
+        "These are the ill-favoured kine which the king saw by\" the river",
+        "Those are the princes and the mighty men whom the king set over the people",
+        "I said to this people, righteous are ye"
+      ],
+      "answer": "Man has6 dominion over the beasts ® and the fish",
+      "optionIsScript": false,
+      "source": {
+        "citation": "Davidson, Introductory Hebrew Grammar (22nd ed.) exercise on §16; Key to the Exercises (1924) §16",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n76/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n76.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n31/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n31.jpg",
+        "sanityScore": 0.17,
+        "sanity": "weak",
+        "note": "Read from the scans by OCR; open them if a reading looks wrong."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate this English sentence into Hebrew",
+      "stimulus": "The fire of God fell from heaven",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֶת-לְשונִי נָפַלְתּ רְעִים נַפְלוּ",
+        "את-לשוני נפלת רעים נפלו"
+      ],
+      "answerIsScript": true,
+      "source": {
+        "citation": "Davidson, Introductory Hebrew Grammar (22nd ed.) exercise on §20; Key to the Exercises (1924) §20",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n94/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n94.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n45/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n45.jpg",
+        "sanityScore": 0.25,
+        "sanity": "weak",
+        "note": "Read from the scans by OCR; open them if a reading looks wrong."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate this English sentence into Hebrew",
+      "stimulus": "God set (gave) luminaries in the firmament of the heavens",
+      "stimulusIsScript": false,
+      "accepted": [
+        "לאלקים הַשְמִיִם",
+        "לאלקים השמים"
+      ],
+      "answerIsScript": true,
+      "source": {
+        "citation": "Davidson, Introductory Hebrew Grammar (22nd ed.) exercise on §20; Key to the Exercises (1924) §20",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n94/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n94.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n45/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n45.jpg",
+        "sanityScore": 0.17,
+        "sanity": "weak",
+        "note": "Read from the scans by OCR; open them if a reading looks wrong."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Translate this Hebrew sentence into English",
+      "stimulus": "טוב מָאד",
+      "stimulusIsScript": true,
+      "options": [
+        "Ye burned the city with® fire. I1. God saw all that he had made, and, behold, it was very good",
+        "They have not kept thy law",
+        "I have kept thy statutes with all my heart",
+        "She did not remember her latter end"
+      ],
+      "answer": "Ye burned the city with® fire. I1. God saw all that he had made, and, behold, it was very good",
+      "optionIsScript": false,
+      "source": {
+        "citation": "Davidson, Introductory Hebrew Grammar (22nd ed.) exercise on §20; Key to the Exercises (1924) §20",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n94/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n94.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n44/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n44.jpg",
+        "sanityScore": 0.2,
+        "sanity": "weak",
+        "note": "Read from the scans by OCR; open them if a reading looks wrong."
+      }
+    }
+  ]
+}

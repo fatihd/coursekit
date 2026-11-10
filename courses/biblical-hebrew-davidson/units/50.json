@@ -1,0 +1,60 @@
+{
+  "schema": "unit-lesson-v1.json",
+  "unit": 50,
+  "title": "Verb Review and Reading",
+  "description": "Consolidate the verb system in short phrases.",
+  "teaches": [],
+  "assumes": [],
+  "blocks": [
+    {
+      "type": "prose",
+      "caption": "Summary",
+      "html": "<p>Consolidate the verb system by producing forms from roots and features, and by reading short phrases that mix Qal and derived stems with weak roots. The goal is fluent recognition and accurate parsing, not speed. Any part that still feels slow is the part to review.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Producing and reading",
+      "html": "<p>Given a root, stem, and features, build the form; given a form, parse it back. Move both directions until the patterns are automatic. Real Hebrew mixes perfect and imperfect, Qal and derived stems, and strong and weak roots all at once, so practise on phrases, not isolated words.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Reading a phrase",
+      "html": "<p>In a phrase, parse each verb in order — root, stem, conjugation, person — then identify each noun and its relation, and translate clause by clause. Do not translate word by word; let each clause&#x27;s structure determine the English.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Read the verbal sequence",
+      "html": "<p>Begin with the clause&#x27;s first finite verb or verbal equivalent. Ask whether it presents a completed event, an incomplete or repeated action, or a continuous state. Then follow the links: a wayyiqtol can continue a past sequence after a perfect or its equivalent; a weqatal can continue the future, habitual, or modal force of an imperfect, command, participle, or implied equivalent. A participle usually portrays ongoing action rather than the next event in a sequence. These are relationships among clauses, not mechanical tense switches.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Check the whole clause",
+      "html": "<p>After parsing a verb, identify its subject and any object or complement, including attached pronominal suffixes. Check whether a stative perfect is best rendered as an English present, whether an imperfect expresses repetition or possibility, and whether a following clause is dependent or consecutive. Only then translate in natural English. If one form is uncertain, use the surrounding verbs and syntax as evidence before returning to the appropriate stem or weak-verb paradigm.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Common confusion",
+      "html": "<p>Do not expect a passage to use only one form. Mixing is normal, and the discipline of parsing in order is what keeps the reading accurate. If a form still baffles, return to the relevant weak-verb or stem chapter rather than guessing.</p><p>The final test is coherent reading: your parse of each form should fit both its own morphology and the clause sequence around it. A correct label that produces an impossible or disconnected translation is a reason to check the analysis again, especially for weak roots, stative verbs, and waw-consecutive forms.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Worked example",
+      "html": "<p>Parse וַיִּשְׁמַע in a phrase. The waw-consecutive marks narrative sequence, and the imperfect יִשְׁמַע is &quot;he heard&quot;. Name it as &quot;Qal imperfect 3ms of שׁמע with waw-consecutive&quot;, then translate the chain as a past sequence, clause by clause.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Reading practice",
+      "html": "<p>Parse the phrase וַיָּקָם הָאִישׁ וַיֵּלֶךְ — &quot;and the man arose and went&quot;. וַיָּקָם is the waw-consecutive imperfect of קום, וַיֵּלֶךְ of הלך. Read the chain as a past sequence, each verb linked to the one before it.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Source",
+      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (1914), §28, §46.</p>"
+    },
+    {
+      "type": "vocab",
+      "refs": []
+    }
+  ],
+  "didYouKnow": ""
+}

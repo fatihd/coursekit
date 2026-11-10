@@ -1,0 +1,21 @@
+{
+  "name": "Davidson, Introductory Hebrew Grammar (22nd ed.)",
+  "leaf_delta": -1,
+  "sources": [
+    {"id": "book", "role": "book", "name": "Grammar", "format": "djvu-xml", "path": "../../build/_sources/davidson/grammar-1923-22nd-djvu.xml",
+     "pdf": "../../build/_sources/davidson/grammar-1923-22nd.pdf",
+     "page_offset": 20,
+     "url_template": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n{leaf}/mode/1up",
+     "images_dir": ""},
+    {"id": "key", "role": "key", "name": "Key", "format": "djvu-xml", "path": "../../build/_sources/davidson/key-1924-djvu.xml",
+     "pdf": "../../build/_sources/davidson/key-1924.pdf",
+     "url_template": "https://archive.org/details/keytoexercisesin0000mcfa/page/n{leaf}/mode/1up",
+     "images_dir": ""}
+  ],
+  "detect": {
+    "first_scan": 27, "last_scan": 250,
+    "block_start": ["^\\W*(?:EXERCISE|Exercise)\\b[\\.,\\s—-]"],
+    "section_heading": "^[^\\w§]*(?:§§?|8|S)[\\s\\.]*(\\d{1,3})\\s*[\\.,\\)]*\\s*['‘’]?[A-Z][A-Z ,\\.'‘’\\-\\(\\)]{4,}",
+    "key_first_scan": 17
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "unit-lesson-v1.json",
+  "unit": 9,
+  "title": "Gender and Number",
+  "description": "Hebrew nouns and adjectives mark grammatical gender and number. This unit focuses on common patterns and agreement.",
+  "teaches": [
+    "he-oer-09-001",
+    "he-oer-09-002",
+    "he-oer-09-003"
+  ],
+  "assumes": [
+    "he-oer-08-001",
+    "he-oer-08-002",
+    "he-oer-08-003"
+  ],
+  "blocks": [
+    {
+      "type": "prose",
+      "html": "<p>Nouns are generally masculine or feminine and singular or plural; some forms are dual. Adjectives change to agree with the noun they describe. Endings offer useful clues, but individual words may be irregular, so learn each noun with its gender and plural. When an adjective appears with a noun, compare their forms before translating the phrase.</p>"
+    },
+    {
+      "type": "table",
+      "caption": "Word roots (OER)",
+      "columns": [
+        "Hebrew",
+        "Transliteration",
+        "Gloss",
+        "Root",
+        "Strong"
+      ],
+      "rows": [
+        [
+          "טוֹבָה",
+          "ṭôbāh",
+          "good",
+          "",
+          "2896 a"
+        ],
+        [
+          "טוֹבִים",
+          "ṭôbîm",
+          "good",
+          "",
+          "2896 a"
+        ],
+        [
+          "סוּסָה",
+          "sûsāh",
+          "mare",
+          "",
+          "2701"
+        ]
+      ]
+    },
+    {
+      "type": "vocab",
+      "refs": [
+        "he-oer-09-001",
+        "he-oer-09-002",
+        "he-oer-09-003"
+      ]
+    }
+  ],
+  "didYouKnow": "According to OSHB/MorphHB (CC BY 4.0), the most frequent word in this unit is טוֹבָה (ṭôbāh), occurring 105 times in the Westminster Leningrad Codex."
+}

@@ -1,0 +1,75 @@
+{
+  "schema": "unit-lesson-v1.json",
+  "unit": 3,
+  "title": "Matres Lectionis",
+  "description": "Learn how certain consonant letters also mark long vowels.",
+  "teaches": [
+    "he-dav-03-001",
+    "he-dav-03-002"
+  ],
+  "assumes": [
+    "he-dav-02-001",
+    "he-dav-02-002"
+  ],
+  "blocks": [
+    {
+      "type": "prose",
+      "caption": "Summary",
+      "html": "<p>A few consonant letters can double as vowel letters, called matres lectionis (&quot;mothers of reading&quot;). The letter ו can stand for the long vowels ô and û, the letter י for î and ê, and a final ה often marks a long ā at the end of a word (and rarely א marks a vowel). When one of these letters is being used for a vowel, it is not a consonant: it carries no consonant sound but lengthens or preserves the vowel written near it. Learning to tell a vowel letter from a consonant is one of the first reading skills.</p>"
+    },
+    {
+      "type": "table",
+      "caption": "Vowel letters",
+      "columns": [
+        "Letter",
+        "Common sound",
+        "Example"
+      ],
+      "rows": [
+        [
+          "ו",
+          "ô or û",
+          "יוֹם (yôm), day"
+        ],
+        [
+          "י",
+          "î or ê",
+          "בַּיִת (bayit), house"
+        ],
+        [
+          "ה",
+          "final ā",
+          "תּוֹרָה (tôrāh), instruction"
+        ]
+      ]
+    },
+    {
+      "type": "prose",
+      "caption": "Vowel letters",
+      "html": "<p>Read ו and י as vowels when they follow a vowel sign or stand as part of a long vowel. In יוֹם (yôm, &quot;day&quot;) the ו marks the ô; in בַּיִת (bayit, &quot;house&quot;) the י marks the î. A final ה that is not pronounced as h, as in תּוֹרָה (tôrāh, &quot;instruction&quot;), marks the long ā. The same letters elsewhere are true consonants: ו is &quot;w&quot; in a word like וְ (&quot;and&quot;), and י is &quot;y&quot; in יָד (&quot;hand&quot;).</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Why they matter",
+      "html": "<p>Vowel letters matter because they often stay written even when the vowel sign is not. In many early manuscripts and in unpointed texts the vowel letters carry the vowel information, so recognising them prepares you to read Hebrew that has no vowel points. They also explain why the same word can be spelled with or without a vowel letter in different places.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Common confusion",
+      "html": "<p>Do not pronounce a mater lectionis as a separate consonant. In יוֹם the ו is not a w-sound; it lengthens the o. The only reliable test is the word as a whole: ask whether the letter is carrying a vowel or a consonant sound in that syllable, and read accordingly.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Source",
+      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (1914), §2.3.</p>"
+    },
+    {
+      "type": "vocab",
+      "refs": [
+        "he-dav-03-001",
+        "he-dav-03-002"
+      ]
+    }
+  ],
+  "didYouKnow": ""
+}

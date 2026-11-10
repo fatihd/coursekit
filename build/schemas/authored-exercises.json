@@ -1,0 +1,160 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "authored-exercises.json",
+  "title": "Authored exercises (engine-consumable, per unit)",
+  "type": "object",
+  "required": ["schema", "unit", "items"],
+  "properties": {
+    "schema": { "type": "string", "const": "authored-exercises-v1.json" },
+    "unit": { "type": "integer", "minimum": 1 },
+    "items": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/item" }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "item": {
+      "oneOf": [
+        { "$ref": "#/$defs/mcqFamily" },
+        { "$ref": "#/$defs/translitNormalize" },
+        { "$ref": "#/$defs/matchByLine" },
+        { "$ref": "#/$defs/categorize" },
+        { "$ref": "#/$defs/translatePhrase" },
+        { "$ref": "#/$defs/dictation" },
+        { "$ref": "#/$defs/paradigmFill" },
+        { "$ref": "#/$defs/fillBlankVerse" }
+      ]
+    },
+    "mcqFamily": {
+      "type": "object",
+      "required": ["type", "stimulus", "stimulusIsScript", "options", "answer", "optionIsScript"],
+      "properties": {
+        "type": { "enum": ["mcq", "paradigm-tag", "root-pattern-compose", "spot-error", "flash-timed"] },
+        "stimulus": { "type": "string" },
+        "stimulusIsScript": { "type": "boolean" },
+        "options": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+        "answer": { "type": "string" },
+        "optionIsScript": { "type": "boolean" },
+        "prompt": { "type": "string" },
+        "seconds": { "type": "number" }
+      },
+      "additionalProperties": true
+    },
+    "translitNormalize": {
+      "type": "object",
+      "required": ["type", "direction", "stimulus", "stimulusIsScript", "answer", "answerIsScript"],
+      "properties": {
+        "type": { "const": "translit-normalize" },
+        "direction": { "enum": ["translit->script", "script->translit"] },
+        "stimulus": { "type": "string" },
+        "stimulusIsScript": { "type": "boolean" },
+        "answer": { "type": "string" },
+        "answerIsScript": { "type": "boolean" },
+        "prompt": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    "matchByLine": {
+      "type": "object",
+      "required": ["type", "prompt", "left", "right", "answer", "leftIsScript"],
+      "properties": {
+        "type": { "const": "match-by-line" },
+        "prompt": { "type": "string" },
+        "left": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+        "right": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+        "answer": { "type": "object", "additionalProperties": { "type": "string" } },
+        "leftIsScript": { "type": "boolean" }
+      },
+      "additionalProperties": true
+    },
+    "categorize": {
+      "type": "object",
+      "required": ["type", "prompt", "columns", "words", "isScript"],
+      "properties": {
+        "type": { "const": "categorize" },
+        "prompt": { "type": "string" },
+        "columns": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+        "words": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": ["text", "cat"],
+            "properties": {
+              "text": { "type": "string" },
+              "cat": { "type": "string" }
+            },
+            "additionalProperties": false
+          }
+        },
+        "isScript": { "type": "boolean" }
+      },
+      "additionalProperties": true
+    },
+    "translatePhrase": {
+      "type": "object",
+      "required": ["type", "prompt", "stimulus", "stimulusIsScript", "accepted"],
+      "properties": {
+        "type": { "const": "translate-phrase" },
+        "prompt": { "type": "string" },
+        "stimulus": { "type": "string" },
+        "stimulusIsScript": { "type": "boolean" },
+        "accepted": { "type": "array", "minItems": 1, "items": { "type": "string" } }
+      },
+      "additionalProperties": true
+    },
+    "dictation": {
+      "type": "object",
+      "required": ["type", "prompt", "stimulus", "stimulusIsScript", "answer", "transliteration"],
+      "properties": {
+        "type": { "const": "dictation" },
+        "prompt": { "type": "string" },
+        "stimulus": { "type": "string" },
+        "stimulusIsScript": { "type": "boolean" },
+        "answer": { "type": "string" },
+        "transliteration": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    "paradigmFill": {
+      "type": "object",
+      "required": ["type", "prompt", "rows", "isScript"],
+      "properties": {
+        "type": { "const": "paradigm-fill" },
+        "prompt": { "type": "string" },
+        "rows": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": ["label", "answer", "options"],
+            "properties": {
+              "label": { "type": "string" },
+              "answer": { "type": "string" },
+              "options": { "type": "array", "minItems": 1, "items": { "type": "string" } }
+            },
+            "additionalProperties": true
+          }
+        },
+        "isScript": { "type": "boolean" }
+      },
+      "additionalProperties": true
+    },
+    "fillBlankVerse": {
+      "type": "object",
+      "required": ["type", "prompt", "before", "after", "options", "answer", "isScript"],
+      "properties": {
+        "type": { "const": "fill-blank-verse" },
+        "prompt": { "type": "string" },
+        "before": { "type": "string" },
+        "after": { "type": "string" },
+        "blankLabel": { "type": "string" },
+        "options": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+        "answer": { "type": "string" },
+        "isScript": { "type": "boolean" }
+      },
+      "additionalProperties": true
+    }
+  }
+}

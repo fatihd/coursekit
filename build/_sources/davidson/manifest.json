@@ -1,0 +1,131 @@
+{
+  "source": "Internet Archive (public domain scans; ADR-014, ADR-021)",
+  "files": [
+    {
+      "file": "grammar-1923-22nd.pdf",
+      "url": "https://archive.org/download/introductoryhebr0000davi_w1b2/introductoryhebr0000davi_w1b2.pdf",
+      "gunzip": false,
+      "optional": false,
+      "sha256": "e50683614a2894c4ae420b6eae2175e7f9aba55076145daee29f19cce1b7acfe",
+      "bytes": 18191014,
+      "use": "exwb page images + tesseract OCR"
+    },
+    {
+      "file": "grammar-1923-22nd-djvu.xml",
+      "url": "https://archive.org/download/introductoryhebr0000davi_w1b2/introductoryhebr0000davi_w1b2_djvu.xml",
+      "gunzip": false,
+      "optional": false,
+      "sha256": "b46a105106956928733536dc36a02e6170e65d0c5bca88bf6de75fbac5538f23",
+      "bytes": 6833055,
+      "use": "exwb grammar source (word boxes)"
+    },
+    {
+      "file": "key-1924.pdf",
+      "url": "https://archive.org/download/keytoexercisesin0000mcfa/keytoexercisesin0000mcfa.pdf",
+      "gunzip": false,
+      "optional": false,
+      "sha256": "1ae03d6a194cd9b23bcbf135d0b98d4eeed37c95ca3cd95cc2a8d82407254808",
+      "bytes": 8158452,
+      "use": "exwb key page images + tesseract OCR"
+    },
+    {
+      "file": "key-1924-djvu.xml",
+      "url": "https://archive.org/download/keytoexercisesin0000mcfa/keytoexercisesin0000mcfa_djvu.xml",
+      "gunzip": false,
+      "optional": false,
+      "sha256": "76ed82a7a81e9071d4c042b40f548061cce3b96463ff5787786857c55bb29949",
+      "bytes": 4595812,
+      "use": "exwb key source; build/recover_davidson_exercises.py"
+    },
+    {
+      "file": "grammar-1923-22nd-djvu.txt",
+      "url": "https://archive.org/download/introductoryhebr0000davi_w1b2/introductoryhebr0000davi_w1b2_djvu.txt",
+      "gunzip": false,
+      "optional": true,
+      "sha256": "52f71527b97ba9cefdcf1314e9807ff785de4e819c71a95005d12f0825d09671",
+      "bytes": 503241,
+      "use": "plain OCR locator"
+    },
+    {
+      "file": "key-1924-djvu.txt",
+      "url": "https://archive.org/download/keytoexercisesin0000mcfa/keytoexercisesin0000mcfa_djvu.txt",
+      "gunzip": false,
+      "optional": true,
+      "sha256": "9d9aec3fd6ffd59406125b5d486e15ac2d0d7b0b2533b74166afbc5845ab2278",
+      "bytes": 335054,
+      "use": "plain OCR locator"
+    },
+    {
+      "file": "key-1924_page_numbers.json",
+      "url": "https://archive.org/download/keytoexercisesin0000mcfa/keytoexercisesin0000mcfa_page_numbers.json",
+      "gunzip": false,
+      "optional": true,
+      "sha256": "1a9b1e2c3086366d79549b0960b10cca7fec2b39a97da9c2e5a26a3e3ad84d62",
+      "bytes": 28316,
+      "use": "printed page numbers per leaf"
+    },
+    {
+      "file": "grammar-1923-22nd_hocr_pageindex.json",
+      "url": "https://archive.org/download/introductoryhebr0000davi_w1b2/introductoryhebr0000davi_w1b2_hocr_pageindex.json.gz",
+      "gunzip": true,
+      "optional": true,
+      "sha256": "7e7cbd6639e540d85a811b3ab7a7f6689215b0af3fdfa58f1af554bb4273676e",
+      "bytes": 9422,
+      "use": "hOCR page index"
+    },
+    {
+      "file": "key-1924_hocr_pageindex.json",
+      "url": "https://archive.org/download/keytoexercisesin0000mcfa/keytoexercisesin0000mcfa_hocr_pageindex.json.gz",
+      "gunzip": true,
+      "optional": true,
+      "sha256": "4ec21db4ac99de89b12e728eb7c978824ac13cfd684b3e3ebcb422aac09207b6",
+      "bytes": 5849,
+      "use": "hOCR page index"
+    },
+    {
+      "file": "grammar-1923-22nd_hocr_searchtext.txt",
+      "url": "https://archive.org/download/introductoryhebr0000davi_w1b2/introductoryhebr0000davi_w1b2_hocr_searchtext.txt.gz",
+      "gunzip": true,
+      "optional": true,
+      "sha256": "46066fd260c636c88f056258b9acf620fa9e66797a74eaa7b5b2770bb378939b",
+      "bytes": 484807,
+      "use": "hOCR search text"
+    },
+    {
+      "file": "key-1924_hocr_searchtext.txt",
+      "url": "https://archive.org/download/keytoexercisesin0000mcfa/keytoexercisesin0000mcfa_hocr_searchtext.txt.gz",
+      "gunzip": true,
+      "optional": true,
+      "sha256": "8cec7f35d582985b86a510b9f2c330e95fa1443bd272ad28e3c5b27cd12325d7",
+      "bytes": 325852,
+      "use": "hOCR search text"
+    },
+    {
+      "file": "grammar-1923-22nd_hocr.html",
+      "url": "https://archive.org/download/introductoryhebr0000davi_w1b2/introductoryhebr0000davi_w1b2_hocr.html",
+      "gunzip": false,
+      "optional": true,
+      "sha256": "78c7cf693ab07fc0639c95da1eb0d344baa13386f930da011d87eaa34e4732ed",
+      "bytes": 13526258,
+      "use": "hOCR (large)"
+    },
+    {
+      "file": "key-1924_hocr.html",
+      "url": "https://archive.org/download/keytoexercisesin0000mcfa/keytoexercisesin0000mcfa_hocr.html",
+      "gunzip": false,
+      "optional": true,
+      "sha256": "97d9439b6ec59c88c99a82baa6d09a8b5b160ab0ce08d1b97e783551f4582c0b",
+      "bytes": 8986730,
+      "use": "hOCR (large)"
+    },
+    {
+      "file": "grammar.txt",
+      "url": "https://archive.org/download/introductoryheb00daviuoft/introductoryheb00daviuoft_djvu.txt",
+      "gunzip": false,
+      "optional": true,
+      "sha256": "e2ae2e2ff5b0630d7576f7e3532dde3da67d1df0ce4ffa25a46e25e4ae6de50c",
+      "bytes": 522298,
+      "use": "19th ed. (1914) OCR; history only (ADR-021)"
+    }
+  ]
+}
