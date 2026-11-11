@@ -35,6 +35,7 @@ locally, not published. The course follows the 22nd edition (ADR-021).
 | `exwb-units.json` | Curated exwb block → course unit map (P9-T6; since P12-T1 only for non-sentence items) | hand-written | Read by `build/exwb_to_authored.py`; lists held blocks, correction blocks, the grammar/key leaf offsets (+19/+15) and a reason per block. |
 | `grammar-units.json` | Grammar feature → teaching unit (P12-T1) | hand-written | Read by `build/exwb_to_authored.py`; a sentence goes to the first unit teaching all its features; `floor` 13. |
 | `sentence-grammar.json` | Grammar features each Davidson sentence uses (P12-T1) | hand-tagged from the pointed Hebrew | Read by `build/exwb_to_authored.py`; every en-he/he-en item must have an entry. |
+| `archaic-verbs.json` | Archaic verb forms in Davidson's English → modern forms (knoweth → knows) | derived once, checked by hand | Read by `build/davidson_ladder.py` to accept modern English answers. |
 | `vocab-layout.json` | Vocabulary unit layout (P9-T12) | hand-written | Read by `build/rebalance_vocab.py`; first spread unit, pinned word ids (alphabet units, derived-stem verbs, weak-noun lesson examples) and topic units (verb classes, numerals). |
 | `pair-inventory.json` | Prompt↔answer pairing ledger (ADR-018; historical — its `--write` is retired, drills now come from `exwb/curated/`) | generated | `build/pair_davidson_exercises.py --write`; every pair with §, part, number, direction, lexical sanity score/tier, and both leaves. Emits `authored/`/`exercises/` for ok+weak pairs only. |
 

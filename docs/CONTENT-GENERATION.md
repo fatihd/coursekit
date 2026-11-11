@@ -132,7 +132,8 @@ English with one point changed (possessive, article, this/that, preposition grou
 pronoun); if fewer than three such changes exist, other sentences of the same Davidson section fill in. Typed
 English is graded against variants of the Key's English: bracketed supplied words optional ("The light (is)
 good"), grammar notes like "(fem.)" dropped, a one-word alternative in brackets may replace the word before it,
-archaic forms modernized (thou hast → you have; -eth/-est via the system word list). The pointed rung also
+archaic forms modernized (thou hast → you have; -eth/-est verbs from the hand-checked table
+`build/_sources/davidson/archaic-verbs.json`, so the build does not depend on a system word list). The pointed rung also
 accepts the contextual form of a pausal last word when that form occurs mid-sentence elsewhere and differs only
 in the lengthened vowel (qamets for patah/segol, never on the first letter). Unit files store each sentence's
 source once (`sources`, items point by `src`); `authored/ladder.json` counts items per rung.

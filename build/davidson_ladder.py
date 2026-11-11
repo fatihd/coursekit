@@ -12,6 +12,7 @@ optional, grammar notes dropped, archaic forms modernized.
 
 from __future__ import annotations
 
+import json
 import random
 import re
 import unicodedata
@@ -46,10 +47,12 @@ DETERMINERS = {"the", "a", "an", "this", "that", "these", "those", "all", "every
 OBJ_AFTER_PREP = {"him", "her", "them", "me", "us", "thee", "you", "it", "God", "Yahweh"}
 
 
+ARCHAIC_VERBS = Path(__file__).resolve().parent / "_sources" / "davidson" / "archaic-verbs.json"
+
+
 @lru_cache(maxsize=1)
-def dictionary() -> frozenset:
-    p = Path("/usr/share/dict/words")
-    return frozenset(w.strip().lower() for w in p.read_text().splitlines()) if p.exists() else frozenset()
+def archaic_verbs() -> dict:
+    return json.loads(ARCHAIC_VERBS.read_text(encoding="utf-8"))["verbs"]
 
 
 def keep_case(src: str, word: str) -> str:
@@ -102,36 +105,12 @@ def paren_variants(text: str) -> list[str]:
     return out
 
 
-def base_form(stem: str) -> str | None:
-    words = dictionary()
-    silent_e = re.search(r"([^aeiou][aeiou][^aeiouwxy]|[aeiou])$", stem)
-    for cand in (stem + "e" if silent_e else None, stem,
-                 stem[:-1] if len(stem) > 2 and stem[-1] == stem[-2] else None,
-                 stem[:-1] + "y" if stem.endswith("i") else None):
-        if cand and len(cand) > 1 and cand in words:
-            return cand
-    return None
-
-
-def third_singular(base: str) -> str:
-    if re.search(r"(s|sh|ch|x|z|o)$", base):
-        return base + "es"
-    if re.search(r"[^aeiou]y$", base):
-        return base[:-1] + "ies"
-    return base + "s"
-
-
 def modern_verb(word: str, after_thou: bool) -> str | None:
     low = word.lower()
-    if low in dictionary() or len(low) < 5:
+    modern = archaic_verbs().get(low)
+    if not modern or (low.endswith("est") and not after_thou):
         return None
-    if low.endswith("eth"):
-        base = base_form(low[:-3])
-        return keep_case(word, third_singular(base)) if base else None
-    if low.endswith("est") and after_thou:
-        base = base_form(low[:-3]) or base_form(low[:-2])
-        return keep_case(word, base) if base else None
-    return None
+    return keep_case(word, modern)
 
 
 def modernize(text: str) -> str:
