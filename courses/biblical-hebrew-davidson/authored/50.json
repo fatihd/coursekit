@@ -1,56 +1,206 @@
 {
   "schema": "authored-exercises-v1.json",
   "unit": 50,
+  "sources": {
+    "s27-A6": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §27 A 6; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n116/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n116.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n65/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n65.jpg",
+      "exwb": "davidson-s27#A6",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s27-B6": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §27 B 6; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n116/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n116.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n65/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n65.jpg",
+      "exwb": "davidson-s27#B6",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    }
+  },
   "items": [
     {
+      "id": "s27-A6.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הִנֵּה רֹאשׁוֹ מֻשְׁלָךְ אֵלֶיךָ בְּעַד הַחוֹמָה",
+      "stimulusIsScript": true,
+      "statement": "Behold, his head will be thrown to me over the wall.",
+      "answer": false,
+      "expected": "Behold, his head will be thrown to thee over the wall.",
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "he-en",
+      "src": "s27-A6"
+    },
+    {
+      "id": "s27-A6.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "הִנֵּה רֹאשׁוֹ מֻשְׁלָךְ אֵלֶיךָ בְּעַד הַחוֹמָה",
       "stimulusIsScript": true,
       "options": [
+        "Behold, his head will be thrown to me over the wall.",
+        "Behold, their head will be thrown to thee over the wall.",
         "Behold, his head will be thrown to thee over the wall.",
-        "And the firmament permanently divided the waters from the waters.",
-        "And they sent and called Jeroboam, and they made him king over Israel.",
-        "And God stationed the cherubim before the garden of Eden, to guard the way to the tree of life."
+        "Behold, his head will be thrown from thee over the wall."
       ],
       "answer": "Behold, his head will be thrown to thee over the wall.",
       "optionIsScript": false,
-      "id": "s27-A6",
       "block": "s27",
       "blockLabel": "Davidson §27",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §27 A 6; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n116/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n116.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n65/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n65.jpg",
-        "exwb": "davidson-s27#A6",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s27-A6"
     },
     {
+      "id": "s27-A6.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Fill in the missing word: Behold, his head will be thrown to thee over the wall.",
+      "stimulus": "הִנֵּה רֹאשׁוֹ ＿＿＿ אֵלֶיךָ בְּעַד הַחוֹמָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "מֻשְׁלָךְ"
+      ],
+      "answerIsScript": true,
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "he-en",
+      "src": "s27-A6"
+    },
+    {
+      "id": "s27-A6.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הִנֵּה רֹאשׁוֹ מֻשְׁלָךְ אֵלֶיךָ בְּעַד הַחוֹמָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Behold, his head will be thrown to thee over the wall.",
+        "Behold, his head will be thrown to you over the wall."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "he-en",
+      "src": "s27-A6"
+    },
+    {
+      "id": "s27-A6.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Behold, his head will be thrown to thee over the wall.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הִנֵּה רֹאשׁוֹ מֻשְׁלָךְ אֵלֶיךָ בְּעַד הַחוֹמָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "he-en",
+      "src": "s27-A6"
+    },
+    {
+      "id": "s27-B6.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "מָצָא הַנָּבִיא אֶת־הַיֶּלֶד מֻשְׁכָּב עַל־מִטָּתוֹ",
+      "stimulusIsScript": true,
+      "statement": "The prophet found the child laid (Hoph. ptc. of שָׁכַב) upon his bed.",
+      "answer": true,
+      "expected": "The prophet found the child laid (Hoph. ptc. of שָׁכַב) upon his bed.",
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "en-he",
+      "src": "s27-B6"
+    },
+    {
+      "id": "s27-B6.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "מָצָא הַנָּבִיא אֶת־הַיֶּלֶד מֻשְׁכָּב עַל־מִטָּתוֹ",
+      "stimulusIsScript": true,
+      "options": [
+        "The prophet found the child laid (Hoph. ptc. of שָׁכַב) upon his bed.",
+        "The prophet found the child laid (Hoph. ptc. of שָׁכַב) upon their bed.",
+        "The prophet found the child laid (Hoph. ptc. of שָׁכַב) from his bed.",
+        "The prophet found a child laid (Hoph. ptc. of שָׁכַב) upon his bed."
+      ],
+      "answer": "The prophet found the child laid (Hoph. ptc. of שָׁכַב) upon his bed.",
+      "optionIsScript": false,
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "en-he",
+      "src": "s27-B6"
+    },
+    {
+      "id": "s27-B6.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The prophet found the child laid (Hoph. ptc. of שָׁכַב) upon his bed.",
+      "stimulus": "מָצָא ＿＿＿ אֶת־הַיֶּלֶד מֻשְׁכָּב עַל־מִטָּתוֹ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַנָּבִיא"
+      ],
+      "answerIsScript": true,
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "en-he",
+      "src": "s27-B6"
+    },
+    {
+      "id": "s27-B6.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "The prophet found the child laid (Hoph. ptc. of שָׁכַב) upon his bed.",
       "stimulusIsScript": false,
       "accepted": [
         "מָצָא הַנָּבִיא אֶת־הַיֶּלֶד מֻשְׁכָּב עַל־מִטָּתוֹ"
       ],
       "answerIsScript": true,
-      "id": "s27-B6",
       "block": "s27",
       "blockLabel": "Davidson §27",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §27 B 6; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n116/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n116.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n65/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n65.jpg",
-        "exwb": "davidson-s27#B6",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s27-B6"
+    },
+    {
+      "id": "s27-B6.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The prophet found the child laid (Hoph. ptc. of שָׁכַב) upon his bed.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מָצָא הַנָּבִיא אֶת־הַיֶּלֶד מֻשְׁכָּב עַל־מִטָּתוֹ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "en-he",
+      "src": "s27-B6"
     }
   ]
 }

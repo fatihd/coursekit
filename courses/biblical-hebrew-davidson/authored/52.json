@@ -1,1044 +1,3418 @@
 {
   "schema": "authored-exercises-v1.json",
   "unit": 52,
+  "sources": {
+    "s26-A4": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §26 A 4; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n113/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n113.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n62/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n62.jpg",
+      "exwb": "davidson-s26#A4",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s31-AL1": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L1; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
+      "exwb": "davidson-s31#AL1",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s31-AL2": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L2; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
+      "exwb": "davidson-s31#AL2",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s31-AL3": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L3; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
+      "exwb": "davidson-s31#AL3",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s31-AL4": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L4; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
+      "exwb": "davidson-s31#AL4",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s31-AL5": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L5; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
+      "exwb": "davidson-s31#AL5",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s31-AL6": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L6; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
+      "exwb": "davidson-s31#AL6",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s31-AL7": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L7; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
+      "exwb": "davidson-s31#AL7",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s31-AL8": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L8; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
+      "exwb": "davidson-s31#AL8",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s31-AL9": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L9; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
+      "exwb": "davidson-s31#AL9",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s31-AL10": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L10; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
+      "exwb": "davidson-s31#AL10",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s31-AL11": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L11; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
+      "exwb": "davidson-s31#AL11",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s31-AL12": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L12; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
+      "exwb": "davidson-s31#AL12",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s31-AL13": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L13; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
+      "exwb": "davidson-s31#AL13",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s31-AL14": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L14; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
+      "exwb": "davidson-s31#AL14",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s31-AL15": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L15; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
+      "exwb": "davidson-s31#AL15",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s31-AL16": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L16; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
+      "exwb": "davidson-s31#AL16",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s31-AL17": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L17; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
+      "exwb": "davidson-s31#AL17",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s31-AL18": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L18; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
+      "exwb": "davidson-s31#AL18",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s31-AL19": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L19; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
+      "exwb": "davidson-s31#AL19",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s31-AL20": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L20; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
+      "exwb": "davidson-s31#AL20",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s31-AL21": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L21; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
+      "exwb": "davidson-s31#AL21",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s31-AL22": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L22; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
+      "exwb": "davidson-s31#AL22",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s31-AL23": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L23; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
+      "exwb": "davidson-s31#AL23",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s31-AL24": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L24; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
+      "exwb": "davidson-s31#AL24",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s31-AL25": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L25; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
+      "exwb": "davidson-s31#AL25",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s31-AL26": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L26; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
+      "exwb": "davidson-s31#AL26",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s31-AL27": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L27; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
+      "exwb": "davidson-s31#AL27",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s31-AL29": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L29; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
+      "exwb": "davidson-s31#AL29",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s31-AL30": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L30; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
+      "exwb": "davidson-s31#AL30",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s31-AL31": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L31; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
+      "exwb": "davidson-s31#AL31",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s31-B1": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 B 1; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
+      "exwb": "davidson-s31#B1",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s31-B2": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 B 2; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
+      "exwb": "davidson-s31#B2",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s31-B3": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 B 3; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
+      "exwb": "davidson-s31#B3",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s31-B4": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 B 4; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
+      "exwb": "davidson-s31#B4",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s31-B5": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 B 5; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
+      "exwb": "davidson-s31#B5",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s31-B7": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 B 7; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
+      "exwb": "davidson-s31#B7",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s31-B8": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 B 8; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
+      "exwb": "davidson-s31#B8",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s31-C1": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 C 1; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
+      "exwb": "davidson-s31#C1",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s31-C2": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 C 2; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
+      "exwb": "davidson-s31#C2",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s31-C3": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 C 3; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
+      "exwb": "davidson-s31#C3",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s31-C4": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 C 4; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
+      "exwb": "davidson-s31#C4",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s31-C5": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 C 5; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
+      "exwb": "davidson-s31#C5",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s31-C7": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 C 7; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
+      "exwb": "davidson-s31#C7",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s31-C8": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 C 8; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
+      "exwb": "davidson-s31#C8",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s31-C9": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 C 9; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
+      "exwb": "davidson-s31#C9",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s31-C10": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 C 10; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
+      "exwb": "davidson-s31#C10",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s31-C12": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 C 12; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
+      "exwb": "davidson-s31#C12",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    }
+  },
   "items": [
     {
+      "id": "s26-A4.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "זִכְרוּ אֶת־יוֹם הַשַּׁבָּת לְקַדְּשׁוֹ",
+      "stimulusIsScript": true,
+      "statement": "Remember the Sabbath day to keep it holy.",
+      "answer": true,
+      "expected": "Remember the Sabbath day to keep it holy.",
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "he-en",
+      "src": "s26-A4"
+    },
+    {
+      "id": "s26-A4.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "זִכְרוּ אֶת־יוֹם הַשַּׁבָּת לְקַדְּשׁוֹ",
       "stimulusIsScript": true,
       "options": [
+        "These are the words which I have spoken.",
         "Remember the Sabbath day to keep it holy.",
-        "Noah walked with God.",
-        "Thy face, Yahweh, I will seek.",
-        "And no expiation can be made for the land for the blood that has been shed in it, except by the blood of him that shed it."
+        "Walk before me and sanctify yourselves.",
+        "The asses are found which thou wentest to seek."
       ],
       "answer": "Remember the Sabbath day to keep it holy.",
       "optionIsScript": false,
-      "id": "s26-A4",
       "block": "s26",
       "blockLabel": "Davidson §26",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §26 A 4; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n113/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n113.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n62/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n62.jpg",
-        "exwb": "davidson-s26#A4",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s26-A4"
     },
     {
+      "id": "s26-A4.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Remember the Sabbath day to keep it holy.",
+      "stimulus": "זִכְרוּ אֶת־יוֹם הַשַּׁבָּת ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "לְקַדְּשׁוֹ"
+      ],
+      "answerIsScript": true,
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "he-en",
+      "src": "s26-A4"
+    },
+    {
+      "id": "s26-A4.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "זִכְרוּ אֶת־יוֹם הַשַּׁבָּת לְקַדְּשׁוֹ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Remember the Sabbath day to keep it holy."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "he-en",
+      "src": "s26-A4"
+    },
+    {
+      "id": "s26-A4.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Remember the Sabbath day to keep it holy.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "זִכְרוּ אֶת־יוֹם הַשַּׁבָּת לְקַדְּשׁוֹ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "he-en",
+      "src": "s26-A4"
+    },
+    {
+      "id": "s31-AL1.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "שְׁמַרְתַּנִי",
+      "stimulusIsScript": true,
+      "statement": "Thou (m.) hast kept me",
+      "answer": true,
+      "expected": "Thou (m.) hast kept me",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL1"
+    },
+    {
+      "id": "s31-AL1.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "שְׁמַרְתַּנִי",
       "stimulusIsScript": true,
       "options": [
-        "She will keep thee",
-        "To keep thee",
-        "Keep (thou) me",
+        "And he will gather thee (m.)",
+        "Thou (m.) hast kept us",
+        "Thou (m.) hast kept him",
         "Thou (m.) hast kept me"
       ],
       "answer": "Thou (m.) hast kept me",
       "optionIsScript": false,
-      "id": "s31-AL1",
       "block": "s31",
       "blockLabel": "Davidson §31",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L1; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
-        "exwb": "davidson-s31#AL1",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s31-AL1"
     },
     {
+      "id": "s31-AL1.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "שְׁמַרְתַּנִי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Thou hast kept me",
+        "You have kept me"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL1"
+    },
+    {
+      "id": "s31-AL1.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Thou (m.) hast kept me",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שְׁמַרְתַּנִי"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL1"
+    },
+    {
+      "id": "s31-AL2.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "שְׁמַרְתִּיךָ",
+      "stimulusIsScript": true,
+      "statement": "I have kept thee (m.)",
+      "answer": true,
+      "expected": "I have kept thee (m.)",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL2"
+    },
+    {
+      "id": "s31-AL2.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "שְׁמַרְתִּיךָ",
       "stimulusIsScript": true,
       "options": [
         "I have kept thee (m.)",
-        "And I will gather them",
-        "They judged me",
-        "They stole thee (m.)"
+        "Put (sing.) me in remembrance",
+        "I have kept me (m.)",
+        "I have kept him (m.)"
       ],
       "answer": "I have kept thee (m.)",
       "optionIsScript": false,
-      "id": "s31-AL2",
       "block": "s31",
       "blockLabel": "Davidson §31",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L2; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
-        "exwb": "davidson-s31#AL2",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s31-AL2"
     },
     {
+      "id": "s31-AL2.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "שְׁמַרְתִּיךָ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "I have kept thee",
+        "I have kept you"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL2"
+    },
+    {
+      "id": "s31-AL2.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "I have kept thee (m.)",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שְׁמַרְתִּיךָ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL2"
+    },
+    {
+      "id": "s31-AL3.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וּשְׁמָרוֹ",
+      "stimulusIsScript": true,
+      "statement": "And he will keep me",
+      "answer": false,
+      "expected": "And he will keep him",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL3"
+    },
+    {
+      "id": "s31-AL3.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "וּשְׁמָרוֹ",
       "stimulusIsScript": true,
       "options": [
         "And he will keep him",
-        "When he made mention of",
-        "Judge (sing.) me",
-        "When thou judgest"
+        "And he will keep them",
+        "And he will keep me",
+        "And she will keep him"
       ],
       "answer": "And he will keep him",
       "optionIsScript": false,
-      "id": "s31-AL3",
       "block": "s31",
       "blockLabel": "Davidson §31",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L3; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
-        "exwb": "davidson-s31#AL3",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s31-AL3"
     },
     {
+      "id": "s31-AL3.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וּשְׁמָרוֹ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "And he will keep him"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL3"
+    },
+    {
+      "id": "s31-AL3.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And he will keep him",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וּשְׁמָרוֹ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL3"
+    },
+    {
+      "id": "s31-AL4.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "לְשָׁמְרְךָ",
+      "stimulusIsScript": true,
+      "statement": "To keep me",
+      "answer": false,
+      "expected": "To keep thee",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL4"
+    },
+    {
+      "id": "s31-AL4.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "לְשָׁמְרְךָ",
       "stimulusIsScript": true,
       "options": [
-        "When I gather",
-        "And he will gather thee (m.)",
+        "To keep him",
         "To keep thee",
-        "She will keep thee"
+        "In the day when I visit (of my visiting) Israel, I will destroy the altars of Bethel.",
+        "To keep me"
       ],
       "answer": "To keep thee",
       "optionIsScript": false,
-      "id": "s31-AL4",
       "block": "s31",
       "blockLabel": "Davidson §31",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L4; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
-        "exwb": "davidson-s31#AL4",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s31-AL4"
     },
     {
+      "id": "s31-AL4.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "לְשָׁמְרְךָ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "To keep thee",
+        "To keep you"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL4"
+    },
+    {
+      "id": "s31-AL4.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "To keep thee",
+      "stimulusIsScript": false,
+      "accepted": [
+        "לְשָׁמְרְךָ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL4"
+    },
+    {
+      "id": "s31-AL5.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וּלְשָׁמְרָהּ",
+      "stimulusIsScript": true,
+      "statement": "And to keep her",
+      "answer": true,
+      "expected": "And to keep her",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL5"
+    },
+    {
+      "id": "s31-AL5.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "וּלְשָׁמְרָהּ",
       "stimulusIsScript": true,
       "options": [
-        "Thou hast remembered them",
+        "They judged them",
         "And to keep her",
-        "They stole thee (m.)",
-        "She stole them"
+        "When thou judgest",
+        "They stole thee (m.)"
       ],
       "answer": "And to keep her",
       "optionIsScript": false,
-      "id": "s31-AL5",
       "block": "s31",
       "blockLabel": "Davidson §31",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L5; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
-        "exwb": "davidson-s31#AL5",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s31-AL5"
     },
     {
+      "id": "s31-AL5.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וּלְשָׁמְרָהּ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "And to keep her"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL5"
+    },
+    {
+      "id": "s31-AL5.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And to keep her",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וּלְשָׁמְרָהּ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL5"
+    },
+    {
+      "id": "s31-AL6.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "שָׁמְרֵנִי",
+      "stimulusIsScript": true,
+      "statement": "Keep (thou) him",
+      "answer": false,
+      "expected": "Keep (thou) me",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL6"
+    },
+    {
+      "id": "s31-AL6.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "שָׁמְרֵנִי",
       "stimulusIsScript": true,
       "options": [
-        "When he made mention of",
-        "And it clothed itself in me",
-        "Keep (thou) me",
-        "And he remembered her"
+        "Keep (thou) us",
+        "Keep (thou) him",
+        "He promised (said) to mention him before the priests of the temple.",
+        "Keep (thou) me"
       ],
       "answer": "Keep (thou) me",
       "optionIsScript": false,
-      "id": "s31-AL6",
       "block": "s31",
       "blockLabel": "Davidson §31",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L6; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
-        "exwb": "davidson-s31#AL6",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s31-AL6"
     },
     {
+      "id": "s31-AL6.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "שָׁמְרֵנִי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Keep thou me",
+        "Keep you me",
+        "Keep me"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL6"
+    },
+    {
+      "id": "s31-AL6.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Keep (thou) me",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שָׁמְרֵנִי"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL6"
+    },
+    {
+      "id": "s31-AL7.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיִּשְׁמְרֵנִי",
+      "stimulusIsScript": true,
+      "statement": "And he kept me",
+      "answer": true,
+      "expected": "And he kept me",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL7"
+    },
+    {
+      "id": "s31-AL7.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "וַיִּשְׁמְרֵנִי",
       "stimulusIsScript": true,
       "options": [
-        "When thou judgest",
-        "And he will gather thee (m.)",
-        "She stole them",
-        "And he kept me"
+        "And he kept him",
+        "And she kept me",
+        "And he kept me",
+        "And he kept us"
       ],
       "answer": "And he kept me",
       "optionIsScript": false,
-      "id": "s31-AL7",
       "block": "s31",
       "blockLabel": "Davidson §31",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L7; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
-        "exwb": "davidson-s31#AL7",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s31-AL7"
     },
     {
+      "id": "s31-AL7.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וַיִּשְׁמְרֵנִי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "And he kept me"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL7"
+    },
+    {
+      "id": "s31-AL7.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And he kept me",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיִּשְׁמְרֵנִי"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL7"
+    },
+    {
+      "id": "s31-AL8.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיִּלְבָּשֵׁנִי",
+      "stimulusIsScript": true,
+      "statement": "And it clothed itself in him",
+      "answer": false,
+      "expected": "And it clothed itself in me",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL8"
+    },
+    {
+      "id": "s31-AL8.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "וַיִּלְבָּשֵׁנִי",
       "stimulusIsScript": true,
       "options": [
-        "They judged me",
-        "And I will gather them",
-        "And it clothed itself in me",
-        "Thou hast remembered them"
+        "And it clothed itself in him",
+        "And it clothed itself in us",
+        "And it clothed itself from me",
+        "And it clothed itself in me"
       ],
       "answer": "And it clothed itself in me",
       "optionIsScript": false,
-      "id": "s31-AL8",
       "block": "s31",
       "blockLabel": "Davidson §31",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L8; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
-        "exwb": "davidson-s31#AL8",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s31-AL8"
     },
     {
+      "id": "s31-AL8.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וַיִּלְבָּשֵׁנִי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "And it clothed itself in me"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL8"
+    },
+    {
+      "id": "s31-AL8.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And it clothed itself in me",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיִּלְבָּשֵׁנִי"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL8"
+    },
+    {
+      "id": "s31-AL9.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "תִּשְׁמְרֵם",
+      "stimulusIsScript": true,
+      "statement": "Thou wilt keep them",
+      "answer": true,
+      "expected": "Thou wilt keep them",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL9"
+    },
+    {
+      "id": "s31-AL9.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "תִּשְׁמְרֵם",
       "stimulusIsScript": true,
       "options": [
         "Thou wilt keep them",
-        "They will remember me",
-        "He will gather thee (m.)",
-        "They judged me"
+        "They honoured me with their lips.",
+        "Thou wilt keep us",
+        "Thou wilt keep him"
       ],
       "answer": "Thou wilt keep them",
       "optionIsScript": false,
-      "id": "s31-AL9",
       "block": "s31",
       "blockLabel": "Davidson §31",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L9; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
-        "exwb": "davidson-s31#AL9",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s31-AL9"
     },
     {
+      "id": "s31-AL9.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "תִּשְׁמְרֵם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Thou wilt keep them",
+        "You will keep them"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL9"
+    },
+    {
+      "id": "s31-AL9.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Thou wilt keep them",
+      "stimulusIsScript": false,
+      "accepted": [
+        "תִּשְׁמְרֵם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL9"
+    },
+    {
+      "id": "s31-AL10.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וְאֶשְׁמְרֶנָּה",
+      "stimulusIsScript": true,
+      "statement": "(In order) that they may keep it (or her)",
+      "answer": false,
+      "expected": "(In order) that I may keep it (or her)",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL10"
+    },
+    {
+      "id": "s31-AL10.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "וְאֶשְׁמְרֶנָּה",
       "stimulusIsScript": true,
       "options": [
-        "They judged me",
-        "And he remembered her",
-        "When I gather",
-        "(In order) that I may keep it (or her)"
+        "(In order) that they may keep it (or her)",
+        "(In order) that I may keep it (or her)",
+        "When thou judgest",
+        "(In order) that we may keep it (or her)"
       ],
       "answer": "(In order) that I may keep it (or her)",
       "optionIsScript": false,
-      "id": "s31-AL10",
       "block": "s31",
       "blockLabel": "Davidson §31",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L10; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
-        "exwb": "davidson-s31#AL10",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s31-AL10"
     },
     {
+      "id": "s31-AL10.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וְאֶשְׁמְרֶנָּה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "In order that I may keep it",
+        "that I may keep it"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL10"
+    },
+    {
+      "id": "s31-AL10.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "(In order) that I may keep it (or her)",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וְאֶשְׁמְרֶנָּה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL10"
+    },
+    {
+      "id": "s31-AL11.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "יִשְׁמְרֵהוּ",
+      "stimulusIsScript": true,
+      "statement": "He will keep him",
+      "answer": true,
+      "expected": "He will keep him",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL11"
+    },
+    {
+      "id": "s31-AL11.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "יִשְׁמְרֵהוּ",
       "stimulusIsScript": true,
       "options": [
         "He will keep him",
-        "They judged them",
-        "She stole them",
-        "And he will keep him"
+        "He will keep me",
+        "He will keep them",
+        "She will keep him"
       ],
       "answer": "He will keep him",
       "optionIsScript": false,
-      "id": "s31-AL11",
       "block": "s31",
       "blockLabel": "Davidson §31",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L11; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
-        "exwb": "davidson-s31#AL11",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s31-AL11"
     },
     {
+      "id": "s31-AL11.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "יִשְׁמְרֵהוּ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "He will keep him"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL11"
+    },
+    {
+      "id": "s31-AL11.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "He will keep him",
+      "stimulusIsScript": false,
+      "accepted": [
+        "יִשְׁמְרֵהוּ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL11"
+    },
+    {
+      "id": "s31-AL12.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "תִּשְׁמְרֶךָּ",
+      "stimulusIsScript": true,
+      "statement": "She will keep him",
+      "answer": false,
+      "expected": "She will keep thee",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL12"
+    },
+    {
+      "id": "s31-AL12.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "תִּשְׁמְרֶךָּ",
       "stimulusIsScript": true,
       "options": [
-        "And he will keep him",
         "She will keep thee",
-        "Thou (m.) hast kept me",
-        "He gathered them"
+        "She will keep him",
+        "She will keep me",
+        "He will keep thee"
       ],
       "answer": "She will keep thee",
       "optionIsScript": false,
-      "id": "s31-AL12",
       "block": "s31",
       "blockLabel": "Davidson §31",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L12; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
-        "exwb": "davidson-s31#AL12",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s31-AL12"
     },
     {
+      "id": "s31-AL12.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "תִּשְׁמְרֶךָּ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "She will keep thee",
+        "She will keep you"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL12"
+    },
+    {
+      "id": "s31-AL12.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "She will keep thee",
+      "stimulusIsScript": false,
+      "accepted": [
+        "תִּשְׁמְרֶךָּ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL12"
+    },
+    {
+      "id": "s31-AL13.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "שְׁפָטוּנִי",
+      "stimulusIsScript": true,
+      "statement": "They judged us",
+      "answer": false,
+      "expected": "They judged me",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL13"
+    },
+    {
+      "id": "s31-AL13.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "שְׁפָטוּנִי",
       "stimulusIsScript": true,
       "options": [
         "They judged me",
-        "I have kept thee (m.)",
-        "And to keep her",
-        "They will remember me"
+        "We judged me",
+        "They judged us",
+        "They judged him"
       ],
       "answer": "They judged me",
       "optionIsScript": false,
-      "id": "s31-AL13",
       "block": "s31",
       "blockLabel": "Davidson §31",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L13; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
-        "exwb": "davidson-s31#AL13",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s31-AL13"
     },
     {
+      "id": "s31-AL13.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "שְׁפָטוּנִי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "They judged me"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL13"
+    },
+    {
+      "id": "s31-AL13.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "They judged me",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שְׁפָטוּנִי"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL13"
+    },
+    {
+      "id": "s31-AL14.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "שְׁפָטוּם",
+      "stimulusIsScript": true,
+      "statement": "They judged him",
+      "answer": false,
+      "expected": "They judged them",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL14"
+    },
+    {
+      "id": "s31-AL14.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "שְׁפָטוּם",
       "stimulusIsScript": true,
       "options": [
-        "When I gather",
-        "And to keep her",
-        "They stole thee (m.)",
-        "They judged them"
+        "They judged him",
+        "I judged them",
+        "They judged them",
+        "They judged us"
       ],
       "answer": "They judged them",
       "optionIsScript": false,
-      "id": "s31-AL14",
       "block": "s31",
       "blockLabel": "Davidson §31",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L14; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
-        "exwb": "davidson-s31#AL14",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s31-AL14"
     },
     {
+      "id": "s31-AL14.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "שְׁפָטוּם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "They judged them"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL14"
+    },
+    {
+      "id": "s31-AL14.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "They judged them",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שְׁפָטוּם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL14"
+    },
+    {
+      "id": "s31-AL15.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "בְּשָׁפְטֶךָ",
+      "stimulusIsScript": true,
+      "statement": "Thou (m.) hast kept me",
+      "answer": false,
+      "expected": "When thou judgest",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL15"
+    },
+    {
+      "id": "s31-AL15.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "בְּשָׁפְטֶךָ",
       "stimulusIsScript": true,
       "options": [
-        "And it clothed itself in me",
-        "Judge (sing.) me",
+        "And he will keep him",
         "When thou judgest",
+        "And he will gather thee (m.)",
         "Thou (m.) hast kept me"
       ],
       "answer": "When thou judgest",
       "optionIsScript": false,
-      "id": "s31-AL15",
       "block": "s31",
       "blockLabel": "Davidson §31",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L15; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
-        "exwb": "davidson-s31#AL15",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s31-AL15"
     },
     {
+      "id": "s31-AL15.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "בְּשָׁפְטֶךָ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "When thou judgest",
+        "When you judge"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL15"
+    },
+    {
+      "id": "s31-AL15.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "When thou judgest",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בְּשָׁפְטֶךָ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL15"
+    },
+    {
+      "id": "s31-AL16.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "שָׁפְטֵנִי",
+      "stimulusIsScript": true,
+      "statement": "Judge (sing.) him",
+      "answer": false,
+      "expected": "Judge (sing.) me",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL16"
+    },
+    {
+      "id": "s31-AL16.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "שָׁפְטֵנִי",
       "stimulusIsScript": true,
       "options": [
-        "And those that gather it (or him)",
-        "And I will gather them",
-        "They judged them",
+        "Judge (sing.) us",
+        "When thou judgest",
+        "Judge (sing.) him",
         "Judge (sing.) me"
       ],
       "answer": "Judge (sing.) me",
       "optionIsScript": false,
-      "id": "s31-AL16",
       "block": "s31",
       "blockLabel": "Davidson §31",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L16; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
-        "exwb": "davidson-s31#AL16",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s31-AL16"
     },
     {
+      "id": "s31-AL16.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "שָׁפְטֵנִי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Judge me"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL16"
+    },
+    {
+      "id": "s31-AL16.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Judge (sing.) me",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שָׁפְטֵנִי"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL16"
+    },
+    {
+      "id": "s31-AL17.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "זְכַרְתָּם",
+      "stimulusIsScript": true,
+      "statement": "Thou hast remembered them",
+      "answer": true,
+      "expected": "Thou hast remembered them",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL17"
+    },
+    {
+      "id": "s31-AL17.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "זְכַרְתָּם",
       "stimulusIsScript": true,
       "options": [
-        "He will keep him",
-        "And to keep her",
-        "They will remember me",
-        "Thou hast remembered them"
+        "Thou hast remembered them",
+        "Thou hast remembered him",
+        "And he kept me",
+        "Thou hast remembered us"
       ],
       "answer": "Thou hast remembered them",
       "optionIsScript": false,
-      "id": "s31-AL17",
       "block": "s31",
       "blockLabel": "Davidson §31",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L17; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
-        "exwb": "davidson-s31#AL17",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s31-AL17"
     },
     {
+      "id": "s31-AL17.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "זְכַרְתָּם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Thou hast remembered them",
+        "You have remembered them"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL17"
+    },
+    {
+      "id": "s31-AL17.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Thou hast remembered them",
+      "stimulusIsScript": false,
+      "accepted": [
+        "זְכַרְתָּם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL17"
+    },
+    {
+      "id": "s31-AL18.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אֶזְכְּרֶנָּה",
+      "stimulusIsScript": true,
+      "statement": "I will remember her (or it, fem.)",
+      "answer": true,
+      "expected": "I will remember her (or it, fem.)",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL18"
+    },
+    {
+      "id": "s31-AL18.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "אֶזְכְּרֶנָּה",
       "stimulusIsScript": true,
       "options": [
-        "I will remember her (or it, fem.)",
-        "And those that gather it (or him)",
-        "I have kept thee (m.)",
-        "When I gather"
+        "They will remember her (or it, fem.)",
+        "We will remember her (or it, fem.)",
+        "They will remember me",
+        "I will remember her (or it, fem.)"
       ],
       "answer": "I will remember her (or it, fem.)",
       "optionIsScript": false,
-      "id": "s31-AL18",
       "block": "s31",
       "blockLabel": "Davidson §31",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L18; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
-        "exwb": "davidson-s31#AL18",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s31-AL18"
     },
     {
+      "id": "s31-AL18.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "אֶזְכְּרֶנָּה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "I will remember her"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL18"
+    },
+    {
+      "id": "s31-AL18.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "I will remember her (or it, fem.)",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֶזְכְּרֶנָּה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL18"
+    },
+    {
+      "id": "s31-AL19.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיִּזְכְּרֶהָ",
+      "stimulusIsScript": true,
+      "statement": "And he remembered her",
+      "answer": true,
+      "expected": "And he remembered her",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL19"
+    },
+    {
+      "id": "s31-AL19.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "וַיִּזְכְּרֶהָ",
       "stimulusIsScript": true,
       "options": [
+        "And she remembered her",
+        "(In order) that I may keep it (or her)",
         "And he remembered her",
-        "To keep thee",
-        "And he will keep him",
-        "He will keep him"
+        "And it clothed itself in me"
       ],
       "answer": "And he remembered her",
       "optionIsScript": false,
-      "id": "s31-AL19",
       "block": "s31",
       "blockLabel": "Davidson §31",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L19; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
-        "exwb": "davidson-s31#AL19",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s31-AL19"
     },
     {
+      "id": "s31-AL19.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וַיִּזְכְּרֶהָ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "And he remembered her"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL19"
+    },
+    {
+      "id": "s31-AL19.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And he remembered her",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיִּזְכְּרֶהָ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL19"
+    },
+    {
+      "id": "s31-AL20.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "יִזְכְּרוּנִי",
+      "stimulusIsScript": true,
+      "statement": "They will remember me",
+      "answer": true,
+      "expected": "They will remember me",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL20"
+    },
+    {
+      "id": "s31-AL20.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "יִזְכְּרוּנִי",
       "stimulusIsScript": true,
       "options": [
-        "And to keep her",
         "They will remember me",
-        "To keep thee",
-        "They stole thee (m.)"
+        "I will remember me",
+        "They will remember us",
+        "They will remember him"
       ],
       "answer": "They will remember me",
       "optionIsScript": false,
-      "id": "s31-AL20",
       "block": "s31",
       "blockLabel": "Davidson §31",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L20; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
-        "exwb": "davidson-s31#AL20",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s31-AL20"
     },
     {
+      "id": "s31-AL20.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "יִזְכְּרוּנִי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "They will remember me"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL20"
+    },
+    {
+      "id": "s31-AL20.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "They will remember me",
+      "stimulusIsScript": false,
+      "accepted": [
+        "יִזְכְּרוּנִי"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL20"
+    },
+    {
+      "id": "s31-AL21.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "כְּהַזְכִּירוֹ",
+      "stimulusIsScript": true,
+      "statement": "When she made mention of",
+      "answer": false,
+      "expected": "When he made mention of",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL21"
+    },
+    {
+      "id": "s31-AL21.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "כְּהַזְכִּירוֹ",
       "stimulusIsScript": true,
       "options": [
-        "When he made mention of",
-        "They will remember me",
-        "Thou hast remembered them",
-        "He will keep him"
+        "He gathered them",
+        "Make me to tread in the path of thy commandments, for in it do I delight.",
+        "When she made mention of",
+        "When he made mention of"
       ],
       "answer": "When he made mention of",
       "optionIsScript": false,
-      "id": "s31-AL21",
       "block": "s31",
       "blockLabel": "Davidson §31",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L21; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
-        "exwb": "davidson-s31#AL21",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s31-AL21"
     },
     {
+      "id": "s31-AL21.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "כְּהַזְכִּירוֹ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "When he made mention of"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL21"
+    },
+    {
+      "id": "s31-AL21.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "When he made mention of",
+      "stimulusIsScript": false,
+      "accepted": [
+        "כְּהַזְכִּירוֹ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL21"
+    },
+    {
+      "id": "s31-AL22.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַזְכִּירֵנִי",
+      "stimulusIsScript": true,
+      "statement": "Put (sing.) us in remembrance",
+      "answer": false,
+      "expected": "Put (sing.) me in remembrance",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL22"
+    },
+    {
+      "id": "s31-AL22.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "הַזְכִּירֵנִי",
       "stimulusIsScript": true,
       "options": [
-        "He will keep him",
+        "And I will gather them",
         "Put (sing.) me in remembrance",
-        "And he remembered her",
-        "When thou judgest"
+        "Put (sing.) us in remembrance",
+        "Put (sing.) him in remembrance"
       ],
       "answer": "Put (sing.) me in remembrance",
       "optionIsScript": false,
-      "id": "s31-AL22",
       "block": "s31",
       "blockLabel": "Davidson §31",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L22; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
-        "exwb": "davidson-s31#AL22",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s31-AL22"
     },
     {
+      "id": "s31-AL22.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הַזְכִּירֵנִי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Put me in remembrance"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL22"
+    },
+    {
+      "id": "s31-AL22.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Put (sing.) me in remembrance",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַזְכִּירֵנִי"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL22"
+    },
+    {
+      "id": "s31-AL23.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "גְּנָבָתַם",
+      "stimulusIsScript": true,
+      "statement": "She stole us",
+      "answer": false,
+      "expected": "She stole them",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL23"
+    },
+    {
+      "id": "s31-AL23.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "גְּנָבָתַם",
       "stimulusIsScript": true,
       "options": [
-        "And he will keep him",
-        "I will gather thee (f.)",
+        "She stole him",
         "She stole them",
-        "(In order) that I may keep it (or her)"
+        "He stole them",
+        "She stole us"
       ],
       "answer": "She stole them",
       "optionIsScript": false,
-      "id": "s31-AL23",
       "block": "s31",
       "blockLabel": "Davidson §31",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L23; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
-        "exwb": "davidson-s31#AL23",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s31-AL23"
     },
     {
+      "id": "s31-AL23.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "גְּנָבָתַם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "She stole them"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL23"
+    },
+    {
+      "id": "s31-AL23.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "She stole them",
+      "stimulusIsScript": false,
+      "accepted": [
+        "גְּנָבָתַם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL23"
+    },
+    {
+      "id": "s31-AL24.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "גְּנָבוּךָ",
+      "stimulusIsScript": true,
+      "statement": "They stole me (m.)",
+      "answer": false,
+      "expected": "They stole thee (m.)",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL24"
+    },
+    {
+      "id": "s31-AL24.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "גְּנָבוּךָ",
       "stimulusIsScript": true,
       "options": [
-        "And he will gather thee (m.)",
-        "They will remember me",
-        "They stole thee (m.)",
-        "Thou (m.) hast kept me"
+        "They stole me (m.)",
+        "I stole thee (m.)",
+        "They stole him (m.)",
+        "They stole thee (m.)"
       ],
       "answer": "They stole thee (m.)",
       "optionIsScript": false,
-      "id": "s31-AL24",
       "block": "s31",
       "blockLabel": "Davidson §31",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L24; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
-        "exwb": "davidson-s31#AL24",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s31-AL24"
     },
     {
+      "id": "s31-AL24.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "גְּנָבוּךָ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "They stole thee",
+        "They stole you"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL24"
+    },
+    {
+      "id": "s31-AL24.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "They stole thee (m.)",
+      "stimulusIsScript": false,
+      "accepted": [
+        "גְּנָבוּךָ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL24"
+    },
+    {
+      "id": "s31-AL25.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וְקִבֶּצְךָ",
+      "stimulusIsScript": true,
+      "statement": "And he will gather thee (m.)",
+      "answer": true,
+      "expected": "And he will gather thee (m.)",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL25"
+    },
+    {
+      "id": "s31-AL25.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "וְקִבֶּצְךָ",
       "stimulusIsScript": true,
       "options": [
-        "And it clothed itself in me",
-        "I will remember her (or it, fem.)",
+        "And he will gather me (m.)",
         "And he will gather thee (m.)",
-        "He will gather thee (m.)"
+        "And she will gather thee (m.)",
+        "And he will gather him (m.)"
       ],
       "answer": "And he will gather thee (m.)",
       "optionIsScript": false,
-      "id": "s31-AL25",
       "block": "s31",
       "blockLabel": "Davidson §31",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L25; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
-        "exwb": "davidson-s31#AL25",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s31-AL25"
     },
     {
+      "id": "s31-AL25.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וְקִבֶּצְךָ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "And he will gather thee",
+        "And he will gather you"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL25"
+    },
+    {
+      "id": "s31-AL25.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And he will gather thee (m.)",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וְקִבֶּצְךָ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL25"
+    },
+    {
+      "id": "s31-AL26.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "קִבְּצָם",
+      "stimulusIsScript": true,
+      "statement": "She gathered them",
+      "answer": false,
+      "expected": "He gathered them",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL26"
+    },
+    {
+      "id": "s31-AL26.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "קִבְּצָם",
       "stimulusIsScript": true,
       "options": [
-        "He will gather thee (m.)",
         "He gathered them",
-        "Thou hast remembered them",
-        "They judged me"
+        "He gathered us",
+        "She gathered them",
+        "He gathered him"
       ],
       "answer": "He gathered them",
       "optionIsScript": false,
-      "id": "s31-AL26",
       "block": "s31",
       "blockLabel": "Davidson §31",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L26; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
-        "exwb": "davidson-s31#AL26",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s31-AL26"
     },
     {
+      "id": "s31-AL26.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "קִבְּצָם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "He gathered them"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL26"
+    },
+    {
+      "id": "s31-AL26.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "He gathered them",
+      "stimulusIsScript": false,
+      "accepted": [
+        "קִבְּצָם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL26"
+    },
+    {
+      "id": "s31-AL27.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וְקִבַּצְתִּים",
+      "stimulusIsScript": true,
+      "statement": "And I will gather us",
+      "answer": false,
+      "expected": "And I will gather them",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL27"
+    },
+    {
+      "id": "s31-AL27.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "וְקִבַּצְתִּים",
       "stimulusIsScript": true,
       "options": [
         "And I will gather them",
-        "I have kept thee (m.)",
-        "(In order) that I may keep it (or her)",
-        "They judged them"
+        "And we will gather them",
+        "And I will gather him",
+        "And I will gather us"
       ],
       "answer": "And I will gather them",
       "optionIsScript": false,
-      "id": "s31-AL27",
       "block": "s31",
       "blockLabel": "Davidson §31",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L27; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
-        "exwb": "davidson-s31#AL27",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s31-AL27"
     },
     {
+      "id": "s31-AL27.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וְקִבַּצְתִּים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "And I will gather them"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL27"
+    },
+    {
+      "id": "s31-AL27.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And I will gather them",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וְקִבַּצְתִּים"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL27"
+    },
+    {
+      "id": "s31-AL29.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "בְּקַבְּצִי",
+      "stimulusIsScript": true,
+      "statement": "When we gather",
+      "answer": false,
+      "expected": "When I gather",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL29"
+    },
+    {
+      "id": "s31-AL29.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "בְּקַבְּצִי",
       "stimulusIsScript": true,
       "options": [
-        "And he will keep him",
+        "When we gather",
+        "When they gather",
         "When I gather",
-        "They will remember me",
-        "He will gather thee (m.)"
+        "I will gather thee (f.)"
       ],
       "answer": "When I gather",
       "optionIsScript": false,
-      "id": "s31-AL29",
       "block": "s31",
       "blockLabel": "Davidson §31",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L29; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
-        "exwb": "davidson-s31#AL29",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s31-AL29"
     },
     {
+      "id": "s31-AL29.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "בְּקַבְּצִי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "When I gather"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL29"
+    },
+    {
+      "id": "s31-AL29.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "When I gather",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בְּקַבְּצִי"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL29"
+    },
+    {
+      "id": "s31-AL30.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אֲקַבְּצֵךְ",
+      "stimulusIsScript": true,
+      "statement": "I will gather him (f.)",
+      "answer": false,
+      "expected": "I will gather thee (f.)",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL30"
+    },
+    {
+      "id": "s31-AL30.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "אֲקַבְּצֵךְ",
       "stimulusIsScript": true,
       "options": [
+        "I will gather me (f.)",
+        "We will gather thee (f.)",
         "I will gather thee (f.)",
-        "He will keep him",
-        "And those that gather it (or him)",
-        "I will remember her (or it, fem.)"
+        "I will gather him (f.)"
       ],
       "answer": "I will gather thee (f.)",
       "optionIsScript": false,
-      "id": "s31-AL30",
       "block": "s31",
       "blockLabel": "Davidson §31",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L30; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
-        "exwb": "davidson-s31#AL30",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s31-AL30"
     },
     {
+      "id": "s31-AL30.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "אֲקַבְּצֵךְ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "I will gather thee",
+        "I will gather you"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL30"
+    },
+    {
+      "id": "s31-AL30.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "I will gather thee (f.)",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֲקַבְּצֵךְ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL30"
+    },
+    {
+      "id": "s31-AL31.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "יְקַבֶּצְךָ",
+      "stimulusIsScript": true,
+      "statement": "She will gather thee (m.)",
+      "answer": false,
+      "expected": "He will gather thee (m.)",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL31"
+    },
+    {
+      "id": "s31-AL31.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "יְקַבֶּצְךָ",
       "stimulusIsScript": true,
       "options": [
-        "Judge (sing.) me",
-        "Keep (thou) me",
-        "They stole thee (m.)",
-        "He will gather thee (m.)"
+        "He will gather thee (m.)",
+        "He will gather me (m.)",
+        "She will gather thee (m.)",
+        "He will gather him (m.)"
       ],
       "answer": "He will gather thee (m.)",
       "optionIsScript": false,
-      "id": "s31-AL31",
       "block": "s31",
       "blockLabel": "Davidson §31",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L31; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
-        "exwb": "davidson-s31#AL31",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s31-AL31"
     },
     {
+      "id": "s31-AL31.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "יְקַבֶּצְךָ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "He will gather thee",
+        "He will gather you"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL31"
+    },
+    {
+      "id": "s31-AL31.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "He will gather thee (m.)",
+      "stimulusIsScript": false,
+      "accepted": [
+        "יְקַבֶּצְךָ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL31"
+    },
+    {
+      "id": "s31-B1.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אַתָּה גְּמַלְתַּנִי הַטּוֹבָה וַאֲנִי גְּמַלְתִּיךָ הָרָעָה",
+      "stimulusIsScript": true,
+      "statement": "Thou hast requited me good, whereas I have requited thee evil.",
+      "answer": true,
+      "expected": "Thou hast requited me good, whereas I have requited thee evil.",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-B1"
+    },
+    {
+      "id": "s31-B1.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "אַתָּה גְּמַלְתַּנִי הַטּוֹבָה וַאֲנִי גְּמַלְתִּיךָ הָרָעָה",
       "stimulusIsScript": true,
       "options": [
-        "Seek ye Yahweh, while he letteth himself be found.",
+        "Thou hast requited me good, whereas I have requited me evil.",
+        "Thou hast requited me good, whereas I have requited him evil.",
         "Thou hast requited me good, whereas I have requited thee evil.",
-        "Make me to tread in the path of thy commandments, for in it do I delight.",
-        "They honoured me with their lips."
+        "Thou hast requited him good, whereas I have requited thee evil."
       ],
       "answer": "Thou hast requited me good, whereas I have requited thee evil.",
       "optionIsScript": false,
-      "id": "s31-B1",
       "block": "s31",
       "blockLabel": "Davidson §31",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 B 1; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
-        "exwb": "davidson-s31#B1",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s31-B1"
     },
     {
+      "id": "s31-B1.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Thou hast requited me good, whereas I have requited thee evil.",
+      "stimulus": "אַתָּה גְּמַלְתַּנִי הַטּוֹבָה וַאֲנִי ＿＿＿ הָרָעָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "גְּמַלְתִּיךָ"
+      ],
+      "answerIsScript": true,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-B1"
+    },
+    {
+      "id": "s31-B1.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "אַתָּה גְּמַלְתַּנִי הַטּוֹבָה וַאֲנִי גְּמַלְתִּיךָ הָרָעָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Thou hast requited me good, whereas I have requited thee evil.",
+        "You have requited me good, whereas I have requited you evil."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-B1"
+    },
+    {
+      "id": "s31-B1.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Thou hast requited me good, whereas I have requited thee evil.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אַתָּה גְּמַלְתַּנִי הַטּוֹבָה וַאֲנִי גְּמַלְתִּיךָ הָרָעָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-B1"
+    },
+    {
+      "id": "s31-B2.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "כִּבְּדוּנִי בִּשְׂפָתֵיהֶם",
+      "stimulusIsScript": true,
+      "statement": "They honoured us with their lips.",
+      "answer": false,
+      "expected": "They honoured me with their lips.",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-B2"
+    },
+    {
+      "id": "s31-B2.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "כִּבְּדוּנִי בִּשְׂפָתֵיהֶם",
       "stimulusIsScript": true,
       "options": [
-        "Make me to tread in the path of thy commandments, for in it do I delight.",
-        "Thou hast requited me good, whereas I have requited thee evil.",
-        "Seek ye Yahweh, while he letteth himself be found.",
+        "We honoured me with their lips.",
+        "They honoured us with their lips.",
+        "They honoured me with his lips.",
         "They honoured me with their lips."
       ],
       "answer": "They honoured me with their lips.",
       "optionIsScript": false,
-      "id": "s31-B2",
       "block": "s31",
       "blockLabel": "Davidson §31",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 B 2; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
-        "exwb": "davidson-s31#B2",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s31-B2"
     },
     {
+      "id": "s31-B2.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: They honoured me with their lips.",
+      "stimulus": "כִּבְּדוּנִי ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "בִּשְׂפָתֵיהֶם"
+      ],
+      "answerIsScript": true,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-B2"
+    },
+    {
+      "id": "s31-B2.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "כִּבְּדוּנִי בִּשְׂפָתֵיהֶם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "They honoured me with their lips."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-B2"
+    },
+    {
+      "id": "s31-B2.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "They honoured me with their lips.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "כִּבְּדוּנִי בִּשְׂפָתֵיהֶם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-B2"
+    },
+    {
+      "id": "s31-B3.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "שְׁמֹר אֶת־דִּבְרֵי יהוה כָּתְבֵם עַל־לוּחַ לִבֶּךָ",
+      "stimulusIsScript": true,
+      "statement": "Keep thou the words of Yahweh, write them on a tablet of thy heart.",
+      "answer": false,
+      "expected": "Keep thou the words of Yahweh, write them on the tablet of thy heart.",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-B3"
+    },
+    {
+      "id": "s31-B3.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "שְׁמֹר אֶת־דִּבְרֵי יהוה כָּתְבֵם עַל־לוּחַ לִבֶּךָ",
       "stimulusIsScript": true,
       "options": [
-        "Seek peace and pursue it.",
-        "Seek ye Yahweh, while he letteth himself be found.",
+        "Keep thou the words of Yahweh, write him on the tablet of thy heart.",
         "Keep thou the words of Yahweh, write them on the tablet of thy heart.",
-        "They honoured me with their lips."
+        "Keep thou the words of Yahweh, write them on the tablet of your heart.",
+        "Keep thou the words of Yahweh, write them on a tablet of thy heart."
       ],
       "answer": "Keep thou the words of Yahweh, write them on the tablet of thy heart.",
       "optionIsScript": false,
-      "id": "s31-B3",
       "block": "s31",
       "blockLabel": "Davidson §31",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 B 3; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
-        "exwb": "davidson-s31#B3",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s31-B3"
     },
     {
+      "id": "s31-B3.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Keep thou the words of Yahweh, write them on the tablet of thy heart.",
+      "stimulus": "שְׁמֹר אֶת־דִּבְרֵי יהוה כָּתְבֵם ＿＿＿ לִבֶּךָ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "עַל־לוּחַ"
+      ],
+      "answerIsScript": true,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-B3"
+    },
+    {
+      "id": "s31-B3.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "שְׁמֹר אֶת־דִּבְרֵי יהוה כָּתְבֵם עַל־לוּחַ לִבֶּךָ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Keep thou the words of Yahweh, write them on the tablet of thy heart.",
+        "Keep thou the words of the Lord, write them on the tablet of thy heart.",
+        "Keep you the words of Yahweh, write them on the tablet of your heart.",
+        "Keep you the words of the Lord, write them on the tablet of your heart."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-B3"
+    },
+    {
+      "id": "s31-B3.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Keep thou the words of Yahweh, write them on the tablet of thy heart.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שְׁמֹר אֶת־דִּבְרֵי יהוה כָּתְבֵם עַל־לוּחַ לִבֶּךָ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-B3"
+    },
+    {
+      "id": "s31-B4.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "בַּקֵּשׁ שָׁלוֹם וְרָדְפֵהוּ",
+      "stimulusIsScript": true,
+      "statement": "Seek peace and pursue it.",
+      "answer": true,
+      "expected": "Seek peace and pursue it.",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-B4"
+    },
+    {
+      "id": "s31-B4.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "בַּקֵּשׁ שָׁלוֹם וְרָדְפֵהוּ",
       "stimulusIsScript": true,
       "options": [
-        "Make me to tread in the path of thy commandments, for in it do I delight.",
         "Seek peace and pursue it.",
-        "Moses slew the Egyptian and hid him in the sand.",
-        "Yahweh will keep thee from all evil, he will keep thy soul."
+        "He will gather thee (m.)",
+        "I have kept thee (m.)",
+        "I have gathered thee."
       ],
       "answer": "Seek peace and pursue it.",
       "optionIsScript": false,
-      "id": "s31-B4",
       "block": "s31",
       "blockLabel": "Davidson §31",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 B 4; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
-        "exwb": "davidson-s31#B4",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s31-B4"
     },
     {
+      "id": "s31-B4.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Seek peace and pursue it.",
+      "stimulus": "בַּקֵּשׁ שָׁלוֹם ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וְרָדְפֵהוּ"
+      ],
+      "answerIsScript": true,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-B4"
+    },
+    {
+      "id": "s31-B4.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "בַּקֵּשׁ שָׁלוֹם וְרָדְפֵהוּ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Seek peace and pursue it."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-B4"
+    },
+    {
+      "id": "s31-B4.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Seek peace and pursue it.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בַּקֵּשׁ שָׁלוֹם וְרָדְפֵהוּ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-B4"
+    },
+    {
+      "id": "s31-B5.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַדְרִיכֵנִי בִּנְתִיב מִצְוֹתֶיךָ כִּי בוֹ חָפָצְתִּי",
+      "stimulusIsScript": true,
+      "statement": "Make me to tread in the path of thy commandments, for in it do I delight.",
+      "answer": true,
+      "expected": "Make me to tread in the path of thy commandments, for in it do I delight.",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-B5"
+    },
+    {
+      "id": "s31-B5.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "הַדְרִיכֵנִי בִּנְתִיב מִצְוֹתֶיךָ כִּי בוֹ חָפָצְתִּי",
       "stimulusIsScript": true,
       "options": [
-        "Yahweh will keep thee from all evil, he will keep thy soul.",
-        "Seek peace and pursue it.",
-        "They honoured me with their lips.",
-        "Make me to tread in the path of thy commandments, for in it do I delight."
+        "Make me to tread from the path of thy commandments, for in it do I delight.",
+        "Make me to tread in the path of his commandments, for in it do I delight.",
+        "Make me to tread in the path of thy commandments, for in it do I delight.",
+        "Make me to tread in the path of thy commandments, for in it do they delight."
       ],
       "answer": "Make me to tread in the path of thy commandments, for in it do I delight.",
       "optionIsScript": false,
-      "id": "s31-B5",
       "block": "s31",
       "blockLabel": "Davidson §31",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 B 5; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
-        "exwb": "davidson-s31#B5",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s31-B5"
     },
     {
+      "id": "s31-B5.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Make me to tread in the path of thy commandments, for in it do I delight.",
+      "stimulus": "הַדְרִיכֵנִי ＿＿＿ מִצְוֹתֶיךָ כִּי בוֹ חָפָצְתִּי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "בִּנְתִיב"
+      ],
+      "answerIsScript": true,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-B5"
+    },
+    {
+      "id": "s31-B5.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הַדְרִיכֵנִי בִּנְתִיב מִצְוֹתֶיךָ כִּי בוֹ חָפָצְתִּי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Make me to tread in the path of thy commandments, for in it do I delight.",
+        "Make me to tread in the path of your commandments, for in it do I delight."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-B5"
+    },
+    {
+      "id": "s31-B5.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Make me to tread in the path of thy commandments, for in it do I delight.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַדְרִיכֵנִי בִּנְתִיב מִצְוֹתֶיךָ כִּי בוֹ חָפָצְתִּי"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-B5"
+    },
+    {
+      "id": "s31-B7.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָרַג מֹשֶׁה אֶת־הַמִּצְרִי וַיִּטְמְנֵהוּ בַּחוֹל",
+      "stimulusIsScript": true,
+      "statement": "Moses slew the Egyptian and hid him in the sand.",
+      "answer": true,
+      "expected": "Moses slew the Egyptian and hid him in the sand.",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-B7"
+    },
+    {
+      "id": "s31-B7.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
-      "stimulus": "הרג משה את־המצרי ויטמנהו בחול",
+      "stimulus": "הָרַג מֹשֶׁה אֶת־הַמִּצְרִי וַיִּטְמְנֵהוּ בַּחוֹל",
       "stimulusIsScript": true,
       "options": [
-        "Seek ye Yahweh, while he letteth himself be found.",
-        "Keep thou the words of Yahweh, write them on the tablet of thy heart.",
-        "Moses slew the Egyptian and hid him in the sand.",
-        "Seek peace and pursue it."
+        "Moses slew the Egyptian and hid me in the sand.",
+        "Moses slew the Egyptian and hid him from the sand.",
+        "Moses slew the Egyptian and hid him in a sand.",
+        "Moses slew the Egyptian and hid him in the sand."
       ],
       "answer": "Moses slew the Egyptian and hid him in the sand.",
       "optionIsScript": false,
-      "id": "s31-B7",
       "block": "s31",
       "blockLabel": "Davidson §31",
       "shape": "he-en",
-      "hint": "With vowel points: הָרַג מֹשֶׁה אֶת־הַמִּצְרִי וַיִּטְמְנֵהוּ בַּחוֹל",
-      "data": {
-        "pointed": "הָרַג מֹשֶׁה אֶת־הַמִּצְרִי וַיִּטְמְנֵהוּ בַּחוֹל"
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 B 7; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
-        "exwb": "davidson-s31#B7",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s31-B7"
     },
     {
+      "id": "s31-B7.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Moses slew the Egyptian and hid him in the sand.",
+      "stimulus": "הָרַג מֹשֶׁה אֶת־הַמִּצְרִי וַיִּטְמְנֵהוּ ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "בַּחוֹל"
+      ],
+      "answerIsScript": true,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-B7"
+    },
+    {
+      "id": "s31-B7.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הרג משה את־המצרי ויטמנהו בחול",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Moses slew the Egyptian and hid him in the sand."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "hint": "With vowel points: הָרַג מֹשֶׁה אֶת־הַמִּצְרִי וַיִּטְמְנֵהוּ בַּחוֹל",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-B7"
+    },
+    {
+      "id": "s31-B7.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Moses slew the Egyptian and hid him in the sand.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָרַג מֹשֶׁה אֶת־הַמִּצְרִי וַיִּטְמְנֵהוּ בַּחוֹל"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-B7"
+    },
+    {
+      "id": "s31-B8.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "יְהוָה יִשְׁמָרְךָ מִכָּל־רָע יִשְׁמֹר אֶת־נַפְשֶׁךָ",
+      "stimulusIsScript": true,
+      "statement": "Yahweh will keep thee from all evil, he will keep your soul.",
+      "answer": false,
+      "expected": "Yahweh will keep thee from all evil, he will keep thy soul.",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-B8"
+    },
+    {
+      "id": "s31-B8.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
-      "stimulus": "יהוה ישמרך מכל־רע ישמר את־נפשך",
+      "stimulus": "יְהוָה יִשְׁמָרְךָ מִכָּל־רָע יִשְׁמֹר אֶת־נַפְשֶׁךָ",
       "stimulusIsScript": true,
       "options": [
-        "Seek ye Yahweh, while he letteth himself be found.",
-        "Moses slew the Egyptian and hid him in the sand.",
-        "Make me to tread in the path of thy commandments, for in it do I delight.",
+        "Yahweh will keep thee to all evil, he will keep thy soul.",
+        "Yahweh will keep thee from all evil, she will keep thy soul.",
+        "Yahweh will keep thee from all evil, he will keep your soul.",
         "Yahweh will keep thee from all evil, he will keep thy soul."
       ],
       "answer": "Yahweh will keep thee from all evil, he will keep thy soul.",
       "optionIsScript": false,
-      "id": "s31-B8",
       "block": "s31",
       "blockLabel": "Davidson §31",
       "shape": "he-en",
-      "hint": "With vowel points: יְהוָה יִשְׁמָרְךָ מִכָּל־רָע יִשְׁמֹר אֶת־נַפְשֶׁךָ",
-      "data": {
-        "pointed": "יְהוָה יִשְׁמָרְךָ מִכָּל־רָע יִשְׁמֹר אֶת־נַפְשֶׁךָ"
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 B 8; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
-        "exwb": "davidson-s31#B8",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s31-B8"
     },
     {
+      "id": "s31-B8.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Fill in the missing word: Yahweh will keep thee from all evil, he will keep thy soul.",
+      "stimulus": "יְהוָה יִשְׁמָרְךָ ＿＿＿ יִשְׁמֹר אֶת־נַפְשֶׁךָ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "מִכָּל־רָע"
+      ],
+      "answerIsScript": true,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-B8"
+    },
+    {
+      "id": "s31-B8.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "יהוה ישמרך מכל־רע ישמר את־נפשך",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Yahweh will keep thee from all evil, he will keep thy soul.",
+        "the Lord will keep thee from all evil, he will keep thy soul.",
+        "Yahweh will keep you from all evil, he will keep your soul.",
+        "the Lord will keep you from all evil, he will keep your soul."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "hint": "With vowel points: יְהוָה יִשְׁמָרְךָ מִכָּל־רָע יִשְׁמֹר אֶת־נַפְשֶׁךָ",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-B8"
+    },
+    {
+      "id": "s31-B8.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Yahweh will keep thee from all evil, he will keep thy soul.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "יְהוָה יִשְׁמָרְךָ מִכָּל־רָע יִשְׁמֹר אֶת־נַפְשֶׁךָ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-B8"
+    },
+    {
+      "id": "s31-C1.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "קִבַּצְתִּיךָ",
+      "stimulusIsScript": true,
+      "statement": "I have gathered him.",
+      "answer": false,
+      "expected": "I have gathered thee.",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "en-he",
+      "src": "s31-C1"
+    },
+    {
+      "id": "s31-C1.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "קִבַּצְתִּיךָ",
+      "stimulusIsScript": true,
+      "options": [
+        "I have gathered me.",
+        "I have gathered thee.",
+        "I have gathered him.",
+        "Keep (thou) me"
+      ],
+      "answer": "I have gathered thee.",
+      "optionIsScript": false,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "en-he",
+      "src": "s31-C1"
+    },
+    {
+      "id": "s31-C1.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "I have gathered thee.",
       "stimulusIsScript": false,
       "accepted": [
@@ -1046,226 +3420,813 @@
         "קִבַּצְתִּיךְ"
       ],
       "answerIsScript": true,
-      "id": "s31-C1",
       "block": "s31",
       "blockLabel": "Davidson §31",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 C 1; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
-        "exwb": "davidson-s31#C1",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s31-C1"
     },
     {
+      "id": "s31-C1.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "I have gathered thee.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "קִבַּצְתִּיךָ",
+        "קִבַּצְתִּיךְ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "en-he",
+      "src": "s31-C1"
+    },
+    {
+      "id": "s31-C2.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אֲקַבְּצֶנָּה מִיַּרְכְּתֵי הָאָרֶץ",
+      "stimulusIsScript": true,
+      "statement": "I will gather her from the sides of the earth.",
+      "answer": true,
+      "expected": "I will gather her from the sides of the earth.",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "en-he",
+      "src": "s31-C2"
+    },
+    {
+      "id": "s31-C2.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אֲקַבְּצֶנָּה מִיַּרְכְּתֵי הָאָרֶץ",
+      "stimulusIsScript": true,
+      "options": [
+        "I will gather her from the sides of the earth.",
+        "I will gather her from the sides of an earth.",
+        "They will gather her from the sides of the earth.",
+        "I will gather her to the sides of the earth."
+      ],
+      "answer": "I will gather her from the sides of the earth.",
+      "optionIsScript": false,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "en-he",
+      "src": "s31-C2"
+    },
+    {
+      "id": "s31-C2.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: I will gather her from the sides of the earth.",
+      "stimulus": "＿＿＿ מִיַּרְכְּתֵי הָאָרֶץ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֲקַבְּצֶנָּה"
+      ],
+      "answerIsScript": true,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "en-he",
+      "src": "s31-C2"
+    },
+    {
+      "id": "s31-C2.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "I will gather her from the sides of the earth.",
       "stimulusIsScript": false,
       "accepted": [
         "אֲקַבְּצֶנָּה מִיַּרְכְּתֵי הָאָרֶץ"
       ],
       "answerIsScript": true,
-      "id": "s31-C2",
       "block": "s31",
       "blockLabel": "Davidson §31",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 C 2; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
-        "exwb": "davidson-s31#C2",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s31-C2"
     },
     {
+      "id": "s31-C2.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "I will gather her from the sides of the earth.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֲקַבְּצֶנָּה מִיַּרְכְּתֵי הָאָרֶץ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "en-he",
+      "src": "s31-C2"
+    },
+    {
+      "id": "s31-C3.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וּשְׁמַרְתַּנִי בְּדַרְכֶּךָ",
+      "stimulusIsScript": true,
+      "statement": "And thou shalt keep me in thy way.",
+      "answer": true,
+      "expected": "And thou shalt keep me in thy way.",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "en-he",
+      "src": "s31-C3"
+    },
+    {
+      "id": "s31-C3.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וּשְׁמַרְתַּנִי בְּדַרְכֶּךָ",
+      "stimulusIsScript": true,
+      "options": [
+        "And thou shalt keep him in thy way.",
+        "And thou shalt keep me from thy way.",
+        "And thou shalt keep me in your way.",
+        "And thou shalt keep me in thy way."
+      ],
+      "answer": "And thou shalt keep me in thy way.",
+      "optionIsScript": false,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "en-he",
+      "src": "s31-C3"
+    },
+    {
+      "id": "s31-C3.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: And thou shalt keep me in thy way.",
+      "stimulus": "＿＿＿ בְּדַרְכֶּךָ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וּשְׁמַרְתַּנִי"
+      ],
+      "answerIsScript": true,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "en-he",
+      "src": "s31-C3"
+    },
+    {
+      "id": "s31-C3.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "And thou shalt keep me in thy way.",
       "stimulusIsScript": false,
       "accepted": [
         "וּשְׁמַרְתַּנִי בְּדַרְכֶּךָ"
       ],
       "answerIsScript": true,
-      "id": "s31-C3",
       "block": "s31",
       "blockLabel": "Davidson §31",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 C 3; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
-        "exwb": "davidson-s31#C3",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s31-C3"
     },
     {
+      "id": "s31-C3.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And thou shalt keep me in thy way.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וּשְׁמַרְתַּנִי בְּדַרְכֶּךָ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "en-he",
+      "src": "s31-C3"
+    },
+    {
+      "id": "s31-C4.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "שָׁמְרֵהוּ",
+      "stimulusIsScript": true,
+      "statement": "Keep thou me.",
+      "answer": false,
+      "expected": "Keep thou him.",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "en-he",
+      "src": "s31-C4"
+    },
+    {
+      "id": "s31-C4.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "שָׁמְרֵהוּ",
+      "stimulusIsScript": true,
+      "options": [
+        "She stole them",
+        "Keep thou him.",
+        "Keep thou me.",
+        "Keep thou them."
+      ],
+      "answer": "Keep thou him.",
+      "optionIsScript": false,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "en-he",
+      "src": "s31-C4"
+    },
+    {
+      "id": "s31-C4.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "Keep thou him.",
       "stimulusIsScript": false,
       "accepted": [
         "שָׁמְרֵהוּ"
       ],
       "answerIsScript": true,
-      "id": "s31-C4",
       "block": "s31",
       "blockLabel": "Davidson §31",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 C 4; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
-        "exwb": "davidson-s31#C4",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s31-C4"
     },
     {
+      "id": "s31-C4.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Keep thou him.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שָׁמְרֵהוּ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "en-he",
+      "src": "s31-C4"
+    },
+    {
+      "id": "s31-C5.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "לִפְנֵי שָׁמְרָהּ אֶת־הָאִישׁ",
+      "stimulusIsScript": true,
+      "statement": "Before she kept the man",
+      "answer": true,
+      "expected": "Before she kept the man",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "en-he",
+      "src": "s31-C5"
+    },
+    {
+      "id": "s31-C5.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "לִפְנֵי שָׁמְרָהּ אֶת־הָאִישׁ",
+      "stimulusIsScript": true,
+      "options": [
+        "Before she kept a man",
+        "Before he kept the man",
+        "Keep (thou) me",
+        "Before she kept the man"
+      ],
+      "answer": "Before she kept the man",
+      "optionIsScript": false,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "en-he",
+      "src": "s31-C5"
+    },
+    {
+      "id": "s31-C5.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Before she kept the man",
+      "stimulus": "＿＿＿ שָׁמְרָהּ אֶת־הָאִישׁ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "לִפְנֵי"
+      ],
+      "answerIsScript": true,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "en-he",
+      "src": "s31-C5"
+    },
+    {
+      "id": "s31-C5.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "Before she kept the man",
       "stimulusIsScript": false,
       "accepted": [
         "לִפְנֵי שָׁמְרָהּ אֶת־הָאִישׁ"
       ],
       "answerIsScript": true,
-      "id": "s31-C5",
       "block": "s31",
       "blockLabel": "Davidson §31",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 C 5; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
-        "exwb": "davidson-s31#C5",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s31-C5"
     },
     {
+      "id": "s31-C5.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Before she kept the man",
+      "stimulusIsScript": false,
+      "accepted": [
+        "לִפְנֵי שָׁמְרָהּ אֶת־הָאִישׁ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "en-he",
+      "src": "s31-C5"
+    },
+    {
+      "id": "s31-C7.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "שָׁפְטֵנִי כְּצִדְקִי",
+      "stimulusIsScript": true,
+      "statement": "Judge me according-to my righteousness.",
+      "answer": true,
+      "expected": "Judge me according-to my righteousness.",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "en-he",
+      "src": "s31-C7"
+    },
+    {
+      "id": "s31-C7.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "שָׁפְטֵנִי כְּצִדְקִי",
+      "stimulusIsScript": true,
+      "options": [
+        "Judge me according-in my righteousness.",
+        "Judge us according-to my righteousness.",
+        "Judge me according-to our righteousness.",
+        "Judge me according-to my righteousness."
+      ],
+      "answer": "Judge me according-to my righteousness.",
+      "optionIsScript": false,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "en-he",
+      "src": "s31-C7"
+    },
+    {
+      "id": "s31-C7.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Judge me according-to my righteousness.",
+      "stimulus": "שָׁפְטֵנִי ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "כְּצִדְקִי"
+      ],
+      "answerIsScript": true,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "en-he",
+      "src": "s31-C7"
+    },
+    {
+      "id": "s31-C7.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "Judge me according-to my righteousness.",
       "stimulusIsScript": false,
       "accepted": [
         "שָׁפְטֵנִי כְּצִדְקִי"
       ],
       "answerIsScript": true,
-      "id": "s31-C7",
       "block": "s31",
       "blockLabel": "Davidson §31",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 C 7; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
-        "exwb": "davidson-s31#C7",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s31-C7"
     },
     {
+      "id": "s31-C7.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Judge me according-to my righteousness.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שָׁפְטֵנִי כְּצִדְקִי"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "en-he",
+      "src": "s31-C7"
+    },
+    {
+      "id": "s31-C8.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אַל־נָא תִקְבְּרֵנִי בְּמִצְרָיִם וְשָׁכַבְתִּי עִם־אֲבֹתַי וּקְבַרְתַּנִי בִּקְבֻרָתָם",
+      "stimulusIsScript": true,
+      "statement": "Bury me not in Egypt, but I will lie with my fathers and thou shalt bury me in their burying-place.",
+      "answer": true,
+      "expected": "Bury me not in Egypt, but I will lie with my fathers and thou shalt bury me in their burying-place.",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "en-he",
+      "src": "s31-C8"
+    },
+    {
+      "id": "s31-C8.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אַל־נָא תִקְבְּרֵנִי בְּמִצְרָיִם וְשָׁכַבְתִּי עִם־אֲבֹתַי וּקְבַרְתַּנִי בִּקְבֻרָתָם",
+      "stimulusIsScript": true,
+      "options": [
+        "Bury me not in Egypt, but I will lie with his fathers and thou shalt bury me in their burying-place.",
+        "Bury him not in Egypt, but I will lie with my fathers and thou shalt bury me in their burying-place.",
+        "Bury me not from Egypt, but I will lie with my fathers and thou shalt bury me in their burying-place.",
+        "Bury me not in Egypt, but I will lie with my fathers and thou shalt bury me in their burying-place."
+      ],
+      "answer": "Bury me not in Egypt, but I will lie with my fathers and thou shalt bury me in their burying-place.",
+      "optionIsScript": false,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "en-he",
+      "src": "s31-C8"
+    },
+    {
+      "id": "s31-C8.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Bury me not in Egypt, but I will lie with my fathers and thou shalt bury me in their burying-place.",
+      "stimulus": "אַל־נָא תִקְבְּרֵנִי ＿＿＿ וְשָׁכַבְתִּי עִם־אֲבֹתַי וּקְבַרְתַּנִי בִּקְבֻרָתָם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "בְּמִצְרָיִם"
+      ],
+      "answerIsScript": true,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "en-he",
+      "src": "s31-C8"
+    },
+    {
+      "id": "s31-C8.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "Bury me not in Egypt, but I will lie with my fathers and thou shalt bury me in their burying-place.",
       "stimulusIsScript": false,
       "accepted": [
         "אַל־נָא תִקְבְּרֵנִי בְּמִצְרָיִם וְשָׁכַבְתִּי עִם־אֲבֹתַי וּקְבַרְתַּנִי בִּקְבֻרָתָם"
       ],
       "answerIsScript": true,
-      "id": "s31-C8",
       "block": "s31",
       "blockLabel": "Davidson §31",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 C 8; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
-        "exwb": "davidson-s31#C8",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s31-C8"
     },
     {
+      "id": "s31-C8.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Bury me not in Egypt, but I will lie with my fathers and thou shalt bury me in their burying-place.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אַל־נָא תִקְבְּרֵנִי בְּמִצְרָיִם וְשָׁכַבְתִּי עִם־אֲבֹתַי וּקְבַרְתַּנִי בִּקְבֻרָתָם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "en-he",
+      "src": "s31-C8"
+    },
+    {
+      "id": "s31-C9.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "מָה־אָדָם כִּי תִזְכְּרֶנּוּ וּבֶן־אָדָם כִּי תִפְקְדֶנּוּ",
+      "stimulusIsScript": true,
+      "statement": "What is man that thou rememberest him, or (and) a son of man that thou visitest him?",
+      "answer": false,
+      "expected": "What is man that thou rememberest him, or (and) the son of man that thou visitest him?",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "en-he",
+      "src": "s31-C9"
+    },
+    {
+      "id": "s31-C9.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "מָה־אָדָם כִּי תִזְכְּרֶנּוּ וּבֶן־אָדָם כִּי תִפְקְדֶנּוּ",
+      "stimulusIsScript": true,
+      "options": [
+        "What is man that thou rememberest him, or (and) a son of man that thou visitest him?",
+        "What is man that thou rememberest him, or (and) the son of man that thou visitest me?",
+        "What is man that thou rememberest him, or (and) the son of man that thou visitest him?",
+        "What is man that thou rememberest them, or (and) the son of man that thou visitest him?"
+      ],
+      "answer": "What is man that thou rememberest him, or (and) the son of man that thou visitest him?",
+      "optionIsScript": false,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "en-he",
+      "src": "s31-C9"
+    },
+    {
+      "id": "s31-C9.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: What is man that thou rememberest him, or (and) the son of man that thou visitest him?",
+      "stimulus": "מָה־אָדָם כִּי תִזְכְּרֶנּוּ וּבֶן־אָדָם כִּי ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "תִפְקְדֶנּוּ"
+      ],
+      "answerIsScript": true,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "en-he",
+      "src": "s31-C9"
+    },
+    {
+      "id": "s31-C9.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "What is man that thou rememberest him, or (and) the son of man that thou visitest him?",
       "stimulusIsScript": false,
       "accepted": [
         "מָה־אָדָם כִּי תִזְכְּרֶנּוּ וּבֶן־אָדָם כִּי תִפְקְדֶנּוּ"
       ],
       "answerIsScript": true,
-      "id": "s31-C9",
       "block": "s31",
       "blockLabel": "Davidson §31",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 C 9; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
-        "exwb": "davidson-s31#C9",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s31-C9"
     },
     {
+      "id": "s31-C9.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "What is man that thou rememberest him, or (and) the son of man that thou visitest him?",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מָה־אָדָם כִּי תִזְכְּרֶנּוּ וּבֶן־אָדָם כִּי תִפְקְדֶנּוּ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "en-he",
+      "src": "s31-C9"
+    },
+    {
+      "id": "s31-C10.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "צְרוּפָה אִמְרָתְךָ וְעַבְדְּךָ אֲהֵבָהּ",
+      "stimulusIsScript": true,
+      "statement": "His word is proved and thy servant loveth it.",
+      "answer": false,
+      "expected": "Thy word is proved and thy servant loveth it.",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "en-he",
+      "src": "s31-C10"
+    },
+    {
+      "id": "s31-C10.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "צְרוּפָה אִמְרָתְךָ וְעַבְדְּךָ אֲהֵבָהּ",
+      "stimulusIsScript": true,
+      "options": [
+        "His word is proved and thy servant loveth it.",
+        "Thy word is proved and my servant loveth it.",
+        "My word is proved and thy servant loveth it.",
+        "Thy word is proved and thy servant loveth it."
+      ],
+      "answer": "Thy word is proved and thy servant loveth it.",
+      "optionIsScript": false,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "en-he",
+      "src": "s31-C10"
+    },
+    {
+      "id": "s31-C10.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Thy word is proved and thy servant loveth it.",
+      "stimulus": "＿＿＿ אִמְרָתְךָ וְעַבְדְּךָ אֲהֵבָהּ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "צְרוּפָה"
+      ],
+      "answerIsScript": true,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "en-he",
+      "src": "s31-C10"
+    },
+    {
+      "id": "s31-C10.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "Thy word is proved and thy servant loveth it.",
       "stimulusIsScript": false,
       "accepted": [
         "צְרוּפָה אִמְרָתְךָ וְעַבְדְּךָ אֲהֵבָהּ"
       ],
       "answerIsScript": true,
-      "id": "s31-C10",
       "block": "s31",
       "blockLabel": "Davidson §31",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 C 10; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
-        "exwb": "davidson-s31#C10",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s31-C10"
     },
     {
+      "id": "s31-C10.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Thy word is proved and thy servant loveth it.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "צְרוּפָה אִמְרָתְךָ וְעַבְדְּךָ אֲהֵבָהּ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "en-he",
+      "src": "s31-C10"
+    },
+    {
+      "id": "s31-C12.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אָמַר לְהַזְכִּירוֹ לִפְנֵי כֹּהֲנֵי הַהֵיכָל",
+      "stimulusIsScript": true,
+      "statement": "He promised (said) to mention him before the priests of the temple.",
+      "answer": true,
+      "expected": "He promised (said) to mention him before the priests of the temple.",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "en-he",
+      "src": "s31-C12"
+    },
+    {
+      "id": "s31-C12.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אָמַר לְהַזְכִּירוֹ לִפְנֵי כֹּהֲנֵי הַהֵיכָל",
+      "stimulusIsScript": true,
+      "options": [
+        "He promised (said) to mention him before the priests of a temple.",
+        "He promised (said) to mention him before the priests of the temple.",
+        "She promised (said) to mention him before the priests of the temple.",
+        "He promised (said) to mention me before the priests of the temple."
+      ],
+      "answer": "He promised (said) to mention him before the priests of the temple.",
+      "optionIsScript": false,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "en-he",
+      "src": "s31-C12"
+    },
+    {
+      "id": "s31-C12.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: He promised (said) to mention him before the priests of the temple.",
+      "stimulus": "אָמַר לְהַזְכִּירוֹ ＿＿＿ כֹּהֲנֵי הַהֵיכָל",
+      "stimulusIsScript": true,
+      "accepted": [
+        "לִפְנֵי"
+      ],
+      "answerIsScript": true,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "en-he",
+      "src": "s31-C12"
+    },
+    {
+      "id": "s31-C12.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "He promised (said) to mention him before the priests of the temple.",
       "stimulusIsScript": false,
       "accepted": [
         "אָמַר לְהַזְכִּירוֹ לִפְנֵי כֹּהֲנֵי הַהֵיכָל"
       ],
       "answerIsScript": true,
-      "id": "s31-C12",
       "block": "s31",
       "blockLabel": "Davidson §31",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 C 12; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
-        "exwb": "davidson-s31#C12",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s31-C12"
+    },
+    {
+      "id": "s31-C12.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "He promised (said) to mention him before the priests of the temple.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אָמַר לְהַזְכִּירוֹ לִפְנֵי כֹּהֲנֵי הַהֵיכָל"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "en-he",
+      "src": "s31-C12"
     }
   ]
 }

@@ -104,7 +104,16 @@ one item. `#/<slug>/drill` (no seed) starts a fresh session with a new seed. All
 question, so a link reproduces the same questions in any browser. The open session (seed,
 position, score) is saved in progress after every answer; a reload or the lesson's
 "Resume drills" button continues it. Sessions pick a unit's not-yet-answered-right items first.
-Each question shows its item code (`Item s20-B3`) so a student can report a specific item.
+Each question shows its item code (`Item s20-B3.tf`) so a student can report a specific item.
+
+### The exercise ladder (P12-T4)
+
+Davidson units have five rungs (true/false, choose, fill in, translate, translate with vowel points;
+`docs/EXERCISE-TYPES.md` §6b). A session climbs from the lowest rung with items not yet answered right; right
+answers are stored per rung in `progress.units[n].done`. The next unit unlocks when rungs 1…`unlockRung` are all
+right once; the roadmap shows a star per completed rung (`authored/ladder.json` gives the totals), and the lesson
+lists the ladder with a progress bar and a Practice link (`#/<slug>/rung/<n>/<seed>/<q>`) per rung, plus the
+Davidson sections. The on-screen keyboard pads the page while open so it never covers the Check button.
 
 ### Lesson gate
 

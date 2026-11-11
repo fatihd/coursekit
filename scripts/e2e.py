@@ -108,15 +108,25 @@ def load_authored(course):
     base = Path(course) / "authored"
     if not base.is_dir():
         return authored
-    for p in sorted(base.glob("*.json")):
+    for p in sorted(base.glob("[0-9][0-9].json")):
         data = json.loads(p.read_text(encoding="utf-8"))
         authored[data.get("unit")] = data.get("items", [])
     return authored
 
 
 def answer_authored(page, items):
-    for it in items:
+    code = page.text_content(".drill-item-code") if page.query_selector(".drill-item-code") else ""
+    exact = [it for it in items if code == f"Item {it.get('id')}"]
+    for it in exact or items:
         t = it.get("type")
+        if t == "true-false":
+            stim_el = page.query_selector(".ex--tf .ex-stimulus")
+            st_el = page.query_selector(".ex--tf .ex-statement")
+            if stim_el and st_el and stim_el.text_content().strip() == it.get("stimulus") \
+                    and st_el.text_content().strip() == it.get("statement"):
+                page.click(f".ex--tf .ex-option[data-value='{'true' if it['answer'] else 'false'}']")
+                return True
+            continue
         if t in ("mcq", "paradigm-tag", "root-pattern-compose", "spot-error", "flash-timed"):
             stim_el = page.query_selector(".ex--mcq .ex-stimulus")
             if stim_el and stim_el.text_content().strip() == it.get("stimulus"):
@@ -126,7 +136,9 @@ def answer_authored(page, items):
                         return True
         elif t == "translate-phrase":
             stim_el = page.query_selector(".ex--translate .ex-stimulus")
-            if stim_el and stim_el.text_content().strip() == it.get("stimulus"):
+            prompt_el = page.query_selector(".ex--translate .ex-prompt")
+            if stim_el and stim_el.text_content().strip() == it.get("stimulus") \
+                    and (not prompt_el or prompt_el.text_content().strip() == it.get("prompt")):
                 page.fill(".ex--translate .ex-text", it["accepted"][0])
                 return True
         elif t == "translit-normalize":
@@ -168,8 +180,14 @@ def click_option(page, selector, answer):
 
 
 def answer_current(page, vocab, unit_n, authored=None):
-    if authored and answer_authored(page, authored.get(unit_n, [])):
-        return
+    if authored:
+        code_el = page.query_selector(".drill-item-code")
+        code = code_el.text_content().removeprefix("Item ") if code_el else None
+        by_id = {it.get("id"): it for items in authored.values() for it in items if it.get("id")}
+        if code in by_id and answer_authored(page, [by_id[code]]):
+            return
+        if answer_authored(page, authored.get(unit_n, [])):
+            return
 
     unit_map = vocab["by_unit"].get(unit_n, {})
     unit_gloss = vocab["unit_gloss"].get(unit_n, {})
@@ -258,26 +276,29 @@ def answer_current(page, vocab, unit_n, authored=None):
     raise RuntimeError("unknown question type")
 
 
-def run_drill(page, vocab, unit_n, authored=None):
-    page.click(f".unit[data-unit='{unit_n}']")
-    page.wait_for_selector(".lesson-title")
-    page.click(".gate-btn")
-    page.wait_for_selector(".drill-stage")
-
+def run_drill(page, vocab, unit_n, authored=None, max_sessions=80):
+    """Play sessions of a unit until it is done (one session for vocabulary units, several for a ladder)."""
     qcount = 0
-    while True:
-        if page.query_selector(".drill-result"):
+    result = ""
+    for _ in range(max_sessions):
+        page.click(f".unit[data-unit='{unit_n}']")
+        page.wait_for_selector(".lesson-title")
+        page.click(".gate .gate-btn")
+        page.wait_for_selector(".drill-stage")
+        while True:
+            if page.query_selector(".drill-result"):
+                break
+            qcount += 1
+            answer_current(page, vocab, unit_n, authored)
+            page.click(".drill-feedback .gate-btn")
+            page.wait_for_selector(".drill-feedback .gate-btn")
+            page.click(".drill-feedback .gate-btn:not(.drill-selfcheck-no)")
+            page.wait_for_selector(".drill-stage, .drill-result")
+        result = page.text_content(".drill-result").strip()
+        page.click(".gate-btn")
+        page.wait_for_selector(".roadmap")
+        if "unit--done" in (page.get_attribute(f".unit[data-unit='{unit_n}']", "class") or ""):
             break
-        qcount += 1
-        answer_current(page, vocab, unit_n, authored)
-        page.click(".drill-feedback .gate-btn")
-        page.wait_for_selector(".drill-feedback .gate-btn")
-        page.click(".drill-feedback .gate-btn")
-        page.wait_for_selector(".drill-stage, .drill-result")
-
-    result = page.text_content(".drill-result").strip()
-    page.click(".gate-btn")
-    page.wait_for_selector(".roadmap")
     return qcount, result
 
 
@@ -455,7 +476,9 @@ async () => {
     document.body.appendChild(node);
     let answer = null;
     try {
-      if (item.left) {
+      if (item.type === "true-false") {
+        node.querySelector(`.ex-option[data-value='${item.answer}']`).click();
+      } else if (item.left) {
         node.querySelectorAll(".ex-select").forEach((sel) => { sel.value = item.answer[sel.dataset.left]; });
       } else if (item.words) {
         node.querySelectorAll(".ex-select").forEach((sel) => {
@@ -486,7 +509,7 @@ async () => {
       continue;
     }
     const res = t.grade(item, answer);
-    results.push({ type: item.type, ok: res.correct === true && !!answer, error: res.correct ? "" : "expected correct" });
+    results.push({ type: item.type, ok: res.correct === true && answer !== null && answer !== undefined, error: res.correct ? "" : "expected correct" });
     node.remove();
   }
   return results;
@@ -510,6 +533,19 @@ async () => {
   }
   const items = buildSession(course, pool, { unitN: unit, vocabList: vocab.items, progress: { units: {} }, authored, features: course.features || {} });
   const authoredSet = new Set(authored);
+  if (authored.some((i) => i.rung)) {
+    const climb = items.filter((i) => authoredSet.has(i));
+    const target = (course.features || {}).targetItems || 14;
+    const lowest = Math.min(...authored.map((i) => i.rung));
+    const ordered = climb.every((i, k) => k === 0 || climb[k - 1].rung <= i.rung);
+    const filled = items.length === Math.min(target, items.length - climb.length + authored.length);
+    return {
+      unit, authoredCount: authored.length, sessionCount: items.length, ladder: true,
+      inSession: climb.length > 0 && climb[0].rung === lowest && filled,
+      beforeGenerated: ordered,
+      types: items.map((i) => i.rung ? `${i.type}@${i.rung}` : i.type),
+    };
+  }
   const firstAuthored = items.findIndex((i) => authoredSet.has(i));
   const generatedStart = items.findIndex((i) => !i.spiral && !authoredSet.has(i));
   const cap = (course.features || {}).authoredPerSession || authored.length;
@@ -534,7 +570,7 @@ def _authored_units(course):
     import glob as _glob
 
     base = Path(course) / "authored"
-    return sorted(int(Path(f).stem) for f in _glob.glob(str(base / "*.json")))
+    return sorted(int(Path(f).stem) for f in _glob.glob(str(base / "[0-9][0-9].json")))
 
 
 def run_authored_harness(page, failures, benchmark_units=None):
@@ -549,8 +585,12 @@ def run_authored_harness(page, failures, benchmark_units=None):
         if "error" in mix:
             check(False, f"session mix loads authored/{unit:02d}.json ({mix['error']})", failures)
             continue
-        check(mix["inSession"], f"session mix (unit {unit}) includes every authored item (or authoredPerSession of them)", failures)
-        check(mix["beforeGenerated"], f"authored items (unit {unit}) precede generated fill", failures)
+        if mix.get("ladder"):
+            check(mix["inSession"], f"ladder session (unit {unit}) starts at the lowest rung and fills the session", failures)
+            check(mix["beforeGenerated"], f"ladder session (unit {unit}) climbs in rung order", failures)
+        else:
+            check(mix["inSession"], f"session mix (unit {unit}) includes every authored item (or authoredPerSession of them)", failures)
+            check(mix["beforeGenerated"], f"authored items (unit {unit}) precede generated fill", failures)
         print(f"  session mix unit {unit}: {mix['authoredCount']} authored items in a {mix['sessionCount']}-item session, types={mix['types']}")
     return len(results)
 
@@ -730,8 +770,9 @@ def run_course_shapes(page, authored, failures):
     for unit in sorted(authored):
         for it in authored[unit]:
             shape = it.get("shape")
-            if shape and shape not in picked:
-                picked[shape] = it
+            key = f"{shape} rung {it['rung']}" if it.get("rung") else shape
+            if shape and key not in picked:
+                picked[key] = it
     if not picked:
         return 0
     results = page.evaluate(AUTHORED_HARNESS_JS % {"samples": json.dumps(list(picked.values()), ensure_ascii=False)})
@@ -806,12 +847,198 @@ def run_routes(browser, page, url, vocab, authored, course_dir, failures):
 
     merged = page.evaluate("""async () => {
       const { mergeProgress } = await import(window.location.origin + "/engine/store.js");
-      const p = (blocks) => ({ units: { 5: { state: "in-progress", blocks } }, currentUnit: 5, knownSet: [], xp: 0, student: {} });
-      const m = mergeProgress(p({ s1: { correct: ["s1-A1", "s1-A2"] } }), p({ s1: { correct: ["s1-A2", "s1-A3"] }, s2: { correct: ["s2-B1"] } }));
-      return m.units[5].blocks;
+      const p = (done) => ({ units: { 5: { state: "in-progress", done } }, currentUnit: 5, knownSet: [], xp: 0, student: {} });
+      const m = mergeProgress(p({ 1: ["s1-A1.tf", "s1-A2.tf"] }), p({ 1: ["s1-A2.tf", "s1-A3.tf"], 2: ["s1-A1.choice"] }));
+      return m.units[5].done;
     }""")
-    check(sorted(merged["s1"]["correct"]) == ["s1-A1", "s1-A2", "s1-A3"] and merged["s2"]["correct"] == ["s2-B1"],
-          "importing progress merges right answers per block (union)", failures)
+    check(sorted(merged["1"]) == ["s1-A1.tf", "s1-A2.tf", "s1-A3.tf"] and merged["2"] == ["s1-A1.choice"],
+          "importing progress merges right answers per rung (union)", failures)
+    return 1
+
+
+GRADE_JS = r"""
+async ([item, answers]) => {
+  const origin = window.location.origin;
+  const { getType } = await import(origin + "/engine/exercise-types/index.js");
+  const course = await (await fetch(origin + "/course.json")).json();
+  const t = getType(item.type);
+  return answers.map((a) => {
+    const node = t.render(item, { course });
+    document.body.appendChild(node);
+    const r = t.grade(item, a);
+    if (t.annotate) t.annotate(node, item, a, r);
+    const out = { correct: r.correct, selfCheck: !!r.selfCheck, message: r.message || "",
+                  red: node.querySelectorAll(".pt-no").length };
+    node.remove();
+    return out;
+  });
+}
+"""
+
+
+def run_ladder(browser, page, url, vocab, authored, course_dir, failures):
+    """P12-T2/T3/T4: rungs in order, pointed grading with red marks, typed English with self-check, unlock."""
+    course = json.loads((Path(course_dir) / "course.json").read_text(encoding="utf-8"))
+    base = url.split("#")[0]
+    units = {u["n"]: u for u in course["units"]}
+    n = max((u for u in authored if any(it.get("rung") for it in authored[u])), key=lambda u: len(authored[u]))
+    slug = units[n].get("slug") or f"u{n}"
+    items = authored[n]
+
+    page.goto(f"{base}#/{slug}")
+    page.wait_for_selector(".ladder-row")
+    rungs = [r.get_attribute("data-rung") for r in page.query_selector_all(".ladder-row")]
+    check(rungs == ["1", "2", "3", "4", "5"], f"unit {n} shows a five-rung ladder ({rungs})", failures)
+    page.click(".gate .gate-btn")
+    page.wait_for_selector(".drill-progress")
+    labels, seen = [], 0
+    while not page.query_selector(".drill-result") and seen < 40:
+        if not page.query_selector(".drill-review-tag"):
+            labels.append(page.text_content(".drill-progress"))
+        answer_current(page, vocab, n, authored)
+        page.click(".drill-feedback .gate-btn")
+        page.wait_for_selector(".drill-feedback .gate-btn")
+        page.click(".drill-feedback .gate-btn")
+        page.wait_for_selector(".drill-stage, .drill-result")
+        seen += 1
+    ladder_labels = [x.split("· ")[1] for x in labels if "· " in x]
+    check(ladder_labels and set(ladder_labels) == {"True or false"},
+          f"a first session climbs from rung 1 ({sorted(set(ladder_labels))})", failures)
+
+    pointed = next(it for it in items if it.get("pointing") == "required" and " " in it["accepted"][0]
+                   and re.search("[\u05b7\u05b8]", it["accepted"][0]))
+    key = pointed["accepted"][0]
+    wrong = key.replace("\u05b8", "\u05b7", 1) if "\u05b8" in key else key.replace("\u05b7", "\u05b8", 1)
+    bare = re.sub("[\u0591-\u05c7]", "", key)
+    maqqef = key.replace(" ", "\u05be", 1)
+    r = page.evaluate(GRADE_JS, [pointed, [key, wrong, bare, maqqef]])
+    check(r[0]["correct"], "pointed rung: the Key's pointing is correct", failures)
+    check(not r[1]["correct"] and r[1]["red"] >= 1, f"pointed rung: one wrong vowel is wrong and marked red ({r[1]['red']})", failures)
+    check(not r[2]["correct"] and "required" in r[2]["message"], "pointed rung: an unpointed answer is wrong, with a message", failures)
+    check(r[3]["correct"], "pointed rung: maqqef and space are interchangeable", failures)
+    pausal = next((it for it in items if it.get("pointing") == "required" and len(it["accepted"]) > 1), None)
+    if pausal:
+        r = page.evaluate(GRADE_JS, [pausal, pausal["accepted"]])
+        check(all(x["correct"] for x in r), f"pointed rung: every accepted form passes ({pausal['id']})", failures)
+
+    english = next(it for it in items if it.get("selfCheck"))
+    r = page.evaluate(GRADE_JS, [english, [english["accepted"][-1], "something quite different"]])
+    check(r[0]["correct"] and not r[1]["correct"] and r[1]["selfCheck"],
+          "typed English: a Key variant is right; anything else asks for self-check", failures)
+    page.goto(f"{base}#/{slug}/item/{english['id']}")
+    page.wait_for_selector(".ex--translate .ex-text")
+    page.fill(".ex--translate .ex-text", "something quite different")
+    page.click(".drill-feedback .gate-btn")
+    page.wait_for_selector(".drill-selfcheck-yes")
+    page.click(".drill-selfcheck-yes")
+    page.wait_for_selector(".drill-ok")
+    check("Marked right" in page.text_content(".drill-ok"), "self-check: 'I had it right' counts the answer right", failures)
+
+    limit = (course.get("features") or {}).get("unlockRung", 3)
+    small = min((u for u in authored if any(it.get("rung") for it in authored[u]) and u > 13),
+                key=lambda u: len([it for it in authored[u] if it.get("rung", 9) <= limit]))
+    need = [it for it in authored[small] if it.get("rung") and it["rung"] <= limit]
+    done = {}
+    for it in need[:-1]:
+        done.setdefault(str(it["rung"]), []).append(it["id"])
+    cid = course["id"]
+    page.evaluate("""([cid, n, done]) => {
+      const k = "lang-research.progress." + cid;
+      const p = JSON.parse(localStorage.getItem(k));
+      p.units[n] = { state: "in-progress", lessonRead: true, done };
+      p.currentUnit = n;
+      p.sessions = {};
+      localStorage.setItem(k, JSON.stringify(p));
+    }""", [cid, small, done])
+    last = need[-1]
+    page.goto(f"{base}#/{units[small].get('slug')}/item/{last['id']}")
+    page.reload()
+    page.wait_for_selector(".drill-stage")
+    answer_authored(page, [last])
+    page.click(".drill-feedback .gate-btn")
+    page.wait_for_selector(".drill-ok, .drill-no")
+    page.goto(f"{base}#/")
+    page.wait_for_selector(".roadmap")
+    cls = page.get_attribute(f".unit[data-unit='{small}']", "class") or ""
+    nxt = page.get_attribute(f".unit[data-unit='{small + 1}']", "class") or ""
+    check("unit--done" in cls and ("unit--available" in nxt or "unit--done" in nxt),
+          f"unit {small} unlocks the next once rungs 1–{limit} are all right", failures)
+    stars = page.text_content(f".unit[data-unit='{small}'] .unit-stars") or ""
+    check(stars.startswith("★" * limit), f"unit {small} tile shows {limit} stars ({stars})", failures)
+    return 1
+
+
+REVIEW_JS = r"""
+async () => {
+  const origin = window.location.origin;
+  const { reviewUnits, reviewPlanItems } = await import(origin + "/engine/knowledge.js");
+  const { buildSession } = await import(origin + "/engine/session.js");
+  const { withSeed } = await import(origin + "/engine/exercise-types/util.js");
+  const course = await (await fetch(origin + "/course.json")).json();
+  const vocab = (await (await fetch(origin + "/vocab.json")).json()).items;
+  const skills = {};
+  for (let n = 13; n < 30; n++) skills[n] = { correct: 9, attempts: 10 };
+  skills[18] = { correct: 1, attempts: 5 };
+  delete skills[20];
+  const order = withSeed("r", () => reviewUnits({ units: {}, skills }, Array.from({ length: 17 }, (_, i) => i + 13), 3));
+  const ladder = [1, 2, 3, 4].map((r) => ({ id: "x." + r, rung: r, type: "mcq" }));
+  const plan = [{ unit: 5, vocab: [], ladder, mastered: new Set(["x.1", "x.2"]), done: { 1: ["x.1"], 2: ["x.2"] } }];
+  const rung = reviewPlanItems(plan, 1)[0].item.rung;
+  const word = vocab.find((v) => v.unit === 24);
+  const sets = new Set();
+  for (const seed of ["a", "b", "c", "d", "e", "f"]) {
+    const items = withSeed(seed, () => buildSession(course, [], { unitN: 40, vocabList: vocab, authored: [], features: { ...course.features, reviewItems: 1 },
+      reviewPlan: [{ unit: 24, vocab: [word], ladder: [], mastered: new Set(), done: {} }] }));
+    sets.add(items[0].options.slice().sort().join("|"));
+  }
+  return { order, rung, optionSets: sets.size };
+}
+"""
+
+
+def run_review(page, url, vocab, authored, course_dir, failures):
+    """Review covers every earlier unit (gaps first), mixes sentences, varies wrong options, credits the source unit."""
+    r = page.evaluate(REVIEW_JS)
+    check(r["order"][:2] == [20, 18], f"review picks the unpractised unit, then the weakest ({r['order']})", failures)
+    check(r["rung"] == 3, f"a practised unit's sentence review goes one rung above its best ({r['rung']})", failures)
+    check(r["optionSets"] > 1, f"review wrong options vary between sessions ({r['optionSets']} sets)", failures)
+
+    course = json.loads((Path(course_dir) / "course.json").read_text(encoding="utf-8"))
+    later = next(u for u in course["units"] if u["n"] == 40)
+    base = url.split("#")[0]
+    page.goto(f"{base}#/")
+    plain = [u["n"] for u in course["units"] if u["n"] < 40 and not any(it.get("rung") for it in authored.get(u["n"], []))]
+    page.evaluate("""([cid, plain]) => {
+      const skills = {};
+      for (const n of plain) skills[n] = { correct: 10, attempts: 10 };
+      localStorage.setItem("lang-research.progress." + cid, JSON.stringify({
+        schema: "progress-v1.json", courseId: cid, student: { name: "", forkRemote: "" }, currentUnit: 1,
+        units: {}, knownSet: [], xp: 0, skills, updatedAt: null }));
+    }""", [course["id"], plain])
+    page.goto(f"{base}#/{later['slug']}")
+    page.reload()
+    page.wait_for_selector(".lesson-title")
+    check(bool(page.query_selector(".warmup-unit")), "skipping ahead: the lesson suggests earlier units to warm up on", failures)
+    page.click(".gate .gate-btn")
+    page.wait_for_selector(".drill-stage")
+    tags, credited = [], []
+    while page.query_selector(".drill-review-tag"):
+        tags.append(page.text_content(".drill-review-tag"))
+        code = (page.text_content(".drill-item-code") or "").removeprefix("Item ")
+        answer_current(page, vocab, 40, authored)
+        page.click(".drill-feedback .gate-btn")
+        page.wait_for_selector(".drill-feedback .gate-btn")
+        if page.query_selector(".drill-ok") and "." in code:
+            credited.append(code)
+        page.click(".drill-feedback .gate-btn")
+        page.wait_for_selector(".drill-stage, .drill-result")
+    units = [int(re.search(r"Unit (\d+)", t).group(1)) for t in tags if re.search(r"Unit (\d+)", t)]
+    check(len(tags) == (course.get("features") or {}).get("reviewItems", 2) and units and all(u < 40 for u in units),
+          f"skipping ahead: review questions come from earlier units ({units})", failures)
+    check(bool(credited), "review mixes in sentence-ladder items from earlier units", failures)
+    stored = json.loads(page.evaluate("cid => localStorage.getItem('lang-research.progress.' + cid)", course["id"]))
+    owners = {str(u): set(sum((stored["units"].get(str(u), {}).get("done", {}) or {}).values(), [])) for u in set(units)}
+    check(any(c in ids for c in credited for ids in owners.values()), "a right review answer counts toward its own unit's ladder", failures)
     return 1
 
 
@@ -947,6 +1174,11 @@ def main():
         help="keyboard navigation + on-screen Hebrew keyboard input",
     )
     ap.add_argument(
+        "--ladder",
+        action="store_true",
+        help="exercise ladder: rung order, pointed grading, typed English with self-check, unlock and stars",
+    )
+    ap.add_argument(
         "--routes",
         action="store_true",
         help="hash URLs, seeded sessions that resume after reload, item codes, per-block progress",
@@ -979,6 +1211,12 @@ def main():
                 print(f"=== exercise-type harness ({len(EXERCISE_TYPES)} types) ===")
                 n = run_type_harness(page, failures)
                 check(n == len(EXERCISE_TYPES), "harness returned a result per type", failures)
+                browser.close()
+            elif args.ladder:
+                print("=== exercise ladder ===")
+                check(run_ladder(browser, page, url, vocab, authored, args.course, failures) == 1,
+                      "course has ladder items", failures)
+                run_review(page, url, vocab, authored, args.course, failures)
                 browser.close()
             elif args.routes:
                 print("=== routes / sessions / block progress ===")
@@ -1030,13 +1268,13 @@ def main():
                         )
 
             stored = None
-            if not (args.exercise_types or args.authored or args.accessibility or args.keyboard or args.routes):
+            if not (args.exercise_types or args.authored or args.accessibility or args.keyboard or args.routes or args.ladder):
                 with open(f"{args.course}/course.json", encoding="utf-8") as f:
                     cid = json.load(f)["id"]
                 stored = page.evaluate("k => localStorage.getItem(k)", f"lang-research.progress.{cid}")
             browser.close()
 
-        if stored is not None or (not (args.exercise_types or args.authored or args.accessibility or args.keyboard or args.routes)):
+        if stored is not None or (not (args.exercise_types or args.authored or args.accessibility or args.keyboard or args.routes or args.ladder)):
             progress = json.loads(stored or "{}")
             for unit_n in range(1, args.units + 1):
                 state = progress.get("units", {}).get(str(unit_n), {}).get("state")
@@ -1070,6 +1308,8 @@ def main():
         print("\nE2E PASS — keyboard/single-option harness: Enter advances after checking; no single-option choices")
     elif args.routes:
         print("\nE2E PASS — routes: seeded URLs resume after reload, item codes, per-block progress")
+    elif args.ladder:
+        print("\nE2E PASS — ladder: rungs in order, pointed grading, English self-check, unlock and stars")
     else:
         print(f"\nE2E PASS — lessons 1..{args.units} complete, unit {args.units + 1} unlocked")
     return 0

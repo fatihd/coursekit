@@ -1,133 +1,502 @@
 {
   "schema": "authored-exercises-v1.json",
   "unit": 40,
+  "sources": {
+    "s23-B9": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §23 B 9; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n106/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n106.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n54/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n54.jpg",
+      "exwb": "davidson-s23#B9",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s23-B12": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §23 B 12; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n106/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n106.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n54/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n54.jpg",
+      "exwb": "davidson-s23#B12",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s23-B14": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §23 B 14; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n106/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n106.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n54/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n54.jpg",
+      "exwb": "davidson-s23#B14",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s30-B9": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §30 B 9; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n125/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n125.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n72/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n72.jpg",
+      "exwb": "davidson-s30#B9",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s48-A7": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §48 A 7; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n185/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n185.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n142/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n142.jpg",
+      "exwb": "davidson-s48#A7",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    }
+  },
   "items": [
     {
+      "id": "s23-B9.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "כֹּה אָמַר יְהוָה הִנֵּה אֲנִי נֹתֵן אֶת־הָעִיר הַזֹּאת בְּיַד מֶלֶךְ בָּבֶל וְשָׂרַף אֹתָהּ בָּאֵשׁ",
+      "stimulusIsScript": true,
+      "statement": "Thus saith (perf.) Yahweh: Behold I will-give (ptc.) this city into the hand of the king of Bābel, and he will burn it with fire.",
+      "answer": true,
+      "expected": "Thus saith (perf.) Yahweh: Behold I will-give (ptc.) this city into the hand of the king of Bābel, and he will burn it with fire.",
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "en-he",
+      "src": "s23-B9"
+    },
+    {
+      "id": "s23-B9.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "כֹּה אָמַר יְהוָה הִנֵּה אֲנִי נֹתֵן אֶת־הָעִיר הַזֹּאת בְּיַד מֶלֶךְ בָּבֶל וְשָׂרַף אֹתָהּ בָּאֵשׁ",
+      "stimulusIsScript": true,
+      "options": [
+        "Thus saith (perf.) Yahweh: Behold I will-give (ptc.) this city into the hand of the king of Bābel, and she will burn it with fire.",
+        "Thus saith (perf.) Yahweh: Behold I will-give (ptc.) that city into the hand of the king of Bābel, and he will burn it with fire.",
+        "Thus saith (perf.) Yahweh: Behold I will-give (ptc.) this city into the hand of the king of Bābel, and he will burn it with fire.",
+        "Thus saith (perf.) Yahweh: Behold I will-give (ptc.) this city into a hand of the king of Bābel, and he will burn it with fire."
+      ],
+      "answer": "Thus saith (perf.) Yahweh: Behold I will-give (ptc.) this city into the hand of the king of Bābel, and he will burn it with fire.",
+      "optionIsScript": false,
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "en-he",
+      "src": "s23-B9"
+    },
+    {
+      "id": "s23-B9.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Fill in the missing word: Thus saith (perf.) Yahweh: Behold I will-give (ptc.) this city into the hand of the king of Bābel, and he will burn it with fire.",
+      "stimulus": "כֹּה אָמַר ＿＿＿ הִנֵּה אֲנִי נֹתֵן אֶת־הָעִיר הַזֹּאת בְּיַד מֶלֶךְ בָּבֶל וְשָׂרַף אֹתָהּ בָּאֵשׁ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "יְהוָה"
+      ],
+      "answerIsScript": true,
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "en-he",
+      "src": "s23-B9"
+    },
+    {
+      "id": "s23-B9.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "Thus saith (perf.) Yahweh: Behold I will-give (ptc.) this city into the hand of the king of Bābel, and he will burn it with fire.",
       "stimulusIsScript": false,
       "accepted": [
         "כֹּה אָמַר יְהוָה הִנֵּה אֲנִי נֹתֵן אֶת־הָעִיר הַזֹּאת בְּיַד מֶלֶךְ בָּבֶל וְשָׂרַף אֹתָהּ בָּאֵשׁ"
       ],
       "answerIsScript": true,
-      "id": "s23-B9",
       "block": "s23",
       "blockLabel": "Davidson §23",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §23 B 9; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n106/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n106.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n54/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n54.jpg",
-        "exwb": "davidson-s23#B9",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s23-B9"
     },
     {
+      "id": "s23-B9.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Thus saith (perf.) Yahweh: Behold I will-give (ptc.) this city into the hand of the king of Bābel, and he will burn it with fire.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "כֹּה אָמַר יְהוָה הִנֵּה אֲנִי נֹתֵן אֶת־הָעִיר הַזֹּאת בְּיַד מֶלֶךְ בָּבֶל וְשָׂרַף אֹתָהּ בָּאֵשׁ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "en-he",
+      "src": "s23-B9"
+    },
+    {
+      "id": "s23-B12.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וְשָׁמַרְתָּ אֶת־תּוֹרָתוֹ תָּמִיד",
+      "stimulusIsScript": true,
+      "statement": "And thou shalt keep his law continually.",
+      "answer": true,
+      "expected": "And thou shalt keep his law continually.",
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "en-he",
+      "src": "s23-B12"
+    },
+    {
+      "id": "s23-B12.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וְשָׁמַרְתָּ אֶת־תּוֹרָתוֹ תָּמִיד",
+      "stimulusIsScript": true,
+      "options": [
+        "And thou shalt keep his law continually.",
+        "And thou shalt keep their law continually.",
+        "And thou shalt keep my law continually.",
+        "And thou shalt keep her law continually."
+      ],
+      "answer": "And thou shalt keep his law continually.",
+      "optionIsScript": false,
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "en-he",
+      "src": "s23-B12"
+    },
+    {
+      "id": "s23-B12.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: And thou shalt keep his law continually.",
+      "stimulus": "＿＿＿ אֶת־תּוֹרָתוֹ תָּמִיד",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וְשָׁמַרְתָּ"
+      ],
+      "answerIsScript": true,
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "en-he",
+      "src": "s23-B12"
+    },
+    {
+      "id": "s23-B12.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "And thou shalt keep his law continually.",
       "stimulusIsScript": false,
       "accepted": [
         "וְשָׁמַרְתָּ אֶת־תּוֹרָתוֹ תָּמִיד"
       ],
       "answerIsScript": true,
-      "id": "s23-B12",
       "block": "s23",
       "blockLabel": "Davidson §23",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §23 B 12; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n106/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n106.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n54/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n54.jpg",
-        "exwb": "davidson-s23#B12",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s23-B12"
     },
     {
+      "id": "s23-B12.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And thou shalt keep his law continually.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וְשָׁמַרְתָּ אֶת־תּוֹרָתוֹ תָּמִיד"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "en-he",
+      "src": "s23-B12"
+    },
+    {
+      "id": "s23-B14.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וְהָיָה כַנָּבִיא כַּכֹּהֵן",
+      "stimulusIsScript": true,
+      "statement": "And it shall be, like people, like priest, and I will visit his deeds upon him; and they shall eat, and not be satisfied, for Yahweh they have forsaken.",
+      "answer": false,
+      "expected": "And it shall be, like prophet, like priest.",
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "en-he",
+      "src": "s23-B14"
+    },
+    {
+      "id": "s23-B14.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וְהָיָה כַנָּבִיא כַּכֹּהֵן",
+      "stimulusIsScript": true,
+      "options": [
+        "Sell to me this cave that I may bury my dead there.",
+        "Let us draw nigh to Yahweh, that he may judge between me and thee.",
+        "And it shall be, like people, like priest, and I will visit his deeds upon him; and they shall eat, and not be satisfied, for Yahweh they have forsaken.",
+        "And it shall be, like prophet, like priest."
+      ],
+      "answer": "And it shall be, like prophet, like priest.",
+      "optionIsScript": false,
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "en-he",
+      "src": "s23-B14"
+    },
+    {
+      "id": "s23-B14.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: And it shall be, like prophet, like priest.",
+      "stimulus": "וְהָיָה ＿＿＿ כַּכֹּהֵן",
+      "stimulusIsScript": true,
+      "accepted": [
+        "כַנָּבִיא"
+      ],
+      "answerIsScript": true,
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "en-he",
+      "src": "s23-B14"
+    },
+    {
+      "id": "s23-B14.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "And it shall be, like prophet, like priest.",
       "stimulusIsScript": false,
       "accepted": [
         "וְהָיָה כַנָּבִיא כַּכֹּהֵן"
       ],
       "answerIsScript": true,
-      "id": "s23-B14",
       "block": "s23",
       "blockLabel": "Davidson §23",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §23 B 14; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n106/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n106.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n54/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n54.jpg",
-        "exwb": "davidson-s23#B14",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s23-B14"
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the translation",
-      "stimulus": "ולקחתם את־מקלכם בידכם",
-      "stimulusIsScript": true,
-      "options": [
-        "Thine enemy is dead who sought thy life.",
-        "And ye shall take your staff in your hand.",
-        "I will speak no more in his name.",
-        "I let mine enemy go and he escaped."
+      "id": "s23-B14.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And it shall be, like prophet, like priest.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וְהָיָה כַנָּבִיא כַּכֹּהֵן"
       ],
-      "answer": "And ye shall take your staff in your hand.",
-      "optionIsScript": false,
-      "id": "s30-B9",
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "en-he",
+      "src": "s23-B14"
+    },
+    {
+      "id": "s30-B9.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וּלְקַחְתֶּם אֶת־מַקֶּלְכֶם בְּיֶדְכֶם",
+      "stimulusIsScript": true,
+      "statement": "And ye shall take their staff in your hand.",
+      "answer": false,
+      "expected": "And ye shall take your staff in your hand.",
       "block": "s30",
       "blockLabel": "Davidson §30",
       "shape": "he-en",
-      "hint": "With vowel points: וּלְקַחְתֶּם אֶת־מַקֶּלְכֶם בְּיֶדְכֶם",
-      "data": {
-        "pointed": "וּלְקַחְתֶּם אֶת־מַקֶּלְכֶם בְּיֶדְכֶם"
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §30 B 9; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n125/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n125.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n72/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n72.jpg",
-        "exwb": "davidson-s30#B9",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s30-B9"
     },
     {
+      "id": "s30-B9.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וּלְקַחְתֶּם אֶת־מַקֶּלְכֶם בְּיֶדְכֶם",
+      "stimulusIsScript": true,
+      "options": [
+        "And ye shall take your staff to your hand.",
+        "And ye shall take your staff in their hand.",
+        "And ye shall take their staff in your hand.",
+        "And ye shall take your staff in your hand."
+      ],
+      "answer": "And ye shall take your staff in your hand.",
+      "optionIsScript": false,
+      "block": "s30",
+      "blockLabel": "Davidson §30",
+      "shape": "he-en",
+      "src": "s30-B9"
+    },
+    {
+      "id": "s30-B9.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: And ye shall take your staff in your hand.",
+      "stimulus": "＿＿＿ אֶת־מַקֶּלְכֶם בְּיֶדְכֶם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וּלְקַחְתֶּם"
+      ],
+      "answerIsScript": true,
+      "block": "s30",
+      "blockLabel": "Davidson §30",
+      "shape": "he-en",
+      "src": "s30-B9"
+    },
+    {
+      "id": "s30-B9.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "ולקחתם את־מקלכם בידכם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "And ye shall take your staff in your hand.",
+        "And you shall take your staff in your hand."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "hint": "With vowel points: וּלְקַחְתֶּם אֶת־מַקֶּלְכֶם בְּיֶדְכֶם",
+      "block": "s30",
+      "blockLabel": "Davidson §30",
+      "shape": "he-en",
+      "src": "s30-B9"
+    },
+    {
+      "id": "s30-B9.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And ye shall take your staff in your hand.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וּלְקַחְתֶּם אֶת־מַקֶּלְכֶם בְּיֶדְכֶם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s30",
+      "blockLabel": "Davidson §30",
+      "shape": "he-en",
+      "src": "s30-B9"
+    },
+    {
+      "id": "s48-A7.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וְרָדְפוּ מִכֶּם חֲמִשָּׁה מֵאָה וּמֵאָה מִכֶּם רְבָבָה יִרְדֹּפוּ",
+      "stimulusIsScript": true,
+      "statement": "And five of you shall chase a hundred, and a hundred of you shall chase ten thousand.",
+      "answer": true,
+      "expected": "And five of you shall chase a hundred, and a hundred of you shall chase ten thousand.",
+      "block": "s48",
+      "blockLabel": "Davidson §48",
+      "shape": "he-en",
+      "src": "s48-A7"
+    },
+    {
+      "id": "s48-A7.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "וְרָדְפוּ מִכֶּם חֲמִשָּׁה מֵאָה וּמֵאָה מִכֶּם רְבָבָה יִרְדֹּפוּ",
       "stimulusIsScript": true,
       "options": [
-        "And it came to pass in the six hundred and first year of his life, in the second month, on the twenty-seventh day of the month, the earth was dry.",
-        "And he reigned there seven years and six months, and thirty-three years he reigned in Jerusalem.",
-        "And the three mighty men broke through the enemy's host, and drew water, and brought it to him, but he refused to drink it.",
-        "And five of you shall chase a hundred, and a hundred of you shall chase ten thousand."
+        "And five of you shall chase the hundred, and a hundred of you shall chase ten thousand.",
+        "And five of you shall chase a hundred, and a hundred of you shall chase ten thousand.",
+        "And five of you shall chase a hundred, and the hundred of you shall chase ten thousand.",
+        "The half is better than the whole."
       ],
       "answer": "And five of you shall chase a hundred, and a hundred of you shall chase ten thousand.",
       "optionIsScript": false,
-      "id": "s48-A7",
       "block": "s48",
       "blockLabel": "Davidson §48",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §48 A 7; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n185/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n185.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n142/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n142.jpg",
-        "exwb": "davidson-s48#A7",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s48-A7"
+    },
+    {
+      "id": "s48-A7.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: And five of you shall chase a hundred, and a hundred of you shall chase ten thousand.",
+      "stimulus": "＿＿＿ מִכֶּם חֲמִשָּׁה מֵאָה וּמֵאָה מִכֶּם רְבָבָה יִרְדֹּפוּ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וְרָדְפוּ"
+      ],
+      "answerIsScript": true,
+      "block": "s48",
+      "blockLabel": "Davidson §48",
+      "shape": "he-en",
+      "src": "s48-A7"
+    },
+    {
+      "id": "s48-A7.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וְרָדְפוּ מִכֶּם חֲמִשָּׁה מֵאָה וּמֵאָה מִכֶּם רְבָבָה יִרְדֹּפוּ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "And five of you shall chase a hundred, and a hundred of you shall chase ten thousand."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s48",
+      "blockLabel": "Davidson §48",
+      "shape": "he-en",
+      "src": "s48-A7"
+    },
+    {
+      "id": "s48-A7.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And five of you shall chase a hundred, and a hundred of you shall chase ten thousand.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וְרָדְפוּ מִכֶּם חֲמִשָּׁה מֵאָה וּמֵאָה מִכֶּם רְבָבָה יִרְדֹּפוּ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s48",
+      "blockLabel": "Davidson §48",
+      "shape": "he-en",
+      "src": "s48-A7"
     }
   ]
 }

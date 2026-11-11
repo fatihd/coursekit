@@ -41,7 +41,7 @@ def consonants(text):
 
 def exercise_words(course):
     words = {}
-    for path in sorted((course / "authored").glob("*.json")):
+    for path in sorted((course / "authored").glob("[0-9][0-9].json")):
         unit = int(path.stem)
         text = path.read_text(encoding="utf-8")
         words[unit] = {consonants(w) for w in re.findall(r"[֐-׿]+", text)}

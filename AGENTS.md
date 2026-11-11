@@ -129,6 +129,9 @@ python scripts/e2e.py courses/biblical-hebrew-davidson --authored
 # URLs, seeded sessions that resume, item codes, per-block progress
 python scripts/e2e.py courses/biblical-hebrew-davidson --routes
 
+# Exercise ladder: rung order, pointed grading, typed English with self-check, unlock and stars
+python scripts/e2e.py courses/biblical-hebrew-davidson --ladder
+
 # Accessibility regression (keyboard navigation + on-screen Hebrew keyboard)
 python scripts/e2e.py courses/biblical-hebrew-davidson --accessibility
 

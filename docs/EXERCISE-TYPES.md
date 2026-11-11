@@ -70,6 +70,7 @@ that spelling so each displayed left item has one unambiguous gloss.
 | `build-construct-chain` | Compose | Build a construct chain that translates a given English phrase (e.g., "the king of the land"). |
 | `parse-noun` | Classify | Choose a noun's gender and number from its pointed form (built from `gender`/`number`). |
 | `parse-verb` | Classify | Choose a verb's stem, conjugation, person, gender, and number from its form (built from `extra.parse`). |
+| `true-false` | Judge | Authored only (P12-T4): Hebrew plus an English translation; True/False whether it is right. False statements are the Key's English with one point changed. |
 | `parse-form` | Classify (field by field) | Authored only (P9-T8): one dropdown per parse field (stem, form, person, gender, number, state, root); graded field by field against one or more accepted readings. |
 | `produce-form` | Compose | Reverse production: choose the plural of a noun, or the Hebrew form matching a `root + features` description (built from `extra.parse` + `root`). |
 
@@ -153,7 +154,8 @@ units), so it was removed from `buildSession` to avoid trivial one-column sorts.
 | `translit-normalize` | `direction, stimulus, stimulusIsScript, answer, answerIsScript` (`prompt` optional) |
 | `match-by-line` | `prompt, left[], right[], answer{left→right}, leftIsScript` |
 | `categorize` | `prompt, columns[], words[{text,cat}], isScript` |
-| `translate-phrase` | `prompt, stimulus, stimulusIsScript, accepted[]` (`answerIsScript` optional → typed Hebrew, RTL input, niqqud-insensitive; `source` optional → scan links) |
+| `translate-phrase` | `prompt, stimulus, stimulusIsScript, accepted[]` (`answerIsScript` optional → typed Hebrew, RTL input, niqqud-insensitive; `pointing: "required"` → pointed grading with red marks; `selfCheck: true` → typed English, Key comparison with self-marking fallback; `source` optional → scan links) |
+| `true-false` | `stimulus, stimulusIsScript, statement, answer (bool), expected` |
 | `dictation` | `prompt, stimulus, stimulusIsScript, answer, transliteration` |
 | `paradigm-fill` | `prompt, rows[{label, answer, options[]}], isScript` |
 | `parse-form` | `prompt?, stimulus, stimulusIsScript, fields[{key, label, options[], isScript?}], readings[{field: value}]` — every select also offers "—" (not applicable); an answer is correct when it matches any reading, and a field a reading leaves out accepts any value; `grade` returns `fields{key: bool}` against the closest reading and `expected` = that reading + the fields to check |
@@ -200,6 +202,30 @@ Validation is enforced by `build/schemas/authored-exercises.json` via
 **Randomness.** Generators and renderers must use `shuffle()` / `random()` from
 `exercise-types/util.js`, never `Math.random()`: the drill seeds them per session and per question
 so a URL reproduces the same items (P12-T7).
+
+## 6b. The exercise ladder (P12-T2/T3/T4)
+
+Course difficulty is a ladder of five rungs (AGENTS.md §0). Davidson items carry `rung`:
+
+| Rung | Items | Grading |
+|---|---|---|
+| 1 True or false | `true-false`: Hebrew + an English translation | exact |
+| 2 Choose | `mcq`: the Key's English among variants that differ in one point (possessive, article, this/that, preposition group, "not", subject/object pronoun); Davidson's form and pointing questions | exact |
+| 3 Fill in | `translate-phrase`: one Hebrew word blanked, English given; Davidson's parse questions | consonants (`normalizeHebrew`) |
+| 4 Translate | `translate-phrase` in the sentence's direction: Hebrew→English typed English, English→Hebrew typed Hebrew | English: `normalizeEnglish` against the Key's variants (bracketed supplied words optional, notes dropped, archaic forms modernized, shall=will, contractions); no match → the Key is shown and the student marks right/wrong (`selfCheck`). Hebrew: consonants |
+| 5 Translate with vowel points | `translate-phrase` English→Hebrew, `pointing: "required"` | `pointedForm`: vowels, dagesh, shin/sin dots must match; ignored are cantillation and meteg, maqqef vs space, a word-initial dagesh lene, and full vs defective spelling (holem-waw, shureq, hiriq/tsere-yod inside a word). The Key's pausal last word may be typed in its contextual form. Wrong or missing points are shown red per letter (`annotate`) |
+
+`engine/session.js` `ladderSession`: a session takes review and a few vocabulary items, then the
+not-yet-right items of the lowest open rung, then the next rung, in rung order; when every item is right,
+a random practice mix. The next unit unlocks when rungs 1…`features.unlockRung` are all right once
+(Davidson 3); rungs 4–5 earn the unit's stars. Units without rung items keep the 70 %-session rule.
+
+**Review (2026-11-11).** Each session opens with `features.reviewItems` review questions from *every earlier
+unit*, completed or not (so skipped units are probed): `knowledge.js` `reviewUnits` ranks earlier units with
+content — never answered first, then lowest accuracy (`progress.skills`) — and the review alternates a
+vocabulary question (wrong options random, same category first) with a sentence-ladder item of that unit
+(rung 2 for an unpractised unit, else one above its best rung). A right review answer counts toward its own
+unit's ladder (and can unlock it). The lesson's warm-up box suggests units by the same ranking.
 
 ## 7. Adding a type (checklist)
 

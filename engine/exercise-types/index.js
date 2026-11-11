@@ -21,6 +21,7 @@ import parseNoun from "./parse-noun.js";
 import parseVerb from "./parse-verb.js";
 import produceForm from "./produce-form.js";
 import parseForm from "./parse-form.js";
+import trueFalse from "./true-false.js";
 
 const registry = new Map();
 
@@ -50,6 +51,7 @@ register(buildConstructChain);
 register(parseNoun);
 register(parseVerb);
 register(parseForm);
+register(trueFalse);
 register(produceForm);
 
 export function getType(id) {

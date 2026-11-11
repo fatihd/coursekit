@@ -1,245 +1,902 @@
 {
   "schema": "authored-exercises-v1.json",
   "unit": 30,
+  "sources": {
+    "s14-A2": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 A 2; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
+      "exwb": "davidson-s14#A2",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s14-B12": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 12; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
+      "exwb": "davidson-s14#B12",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s17-A9": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §17 A 9; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n81/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n81.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n33/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n33.jpg",
+      "exwb": "davidson-s17#A9",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s18-C7": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 C 7; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+      "exwb": "davidson-s18#C7",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s20-A13": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §20 A 13; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n94/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n94.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n44/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n44.jpg",
+      "exwb": "davidson-s20#A13",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s20-A15": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §20 A 15; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n94/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n94.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n44/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n44.jpg",
+      "exwb": "davidson-s20#A15",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s48-A4": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §48 A 4; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n185/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n185.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n142/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n142.jpg",
+      "exwb": "davidson-s48#A4",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s48-A6": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §48 A 6; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n185/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n185.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n142/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n142.jpg",
+      "exwb": "davidson-s48#A6",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s48-B4": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §48 B 4; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n185/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n185.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n142/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n142.jpg",
+      "exwb": "davidson-s48#B4",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    }
+  },
   "items": [
     {
+      "id": "s14-A2.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "שָׁבַת אֱלֹהִים בַּיּוֹם הַשְּׁבִיעִי מֵהַמְּלָאכָה אֲשֶׁר עָשָׂה",
+      "stimulusIsScript": true,
+      "statement": "God rested on the seventh day from the work which he had made.",
+      "answer": true,
+      "expected": "God rested on the seventh day from the work which he had made.",
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "he-en",
+      "src": "s14-A2"
+    },
+    {
+      "id": "s14-A2.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "שָׁבַת אֱלֹהִים בַּיּוֹם הַשְּׁבִיעִי מֵהַמְּלָאכָה אֲשֶׁר עָשָׂה",
       "stimulusIsScript": true,
       "options": [
+        "God rested on the seventh day from a work which he had made.",
+        "God rested on the seventh day to the work which he had made.",
         "God rested on the seventh day from the work which he had made.",
-        "The boy wrote in the book.",
-        "The man heard the voice in the garden.",
-        "God made the man out of dust from the ground."
+        "God rested on the seventh day from the work which she had made."
       ],
       "answer": "God rested on the seventh day from the work which he had made.",
       "optionIsScript": false,
-      "id": "s14-A2",
       "block": "s14",
       "blockLabel": "Davidson §14",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 A 2; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
-        "exwb": "davidson-s14#A2",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s14-A2"
     },
     {
+      "id": "s14-A2.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Fill in the missing word: God rested on the seventh day from the work which he had made.",
+      "stimulus": "שָׁבַת אֱלֹהִים בַּיּוֹם ＿＿＿ מֵהַמְּלָאכָה אֲשֶׁר עָשָׂה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַשְּׁבִיעִי"
+      ],
+      "answerIsScript": true,
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "he-en",
+      "src": "s14-A2"
+    },
+    {
+      "id": "s14-A2.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "שָׁבַת אֱלֹהִים בַּיּוֹם הַשְּׁבִיעִי מֵהַמְּלָאכָה אֲשֶׁר עָשָׂה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "God rested on the seventh day from the work which he had made."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "he-en",
+      "src": "s14-A2"
+    },
+    {
+      "id": "s14-A2.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "God rested on the seventh day from the work which he had made.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שָׁבַת אֱלֹהִים בַּיּוֹם הַשְּׁבִיעִי מֵהַמְּלָאכָה אֲשֶׁר עָשָׂה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "he-en",
+      "src": "s14-A2"
+    },
+    {
+      "id": "s14-B12.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "שָׁבַת הָעָם הֶחָכָם בַּיּוֹם הַשְּׁבִיעִי",
+      "stimulusIsScript": true,
+      "statement": "The wise people rested from the seventh day.",
+      "answer": false,
+      "expected": "The wise people rested on the seventh day.",
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "en-he",
+      "src": "s14-B12"
+    },
+    {
+      "id": "s14-B12.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "שָׁבַת הָעָם הֶחָכָם בַּיּוֹם הַשְּׁבִיעִי",
+      "stimulusIsScript": true,
+      "options": [
+        "The wise people rested to the seventh day.",
+        "The wise people rested from the seventh day.",
+        "The wise people rested on the seventh day.",
+        "A wise people rested on the seventh day."
+      ],
+      "answer": "The wise people rested on the seventh day.",
+      "optionIsScript": false,
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "en-he",
+      "src": "s14-B12"
+    },
+    {
+      "id": "s14-B12.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The wise people rested on the seventh day.",
+      "stimulus": "שָׁבַת הָעָם הֶחָכָם ＿＿＿ הַשְּׁבִיעִי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "בַּיּוֹם"
+      ],
+      "answerIsScript": true,
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "en-he",
+      "src": "s14-B12"
+    },
+    {
+      "id": "s14-B12.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "The wise people rested on the seventh day.",
       "stimulusIsScript": false,
       "accepted": [
         "שָׁבַת הָעָם הֶחָכָם בַּיּוֹם הַשְּׁבִיעִי"
       ],
       "answerIsScript": true,
-      "id": "s14-B12",
       "block": "s14",
       "blockLabel": "Davidson §14",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 12; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
-        "exwb": "davidson-s14#B12",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s14-B12"
     },
     {
+      "id": "s14-B12.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The wise people rested on the seventh day.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שָׁבַת הָעָם הֶחָכָם בַּיּוֹם הַשְּׁבִיעִי"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "en-he",
+      "src": "s14-B12"
+    },
+    {
+      "id": "s17-A9.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "בָּא חַיִל גָּדוֹל מִיַּרְכְּתֵי הָאָרֶץ וּמֵאַרְבַּע רוּחוֹת הַשָּׁמָיִם",
+      "stimulusIsScript": true,
+      "statement": "There came a great army to the ends of the earth and from the four winds of heaven.",
+      "answer": false,
+      "expected": "There came a great army from the ends of the earth and from the four winds of heaven.",
+      "block": "s17",
+      "blockLabel": "Davidson §17",
+      "shape": "he-en",
+      "src": "s17-A9"
+    },
+    {
+      "id": "s17-A9.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "בָּא חַיִל גָּדוֹל מִיַּרְכְּתֵי הָאָרֶץ וּמֵאַרְבַּע רוּחוֹת הַשָּׁמָיִם",
       "stimulusIsScript": true,
       "options": [
-        "There was a famine in the land, and Abraham went down into Egypt, for the famine was sore in the land.",
-        "The law of Yahweh is good.",
-        "The poor of the people are righteous.",
-        "There came a great army from the ends of the earth and from the four winds of heaven."
+        "There came a great army from the ends of the earth and from the four winds of heaven.",
+        "There came a great army from ends of the earth and from the four winds of heaven.",
+        "There came a great army to the ends of the earth and from the four winds of heaven.",
+        "There came a great army from the ends of the earth and in the four winds of heaven."
       ],
       "answer": "There came a great army from the ends of the earth and from the four winds of heaven.",
       "optionIsScript": false,
-      "id": "s17-A9",
       "block": "s17",
       "blockLabel": "Davidson §17",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §17 A 9; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n81/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n81.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n33/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n33.jpg",
-        "exwb": "davidson-s17#A9",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s17-A9"
     },
     {
+      "id": "s17-A9.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: There came a great army from the ends of the earth and from the four winds of heaven.",
+      "stimulus": "בָּא חַיִל גָּדוֹל ＿＿＿ הָאָרֶץ וּמֵאַרְבַּע רוּחוֹת הַשָּׁמָיִם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "מִיַּרְכְּתֵי"
+      ],
+      "answerIsScript": true,
+      "block": "s17",
+      "blockLabel": "Davidson §17",
+      "shape": "he-en",
+      "src": "s17-A9"
+    },
+    {
+      "id": "s17-A9.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "בָּא חַיִל גָּדוֹל מִיַּרְכְּתֵי הָאָרֶץ וּמֵאַרְבַּע רוּחוֹת הַשָּׁמָיִם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "There came a great army from the ends of the earth and from the four winds of heaven."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s17",
+      "blockLabel": "Davidson §17",
+      "shape": "he-en",
+      "src": "s17-A9"
+    },
+    {
+      "id": "s17-A9.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "There came a great army from the ends of the earth and from the four winds of heaven.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בָּא חַיִל גָּדוֹל מִיַּרְכְּתֵי הָאָרֶץ וּמֵאַרְבַּע רוּחוֹת הַשָּׁמָיִם",
+        "בָּא חַיִל גָּדוֹל מִיַּרְכְּתֵי הָאָרֶץ וּמֵאַרְבַּע רוּחוֹת הַשָּׁמַיִם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s17",
+      "blockLabel": "Davidson §17",
+      "shape": "he-en",
+      "src": "s17-A9"
+    },
+    {
+      "id": "s18-C7.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "נָתַן אֱלֹהִים אֶת־שְׁנֵי הַמְּאוֹרוֹת הַגְּדֹלִים בִּרְקִיעַ הַשָּׁמָיִם",
+      "stimulusIsScript": true,
+      "statement": "God set the two great luminaries in the firmament of heaven.",
+      "answer": true,
+      "expected": "God set the two great luminaries in the firmament of heaven.",
+      "block": "s18",
+      "blockLabel": "Davidson §18",
+      "shape": "he-en",
+      "src": "s18-C7"
+    },
+    {
+      "id": "s18-C7.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "נָתַן אֱלֹהִים אֶת־שְׁנֵי הַמְּאוֹרוֹת הַגְּדֹלִים בִּרְקִיעַ הַשָּׁמָיִם",
       "stimulusIsScript": true,
       "options": [
-        "Ezra read in the book of the law of God.",
-        "I have written for this people all the words of the law of Yahweh.",
         "God set the two great luminaries in the firmament of heaven.",
-        "The law of Yahweh is in the heart of the righteous."
+        "God set the two great luminaries in a firmament of heaven.",
+        "God set the two great luminaries from the firmament of heaven.",
+        "God set the two great luminaries to the firmament of heaven."
       ],
       "answer": "God set the two great luminaries in the firmament of heaven.",
       "optionIsScript": false,
-      "id": "s18-C7",
       "block": "s18",
       "blockLabel": "Davidson §18",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 C 7; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
-        "exwb": "davidson-s18#C7",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s18-C7"
     },
     {
+      "id": "s18-C7.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: God set the two great luminaries in the firmament of heaven.",
+      "stimulus": "נָתַן אֱלֹהִים אֶת־שְׁנֵי ＿＿＿ הַגְּדֹלִים בִּרְקִיעַ הַשָּׁמָיִם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַמְּאוֹרוֹת"
+      ],
+      "answerIsScript": true,
+      "block": "s18",
+      "blockLabel": "Davidson §18",
+      "shape": "he-en",
+      "src": "s18-C7"
+    },
+    {
+      "id": "s18-C7.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "נָתַן אֱלֹהִים אֶת־שְׁנֵי הַמְּאוֹרוֹת הַגְּדֹלִים בִּרְקִיעַ הַשָּׁמָיִם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "God set the two great luminaries in the firmament of heaven."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s18",
+      "blockLabel": "Davidson §18",
+      "shape": "he-en",
+      "src": "s18-C7"
+    },
+    {
+      "id": "s18-C7.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "God set the two great luminaries in the firmament of heaven.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "נָתַן אֱלֹהִים אֶת־שְׁנֵי הַמְּאוֹרוֹת הַגְּדֹלִים בִּרְקִיעַ הַשָּׁמָיִם",
+        "נָתַן אֱלֹהִים אֶת־שְׁנֵי הַמְּאוֹרוֹת הַגְּדֹלִים בִּרְקִיעַ הַשָּׁמַיִם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s18",
+      "blockLabel": "Davidson §18",
+      "shape": "he-en",
+      "src": "s18-C7"
+    },
+    {
+      "id": "s20-A13.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "עָף אֵלַי אֶחָד מִן־הַשְּׂרָפִים וּבְיָדוֹ רִצְפָּה בְּמֶלְקָחַיִם לָקַח מֵעַל הַמִּזְבֵּחַ",
+      "stimulusIsScript": true,
+      "statement": "There flew to me one of the seraphs, with a glowing stone in his hand, which he had taken with the tongs from off the altar.",
+      "answer": true,
+      "expected": "There flew to me one of the seraphs, with a glowing stone in his hand, which he had taken with the tongs from off the altar.",
+      "block": "s20",
+      "blockLabel": "Davidson §20",
+      "shape": "he-en",
+      "src": "s20-A13"
+    },
+    {
+      "id": "s20-A13.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "עָף אֵלַי אֶחָד מִן־הַשְּׂרָפִים וּבְיָדוֹ רִצְפָּה בְּמֶלְקָחַיִם לָקַח מֵעַל הַמִּזְבֵּחַ",
       "stimulusIsScript": true,
       "options": [
-        "They have not kept thy law.",
-        "The woman stood before the king.",
-        "Ye burned the city with fire.",
+        "There flew to me one of the seraphs, with a glowing stone in his hand, which he had taken with tongs from off the altar.",
+        "There flew from me one of the seraphs, with a glowing stone in his hand, which he had taken with the tongs from off the altar.",
+        "There flew to me one of the seraphs, with a glowing stone in my hand, which he had taken with the tongs from off the altar.",
         "There flew to me one of the seraphs, with a glowing stone in his hand, which he had taken with the tongs from off the altar."
       ],
       "answer": "There flew to me one of the seraphs, with a glowing stone in his hand, which he had taken with the tongs from off the altar.",
       "optionIsScript": false,
-      "id": "s20-A13",
       "block": "s20",
       "blockLabel": "Davidson §20",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §20 A 13; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n94/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n94.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n44/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n44.jpg",
-        "exwb": "davidson-s20#A13",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s20-A13"
     },
     {
+      "id": "s20-A13.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: There flew to me one of the seraphs, with a glowing stone in his hand, which he had taken with the tongs from off the altar.",
+      "stimulus": "עָף אֵלַי אֶחָד ＿＿＿ וּבְיָדוֹ רִצְפָּה בְּמֶלְקָחַיִם לָקַח מֵעַל הַמִּזְבֵּחַ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "מִן־הַשְּׂרָפִים"
+      ],
+      "answerIsScript": true,
+      "block": "s20",
+      "blockLabel": "Davidson §20",
+      "shape": "he-en",
+      "src": "s20-A13"
+    },
+    {
+      "id": "s20-A13.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "עָף אֵלַי אֶחָד מִן־הַשְּׂרָפִים וּבְיָדוֹ רִצְפָּה בְּמֶלְקָחַיִם לָקַח מֵעַל הַמִּזְבֵּחַ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "There flew to me one of the seraphs, with a glowing stone in his hand, which he had taken with the tongs from off the altar."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s20",
+      "blockLabel": "Davidson §20",
+      "shape": "he-en",
+      "src": "s20-A13"
+    },
+    {
+      "id": "s20-A13.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "There flew to me one of the seraphs, with a glowing stone in his hand, which he had taken with the tongs from off the altar.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "עָף אֵלַי אֶחָד מִן־הַשְּׂרָפִים וּבְיָדוֹ רִצְפָּה בְּמֶלְקָחַיִם לָקַח מֵעַל הַמִּזְבֵּחַ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s20",
+      "blockLabel": "Davidson §20",
+      "shape": "he-en",
+      "src": "s20-A13"
+    },
+    {
+      "id": "s20-A15.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "שָׁבַת אֱלֹהִים בַּיּוֹם הַשְּׁבִיעִי מֵהַמְּלָאכָה אֲשֶׁר עָשָׂה",
+      "stimulusIsScript": true,
+      "statement": "God rested on the seventh day from the work which he had made.",
+      "answer": true,
+      "expected": "God rested on the seventh day from the work which he had made.",
+      "block": "s20",
+      "blockLabel": "Davidson §20",
+      "shape": "he-en",
+      "src": "s20-A15"
+    },
+    {
+      "id": "s20-A15.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
-      "stimulus": "שבת אלהים ביום השביעי מהמלאכה אשר עשה",
+      "stimulus": "שָׁבַת אֱלֹהִים בַּיּוֹם הַשְּׁבִיעִי מֵהַמְּלָאכָה אֲשֶׁר עָשָׂה",
       "stimulusIsScript": true,
       "options": [
+        "God rested on a seventh day from the work which he had made.",
         "God rested on the seventh day from the work which he had made.",
-        "They shed blood like water.",
-        "Ye burned the city with fire.",
-        "God saw all that he had made, and, behold, it was very good."
+        "God rested on the seventh day to the work which he had made.",
+        "God rested on the seventh day from the work which she had made."
       ],
       "answer": "God rested on the seventh day from the work which he had made.",
       "optionIsScript": false,
-      "id": "s20-A15",
       "block": "s20",
       "blockLabel": "Davidson §20",
       "shape": "he-en",
-      "hint": "With vowel points: שָׁבַת אֱלֹהִים בַּיּוֹם הַשְּׁבִיעִי מֵהַמְּלָאכָה אֲשֶׁר עָשָׂה",
-      "data": {
-        "pointed": "שָׁבַת אֱלֹהִים בַּיּוֹם הַשְּׁבִיעִי מֵהַמְּלָאכָה אֲשֶׁר עָשָׂה"
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §20 A 15; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n94/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n94.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n44/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n44.jpg",
-        "exwb": "davidson-s20#A15",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s20-A15"
     },
     {
+      "id": "s20-A15.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: God rested on the seventh day from the work which he had made.",
+      "stimulus": "שָׁבַת ＿＿＿ בַּיּוֹם הַשְּׁבִיעִי מֵהַמְּלָאכָה אֲשֶׁר עָשָׂה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֱלֹהִים"
+      ],
+      "answerIsScript": true,
+      "block": "s20",
+      "blockLabel": "Davidson §20",
+      "shape": "he-en",
+      "src": "s20-A15"
+    },
+    {
+      "id": "s20-A15.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "שבת אלהים ביום השביעי מהמלאכה אשר עשה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "God rested on the seventh day from the work which he had made."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "hint": "With vowel points: שָׁבַת אֱלֹהִים בַּיּוֹם הַשְּׁבִיעִי מֵהַמְּלָאכָה אֲשֶׁר עָשָׂה",
+      "block": "s20",
+      "blockLabel": "Davidson §20",
+      "shape": "he-en",
+      "src": "s20-A15"
+    },
+    {
+      "id": "s20-A15.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "God rested on the seventh day from the work which he had made.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שָׁבַת אֱלֹהִים בַּיּוֹם הַשְּׁבִיעִי מֵהַמְּלָאכָה אֲשֶׁר עָשָׂה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s20",
+      "blockLabel": "Davidson §20",
+      "shape": "he-en",
+      "src": "s20-A15"
+    },
+    {
+      "id": "s48-A4.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "בִּשְׁלֹשִׁים וָשֶׁבַע שָׁנָה בִּשְׁנֵים עָשָׂר חֹדֶשׁ בְּעֶשְׂרִים וְשִׁבְעָה לַחֹדֶשׁ נָשָׂא מֶלֶךְ בָּבֶל אֶת־רֹאשׁ מֶלֶךְ יְהוּדָה מִבֵּית כֶּלֶא",
+      "stimulusIsScript": true,
+      "statement": "In the thirty-seventh year, in the twelfth month, on a twenty-seventh (day) of the month, the king of Babylon lifted up the head of the king of Judah out of the prison-house.",
+      "answer": false,
+      "expected": "In the thirty-seventh year, in the twelfth month, on the twenty-seventh (day) of the month, the king of Babylon lifted up the head of the king of Judah out of the prison-house.",
+      "block": "s48",
+      "blockLabel": "Davidson §48",
+      "shape": "he-en",
+      "src": "s48-A4"
+    },
+    {
+      "id": "s48-A4.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "בִּשְׁלֹשִׁים וָשֶׁבַע שָׁנָה בִּשְׁנֵים עָשָׂר חֹדֶשׁ בְּעֶשְׂרִים וְשִׁבְעָה לַחֹדֶשׁ נָשָׂא מֶלֶךְ בָּבֶל אֶת־רֹאשׁ מֶלֶךְ יְהוּדָה מִבֵּית כֶּלֶא",
       "stimulusIsScript": true,
       "options": [
         "In the thirty-seventh year, in the twelfth month, on the twenty-seventh (day) of the month, the king of Babylon lifted up the head of the king of Judah out of the prison-house.",
-        "A day in thy courts is better than a thousand.",
-        "And it came to pass in the six hundred and first year of his life, in the second month, on the twenty-seventh day of the month, the earth was dry.",
-        "And he reigned there seven years and six months, and thirty-three years he reigned in Jerusalem."
+        "In the thirty-seventh year, from the twelfth month, on the twenty-seventh (day) of the month, the king of Babylon lifted up the head of the king of Judah out of the prison-house.",
+        "In the thirty-seventh year, in the twelfth month, on the twenty-seventh (day) of the month, the king of Babylon lifted up a head of the king of Judah out of the prison-house.",
+        "In the thirty-seventh year, in the twelfth month, on a twenty-seventh (day) of the month, the king of Babylon lifted up the head of the king of Judah out of the prison-house."
       ],
       "answer": "In the thirty-seventh year, in the twelfth month, on the twenty-seventh (day) of the month, the king of Babylon lifted up the head of the king of Judah out of the prison-house.",
       "optionIsScript": false,
-      "id": "s48-A4",
       "block": "s48",
       "blockLabel": "Davidson §48",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §48 A 4; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n185/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n185.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n142/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n142.jpg",
-        "exwb": "davidson-s48#A4",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s48-A4"
     },
     {
+      "id": "s48-A4.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: In the thirty-seventh year, in the twelfth month, on the twenty-seventh (day) of the month, the king of Babylon lifted up the head of the king of Judah out of the prison-house.",
+      "stimulus": "בִּשְׁלֹשִׁים וָשֶׁבַע שָׁנָה ＿＿＿ עָשָׂר חֹדֶשׁ בְּעֶשְׂרִים וְשִׁבְעָה לַחֹדֶשׁ נָשָׂא מֶלֶךְ בָּבֶל אֶת־רֹאשׁ מֶלֶךְ יְהוּדָה מִבֵּית כֶּלֶא",
+      "stimulusIsScript": true,
+      "accepted": [
+        "בִּשְׁנֵים"
+      ],
+      "answerIsScript": true,
+      "block": "s48",
+      "blockLabel": "Davidson §48",
+      "shape": "he-en",
+      "src": "s48-A4"
+    },
+    {
+      "id": "s48-A4.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "בִּשְׁלֹשִׁים וָשֶׁבַע שָׁנָה בִּשְׁנֵים עָשָׂר חֹדֶשׁ בְּעֶשְׂרִים וְשִׁבְעָה לַחֹדֶשׁ נָשָׂא מֶלֶךְ בָּבֶל אֶת־רֹאשׁ מֶלֶךְ יְהוּדָה מִבֵּית כֶּלֶא",
+      "stimulusIsScript": true,
+      "accepted": [
+        "In the thirty-seventh year, in the twelfth month, on the twenty-seventh day of the month, the king of Babylon lifted up the head of the king of Judah out of the prison-house.",
+        "In the thirty-seventh year, in the twelfth month, on the day of the month, the king of Babylon lifted up the head of the king of Judah out of the prison-house."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s48",
+      "blockLabel": "Davidson §48",
+      "shape": "he-en",
+      "src": "s48-A4"
+    },
+    {
+      "id": "s48-A4.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "In the thirty-seventh year, in the twelfth month, on the twenty-seventh (day) of the month, the king of Babylon lifted up the head of the king of Judah out of the prison-house.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בִּשְׁלֹשִׁים וָשֶׁבַע שָׁנָה בִּשְׁנֵים עָשָׂר חֹדֶשׁ בְּעֶשְׂרִים וְשִׁבְעָה לַחֹדֶשׁ נָשָׂא מֶלֶךְ בָּבֶל אֶת־רֹאשׁ מֶלֶךְ יְהוּדָה מִבֵּית כֶּלֶא"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s48",
+      "blockLabel": "Davidson §48",
+      "shape": "he-en",
+      "src": "s48-A4"
+    },
+    {
+      "id": "s48-A6.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "טוֹב יוֹם בַּחֲצֵרֶיךָ מֵאָלֶף",
+      "stimulusIsScript": true,
+      "statement": "A day in thy courts is better than a thousand.",
+      "answer": true,
+      "expected": "A day in thy courts is better than a thousand.",
+      "block": "s48",
+      "blockLabel": "Davidson §48",
+      "shape": "he-en",
+      "src": "s48-A6"
+    },
+    {
+      "id": "s48-A6.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "טוֹב יוֹם בַּחֲצֵרֶיךָ מֵאָלֶף",
       "stimulusIsScript": true,
       "options": [
-        "A day in thy courts is better than a thousand.",
-        "And after this he lived a hundred and forty years, and he saw his sons and his sons' sons—four generations.",
-        "And he took a present for his brother—two hundred she-goats, and twenty rams, and thirty milch camels and their colts.",
-        "In the thirty-seventh year, in the twelfth month, on the twenty-seventh (day) of the month, the king of Babylon lifted up the head of the king of Judah out of the prison-house."
+        "A day in thy courts is better than the thousand.",
+        "A day to thy courts is better than a thousand.",
+        "A day in his courts is better than a thousand.",
+        "A day in thy courts is better than a thousand."
       ],
       "answer": "A day in thy courts is better than a thousand.",
       "optionIsScript": false,
-      "id": "s48-A6",
       "block": "s48",
       "blockLabel": "Davidson §48",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §48 A 6; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n185/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n185.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n142/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n142.jpg",
-        "exwb": "davidson-s48#A6",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s48-A6"
     },
     {
+      "id": "s48-A6.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Fill in the missing word: A day in thy courts is better than a thousand.",
+      "stimulus": "טוֹב יוֹם ＿＿＿ מֵאָלֶף",
+      "stimulusIsScript": true,
+      "accepted": [
+        "בַּחֲצֵרֶיךָ"
+      ],
+      "answerIsScript": true,
+      "block": "s48",
+      "blockLabel": "Davidson §48",
+      "shape": "he-en",
+      "src": "s48-A6"
+    },
+    {
+      "id": "s48-A6.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "טוֹב יוֹם בַּחֲצֵרֶיךָ מֵאָלֶף",
+      "stimulusIsScript": true,
+      "accepted": [
+        "A day in thy courts is better than a thousand.",
+        "A day in your courts is better than a thousand."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s48",
+      "blockLabel": "Davidson §48",
+      "shape": "he-en",
+      "src": "s48-A6"
+    },
+    {
+      "id": "s48-A6.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "A day in thy courts is better than a thousand.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "טוֹב יוֹם בַּחֲצֵרֶיךָ מֵאָלֶף"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s48",
+      "blockLabel": "Davidson §48",
+      "shape": "he-en",
+      "src": "s48-A6"
+    },
+    {
+      "id": "s48-B4.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "יְמֵי שְׁנֵי חַיַּי אַרְבַּע שָׁנִים וְשִׁבְעִים שָׁנָה",
+      "stimulusIsScript": true,
+      "statement": "The days of the years of his life have been four and seventy years.",
+      "answer": false,
+      "expected": "The days of the years of my life have been four and seventy years.",
+      "block": "s48",
+      "blockLabel": "Davidson §48",
+      "shape": "en-he",
+      "src": "s48-B4"
+    },
+    {
+      "id": "s48-B4.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "יְמֵי שְׁנֵי חַיַּי אַרְבַּע שָׁנִים וְשִׁבְעִים שָׁנָה",
+      "stimulusIsScript": true,
+      "options": [
+        "The days of the years of my life have been four and seventy years.",
+        "Days of the years of my life have been four and seventy years.",
+        "The days of the years of his life have been four and seventy years.",
+        "The days of the years of our life have been four and seventy years."
+      ],
+      "answer": "The days of the years of my life have been four and seventy years.",
+      "optionIsScript": false,
+      "block": "s48",
+      "blockLabel": "Davidson §48",
+      "shape": "en-he",
+      "src": "s48-B4"
+    },
+    {
+      "id": "s48-B4.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The days of the years of my life have been four and seventy years.",
+      "stimulus": "יְמֵי שְׁנֵי חַיַּי ＿＿＿ שָׁנִים וְשִׁבְעִים שָׁנָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אַרְבַּע"
+      ],
+      "answerIsScript": true,
+      "block": "s48",
+      "blockLabel": "Davidson §48",
+      "shape": "en-he",
+      "src": "s48-B4"
+    },
+    {
+      "id": "s48-B4.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "The days of the years of my life have been four and seventy years.",
       "stimulusIsScript": false,
       "accepted": [
         "יְמֵי שְׁנֵי חַיַּי אַרְבַּע שָׁנִים וְשִׁבְעִים שָׁנָה"
       ],
       "answerIsScript": true,
-      "id": "s48-B4",
       "block": "s48",
       "blockLabel": "Davidson §48",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §48 B 4; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n185/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n185.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n142/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n142.jpg",
-        "exwb": "davidson-s48#B4",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s48-B4"
+    },
+    {
+      "id": "s48-B4.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The days of the years of my life have been four and seventy years.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "יְמֵי שְׁנֵי חַיַּי אַרְבַּע שָׁנִים וְשִׁבְעִים שָׁנָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s48",
+      "blockLabel": "Davidson §48",
+      "shape": "en-he",
+      "src": "s48-B4"
     }
   ]
 }

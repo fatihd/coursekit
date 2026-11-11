@@ -112,7 +112,8 @@ export function renderDrill(root, ctx) {
   }
 
   function renderQuestion() {
-    progress.textContent = `Question ${idx + 1} of ${items.length}`;
+    const rungLabel = items[idx].rungLabel ? ` · ${items[idx].rungLabel}` : "";
+    progress.textContent = `Question ${idx + 1} of ${items.length}${rungLabel}`;
     if (ctx.onPosition) ctx.onPosition(idx);
     feedback.replaceChildren();
     stage.replaceChildren();
@@ -122,7 +123,8 @@ export function renderDrill(root, ctx) {
     const type = getType(item.type);
 
     if (item.spiral) {
-      stage.appendChild(el("span", "drill-review-tag", "Review"));
+      const from = item.sourceUnit ? ` · Unit ${item.sourceUnit} — ${unitTitle(course, item.sourceUnit)}` : "";
+      stage.appendChild(el("span", "drill-review-tag", `Review${from}`));
     }
 
     const node = ctx.seed ? withSeed(`${ctx.seed}:${idx}`, () => type.render(item, { course })) : type.render(item, { course });
@@ -145,40 +147,58 @@ export function renderDrill(root, ctx) {
       }
 
       const result = type.grade(item, answer);
-      if (type.annotate) type.annotate(node, item, answer, result);
-      if (result.correct) correctCount += 1;
-      answered += 1;
-      detail.push({ unit: item.sourceUnit || unit.n, correct: result.correct });
-      if (ctx.onAnswer) ctx.onAnswer(item, result.correct, { next: idx + 1, correct: correctCount, answered, detail });
-
       stage.querySelectorAll("button, input, select").forEach((n) => {
         n.disabled = true;
       });
+      if (result.selfCheck) {
+        feedback.replaceChildren();
+        const ask = el("div", "drill-selfcheck");
+        ask.appendChild(el("p", "drill-selfcheck-text", "No exact match. Compare your answer with the Key:"));
+        const key = el("p", "drill-selfcheck-key", result.expected);
+        key.dir = "auto";
+        ask.appendChild(key);
+        const yes = el("button", "gate-btn drill-selfcheck-yes", "I had it right");
+        const no = el("button", "gate-btn gate-secondary drill-selfcheck-no", "I had it wrong");
+        yes.addEventListener("click", () => finish({ ...result, correct: true, selfMarked: true }));
+        no.addEventListener("click", () => finish({ ...result, correct: false, selfMarked: true }));
+        ask.append(yes, no);
+        feedback.appendChild(ask);
+        no.focus();
+        return;
+      }
+      finish(result);
 
-      feedback.replaceChildren();
-      feedback.appendChild(
-        el(
-          "p",
-          result.correct ? "drill-ok" : "drill-no",
-          result.correct ? "Correct!" : `Not quite — answer: ${result.expected}`,
-        ),
-      );
-      if (item.explain) {
-        const explain = el("p", "drill-explain", item.explain);
-        explain.dir = "auto";
-        const source = stage.querySelector(".drill-source") || stage.querySelector(".drill-item-code");
-        stage.insertBefore(explain, source);
+      function finish(res) {
+        if (type.annotate) type.annotate(node, item, answer, res);
+        if (res.correct) correctCount += 1;
+        answered += 1;
+        detail.push({ unit: item.sourceUnit || unit.n, correct: res.correct });
+        if (ctx.onAnswer) ctx.onAnswer(item, res.correct, { next: idx + 1, correct: correctCount, answered, detail });
+
+        feedback.replaceChildren();
+        const text = res.correct
+          ? (res.selfMarked ? "Marked right." : "Correct!")
+          : (res.selfMarked ? "Marked wrong." : `Not quite — answer: ${res.expected}`);
+        const msg = el("p", res.correct ? "drill-ok" : "drill-no", res.message && !res.correct ? `${res.message} ${text}` : text);
+        msg.dir = "auto";
+        feedback.appendChild(msg);
+        if (item.explain) {
+          const explain = el("p", "drill-explain", item.explain);
+          explain.dir = "auto";
+          const source = stage.querySelector(".drill-source") || stage.querySelector(".drill-item-code");
+          stage.insertBefore(explain, source);
+        }
+        if (!res.correct && features.diagnostics) {
+          const srcUnit = item.sourceUnit || unit.n;
+          const review = el("button", "back", `Review Unit ${srcUnit} — ${unitTitle(course, srcUnit)}`);
+          review.addEventListener("click", () => navigate("drill", srcUnit));
+          feedback.appendChild(review);
+        }
+        nextBtn = el("button", "gate-btn", idx + 1 < items.length ? "Next →" : "See results");
+        nextBtn.addEventListener("click", next);
+        feedback.appendChild(nextBtn);
+        nextBtn.focus();
       }
-      if (!result.correct && features.diagnostics) {
-        const srcUnit = item.sourceUnit || unit.n;
-        const review = el("button", "back", `Review Unit ${srcUnit} — ${unitTitle(course, srcUnit)}`);
-        review.addEventListener("click", () => navigate("drill", srcUnit));
-        feedback.appendChild(review);
-      }
-      nextBtn = el("button", "gate-btn", idx + 1 < items.length ? "Next →" : "See results");
-      nextBtn.addEventListener("click", next);
-      feedback.appendChild(nextBtn);
-      nextBtn.focus();
     });
     feedback.appendChild(checkBtn);
 

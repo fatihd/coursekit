@@ -77,13 +77,12 @@ export function mergeProgress(a, b) {
     }
     const la = ua.lastPlayed || "", lb = ub.lastPlayed || "";
     if (la || lb) merged.lastPlayed = la > lb ? la : lb;
-    if (ua.blocks || ub.blocks) {
-      const blocks = { ...(ua.blocks || {}) };
-      for (const [id, bb] of Object.entries(ub.blocks || {})) {
-        const ba = blocks[id] || { correct: [] };
-        blocks[id] = { correct: [...new Set([...(ba.correct || []), ...(bb.correct || [])])] };
+    if (ua.done || ub.done) {
+      const done = { ...(ua.done || {}) };
+      for (const [rung, ids] of Object.entries(ub.done || {})) {
+        done[rung] = [...new Set([...(done[rung] || []), ...ids])];
       }
-      merged.blocks = blocks;
+      merged.done = done;
     }
     units[n] = merged;
   }

@@ -97,6 +97,14 @@ export function renderRoadmap(root, course, progress, navigate, sync) {
       title.textContent = u.title;
 
       btn.append(num, title);
+      const stars = sync && sync.stars ? sync.stars(u.n) : null;
+      if (stars && stars.length) {
+        const s = document.createElement("span");
+        s.className = "unit-stars";
+        s.setAttribute("aria-label", `${stars.filter(Boolean).length} of ${stars.length} ladder rungs complete`);
+        s.textContent = stars.map((x) => (x ? "★" : "☆")).join("");
+        btn.appendChild(s);
+      }
       btn.addEventListener("click", () => navigate("lesson", u.n));
       grid.appendChild(btn);
     }

@@ -46,4 +46,10 @@
   (`#/<slug>/drill/<seed>/<q>`, `/block/…`, `/item/<id>`), resume after reload, per-block progress; `e2e.py --routes`.
   AGENTS.md §0 gained the goal (exam-ready literacy) and a private note on why not Duolingo-style apps.
 - 2026-11-11: keyboard — shin dot, sin dot, maqqef keys; mark keys drawn on a letter with their names (all four courses' CSS).
-- Next up: P12-T4 (ladder, with T2 typed Hebrew→English and T3 pointed grading).
+- 2026-11-11: P12-T2/T3/T4 done — exercise ladder (`build/davidson_ladder.py`, 4,510 items), `true-false` type, typed
+  English with self-check, pointed grading with red marks, ladder sessions, unlock at rungs 1–3 (`unlockRung`), stars,
+  rung practice routes; progress now `units[n].done` per rung. Keyboard pads the page so Check stays visible. Gates:
+  `e2e.py --ladder`, `--authored`, `tests/test_davidson_ladder.py`. Pushed P12-T7 + keyboard to both repos (public 38131e2).
+- 2026-11-11: review now covers every earlier unit (gaps first), mixes ladder sentences, random wrong options,
+  credits the source unit; warm-up uses the same ranking. Not pushed: 6127ee4 (ladder) + this.
+- Next up: P12-T5 offline corpus expansion — on hold until the user says go.

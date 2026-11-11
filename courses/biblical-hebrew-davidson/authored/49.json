@@ -1,572 +1,2184 @@
 {
   "schema": "authored-exercises-v1.json",
   "unit": 49,
+  "sources": {
+    "s27-A1": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §27 A 1; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n116/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n116.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n65/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n65.jpg",
+      "exwb": "davidson-s27#A1",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s27-A2": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §27 A 2; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n116/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n116.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n65/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n65.jpg",
+      "exwb": "davidson-s27#A2",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s27-A3": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §27 A 3; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n116/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n116.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n65/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n65.jpg",
+      "exwb": "davidson-s27#A3",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s27-A4": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §27 A 4; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n116/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n116.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n65/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n65.jpg",
+      "exwb": "davidson-s27#A4",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s27-A5": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §27 A 5; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n116/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n116.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n65/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n65.jpg",
+      "exwb": "davidson-s27#A5",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s27-A8": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §27 A 8; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n116/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n116.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n65/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n65.jpg",
+      "exwb": "davidson-s27#A8",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s27-A9": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §27 A 9; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n116/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n116.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n65/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n65.jpg",
+      "exwb": "davidson-s27#A9",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s27-A10": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §27 A 10; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n116/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n116.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n65/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n65.jpg",
+      "exwb": "davidson-s27#A10",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s27-B1": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §27 B 1; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n116/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n116.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n65/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n65.jpg",
+      "exwb": "davidson-s27#B1",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s27-B2": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §27 B 2; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n116/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n116.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n65/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n65.jpg",
+      "exwb": "davidson-s27#B2",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s27-B3": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §27 B 3; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n116/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n116.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n65/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n65.jpg",
+      "exwb": "davidson-s27#B3",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s27-B4": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §27 B 4; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n116/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n116.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n65/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n65.jpg",
+      "exwb": "davidson-s27#B4",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s27-B5": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §27 B 5; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n116/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n116.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n65/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n65.jpg",
+      "exwb": "davidson-s27#B5",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s27-B8": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §27 B 8; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n116/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n116.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n65/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n65.jpg",
+      "exwb": "davidson-s27#B8",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s29-A4": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §29 A 4; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n123/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n123.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n69/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n69.jpg",
+      "exwb": "davidson-s29#A4",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s29-A6": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §29 A 6; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n123/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n123.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n69/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n69.jpg",
+      "exwb": "davidson-s29#A6",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s29-A8": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §29 A 8; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n123/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n123.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n69/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n69.jpg",
+      "exwb": "davidson-s29#A8",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s29-B10": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §29 B 10; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n123/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n123.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n69/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n69.jpg",
+      "exwb": "davidson-s29#B10",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s29-B18": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §29 B 18; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n123/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n123.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n69/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n69.jpg",
+      "exwb": "davidson-s29#B18",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s31-C6": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 C 6; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
+      "exwb": "davidson-s31#C6",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s41-B5": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §41 B 5; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n155/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n155.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n112/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n112.jpg",
+      "exwb": "davidson-s41#B5",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s47-A7": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §47 A 7; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n181/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n181.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n140/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n140.jpg",
+      "exwb": "davidson-s47#A7",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    }
+  },
   "items": [
     {
+      "id": "s27-A1.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אַתָּה הִמְלַכְתָּ אֹתִי תַּחַת דָּוִד אָבִי",
+      "stimulusIsScript": true,
+      "statement": "Thou hast made me king instead of David our father.",
+      "answer": false,
+      "expected": "Thou hast made me king instead of David my father.",
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "he-en",
+      "src": "s27-A1"
+    },
+    {
+      "id": "s27-A1.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "אַתָּה הִמְלַכְתָּ אֹתִי תַּחַת דָּוִד אָבִי",
       "stimulusIsScript": true,
       "options": [
-        "Behold my face is against this people and I will destroy them from off the face of the ground.",
-        "Behold, his head will be thrown to thee over the wall.",
-        "And the firmament permanently divided the waters from the waters.",
-        "Thou hast made me king instead of David my father."
+        "Thou hast made me king instead of David our father.",
+        "Thou hast made me king instead of David thy father.",
+        "Thou hast made me king instead of David my father.",
+        "Thou hast made us king instead of David my father."
       ],
       "answer": "Thou hast made me king instead of David my father.",
       "optionIsScript": false,
-      "id": "s27-A1",
       "block": "s27",
       "blockLabel": "Davidson §27",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §27 A 1; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n116/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n116.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n65/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n65.jpg",
-        "exwb": "davidson-s27#A1",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s27-A1"
     },
     {
+      "id": "s27-A1.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Thou hast made me king instead of David my father.",
+      "stimulus": "אַתָּה ＿＿＿ אֹתִי תַּחַת דָּוִד אָבִי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הִמְלַכְתָּ"
+      ],
+      "answerIsScript": true,
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "he-en",
+      "src": "s27-A1"
+    },
+    {
+      "id": "s27-A1.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "אַתָּה הִמְלַכְתָּ אֹתִי תַּחַת דָּוִד אָבִי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Thou hast made me king instead of David my father.",
+        "You have made me king instead of David my father."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "he-en",
+      "src": "s27-A1"
+    },
+    {
+      "id": "s27-A1.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Thou hast made me king instead of David my father.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אַתָּה הִמְלַכְתָּ אֹתִי תַּחַת דָּוִד אָבִי"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "he-en",
+      "src": "s27-A1"
+    },
+    {
+      "id": "s27-A2.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הִנֵּה פָנַי בָּעָם הַזֶּה וְהִשְׁמַדְתִּי אֹתָם מֵעַל־פְּנֵי הָאֲדָמָה",
+      "stimulusIsScript": true,
+      "statement": "Behold my face is against this people and I will destroy them from off a face of the ground.",
+      "answer": false,
+      "expected": "Behold my face is against this people and I will destroy them from off the face of the ground.",
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "he-en",
+      "src": "s27-A2"
+    },
+    {
+      "id": "s27-A2.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "הִנֵּה פָנַי בָּעָם הַזֶּה וְהִשְׁמַדְתִּי אֹתָם מֵעַל־פְּנֵי הָאֲדָמָה",
       "stimulusIsScript": true,
       "options": [
-        "And the firmament permanently divided the waters from the waters.",
+        "Behold my face is against this people and we will destroy them from off the face of the ground.",
+        "Behold my face is against this people and I will destroy them from off a face of the ground.",
         "Behold my face is against this people and I will destroy them from off the face of the ground.",
-        "Hide not thy face from this people.",
-        "Behold, his head will be thrown to thee over the wall."
+        "Behold my face is against this people and I will destroy us from off the face of the ground."
       ],
       "answer": "Behold my face is against this people and I will destroy them from off the face of the ground.",
       "optionIsScript": false,
-      "id": "s27-A2",
       "block": "s27",
       "blockLabel": "Davidson §27",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §27 A 2; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n116/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n116.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n65/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n65.jpg",
-        "exwb": "davidson-s27#A2",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s27-A2"
     },
     {
+      "id": "s27-A2.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Behold my face is against this people and I will destroy them from off the face of the ground.",
+      "stimulus": "הִנֵּה פָנַי בָּעָם הַזֶּה וְהִשְׁמַדְתִּי אֹתָם מֵעַל־פְּנֵי ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הָאֲדָמָה"
+      ],
+      "answerIsScript": true,
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "he-en",
+      "src": "s27-A2"
+    },
+    {
+      "id": "s27-A2.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הִנֵּה פָנַי בָּעָם הַזֶּה וְהִשְׁמַדְתִּי אֹתָם מֵעַל־פְּנֵי הָאֲדָמָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Behold my face is against this people and I will destroy them from off the face of the ground."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "he-en",
+      "src": "s27-A2"
+    },
+    {
+      "id": "s27-A2.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Behold my face is against this people and I will destroy them from off the face of the ground.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הִנֵּה פָנַי בָּעָם הַזֶּה וְהִשְׁמַדְתִּי אֹתָם מֵעַל־פְּנֵי הָאֲדָמָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "he-en",
+      "src": "s27-A2"
+    },
+    {
+      "id": "s27-A3.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיַּשְׁכֵּן אֱלֹהִים לִפְנֵי גַן עֵדֶן אֶת־הַכְּרֻבִים לִשְׁמֹר דֶּרֶךְ עֵץ הַחַיִּים",
+      "stimulusIsScript": true,
+      "statement": "And God stationed the cherubim before the garden of Eden, to guard the way to the tree of life.",
+      "answer": true,
+      "expected": "And God stationed the cherubim before the garden of Eden, to guard the way to the tree of life.",
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "he-en",
+      "src": "s27-A3"
+    },
+    {
+      "id": "s27-A3.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "וַיַּשְׁכֵּן אֱלֹהִים לִפְנֵי גַן עֵדֶן אֶת־הַכְּרֻבִים לִשְׁמֹר דֶּרֶךְ עֵץ הַחַיִּים",
       "stimulusIsScript": true,
       "options": [
         "And God stationed the cherubim before the garden of Eden, to guard the way to the tree of life.",
-        "Hide not thy face from this people.",
-        "And Yahweh rained fire from heaven upon the city and destroyed it from off the face of the earth.",
-        "Thou hast made me king instead of David my father."
+        "And God stationed the cherubim before the garden of Eden, to guard the way in the tree of life.",
+        "And God stationed the cherubim before the garden of Eden, to guard the way from the tree of life.",
+        "And God stationed a cherubim before the garden of Eden, to guard the way to the tree of life."
       ],
       "answer": "And God stationed the cherubim before the garden of Eden, to guard the way to the tree of life.",
       "optionIsScript": false,
-      "id": "s27-A3",
       "block": "s27",
       "blockLabel": "Davidson §27",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §27 A 3; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n116/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n116.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n65/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n65.jpg",
-        "exwb": "davidson-s27#A3",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s27-A3"
     },
     {
+      "id": "s27-A3.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: And God stationed the cherubim before the garden of Eden, to guard the way to the tree of life.",
+      "stimulus": "＿＿＿ אֱלֹהִים לִפְנֵי גַן עֵדֶן אֶת־הַכְּרֻבִים לִשְׁמֹר דֶּרֶךְ עֵץ הַחַיִּים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וַיַּשְׁכֵּן"
+      ],
+      "answerIsScript": true,
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "he-en",
+      "src": "s27-A3"
+    },
+    {
+      "id": "s27-A3.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וַיַּשְׁכֵּן אֱלֹהִים לִפְנֵי גַן עֵדֶן אֶת־הַכְּרֻבִים לִשְׁמֹר דֶּרֶךְ עֵץ הַחַיִּים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "And God stationed the cherubim before the garden of Eden, to guard the way to the tree of life."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "he-en",
+      "src": "s27-A3"
+    },
+    {
+      "id": "s27-A3.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And God stationed the cherubim before the garden of Eden, to guard the way to the tree of life.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיַּשְׁכֵּן אֱלֹהִים לִפְנֵי גַן עֵדֶן אֶת־הַכְּרֻבִים לִשְׁמֹר דֶּרֶךְ עֵץ הַחַיִּים"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "he-en",
+      "src": "s27-A3"
+    },
+    {
+      "id": "s27-A4.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "נָתַן אֱלֹהִים מְאֹרוֹת בִּרְקִיעַ הַשָּׁמַיִם לְהַבְדִּיל בֵּין הַיּוֹם וּבֵין הַלָּיְלָה",
+      "stimulusIsScript": true,
+      "statement": "God set luminaries in the firmament of heaven, to divide the day from the night.",
+      "answer": true,
+      "expected": "God set luminaries in the firmament of heaven, to divide the day from the night.",
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "he-en",
+      "src": "s27-A4"
+    },
+    {
+      "id": "s27-A4.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "נָתַן אֱלֹהִים מְאֹרוֹת בִּרְקִיעַ הַשָּׁמַיִם לְהַבְדִּיל בֵּין הַיּוֹם וּבֵין הַלָּיְלָה",
       "stimulusIsScript": true,
       "options": [
+        "God set luminaries in the firmament of heaven, to divide a day from the night.",
+        "God set luminaries in the firmament of heaven, to divide the day to the night.",
         "God set luminaries in the firmament of heaven, to divide the day from the night.",
-        "And they sent and called Jeroboam, and they made him king over Israel.",
-        "And I will assuredly hide my face on that day.",
-        "And Yahweh rained fire from heaven upon the city and destroyed it from off the face of the earth."
+        "God set luminaries in the firmament of heaven, to divide the day in the night."
       ],
       "answer": "God set luminaries in the firmament of heaven, to divide the day from the night.",
       "optionIsScript": false,
-      "id": "s27-A4",
       "block": "s27",
       "blockLabel": "Davidson §27",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §27 A 4; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n116/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n116.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n65/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n65.jpg",
-        "exwb": "davidson-s27#A4",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s27-A4"
     },
     {
+      "id": "s27-A4.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: God set luminaries in the firmament of heaven, to divide the day from the night.",
+      "stimulus": "נָתַן אֱלֹהִים ＿＿＿ בִּרְקִיעַ הַשָּׁמַיִם לְהַבְדִּיל בֵּין הַיּוֹם וּבֵין הַלָּיְלָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "מְאֹרוֹת"
+      ],
+      "answerIsScript": true,
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "he-en",
+      "src": "s27-A4"
+    },
+    {
+      "id": "s27-A4.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "נָתַן אֱלֹהִים מְאֹרוֹת בִּרְקִיעַ הַשָּׁמַיִם לְהַבְדִּיל בֵּין הַיּוֹם וּבֵין הַלָּיְלָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "God set luminaries in the firmament of heaven, to divide the day from the night."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "he-en",
+      "src": "s27-A4"
+    },
+    {
+      "id": "s27-A4.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "God set luminaries in the firmament of heaven, to divide the day from the night.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "נָתַן אֱלֹהִים מְאֹרוֹת בִּרְקִיעַ הַשָּׁמַיִם לְהַבְדִּיל בֵּין הַיּוֹם וּבֵין הַלָּיְלָה",
+        "נָתַן אֱלֹהִים מְאֹרוֹת בִּרְקִיעַ הַשָּׁמַיִם לְהַבְדִּיל בֵּין הַיּוֹם וּבֵין הַלַּיְלָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "he-en",
+      "src": "s27-A4"
+    },
+    {
+      "id": "s27-A5.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וְאָנֹכִי הַסְתֵּר אַסְתִּיר פָּנַי בַּיּוֹם הַהוּא",
+      "stimulusIsScript": true,
+      "statement": "And I will assuredly hide my face on that day.",
+      "answer": true,
+      "expected": "And I will assuredly hide my face on that day.",
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "he-en",
+      "src": "s27-A5"
+    },
+    {
+      "id": "s27-A5.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "וְאָנֹכִי הַסְתֵּר אַסְתִּיר פָּנַי בַּיּוֹם הַהוּא",
       "stimulusIsScript": true,
       "options": [
-        "Thou hast made me king instead of David my father.",
-        "God set luminaries in the firmament of heaven, to divide the day from the night.",
-        "Hide not thy face from this people.",
-        "And I will assuredly hide my face on that day."
+        "And I will assuredly hide my face on that day.",
+        "And I will assuredly hide his face on that day.",
+        "And we will assuredly hide my face on that day.",
+        "And I will assuredly hide my face on this day."
       ],
       "answer": "And I will assuredly hide my face on that day.",
       "optionIsScript": false,
-      "id": "s27-A5",
       "block": "s27",
       "blockLabel": "Davidson §27",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §27 A 5; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n116/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n116.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n65/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n65.jpg",
-        "exwb": "davidson-s27#A5",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s27-A5"
     },
     {
+      "id": "s27-A5.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: And I will assuredly hide my face on that day.",
+      "stimulus": "＿＿＿ הַסְתֵּר אַסְתִּיר פָּנַי בַּיּוֹם הַהוּא",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וְאָנֹכִי"
+      ],
+      "answerIsScript": true,
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "he-en",
+      "src": "s27-A5"
+    },
+    {
+      "id": "s27-A5.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וְאָנֹכִי הַסְתֵּר אַסְתִּיר פָּנַי בַּיּוֹם הַהוּא",
+      "stimulusIsScript": true,
+      "accepted": [
+        "And I will assuredly hide my face on that day."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "he-en",
+      "src": "s27-A5"
+    },
+    {
+      "id": "s27-A5.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And I will assuredly hide my face on that day.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וְאָנֹכִי הַסְתֵּר אַסְתִּיר פָּנַי בַּיּוֹם הַהוּא"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "he-en",
+      "src": "s27-A5"
+    },
+    {
+      "id": "s27-A8.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וְהָרָקִיעַ הָיָה מַבְדִּיל בֵּין מַיִם לָמָיִם",
+      "stimulusIsScript": true,
+      "statement": "And the firmament permanently divided the waters from the waters.",
+      "answer": true,
+      "expected": "And the firmament permanently divided the waters from the waters.",
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "he-en",
+      "src": "s27-A8"
+    },
+    {
+      "id": "s27-A8.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "וְהָרָקִיעַ הָיָה מַבְדִּיל בֵּין מַיִם לָמָיִם",
       "stimulusIsScript": true,
       "options": [
-        "Hide not thy face from this people.",
-        "Behold my face is against this people and I will destroy them from off the face of the ground.",
+        "And a firmament permanently divided the waters from the waters.",
+        "And the firmament permanently divided the waters to the waters.",
         "And the firmament permanently divided the waters from the waters.",
-        "And Yahweh rained fire from heaven upon the city and destroyed it from off the face of the earth."
+        "And the firmament permanently divided the waters from waters."
       ],
       "answer": "And the firmament permanently divided the waters from the waters.",
       "optionIsScript": false,
-      "id": "s27-A8",
       "block": "s27",
       "blockLabel": "Davidson §27",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §27 A 8; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n116/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n116.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n65/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n65.jpg",
-        "exwb": "davidson-s27#A8",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s27-A8"
     },
     {
+      "id": "s27-A8.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: And the firmament permanently divided the waters from the waters.",
+      "stimulus": "וְהָרָקִיעַ הָיָה מַבְדִּיל בֵּין מַיִם ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "לָמָיִם"
+      ],
+      "answerIsScript": true,
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "he-en",
+      "src": "s27-A8"
+    },
+    {
+      "id": "s27-A8.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וְהָרָקִיעַ הָיָה מַבְדִּיל בֵּין מַיִם לָמָיִם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "And the firmament permanently divided the waters from the waters."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "he-en",
+      "src": "s27-A8"
+    },
+    {
+      "id": "s27-A8.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And the firmament permanently divided the waters from the waters.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וְהָרָקִיעַ הָיָה מַבְדִּיל בֵּין מַיִם לָמָיִם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "he-en",
+      "src": "s27-A8"
+    },
+    {
+      "id": "s27-A9.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אַל־תַּסְתֵּר אֶת־פָּנֶיךָ מֵהָעָם הַזֶּה",
+      "stimulusIsScript": true,
+      "statement": "Hide not thy face to this people.",
+      "answer": false,
+      "expected": "Hide not thy face from this people.",
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "he-en",
+      "src": "s27-A9"
+    },
+    {
+      "id": "s27-A9.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
-      "stimulus": "אל־תסתר את־פניך מהעם הזה",
+      "stimulus": "אַל־תַּסְתֵּר אֶת־פָּנֶיךָ מֵהָעָם הַזֶּה",
       "stimulusIsScript": true,
       "options": [
-        "Thou hast made me king instead of David my father.",
-        "And they sent and called Jeroboam, and they made him king over Israel.",
-        "And Yahweh rained fire from heaven upon the city and destroyed it from off the face of the earth.",
-        "Hide not thy face from this people."
+        "Hide not your face from this people.",
+        "Hide not thy face from this people.",
+        "Hide not thy face from that people.",
+        "Hide not thy face to this people."
       ],
       "answer": "Hide not thy face from this people.",
       "optionIsScript": false,
-      "id": "s27-A9",
       "block": "s27",
       "blockLabel": "Davidson §27",
       "shape": "he-en",
-      "hint": "With vowel points: אַל־תַּסְתֵּר אֶת־פָּנֶיךָ מֵהָעָם הַזֶּה",
-      "data": {
-        "pointed": "אַל־תַּסְתֵּר אֶת־פָּנֶיךָ מֵהָעָם הַזֶּה"
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §27 A 9; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n116/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n116.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n65/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n65.jpg",
-        "exwb": "davidson-s27#A9",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s27-A9"
     },
     {
+      "id": "s27-A9.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Hide not thy face from this people.",
+      "stimulus": "אַל־תַּסְתֵּר ＿＿＿ מֵהָעָם הַזֶּה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶת־פָּנֶיךָ"
+      ],
+      "answerIsScript": true,
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "he-en",
+      "src": "s27-A9"
+    },
+    {
+      "id": "s27-A9.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "אל־תסתר את־פניך מהעם הזה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Hide not thy face from this people.",
+        "Hide not your face from this people."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "hint": "With vowel points: אַל־תַּסְתֵּר אֶת־פָּנֶיךָ מֵהָעָם הַזֶּה",
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "he-en",
+      "src": "s27-A9"
+    },
+    {
+      "id": "s27-A9.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Hide not thy face from this people.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אַל־תַּסְתֵּר אֶת־פָּנֶיךָ מֵהָעָם הַזֶּה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "he-en",
+      "src": "s27-A9"
+    },
+    {
+      "id": "s27-A10.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיַּמְטֵר יְהוָה עַל־הָעִיר אֵשׁ מִן־הַשָּׁמַיִם וַיַּשְׁמֵד אוֹתָהּ מֵעַל־פְּנֵי הָאֲדָמָה",
+      "stimulusIsScript": true,
+      "statement": "And Yahweh rained fire from heaven upon the city and destroyed it from off the face of an earth.",
+      "answer": false,
+      "expected": "And Yahweh rained fire from heaven upon the city and destroyed it from off the face of the earth.",
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "he-en",
+      "src": "s27-A10"
+    },
+    {
+      "id": "s27-A10.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
-      "stimulus": "וימטר יהוה על־העיר אש מן־השמים וישמד אותה מעל־פני האדמה",
+      "stimulus": "וַיַּמְטֵר יְהוָה עַל־הָעִיר אֵשׁ מִן־הַשָּׁמַיִם וַיַּשְׁמֵד אוֹתָהּ מֵעַל־פְּנֵי הָאֲדָמָה",
       "stimulusIsScript": true,
       "options": [
-        "Thou hast made me king instead of David my father.",
-        "And Yahweh rained fire from heaven upon the city and destroyed it from off the face of the earth.",
-        "Behold, his head will be thrown to thee over the wall.",
-        "Hide not thy face from this people."
+        "And Yahweh rained fire from heaven upon the city and destroyed it from off the face of an earth.",
+        "And Yahweh rained fire from heaven upon the city and destroyed it from off a face of the earth.",
+        "And Yahweh rained fire from heaven to the city and destroyed it from off the face of the earth.",
+        "And Yahweh rained fire from heaven upon the city and destroyed it from off the face of the earth."
       ],
       "answer": "And Yahweh rained fire from heaven upon the city and destroyed it from off the face of the earth.",
       "optionIsScript": false,
-      "id": "s27-A10",
       "block": "s27",
       "blockLabel": "Davidson §27",
       "shape": "he-en",
-      "hint": "With vowel points: וַיַּמְטֵר יְהוָה עַל־הָעִיר אֵשׁ מִן־הַשָּׁמַיִם וַיַּשְׁמֵד אוֹתָהּ מֵעַל־פְּנֵי הָאֲדָמָה",
-      "data": {
-        "pointed": "וַיַּמְטֵר יְהוָה עַל־הָעִיר אֵשׁ מִן־הַשָּׁמַיִם וַיַּשְׁמֵד אוֹתָהּ מֵעַל־פְּנֵי הָאֲדָמָה"
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §27 A 10; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n116/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n116.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n65/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n65.jpg",
-        "exwb": "davidson-s27#A10",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s27-A10"
     },
     {
+      "id": "s27-A10.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Fill in the missing word: And Yahweh rained fire from heaven upon the city and destroyed it from off the face of the earth.",
+      "stimulus": "וַיַּמְטֵר יְהוָה ＿＿＿ אֵשׁ מִן־הַשָּׁמַיִם וַיַּשְׁמֵד אוֹתָהּ מֵעַל־פְּנֵי הָאֲדָמָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "עַל־הָעִיר"
+      ],
+      "answerIsScript": true,
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "he-en",
+      "src": "s27-A10"
+    },
+    {
+      "id": "s27-A10.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וימטר יהוה על־העיר אש מן־השמים וישמד אותה מעל־פני האדמה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "And Yahweh rained fire from heaven upon the city and destroyed it from off the face of the earth.",
+        "And the Lord rained fire from heaven upon the city and destroyed it from off the face of the earth."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "hint": "With vowel points: וַיַּמְטֵר יְהוָה עַל־הָעִיר אֵשׁ מִן־הַשָּׁמַיִם וַיַּשְׁמֵד אוֹתָהּ מֵעַל־פְּנֵי הָאֲדָמָה",
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "he-en",
+      "src": "s27-A10"
+    },
+    {
+      "id": "s27-A10.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And Yahweh rained fire from heaven upon the city and destroyed it from off the face of the earth.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיַּמְטֵר יְהוָה עַל־הָעִיר אֵשׁ מִן־הַשָּׁמַיִם וַיַּשְׁמֵד אוֹתָהּ מֵעַל־פְּנֵי הָאֲדָמָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "he-en",
+      "src": "s27-A10"
+    },
+    {
+      "id": "s27-B1.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "יֵשׁ־עֵת לִשְׁמֹר וְעֵת לְהַשְׁלִיךְ",
+      "stimulusIsScript": true,
+      "statement": "There is a time to keep and the time to cast away.",
+      "answer": false,
+      "expected": "There is a time to keep and a time to cast away.",
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "en-he",
+      "src": "s27-B1"
+    },
+    {
+      "id": "s27-B1.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "יֵשׁ־עֵת לִשְׁמֹר וְעֵת לְהַשְׁלִיךְ",
+      "stimulusIsScript": true,
+      "options": [
+        "There is the time to keep and a time to cast away.",
+        "There is a time to keep and a time to cast away.",
+        "There is a time to keep and the time to cast away.",
+        "And God stationed the cherubim before the garden of Eden, to guard the way to the tree of life."
+      ],
+      "answer": "There is a time to keep and a time to cast away.",
+      "optionIsScript": false,
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "en-he",
+      "src": "s27-B1"
+    },
+    {
+      "id": "s27-B1.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: There is a time to keep and a time to cast away.",
+      "stimulus": "יֵשׁ־עֵת לִשְׁמֹר וְעֵת ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "לְהַשְׁלִיךְ"
+      ],
+      "answerIsScript": true,
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "en-he",
+      "src": "s27-B1"
+    },
+    {
+      "id": "s27-B1.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "There is a time to keep and a time to cast away.",
       "stimulusIsScript": false,
       "accepted": [
         "יֵשׁ־עֵת לִשְׁמֹר וְעֵת לְהַשְׁלִיךְ"
       ],
       "answerIsScript": true,
-      "id": "s27-B1",
       "block": "s27",
       "blockLabel": "Davidson §27",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §27 B 1; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n116/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n116.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n65/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n65.jpg",
-        "exwb": "davidson-s27#B1",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s27-B1"
     },
     {
+      "id": "s27-B1.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "There is a time to keep and a time to cast away.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "יֵשׁ־עֵת לִשְׁמֹר וְעֵת לְהַשְׁלִיךְ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "en-he",
+      "src": "s27-B1"
+    },
+    {
+      "id": "s27-B2.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אַל־תַּצְדֵּק אֶת־הָרְשָׁעִים",
+      "stimulusIsScript": true,
+      "statement": "Justify the wicked.",
+      "answer": false,
+      "expected": "Justify not the wicked.",
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "en-he",
+      "src": "s27-B2"
+    },
+    {
+      "id": "s27-B2.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אַל־תַּצְדֵּק אֶת־הָרְשָׁעִים",
+      "stimulusIsScript": true,
+      "options": [
+        "We went down unto the city to fight against it, but we could not destroy it.",
+        "Justify not a wicked.",
+        "Justify not the wicked.",
+        "Justify the wicked."
+      ],
+      "answer": "Justify not the wicked.",
+      "optionIsScript": false,
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "en-he",
+      "src": "s27-B2"
+    },
+    {
+      "id": "s27-B2.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Justify not the wicked.",
+      "stimulus": "אַל־תַּצְדֵּק ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶת־הָרְשָׁעִים"
+      ],
+      "answerIsScript": true,
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "en-he",
+      "src": "s27-B2"
+    },
+    {
+      "id": "s27-B2.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "Justify not the wicked.",
       "stimulusIsScript": false,
       "accepted": [
         "אַל־תַּצְדֵּק אֶת־הָרְשָׁעִים"
       ],
       "answerIsScript": true,
-      "id": "s27-B2",
       "block": "s27",
       "blockLabel": "Davidson §27",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §27 B 2; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n116/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n116.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n65/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n65.jpg",
-        "exwb": "davidson-s27#B2",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s27-B2"
     },
     {
+      "id": "s27-B2.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Justify not the wicked.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אַל־תַּצְדֵּק אֶת־הָרְשָׁעִים"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "en-he",
+      "src": "s27-B2"
+    },
+    {
+      "id": "s27-B3.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אַסְתִּירָה פָנַי מִן־הָעָם הָרַע הַזֶּה כִּי הִשְׁחִיתוּ לְפָנַי עַל־הָאָרֶץ",
+      "stimulusIsScript": true,
+      "statement": "Let me hide my face from this evil people, for they have done-corruptly (Hiph.) before me upon the earth.",
+      "answer": true,
+      "expected": "Let me hide my face from this evil people, for they have done-corruptly (Hiph.) before me upon the earth.",
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "en-he",
+      "src": "s27-B3"
+    },
+    {
+      "id": "s27-B3.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אַסְתִּירָה פָנַי מִן־הָעָם הָרַע הַזֶּה כִּי הִשְׁחִיתוּ לְפָנַי עַל־הָאָרֶץ",
+      "stimulusIsScript": true,
+      "options": [
+        "Let me hide my face in this evil people, for they have done-corruptly (Hiph.) before me upon the earth.",
+        "Let me hide my face from this evil people, for they have done-corruptly (Hiph.) before him upon the earth.",
+        "Let me hide my face from this evil people, for they have done-corruptly (Hiph.) before me upon the earth.",
+        "Let me hide his face from this evil people, for they have done-corruptly (Hiph.) before me upon the earth."
+      ],
+      "answer": "Let me hide my face from this evil people, for they have done-corruptly (Hiph.) before me upon the earth.",
+      "optionIsScript": false,
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "en-he",
+      "src": "s27-B3"
+    },
+    {
+      "id": "s27-B3.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Let me hide my face from this evil people, for they have done-corruptly (Hiph.) before me upon the earth.",
+      "stimulus": "אַסְתִּירָה פָנַי מִן־הָעָם הָרַע הַזֶּה כִּי ＿＿＿ לְפָנַי עַל־הָאָרֶץ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הִשְׁחִיתוּ"
+      ],
+      "answerIsScript": true,
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "en-he",
+      "src": "s27-B3"
+    },
+    {
+      "id": "s27-B3.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "Let me hide my face from this evil people, for they have done-corruptly (Hiph.) before me upon the earth.",
       "stimulusIsScript": false,
       "accepted": [
         "אַסְתִּירָה פָנַי מִן־הָעָם הָרַע הַזֶּה כִּי הִשְׁחִיתוּ לְפָנַי עַל־הָאָרֶץ"
       ],
       "answerIsScript": true,
-      "id": "s27-B3",
       "block": "s27",
       "blockLabel": "Davidson §27",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §27 B 3; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n116/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n116.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n65/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n65.jpg",
-        "exwb": "davidson-s27#B3",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s27-B3"
     },
     {
+      "id": "s27-B3.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Let me hide my face from this evil people, for they have done-corruptly (Hiph.) before me upon the earth.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אַסְתִּירָה פָנַי מִן־הָעָם הָרַע הַזֶּה כִּי הִשְׁחִיתוּ לְפָנַי עַל־הָאָרֶץ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "en-he",
+      "src": "s27-B3"
+    },
+    {
+      "id": "s27-B4.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אָמַר הַמֶּלֶךְ הַשְׁלִיכוּ אֶת־רֹאשׁוֹ אֵלֵינוּ בְּעַד הַחוֹמָה וַיַּשְׁלִיכוּ אֶת־רֹאשׁוֹ אֲלֵיהֶם",
+      "stimulusIsScript": true,
+      "statement": "The king said, Cast their head unto us over the wall; and they cast his head unto them.",
+      "answer": false,
+      "expected": "The king said, Cast his head unto us over the wall; and they cast his head unto them.",
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "en-he",
+      "src": "s27-B4"
+    },
+    {
+      "id": "s27-B4.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אָמַר הַמֶּלֶךְ הַשְׁלִיכוּ אֶת־רֹאשׁוֹ אֵלֵינוּ בְּעַד הַחוֹמָה וַיַּשְׁלִיכוּ אֶת־רֹאשׁוֹ אֲלֵיהֶם",
+      "stimulusIsScript": true,
+      "options": [
+        "A king said, Cast his head unto us over the wall; and they cast his head unto them.",
+        "The king said, Cast their head unto us over the wall; and they cast his head unto them.",
+        "The king said, Cast his head unto us over the wall; and we cast his head unto them.",
+        "The king said, Cast his head unto us over the wall; and they cast his head unto them."
+      ],
+      "answer": "The king said, Cast his head unto us over the wall; and they cast his head unto them.",
+      "optionIsScript": false,
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "en-he",
+      "src": "s27-B4"
+    },
+    {
+      "id": "s27-B4.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The king said, Cast his head unto us over the wall; and they cast his head unto them.",
+      "stimulus": "אָמַר הַמֶּלֶךְ ＿＿＿ אֶת־רֹאשׁוֹ אֵלֵינוּ בְּעַד הַחוֹמָה וַיַּשְׁלִיכוּ אֶת־רֹאשׁוֹ אֲלֵיהֶם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַשְׁלִיכוּ"
+      ],
+      "answerIsScript": true,
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "en-he",
+      "src": "s27-B4"
+    },
+    {
+      "id": "s27-B4.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "The king said, Cast his head unto us over the wall; and they cast his head unto them.",
       "stimulusIsScript": false,
       "accepted": [
         "אָמַר הַמֶּלֶךְ הַשְׁלִיכוּ אֶת־רֹאשׁוֹ אֵלֵינוּ בְּעַד הַחוֹמָה וַיַּשְׁלִיכוּ אֶת־רֹאשׁוֹ אֲלֵיהֶם"
       ],
       "answerIsScript": true,
-      "id": "s27-B4",
       "block": "s27",
       "blockLabel": "Davidson §27",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §27 B 4; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n116/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n116.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n65/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n65.jpg",
-        "exwb": "davidson-s27#B4",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s27-B4"
     },
     {
+      "id": "s27-B4.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The king said, Cast his head unto us over the wall; and they cast his head unto them.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אָמַר הַמֶּלֶךְ הַשְׁלִיכוּ אֶת־רֹאשׁוֹ אֵלֵינוּ בְּעַד הַחוֹמָה וַיַּשְׁלִיכוּ אֶת־רֹאשׁוֹ אֲלֵיהֶם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "en-he",
+      "src": "s27-B4"
+    },
+    {
+      "id": "s27-B5.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "כִּי הַמְטֵר יַמְטִיר עַל־הָעִיר הָרָעָה הַהִיא אֵשׁ מִן־הַשָּׁמַיִם וְהִשְׁמִיד אֹתָהּ וְלֹא תִזָּכֵר עוֹד לְעוֹלָם",
+      "stimulusIsScript": true,
+      "statement": "For he will surely (inf. abs.) rain fire from heaven to that evil city and will destroy it, and it shall not be remembered any more for ever.",
+      "answer": false,
+      "expected": "For he will surely (inf. abs.) rain fire from heaven upon that evil city and will destroy it, and it shall not be remembered any more for ever.",
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "en-he",
+      "src": "s27-B5"
+    },
+    {
+      "id": "s27-B5.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "כִּי הַמְטֵר יַמְטִיר עַל־הָעִיר הָרָעָה הַהִיא אֵשׁ מִן־הַשָּׁמַיִם וְהִשְׁמִיד אֹתָהּ וְלֹא תִזָּכֵר עוֹד לְעוֹלָם",
+      "stimulusIsScript": true,
+      "options": [
+        "For he will surely (inf. abs.) rain fire from heaven to that evil city and will destroy it, and it shall not be remembered any more for ever.",
+        "For she will surely (inf. abs.) rain fire from heaven upon that evil city and will destroy it, and it shall not be remembered any more for ever.",
+        "For he will surely (inf. abs.) rain fire from heaven upon that evil city and will destroy it, and it shall not be remembered any more for ever.",
+        "For he will surely (inf. abs.) rain fire from heaven upon that evil city and will destroy it, and it shall be remembered any more for ever."
+      ],
+      "answer": "For he will surely (inf. abs.) rain fire from heaven upon that evil city and will destroy it, and it shall not be remembered any more for ever.",
+      "optionIsScript": false,
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "en-he",
+      "src": "s27-B5"
+    },
+    {
+      "id": "s27-B5.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: For he will surely (inf. abs.) rain fire from heaven upon that evil city and will destroy it, and it shall not be remembered any more for ever.",
+      "stimulus": "כִּי הַמְטֵר יַמְטִיר עַל־הָעִיר הָרָעָה הַהִיא אֵשׁ מִן־הַשָּׁמַיִם ＿＿＿ אֹתָהּ וְלֹא תִזָּכֵר עוֹד לְעוֹלָם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וְהִשְׁמִיד"
+      ],
+      "answerIsScript": true,
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "en-he",
+      "src": "s27-B5"
+    },
+    {
+      "id": "s27-B5.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "For he will surely (inf. abs.) rain fire from heaven upon that evil city and will destroy it, and it shall not be remembered any more for ever.",
       "stimulusIsScript": false,
       "accepted": [
         "כִּי הַמְטֵר יַמְטִיר עַל־הָעִיר הָרָעָה הַהִיא אֵשׁ מִן־הַשָּׁמַיִם וְהִשְׁמִיד אֹתָהּ וְלֹא תִזָּכֵר עוֹד לְעוֹלָם"
       ],
       "answerIsScript": true,
-      "id": "s27-B5",
       "block": "s27",
       "blockLabel": "Davidson §27",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §27 B 5; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n116/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n116.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n65/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n65.jpg",
-        "exwb": "davidson-s27#B5",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s27-B5"
     },
     {
+      "id": "s27-B5.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "For he will surely (inf. abs.) rain fire from heaven upon that evil city and will destroy it, and it shall not be remembered any more for ever.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "כִּי הַמְטֵר יַמְטִיר עַל־הָעִיר הָרָעָה הַהִיא אֵשׁ מִן־הַשָּׁמַיִם וְהִשְׁמִיד אֹתָהּ וְלֹא תִזָּכֵר עוֹד לְעוֹלָם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "en-he",
+      "src": "s27-B5"
+    },
+    {
+      "id": "s27-B8.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אָמַר רְאוּבֵן אַל־תִּשְׁפְּכוּ־דָם הַשְׁלִיכוּ אֹתוֹ אֶל־הַבּוֹר הַזֶּה אֲשֶׁר בַּמִּדְבָּר וַיַּפְשִׁיטוּ אֶת־יוֹסֵף וַיַּשְׁלִיכוּ אֹתוֹ הַבּוֹרָה וְהַבּוֹר רֵק",
+      "stimulusIsScript": true,
+      "statement": "Reuben said, Spill not blood, cast him into this pit which (is) in the wilderness; and they stripped Joseph and cast him (into) the pit (acc., § 17. 3), and the pit (was) empty.",
+      "answer": true,
+      "expected": "Reuben said, Spill not blood, cast him into this pit which (is) in the wilderness; and they stripped Joseph and cast him (into) the pit (acc., § 17. 3), and the pit (was) empty.",
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "en-he",
+      "src": "s27-B8"
+    },
+    {
+      "id": "s27-B8.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אָמַר רְאוּבֵן אַל־תִּשְׁפְּכוּ־דָם הַשְׁלִיכוּ אֹתוֹ אֶל־הַבּוֹר הַזֶּה אֲשֶׁר בַּמִּדְבָּר וַיַּפְשִׁיטוּ אֶת־יוֹסֵף וַיַּשְׁלִיכוּ אֹתוֹ הַבּוֹרָה וְהַבּוֹר רֵק",
+      "stimulusIsScript": true,
+      "options": [
+        "Reuben said, Spill not blood, cast him into this pit which (is) to the wilderness; and they stripped Joseph and cast him (into) the pit (acc., § 17. 3), and the pit (was) empty.",
+        "Reuben said, Spill not blood, cast him into this pit which (is) in the wilderness; and they stripped Joseph and cast him (into) a pit (acc., § 17. 3), and the pit (was) empty.",
+        "Reuben said, Spill not blood, cast him into this pit which (is) in the wilderness; and they stripped Joseph and cast him (into) the pit (acc., § 17. 3), and the pit (was) empty.",
+        "Reuben said, Spill not blood, cast him into this pit which (is) in the wilderness; and we stripped Joseph and cast him (into) the pit (acc., § 17. 3), and the pit (was) empty."
+      ],
+      "answer": "Reuben said, Spill not blood, cast him into this pit which (is) in the wilderness; and they stripped Joseph and cast him (into) the pit (acc., § 17. 3), and the pit (was) empty.",
+      "optionIsScript": false,
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "en-he",
+      "src": "s27-B8"
+    },
+    {
+      "id": "s27-B8.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Reuben said, Spill not blood, cast him into this pit which (is) in the wilderness; and they stripped Joseph and cast him (into) the pit (acc., § 17. 3), and the pit (was) empty.",
+      "stimulus": "אָמַר רְאוּבֵן אַל־תִּשְׁפְּכוּ־דָם הַשְׁלִיכוּ אֹתוֹ אֶל־הַבּוֹר הַזֶּה אֲשֶׁר בַּמִּדְבָּר ＿＿＿ אֶת־יוֹסֵף וַיַּשְׁלִיכוּ אֹתוֹ הַבּוֹרָה וְהַבּוֹר רֵק",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וַיַּפְשִׁיטוּ"
+      ],
+      "answerIsScript": true,
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "en-he",
+      "src": "s27-B8"
+    },
+    {
+      "id": "s27-B8.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "Reuben said, Spill not blood, cast him into this pit which (is) in the wilderness; and they stripped Joseph and cast him (into) the pit (acc., § 17. 3), and the pit (was) empty.",
       "stimulusIsScript": false,
       "accepted": [
         "אָמַר רְאוּבֵן אַל־תִּשְׁפְּכוּ־דָם הַשְׁלִיכוּ אֹתוֹ אֶל־הַבּוֹר הַזֶּה אֲשֶׁר בַּמִּדְבָּר וַיַּפְשִׁיטוּ אֶת־יוֹסֵף וַיַּשְׁלִיכוּ אֹתוֹ הַבּוֹרָה וְהַבּוֹר רֵק"
       ],
       "answerIsScript": true,
-      "id": "s27-B8",
       "block": "s27",
       "blockLabel": "Davidson §27",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §27 B 8; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n116/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n116.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n65/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n65.jpg",
-        "exwb": "davidson-s27#B8",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s27-B8"
     },
     {
+      "id": "s27-B8.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Reuben said, Spill not blood, cast him into this pit which (is) in the wilderness; and they stripped Joseph and cast him (into) the pit (acc., § 17. 3), and the pit (was) empty.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אָמַר רְאוּבֵן אַל־תִּשְׁפְּכוּ־דָם הַשְׁלִיכוּ אֹתוֹ אֶל־הַבּוֹר הַזֶּה אֲשֶׁר בַּמִּדְבָּר וַיַּפְשִׁיטוּ אֶת־יוֹסֵף וַיַּשְׁלִיכוּ אֹתוֹ הַבּוֹרָה וְהַבּוֹר רֵק"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "en-he",
+      "src": "s27-B8"
+    },
+    {
+      "id": "s29-A4.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיַּסְתִּרוּ אֶת־הַיֶּלֶד וְאֶת־מֵינִקְתּוֹ מִפְּנֵי הַמַּלְכָּה",
+      "stimulusIsScript": true,
+      "statement": "And they hid the child and his nurse from the face of the queen.",
+      "answer": true,
+      "expected": "And they hid the child and his nurse from the face of the queen.",
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "he-en",
+      "src": "s29-A4"
+    },
+    {
+      "id": "s29-A4.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "וַיַּסְתִּרוּ אֶת־הַיֶּלֶד וְאֶת־מֵינִקְתּוֹ מִפְּנֵי הַמַּלְכָּה",
       "stimulusIsScript": true,
       "options": [
-        "And the broad open places of the city shall be filled with boys and girls.",
-        "And God created man in his (own) image.",
+        "And they hid a child and his nurse from the face of the queen.",
         "And they hid the child and his nurse from the face of the queen.",
-        "The face of Yahweh is against the wicked, to cut off the remembrance of them from the earth."
+        "And they hid the child and her nurse from the face of the queen.",
+        "And we hid the child and his nurse from the face of the queen."
       ],
       "answer": "And they hid the child and his nurse from the face of the queen.",
       "optionIsScript": false,
-      "id": "s29-A4",
       "block": "s29",
       "blockLabel": "Davidson §29",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §29 A 4; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n123/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n123.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n69/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n69.jpg",
-        "exwb": "davidson-s29#A4",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s29-A4"
     },
     {
+      "id": "s29-A4.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: And they hid the child and his nurse from the face of the queen.",
+      "stimulus": "וַיַּסְתִּרוּ אֶת־הַיֶּלֶד ＿＿＿ מִפְּנֵי הַמַּלְכָּה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וְאֶת־מֵינִקְתּוֹ"
+      ],
+      "answerIsScript": true,
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "he-en",
+      "src": "s29-A4"
+    },
+    {
+      "id": "s29-A4.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וַיַּסְתִּרוּ אֶת־הַיֶּלֶד וְאֶת־מֵינִקְתּוֹ מִפְּנֵי הַמַּלְכָּה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "And they hid the child and his nurse from the face of the queen."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "he-en",
+      "src": "s29-A4"
+    },
+    {
+      "id": "s29-A4.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And they hid the child and his nurse from the face of the queen.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיַּסְתִּרוּ אֶת־הַיֶּלֶד וְאֶת־מֵינִקְתּוֹ מִפְּנֵי הַמַּלְכָּה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "he-en",
+      "src": "s29-A4"
+    },
+    {
+      "id": "s29-A6.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַשְׁמֵן לֵב־הָעָם הַזֶּה וְאָזְנָיו הַכְבֵּד",
+      "stimulusIsScript": true,
+      "statement": "Make fat the heart of this people and make heavy their ears.",
+      "answer": true,
+      "expected": "Make fat the heart of this people and make heavy their ears.",
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "he-en",
+      "src": "s29-A6"
+    },
+    {
+      "id": "s29-A6.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "הַשְׁמֵן לֵב־הָעָם הַזֶּה וְאָזְנָיו הַכְבֵּד",
       "stimulusIsScript": true,
       "options": [
+        "Make fat a heart of this people and make heavy their ears.",
         "Make fat the heart of this people and make heavy their ears.",
-        "The face of Yahweh is against the wicked, to cut off the remembrance of them from the earth.",
-        "Thy silver and gold I do not delight in.",
-        "And they hid the child and his nurse from the face of the queen."
+        "Make fat the heart of that people and make heavy their ears.",
+        "Make fat the heart of this people and make heavy your ears."
       ],
       "answer": "Make fat the heart of this people and make heavy their ears.",
       "optionIsScript": false,
-      "id": "s29-A6",
       "block": "s29",
       "blockLabel": "Davidson §29",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §29 A 6; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n123/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n123.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n69/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n69.jpg",
-        "exwb": "davidson-s29#A6",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s29-A6"
     },
     {
+      "id": "s29-A6.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Make fat the heart of this people and make heavy their ears.",
+      "stimulus": "הַשְׁמֵן ＿＿＿ הַזֶּה וְאָזְנָיו הַכְבֵּד",
+      "stimulusIsScript": true,
+      "accepted": [
+        "לֵב־הָעָם"
+      ],
+      "answerIsScript": true,
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "he-en",
+      "src": "s29-A6"
+    },
+    {
+      "id": "s29-A6.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הַשְׁמֵן לֵב־הָעָם הַזֶּה וְאָזְנָיו הַכְבֵּד",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Make fat the heart of this people and make heavy their ears."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "he-en",
+      "src": "s29-A6"
+    },
+    {
+      "id": "s29-A6.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Make fat the heart of this people and make heavy their ears.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַשְׁמֵן לֵב־הָעָם הַזֶּה וְאָזְנָיו הַכְבֵּד"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "he-en",
+      "src": "s29-A6"
+    },
+    {
+      "id": "s29-A8.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "פְּנֵי יְהוָה בָּרְשָׁעִים לְהַכְרִית מֵהָאָרֶץ זִכְרָם",
+      "stimulusIsScript": true,
+      "statement": "The face of Yahweh is against the wicked, to cut off the remembrance of them from the earth.",
+      "answer": true,
+      "expected": "The face of Yahweh is against the wicked, to cut off the remembrance of them from the earth.",
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "he-en",
+      "src": "s29-A8"
+    },
+    {
+      "id": "s29-A8.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
-      "stimulus": "פני יהוה ברשעים להכרית מהארץ זכרם",
+      "stimulus": "פְּנֵי יְהוָה בָּרְשָׁעִים לְהַכְרִית מֵהָאָרֶץ זִכְרָם",
       "stimulusIsScript": true,
       "options": [
-        "Your ways are not my ways.",
-        "Thy word is a lamp to my foot and a light to my path.",
+        "The face of Yahweh is against the wicked, to cut off the remembrance of him from the earth.",
+        "The face of Yahweh is against a wicked, to cut off the remembrance of them from the earth.",
         "The face of Yahweh is against the wicked, to cut off the remembrance of them from the earth.",
-        "And now, ye inhabitants of Jerusalem and ye men of Judah, judge, I pray you, between me and my vineyard."
+        "The face of Yahweh is against the wicked, to cut off the remembrance of them to the earth."
       ],
       "answer": "The face of Yahweh is against the wicked, to cut off the remembrance of them from the earth.",
       "optionIsScript": false,
-      "id": "s29-A8",
       "block": "s29",
       "blockLabel": "Davidson §29",
       "shape": "he-en",
-      "hint": "With vowel points: פְּנֵי יְהוָה בָּרְשָׁעִים לְהַכְרִית מֵהָאָרֶץ זִכְרָם",
-      "data": {
-        "pointed": "פְּנֵי יְהוָה בָּרְשָׁעִים לְהַכְרִית מֵהָאָרֶץ זִכְרָם"
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §29 A 8; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n123/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n123.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n69/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n69.jpg",
-        "exwb": "davidson-s29#A8",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s29-A8"
     },
     {
+      "id": "s29-A8.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Fill in the missing word: The face of Yahweh is against the wicked, to cut off the remembrance of them from the earth.",
+      "stimulus": "פְּנֵי יְהוָה ＿＿＿ לְהַכְרִית מֵהָאָרֶץ זִכְרָם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "בָּרְשָׁעִים"
+      ],
+      "answerIsScript": true,
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "he-en",
+      "src": "s29-A8"
+    },
+    {
+      "id": "s29-A8.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "פני יהוה ברשעים להכרית מהארץ זכרם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The face of Yahweh is against the wicked, to cut off the remembrance of them from the earth.",
+        "The face of the Lord is against the wicked, to cut off the remembrance of them from the earth."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "hint": "With vowel points: פְּנֵי יְהוָה בָּרְשָׁעִים לְהַכְרִית מֵהָאָרֶץ זִכְרָם",
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "he-en",
+      "src": "s29-A8"
+    },
+    {
+      "id": "s29-A8.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The face of Yahweh is against the wicked, to cut off the remembrance of them from the earth.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "פְּנֵי יְהוָה בָּרְשָׁעִים לְהַכְרִית מֵהָאָרֶץ זִכְרָם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "he-en",
+      "src": "s29-A8"
+    },
+    {
+      "id": "s29-B10.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "כִּי הִשְׁחִית כָּל־בָּשָׂר אֶת־דַּרְכּוֹ עַל־הָאָרֶץ",
+      "stimulusIsScript": true,
+      "statement": "For all flesh had corrupted his way upon an earth.",
+      "answer": false,
+      "expected": "For all flesh had corrupted his way upon the earth.",
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "en-he",
+      "src": "s29-B10"
+    },
+    {
+      "id": "s29-B10.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "כִּי הִשְׁחִית כָּל־בָּשָׂר אֶת־דַּרְכּוֹ עַל־הָאָרֶץ",
+      "stimulusIsScript": true,
+      "options": [
+        "For all flesh had corrupted his way to the earth.",
+        "For all flesh had corrupted his way upon an earth.",
+        "For all flesh had corrupted my way upon the earth.",
+        "For all flesh had corrupted his way upon the earth."
+      ],
+      "answer": "For all flesh had corrupted his way upon the earth.",
+      "optionIsScript": false,
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "en-he",
+      "src": "s29-B10"
+    },
+    {
+      "id": "s29-B10.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: For all flesh had corrupted his way upon the earth.",
+      "stimulus": "כִּי הִשְׁחִית כָּל־בָּשָׂר ＿＿＿ עַל־הָאָרֶץ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶת־דַּרְכּוֹ"
+      ],
+      "answerIsScript": true,
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "en-he",
+      "src": "s29-B10"
+    },
+    {
+      "id": "s29-B10.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "For all flesh had corrupted his way upon the earth.",
       "stimulusIsScript": false,
       "accepted": [
         "כִּי הִשְׁחִית כָּל־בָּשָׂר אֶת־דַּרְכּוֹ עַל־הָאָרֶץ"
       ],
       "answerIsScript": true,
-      "id": "s29-B10",
       "block": "s29",
       "blockLabel": "Davidson §29",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §29 B 10; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n123/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n123.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n69/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n69.jpg",
-        "exwb": "davidson-s29#B10",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s29-B10"
     },
     {
+      "id": "s29-B10.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "For all flesh had corrupted his way upon the earth.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "כִּי הִשְׁחִית כָּל־בָּשָׂר אֶת־דַּרְכּוֹ עַל־הָאָרֶץ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "en-he",
+      "src": "s29-B10"
+    },
+    {
+      "id": "s29-B18.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אַכְרִית קַשְׁתָּם וְכָל־כְּלֵי מִלְחַמְתָּם",
+      "stimulusIsScript": true,
+      "statement": "I will cut off their bow and all their weapons of warfare.",
+      "answer": true,
+      "expected": "I will cut off their bow and all their weapons of warfare.",
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "en-he",
+      "src": "s29-B18"
+    },
+    {
+      "id": "s29-B18.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אַכְרִית קַשְׁתָּם וְכָל־כְּלֵי מִלְחַמְתָּם",
+      "stimulusIsScript": true,
+      "options": [
+        "We will cut off their bow and all their weapons of warfare.",
+        "I will cut off their bow and all his weapons of warfare.",
+        "I will cut off their bow and all their weapons of warfare.",
+        "They will cut off their bow and all their weapons of warfare."
+      ],
+      "answer": "I will cut off their bow and all their weapons of warfare.",
+      "optionIsScript": false,
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "en-he",
+      "src": "s29-B18"
+    },
+    {
+      "id": "s29-B18.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: I will cut off their bow and all their weapons of warfare.",
+      "stimulus": "＿＿＿ קַשְׁתָּם וְכָל־כְּלֵי מִלְחַמְתָּם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אַכְרִית"
+      ],
+      "answerIsScript": true,
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "en-he",
+      "src": "s29-B18"
+    },
+    {
+      "id": "s29-B18.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "I will cut off their bow and all their weapons of warfare.",
       "stimulusIsScript": false,
       "accepted": [
         "אַכְרִית קַשְׁתָּם וְכָל־כְּלֵי מִלְחַמְתָּם"
       ],
       "answerIsScript": true,
-      "id": "s29-B18",
       "block": "s29",
       "blockLabel": "Davidson §29",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §29 B 18; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n123/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n123.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n69/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n69.jpg",
-        "exwb": "davidson-s29#B18",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s29-B18"
     },
     {
+      "id": "s29-B18.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "I will cut off their bow and all their weapons of warfare.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אַכְרִית קַשְׁתָּם וְכָל־כְּלֵי מִלְחַמְתָּם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "en-he",
+      "src": "s29-B18"
+    },
+    {
+      "id": "s31-C6.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "בְּיוֹם פָּקְדִי אֶת־יִשְׂרָאֵל וְהִשְׁמַדְתִּי אֶת־מִזְבְּחוֹת בֵּית־אֵל",
+      "stimulusIsScript": true,
+      "statement": "In the day when I visit (of my visiting) Israel, I will destroy the altars of Bethel.",
+      "answer": true,
+      "expected": "In the day when I visit (of my visiting) Israel, I will destroy the altars of Bethel.",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "en-he",
+      "src": "s31-C6"
+    },
+    {
+      "id": "s31-C6.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "בְּיוֹם פָּקְדִי אֶת־יִשְׂרָאֵל וְהִשְׁמַדְתִּי אֶת־מִזְבְּחוֹת בֵּית־אֵל",
+      "stimulusIsScript": true,
+      "options": [
+        "In the day when I visit (of my visiting) Israel, I will destroy the altars of Bethel.",
+        "In the day when they visit (of my visiting) Israel, I will destroy the altars of Bethel.",
+        "From the day when I visit (of my visiting) Israel, I will destroy the altars of Bethel.",
+        "In a day when I visit (of my visiting) Israel, I will destroy the altars of Bethel."
+      ],
+      "answer": "In the day when I visit (of my visiting) Israel, I will destroy the altars of Bethel.",
+      "optionIsScript": false,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "en-he",
+      "src": "s31-C6"
+    },
+    {
+      "id": "s31-C6.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: In the day when I visit (of my visiting) Israel, I will destroy the altars of Bethel.",
+      "stimulus": "בְּיוֹם פָּקְדִי אֶת־יִשְׂרָאֵל וְהִשְׁמַדְתִּי ＿＿＿ בֵּית־אֵל",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶת־מִזְבְּחוֹת"
+      ],
+      "answerIsScript": true,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "en-he",
+      "src": "s31-C6"
+    },
+    {
+      "id": "s31-C6.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "In the day when I visit (of my visiting) Israel, I will destroy the altars of Bethel.",
       "stimulusIsScript": false,
       "accepted": [
         "בְּיוֹם פָּקְדִי אֶת־יִשְׂרָאֵל וְהִשְׁמַדְתִּי אֶת־מִזְבְּחוֹת בֵּית־אֵל"
       ],
       "answerIsScript": true,
-      "id": "s31-C6",
       "block": "s31",
       "blockLabel": "Davidson §31",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 C 6; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
-        "exwb": "davidson-s31#C6",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s31-C6"
     },
     {
+      "id": "s31-C6.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "In the day when I visit (of my visiting) Israel, I will destroy the altars of Bethel.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בְּיוֹם פָּקְדִי אֶת־יִשְׂרָאֵל וְהִשְׁמַדְתִּי אֶת־מִזְבְּחוֹת בֵּית־אֵל"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "en-he",
+      "src": "s31-C6"
+    },
+    {
+      "id": "s41-B5.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיַּקְרֵב אֶת־אֵיל הָעוֹלָה",
+      "stimulusIsScript": true,
+      "statement": "And he offered the ram of the burnt-offering.",
+      "answer": true,
+      "expected": "And he offered the ram of the burnt-offering.",
+      "block": "s41",
+      "blockLabel": "Davidson §41",
+      "shape": "en-he",
+      "src": "s41-B5"
+    },
+    {
+      "id": "s41-B5.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיַּקְרֵב אֶת־אֵיל הָעוֹלָה",
+      "stimulusIsScript": true,
+      "options": [
+        "And he offered the ram of the burnt-offering.",
+        "And he offered a ram of the burnt-offering.",
+        "And she offered the ram of the burnt-offering.",
+        "And he offered the ram of a burnt-offering."
+      ],
+      "answer": "And he offered the ram of the burnt-offering.",
+      "optionIsScript": false,
+      "block": "s41",
+      "blockLabel": "Davidson §41",
+      "shape": "en-he",
+      "src": "s41-B5"
+    },
+    {
+      "id": "s41-B5.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: And he offered the ram of the burnt-offering.",
+      "stimulus": "וַיַּקְרֵב אֶת־אֵיל ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הָעוֹלָה"
+      ],
+      "answerIsScript": true,
+      "block": "s41",
+      "blockLabel": "Davidson §41",
+      "shape": "en-he",
+      "src": "s41-B5"
+    },
+    {
+      "id": "s41-B5.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "And he offered the ram of the burnt-offering.",
       "stimulusIsScript": false,
       "accepted": [
         "וַיַּקְרֵב אֶת־אֵיל הָעוֹלָה"
       ],
       "answerIsScript": true,
-      "id": "s41-B5",
       "block": "s41",
       "blockLabel": "Davidson §41",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §41 B 5; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n155/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n155.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n112/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n112.jpg",
-        "exwb": "davidson-s41#B5",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s41-B5"
     },
     {
+      "id": "s41-B5.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And he offered the ram of the burnt-offering.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיַּקְרֵב אֶת־אֵיל הָעוֹלָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s41",
+      "blockLabel": "Davidson §41",
+      "shape": "en-he",
+      "src": "s41-B5"
+    },
+    {
+      "id": "s47-A7.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הִנֵּה שְׁמֹעַ מִזֶּבַח טוֹב לְהַקְשִׁיב מֵחֵלֶב אֵילִים",
+      "stimulusIsScript": true,
+      "statement": "Behold, obedience is better than sacrifice, and to hearken than a fat of rams.",
+      "answer": false,
+      "expected": "Behold, obedience is better than sacrifice, and to hearken than the fat of rams.",
+      "block": "s47",
+      "blockLabel": "Davidson §47",
+      "shape": "he-en",
+      "src": "s47-A7"
+    },
+    {
+      "id": "s47-A7.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "הִנֵּה שְׁמֹעַ מִזֶּבַח טוֹב לְהַקְשִׁיב מֵחֵלֶב אֵילִים",
       "stimulusIsScript": true,
       "options": [
-        "O thou fairest among women!",
-        "As thy sword has bereaved women, so shall thy mother be the most bereaved of women.",
-        "I will make of thee a nation more powerful and numerous than it.",
-        "Behold, obedience is better than sacrifice, and to hearken than the fat of rams."
+        "Behold, obedience is better than sacrifice, and to hearken than the fat of rams.",
+        "Behold, obedience is better than sacrifice, and to hearken than a fat of rams.",
+        "The day of death is better than the day of one's birth.",
+        "He has slain men more righteous than he."
       ],
       "answer": "Behold, obedience is better than sacrifice, and to hearken than the fat of rams.",
       "optionIsScript": false,
-      "id": "s47-A7",
       "block": "s47",
       "blockLabel": "Davidson §47",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §47 A 7; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n181/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n181.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n140/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n140.jpg",
-        "exwb": "davidson-s47#A7",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s47-A7"
+    },
+    {
+      "id": "s47-A7.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Behold, obedience is better than sacrifice, and to hearken than the fat of rams.",
+      "stimulus": "הִנֵּה שְׁמֹעַ מִזֶּבַח טוֹב ＿＿＿ מֵחֵלֶב אֵילִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "לְהַקְשִׁיב"
+      ],
+      "answerIsScript": true,
+      "block": "s47",
+      "blockLabel": "Davidson §47",
+      "shape": "he-en",
+      "src": "s47-A7"
+    },
+    {
+      "id": "s47-A7.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הִנֵּה שְׁמֹעַ מִזֶּבַח טוֹב לְהַקְשִׁיב מֵחֵלֶב אֵילִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Behold, obedience is better than sacrifice, and to hearken than the fat of rams."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s47",
+      "blockLabel": "Davidson §47",
+      "shape": "he-en",
+      "src": "s47-A7"
+    },
+    {
+      "id": "s47-A7.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Behold, obedience is better than sacrifice, and to hearken than the fat of rams.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הִנֵּה שְׁמֹעַ מִזֶּבַח טוֹב לְהַקְשִׁיב מֵחֵלֶב אֵילִים"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s47",
+      "blockLabel": "Davidson §47",
+      "shape": "he-en",
+      "src": "s47-A7"
     }
   ]
 }

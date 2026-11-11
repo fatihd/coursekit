@@ -1,152 +1,628 @@
 {
   "schema": "authored-exercises-v1.json",
   "unit": 28,
+  "sources": {
+    "s29-A2": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §29 A 2; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n123/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n123.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n69/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n69.jpg",
+      "exwb": "davidson-s29#A2",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s29-B1": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §29 B 1; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n123/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n123.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n69/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n69.jpg",
+      "exwb": "davidson-s29#B1",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s29-B2": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §29 B 2; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n123/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n123.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n69/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n69.jpg",
+      "exwb": "davidson-s29#B2",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s29-B3": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §29 B 3; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n123/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n123.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n69/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n69.jpg",
+      "exwb": "davidson-s29#B3",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s29-B4": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §29 B 4; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n123/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n123.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n69/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n69.jpg",
+      "exwb": "davidson-s29#B4",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s29-B5": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §29 B 5; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n123/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n123.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n69/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n69.jpg",
+      "exwb": "davidson-s29#B5",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s29-B6": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §29 B 6; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n123/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n123.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n69/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n69.jpg",
+      "exwb": "davidson-s29#B6",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s29-B7": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §29 B 7; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n123/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n123.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n69/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n69.jpg",
+      "exwb": "davidson-s29#B7",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s29-B8": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §29 B 8; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n123/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n123.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n69/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n69.jpg",
+      "exwb": "davidson-s29#B8",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s29-B11": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §29 B 11; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n123/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n123.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n69/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n69.jpg",
+      "exwb": "davidson-s29#B11",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s29-B14": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §29 B 14; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n123/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n123.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n69/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n69.jpg",
+      "exwb": "davidson-s29#B14",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s29-B15": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §29 B 15; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n123/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n123.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n69/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n69.jpg",
+      "exwb": "davidson-s29#B15",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s29-B16": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §29 B 16; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n123/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n123.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n69/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n69.jpg",
+      "exwb": "davidson-s29#B16",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s29-B17": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §29 B 17; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n123/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n123.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n69/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n69.jpg",
+      "exwb": "davidson-s29#B17",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    }
+  },
   "items": [
     {
+      "id": "s29-A2.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "לֹא דְרָכַי דַּרְכֵיכֶם",
+      "stimulusIsScript": true,
+      "statement": "Your ways are not my ways.",
+      "answer": true,
+      "expected": "Your ways are not my ways.",
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "he-en",
+      "src": "s29-A2"
+    },
+    {
+      "id": "s29-A2.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "לֹא דְרָכַי דַּרְכֵיכֶם",
       "stimulusIsScript": true,
       "options": [
-        "And God created man in his (own) image.",
         "Your ways are not my ways.",
-        "And the broad open places of the city shall be filled with boys and girls.",
-        "Thy silver and gold I do not delight in."
+        "Our ways are not my ways.",
+        "Your ways are my ways.",
+        "Your ways are not thy ways."
       ],
       "answer": "Your ways are not my ways.",
       "optionIsScript": false,
-      "id": "s29-A2",
       "block": "s29",
       "blockLabel": "Davidson §29",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §29 A 2; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n123/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n123.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n69/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n69.jpg",
-        "exwb": "davidson-s29#A2",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s29-A2"
     },
     {
+      "id": "s29-A2.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Fill in the missing word: Your ways are not my ways.",
+      "stimulus": "לֹא ＿＿＿ דַּרְכֵיכֶם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "דְרָכַי"
+      ],
+      "answerIsScript": true,
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "he-en",
+      "src": "s29-A2"
+    },
+    {
+      "id": "s29-A2.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "לֹא דְרָכַי דַּרְכֵיכֶם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Your ways are not my ways."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "he-en",
+      "src": "s29-A2"
+    },
+    {
+      "id": "s29-A2.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Your ways are not my ways.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "לֹא דְרָכַי דַּרְכֵיכֶם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "he-en",
+      "src": "s29-A2"
+    },
+    {
+      "id": "s29-B1.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "מַלְכִּי",
+      "stimulusIsScript": true,
+      "statement": "His king",
+      "answer": false,
+      "expected": "My king",
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "en-he",
+      "src": "s29-B1"
+    },
+    {
+      "id": "s29-B1.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "מַלְכִּי",
+      "stimulusIsScript": true,
+      "options": [
+        "Thy king",
+        "Our king",
+        "My king",
+        "His king"
+      ],
+      "answer": "My king",
+      "optionIsScript": false,
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "en-he",
+      "src": "s29-B1"
+    },
+    {
+      "id": "s29-B1.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "My king",
       "stimulusIsScript": false,
       "accepted": [
         "מַלְכִּי"
       ],
       "answerIsScript": true,
-      "id": "s29-B1",
       "block": "s29",
       "blockLabel": "Davidson §29",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §29 B 1; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n123/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n123.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n69/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n69.jpg",
-        "exwb": "davidson-s29#B1",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s29-B1"
     },
     {
+      "id": "s29-B1.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "My king",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מַלְכִּי"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "en-he",
+      "src": "s29-B1"
+    },
+    {
+      "id": "s29-B2.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "מְלָכֵינוּ",
+      "stimulusIsScript": true,
+      "statement": "My kings",
+      "answer": false,
+      "expected": "Our kings",
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "en-he",
+      "src": "s29-B2"
+    },
+    {
+      "id": "s29-B2.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "מְלָכֵינוּ",
+      "stimulusIsScript": true,
+      "options": [
+        "Their kings",
+        "Your kings",
+        "My kings",
+        "Our kings"
+      ],
+      "answer": "Our kings",
+      "optionIsScript": false,
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "en-he",
+      "src": "s29-B2"
+    },
+    {
+      "id": "s29-B2.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "Our kings",
       "stimulusIsScript": false,
       "accepted": [
         "מְלָכֵינוּ"
       ],
       "answerIsScript": true,
-      "id": "s29-B2",
       "block": "s29",
       "blockLabel": "Davidson §29",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §29 B 2; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n123/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n123.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n69/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n69.jpg",
-        "exwb": "davidson-s29#B2",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s29-B2"
     },
     {
+      "id": "s29-B2.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Our kings",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מְלָכֵינוּ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "en-he",
+      "src": "s29-B2"
+    },
+    {
+      "id": "s29-B3.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "סְפָרָיו",
+      "stimulusIsScript": true,
+      "statement": "His books",
+      "answer": true,
+      "expected": "His books",
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "en-he",
+      "src": "s29-B3"
+    },
+    {
+      "id": "s29-B3.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "סְפָרָיו",
+      "stimulusIsScript": true,
+      "options": [
+        "Her books",
+        "His books",
+        "My books",
+        "Their books"
+      ],
+      "answer": "His books",
+      "optionIsScript": false,
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "en-he",
+      "src": "s29-B3"
+    },
+    {
+      "id": "s29-B3.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "His books",
       "stimulusIsScript": false,
       "accepted": [
         "סְפָרָיו"
       ],
       "answerIsScript": true,
-      "id": "s29-B3",
       "block": "s29",
       "blockLabel": "Davidson §29",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §29 B 3; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n123/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n123.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n69/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n69.jpg",
-        "exwb": "davidson-s29#B3",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s29-B3"
     },
     {
+      "id": "s29-B3.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "His books",
+      "stimulusIsScript": false,
+      "accepted": [
+        "סְפָרָיו"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "en-he",
+      "src": "s29-B3"
+    },
+    {
+      "id": "s29-B4.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "צִדְקָתָהּ",
+      "stimulusIsScript": true,
+      "statement": "My righteousness",
+      "answer": false,
+      "expected": "Her righteousness",
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "en-he",
+      "src": "s29-B4"
+    },
+    {
+      "id": "s29-B4.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "צִדְקָתָהּ",
+      "stimulusIsScript": true,
+      "options": [
+        "His righteousness",
+        "My righteousness",
+        "Their righteousness",
+        "Her righteousness"
+      ],
+      "answer": "Her righteousness",
+      "optionIsScript": false,
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "en-he",
+      "src": "s29-B4"
+    },
+    {
+      "id": "s29-B4.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "Her righteousness",
       "stimulusIsScript": false,
       "accepted": [
         "צִדְקָתָהּ"
       ],
       "answerIsScript": true,
-      "id": "s29-B4",
       "block": "s29",
       "blockLabel": "Davidson §29",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §29 B 4; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n123/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n123.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n69/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n69.jpg",
-        "exwb": "davidson-s29#B4",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s29-B4"
     },
     {
+      "id": "s29-B4.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Her righteousness",
+      "stimulusIsScript": false,
+      "accepted": [
+        "צִדְקָתָהּ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "en-he",
+      "src": "s29-B4"
+    },
+    {
+      "id": "s29-B5.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "בִּרְכֵּינוּ",
+      "stimulusIsScript": true,
+      "statement": "Our knees (du.)",
+      "answer": true,
+      "expected": "Our knees (du.)",
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "en-he",
+      "src": "s29-B5"
+    },
+    {
+      "id": "s29-B5.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "בִּרְכֵּינוּ",
+      "stimulusIsScript": true,
+      "options": [
+        "My knees (du.)",
+        "Your knees (du.)",
+        "Their knees (du.)",
+        "Our knees (du.)"
+      ],
+      "answer": "Our knees (du.)",
+      "optionIsScript": false,
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "en-he",
+      "src": "s29-B5"
+    },
+    {
+      "id": "s29-B5.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "Our knees (du.)",
       "stimulusIsScript": false,
       "accepted": [
         "בִּרְכֵּינוּ"
       ],
       "answerIsScript": true,
-      "id": "s29-B5",
       "block": "s29",
       "blockLabel": "Davidson §29",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §29 B 5; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n123/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n123.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n69/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n69.jpg",
-        "exwb": "davidson-s29#B5",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s29-B5"
     },
     {
+      "id": "s29-B5.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Our knees (du.)",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בִּרְכֵּינוּ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "en-he",
+      "src": "s29-B5"
+    },
+    {
+      "id": "s29-B6.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "רַגְלֶיךָ",
+      "stimulusIsScript": true,
+      "statement": "My feet (du.)",
+      "answer": false,
+      "expected": "Thy feet (du.)",
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "en-he",
+      "src": "s29-B6"
+    },
+    {
+      "id": "s29-B6.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "רַגְלֶיךָ",
+      "stimulusIsScript": true,
+      "options": [
+        "Thy feet (du.)",
+        "My feet (du.)",
+        "His feet (du.)",
+        "Your feet (du.)"
+      ],
+      "answer": "Thy feet (du.)",
+      "optionIsScript": false,
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "en-he",
+      "src": "s29-B6"
+    },
+    {
+      "id": "s29-B6.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "Thy feet (du.)",
       "stimulusIsScript": false,
       "accepted": [
@@ -154,180 +630,584 @@
         "רַגְלַיִךְ"
       ],
       "answerIsScript": true,
-      "id": "s29-B6",
       "block": "s29",
       "blockLabel": "Davidson §29",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §29 B 6; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n123/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n123.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n69/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n69.jpg",
-        "exwb": "davidson-s29#B6",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s29-B6"
     },
     {
+      "id": "s29-B6.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Thy feet (du.)",
+      "stimulusIsScript": false,
+      "accepted": [
+        "רַגְלֶיךָ",
+        "רַגְלַיִךְ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "en-he",
+      "src": "s29-B6"
+    },
+    {
+      "id": "s29-B7.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "קַרְנֵנוּ",
+      "stimulusIsScript": true,
+      "statement": "Their horn",
+      "answer": false,
+      "expected": "Our horn",
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "en-he",
+      "src": "s29-B7"
+    },
+    {
+      "id": "s29-B7.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "קַרְנֵנוּ",
+      "stimulusIsScript": true,
+      "options": [
+        "Your horn",
+        "My horn",
+        "Their horn",
+        "Our horn"
+      ],
+      "answer": "Our horn",
+      "optionIsScript": false,
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "en-he",
+      "src": "s29-B7"
+    },
+    {
+      "id": "s29-B7.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "Our horn",
       "stimulusIsScript": false,
       "accepted": [
         "קַרְנֵנוּ"
       ],
       "answerIsScript": true,
-      "id": "s29-B7",
       "block": "s29",
       "blockLabel": "Davidson §29",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §29 B 7; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n123/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n123.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n69/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n69.jpg",
-        "exwb": "davidson-s29#B7",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s29-B7"
     },
     {
+      "id": "s29-B7.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Our horn",
+      "stimulusIsScript": false,
+      "accepted": [
+        "קַרְנֵנוּ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "en-he",
+      "src": "s29-B7"
+    },
+    {
+      "id": "s29-B8.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "כַּסְפָּם",
+      "stimulusIsScript": true,
+      "statement": "His silver",
+      "answer": false,
+      "expected": "Their silver",
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "en-he",
+      "src": "s29-B8"
+    },
+    {
+      "id": "s29-B8.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "כַּסְפָּם",
+      "stimulusIsScript": true,
+      "options": [
+        "His silver",
+        "Their silver",
+        "Your silver",
+        "Our silver"
+      ],
+      "answer": "Their silver",
+      "optionIsScript": false,
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "en-he",
+      "src": "s29-B8"
+    },
+    {
+      "id": "s29-B8.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "Their silver",
       "stimulusIsScript": false,
       "accepted": [
         "כַּסְפָּם"
       ],
       "answerIsScript": true,
-      "id": "s29-B8",
       "block": "s29",
       "blockLabel": "Davidson §29",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §29 B 8; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n123/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n123.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n69/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n69.jpg",
-        "exwb": "davidson-s29#B8",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s29-B8"
     },
     {
+      "id": "s29-B8.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Their silver",
+      "stimulusIsScript": false,
+      "accepted": [
+        "כַּסְפָּם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "en-he",
+      "src": "s29-B8"
+    },
+    {
+      "id": "s29-B11.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "לֹא דַרְכֵינוּ דַּרְכֵיהֶם",
+      "stimulusIsScript": true,
+      "statement": "Their ways are our ways.",
+      "answer": false,
+      "expected": "Their ways are not our ways.",
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "en-he",
+      "src": "s29-B11"
+    },
+    {
+      "id": "s29-B11.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "לֹא דַרְכֵינוּ דַּרְכֵיהֶם",
+      "stimulusIsScript": true,
+      "options": [
+        "Their ways are not my ways.",
+        "Their ways are not our ways.",
+        "Their ways are not their ways.",
+        "Their ways are our ways."
+      ],
+      "answer": "Their ways are not our ways.",
+      "optionIsScript": false,
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "en-he",
+      "src": "s29-B11"
+    },
+    {
+      "id": "s29-B11.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Their ways are not our ways.",
+      "stimulus": "לֹא ＿＿＿ דַּרְכֵיהֶם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "דַרְכֵינוּ"
+      ],
+      "answerIsScript": true,
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "en-he",
+      "src": "s29-B11"
+    },
+    {
+      "id": "s29-B11.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "Their ways are not our ways.",
       "stimulusIsScript": false,
       "accepted": [
         "לֹא דַרְכֵינוּ דַּרְכֵיהֶם"
       ],
       "answerIsScript": true,
-      "id": "s29-B11",
       "block": "s29",
       "blockLabel": "Davidson §29",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §29 B 11; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n123/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n123.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n69/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n69.jpg",
-        "exwb": "davidson-s29#B11",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s29-B11"
     },
     {
+      "id": "s29-B11.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Their ways are not our ways.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "לֹא דַרְכֵינוּ דַּרְכֵיהֶם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "en-he",
+      "src": "s29-B11"
+    },
+    {
+      "id": "s29-B14.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "מָלַךְ אֱלֹהַי וּמַלְכִּי עַל־צִיּוֹן הַר קָדְשׁוֹ",
+      "stimulusIsScript": true,
+      "statement": "His God and my king reigns upon Zion his holy hill.",
+      "answer": false,
+      "expected": "My God and my king reigns upon Zion his holy hill.",
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "en-he",
+      "src": "s29-B14"
+    },
+    {
+      "id": "s29-B14.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "מָלַךְ אֱלֹהַי וּמַלְכִּי עַל־צִיּוֹן הַר קָדְשׁוֹ",
+      "stimulusIsScript": true,
+      "options": [
+        "My God and my king reigns to Zion his holy hill.",
+        "His God and my king reigns upon Zion his holy hill.",
+        "My God and our king reigns upon Zion his holy hill.",
+        "My God and my king reigns upon Zion his holy hill."
+      ],
+      "answer": "My God and my king reigns upon Zion his holy hill.",
+      "optionIsScript": false,
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "en-he",
+      "src": "s29-B14"
+    },
+    {
+      "id": "s29-B14.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: My God and my king reigns upon Zion his holy hill.",
+      "stimulus": "מָלַךְ אֱלֹהַי וּמַלְכִּי ＿＿＿ הַר קָדְשׁוֹ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "עַל־צִיּוֹן"
+      ],
+      "answerIsScript": true,
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "en-he",
+      "src": "s29-B14"
+    },
+    {
+      "id": "s29-B14.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "My God and my king reigns upon Zion his holy hill.",
       "stimulusIsScript": false,
       "accepted": [
         "מָלַךְ אֱלֹהַי וּמַלְכִּי עַל־צִיּוֹן הַר קָדְשׁוֹ"
       ],
       "answerIsScript": true,
-      "id": "s29-B14",
       "block": "s29",
       "blockLabel": "Davidson §29",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §29 B 14; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n123/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n123.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n69/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n69.jpg",
-        "exwb": "davidson-s29#B14",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s29-B14"
     },
     {
+      "id": "s29-B14.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "My God and my king reigns upon Zion his holy hill.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מָלַךְ אֱלֹהַי וּמַלְכִּי עַל־צִיּוֹן הַר קָדְשׁוֹ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "en-he",
+      "src": "s29-B14"
+    },
+    {
+      "id": "s29-B15.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אַדַּרְתִּי",
+      "stimulusIsScript": true,
+      "statement": "My mantle",
+      "answer": true,
+      "expected": "My mantle",
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "en-he",
+      "src": "s29-B15"
+    },
+    {
+      "id": "s29-B15.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אַדַּרְתִּי",
+      "stimulusIsScript": true,
+      "options": [
+        "My mantle",
+        "Our mantle",
+        "His mantle",
+        "Thy mantle"
+      ],
+      "answer": "My mantle",
+      "optionIsScript": false,
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "en-he",
+      "src": "s29-B15"
+    },
+    {
+      "id": "s29-B15.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "My mantle",
       "stimulusIsScript": false,
       "accepted": [
         "אַדַּרְתִּי"
       ],
       "answerIsScript": true,
-      "id": "s29-B15",
       "block": "s29",
       "blockLabel": "Davidson §29",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §29 B 15; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n123/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n123.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n69/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n69.jpg",
-        "exwb": "davidson-s29#B15",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s29-B15"
     },
     {
+      "id": "s29-B15.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "My mantle",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אַדַּרְתִּי"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "en-he",
+      "src": "s29-B15"
+    },
+    {
+      "id": "s29-B16.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "גְּבִרְתָּהּ",
+      "stimulusIsScript": true,
+      "statement": "Their mistress",
+      "answer": false,
+      "expected": "Her mistress",
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "en-he",
+      "src": "s29-B16"
+    },
+    {
+      "id": "s29-B16.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "גְּבִרְתָּהּ",
+      "stimulusIsScript": true,
+      "options": [
+        "His mistress",
+        "My mistress",
+        "Their mistress",
+        "Her mistress"
+      ],
+      "answer": "Her mistress",
+      "optionIsScript": false,
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "en-he",
+      "src": "s29-B16"
+    },
+    {
+      "id": "s29-B16.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "Her mistress",
       "stimulusIsScript": false,
       "accepted": [
         "גְּבִרְתָּהּ"
       ],
       "answerIsScript": true,
-      "id": "s29-B16",
       "block": "s29",
       "blockLabel": "Davidson §29",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §29 B 16; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n123/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n123.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n69/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n69.jpg",
-        "exwb": "davidson-s29#B16",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s29-B16"
     },
     {
+      "id": "s29-B16.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Her mistress",
+      "stimulusIsScript": false,
+      "accepted": [
+        "גְּבִרְתָּהּ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "en-he",
+      "src": "s29-B16"
+    },
+    {
+      "id": "s29-B17.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "מַלְכוּתוֹ מַמְלֶכֶת עוֹלָם",
+      "stimulusIsScript": true,
+      "statement": "Her kingdom is an everlasting kingdom (k. of eternity).",
+      "answer": false,
+      "expected": "His kingdom is an everlasting kingdom (k. of eternity).",
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "en-he",
+      "src": "s29-B17"
+    },
+    {
+      "id": "s29-B17.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "מַלְכוּתוֹ מַמְלֶכֶת עוֹלָם",
+      "stimulusIsScript": true,
+      "options": [
+        "My kingdom is an everlasting kingdom (k. of eternity).",
+        "His kingdom is the everlasting kingdom (k. of eternity).",
+        "Her kingdom is an everlasting kingdom (k. of eternity).",
+        "His kingdom is an everlasting kingdom (k. of eternity)."
+      ],
+      "answer": "His kingdom is an everlasting kingdom (k. of eternity).",
+      "optionIsScript": false,
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "en-he",
+      "src": "s29-B17"
+    },
+    {
+      "id": "s29-B17.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: His kingdom is an everlasting kingdom (k. of eternity).",
+      "stimulus": "מַלְכוּתוֹ מַמְלֶכֶת ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "עוֹלָם"
+      ],
+      "answerIsScript": true,
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "en-he",
+      "src": "s29-B17"
+    },
+    {
+      "id": "s29-B17.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "His kingdom is an everlasting kingdom (k. of eternity).",
       "stimulusIsScript": false,
       "accepted": [
         "מַלְכוּתוֹ מַמְלֶכֶת עוֹלָם"
       ],
       "answerIsScript": true,
-      "id": "s29-B17",
       "block": "s29",
       "blockLabel": "Davidson §29",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §29 B 17; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n123/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n123.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n69/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n69.jpg",
-        "exwb": "davidson-s29#B17",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s29-B17"
+    },
+    {
+      "id": "s29-B17.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "His kingdom is an everlasting kingdom (k. of eternity).",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מַלְכוּתוֹ מַמְלֶכֶת עוֹלָם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "en-he",
+      "src": "s29-B17"
     }
   ]
 }

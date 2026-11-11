@@ -1,19 +1,16 @@
 import { getType } from "./exercise-types/index.js";
 import { distinctOptions } from "./exercise-types/mcq.js";
 import { shuffle } from "./exercise-types/util.js";
-import { spiralItems, reviewItems, knownSetItems } from "./knowledge.js";
+import { previousUnitItems, reviewItems, reviewPlanItems, spiralItems } from "./knowledge.js";
 
-// Build spiral review MCQs with distractors drawn from the full known set so a
-// review question is never a single-option MCQ (a one-word pool would otherwise
-// produce exactly one choice).
-function spiralMcqItems(sources, known) {
+// Review MCQs: Hebrew word -> its English. Wrong options are random glosses from the given pool,
+// words of the same category first, so they cannot be ruled out by habit.
+function spiralMcqItems(sources, pool) {
   const items = [];
   for (const correct of sources) {
-    const distractorGlosses = distinctOptions(
-      known
-        .filter((x) => x.id !== correct.id && x.gloss && x.gloss !== correct.gloss)
-        .map((x) => x.gloss),
-    ).slice(0, 3);
+    const others = shuffle(pool.filter((x) => x.id !== correct.id && x.gloss && x.gloss !== correct.gloss));
+    const same = others.filter((x) => x.category === correct.category);
+    const distractorGlosses = distinctOptions([...same, ...others].map((x) => x.gloss)).slice(0, 3);
     const options = distinctOptions([correct.gloss, ...distractorGlosses]);
     if (options.length < 2) continue;
     items.push({
@@ -38,6 +35,23 @@ function generatedId(item) {
   return `${item.spiral ? "review" : "vocab"}-${(h >>> 0).toString(36)}`;
 }
 
+export function ladderSession(items, mastered, room) {
+  const rungs = [...new Set(items.map((i) => i.rung))].sort((a, b) => a - b);
+  const open = items.filter((i) => !mastered.has(i.id));
+  const current = rungs.find((r) => open.some((i) => i.rung === r));
+  let picked = [];
+  if (current === undefined) {
+    picked = shuffle(items).slice(0, room);
+  } else {
+    for (const r of rungs.filter((x) => x >= current)) {
+      picked.push(...shuffle(open.filter((i) => i.rung === r)));
+      if (picked.length >= room) break;
+    }
+    picked = picked.slice(0, room);
+  }
+  return picked.map((it, i) => ({ it, i })).sort((a, b) => a.it.rung - b.it.rung || a.i - b.i).map((x) => x.it);
+}
+
 export function buildSession(course, pool, options = {}) {
   const mcq = getType("mcq");
   const match = getType("match-by-line");
@@ -53,20 +67,27 @@ export function buildSession(course, pool, options = {}) {
   const allAuthored = options.authored || [];
   const authoredCap = features.authoredPerSession;
   const mastered = options.mastered || new Set();
-  const authored = authoredCap && allAuthored.length > authoredCap
+  const ladderItems = allAuthored.filter((i) => i.rung);
+  const ladderMode = ladderItems.length > 0;
+  const authored = ladderMode ? [] : authoredCap && allAuthored.length > authoredCap
     ? [...shuffle(allAuthored.filter((i) => !mastered.has(i.id))), ...shuffle(allAuthored.filter((i) => mastered.has(i.id)))].slice(0, authoredCap)
     : allAuthored;
 
   const reviewCount = features.reviewItems || 2;
   const picker = features.diagnostics ? reviewItems : spiralItems;
-  const known = options.progress && options.vocabList
-    ? knownSetItems(options.progress, options.vocabList)
-    : [];
-  const spiral = options.progress && options.vocabList && options.unitN
-    ? picker(options.progress, options.vocabList, options.unitN, reviewCount)
-    : [];
-
-  const spiralItems_ = spiralMcqItems(spiral, known);
+  const earlier = options.vocabList && options.unitN ? previousUnitItems(options.vocabList, options.unitN) : [];
+  let spiralItems_;
+  if (options.reviewPlan) {
+    spiralItems_ = reviewPlanItems(options.reviewPlan, reviewCount).flatMap((r) => {
+      if (r.kind === "sentence") return [{ ...r.item, spiral: true, sourceUnit: r.unit }];
+      return spiralMcqItems([r.item], options.vocabList.filter((x) => x.unit < options.unitN || x.unit === r.unit));
+    });
+  } else {
+    const spiral = options.progress && options.vocabList && options.unitN
+      ? picker(options.progress, options.vocabList, options.unitN, reviewCount)
+      : [];
+    spiralItems_ = spiralMcqItems(spiral, earlier);
+  }
 
   const remaining = Math.max(0, target - spiralItems_.length - authored.length);
 
@@ -93,6 +114,13 @@ export function buildSession(course, pool, options = {}) {
       generated.push(...parseVerb.generate({ count: 3 }, verbLemmas, options.unitN));
       generated.push(...produce.generate({ count: 3, only: "verb" }, verbLemmas, options.unitN));
     }
+  }
+
+  if (ladderMode) {
+    const vocabCount = Math.min(features.vocabPerSession ?? 4, generated.length);
+    const vocab = generated.slice(0, vocabCount);
+    const climb = ladderSession(ladderItems, mastered, Math.max(0, target - spiralItems_.length - vocab.length));
+    return [...spiralItems_, ...vocab, ...climb].map((item) => (item.id ? item : { ...item, id: generatedId(item) }));
   }
 
   return [...spiralItems_, ...authored, ...generated.slice(0, remaining)].map((item) =>

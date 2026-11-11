@@ -1,152 +1,599 @@
 {
   "schema": "authored-exercises-v1.json",
   "unit": 29,
+  "sources": {
+    "s47-A2": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §47 A 2; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n181/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n181.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n140/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n140.jpg",
+      "exwb": "davidson-s47#A2",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s47-A6": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §47 A 6; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n181/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n181.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n140/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n140.jpg",
+      "exwb": "davidson-s47#A6",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s47-B2": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §47 B 2; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n181/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n181.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n140/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n140.jpg",
+      "exwb": "davidson-s47#B2",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s47-B3": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §47 B 3; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n181/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n181.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n140/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n140.jpg",
+      "exwb": "davidson-s47#B3",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s47-B9": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §47 B 9; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n181/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n181.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n140/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n140.jpg",
+      "exwb": "davidson-s47#B9",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s48-B6": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §48 B 6; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n185/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n185.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n142/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n142.jpg",
+      "exwb": "davidson-s48#B6",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    }
+  },
   "items": [
     {
+      "id": "s47-A2.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "מַה־מָּתוֹק מִדְּבַשׁ וּמֶה עַז מֵאֲרִי",
+      "stimulusIsScript": true,
+      "statement": "What is sweeter than honey? and what is stronger than a lion?",
+      "answer": true,
+      "expected": "What is sweeter than honey? and what is stronger than a lion?",
+      "block": "s47",
+      "blockLabel": "Davidson §47",
+      "shape": "he-en",
+      "src": "s47-A2"
+    },
+    {
+      "id": "s47-A2.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "מַה־מָּתוֹק מִדְּבַשׁ וּמֶה עַז מֵאֲרִי",
       "stimulusIsScript": true,
       "options": [
         "What is sweeter than honey? and what is stronger than a lion?",
-        "There was no man of the Israelites goodlier than he: from his shoulders and upward he was taller than any of the people.",
-        "Yahweh loves the gates of Zion more than all the dwelling-places of Jacob.",
-        "I will make of thee a nation more powerful and numerous than it."
+        "What is sweeter than honey? and what is stronger than the lion?",
+        "And death shall be chosen rather than life by all that are left of this evil family.",
+        "Take away my life, for I am not better than my fathers."
       ],
       "answer": "What is sweeter than honey? and what is stronger than a lion?",
       "optionIsScript": false,
-      "id": "s47-A2",
       "block": "s47",
       "blockLabel": "Davidson §47",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §47 A 2; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n181/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n181.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n140/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n140.jpg",
-        "exwb": "davidson-s47#A2",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s47-A2"
     },
     {
+      "id": "s47-A2.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: What is sweeter than honey? and what is stronger than a lion?",
+      "stimulus": "מַה־מָּתוֹק מִדְּבַשׁ וּמֶה עַז ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "מֵאֲרִי"
+      ],
+      "answerIsScript": true,
+      "block": "s47",
+      "blockLabel": "Davidson §47",
+      "shape": "he-en",
+      "src": "s47-A2"
+    },
+    {
+      "id": "s47-A2.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "מַה־מָּתוֹק מִדְּבַשׁ וּמֶה עַז מֵאֲרִי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "What is sweeter than honey? and what is stronger than a lion?"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s47",
+      "blockLabel": "Davidson §47",
+      "shape": "he-en",
+      "src": "s47-A2"
+    },
+    {
+      "id": "s47-A2.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "What is sweeter than honey? and what is stronger than a lion?",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מַה־מָּתוֹק מִדְּבַשׁ וּמֶה עַז מֵאֲרִי"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s47",
+      "blockLabel": "Davidson §47",
+      "shape": "he-en",
+      "src": "s47-A2"
+    },
+    {
+      "id": "s47-A6.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַיָּפָה בַּנָּשִׁים",
+      "stimulusIsScript": true,
+      "statement": "O thou fairest among women!",
+      "answer": true,
+      "expected": "O thou fairest among women!",
+      "block": "s47",
+      "blockLabel": "Davidson §47",
+      "shape": "he-en",
+      "src": "s47-A6"
+    },
+    {
+      "id": "s47-A6.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "הַיָּפָה בַּנָּשִׁים",
       "stimulusIsScript": true,
       "options": [
-        "The day of death is better than the day of one's birth.",
         "O thou fairest among women!",
         "I will make of thee a nation more powerful and numerous than it.",
-        "Yahweh loves the gates of Zion more than all the dwelling-places of Jacob."
+        "And the serpent was more cunning than all the beasts (sing.) of the field which God had made.",
+        "As thy sword has bereaved women, so shall thy mother be the most bereaved of women."
       ],
       "answer": "O thou fairest among women!",
       "optionIsScript": false,
-      "id": "s47-A6",
       "block": "s47",
       "blockLabel": "Davidson §47",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §47 A 6; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n181/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n181.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n140/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n140.jpg",
-        "exwb": "davidson-s47#A6",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s47-A6"
     },
     {
+      "id": "s47-A6.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Fill in the missing word: O thou fairest among women!",
+      "stimulus": "הַיָּפָה ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "בַּנָּשִׁים"
+      ],
+      "answerIsScript": true,
+      "block": "s47",
+      "blockLabel": "Davidson §47",
+      "shape": "he-en",
+      "src": "s47-A6"
+    },
+    {
+      "id": "s47-A6.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הַיָּפָה בַּנָּשִׁים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "O thou fairest among women!",
+        "O you fair among women!"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s47",
+      "blockLabel": "Davidson §47",
+      "shape": "he-en",
+      "src": "s47-A6"
+    },
+    {
+      "id": "s47-A6.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "O thou fairest among women!",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַיָּפָה בַּנָּשִׁים"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s47",
+      "blockLabel": "Davidson §47",
+      "shape": "he-en",
+      "src": "s47-A6"
+    },
+    {
+      "id": "s47-B2.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָרַג צַדִּיקִים מִמֶּנּוּ",
+      "stimulusIsScript": true,
+      "statement": "She has slain men more righteous than he.",
+      "answer": false,
+      "expected": "He has slain men more righteous than he.",
+      "block": "s47",
+      "blockLabel": "Davidson §47",
+      "shape": "en-he",
+      "src": "s47-B2"
+    },
+    {
+      "id": "s47-B2.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָרַג צַדִּיקִים מִמֶּנּוּ",
+      "stimulusIsScript": true,
+      "options": [
+        "He has slain men more righteous than he.",
+        "He has slain men more righteous than she.",
+        "She has slain men more righteous than he.",
+        "And death shall be chosen rather than life by all that are left of this evil family."
+      ],
+      "answer": "He has slain men more righteous than he.",
+      "optionIsScript": false,
+      "block": "s47",
+      "blockLabel": "Davidson §47",
+      "shape": "en-he",
+      "src": "s47-B2"
+    },
+    {
+      "id": "s47-B2.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: He has slain men more righteous than he.",
+      "stimulus": "הָרַג ＿＿＿ מִמֶּנּוּ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "צַדִּיקִים"
+      ],
+      "answerIsScript": true,
+      "block": "s47",
+      "blockLabel": "Davidson §47",
+      "shape": "en-he",
+      "src": "s47-B2"
+    },
+    {
+      "id": "s47-B2.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "He has slain men more righteous than he.",
       "stimulusIsScript": false,
       "accepted": [
         "הָרַג צַדִּיקִים מִמֶּנּוּ"
       ],
       "answerIsScript": true,
-      "id": "s47-B2",
       "block": "s47",
       "blockLabel": "Davidson §47",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §47 B 2; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n181/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n181.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n140/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n140.jpg",
-        "exwb": "davidson-s47#B2",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s47-B2"
     },
     {
+      "id": "s47-B2.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "He has slain men more righteous than he.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָרַג צַדִּיקִים מִמֶּנּוּ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s47",
+      "blockLabel": "Davidson §47",
+      "shape": "en-he",
+      "src": "s47-B2"
+    },
+    {
+      "id": "s47-B3.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "חָכָם אַתָּה מִדָּנִיֵּאל",
+      "stimulusIsScript": true,
+      "statement": "Thou art wiser than Daniel.",
+      "answer": true,
+      "expected": "Thou art wiser than Daniel.",
+      "block": "s47",
+      "blockLabel": "Davidson §47",
+      "shape": "en-he",
+      "src": "s47-B3"
+    },
+    {
+      "id": "s47-B3.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "חָכָם אַתָּה מִדָּנִיֵּאל",
+      "stimulusIsScript": true,
+      "options": [
+        "And their gain was too much for dwelling together, and the land was not able to bear them.",
+        "O thou fairest among women!",
+        "Thou art wiser than Daniel.",
+        "Yahweh loves the gates of Zion more than all the dwelling-places of Jacob."
+      ],
+      "answer": "Thou art wiser than Daniel.",
+      "optionIsScript": false,
+      "block": "s47",
+      "blockLabel": "Davidson §47",
+      "shape": "en-he",
+      "src": "s47-B3"
+    },
+    {
+      "id": "s47-B3.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Thou art wiser than Daniel.",
+      "stimulus": "＿＿＿ אַתָּה מִדָּנִיֵּאל",
+      "stimulusIsScript": true,
+      "accepted": [
+        "חָכָם"
+      ],
+      "answerIsScript": true,
+      "block": "s47",
+      "blockLabel": "Davidson §47",
+      "shape": "en-he",
+      "src": "s47-B3"
+    },
+    {
+      "id": "s47-B3.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "Thou art wiser than Daniel.",
       "stimulusIsScript": false,
       "accepted": [
         "חָכָם אַתָּה מִדָּנִיֵּאל"
       ],
       "answerIsScript": true,
-      "id": "s47-B3",
       "block": "s47",
       "blockLabel": "Davidson §47",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §47 B 3; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n181/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n181.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n140/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n140.jpg",
-        "exwb": "davidson-s47#B3",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s47-B3"
     },
     {
+      "id": "s47-B3.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Thou art wiser than Daniel.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "חָכָם אַתָּה מִדָּנִיֵּאל"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s47",
+      "blockLabel": "Davidson §47",
+      "shape": "en-he",
+      "src": "s47-B3"
+    },
+    {
+      "id": "s47-B9.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "גְּדוֹלֵי הָעִיר",
+      "stimulusIsScript": true,
+      "statement": "The greatest (men) of the city",
+      "answer": true,
+      "expected": "The greatest (men) of the city",
+      "block": "s47",
+      "blockLabel": "Davidson §47",
+      "shape": "en-he",
+      "src": "s47-B9"
+    },
+    {
+      "id": "s47-B9.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "גְּדוֹלֵי הָעִיר",
+      "stimulusIsScript": true,
+      "options": [
+        "Thou art wiser than Daniel.",
+        "The greatest (men) of the city",
+        "A greatest (men) of the city",
+        "The greatest (men) of a city"
+      ],
+      "answer": "The greatest (men) of the city",
+      "optionIsScript": false,
+      "block": "s47",
+      "blockLabel": "Davidson §47",
+      "shape": "en-he",
+      "src": "s47-B9"
+    },
+    {
+      "id": "s47-B9.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The greatest (men) of the city",
+      "stimulus": "גְּדוֹלֵי ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הָעִיר"
+      ],
+      "answerIsScript": true,
+      "block": "s47",
+      "blockLabel": "Davidson §47",
+      "shape": "en-he",
+      "src": "s47-B9"
+    },
+    {
+      "id": "s47-B9.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "The greatest (men) of the city",
       "stimulusIsScript": false,
       "accepted": [
         "גְּדוֹלֵי הָעִיר"
       ],
       "answerIsScript": true,
-      "id": "s47-B9",
       "block": "s47",
       "blockLabel": "Davidson §47",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §47 B 9; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n181/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n181.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n140/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n140.jpg",
-        "exwb": "davidson-s47#B9",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s47-B9"
     },
     {
+      "id": "s47-B9.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The greatest (men) of the city",
+      "stimulusIsScript": false,
+      "accepted": [
+        "גְּדוֹלֵי הָעִיר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s47",
+      "blockLabel": "Davidson §47",
+      "shape": "en-he",
+      "src": "s47-B9"
+    },
+    {
+      "id": "s48-B6.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "טוֹב הַחֵצִי מִן־הַכֹּל",
+      "stimulusIsScript": true,
+      "statement": "The half is better than a whole.",
+      "answer": false,
+      "expected": "The half is better than the whole.",
+      "block": "s48",
+      "blockLabel": "Davidson §48",
+      "shape": "en-he",
+      "src": "s48-B6"
+    },
+    {
+      "id": "s48-B6.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "טוֹב הַחֵצִי מִן־הַכֹּל",
+      "stimulusIsScript": true,
+      "options": [
+        "The half is better than the whole.",
+        "In the thirty-seventh year, in the twelfth month, on the twenty-seventh (day) of the month, the king of Babylon lifted up the head of the king of Judah out of the prison-house.",
+        "A half is better than the whole.",
+        "The half is better than a whole."
+      ],
+      "answer": "The half is better than the whole.",
+      "optionIsScript": false,
+      "block": "s48",
+      "blockLabel": "Davidson §48",
+      "shape": "en-he",
+      "src": "s48-B6"
+    },
+    {
+      "id": "s48-B6.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The half is better than the whole.",
+      "stimulus": "＿＿＿ הַחֵצִי מִן־הַכֹּל",
+      "stimulusIsScript": true,
+      "accepted": [
+        "טוֹב"
+      ],
+      "answerIsScript": true,
+      "block": "s48",
+      "blockLabel": "Davidson §48",
+      "shape": "en-he",
+      "src": "s48-B6"
+    },
+    {
+      "id": "s48-B6.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "The half is better than the whole.",
       "stimulusIsScript": false,
       "accepted": [
         "טוֹב הַחֵצִי מִן־הַכֹּל"
       ],
       "answerIsScript": true,
-      "id": "s48-B6",
       "block": "s48",
       "blockLabel": "Davidson §48",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §48 B 6; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n185/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n185.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n142/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n142.jpg",
-        "exwb": "davidson-s48#B6",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s48-B6"
+    },
+    {
+      "id": "s48-B6.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The half is better than the whole.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "טוֹב הַחֵצִי מִן־הַכֹּל"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s48",
+      "blockLabel": "Davidson §48",
+      "shape": "en-he",
+      "src": "s48-B6"
     }
   ]
 }

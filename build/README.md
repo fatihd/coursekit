@@ -23,6 +23,10 @@
   `authored/NN.json` + `exercises/NN.json` (`--check` to verify they are current; P9-T6). Translation sentences
   are placed one by one: first unit teaching all their grammar (`_sources/davidson/sentence-grammar.json` tags,
   `grammar-units.json` feature → unit; P12-T1).
+- `davidson_ladder.py` — the five-rung exercise ladder per Davidson sentence (true/false, choose, fill in,
+  translate, translate with vowel points), wrong options from one-point changes of the Key's English, English
+  answer variants, pausal/contextual forms (P12-T4); used by `exwb_to_authored.py`, tested by
+  `tests/test_davidson_ladder.py`.
 - `rebalance_vocab.py` — spreads a course's words evenly over its units (Davidson: `--layout
   _sources/davidson/vocab-layout.json`, pinned ids + topic units); rewrites the `unit` column of
   `content/vocab.csv` and the chapters' Vocabulary/Teaches/Assumes lists; `--recount _oer/morphhb/books`

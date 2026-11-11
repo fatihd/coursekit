@@ -199,8 +199,10 @@ keeps the engine shape of its type and adds:
   "readings": [ { "person": "1", "number": "sing.", "form": "imperfect", "stem": "Qal",
                   "root": "שָׁמַר" } ],  // all accepted parses (P9-T8)
   "shape": "parse",            // en-he | he-en | parse | correct-pointing | he-form
-  "id": "s21-AL1",             // optional, stable item id (shown in the drill, used in #/<unit>/item/<id>)
-  "block": "s21", "blockLabel": "Davidson §21",  // optional, exercise block for per-block progress
+  "id": "s21-AL1.parse",       // optional, stable item id (shown in the drill, used in #/<unit>/item/<id>)
+  "rung": 3, "rungLabel": "Parse", // optional, exercise ladder rung 1–5 (P12-T4)
+  "block": "s21", "blockLabel": "Davidson §21",  // optional, the Davidson section the item comes from
+  "src": "s21-AL1",            // optional, key into the file's "sources" map (scan links stored once)
   "hint": "…", "explain": "…", // optional (schema: any item type, P9-T7); hint = shown on request
                                // before answering, explain = shown with the feedback. Unpointed
                                // prompts get "hint": "With vowel points: <pointed form>"
@@ -270,6 +272,28 @@ translations, consonant patterns for transliterations), and both scan leaves. Th
 script emits `authored/`/`exercises/` only for ok/weak pairs; suspect pairs remain in the
 ledger.
 
+### Exercise ladder items (Davidson, P12-T2/T3/T4)
+
+Every Davidson translation sentence yields five items in its unit file, ids `<src>.<rung key>`:
+
+```jsonc
+{ "id": "s15-B1.tf", "rung": 1, "type": "true-false", "prompt": "Is this the right translation?",
+  "stimulus": "אָמַרְתִּי לָאִישׁ", "stimulusIsScript": true,
+  "statement": "I said to a man.", "answer": false, "expected": "I said to the man." }
+{ "id": "s15-B1.choice", "rung": 2, "type": "mcq", "options": ["I said to the man.", "They said to the man.", "…"], … }
+{ "id": "s15-B1.fill", "rung": 3, "type": "translate-phrase", "prompt": "Fill in the missing word: I said to the man.",
+  "stimulus": "＿＿＿ לָאִישׁ", "accepted": ["אָמַרְתִּי"], "answerIsScript": true }
+{ "id": "s15-B1.translate", "rung": 4, "type": "translate-phrase", … }   // he→en: "selfCheck": true, English accepted[]
+{ "id": "s15-B1.pointed", "rung": 5, "type": "translate-phrase", "pointing": "required",
+  "accepted": ["אָמַרְתִּי לָאִישׁ"], "answerIsScript": true }
+```
+
+The unit file carries `"sources": { "<src>": { citation, promptUrl, answerUrl, exwb, note } }` once per
+sentence; the engine attaches `source` to each item by its `src`. `authored/ladder.json` lists the items per
+rung per unit (`{"units": {"35": {"1": 15, "2": 15, …}}}`) for the roadmap's stars. `course.json` features:
+`unlockRung` (the next unit unlocks when every item of rungs 1…unlockRung was answered right once; Davidson 3)
+and `vocabPerSession` (generated vocabulary items in a ladder session, default 4).
+
 ## 5. Knowledge item — `prerequisites/knowledge.json`
 
 A snapshot of items taught by earlier levels, so a later course stands alone for recap/spiral
@@ -313,7 +337,7 @@ non-lexeme kinds). Units reference them in `teaches`/`assumes`.
     "u01": { "state": "done",     "lessonRead": true,  "bestScore": 90, "lastPlayed": "2026-08-12T10:00Z" },
     "u02": { "state": "done",     "lessonRead": true,  "bestScore": 85, "lastPlayed": "2026-08-12T11:00Z" },
     "u03": { "state": "in-progress","lessonRead": true, "bestScore": 0,  "lastPlayed": "2026-08-12T12:00Z",
-             "blocks": { "s20": { "correct": ["s20-B3", "s20-B7"] } } }   // ids answered right, per block (P12-T7)
+             "done": { "1": ["s20-B3.tf"], "2": ["s20-B3.choice"] } }   // ids answered right, per ladder rung (P12-T4)
   },
   "sessions": {                                         // open drill per unit ("N") or block ("N:block")
     "35": { "seed": "k3f9q1", "block": null, "pos": 7, "total": 24, "correct": 5, "answered": 6, "detail": [] }

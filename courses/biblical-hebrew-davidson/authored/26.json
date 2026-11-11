@@ -1,110 +1,370 @@
 {
   "schema": "authored-exercises-v1.json",
   "unit": 26,
+  "sources": {
+    "s16-B16": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §16 B 16; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n76/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n76.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n31/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n31.jpg",
+      "exwb": "davidson-s16#B16",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s19-AL9": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §19 A L9; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n89/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n89.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n42/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n42.jpg",
+      "exwb": "davidson-s19#AL9",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s19-AL10": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §19 A L10; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n89/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n89.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n42/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n42.jpg",
+      "exwb": "davidson-s19#AL10",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s19-A1": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §19 A 1; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n89/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n89.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n42/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n42.jpg",
+      "exwb": "davidson-s19#A1",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    }
+  },
   "items": [
     {
+      "id": "s16-B16.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "נָתַן־לִי אֱלֹהִים שִׁיר חָדָשׁ",
+      "stimulusIsScript": true,
+      "statement": "God gave me a new song.",
+      "answer": true,
+      "expected": "God gave me a new song.",
+      "block": "s16",
+      "blockLabel": "Davidson §16",
+      "shape": "en-he",
+      "src": "s16-B16"
+    },
+    {
+      "id": "s16-B16.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "נָתַן־לִי אֱלֹהִים שִׁיר חָדָשׁ",
+      "stimulusIsScript": true,
+      "options": [
+        "God gave me the new song.",
+        "God gave me a new song.",
+        "God gave him a new song.",
+        "God gave us a new song."
+      ],
+      "answer": "God gave me a new song.",
+      "optionIsScript": false,
+      "block": "s16",
+      "blockLabel": "Davidson §16",
+      "shape": "en-he",
+      "src": "s16-B16"
+    },
+    {
+      "id": "s16-B16.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Fill in the missing word: God gave me a new song.",
+      "stimulus": "נָתַן־לִי ＿＿＿ שִׁיר חָדָשׁ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֱלֹהִים"
+      ],
+      "answerIsScript": true,
+      "block": "s16",
+      "blockLabel": "Davidson §16",
+      "shape": "en-he",
+      "src": "s16-B16"
+    },
+    {
+      "id": "s16-B16.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "God gave me a new song.",
       "stimulusIsScript": false,
       "accepted": [
         "נָתַן־לִי אֱלֹהִים שִׁיר חָדָשׁ"
       ],
       "answerIsScript": true,
-      "id": "s16-B16",
       "block": "s16",
       "blockLabel": "Davidson §16",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §16 B 16; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n76/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n76.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n31/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n31.jpg",
-        "exwb": "davidson-s16#B16",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s16-B16"
     },
     {
+      "id": "s16-B16.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "God gave me a new song.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "נָתַן־לִי אֱלֹהִים שִׁיר חָדָשׁ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s16",
+      "blockLabel": "Davidson §16",
+      "shape": "en-he",
+      "src": "s16-B16"
+    },
+    {
+      "id": "s19-AL9.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "לְפָנַי",
+      "stimulusIsScript": true,
+      "statement": "before us",
+      "answer": false,
+      "expected": "before me",
+      "block": "s19",
+      "blockLabel": "Davidson §19",
+      "shape": "he-en",
+      "src": "s19-AL9"
+    },
+    {
+      "id": "s19-AL9.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "לְפָנַי",
       "stimulusIsScript": true,
       "options": [
-        "her place",
-        "thy (m.) sons",
-        "before thee (f.)",
-        "before me"
+        "But as for me, in thee have I trusted, O Yahweh; I have said, “Thou art my God.”",
+        "before us",
+        "before me",
+        "before him"
       ],
       "answer": "before me",
       "optionIsScript": false,
-      "id": "s19-AL9",
       "block": "s19",
       "blockLabel": "Davidson §19",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §19 A L9; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n89/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n89.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n42/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n42.jpg",
-        "exwb": "davidson-s19#AL9",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s19-AL9"
     },
     {
+      "id": "s19-AL9.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "לְפָנַי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "before me"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s19",
+      "blockLabel": "Davidson §19",
+      "shape": "he-en",
+      "src": "s19-AL9"
+    },
+    {
+      "id": "s19-AL9.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "before me",
+      "stimulusIsScript": false,
+      "accepted": [
+        "לְפָנַי"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s19",
+      "blockLabel": "Davidson §19",
+      "shape": "he-en",
+      "src": "s19-AL9"
+    },
+    {
+      "id": "s19-AL10.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "לְפָנַיִךְ",
+      "stimulusIsScript": true,
+      "statement": "before thee (f.)",
+      "answer": true,
+      "expected": "before thee (f.)",
+      "block": "s19",
+      "blockLabel": "Davidson §19",
+      "shape": "he-en",
+      "src": "s19-AL10"
+    },
+    {
+      "id": "s19-AL10.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "לְפָנַיִךְ",
       "stimulusIsScript": true,
       "options": [
+        "before me (f.)",
+        "The words of thy (f.) lips (are) as the sand which (is) upon the shore of the sea.",
         "before thee (f.)",
-        "He went down to Sheol to his sons.",
-        "thy (m.) sons",
-        "their (f.) hands"
+        "before him (f.)"
       ],
       "answer": "before thee (f.)",
       "optionIsScript": false,
-      "id": "s19-AL10",
       "block": "s19",
       "blockLabel": "Davidson §19",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §19 A L10; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n89/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n89.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n42/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n42.jpg",
-        "exwb": "davidson-s19#AL10",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s19-AL10"
     },
     {
+      "id": "s19-AL10.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "לְפָנַיִךְ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "before thee",
+        "before you"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s19",
+      "blockLabel": "Davidson §19",
+      "shape": "he-en",
+      "src": "s19-AL10"
+    },
+    {
+      "id": "s19-AL10.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "before thee (f.)",
+      "stimulusIsScript": false,
+      "accepted": [
+        "לְפָנַיִךְ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s19",
+      "blockLabel": "Davidson §19",
+      "shape": "he-en",
+      "src": "s19-AL10"
+    },
+    {
+      "id": "s19-A1.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "יָצָא לוֹט אֶל־הָאֲנָשִׁים הַפֶּתְחָה וְהַדֶּלֶת סָגַר אַחֲרָיו",
+      "stimulusIsScript": true,
+      "statement": "Lot went out to the men to the doorway, and she closed the door after him.",
+      "answer": false,
+      "expected": "Lot went out to the men to the doorway, and he closed the door after him.",
+      "block": "s19",
+      "blockLabel": "Davidson §19",
+      "shape": "he-en",
+      "src": "s19-A1"
+    },
+    {
+      "id": "s19-A1.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "יָצָא לוֹט אֶל־הָאֲנָשִׁים הַפֶּתְחָה וְהַדֶּלֶת סָגַר אַחֲרָיו",
       "stimulusIsScript": true,
       "options": [
-        "He has remembered for ever his covenant, which he made with Abraham.",
         "Lot went out to the men to the doorway, and he closed the door after him.",
-        "his hand",
-        "their law"
+        "Lot went out to the men to the doorway, and she closed the door after him.",
+        "Lot went out to the men to the doorway, and he closed the door after me.",
+        "Lot went out from the men to the doorway, and he closed the door after him."
       ],
       "answer": "Lot went out to the men to the doorway, and he closed the door after him.",
       "optionIsScript": false,
-      "id": "s19-A1",
       "block": "s19",
       "blockLabel": "Davidson §19",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §19 A 1; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n89/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n89.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n42/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n42.jpg",
-        "exwb": "davidson-s19#A1",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s19-A1"
+    },
+    {
+      "id": "s19-A1.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Lot went out to the men to the doorway, and he closed the door after him.",
+      "stimulus": "יָצָא לוֹט ＿＿＿ הַפֶּתְחָה וְהַדֶּלֶת סָגַר אַחֲרָיו",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶל־הָאֲנָשִׁים"
+      ],
+      "answerIsScript": true,
+      "block": "s19",
+      "blockLabel": "Davidson §19",
+      "shape": "he-en",
+      "src": "s19-A1"
+    },
+    {
+      "id": "s19-A1.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "יָצָא לוֹט אֶל־הָאֲנָשִׁים הַפֶּתְחָה וְהַדֶּלֶת סָגַר אַחֲרָיו",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Lot went out to the men to the doorway, and he closed the door after him."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s19",
+      "blockLabel": "Davidson §19",
+      "shape": "he-en",
+      "src": "s19-A1"
+    },
+    {
+      "id": "s19-A1.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Lot went out to the men to the doorway, and he closed the door after him.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "יָצָא לוֹט אֶל־הָאֲנָשִׁים הַפֶּתְחָה וְהַדֶּלֶת סָגַר אַחֲרָיו"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s19",
+      "blockLabel": "Davidson §19",
+      "shape": "he-en",
+      "src": "s19-A1"
     }
   ]
 }

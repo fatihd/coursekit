@@ -26,6 +26,8 @@ import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 
+from davidson_ladder import PausalForms, clean_display, ladder
+
 ROOT = Path(__file__).resolve().parent.parent
 CURATED = ROOT / "exwb" / "curated"
 MAP = ROOT / "build" / "_sources" / "davidson" / "exwb-units.json"
@@ -272,7 +274,22 @@ PROMPTS = {
 }
 
 
-def build_block(stem: str, data: dict, cfg: dict) -> tuple[list[dict], list[dict]]:
+OTHER_RUNGS = {"parse": (3, "parse", "Parse"), "he-form": (2, "form", "Choose the form"),
+               "correct-pointing": (2, "point", "Correct the pointing")}
+
+
+def sentence_pair(it: dict, shape: str) -> tuple[list[str], str, str | None, str | None]:
+    """(accepted Hebrew forms, English, Hebrew to translate at rung 4, hint) for a sentence."""
+    if shape == "en-he":
+        return hebrew_variants(it["answer"]), clean_display(it["prompt"]), None, None
+    pointed = (it.get("data") or {}).get("pointed")
+    shown = pointed or it["prompt"]
+    forms = [clean_hebrew(f) for f in re.split(r"\s*;\s*", shown) if clean_hebrew(f)]
+    hint = f"With vowel points: {pointed}" if pointed else None
+    return forms, clean_display(it["answer"]), (it["prompt"] if pointed else None), hint
+
+
+def build_block(stem: str, data: dict, cfg: dict, pausal: PausalForms) -> list[dict]:
     correction = stem in cfg.get("correctionBlocks", [])
     label = section_label(stem)
     links = leaf_links(data.get("note", ""), cfg["grammarLeafOffset"], cfg["keyLeafOffset"])
@@ -285,9 +302,18 @@ def build_block(stem: str, data: dict, cfg: dict) -> tuple[list[dict], list[dict
 
     block_roots = [(it.get("data") or {}).get("parse", {}).get("root") for it in items]
     block_roots = [r for r in block_roots if r]
-    authored, raw = [], []
+    english_pool: dict[str, list[str]] = defaultdict(list)
+    for it, shape in zip(items, shapes):
+        if shape == "en-he":
+            english_pool[it["part"]].append(clean_display(it["prompt"]))
+        elif shape == "he-en":
+            english_pool[it["part"]].append(clean_display(it["answer"]))
+    block = stem.removeprefix("davidson-")
+    block_label = "Davidson §" + str(int(re.sub(r"[a-z]$", "", stem.removeprefix("davidson-s"))))
+    out_items = []
     for it, shape in zip(items, shapes):
         ref = f"{label} {it['part']} {it['num']}"
+        base = f"{block}-{it['part']}{it['num']}"
         source = {
             "citation": f"Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise {ref}; "
                         "McFadyen, Key to the Exercises (1924)",
@@ -296,69 +322,65 @@ def build_block(stem: str, data: dict, cfg: dict) -> tuple[list[dict], list[dict
             "note": NOTE,
         }
         rng = rng_for(stem, it["part"], it["num"])
-        parsed = parse_form_item(it, block_roots, rng) if shape == "parse" else None
-        if parsed:
-            out = parsed
-        elif shape == "en-he":
-            out = {
-                "type": "translate-phrase",
-                "prompt": PROMPTS[shape],
-                "stimulus": it["prompt"],
-                "stimulusIsScript": False,
-                "accepted": hebrew_variants(it["answer"]),
-                "answerIsScript": True,
-            }
-        else:
-            pool = pools[(it["part"], shape)]
-            if len(set(pool)) < 4:
-                pool = pool + pools[("*", shape)]
-            prompt, stimulus, first = PROMPTS[shape], it["prompt"], None
-            if shape == "correct-pointing":
-                first = [it["prompt"]]
-            form = split_form_prompt(it["prompt"]) if shape == "he-form" else None
-            if form:
-                word, gloss, wanted = form
-                prompt = f"Choose the {wanted} of this word ({gloss})"
-                stimulus = word
-                siblings = [o["answer"] for o in items
-                            if o is not it and (split_form_prompt(o["prompt"]) or ("",))[0] == word]
-                first = siblings + [word]
-            options = pick_options(it["answer"], pool, rng, first)
-            if len(options) < 2:
+        common = {"block": block, "blockLabel": block_label, "shape": shape, "src": base}
+        if it.get("explain"):
+            common["explain"] = it["explain"]
+        if shape in ("en-he", "he-en"):
+            hebrew, english, reading, hint = sentence_pair(it, shape)
+            if not hebrew:
                 continue
-            out = {
-                "type": "mcq",
-                "prompt": prompt,
-                "stimulus": stimulus,
-                "stimulusIsScript": True,
-                "options": options,
-                "answer": it["answer"],
-                "optionIsScript": shape in ("correct-pointing", "he-form"),
-            }
-        out["id"] = f"{stem.removeprefix('davidson-')}-{it['part']}{it['num']}"
-        out["block"] = stem.removeprefix("davidson-")
-        out["blockLabel"] = "Davidson §" + str(int(re.sub(r"[a-z]$", "", stem.removeprefix("davidson-s"))))
-        out["shape"] = shape
-        for k in ("hint", "explain"):
-            if it.get(k):
-                out[k] = it[k]
-        if out["type"] == "parse-form" and "explain" not in out:
-            out["explain"] = f"Key: {it['answer']}"
-        pointed = (it.get("data") or {}).get("pointed")
-        if pointed and "hint" not in out:
-            out["hint"] = f"With vowel points: {pointed}"
-        if it.get("data"):
-            out["data"] = it["data"]
-        out["source"] = source
-        authored.append(out)
-        raw.append({
-            "typeGuess": out["type"],
-            "confidence": 1.0,
-            "prompt": out["prompt"],
-            "body_raw": it["prompt"],
-            "answer_raw": it["answer"],
+            pool = english_pool[it["part"]] + [e for p, es in english_pool.items() if p != it["part"] for e in es]
+            made = ladder(base, hebrew, english, pool, shape, rng, pausal, common, reading, hint or it.get("hint"))
+        else:
+            made = []
+            parsed = parse_form_item(it, block_roots, rng) if shape == "parse" else None
+            if parsed:
+                out = parsed
+            else:
+                pool = pools[(it["part"], shape)]
+                if len(set(pool)) < 4:
+                    pool = pool + pools[("*", shape)]
+                prompt, stimulus, first = PROMPTS[shape], it["prompt"], None
+                if shape == "correct-pointing":
+                    first = [it["prompt"]]
+                form = split_form_prompt(it["prompt"]) if shape == "he-form" else None
+                if form:
+                    word, gloss, wanted = form
+                    prompt = f"Choose the {wanted} of this word ({gloss})"
+                    stimulus = word
+                    siblings = [o["answer"] for o in items
+                                if o is not it and (split_form_prompt(o["prompt"]) or ("",))[0] == word]
+                    first = siblings + [word]
+                options = pick_options(it["answer"], pool, rng, first)
+                if len(options) < 2:
+                    continue
+                out = {
+                    "type": "mcq",
+                    "prompt": prompt,
+                    "stimulus": stimulus,
+                    "stimulusIsScript": True,
+                    "options": options,
+                    "answer": it["answer"],
+                    "optionIsScript": shape in ("correct-pointing", "he-form"),
+                }
+            rung, key, rung_label = OTHER_RUNGS[shape]
+            out = {"id": f"{base}.{key}", "rung": rung, "rungLabel": rung_label, **out, **common}
+            if it.get("hint"):
+                out["hint"] = it["hint"]
+            if out["type"] == "parse-form" and "explain" not in out:
+                out["explain"] = f"Key: {it['answer']}"
+            pointed = (it.get("data") or {}).get("pointed")
+            if pointed and "hint" not in out:
+                out["hint"] = f"With vowel points: {pointed}"
+            if it.get("data"):
+                out["data"] = it["data"]
+            made = [out]
+        out_items.append({
+            "ref": source["exwb"], "base": base, "shape": shape, "source": source, "items": made,
+            "raw": {"typeGuess": made[0]["type"], "confidence": 1.0, "prompt": made[0]["prompt"],
+                    "body_raw": it["prompt"], "answer_raw": it["answer"]},
         })
-    return authored, raw
+    return out_items
 
 
 def dump(obj: dict) -> str:
@@ -378,34 +400,53 @@ def sentence_units() -> dict[str, int]:
     return out
 
 
-def build(cfg: dict) -> tuple[dict[int, list[dict]], dict[int, list[dict]], Counter]:
-    per_unit: dict[int, list[dict]] = defaultdict(list)
-    per_unit_raw: dict[int, list[dict]] = defaultdict(list)
-    shapes: Counter = Counter()
+def load_blocks(cfg: dict) -> list[tuple[str, dict]]:
     held = set(cfg.get("held", []))
-    placed = sentence_units()
+    blocks = []
     for path in sorted(CURATED.glob("davidson-*.json")):
         stem = path.stem
         if stem in held:
             continue
         if stem not in cfg["blocks"]:
             sys.exit(f"{stem}: not held and not mapped in {MAP.relative_to(ROOT)}")
-        unit = cfg["blocks"][stem]["unit"]
-        authored, raw = build_block(stem, json.loads(path.read_text(encoding="utf-8")), cfg)
-        for item, scaffold in zip(authored, raw):
-            target = unit
-            if item["shape"] in SENTENCE_SHAPES:
-                ref = item["source"]["exwb"]
-                if ref not in placed:
-                    sys.exit(f"{ref}: sentence has no grammar tags in {TAGS.relative_to(ROOT)}")
-                target = placed[ref]
-            per_unit[target].append(item)
-            per_unit_raw[target].append(scaffold)
-        shapes.update(a["shape"] for a in authored)
+        blocks.append((stem, json.loads(path.read_text(encoding="utf-8"))))
     missing = set(cfg["blocks"]) - {p.stem for p in CURATED.glob("davidson-*.json")}
     if missing:
         sys.exit(f"mapped blocks with no curated file: {sorted(missing)}")
-    return per_unit, per_unit_raw, shapes
+    return blocks
+
+
+def pausal_forms(cfg: dict, blocks: list[tuple[str, dict]]) -> PausalForms:
+    sentences = []
+    for stem, data in blocks:
+        correction = stem in cfg.get("correctionBlocks", [])
+        for it in data["items"]:
+            shape = classify(it, correction)
+            if shape in SENTENCE_SHAPES:
+                sentences += sentence_pair(it, shape)[0]
+    return PausalForms(sentences)
+
+
+def build(cfg: dict) -> tuple[dict[int, dict], Counter]:
+    units: dict[int, dict] = defaultdict(lambda: {"items": [], "sources": {}, "raw": []})
+    shapes: Counter = Counter()
+    placed = sentence_units()
+    blocks = load_blocks(cfg)
+    pausal = pausal_forms(cfg, blocks)
+    for stem, data in blocks:
+        unit = cfg["blocks"][stem]["unit"]
+        for entry in build_block(stem, data, cfg, pausal):
+            target = unit
+            if entry["shape"] in SENTENCE_SHAPES:
+                if entry["ref"] not in placed:
+                    sys.exit(f"{entry['ref']}: sentence has no grammar tags in {TAGS.relative_to(ROOT)}")
+                target = placed[entry["ref"]]
+            u = units[target]
+            u["items"] += entry["items"]
+            u["sources"][entry["base"]] = entry["source"]
+            u["raw"].append(entry["raw"])
+            shapes[entry["shape"]] += 1
+    return units, shapes
 
 
 def main() -> int:
@@ -415,24 +456,32 @@ def main() -> int:
     args = ap.parse_args()
     course = Path(args.course)
     cfg = json.loads(MAP.read_text(encoding="utf-8"))
-    per_unit, per_unit_raw, shapes = build(cfg)
+    units, shapes = build(cfg)
 
     wanted: dict[Path, str] = {}
-    for unit, items in sorted(per_unit.items()):
+    ladder_index = {}
+    for unit, u in sorted(units.items()):
         name = f"{unit:02d}.json"
         wanted[course / "authored" / name] = dump(
-            {"schema": "authored-exercises-v1.json", "unit": unit, "items": items})
-        raw = [{"unit": unit, "n": i, **r} for i, r in enumerate(per_unit_raw[unit], start=1)]
+            {"schema": "authored-exercises-v1.json", "unit": unit, "sources": u["sources"], "items": u["items"]})
+        raw = [{"unit": unit, "n": i, **r} for i, r in enumerate(u["raw"], start=1)]
         wanted[course / "exercises" / name] = dump(
             {"schema": "workbook-exercises-v1.json", "unit": unit, "items": raw})
+        rungs = Counter(str(it["rung"]) for it in u["items"] if "rung" in it)
+        ladder_index[str(unit)] = dict(sorted(rungs.items()))
+    wanted[course / "authored" / "ladder.json"] = dump(
+        {"note": "Items per ladder rung per unit (rung 1 true/false … 5 translate with vowel points); "
+                 "written by build/exwb_to_authored.py.", "units": ladder_index})
     existing = {p for d in ("authored", "exercises") for p in (course / d).glob("[0-9][0-9].json")}
+    existing |= {p for p in [course / "authored" / "ladder.json"] if p.exists()}
     stale = sorted(existing - set(wanted))
     changed = sorted(p for p, text in wanted.items()
                      if not p.is_file() or p.read_text(encoding="utf-8") != text)
 
-    total = sum(len(v) for v in per_unit.values())
-    summary = (f"{total} items in {len(per_unit)} units from {len(cfg['blocks'])} blocks; "
-               f"shapes: {dict(sorted(shapes.items()))}")
+    total = sum(len(u["items"]) for u in units.values())
+    rung_total = Counter(str(it.get("rung")) for u in units.values() for it in u["items"])
+    summary = (f"{sum(shapes.values())} exercises -> {total} items in {len(units)} units from {len(cfg['blocks'])} blocks; "
+               f"shapes: {dict(sorted(shapes.items()))}; rungs: {dict(sorted(rung_total.items()))}")
     if args.check:
         if stale or changed:
             for p in changed + stale:

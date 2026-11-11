@@ -1,60 +1,206 @@
 {
   "schema": "authored-exercises-v1.json",
   "unit": 48,
+  "sources": {
+    "s26-A7": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §26 A 7; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n113/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n113.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n62/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n62.jpg",
+      "exwb": "davidson-s26#A7",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s30-B5": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §30 B 5; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n125/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n125.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n72/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n72.jpg",
+      "exwb": "davidson-s30#B5",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    }
+  },
   "items": [
     {
+      "id": "s26-A7.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וְלָאָרֶץ לֹא יְכֻפַּר לַדָּם אֲשֶׁר שֻׁפַּךְ בָּהּ כִּי אִם בְּדַם שֹׁפְכוֹ",
+      "stimulusIsScript": true,
+      "statement": "And no expiation can be made for the land for a blood that has been shed in it, except by the blood of him that shed it.",
+      "answer": false,
+      "expected": "And no expiation can be made for the land for the blood that has been shed in it, except by the blood of him that shed it.",
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "he-en",
+      "src": "s26-A7"
+    },
+    {
+      "id": "s26-A7.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "וְלָאָרֶץ לֹא יְכֻפַּר לַדָּם אֲשֶׁר שֻׁפַּךְ בָּהּ כִּי אִם בְּדַם שֹׁפְכוֹ",
       "stimulusIsScript": true,
       "options": [
-        "The heavens are telling the glory of God.",
-        "And Pharaoh called all the wise men of Egypt, and he related to them his dream.",
-        "Remember the Sabbath day to keep it holy.",
-        "And no expiation can be made for the land for the blood that has been shed in it, except by the blood of him that shed it."
+        "And no expiation can be made for the land for the blood that has been shed in it, except by the blood of him that shed it.",
+        "And no expiation can be made for the land for the blood this has been shed in it, except by the blood of him that shed it.",
+        "And no expiation can be made for the land for the blood that has been shed in it, except by the blood of me that shed it.",
+        "And no expiation can be made for the land for a blood that has been shed in it, except by the blood of him that shed it."
       ],
       "answer": "And no expiation can be made for the land for the blood that has been shed in it, except by the blood of him that shed it.",
       "optionIsScript": false,
-      "id": "s26-A7",
       "block": "s26",
       "blockLabel": "Davidson §26",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §26 A 7; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n113/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n113.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n62/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n62.jpg",
-        "exwb": "davidson-s26#A7",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s26-A7"
     },
     {
+      "id": "s26-A7.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: And no expiation can be made for the land for the blood that has been shed in it, except by the blood of him that shed it.",
+      "stimulus": "וְלָאָרֶץ לֹא ＿＿＿ לַדָּם אֲשֶׁר שֻׁפַּךְ בָּהּ כִּי אִם בְּדַם שֹׁפְכוֹ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "יְכֻפַּר"
+      ],
+      "answerIsScript": true,
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "he-en",
+      "src": "s26-A7"
+    },
+    {
+      "id": "s26-A7.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וְלָאָרֶץ לֹא יְכֻפַּר לַדָּם אֲשֶׁר שֻׁפַּךְ בָּהּ כִּי אִם בְּדַם שֹׁפְכוֹ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "And no expiation can be made for the land for the blood that has been shed in it, except by the blood of him that shed it."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "he-en",
+      "src": "s26-A7"
+    },
+    {
+      "id": "s26-A7.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And no expiation can be made for the land for the blood that has been shed in it, except by the blood of him that shed it.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וְלָאָרֶץ לֹא יְכֻפַּר לַדָּם אֲשֶׁר שֻׁפַּךְ בָּהּ כִּי אִם בְּדַם שֹׁפְכוֹ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "he-en",
+      "src": "s26-A7"
+    },
+    {
+      "id": "s30-B5.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וְהָלְכוּ יוֹשְׁבֵי הָאָרֶץ כַּעִוְרִים וְשֻׁפַּךְ דָּמָם כֶּעָפָר",
+      "stimulusIsScript": true,
+      "statement": "And the inhabitants of the land shall go (i.e. walk) like blind men, and their blood shall be poured out like dust.",
+      "answer": true,
+      "expected": "And the inhabitants of the land shall go (i.e. walk) like blind men, and their blood shall be poured out like dust.",
+      "block": "s30",
+      "blockLabel": "Davidson §30",
+      "shape": "he-en",
+      "src": "s30-B5"
+    },
+    {
+      "id": "s30-B5.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "וְהָלְכוּ יוֹשְׁבֵי הָאָרֶץ כַּעִוְרִים וְשֻׁפַּךְ דָּמָם כֶּעָפָר",
       "stimulusIsScript": true,
       "options": [
-        "The Israelites ate the passover with their loins girt, their sandals on their feet, and their staff in their hand.",
-        "Thou art my son.",
         "And the inhabitants of the land shall go (i.e. walk) like blind men, and their blood shall be poured out like dust.",
-        "And ye shall take your staff in your hand."
+        "And the inhabitants of the land shall go (i.e. walk) like blind men, and our blood shall be poured out like dust.",
+        "And the inhabitants of a land shall go (i.e. walk) like blind men, and their blood shall be poured out like dust.",
+        "And the inhabitants of the land shall go (i.e. walk) like blind men, and your blood shall be poured out like dust."
       ],
       "answer": "And the inhabitants of the land shall go (i.e. walk) like blind men, and their blood shall be poured out like dust.",
       "optionIsScript": false,
-      "id": "s30-B5",
       "block": "s30",
       "blockLabel": "Davidson §30",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §30 B 5; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n125/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n125.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n72/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n72.jpg",
-        "exwb": "davidson-s30#B5",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s30-B5"
+    },
+    {
+      "id": "s30-B5.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: And the inhabitants of the land shall go (i.e. walk) like blind men, and their blood shall be poured out like dust.",
+      "stimulus": "וְהָלְכוּ יוֹשְׁבֵי הָאָרֶץ ＿＿＿ וְשֻׁפַּךְ דָּמָם כֶּעָפָר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "כַּעִוְרִים"
+      ],
+      "answerIsScript": true,
+      "block": "s30",
+      "blockLabel": "Davidson §30",
+      "shape": "he-en",
+      "src": "s30-B5"
+    },
+    {
+      "id": "s30-B5.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וְהָלְכוּ יוֹשְׁבֵי הָאָרֶץ כַּעִוְרִים וְשֻׁפַּךְ דָּמָם כֶּעָפָר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "And the inhabitants of the land shall go like blind men, and their blood shall be poured out like dust."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s30",
+      "blockLabel": "Davidson §30",
+      "shape": "he-en",
+      "src": "s30-B5"
+    },
+    {
+      "id": "s30-B5.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And the inhabitants of the land shall go (i.e. walk) like blind men, and their blood shall be poured out like dust.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וְהָלְכוּ יוֹשְׁבֵי הָאָרֶץ כַּעִוְרִים וְשֻׁפַּךְ דָּמָם כֶּעָפָר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s30",
+      "blockLabel": "Davidson §30",
+      "shape": "he-en",
+      "src": "s30-B5"
     }
   ]
 }

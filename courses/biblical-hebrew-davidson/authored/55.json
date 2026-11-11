@@ -1,280 +1,1100 @@
 {
   "schema": "authored-exercises-v1.json",
   "unit": 55,
+  "sources": {
+    "s34-A1": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §34 A 1; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n136/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n136.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n83/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n83.jpg",
+      "exwb": "davidson-s34#A1",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s34-A2": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §34 A 2; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n136/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n136.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n83/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n83.jpg",
+      "exwb": "davidson-s34#A2",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s34-A3": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §34 A 3; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n136/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n136.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n83/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n83.jpg",
+      "exwb": "davidson-s34#A3",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s34-A4": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §34 A 4; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n136/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n136.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n83/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n83.jpg",
+      "exwb": "davidson-s34#A4",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s34-A6": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §34 A 6; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n136/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n136.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n83/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n83.jpg",
+      "exwb": "davidson-s34#A6",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s34-A7": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §34 A 7; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n136/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n136.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n83/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n83.jpg",
+      "exwb": "davidson-s34#A7",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s34-A11": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §34 A 11; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n136/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n136.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n83/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n83.jpg",
+      "exwb": "davidson-s34#A11",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s34-A12": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §34 A 12; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n136/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n136.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n83/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n83.jpg",
+      "exwb": "davidson-s34#A12",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s34-B2": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §34 B 2; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n136/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n136.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n83/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n83.jpg",
+      "exwb": "davidson-s34#B2",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s34-B3": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §34 B 3; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n136/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n136.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n83/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n83.jpg",
+      "exwb": "davidson-s34#B3",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s34-B8": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §34 B 8; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n136/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n136.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n83/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n83.jpg",
+      "exwb": "davidson-s34#B8",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s36-C2": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §36 C 2; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n140/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n140.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n90/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n90.jpg",
+      "exwb": "davidson-s36#C2",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s45b-D7": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §45b D 7; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n173/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n173.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n130/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n130.jpg",
+      "exwb": "davidson-s45b#D7",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s46-B8": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §46 B 8; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n179/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n179.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n134/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n134.jpg",
+      "exwb": "davidson-s46#B8",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    }
+  },
   "items": [
     {
+      "id": "s34-A1.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיַּעֲזֹב כָּל־אֲשֶׁר לוֹ בְּיַד יוֹסֵף",
+      "stimulusIsScript": true,
+      "statement": "And he left all that he had in Joseph's hand.",
+      "answer": true,
+      "expected": "And he left all that he had in Joseph's hand.",
+      "block": "s34",
+      "blockLabel": "Davidson §34",
+      "shape": "he-en",
+      "src": "s34-A1"
+    },
+    {
+      "id": "s34-A1.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "וַיַּעֲזֹב כָּל־אֲשֶׁר לוֹ בְּיַד יוֹסֵף",
       "stimulusIsScript": true,
       "options": [
+        "And he left all that he had to Joseph's hand.",
         "And he left all that he had in Joseph's hand.",
-        "Give us this land and do not send us over the river.",
-        "Do not ye stand: pursue after your enemies, for Yahweh your God has delivered them into your hand.",
-        "If thine enemy be hungry, give him bread to eat."
+        "And he left all that she had in Joseph's hand.",
+        "And she left all that he had in Joseph's hand."
       ],
       "answer": "And he left all that he had in Joseph's hand.",
       "optionIsScript": false,
-      "id": "s34-A1",
       "block": "s34",
       "blockLabel": "Davidson §34",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §34 A 1; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n136/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n136.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n83/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n83.jpg",
-        "exwb": "davidson-s34#A1",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s34-A1"
     },
     {
+      "id": "s34-A1.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: And he left all that he had in Joseph's hand.",
+      "stimulus": "וַיַּעֲזֹב כָּל־אֲשֶׁר לוֹ בְּיַד ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "יוֹסֵף"
+      ],
+      "answerIsScript": true,
+      "block": "s34",
+      "blockLabel": "Davidson §34",
+      "shape": "he-en",
+      "src": "s34-A1"
+    },
+    {
+      "id": "s34-A1.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וַיַּעֲזֹב כָּל־אֲשֶׁר לוֹ בְּיַד יוֹסֵף",
+      "stimulusIsScript": true,
+      "accepted": [
+        "And he left all that he had in Joseph's hand."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s34",
+      "blockLabel": "Davidson §34",
+      "shape": "he-en",
+      "src": "s34-A1"
+    },
+    {
+      "id": "s34-A1.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And he left all that he had in Joseph's hand.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיַּעֲזֹב כָּל־אֲשֶׁר לוֹ בְּיַד יוֹסֵף"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s34",
+      "blockLabel": "Davidson §34",
+      "shape": "he-en",
+      "src": "s34-A1"
+    },
+    {
+      "id": "s34-A2.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הִנֵּה שְׁנֵי הַמְּלָכִים לֹא עָמְדוּ לְפָנָיו וְאֵיךְ נַעֲמֹד אֲנָחְנוּ",
+      "stimulusIsScript": true,
+      "statement": "Behold, the two kings did not stand before him, and how shall we stand?",
+      "answer": true,
+      "expected": "Behold, the two kings did not stand before him, and how shall we stand?",
+      "block": "s34",
+      "blockLabel": "Davidson §34",
+      "shape": "he-en",
+      "src": "s34-A2"
+    },
+    {
+      "id": "s34-A2.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "הִנֵּה שְׁנֵי הַמְּלָכִים לֹא עָמְדוּ לְפָנָיו וְאֵיךְ נַעֲמֹד אֲנָחְנוּ",
       "stimulusIsScript": true,
       "options": [
-        "And he left all that he had in Joseph's hand.",
-        "Touch the mountains, that they may smoke.",
-        "Give us this land and do not send us over the river.",
-        "Behold, the two kings did not stand before him, and how shall we stand?"
+        "Behold, the two kings did not stand before him, and how shall we stand?",
+        "Behold, the two kings did not stand before him, and how shall I stand?",
+        "Behold, a two kings did not stand before him, and how shall we stand?",
+        "Behold, the two kings did not stand before them, and how shall we stand?"
       ],
       "answer": "Behold, the two kings did not stand before him, and how shall we stand?",
       "optionIsScript": false,
-      "id": "s34-A2",
       "block": "s34",
       "blockLabel": "Davidson §34",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §34 A 2; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n136/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n136.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n83/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n83.jpg",
-        "exwb": "davidson-s34#A2",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s34-A2"
     },
     {
+      "id": "s34-A2.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Behold, the two kings did not stand before him, and how shall we stand?",
+      "stimulus": "הִנֵּה שְׁנֵי הַמְּלָכִים לֹא עָמְדוּ לְפָנָיו וְאֵיךְ נַעֲמֹד ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֲנָחְנוּ"
+      ],
+      "answerIsScript": true,
+      "block": "s34",
+      "blockLabel": "Davidson §34",
+      "shape": "he-en",
+      "src": "s34-A2"
+    },
+    {
+      "id": "s34-A2.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הִנֵּה שְׁנֵי הַמְּלָכִים לֹא עָמְדוּ לְפָנָיו וְאֵיךְ נַעֲמֹד אֲנָחְנוּ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Behold, the two kings did not stand before him, and how shall we stand?"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s34",
+      "blockLabel": "Davidson §34",
+      "shape": "he-en",
+      "src": "s34-A2"
+    },
+    {
+      "id": "s34-A2.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Behold, the two kings did not stand before him, and how shall we stand?",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הִנֵּה שְׁנֵי הַמְּלָכִים לֹא עָמְדוּ לְפָנָיו וְאֵיךְ נַעֲמֹד אֲנָחְנוּ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s34",
+      "blockLabel": "Davidson §34",
+      "shape": "he-en",
+      "src": "s34-A2"
+    },
+    {
+      "id": "s34-A3.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיִּזְכֹּר אֱלֹהִים אֶת־נֹחַ וַיַּעֲבֵר רוּחַ גְּדוֹלָה עַל־הָאָרֶץ",
+      "stimulusIsScript": true,
+      "statement": "And God remembered Noah, and he caused a great wind to pass over the earth.",
+      "answer": true,
+      "expected": "And God remembered Noah, and he caused a great wind to pass over the earth.",
+      "block": "s34",
+      "blockLabel": "Davidson §34",
+      "shape": "he-en",
+      "src": "s34-A3"
+    },
+    {
+      "id": "s34-A3.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "וַיִּזְכֹּר אֱלֹהִים אֶת־נֹחַ וַיַּעֲבֵר רוּחַ גְּדוֹלָה עַל־הָאָרֶץ",
       "stimulusIsScript": true,
       "options": [
-        "Be strong and of a good courage, for thou shalt cause this people to inherit the land which I swore to their fathers to give them.",
-        "And he and I dreamed a dream in one night.",
+        "And God remembered Noah, and he caused a great wind to pass over an earth.",
+        "And God remembered Noah, and she caused a great wind to pass over the earth.",
         "And God remembered Noah, and he caused a great wind to pass over the earth.",
-        "And Abraham trusted in Yahweh, and he counted it to him as righteousness."
+        "And God remembered Noah, and he caused the great wind to pass over the earth."
       ],
       "answer": "And God remembered Noah, and he caused a great wind to pass over the earth.",
       "optionIsScript": false,
-      "id": "s34-A3",
       "block": "s34",
       "blockLabel": "Davidson §34",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §34 A 3; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n136/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n136.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n83/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n83.jpg",
-        "exwb": "davidson-s34#A3",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s34-A3"
     },
     {
+      "id": "s34-A3.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: And God remembered Noah, and he caused a great wind to pass over the earth.",
+      "stimulus": "＿＿＿ אֱלֹהִים אֶת־נֹחַ וַיַּעֲבֵר רוּחַ גְּדוֹלָה עַל־הָאָרֶץ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וַיִּזְכֹּר"
+      ],
+      "answerIsScript": true,
+      "block": "s34",
+      "blockLabel": "Davidson §34",
+      "shape": "he-en",
+      "src": "s34-A3"
+    },
+    {
+      "id": "s34-A3.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וַיִּזְכֹּר אֱלֹהִים אֶת־נֹחַ וַיַּעֲבֵר רוּחַ גְּדוֹלָה עַל־הָאָרֶץ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "And God remembered Noah, and he caused a great wind to pass over the earth."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s34",
+      "blockLabel": "Davidson §34",
+      "shape": "he-en",
+      "src": "s34-A3"
+    },
+    {
+      "id": "s34-A3.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And God remembered Noah, and he caused a great wind to pass over the earth.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיִּזְכֹּר אֱלֹהִים אֶת־נֹחַ וַיַּעֲבֵר רוּחַ גְּדוֹלָה עַל־הָאָרֶץ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s34",
+      "blockLabel": "Davidson §34",
+      "shape": "he-en",
+      "src": "s34-A3"
+    },
+    {
+      "id": "s34-A4.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַנַּחַלְמָה חֲלוֹם בְּלַיְלָה אֶחָד אֲנִי וָהוּא",
+      "stimulusIsScript": true,
+      "statement": "And he and we dreamed a dream in one night.",
+      "answer": false,
+      "expected": "And he and I dreamed a dream in one night.",
+      "block": "s34",
+      "blockLabel": "Davidson §34",
+      "shape": "he-en",
+      "src": "s34-A4"
+    },
+    {
+      "id": "s34-A4.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "וַנַּחַלְמָה חֲלוֹם בְּלַיְלָה אֶחָד אֲנִי וָהוּא",
       "stimulusIsScript": true,
       "options": [
-        "Be strong and of a good courage, for thou shalt cause this people to inherit the land which I swore to their fathers to give them.",
+        "And he and we dreamed a dream in one night.",
+        "And he and they dreamed a dream in one night.",
         "And he and I dreamed a dream in one night.",
-        "And he left all that he had in Joseph's hand.",
-        "If thine enemy be hungry, give him bread to eat."
+        "And he and I dreamed the dream in one night."
       ],
       "answer": "And he and I dreamed a dream in one night.",
       "optionIsScript": false,
-      "id": "s34-A4",
       "block": "s34",
       "blockLabel": "Davidson §34",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §34 A 4; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n136/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n136.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n83/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n83.jpg",
-        "exwb": "davidson-s34#A4",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s34-A4"
     },
     {
+      "id": "s34-A4.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: And he and I dreamed a dream in one night.",
+      "stimulus": "וַנַּחַלְמָה ＿＿＿ בְּלַיְלָה אֶחָד אֲנִי וָהוּא",
+      "stimulusIsScript": true,
+      "accepted": [
+        "חֲלוֹם"
+      ],
+      "answerIsScript": true,
+      "block": "s34",
+      "blockLabel": "Davidson §34",
+      "shape": "he-en",
+      "src": "s34-A4"
+    },
+    {
+      "id": "s34-A4.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וַנַּחַלְמָה חֲלוֹם בְּלַיְלָה אֶחָד אֲנִי וָהוּא",
+      "stimulusIsScript": true,
+      "accepted": [
+        "And he and I dreamed a dream in one night."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s34",
+      "blockLabel": "Davidson §34",
+      "shape": "he-en",
+      "src": "s34-A4"
+    },
+    {
+      "id": "s34-A4.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And he and I dreamed a dream in one night.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַנַּחַלְמָה חֲלוֹם בְּלַיְלָה אֶחָד אֲנִי וָהוּא"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s34",
+      "blockLabel": "Davidson §34",
+      "shape": "he-en",
+      "src": "s34-A4"
+    },
+    {
+      "id": "s34-A6.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וְאַבְרָם הֶאֱמִין בַּיהוָה וַיַּחְשְׁבֶהָ לּוֹ צְדָקָה",
+      "stimulusIsScript": true,
+      "statement": "And Abraham trusted in Yahweh, and he counted it from him as righteousness.",
+      "answer": false,
+      "expected": "And Abraham trusted in Yahweh, and he counted it to him as righteousness.",
+      "block": "s34",
+      "blockLabel": "Davidson §34",
+      "shape": "he-en",
+      "src": "s34-A6"
+    },
+    {
+      "id": "s34-A6.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "וְאַבְרָם הֶאֱמִין בַּיהוָה וַיַּחְשְׁבֶהָ לּוֹ צְדָקָה",
       "stimulusIsScript": true,
       "options": [
+        "And Abraham trusted in Yahweh, and he counted it to me as righteousness.",
         "And Abraham trusted in Yahweh, and he counted it to him as righteousness.",
-        "Forsake not Wisdom: love her, that she may keep thee.",
-        "Yahweh sent me to bind up the broken-hearted.",
-        "Behold, the two kings did not stand before him, and how shall we stand?"
+        "And Abraham trusted in Yahweh, and he counted it from him as righteousness.",
+        "And Abraham trusted in Yahweh, and she counted it to him as righteousness."
       ],
       "answer": "And Abraham trusted in Yahweh, and he counted it to him as righteousness.",
       "optionIsScript": false,
-      "id": "s34-A6",
       "block": "s34",
       "blockLabel": "Davidson §34",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §34 A 6; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n136/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n136.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n83/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n83.jpg",
-        "exwb": "davidson-s34#A6",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s34-A6"
     },
     {
+      "id": "s34-A6.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: And Abraham trusted in Yahweh, and he counted it to him as righteousness.",
+      "stimulus": "וְאַבְרָם ＿＿＿ בַּיהוָה וַיַּחְשְׁבֶהָ לּוֹ צְדָקָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הֶאֱמִין"
+      ],
+      "answerIsScript": true,
+      "block": "s34",
+      "blockLabel": "Davidson §34",
+      "shape": "he-en",
+      "src": "s34-A6"
+    },
+    {
+      "id": "s34-A6.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וְאַבְרָם הֶאֱמִין בַּיהוָה וַיַּחְשְׁבֶהָ לּוֹ צְדָקָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "And Abraham trusted in Yahweh, and he counted it to him as righteousness.",
+        "And Abraham trusted in the Lord, and he counted it to him as righteousness."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s34",
+      "blockLabel": "Davidson §34",
+      "shape": "he-en",
+      "src": "s34-A6"
+    },
+    {
+      "id": "s34-A6.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And Abraham trusted in Yahweh, and he counted it to him as righteousness.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וְאַבְרָם הֶאֱמִין בַּיהוָה וַיַּחְשְׁבֶהָ לּוֹ צְדָקָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s34",
+      "blockLabel": "Davidson §34",
+      "shape": "he-en",
+      "src": "s34-A6"
+    },
+    {
+      "id": "s34-A7.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "תְּנָה־לָּנוּ אֶת־הָאָרֶץ הַזֹּאת וְאַל־תַּעֲבִרֵנוּ אֶת־הַנָּהָר",
+      "stimulusIsScript": true,
+      "statement": "Give us that land and do not send us over the river.",
+      "answer": false,
+      "expected": "Give us this land and do not send us over the river.",
+      "block": "s34",
+      "blockLabel": "Davidson §34",
+      "shape": "he-en",
+      "src": "s34-A7"
+    },
+    {
+      "id": "s34-A7.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "תְּנָה־לָּנוּ אֶת־הָאָרֶץ הַזֹּאת וְאַל־תַּעֲבִרֵנוּ אֶת־הַנָּהָר",
       "stimulusIsScript": true,
       "options": [
-        "And he left all that he had in Joseph's hand.",
+        "Give me this land and do not send us over the river.",
+        "Give us that land and do not send us over the river.",
         "Give us this land and do not send us over the river.",
-        "And he and I dreamed a dream in one night.",
-        "Do not ye stand: pursue after your enemies, for Yahweh your God has delivered them into your hand."
+        "Give us this land and do not send us over a river."
       ],
       "answer": "Give us this land and do not send us over the river.",
       "optionIsScript": false,
-      "id": "s34-A7",
       "block": "s34",
       "blockLabel": "Davidson §34",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §34 A 7; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n136/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n136.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n83/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n83.jpg",
-        "exwb": "davidson-s34#A7",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s34-A7"
     },
     {
+      "id": "s34-A7.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Give us this land and do not send us over the river.",
+      "stimulus": "תְּנָה־לָּנוּ ＿＿＿ הַזֹּאת וְאַל־תַּעֲבִרֵנוּ אֶת־הַנָּהָר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶת־הָאָרֶץ"
+      ],
+      "answerIsScript": true,
+      "block": "s34",
+      "blockLabel": "Davidson §34",
+      "shape": "he-en",
+      "src": "s34-A7"
+    },
+    {
+      "id": "s34-A7.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "תְּנָה־לָּנוּ אֶת־הָאָרֶץ הַזֹּאת וְאַל־תַּעֲבִרֵנוּ אֶת־הַנָּהָר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Give us this land and do not send us over the river."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s34",
+      "blockLabel": "Davidson §34",
+      "shape": "he-en",
+      "src": "s34-A7"
+    },
+    {
+      "id": "s34-A7.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Give us this land and do not send us over the river.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "תְּנָה־לָּנוּ אֶת־הָאָרֶץ הַזֹּאת וְאַל־תַּעֲבִרֵנוּ אֶת־הַנָּהָר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s34",
+      "blockLabel": "Davidson §34",
+      "shape": "he-en",
+      "src": "s34-A7"
+    },
+    {
+      "id": "s34-A11.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אַל־תַּעֲזֹב חָכְמָה אֱהָבֶהָ וְתִשְׁמְרֶךָּ",
+      "stimulusIsScript": true,
+      "statement": "Forsake not Wisdom: love her, that she may keep thee.",
+      "answer": true,
+      "expected": "Forsake not Wisdom: love her, that she may keep thee.",
+      "block": "s34",
+      "blockLabel": "Davidson §34",
+      "shape": "he-en",
+      "src": "s34-A11"
+    },
+    {
+      "id": "s34-A11.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
-      "stimulus": "אל־תעזב חכמה אהבה ותשמרך",
+      "stimulus": "אַל־תַּעֲזֹב חָכְמָה אֱהָבֶהָ וְתִשְׁמְרֶךָּ",
       "stimulusIsScript": true,
       "options": [
-        "And God remembered Noah, and he caused a great wind to pass over the earth.",
-        "Be strong and of a good courage, for thou shalt cause this people to inherit the land which I swore to their fathers to give them.",
-        "Yahweh sent me to bind up the broken-hearted.",
+        "Forsake Wisdom: love her, that she may keep thee.",
+        "Forsake not Wisdom: love her, that he may keep thee.",
+        "Forsake not Wisdom: love her, that she may keep him.",
         "Forsake not Wisdom: love her, that she may keep thee."
       ],
       "answer": "Forsake not Wisdom: love her, that she may keep thee.",
       "optionIsScript": false,
-      "id": "s34-A11",
       "block": "s34",
       "blockLabel": "Davidson §34",
       "shape": "he-en",
-      "hint": "With vowel points: אַל־תַּעֲזֹב חָכְמָה אֱהָבֶהָ וְתִשְׁמְרֶךָּ",
-      "data": {
-        "pointed": "אַל־תַּעֲזֹב חָכְמָה אֱהָבֶהָ וְתִשְׁמְרֶךָּ"
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §34 A 11; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n136/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n136.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n83/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n83.jpg",
-        "exwb": "davidson-s34#A11",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s34-A11"
     },
     {
+      "id": "s34-A11.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Forsake not Wisdom: love her, that she may keep thee.",
+      "stimulus": "אַל־תַּעֲזֹב חָכְמָה אֱהָבֶהָ ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וְתִשְׁמְרֶךָּ"
+      ],
+      "answerIsScript": true,
+      "block": "s34",
+      "blockLabel": "Davidson §34",
+      "shape": "he-en",
+      "src": "s34-A11"
+    },
+    {
+      "id": "s34-A11.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "אל־תעזב חכמה אהבה ותשמרך",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Forsake not Wisdom: love her, that she may keep thee.",
+        "Forsake not Wisdom: love her, that she may keep you."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "hint": "With vowel points: אַל־תַּעֲזֹב חָכְמָה אֱהָבֶהָ וְתִשְׁמְרֶךָּ",
+      "block": "s34",
+      "blockLabel": "Davidson §34",
+      "shape": "he-en",
+      "src": "s34-A11"
+    },
+    {
+      "id": "s34-A11.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Forsake not Wisdom: love her, that she may keep thee.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אַל־תַּעֲזֹב חָכְמָה אֱהָבֶהָ וְתִשְׁמְרֶךָּ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s34",
+      "blockLabel": "Davidson §34",
+      "shape": "he-en",
+      "src": "s34-A11"
+    },
+    {
+      "id": "s34-A12.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וְאַתֶּם אַל־תַּעֲמֹדוּ רִדְפוּ אַחֲרֵי אֹיְבֵיכֶם כִּי נְתָנָם יְהוָה אֱלֹהֵיכֶם בְּיֶדְכֶם",
+      "stimulusIsScript": true,
+      "statement": "Do not ye stand: pursue after your enemies, for Yahweh their God has delivered them into your hand.",
+      "answer": false,
+      "expected": "Do not ye stand: pursue after your enemies, for Yahweh your God has delivered them into your hand.",
+      "block": "s34",
+      "blockLabel": "Davidson §34",
+      "shape": "he-en",
+      "src": "s34-A12"
+    },
+    {
+      "id": "s34-A12.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
-      "stimulus": "ואתם אל־תעמדו רדפו אחרי איביכם כי נתנם יהוה אלהיכם בידכם",
+      "stimulus": "וְאַתֶּם אַל־תַּעֲמֹדוּ רִדְפוּ אַחֲרֵי אֹיְבֵיכֶם כִּי נְתָנָם יְהוָה אֱלֹהֵיכֶם בְּיֶדְכֶם",
       "stimulusIsScript": true,
       "options": [
-        "Give us this land and do not send us over the river.",
-        "And he left all that he had in Joseph's hand.",
+        "Do not ye stand: pursue after your enemies, for Yahweh their God has delivered them into your hand.",
         "Do not ye stand: pursue after your enemies, for Yahweh your God has delivered them into your hand.",
-        "Yahweh sent me to bind up the broken-hearted."
+        "Do ye stand: pursue after your enemies, for Yahweh your God has delivered them into your hand.",
+        "Do not ye stand: pursue after your enemies, for Yahweh your God has delivered him into your hand."
       ],
       "answer": "Do not ye stand: pursue after your enemies, for Yahweh your God has delivered them into your hand.",
       "optionIsScript": false,
-      "id": "s34-A12",
       "block": "s34",
       "blockLabel": "Davidson §34",
       "shape": "he-en",
-      "hint": "With vowel points: וְאַתֶּם אַל־תַּעֲמֹדוּ רִדְפוּ אַחֲרֵי אֹיְבֵיכֶם כִּי נְתָנָם יְהוָה אֱלֹהֵיכֶם בְּיֶדְכֶם",
-      "data": {
-        "pointed": "וְאַתֶּם אַל־תַּעֲמֹדוּ רִדְפוּ אַחֲרֵי אֹיְבֵיכֶם כִּי נְתָנָם יְהוָה אֱלֹהֵיכֶם בְּיֶדְכֶם"
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §34 A 12; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n136/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n136.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n83/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n83.jpg",
-        "exwb": "davidson-s34#A12",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s34-A12"
     },
     {
+      "id": "s34-A12.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Fill in the missing word: Do not ye stand: pursue after your enemies, for Yahweh your God has delivered them into your hand.",
+      "stimulus": "וְאַתֶּם אַל־תַּעֲמֹדוּ רִדְפוּ אַחֲרֵי אֹיְבֵיכֶם כִּי נְתָנָם יְהוָה ＿＿＿ בְּיֶדְכֶם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֱלֹהֵיכֶם"
+      ],
+      "answerIsScript": true,
+      "block": "s34",
+      "blockLabel": "Davidson §34",
+      "shape": "he-en",
+      "src": "s34-A12"
+    },
+    {
+      "id": "s34-A12.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "ואתם אל־תעמדו רדפו אחרי איביכם כי נתנם יהוה אלהיכם בידכם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Do not ye stand: pursue after your enemies, for Yahweh your God has delivered them into your hand.",
+        "Do not ye stand: pursue after your enemies, for the Lord your God has delivered them into your hand.",
+        "Do not you stand: pursue after your enemies, for Yahweh your God has delivered them into your hand.",
+        "Do not you stand: pursue after your enemies, for the Lord your God has delivered them into your hand."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "hint": "With vowel points: וְאַתֶּם אַל־תַּעֲמֹדוּ רִדְפוּ אַחֲרֵי אֹיְבֵיכֶם כִּי נְתָנָם יְהוָה אֱלֹהֵיכֶם בְּיֶדְכֶם",
+      "block": "s34",
+      "blockLabel": "Davidson §34",
+      "shape": "he-en",
+      "src": "s34-A12"
+    },
+    {
+      "id": "s34-A12.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Do not ye stand: pursue after your enemies, for Yahweh your God has delivered them into your hand.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וְאַתֶּם אַל־תַּעֲמֹדוּ רִדְפוּ אַחֲרֵי אֹיְבֵיכֶם כִּי נְתָנָם יְהוָה אֱלֹהֵיכֶם בְּיֶדְכֶם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s34",
+      "blockLabel": "Davidson §34",
+      "shape": "he-en",
+      "src": "s34-A12"
+    },
+    {
+      "id": "s34-B2.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אַל־תַּעַבְרוּ אֶת־הַנָּהָר פֶּן־תִּנָּגְפוּ לִפְנֵי אֹיְבֵיכֶם",
+      "stimulusIsScript": true,
+      "statement": "Pass not the river, lest ye be smitten before my enemies.",
+      "answer": false,
+      "expected": "Pass not the river, lest ye be smitten before your enemies.",
+      "block": "s34",
+      "blockLabel": "Davidson §34",
+      "shape": "en-he",
+      "src": "s34-B2"
+    },
+    {
+      "id": "s34-B2.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אַל־תַּעַבְרוּ אֶת־הַנָּהָר פֶּן־תִּנָּגְפוּ לִפְנֵי אֹיְבֵיכֶם",
+      "stimulusIsScript": true,
+      "options": [
+        "Pass not the river, lest ye be smitten before your enemies.",
+        "Pass not a river, lest ye be smitten before your enemies.",
+        "Pass the river, lest ye be smitten before your enemies.",
+        "Pass not the river, lest ye be smitten before my enemies."
+      ],
+      "answer": "Pass not the river, lest ye be smitten before your enemies.",
+      "optionIsScript": false,
+      "block": "s34",
+      "blockLabel": "Davidson §34",
+      "shape": "en-he",
+      "src": "s34-B2"
+    },
+    {
+      "id": "s34-B2.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Pass not the river, lest ye be smitten before your enemies.",
+      "stimulus": "אַל־תַּעַבְרוּ ＿＿＿ פֶּן־תִּנָּגְפוּ לִפְנֵי אֹיְבֵיכֶם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶת־הַנָּהָר"
+      ],
+      "answerIsScript": true,
+      "block": "s34",
+      "blockLabel": "Davidson §34",
+      "shape": "en-he",
+      "src": "s34-B2"
+    },
+    {
+      "id": "s34-B2.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "Pass not the river, lest ye be smitten before your enemies.",
       "stimulusIsScript": false,
       "accepted": [
         "אַל־תַּעַבְרוּ אֶת־הַנָּהָר פֶּן־תִּנָּגְפוּ לִפְנֵי אֹיְבֵיכֶם"
       ],
       "answerIsScript": true,
-      "id": "s34-B2",
       "block": "s34",
       "blockLabel": "Davidson §34",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §34 B 2; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n136/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n136.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n83/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n83.jpg",
-        "exwb": "davidson-s34#B2",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s34-B2"
     },
     {
+      "id": "s34-B2.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Pass not the river, lest ye be smitten before your enemies.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אַל־תַּעַבְרוּ אֶת־הַנָּהָר פֶּן־תִּנָּגְפוּ לִפְנֵי אֹיְבֵיכֶם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s34",
+      "blockLabel": "Davidson §34",
+      "shape": "en-he",
+      "src": "s34-B2"
+    },
+    {
+      "id": "s34-B3.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "לֹא תֵעָבֵד אַרְצֵנוּ כִּי יַעַמְדוּ אֹיְבֵינוּ בְּקִרְבָּהּ",
+      "stimulusIsScript": true,
+      "statement": "Our land shall not be tilled, for our enemies shall stand in the midst-of-her.",
+      "answer": true,
+      "expected": "Our land shall not be tilled, for our enemies shall stand in the midst-of-her.",
+      "block": "s34",
+      "blockLabel": "Davidson §34",
+      "shape": "en-he",
+      "src": "s34-B3"
+    },
+    {
+      "id": "s34-B3.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "לֹא תֵעָבֵד אַרְצֵנוּ כִּי יַעַמְדוּ אֹיְבֵינוּ בְּקִרְבָּהּ",
+      "stimulusIsScript": true,
+      "options": [
+        "Our land shall not be tilled, for our enemies shall stand from the midst-of-her.",
+        "Our land shall not be tilled, for our enemies shall stand in a midst-of-her.",
+        "Our land shall not be tilled, for our enemies shall stand in the midst-of-her.",
+        "Our land shall not be tilled, for their enemies shall stand in the midst-of-her."
+      ],
+      "answer": "Our land shall not be tilled, for our enemies shall stand in the midst-of-her.",
+      "optionIsScript": false,
+      "block": "s34",
+      "blockLabel": "Davidson §34",
+      "shape": "en-he",
+      "src": "s34-B3"
+    },
+    {
+      "id": "s34-B3.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Our land shall not be tilled, for our enemies shall stand in the midst-of-her.",
+      "stimulus": "לֹא תֵעָבֵד אַרְצֵנוּ כִּי יַעַמְדוּ ＿＿＿ בְּקִרְבָּהּ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֹיְבֵינוּ"
+      ],
+      "answerIsScript": true,
+      "block": "s34",
+      "blockLabel": "Davidson §34",
+      "shape": "en-he",
+      "src": "s34-B3"
+    },
+    {
+      "id": "s34-B3.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "Our land shall not be tilled, for our enemies shall stand in the midst-of-her.",
       "stimulusIsScript": false,
       "accepted": [
         "לֹא תֵעָבֵד אַרְצֵנוּ כִּי יַעַמְדוּ אֹיְבֵינוּ בְּקִרְבָּהּ"
       ],
       "answerIsScript": true,
-      "id": "s34-B3",
       "block": "s34",
       "blockLabel": "Davidson §34",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §34 B 3; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n136/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n136.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n83/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n83.jpg",
-        "exwb": "davidson-s34#B3",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s34-B3"
     },
     {
+      "id": "s34-B3.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Our land shall not be tilled, for our enemies shall stand in the midst-of-her.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "לֹא תֵעָבֵד אַרְצֵנוּ כִּי יַעַמְדוּ אֹיְבֵינוּ בְּקִרְבָּהּ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s34",
+      "blockLabel": "Davidson §34",
+      "shape": "en-he",
+      "src": "s34-B3"
+    },
+    {
+      "id": "s34-B8.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיַּעֲבֵר אֶת־בָּנָיו בָּאֵשׁ",
+      "stimulusIsScript": true,
+      "statement": "And he made to pass his children in the fire.",
+      "answer": true,
+      "expected": "And he made to pass his children in the fire.",
+      "block": "s34",
+      "blockLabel": "Davidson §34",
+      "shape": "en-he",
+      "src": "s34-B8"
+    },
+    {
+      "id": "s34-B8.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיַּעֲבֵר אֶת־בָּנָיו בָּאֵשׁ",
+      "stimulusIsScript": true,
+      "options": [
+        "And she made to pass his children in the fire.",
+        "And he made to pass his children in a fire.",
+        "And he made to pass his children in the fire.",
+        "And he made to pass his children to the fire."
+      ],
+      "answer": "And he made to pass his children in the fire.",
+      "optionIsScript": false,
+      "block": "s34",
+      "blockLabel": "Davidson §34",
+      "shape": "en-he",
+      "src": "s34-B8"
+    },
+    {
+      "id": "s34-B8.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: And he made to pass his children in the fire.",
+      "stimulus": "＿＿＿ אֶת־בָּנָיו בָּאֵשׁ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וַיַּעֲבֵר"
+      ],
+      "answerIsScript": true,
+      "block": "s34",
+      "blockLabel": "Davidson §34",
+      "shape": "en-he",
+      "src": "s34-B8"
+    },
+    {
+      "id": "s34-B8.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "And he made to pass his children in the fire.",
       "stimulusIsScript": false,
       "accepted": [
@@ -282,88 +1102,297 @@
         "וַיַּעֲבֵר אֶת־יְלָדָיו בָּאֵשׁ"
       ],
       "answerIsScript": true,
-      "id": "s34-B8",
       "block": "s34",
       "blockLabel": "Davidson §34",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §34 B 8; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n136/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n136.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n83/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n83.jpg",
-        "exwb": "davidson-s34#B8",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s34-B8"
     },
     {
+      "id": "s34-B8.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And he made to pass his children in the fire.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיַּעֲבֵר אֶת־בָּנָיו בָּאֵשׁ",
+        "וַיַּעֲבֵר אֶת־יְלָדָיו בָּאֵשׁ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s34",
+      "blockLabel": "Davidson §34",
+      "shape": "en-he",
+      "src": "s34-B8"
+    },
+    {
+      "id": "s36-C2.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "תַּעֲמֹדְנָה רַגְלֵינוּ בִּשְׁעָרַיִךְ יְרוּשָׁלָםִ",
+      "stimulusIsScript": true,
+      "statement": "Our feet shall stand in thy (f.) gates (O) Jerusalem.",
+      "answer": true,
+      "expected": "Our feet shall stand in thy (f.) gates (O) Jerusalem.",
+      "block": "s36",
+      "blockLabel": "Davidson §36",
+      "shape": "en-he",
+      "src": "s36-C2"
+    },
+    {
+      "id": "s36-C2.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "תַּעֲמֹדְנָה רַגְלֵינוּ בִּשְׁעָרַיִךְ יְרוּשָׁלָםִ",
+      "stimulusIsScript": true,
+      "options": [
+        "Our feet shall stand from thy (f.) gates (O) Jerusalem.",
+        "Our feet shall stand in thy (f.) gates (O) Jerusalem.",
+        "Their feet shall stand in thy (f.) gates (O) Jerusalem.",
+        "Your feet shall stand in thy (f.) gates (O) Jerusalem."
+      ],
+      "answer": "Our feet shall stand in thy (f.) gates (O) Jerusalem.",
+      "optionIsScript": false,
+      "block": "s36",
+      "blockLabel": "Davidson §36",
+      "shape": "en-he",
+      "src": "s36-C2"
+    },
+    {
+      "id": "s36-C2.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Our feet shall stand in thy (f.) gates (O) Jerusalem.",
+      "stimulus": "＿＿＿ רַגְלֵינוּ בִּשְׁעָרַיִךְ יְרוּשָׁלָםִ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "תַּעֲמֹדְנָה"
+      ],
+      "answerIsScript": true,
+      "block": "s36",
+      "blockLabel": "Davidson §36",
+      "shape": "en-he",
+      "src": "s36-C2"
+    },
+    {
+      "id": "s36-C2.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "Our feet shall stand in thy (f.) gates (O) Jerusalem.",
       "stimulusIsScript": false,
       "accepted": [
         "תַּעֲמֹדְנָה רַגְלֵינוּ בִּשְׁעָרַיִךְ יְרוּשָׁלָםִ"
       ],
       "answerIsScript": true,
-      "id": "s36-C2",
       "block": "s36",
       "blockLabel": "Davidson §36",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §36 C 2; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n140/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n140.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n90/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n90.jpg",
-        "exwb": "davidson-s36#C2",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s36-C2"
     },
     {
+      "id": "s36-C2.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Our feet shall stand in thy (f.) gates (O) Jerusalem.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "תַּעֲמֹדְנָה רַגְלֵינוּ בִּשְׁעָרַיִךְ יְרוּשָׁלָםִ",
+        "תַּעֲמֹדְנָה רַגְלֵינוּ בִּשְׁעָרַיִךְ יְרוּשָׁלַםִ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s36",
+      "blockLabel": "Davidson §36",
+      "shape": "en-he",
+      "src": "s36-C2"
+    },
+    {
+      "id": "s45b-D7.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "עֲזָבוּנִי אָבִי וְאִמִּי",
+      "stimulusIsScript": true,
+      "statement": "My father and my mother have forsaken me.",
+      "answer": true,
+      "expected": "My father and my mother have forsaken me.",
+      "block": "s45b",
+      "blockLabel": "Davidson §45",
+      "shape": "en-he",
+      "src": "s45b-D7"
+    },
+    {
+      "id": "s45b-D7.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "עֲזָבוּנִי אָבִי וְאִמִּי",
+      "stimulusIsScript": true,
+      "options": [
+        "My father and my mother have forsaken him.",
+        "My father and my mother have forsaken us.",
+        "My father and my mother have forsaken me.",
+        "Thy father and my mother have forsaken me."
+      ],
+      "answer": "My father and my mother have forsaken me.",
+      "optionIsScript": false,
+      "block": "s45b",
+      "blockLabel": "Davidson §45",
+      "shape": "en-he",
+      "src": "s45b-D7"
+    },
+    {
+      "id": "s45b-D7.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: My father and my mother have forsaken me.",
+      "stimulus": "עֲזָבוּנִי ＿＿＿ וְאִמִּי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אָבִי"
+      ],
+      "answerIsScript": true,
+      "block": "s45b",
+      "blockLabel": "Davidson §45",
+      "shape": "en-he",
+      "src": "s45b-D7"
+    },
+    {
+      "id": "s45b-D7.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "My father and my mother have forsaken me.",
       "stimulusIsScript": false,
       "accepted": [
         "עֲזָבוּנִי אָבִי וְאִמִּי"
       ],
       "answerIsScript": true,
-      "id": "s45b-D7",
       "block": "s45b",
       "blockLabel": "Davidson §45",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §45b D 7; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n173/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n173.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n130/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n130.jpg",
-        "exwb": "davidson-s45b#D7",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s45b-D7"
     },
     {
+      "id": "s45b-D7.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "My father and my mother have forsaken me.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "עֲזָבוּנִי אָבִי וְאִמִּי"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s45b",
+      "blockLabel": "Davidson §45",
+      "shape": "en-he",
+      "src": "s45b-D7"
+    },
+    {
+      "id": "s46-B8.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָאָרֶץ עֹמֶדֶת לְעוֹלָם",
+      "stimulusIsScript": true,
+      "statement": "The earth standeth for ever.",
+      "answer": true,
+      "expected": "The earth standeth for ever.",
+      "block": "s46",
+      "blockLabel": "Davidson §46",
+      "shape": "en-he",
+      "src": "s46-B8"
+    },
+    {
+      "id": "s46-B8.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָאָרֶץ עֹמֶדֶת לְעוֹלָם",
+      "stimulusIsScript": true,
+      "options": [
+        "Every man did that which was right in his own eyes.",
+        "An earth standeth for ever.",
+        "Whosoever shall harden his heart and transgress my law shall be put to death.",
+        "The earth standeth for ever."
+      ],
+      "answer": "The earth standeth for ever.",
+      "optionIsScript": false,
+      "block": "s46",
+      "blockLabel": "Davidson §46",
+      "shape": "en-he",
+      "src": "s46-B8"
+    },
+    {
+      "id": "s46-B8.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The earth standeth for ever.",
+      "stimulus": "הָאָרֶץ עֹמֶדֶת ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "לְעוֹלָם"
+      ],
+      "answerIsScript": true,
+      "block": "s46",
+      "blockLabel": "Davidson §46",
+      "shape": "en-he",
+      "src": "s46-B8"
+    },
+    {
+      "id": "s46-B8.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "The earth standeth for ever.",
       "stimulusIsScript": false,
       "accepted": [
         "הָאָרֶץ עֹמֶדֶת לְעוֹלָם"
       ],
       "answerIsScript": true,
-      "id": "s46-B8",
       "block": "s46",
       "blockLabel": "Davidson §46",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §46 B 8; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n179/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n179.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n134/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n134.jpg",
-        "exwb": "davidson-s46#B8",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s46-B8"
+    },
+    {
+      "id": "s46-B8.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The earth standeth for ever.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאָרֶץ עֹמֶדֶת לְעוֹלָם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s46",
+      "blockLabel": "Davidson §46",
+      "shape": "en-he",
+      "src": "s46-B8"
     }
   ]
 }

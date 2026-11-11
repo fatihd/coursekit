@@ -1,148 +1,584 @@
 {
   "schema": "authored-exercises-v1.json",
   "unit": 16,
+  "sources": {
+    "s11-B1": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §11 B 1; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n64/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n64.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n22/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n22.jpg",
+      "exwb": "davidson-s11#B1",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s11-B2": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §11 B 2; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n64/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n64.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n22/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n22.jpg",
+      "exwb": "davidson-s11#B2",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s11-B3": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §11 B 3; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n64/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n64.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n22/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n22.jpg",
+      "exwb": "davidson-s11#B3",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s12-B1": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §12 B 1; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n65/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n65.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n24/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n24.jpg",
+      "exwb": "davidson-s12#B1",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s12-B2": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §12 B 2; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n65/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n65.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n24/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n24.jpg",
+      "exwb": "davidson-s12#B2",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s12-B7": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §12 B 7; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n65/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n65.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n24/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n24.jpg",
+      "exwb": "davidson-s12#B7",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s12-B16": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §12 B 16; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n65/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n65.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n24/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n24.jpg",
+      "exwb": "davidson-s12#B16",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s13-A8": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §13 A 8; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n69/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n69.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n25/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n25.jpg",
+      "exwb": "davidson-s13#A8",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s16-A8b": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §16 A 8b; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n76/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n76.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n31/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n31.jpg",
+      "exwb": "davidson-s16#A8b",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s16-A8c": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §16 A 8c; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n76/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n76.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n31/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n31.jpg",
+      "exwb": "davidson-s16#A8c",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s16-B11": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §16 B 11; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n76/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n76.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n31/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n31.jpg",
+      "exwb": "davidson-s16#B11",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    }
+  },
   "items": [
     {
+      "id": "s11-B1.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַיּוֹם",
+      "stimulusIsScript": true,
+      "statement": "To-day",
+      "answer": true,
+      "expected": "To-day",
+      "block": "s11",
+      "blockLabel": "Davidson §11",
+      "shape": "en-he",
+      "src": "s11-B1"
+    },
+    {
+      "id": "s11-B1.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַיּוֹם",
+      "stimulusIsScript": true,
+      "options": [
+        "The night and the day",
+        "To-day",
+        "The man and the woman",
+        "The night"
+      ],
+      "answer": "To-day",
+      "optionIsScript": false,
+      "block": "s11",
+      "blockLabel": "Davidson §11",
+      "shape": "en-he",
+      "src": "s11-B1"
+    },
+    {
+      "id": "s11-B1.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "To-day",
       "stimulusIsScript": false,
       "accepted": [
         "הַיּוֹם"
       ],
       "answerIsScript": true,
-      "id": "s11-B1",
       "block": "s11",
       "blockLabel": "Davidson §11",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §11 B 1; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n64/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n64.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n22/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n22.jpg",
-        "exwb": "davidson-s11#B1",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s11-B1"
     },
     {
+      "id": "s11-B1.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "To-day",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַיּוֹם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s11",
+      "blockLabel": "Davidson §11",
+      "shape": "en-he",
+      "src": "s11-B1"
+    },
+    {
+      "id": "s11-B2.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַבֹּקֶר",
+      "stimulusIsScript": true,
+      "statement": "A morning",
+      "answer": false,
+      "expected": "The morning",
+      "block": "s11",
+      "blockLabel": "Davidson §11",
+      "shape": "en-he",
+      "src": "s11-B2"
+    },
+    {
+      "id": "s11-B2.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַבֹּקֶר",
+      "stimulusIsScript": true,
+      "options": [
+        "The gold (is) good.",
+        "The morning",
+        "A morning",
+        "The night"
+      ],
+      "answer": "The morning",
+      "optionIsScript": false,
+      "block": "s11",
+      "blockLabel": "Davidson §11",
+      "shape": "en-he",
+      "src": "s11-B2"
+    },
+    {
+      "id": "s11-B2.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "The morning",
       "stimulusIsScript": false,
       "accepted": [
         "הַבֹּקֶר"
       ],
       "answerIsScript": true,
-      "id": "s11-B2",
       "block": "s11",
       "blockLabel": "Davidson §11",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §11 B 2; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n64/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n64.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n22/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n22.jpg",
-        "exwb": "davidson-s11#B2",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s11-B2"
     },
     {
+      "id": "s11-B2.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The morning",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַבֹּקֶר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s11",
+      "blockLabel": "Davidson §11",
+      "shape": "en-he",
+      "src": "s11-B2"
+    },
+    {
+      "id": "s11-B3.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַלָּיְלָה",
+      "stimulusIsScript": true,
+      "statement": "The night",
+      "answer": true,
+      "expected": "The night",
+      "block": "s11",
+      "blockLabel": "Davidson §11",
+      "shape": "en-he",
+      "src": "s11-B3"
+    },
+    {
+      "id": "s11-B3.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַלָּיְלָה",
+      "stimulusIsScript": true,
+      "options": [
+        "A night",
+        "The night",
+        "The darkness is great.",
+        "The man is good."
+      ],
+      "answer": "The night",
+      "optionIsScript": false,
+      "block": "s11",
+      "blockLabel": "Davidson §11",
+      "shape": "en-he",
+      "src": "s11-B3"
+    },
+    {
+      "id": "s11-B3.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "The night",
       "stimulusIsScript": false,
       "accepted": [
         "הַלָּיְלָה"
       ],
       "answerIsScript": true,
-      "id": "s11-B3",
       "block": "s11",
       "blockLabel": "Davidson §11",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §11 B 3; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n64/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n64.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n22/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n22.jpg",
-        "exwb": "davidson-s11#B3",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s11-B3"
     },
     {
+      "id": "s11-B3.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The night",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַלָּיְלָה",
+        "הַלַּיְלָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s11",
+      "blockLabel": "Davidson §11",
+      "shape": "en-he",
+      "src": "s11-B3"
+    },
+    {
+      "id": "s12-B1.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָעַיִן",
+      "stimulusIsScript": true,
+      "statement": "The eye",
+      "answer": true,
+      "expected": "The eye",
+      "block": "s12",
+      "blockLabel": "Davidson §12",
+      "shape": "en-he",
+      "src": "s12-B1"
+    },
+    {
+      "id": "s12-B1.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָעַיִן",
+      "stimulusIsScript": true,
+      "options": [
+        "The eye",
+        "The mountain is very lofty.",
+        "An eye",
+        "The dust is upon the waters."
+      ],
+      "answer": "The eye",
+      "optionIsScript": false,
+      "block": "s12",
+      "blockLabel": "Davidson §12",
+      "shape": "en-he",
+      "src": "s12-B1"
+    },
+    {
+      "id": "s12-B1.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "The eye",
       "stimulusIsScript": false,
       "accepted": [
         "הָעַיִן"
       ],
       "answerIsScript": true,
-      "id": "s12-B1",
       "block": "s12",
       "blockLabel": "Davidson §12",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §12 B 1; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n65/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n65.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n24/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n24.jpg",
-        "exwb": "davidson-s12#B1",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s12-B1"
     },
     {
+      "id": "s12-B1.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The eye",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָעַיִן"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s12",
+      "blockLabel": "Davidson §12",
+      "shape": "en-he",
+      "src": "s12-B1"
+    },
+    {
+      "id": "s12-B2.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַיָּד",
+      "stimulusIsScript": true,
+      "statement": "A hand",
+      "answer": false,
+      "expected": "The hand",
+      "block": "s12",
+      "blockLabel": "Davidson §12",
+      "shape": "en-he",
+      "src": "s12-B2"
+    },
+    {
+      "id": "s12-B2.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַיָּד",
+      "stimulusIsScript": true,
+      "options": [
+        "A hand",
+        "The people are very powerful.",
+        "The hand",
+        "The dust is upon the waters."
+      ],
+      "answer": "The hand",
+      "optionIsScript": false,
+      "block": "s12",
+      "blockLabel": "Davidson §12",
+      "shape": "en-he",
+      "src": "s12-B2"
+    },
+    {
+      "id": "s12-B2.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "The hand",
       "stimulusIsScript": false,
       "accepted": [
         "הַיָּד"
       ],
       "answerIsScript": true,
-      "id": "s12-B2",
       "block": "s12",
       "blockLabel": "Davidson §12",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §12 B 2; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n65/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n65.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n24/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n24.jpg",
-        "exwb": "davidson-s12#B2",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s12-B2"
     },
     {
+      "id": "s12-B2.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The hand",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַיָּד"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s12",
+      "blockLabel": "Davidson §12",
+      "shape": "en-he",
+      "src": "s12-B2"
+    },
+    {
+      "id": "s12-B7.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַחֶרֶב",
+      "stimulusIsScript": true,
+      "statement": "A sword",
+      "answer": false,
+      "expected": "The sword",
+      "block": "s12",
+      "blockLabel": "Davidson §12",
+      "shape": "en-he",
+      "src": "s12-B7"
+    },
+    {
+      "id": "s12-B7.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַחֶרֶב",
+      "stimulusIsScript": true,
+      "options": [
+        "The sword",
+        "The stone",
+        "A sword",
+        "The hand"
+      ],
+      "answer": "The sword",
+      "optionIsScript": false,
+      "block": "s12",
+      "blockLabel": "Davidson §12",
+      "shape": "en-he",
+      "src": "s12-B7"
+    },
+    {
+      "id": "s12-B7.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "The sword",
       "stimulusIsScript": false,
       "accepted": [
         "הַחֶרֶב"
       ],
       "answerIsScript": true,
-      "id": "s12-B7",
       "block": "s12",
       "blockLabel": "Davidson §12",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §12 B 7; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n65/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n65.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n24/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n24.jpg",
-        "exwb": "davidson-s12#B7",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s12-B7"
     },
     {
+      "id": "s12-B7.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The sword",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַחֶרֶב"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s12",
+      "blockLabel": "Davidson §12",
+      "shape": "en-he",
+      "src": "s12-B7"
+    },
+    {
+      "id": "s12-B16.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָאֶבֶן",
+      "stimulusIsScript": true,
+      "statement": "The stone",
+      "answer": true,
+      "expected": "The stone",
+      "block": "s12",
+      "blockLabel": "Davidson §12",
+      "shape": "en-he",
+      "src": "s12-B16"
+    },
+    {
+      "id": "s12-B16.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָאֶבֶן",
+      "stimulusIsScript": true,
+      "options": [
+        "The darkness is very great upon the earth and upon the waters.",
+        "A stone",
+        "The stone",
+        "The sword is on the dust."
+      ],
+      "answer": "The stone",
+      "optionIsScript": false,
+      "block": "s12",
+      "blockLabel": "Davidson §12",
+      "shape": "en-he",
+      "src": "s12-B16"
+    },
+    {
+      "id": "s12-B16.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "The stone",
       "stimulusIsScript": false,
       "accepted": [
@@ -150,123 +586,338 @@
         "הָאָבֶן"
       ],
       "answerIsScript": true,
-      "id": "s12-B16",
       "block": "s12",
       "blockLabel": "Davidson §12",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §12 B 16; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n65/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n65.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n24/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n24.jpg",
-        "exwb": "davidson-s12#B16",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s12-B16"
     },
     {
+      "id": "s12-B16.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The stone",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאֶבֶן",
+        "הָאָבֶן"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s12",
+      "blockLabel": "Davidson §12",
+      "shape": "en-he",
+      "src": "s12-B16"
+    },
+    {
+      "id": "s13-A8.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "יָשַׁב הַמֶּלֶךְ עַל־הֶעָפָר",
+      "stimulusIsScript": true,
+      "statement": "The king sat upon the dust.",
+      "answer": true,
+      "expected": "The king sat upon the dust.",
+      "block": "s13",
+      "blockLabel": "Davidson §13",
+      "shape": "he-en",
+      "src": "s13-A8"
+    },
+    {
+      "id": "s13-A8.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "יָשַׁב הַמֶּלֶךְ עַל־הֶעָפָר",
       "stimulusIsScript": true,
       "options": [
-        "This is the day which God made.",
         "The king sat upon the dust.",
-        "This mountain is very high.",
-        "God created the heavens and the earth."
+        "The king sat upon a dust.",
+        "The king sat from the dust.",
+        "The king sat to the dust."
       ],
       "answer": "The king sat upon the dust.",
       "optionIsScript": false,
-      "id": "s13-A8",
       "block": "s13",
       "blockLabel": "Davidson §13",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §13 A 8; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n69/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n69.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n25/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n25.jpg",
-        "exwb": "davidson-s13#A8",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s13-A8"
     },
     {
+      "id": "s13-A8.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The king sat upon the dust.",
+      "stimulus": "יָשַׁב ＿＿＿ עַל־הֶעָפָר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַמֶּלֶךְ"
+      ],
+      "answerIsScript": true,
+      "block": "s13",
+      "blockLabel": "Davidson §13",
+      "shape": "he-en",
+      "src": "s13-A8"
+    },
+    {
+      "id": "s13-A8.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "יָשַׁב הַמֶּלֶךְ עַל־הֶעָפָר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The king sat upon the dust."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s13",
+      "blockLabel": "Davidson §13",
+      "shape": "he-en",
+      "src": "s13-A8"
+    },
+    {
+      "id": "s13-A8.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The king sat upon the dust.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "יָשַׁב הַמֶּלֶךְ עַל־הֶעָפָר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s13",
+      "blockLabel": "Davidson §13",
+      "shape": "he-en",
+      "src": "s13-A8"
+    },
+    {
+      "id": "s16-A8b.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַיָּדַיִם",
+      "stimulusIsScript": true,
+      "statement": "The (two) hands",
+      "answer": true,
+      "expected": "The (two) hands",
+      "block": "s16",
+      "blockLabel": "Davidson §16",
+      "shape": "he-en",
+      "src": "s16-A8b"
+    },
+    {
+      "id": "s16-A8b.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "הַיָּדַיִם",
       "stimulusIsScript": true,
       "options": [
-        "The (two) hands",
-        "Those are the princes and the mighty men whom the king set over the people.",
-        "How high those palaces are!",
-        "These mountains are very high."
+        "Hands",
+        "I said to this people, righteous are ye.",
+        "Who (are) these princes and heroes?",
+        "The (two) hands"
       ],
       "answer": "The (two) hands",
       "optionIsScript": false,
-      "id": "s16-A8b",
       "block": "s16",
       "blockLabel": "Davidson §16",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §16 A 8b; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n76/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n76.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n31/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n31.jpg",
-        "exwb": "davidson-s16#A8b",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s16-A8b"
     },
     {
+      "id": "s16-A8b.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הַיָּדַיִם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The two hands",
+        "two hands"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s16",
+      "blockLabel": "Davidson §16",
+      "shape": "he-en",
+      "src": "s16-A8b"
+    },
+    {
+      "id": "s16-A8b.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The (two) hands",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַיָּדַיִם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s16",
+      "blockLabel": "Davidson §16",
+      "shape": "he-en",
+      "src": "s16-A8b"
+    },
+    {
+      "id": "s16-A8c.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "יַרְכָתַיִם",
+      "stimulusIsScript": true,
+      "statement": "I counted the stars which God has set in the heavens.",
+      "answer": false,
+      "expected": "(Two) sides",
+      "block": "s16",
+      "blockLabel": "Davidson §16",
+      "shape": "he-en",
+      "src": "s16-A8c"
+    },
+    {
+      "id": "s16-A8c.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "יַרְכָתַיִם",
       "stimulusIsScript": true,
       "options": [
         "(Two) sides",
-        "The ox did not drink of the water, for it was bitter.",
-        "How high those palaces are!",
-        "Yahweh remembers that we are dust."
+        "The just are as the stars which (are) in the firmament.",
+        "I counted the stars which God has set in the heavens.",
+        "Bread he ate and water he drank."
       ],
       "answer": "(Two) sides",
       "optionIsScript": false,
-      "id": "s16-A8c",
       "block": "s16",
       "blockLabel": "Davidson §16",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §16 A 8c; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n76/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n76.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n31/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n31.jpg",
-        "exwb": "davidson-s16#A8c",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s16-A8c"
     },
     {
+      "id": "s16-A8c.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into English",
+      "stimulus": "יַרְכָתַיִם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Two sides"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s16",
+      "blockLabel": "Davidson §16",
+      "shape": "he-en",
+      "src": "s16-A8c"
+    },
+    {
+      "id": "s16-A8c.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "(Two) sides",
+      "stimulusIsScript": false,
+      "accepted": [
+        "יַרְכָתַיִם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s16",
+      "blockLabel": "Davidson §16",
+      "shape": "he-en",
+      "src": "s16-A8c"
+    },
+    {
+      "id": "s16-B11.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַיַּרְכָתָיִם",
+      "stimulusIsScript": true,
+      "statement": "The two-sides",
+      "answer": true,
+      "expected": "The two-sides",
+      "block": "s16",
+      "blockLabel": "Davidson §16",
+      "shape": "en-he",
+      "src": "s16-B11"
+    },
+    {
+      "id": "s16-B11.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַיַּרְכָתָיִם",
+      "stimulusIsScript": true,
+      "options": [
+        "A two-sides",
+        "These waters (are) bitter.",
+        "The two-sides",
+        "We heard the wolves in the evening."
+      ],
+      "answer": "The two-sides",
+      "optionIsScript": false,
+      "block": "s16",
+      "blockLabel": "Davidson §16",
+      "shape": "en-he",
+      "src": "s16-B11"
+    },
+    {
+      "id": "s16-B11.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "The two-sides",
       "stimulusIsScript": false,
       "accepted": [
         "הַיַּרְכָתָיִם"
       ],
       "answerIsScript": true,
-      "id": "s16-B11",
       "block": "s16",
       "blockLabel": "Davidson §16",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §16 B 11; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n76/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n76.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n31/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n31.jpg",
-        "exwb": "davidson-s16#B11",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s16-B11"
+    },
+    {
+      "id": "s16-B11.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The two-sides",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַיַּרְכָתָיִם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s16",
+      "blockLabel": "Davidson §16",
+      "shape": "en-he",
+      "src": "s16-B11"
     }
   ]
 }

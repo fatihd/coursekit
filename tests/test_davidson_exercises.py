@@ -16,12 +16,20 @@ UNIT_MAP = Path("build/_sources/davidson/exwb-units.json")
 GRAMMAR = Path("build/_sources/davidson/grammar-units.json")
 TAGS = Path("build/_sources/davidson/sentence-grammar.json")
 AUTHORED = COURSE / "authored"
+RUNG_KEYS = {"tf", "choice", "fill", "translate", "pointed", "parse", "form", "point"}
+
+
+def items_of(path):
+    """A unit file's items with each item's source resolved from the file's `sources`."""
+    data = json.loads(path.read_text(encoding="utf-8"))
+    sources = data.get("sources", {})
+    return [{**it, "source": sources.get(it.get("src"), it.get("source", {}))} for it in data["items"]]
 
 
 class DavidsonExercisesTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.files = sorted(AUTHORED.glob("*.json"))
+        cls.files = sorted(AUTHORED.glob("[0-9][0-9].json"))
 
     def test_has_recovered_exercises(self):
         self.assertGreater(len(self.files), 10)
@@ -35,8 +43,7 @@ class DavidsonExercisesTests(unittest.TestCase):
         }
         refs = []
         for path in self.files:
-            for item in json.loads(path.read_text(encoding="utf-8"))["items"]:
-                refs.append(item["source"]["exwb"])
+            refs += [s["exwb"] for s in json.loads(path.read_text(encoding="utf-8"))["sources"].values()]
         self.assertEqual(len(refs), len(set(refs)))
         self.assertEqual(len(refs), sum(n for stem, n in curated.items() if stem not in held))
         self.assertFalse({r.split("#")[0] for r in refs} & held)
@@ -53,8 +60,7 @@ class DavidsonExercisesTests(unittest.TestCase):
 
     def test_each_item_has_scan_provenance(self):
         for path in self.files:
-            data = json.loads(path.read_text(encoding="utf-8"))
-            for item in data["items"]:
+            for item in items_of(path):
                 with self.subTest(file=path.name):
                     source = item.get("source", {})
                     self.assertIn("promptUrl", source)
@@ -66,17 +72,23 @@ class DavidsonExercisesTests(unittest.TestCase):
 
     def test_items_use_supported_pairing_types(self):
         for path in self.files:
-            data = json.loads(path.read_text(encoding="utf-8"))
-            for item in data["items"]:
+            for item in items_of(path):
                 with self.subTest(file=path.name):
                     self.assertIn(
                         item["type"],
-                        ("translate-phrase", "mcq", "translit-normalize", "parse-form"),
+                        ("translate-phrase", "mcq", "translit-normalize", "parse-form", "true-false"),
                     )
+                    self.assertIn(item["id"].rsplit(".", 1)[1], RUNG_KEYS)
+                    self.assertIn(item["rung"], range(1, 6))
                     if item["type"] == "translate-phrase":
                         self.assertTrue(item["accepted"])
+                    elif item["type"] == "true-false":
+                        self.assertIsInstance(item["answer"], bool)
+                        self.assertTrue(item["statement"])
                     elif item["type"] == "mcq":
                         self.assertGreaterEqual(len(item["options"]), 2)
+                        self.assertIn(item["answer"], item["options"])
+                        self.assertEqual(len(item["options"]), len(set(item["options"])))
                     elif item["type"] == "parse-form":
                         self.assertTrue(item["readings"])
                         options = {f["key"]: f["options"] for f in item["fields"]}
@@ -86,6 +98,25 @@ class DavidsonExercisesTests(unittest.TestCase):
                     else:
                         self.assertTrue(item["answer"])
 
+    def test_every_sentence_has_the_ladder(self):
+        rungs = {}
+        for path in self.files:
+            for item in items_of(path):
+                if item["shape"] in ("en-he", "he-en"):
+                    rungs.setdefault(item["src"], set()).add(item["rung"])
+        for src, got in rungs.items():
+            with self.subTest(sentence=src):
+                self.assertTrue({1, 2, 4} <= got, sorted(got))
+
+    def test_ladder_index_matches_the_units(self):
+        index = json.loads((AUTHORED / "ladder.json").read_text(encoding="utf-8"))["units"]
+        for path in self.files:
+            counts = {}
+            for item in items_of(path):
+                counts[str(item["rung"])] = counts.get(str(item["rung"]), 0) + 1
+            with self.subTest(file=path.name):
+                self.assertEqual(index[str(int(path.stem))], dict(sorted(counts.items())))
+
     def test_items_sit_in_their_unit(self):
         """Sentences sit in the first unit that teaches all their grammar; other items in their block's unit."""
         blocks = json.loads(UNIT_MAP.read_text(encoding="utf-8"))["blocks"]
@@ -94,7 +125,7 @@ class DavidsonExercisesTests(unittest.TestCase):
         tags = json.loads(TAGS.read_text(encoding="utf-8"))["sentences"]
         for path in self.files:
             unit = int(path.stem)
-            for item in json.loads(path.read_text(encoding="utf-8"))["items"]:
+            for item in items_of(path):
                 ref = item["source"]["exwb"]
                 with self.subTest(file=path.name, item=ref):
                     if item["shape"] in ("en-he", "he-en"):
@@ -106,7 +137,7 @@ class DavidsonExercisesTests(unittest.TestCase):
     def test_sentences_start_early_and_none_wait_for_the_review_units(self):
         placed = {}
         for path in self.files:
-            for item in json.loads(path.read_text(encoding="utf-8"))["items"]:
+            for item in items_of(path):
                 if item["shape"] in ("en-he", "he-en"):
                     placed[item["source"]["exwb"]] = int(path.stem)
         grammar = json.loads(GRAMMAR.read_text(encoding="utf-8"))
@@ -220,8 +251,7 @@ class DavidsonExercisesTests(unittest.TestCase):
         import re
 
         for path in self.files:
-            data = json.loads(path.read_text(encoding="utf-8"))
-            for item in data["items"]:
+            for item in items_of(path):
                 answer_leaf = re.search(r"/page/n(\d+)/", item["source"]["answerUrl"])
                 prompt_leaf = re.search(r"/page/n(\d+)/", item["source"]["promptUrl"])
                 with self.subTest(file=path.name, stimulus=item["stimulus"]):

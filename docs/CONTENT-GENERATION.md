@@ -115,7 +115,7 @@ hand-checked exwb transcriptions (`exwb/curated/`, 40 blocks / 1,138 items; held
 into `authored/` + `exercises/` for 34 units, placed by `build/_sources/davidson/exwb-units.json`
 (a block goes to the unit teaching its topic, moved later when its sentences need later
 grammar: §47–§49 land in units 50/55 though comparison, numerals and particles are taught in
-units 14/19/20). Shapes: 427 typed English→Hebrew, 442 Hebrew→English choice, 181 parse choice,
+units 14/19/20). Shapes: 427 English→Hebrew, 442 Hebrew→English (each now a five-rung ladder, below), 181 parse,
 43 pointing corrections, 45 "give the form" choice; item format in `docs/DATA-MODEL.md` §4.
 **One topic per unit (2026-11-11, P12-T6).** The Davidson course has 79 units, each on a single topic; Davidson
 sections that had no unit (§4, §9, §24, §32) now have one. Unit numbers appear in `units.json`, `course.json`,
@@ -125,8 +125,20 @@ sections that had no unit (§4, §9, §24, §32) now have one. Unit numbers appe
 (`build/_sources/davidson/sentence-grammar.json`, ids from `grammar-units.json`) and placed in the first unit that
 teaches all of it (floor: unit 13); parse, form and pointing items stay in their block's unit.
 
-*(2026-11-11, ADR-022: Hebrew→English choice, block-level placement and random sampling are being replaced by
-typed translation, per-sentence placement and the exercise ladder; a later offline authoring pass expands the corpus into static course data.)*
+**Exercise ladder (2026-11-11, P12-T2/T3/T4).** `build/davidson_ladder.py` (called by `exwb_to_authored.py`)
+turns each of the 869 sentences into five items (true/false, choose, fill in, translate, translate with vowel
+points; 4,510 items with the parse/form/pointing questions). Wrong options and false statements are the Key's
+English with one point changed (possessive, article, this/that, preposition group, "not", subject/object
+pronoun); if fewer than three such changes exist, other sentences of the same Davidson section fill in. Typed
+English is graded against variants of the Key's English: bracketed supplied words optional ("The light (is)
+good"), grammar notes like "(fem.)" dropped, a one-word alternative in brackets may replace the word before it,
+archaic forms modernized (thou hast → you have; -eth/-est via the system word list). The pointed rung also
+accepts the contextual form of a pausal last word when that form occurs mid-sentence elsewhere and differs only
+in the lengthened vowel (qamets for patah/segol, never on the first letter). Unit files store each sentence's
+source once (`sources`, items point by `src`); `authored/ladder.json` counts items per rung.
+
+*(2026-11-11, ADR-022: Hebrew→English is now typed (rung 4), English→Hebrew is graded with pointing at rung 5,
+and sessions climb the ladder instead of sampling 10; a later offline authoring pass expands the corpus.)*
 
 **Vocabulary layout (2026-11-10, P9-T12).** `build/rebalance_vocab.py --course courses/biblical-hebrew-davidson
 --layout build/_sources/davidson/vocab-layout.json` sets the unit of every word: units 9–56 get about the same

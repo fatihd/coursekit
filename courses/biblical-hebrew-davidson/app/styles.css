@@ -107,3 +107,22 @@ button, input, select { font: inherit; }
 .blocks-label { flex: 1 1 10rem; }
 .blocks-count { color: var(--muted); font-size: 0.9rem; }
 .blocks-practice { color: var(--accent); }
+.ex-statement { margin: 0.75rem 0; padding: 0.6rem 0.8rem; border-left: 3px solid var(--accent); background: rgba(127, 127, 127, 0.08); font-size: 1.05rem; }
+.ex-options--tf { grid-template-columns: repeat(2, minmax(6rem, 10rem)); }
+.ex-pointing { margin: 0.75rem 0 0; font-size: 0.95rem; }
+.ex-pointing-label { color: var(--muted, #6b6b6b); }
+.ex-pointing-words { font-size: 1.5rem; }
+.pt-word--no { text-decoration: underline wavy #c0392b 1px; text-underline-offset: 0.35em; }
+.pt-no { color: #c0392b; font-weight: 700; }
+.drill-selfcheck { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 0.75rem; grid-column: 1 / -1; }
+.drill-selfcheck-text, .drill-selfcheck-key { flex-basis: 100%; margin: 0; }
+.drill-selfcheck-key { font-weight: 700; }
+.ladder { margin: 2rem 0 0; }
+.ladder-note { margin: 0 0 0.5rem; color: var(--muted, #6b6b6b); font-size: 0.9rem; }
+.ladder-list { list-style: none; margin: 0; padding: 0; }
+.ladder-row { display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem; padding: 0.4rem 0; border-bottom: 1px solid #ece6db; }
+.ladder-row .blocks-label { flex: 1 1 12rem; }
+.ladder-bar { flex: 0 0 8rem; height: 0.5rem; border-radius: 999px; background: #ece6db; overflow: hidden; }
+.ladder-fill { display: block; height: 100%; background: var(--accent); }
+.ladder-row--done .blocks-label::after { content: " ✓"; color: var(--accent); }
+.unit-stars { display: block; margin-top: 0.25rem; font-size: 0.8rem; letter-spacing: 0.1em; color: #c9a227; }

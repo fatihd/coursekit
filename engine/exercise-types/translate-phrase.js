@@ -1,5 +1,22 @@
 import { el, scriptSpan } from "../dom.js";
-import { normalize, normalizeHebrew, shuffle } from "./util.js";
+import {
+  hasPoints, normalize, normalizeEnglish, normalizeHebrew, pointedForm, pointingDiff, shuffle,
+} from "./util.js";
+
+function bestExpected(item, answer) {
+  const mine = pointedForm(answer).split(" ");
+  let best = item.accepted[0];
+  let bestScore = -1;
+  for (const acc of item.accepted) {
+    const theirs = pointedForm(acc).split(" ");
+    const score = mine.filter((w, i) => w === theirs[i]).length - Math.abs(mine.length - theirs.length);
+    if (score > bestScore) {
+      best = acc;
+      bestScore = score;
+    }
+  }
+  return best;
+}
 
 export default {
   id: "translate-phrase",
@@ -46,13 +63,41 @@ export default {
   },
 
   grade(item, answer) {
+    if (item.answerIsScript && item.pointing === "required") {
+      const a = pointedForm(answer);
+      const correct = item.accepted.some((acc) => pointedForm(acc) === a);
+      const expected = correct ? item.accepted[0] : bestExpected(item, answer);
+      const message = hasPoints(answer) ? null : "Vowel points are required here.";
+      return { correct, expected, message };
+    }
     if (item.answerIsScript) {
       const a = normalizeHebrew(answer);
       const correct = item.accepted.some((acc) => normalizeHebrew(acc) === a);
       return { correct, expected: item.accepted[0] };
     }
+    if (item.selfCheck) {
+      const a = normalizeEnglish(answer);
+      const correct = item.accepted.some((acc) => normalizeEnglish(acc) === a);
+      return { correct, expected: item.accepted[0], selfCheck: !correct };
+    }
     const a = normalize(answer);
     const correct = item.accepted.some((acc) => normalize(acc) === a);
     return { correct, expected: item.accepted.join(" / ") };
+  },
+
+  annotate(node, item, answer, result) {
+    if (!(item.answerIsScript && item.pointing === "required") || result.correct) return;
+    const box = el("div", "ex-pointing");
+    box.appendChild(el("span", "ex-pointing-label", "Your pointing: "));
+    const line = el("span", "ex-pointing-words script");
+    line.dir = "rtl";
+    pointingDiff(answer, result.expected).forEach((w, i) => {
+      if (i) line.appendChild(document.createTextNode(" "));
+      const word = el("span", w.ok ? "pt-word" : "pt-word pt-word--no");
+      for (const c of w.clusters) word.appendChild(el("span", c.ok ? "pt-ok" : "pt-no", c.text));
+      line.appendChild(word);
+    });
+    box.appendChild(line);
+    node.appendChild(box);
   },
 };

@@ -76,10 +76,10 @@ export function renderLesson(root, ctx, unit, lesson) {
   }
 
   if (ctx.features && ctx.features.reviewWarmup && ctx.progress) {
-    const weak = weakUnits(ctx.progress, unit.n, 3);
+    const weak = ctx.warmup || weakUnits(ctx.progress, unit.n, 3);
     if (weak.length) {
       const warmup = el("div", "warmup");
-      warmup.appendChild(el("p", "warmup-label", "Warm up — review earlier units before starting this one:"));
+      warmup.appendChild(el("p", "warmup-label", "Warm up — earlier units you have not practised yet or got least right:"));
       for (const n of weak) {
         const btn = el("button", "warmup-unit", `Review Unit ${n}`);
         btn.addEventListener("click", () => ctx.navigate("drill", n));
@@ -113,9 +113,35 @@ export function renderLesson(root, ctx, unit, lesson) {
     }
   }
 
+  if (ctx.ladder && ctx.ladder.length) {
+    const box = el("section", "ladder");
+    box.appendChild(el("h2", "blocks-title", "Exercise ladder"));
+    if (ctx.unlockRung) {
+      box.appendChild(el("p", "ladder-note", `Get every exercise right once on rungs 1–${ctx.unlockRung} to unlock the next unit; the higher rungs earn its stars.`));
+    }
+    const list = el("ol", "ladder-list");
+    for (const r of ctx.ladder) {
+      const row = el("li", r.done >= r.total ? "ladder-row ladder-row--done" : "ladder-row");
+      row.dataset.rung = r.rung;
+      row.appendChild(el("span", "blocks-label", `${r.rung}. ${r.label}`));
+      const bar = el("span", "ladder-bar");
+      const fill = el("span", "ladder-fill");
+      fill.style.width = `${Math.round((100 * r.done) / Math.max(1, r.total))}%`;
+      bar.appendChild(fill);
+      row.appendChild(bar);
+      row.appendChild(el("span", "blocks-count", `${r.done} / ${r.total}`));
+      const practice = el("a", "blocks-practice", "Practice");
+      practice.href = r.href;
+      row.appendChild(practice);
+      list.appendChild(row);
+    }
+    box.appendChild(list);
+    root.appendChild(box);
+  }
+
   if (ctx.blocks && ctx.blocks.length) {
     const box = el("section", "blocks");
-    box.appendChild(el("h2", "blocks-title", "Exercises in this unit"));
+    box.appendChild(el("h2", "blocks-title", "Exercises by Davidson section"));
     const list = el("ul", "blocks-list");
     for (const b of ctx.blocks) {
       const row = el("li", "blocks-row");

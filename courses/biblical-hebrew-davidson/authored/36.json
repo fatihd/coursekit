@@ -1,233 +1,899 @@
 {
   "schema": "authored-exercises-v1.json",
   "unit": 36,
+  "sources": {
+    "s18-D11": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 D 11; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
+      "exwb": "davidson-s18#D11",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s19-A7": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §19 A 7; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n89/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n89.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n42/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n42.jpg",
+      "exwb": "davidson-s19#A7",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s21-B6": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 B 6; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
+      "exwb": "davidson-s21#B6",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s21-B9": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 B 9; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
+      "exwb": "davidson-s21#B9",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s21-B12": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 B 12; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
+      "exwb": "davidson-s21#B12",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s21-C6": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 C 6; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
+      "exwb": "davidson-s21#C6",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s21-C12": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 C 12; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
+      "exwb": "davidson-s21#C12",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s30-B1": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §30 B 1; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n125/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n125.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n72/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n72.jpg",
+      "exwb": "davidson-s30#B1",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s46-B13": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §46 B 13; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n179/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n179.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n134/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n134.jpg",
+      "exwb": "davidson-s46#B13",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    }
+  },
   "items": [
     {
+      "id": "s18-D11.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "בְּרוּכִים יִשְׁרֵי לֵב",
+      "stimulusIsScript": true,
+      "statement": "Blessed (are) an upright of heart.",
+      "answer": false,
+      "expected": "Blessed (are) the upright of heart.",
+      "block": "s18",
+      "blockLabel": "Davidson §18",
+      "shape": "en-he",
+      "src": "s18-D11"
+    },
+    {
+      "id": "s18-D11.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "בְּרוּכִים יִשְׁרֵי לֵב",
+      "stimulusIsScript": true,
+      "options": [
+        "The prophet wrote all the words in a book.",
+        "The word of Yahweh came to the prophets.",
+        "Blessed (are) an upright of heart.",
+        "Blessed (are) the upright of heart."
+      ],
+      "answer": "Blessed (are) the upright of heart.",
+      "optionIsScript": false,
+      "block": "s18",
+      "blockLabel": "Davidson §18",
+      "shape": "en-he",
+      "src": "s18-D11"
+    },
+    {
+      "id": "s18-D11.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Fill in the missing word: Blessed (are) the upright of heart.",
+      "stimulus": "בְּרוּכִים יִשְׁרֵי ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "לֵב"
+      ],
+      "answerIsScript": true,
+      "block": "s18",
+      "blockLabel": "Davidson §18",
+      "shape": "en-he",
+      "src": "s18-D11"
+    },
+    {
+      "id": "s18-D11.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "Blessed (are) the upright of heart.",
       "stimulusIsScript": false,
       "accepted": [
         "בְּרוּכִים יִשְׁרֵי לֵב"
       ],
       "answerIsScript": true,
-      "id": "s18-D11",
       "block": "s18",
       "blockLabel": "Davidson §18",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §18 D 11; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n84/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n84.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n36/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
-        "exwb": "davidson-s18#D11",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s18-D11"
     },
     {
+      "id": "s18-D11.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Blessed (are) the upright of heart.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בְּרוּכִים יִשְׁרֵי לֵב"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s18",
+      "blockLabel": "Davidson §18",
+      "shape": "en-he",
+      "src": "s18-D11"
+    },
+    {
+      "id": "s19-A7.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "מָה רַב טוּבְךָ אֲשֶׁר צָפַנְתָּ לִירֵאֶיךָ פָּעַלְתָּ לַבֹּטְחִים בָּךְ נֶגֶד בְּנֵי אָדָם",
+      "stimulusIsScript": true,
+      "statement": "How abundant is thy goodness, which thou hast treasured up for them that fear thee, (which) thou hast wrought for them that trust in thee, in the sight of the children of men.",
+      "answer": true,
+      "expected": "How abundant is thy goodness, which thou hast treasured up for them that fear thee, (which) thou hast wrought for them that trust in thee, in the sight of the children of men.",
+      "block": "s19",
+      "blockLabel": "Davidson §19",
+      "shape": "he-en",
+      "src": "s19-A7"
+    },
+    {
+      "id": "s19-A7.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "מָה רַב טוּבְךָ אֲשֶׁר צָפַנְתָּ לִירֵאֶיךָ פָּעַלְתָּ לַבֹּטְחִים בָּךְ נֶגֶד בְּנֵי אָדָם",
       "stimulusIsScript": true,
       "options": [
+        "How abundant is thy goodness, which thou hast treasured up for them that fear thee, (which) thou hast wrought for them that trust in thee, in the sight of a children of men.",
+        "How abundant is thy goodness, which thou hast treasured up for them this fear thee, (which) thou hast wrought for them that trust in thee, in the sight of the children of men.",
         "How abundant is thy goodness, which thou hast treasured up for them that fear thee, (which) thou hast wrought for them that trust in thee, in the sight of the children of men.",
-        "our sons",
-        "His law",
-        "my hands"
+        "How abundant is your goodness, which thou hast treasured up for them that fear thee, (which) thou hast wrought for them that trust in thee, in the sight of the children of men."
       ],
       "answer": "How abundant is thy goodness, which thou hast treasured up for them that fear thee, (which) thou hast wrought for them that trust in thee, in the sight of the children of men.",
       "optionIsScript": false,
-      "id": "s19-A7",
       "block": "s19",
       "blockLabel": "Davidson §19",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §19 A 7; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n89/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n89.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n42/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n42.jpg",
-        "exwb": "davidson-s19#A7",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s19-A7"
     },
     {
+      "id": "s19-A7.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: How abundant is thy goodness, which thou hast treasured up for them that fear thee, (which) thou hast wrought for them that trust in thee, in the sight of the children of men.",
+      "stimulus": "מָה רַב טוּבְךָ אֲשֶׁר צָפַנְתָּ ＿＿＿ פָּעַלְתָּ לַבֹּטְחִים בָּךְ נֶגֶד בְּנֵי אָדָם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "לִירֵאֶיךָ"
+      ],
+      "answerIsScript": true,
+      "block": "s19",
+      "blockLabel": "Davidson §19",
+      "shape": "he-en",
+      "src": "s19-A7"
+    },
+    {
+      "id": "s19-A7.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "מָה רַב טוּבְךָ אֲשֶׁר צָפַנְתָּ לִירֵאֶיךָ פָּעַלְתָּ לַבֹּטְחִים בָּךְ נֶגֶד בְּנֵי אָדָם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "How abundant is thy goodness, which thou hast treasured up for them that fear thee, which thou hast wrought for them that trust in thee, in the sight of the children of men.",
+        "How abundant is your goodness, which you have treasured up for them that fear you, which you have wrought for them that trust in you, in the sight of the children of men.",
+        "How abundant is thy goodness, which thou hast treasured up for them that fear thee, thou hast wrought for them that trust in thee, in the sight of the children of men.",
+        "How abundant is your goodness, which you have treasured up for them that fear you, you have wrought for them that trust in you, in the sight of the children of men."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s19",
+      "blockLabel": "Davidson §19",
+      "shape": "he-en",
+      "src": "s19-A7"
+    },
+    {
+      "id": "s19-A7.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "How abundant is thy goodness, which thou hast treasured up for them that fear thee, (which) thou hast wrought for them that trust in thee, in the sight of the children of men.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מָה רַב טוּבְךָ אֲשֶׁר צָפַנְתָּ לִירֵאֶיךָ פָּעַלְתָּ לַבֹּטְחִים בָּךְ נֶגֶד בְּנֵי אָדָם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s19",
+      "blockLabel": "Davidson §19",
+      "shape": "he-en",
+      "src": "s19-A7"
+    },
+    {
+      "id": "s21-B6.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "מֹשְׁלֵי הָעָם הַזֶּה",
+      "stimulusIsScript": true,
+      "statement": "The rulers of that people",
+      "answer": false,
+      "expected": "The rulers of this people",
+      "block": "s21",
+      "blockLabel": "Davidson §21",
+      "shape": "he-en",
+      "src": "s21-B6"
+    },
+    {
+      "id": "s21-B6.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "מֹשְׁלֵי הָעָם הַזֶּה",
       "stimulusIsScript": true,
       "options": [
-        "Now Deborah, a prophetess, was judging Israel at that time, and she used to sit under Deborah's palm in the hill-country of Ephraim.",
-        "Ye shall not observe their judgments.",
         "The rulers of this people",
-        "Who shall dwell on the mount of Yahweh? One who walks perfectly, and works righteousness, and speaks truth in his heart."
+        "The rulers of that people",
+        "Rulers of this people",
+        "God said to Abimelech in a dream of the night, Behold, thou art a dead man because of the woman whom thou hast taken, for she is a married woman."
       ],
       "answer": "The rulers of this people",
       "optionIsScript": false,
-      "id": "s21-B6",
       "block": "s21",
       "blockLabel": "Davidson §21",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 B 6; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
-        "exwb": "davidson-s21#B6",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s21-B6"
     },
     {
+      "id": "s21-B6.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The rulers of this people",
+      "stimulus": "מֹשְׁלֵי הָעָם ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַזֶּה"
+      ],
+      "answerIsScript": true,
+      "block": "s21",
+      "blockLabel": "Davidson §21",
+      "shape": "he-en",
+      "src": "s21-B6"
+    },
+    {
+      "id": "s21-B6.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "מֹשְׁלֵי הָעָם הַזֶּה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The rulers of this people"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s21",
+      "blockLabel": "Davidson §21",
+      "shape": "he-en",
+      "src": "s21-B6"
+    },
+    {
+      "id": "s21-B6.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The rulers of this people",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מֹשְׁלֵי הָעָם הַזֶּה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s21",
+      "blockLabel": "Davidson §21",
+      "shape": "he-en",
+      "src": "s21-B6"
+    },
+    {
+      "id": "s21-B9.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "קָבְרוּ אֶת־נִבְלַת הַנָּבִיא הַזָּקֵן בַּקֶּבֶר אֲשֶׁר אִישׁ הָאֱלֹהִים קָבוּר שָׁם",
+      "stimulusIsScript": true,
+      "statement": "They buried the corpse of the aged prophet in the grave where the man of God was buried.",
+      "answer": true,
+      "expected": "They buried the corpse of the aged prophet in the grave where the man of God was buried.",
+      "block": "s21",
+      "blockLabel": "Davidson §21",
+      "shape": "he-en",
+      "src": "s21-B9"
+    },
+    {
+      "id": "s21-B9.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "קָבְרוּ אֶת־נִבְלַת הַנָּבִיא הַזָּקֵן בַּקֶּבֶר אֲשֶׁר אִישׁ הָאֱלֹהִים קָבוּר שָׁם",
       "stimulusIsScript": true,
       "options": [
-        "They buried the corpse of the aged prophet in the grave where the man of God was buried.",
-        "The sons of Jacob went down to Egypt to buy food.",
-        "God said to Abimelech in a dream of the night, Behold, thou art a dead man because of the woman whom thou hast taken, for she is a married woman.",
-        "And now gather to me all Israel to mount Carmel and the prophets of the Ba'al four hundred, that eat at Jezebel's table."
+        "They buried the corpse of the aged prophet to the grave where the man of God was buried.",
+        "They buried the corpse of the aged prophet in a grave where the man of God was buried.",
+        "We buried the corpse of the aged prophet in the grave where the man of God was buried.",
+        "They buried the corpse of the aged prophet in the grave where the man of God was buried."
       ],
       "answer": "They buried the corpse of the aged prophet in the grave where the man of God was buried.",
       "optionIsScript": false,
-      "id": "s21-B9",
       "block": "s21",
       "blockLabel": "Davidson §21",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 B 9; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
-        "exwb": "davidson-s21#B9",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s21-B9"
     },
     {
+      "id": "s21-B9.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: They buried the corpse of the aged prophet in the grave where the man of God was buried.",
+      "stimulus": "קָבְרוּ ＿＿＿ הַנָּבִיא הַזָּקֵן בַּקֶּבֶר אֲשֶׁר אִישׁ הָאֱלֹהִים קָבוּר שָׁם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶת־נִבְלַת"
+      ],
+      "answerIsScript": true,
+      "block": "s21",
+      "blockLabel": "Davidson §21",
+      "shape": "he-en",
+      "src": "s21-B9"
+    },
+    {
+      "id": "s21-B9.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "קָבְרוּ אֶת־נִבְלַת הַנָּבִיא הַזָּקֵן בַּקֶּבֶר אֲשֶׁר אִישׁ הָאֱלֹהִים קָבוּר שָׁם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "They buried the corpse of the aged prophet in the grave where the man of God was buried."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s21",
+      "blockLabel": "Davidson §21",
+      "shape": "he-en",
+      "src": "s21-B9"
+    },
+    {
+      "id": "s21-B9.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "They buried the corpse of the aged prophet in the grave where the man of God was buried.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "קָבְרוּ אֶת־נִבְלַת הַנָּבִיא הַזָּקֵן בַּקֶּבֶר אֲשֶׁר אִישׁ הָאֱלֹהִים קָבוּר שָׁם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s21",
+      "blockLabel": "Davidson §21",
+      "shape": "he-en",
+      "src": "s21-B9"
+    },
+    {
+      "id": "s21-B12.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וּדְבוֹרָה אִשָּׁה נְבִיאָה הִיא שֹׁפְטָה אֶת־יִשְׂרָאֵל בָּעֵת הַהִיא וְהִיא יוֹשֶׁבֶת תַּחַת־תֹּמֶר דְּבוֹרָה בְּהַר אֶפְרָיִם",
+      "stimulusIsScript": true,
+      "statement": "Now Deborah, the prophetess, was judging Israel at that time, and she used to sit under Deborah's palm in the hill-country of Ephraim.",
+      "answer": false,
+      "expected": "Now Deborah, a prophetess, was judging Israel at that time, and she used to sit under Deborah's palm in the hill-country of Ephraim.",
+      "block": "s21",
+      "blockLabel": "Davidson §21",
+      "shape": "he-en",
+      "src": "s21-B12"
+    },
+    {
+      "id": "s21-B12.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "וּדְבוֹרָה אִשָּׁה נְבִיאָה הִיא שֹׁפְטָה אֶת־יִשְׂרָאֵל בָּעֵת הַהִיא וְהִיא יוֹשֶׁבֶת תַּחַת־תֹּמֶר דְּבוֹרָה בְּהַר אֶפְרָיִם",
       "stimulusIsScript": true,
       "options": [
-        "The rulers of this people",
-        "Ye shall not observe their judgments.",
-        "God said to Abimelech in a dream of the night, Behold, thou art a dead man because of the woman whom thou hast taken, for she is a married woman.",
-        "Now Deborah, a prophetess, was judging Israel at that time, and she used to sit under Deborah's palm in the hill-country of Ephraim."
+        "Now Deborah, a prophetess, was judging Israel at that time, and she used to sit under Deborah's palm in the hill-country of Ephraim.",
+        "Now Deborah, a prophetess, was judging Israel at that time, and she used to sit under Deborah's palm from the hill-country of Ephraim.",
+        "Now Deborah, a prophetess, was judging Israel at this time, and she used to sit under Deborah's palm in the hill-country of Ephraim.",
+        "Now Deborah, the prophetess, was judging Israel at that time, and she used to sit under Deborah's palm in the hill-country of Ephraim."
       ],
       "answer": "Now Deborah, a prophetess, was judging Israel at that time, and she used to sit under Deborah's palm in the hill-country of Ephraim.",
       "optionIsScript": false,
-      "id": "s21-B12",
       "block": "s21",
       "blockLabel": "Davidson §21",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 B 12; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
-        "exwb": "davidson-s21#B12",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s21-B12"
     },
     {
+      "id": "s21-B12.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Fill in the missing word: Now Deborah, a prophetess, was judging Israel at that time, and she used to sit under Deborah's palm in the hill-country of Ephraim.",
+      "stimulus": "＿＿＿ אִשָּׁה נְבִיאָה הִיא שֹׁפְטָה אֶת־יִשְׂרָאֵל בָּעֵת הַהִיא וְהִיא יוֹשֶׁבֶת תַּחַת־תֹּמֶר דְּבוֹרָה בְּהַר אֶפְרָיִם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וּדְבוֹרָה"
+      ],
+      "answerIsScript": true,
+      "block": "s21",
+      "blockLabel": "Davidson §21",
+      "shape": "he-en",
+      "src": "s21-B12"
+    },
+    {
+      "id": "s21-B12.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וּדְבוֹרָה אִשָּׁה נְבִיאָה הִיא שֹׁפְטָה אֶת־יִשְׂרָאֵל בָּעֵת הַהִיא וְהִיא יוֹשֶׁבֶת תַּחַת־תֹּמֶר דְּבוֹרָה בְּהַר אֶפְרָיִם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Now Deborah, a prophetess, was judging Israel at that time, and she used to sit under Deborah's palm in the hill-country of Ephraim."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s21",
+      "blockLabel": "Davidson §21",
+      "shape": "he-en",
+      "src": "s21-B12"
+    },
+    {
+      "id": "s21-B12.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Now Deborah, a prophetess, was judging Israel at that time, and she used to sit under Deborah's palm in the hill-country of Ephraim.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וּדְבוֹרָה אִשָּׁה נְבִיאָה הִיא שֹׁפְטָה אֶת־יִשְׂרָאֵל בָּעֵת הַהִיא וְהִיא יוֹשֶׁבֶת תַּחַת־תֹּמֶר דְּבוֹרָה בְּהַר אֶפְרָיִם",
+        "וּדְבוֹרָה אִשָּׁה נְבִיאָה הִיא שֹׁפְטָה אֶת־יִשְׂרָאֵל בָּעֵת הַהִיא וְהִיא יוֹשֶׁבֶת תַּחַת־תֹּמֶר דְּבוֹרָה בְּהַר אֶפְרַיִם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s21",
+      "blockLabel": "Davidson §21",
+      "shape": "he-en",
+      "src": "s21-B12"
+    },
+    {
+      "id": "s21-C6.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "עִיר שֹׁפֶכֶת דָּם כַּמָּיִם",
+      "stimulusIsScript": true,
+      "statement": "A city shedding blood like water",
+      "answer": true,
+      "expected": "A city shedding blood like water",
+      "block": "s21",
+      "blockLabel": "Davidson §21",
+      "shape": "en-he",
+      "src": "s21-C6"
+    },
+    {
+      "id": "s21-C6.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "עִיר שֹׁפֶכֶת דָּם כַּמָּיִם",
+      "stimulusIsScript": true,
+      "options": [
+        "The city shedding blood like water",
+        "A city shedding blood like water",
+        "Yahweh will judge this people.",
+        "Thou shalt not steal."
+      ],
+      "answer": "A city shedding blood like water",
+      "optionIsScript": false,
+      "block": "s21",
+      "blockLabel": "Davidson §21",
+      "shape": "en-he",
+      "src": "s21-C6"
+    },
+    {
+      "id": "s21-C6.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: A city shedding blood like water",
+      "stimulus": "עִיר ＿＿＿ דָּם כַּמָּיִם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "שֹׁפֶכֶת"
+      ],
+      "answerIsScript": true,
+      "block": "s21",
+      "blockLabel": "Davidson §21",
+      "shape": "en-he",
+      "src": "s21-C6"
+    },
+    {
+      "id": "s21-C6.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "A city shedding blood like water",
       "stimulusIsScript": false,
       "accepted": [
         "עִיר שֹׁפֶכֶת דָּם כַּמָּיִם"
       ],
       "answerIsScript": true,
-      "id": "s21-C6",
       "block": "s21",
       "blockLabel": "Davidson §21",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 C 6; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
-        "exwb": "davidson-s21#C6",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s21-C6"
     },
     {
+      "id": "s21-C6.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "A city shedding blood like water",
+      "stimulusIsScript": false,
+      "accepted": [
+        "עִיר שֹׁפֶכֶת דָּם כַּמָּיִם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s21",
+      "blockLabel": "Davidson §21",
+      "shape": "en-he",
+      "src": "s21-C6"
+    },
+    {
+      "id": "s21-C12.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "יָדַיִם שֹׁפְכוֹת דָּם",
+      "stimulusIsScript": true,
+      "statement": "Yahweh will judge this people.",
+      "answer": false,
+      "expected": "Hands shedding blood",
+      "block": "s21",
+      "blockLabel": "Davidson §21",
+      "shape": "en-he",
+      "src": "s21-C12"
+    },
+    {
+      "id": "s21-C12.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "יָדַיִם שֹׁפְכוֹת דָּם",
+      "stimulusIsScript": true,
+      "options": [
+        "They left off counting the proverbs of his lips, for they (were) as the sand which (is) upon the shore of the sea.",
+        "Hands shedding blood",
+        "Yahweh will judge this people.",
+        "We will burn your city with (in the) fire."
+      ],
+      "answer": "Hands shedding blood",
+      "optionIsScript": false,
+      "block": "s21",
+      "blockLabel": "Davidson §21",
+      "shape": "en-he",
+      "src": "s21-C12"
+    },
+    {
+      "id": "s21-C12.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Hands shedding blood",
+      "stimulus": "יָדַיִם שֹׁפְכוֹת ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "דָּם"
+      ],
+      "answerIsScript": true,
+      "block": "s21",
+      "blockLabel": "Davidson §21",
+      "shape": "en-he",
+      "src": "s21-C12"
+    },
+    {
+      "id": "s21-C12.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "Hands shedding blood",
       "stimulusIsScript": false,
       "accepted": [
         "יָדַיִם שֹׁפְכוֹת דָּם"
       ],
       "answerIsScript": true,
-      "id": "s21-C12",
       "block": "s21",
       "blockLabel": "Davidson §21",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 C 12; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
-        "exwb": "davidson-s21#C12",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s21-C12"
     },
     {
+      "id": "s21-C12.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Hands shedding blood",
+      "stimulusIsScript": false,
+      "accepted": [
+        "יָדַיִם שֹׁפְכוֹת דָּם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s21",
+      "blockLabel": "Davidson §21",
+      "shape": "en-he",
+      "src": "s21-C12"
+    },
+    {
+      "id": "s30-B1.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אָכְלוּ בְנֵי־יִשְׂרָאֵל אֶת־הַפֶּסַח מָתְנֵיהֶם חֲגֻרִים נַעֲלֵיהֶם בְּרַגְלֵיהֶם וּמַקְלָם בְּיָדָם",
+      "stimulusIsScript": true,
+      "statement": "The Israelites ate the passover with their loins girt, their sandals on their feet, and their staff in their hand.",
+      "answer": true,
+      "expected": "The Israelites ate the passover with their loins girt, their sandals on their feet, and their staff in their hand.",
+      "block": "s30",
+      "blockLabel": "Davidson §30",
+      "shape": "he-en",
+      "src": "s30-B1"
+    },
+    {
+      "id": "s30-B1.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "אָכְלוּ בְנֵי־יִשְׂרָאֵל אֶת־הַפֶּסַח מָתְנֵיהֶם חֲגֻרִים נַעֲלֵיהֶם בְּרַגְלֵיהֶם וּמַקְלָם בְּיָדָם",
       "stimulusIsScript": true,
       "options": [
-        "And ye shall take your staff in your hand.",
         "The Israelites ate the passover with their loins girt, their sandals on their feet, and their staff in their hand.",
-        "Ye are my sons.",
-        "And the inhabitants of the land shall go (i.e. walk) like blind men, and their blood shall be poured out like dust."
+        "The Israelites ate a passover with their loins girt, their sandals on their feet, and their staff in their hand.",
+        "The Israelites ate the passover with their loins girt, their sandals to their feet, and their staff in their hand.",
+        "The Israelites ate the passover with their loins girt, their sandals on your feet, and their staff in their hand."
       ],
       "answer": "The Israelites ate the passover with their loins girt, their sandals on their feet, and their staff in their hand.",
       "optionIsScript": false,
-      "id": "s30-B1",
       "block": "s30",
       "blockLabel": "Davidson §30",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §30 B 1; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n125/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n125.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n72/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n72.jpg",
-        "exwb": "davidson-s30#B1",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s30-B1"
     },
     {
+      "id": "s30-B1.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Fill in the missing word: The Israelites ate the passover with their loins girt, their sandals on their feet, and their staff in their hand.",
+      "stimulus": "אָכְלוּ בְנֵי־יִשְׂרָאֵל ＿＿＿ מָתְנֵיהֶם חֲגֻרִים נַעֲלֵיהֶם בְּרַגְלֵיהֶם וּמַקְלָם בְּיָדָם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶת־הַפֶּסַח"
+      ],
+      "answerIsScript": true,
+      "block": "s30",
+      "blockLabel": "Davidson §30",
+      "shape": "he-en",
+      "src": "s30-B1"
+    },
+    {
+      "id": "s30-B1.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "אָכְלוּ בְנֵי־יִשְׂרָאֵל אֶת־הַפֶּסַח מָתְנֵיהֶם חֲגֻרִים נַעֲלֵיהֶם בְּרַגְלֵיהֶם וּמַקְלָם בְּיָדָם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The Israelites ate the passover with their loins girt, their sandals on their feet, and their staff in their hand."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s30",
+      "blockLabel": "Davidson §30",
+      "shape": "he-en",
+      "src": "s30-B1"
+    },
+    {
+      "id": "s30-B1.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The Israelites ate the passover with their loins girt, their sandals on their feet, and their staff in their hand.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אָכְלוּ בְנֵי־יִשְׂרָאֵל אֶת־הַפֶּסַח מָתְנֵיהֶם חֲגֻרִים נַעֲלֵיהֶם בְּרַגְלֵיהֶם וּמַקְלָם בְּיָדָם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s30",
+      "blockLabel": "Davidson §30",
+      "shape": "he-en",
+      "src": "s30-B1"
+    },
+    {
+      "id": "s46-B13.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "סוֹמֵךְ יְהוָה לְכָל־הַנֹּפְלִים",
+      "stimulusIsScript": true,
+      "statement": "Evermore Yahweh supports all who fall.",
+      "answer": true,
+      "expected": "Evermore Yahweh supports all who fall.",
+      "block": "s46",
+      "blockLabel": "Davidson §46",
+      "shape": "en-he",
+      "src": "s46-B13"
+    },
+    {
+      "id": "s46-B13.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "סוֹמֵךְ יְהוָה לְכָל־הַנֹּפְלִים",
+      "stimulusIsScript": true,
+      "options": [
+        "Evermore Yahweh supports all who fall.",
+        "If I perish, I perish.",
+        "This is the covenant that I will make with the house of Israel after those days: I will put my law in their inward parts, and on their hearts will I write it, and I will be their God, and they shall be my people.",
+        "Yahweh knoweth the way of the righteous, but the way of the wicked shall perish."
+      ],
+      "answer": "Evermore Yahweh supports all who fall.",
+      "optionIsScript": false,
+      "block": "s46",
+      "blockLabel": "Davidson §46",
+      "shape": "en-he",
+      "src": "s46-B13"
+    },
+    {
+      "id": "s46-B13.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Evermore Yahweh supports all who fall.",
+      "stimulus": "סוֹמֵךְ יְהוָה ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "לְכָל־הַנֹּפְלִים"
+      ],
+      "answerIsScript": true,
+      "block": "s46",
+      "blockLabel": "Davidson §46",
+      "shape": "en-he",
+      "src": "s46-B13"
+    },
+    {
+      "id": "s46-B13.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "Evermore Yahweh supports all who fall.",
       "stimulusIsScript": false,
       "accepted": [
         "סוֹמֵךְ יְהוָה לְכָל־הַנֹּפְלִים"
       ],
       "answerIsScript": true,
-      "id": "s46-B13",
       "block": "s46",
       "blockLabel": "Davidson §46",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §46 B 13; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n179/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n179.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n134/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n134.jpg",
-        "exwb": "davidson-s46#B13",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s46-B13"
+    },
+    {
+      "id": "s46-B13.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Evermore Yahweh supports all who fall.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "סוֹמֵךְ יְהוָה לְכָל־הַנֹּפְלִים"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s46",
+      "blockLabel": "Davidson §46",
+      "shape": "en-he",
+      "src": "s46-B13"
     }
   ]
 }

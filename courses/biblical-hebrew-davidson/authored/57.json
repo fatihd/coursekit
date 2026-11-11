@@ -1,154 +1,793 @@
 {
   "schema": "authored-exercises-v1.json",
   "unit": 57,
+  "sources": {
+    "s25-B7": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §25 B 7; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n110/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n110.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n57/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n57.jpg",
+      "exwb": "davidson-s25#B7",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s25-B9": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §25 B 9; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n110/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n110.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n57/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n57.jpg",
+      "exwb": "davidson-s25#B9",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s25-C5": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §25 C 5; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n110/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n110.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n57/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n57.jpg",
+      "exwb": "davidson-s25#C5",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s25-C7": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §25 C 7; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n110/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n110.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n57/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n57.jpg",
+      "exwb": "davidson-s25#C7",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s25-C11": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §25 C 11; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n110/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n110.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n57/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n57.jpg",
+      "exwb": "davidson-s25#C11",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s27-B7": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §27 B 7; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n116/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n116.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n65/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n65.jpg",
+      "exwb": "davidson-s27#B7",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s36-AL1": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §36 A L1; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n140/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n140.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n90/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n90.jpg",
+      "exwb": "davidson-s36#AL1",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s36-AL2": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §36 A L2; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n140/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n140.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n90/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n90.jpg",
+      "exwb": "davidson-s36#AL2",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s36-AL3": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §36 A L3; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n140/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n140.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n90/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n90.jpg",
+      "exwb": "davidson-s36#AL3",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s36-AL4": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §36 A L4; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n140/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n140.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n90/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n90.jpg",
+      "exwb": "davidson-s36#AL4",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s36-AL5": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §36 A L5; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n140/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n140.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n90/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n90.jpg",
+      "exwb": "davidson-s36#AL5",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s36-AL6": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §36 A L6; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n140/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n140.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n90/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n90.jpg",
+      "exwb": "davidson-s36#AL6",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s36-AL7": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §36 A L7; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n140/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n140.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n90/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n90.jpg",
+      "exwb": "davidson-s36#AL7",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s36-AL8": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §36 A L8; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n140/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n140.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n90/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n90.jpg",
+      "exwb": "davidson-s36#AL8",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s36-AL9": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §36 A L9; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n140/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n140.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n90/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n90.jpg",
+      "exwb": "davidson-s36#AL9",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s36-AL10": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §36 A L10; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n140/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n140.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n90/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n90.jpg",
+      "exwb": "davidson-s36#AL10",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s36-AL11": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §36 A L11; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n140/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n140.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n90/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n90.jpg",
+      "exwb": "davidson-s36#AL11",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s36-AL12": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §36 A L12; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n140/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n140.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n90/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n90.jpg",
+      "exwb": "davidson-s36#AL12",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s36-B2": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §36 B 2; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n140/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n140.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n90/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n90.jpg",
+      "exwb": "davidson-s36#B2",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s36-B3": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §36 B 3; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n140/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n140.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n90/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n90.jpg",
+      "exwb": "davidson-s36#B3",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s36-B5": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §36 B 5; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n140/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n140.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n90/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n90.jpg",
+      "exwb": "davidson-s36#B5",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s36-B6": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §36 B 6; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n140/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n140.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n90/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n90.jpg",
+      "exwb": "davidson-s36#B6",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s36-B7": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §36 B 7; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n140/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n140.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n90/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n90.jpg",
+      "exwb": "davidson-s36#B7",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s36-C4": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §36 C 4; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n140/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n140.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n90/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n90.jpg",
+      "exwb": "davidson-s36#C4",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s36-C5": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §36 C 5; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n140/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n140.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n90/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n90.jpg",
+      "exwb": "davidson-s36#C5",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s36-C6": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §36 C 6; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n140/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n140.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n90/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n90.jpg",
+      "exwb": "davidson-s36#C6",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s36-C7": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §36 C 7; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n140/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n140.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n90/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n90.jpg",
+      "exwb": "davidson-s36#C7",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    }
+  },
   "items": [
     {
+      "id": "s25-B7.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיִּנָּחֶם יהוה כִּי עָשָׂה אֶת־הָאָדָם בָּאָרֶץ",
+      "stimulusIsScript": true,
+      "statement": "And Yahweh repented that he had made man on the earth.",
+      "answer": true,
+      "expected": "And Yahweh repented that he had made man on the earth.",
+      "block": "s25",
+      "blockLabel": "Davidson §25",
+      "shape": "he-en",
+      "src": "s25-B7"
+    },
+    {
+      "id": "s25-B7.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "וַיִּנָּחֶם יהוה כִּי עָשָׂה אֶת־הָאָדָם בָּאָרֶץ",
       "stimulusIsScript": true,
       "options": [
-        "He that sheddeth man's blood, by man shall his blood be shed.",
-        "And the earth was corrupted before God, and the earth was filled with violence.",
+        "And Yahweh repented that he had made man on an earth.",
+        "And Yahweh repented that she had made man on the earth.",
         "And Yahweh repented that he had made man on the earth.",
-        "I have been driven out this day from the face of the ground, and from thy face shall I be hidden."
+        "And Yahweh repented that he had made man to the earth."
       ],
       "answer": "And Yahweh repented that he had made man on the earth.",
       "optionIsScript": false,
-      "id": "s25-B7",
       "block": "s25",
       "blockLabel": "Davidson §25",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §25 B 7; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n110/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n110.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n57/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n57.jpg",
-        "exwb": "davidson-s25#B7",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s25-B7"
     },
     {
+      "id": "s25-B7.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: And Yahweh repented that he had made man on the earth.",
+      "stimulus": "וַיִּנָּחֶם יהוה כִּי עָשָׂה ＿＿＿ בָּאָרֶץ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶת־הָאָדָם"
+      ],
+      "answerIsScript": true,
+      "block": "s25",
+      "blockLabel": "Davidson §25",
+      "shape": "he-en",
+      "src": "s25-B7"
+    },
+    {
+      "id": "s25-B7.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וַיִּנָּחֶם יהוה כִּי עָשָׂה אֶת־הָאָדָם בָּאָרֶץ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "And Yahweh repented that he had made man on the earth.",
+        "And the Lord repented that he had made man on the earth."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s25",
+      "blockLabel": "Davidson §25",
+      "shape": "he-en",
+      "src": "s25-B7"
+    },
+    {
+      "id": "s25-B7.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And Yahweh repented that he had made man on the earth.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיִּנָּחֶם יהוה כִּי עָשָׂה אֶת־הָאָדָם בָּאָרֶץ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s25",
+      "blockLabel": "Davidson §25",
+      "shape": "he-en",
+      "src": "s25-B7"
+    },
+    {
+      "id": "s25-B9.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "בָּא הָאֹיֵב אֶל־הָעִיר וְלֹא יָכֹל לְהִלָּחֵם עָלֶיהָ",
+      "stimulusIsScript": true,
+      "statement": "An enemy came to the city, but he was not able to fight against it.",
+      "answer": false,
+      "expected": "The enemy came to the city, but he was not able to fight against it.",
+      "block": "s25",
+      "blockLabel": "Davidson §25",
+      "shape": "he-en",
+      "src": "s25-B9"
+    },
+    {
+      "id": "s25-B9.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "בָּא הָאֹיֵב אֶל־הָעִיר וְלֹא יָכֹל לְהִלָּחֵם עָלֶיהָ",
       "stimulusIsScript": true,
       "options": [
-        "The snare is broken, and, as for us, we are escaped.",
-        "Beware lest thou make a covenant with the inhabitants of the land and take of their daughters for thy sons.",
+        "An enemy came to the city, but he was not able to fight against it.",
         "The enemy came to the city, but he was not able to fight against it.",
-        "Never again shall all flesh be cut off by the waters of the flood."
+        "The enemy came to the city, but he was able to fight against it.",
+        "The enemy came to the city, but she was not able to fight against it."
       ],
       "answer": "The enemy came to the city, but he was not able to fight against it.",
       "optionIsScript": false,
-      "id": "s25-B9",
       "block": "s25",
       "blockLabel": "Davidson §25",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §25 B 9; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n110/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n110.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n57/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n57.jpg",
-        "exwb": "davidson-s25#B9",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s25-B9"
     },
     {
+      "id": "s25-B9.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Fill in the missing word: The enemy came to the city, but he was not able to fight against it.",
+      "stimulus": "בָּא ＿＿＿ אֶל־הָעִיר וְלֹא יָכֹל לְהִלָּחֵם עָלֶיהָ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הָאֹיֵב"
+      ],
+      "answerIsScript": true,
+      "block": "s25",
+      "blockLabel": "Davidson §25",
+      "shape": "he-en",
+      "src": "s25-B9"
+    },
+    {
+      "id": "s25-B9.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "בָּא הָאֹיֵב אֶל־הָעִיר וְלֹא יָכֹל לְהִלָּחֵם עָלֶיהָ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The enemy came to the city, but he was not able to fight against it."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s25",
+      "blockLabel": "Davidson §25",
+      "shape": "he-en",
+      "src": "s25-B9"
+    },
+    {
+      "id": "s25-B9.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The enemy came to the city, but he was not able to fight against it.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בָּא הָאֹיֵב אֶל־הָעִיר וְלֹא יָכֹל לְהִלָּחֵם עָלֶיהָ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s25",
+      "blockLabel": "Davidson §25",
+      "shape": "he-en",
+      "src": "s25-B9"
+    },
+    {
+      "id": "s25-C5.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַתִּשָּׁחֵת הָאָרֶץ וַיִּכָּרֵת כָּל־בָּשָׂר מִמֵּי הַמַּבּוּל",
+      "stimulusIsScript": true,
+      "statement": "And an earth was corrupted, and all flesh was cut off by the waters of the flood.",
+      "answer": false,
+      "expected": "And the earth was corrupted, and all flesh was cut off by the waters of the flood.",
+      "block": "s25",
+      "blockLabel": "Davidson §25",
+      "shape": "en-he",
+      "src": "s25-C5"
+    },
+    {
+      "id": "s25-C5.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַתִּשָּׁחֵת הָאָרֶץ וַיִּכָּרֵת כָּל־בָּשָׂר מִמֵּי הַמַּבּוּל",
+      "stimulusIsScript": true,
+      "options": [
+        "And an earth was corrupted, and all flesh was cut off by the waters of the flood.",
+        "And the earth was corrupted, and all flesh was cut off by waters of the flood.",
+        "And the earth was corrupted, and all flesh was cut off by the waters of a flood.",
+        "And the earth was corrupted, and all flesh was cut off by the waters of the flood."
+      ],
+      "answer": "And the earth was corrupted, and all flesh was cut off by the waters of the flood.",
+      "optionIsScript": false,
+      "block": "s25",
+      "blockLabel": "Davidson §25",
+      "shape": "en-he",
+      "src": "s25-C5"
+    },
+    {
+      "id": "s25-C5.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: And the earth was corrupted, and all flesh was cut off by the waters of the flood.",
+      "stimulus": "＿＿＿ הָאָרֶץ וַיִּכָּרֵת כָּל־בָּשָׂר מִמֵּי הַמַּבּוּל",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וַתִּשָּׁחֵת"
+      ],
+      "answerIsScript": true,
+      "block": "s25",
+      "blockLabel": "Davidson §25",
+      "shape": "en-he",
+      "src": "s25-C5"
+    },
+    {
+      "id": "s25-C5.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "And the earth was corrupted, and all flesh was cut off by the waters of the flood.",
       "stimulusIsScript": false,
       "accepted": [
         "וַתִּשָּׁחֵת הָאָרֶץ וַיִּכָּרֵת כָּל־בָּשָׂר מִמֵּי הַמַּבּוּל"
       ],
       "answerIsScript": true,
-      "id": "s25-C5",
       "block": "s25",
       "blockLabel": "Davidson §25",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §25 C 5; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n110/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n110.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n57/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n57.jpg",
-        "exwb": "davidson-s25#C5",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s25-C5"
     },
     {
+      "id": "s25-C5.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And the earth was corrupted, and all flesh was cut off by the waters of the flood.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַתִּשָּׁחֵת הָאָרֶץ וַיִּכָּרֵת כָּל־בָּשָׂר מִמֵּי הַמַּבּוּל"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s25",
+      "blockLabel": "Davidson §25",
+      "shape": "en-he",
+      "src": "s25-C5"
+    },
+    {
+      "id": "s25-C7.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אִמָּלְטָה בְּיוֹם הִלָּחֵם",
+      "stimulusIsScript": true,
+      "statement": "Let him escape in the day of fighting (inf. cons.).",
+      "answer": false,
+      "expected": "Let me escape in the day of fighting (inf. cons.).",
+      "block": "s25",
+      "blockLabel": "Davidson §25",
+      "shape": "en-he",
+      "src": "s25-C7"
+    },
+    {
+      "id": "s25-C7.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אִמָּלְטָה בְּיוֹם הִלָּחֵם",
+      "stimulusIsScript": true,
+      "options": [
+        "Let him escape in the day of fighting (inf. cons.).",
+        "Let me escape in the day of fighting (inf. cons.).",
+        "Let me escape to the day of fighting (inf. cons.).",
+        "Let me escape in a day of fighting (inf. cons.)."
+      ],
+      "answer": "Let me escape in the day of fighting (inf. cons.).",
+      "optionIsScript": false,
+      "block": "s25",
+      "blockLabel": "Davidson §25",
+      "shape": "en-he",
+      "src": "s25-C7"
+    },
+    {
+      "id": "s25-C7.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Let me escape in the day of fighting (inf. cons.).",
+      "stimulus": "＿＿＿ בְּיוֹם הִלָּחֵם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אִמָּלְטָה"
+      ],
+      "answerIsScript": true,
+      "block": "s25",
+      "blockLabel": "Davidson §25",
+      "shape": "en-he",
+      "src": "s25-C7"
+    },
+    {
+      "id": "s25-C7.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "Let me escape in the day of fighting (inf. cons.).",
       "stimulusIsScript": false,
       "accepted": [
         "אִמָּלְטָה בְּיוֹם הִלָּחֵם"
       ],
       "answerIsScript": true,
-      "id": "s25-C7",
       "block": "s25",
       "blockLabel": "Davidson §25",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §25 C 7; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n110/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n110.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n57/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n57.jpg",
-        "exwb": "davidson-s25#C7",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s25-C7"
     },
     {
+      "id": "s25-C7.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Let me escape in the day of fighting (inf. cons.).",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אִמָּלְטָה בְּיוֹם הִלָּחֵם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s25",
+      "blockLabel": "Davidson §25",
+      "shape": "en-he",
+      "src": "s25-C7"
+    },
+    {
+      "id": "s25-C11.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "בְּטַח בַּיהוָה בְּכָל־לִבְּךָ וְאַל־תִּשָּׁעֵן אֶל־בִּינָתְךָ",
+      "stimulusIsScript": true,
+      "statement": "Trust in Yahweh with all thy heart, and lean not unto (אֶל־) thine own understanding.",
+      "answer": true,
+      "expected": "Trust in Yahweh with all thy heart, and lean not unto (אֶל־) thine own understanding.",
+      "block": "s25",
+      "blockLabel": "Davidson §25",
+      "shape": "en-he",
+      "src": "s25-C11"
+    },
+    {
+      "id": "s25-C11.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "בְּטַח בַּיהוָה בְּכָל־לִבְּךָ וְאַל־תִּשָּׁעֵן אֶל־בִּינָתְךָ",
+      "stimulusIsScript": true,
+      "options": [
+        "Trust in Yahweh with all thy heart, and lean unto (אֶל־) thine own understanding.",
+        "Trust in Yahweh with all his heart, and lean not unto (אֶל־) thine own understanding.",
+        "Trust from Yahweh with all thy heart, and lean not unto (אֶל־) thine own understanding.",
+        "Trust in Yahweh with all thy heart, and lean not unto (אֶל־) thine own understanding."
+      ],
+      "answer": "Trust in Yahweh with all thy heart, and lean not unto (אֶל־) thine own understanding.",
+      "optionIsScript": false,
+      "block": "s25",
+      "blockLabel": "Davidson §25",
+      "shape": "en-he",
+      "src": "s25-C11"
+    },
+    {
+      "id": "s25-C11.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Trust in Yahweh with all thy heart, and lean not unto (אֶל־) thine own understanding.",
+      "stimulus": "בְּטַח בַּיהוָה בְּכָל־לִבְּךָ וְאַל־תִּשָּׁעֵן ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶל־בִּינָתְךָ"
+      ],
+      "answerIsScript": true,
+      "block": "s25",
+      "blockLabel": "Davidson §25",
+      "shape": "en-he",
+      "src": "s25-C11"
+    },
+    {
+      "id": "s25-C11.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "Trust in Yahweh with all thy heart, and lean not unto (אֶל־) thine own understanding.",
       "stimulusIsScript": false,
       "accepted": [
         "בְּטַח בַּיהוָה בְּכָל־לִבְּךָ וְאַל־תִּשָּׁעֵן אֶל־בִּינָתְךָ"
       ],
       "answerIsScript": true,
-      "id": "s25-C11",
       "block": "s25",
       "blockLabel": "Davidson §25",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §25 C 11; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n110/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n110.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n57/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n57.jpg",
-        "exwb": "davidson-s25#C11",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s25-C11"
     },
     {
+      "id": "s25-C11.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Trust in Yahweh with all thy heart, and lean not unto (אֶל־) thine own understanding.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בְּטַח בַּיהוָה בְּכָל־לִבְּךָ וְאַל־תִּשָּׁעֵן אֶל־בִּינָתְךָ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s25",
+      "blockLabel": "Davidson §25",
+      "shape": "en-he",
+      "src": "s25-C11"
+    },
+    {
+      "id": "s27-B7.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "יָרַדְנוּ אֶל־הָעִיר לְהִלָּחֵם עָלֶיהָ וְלֹא יָכֹלְנוּ לְהַשְׁמִיד אֹתָהּ",
+      "stimulusIsScript": true,
+      "statement": "We went down unto the city to fight against it, but I could not destroy it.",
+      "answer": false,
+      "expected": "We went down unto the city to fight against it, but we could not destroy it.",
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "en-he",
+      "src": "s27-B7"
+    },
+    {
+      "id": "s27-B7.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "יָרַדְנוּ אֶל־הָעִיר לְהִלָּחֵם עָלֶיהָ וְלֹא יָכֹלְנוּ לְהַשְׁמִיד אֹתָהּ",
+      "stimulusIsScript": true,
+      "options": [
+        "We went down from the city to fight against it, but we could not destroy it.",
+        "We went down unto a city to fight against it, but we could not destroy it.",
+        "We went down unto the city to fight against it, but we could not destroy it.",
+        "We went down unto the city to fight against it, but I could not destroy it."
+      ],
+      "answer": "We went down unto the city to fight against it, but we could not destroy it.",
+      "optionIsScript": false,
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "en-he",
+      "src": "s27-B7"
+    },
+    {
+      "id": "s27-B7.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: We went down unto the city to fight against it, but we could not destroy it.",
+      "stimulus": "יָרַדְנוּ אֶל־הָעִיר לְהִלָּחֵם עָלֶיהָ וְלֹא יָכֹלְנוּ ＿＿＿ אֹתָהּ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "לְהַשְׁמִיד"
+      ],
+      "answerIsScript": true,
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "en-he",
+      "src": "s27-B7"
+    },
+    {
+      "id": "s27-B7.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "We went down unto the city to fight against it, but we could not destroy it.",
       "stimulusIsScript": false,
       "accepted": [
         "יָרַדְנוּ אֶל־הָעִיר לְהִלָּחֵם עָלֶיהָ וְלֹא יָכֹלְנוּ לְהַשְׁמִיד אֹתָהּ"
       ],
       "answerIsScript": true,
-      "id": "s27-B7",
       "block": "s27",
       "blockLabel": "Davidson §27",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §27 B 7; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n116/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n116.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n65/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n65.jpg",
-        "exwb": "davidson-s27#B7",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s27-B7"
     },
     {
+      "id": "s27-B7.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "We went down unto the city to fight against it, but we could not destroy it.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "יָרַדְנוּ אֶל־הָעִיר לְהִלָּחֵם עָלֶיהָ וְלֹא יָכֹלְנוּ לְהַשְׁמִיד אֹתָהּ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s27",
+      "blockLabel": "Davidson §27",
+      "shape": "en-he",
+      "src": "s27-B7"
+    },
+    {
+      "id": "s36-AL1.parse",
+      "rung": 3,
+      "rungLabel": "Parse",
       "type": "parse-form",
       "prompt": "Parse this form",
       "stimulus": "טַהֲרֵנִי",
@@ -209,10 +848,10 @@
           "person": "1"
         }
       ],
-      "id": "s36-AL1",
       "block": "s36",
       "blockLabel": "Davidson §36",
       "shape": "parse",
+      "src": "s36-AL1",
       "explain": "Key: Cleanse thou me (Pi. imperat. with 1 s. suffix: pf. טִהַר, impf. יְטַהֵר)",
       "data": {
         "parse": {
@@ -221,18 +860,12 @@
           "stem": "Pi'el",
           "gloss": "Cleanse thou me"
         }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §36 A L1; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n140/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n140.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n90/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n90.jpg",
-        "exwb": "davidson-s36#AL1",
-        "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
+      "id": "s36-AL2.parse",
+      "rung": 3,
+      "rungLabel": "Parse",
       "type": "parse-form",
       "prompt": "Parse this form",
       "stimulus": "טַעֲמוּ",
@@ -258,28 +891,22 @@
           "stem": "Qal"
         }
       ],
-      "id": "s36-AL2",
       "block": "s36",
       "blockLabel": "Davidson §36",
       "shape": "parse",
+      "src": "s36-AL2",
       "explain": "Key: Taste ye (Qal)",
       "data": {
         "parse": {
           "stem": "Qal",
           "gloss": "Taste ye"
         }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §36 A L2; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n140/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n140.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n90/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n90.jpg",
-        "exwb": "davidson-s36#AL2",
-        "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
+      "id": "s36-AL3.parse",
+      "rung": 3,
+      "rungLabel": "Parse",
       "type": "parse-form",
       "prompt": "Parse this form",
       "stimulus": "בָּרְכוּ",
@@ -305,28 +932,22 @@
           "stem": "Pi'el"
         }
       ],
-      "id": "s36-AL3",
       "block": "s36",
       "blockLabel": "Davidson §36",
       "shape": "parse",
+      "src": "s36-AL3",
       "explain": "Key: Bless ye (Pi.)",
       "data": {
         "parse": {
           "stem": "Pi'el",
           "gloss": "Bless ye"
         }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §36 A L3; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n140/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n140.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n90/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n90.jpg",
-        "exwb": "davidson-s36#AL3",
-        "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
+      "id": "s36-AL4.parse",
+      "rung": 3,
+      "rungLabel": "Parse",
       "type": "parse-form",
       "prompt": "Parse this form",
       "stimulus": "יְשָׁרֵת",
@@ -352,28 +973,22 @@
           "stem": "Pi'el"
         }
       ],
-      "id": "s36-AL4",
       "block": "s36",
       "blockLabel": "Davidson §36",
       "shape": "parse",
+      "src": "s36-AL4",
       "explain": "Key: He will serve (Pi.)",
       "data": {
         "parse": {
           "stem": "Pi'el",
           "gloss": "He will serve"
         }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §36 A L4; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n140/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n140.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n90/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n90.jpg",
-        "exwb": "davidson-s36#AL4",
-        "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
+      "id": "s36-AL5.parse",
+      "rung": 3,
+      "rungLabel": "Parse",
       "type": "parse-form",
       "prompt": "Parse this form",
       "stimulus": "זַעֲקִי",
@@ -408,10 +1023,10 @@
           "stem": "Qal"
         }
       ],
-      "id": "s36-AL5",
       "block": "s36",
       "blockLabel": "Davidson §36",
       "shape": "parse",
+      "src": "s36-AL5",
       "explain": "Key: Cry thou (f. Qal)",
       "data": {
         "parse": {
@@ -419,18 +1034,12 @@
           "stem": "Qal",
           "gloss": "Cry thou"
         }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §36 A L5; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n140/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n140.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n90/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n90.jpg",
-        "exwb": "davidson-s36#AL5",
-        "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
+      "id": "s36-AL6.parse",
+      "rung": 3,
+      "rungLabel": "Parse",
       "type": "parse-form",
       "prompt": "Parse this form",
       "stimulus": "וַיִּלָּחֲמוּ",
@@ -456,28 +1065,22 @@
           "stem": "Niph'al"
         }
       ],
-      "id": "s36-AL6",
       "block": "s36",
       "blockLabel": "Davidson §36",
       "shape": "parse",
+      "src": "s36-AL6",
       "explain": "Key: And they fought (Niph.)",
       "data": {
         "parse": {
           "stem": "Niph'al",
           "gloss": "And they fought"
         }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §36 A L6; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n140/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n140.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n90/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n90.jpg",
-        "exwb": "davidson-s36#AL6",
-        "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
+      "id": "s36-AL7.parse",
+      "rung": 3,
+      "rungLabel": "Parse",
       "type": "parse-form",
       "prompt": "Parse this form",
       "stimulus": "וִיטַהֵר",
@@ -503,28 +1106,22 @@
           "stem": "Pi'el"
         }
       ],
-      "id": "s36-AL7",
       "block": "s36",
       "blockLabel": "Davidson §36",
       "shape": "parse",
+      "src": "s36-AL7",
       "explain": "Key: He will cleanse (Pi.)",
       "data": {
         "parse": {
           "stem": "Pi'el",
           "gloss": "He will cleanse"
         }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §36 A L7; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n140/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n140.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n90/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n90.jpg",
-        "exwb": "davidson-s36#AL7",
-        "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
+      "id": "s36-AL8.parse",
+      "rung": 3,
+      "rungLabel": "Parse",
       "type": "parse-form",
       "prompt": "Parse this form",
       "stimulus": "אֶרְחַץ",
@@ -550,28 +1147,22 @@
           "stem": "Qal"
         }
       ],
-      "id": "s36-AL8",
       "block": "s36",
       "blockLabel": "Davidson §36",
       "shape": "parse",
+      "src": "s36-AL8",
       "explain": "Key: I will wash (Qal)",
       "data": {
         "parse": {
           "stem": "Qal",
           "gloss": "I will wash"
         }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §36 A L8; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n140/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n140.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n90/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n90.jpg",
-        "exwb": "davidson-s36#AL8",
-        "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
+      "id": "s36-AL9.parse",
+      "rung": 3,
+      "rungLabel": "Parse",
       "type": "parse-form",
       "prompt": "Parse this form",
       "stimulus": "רֻחַצְתְּ",
@@ -606,28 +1197,22 @@
           "gender": "fem."
         }
       ],
-      "id": "s36-AL9",
       "block": "s36",
       "blockLabel": "Davidson §36",
       "shape": "parse",
+      "src": "s36-AL9",
       "explain": "Key: Thou (f.) hast been washed (Pu.)",
       "data": {
         "parse": {
           "stem": "Pu'al",
           "gloss": "Thou (f.) hast been washed"
         }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §36 A L9; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n140/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n140.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n90/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n90.jpg",
-        "exwb": "davidson-s36#AL9",
-        "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
+      "id": "s36-AL10.parse",
+      "rung": 3,
+      "rungLabel": "Parse",
       "type": "parse-form",
       "prompt": "Parse this form",
       "stimulus": "אֶרְחָצֵךְ",
@@ -662,28 +1247,22 @@
           "gender": "fem."
         }
       ],
-      "id": "s36-AL10",
       "block": "s36",
       "blockLabel": "Davidson §36",
       "shape": "parse",
+      "src": "s36-AL10",
       "explain": "Key: I will wash (Qal) thee (f.: see § 31. 3 (a) i)",
       "data": {
         "parse": {
           "stem": "Qal",
           "gloss": "I will wash thee (f.: see § 31. 3 (a) i)"
         }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §36 A L10; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n140/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n140.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n90/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n90.jpg",
-        "exwb": "davidson-s36#AL10",
-        "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
+      "id": "s36-AL11.parse",
+      "rung": 3,
+      "rungLabel": "Parse",
       "type": "parse-form",
       "prompt": "Parse this form",
       "stimulus": "נִבְחֲרָה",
@@ -744,10 +1323,10 @@
           "person": "1"
         }
       ],
-      "id": "s36-AL11",
       "block": "s36",
       "blockLabel": "Davidson §36",
       "shape": "parse",
+      "src": "s36-AL11",
       "explain": "Key: Let us choose (1 pl. cohortat. Qal)",
       "data": {
         "parse": {
@@ -757,18 +1336,12 @@
           "stem": "Qal",
           "gloss": "Let us choose"
         }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §36 A L11; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n140/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n140.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n90/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n90.jpg",
-        "exwb": "davidson-s36#AL11",
-        "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
+      "id": "s36-AL12.parse",
+      "rung": 3,
+      "rungLabel": "Parse",
       "type": "parse-form",
       "prompt": "Parse this form",
       "stimulus": "מְצַעֵק",
@@ -818,10 +1391,10 @@
           "stem": "Pi'el"
         }
       ],
-      "id": "s36-AL12",
       "block": "s36",
       "blockLabel": "Davidson §36",
       "shape": "parse",
+      "src": "s36-AL12",
       "explain": "Key: Crying aloud (Pi. ptc. m.)",
       "data": {
         "parse": {
@@ -830,247 +1403,819 @@
           "stem": "Pi'el",
           "gloss": "Crying aloud"
         }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §36 A L12; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n140/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n140.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n90/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n90.jpg",
-        "exwb": "davidson-s36#AL12",
-        "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
+      "id": "s36-B2.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיְגָרֶשׁ יהוה אֶת־הָאָדָם וַיְשַׁלְּחֵהוּ מִגַּן־עֵדֶן לַעֲבֹד אֶת־הָאֲדָמָה אֲשֶׁר לֻקַּח מִשָּׁם",
+      "stimulusIsScript": true,
+      "statement": "And Yahweh drove out the man and sent him forth from a garden of Eden to till the ground whence he had been taken.",
+      "answer": false,
+      "expected": "And Yahweh drove out the man and sent him forth from the garden of Eden to till the ground whence he had been taken.",
+      "block": "s36",
+      "blockLabel": "Davidson §36",
+      "shape": "he-en",
+      "src": "s36-B2"
+    },
+    {
+      "id": "s36-B2.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "וַיְגָרֶשׁ יהוה אֶת־הָאָדָם וַיְשַׁלְּחֵהוּ מִגַּן־עֵדֶן לַעֲבֹד אֶת־הָאֲדָמָה אֲשֶׁר לֻקַּח מִשָּׁם",
       "stimulusIsScript": true,
       "options": [
-        "The meal-offering and the drink-offering are cut off; the priests, the ministers of Yahweh, mourn.",
-        "And the priests blessed the Israelites, saying, Yahweh bless thee and keep thee, Yahweh lift up his face towards thee.",
-        "And I will bless thee and make thy name great, and I will bless those that bless thee, and by thee shall all the families of the earth bless themselves.",
-        "And Yahweh drove out the man and sent him forth from the garden of Eden to till the ground whence he had been taken."
+        "And Yahweh drove out the man and sent him forth from the garden of Eden to till the ground whence he had been taken.",
+        "And Yahweh drove out the man and sent me forth from the garden of Eden to till the ground whence he had been taken.",
+        "And Yahweh drove out the man and sent him forth from a garden of Eden to till the ground whence he had been taken.",
+        "And Yahweh drove out the man and sent him forth to the garden of Eden to till the ground whence he had been taken."
       ],
       "answer": "And Yahweh drove out the man and sent him forth from the garden of Eden to till the ground whence he had been taken.",
       "optionIsScript": false,
-      "id": "s36-B2",
       "block": "s36",
       "blockLabel": "Davidson §36",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §36 B 2; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n140/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n140.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n90/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n90.jpg",
-        "exwb": "davidson-s36#B2",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s36-B2"
     },
     {
+      "id": "s36-B2.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: And Yahweh drove out the man and sent him forth from the garden of Eden to till the ground whence he had been taken.",
+      "stimulus": "וַיְגָרֶשׁ יהוה אֶת־הָאָדָם וַיְשַׁלְּחֵהוּ מִגַּן־עֵדֶן לַעֲבֹד ＿＿＿ אֲשֶׁר לֻקַּח מִשָּׁם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶת־הָאֲדָמָה"
+      ],
+      "answerIsScript": true,
+      "block": "s36",
+      "blockLabel": "Davidson §36",
+      "shape": "he-en",
+      "src": "s36-B2"
+    },
+    {
+      "id": "s36-B2.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וַיְגָרֶשׁ יהוה אֶת־הָאָדָם וַיְשַׁלְּחֵהוּ מִגַּן־עֵדֶן לַעֲבֹד אֶת־הָאֲדָמָה אֲשֶׁר לֻקַּח מִשָּׁם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "And Yahweh drove out the man and sent him forth from the garden of Eden to till the ground whence he had been taken.",
+        "And the Lord drove out the man and sent him forth from the garden of Eden to till the ground whence he had been taken."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s36",
+      "blockLabel": "Davidson §36",
+      "shape": "he-en",
+      "src": "s36-B2"
+    },
+    {
+      "id": "s36-B2.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And Yahweh drove out the man and sent him forth from the garden of Eden to till the ground whence he had been taken.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיְגָרֶשׁ יהוה אֶת־הָאָדָם וַיְשַׁלְּחֵהוּ מִגַּן־עֵדֶן לַעֲבֹד אֶת־הָאֲדָמָה אֲשֶׁר לֻקַּח מִשָּׁם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s36",
+      "blockLabel": "Davidson §36",
+      "shape": "he-en",
+      "src": "s36-B2"
+    },
+    {
+      "id": "s36-B3.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָכְרַת מִנְחָה וָנֶסֶךְ אָבְלוּ הַכֹּהֲנִים מְשָׁרְתֵי יהוה",
+      "stimulusIsScript": true,
+      "statement": "The meal-offering and the drink-offering are cut off; the priests, the ministers of Yahweh, mourn.",
+      "answer": true,
+      "expected": "The meal-offering and the drink-offering are cut off; the priests, the ministers of Yahweh, mourn.",
+      "block": "s36",
+      "blockLabel": "Davidson §36",
+      "shape": "he-en",
+      "src": "s36-B3"
+    },
+    {
+      "id": "s36-B3.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "הָכְרַת מִנְחָה וָנֶסֶךְ אָבְלוּ הַכֹּהֲנִים מְשָׁרְתֵי יהוה",
       "stimulusIsScript": true,
       "options": [
+        "The meal-offering and the drink-offering are cut off; Priests, the ministers of Yahweh, mourn.",
         "The meal-offering and the drink-offering are cut off; the priests, the ministers of Yahweh, mourn.",
-        "And the priests blessed the Israelites, saying, Yahweh bless thee and keep thee, Yahweh lift up his face towards thee.",
-        "In that day thou shalt say to me, My husband, and thou shalt no more call me, My lord.",
-        "And Yahweh drove out the man and sent him forth from the garden of Eden to till the ground whence he had been taken."
+        "The meal-offering and a drink-offering are cut off; the priests, the ministers of Yahweh, mourn.",
+        "The meal-offering and the drink-offering are cut off; the priests, ministers of Yahweh, mourn."
       ],
       "answer": "The meal-offering and the drink-offering are cut off; the priests, the ministers of Yahweh, mourn.",
       "optionIsScript": false,
-      "id": "s36-B3",
       "block": "s36",
       "blockLabel": "Davidson §36",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §36 B 3; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n140/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n140.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n90/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n90.jpg",
-        "exwb": "davidson-s36#B3",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s36-B3"
     },
     {
+      "id": "s36-B3.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The meal-offering and the drink-offering are cut off; the priests, the ministers of Yahweh, mourn.",
+      "stimulus": "＿＿＿ מִנְחָה וָנֶסֶךְ אָבְלוּ הַכֹּהֲנִים מְשָׁרְתֵי יהוה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הָכְרַת"
+      ],
+      "answerIsScript": true,
+      "block": "s36",
+      "blockLabel": "Davidson §36",
+      "shape": "he-en",
+      "src": "s36-B3"
+    },
+    {
+      "id": "s36-B3.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הָכְרַת מִנְחָה וָנֶסֶךְ אָבְלוּ הַכֹּהֲנִים מְשָׁרְתֵי יהוה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The meal-offering and the drink-offering are cut off; the priests, the ministers of Yahweh, mourn.",
+        "The meal-offering and the drink-offering are cut off; the priests, the ministers of the Lord, mourn."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s36",
+      "blockLabel": "Davidson §36",
+      "shape": "he-en",
+      "src": "s36-B3"
+    },
+    {
+      "id": "s36-B3.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The meal-offering and the drink-offering are cut off; the priests, the ministers of Yahweh, mourn.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָכְרַת מִנְחָה וָנֶסֶךְ אָבְלוּ הַכֹּהֲנִים מְשָׁרְתֵי יהוה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s36",
+      "blockLabel": "Davidson §36",
+      "shape": "he-en",
+      "src": "s36-B3"
+    },
+    {
+      "id": "s36-B5.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיִּזְעֲקוּ בְנֵי יִשְׂרָאֵל אֶל־יהוה לֵאמֹר עָזַבְנוּ אֶת־אֱלֹהֵינוּ וַנַּעֲבֹד אֶת־הַבְּעָלִים",
+      "stimulusIsScript": true,
+      "statement": "And the Israelites cried in Yahweh, saying, We have forsaken our God and served the Baals.",
+      "answer": false,
+      "expected": "And the Israelites cried to Yahweh, saying, We have forsaken our God and served the Baals.",
+      "block": "s36",
+      "blockLabel": "Davidson §36",
+      "shape": "he-en",
+      "src": "s36-B5"
+    },
+    {
+      "id": "s36-B5.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "וַיִּזְעֲקוּ בְנֵי יִשְׂרָאֵל אֶל־יהוה לֵאמֹר עָזַבְנוּ אֶת־אֱלֹהֵינוּ וַנַּעֲבֹד אֶת־הַבְּעָלִים",
       "stimulusIsScript": true,
       "options": [
-        "And the priests blessed the Israelites, saying, Yahweh bless thee and keep thee, Yahweh lift up his face towards thee.",
-        "Let there now be fetched a little water, and wash your feet, and rest yourselves under the tree, and let me fetch a morsel of bread, and sustain ye your hearts: afterwards ye shall pass on.",
-        "In that day thou shalt say to me, My husband, and thou shalt no more call me, My lord.",
-        "And the Israelites cried to Yahweh, saying, We have forsaken our God and served the Baals."
+        "And the Israelites cried to Yahweh, saying, We have forsaken our God and served the Baals.",
+        "And the Israelites cried from Yahweh, saying, We have forsaken our God and served the Baals.",
+        "And the Israelites cried in Yahweh, saying, We have forsaken our God and served the Baals.",
+        "And the Israelites cried to Yahweh, saying, We have forsaken your God and served the Baals."
       ],
       "answer": "And the Israelites cried to Yahweh, saying, We have forsaken our God and served the Baals.",
       "optionIsScript": false,
-      "id": "s36-B5",
       "block": "s36",
       "blockLabel": "Davidson §36",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §36 B 5; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n140/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n140.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n90/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n90.jpg",
-        "exwb": "davidson-s36#B5",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s36-B5"
     },
     {
+      "id": "s36-B5.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: And the Israelites cried to Yahweh, saying, We have forsaken our God and served the Baals.",
+      "stimulus": "＿＿＿ בְנֵי יִשְׂרָאֵל אֶל־יהוה לֵאמֹר עָזַבְנוּ אֶת־אֱלֹהֵינוּ וַנַּעֲבֹד אֶת־הַבְּעָלִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וַיִּזְעֲקוּ"
+      ],
+      "answerIsScript": true,
+      "block": "s36",
+      "blockLabel": "Davidson §36",
+      "shape": "he-en",
+      "src": "s36-B5"
+    },
+    {
+      "id": "s36-B5.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וַיִּזְעֲקוּ בְנֵי יִשְׂרָאֵל אֶל־יהוה לֵאמֹר עָזַבְנוּ אֶת־אֱלֹהֵינוּ וַנַּעֲבֹד אֶת־הַבְּעָלִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "And the Israelites cried to Yahweh, saying, We have forsaken our God and served the Baals.",
+        "And the Israelites cried to the Lord, saying, We have forsaken our God and served the Baals."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s36",
+      "blockLabel": "Davidson §36",
+      "shape": "he-en",
+      "src": "s36-B5"
+    },
+    {
+      "id": "s36-B5.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And the Israelites cried to Yahweh, saying, We have forsaken our God and served the Baals.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיִּזְעֲקוּ בְנֵי יִשְׂרָאֵל אֶל־יהוה לֵאמֹר עָזַבְנוּ אֶת־אֱלֹהֵינוּ וַנַּעֲבֹד אֶת־הַבְּעָלִים"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s36",
+      "blockLabel": "Davidson §36",
+      "shape": "he-en",
+      "src": "s36-B5"
+    },
+    {
+      "id": "s36-B6.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַאֲבָרֶכְךָ וַאֲגַדְּלָה שְׁמֶךָ וַאֲבָרְכָה מְבָרְכֶיךָ וְנִבְרְכוּ בְךָ כֹּל מִשְׁפְּחֹת הָאֲדָמָה",
+      "stimulusIsScript": true,
+      "statement": "And I will bless thee and make thy name great, and I will bless those that bless thee, and by thee shall all the families of the earth bless themselves.",
+      "answer": true,
+      "expected": "And I will bless thee and make thy name great, and I will bless those that bless thee, and by thee shall all the families of the earth bless themselves.",
+      "block": "s36",
+      "blockLabel": "Davidson §36",
+      "shape": "he-en",
+      "src": "s36-B6"
+    },
+    {
+      "id": "s36-B6.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "וַאֲבָרֶכְךָ וַאֲגַדְּלָה שְׁמֶךָ וַאֲבָרְכָה מְבָרְכֶיךָ וְנִבְרְכוּ בְךָ כֹּל מִשְׁפְּחֹת הָאֲדָמָה",
       "stimulusIsScript": true,
       "options": [
-        "Let there now be fetched a little water, and wash your feet, and rest yourselves under the tree, and let me fetch a morsel of bread, and sustain ye your hearts: afterwards ye shall pass on.",
-        "In that day thou shalt say to me, My husband, and thou shalt no more call me, My lord.",
-        "And the priests blessed the Israelites, saying, Yahweh bless thee and keep thee, Yahweh lift up his face towards thee.",
+        "And I will bless thee and make thy name great, and I will bless those this bless thee, and by thee shall all the families of the earth bless themselves.",
+        "And I will bless thee and make thy name great, and I will bless those that bless thee, and by him shall all the families of the earth bless themselves.",
+        "And they will bless thee and make thy name great, and I will bless those that bless thee, and by thee shall all the families of the earth bless themselves.",
         "And I will bless thee and make thy name great, and I will bless those that bless thee, and by thee shall all the families of the earth bless themselves."
       ],
       "answer": "And I will bless thee and make thy name great, and I will bless those that bless thee, and by thee shall all the families of the earth bless themselves.",
       "optionIsScript": false,
-      "id": "s36-B6",
       "block": "s36",
       "blockLabel": "Davidson §36",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §36 B 6; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n140/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n140.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n90/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n90.jpg",
-        "exwb": "davidson-s36#B6",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s36-B6"
     },
     {
+      "id": "s36-B6.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: And I will bless thee and make thy name great, and I will bless those that bless thee, and by thee shall all the families of the earth bless themselves.",
+      "stimulus": "＿＿＿ וַאֲגַדְּלָה שְׁמֶךָ וַאֲבָרְכָה מְבָרְכֶיךָ וְנִבְרְכוּ בְךָ כֹּל מִשְׁפְּחֹת הָאֲדָמָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וַאֲבָרֶכְךָ"
+      ],
+      "answerIsScript": true,
+      "block": "s36",
+      "blockLabel": "Davidson §36",
+      "shape": "he-en",
+      "src": "s36-B6"
+    },
+    {
+      "id": "s36-B6.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וַאֲבָרֶכְךָ וַאֲגַדְּלָה שְׁמֶךָ וַאֲבָרְכָה מְבָרְכֶיךָ וְנִבְרְכוּ בְךָ כֹּל מִשְׁפְּחֹת הָאֲדָמָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "And I will bless thee and make thy name great, and I will bless those that bless thee, and by thee shall all the families of the earth bless themselves.",
+        "And I will bless you and make your name great, and I will bless those that bless you, and by you shall all the families of the earth bless themselves."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s36",
+      "blockLabel": "Davidson §36",
+      "shape": "he-en",
+      "src": "s36-B6"
+    },
+    {
+      "id": "s36-B6.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And I will bless thee and make thy name great, and I will bless those that bless thee, and by thee shall all the families of the earth bless themselves.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַאֲבָרֶכְךָ וַאֲגַדְּלָה שְׁמֶךָ וַאֲבָרְכָה מְבָרְכֶיךָ וְנִבְרְכוּ בְךָ כֹּל מִשְׁפְּחֹת הָאֲדָמָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s36",
+      "blockLabel": "Davidson §36",
+      "shape": "he-en",
+      "src": "s36-B6"
+    },
+    {
+      "id": "s36-B7.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "בָּרְכִי נַפְשִׁי אֶת־יְהוָה וְאַל־תִּשְׁכְּחִי כָּל־חֲסָדָיו",
+      "stimulusIsScript": true,
+      "statement": "Bless Yahweh, O my soul, and forget not any of his kindnesses.",
+      "answer": true,
+      "expected": "Bless Yahweh, O my soul, and forget not any of his kindnesses.",
+      "block": "s36",
+      "blockLabel": "Davidson §36",
+      "shape": "he-en",
+      "src": "s36-B7"
+    },
+    {
+      "id": "s36-B7.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
-      "stimulus": "ברכי נפשי את־יהוה ואל־תשכחי כל־חסדיו",
+      "stimulus": "בָּרְכִי נַפְשִׁי אֶת־יְהוָה וְאַל־תִּשְׁכְּחִי כָּל־חֲסָדָיו",
       "stimulusIsScript": true,
       "options": [
-        "And the priests blessed the Israelites, saying, Yahweh bless thee and keep thee, Yahweh lift up his face towards thee.",
-        "The meal-offering and the drink-offering are cut off; the priests, the ministers of Yahweh, mourn.",
-        "And Yahweh drove out the man and sent him forth from the garden of Eden to till the ground whence he had been taken.",
+        "Bless Yahweh, O his soul, and forget not any of his kindnesses.",
+        "Bless Yahweh, O my soul, and forget any of his kindnesses.",
+        "Bless Yahweh, O our soul, and forget not any of his kindnesses.",
         "Bless Yahweh, O my soul, and forget not any of his kindnesses."
       ],
       "answer": "Bless Yahweh, O my soul, and forget not any of his kindnesses.",
       "optionIsScript": false,
-      "id": "s36-B7",
       "block": "s36",
       "blockLabel": "Davidson §36",
       "shape": "he-en",
-      "hint": "With vowel points: בָּרְכִי נַפְשִׁי אֶת־יְהוָה וְאַל־תִּשְׁכְּחִי כָּל־חֲסָדָיו",
-      "data": {
-        "pointed": "בָּרְכִי נַפְשִׁי אֶת־יְהוָה וְאַל־תִּשְׁכְּחִי כָּל־חֲסָדָיו"
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §36 B 7; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n140/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n140.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n90/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n90.jpg",
-        "exwb": "davidson-s36#B7",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s36-B7"
     },
     {
+      "id": "s36-B7.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Fill in the missing word: Bless Yahweh, O my soul, and forget not any of his kindnesses.",
+      "stimulus": "בָּרְכִי נַפְשִׁי אֶת־יְהוָה וְאַל־תִּשְׁכְּחִי ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "כָּל־חֲסָדָיו"
+      ],
+      "answerIsScript": true,
+      "block": "s36",
+      "blockLabel": "Davidson §36",
+      "shape": "he-en",
+      "src": "s36-B7"
+    },
+    {
+      "id": "s36-B7.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "ברכי נפשי את־יהוה ואל־תשכחי כל־חסדיו",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Bless Yahweh, O my soul, and forget not any of his kindnesses.",
+        "Bless the Lord, O my soul, and forget not any of his kindnesses."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "hint": "With vowel points: בָּרְכִי נַפְשִׁי אֶת־יְהוָה וְאַל־תִּשְׁכְּחִי כָּל־חֲסָדָיו",
+      "block": "s36",
+      "blockLabel": "Davidson §36",
+      "shape": "he-en",
+      "src": "s36-B7"
+    },
+    {
+      "id": "s36-B7.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Bless Yahweh, O my soul, and forget not any of his kindnesses.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בָּרְכִי נַפְשִׁי אֶת־יְהוָה וְאַל־תִּשְׁכְּחִי כָּל־חֲסָדָיו"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s36",
+      "blockLabel": "Davidson §36",
+      "shape": "he-en",
+      "src": "s36-B7"
+    },
+    {
+      "id": "s36-C4.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיִּזְעֲקוּ אֵלַי אֲבֹתֵיכֶם וַיֹּאמְרוּ נֹאבַד מֵחֲמַס אֹיְבֵינוּ",
+      "stimulusIsScript": true,
+      "statement": "And your fathers cried unto me and said, We shall perish from the violence of our enemies.",
+      "answer": true,
+      "expected": "And your fathers cried unto me and said, We shall perish from the violence of our enemies.",
+      "block": "s36",
+      "blockLabel": "Davidson §36",
+      "shape": "en-he",
+      "src": "s36-C4"
+    },
+    {
+      "id": "s36-C4.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיִּזְעֲקוּ אֵלַי אֲבֹתֵיכֶם וַיֹּאמְרוּ נֹאבַד מֵחֲמַס אֹיְבֵינוּ",
+      "stimulusIsScript": true,
+      "options": [
+        "And your fathers cried unto me and said, We shall perish from the violence of our enemies.",
+        "And your fathers cried from me and said, We shall perish from the violence of our enemies.",
+        "And your fathers cried unto me and said, I shall perish from the violence of our enemies.",
+        "And our fathers cried unto me and said, We shall perish from the violence of our enemies."
+      ],
+      "answer": "And your fathers cried unto me and said, We shall perish from the violence of our enemies.",
+      "optionIsScript": false,
+      "block": "s36",
+      "blockLabel": "Davidson §36",
+      "shape": "en-he",
+      "src": "s36-C4"
+    },
+    {
+      "id": "s36-C4.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: And your fathers cried unto me and said, We shall perish from the violence of our enemies.",
+      "stimulus": "וַיִּזְעֲקוּ אֵלַי אֲבֹתֵיכֶם ＿＿＿ נֹאבַד מֵחֲמַס אֹיְבֵינוּ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וַיֹּאמְרוּ"
+      ],
+      "answerIsScript": true,
+      "block": "s36",
+      "blockLabel": "Davidson §36",
+      "shape": "en-he",
+      "src": "s36-C4"
+    },
+    {
+      "id": "s36-C4.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "And your fathers cried unto me and said, We shall perish from the violence of our enemies.",
       "stimulusIsScript": false,
       "accepted": [
         "וַיִּזְעֲקוּ אֵלַי אֲבֹתֵיכֶם וַיֹּאמְרוּ נֹאבַד מֵחֲמַס אֹיְבֵינוּ"
       ],
       "answerIsScript": true,
-      "id": "s36-C4",
       "block": "s36",
       "blockLabel": "Davidson §36",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §36 C 4; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n140/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n140.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n90/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n90.jpg",
-        "exwb": "davidson-s36#C4",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s36-C4"
     },
     {
+      "id": "s36-C4.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And your fathers cried unto me and said, We shall perish from the violence of our enemies.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיִּזְעֲקוּ אֵלַי אֲבֹתֵיכֶם וַיֹּאמְרוּ נֹאבַד מֵחֲמַס אֹיְבֵינוּ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s36",
+      "blockLabel": "Davidson §36",
+      "shape": "en-he",
+      "src": "s36-C4"
+    },
+    {
+      "id": "s36-C5.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַתֹּאמֶר לְאִישָׁהּ גָּרֵשׁ אֶת־הַשִּׁפְחָה הַזֹּאת וְאֶת־בְּנָהּ",
+      "stimulusIsScript": true,
+      "statement": "And she said in her husband, Drive out this maid-servant and her son.",
+      "answer": false,
+      "expected": "And she said unto her husband, Drive out this maid-servant and her son.",
+      "block": "s36",
+      "blockLabel": "Davidson §36",
+      "shape": "en-he",
+      "src": "s36-C5"
+    },
+    {
+      "id": "s36-C5.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַתֹּאמֶר לְאִישָׁהּ גָּרֵשׁ אֶת־הַשִּׁפְחָה הַזֹּאת וְאֶת־בְּנָהּ",
+      "stimulusIsScript": true,
+      "options": [
+        "And she said unto her husband, Drive out this maid-servant and his son.",
+        "And she said unto her husband, Drive out that maid-servant and her son.",
+        "And she said unto her husband, Drive out this maid-servant and her son.",
+        "And she said in her husband, Drive out this maid-servant and her son."
+      ],
+      "answer": "And she said unto her husband, Drive out this maid-servant and her son.",
+      "optionIsScript": false,
+      "block": "s36",
+      "blockLabel": "Davidson §36",
+      "shape": "en-he",
+      "src": "s36-C5"
+    },
+    {
+      "id": "s36-C5.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: And she said unto her husband, Drive out this maid-servant and her son.",
+      "stimulus": "וַתֹּאמֶר לְאִישָׁהּ גָּרֵשׁ ＿＿＿ הַזֹּאת וְאֶת־בְּנָהּ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶת־הַשִּׁפְחָה"
+      ],
+      "answerIsScript": true,
+      "block": "s36",
+      "blockLabel": "Davidson §36",
+      "shape": "en-he",
+      "src": "s36-C5"
+    },
+    {
+      "id": "s36-C5.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "And she said unto her husband, Drive out this maid-servant and her son.",
       "stimulusIsScript": false,
       "accepted": [
         "וַתֹּאמֶר לְאִישָׁהּ גָּרֵשׁ אֶת־הַשִּׁפְחָה הַזֹּאת וְאֶת־בְּנָהּ"
       ],
       "answerIsScript": true,
-      "id": "s36-C5",
       "block": "s36",
       "blockLabel": "Davidson §36",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §36 C 5; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n140/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n140.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n90/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n90.jpg",
-        "exwb": "davidson-s36#C5",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s36-C5"
     },
     {
+      "id": "s36-C5.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And she said unto her husband, Drive out this maid-servant and her son.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַתֹּאמֶר לְאִישָׁהּ גָּרֵשׁ אֶת־הַשִּׁפְחָה הַזֹּאת וְאֶת־בְּנָהּ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s36",
+      "blockLabel": "Davidson §36",
+      "shape": "en-he",
+      "src": "s36-C5"
+    },
+    {
+      "id": "s36-C6.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיִּשְׁכְּחוּ אֶת־יְהוָה וַיִּמְכְּרֵם בְּיַד אֹיְבֵיהֶם וַיִּלָּחֲמוּ בָם",
+      "stimulusIsScript": true,
+      "statement": "And they forgot Yahweh, and he sold them into the hand of their enemies and they fought against them.",
+      "answer": true,
+      "expected": "And they forgot Yahweh, and he sold them into the hand of their enemies and they fought against them.",
+      "block": "s36",
+      "blockLabel": "Davidson §36",
+      "shape": "en-he",
+      "src": "s36-C6"
+    },
+    {
+      "id": "s36-C6.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיִּשְׁכְּחוּ אֶת־יְהוָה וַיִּמְכְּרֵם בְּיַד אֹיְבֵיהֶם וַיִּלָּחֲמוּ בָם",
+      "stimulusIsScript": true,
+      "options": [
+        "And they forgot Yahweh, and he sold them into the hand of their enemies and they fought against them.",
+        "And they forgot Yahweh, and he sold him into the hand of their enemies and they fought against them.",
+        "And they forgot Yahweh, and he sold them into a hand of their enemies and they fought against them.",
+        "And I forgot Yahweh, and he sold them into the hand of their enemies and they fought against them."
+      ],
+      "answer": "And they forgot Yahweh, and he sold them into the hand of their enemies and they fought against them.",
+      "optionIsScript": false,
+      "block": "s36",
+      "blockLabel": "Davidson §36",
+      "shape": "en-he",
+      "src": "s36-C6"
+    },
+    {
+      "id": "s36-C6.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: And they forgot Yahweh, and he sold them into the hand of their enemies and they fought against them.",
+      "stimulus": "＿＿＿ אֶת־יְהוָה וַיִּמְכְּרֵם בְּיַד אֹיְבֵיהֶם וַיִּלָּחֲמוּ בָם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וַיִּשְׁכְּחוּ"
+      ],
+      "answerIsScript": true,
+      "block": "s36",
+      "blockLabel": "Davidson §36",
+      "shape": "en-he",
+      "src": "s36-C6"
+    },
+    {
+      "id": "s36-C6.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "And they forgot Yahweh, and he sold them into the hand of their enemies and they fought against them.",
       "stimulusIsScript": false,
       "accepted": [
         "וַיִּשְׁכְּחוּ אֶת־יְהוָה וַיִּמְכְּרֵם בְּיַד אֹיְבֵיהֶם וַיִּלָּחֲמוּ בָם"
       ],
       "answerIsScript": true,
-      "id": "s36-C6",
       "block": "s36",
       "blockLabel": "Davidson §36",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §36 C 6; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n140/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n140.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n90/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n90.jpg",
-        "exwb": "davidson-s36#C6",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s36-C6"
     },
     {
+      "id": "s36-C6.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And they forgot Yahweh, and he sold them into the hand of their enemies and they fought against them.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיִּשְׁכְּחוּ אֶת־יְהוָה וַיִּמְכְּרֵם בְּיַד אֹיְבֵיהֶם וַיִּלָּחֲמוּ בָם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s36",
+      "blockLabel": "Davidson §36",
+      "shape": "en-he",
+      "src": "s36-C6"
+    },
+    {
+      "id": "s36-C7.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיִּקְחוּ לָהֶם נָשִׁים מִכֹּל אֲשֶׁר בָּחָרוּ",
+      "stimulusIsScript": true,
+      "statement": "And I took wives from all whom they chose.",
+      "answer": false,
+      "expected": "And they took wives from all whom they chose.",
+      "block": "s36",
+      "blockLabel": "Davidson §36",
+      "shape": "en-he",
+      "src": "s36-C7"
+    },
+    {
+      "id": "s36-C7.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיִּקְחוּ לָהֶם נָשִׁים מִכֹּל אֲשֶׁר בָּחָרוּ",
+      "stimulusIsScript": true,
+      "options": [
+        "And I took wives from all whom they chose.",
+        "And we took wives from all whom they chose.",
+        "And they took wives from all whom they chose.",
+        "And they took wives in all whom they chose."
+      ],
+      "answer": "And they took wives from all whom they chose.",
+      "optionIsScript": false,
+      "block": "s36",
+      "blockLabel": "Davidson §36",
+      "shape": "en-he",
+      "src": "s36-C7"
+    },
+    {
+      "id": "s36-C7.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: And they took wives from all whom they chose.",
+      "stimulus": "וַיִּקְחוּ לָהֶם ＿＿＿ מִכֹּל אֲשֶׁר בָּחָרוּ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "נָשִׁים"
+      ],
+      "answerIsScript": true,
+      "block": "s36",
+      "blockLabel": "Davidson §36",
+      "shape": "en-he",
+      "src": "s36-C7"
+    },
+    {
+      "id": "s36-C7.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "And they took wives from all whom they chose.",
       "stimulusIsScript": false,
       "accepted": [
         "וַיִּקְחוּ לָהֶם נָשִׁים מִכֹּל אֲשֶׁר בָּחָרוּ"
       ],
       "answerIsScript": true,
-      "id": "s36-C7",
       "block": "s36",
       "blockLabel": "Davidson §36",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §36 C 7; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n140/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n140.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n90/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n90.jpg",
-        "exwb": "davidson-s36#C7",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s36-C7"
+    },
+    {
+      "id": "s36-C7.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And they took wives from all whom they chose.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיִּקְחוּ לָהֶם נָשִׁים מִכֹּל אֲשֶׁר בָּחָרוּ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s36",
+      "blockLabel": "Davidson §36",
+      "shape": "en-he",
+      "src": "s36-C7"
     }
   ]
 }

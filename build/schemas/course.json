@@ -69,6 +69,8 @@
         "targetItems": { "type": "integer", "minimum": 1 },
         "reviewItems": { "type": "integer", "minimum": 0 },
         "authoredPerSession": { "type": "integer", "minimum": 1 },
+        "vocabPerSession": { "type": "integer", "minimum": 0 },
+        "unlockRung": { "type": "integer", "minimum": 1, "maximum": 9 },
         "transliteration": { "type": "boolean" }
       },
       "additionalProperties": false

@@ -1,187 +1,699 @@
 {
   "schema": "authored-exercises-v1.json",
   "unit": 21,
+  "sources": {
+    "s13-A6": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §13 A 6; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n69/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n69.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n25/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n25.jpg",
+      "exwb": "davidson-s13#A6",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s13-A7": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §13 A 7; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n69/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n69.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n25/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n25.jpg",
+      "exwb": "davidson-s13#A7",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s13-A11": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §13 A 11; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n69/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n69.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n25/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n25.jpg",
+      "exwb": "davidson-s13#A11",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s13-A13": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §13 A 13; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n69/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n69.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n25/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n25.jpg",
+      "exwb": "davidson-s13#A13",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s13-B10": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §13 B 10; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n69/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n69.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n25/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n25.jpg",
+      "exwb": "davidson-s13#B10",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s15-B7": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §15 B 7; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n74/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n74.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n29/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n29.jpg",
+      "exwb": "davidson-s15#B7",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s16-B7": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §16 B 7; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n76/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n76.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n31/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n31.jpg",
+      "exwb": "davidson-s16#B7",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    }
+  },
   "items": [
     {
+      "id": "s13-A6.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "זֶה הַיֶּלֶד אֲשֶׁר שָׁמַע אֶת־הַקּוֹל",
+      "stimulusIsScript": true,
+      "statement": "This is the boy who heard a voice.",
+      "answer": false,
+      "expected": "This is the boy who heard the voice.",
+      "block": "s13",
+      "blockLabel": "Davidson §13",
+      "shape": "he-en",
+      "src": "s13-A6"
+    },
+    {
+      "id": "s13-A6.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "זֶה הַיֶּלֶד אֲשֶׁר שָׁמַע אֶת־הַקּוֹל",
       "stimulusIsScript": true,
       "options": [
-        "God created the heavens and the earth.",
-        "This is the boy who heard the voice.",
-        "This is the day which God made.",
-        "How good is this day!"
+        "This is a boy who heard the voice.",
+        "That is the boy who heard the voice.",
+        "This is the boy who heard a voice.",
+        "This is the boy who heard the voice."
       ],
       "answer": "This is the boy who heard the voice.",
       "optionIsScript": false,
-      "id": "s13-A6",
       "block": "s13",
       "blockLabel": "Davidson §13",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §13 A 6; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n69/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n69.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n25/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n25.jpg",
-        "exwb": "davidson-s13#A6",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s13-A6"
     },
     {
+      "id": "s13-A6.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: This is the boy who heard the voice.",
+      "stimulus": "זֶה הַיֶּלֶד אֲשֶׁר שָׁמַע ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶת־הַקּוֹל"
+      ],
+      "answerIsScript": true,
+      "block": "s13",
+      "blockLabel": "Davidson §13",
+      "shape": "he-en",
+      "src": "s13-A6"
+    },
+    {
+      "id": "s13-A6.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "זֶה הַיֶּלֶד אֲשֶׁר שָׁמַע אֶת־הַקּוֹל",
+      "stimulusIsScript": true,
+      "accepted": [
+        "This is the boy who heard the voice."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s13",
+      "blockLabel": "Davidson §13",
+      "shape": "he-en",
+      "src": "s13-A6"
+    },
+    {
+      "id": "s13-A6.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "This is the boy who heard the voice.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "זֶה הַיֶּלֶד אֲשֶׁר שָׁמַע אֶת־הַקּוֹל"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s13",
+      "blockLabel": "Davidson §13",
+      "shape": "he-en",
+      "src": "s13-A6"
+    },
+    {
+      "id": "s13-A7.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "מִי יָלַד אֶת־אֵלֶּה",
+      "stimulusIsScript": true,
+      "statement": "Who has borne those?",
+      "answer": false,
+      "expected": "Who has borne these?",
+      "block": "s13",
+      "blockLabel": "Davidson §13",
+      "shape": "he-en",
+      "src": "s13-A7"
+    },
+    {
+      "id": "s13-A7.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "מִי יָלַד אֶת־אֵלֶּה",
       "stimulusIsScript": true,
       "options": [
+        "The king sat upon the dust.",
         "Who has borne these?",
-        "How good is this day!",
-        "The man came, who had poured the water upon the ground.",
+        "Who has borne those?",
         "This powerful people"
       ],
       "answer": "Who has borne these?",
       "optionIsScript": false,
-      "id": "s13-A7",
       "block": "s13",
       "blockLabel": "Davidson §13",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §13 A 7; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n69/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n69.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n25/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n25.jpg",
-        "exwb": "davidson-s13#A7",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s13-A7"
     },
     {
+      "id": "s13-A7.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Who has borne these?",
+      "stimulus": "מִי יָלַד ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶת־אֵלֶּה"
+      ],
+      "answerIsScript": true,
+      "block": "s13",
+      "blockLabel": "Davidson §13",
+      "shape": "he-en",
+      "src": "s13-A7"
+    },
+    {
+      "id": "s13-A7.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "מִי יָלַד אֶת־אֵלֶּה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Who has borne these?"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s13",
+      "blockLabel": "Davidson §13",
+      "shape": "he-en",
+      "src": "s13-A7"
+    },
+    {
+      "id": "s13-A7.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Who has borne these?",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מִי יָלַד אֶת־אֵלֶּה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s13",
+      "blockLabel": "Davidson §13",
+      "shape": "he-en",
+      "src": "s13-A7"
+    },
+    {
+      "id": "s13-A11.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ",
+      "stimulusIsScript": true,
+      "statement": "God created the heavens and the earth.",
+      "answer": true,
+      "expected": "God created the heavens and the earth.",
+      "block": "s13",
+      "blockLabel": "Davidson §13",
+      "shape": "he-en",
+      "src": "s13-A11"
+    },
+    {
+      "id": "s13-A11.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ",
       "stimulusIsScript": true,
       "options": [
         "God created the heavens and the earth.",
-        "This is the boy who heard the voice.",
-        "This is the day which God made.",
-        "Who has borne these?"
+        "This is the wise king.",
+        "God created the heavens and an earth.",
+        "God created heavens and the earth."
       ],
       "answer": "God created the heavens and the earth.",
       "optionIsScript": false,
-      "id": "s13-A11",
       "block": "s13",
       "blockLabel": "Davidson §13",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §13 A 11; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n69/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n69.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n25/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n25.jpg",
-        "exwb": "davidson-s13#A11",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s13-A11"
     },
     {
+      "id": "s13-A11.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: God created the heavens and the earth.",
+      "stimulus": "בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הָאָרֶץ"
+      ],
+      "answerIsScript": true,
+      "block": "s13",
+      "blockLabel": "Davidson §13",
+      "shape": "he-en",
+      "src": "s13-A11"
+    },
+    {
+      "id": "s13-A11.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "God created the heavens and the earth."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s13",
+      "blockLabel": "Davidson §13",
+      "shape": "he-en",
+      "src": "s13-A11"
+    },
+    {
+      "id": "s13-A11.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "God created the heavens and the earth.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s13",
+      "blockLabel": "Davidson §13",
+      "shape": "he-en",
+      "src": "s13-A11"
+    },
+    {
+      "id": "s13-A13.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "לָקַח הַמֶּלֶךְ אֶת־הַחֶרֶב",
+      "stimulusIsScript": true,
+      "statement": "The king took a sword.",
+      "answer": false,
+      "expected": "The king took the sword.",
+      "block": "s13",
+      "blockLabel": "Davidson §13",
+      "shape": "he-en",
+      "src": "s13-A13"
+    },
+    {
+      "id": "s13-A13.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
-      "stimulus": "לקח המלך את־החרב",
+      "stimulus": "לָקַח הַמֶּלֶךְ אֶת־הַחֶרֶב",
       "stimulusIsScript": true,
       "options": [
-        "The king took the sword.",
-        "How good is this day!",
-        "God created the heavens and the earth.",
-        "This powerful people"
+        "A king took the sword.",
+        "The king took a sword.",
+        "This (is) the good head.",
+        "The king took the sword."
       ],
       "answer": "The king took the sword.",
       "optionIsScript": false,
-      "id": "s13-A13",
       "block": "s13",
       "blockLabel": "Davidson §13",
       "shape": "he-en",
-      "hint": "With vowel points: לָקַח הַמֶּלֶךְ אֶת־הַחֶרֶב",
-      "data": {
-        "pointed": "לָקַח הַמֶּלֶךְ אֶת־הַחֶרֶב"
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §13 A 13; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n69/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n69.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n25/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n25.jpg",
-        "exwb": "davidson-s13#A13",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s13-A13"
     },
     {
+      "id": "s13-A13.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Fill in the missing word: The king took the sword.",
+      "stimulus": "לָקַח הַמֶּלֶךְ ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶת־הַחֶרֶב"
+      ],
+      "answerIsScript": true,
+      "block": "s13",
+      "blockLabel": "Davidson §13",
+      "shape": "he-en",
+      "src": "s13-A13"
+    },
+    {
+      "id": "s13-A13.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "לקח המלך את־החרב",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The king took the sword."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "hint": "With vowel points: לָקַח הַמֶּלֶךְ אֶת־הַחֶרֶב",
+      "block": "s13",
+      "blockLabel": "Davidson §13",
+      "shape": "he-en",
+      "src": "s13-A13"
+    },
+    {
+      "id": "s13-A13.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The king took the sword.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "לָקַח הַמֶּלֶךְ אֶת־הַחֶרֶב"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s13",
+      "blockLabel": "Davidson §13",
+      "shape": "he-en",
+      "src": "s13-A13"
+    },
+    {
+      "id": "s13-B10.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "זֶה הַיֶּלֶד הָרַע אֲשֶׁר שָׁפַךְ אֶת־הַמַּיִם עַל־הָאָרֶץ",
+      "stimulusIsScript": true,
+      "statement": "This (is) the bad boy who spilt the water to the earth.",
+      "answer": false,
+      "expected": "This (is) the bad boy who spilt the water upon the earth.",
+      "block": "s13",
+      "blockLabel": "Davidson §13",
+      "shape": "en-he",
+      "src": "s13-B10"
+    },
+    {
+      "id": "s13-B10.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "זֶה הַיֶּלֶד הָרַע אֲשֶׁר שָׁפַךְ אֶת־הַמַּיִם עַל־הָאָרֶץ",
+      "stimulusIsScript": true,
+      "options": [
+        "This (is) the bad boy who spilt the water to the earth.",
+        "That (is) the bad boy who spilt the water upon the earth.",
+        "This (is) a bad boy who spilt the water upon the earth.",
+        "This (is) the bad boy who spilt the water upon the earth."
+      ],
+      "answer": "This (is) the bad boy who spilt the water upon the earth.",
+      "optionIsScript": false,
+      "block": "s13",
+      "blockLabel": "Davidson §13",
+      "shape": "en-he",
+      "src": "s13-B10"
+    },
+    {
+      "id": "s13-B10.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: This (is) the bad boy who spilt the water upon the earth.",
+      "stimulus": "זֶה ＿＿＿ הָרַע אֲשֶׁר שָׁפַךְ אֶת־הַמַּיִם עַל־הָאָרֶץ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַיֶּלֶד"
+      ],
+      "answerIsScript": true,
+      "block": "s13",
+      "blockLabel": "Davidson §13",
+      "shape": "en-he",
+      "src": "s13-B10"
+    },
+    {
+      "id": "s13-B10.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "This (is) the bad boy who spilt the water upon the earth.",
       "stimulusIsScript": false,
       "accepted": [
         "זֶה הַיֶּלֶד הָרַע אֲשֶׁר שָׁפַךְ אֶת־הַמַּיִם עַל־הָאָרֶץ"
       ],
       "answerIsScript": true,
-      "id": "s13-B10",
       "block": "s13",
       "blockLabel": "Davidson §13",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §13 B 10; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n69/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n69.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n25/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n25.jpg",
-        "exwb": "davidson-s13#B10",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s13-B10"
     },
     {
+      "id": "s13-B10.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "This (is) the bad boy who spilt the water upon the earth.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "זֶה הַיֶּלֶד הָרַע אֲשֶׁר שָׁפַךְ אֶת־הַמַּיִם עַל־הָאָרֶץ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s13",
+      "blockLabel": "Davidson §13",
+      "shape": "en-he",
+      "src": "s13-B10"
+    },
+    {
+      "id": "s15-B7.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "מִי שָׁפַךְ אֶת־הַמַּיִם עַל־הָאָרֶץ",
+      "stimulusIsScript": true,
+      "statement": "Who spilt the water upon the earth?",
+      "answer": true,
+      "expected": "Who spilt the water upon the earth?",
+      "block": "s15",
+      "blockLabel": "Davidson §15",
+      "shape": "en-he",
+      "src": "s15-B7"
+    },
+    {
+      "id": "s15-B7.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "מִי שָׁפַךְ אֶת־הַמַּיִם עַל־הָאָרֶץ",
+      "stimulusIsScript": true,
+      "options": [
+        "Who spilt the water from the earth?",
+        "Who spilt a water upon the earth?",
+        "Who spilt the water upon the earth?",
+        "Who spilt the water to the earth?"
+      ],
+      "answer": "Who spilt the water upon the earth?",
+      "optionIsScript": false,
+      "block": "s15",
+      "blockLabel": "Davidson §15",
+      "shape": "en-he",
+      "src": "s15-B7"
+    },
+    {
+      "id": "s15-B7.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Who spilt the water upon the earth?",
+      "stimulus": "מִי שָׁפַךְ ＿＿＿ עַל־הָאָרֶץ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶת־הַמַּיִם"
+      ],
+      "answerIsScript": true,
+      "block": "s15",
+      "blockLabel": "Davidson §15",
+      "shape": "en-he",
+      "src": "s15-B7"
+    },
+    {
+      "id": "s15-B7.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "Who spilt the water upon the earth?",
       "stimulusIsScript": false,
       "accepted": [
         "מִי שָׁפַךְ אֶת־הַמַּיִם עַל־הָאָרֶץ"
       ],
       "answerIsScript": true,
-      "id": "s15-B7",
       "block": "s15",
       "blockLabel": "Davidson §15",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §15 B 7; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n74/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n74.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n29/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n29.jpg",
-        "exwb": "davidson-s15#B7",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s15-B7"
     },
     {
+      "id": "s15-B7.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Who spilt the water upon the earth?",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מִי שָׁפַךְ אֶת־הַמַּיִם עַל־הָאָרֶץ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s15",
+      "blockLabel": "Davidson §15",
+      "shape": "en-he",
+      "src": "s15-B7"
+    },
+    {
+      "id": "s16-B7.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "זָכַר אֱלֹהִים אֶת־הַצַּדִּיקִים",
+      "stimulusIsScript": true,
+      "statement": "God remembers the just (pl.).",
+      "answer": true,
+      "expected": "God remembers the just (pl.).",
+      "block": "s16",
+      "blockLabel": "Davidson §16",
+      "shape": "en-he",
+      "src": "s16-B7"
+    },
+    {
+      "id": "s16-B7.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "זָכַר אֱלֹהִים אֶת־הַצַּדִּיקִים",
+      "stimulusIsScript": true,
+      "options": [
+        "He took oxen and cows and horses and asses.",
+        "God remembers the just (pl.).",
+        "God remembers a just (pl.).",
+        "Thou (f.) hast spilt blood (pl.)."
+      ],
+      "answer": "God remembers the just (pl.).",
+      "optionIsScript": false,
+      "block": "s16",
+      "blockLabel": "Davidson §16",
+      "shape": "en-he",
+      "src": "s16-B7"
+    },
+    {
+      "id": "s16-B7.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: God remembers the just (pl.).",
+      "stimulus": "זָכַר ＿＿＿ אֶת־הַצַּדִּיקִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֱלֹהִים"
+      ],
+      "answerIsScript": true,
+      "block": "s16",
+      "blockLabel": "Davidson §16",
+      "shape": "en-he",
+      "src": "s16-B7"
+    },
+    {
+      "id": "s16-B7.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "God remembers the just (pl.).",
       "stimulusIsScript": false,
       "accepted": [
         "זָכַר אֱלֹהִים אֶת־הַצַּדִּיקִים"
       ],
       "answerIsScript": true,
-      "id": "s16-B7",
       "block": "s16",
       "blockLabel": "Davidson §16",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §16 B 7; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n76/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n76.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n31/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n31.jpg",
-        "exwb": "davidson-s16#B7",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s16-B7"
+    },
+    {
+      "id": "s16-B7.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "God remembers the just (pl.).",
+      "stimulusIsScript": false,
+      "accepted": [
+        "זָכַר אֱלֹהִים אֶת־הַצַּדִּיקִים"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s16",
+      "blockLabel": "Davidson §16",
+      "shape": "en-he",
+      "src": "s16-B7"
     }
   ]
 }

@@ -1,160 +1,602 @@
 {
   "schema": "authored-exercises-v1.json",
   "unit": 39,
+  "sources": {
+    "s23-A11": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §23 A 11; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n106/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n106.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n54/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n54.jpg",
+      "exwb": "davidson-s23#A11",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s23-B7": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §23 B 7; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n106/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n106.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n54/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n54.jpg",
+      "exwb": "davidson-s23#B7",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s23-B8": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §23 B 8; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n106/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n106.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n54/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n54.jpg",
+      "exwb": "davidson-s23#B8",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s23-B11": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §23 B 11; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n106/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n106.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n54/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n54.jpg",
+      "exwb": "davidson-s23#B11",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s23-B13": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §23 B 13; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n106/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n106.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n54/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n54.jpg",
+      "exwb": "davidson-s23#B13",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s48-A10": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §48 A 10; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n185/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n185.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n142/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n142.jpg",
+      "exwb": "davidson-s48#A10",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    }
+  },
   "items": [
     {
+      "id": "s23-A11.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיִּשְׁכְּחוּ בְּנֵי־יִשְׂרָאֵל אֶת־יְהוָה אֱלֹהֵיהֶם וַיִּמְכֹּר אוֹתָם בְּיַד מֶלֶךְ מוֹאָב",
+      "stimulusIsScript": true,
+      "statement": "And the Israelites forgot Yahweh our God and he sold them into the hand of the king of Moab.",
+      "answer": false,
+      "expected": "And the Israelites forgot Yahweh their God and he sold them into the hand of the king of Moab.",
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "he-en",
+      "src": "s23-A11"
+    },
+    {
+      "id": "s23-A11.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
-      "stimulus": "וישכחו בני־ישראל את־יהוה אלהיהם וימכר אותם ביד מלך מואב",
+      "stimulus": "וַיִּשְׁכְּחוּ בְּנֵי־יִשְׂרָאֵל אֶת־יְהוָה אֱלֹהֵיהֶם וַיִּמְכֹּר אוֹתָם בְּיַד מֶלֶךְ מוֹאָב",
       "stimulusIsScript": true,
       "options": [
-        "Jacob said to Esau, First sell me thy birthright; and he sold him his birthright.",
-        "Let us make a covenant, I and thou, and it shall be for a witness between me and thee.",
-        "And the waters prevailed exceedingly upon the earth, and all flesh expired that moved upon the earth, among birds and cattle, and all mankind.",
+        "And the Israelites forgot Yahweh our God and he sold them into the hand of the king of Moab.",
+        "And the Israelites forgot Yahweh their God and he sold them into the hand of a king of Moab.",
+        "And the Israelites forgot Yahweh their God and she sold them into the hand of the king of Moab.",
         "And the Israelites forgot Yahweh their God and he sold them into the hand of the king of Moab."
       ],
       "answer": "And the Israelites forgot Yahweh their God and he sold them into the hand of the king of Moab.",
       "optionIsScript": false,
-      "id": "s23-A11",
       "block": "s23",
       "blockLabel": "Davidson §23",
       "shape": "he-en",
-      "hint": "With vowel points: וַיִּשְׁכְּחוּ בְּנֵי־יִשְׂרָאֵל אֶת־יְהוָה אֱלֹהֵיהֶם וַיִּמְכֹּר אוֹתָם בְּיַד מֶלֶךְ מוֹאָב",
-      "data": {
-        "pointed": "וַיִּשְׁכְּחוּ בְּנֵי־יִשְׂרָאֵל אֶת־יְהוָה אֱלֹהֵיהֶם וַיִּמְכֹּר אוֹתָם בְּיַד מֶלֶךְ מוֹאָב"
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §23 A 11; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n106/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n106.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n54/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n54.jpg",
-        "exwb": "davidson-s23#A11",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s23-A11"
     },
     {
+      "id": "s23-A11.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Fill in the missing word: And the Israelites forgot Yahweh their God and he sold them into the hand of the king of Moab.",
+      "stimulus": "וַיִּשְׁכְּחוּ בְּנֵי־יִשְׂרָאֵל ＿＿＿ אֱלֹהֵיהֶם וַיִּמְכֹּר אוֹתָם בְּיַד מֶלֶךְ מוֹאָב",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶת־יְהוָה"
+      ],
+      "answerIsScript": true,
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "he-en",
+      "src": "s23-A11"
+    },
+    {
+      "id": "s23-A11.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וישכחו בני־ישראל את־יהוה אלהיהם וימכר אותם ביד מלך מואב",
+      "stimulusIsScript": true,
+      "accepted": [
+        "And the Israelites forgot Yahweh their God and he sold them into the hand of the king of Moab.",
+        "And the Israelites forgot the Lord their God and he sold them into the hand of the king of Moab."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "hint": "With vowel points: וַיִּשְׁכְּחוּ בְּנֵי־יִשְׂרָאֵל אֶת־יְהוָה אֱלֹהֵיהֶם וַיִּמְכֹּר אוֹתָם בְּיַד מֶלֶךְ מוֹאָב",
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "he-en",
+      "src": "s23-A11"
+    },
+    {
+      "id": "s23-A11.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And the Israelites forgot Yahweh their God and he sold them into the hand of the king of Moab.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיִּשְׁכְּחוּ בְּנֵי־יִשְׂרָאֵל אֶת־יְהוָה אֱלֹהֵיהֶם וַיִּמְכֹּר אוֹתָם בְּיַד מֶלֶךְ מוֹאָב"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "he-en",
+      "src": "s23-A11"
+    },
+    {
+      "id": "s23-B7.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אָכַל הָאִישׁ מִן־הָעֵץ אֲשֶׁר בַּגָּן וַיִּקְצֹף אֱלֹהִים מְאֹד",
+      "stimulusIsScript": true,
+      "statement": "The man ate of the tree which (was) to the garden and God was very angry.",
+      "answer": false,
+      "expected": "The man ate of the tree which (was) in the garden and God was very angry.",
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "en-he",
+      "src": "s23-B7"
+    },
+    {
+      "id": "s23-B7.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אָכַל הָאִישׁ מִן־הָעֵץ אֲשֶׁר בַּגָּן וַיִּקְצֹף אֱלֹהִים מְאֹד",
+      "stimulusIsScript": true,
+      "options": [
+        "The man ate of the tree which (was) in the garden and God was very angry.",
+        "The man ate of a tree which (was) in the garden and God was very angry.",
+        "The man ate of the tree which (was) from the garden and God was very angry.",
+        "The man ate of the tree which (was) to the garden and God was very angry."
+      ],
+      "answer": "The man ate of the tree which (was) in the garden and God was very angry.",
+      "optionIsScript": false,
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "en-he",
+      "src": "s23-B7"
+    },
+    {
+      "id": "s23-B7.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The man ate of the tree which (was) in the garden and God was very angry.",
+      "stimulus": "אָכַל הָאִישׁ מִן־הָעֵץ אֲשֶׁר בַּגָּן ＿＿＿ אֱלֹהִים מְאֹד",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וַיִּקְצֹף"
+      ],
+      "answerIsScript": true,
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "en-he",
+      "src": "s23-B7"
+    },
+    {
+      "id": "s23-B7.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "The man ate of the tree which (was) in the garden and God was very angry.",
       "stimulusIsScript": false,
       "accepted": [
         "אָכַל הָאִישׁ מִן־הָעֵץ אֲשֶׁר בַּגָּן וַיִּקְצֹף אֱלֹהִים מְאֹד"
       ],
       "answerIsScript": true,
-      "id": "s23-B7",
       "block": "s23",
       "blockLabel": "Davidson §23",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §23 B 7; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n106/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n106.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n54/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n54.jpg",
-        "exwb": "davidson-s23#B7",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s23-B7"
     },
     {
+      "id": "s23-B7.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The man ate of the tree which (was) in the garden and God was very angry.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אָכַל הָאִישׁ מִן־הָעֵץ אֲשֶׁר בַּגָּן וַיִּקְצֹף אֱלֹהִים מְאֹד"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "en-he",
+      "src": "s23-B7"
+    },
+    {
+      "id": "s23-B8.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וְאֶת־הָעֵגֶל לָקַחְתִּי וָאֶשְׂרֹף אֹתוֹ בָּאֵשׁ",
+      "stimulusIsScript": true,
+      "statement": "And a calf I took and burnt it with (in the) fire.",
+      "answer": false,
+      "expected": "And the calf I took and burnt it with (in the) fire.",
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "en-he",
+      "src": "s23-B8"
+    },
+    {
+      "id": "s23-B8.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וְאֶת־הָעֵגֶל לָקַחְתִּי וָאֶשְׂרֹף אֹתוֹ בָּאֵשׁ",
+      "stimulusIsScript": true,
+      "options": [
+        "And the calf we took and burnt it with (in the) fire.",
+        "And the calf they took and burnt it with (in the) fire.",
+        "And the calf I took and burnt it with (in the) fire.",
+        "And a calf I took and burnt it with (in the) fire."
+      ],
+      "answer": "And the calf I took and burnt it with (in the) fire.",
+      "optionIsScript": false,
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "en-he",
+      "src": "s23-B8"
+    },
+    {
+      "id": "s23-B8.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: And the calf I took and burnt it with (in the) fire.",
+      "stimulus": "וְאֶת־הָעֵגֶל ＿＿＿ וָאֶשְׂרֹף אֹתוֹ בָּאֵשׁ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "לָקַחְתִּי"
+      ],
+      "answerIsScript": true,
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "en-he",
+      "src": "s23-B8"
+    },
+    {
+      "id": "s23-B8.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "And the calf I took and burnt it with (in the) fire.",
       "stimulusIsScript": false,
       "accepted": [
         "וְאֶת־הָעֵגֶל לָקַחְתִּי וָאֶשְׂרֹף אֹתוֹ בָּאֵשׁ"
       ],
       "answerIsScript": true,
-      "id": "s23-B8",
       "block": "s23",
       "blockLabel": "Davidson §23",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §23 B 8; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n106/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n106.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n54/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n54.jpg",
-        "exwb": "davidson-s23#B8",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s23-B8"
     },
     {
+      "id": "s23-B8.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And the calf I took and burnt it with (in the) fire.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וְאֶת־הָעֵגֶל לָקַחְתִּי וָאֶשְׂרֹף אֹתוֹ בָּאֵשׁ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "en-he",
+      "src": "s23-B8"
+    },
+    {
+      "id": "s23-B11.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיִּקְרָא אֱלֹהִים לָאוֹר יוֹם וְלַחֹשֶׁךְ קָרָא לָיְלָה",
+      "stimulusIsScript": true,
+      "statement": "And God called the light (dat.) day and the darkness he called night.",
+      "answer": true,
+      "expected": "And God called the light (dat.) day and the darkness he called night.",
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "en-he",
+      "src": "s23-B11"
+    },
+    {
+      "id": "s23-B11.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיִּקְרָא אֱלֹהִים לָאוֹר יוֹם וְלַחֹשֶׁךְ קָרָא לָיְלָה",
+      "stimulusIsScript": true,
+      "options": [
+        "And God called a light (dat.) day and the darkness he called night.",
+        "And God called the light (dat.) day and the darkness he called night.",
+        "And God called the light (dat.) day and the darkness she called night.",
+        "And God called the light (dat.) day and a darkness he called night."
+      ],
+      "answer": "And God called the light (dat.) day and the darkness he called night.",
+      "optionIsScript": false,
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "en-he",
+      "src": "s23-B11"
+    },
+    {
+      "id": "s23-B11.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: And God called the light (dat.) day and the darkness he called night.",
+      "stimulus": "＿＿＿ אֱלֹהִים לָאוֹר יוֹם וְלַחֹשֶׁךְ קָרָא לָיְלָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וַיִּקְרָא"
+      ],
+      "answerIsScript": true,
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "en-he",
+      "src": "s23-B11"
+    },
+    {
+      "id": "s23-B11.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "And God called the light (dat.) day and the darkness he called night.",
       "stimulusIsScript": false,
       "accepted": [
         "וַיִּקְרָא אֱלֹהִים לָאוֹר יוֹם וְלַחֹשֶׁךְ קָרָא לָיְלָה"
       ],
       "answerIsScript": true,
-      "id": "s23-B11",
       "block": "s23",
       "blockLabel": "Davidson §23",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §23 B 11; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n106/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n106.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n54/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n54.jpg",
-        "exwb": "davidson-s23#B11",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s23-B11"
     },
     {
+      "id": "s23-B11.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And God called the light (dat.) day and the darkness he called night.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיִּקְרָא אֱלֹהִים לָאוֹר יוֹם וְלַחֹשֶׁךְ קָרָא לָיְלָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "en-he",
+      "src": "s23-B11"
+    },
+    {
+      "id": "s23-B13.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וָאֶזְכֹּר אֶת־דְּבָרָיו",
+      "stimulusIsScript": true,
+      "statement": "And I remembered his words.",
+      "answer": true,
+      "expected": "And I remembered his words.",
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "en-he",
+      "src": "s23-B13"
+    },
+    {
+      "id": "s23-B13.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וָאֶזְכֹּר אֶת־דְּבָרָיו",
+      "stimulusIsScript": true,
+      "options": [
+        "And I remembered their words.",
+        "And I remembered my words.",
+        "And I remembered his words.",
+        "And we remembered his words."
+      ],
+      "answer": "And I remembered his words.",
+      "optionIsScript": false,
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "en-he",
+      "src": "s23-B13"
+    },
+    {
+      "id": "s23-B13.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: And I remembered his words.",
+      "stimulus": "וָאֶזְכֹּר ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶת־דְּבָרָיו"
+      ],
+      "answerIsScript": true,
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "en-he",
+      "src": "s23-B13"
+    },
+    {
+      "id": "s23-B13.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "And I remembered his words.",
       "stimulusIsScript": false,
       "accepted": [
         "וָאֶזְכֹּר אֶת־דְּבָרָיו"
       ],
       "answerIsScript": true,
-      "id": "s23-B13",
       "block": "s23",
       "blockLabel": "Davidson §23",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §23 B 13; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n106/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n106.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n54/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n54.jpg",
-        "exwb": "davidson-s23#B13",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s23-B13"
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the translation",
-      "stimulus": "וימלך־שם שבע שנים וששה חדשים ושלשים ושלש שנה מלך בירושלם",
-      "stimulusIsScript": true,
-      "options": [
-        "In the thirty-seventh year, in the twelfth month, on the twenty-seventh (day) of the month, the king of Babylon lifted up the head of the king of Judah out of the prison-house.",
-        "And it came to pass in the six hundred and first year of his life, in the second month, on the twenty-seventh day of the month, the earth was dry.",
-        "And five of you shall chase a hundred, and a hundred of you shall chase ten thousand.",
-        "And he reigned there seven years and six months, and thirty-three years he reigned in Jerusalem."
+      "id": "s23-B13.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And I remembered his words.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וָאֶזְכֹּר אֶת־דְּבָרָיו"
       ],
-      "answer": "And he reigned there seven years and six months, and thirty-three years he reigned in Jerusalem.",
-      "optionIsScript": false,
-      "id": "s48-A10",
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "en-he",
+      "src": "s23-B13"
+    },
+    {
+      "id": "s48-A10.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיִּמְלָךְ־שָׁם שֶׁבַע שָׁנִים וְשִׁשָּׁה חֳדָשִׁים וּשְׁלֹשִׁים וְשָׁלֹשׁ שָׁנָה מָלַךְ בִּירוּשָׁלָםִ",
+      "stimulusIsScript": true,
+      "statement": "And she reigned there seven years and six months, and thirty-three years he reigned in Jerusalem.",
+      "answer": false,
+      "expected": "And he reigned there seven years and six months, and thirty-three years he reigned in Jerusalem.",
       "block": "s48",
       "blockLabel": "Davidson §48",
       "shape": "he-en",
+      "src": "s48-A10"
+    },
+    {
+      "id": "s48-A10.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיִּמְלָךְ־שָׁם שֶׁבַע שָׁנִים וְשִׁשָּׁה חֳדָשִׁים וּשְׁלֹשִׁים וְשָׁלֹשׁ שָׁנָה מָלַךְ בִּירוּשָׁלָםִ",
+      "stimulusIsScript": true,
+      "options": [
+        "And she reigned there seven years and six months, and thirty-three years he reigned in Jerusalem.",
+        "And he reigned there seven years and six months, and thirty-three years she reigned in Jerusalem.",
+        "And he reigned there seven years and six months, and thirty-three years he reigned in Jerusalem.",
+        "And he reigned there seven years and six months, and thirty-three years he reigned to Jerusalem."
+      ],
+      "answer": "And he reigned there seven years and six months, and thirty-three years he reigned in Jerusalem.",
+      "optionIsScript": false,
+      "block": "s48",
+      "blockLabel": "Davidson §48",
+      "shape": "he-en",
+      "src": "s48-A10"
+    },
+    {
+      "id": "s48-A10.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: And he reigned there seven years and six months, and thirty-three years he reigned in Jerusalem.",
+      "stimulus": "＿＿＿ שֶׁבַע שָׁנִים וְשִׁשָּׁה חֳדָשִׁים וּשְׁלֹשִׁים וְשָׁלֹשׁ שָׁנָה מָלַךְ בִּירוּשָׁלָםִ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וַיִּמְלָךְ־שָׁם"
+      ],
+      "answerIsScript": true,
+      "block": "s48",
+      "blockLabel": "Davidson §48",
+      "shape": "he-en",
+      "src": "s48-A10"
+    },
+    {
+      "id": "s48-A10.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וימלך־שם שבע שנים וששה חדשים ושלשים ושלש שנה מלך בירושלם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "And he reigned there seven years and six months, and thirty-three years he reigned in Jerusalem."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
       "hint": "With vowel points: וַיִּמְלָךְ־שָׁם שֶׁבַע שָׁנִים וְשִׁשָּׁה חֳדָשִׁים וּשְׁלֹשִׁים וְשָׁלֹשׁ שָׁנָה מָלַךְ בִּירוּשָׁלָםִ",
-      "data": {
-        "pointed": "וַיִּמְלָךְ־שָׁם שֶׁבַע שָׁנִים וְשִׁשָּׁה חֳדָשִׁים וּשְׁלֹשִׁים וְשָׁלֹשׁ שָׁנָה מָלַךְ בִּירוּשָׁלָםִ"
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §48 A 10; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n185/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n185.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n142/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n142.jpg",
-        "exwb": "davidson-s48#A10",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "block": "s48",
+      "blockLabel": "Davidson §48",
+      "shape": "he-en",
+      "src": "s48-A10"
+    },
+    {
+      "id": "s48-A10.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And he reigned there seven years and six months, and thirty-three years he reigned in Jerusalem.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיִּמְלָךְ־שָׁם שֶׁבַע שָׁנִים וְשִׁשָּׁה חֳדָשִׁים וּשְׁלֹשִׁים וְשָׁלֹשׁ שָׁנָה מָלַךְ בִּירוּשָׁלָםִ",
+        "וַיִּמְלָךְ־שָׁם שֶׁבַע שָׁנִים וְשִׁשָּׁה חֳדָשִׁים וּשְׁלֹשִׁים וְשָׁלֹשׁ שָׁנָה מָלַךְ בִּירוּשָׁלַםִ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s48",
+      "blockLabel": "Davidson §48",
+      "shape": "he-en",
+      "src": "s48-A10"
     }
   ]
 }

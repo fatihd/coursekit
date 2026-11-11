@@ -1,499 +1,1874 @@
 {
   "schema": "authored-exercises-v1.json",
   "unit": 47,
+  "sources": {
+    "s26-A1": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §26 A 1; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n113/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n113.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n62/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n62.jpg",
+      "exwb": "davidson-s26#A1",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s26-A2": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §26 A 2; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n113/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n113.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n62/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n62.jpg",
+      "exwb": "davidson-s26#A2",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s26-A3": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §26 A 3; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n113/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n113.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n62/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n62.jpg",
+      "exwb": "davidson-s26#A3",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s26-A9": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §26 A 9; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n113/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n113.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n62/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n62.jpg",
+      "exwb": "davidson-s26#A9",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s26-A10": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §26 A 10; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n113/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n113.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n62/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n62.jpg",
+      "exwb": "davidson-s26#A10",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s26-A12": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §26 A 12; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n113/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n113.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n62/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n62.jpg",
+      "exwb": "davidson-s26#A12",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s26-B1": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §26 B 1; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n113/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n113.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n62/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n62.jpg",
+      "exwb": "davidson-s26#B1",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s26-B2": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §26 B 2; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n113/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n113.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n62/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n62.jpg",
+      "exwb": "davidson-s26#B2",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s26-B3": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §26 B 3; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n113/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n113.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n62/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n62.jpg",
+      "exwb": "davidson-s26#B3",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s26-B5": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §26 B 5; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n113/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n113.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n62/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n62.jpg",
+      "exwb": "davidson-s26#B5",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s26-B7": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §26 B 7; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n113/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n113.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n62/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n62.jpg",
+      "exwb": "davidson-s26#B7",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s26-B8": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §26 B 8; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n113/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n113.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n62/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n62.jpg",
+      "exwb": "davidson-s26#B8",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s29-B13": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §29 B 13; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n123/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n123.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n69/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n69.jpg",
+      "exwb": "davidson-s29#B13",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s30-B3": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §30 B 3; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n125/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n125.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n72/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n72.jpg",
+      "exwb": "davidson-s30#B3",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s30-B4": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §30 B 4; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n125/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n125.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n72/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n72.jpg",
+      "exwb": "davidson-s30#B4",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s30-B8": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §30 B 8; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n125/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n125.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n72/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n72.jpg",
+      "exwb": "davidson-s30#B8",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s30-C2": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §30 C 2; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n125/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n125.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n72/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n72.jpg",
+      "exwb": "davidson-s30#C2",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s31-AL28": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L28; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
+      "exwb": "davidson-s31#AL28",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s47-A8": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §47 A 8; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n181/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n181.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n140/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n140.jpg",
+      "exwb": "davidson-s47#A8",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    }
+  },
   "items": [
     {
+      "id": "s26-A1.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "שִׁמְעוּ שָׁמַיִם כִּי יהוה דִּבֵּר בָּנִים גִּדַּלְתִּי וְהֵם פָּשְׁעוּ בִי",
+      "stimulusIsScript": true,
+      "statement": "Hear, O heavens, for it is Yahweh that has spoken: Sons have I brought up, but, as for them, they have rebelled against me.",
+      "answer": true,
+      "expected": "Hear, O heavens, for it is Yahweh that has spoken: Sons have I brought up, but, as for them, they have rebelled against me.",
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "he-en",
+      "src": "s26-A1"
+    },
+    {
+      "id": "s26-A1.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "שִׁמְעוּ שָׁמַיִם כִּי יהוה דִּבֵּר בָּנִים גִּדַּלְתִּי וְהֵם פָּשְׁעוּ בִי",
       "stimulusIsScript": true,
       "options": [
-        "And they heard the voice of Yahweh as he walked in the garden in the cool of the day, and the man and his wife hid themselves from the presence of Yahweh.",
         "Hear, O heavens, for it is Yahweh that has spoken: Sons have I brought up, but, as for them, they have rebelled against me.",
-        "And Pharaoh called all the wise men of Egypt, and he related to them his dream.",
-        "Noah walked with God."
+        "Hear, O heavens, for it is Yahweh this has spoken: Sons have I brought up, but, as for them, they have rebelled against me.",
+        "Hear, O heavens, for it is Yahweh that has spoken: Sons have they brought up, but, as for them, they have rebelled against me.",
+        "Hear, O heavens, for it is Yahweh that has spoken: Sons have I brought up, but, as for us, they have rebelled against me."
       ],
       "answer": "Hear, O heavens, for it is Yahweh that has spoken: Sons have I brought up, but, as for them, they have rebelled against me.",
       "optionIsScript": false,
-      "id": "s26-A1",
       "block": "s26",
       "blockLabel": "Davidson §26",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §26 A 1; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n113/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n113.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n62/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n62.jpg",
-        "exwb": "davidson-s26#A1",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s26-A1"
     },
     {
+      "id": "s26-A1.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Hear, O heavens, for it is Yahweh that has spoken: Sons have I brought up, but, as for them, they have rebelled against me.",
+      "stimulus": "＿＿＿ שָׁמַיִם כִּי יהוה דִּבֵּר בָּנִים גִּדַּלְתִּי וְהֵם פָּשְׁעוּ בִי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "שִׁמְעוּ"
+      ],
+      "answerIsScript": true,
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "he-en",
+      "src": "s26-A1"
+    },
+    {
+      "id": "s26-A1.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "שִׁמְעוּ שָׁמַיִם כִּי יהוה דִּבֵּר בָּנִים גִּדַּלְתִּי וְהֵם פָּשְׁעוּ בִי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Hear, O heavens, for it is Yahweh that has spoken: Sons have I brought up, but, as for them, they have rebelled against me.",
+        "Hear, O heavens, for it is the Lord that has spoken: Sons have I brought up, but, as for them, they have rebelled against me."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "he-en",
+      "src": "s26-A1"
+    },
+    {
+      "id": "s26-A1.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Hear, O heavens, for it is Yahweh that has spoken: Sons have I brought up, but, as for them, they have rebelled against me.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שִׁמְעוּ שָׁמַיִם כִּי יהוה דִּבֵּר בָּנִים גִּדַּלְתִּי וְהֵם פָּשְׁעוּ בִי"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "he-en",
+      "src": "s26-A1"
+    },
+    {
+      "id": "s26-A2.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וְלָמָּה תְכַבְּדוּ אֶת־לְבַבְכֶם כַּאֲשֶׁר כִּבְּדוּ מִצְרַיִם וּפַרְעֹה אֶת־לִבָּם",
+      "stimulusIsScript": true,
+      "statement": "Why then will ye harden your hearts, as the Egyptians and Pharaoh hardened our hearts?",
+      "answer": false,
+      "expected": "Why then will ye harden your hearts, as the Egyptians and Pharaoh hardened their hearts?",
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "he-en",
+      "src": "s26-A2"
+    },
+    {
+      "id": "s26-A2.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "וְלָמָּה תְכַבְּדוּ אֶת־לְבַבְכֶם כַּאֲשֶׁר כִּבְּדוּ מִצְרַיִם וּפַרְעֹה אֶת־לִבָּם",
       "stimulusIsScript": true,
       "options": [
-        "Hear, O heavens, for it is Yahweh that has spoken: Sons have I brought up, but, as for them, they have rebelled against me.",
+        "Why then will ye harden your hearts, as the Egyptians and Pharaoh hardened our hearts?",
+        "Why then will ye harden our hearts, as the Egyptians and Pharaoh hardened their hearts?",
         "Why then will ye harden your hearts, as the Egyptians and Pharaoh hardened their hearts?",
-        "The poor are seeking water, and there is none.",
-        "And Pharaoh called all the wise men of Egypt, and he related to them his dream."
+        "Why then will ye harden your hearts, as the Egyptians and Pharaoh hardened your hearts?"
       ],
       "answer": "Why then will ye harden your hearts, as the Egyptians and Pharaoh hardened their hearts?",
       "optionIsScript": false,
-      "id": "s26-A2",
       "block": "s26",
       "blockLabel": "Davidson §26",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §26 A 2; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n113/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n113.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n62/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n62.jpg",
-        "exwb": "davidson-s26#A2",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s26-A2"
     },
     {
+      "id": "s26-A2.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Why then will ye harden your hearts, as the Egyptians and Pharaoh hardened their hearts?",
+      "stimulus": "וְלָמָּה תְכַבְּדוּ אֶת־לְבַבְכֶם כַּאֲשֶׁר כִּבְּדוּ ＿＿＿ וּפַרְעֹה אֶת־לִבָּם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "מִצְרַיִם"
+      ],
+      "answerIsScript": true,
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "he-en",
+      "src": "s26-A2"
+    },
+    {
+      "id": "s26-A2.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וְלָמָּה תְכַבְּדוּ אֶת־לְבַבְכֶם כַּאֲשֶׁר כִּבְּדוּ מִצְרַיִם וּפַרְעֹה אֶת־לִבָּם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Why then will ye harden your hearts, as the Egyptians and Pharaoh hardened their hearts?",
+        "Why then will you harden your hearts, as the Egyptians and Pharaoh hardened their hearts?"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "he-en",
+      "src": "s26-A2"
+    },
+    {
+      "id": "s26-A2.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Why then will ye harden your hearts, as the Egyptians and Pharaoh hardened their hearts?",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וְלָמָּה תְכַבְּדוּ אֶת־לְבַבְכֶם כַּאֲשֶׁר כִּבְּדוּ מִצְרַיִם וּפַרְעֹה אֶת־לִבָּם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "he-en",
+      "src": "s26-A2"
+    },
+    {
+      "id": "s26-A3.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַשָּׁמַיִם מְסַפְּרִים כְּבוֹד אֱלֹהִים",
+      "stimulusIsScript": true,
+      "statement": "The heavens are telling a glory of God.",
+      "answer": false,
+      "expected": "The heavens are telling the glory of God.",
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "he-en",
+      "src": "s26-A3"
+    },
+    {
+      "id": "s26-A3.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "הַשָּׁמַיִם מְסַפְּרִים כְּבוֹד אֱלֹהִים",
       "stimulusIsScript": true,
       "options": [
-        "The poor are seeking water, and there is none.",
         "The heavens are telling the glory of God.",
-        "Hear, O heavens, for it is Yahweh that has spoken: Sons have I brought up, but, as for them, they have rebelled against me.",
-        "Why then will ye harden your hearts, as the Egyptians and Pharaoh hardened their hearts?"
+        "The heavens are telling a glory of God.",
+        "I cannot speak to this people, for they have hardened their heart.",
+        "Heavens are telling the glory of God."
       ],
       "answer": "The heavens are telling the glory of God.",
       "optionIsScript": false,
-      "id": "s26-A3",
       "block": "s26",
       "blockLabel": "Davidson §26",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §26 A 3; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n113/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n113.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n62/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n62.jpg",
-        "exwb": "davidson-s26#A3",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s26-A3"
     },
     {
+      "id": "s26-A3.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The heavens are telling the glory of God.",
+      "stimulus": "הַשָּׁמַיִם מְסַפְּרִים כְּבוֹד ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֱלֹהִים"
+      ],
+      "answerIsScript": true,
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "he-en",
+      "src": "s26-A3"
+    },
+    {
+      "id": "s26-A3.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הַשָּׁמַיִם מְסַפְּרִים כְּבוֹד אֱלֹהִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The heavens are telling the glory of God."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "he-en",
+      "src": "s26-A3"
+    },
+    {
+      "id": "s26-A3.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The heavens are telling the glory of God.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַשָּׁמַיִם מְסַפְּרִים כְּבוֹד אֱלֹהִים"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "he-en",
+      "src": "s26-A3"
+    },
+    {
+      "id": "s26-A9.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָאֶבְיוֹנִים מְבַקְשִׁים מַיִם וָאַיִן",
+      "stimulusIsScript": true,
+      "statement": "A poor are seeking water, and there is none.",
+      "answer": false,
+      "expected": "The poor are seeking water, and there is none.",
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "he-en",
+      "src": "s26-A9"
+    },
+    {
+      "id": "s26-A9.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "הָאֶבְיוֹנִים מְבַקְשִׁים מַיִם וָאַיִן",
       "stimulusIsScript": true,
       "options": [
-        "Why then will ye harden your hearts, as the Egyptians and Pharaoh hardened their hearts?",
-        "Thy face, Yahweh, I will seek.",
+        "The poor are seeking water, and there is none.",
         "Noah walked with God.",
-        "The poor are seeking water, and there is none."
+        "A poor are seeking water, and there is none.",
+        "The heavens are telling the glory of God."
       ],
       "answer": "The poor are seeking water, and there is none.",
       "optionIsScript": false,
-      "id": "s26-A9",
       "block": "s26",
       "blockLabel": "Davidson §26",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §26 A 9; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n113/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n113.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n62/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n62.jpg",
-        "exwb": "davidson-s26#A9",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s26-A9"
     },
     {
+      "id": "s26-A9.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The poor are seeking water, and there is none.",
+      "stimulus": "＿＿＿ מְבַקְשִׁים מַיִם וָאַיִן",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הָאֶבְיוֹנִים"
+      ],
+      "answerIsScript": true,
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "he-en",
+      "src": "s26-A9"
+    },
+    {
+      "id": "s26-A9.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הָאֶבְיוֹנִים מְבַקְשִׁים מַיִם וָאַיִן",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The poor are seeking water, and there is none."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "he-en",
+      "src": "s26-A9"
+    },
+    {
+      "id": "s26-A9.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The poor are seeking water, and there is none.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאֶבְיוֹנִים מְבַקְשִׁים מַיִם וָאַיִן"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "he-en",
+      "src": "s26-A9"
+    },
+    {
+      "id": "s26-A10.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אֶת־פָּנֶיךָ יְהוָה אֲבַקֵּשׁ",
+      "stimulusIsScript": true,
+      "statement": "His face, Yahweh, I will seek.",
+      "answer": false,
+      "expected": "Thy face, Yahweh, I will seek.",
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "he-en",
+      "src": "s26-A10"
+    },
+    {
+      "id": "s26-A10.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
-      "stimulus": "את־פניך יהוה אבקש",
+      "stimulus": "אֶת־פָּנֶיךָ יְהוָה אֲבַקֵּשׁ",
       "stimulusIsScript": true,
       "options": [
-        "Hear, O heavens, for it is Yahweh that has spoken: Sons have I brought up, but, as for them, they have rebelled against me.",
-        "Why then will ye harden your hearts, as the Egyptians and Pharaoh hardened their hearts?",
+        "My face, Yahweh, I will seek.",
+        "His face, Yahweh, I will seek.",
         "Thy face, Yahweh, I will seek.",
-        "What shall we speak, or how shall we justify ourselves?"
+        "Thy face, Yahweh, we will seek."
       ],
       "answer": "Thy face, Yahweh, I will seek.",
       "optionIsScript": false,
-      "id": "s26-A10",
       "block": "s26",
       "blockLabel": "Davidson §26",
       "shape": "he-en",
-      "hint": "With vowel points: אֶת־פָּנֶיךָ יְהוָה אֲבַקֵּשׁ",
-      "data": {
-        "pointed": "אֶת־פָּנֶיךָ יְהוָה אֲבַקֵּשׁ"
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §26 A 10; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n113/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n113.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n62/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n62.jpg",
-        "exwb": "davidson-s26#A10",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s26-A10"
     },
     {
+      "id": "s26-A10.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Thy face, Yahweh, I will seek.",
+      "stimulus": "אֶת־פָּנֶיךָ יְהוָה ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֲבַקֵּשׁ"
+      ],
+      "answerIsScript": true,
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "he-en",
+      "src": "s26-A10"
+    },
+    {
+      "id": "s26-A10.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "את־פניך יהוה אבקש",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Thy face, Yahweh, I will seek.",
+        "Thy face, the Lord, I will seek.",
+        "Your face, Yahweh, I will seek.",
+        "Your face, the Lord, I will seek."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "hint": "With vowel points: אֶת־פָּנֶיךָ יְהוָה אֲבַקֵּשׁ",
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "he-en",
+      "src": "s26-A10"
+    },
+    {
+      "id": "s26-A10.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Thy face, Yahweh, I will seek.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֶת־פָּנֶיךָ יְהוָה אֲבַקֵּשׁ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "he-en",
+      "src": "s26-A10"
+    },
+    {
+      "id": "s26-A12.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיִּקְרָא פַרְעֹה אֶת־כָּל־חַכְמֵי מִצְרַיִם וַיְסַפֵּר לָהֶם אֶת־חֲלֹמוֹ",
+      "stimulusIsScript": true,
+      "statement": "And Pharaoh called all the wise men of Egypt, and he related from them his dream.",
+      "answer": false,
+      "expected": "And Pharaoh called all the wise men of Egypt, and he related to them his dream.",
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "he-en",
+      "src": "s26-A12"
+    },
+    {
+      "id": "s26-A12.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
-      "stimulus": "ויקרא פרעה את־כל־חכמי מצרים ויספר להם את־חלמו",
+      "stimulus": "וַיִּקְרָא פַרְעֹה אֶת־כָּל־חַכְמֵי מִצְרַיִם וַיְסַפֵּר לָהֶם אֶת־חֲלֹמוֹ",
       "stimulusIsScript": true,
       "options": [
-        "The asses are found which thou wentest to seek.",
         "And Pharaoh called all the wise men of Egypt, and he related to them his dream.",
-        "And no expiation can be made for the land for the blood that has been shed in it, except by the blood of him that shed it.",
-        "Remember the Sabbath day to keep it holy."
+        "And Pharaoh called all a wise men of Egypt, and he related to them his dream.",
+        "And Pharaoh called all the wise men of Egypt, and he related from them his dream.",
+        "And Pharaoh called all the wise men of Egypt, and he related to them their dream."
       ],
       "answer": "And Pharaoh called all the wise men of Egypt, and he related to them his dream.",
       "optionIsScript": false,
-      "id": "s26-A12",
       "block": "s26",
       "blockLabel": "Davidson §26",
       "shape": "he-en",
-      "hint": "With vowel points: וַיִּקְרָא פַרְעֹה אֶת־כָּל־חַכְמֵי מִצְרַיִם וַיְסַפֵּר לָהֶם אֶת־חֲלֹמוֹ",
-      "data": {
-        "pointed": "וַיִּקְרָא פַרְעֹה אֶת־כָּל־חַכְמֵי מִצְרַיִם וַיְסַפֵּר לָהֶם אֶת־חֲלֹמוֹ"
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §26 A 12; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n113/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n113.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n62/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n62.jpg",
-        "exwb": "davidson-s26#A12",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s26-A12"
     },
     {
+      "id": "s26-A12.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Fill in the missing word: And Pharaoh called all the wise men of Egypt, and he related to them his dream.",
+      "stimulus": "וַיִּקְרָא פַרְעֹה ＿＿＿ מִצְרַיִם וַיְסַפֵּר לָהֶם אֶת־חֲלֹמוֹ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶת־כָּל־חַכְמֵי"
+      ],
+      "answerIsScript": true,
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "he-en",
+      "src": "s26-A12"
+    },
+    {
+      "id": "s26-A12.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "ויקרא פרעה את־כל־חכמי מצרים ויספר להם את־חלמו",
+      "stimulusIsScript": true,
+      "accepted": [
+        "And Pharaoh called all the wise men of Egypt, and he related to them his dream."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "hint": "With vowel points: וַיִּקְרָא פַרְעֹה אֶת־כָּל־חַכְמֵי מִצְרַיִם וַיְסַפֵּר לָהֶם אֶת־חֲלֹמוֹ",
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "he-en",
+      "src": "s26-A12"
+    },
+    {
+      "id": "s26-A12.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And Pharaoh called all the wise men of Egypt, and he related to them his dream.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיִּקְרָא פַרְעֹה אֶת־כָּל־חַכְמֵי מִצְרַיִם וַיְסַפֵּר לָהֶם אֶת־חֲלֹמוֹ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "he-en",
+      "src": "s26-A12"
+    },
+    {
+      "id": "s26-B1.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אֵלֶּה הַדְּבָרִים אֲשֶׁר דִּבַּרְתִּי",
+      "stimulusIsScript": true,
+      "statement": "These are the words which I have spoken.",
+      "answer": true,
+      "expected": "These are the words which I have spoken.",
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "en-he",
+      "src": "s26-B1"
+    },
+    {
+      "id": "s26-B1.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אֵלֶּה הַדְּבָרִים אֲשֶׁר דִּבַּרְתִּי",
+      "stimulusIsScript": true,
+      "options": [
+        "Those are the words which I have spoken.",
+        "These are the words which I have spoken.",
+        "Thy face, Yahweh, I will seek.",
+        "These are words which I have spoken."
+      ],
+      "answer": "These are the words which I have spoken.",
+      "optionIsScript": false,
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "en-he",
+      "src": "s26-B1"
+    },
+    {
+      "id": "s26-B1.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: These are the words which I have spoken.",
+      "stimulus": "אֵלֶּה ＿＿＿ אֲשֶׁר דִּבַּרְתִּי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַדְּבָרִים"
+      ],
+      "answerIsScript": true,
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "en-he",
+      "src": "s26-B1"
+    },
+    {
+      "id": "s26-B1.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "These are the words which I have spoken.",
       "stimulusIsScript": false,
       "accepted": [
         "אֵלֶּה הַדְּבָרִים אֲשֶׁר דִּבַּרְתִּי"
       ],
       "answerIsScript": true,
-      "id": "s26-B1",
       "block": "s26",
       "blockLabel": "Davidson §26",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §26 B 1; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n113/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n113.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n62/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n62.jpg",
-        "exwb": "davidson-s26#B1",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s26-B1"
     },
     {
+      "id": "s26-B1.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "These are the words which I have spoken.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֵלֶּה הַדְּבָרִים אֲשֶׁר דִּבַּרְתִּי"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "en-he",
+      "src": "s26-B1"
+    },
+    {
+      "id": "s26-B2.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אַל־תְּכַבְּדוּ אֶת־לְבַבְכֶם פֶּן־יִקְצֹף יְהוָה אֱלֹהֵיכֶם",
+      "stimulusIsScript": true,
+      "statement": "Harden not my heart, lest Yahweh your God be angry.",
+      "answer": false,
+      "expected": "Harden not your heart, lest Yahweh your God be angry.",
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "en-he",
+      "src": "s26-B2"
+    },
+    {
+      "id": "s26-B2.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אַל־תְּכַבְּדוּ אֶת־לְבַבְכֶם פֶּן־יִקְצֹף יְהוָה אֱלֹהֵיכֶם",
+      "stimulusIsScript": true,
+      "options": [
+        "Harden not your heart, lest Yahweh my God be angry.",
+        "Harden not my heart, lest Yahweh your God be angry.",
+        "Harden not your heart, lest Yahweh your God be angry.",
+        "Harden your heart, lest Yahweh your God be angry."
+      ],
+      "answer": "Harden not your heart, lest Yahweh your God be angry.",
+      "optionIsScript": false,
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "en-he",
+      "src": "s26-B2"
+    },
+    {
+      "id": "s26-B2.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Harden not your heart, lest Yahweh your God be angry.",
+      "stimulus": "＿＿＿ אֶת־לְבַבְכֶם פֶּן־יִקְצֹף יְהוָה אֱלֹהֵיכֶם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אַל־תְּכַבְּדוּ"
+      ],
+      "answerIsScript": true,
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "en-he",
+      "src": "s26-B2"
+    },
+    {
+      "id": "s26-B2.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "Harden not your heart, lest Yahweh your God be angry.",
       "stimulusIsScript": false,
       "accepted": [
         "אַל־תְּכַבְּדוּ אֶת־לְבַבְכֶם פֶּן־יִקְצֹף יְהוָה אֱלֹהֵיכֶם"
       ],
       "answerIsScript": true,
-      "id": "s26-B2",
       "block": "s26",
       "blockLabel": "Davidson §26",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §26 B 2; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n113/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n113.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n62/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n62.jpg",
-        "exwb": "davidson-s26#B2",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s26-B2"
     },
     {
+      "id": "s26-B2.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Harden not your heart, lest Yahweh your God be angry.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אַל־תְּכַבְּדוּ אֶת־לְבַבְכֶם פֶּן־יִקְצֹף יְהוָה אֱלֹהֵיכֶם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "en-he",
+      "src": "s26-B2"
+    },
+    {
+      "id": "s26-B3.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "בַּקְּשׁוּ אֶת־פָּנָיו",
+      "stimulusIsScript": true,
+      "statement": "Seek ye his face.",
+      "answer": true,
+      "expected": "Seek ye his face.",
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "en-he",
+      "src": "s26-B3"
+    },
+    {
+      "id": "s26-B3.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "בַּקְּשׁוּ אֶת־פָּנָיו",
+      "stimulusIsScript": true,
+      "options": [
+        "Seek ye their face.",
+        "Seek ye his face.",
+        "Seek ye her face.",
+        "Seek ye my face."
+      ],
+      "answer": "Seek ye his face.",
+      "optionIsScript": false,
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "en-he",
+      "src": "s26-B3"
+    },
+    {
+      "id": "s26-B3.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Seek ye his face.",
+      "stimulus": "＿＿＿ אֶת־פָּנָיו",
+      "stimulusIsScript": true,
+      "accepted": [
+        "בַּקְּשׁוּ"
+      ],
+      "answerIsScript": true,
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "en-he",
+      "src": "s26-B3"
+    },
+    {
+      "id": "s26-B3.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "Seek ye his face.",
       "stimulusIsScript": false,
       "accepted": [
         "בַּקְּשׁוּ אֶת־פָּנָיו"
       ],
       "answerIsScript": true,
-      "id": "s26-B3",
       "block": "s26",
       "blockLabel": "Davidson §26",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §26 B 3; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n113/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n113.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n62/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n62.jpg",
-        "exwb": "davidson-s26#B3",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s26-B3"
     },
     {
+      "id": "s26-B3.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Seek ye his face.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בַּקְּשׁוּ אֶת־פָּנָיו"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "en-he",
+      "src": "s26-B3"
+    },
+    {
+      "id": "s26-B5.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "לֹא יָכֹלְתִּי לְדַבֵּר אֶל־הָעָם הַזֶּה כִּי כִבְּדוּ אֶת־לְבָבָם",
+      "stimulusIsScript": true,
+      "statement": "I cannot speak to this people, for they have hardened their heart.",
+      "answer": true,
+      "expected": "I cannot speak to this people, for they have hardened their heart.",
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "en-he",
+      "src": "s26-B5"
+    },
+    {
+      "id": "s26-B5.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "לֹא יָכֹלְתִּי לְדַבֵּר אֶל־הָעָם הַזֶּה כִּי כִבְּדוּ אֶת־לְבָבָם",
+      "stimulusIsScript": true,
+      "options": [
+        "I cannot speak to this people, for they have hardened our heart.",
+        "I cannot speak in this people, for they have hardened their heart.",
+        "I cannot speak to this people, for they have hardened their heart.",
+        "They cannot speak to this people, for they have hardened their heart."
+      ],
+      "answer": "I cannot speak to this people, for they have hardened their heart.",
+      "optionIsScript": false,
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "en-he",
+      "src": "s26-B5"
+    },
+    {
+      "id": "s26-B5.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: I cannot speak to this people, for they have hardened their heart.",
+      "stimulus": "לֹא יָכֹלְתִּי לְדַבֵּר אֶל־הָעָם הַזֶּה כִּי כִבְּדוּ ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶת־לְבָבָם"
+      ],
+      "answerIsScript": true,
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "en-he",
+      "src": "s26-B5"
+    },
+    {
+      "id": "s26-B5.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "I cannot speak to this people, for they have hardened their heart.",
       "stimulusIsScript": false,
       "accepted": [
         "לֹא יָכֹלְתִּי לְדַבֵּר אֶל־הָעָם הַזֶּה כִּי כִבְּדוּ אֶת־לְבָבָם"
       ],
       "answerIsScript": true,
-      "id": "s26-B5",
       "block": "s26",
       "blockLabel": "Davidson §26",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §26 B 5; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n113/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n113.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n62/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n62.jpg",
-        "exwb": "davidson-s26#B5",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s26-B5"
     },
     {
+      "id": "s26-B5.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "I cannot speak to this people, for they have hardened their heart.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "לֹא יָכֹלְתִּי לְדַבֵּר אֶל־הָעָם הַזֶּה כִּי כִבְּדוּ אֶת־לְבָבָם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "en-he",
+      "src": "s26-B5"
+    },
+    {
+      "id": "s26-B7.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אָמַר אֶל־הָאִשָּׁה דַּבֵּרִי וַתְּדַבֵּר הָאִשָּׁה",
+      "stimulusIsScript": true,
+      "statement": "He said from the woman, Speak, and the woman spoke.",
+      "answer": false,
+      "expected": "He said unto the woman, Speak, and the woman spoke.",
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "en-he",
+      "src": "s26-B7"
+    },
+    {
+      "id": "s26-B7.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אָמַר אֶל־הָאִשָּׁה דַּבֵּרִי וַתְּדַבֵּר הָאִשָּׁה",
+      "stimulusIsScript": true,
+      "options": [
+        "He said unto the woman, Speak, and the woman spoke.",
+        "He said unto the woman, Speak, and a woman spoke.",
+        "She said unto the woman, Speak, and the woman spoke.",
+        "He said from the woman, Speak, and the woman spoke."
+      ],
+      "answer": "He said unto the woman, Speak, and the woman spoke.",
+      "optionIsScript": false,
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "en-he",
+      "src": "s26-B7"
+    },
+    {
+      "id": "s26-B7.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: He said unto the woman, Speak, and the woman spoke.",
+      "stimulus": "אָמַר אֶל־הָאִשָּׁה ＿＿＿ וַתְּדַבֵּר הָאִשָּׁה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "דַּבֵּרִי"
+      ],
+      "answerIsScript": true,
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "en-he",
+      "src": "s26-B7"
+    },
+    {
+      "id": "s26-B7.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "He said unto the woman, Speak, and the woman spoke.",
       "stimulusIsScript": false,
       "accepted": [
         "אָמַר אֶל־הָאִשָּׁה דַּבֵּרִי וַתְּדַבֵּר הָאִשָּׁה"
       ],
       "answerIsScript": true,
-      "id": "s26-B7",
       "block": "s26",
       "blockLabel": "Davidson §26",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §26 B 7; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n113/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n113.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n62/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n62.jpg",
-        "exwb": "davidson-s26#B7",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s26-B7"
     },
     {
+      "id": "s26-B7.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "He said unto the woman, Speak, and the woman spoke.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אָמַר אֶל־הָאִשָּׁה דַּבֵּרִי וַתְּדַבֵּר הָאִשָּׁה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "en-he",
+      "src": "s26-B7"
+    },
+    {
+      "id": "s26-B8.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אֲכַבֵּד אֶת־מְכַבְּדַי",
+      "stimulusIsScript": true,
+      "statement": "I will honour them that honour me.",
+      "answer": true,
+      "expected": "I will honour them that honour me.",
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "en-he",
+      "src": "s26-B8"
+    },
+    {
+      "id": "s26-B8.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אֲכַבֵּד אֶת־מְכַבְּדַי",
+      "stimulusIsScript": true,
+      "options": [
+        "I will honour them that honour me.",
+        "I will honour them this honour me.",
+        "I will honour them that honour him.",
+        "They will honour them that honour me."
+      ],
+      "answer": "I will honour them that honour me.",
+      "optionIsScript": false,
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "en-he",
+      "src": "s26-B8"
+    },
+    {
+      "id": "s26-B8.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: I will honour them that honour me.",
+      "stimulus": "＿＿＿ אֶת־מְכַבְּדַי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֲכַבֵּד"
+      ],
+      "answerIsScript": true,
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "en-he",
+      "src": "s26-B8"
+    },
+    {
+      "id": "s26-B8.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "I will honour them that honour me.",
       "stimulusIsScript": false,
       "accepted": [
         "אֲכַבֵּד אֶת־מְכַבְּדַי"
       ],
       "answerIsScript": true,
-      "id": "s26-B8",
       "block": "s26",
       "blockLabel": "Davidson §26",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §26 B 8; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n113/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n113.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n62/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n62.jpg",
-        "exwb": "davidson-s26#B8",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s26-B8"
     },
     {
+      "id": "s26-B8.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "I will honour them that honour me.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֲכַבֵּד אֶת־מְכַבְּדַי"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "en-he",
+      "src": "s26-B8"
+    },
+    {
+      "id": "s29-B13.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "תְּדַבֶּר־נָא שִׁפְחָתְךָ בְּאָזְנֵי הַמֶּלֶךְ",
+      "stimulusIsScript": true,
+      "statement": "Let their hand-maid speak in the ears of the king.",
+      "answer": false,
+      "expected": "Let thine hand-maid speak in the ears of the king.",
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "en-he",
+      "src": "s29-B13"
+    },
+    {
+      "id": "s29-B13.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "תְּדַבֶּר־נָא שִׁפְחָתְךָ בְּאָזְנֵי הַמֶּלֶךְ",
+      "stimulusIsScript": true,
+      "options": [
+        "Let thine hand-maid speak in the ears of the king.",
+        "Let their hand-maid speak in the ears of the king.",
+        "Let thine hand-maid speak in the ears of a king.",
+        "Let thine hand-maid speak to the ears of the king."
+      ],
+      "answer": "Let thine hand-maid speak in the ears of the king.",
+      "optionIsScript": false,
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "en-he",
+      "src": "s29-B13"
+    },
+    {
+      "id": "s29-B13.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Let thine hand-maid speak in the ears of the king.",
+      "stimulus": "תְּדַבֶּר־נָא שִׁפְחָתְךָ ＿＿＿ הַמֶּלֶךְ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "בְּאָזְנֵי"
+      ],
+      "answerIsScript": true,
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "en-he",
+      "src": "s29-B13"
+    },
+    {
+      "id": "s29-B13.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "Let thine hand-maid speak in the ears of the king.",
       "stimulusIsScript": false,
       "accepted": [
         "תְּדַבֶּר־נָא שִׁפְחָתְךָ בְּאָזְנֵי הַמֶּלֶךְ"
       ],
       "answerIsScript": true,
-      "id": "s29-B13",
       "block": "s29",
       "blockLabel": "Davidson §29",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §29 B 13; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n123/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n123.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n69/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n69.jpg",
-        "exwb": "davidson-s29#B13",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s29-B13"
     },
     {
+      "id": "s29-B13.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Let thine hand-maid speak in the ears of the king.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "תְּדַבֶּר־נָא שִׁפְחָתְךָ בְּאָזְנֵי הַמֶּלֶךְ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s29",
+      "blockLabel": "Davidson §29",
+      "shape": "en-he",
+      "src": "s29-B13"
+    },
+    {
+      "id": "s30-B3.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "שִׁלַּחְתִּי אֶת־אֹיְבִי וַיִּמָּלֵט",
+      "stimulusIsScript": true,
+      "statement": "We let mine enemy go and he escaped.",
+      "answer": false,
+      "expected": "I let mine enemy go and he escaped.",
+      "block": "s30",
+      "blockLabel": "Davidson §30",
+      "shape": "he-en",
+      "src": "s30-B3"
+    },
+    {
+      "id": "s30-B3.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "שִׁלַּחְתִּי אֶת־אֹיְבִי וַיִּמָּלֵט",
       "stimulusIsScript": true,
       "options": [
         "I let mine enemy go and he escaped.",
-        "And the inhabitants of the land shall go (i.e. walk) like blind men, and their blood shall be poured out like dust.",
-        "Their king dealt kindly with our king, our priests, and our prophets.",
-        "Ye are my sons."
+        "We let mine enemy go and he escaped.",
+        "I let mine enemy go and she escaped.",
+        "They let mine enemy go and he escaped."
       ],
       "answer": "I let mine enemy go and he escaped.",
       "optionIsScript": false,
-      "id": "s30-B3",
       "block": "s30",
       "blockLabel": "Davidson §30",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §30 B 3; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n125/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n125.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n72/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n72.jpg",
-        "exwb": "davidson-s30#B3",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s30-B3"
     },
     {
+      "id": "s30-B3.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: I let mine enemy go and he escaped.",
+      "stimulus": "שִׁלַּחְתִּי ＿＿＿ וַיִּמָּלֵט",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶת־אֹיְבִי"
+      ],
+      "answerIsScript": true,
+      "block": "s30",
+      "blockLabel": "Davidson §30",
+      "shape": "he-en",
+      "src": "s30-B3"
+    },
+    {
+      "id": "s30-B3.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "שִׁלַּחְתִּי אֶת־אֹיְבִי וַיִּמָּלֵט",
+      "stimulusIsScript": true,
+      "accepted": [
+        "I let mine enemy go and he escaped."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s30",
+      "blockLabel": "Davidson §30",
+      "shape": "he-en",
+      "src": "s30-B3"
+    },
+    {
+      "id": "s30-B3.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "I let mine enemy go and he escaped.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שִׁלַּחְתִּי אֶת־אֹיְבִי וַיִּמָּלֵט"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s30",
+      "blockLabel": "Davidson §30",
+      "shape": "he-en",
+      "src": "s30-B3"
+    },
+    {
+      "id": "s30-B4.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "מֵת אֹיִבְךָ הַמְבַקֵּשׁ אֶת־נַפְשֶׁךָ",
+      "stimulusIsScript": true,
+      "statement": "Thine enemy is dead who sought thy life.",
+      "answer": true,
+      "expected": "Thine enemy is dead who sought thy life.",
+      "block": "s30",
+      "blockLabel": "Davidson §30",
+      "shape": "he-en",
+      "src": "s30-B4"
+    },
+    {
+      "id": "s30-B4.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "מֵת אֹיִבְךָ הַמְבַקֵּשׁ אֶת־נַפְשֶׁךָ",
       "stimulusIsScript": true,
       "options": [
-        "Thou art my son.",
-        "Thine enemy is dead who sought thy life.",
-        "The Israelites ate the passover with their loins girt, their sandals on their feet, and their staff in their hand.",
-        "Ye are my sons."
+        "My enemy is dead who sought thy life.",
+        "His enemy is dead who sought thy life.",
+        "Thine enemy is dead who sought his life.",
+        "Thine enemy is dead who sought thy life."
       ],
       "answer": "Thine enemy is dead who sought thy life.",
       "optionIsScript": false,
-      "id": "s30-B4",
       "block": "s30",
       "blockLabel": "Davidson §30",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §30 B 4; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n125/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n125.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n72/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n72.jpg",
-        "exwb": "davidson-s30#B4",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s30-B4"
     },
     {
+      "id": "s30-B4.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Thine enemy is dead who sought thy life.",
+      "stimulus": "מֵת אֹיִבְךָ הַמְבַקֵּשׁ ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶת־נַפְשֶׁךָ"
+      ],
+      "answerIsScript": true,
+      "block": "s30",
+      "blockLabel": "Davidson §30",
+      "shape": "he-en",
+      "src": "s30-B4"
+    },
+    {
+      "id": "s30-B4.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "מֵת אֹיִבְךָ הַמְבַקֵּשׁ אֶת־נַפְשֶׁךָ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Thine enemy is dead who sought thy life.",
+        "Your enemy is dead who sought your life."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s30",
+      "blockLabel": "Davidson §30",
+      "shape": "he-en",
+      "src": "s30-B4"
+    },
+    {
+      "id": "s30-B4.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Thine enemy is dead who sought thy life.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מֵת אֹיִבְךָ הַמְבַקֵּשׁ אֶת־נַפְשֶׁךָ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s30",
+      "blockLabel": "Davidson §30",
+      "shape": "he-en",
+      "src": "s30-B4"
+    },
+    {
+      "id": "s30-B8.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "לֹא־אֲדַבֵּר עוֹד בִּשְׁמוֹ",
+      "stimulusIsScript": true,
+      "statement": "I will speak no more in his name.",
+      "answer": true,
+      "expected": "I will speak no more in his name.",
+      "block": "s30",
+      "blockLabel": "Davidson §30",
+      "shape": "he-en",
+      "src": "s30-B8"
+    },
+    {
+      "id": "s30-B8.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
-      "stimulus": "לא־אדבר עוד בשמו",
+      "stimulus": "לֹא־אֲדַבֵּר עוֹד בִּשְׁמוֹ",
       "stimulusIsScript": true,
       "options": [
-        "I will speak no more in his name.",
-        "Thine enemy is dead who sought thy life.",
-        "And ye shall take your staff in your hand.",
-        "And the inhabitants of the land shall go (i.e. walk) like blind men, and their blood shall be poured out like dust."
+        "I will speak no more in their name.",
+        "I will speak no more to his name.",
+        "We will speak no more in his name.",
+        "I will speak no more in his name."
       ],
       "answer": "I will speak no more in his name.",
       "optionIsScript": false,
-      "id": "s30-B8",
       "block": "s30",
       "blockLabel": "Davidson §30",
       "shape": "he-en",
-      "hint": "With vowel points: לֹא־אֲדַבֵּר עוֹד בִּשְׁמוֹ",
-      "data": {
-        "pointed": "לֹא־אֲדַבֵּר עוֹד בִּשְׁמוֹ"
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §30 B 8; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n125/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n125.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n72/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n72.jpg",
-        "exwb": "davidson-s30#B8",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s30-B8"
     },
     {
+      "id": "s30-B8.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Fill in the missing word: I will speak no more in his name.",
+      "stimulus": "לֹא־אֲדַבֵּר ＿＿＿ בִּשְׁמוֹ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "עוֹד"
+      ],
+      "answerIsScript": true,
+      "block": "s30",
+      "blockLabel": "Davidson §30",
+      "shape": "he-en",
+      "src": "s30-B8"
+    },
+    {
+      "id": "s30-B8.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "לא־אדבר עוד בשמו",
+      "stimulusIsScript": true,
+      "accepted": [
+        "I will speak no more in his name."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "hint": "With vowel points: לֹא־אֲדַבֵּר עוֹד בִּשְׁמוֹ",
+      "block": "s30",
+      "blockLabel": "Davidson §30",
+      "shape": "he-en",
+      "src": "s30-B8"
+    },
+    {
+      "id": "s30-B8.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "I will speak no more in his name.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "לֹא־אֲדַבֵּר עוֹד בִּשְׁמוֹ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s30",
+      "blockLabel": "Davidson §30",
+      "shape": "he-en",
+      "src": "s30-B8"
+    },
+    {
+      "id": "s30-C2.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "שִׁלַּח אֶת־הַצְפַרְדְּעִים עַל־כָּל־הָאָרֶץ",
+      "stimulusIsScript": true,
+      "statement": "He sent the frogs upon all a land.",
+      "answer": false,
+      "expected": "He sent the frogs upon all the land.",
+      "block": "s30",
+      "blockLabel": "Davidson §30",
+      "shape": "en-he",
+      "src": "s30-C2"
+    },
+    {
+      "id": "s30-C2.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "שִׁלַּח אֶת־הַצְפַרְדְּעִים עַל־כָּל־הָאָרֶץ",
+      "stimulusIsScript": true,
+      "options": [
+        "He sent the frogs from all the land.",
+        "She sent the frogs upon all the land.",
+        "He sent the frogs upon all the land.",
+        "He sent the frogs upon all a land."
+      ],
+      "answer": "He sent the frogs upon all the land.",
+      "optionIsScript": false,
+      "block": "s30",
+      "blockLabel": "Davidson §30",
+      "shape": "en-he",
+      "src": "s30-C2"
+    },
+    {
+      "id": "s30-C2.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: He sent the frogs upon all the land.",
+      "stimulus": "שִׁלַּח אֶת־הַצְפַרְדְּעִים ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "עַל־כָּל־הָאָרֶץ"
+      ],
+      "answerIsScript": true,
+      "block": "s30",
+      "blockLabel": "Davidson §30",
+      "shape": "en-he",
+      "src": "s30-C2"
+    },
+    {
+      "id": "s30-C2.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "He sent the frogs upon all the land.",
       "stimulusIsScript": false,
       "accepted": [
         "שִׁלַּח אֶת־הַצְפַרְדְּעִים עַל־כָּל־הָאָרֶץ"
       ],
       "answerIsScript": true,
-      "id": "s30-C2",
       "block": "s30",
       "blockLabel": "Davidson §30",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §30 C 2; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n125/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n125.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n72/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n72.jpg",
-        "exwb": "davidson-s30#C2",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s30-C2"
     },
     {
+      "id": "s30-C2.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "He sent the frogs upon all the land.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שִׁלַּח אֶת־הַצְפַרְדְּעִים עַל־כָּל־הָאָרֶץ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s30",
+      "blockLabel": "Davidson §30",
+      "shape": "en-he",
+      "src": "s30-C2"
+    },
+    {
+      "id": "s31-AL28.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וּמְקַבְּצָיו",
+      "stimulusIsScript": true,
+      "statement": "And those this gather it (or him)",
+      "answer": false,
+      "expected": "And those that gather it (or him)",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL28"
+    },
+    {
+      "id": "s31-AL28.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "וּמְקַבְּצָיו",
       "stimulusIsScript": true,
       "options": [
-        "To keep thee",
-        "And to keep her",
         "And those that gather it (or him)",
-        "Thou hast remembered them"
+        "And those this gather it (or him)",
+        "They will remember me",
+        "And these that gather it (or him)"
       ],
       "answer": "And those that gather it (or him)",
       "optionIsScript": false,
-      "id": "s31-AL28",
       "block": "s31",
       "blockLabel": "Davidson §31",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §31 A L28; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n130/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n130.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n75/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n75.jpg",
-        "exwb": "davidson-s31#AL28",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s31-AL28"
     },
     {
+      "id": "s31-AL28.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וּמְקַבְּצָיו",
+      "stimulusIsScript": true,
+      "accepted": [
+        "And those that gather it"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL28"
+    },
+    {
+      "id": "s31-AL28.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And those that gather it (or him)",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וּמְקַבְּצָיו"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s31",
+      "blockLabel": "Davidson §31",
+      "shape": "he-en",
+      "src": "s31-AL28"
+    },
+    {
+      "id": "s47-A8.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "כַּאֲשֶׁר שִׁכְּלָה נָשִׁים חַרְבֶּךָ כֵּן־תִּשְׁכַּל מִנָּשִׁים אִמֶּךָ",
+      "stimulusIsScript": true,
+      "statement": "As thy sword has bereaved women, so shall thy mother be the most bereaved of women.",
+      "answer": true,
+      "expected": "As thy sword has bereaved women, so shall thy mother be the most bereaved of women.",
+      "block": "s47",
+      "blockLabel": "Davidson §47",
+      "shape": "he-en",
+      "src": "s47-A8"
+    },
+    {
+      "id": "s47-A8.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "כַּאֲשֶׁר שִׁכְּלָה נָשִׁים חַרְבֶּךָ כֵּן־תִּשְׁכַּל מִנָּשִׁים אִמֶּךָ",
       "stimulusIsScript": true,
       "options": [
+        "As thy sword has bereaved women, so shall my mother be the most bereaved of women.",
         "As thy sword has bereaved women, so shall thy mother be the most bereaved of women.",
-        "O thou fairest among women!",
-        "The day of death is better than the day of one's birth.",
-        "What is sweeter than honey? and what is stronger than a lion?"
+        "As thy sword has bereaved women, so shall thy mother be a most bereaved of women.",
+        "As his sword has bereaved women, so shall thy mother be the most bereaved of women."
       ],
       "answer": "As thy sword has bereaved women, so shall thy mother be the most bereaved of women.",
       "optionIsScript": false,
-      "id": "s47-A8",
       "block": "s47",
       "blockLabel": "Davidson §47",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §47 A 8; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n181/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n181.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n140/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n140.jpg",
-        "exwb": "davidson-s47#A8",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s47-A8"
+    },
+    {
+      "id": "s47-A8.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: As thy sword has bereaved women, so shall thy mother be the most bereaved of women.",
+      "stimulus": "כַּאֲשֶׁר שִׁכְּלָה נָשִׁים חַרְבֶּךָ ＿＿＿ מִנָּשִׁים אִמֶּךָ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "כֵּן־תִּשְׁכַּל"
+      ],
+      "answerIsScript": true,
+      "block": "s47",
+      "blockLabel": "Davidson §47",
+      "shape": "he-en",
+      "src": "s47-A8"
+    },
+    {
+      "id": "s47-A8.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "כַּאֲשֶׁר שִׁכְּלָה נָשִׁים חַרְבֶּךָ כֵּן־תִּשְׁכַּל מִנָּשִׁים אִמֶּךָ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "As thy sword has bereaved women, so shall thy mother be the most bereaved of women.",
+        "As your sword has bereaved women, so shall your mother be the most bereaved of women."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s47",
+      "blockLabel": "Davidson §47",
+      "shape": "he-en",
+      "src": "s47-A8"
+    },
+    {
+      "id": "s47-A8.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "As thy sword has bereaved women, so shall thy mother be the most bereaved of women.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "כַּאֲשֶׁר שִׁכְּלָה נָשִׁים חַרְבֶּךָ כֵּן־תִּשְׁכַּל מִנָּשִׁים אִמֶּךָ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s47",
+      "blockLabel": "Davidson §47",
+      "shape": "he-en",
+      "src": "s47-A8"
     }
   ]
 }

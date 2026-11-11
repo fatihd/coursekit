@@ -81,6 +81,10 @@ export function initKeyboard(root, layoutId) {
     if (e.target.classList && e.target.classList.contains("hebrew-input")) {
       activeInput = e.target;
       overlay.style.display = "";
+      document.body.style.paddingBottom = `${overlay.offsetHeight + 16}px`;
+      const area = e.target.closest(".drill-wrap") || e.target;
+      const feedback = area.querySelector ? area.querySelector(".drill-feedback") : null;
+      (feedback || e.target).scrollIntoView({ block: "nearest" });
     }
   });
   document.addEventListener("focusout", (e) => {
@@ -88,5 +92,8 @@ export function initKeyboard(root, layoutId) {
       activeInput = null;
       overlay.style.display = "none";
     }
+  });
+  window.addEventListener("hashchange", () => {
+    document.body.style.paddingBottom = "";
   });
 }

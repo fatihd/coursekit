@@ -5,18 +5,18 @@
     {
       "unit": 50,
       "n": 1,
-      "typeGuess": "mcq",
+      "typeGuess": "true-false",
       "confidence": 1.0,
-      "prompt": "Choose the translation",
+      "prompt": "Is this the right translation?",
       "body_raw": "הִנֵּה רֹאשׁוֹ מֻשְׁלָךְ אֵלֶיךָ בְּעַד הַחוֹמָה",
       "answer_raw": "Behold, his head will be thrown to thee over the wall."
     },
     {
       "unit": 50,
       "n": 2,
-      "typeGuess": "translate-phrase",
+      "typeGuess": "true-false",
       "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Is this the right translation?",
       "body_raw": "The prophet found the child laid (Hoph. ptc. of שָׁכַב) upon his bed.",
       "answer_raw": "מָצָא הַנָּבִיא אֶת־הַיֶּלֶד מֻשְׁכָּב עַל־מִטָּתוֹ"
     }

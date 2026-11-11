@@ -1,131 +1,766 @@
 {
   "schema": "authored-exercises-v1.json",
   "unit": 51,
+  "sources": {
+    "s26-A5": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §26 A 5; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n113/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n113.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n62/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n62.jpg",
+      "exwb": "davidson-s26#A5",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s26-A8": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §26 A 8; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n113/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n113.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n62/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n62.jpg",
+      "exwb": "davidson-s26#A8",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s26-B4": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §26 B 4; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n113/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n113.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n62/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n62.jpg",
+      "exwb": "davidson-s26#B4",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s26-B6": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §26 B 6; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n113/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n113.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n62/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n62.jpg",
+      "exwb": "davidson-s26#B6",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s26-B9": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §26 B 9; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n113/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n113.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n62/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n62.jpg",
+      "exwb": "davidson-s26#B9",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s28-AL1": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L1; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
+      "exwb": "davidson-s28#AL1",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s28-AL2": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L2; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
+      "exwb": "davidson-s28#AL2",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s28-AL3": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L3; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
+      "exwb": "davidson-s28#AL3",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s28-AL4": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L4; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
+      "exwb": "davidson-s28#AL4",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s28-AL5": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L5; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
+      "exwb": "davidson-s28#AL5",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s28-AL6": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L6; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
+      "exwb": "davidson-s28#AL6",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s28-AL7": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L7; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
+      "exwb": "davidson-s28#AL7",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s28-AL8": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L8; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
+      "exwb": "davidson-s28#AL8",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s28-AL9": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L9; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
+      "exwb": "davidson-s28#AL9",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s28-AL10": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L10; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
+      "exwb": "davidson-s28#AL10",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s28-AL11": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L11; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
+      "exwb": "davidson-s28#AL11",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s28-AL12": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L12; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
+      "exwb": "davidson-s28#AL12",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s28-AL13": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L13; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
+      "exwb": "davidson-s28#AL13",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s28-AL14": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L14; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
+      "exwb": "davidson-s28#AL14",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s28-AL15": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L15; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
+      "exwb": "davidson-s28#AL15",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s28-AL16": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L16; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
+      "exwb": "davidson-s28#AL16",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s28-AL17": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L17; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
+      "exwb": "davidson-s28#AL17",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s28-AL18": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L18; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
+      "exwb": "davidson-s28#AL18",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s28-AL19": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L19; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
+      "exwb": "davidson-s28#AL19",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s28-AL20": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L20; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
+      "exwb": "davidson-s28#AL20",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s28-AL21": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L21; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
+      "exwb": "davidson-s28#AL21",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s28-AL22": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L22; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
+      "exwb": "davidson-s28#AL22",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s28-AL23": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L23; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
+      "exwb": "davidson-s28#AL23",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s28-AL24": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L24; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
+      "exwb": "davidson-s28#AL24",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s28-AL25": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L25; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
+      "exwb": "davidson-s28#AL25",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s28-AL26": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L26; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
+      "exwb": "davidson-s28#AL26",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s28-AL27": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L27; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
+      "exwb": "davidson-s28#AL27",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s28-AL28": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L28; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
+      "exwb": "davidson-s28#AL28",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s28-AL29": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L29; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
+      "exwb": "davidson-s28#AL29",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    }
+  },
   "items": [
     {
+      "id": "s26-A5.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אֶת־הָאֱלֹהִים הִתְהַלֶּךְ־נֹחַ",
+      "stimulusIsScript": true,
+      "statement": "And they heard the voice of Yahweh as he walked in the garden in the cool of the day, and the man and his wife hid themselves from the presence of Yahweh.",
+      "answer": false,
+      "expected": "Noah walked with God.",
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "he-en",
+      "src": "s26-A5"
+    },
+    {
+      "id": "s26-A5.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "אֶת־הָאֱלֹהִים הִתְהַלֶּךְ־נֹחַ",
       "stimulusIsScript": true,
       "options": [
-        "Thy face, Yahweh, I will seek.",
         "The heavens are telling the glory of God.",
-        "What shall we speak, or how shall we justify ourselves?",
-        "Noah walked with God."
+        "Noah walked with God.",
+        "And they heard the voice of Yahweh as he walked in the garden in the cool of the day, and the man and his wife hid themselves from the presence of Yahweh.",
+        "The poor are seeking water, and there is none."
       ],
       "answer": "Noah walked with God.",
       "optionIsScript": false,
-      "id": "s26-A5",
       "block": "s26",
       "blockLabel": "Davidson §26",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §26 A 5; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n113/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n113.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n62/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n62.jpg",
-        "exwb": "davidson-s26#A5",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s26-A5"
     },
     {
+      "id": "s26-A5.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Noah walked with God.",
+      "stimulus": "＿＿＿ הִתְהַלֶּךְ־נֹחַ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶת־הָאֱלֹהִים"
+      ],
+      "answerIsScript": true,
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "he-en",
+      "src": "s26-A5"
+    },
+    {
+      "id": "s26-A5.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "אֶת־הָאֱלֹהִים הִתְהַלֶּךְ־נֹחַ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Noah walked with God."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "he-en",
+      "src": "s26-A5"
+    },
+    {
+      "id": "s26-A5.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Noah walked with God.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֶת־הָאֱלֹהִים הִתְהַלֶּךְ־נֹחַ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "he-en",
+      "src": "s26-A5"
+    },
+    {
+      "id": "s26-A8.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "מַה־נְּדַבֵּר וּמַה־נִּצְטַדָּק",
+      "stimulusIsScript": true,
+      "statement": "What shall we speak, or how shall we justify ourselves?",
+      "answer": true,
+      "expected": "What shall we speak, or how shall we justify ourselves?",
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "he-en",
+      "src": "s26-A8"
+    },
+    {
+      "id": "s26-A8.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "מַה־נְּדַבֵּר וּמַה־נִּצְטַדָּק",
       "stimulusIsScript": true,
       "options": [
-        "The poor are seeking water, and there is none.",
-        "And they heard the voice of Yahweh as he walked in the garden in the cool of the day, and the man and his wife hid themselves from the presence of Yahweh.",
-        "The heavens are telling the glory of God.",
+        "What shall they speak, or how shall we justify ourselves?",
+        "What shall we speak, or how shall they justify ourselves?",
+        "What shall we speak, or how shall I justify ourselves?",
         "What shall we speak, or how shall we justify ourselves?"
       ],
       "answer": "What shall we speak, or how shall we justify ourselves?",
       "optionIsScript": false,
-      "id": "s26-A8",
       "block": "s26",
       "blockLabel": "Davidson §26",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §26 A 8; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n113/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n113.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n62/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n62.jpg",
-        "exwb": "davidson-s26#A8",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s26-A8"
     },
     {
+      "id": "s26-A8.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Fill in the missing word: What shall we speak, or how shall we justify ourselves?",
+      "stimulus": "＿＿＿ וּמַה־נִּצְטַדָּק",
+      "stimulusIsScript": true,
+      "accepted": [
+        "מַה־נְּדַבֵּר"
+      ],
+      "answerIsScript": true,
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "he-en",
+      "src": "s26-A8"
+    },
+    {
+      "id": "s26-A8.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "מַה־נְּדַבֵּר וּמַה־נִּצְטַדָּק",
+      "stimulusIsScript": true,
+      "accepted": [
+        "What shall we speak, or how shall we justify ourselves?"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "he-en",
+      "src": "s26-A8"
+    },
+    {
+      "id": "s26-A8.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "What shall we speak, or how shall we justify ourselves?",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מַה־נְּדַבֵּר וּמַה־נִּצְטַדָּק"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "he-en",
+      "src": "s26-A8"
+    },
+    {
+      "id": "s26-B4.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הִתְהַלְּכוּ לְפָנַי וְהִתְקַדִּשְׁתֶּם",
+      "stimulusIsScript": true,
+      "statement": "Walk before me and sanctify yourselves.",
+      "answer": true,
+      "expected": "Walk before me and sanctify yourselves.",
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "en-he",
+      "src": "s26-B4"
+    },
+    {
+      "id": "s26-B4.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הִתְהַלְּכוּ לְפָנַי וְהִתְקַדִּשְׁתֶּם",
+      "stimulusIsScript": true,
+      "options": [
+        "Walk before us and sanctify yourselves.",
+        "And now, behold, the king walketh (ptc.) before you, and I am old, and I have walked before you from my youth until this day.",
+        "Walk before me and sanctify yourselves.",
+        "Walk before him and sanctify yourselves."
+      ],
+      "answer": "Walk before me and sanctify yourselves.",
+      "optionIsScript": false,
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "en-he",
+      "src": "s26-B4"
+    },
+    {
+      "id": "s26-B4.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Walk before me and sanctify yourselves.",
+      "stimulus": "הִתְהַלְּכוּ לְפָנַי ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וְהִתְקַדִּשְׁתֶּם"
+      ],
+      "answerIsScript": true,
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "en-he",
+      "src": "s26-B4"
+    },
+    {
+      "id": "s26-B4.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "Walk before me and sanctify yourselves.",
       "stimulusIsScript": false,
       "accepted": [
         "הִתְהַלְּכוּ לְפָנַי וְהִתְקַדִּשְׁתֶּם"
       ],
       "answerIsScript": true,
-      "id": "s26-B4",
       "block": "s26",
       "blockLabel": "Davidson §26",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §26 B 4; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n113/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n113.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n62/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n62.jpg",
-        "exwb": "davidson-s26#B4",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s26-B4"
     },
     {
+      "id": "s26-B4.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Walk before me and sanctify yourselves.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הִתְהַלְּכוּ לְפָנַי וְהִתְקַדִּשְׁתֶּם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "en-he",
+      "src": "s26-B4"
+    },
+    {
+      "id": "s26-B6.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "שָׁמַעְנוּ אֶת־קוֹל יְהוָה מִתְהַלֵּךְ בַּגָּן וַנִּתְחַבֵּא מִפָּנָיו",
+      "stimulusIsScript": true,
+      "statement": "We heard the voice of Yahweh walking in a garden and we hid ourselves from his face.",
+      "answer": false,
+      "expected": "We heard the voice of Yahweh walking in the garden and we hid ourselves from his face.",
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "en-he",
+      "src": "s26-B6"
+    },
+    {
+      "id": "s26-B6.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "שָׁמַעְנוּ אֶת־קוֹל יְהוָה מִתְהַלֵּךְ בַּגָּן וַנִּתְחַבֵּא מִפָּנָיו",
+      "stimulusIsScript": true,
+      "options": [
+        "We heard the voice of Yahweh walking in the garden and we hid ourselves from her face.",
+        "We heard the voice of Yahweh walking in the garden and we hid ourselves from his face.",
+        "They heard the voice of Yahweh walking in the garden and we hid ourselves from his face.",
+        "We heard the voice of Yahweh walking in a garden and we hid ourselves from his face."
+      ],
+      "answer": "We heard the voice of Yahweh walking in the garden and we hid ourselves from his face.",
+      "optionIsScript": false,
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "en-he",
+      "src": "s26-B6"
+    },
+    {
+      "id": "s26-B6.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: We heard the voice of Yahweh walking in the garden and we hid ourselves from his face.",
+      "stimulus": "שָׁמַעְנוּ ＿＿＿ יְהוָה מִתְהַלֵּךְ בַּגָּן וַנִּתְחַבֵּא מִפָּנָיו",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶת־קוֹל"
+      ],
+      "answerIsScript": true,
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "en-he",
+      "src": "s26-B6"
+    },
+    {
+      "id": "s26-B6.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "We heard the voice of Yahweh walking in the garden and we hid ourselves from his face.",
       "stimulusIsScript": false,
       "accepted": [
         "שָׁמַעְנוּ אֶת־קוֹל יְהוָה מִתְהַלֵּךְ בַּגָּן וַנִּתְחַבֵּא מִפָּנָיו"
       ],
       "answerIsScript": true,
-      "id": "s26-B6",
       "block": "s26",
       "blockLabel": "Davidson §26",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §26 B 6; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n113/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n113.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n62/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n62.jpg",
-        "exwb": "davidson-s26#B6",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s26-B6"
     },
     {
+      "id": "s26-B6.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "We heard the voice of Yahweh walking in the garden and we hid ourselves from his face.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שָׁמַעְנוּ אֶת־קוֹל יְהוָה מִתְהַלֵּךְ בַּגָּן וַנִּתְחַבֵּא מִפָּנָיו"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "en-he",
+      "src": "s26-B6"
+    },
+    {
+      "id": "s26-B9.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וְעַתָּה הִנֵּה הַמֶּלֶךְ מִתְהַלֵּךְ לִפְנֵיכֶם וַאֲנִי זָקַנְתִּי וַאֲנִי הִתְהַלַּכְתִּי לִפְנֵיכֶם מִנְּעֻרַי עַד־הַיּוֹם הַזֶּה",
+      "stimulusIsScript": true,
+      "statement": "And now, behold, the king walketh (ptc.) before you, and I am old, and I have walked before you from thy youth until this day.",
+      "answer": false,
+      "expected": "And now, behold, the king walketh (ptc.) before you, and I am old, and I have walked before you from my youth until this day.",
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "en-he",
+      "src": "s26-B9"
+    },
+    {
+      "id": "s26-B9.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וְעַתָּה הִנֵּה הַמֶּלֶךְ מִתְהַלֵּךְ לִפְנֵיכֶם וַאֲנִי זָקַנְתִּי וַאֲנִי הִתְהַלַּכְתִּי לִפְנֵיכֶם מִנְּעֻרַי עַד־הַיּוֹם הַזֶּה",
+      "stimulusIsScript": true,
+      "options": [
+        "And now, behold, a king walketh (ptc.) before you, and I am old, and I have walked before you from my youth until this day.",
+        "And now, behold, the king walketh (ptc.) before you, and I am old, and I have walked before you from thy youth until this day.",
+        "And now, behold, the king walketh (ptc.) before you, and I am old, and I have walked before you to my youth until this day.",
+        "And now, behold, the king walketh (ptc.) before you, and I am old, and I have walked before you from my youth until this day."
+      ],
+      "answer": "And now, behold, the king walketh (ptc.) before you, and I am old, and I have walked before you from my youth until this day.",
+      "optionIsScript": false,
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "en-he",
+      "src": "s26-B9"
+    },
+    {
+      "id": "s26-B9.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: And now, behold, the king walketh (ptc.) before you, and I am old, and I have walked before you from my youth until this day.",
+      "stimulus": "וְעַתָּה הִנֵּה הַמֶּלֶךְ מִתְהַלֵּךְ ＿＿＿ וַאֲנִי זָקַנְתִּי וַאֲנִי הִתְהַלַּכְתִּי לִפְנֵיכֶם מִנְּעֻרַי עַד־הַיּוֹם הַזֶּה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "לִפְנֵיכֶם"
+      ],
+      "answerIsScript": true,
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "en-he",
+      "src": "s26-B9"
+    },
+    {
+      "id": "s26-B9.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "And now, behold, the king walketh (ptc.) before you, and I am old, and I have walked before you from my youth until this day.",
       "stimulusIsScript": false,
       "accepted": [
         "וְעַתָּה הִנֵּה הַמֶּלֶךְ מִתְהַלֵּךְ לִפְנֵיכֶם וַאֲנִי זָקַנְתִּי וַאֲנִי הִתְהַלַּכְתִּי לִפְנֵיכֶם מִנְּעֻרַי עַד־הַיּוֹם הַזֶּה"
       ],
       "answerIsScript": true,
-      "id": "s26-B9",
       "block": "s26",
       "blockLabel": "Davidson §26",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §26 B 9; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n113/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n113.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n62/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n62.jpg",
-        "exwb": "davidson-s26#B9",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s26-B9"
     },
     {
+      "id": "s26-B9.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And now, behold, the king walketh (ptc.) before you, and I am old, and I have walked before you from my youth until this day.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וְעַתָּה הִנֵּה הַמֶּלֶךְ מִתְהַלֵּךְ לִפְנֵיכֶם וַאֲנִי זָקַנְתִּי וַאֲנִי הִתְהַלַּכְתִּי לִפְנֵיכֶם מִנְּעֻרַי עַד־הַיּוֹם הַזֶּה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s26",
+      "blockLabel": "Davidson §26",
+      "shape": "en-he",
+      "src": "s26-B9"
+    },
+    {
+      "id": "s28-AL1.parse",
+      "rung": 3,
+      "rungLabel": "Parse",
       "type": "parse-form",
       "prompt": "Parse this form",
       "stimulus": "כָּתַבְתִּי",
@@ -198,10 +833,10 @@
           "person": "1"
         }
       ],
-      "id": "s28-AL1",
       "block": "s28",
       "blockLabel": "Davidson §28",
       "shape": "parse",
+      "src": "s28-AL1",
       "explain": "Key: 1 sing. pf. Qal of כתב",
       "data": {
         "parse": {
@@ -211,18 +846,12 @@
           "stem": "Qal",
           "root": "כתב"
         }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L1; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
-        "exwb": "davidson-s28#AL1",
-        "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
+      "id": "s28-AL2.parse",
+      "rung": 3,
+      "rungLabel": "Parse",
       "type": "parse-form",
       "prompt": "Parse this form",
       "stimulus": "כֹּתְבִים",
@@ -303,10 +932,10 @@
           "root": "כתב"
         }
       ],
-      "id": "s28-AL2",
       "block": "s28",
       "blockLabel": "Davidson §28",
       "shape": "parse",
+      "src": "s28-AL2",
       "explain": "Key: plur. masc. abs. act. ptc. Qal of כתב",
       "data": {
         "parse": {
@@ -317,18 +946,12 @@
           "state": "absolute",
           "root": "כתב"
         }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L2; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
-        "exwb": "davidson-s28#AL2",
-        "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
+      "id": "s28-AL3.parse",
+      "rung": 3,
+      "rungLabel": "Parse",
       "type": "parse-form",
       "prompt": "Parse this form",
       "stimulus": "כְּתוּבִים",
@@ -409,10 +1032,10 @@
           "root": "כתב"
         }
       ],
-      "id": "s28-AL3",
       "block": "s28",
       "blockLabel": "Davidson §28",
       "shape": "parse",
+      "src": "s28-AL3",
       "explain": "Key: plur. masc. abs. pass. ptc. Qal of כתב (also the Hebrew name of the 'Writings')",
       "data": {
         "parse": {
@@ -423,18 +1046,12 @@
           "state": "absolute",
           "root": "כתב"
         }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L3; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
-        "exwb": "davidson-s28#AL3",
-        "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
+      "id": "s28-AL4.parse",
+      "rung": 3,
+      "rungLabel": "Parse",
       "type": "parse-form",
       "prompt": "Parse this form",
       "stimulus": "תִּכְתֹּב",
@@ -524,10 +1141,10 @@
           "person": "3"
         }
       ],
-      "id": "s28-AL4",
       "block": "s28",
       "blockLabel": "Davidson §28",
       "shape": "parse",
+      "src": "s28-AL4",
       "explain": "Key: 2 sing. masc. or 3 sing. fem. impf. Qal of כתב",
       "data": {
         "parse": {
@@ -539,18 +1156,12 @@
           "root": "כתב",
           "alt": "3 sing. fem. impf. Qal of כתב"
         }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L4; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
-        "exwb": "davidson-s28#AL4",
-        "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
+      "id": "s28-AL5.parse",
+      "rung": 3,
+      "rungLabel": "Parse",
       "type": "parse-form",
       "prompt": "Parse this form",
       "stimulus": "יִכָּתֵב",
@@ -632,10 +1243,10 @@
           "person": "3"
         }
       ],
-      "id": "s28-AL5",
       "block": "s28",
       "blockLabel": "Davidson §28",
       "shape": "parse",
+      "src": "s28-AL5",
       "explain": "Key: 3 sing. masc. impf. Niph. of כתב",
       "data": {
         "parse": {
@@ -646,18 +1257,12 @@
           "stem": "Niph'al",
           "root": "כתב"
         }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L5; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
-        "exwb": "davidson-s28#AL5",
-        "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
+      "id": "s28-AL6.parse",
+      "rung": 3,
+      "rungLabel": "Parse",
       "type": "parse-form",
       "prompt": "Parse this form",
       "stimulus": "שְׁמֹר",
@@ -747,10 +1352,10 @@
           "person": "2"
         }
       ],
-      "id": "s28-AL6",
       "block": "s28",
       "blockLabel": "Davidson §28",
       "shape": "parse",
+      "src": "s28-AL6",
       "explain": "Key: inf. cstr. or 2 sing. masc. imperat. Qal of שׁמר",
       "data": {
         "parse": {
@@ -759,18 +1364,12 @@
           "root": "שׁמר",
           "alt": "2 sing. masc. imperat. Qal of שׁמר"
         }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L6; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
-        "exwb": "davidson-s28#AL6",
-        "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
+      "id": "s28-AL7.parse",
+      "rung": 3,
+      "rungLabel": "Parse",
       "type": "parse-form",
       "prompt": "Parse this form",
       "stimulus": "נִשְׁמָר",
@@ -851,10 +1450,10 @@
           "root": "שׁמר"
         }
       ],
-      "id": "s28-AL7",
       "block": "s28",
       "blockLabel": "Davidson §28",
       "shape": "parse",
+      "src": "s28-AL7",
       "explain": "Key: sing. masc. abs. ptc. Niph. of שׁמר (or pausal form of the 3 sing. masc. pf. Niph.)",
       "data": {
         "parse": {
@@ -865,18 +1464,12 @@
           "state": "absolute",
           "root": "שׁמר"
         }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L7; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
-        "exwb": "davidson-s28#AL7",
-        "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
+      "id": "s28-AL8.parse",
+      "rung": 3,
+      "rungLabel": "Parse",
       "type": "parse-form",
       "prompt": "Parse this form",
       "stimulus": "נִשְׁמֹר",
@@ -954,10 +1547,10 @@
           "root": "שׁמר"
         }
       ],
-      "id": "s28-AL8",
       "block": "s28",
       "blockLabel": "Davidson §28",
       "shape": "parse",
+      "src": "s28-AL8",
       "explain": "Key: 1 plur. impf. Qal or inf. abs. Niph. of שׁמר",
       "data": {
         "parse": {
@@ -968,18 +1561,12 @@
           "root": "שׁמר",
           "alt": "inf. abs. Niph. of שׁמר"
         }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L8; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
-        "exwb": "davidson-s28#AL8",
-        "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
+      "id": "s28-AL9.parse",
+      "rung": 3,
+      "rungLabel": "Parse",
       "type": "parse-form",
       "prompt": "Parse this form",
       "stimulus": "הִשָּׁמֵר",
@@ -1061,10 +1648,10 @@
           "person": "2"
         }
       ],
-      "id": "s28-AL9",
       "block": "s28",
       "blockLabel": "Davidson §28",
       "shape": "parse",
+      "src": "s28-AL9",
       "explain": "Key: 2 sing. masc. imperat. (or inf. cstr.) Niph. of שׁמר",
       "data": {
         "parse": {
@@ -1075,18 +1662,12 @@
           "stem": "Niph'al",
           "root": "שׁמר"
         }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L9; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
-        "exwb": "davidson-s28#AL9",
-        "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
+      "id": "s28-AL10.parse",
+      "rung": 3,
+      "rungLabel": "Parse",
       "type": "parse-form",
       "prompt": "Parse this form",
       "stimulus": "מְשַׁמֵּר",
@@ -1175,10 +1756,10 @@
           "number": "sing."
         }
       ],
-      "id": "s28-AL10",
       "block": "s28",
       "blockLabel": "Davidson §28",
       "shape": "parse",
+      "src": "s28-AL10",
       "explain": "Key: sing. masc. abs. or cstr. ptc. Pi. of שׁמר",
       "data": {
         "parse": {
@@ -1190,18 +1771,12 @@
           "root": "שׁמר",
           "alt": "cstr. ptc. Pi. of שׁמר"
         }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L10; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
-        "exwb": "davidson-s28#AL10",
-        "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
+      "id": "s28-AL11.parse",
+      "rung": 3,
+      "rungLabel": "Parse",
       "type": "parse-form",
       "prompt": "Parse this form",
       "stimulus": "יְרַדֵּף",
@@ -1283,10 +1858,10 @@
           "person": "3"
         }
       ],
-      "id": "s28-AL11",
       "block": "s28",
       "blockLabel": "Davidson §28",
       "shape": "parse",
+      "src": "s28-AL11",
       "explain": "Key: 3 sing. masc. impf. Pi. of רדף",
       "data": {
         "parse": {
@@ -1297,18 +1872,12 @@
           "stem": "Pi'el",
           "root": "רדף"
         }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L11; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
-        "exwb": "davidson-s28#AL11",
-        "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
+      "id": "s28-AL12.parse",
+      "rung": 3,
+      "rungLabel": "Parse",
       "type": "parse-form",
       "prompt": "Parse this form",
       "stimulus": "אֶשְׁבֹּר",
@@ -1381,10 +1950,10 @@
           "person": "1"
         }
       ],
-      "id": "s28-AL12",
       "block": "s28",
       "blockLabel": "Davidson §28",
       "shape": "parse",
+      "src": "s28-AL12",
       "explain": "Key: 1 sing. impf. Qal of שׁבר",
       "data": {
         "parse": {
@@ -1394,18 +1963,12 @@
           "stem": "Qal",
           "root": "שׁבר"
         }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L12; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
-        "exwb": "davidson-s28#AL12",
-        "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
+      "id": "s28-AL13.parse",
+      "rung": 3,
+      "rungLabel": "Parse",
       "type": "parse-form",
       "prompt": "Parse this form",
       "stimulus": "אֲשַׁבֵּר",
@@ -1478,10 +2041,10 @@
           "person": "1"
         }
       ],
-      "id": "s28-AL13",
       "block": "s28",
       "blockLabel": "Davidson §28",
       "shape": "parse",
+      "src": "s28-AL13",
       "explain": "Key: 1 sing. impf. Pi. of שׁבר",
       "data": {
         "parse": {
@@ -1491,18 +2054,12 @@
           "stem": "Pi'el",
           "root": "שׁבר"
         }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L13; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
-        "exwb": "davidson-s28#AL13",
-        "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
+      "id": "s28-AL14.parse",
+      "rung": 3,
+      "rungLabel": "Parse",
       "type": "parse-form",
       "prompt": "Parse this form",
       "stimulus": "מַזְכִּיר",
@@ -1591,10 +2148,10 @@
           "number": "sing."
         }
       ],
-      "id": "s28-AL14",
       "block": "s28",
       "blockLabel": "Davidson §28",
       "shape": "parse",
+      "src": "s28-AL14",
       "explain": "Key: sing. masc. abs. or cstr. ptc. Hiph. of זכר",
       "data": {
         "parse": {
@@ -1606,18 +2163,12 @@
           "root": "זכר",
           "alt": "cstr. ptc. Hiph. of זכר"
         }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L14; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
-        "exwb": "davidson-s28#AL14",
-        "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
+      "id": "s28-AL15.parse",
+      "rung": 3,
+      "rungLabel": "Parse",
       "type": "parse-form",
       "prompt": "Parse this form",
       "stimulus": "הַמְשֵׁל",
@@ -1707,10 +2258,10 @@
           "person": "2"
         }
       ],
-      "id": "s28-AL15",
       "block": "s28",
       "blockLabel": "Davidson §28",
       "shape": "parse",
+      "src": "s28-AL15",
       "explain": "Key: inf. abs. or 2 sing. masc. imperat. Hiph. of משׁל",
       "data": {
         "parse": {
@@ -1719,18 +2270,12 @@
           "root": "משׁל",
           "alt": "2 sing. masc. imperat. Hiph. of משׁל"
         }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L15; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
-        "exwb": "davidson-s28#AL15",
-        "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
+      "id": "s28-AL16.parse",
+      "rung": 3,
+      "rungLabel": "Parse",
       "type": "parse-form",
       "prompt": "Parse this form",
       "stimulus": "רֻדַּף",
@@ -1812,10 +2357,10 @@
           "person": "3"
         }
       ],
-      "id": "s28-AL16",
       "block": "s28",
       "blockLabel": "Davidson §28",
       "shape": "parse",
+      "src": "s28-AL16",
       "explain": "Key: 3 sing. masc. pf. Pu. of רדף",
       "data": {
         "parse": {
@@ -1826,18 +2371,12 @@
           "stem": "Pu'al",
           "root": "רדף"
         }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L16; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
-        "exwb": "davidson-s28#AL16",
-        "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
+      "id": "s28-AL17.parse",
+      "rung": 3,
+      "rungLabel": "Parse",
       "type": "parse-form",
       "prompt": "Parse this form",
       "stimulus": "הָשְׁבַּר",
@@ -1919,10 +2458,10 @@
           "person": "3"
         }
       ],
-      "id": "s28-AL17",
       "block": "s28",
       "blockLabel": "Davidson §28",
       "shape": "parse",
+      "src": "s28-AL17",
       "explain": "Key: 3 sing. masc. pf. Hoph. of שׁבר",
       "data": {
         "parse": {
@@ -1933,18 +2472,12 @@
           "stem": "Hoph'al",
           "root": "שׁבר"
         }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L17; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
-        "exwb": "davidson-s28#AL17",
-        "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
+      "id": "s28-AL18.parse",
+      "rung": 3,
+      "rungLabel": "Parse",
       "type": "parse-form",
       "prompt": "Parse this form",
       "stimulus": "זָכוֹר",
@@ -1997,10 +2530,10 @@
           "root": "זכר"
         }
       ],
-      "id": "s28-AL18",
       "block": "s28",
       "blockLabel": "Davidson §28",
       "shape": "parse",
+      "src": "s28-AL18",
       "explain": "Key: inf. abs. Qal of זכר",
       "data": {
         "parse": {
@@ -2008,18 +2541,12 @@
           "stem": "Qal",
           "root": "זכר"
         }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L18; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
-        "exwb": "davidson-s28#AL18",
-        "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
+      "id": "s28-AL19.parse",
+      "rung": 3,
+      "rungLabel": "Parse",
       "type": "parse-form",
       "prompt": "Parse this form",
       "stimulus": "תַּמְשִׁילוּ",
@@ -2101,10 +2628,10 @@
           "person": "2"
         }
       ],
-      "id": "s28-AL19",
       "block": "s28",
       "blockLabel": "Davidson §28",
       "shape": "parse",
+      "src": "s28-AL19",
       "explain": "Key: 2 plur. masc. impf. Hiph. of משׁל",
       "data": {
         "parse": {
@@ -2115,18 +2642,12 @@
           "stem": "Hiph'il",
           "root": "משׁל"
         }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L19; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
-        "exwb": "davidson-s28#AL19",
-        "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
+      "id": "s28-AL20.parse",
+      "rung": 3,
+      "rungLabel": "Parse",
       "type": "parse-form",
       "prompt": "Parse this form",
       "stimulus": "תִּשְׁקְלִי",
@@ -2208,10 +2729,10 @@
           "person": "2"
         }
       ],
-      "id": "s28-AL20",
       "block": "s28",
       "blockLabel": "Davidson §28",
       "shape": "parse",
+      "src": "s28-AL20",
       "explain": "Key: 2 sing. fem. impf. Qal of שׁקל",
       "data": {
         "parse": {
@@ -2222,18 +2743,12 @@
           "stem": "Qal",
           "root": "שׁקל"
         }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L20; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
-        "exwb": "davidson-s28#AL20",
-        "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
+      "id": "s28-AL21.parse",
+      "rung": 3,
+      "rungLabel": "Parse",
       "type": "parse-form",
       "prompt": "Parse this form",
       "stimulus": "שְׁקֹל",
@@ -2323,10 +2838,10 @@
           "person": "2"
         }
       ],
-      "id": "s28-AL21",
       "block": "s28",
       "blockLabel": "Davidson §28",
       "shape": "parse",
+      "src": "s28-AL21",
       "explain": "Key: inf. cstr. or 2 sing. masc. imperat. Qal of שׁקל",
       "data": {
         "parse": {
@@ -2335,18 +2850,12 @@
           "root": "שׁקל",
           "alt": "2 sing. masc. imperat. Qal of שׁקל"
         }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L21; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
-        "exwb": "davidson-s28#AL21",
-        "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
+      "id": "s28-AL22.parse",
+      "rung": 3,
+      "rungLabel": "Parse",
       "type": "parse-form",
       "prompt": "Parse this form",
       "stimulus": "שְׁכַב",
@@ -2428,10 +2937,10 @@
           "person": "2"
         }
       ],
-      "id": "s28-AL22",
       "block": "s28",
       "blockLabel": "Davidson §28",
       "shape": "parse",
+      "src": "s28-AL22",
       "explain": "Key: 2 sing. masc. imperat. Qal of שׁכב (may also be inf. cstr. Qal)",
       "data": {
         "parse": {
@@ -2443,18 +2952,12 @@
           "root": "שׁכב",
           "gloss": "Qal)"
         }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L22; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
-        "exwb": "davidson-s28#AL22",
-        "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
+      "id": "s28-AL23.parse",
+      "rung": 3,
+      "rungLabel": "Parse",
       "type": "parse-form",
       "prompt": "Parse this form",
       "stimulus": "מֹלֶכֶת",
@@ -2543,10 +3046,10 @@
           "number": "sing."
         }
       ],
-      "id": "s28-AL23",
       "block": "s28",
       "blockLabel": "Davidson §28",
       "shape": "parse",
+      "src": "s28-AL23",
       "explain": "Key: sing. fem. abs. or cstr. act. ptc. Qal of מלך",
       "data": {
         "parse": {
@@ -2558,18 +3061,12 @@
           "root": "מלך",
           "alt": "cstr. act. ptc. Qal of מלך"
         }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L23; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
-        "exwb": "davidson-s28#AL23",
-        "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
+      "id": "s28-AL24.parse",
+      "rung": 3,
+      "rungLabel": "Parse",
       "type": "parse-form",
       "prompt": "Parse this form",
       "stimulus": "יַמְטִיר",
@@ -2651,10 +3148,10 @@
           "person": "3"
         }
       ],
-      "id": "s28-AL24",
       "block": "s28",
       "blockLabel": "Davidson §28",
       "shape": "parse",
+      "src": "s28-AL24",
       "explain": "Key: 3 sing. masc. impf. Hiph. of מטר",
       "data": {
         "parse": {
@@ -2665,18 +3162,12 @@
           "stem": "Hiph'il",
           "root": "מטר"
         }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L24; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
-        "exwb": "davidson-s28#AL24",
-        "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
+      "id": "s28-AL25.parse",
+      "rung": 3,
+      "rungLabel": "Parse",
       "type": "parse-form",
       "prompt": "Parse this form",
       "stimulus": "יַפְקֵד",
@@ -2758,10 +3249,10 @@
           "person": "3"
         }
       ],
-      "id": "s28-AL25",
       "block": "s28",
       "blockLabel": "Davidson §28",
       "shape": "parse",
+      "src": "s28-AL25",
       "explain": "Key: 3 sing. masc. jussive Hiph. of פקד",
       "data": {
         "parse": {
@@ -2772,18 +3263,12 @@
           "stem": "Hiph'il",
           "root": "פקד"
         }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L25; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
-        "exwb": "davidson-s28#AL25",
-        "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
+      "id": "s28-AL26.parse",
+      "rung": 3,
+      "rungLabel": "Parse",
       "type": "parse-form",
       "prompt": "Parse this form",
       "stimulus": "מִסְתַּתֵּר",
@@ -2872,10 +3357,10 @@
           "number": "sing."
         }
       ],
-      "id": "s28-AL26",
       "block": "s28",
       "blockLabel": "Davidson §28",
       "shape": "parse",
+      "src": "s28-AL26",
       "explain": "Key: sing. masc. abs. or cstr. ptc. Hithpa. of סתר",
       "data": {
         "parse": {
@@ -2887,18 +3372,12 @@
           "root": "סתר",
           "alt": "cstr. ptc. Hithpa. of סתר"
         }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L26; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
-        "exwb": "davidson-s28#AL26",
-        "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
+      "id": "s28-AL27.parse",
+      "rung": 3,
+      "rungLabel": "Parse",
       "type": "parse-form",
       "prompt": "Parse this form",
       "stimulus": "יִקְדַּשׁ",
@@ -2980,10 +3459,10 @@
           "person": "3"
         }
       ],
-      "id": "s28-AL27",
       "block": "s28",
       "blockLabel": "Davidson §28",
       "shape": "parse",
+      "src": "s28-AL27",
       "explain": "Key: 3 sing. masc. impf. Qal of קדשׁ",
       "data": {
         "parse": {
@@ -2994,18 +3473,12 @@
           "stem": "Qal",
           "root": "קדשׁ"
         }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L27; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
-        "exwb": "davidson-s28#AL27",
-        "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
+      "id": "s28-AL28.parse",
+      "rung": 3,
+      "rungLabel": "Parse",
       "type": "parse-form",
       "prompt": "Parse this form",
       "stimulus": "תִּלְבַּשְׁנָה",
@@ -3095,10 +3568,10 @@
           "person": "3"
         }
       ],
-      "id": "s28-AL28",
       "block": "s28",
       "blockLabel": "Davidson §28",
       "shape": "parse",
+      "src": "s28-AL28",
       "explain": "Key: 2 or 3 plur. fem. impf. Qal of לבשׁ",
       "data": {
         "parse": {
@@ -3107,18 +3580,12 @@
           "root": "לבשׁ",
           "alt": "3 plur. fem. impf. Qal of לבשׁ"
         }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L28; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
-        "exwb": "davidson-s28#AL28",
-        "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
+      "id": "s28-AL29.parse",
+      "rung": 3,
+      "rungLabel": "Parse",
       "type": "parse-form",
       "prompt": "Parse this form",
       "stimulus": "תִּזָּכַרְנָה",
@@ -3208,10 +3675,10 @@
           "person": "3"
         }
       ],
-      "id": "s28-AL29",
       "block": "s28",
       "blockLabel": "Davidson §28",
       "shape": "parse",
+      "src": "s28-AL29",
       "explain": "Key: 2 or 3 plur. fem. impf. Niph. of זכר",
       "data": {
         "parse": {
@@ -3220,15 +3687,6 @@
           "root": "זכר",
           "alt": "3 plur. fem. impf. Niph. of זכר"
         }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §28 A L29; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n118/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n118.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n68/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
-        "exwb": "davidson-s28#AL29",
-        "note": "Transcribed by hand from the scans and checked against the Key."
       }
     }
   ]

@@ -8,7 +8,7 @@
 | Area | State |
 |---|---|
 | Engine | Vanilla JS, no build step; browser-only progress with Export/Import (ADR-019) |
-| `courses/biblical-hebrew-davidson` | 56 units, playable end to end; follows Davidson's 22nd edition (ADR-021). Known defects being fixed (ADR-022): exercises placed by block not by sentence, Hebrew→English as guessable choice, English→Hebrew graded without pointing, random 10 per session, no new exercises (P12) |
+| `courses/biblical-hebrew-davidson` | 79 units, playable end to end; follows Davidson's 22nd edition (ADR-021). Exercise ladder (P12-T4): five rungs per sentence, typed Hebrew→English, pointed English→Hebrew; corpus expansion (P12-T5) still to come |
 | `courses/biblical-hebrew-oer` | 20 units, playable end to end; **preview** — human review pending |
 | `exwb/` | Davidson exercises transcribed: 47 files, 1,431 items (40 blocks / 1,138 items exported; reading drills §1–5/7/9 held); in the course as drills since 2026-11-10 (P9-T6) |
 | Tests | `e2e.py` (units, exercise types, authored, accessibility, keyboard), `e2e-synthetic.py`, `e2e-fork.py`, `e2e-docker.py`, `unittest`, `public-audit` — green on Davidson/OER |

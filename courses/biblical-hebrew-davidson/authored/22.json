@@ -1,806 +1,3077 @@
 {
   "schema": "authored-exercises-v1.json",
   "unit": 22,
+  "sources": {
+    "s14-A1": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 A 1; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
+      "exwb": "davidson-s14#A1",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s14-A3": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 A 3; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
+      "exwb": "davidson-s14#A3",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s14-A4": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 A 4; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
+      "exwb": "davidson-s14#A4",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s14-A5": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 A 5; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
+      "exwb": "davidson-s14#A5",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s14-A7": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 A 7; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
+      "exwb": "davidson-s14#A7",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s14-A8": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 A 8; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
+      "exwb": "davidson-s14#A8",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s14-A9": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 A 9; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
+      "exwb": "davidson-s14#A9",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s14-A10": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 A 10; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
+      "exwb": "davidson-s14#A10",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s14-B1": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 1; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
+      "exwb": "davidson-s14#B1",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s14-B2": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 2; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
+      "exwb": "davidson-s14#B2",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s14-B3": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 3; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
+      "exwb": "davidson-s14#B3",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s14-B4": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 4; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
+      "exwb": "davidson-s14#B4",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s14-B5": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 5; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
+      "exwb": "davidson-s14#B5",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s14-B6": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 6; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
+      "exwb": "davidson-s14#B6",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s14-B7": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 7; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
+      "exwb": "davidson-s14#B7",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s14-B8": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 8; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
+      "exwb": "davidson-s14#B8",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s14-B9": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 9; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
+      "exwb": "davidson-s14#B9",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s14-B10": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 10; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
+      "exwb": "davidson-s14#B10",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s14-B11": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 11; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
+      "exwb": "davidson-s14#B11",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s14-B13": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 13; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
+      "exwb": "davidson-s14#B13",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s14-B14": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 14; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
+      "exwb": "davidson-s14#B14",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s14-B15": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 15; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
+      "exwb": "davidson-s14#B15",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s15-A1": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §15 A 1; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n74/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n74.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n29/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n29.jpg",
+      "exwb": "davidson-s15#A1",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s15-A3": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §15 A 3; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n74/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n74.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n29/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n29.jpg",
+      "exwb": "davidson-s15#A3",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s15-B4": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §15 B 4; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n74/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n74.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n29/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n29.jpg",
+      "exwb": "davidson-s15#B4",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s15-B13": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §15 B 13; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n74/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n74.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n29/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n29.jpg",
+      "exwb": "davidson-s15#B13",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s16-A1": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §16 A 1; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n76/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n76.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n31/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n31.jpg",
+      "exwb": "davidson-s16#A1",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s16-A3": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §16 A 3; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n76/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n76.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n31/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n31.jpg",
+      "exwb": "davidson-s16#A3",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s16-A9": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §16 A 9; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n76/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n76.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n31/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n31.jpg",
+      "exwb": "davidson-s16#A9",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s16-B10": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §16 B 10; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n76/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n76.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n31/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n31.jpg",
+      "exwb": "davidson-s16#B10",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s16-B15": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §16 B 15; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n76/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n76.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n31/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n31.jpg",
+      "exwb": "davidson-s16#B15",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s17-A14": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §17 A 14; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n81/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n81.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n33/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n33.jpg",
+      "exwb": "davidson-s17#A14",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    }
+  },
   "items": [
     {
+      "id": "s14-A1.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "קָרָא אֱלֹהִים לָאוֹר יוֹם וְלַחֹשֶׁךְ קָרָא לָיְלָה",
+      "stimulusIsScript": true,
+      "statement": "God called the light day, and the darkness she called night.",
+      "answer": false,
+      "expected": "God called the light day, and the darkness he called night.",
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "he-en",
+      "src": "s14-A1"
+    },
+    {
+      "id": "s14-A1.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "קָרָא אֱלֹהִים לָאוֹר יוֹם וְלַחֹשֶׁךְ קָרָא לָיְלָה",
       "stimulusIsScript": true,
       "options": [
-        "The boy sat in this place.",
-        "God rested on the seventh day from the work which he had made.",
-        "He gave the sword to the king.",
-        "God called the light day, and the darkness he called night."
+        "God called the light day, and the darkness he called night.",
+        "God called a light day, and the darkness he called night.",
+        "God called the light day, and a darkness he called night.",
+        "God called the light day, and the darkness she called night."
       ],
       "answer": "God called the light day, and the darkness he called night.",
       "optionIsScript": false,
-      "id": "s14-A1",
       "block": "s14",
       "blockLabel": "Davidson §14",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 A 1; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
-        "exwb": "davidson-s14#A1",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s14-A1"
     },
     {
+      "id": "s14-A1.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: God called the light day, and the darkness he called night.",
+      "stimulus": "קָרָא אֱלֹהִים ＿＿＿ יוֹם וְלַחֹשֶׁךְ קָרָא לָיְלָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "לָאוֹר"
+      ],
+      "answerIsScript": true,
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "he-en",
+      "src": "s14-A1"
+    },
+    {
+      "id": "s14-A1.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "קָרָא אֱלֹהִים לָאוֹר יוֹם וְלַחֹשֶׁךְ קָרָא לָיְלָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "God called the light day, and the darkness he called night."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "he-en",
+      "src": "s14-A1"
+    },
+    {
+      "id": "s14-A1.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "God called the light day, and the darkness he called night.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "קָרָא אֱלֹהִים לָאוֹר יוֹם וְלַחֹשֶׁךְ קָרָא לָיְלָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "he-en",
+      "src": "s14-A1"
+    },
+    {
+      "id": "s14-A3.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "שָׁמַע הָאָדָם אֶת־הַקּוֹל בַּגָּן",
+      "stimulusIsScript": true,
+      "statement": "The man heard a voice in the garden.",
+      "answer": false,
+      "expected": "The man heard the voice in the garden.",
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "he-en",
+      "src": "s14-A3"
+    },
+    {
+      "id": "s14-A3.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "שָׁמַע הָאָדָם אֶת־הַקּוֹל בַּגָּן",
       "stimulusIsScript": true,
       "options": [
-        "Yahweh blotted out everything which he had made, man and beast.",
-        "The man heard the voice in the garden.",
-        "The boy sat in this place.",
-        "The king ruled over the people."
+        "A man heard the voice in the garden.",
+        "The man heard a voice in the garden.",
+        "The man heard the voice to the garden.",
+        "The man heard the voice in the garden."
       ],
       "answer": "The man heard the voice in the garden.",
       "optionIsScript": false,
-      "id": "s14-A3",
       "block": "s14",
       "blockLabel": "Davidson §14",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 A 3; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
-        "exwb": "davidson-s14#A3",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s14-A3"
     },
     {
+      "id": "s14-A3.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The man heard the voice in the garden.",
+      "stimulus": "＿＿＿ הָאָדָם אֶת־הַקּוֹל בַּגָּן",
+      "stimulusIsScript": true,
+      "accepted": [
+        "שָׁמַע"
+      ],
+      "answerIsScript": true,
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "he-en",
+      "src": "s14-A3"
+    },
+    {
+      "id": "s14-A3.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "שָׁמַע הָאָדָם אֶת־הַקּוֹל בַּגָּן",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The man heard the voice in the garden."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "he-en",
+      "src": "s14-A3"
+    },
+    {
+      "id": "s14-A3.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The man heard the voice in the garden.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שָׁמַע הָאָדָם אֶת־הַקּוֹל בַּגָּן"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "he-en",
+      "src": "s14-A3"
+    },
+    {
+      "id": "s14-A4.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "מָשַׁל הַמֶּלֶךְ בָּעָם",
+      "stimulusIsScript": true,
+      "statement": "The king ruled over the people.",
+      "answer": true,
+      "expected": "The king ruled over the people.",
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "he-en",
+      "src": "s14-A4"
+    },
+    {
+      "id": "s14-A4.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "מָשַׁל הַמֶּלֶךְ בָּעָם",
       "stimulusIsScript": true,
       "options": [
-        "The man heard the voice in the garden.",
         "The king ruled over the people.",
-        "God made the man out of dust from the ground.",
-        "The boy sat in this place."
+        "On (בְּ) the high mountain",
+        "A king ruled over the people.",
+        "The king ruled over a people."
       ],
       "answer": "The king ruled over the people.",
       "optionIsScript": false,
-      "id": "s14-A4",
       "block": "s14",
       "blockLabel": "Davidson §14",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 A 4; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
-        "exwb": "davidson-s14#A4",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s14-A4"
     },
     {
+      "id": "s14-A4.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The king ruled over the people.",
+      "stimulus": "מָשַׁל ＿＿＿ בָּעָם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַמֶּלֶךְ"
+      ],
+      "answerIsScript": true,
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "he-en",
+      "src": "s14-A4"
+    },
+    {
+      "id": "s14-A4.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "מָשַׁל הַמֶּלֶךְ בָּעָם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The king ruled over the people."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "he-en",
+      "src": "s14-A4"
+    },
+    {
+      "id": "s14-A4.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The king ruled over the people.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מָשַׁל הַמֶּלֶךְ בָּעָם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "he-en",
+      "src": "s14-A4"
+    },
+    {
+      "id": "s14-A5.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "יָשַׁב הַיֶּלֶד בַּמָּקוֹם הַזֶּה",
+      "stimulusIsScript": true,
+      "statement": "The boy sat to this place.",
+      "answer": false,
+      "expected": "The boy sat in this place.",
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "he-en",
+      "src": "s14-A5"
+    },
+    {
+      "id": "s14-A5.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "יָשַׁב הַיֶּלֶד בַּמָּקוֹם הַזֶּה",
       "stimulusIsScript": true,
       "options": [
-        "The boy sat in this place.",
-        "The man heard the voice in the garden.",
-        "He gave the sword to the king.",
-        "The king ruled over the people."
+        "The boy sat to this place.",
+        "A boy sat in this place.",
+        "The boy sat in that place.",
+        "The boy sat in this place."
       ],
       "answer": "The boy sat in this place.",
       "optionIsScript": false,
-      "id": "s14-A5",
       "block": "s14",
       "blockLabel": "Davidson §14",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 A 5; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
-        "exwb": "davidson-s14#A5",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s14-A5"
     },
     {
+      "id": "s14-A5.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The boy sat in this place.",
+      "stimulus": "＿＿＿ הַיֶּלֶד בַּמָּקוֹם הַזֶּה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "יָשַׁב"
+      ],
+      "answerIsScript": true,
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "he-en",
+      "src": "s14-A5"
+    },
+    {
+      "id": "s14-A5.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "יָשַׁב הַיֶּלֶד בַּמָּקוֹם הַזֶּה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The boy sat in this place."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "he-en",
+      "src": "s14-A5"
+    },
+    {
+      "id": "s14-A5.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The boy sat in this place.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "יָשַׁב הַיֶּלֶד בַּמָּקוֹם הַזֶּה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "he-en",
+      "src": "s14-A5"
+    },
+    {
+      "id": "s14-A7.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "עָשָׂה אֱלֹהִים אֶת־הָאָדָם עָפָר מִן־הָאֲדָמָה",
+      "stimulusIsScript": true,
+      "statement": "God made the man out of dust to the ground.",
+      "answer": false,
+      "expected": "God made the man out of dust from the ground.",
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "he-en",
+      "src": "s14-A7"
+    },
+    {
+      "id": "s14-A7.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "עָשָׂה אֱלֹהִים אֶת־הָאָדָם עָפָר מִן־הָאֲדָמָה",
       "stimulusIsScript": true,
       "options": [
-        "The king ruled over the people.",
-        "The boy sat in this place.",
-        "God is in the temple.",
-        "God made the man out of dust from the ground."
+        "God made the man out of dust from the ground.",
+        "God made the man out of dust from a ground.",
+        "God made the man out of dust to the ground.",
+        "God made the man out of dust in the ground."
       ],
       "answer": "God made the man out of dust from the ground.",
       "optionIsScript": false,
-      "id": "s14-A7",
       "block": "s14",
       "blockLabel": "Davidson §14",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 A 7; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
-        "exwb": "davidson-s14#A7",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s14-A7"
     },
     {
+      "id": "s14-A7.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: God made the man out of dust from the ground.",
+      "stimulus": "עָשָׂה אֱלֹהִים אֶת־הָאָדָם עָפָר ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "מִן־הָאֲדָמָה"
+      ],
+      "answerIsScript": true,
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "he-en",
+      "src": "s14-A7"
+    },
+    {
+      "id": "s14-A7.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "עָשָׂה אֱלֹהִים אֶת־הָאָדָם עָפָר מִן־הָאֲדָמָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "God made the man out of dust from the ground."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "he-en",
+      "src": "s14-A7"
+    },
+    {
+      "id": "s14-A7.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "God made the man out of dust from the ground.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "עָשָׂה אֱלֹהִים אֶת־הָאָדָם עָפָר מִן־הָאֲדָמָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "he-en",
+      "src": "s14-A7"
+    },
+    {
+      "id": "s14-A8.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָאֱלֹהִים הוּא בַּהֵיכָל",
+      "stimulusIsScript": true,
+      "statement": "God is in the temple.",
+      "answer": true,
+      "expected": "God is in the temple.",
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "he-en",
+      "src": "s14-A8"
+    },
+    {
+      "id": "s14-A8.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "הָאֱלֹהִים הוּא בַּהֵיכָל",
       "stimulusIsScript": true,
       "options": [
-        "The boy sat in this place.",
-        "God called the light day, and the darkness he called night.",
-        "The boy wrote in the book.",
-        "God is in the temple."
+        "God is to the temple.",
+        "God is from the temple.",
+        "God is in the temple.",
+        "God is in a temple."
       ],
       "answer": "God is in the temple.",
       "optionIsScript": false,
-      "id": "s14-A8",
       "block": "s14",
       "blockLabel": "Davidson §14",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 A 8; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
-        "exwb": "davidson-s14#A8",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s14-A8"
     },
     {
+      "id": "s14-A8.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: God is in the temple.",
+      "stimulus": "הָאֱלֹהִים הוּא ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "בַּהֵיכָל"
+      ],
+      "answerIsScript": true,
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "he-en",
+      "src": "s14-A8"
+    },
+    {
+      "id": "s14-A8.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הָאֱלֹהִים הוּא בַּהֵיכָל",
+      "stimulusIsScript": true,
+      "accepted": [
+        "God is in the temple."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "he-en",
+      "src": "s14-A8"
+    },
+    {
+      "id": "s14-A8.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "God is in the temple.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאֱלֹהִים הוּא בַּהֵיכָל"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "he-en",
+      "src": "s14-A8"
+    },
+    {
+      "id": "s14-A9.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "נָתַן אֶת־הַחֶרֶב לַמֶּלֶךְ",
+      "stimulusIsScript": true,
+      "statement": "He gave the sword to the king.",
+      "answer": true,
+      "expected": "He gave the sword to the king.",
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "he-en",
+      "src": "s14-A9"
+    },
+    {
+      "id": "s14-A9.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "נָתַן אֶת־הַחֶרֶב לַמֶּלֶךְ",
       "stimulusIsScript": true,
       "options": [
         "He gave the sword to the king.",
-        "God rested on the seventh day from the work which he had made.",
-        "Yahweh blotted out everything which he had made, man and beast.",
-        "God called the light day, and the darkness he called night."
+        "She gave the sword to the king.",
+        "He gave the sword from the king.",
+        "He gave a sword to the king."
       ],
       "answer": "He gave the sword to the king.",
       "optionIsScript": false,
-      "id": "s14-A9",
       "block": "s14",
       "blockLabel": "Davidson §14",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 A 9; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
-        "exwb": "davidson-s14#A9",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s14-A9"
     },
     {
+      "id": "s14-A9.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: He gave the sword to the king.",
+      "stimulus": "＿＿＿ אֶת־הַחֶרֶב לַמֶּלֶךְ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "נָתַן"
+      ],
+      "answerIsScript": true,
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "he-en",
+      "src": "s14-A9"
+    },
+    {
+      "id": "s14-A9.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "נָתַן אֶת־הַחֶרֶב לַמֶּלֶךְ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "He gave the sword to the king."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "he-en",
+      "src": "s14-A9"
+    },
+    {
+      "id": "s14-A9.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "He gave the sword to the king.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "נָתַן אֶת־הַחֶרֶב לַמֶּלֶךְ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "he-en",
+      "src": "s14-A9"
+    },
+    {
+      "id": "s14-A10.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "כָּתַב הַיֶּלֶד בַּסֵּפֶר",
+      "stimulusIsScript": true,
+      "statement": "The boy wrote in a book.",
+      "answer": false,
+      "expected": "The boy wrote in the book.",
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "he-en",
+      "src": "s14-A10"
+    },
+    {
+      "id": "s14-A10.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "כָּתַב הַיֶּלֶד בַּסֵּפֶר",
       "stimulusIsScript": true,
       "options": [
-        "God is in the temple.",
-        "Yahweh blotted out everything which he had made, man and beast.",
-        "The man heard the voice in the garden.",
+        "A boy wrote in the book.",
+        "The boy wrote in a book.",
+        "The boy wrote to the book.",
         "The boy wrote in the book."
       ],
       "answer": "The boy wrote in the book.",
       "optionIsScript": false,
-      "id": "s14-A10",
       "block": "s14",
       "blockLabel": "Davidson §14",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 A 10; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
-        "exwb": "davidson-s14#A10",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s14-A10"
     },
     {
+      "id": "s14-A10.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Fill in the missing word: The boy wrote in the book.",
+      "stimulus": "כָּתַב ＿＿＿ בַּסֵּפֶר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַיֶּלֶד"
+      ],
+      "answerIsScript": true,
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "he-en",
+      "src": "s14-A10"
+    },
+    {
+      "id": "s14-A10.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "כָּתַב הַיֶּלֶד בַּסֵּפֶר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The boy wrote in the book."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "he-en",
+      "src": "s14-A10"
+    },
+    {
+      "id": "s14-A10.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The boy wrote in the book.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "כָּתַב הַיֶּלֶד בַּסֵּפֶר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "he-en",
+      "src": "s14-A10"
+    },
+    {
+      "id": "s14-B1.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "לַאֲרִי",
+      "stimulusIsScript": true,
+      "statement": "To a lion",
+      "answer": true,
+      "expected": "To a lion",
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "en-he",
+      "src": "s14-B1"
+    },
+    {
+      "id": "s14-B1.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "לַאֲרִי",
+      "stimulusIsScript": true,
+      "options": [
+        "In a lion",
+        "From a lion",
+        "To the lion",
+        "To a lion"
+      ],
+      "answer": "To a lion",
+      "optionIsScript": false,
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "en-he",
+      "src": "s14-B1"
+    },
+    {
+      "id": "s14-B1.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "To a lion",
       "stimulusIsScript": false,
       "accepted": [
         "לַאֲרִי"
       ],
       "answerIsScript": true,
-      "id": "s14-B1",
       "block": "s14",
       "blockLabel": "Davidson §14",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 1; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
-        "exwb": "davidson-s14#B1",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s14-B1"
     },
     {
+      "id": "s14-B1.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "To a lion",
+      "stimulusIsScript": false,
+      "accepted": [
+        "לַאֲרִי"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "en-he",
+      "src": "s14-B1"
+    },
+    {
+      "id": "s14-B2.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "נָתַן אֱלֹהִים אֶת־הָאִשָּׁה לָאִישׁ לְאִשָּׁה",
+      "stimulusIsScript": true,
+      "statement": "God gave the woman to a man for wife.",
+      "answer": false,
+      "expected": "God gave the woman to the man for wife.",
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "en-he",
+      "src": "s14-B2"
+    },
+    {
+      "id": "s14-B2.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "נָתַן אֱלֹהִים אֶת־הָאִשָּׁה לָאִישׁ לְאִשָּׁה",
+      "stimulusIsScript": true,
+      "options": [
+        "God gave the woman to the man for wife.",
+        "God gave the woman to a man for wife.",
+        "God gave the woman from the man for wife.",
+        "God gave a woman to the man for wife."
+      ],
+      "answer": "God gave the woman to the man for wife.",
+      "optionIsScript": false,
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "en-he",
+      "src": "s14-B2"
+    },
+    {
+      "id": "s14-B2.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: God gave the woman to the man for wife.",
+      "stimulus": "נָתַן ＿＿＿ אֶת־הָאִשָּׁה לָאִישׁ לְאִשָּׁה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֱלֹהִים"
+      ],
+      "answerIsScript": true,
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "en-he",
+      "src": "s14-B2"
+    },
+    {
+      "id": "s14-B2.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "God gave the woman to the man for wife.",
       "stimulusIsScript": false,
       "accepted": [
         "נָתַן אֱלֹהִים אֶת־הָאִשָּׁה לָאִישׁ לְאִשָּׁה"
       ],
       "answerIsScript": true,
-      "id": "s14-B2",
       "block": "s14",
       "blockLabel": "Davidson §14",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 2; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
-        "exwb": "davidson-s14#B2",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s14-B2"
     },
     {
+      "id": "s14-B2.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "God gave the woman to the man for wife.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "נָתַן אֱלֹהִים אֶת־הָאִשָּׁה לָאִישׁ לְאִשָּׁה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "en-he",
+      "src": "s14-B2"
+    },
+    {
+      "id": "s14-B3.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "בַּבֹּקֶר",
+      "stimulusIsScript": true,
+      "statement": "From the morning",
+      "answer": false,
+      "expected": "In the morning",
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "en-he",
+      "src": "s14-B3"
+    },
+    {
+      "id": "s14-B3.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "בַּבֹּקֶר",
+      "stimulusIsScript": true,
+      "options": [
+        "In a morning",
+        "In the morning",
+        "To the morning",
+        "From the morning"
+      ],
+      "answer": "In the morning",
+      "optionIsScript": false,
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "en-he",
+      "src": "s14-B3"
+    },
+    {
+      "id": "s14-B3.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "In the morning",
       "stimulusIsScript": false,
       "accepted": [
         "בַּבֹּקֶר"
       ],
       "answerIsScript": true,
-      "id": "s14-B3",
       "block": "s14",
       "blockLabel": "Davidson §14",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 3; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
-        "exwb": "davidson-s14#B3",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s14-B3"
     },
     {
+      "id": "s14-B3.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "In the morning",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בַּבֹּקֶר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "en-he",
+      "src": "s14-B3"
+    },
+    {
+      "id": "s14-B4.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "בַּשָּׁמַיִם הָאֵלֶּה",
+      "stimulusIsScript": true,
+      "statement": "In these heavens",
+      "answer": true,
+      "expected": "In these heavens",
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "en-he",
+      "src": "s14-B4"
+    },
+    {
+      "id": "s14-B4.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "בַּשָּׁמַיִם הָאֵלֶּה",
+      "stimulusIsScript": true,
+      "options": [
+        "In these heavens",
+        "In those heavens",
+        "From these heavens",
+        "To these heavens"
+      ],
+      "answer": "In these heavens",
+      "optionIsScript": false,
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "en-he",
+      "src": "s14-B4"
+    },
+    {
+      "id": "s14-B4.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: In these heavens",
+      "stimulus": "＿＿＿ הָאֵלֶּה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "בַּשָּׁמַיִם"
+      ],
+      "answerIsScript": true,
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "en-he",
+      "src": "s14-B4"
+    },
+    {
+      "id": "s14-B4.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "In these heavens",
       "stimulusIsScript": false,
       "accepted": [
         "בַּשָּׁמַיִם הָאֵלֶּה"
       ],
       "answerIsScript": true,
-      "id": "s14-B4",
       "block": "s14",
       "blockLabel": "Davidson §14",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 4; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
-        "exwb": "davidson-s14#B4",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s14-B4"
     },
     {
+      "id": "s14-B4.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "In these heavens",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בַּשָּׁמַיִם הָאֵלֶּה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "en-he",
+      "src": "s14-B4"
+    },
+    {
+      "id": "s14-B5.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "בָּאָרֶץ",
+      "stimulusIsScript": true,
+      "statement": "From the earth",
+      "answer": false,
+      "expected": "In the earth",
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "en-he",
+      "src": "s14-B5"
+    },
+    {
+      "id": "s14-B5.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "בָּאָרֶץ",
+      "stimulusIsScript": true,
+      "options": [
+        "In an earth",
+        "From the earth",
+        "To the earth",
+        "In the earth"
+      ],
+      "answer": "In the earth",
+      "optionIsScript": false,
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "en-he",
+      "src": "s14-B5"
+    },
+    {
+      "id": "s14-B5.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "In the earth",
       "stimulusIsScript": false,
       "accepted": [
         "בָּאָרֶץ"
       ],
       "answerIsScript": true,
-      "id": "s14-B5",
       "block": "s14",
       "blockLabel": "Davidson §14",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 5; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
-        "exwb": "davidson-s14#B5",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s14-B5"
     },
     {
+      "id": "s14-B5.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "In the earth",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בָּאָרֶץ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "en-he",
+      "src": "s14-B5"
+    },
+    {
+      "id": "s14-B6.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "בַּיּוֹם הַהוּא",
+      "stimulusIsScript": true,
+      "statement": "To that day",
+      "answer": false,
+      "expected": "In that day",
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "en-he",
+      "src": "s14-B6"
+    },
+    {
+      "id": "s14-B6.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "בַּיּוֹם הַהוּא",
+      "stimulusIsScript": true,
+      "options": [
+        "To that day",
+        "From that day",
+        "In that day",
+        "In this day"
+      ],
+      "answer": "In that day",
+      "optionIsScript": false,
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "en-he",
+      "src": "s14-B6"
+    },
+    {
+      "id": "s14-B6.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: In that day",
+      "stimulus": "＿＿＿ הַהוּא",
+      "stimulusIsScript": true,
+      "accepted": [
+        "בַּיּוֹם"
+      ],
+      "answerIsScript": true,
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "en-he",
+      "src": "s14-B6"
+    },
+    {
+      "id": "s14-B6.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "In that day",
       "stimulusIsScript": false,
       "accepted": [
         "בַּיּוֹם הַהוּא"
       ],
       "answerIsScript": true,
-      "id": "s14-B6",
       "block": "s14",
       "blockLabel": "Davidson §14",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 6; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
-        "exwb": "davidson-s14#B6",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s14-B6"
     },
     {
+      "id": "s14-B6.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "In that day",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בַּיּוֹם הַהוּא"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "en-he",
+      "src": "s14-B6"
+    },
+    {
+      "id": "s14-B7.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "בַּהֵיכָל הָרָם",
+      "stimulusIsScript": true,
+      "statement": "To the lofty palace",
+      "answer": false,
+      "expected": "In the lofty palace",
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "en-he",
+      "src": "s14-B7"
+    },
+    {
+      "id": "s14-B7.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "בַּהֵיכָל הָרָם",
+      "stimulusIsScript": true,
+      "options": [
+        "In a lofty palace",
+        "In the lofty palace",
+        "To the lofty palace",
+        "From the lofty palace"
+      ],
+      "answer": "In the lofty palace",
+      "optionIsScript": false,
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "en-he",
+      "src": "s14-B7"
+    },
+    {
+      "id": "s14-B7.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: In the lofty palace",
+      "stimulus": "בַּהֵיכָל ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הָרָם"
+      ],
+      "answerIsScript": true,
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "en-he",
+      "src": "s14-B7"
+    },
+    {
+      "id": "s14-B7.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "In the lofty palace",
       "stimulusIsScript": false,
       "accepted": [
         "בַּהֵיכָל הָרָם"
       ],
       "answerIsScript": true,
-      "id": "s14-B7",
       "block": "s14",
       "blockLabel": "Davidson §14",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 7; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
-        "exwb": "davidson-s14#B7",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s14-B7"
     },
     {
+      "id": "s14-B7.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "In the lofty palace",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בַּהֵיכָל הָרָם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "en-he",
+      "src": "s14-B7"
+    },
+    {
+      "id": "s14-B8.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "קָרָא הָאֲרִי כַּחֲמוֹר",
+      "stimulusIsScript": true,
+      "statement": "The lion cried like an (the) ass.",
+      "answer": true,
+      "expected": "The lion cried like an (the) ass.",
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "en-he",
+      "src": "s14-B8"
+    },
+    {
+      "id": "s14-B8.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "קָרָא הָאֲרִי כַּחֲמוֹר",
+      "stimulusIsScript": true,
+      "options": [
+        "A lion cried like an (the) ass.",
+        "Man is dust out of the ground.",
+        "The lion cried like an (the) ass.",
+        "The lion cried like the (the) ass."
+      ],
+      "answer": "The lion cried like an (the) ass.",
+      "optionIsScript": false,
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "en-he",
+      "src": "s14-B8"
+    },
+    {
+      "id": "s14-B8.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The lion cried like an (the) ass.",
+      "stimulus": "קָרָא הָאֲרִי ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "כַּחֲמוֹר"
+      ],
+      "answerIsScript": true,
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "en-he",
+      "src": "s14-B8"
+    },
+    {
+      "id": "s14-B8.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "The lion cried like an (the) ass.",
       "stimulusIsScript": false,
       "accepted": [
         "קָרָא הָאֲרִי כַּחֲמוֹר"
       ],
       "answerIsScript": true,
-      "id": "s14-B8",
       "block": "s14",
       "blockLabel": "Davidson §14",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 8; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
-        "exwb": "davidson-s14#B8",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s14-B8"
     },
     {
+      "id": "s14-B8.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The lion cried like an (the) ass.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "קָרָא הָאֲרִי כַּחֲמוֹר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "en-he",
+      "src": "s14-B8"
+    },
+    {
+      "id": "s14-B9.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "קָרָא אֱלֹהִים לָרָקִיעַ שָׁמָיִם וְלַיַּבָּשָׁה קָרָא אָרֶץ",
+      "stimulusIsScript": true,
+      "statement": "God called the firmament heaven, and the dry land called he earth.",
+      "answer": true,
+      "expected": "God called the firmament heaven, and the dry land called he earth.",
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "en-he",
+      "src": "s14-B9"
+    },
+    {
+      "id": "s14-B9.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "קָרָא אֱלֹהִים לָרָקִיעַ שָׁמָיִם וְלַיַּבָּשָׁה קָרָא אָרֶץ",
+      "stimulusIsScript": true,
+      "options": [
+        "God called the firmament heaven, and the dry land called he earth.",
+        "God called a firmament heaven, and the dry land called he earth.",
+        "God called the firmament heaven, and a dry land called he earth.",
+        "God called the firmament heaven, and the dry land called she earth."
+      ],
+      "answer": "God called the firmament heaven, and the dry land called he earth.",
+      "optionIsScript": false,
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "en-he",
+      "src": "s14-B9"
+    },
+    {
+      "id": "s14-B9.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: God called the firmament heaven, and the dry land called he earth.",
+      "stimulus": "קָרָא ＿＿＿ לָרָקִיעַ שָׁמָיִם וְלַיַּבָּשָׁה קָרָא אָרֶץ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֱלֹהִים"
+      ],
+      "answerIsScript": true,
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "en-he",
+      "src": "s14-B9"
+    },
+    {
+      "id": "s14-B9.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "God called the firmament heaven, and the dry land called he earth.",
       "stimulusIsScript": false,
       "accepted": [
         "קָרָא אֱלֹהִים לָרָקִיעַ שָׁמָיִם וְלַיַּבָּשָׁה קָרָא אָרֶץ"
       ],
       "answerIsScript": true,
-      "id": "s14-B9",
       "block": "s14",
       "blockLabel": "Davidson §14",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 9; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
-        "exwb": "davidson-s14#B9",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s14-B9"
     },
     {
+      "id": "s14-B9.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "God called the firmament heaven, and the dry land called he earth.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "קָרָא אֱלֹהִים לָרָקִיעַ שָׁמָיִם וְלַיַּבָּשָׁה קָרָא אָרֶץ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "en-he",
+      "src": "s14-B9"
+    },
+    {
+      "id": "s14-B10.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "עָפָר מִן־הָאֲדָמָה הָאָדָם",
+      "stimulusIsScript": true,
+      "statement": "Man is dust out of a ground.",
+      "answer": false,
+      "expected": "Man is dust out of the ground.",
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "en-he",
+      "src": "s14-B10"
+    },
+    {
+      "id": "s14-B10.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "עָפָר מִן־הָאֲדָמָה הָאָדָם",
+      "stimulusIsScript": true,
+      "options": [
+        "Man is dust out of the ground.",
+        "The boy sat in this place.",
+        "Man is dust out of a ground.",
+        "He gave the sword to the king."
+      ],
+      "answer": "Man is dust out of the ground.",
+      "optionIsScript": false,
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "en-he",
+      "src": "s14-B10"
+    },
+    {
+      "id": "s14-B10.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Man is dust out of the ground.",
+      "stimulus": "עָפָר מִן־הָאֲדָמָה ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הָאָדָם"
+      ],
+      "answerIsScript": true,
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "en-he",
+      "src": "s14-B10"
+    },
+    {
+      "id": "s14-B10.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "Man is dust out of the ground.",
       "stimulusIsScript": false,
       "accepted": [
         "עָפָר מִן־הָאֲדָמָה הָאָדָם"
       ],
       "answerIsScript": true,
-      "id": "s14-B10",
       "block": "s14",
       "blockLabel": "Davidson §14",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 10; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
-        "exwb": "davidson-s14#B10",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s14-B10"
     },
     {
+      "id": "s14-B10.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Man is dust out of the ground.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "עָפָר מִן־הָאֲדָמָה הָאָדָם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "en-he",
+      "src": "s14-B10"
+    },
+    {
+      "id": "s14-B11.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אָכַל מִן־הָעֵץ",
+      "stimulusIsScript": true,
+      "statement": "He ate of the tree.",
+      "answer": true,
+      "expected": "He ate of the tree.",
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "en-he",
+      "src": "s14-B11"
+    },
+    {
+      "id": "s14-B11.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אָכַל מִן־הָעֵץ",
+      "stimulusIsScript": true,
+      "options": [
+        "Yahweh blotted out everything which he had made, man and beast.",
+        "She ate of the tree.",
+        "He ate of a tree.",
+        "He ate of the tree."
+      ],
+      "answer": "He ate of the tree.",
+      "optionIsScript": false,
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "en-he",
+      "src": "s14-B11"
+    },
+    {
+      "id": "s14-B11.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: He ate of the tree.",
+      "stimulus": "אָכַל ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "מִן־הָעֵץ"
+      ],
+      "answerIsScript": true,
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "en-he",
+      "src": "s14-B11"
+    },
+    {
+      "id": "s14-B11.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "He ate of the tree.",
       "stimulusIsScript": false,
       "accepted": [
         "אָכַל מִן־הָעֵץ"
       ],
       "answerIsScript": true,
-      "id": "s14-B11",
       "block": "s14",
       "blockLabel": "Davidson §14",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 11; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
-        "exwb": "davidson-s14#B11",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s14-B11"
     },
     {
+      "id": "s14-B11.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "He ate of the tree.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אָכַל מִן־הָעֵץ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "en-he",
+      "src": "s14-B11"
+    },
+    {
+      "id": "s14-B13.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "לֶעָפָר",
+      "stimulusIsScript": true,
+      "statement": "To the dust",
+      "answer": true,
+      "expected": "To the dust",
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "en-he",
+      "src": "s14-B13"
+    },
+    {
+      "id": "s14-B13.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "לֶעָפָר",
+      "stimulusIsScript": true,
+      "options": [
+        "To a dust",
+        "In the dust",
+        "From the dust",
+        "To the dust"
+      ],
+      "answer": "To the dust",
+      "optionIsScript": false,
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "en-he",
+      "src": "s14-B13"
+    },
+    {
+      "id": "s14-B13.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "To the dust",
       "stimulusIsScript": false,
       "accepted": [
         "לֶעָפָר"
       ],
       "answerIsScript": true,
-      "id": "s14-B13",
       "block": "s14",
       "blockLabel": "Davidson §14",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 13; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
-        "exwb": "davidson-s14#B13",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s14-B13"
     },
     {
+      "id": "s14-B13.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "To the dust",
+      "stimulusIsScript": false,
+      "accepted": [
+        "לֶעָפָר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "en-he",
+      "src": "s14-B13"
+    },
+    {
+      "id": "s14-B14.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "לָחֳלִי",
+      "stimulusIsScript": true,
+      "statement": "God made the man out of dust from the ground.",
+      "answer": false,
+      "expected": "In (לְ) pain",
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "en-he",
+      "src": "s14-B14"
+    },
+    {
+      "id": "s14-B14.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "לָחֳלִי",
+      "stimulusIsScript": true,
+      "options": [
+        "In (לְ) pain",
+        "In the morning",
+        "The boy sat in this place.",
+        "God made the man out of dust from the ground."
+      ],
+      "answer": "In (לְ) pain",
+      "optionIsScript": false,
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "en-he",
+      "src": "s14-B14"
+    },
+    {
+      "id": "s14-B14.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "In (לְ) pain",
       "stimulusIsScript": false,
       "accepted": [
         "לָחֳלִי"
       ],
       "answerIsScript": true,
-      "id": "s14-B14",
       "block": "s14",
       "blockLabel": "Davidson §14",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 14; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
-        "exwb": "davidson-s14#B14",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s14-B14"
     },
     {
+      "id": "s14-B14.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "In (לְ) pain",
+      "stimulusIsScript": false,
+      "accepted": [
+        "לָחֳלִי"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "en-he",
+      "src": "s14-B14"
+    },
+    {
+      "id": "s14-B15.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "בָּהָר הָרָם",
+      "stimulusIsScript": true,
+      "statement": "On (בְּ) the high mountain",
+      "answer": true,
+      "expected": "On (בְּ) the high mountain",
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "en-he",
+      "src": "s14-B15"
+    },
+    {
+      "id": "s14-B15.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "בָּהָר הָרָם",
+      "stimulusIsScript": true,
+      "options": [
+        "To (בְּ) the high mountain",
+        "On (בְּ) a high mountain",
+        "From (בְּ) the high mountain",
+        "On (בְּ) the high mountain"
+      ],
+      "answer": "On (בְּ) the high mountain",
+      "optionIsScript": false,
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "en-he",
+      "src": "s14-B15"
+    },
+    {
+      "id": "s14-B15.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: On (בְּ) the high mountain",
+      "stimulus": "＿＿＿ הָרָם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "בָּהָר"
+      ],
+      "answerIsScript": true,
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "en-he",
+      "src": "s14-B15"
+    },
+    {
+      "id": "s14-B15.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "On (בְּ) the high mountain",
       "stimulusIsScript": false,
       "accepted": [
         "בָּהָר הָרָם"
       ],
       "answerIsScript": true,
-      "id": "s14-B15",
       "block": "s14",
       "blockLabel": "Davidson §14",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 15; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
-        "exwb": "davidson-s14#B15",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s14-B15"
     },
     {
+      "id": "s14-B15.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "On (בְּ) the high mountain",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בָּהָר הָרָם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s14",
+      "blockLabel": "Davidson §14",
+      "shape": "en-he",
+      "src": "s14-B15"
+    },
+    {
+      "id": "s15-A1.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אָמַר יהוה לָאִשָּׁה",
+      "stimulusIsScript": true,
+      "statement": "Yahweh said to the woman.",
+      "answer": true,
+      "expected": "Yahweh said to the woman.",
+      "block": "s15",
+      "blockLabel": "Davidson §15",
+      "shape": "he-en",
+      "src": "s15-A1"
+    },
+    {
+      "id": "s15-A1.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "אָמַר יהוה לָאִשָּׁה",
       "stimulusIsScript": true,
       "options": [
-        "Moses and Miriam",
+        "Yahweh said from the woman.",
         "Yahweh said to the woman.",
-        "And on that day I wrote in the book.",
-        "They cried to God in the battle."
+        "Yahweh said to a woman.",
+        "Yahweh said in the woman."
       ],
       "answer": "Yahweh said to the woman.",
       "optionIsScript": false,
-      "id": "s15-A1",
       "block": "s15",
       "blockLabel": "Davidson §15",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §15 A 1; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n74/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n74.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n29/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n29.jpg",
-        "exwb": "davidson-s15#A1",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s15-A1"
     },
     {
+      "id": "s15-A1.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Yahweh said to the woman.",
+      "stimulus": "אָמַר ＿＿＿ לָאִשָּׁה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "יהוה"
+      ],
+      "answerIsScript": true,
+      "block": "s15",
+      "blockLabel": "Davidson §15",
+      "shape": "he-en",
+      "src": "s15-A1"
+    },
+    {
+      "id": "s15-A1.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "אָמַר יהוה לָאִשָּׁה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Yahweh said to the woman.",
+        "the Lord said to the woman."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s15",
+      "blockLabel": "Davidson §15",
+      "shape": "he-en",
+      "src": "s15-A1"
+    },
+    {
+      "id": "s15-A1.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Yahweh said to the woman.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אָמַר יהוה לָאִשָּׁה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s15",
+      "blockLabel": "Davidson §15",
+      "shape": "he-en",
+      "src": "s15-A1"
+    },
+    {
+      "id": "s15-A3.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "בֵּאלֹהִים וּבְמֹשֶׁה",
+      "stimulusIsScript": true,
+      "statement": "To God and Moses",
+      "answer": false,
+      "expected": "In God and Moses",
+      "block": "s15",
+      "blockLabel": "Davidson §15",
+      "shape": "he-en",
+      "src": "s15-A3"
+    },
+    {
+      "id": "s15-A3.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "בֵּאלֹהִים וּבְמֹשֶׁה",
       "stimulusIsScript": true,
       "options": [
+        "A lion and an ass",
+        "To God and Moses",
         "In God and Moses",
-        "And on that day I wrote in the book.",
-        "David and Jonathan",
-        "They cried to God in the battle."
+        "From God and Moses"
       ],
       "answer": "In God and Moses",
       "optionIsScript": false,
-      "id": "s15-A3",
       "block": "s15",
       "blockLabel": "Davidson §15",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §15 A 3; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n74/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n74.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n29/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n29.jpg",
-        "exwb": "davidson-s15#A3",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s15-A3"
     },
     {
+      "id": "s15-A3.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Fill in the missing word: In God and Moses",
+      "stimulus": "בֵּאלֹהִים ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וּבְמֹשֶׁה"
+      ],
+      "answerIsScript": true,
+      "block": "s15",
+      "blockLabel": "Davidson §15",
+      "shape": "he-en",
+      "src": "s15-A3"
+    },
+    {
+      "id": "s15-A3.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "בֵּאלֹהִים וּבְמֹשֶׁה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "In God and Moses"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s15",
+      "blockLabel": "Davidson §15",
+      "shape": "he-en",
+      "src": "s15-A3"
+    },
+    {
+      "id": "s15-A3.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "In God and Moses",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בֵּאלֹהִים וּבְמֹשֶׁה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s15",
+      "blockLabel": "Davidson §15",
+      "shape": "he-en",
+      "src": "s15-A3"
+    },
+    {
+      "id": "s15-B4.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "מָחָה אֱלֹהִים מִן־הָאָרֶץ מֵאָדָם וְעַד־בְּהֵמָה",
+      "stimulusIsScript": true,
+      "statement": "God destroyed to the earth man and cattle.",
+      "answer": false,
+      "expected": "God destroyed from the earth man and cattle.",
+      "block": "s15",
+      "blockLabel": "Davidson §15",
+      "shape": "en-he",
+      "src": "s15-B4"
+    },
+    {
+      "id": "s15-B4.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "מָחָה אֱלֹהִים מִן־הָאָרֶץ מֵאָדָם וְעַד־בְּהֵמָה",
+      "stimulusIsScript": true,
+      "options": [
+        "God destroyed from an earth man and cattle.",
+        "God destroyed in the earth man and cattle.",
+        "God destroyed to the earth man and cattle.",
+        "God destroyed from the earth man and cattle."
+      ],
+      "answer": "God destroyed from the earth man and cattle.",
+      "optionIsScript": false,
+      "block": "s15",
+      "blockLabel": "Davidson §15",
+      "shape": "en-he",
+      "src": "s15-B4"
+    },
+    {
+      "id": "s15-B4.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: God destroyed from the earth man and cattle.",
+      "stimulus": "מָחָה ＿＿＿ מִן־הָאָרֶץ מֵאָדָם וְעַד־בְּהֵמָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֱלֹהִים"
+      ],
+      "answerIsScript": true,
+      "block": "s15",
+      "blockLabel": "Davidson §15",
+      "shape": "en-he",
+      "src": "s15-B4"
+    },
+    {
+      "id": "s15-B4.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "God destroyed from the earth man and cattle.",
       "stimulusIsScript": false,
       "accepted": [
         "מָחָה אֱלֹהִים מִן־הָאָרֶץ מֵאָדָם וְעַד־בְּהֵמָה"
       ],
       "answerIsScript": true,
-      "id": "s15-B4",
       "block": "s15",
       "blockLabel": "Davidson §15",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §15 B 4; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n74/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n74.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n29/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n29.jpg",
-        "exwb": "davidson-s15#B4",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s15-B4"
     },
     {
+      "id": "s15-B4.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "God destroyed from the earth man and cattle.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מָחָה אֱלֹהִים מִן־הָאָרֶץ מֵאָדָם וְעַד־בְּהֵמָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s15",
+      "blockLabel": "Davidson §15",
+      "shape": "en-he",
+      "src": "s15-B4"
+    },
+    {
+      "id": "s15-B13.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "לֹא חָכָם הָאָדָם כֵּאלֹהִים",
+      "stimulusIsScript": true,
+      "statement": "Man is wise as God.",
+      "answer": false,
+      "expected": "Man is not wise as God.",
+      "block": "s15",
+      "blockLabel": "Davidson §15",
+      "shape": "en-he",
+      "src": "s15-B13"
+    },
+    {
+      "id": "s15-B13.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "לֹא חָכָם הָאָדָם כֵּאלֹהִים",
+      "stimulusIsScript": true,
+      "options": [
+        "Man is not wise as God.",
+        "I said to the man.",
+        "A lion and an ass",
+        "Man is wise as God."
+      ],
+      "answer": "Man is not wise as God.",
+      "optionIsScript": false,
+      "block": "s15",
+      "blockLabel": "Davidson §15",
+      "shape": "en-he",
+      "src": "s15-B13"
+    },
+    {
+      "id": "s15-B13.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Man is not wise as God.",
+      "stimulus": "לֹא ＿＿＿ הָאָדָם כֵּאלֹהִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "חָכָם"
+      ],
+      "answerIsScript": true,
+      "block": "s15",
+      "blockLabel": "Davidson §15",
+      "shape": "en-he",
+      "src": "s15-B13"
+    },
+    {
+      "id": "s15-B13.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "Man is not wise as God.",
       "stimulusIsScript": false,
       "accepted": [
         "לֹא חָכָם הָאָדָם כֵּאלֹהִים"
       ],
       "answerIsScript": true,
-      "id": "s15-B13",
       "block": "s15",
       "blockLabel": "Davidson §15",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §15 B 13; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n74/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n74.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n29/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n29.jpg",
-        "exwb": "davidson-s15#B13",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s15-B13"
     },
     {
+      "id": "s15-B13.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Man is not wise as God.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "לֹא חָכָם הָאָדָם כֵּאלֹהִים"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s15",
+      "blockLabel": "Davidson §15",
+      "shape": "en-he",
+      "src": "s15-B13"
+    },
+    {
+      "id": "s16-A1.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "לֹא שָׁתָה הַפָּר מִן־הַמַּיִם כִּי מָרִים הֵם",
+      "stimulusIsScript": true,
+      "statement": "An ox did not drink of the water, for it was bitter.",
+      "answer": false,
+      "expected": "The ox did not drink of the water, for it was bitter.",
+      "block": "s16",
+      "blockLabel": "Davidson §16",
+      "shape": "he-en",
+      "src": "s16-A1"
+    },
+    {
+      "id": "s16-A1.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "לֹא שָׁתָה הַפָּר מִן־הַמַּיִם כִּי מָרִים הֵם",
       "stimulusIsScript": true,
       "options": [
-        "These are the ill-favoured kine which the king saw by the river.",
+        "An ox did not drink of the water, for it was bitter.",
+        "The ox did drink of the water, for it was bitter.",
         "The ox did not drink of the water, for it was bitter.",
-        "I said to this people, righteous are ye.",
-        "The (two) hands"
+        "The ox did not drink of a water, for it was bitter."
       ],
       "answer": "The ox did not drink of the water, for it was bitter.",
       "optionIsScript": false,
-      "id": "s16-A1",
       "block": "s16",
       "blockLabel": "Davidson §16",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §16 A 1; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n76/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n76.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n31/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n31.jpg",
-        "exwb": "davidson-s16#A1",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s16-A1"
     },
     {
+      "id": "s16-A1.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The ox did not drink of the water, for it was bitter.",
+      "stimulus": "לֹא ＿＿＿ הַפָּר מִן־הַמַּיִם כִּי מָרִים הֵם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "שָׁתָה"
+      ],
+      "answerIsScript": true,
+      "block": "s16",
+      "blockLabel": "Davidson §16",
+      "shape": "he-en",
+      "src": "s16-A1"
+    },
+    {
+      "id": "s16-A1.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "לֹא שָׁתָה הַפָּר מִן־הַמַּיִם כִּי מָרִים הֵם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The ox did not drink of the water, for it was bitter."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s16",
+      "blockLabel": "Davidson §16",
+      "shape": "he-en",
+      "src": "s16-A1"
+    },
+    {
+      "id": "s16-A1.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The ox did not drink of the water, for it was bitter.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "לֹא שָׁתָה הַפָּר מִן־הַמַּיִם כִּי מָרִים הֵם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s16",
+      "blockLabel": "Davidson §16",
+      "shape": "he-en",
+      "src": "s16-A1"
+    },
+    {
+      "id": "s16-A3.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "מָשַׁל הָאָדָם בַּבְּהֵמָה וּבַדָּגִים",
+      "stimulusIsScript": true,
+      "statement": "Man has dominion over the beasts and the fish.",
+      "answer": true,
+      "expected": "Man has dominion over the beasts and the fish.",
+      "block": "s16",
+      "blockLabel": "Davidson §16",
+      "shape": "he-en",
+      "src": "s16-A3"
+    },
+    {
+      "id": "s16-A3.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
       "stimulus": "מָשַׁל הָאָדָם בַּבְּהֵמָה וּבַדָּגִים",
       "stimulusIsScript": true,
       "options": [
-        "Thou hast counted the stars.",
+        "God gave me a new song.",
         "Man has dominion over the beasts and the fish.",
-        "The king saw in a dream the goodly kine by the river.",
-        "(Two) sides"
+        "Man has dominion over the beasts and a fish.",
+        "Man has dominion over beasts and the fish."
       ],
       "answer": "Man has dominion over the beasts and the fish.",
       "optionIsScript": false,
-      "id": "s16-A3",
       "block": "s16",
       "blockLabel": "Davidson §16",
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §16 A 3; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n76/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n76.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n31/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n31.jpg",
-        "exwb": "davidson-s16#A3",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s16-A3"
     },
     {
+      "id": "s16-A3.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Man has dominion over the beasts and the fish.",
+      "stimulus": "מָשַׁל הָאָדָם ＿＿＿ וּבַדָּגִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "בַּבְּהֵמָה"
+      ],
+      "answerIsScript": true,
+      "block": "s16",
+      "blockLabel": "Davidson §16",
+      "shape": "he-en",
+      "src": "s16-A3"
+    },
+    {
+      "id": "s16-A3.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "מָשַׁל הָאָדָם בַּבְּהֵמָה וּבַדָּגִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Man has dominion over the beasts and the fish."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s16",
+      "blockLabel": "Davidson §16",
+      "shape": "he-en",
+      "src": "s16-A3"
+    },
+    {
+      "id": "s16-A3.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Man has dominion over the beasts and the fish.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מָשַׁל הָאָדָם בַּבְּהֵמָה וּבַדָּגִים"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s16",
+      "blockLabel": "Davidson §16",
+      "shape": "he-en",
+      "src": "s16-A3"
+    },
+    {
+      "id": "s16-A9.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "רָאָה הַמֶּלֶךְ בַּחֲלוֹם אֶת־הַפָּרוֹת הַטֹּבוֹת עַל־הַיְאֹר",
+      "stimulusIsScript": true,
+      "statement": "A king saw in a dream the goodly kine by the river.",
+      "answer": false,
+      "expected": "The king saw in a dream the goodly kine by the river.",
+      "block": "s16",
+      "blockLabel": "Davidson §16",
+      "shape": "he-en",
+      "src": "s16-A9"
+    },
+    {
+      "id": "s16-A9.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
       "type": "mcq",
       "prompt": "Choose the translation",
-      "stimulus": "ראה המלך בחלום את־הפרות הטבות על־היאר",
+      "stimulus": "רָאָה הַמֶּלֶךְ בַּחֲלוֹם אֶת־הַפָּרוֹת הַטֹּבוֹת עַל־הַיְאֹר",
       "stimulusIsScript": true,
       "options": [
-        "These are the ill-favoured kine which the king saw by the river.",
-        "Man has dominion over the beasts and the fish.",
-        "How high those palaces are!",
-        "The king saw in a dream the goodly kine by the river."
+        "The king saw in a dream the goodly kine by the river.",
+        "A king saw in a dream the goodly kine by the river.",
+        "The king saw to a dream the goodly kine by the river.",
+        "The king saw in a dream a goodly kine by the river."
       ],
       "answer": "The king saw in a dream the goodly kine by the river.",
       "optionIsScript": false,
-      "id": "s16-A9",
       "block": "s16",
       "blockLabel": "Davidson §16",
       "shape": "he-en",
-      "hint": "With vowel points: רָאָה הַמֶּלֶךְ בַּחֲלוֹם אֶת־הַפָּרוֹת הַטֹּבוֹת עַל־הַיְאֹר",
-      "data": {
-        "pointed": "רָאָה הַמֶּלֶךְ בַּחֲלוֹם אֶת־הַפָּרוֹת הַטֹּבוֹת עַל־הַיְאֹר"
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §16 A 9; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n76/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n76.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n31/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n31.jpg",
-        "exwb": "davidson-s16#A9",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s16-A9"
     },
     {
+      "id": "s16-A9.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Fill in the missing word: The king saw in a dream the goodly kine by the river.",
+      "stimulus": "רָאָה הַמֶּלֶךְ בַּחֲלוֹם אֶת־הַפָּרוֹת הַטֹּבוֹת ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "עַל־הַיְאֹר"
+      ],
+      "answerIsScript": true,
+      "block": "s16",
+      "blockLabel": "Davidson §16",
+      "shape": "he-en",
+      "src": "s16-A9"
+    },
+    {
+      "id": "s16-A9.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "ראה המלך בחלום את־הפרות הטבות על־היאר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The king saw in a dream the goodly kine by the river."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "hint": "With vowel points: רָאָה הַמֶּלֶךְ בַּחֲלוֹם אֶת־הַפָּרוֹת הַטֹּבוֹת עַל־הַיְאֹר",
+      "block": "s16",
+      "blockLabel": "Davidson §16",
+      "shape": "he-en",
+      "src": "s16-A9"
+    },
+    {
+      "id": "s16-A9.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The king saw in a dream the goodly kine by the river.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "רָאָה הַמֶּלֶךְ בַּחֲלוֹם אֶת־הַפָּרוֹת הַטֹּבוֹת עַל־הַיְאֹר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s16",
+      "blockLabel": "Davidson §16",
+      "shape": "he-en",
+      "src": "s16-A9"
+    },
+    {
+      "id": "s16-B10.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַצַּדִּיקִים כַּכּוֹכָבִים אֲשֶׁר בָּרָקִיעַ",
+      "stimulusIsScript": true,
+      "statement": "The just are as the stars which (are) in the firmament.",
+      "answer": true,
+      "expected": "The just are as the stars which (are) in the firmament.",
+      "block": "s16",
+      "blockLabel": "Davidson §16",
+      "shape": "en-he",
+      "src": "s16-B10"
+    },
+    {
+      "id": "s16-B10.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַצַּדִּיקִים כַּכּוֹכָבִים אֲשֶׁר בָּרָקִיעַ",
+      "stimulusIsScript": true,
+      "options": [
+        "The just are as the stars which (are) in the firmament.",
+        "The just are as stars which (are) in the firmament.",
+        "The just are as the stars which (are) to the firmament.",
+        "The just are as the stars which (are) from the firmament."
+      ],
+      "answer": "The just are as the stars which (are) in the firmament.",
+      "optionIsScript": false,
+      "block": "s16",
+      "blockLabel": "Davidson §16",
+      "shape": "en-he",
+      "src": "s16-B10"
+    },
+    {
+      "id": "s16-B10.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The just are as the stars which (are) in the firmament.",
+      "stimulus": "הַצַּדִּיקִים ＿＿＿ אֲשֶׁר בָּרָקִיעַ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "כַּכּוֹכָבִים"
+      ],
+      "answerIsScript": true,
+      "block": "s16",
+      "blockLabel": "Davidson §16",
+      "shape": "en-he",
+      "src": "s16-B10"
+    },
+    {
+      "id": "s16-B10.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "The just are as the stars which (are) in the firmament.",
       "stimulusIsScript": false,
       "accepted": [
         "הַצַּדִּיקִים כַּכּוֹכָבִים אֲשֶׁר בָּרָקִיעַ"
       ],
       "answerIsScript": true,
-      "id": "s16-B10",
       "block": "s16",
       "blockLabel": "Davidson §16",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §16 B 10; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n76/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n76.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n31/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n31.jpg",
-        "exwb": "davidson-s16#B10",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s16-B10"
     },
     {
+      "id": "s16-B10.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
       "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The just are as the stars which (are) in the firmament.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַצַּדִּיקִים כַּכּוֹכָבִים אֲשֶׁר בָּרָקִיעַ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s16",
+      "blockLabel": "Davidson §16",
+      "shape": "en-he",
+      "src": "s16-B10"
+    },
+    {
+      "id": "s16-B15.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "מַיִם מֵהַבְּאֵרֹת",
+      "stimulusIsScript": true,
+      "statement": "Water from the wells",
+      "answer": true,
+      "expected": "Water from the wells",
+      "block": "s16",
+      "blockLabel": "Davidson §16",
+      "shape": "en-he",
+      "src": "s16-B15"
+    },
+    {
+      "id": "s16-B15.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "מַיִם מֵהַבְּאֵרֹת",
+      "stimulusIsScript": true,
+      "options": [
+        "Water to the wells",
+        "Water from wells",
+        "Water in the wells",
+        "Water from the wells"
+      ],
+      "answer": "Water from the wells",
+      "optionIsScript": false,
+      "block": "s16",
+      "blockLabel": "Davidson §16",
+      "shape": "en-he",
+      "src": "s16-B15"
+    },
+    {
+      "id": "s16-B15.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Water from the wells",
+      "stimulus": "＿＿＿ מֵהַבְּאֵרֹת",
+      "stimulusIsScript": true,
+      "accepted": [
+        "מַיִם"
+      ],
+      "answerIsScript": true,
+      "block": "s16",
+      "blockLabel": "Davidson §16",
+      "shape": "en-he",
+      "src": "s16-B15"
+    },
+    {
+      "id": "s16-B15.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
       "stimulus": "Water from the wells",
       "stimulusIsScript": false,
       "accepted": [
         "מַיִם מֵהַבְּאֵרֹת"
       ],
       "answerIsScript": true,
-      "id": "s16-B15",
       "block": "s16",
       "blockLabel": "Davidson §16",
       "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §16 B 15; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n76/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n76.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n31/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n31.jpg",
-        "exwb": "davidson-s16#B15",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "src": "s16-B15"
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the translation",
-      "stimulus": "ביום ההוא עשה יהוה ישועה בישראל",
-      "stimulusIsScript": true,
-      "options": [
-        "There was a famine in the land, and Abraham went down into Egypt, for the famine was sore in the land.",
-        "On that day Yahweh wrought deliverance in Israel.",
-        "The law of Yahweh is good.",
-        "And in the law of Yahweh thou hast not walked."
+      "id": "s16-B15.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Water from the wells",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מַיִם מֵהַבְּאֵרֹת"
       ],
-      "answer": "On that day Yahweh wrought deliverance in Israel.",
-      "optionIsScript": false,
-      "id": "s17-A14",
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s16",
+      "blockLabel": "Davidson §16",
+      "shape": "en-he",
+      "src": "s16-B15"
+    },
+    {
+      "id": "s17-A14.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "בַּיּוֹם הַהוּא עָשָׂה יְהוָה יְשׁוּעָה בְּיִשְׂרָאֵל",
+      "stimulusIsScript": true,
+      "statement": "On that day Yahweh wrought deliverance from Israel.",
+      "answer": false,
+      "expected": "On that day Yahweh wrought deliverance in Israel.",
       "block": "s17",
       "blockLabel": "Davidson §17",
       "shape": "he-en",
+      "src": "s17-A14"
+    },
+    {
+      "id": "s17-A14.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "בַּיּוֹם הַהוּא עָשָׂה יְהוָה יְשׁוּעָה בְּיִשְׂרָאֵל",
+      "stimulusIsScript": true,
+      "options": [
+        "On this day Yahweh wrought deliverance in Israel.",
+        "On that day Yahweh wrought deliverance in Israel.",
+        "On that day Yahweh wrought deliverance to Israel.",
+        "On that day Yahweh wrought deliverance from Israel."
+      ],
+      "answer": "On that day Yahweh wrought deliverance in Israel.",
+      "optionIsScript": false,
+      "block": "s17",
+      "blockLabel": "Davidson §17",
+      "shape": "he-en",
+      "src": "s17-A14"
+    },
+    {
+      "id": "s17-A14.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: On that day Yahweh wrought deliverance in Israel.",
+      "stimulus": "בַּיּוֹם הַהוּא עָשָׂה יְהוָה ＿＿＿ בְּיִשְׂרָאֵל",
+      "stimulusIsScript": true,
+      "accepted": [
+        "יְשׁוּעָה"
+      ],
+      "answerIsScript": true,
+      "block": "s17",
+      "blockLabel": "Davidson §17",
+      "shape": "he-en",
+      "src": "s17-A14"
+    },
+    {
+      "id": "s17-A14.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "ביום ההוא עשה יהוה ישועה בישראל",
+      "stimulusIsScript": true,
+      "accepted": [
+        "On that day Yahweh wrought deliverance in Israel.",
+        "On that day the Lord wrought deliverance in Israel."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
       "hint": "With vowel points: בַּיּוֹם הַהוּא עָשָׂה יְהוָה יְשׁוּעָה בְּיִשְׂרָאֵל",
-      "data": {
-        "pointed": "בַּיּוֹם הַהוּא עָשָׂה יְהוָה יְשׁוּעָה בְּיִשְׂרָאֵל"
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §17 A 14; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n81/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n81.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n33/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n33.jpg",
-        "exwb": "davidson-s17#A14",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
+      "block": "s17",
+      "blockLabel": "Davidson §17",
+      "shape": "he-en",
+      "src": "s17-A14"
+    },
+    {
+      "id": "s17-A14.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "On that day Yahweh wrought deliverance in Israel.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בַּיּוֹם הַהוּא עָשָׂה יְהוָה יְשׁוּעָה בְּיִשְׂרָאֵל"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s17",
+      "blockLabel": "Davidson §17",
+      "shape": "he-en",
+      "src": "s17-A14"
     }
   ]
 }

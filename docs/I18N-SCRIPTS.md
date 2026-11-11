@@ -54,6 +54,11 @@ exercise type consumes it (type Hebrew for a gloss) and accepts transliteration 
 alternative input unless the course sets `features.transliteration: false`. Font **file** still not
 bundled — see §6.
 
+**Pointed grading (2026-11-11, P12-T3):** `engine/exercise-types/util.js` `pointedForm` compares typed Hebrew
+with its vowel points: cantillation and meteg are dropped, qamets qatan = qamets, holem haser = holem, maqqef =
+space, a word-initial begadkefat dagesh is optional, and inside a word full and defective spellings compare equal
+(וֹ / ֹ, וּ / ֻ, a mater י after hiriq/tsere/segol). `pointingDiff` marks wrong or missing points letter by letter.
+
 **Mark keys (2026-11-11):** the niqqud row has the ten vowel signs, shewa, the three hatefs, dagesh,
 **shin dot** (U+05C1), **sin dot** (U+05C2) and **maqqef** (U+05BE). Each key shows its mark on a
 real letter (בָ; the shin/sin dots on ש; maqqef alone) in the Hebrew font, with its name underneath;
