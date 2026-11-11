@@ -15,6 +15,13 @@ design docs live under `docs/` and are referenced from here.
 
 This overrides any older doc that conflicts with it.
 
+**Goal.** A learner who works through a course can pass a university or seminary written exam in the
+language and is literate in it: enough vocabulary and grammar (plus some semantics, translation and
+pragmatics) to read texts, with a dictionary only for rarer words. The software gives many more
+exercises than the original textbooks and grammars, with progressive difficulty, progress bookkeeping,
+and mild gamification to keep motivation up. Literacy and the exam are the measure, not streaks.
+
+
 - **The student progresses through exercises of increasing difficulty**, in this ladder:
   true/false → multiple choice → fill in the blank → translate without vowel points →
   translate with vowel points. A unit is learned by climbing it.
@@ -118,6 +125,9 @@ python scripts/e2e.py courses/biblical-hebrew-davidson --units 2
 
 # Authored-exercise regression (render/grade + session mix)
 python scripts/e2e.py courses/biblical-hebrew-davidson --authored
+
+# URLs, seeded sessions that resume, item codes, per-block progress
+python scripts/e2e.py courses/biblical-hebrew-davidson --routes
 
 # Accessibility regression (keyboard navigation + on-screen Hebrew keyboard)
 python scripts/e2e.py courses/biblical-hebrew-davidson --accessibility

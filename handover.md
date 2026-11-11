@@ -42,4 +42,8 @@
 - 2026-11-11: P12-T6 done — 79 one-topic Davidson units (splits + new units for §4, §9, §24, §32); exercises,
   `grammar-units.json`, `exwb-units.json`, `vocab-layout.json` remapped; new `prep-suffix` and `segholate` grammar
   features; old progress not migrated (user). P12-T7 (deep links, per-block progress) recorded as ideas.
+- 2026-11-11: pushed P12-T6 to both repos (public 97df8d8). P12-T7 done: item codes, hash routes with seeds
+  (`#/<slug>/drill/<seed>/<q>`, `/block/…`, `/item/<id>`), resume after reload, per-block progress; `e2e.py --routes`.
+  AGENTS.md §0 gained the goal (exam-ready literacy) and a private note on why not Duolingo-style apps.
+- 2026-11-11: keyboard — shin dot, sin dot, maqqef keys; mark keys drawn on a letter with their names (all four courses' CSS).
 - Next up: P12-T4 (ladder, with T2 typed Hebrew→English and T3 pointed grading).

@@ -31,6 +31,13 @@ function spiralMcqItems(sources, known) {
   return items;
 }
 
+function generatedId(item) {
+  const text = [item.type, item.direction || "", JSON.stringify(item.stimulus || ""), JSON.stringify(item.answer || item.accepted || "")].join("|");
+  let h = 2166136261;
+  for (const ch of text) h = Math.imul(h ^ ch.charCodeAt(0), 16777619);
+  return `${item.spiral ? "review" : "vocab"}-${(h >>> 0).toString(36)}`;
+}
+
 export function buildSession(course, pool, options = {}) {
   const mcq = getType("mcq");
   const match = getType("match-by-line");
@@ -45,8 +52,9 @@ export function buildSession(course, pool, options = {}) {
   const target = options.count || features.targetItems || 14;
   const allAuthored = options.authored || [];
   const authoredCap = features.authoredPerSession;
+  const mastered = options.mastered || new Set();
   const authored = authoredCap && allAuthored.length > authoredCap
-    ? shuffle(allAuthored).slice(0, authoredCap)
+    ? [...shuffle(allAuthored.filter((i) => !mastered.has(i.id))), ...shuffle(allAuthored.filter((i) => mastered.has(i.id)))].slice(0, authoredCap)
     : allAuthored;
 
   const reviewCount = features.reviewItems || 2;
@@ -87,5 +95,6 @@ export function buildSession(course, pool, options = {}) {
     }
   }
 
-  return [...spiralItems_, ...authored, ...generated.slice(0, remaining)];
+  return [...spiralItems_, ...authored, ...generated.slice(0, remaining)].map((item) =>
+    (item.id ? item : { ...item, id: generatedId(item) }));
 }

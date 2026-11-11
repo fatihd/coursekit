@@ -36,7 +36,20 @@ function applyKey(k) {
 }
 
 function buildKey(k) {
-  const btn = el("button", k.niqqud ? "kb-key kb-key--niqqud" : "kb-key", k.label || k.key);
+  let btn;
+  if (k.niqqud) {
+    btn = el("button", "kb-key kb-key--niqqud");
+    const base = k.base === undefined ? "ב" : k.base;
+    btn.appendChild(el("span", "kb-glyph", base + k.key));
+    if (k.name) {
+      btn.appendChild(el("span", "kb-name", k.name));
+      btn.title = k.name;
+      btn.setAttribute("aria-label", k.name);
+    }
+  } else {
+    btn = el("button", "kb-key", k.label || k.key);
+  }
+  btn.dataset.key = k.key;
   btn.type = "button";
   btn.addEventListener("mousedown", (e) => {
     e.preventDefault();

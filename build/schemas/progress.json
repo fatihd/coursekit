@@ -83,6 +83,10 @@
         "null"
       ]
     },
+    "sessions": {
+      "type": "object",
+      "description": "Open drill session per unit (seed, position, score) so a reload or link resumes it"
+    },
     "lastExportedAt": {
       "type": [
         "string",

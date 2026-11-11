@@ -30,6 +30,7 @@
           "id": { "type": "string", "pattern": "^u\\d{2}$" },
           "n": { "type": "integer", "minimum": 1 },
           "title": { "type": "string", "minLength": 1 },
+          "slug": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
           "part": { "type": "integer", "minimum": 1 },
           "textbookPage": { "type": "integer", "minimum": 1 }
         }

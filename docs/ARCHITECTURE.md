@@ -94,6 +94,18 @@ Roadmap  ──▶  Unit overview (with "Previously…" recap)  ──▶  Lesso
 Review (Warm-up) ◀── anytime, from roadmap  ────────────────┘
 ```
 
+### URLs, seeds, and resuming (P12-T7)
+
+The app routes by URL hash, so links and the browser's back button work on any static host:
+`#/` roadmap; `#/<unit-slug>` lesson; `#/<slug>/drill/<seed>/<question>` a drill session;
+`#/<slug>/block/<block>/<seed>/<question>` practice of one exercise block; `#/<slug>/item/<id>`
+one item. `#/<slug>/drill` (no seed) starts a fresh session with a new seed. All randomness
+(session sampling, shuffles, option order) comes from `util.random()`, seeded per session and per
+question, so a link reproduces the same questions in any browser. The open session (seed,
+position, score) is saved in progress after every answer; a reload or the lesson's
+"Resume drills" button continues it. Sessions pick a unit's not-yet-answered-right items first.
+Each question shows its item code (`Item s20-B3`) so a student can report a specific item.
+
 ### Lesson gate
 
 The "Mark lesson read → start drills" gate is **soft**: it encourages the teach→drill

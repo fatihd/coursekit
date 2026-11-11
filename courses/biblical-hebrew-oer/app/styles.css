@@ -76,10 +76,22 @@ button, input, select { font: inherit; }
 .kb-row--niqqud { flex-wrap: wrap; }
 .kb-key { flex: 1 1 0; min-width: 1.7rem; max-width: 3.4rem; padding: 0.5rem 0.25rem; border: 1px solid #bdb6aa; border-radius: 6px; background: white; color: var(--ink); font-size: 1.1rem; cursor: pointer; }
 .kb-key:hover { background: #eee8de; }
-.kb-key--niqqud { color: var(--accent); font-size: 0.95rem; }
+.kb-key--niqqud { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.1rem; min-width: 3.6rem; max-width: 4.8rem; padding: 0.3rem 0.25rem; color: var(--ink); }
+.kb-glyph { font-family: "Ezra SIL", "SBL Hebrew", "Arial Hebrew", serif; font-size: 2rem; line-height: 1.3; direction: rtl; }
+.kb-name { font-size: 0.68rem; line-height: 1.1; color: var(--muted); text-align: center; }
 .drill-result { font-size: 1.2rem; font-weight: 700; }
 @media (max-width: 640px) {
   #app { padding: 1rem 0.75rem 3rem; }
   .drill-feedback { grid-template-columns: 1fr; grid-template-areas: "status" "action"; }
   .drill-feedback .gate-btn { justify-self: start; }
 }
+.drill-item-code { margin: 0.5rem 0 0; color: var(--muted); font-size: 0.75rem; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+.gate { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+.gate-secondary { background: none; color: var(--accent); border: 1px solid var(--accent); }
+.blocks { margin: 2rem 0 0; }
+.blocks-title { font-size: 1.1rem; margin: 0 0 0.5rem; }
+.blocks-list { list-style: none; margin: 0; padding: 0; }
+.blocks-row { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.75rem; padding: 0.4rem 0; border-bottom: 1px solid #ece6db; }
+.blocks-label { flex: 1 1 10rem; }
+.blocks-count { color: var(--muted); font-size: 0.9rem; }
+.blocks-practice { color: var(--accent); }

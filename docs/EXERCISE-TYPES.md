@@ -197,6 +197,10 @@ Validation is enforced by `build/schemas/authored-exercises.json` via
   exercise page" / "Answer key page" links under the question, so OCR-derived items can be
   checked against their scans (ADR-017).
 
+**Randomness.** Generators and renderers must use `shuffle()` / `random()` from
+`exercise-types/util.js`, never `Math.random()`: the drill seeds them per session and per question
+so a URL reproduces the same items (P12-T7).
+
 ## 7. Adding a type (checklist)
 
 1. Add `engine/exercise-types/<type>.js` with `{id, generate, render, grade}`.

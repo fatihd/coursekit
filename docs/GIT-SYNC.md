@@ -13,8 +13,9 @@
 - **Import progress** (roadmap): `importProgress` validates the file (schema
   `progress-v1.json`, same `courseId`) and merges it with `mergeProgress`:
   per unit the furthest state (done > in-progress) and best score, `lessonRead` OR-ed,
-  latest `lastPlayed`; `currentUnit`/`xp` max; `knownSet` union; per skill the tally with
-  more attempts. Importing never loses work from either side.
+  latest `lastPlayed`; per exercise block the union of right answers; `currentUnit`/`xp` max;
+  `knownSet` union; per skill the tally with more attempts; open sessions kept from this browser,
+  added from the file. Importing never loses work from either side.
 - The roadmap status line shows "Last exported …" / "you have made progress since" /
   "stored in this browser only".
 

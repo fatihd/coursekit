@@ -335,6 +335,9 @@ def build_block(stem: str, data: dict, cfg: dict) -> tuple[list[dict], list[dict
                 "answer": it["answer"],
                 "optionIsScript": shape in ("correct-pointing", "he-form"),
             }
+        out["id"] = f"{stem.removeprefix('davidson-')}-{it['part']}{it['num']}"
+        out["block"] = stem.removeprefix("davidson-")
+        out["blockLabel"] = "Davidson §" + str(int(re.sub(r"[a-z]$", "", stem.removeprefix("davidson-s"))))
         out["shape"] = shape
         for k in ("hint", "explain"):
             if it.get(k):

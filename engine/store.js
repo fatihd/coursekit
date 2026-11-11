@@ -77,6 +77,14 @@ export function mergeProgress(a, b) {
     }
     const la = ua.lastPlayed || "", lb = ub.lastPlayed || "";
     if (la || lb) merged.lastPlayed = la > lb ? la : lb;
+    if (ua.blocks || ub.blocks) {
+      const blocks = { ...(ua.blocks || {}) };
+      for (const [id, bb] of Object.entries(ub.blocks || {})) {
+        const ba = blocks[id] || { correct: [] };
+        blocks[id] = { correct: [...new Set([...(ba.correct || []), ...(bb.correct || [])])] };
+      }
+      merged.blocks = blocks;
+    }
     units[n] = merged;
   }
   const out = {
@@ -94,6 +102,7 @@ export function mergeProgress(a, b) {
     }
     out.skills = skills;
   }
+  if (a.sessions || b.sessions) out.sessions = { ...(b.sessions || {}), ...(a.sessions || {}) };
   if (!out.student?.name && b.student?.name) out.student = { ...b.student };
   return out;
 }

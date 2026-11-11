@@ -22,8 +22,8 @@
     "translitScheme": "he-sbl"       // maps to engine/translit/he-sbl
   },
    "units": [
-    { "id": "u01", "n": 1, "title": "The Aleph-Bet",
-      "part": 1, "textbookPage": 1 }
+    { "id": "u01", "n": 1, "title": "The Aleph-Bet", "slug": "the-aleph-bet",
+      "part": 1, "textbookPage": 1 }   // slug: optional, used in URLs (#/the-aleph-bet); fallback "u1"
     // ...one entry per unit
   ],
   "parts": [
@@ -199,6 +199,8 @@ keeps the engine shape of its type and adds:
   "readings": [ { "person": "1", "number": "sing.", "form": "imperfect", "stem": "Qal",
                   "root": "שָׁמַר" } ],  // all accepted parses (P9-T8)
   "shape": "parse",            // en-he | he-en | parse | correct-pointing | he-form
+  "id": "s21-AL1",             // optional, stable item id (shown in the drill, used in #/<unit>/item/<id>)
+  "block": "s21", "blockLabel": "Davidson §21",  // optional, exercise block for per-block progress
   "hint": "…", "explain": "…", // optional (schema: any item type, P9-T7); hint = shown on request
                                // before answering, explain = shown with the feedback. Unpointed
                                // prompts get "hint": "With vowel points: <pointed form>"
@@ -310,7 +312,11 @@ non-lexeme kinds). Units reference them in `teaches`/`assumes`.
   "units": {
     "u01": { "state": "done",     "lessonRead": true,  "bestScore": 90, "lastPlayed": "2026-08-12T10:00Z" },
     "u02": { "state": "done",     "lessonRead": true,  "bestScore": 85, "lastPlayed": "2026-08-12T11:00Z" },
-    "u03": { "state": "in-progress","lessonRead": true, "bestScore": 0,  "lastPlayed": "2026-08-12T12:00Z" }
+    "u03": { "state": "in-progress","lessonRead": true, "bestScore": 0,  "lastPlayed": "2026-08-12T12:00Z",
+             "blocks": { "s20": { "correct": ["s20-B3", "s20-B7"] } } }   // ids answered right, per block (P12-T7)
+  },
+  "sessions": {                                         // open drill per unit ("N") or block ("N:block")
+    "35": { "seed": "k3f9q1", "block": null, "pos": 7, "total": 24, "correct": 5, "answered": 6, "detail": [] }
   },
   "knownSet": ["he-dav-01-001", "he-dav-01-002", /* … items from completed units */],
   "skills": { "20": { "correct": 12, "attempts": 14 } },   // optional, ADR-015

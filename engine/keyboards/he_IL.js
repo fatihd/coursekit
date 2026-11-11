@@ -19,8 +19,11 @@ export default {
     ],
   ],
   niqqud: [
-    { key: "ָ" }, { key: "ַ" }, { key: "ֶ" }, { key: "ֵ" }, { key: "ִ" },
-    { key: "ֹ" }, { key: "ֻ" }, { key: "ְ" }, { key: "ֲ" }, { key: "ֱ" },
-    { key: "ֳ" }, { key: "ּ" },
+    { key: "ָ", name: "qamets" }, { key: "ַ", name: "patah" }, { key: "ֶ", name: "segol" },
+    { key: "ֵ", name: "tsere" }, { key: "ִ", name: "hiriq" }, { key: "ֹ", name: "holem" },
+    { key: "ֻ", name: "qibbuts" }, { key: "ְ", name: "shewa" }, { key: "ֲ", name: "hatef patah" },
+    { key: "ֱ", name: "hatef segol" }, { key: "ֳ", name: "hatef qamets" }, { key: "ּ", name: "dagesh" },
+    { key: "ׁ", name: "shin dot", base: "ש" }, { key: "ׂ", name: "sin dot", base: "ש" },
+    { key: "־", name: "maqqef", base: "" },
   ],
 };

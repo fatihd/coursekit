@@ -1,5 +1,6 @@
 import { el } from "../dom.js";
 import { getType } from "../exercise-types/index.js";
+import { withSeed } from "../exercise-types/util.js";
 
 function unitTitle(course, n) {
   const u = course.units.find((x) => x.n === n);
@@ -60,9 +61,10 @@ export function renderDrill(root, ctx) {
   const features = ctx.features || {};
   root.replaceChildren();
 
-  let idx = 0;
-  let correctCount = 0;
-  const detail = [];
+  let idx = ctx.start || 0;
+  let correctCount = ctx.initial ? ctx.initial.correct : 0;
+  let answered = ctx.initial ? ctx.initial.answered : 0;
+  const detail = ctx.initial ? [...ctx.initial.detail] : [];
 
   const wrap = el("div", "drill-wrap");
   root.appendChild(wrap);
@@ -86,17 +88,20 @@ export function renderDrill(root, ctx) {
     stage.replaceChildren();
     feedback.replaceChildren();
     progress.textContent = "";
-    const score = Math.round((correctCount / items.length) * 100);
-    stage.appendChild(el("h2", "drill-result", `${correctCount} / ${items.length} correct — ${score}%`));
-    const pass = score >= 70;
-    stage.appendChild(
-      el("p", "drill-result-note", pass ? "Unit complete." : "Below 70% — you can retry."),
-    );
-    const toRoadmap = el("button", "gate-btn", "Back to roadmap →");
-    toRoadmap.addEventListener("click", () => navigate("roadmap"));
+    const total = answered || items.length;
+    const score = Math.round((correctCount / total) * 100);
+    stage.appendChild(el("h2", "drill-result", `${correctCount} / ${total} correct — ${score}%`));
+    if (!ctx.single) {
+      const pass = score >= 70;
+      stage.appendChild(
+        el("p", "drill-result-note", pass ? "Unit complete." : "Below 70% — you can retry."),
+      );
+    }
+    const toRoadmap = el("button", "gate-btn", ctx.single ? "Back to lesson →" : "Back to roadmap →");
+    toRoadmap.addEventListener("click", () => (ctx.single ? navigate("lesson", unit.n) : navigate("roadmap")));
     stage.appendChild(toRoadmap);
     toRoadmap.focus();
-    onComplete(correctCount, items.length, detail);
+    onComplete(correctCount, answered, detail);
   }
 
   function next() {
@@ -108,6 +113,7 @@ export function renderDrill(root, ctx) {
 
   function renderQuestion() {
     progress.textContent = `Question ${idx + 1} of ${items.length}`;
+    if (ctx.onPosition) ctx.onPosition(idx);
     feedback.replaceChildren();
     stage.replaceChildren();
     nextBtn = null;
@@ -119,7 +125,7 @@ export function renderDrill(root, ctx) {
       stage.appendChild(el("span", "drill-review-tag", "Review"));
     }
 
-    const node = type.render(item, { course });
+    const node = ctx.seed ? withSeed(`${ctx.seed}:${idx}`, () => type.render(item, { course })) : type.render(item, { course });
     stage.appendChild(node);
 
     if (item.hint) stage.appendChild(renderHint(item.hint));
@@ -127,6 +133,7 @@ export function renderDrill(root, ctx) {
     if (item.source && (item.source.promptUrl || item.source.answerUrl)) {
       stage.appendChild(renderSource(item.source));
     }
+    if (item.id) stage.appendChild(el("p", "drill-item-code", `Item ${item.id}`));
 
     const checkBtn = el("button", "gate-btn", "Check");
     checkBtn.addEventListener("click", () => {
@@ -140,7 +147,9 @@ export function renderDrill(root, ctx) {
       const result = type.grade(item, answer);
       if (type.annotate) type.annotate(node, item, answer, result);
       if (result.correct) correctCount += 1;
+      answered += 1;
       detail.push({ unit: item.sourceUnit || unit.n, correct: result.correct });
+      if (ctx.onAnswer) ctx.onAnswer(item, result.correct, { next: idx + 1, correct: correctCount, answered, detail });
 
       stage.querySelectorAll("button, input, select").forEach((n) => {
         n.disabled = true;
@@ -157,7 +166,7 @@ export function renderDrill(root, ctx) {
       if (item.explain) {
         const explain = el("p", "drill-explain", item.explain);
         explain.dir = "auto";
-        const source = stage.querySelector(".drill-source");
+        const source = stage.querySelector(".drill-source") || stage.querySelector(".drill-item-code");
         stage.insertBefore(explain, source);
       }
       if (!result.correct && features.diagnostics) {
@@ -187,5 +196,6 @@ export function renderDrill(root, ctx) {
     }
   });
 
-  renderQuestion();
+  if (idx >= items.length) showResults();
+  else renderQuestion();
 }

@@ -51,8 +51,14 @@ order). Includes final-form letters (ך ם ן ף ץ) on the consonant layer.
 niqqud) and `engine/keyboard.js` overlay manager (fixed bottom bar, shows on
 `.hebrew-input` focus, cursor-aware insertion, backspace/space/done). The `dictation`
 exercise type consumes it (type Hebrew for a gloss) and accepts transliteration as an
-alternative input (graded via `normalize` comparison). Font **file** still not bundled —
-see §6.
+alternative input unless the course sets `features.transliteration: false`. Font **file** still not
+bundled — see §6.
+
+**Mark keys (2026-11-11):** the niqqud row has the ten vowel signs, shewa, the three hatefs, dagesh,
+**shin dot** (U+05C1), **sin dot** (U+05C2) and **maqqef** (U+05BE). Each key shows its mark on a
+real letter (בָ; the shin/sin dots on ש; maqqef alone) in the Hebrew font, with its name underneath;
+a layout key may set `name` and `base` (the carrier letter, `""` for none). Every key carries
+`data-key` with the character it types (exwb uses this to skip marks the layout already has).
 
 ### `el_GR` (Greek polytonic)
 Letters + accents (acute/grave/circumflex), rough/smooth breathing, iota subscript. Outputs

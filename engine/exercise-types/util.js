@@ -22,10 +22,42 @@ export function normalizeHebrew(s) {
     .trim();
 }
 
+let rand = Math.random;
+
+function seeded(seed) {
+  let h = 2166136261;
+  for (const ch of String(seed)) h = Math.imul(h ^ ch.charCodeAt(0), 16777619);
+  return () => {
+    h += 0x6d2b79f5;
+    let t = h;
+    t = Math.imul(t ^ (t >>> 15), t | 1);
+    t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+export function random() {
+  return rand();
+}
+
+export function withSeed(seed, fn) {
+  const prev = rand;
+  rand = seeded(seed);
+  try {
+    return fn();
+  } finally {
+    rand = prev;
+  }
+}
+
+export function newSeed() {
+  return Math.random().toString(36).slice(2, 8);
+}
+
 export function shuffle(arr) {
   const a = arr.slice();
   for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
+    const j = Math.floor(rand() * (i + 1));
     [a[i], a[j]] = [a[j], a[i]];
   }
   return a;

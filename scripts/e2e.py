@@ -740,6 +740,81 @@ def run_course_shapes(page, authored, failures):
     return len(picked)
 
 
+def run_routes(browser, page, url, vocab, authored, course_dir, failures):
+    """P12-T7: hash URLs, seeded sessions that resume, item codes, per-block progress."""
+    course = json.loads((Path(course_dir) / "course.json").read_text(encoding="utf-8"))
+    units = [u for u in course["units"] if any(it.get("block") for it in authored.get(u["n"], []))]
+    if not units:
+        return 0
+    unit = max(units, key=lambda u: len(authored[u["n"]]))
+    n, slug = unit["n"], unit.get("slug") or f"u{unit['n']}"
+    base = url.split("#")[0]
+
+    page.goto(f"{base}#/{slug}")
+    page.wait_for_selector(".lesson-title")
+    check(page.text_content(".lesson-title").startswith(f"Unit {n} "), f"#/{slug} opens the lesson of unit {n}", failures)
+
+    page.click(".gate .gate-btn")
+    page.wait_for_selector(".drill-stage")
+    m = re.match(rf"^#/{slug}/drill/([a-z0-9]+)/1$", page.evaluate("location.hash"))
+    check(bool(m), f"starting drills puts a seed in the URL ({page.evaluate('location.hash')})", failures)
+    seed = m.group(1) if m else ""
+    check((page.text_content(".drill-item-code") or "").startswith("Item "), "each question shows its item code", failures)
+    first = page.inner_text(".drill-stage")
+
+    answer_current(page, vocab, n, authored)
+    page.click(".drill-feedback .gate-btn")
+    page.wait_for_selector(".drill-feedback .gate-btn")
+    page.click(".drill-feedback .gate-btn")
+    page.wait_for_selector(".drill-stage")
+    check(page.evaluate("location.hash") == f"#/{slug}/drill/{seed}/2", "the URL follows the question number", failures)
+
+    page.reload()
+    page.wait_for_selector(".drill-progress")
+    check(page.text_content(".drill-progress").startswith("Question 2 of"), "a reload resumes at question 2", failures)
+
+    other = browser.new_context().new_page()
+    other.goto(f"{base}#/{slug}/drill/{seed}/1")
+    other.wait_for_selector(".drill-stage")
+    check(other.inner_text(".drill-stage") == first, "the same seed gives the same first question in a fresh browser", failures)
+    other.close()
+
+    page.goto(f"{base}#/{slug}")
+    page.wait_for_selector(".lesson-title")
+    resume = page.query_selector(".gate-resume")
+    check(bool(resume) and "question 2" in resume.text_content(), "the lesson offers to resume at question 2", failures)
+
+    item = next(it for it in authored[n] if it.get("block") and it.get("type") == "mcq")
+    page.goto(f"{base}#/{slug}/item/{item['id']}")
+    page.wait_for_selector(".drill-item-code")
+    check(page.text_content(".drill-item-code") == f"Item {item['id']}", f"#/{slug}/item/{item['id']} shows that item", failures)
+    answer_authored(page, [item])
+    page.click(".drill-feedback .gate-btn")
+    page.wait_for_selector(".drill-ok, .drill-no")
+    check(bool(page.query_selector(".drill-ok")), "the linked item grades its key answer correct", failures)
+
+    page.goto(f"{base}#/{slug}")
+    page.wait_for_selector(".blocks-row")
+    count = page.text_content(f".blocks-row[data-block='{item['block']}'] .blocks-count") or ""
+    check(int(count.split("/")[0]) >= 1, f"the lesson counts right answers per block ({item['blockLabel']}: {count})", failures)
+
+    page.goto(f"{base}#/{slug}/block/{item['block']}")
+    page.wait_for_selector(".drill-item-code")
+    hash_ = page.evaluate("location.hash")
+    check(re.match(rf"^#/{slug}/block/{item['block']}/[a-z0-9]+/1$", hash_) is not None, f"block practice gets its own seeded URL ({hash_})", failures)
+    check(page.text_content(".drill-item-code").startswith(f"Item {item['block']}-"), "block practice shows only that block's items", failures)
+
+    merged = page.evaluate("""async () => {
+      const { mergeProgress } = await import(window.location.origin + "/engine/store.js");
+      const p = (blocks) => ({ units: { 5: { state: "in-progress", blocks } }, currentUnit: 5, knownSet: [], xp: 0, student: {} });
+      const m = mergeProgress(p({ s1: { correct: ["s1-A1", "s1-A2"] } }), p({ s1: { correct: ["s1-A2", "s1-A3"] }, s2: { correct: ["s2-B1"] } }));
+      return m.units[5].blocks;
+    }""")
+    check(sorted(merged["s1"]["correct"]) == ["s1-A1", "s1-A2", "s1-A3"] and merged["s2"]["correct"] == ["s2-B1"],
+          "importing progress merges right answers per block (union)", failures)
+    return 1
+
+
 def run_type_harness(page, failures):
     results = page.evaluate(HARNESS_JS % {"type_ids": json.dumps(EXERCISE_TYPES)})
     for r in results:
@@ -771,9 +846,18 @@ ACCESSIBILITY_JS = r"""
     keys[0].dispatchEvent(new MouseEvent("mousedown", { bubbles: true }));
     inserted = input.value.length > 0;
   }
+  const press = (ch) => {
+    const k = Array.from(keys).find((x) => x.dataset.key === ch);
+    if (k) k.dispatchEvent(new MouseEvent("mousedown", { bubbles: true }));
+    return !!k;
+  };
+  input.value = "";
+  const marks = ["ש", "\u05C1", " ", "ש", "\u05C2", "\u05BE"].map(press).every(Boolean);
+  const typed = input.value;
+  const named = Array.from(document.querySelectorAll(".kb-key--niqqud .kb-name"), (n) => n.textContent);
   const value = input.value;
   input.remove();
-  return { shown, keyCount: keys.length, inserted, value };
+  return { shown, keyCount: keys.length, inserted, value, marks, typed, named };
 }
 """
 
@@ -790,6 +874,8 @@ def run_accessibility(page, failures):
     check(kb.get("shown"), "on-screen keyboard shows when a Hebrew input is focused", failures)
     check(kb.get("keyCount", 0) > 0, "on-screen keyboard has keys", failures)
     check(kb.get("inserted"), "on-screen keyboard key inserts text", failures)
+    check(kb.get("marks") and kb.get("typed") == "שׁ שׂ־", f"shin dot, sin dot and maqqef keys type their marks ({kb.get('typed')!r})", failures)
+    check("shin dot" in kb.get("named", []) and "qamets" in kb.get("named", []), "vowel keys carry their names", failures)
     return kb
 
 
@@ -861,6 +947,11 @@ def main():
         help="keyboard navigation + on-screen Hebrew keyboard input",
     )
     ap.add_argument(
+        "--routes",
+        action="store_true",
+        help="hash URLs, seeded sessions that resume after reload, item codes, per-block progress",
+    )
+    ap.add_argument(
         "--keyboard",
         action="store_true",
         help="assert no single-option MCQ/choice across all units, and that Enter advances after checking",
@@ -888,6 +979,11 @@ def main():
                 print(f"=== exercise-type harness ({len(EXERCISE_TYPES)} types) ===")
                 n = run_type_harness(page, failures)
                 check(n == len(EXERCISE_TYPES), "harness returned a result per type", failures)
+                browser.close()
+            elif args.routes:
+                print("=== routes / sessions / block progress ===")
+                check(run_routes(browser, page, url, vocab, authored, args.course, failures) == 1,
+                      "course has authored items with blocks to route to", failures)
                 browser.close()
             elif args.authored:
                 print("=== authored-exercise harness ===")
@@ -934,13 +1030,13 @@ def main():
                         )
 
             stored = None
-            if not args.exercise_types and not args.authored and not args.accessibility and not args.keyboard:
+            if not (args.exercise_types or args.authored or args.accessibility or args.keyboard or args.routes):
                 with open(f"{args.course}/course.json", encoding="utf-8") as f:
                     cid = json.load(f)["id"]
                 stored = page.evaluate("k => localStorage.getItem(k)", f"lang-research.progress.{cid}")
             browser.close()
 
-        if stored is not None or (not args.exercise_types and not args.authored and not args.accessibility and not args.keyboard):
+        if stored is not None or (not (args.exercise_types or args.authored or args.accessibility or args.keyboard or args.routes)):
             progress = json.loads(stored or "{}")
             for unit_n in range(1, args.units + 1):
                 state = progress.get("units", {}).get(str(unit_n), {}).get("state")
@@ -972,6 +1068,8 @@ def main():
         print("\nE2E PASS — accessibility harness: keyboard navigation + on-screen Hebrew keyboard")
     elif args.keyboard:
         print("\nE2E PASS — keyboard/single-option harness: Enter advances after checking; no single-option choices")
+    elif args.routes:
+        print("\nE2E PASS — routes: seeded URLs resume after reload, item codes, per-block progress")
     else:
         print(f"\nE2E PASS — lessons 1..{args.units} complete, unit {args.units + 1} unlocked")
     return 0

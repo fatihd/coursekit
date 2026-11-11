@@ -113,8 +113,33 @@ export function renderLesson(root, ctx, unit, lesson) {
     }
   }
 
+  if (ctx.blocks && ctx.blocks.length) {
+    const box = el("section", "blocks");
+    box.appendChild(el("h2", "blocks-title", "Exercises in this unit"));
+    const list = el("ul", "blocks-list");
+    for (const b of ctx.blocks) {
+      const row = el("li", "blocks-row");
+      row.dataset.block = b.id;
+      row.appendChild(el("span", "blocks-label", b.label));
+      row.appendChild(el("span", "blocks-count", `${b.done} / ${b.total} right`));
+      const practice = el("a", "blocks-practice", "Practice");
+      practice.href = b.href;
+      row.appendChild(practice);
+      list.appendChild(row);
+    }
+    box.appendChild(list);
+    root.appendChild(box);
+  }
+
   const gate = el("div", "gate");
-  const btn = el("button", "gate-btn", "Start drills →");
+  if (ctx.resume) {
+    const resume = el("button", "gate-btn gate-resume", `Resume drills (question ${ctx.resume.pos} of ${ctx.resume.total}) →`);
+    resume.addEventListener("click", () => {
+      location.hash = ctx.resume.href;
+    });
+    gate.appendChild(resume);
+  }
+  const btn = el("button", ctx.resume ? "gate-btn gate-secondary" : "gate-btn", ctx.resume ? "Start new drills" : "Start drills →");
   btn.addEventListener("click", () => ctx.onStartDrills(unit.n));
   gate.appendChild(btn);
   root.appendChild(gate);
