@@ -8,8 +8,8 @@
       "typeGuess": "mcq",
       "confidence": 1.0,
       "prompt": "Choose the translation",
-      "body_raw": "לֹא שָׁמַרְתָּ בְּרִיתִי",
-      "answer_raw": "Thou hast not kept my covenant."
+      "body_raw": "זֶה הַיֶּלֶד אֲשֶׁר שָׁמַע אֶת־הַקּוֹל",
+      "answer_raw": "This is the boy who heard the voice."
     },
     {
       "unit": 21,
@@ -17,8 +17,8 @@
       "typeGuess": "mcq",
       "confidence": 1.0,
       "prompt": "Choose the translation",
-      "body_raw": "לֹא שָׁמְרוּ תּוֹרָתֶךָ",
-      "answer_raw": "They have not kept thy law."
+      "body_raw": "מִי יָלַד אֶת־אֵלֶּה",
+      "answer_raw": "Who has borne these?"
     },
     {
       "unit": 21,
@@ -26,8 +26,8 @@
       "typeGuess": "mcq",
       "confidence": 1.0,
       "prompt": "Choose the translation",
-      "body_raw": "שָׁמַרְתִּי פִקּוּדֶיךָ בְּכָל־לִבִּי",
-      "answer_raw": "I have kept thy statutes with all my heart."
+      "body_raw": "בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ",
+      "answer_raw": "God created the heavens and the earth."
     },
     {
       "unit": 21,
@@ -35,251 +35,35 @@
       "typeGuess": "mcq",
       "confidence": 1.0,
       "prompt": "Choose the translation",
-      "body_raw": "לֹא זָכְרָה אַחֲרִיתָהּ",
-      "answer_raw": "She did not remember her latter end."
+      "body_raw": "לקח המלך את־החרב",
+      "answer_raw": "The king took the sword."
     },
     {
       "unit": 21,
       "n": 5,
-      "typeGuess": "mcq",
+      "typeGuess": "translate-phrase",
       "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "שָׁכְחוּ אֶת־אֱלֹהֵיהֶם",
-      "answer_raw": "They forgot their God."
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "This (is) the bad boy who spilt the water upon the earth.",
+      "answer_raw": "זֶה הַיֶּלֶד הָרַע אֲשֶׁר שָׁפַךְ אֶת־הַמַּיִם עַל־הָאָרֶץ"
     },
     {
       "unit": 21,
       "n": 6,
-      "typeGuess": "mcq",
+      "typeGuess": "translate-phrase",
       "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "אֶת־קוֹלְךָ שָׁמַעְנוּ מִן־הָאֵשׁ",
-      "answer_raw": "Thy voice we heard out of the fire."
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "Who spilt the water upon the earth?",
+      "answer_raw": "מִי שָׁפַךְ אֶת־הַמַּיִם עַל־הָאָרֶץ"
     },
     {
       "unit": 21,
       "n": 7,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "אֲנִי יוֹסֵף אֲשֶׁר־מְכַרְתֶּם אֹתִי מִצְרָיְמָה",
-      "answer_raw": "I am Joseph whom ye sold into Egypt."
-    },
-    {
-      "unit": 21,
-      "n": 8,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "לָמָּה נָפְלוּ פָנֶיךָ",
-      "answer_raw": "Why is thy countenance fallen?"
-    },
-    {
-      "unit": 21,
-      "n": 9,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "שָׁפְכוּ דָמִים כַּמָּיִם",
-      "answer_raw": "They shed blood like water."
-    },
-    {
-      "unit": 21,
-      "n": 10,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "שְׂרַפְתֶּם אֶת־הָעִיר בָּאֵשׁ",
-      "answer_raw": "Ye burned the city with fire."
-    },
-    {
-      "unit": 21,
-      "n": 11,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "רָאָה אֱלֹהִים אֶת־כָּל־אֲשֶׁר עָשָׂה וְהִנֵּה טוֹב מְאֹד",
-      "answer_raw": "God saw all that he had made, and, behold, it was very good."
-    },
-    {
-      "unit": 21,
-      "n": 12,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "אָמַר שְׁמוּאֵל אֶל־הָעָם אֶת־שׁוֹר מִי לָקַחְתִּי וַחֲמוֹר מִי לָקַחְתִּי וְאֶת־מִי עָשַׁקְתִּי וּמִיַּד מִי לָקַחְתִּי כֹפֶר וְכָל־הָעָם אָמַר לֹא עָשַׁקְתָּ אִישׁ וְלֹא לָקַחְתָּ מִיַּד אִישׁ מְאוּמָה",
-      "answer_raw": "Samuel said to the people, Whose ox have I taken or whose ass have I taken, or whom have I oppressed, or from whose hand have I taken a bribe? And all the people said, Thou hast oppressed no one, and thou hast not taken anything from the hand of any one."
-    },
-    {
-      "unit": 21,
-      "n": 13,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "עָף אֵלַי אֶחָד מִן־הַשְּׂרָפִים וּבְיָדוֹ רִצְפָּה בְּמֶלְקָחַיִם לָקַח מֵעַל הַמִּזְבֵּחַ",
-      "answer_raw": "There flew to me one of the seraphs, with a glowing stone in his hand, which he had taken with the tongs from off the altar."
-    },
-    {
-      "unit": 21,
-      "n": 14,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "עמדה האשה לפני המלך",
-      "answer_raw": "The woman stood before the king."
-    },
-    {
-      "unit": 21,
-      "n": 15,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "שבת אלהים ביום השביעי מהמלאכה אשר עשה",
-      "answer_raw": "God rested on the seventh day from the work which he had made."
-    },
-    {
-      "unit": 21,
-      "n": 16,
       "typeGuess": "translate-phrase",
       "confidence": 1.0,
       "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "Ye did not keep my words.",
-      "answer_raw": "לֹא שְׁמַרְתֶּם אֶת־דְּבָרָי"
-    },
-    {
-      "unit": 21,
-      "n": 17,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "The fire of God fell from heaven.",
-      "answer_raw": "נָפְלָה אֵשׁ אֱלֹהִים מִן־הַשָּׁמָיִם"
-    },
-    {
-      "unit": 21,
-      "n": 18,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "God set (gave) luminaries in the firmament of the heavens.",
-      "answer_raw": "נָתַן אֱלֹהִים מְאוֹרֹת בִּרְקִיעַ הַשָּׁמָיִם"
-    },
-    {
-      "unit": 21,
-      "n": 19,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "All the males fell before the sword.",
-      "answer_raw": "נָפְלוּ כָּל־הַזְּכָרִים לִפְנֵי הֶחָרֶב"
-    },
-    {
-      "unit": 21,
-      "n": 20,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "The heavens of the heavens are God's (dat.), and the earth he has given to the sons of man.",
-      "answer_raw": "שְׁמֵי הַשָּׁמַיִם לֵאלֹהִים וְהָאָרֶץ נָתַן לִבְנֵי אָדָם"
-    },
-    {
-      "unit": 21,
-      "n": 21,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "Thou hast fallen, O (art.) city, in the heart of the sea.",
-      "answer_raw": "נָפַלְתְּ הָעִיר בְּלֵב הַיָּם"
-    },
-    {
-      "unit": 21,
-      "n": 22,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "I kept my tongue from evil words.",
-      "answer_raw": "שָׁמַרְתִּי אֶת־לְשׁוֹנִי מִדְּבָרִים רָעִים"
-    },
-    {
-      "unit": 21,
-      "n": 23,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "These (are) the proverbs of Solomon the wise king of Israel.",
-      "answer_raw": "אֵלֶּה מִשְׁלֵי שְׁלֹמֹה מֶלֶךְ יִשְׂרָאֵל הֶחָכָם"
-    },
-    {
-      "unit": 21,
-      "n": 24,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "We heard his voice from his temple.",
-      "answer_raw": "שָׁמַעְנוּ אֶת־קוֹלוֹ מֵהֵיכָלוֹ"
-    },
-    {
-      "unit": 21,
-      "n": 25,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "Their faces fell.",
-      "answer_raw": "נָפְלוּ פְנֵיהֶם"
-    },
-    {
-      "unit": 21,
-      "n": 26,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "We leant our hands upon her head.",
-      "answer_raw": "סָמַכְנוּ אֶת־יָדֵינוּ עַל־רֹאשָׁהּ"
-    },
-    {
-      "unit": 21,
-      "n": 27,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "The blessing of Yahweh (be) upon thy children (sons).",
-      "answer_raw": "בִּרְכַּת יְהוָה עַל־בָּנֶיךָ"
-    },
-    {
-      "unit": 21,
-      "n": 28,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "We sat by (עַל) the waters of the great rivers.",
-      "answer_raw": "יָשַׁבְנוּ עַל־מֵי הַנְּהָרוֹת הַגְּדוֹלִים"
-    },
-    {
-      "unit": 21,
-      "n": 29,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "Ye have burnt their city in the fire.",
-      "answer_raw": "שְׂרַפְתֶּם אֶת־עִירָם בָּאֵשׁ"
-    },
-    {
-      "unit": 21,
-      "n": 30,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "She bare to her husband a son to his old age.",
-      "answer_raw": "יָלְדָה לְאִישָׁהּ בֵּן לִזְקֻנָיו"
-    },
-    {
-      "unit": 21,
-      "n": 31,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "They have forgotten my words and the proverbs of my lips.",
-      "answer_raw": "שָׁכְחוּ אֶת־דְּבָרַי וְאֶת־מִשְׁלֵי שְׂפָתָי"
+      "body_raw": "God remembers the just (pl.).",
+      "answer_raw": "זָכַר אֱלֹהִים אֶת־הַצַּדִּיקִים"
     }
   ]
 }

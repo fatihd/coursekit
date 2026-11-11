@@ -59,7 +59,7 @@ Serves the hub course and opens `http://127.0.0.1:8000/app/index.html`. Stop wit
 ## Manual test checklist (do in this order)
 
 ### 1. Roadmap
-- Expect **"Biblical Hebrew — Davidson Course"** and `0 of 56 units complete`.
+- Expect **"Biblical Hebrew — Davidson Course"** and `0 of 79 units complete`.
 - Unit **1** highlighted (available); all others locked/dim.
 
 ### 2. Unit 1 (smoke test)
@@ -68,17 +68,17 @@ Serves the hub course and opens `http://127.0.0.1:8000/app/index.html`. Stop wit
   `… correct — …%` and **Unit complete**.
 - Back on the roadmap: unit 1 shows **done**, unit 2 is now **available**.
 
-### 3. Unit 21 (Qal Qatal — grammar benchmark)
-- Click **Unit 21**. Expect lesson prose about the suffix conjugation and a paradigm table.
+### 3. Unit 35 (Qal Qatal — grammar benchmark)
+- Click **Unit 35**. Expect lesson prose about the suffix conjugation and a paradigm table.
 - Start drills: besides vocabulary, expect parsing/production questions for Qatal forms.
 
-### 4. Unit 22 (Qal Yiqtol — later benchmark)
-- Click **Unit 22**. Expect the prefix-conjugation lesson and its parsing questions.
+### 4. Unit 38 (Qal Yiqtol — later benchmark)
+- Click **Unit 38**. Expect the prefix-conjugation lesson and its parsing questions.
 
 ### 5. Export / import progress
 - On the roadmap, click **Export progress** → a `biblical-hebrew-davidson-progress-<date>.json`
   downloads; the status line says it was downloaded.
-- Open the URL in another browser (or a private window) → `0 of 56 units complete`.
+- Open the URL in another browser (or a private window) → `0 of 79 units complete`.
   Click **Import progress** and choose the file → the completed units are back.
 - Import the same file again → "nothing new". Import a file of another course → error.
 

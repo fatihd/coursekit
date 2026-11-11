@@ -8,17 +8,17 @@
       "typeGuess": "mcq",
       "confidence": 1.0,
       "prompt": "Choose the translation",
-      "body_raw": "אַתָּה הִמְלַכְתָּ אֹתִי תַּחַת דָּוִד אָבִי",
-      "answer_raw": "Thou hast made me king instead of David my father."
+      "body_raw": "שָׁבַת אֱלֹהִים בַּיּוֹם הַשְּׁבִיעִי מֵהַמְּלָאכָה אֲשֶׁר עָשָׂה",
+      "answer_raw": "God rested on the seventh day from the work which he had made."
     },
     {
       "unit": 30,
       "n": 2,
-      "typeGuess": "mcq",
+      "typeGuess": "translate-phrase",
       "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "הִנֵּה פָנַי בָּעָם הַזֶּה וְהִשְׁמַדְתִּי אֹתָם מֵעַל־פְּנֵי הָאֲדָמָה",
-      "answer_raw": "Behold my face is against this people and I will destroy them from off the face of the ground."
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "The wise people rested on the seventh day.",
+      "answer_raw": "שָׁבַת הָעָם הֶחָכָם בַּיּוֹם הַשְּׁבִיעִי"
     },
     {
       "unit": 30,
@@ -26,8 +26,8 @@
       "typeGuess": "mcq",
       "confidence": 1.0,
       "prompt": "Choose the translation",
-      "body_raw": "וַיַּשְׁכֵּן אֱלֹהִים לִפְנֵי גַן עֵדֶן אֶת־הַכְּרֻבִים לִשְׁמֹר דֶּרֶךְ עֵץ הַחַיִּים",
-      "answer_raw": "And God stationed the cherubim before the garden of Eden, to guard the way to the tree of life."
+      "body_raw": "בָּא חַיִל גָּדוֹל מִיַּרְכְּתֵי הָאָרֶץ וּמֵאַרְבַּע רוּחוֹת הַשָּׁמָיִם",
+      "answer_raw": "There came a great army from the ends of the earth and from the four winds of heaven."
     },
     {
       "unit": 30,
@@ -35,8 +35,8 @@
       "typeGuess": "mcq",
       "confidence": 1.0,
       "prompt": "Choose the translation",
-      "body_raw": "נָתַן אֱלֹהִים מְאֹרוֹת בִּרְקִיעַ הַשָּׁמַיִם לְהַבְדִּיל בֵּין הַיּוֹם וּבֵין הַלָּיְלָה",
-      "answer_raw": "God set luminaries in the firmament of heaven, to divide the day from the night."
+      "body_raw": "נָתַן אֱלֹהִים אֶת־שְׁנֵי הַמְּאוֹרוֹת הַגְּדֹלִים בִּרְקִיעַ הַשָּׁמָיִם",
+      "answer_raw": "God set the two great luminaries in the firmament of heaven."
     },
     {
       "unit": 30,
@@ -44,8 +44,8 @@
       "typeGuess": "mcq",
       "confidence": 1.0,
       "prompt": "Choose the translation",
-      "body_raw": "וְאָנֹכִי הַסְתֵּר אַסְתִּיר פָּנַי בַּיּוֹם הַהוּא",
-      "answer_raw": "And I will assuredly hide my face on that day."
+      "body_raw": "עָף אֵלַי אֶחָד מִן־הַשְּׂרָפִים וּבְיָדוֹ רִצְפָּה בְּמֶלְקָחַיִם לָקַח מֵעַל הַמִּזְבֵּחַ",
+      "answer_raw": "There flew to me one of the seraphs, with a glowing stone in his hand, which he had taken with the tongs from off the altar."
     },
     {
       "unit": 30,
@@ -53,8 +53,8 @@
       "typeGuess": "mcq",
       "confidence": 1.0,
       "prompt": "Choose the translation",
-      "body_raw": "הִנֵּה רֹאשׁוֹ מֻשְׁלָךְ אֵלֶיךָ בְּעַד הַחוֹמָה",
-      "answer_raw": "Behold, his head will be thrown to thee over the wall."
+      "body_raw": "שבת אלהים ביום השביעי מהמלאכה אשר עשה",
+      "answer_raw": "God rested on the seventh day from the work which he had made."
     },
     {
       "unit": 30,
@@ -62,8 +62,8 @@
       "typeGuess": "mcq",
       "confidence": 1.0,
       "prompt": "Choose the translation",
-      "body_raw": "וַיִּשְׁלְחוּ וַיִּקְרְאוּ אֶת־יָרָבְעָם וַיַּמְלִיכוּ אֹתוֹ עַל־יִשְׂרָאֵל",
-      "answer_raw": "And they sent and called Jeroboam, and they made him king over Israel."
+      "body_raw": "בִּשְׁלֹשִׁים וָשֶׁבַע שָׁנָה בִּשְׁנֵים עָשָׂר חֹדֶשׁ בְּעֶשְׂרִים וְשִׁבְעָה לַחֹדֶשׁ נָשָׂא מֶלֶךְ בָּבֶל אֶת־רֹאשׁ מֶלֶךְ יְהוּדָה מִבֵּית כֶּלֶא",
+      "answer_raw": "In the thirty-seventh year, in the twelfth month, on the twenty-seventh (day) of the month, the king of Babylon lifted up the head of the king of Judah out of the prison-house."
     },
     {
       "unit": 30,
@@ -71,98 +71,17 @@
       "typeGuess": "mcq",
       "confidence": 1.0,
       "prompt": "Choose the translation",
-      "body_raw": "וְהָרָקִיעַ הָיָה מַבְדִּיל בֵּין מַיִם לָמָיִם",
-      "answer_raw": "And the firmament permanently divided the waters from the waters."
+      "body_raw": "טוֹב יוֹם בַּחֲצֵרֶיךָ מֵאָלֶף",
+      "answer_raw": "A day in thy courts is better than a thousand."
     },
     {
       "unit": 30,
       "n": 9,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "אל־תסתר את־פניך מהעם הזה",
-      "answer_raw": "Hide not thy face from this people."
-    },
-    {
-      "unit": 30,
-      "n": 10,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "וימטר יהוה על־העיר אש מן־השמים וישמד אותה מעל־פני האדמה",
-      "answer_raw": "And Yahweh rained fire from heaven upon the city and destroyed it from off the face of the earth."
-    },
-    {
-      "unit": 30,
-      "n": 11,
       "typeGuess": "translate-phrase",
       "confidence": 1.0,
       "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "There is a time to keep and a time to cast away.",
-      "answer_raw": "יֵשׁ־עֵת לִשְׁמֹר וְעֵת לְהַשְׁלִיךְ"
-    },
-    {
-      "unit": 30,
-      "n": 12,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "Justify not the wicked.",
-      "answer_raw": "אַל־תַּצְדֵּק אֶת־הָרְשָׁעִים"
-    },
-    {
-      "unit": 30,
-      "n": 13,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "Let me hide my face from this evil people, for they have done-corruptly (Hiph.) before me upon the earth.",
-      "answer_raw": "אַסְתִּירָה פָנַי מִן־הָעָם הָרַע הַזֶּה כִּי הִשְׁחִיתוּ לְפָנַי עַל־הָאָרֶץ"
-    },
-    {
-      "unit": 30,
-      "n": 14,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "The king said, Cast his head unto us over the wall; and they cast his head unto them.",
-      "answer_raw": "אָמַר הַמֶּלֶךְ הַשְׁלִיכוּ אֶת־רֹאשׁוֹ אֵלֵינוּ בְּעַד הַחוֹמָה וַיַּשְׁלִיכוּ אֶת־רֹאשׁוֹ אֲלֵיהֶם"
-    },
-    {
-      "unit": 30,
-      "n": 15,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "For he will surely (inf. abs.) rain fire from heaven upon that evil city and will destroy it, and it shall not be remembered any more for ever.",
-      "answer_raw": "כִּי הַמְטֵר יַמְטִיר עַל־הָעִיר הָרָעָה הַהִיא אֵשׁ מִן־הַשָּׁמַיִם וְהִשְׁמִיד אֹתָהּ וְלֹא תִזָּכֵר עוֹד לְעוֹלָם"
-    },
-    {
-      "unit": 30,
-      "n": 16,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "The prophet found the child laid (Hoph. ptc. of שָׁכַב) upon his bed.",
-      "answer_raw": "מָצָא הַנָּבִיא אֶת־הַיֶּלֶד מֻשְׁכָּב עַל־מִטָּתוֹ"
-    },
-    {
-      "unit": 30,
-      "n": 17,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "We went down unto the city to fight against it, but we could not destroy it.",
-      "answer_raw": "יָרַדְנוּ אֶל־הָעִיר לְהִלָּחֵם עָלֶיהָ וְלֹא יָכֹלְנוּ לְהַשְׁמִיד אֹתָהּ"
-    },
-    {
-      "unit": 30,
-      "n": 18,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "Reuben said, Spill not blood, cast him into this pit which (is) in the wilderness; and they stripped Joseph and cast him (into) the pit (acc., § 17. 3), and the pit (was) empty.",
-      "answer_raw": "אָמַר רְאוּבֵן אַל־תִּשְׁפְּכוּ־דָם הַשְׁלִיכוּ אֹתוֹ אֶל־הַבּוֹר הַזֶּה אֲשֶׁר בַּמִּדְבָּר וַיַּפְשִׁיטוּ אֶת־יוֹסֵף וַיַּשְׁלִיכוּ אֹתוֹ הַבּוֹרָה וְהַבּוֹר רֵק"
+      "body_raw": "The days of the years of my life have been four and seventy years.",
+      "answer_raw": "יְמֵי שְׁנֵי חַיַּי אַרְבַּע שָׁנִים וְשִׁבְעִים שָׁנָה"
     }
   ]
 }

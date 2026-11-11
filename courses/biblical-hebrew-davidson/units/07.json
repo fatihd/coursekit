@@ -1,65 +1,65 @@
 {
   "schema": "unit-lesson-v1.json",
   "unit": 7,
-  "title": "Dagesh, Meteg, and Reading Checkpoint",
-  "description": "Distinguish dagesh lene and forte, and consolidate reading.",
+  "title": "Syllables and Shewa",
+  "description": "Divide words into syllables and distinguish vocal from silent shewa.",
   "teaches": [
-    "he-dav-07-003",
-    "he-dav-07-001"
-  ],
-  "assumes": [
     "he-dav-06-001",
     "he-dav-06-003"
   ],
+  "assumes": [],
   "blocks": [
     {
       "type": "prose",
       "caption": "Summary",
-      "html": "<p>A dot inside a letter is a dagesh. It has two unrelated jobs. Dagesh lene appears in the six letters ב ג ד כ פ ת (begadkefat) and hardens the sound — bet from v to b, pe from f to p, and so on. Dagesh forte doubles the consonant, holding a vowel before it and strengthening the letter. Telling them apart comes from the letters and the preceding vowel, and doing so is part of accurate reading.</p>"
+      "html": "<p>A Hebrew syllable normally opens with a consonant and may be open (ending in a vowel) or closed (ending in a consonant). The shewa (two vertical dots) is vocal when it carries a very short vowel at the start of a syllable, and silent when it simply closes a syllable and has no sound. Dividing a word correctly into syllables tells you which shewas to pronounce and how long each vowel is — the foundation for accurate reading.</p>"
     },
     {
       "type": "table",
-      "caption": "Dagesh",
+      "caption": "Shewa",
       "columns": [
         "Kind",
-        "Effect"
+        "Where",
+        "Example"
       ],
       "rows": [
         [
-          "Dagesh lene",
-          "hardens b, g, d, k, p, t"
+          "Vocal",
+          "under a consonant at the start of a syllable",
+          "דְּבָרִים (dəḇārîm)"
         ],
         [
-          "Dagesh forte",
-          "doubles the consonant"
+          "Silent",
+          "closing a syllable",
+          "מִשְׁפָּט (mišpāṭ)"
         ]
       ]
     },
     {
       "type": "prose",
-      "caption": "Dagesh lene",
-      "html": "<p>The six begadkefat letters have two pronunciations, a hard (stopped) and a soft (spirant) one. After a vowel they usually soften; at the start of a word, after a consonant, or after a silent shewa they harden, and that hardening is marked by dagesh lene. So ב can be b (with dagesh) or v (without), and כ can be k or kh.</p>"
+      "caption": "Syllable structure",
+      "html": "<p>One consonant usually begins each syllable. A syllable with a consonant followed by a vowel and nothing more is open (like the first syllable of דָּבָר, dā); a syllable that ends in a consonant is closed (like the second, bār). Hebrew tends to prefer open syllables, which is why a silent shewa appears where a syllable closes.</p>"
     },
     {
       "type": "prose",
-      "caption": "Dagesh forte",
-      "html": "<p>Dagesh forte doubles the consonant: שַׁבָּת (šabbāt) has a doubled bet. It normally follows a vowel, which the doubling closes off, and it appears in any letter, not only the six. It often marks a grammatical doubling, as when a root letter is strengthened.</p>"
+      "caption": "Vocal and silent shewa",
+      "html": "<p>A shewa at the start of a word, or under a letter after a long vowel, is usually vocal and is pronounced as a very short e. A shewa that closes a syllable, especially after a short vowel, is silent. Under a guttural, a composite shewa carries an audible short vowel. Reading the two correctly keeps syllables distinct.</p>"
     },
     {
       "type": "prose",
       "caption": "Common confusion",
-      "html": "<p>A dot in a begadkefat letter might be lene or forte; the distinction is that lene never follows a vowel, while forte usually does. Read the word, check what precedes the dot, and let the syllable decide. Meteg, a small vertical stroke beside a vowel, is a different mark that only guides reading; it does not change sound.</p>"
+      "html": "<p>The same two dots can be silent or sounded, so never guess from the mark alone; decide from the syllable. If you can divide the word so the shewa closes a syllable, it is silent; if it must open a syllable, it is vocal. Practise dividing before pronouncing.</p>"
     },
     {
       "type": "prose",
       "caption": "Source",
-      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (22nd ed., 1923), §7, §10.</p>"
+      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (22nd ed., 1923), §5–6.</p>"
     },
     {
       "type": "vocab",
       "refs": [
-        "he-dav-07-003",
-        "he-dav-07-001"
+        "he-dav-06-001",
+        "he-dav-06-003"
       ]
     }
   ],

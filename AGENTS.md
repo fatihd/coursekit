@@ -7,7 +7,32 @@ design docs live under `docs/` and are referenced from here.
 > **TL;DR for impatient agents:** (1) Never commit copyrighted material, scans or large files —
 > `python scripts/public-audit` must pass. (2) Doc sync is part of "done" —
 > see [§ Keep the docs up to date](#keep-the-docs-up-to-date--mandatory). (3) Don't commit unless
-> explicitly asked.
+> explicitly asked. (4) The course vision is §0: an exercise ladder and a growing exercise corpus.
+
+---
+
+## 0. Course vision — read first (user, 2026-11-11; ADR-022)
+
+This overrides any older doc that conflicts with it.
+
+- **The student progresses through exercises of increasing difficulty**, in this ladder:
+  true/false → multiple choice → fill in the blank → translate without vowel points →
+  translate with vowel points. A unit is learned by climbing it.
+- **Sentences from the start.** The material is split and rearranged so the student reads and
+  writes complete sentences early; nobody waits until the end of the book to translate.
+- **A large exercise corpus, built offline.** The course ships as static files (data + tests);
+  there is no live agent. A later authoring pass (an agent working in this repo) expands the
+  corpus after the material is split and rearranged: many more exercises per unit — new
+  sentences from the unit's grammar and words, and excerpts from real Bible prose that fit what
+  has been taught — written into the course data. The goal is replayability: a student never
+  memorises answers by retaking the same test, and never drops the course after two units
+  because it is boring.
+- **Every exercise sits where it can first be done**: a sentence goes in the first unit whose
+  grammar and words it needs, not in the unit named after its source section.
+- **Translation is typed, both directions.** Never turn a translation into multiple choice;
+  multiple choice only where every wrong option is plausible and differs in the point being
+  tested (not guessable from one known word). Hebrew answers at the top rung need full pointing.
+- **No transliteration** in exercises.
 
 ---
 
@@ -161,7 +186,7 @@ must be fixed before the task that caused it is considered done.
 | Progress persistence (localStorage, export/import) | `docs/GIT-SYNC.md` + ADR-019 |
 | Script/font/keyboard/RTL/transliteration config | `docs/I18N-SCRIPTS.md` |
 | Plan changes, new tasks, reprioritization | `docs/ROADMAP.md` |
-| A new decision is made or an old one superseded | Create/append `docs/DECISIONS/ADR-NNN-…md` |
+| A new decision is made or an old one superseded | Add or edit its line in §12 Decisions (no ADR files) |
 | Course content availability changes | `docs/STATUS.md` inventory table |
 | Operating conventions change | THIS file (`AGENTS.md`) |
 
@@ -252,7 +277,7 @@ spot-check `docs/STATUS.md` and `handover.md` against the actual code. If they d
 | `docs/TESTING-STUDENT.md` | Student point-of-view testing: `e2e-fork.py` + manual published-repo walk-through |
 | `docs/MANUAL-TEST.md` | Copy-paste manual walkthrough (Docker + dev server) with a full checklist |
 | `docs/I18N-SCRIPTS.md` | Per-script font/keyboard/RTL/translit config |
-| `docs/DECISIONS/ADR-NNN-*.md` | Architecture Decision Records |
+| §12 of this file | Decisions (one line each; the ADR-NNN labels other docs cite) |
 
 
 ## 11. Current phase
@@ -263,5 +288,32 @@ CC BY-SA 3.0) and `biblical-hebrew-oer` (CC BY-SA 3.0). The app is a static site
 and Biblical Greek from open sources is the reach goal (P11).
 
 The engine/course split, content portability, no-SRS constraint and copyright guardrails remain
-in force. Release gates (`docs/RESCUE-PLAN.md`): synthetic course, Davidson Unit 1 and Units 21–22,
+in force. Release gates (`docs/RESCUE-PLAN.md`): synthetic course, Davidson Unit 1 and Units 35 and 38 (Qal Qatal, Qal Yiqtol),
 OER, release, progress restore, authored exercises, and human content review.
+
+## 12. Decisions
+
+One line per decision; the ADR numbers are the labels other docs cite. There are no separate
+ADR files any more: to make or change a decision, add or edit its line here.
+
+| Id | Decision |
+|---|---|
+| ADR-001 | Two layers: a language-agnostic `engine/` (vanilla JS, no build step) and per-course content; developed together in this hub, released as a self-contained course repo with a vendored engine. |
+| ADR-002 | Retired (attempt-branch progress); replaced by ADR-019. |
+| ADR-003 | Retired (git transport); replaced by ADR-019. No tokens in the browser still holds. |
+| ADR-004 | No copyrighted text shipped to students; extra material only from open sources with attribution and license per item. |
+| ADR-005 | No spaced repetition: a visible unit map, teach → drill → unlock; reminding only via recap, known-set review and an optional warm-up. |
+| ADR-006 | One generic vocabulary schema (`docs/DATA-MODEL.md`); per-language column maps; extra fields in `extra`. |
+| ADR-009 | Canonical content is plain text (`content/`: Markdown chapters, CSV word lists); JSON is derived by `build/materialize.py`. |
+| ADR-010 | Rescue on branch `rescue/usable-course`, with tests on a synthetic course and real benchmark units. Expanding the exercises is not paused (ADR-022). |
+| ADR-011 | Retired (Docker as the main student path); Docker remains an optional read-only static server. |
+| ADR-013 | `courses/biblical-hebrew-oer` is a separate CC BY-SA 3.0 course from the open textbook; nothing from the private courses. |
+| ADR-014 | `courses/biblical-hebrew-davidson` is a separate course built on public-domain Davidson + McFadyen's Key. |
+| ADR-015 | Opt-in course features (`parsing`, `diagnostics`, `reviewWarmup`, session sizes); unit-level skill counts, no per-card state. |
+| ADR-016 | Davidson covers the whole grammar, one topic per unit (79 units since 2026-11-11); noun forms taught by pattern family. |
+| ADR-017 | Every Davidson exercise links to its scan page (exercise and key) on archive.org. |
+| ADR-018 | Every Davidson exercise block is inventoried from the grammar itself (no caps); curated by hand in exwb. |
+| ADR-019 | Progress lives only in the browser (`localStorage`), moved with Export/Import (merge keeping the best). |
+| ADR-020 | Public repo `fatihd/coursekit` (fresh history, open courses only, MIT code, CC0 exwb data, GitHub Pages); changes only via `scripts/make-public-snapshot`. |
+| ADR-021 | Davidson follows the 22nd edition (1923) only. |
+| ADR-022 | The course vision of §0: exercise ladder, sentences from the start, per-sentence placement, typed translation, no transliteration, a large exercise corpus built offline (static course data, no live agent). |

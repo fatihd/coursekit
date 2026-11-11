@@ -1,91 +1,39 @@
 {
   "schema": "unit-lesson-v1.json",
   "unit": 11,
-  "title": "Noun Patterns and Plurals",
-  "description": "Recognize the segholate, strong, and participial noun families and their plurals.",
-  "teaches": [
-    "he-dav-11-001",
-    "he-dav-12-004",
-    "he-dav-12-005",
-    "he-dav-10-006",
-    "he-dav-11-003",
-    "he-dav-44-013",
-    "he-dav-18-012",
-    "he-dav-18-004",
-    "he-dav-15-003",
-    "he-dav-21-029",
-    "he-dav-39-005",
-    "he-dav-11-004",
-    "he-dav-11-002"
-  ],
-  "assumes": [
-    "he-dav-18-003",
-    "he-dav-18-005",
-    "he-dav-18-006",
-    "he-dav-53-002",
-    "he-dav-51-025",
-    "he-dav-51-003",
-    "he-dav-53-001",
-    "he-dav-44-004",
-    "he-dav-44-002",
-    "he-dav-40-004",
-    "he-dav-18-010",
-    "he-dav-52-001",
-    "he-dav-33-004"
-  ],
+  "title": "Metheg and Maqqeph",
+  "description": "Recognize the secondary accent and the hyphen that binds words.",
+  "teaches": [],
+  "assumes": [],
   "blocks": [
     {
       "type": "prose",
       "caption": "Summary",
-      "html": "<p>Hebrew nouns fall into a few pattern families, distinguished by how their vowels shift when a plural or construct ending is added. The segholates (מֶלֶךְ, king; סֵפֶר, book) are really monosyllables with a helping vowel slipped in; the strong nouns (דָּבָר, word) resemble the verb perfect; and the participial nouns (כֹּהֵן, priest; אֹיֵב, enemy) end in -ē with an unchangeable vowel. Each family changes its vowels differently under inflection, and recognizing the family is the key to reading the plural and construct forms correctly.</p>"
+      "html": "<p>Two small marks guide pronunciation without changing meaning. Metheg, a short vertical stroke beside a vowel, marks a secondary stress so that the vowel is not swallowed on the way to the stressed syllable. Maqqeph, a raised hyphen, binds words so that only the last keeps its accent, and the bound words may shorten their vowels.</p>"
     },
     {
       "type": "prose",
-      "caption": "Three pattern families",
-      "html": "<p>Nouns may be arranged by the internal vowel changes produced when the place of the tone shifts through inflection. Words with unchangeable vowels — pure-long or diphthongal — suffer no internal change and need no classification; but the forms with changeable vowels fall into a few clear families. Three of them cover most nouns: the segholates, the strong (verb-like) nouns, and the participial nouns.</p>"
+      "caption": "Metheg",
+      "html": "<p>Metheg (מֶתֶג, &quot;bridle&quot;) is a small vertical stroke beside a vowel. It marks a secondary accent: the syllable second from the tone, if open, is marked so that its vowel is not hurried over and slurred in the rush toward the tone-syllable. It is rarely used with a vowel in a shut syllable (already safe) or with a shewa (too slight to deserve attention). Metheg can also show that a shewa is vocal, and so distinguish one pronunciation from another.</p>"
     },
     {
       "type": "prose",
-      "caption": "The segholates",
-      "html": "<p>A segholate looks like a two-syllable word accented on the first syllable (מֶלֶךְ, king; סֵפֶר, book; קֹדֶשׁ, holiness). It is really a monosyllable — malk, siphr, qodhsh — into which a furtive vowel (seghol) has been slipped to separate the final two consonants, which Hebrew will not pronounce together. With an inflectional addition the word returns to its monosyllabic core: מַלְכִּי (my king), סִפְרוֹ (his book). The plural takes a helping a: מְלָכִים (kings), סְפָרִים (books).</p>"
-    },
-    {
-      "type": "prose",
-      "caption": "The strong (verb-like) nouns",
-      "html": "<p>A large class of nouns has the form of the verb perfect and is chiefly made of participles and adjectives, though many are substantives: דָּבָר (word), חָכָם (wise), קָדוֹשׁ (holy). Their vowels are tone-long and therefore changeable. When the plural ending is added, the tone plants itself on the ending, and the original vowel, now two places from the tone, reduces to shewa: דְּבָרִים (words). The construct is made as short as possible.</p>"
-    },
-    {
-      "type": "prose",
-      "caption": "The participial nouns",
-      "html": "<p>A third family ends in -ē with an unchangeable vowel before it: כֹּהֵן (priest), אֹיֵב (enemy), שֹׁפֵט (judge). These follow the verb&#x27;s law of inflection: with a vocalic suffix the tone-vowel reduces to shewa (כֹּהֲנֵי, priests of), and with a consonantal suffix it shortens. Many words formed with a prefixed m — מִשְׁפָּט (judgment), מַלְאָךְ (messenger) — belong to this family.</p>"
+      "caption": "Maqqeph",
+      "html": "<p>Maqqeph is the hyphen that binds two or more words so they are pronounced, in the rhythmic reading, as one. All the words joined by Maqqeph lose their accent except the last, and in consequence a changeable long vowel may shorten: כֹּל (all) keeps its long o, but כָּל־הָעָם (all the people) shortens it. Maqqeph is used almost invariably with certain short words such as אֵת (object marker) and כֹּל (all).</p>"
     },
     {
       "type": "prose",
       "caption": "Common confusion",
-      "html": "<p>Do not try to memorize a list of numbered &quot;declensions&quot; as rigid categories. Learn the families and how each behaves under the plural and construct. The segholate&#x27;s helping vowel disappears before a suffix; the strong noun reduces its second vowel; the participial noun keeps its -ē. Read the form, identify the family, and the inflection follows.</p>"
+      "html": "<p>Words joined by maqqeph are still separate words: כָּל־הָעָם is &quot;all the people&quot;, with כֹּל shortened to כָּל because it has lost its accent. And metheg only guards a vowel; it does not change the sound.</p>"
     },
     {
       "type": "prose",
       "caption": "Source",
-      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (22nd ed., 1923), §18, §§29–30.</p>"
+      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (22nd ed., 1923), §10.</p>"
     },
     {
       "type": "vocab",
-      "refs": [
-        "he-dav-11-001",
-        "he-dav-12-004",
-        "he-dav-12-005",
-        "he-dav-10-006",
-        "he-dav-11-003",
-        "he-dav-44-013",
-        "he-dav-18-012",
-        "he-dav-18-004",
-        "he-dav-15-003",
-        "he-dav-21-029",
-        "he-dav-39-005",
-        "he-dav-11-004",
-        "he-dav-11-002"
-      ]
+      "refs": []
     }
   ],
   "didYouKnow": ""

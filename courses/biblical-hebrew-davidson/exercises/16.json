@@ -5,65 +5,65 @@
     {
       "unit": 16,
       "n": 1,
-      "typeGuess": "mcq",
+      "typeGuess": "translate-phrase",
       "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "קָרָא אֱלֹהִים לָאוֹר יוֹם וְלַחֹשֶׁךְ קָרָא לָיְלָה",
-      "answer_raw": "God called the light day, and the darkness he called night."
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "To-day",
+      "answer_raw": "הַיּוֹם"
     },
     {
       "unit": 16,
       "n": 2,
-      "typeGuess": "mcq",
+      "typeGuess": "translate-phrase",
       "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "שָׁבַת אֱלֹהִים בַּיּוֹם הַשְּׁבִיעִי מֵהַמְּלָאכָה אֲשֶׁר עָשָׂה",
-      "answer_raw": "God rested on the seventh day from the work which he had made."
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "The morning",
+      "answer_raw": "הַבֹּקֶר"
     },
     {
       "unit": 16,
       "n": 3,
-      "typeGuess": "mcq",
+      "typeGuess": "translate-phrase",
       "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "שָׁמַע הָאָדָם אֶת־הַקּוֹל בַּגָּן",
-      "answer_raw": "The man heard the voice in the garden."
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "The night",
+      "answer_raw": "הַלָּיְלָה"
     },
     {
       "unit": 16,
       "n": 4,
-      "typeGuess": "mcq",
+      "typeGuess": "translate-phrase",
       "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "מָשַׁל הַמֶּלֶךְ בָּעָם",
-      "answer_raw": "The king ruled over the people."
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "The eye",
+      "answer_raw": "הָעַיִן"
     },
     {
       "unit": 16,
       "n": 5,
-      "typeGuess": "mcq",
+      "typeGuess": "translate-phrase",
       "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "יָשַׁב הַיֶּלֶד בַּמָּקוֹם הַזֶּה",
-      "answer_raw": "The boy sat in this place."
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "The hand",
+      "answer_raw": "הַיָּד"
     },
     {
       "unit": 16,
       "n": 6,
-      "typeGuess": "mcq",
+      "typeGuess": "translate-phrase",
       "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "מָחָה יהוה אֶת־כָּל־אֲשֶׁר עָשָׂה מֵאָדָם וְעַד בְּהֵמָה",
-      "answer_raw": "Yahweh blotted out everything which he had made, man and beast."
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "The sword",
+      "answer_raw": "הַחֶרֶב"
     },
     {
       "unit": 16,
       "n": 7,
-      "typeGuess": "mcq",
+      "typeGuess": "translate-phrase",
       "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "עָשָׂה אֱלֹהִים אֶת־הָאָדָם עָפָר מִן־הָאֲדָמָה",
-      "answer_raw": "God made the man out of dust from the ground."
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "The stone",
+      "answer_raw": "הָאֶבֶן (in pause הָאָבֶן)"
     },
     {
       "unit": 16,
@@ -71,8 +71,8 @@
       "typeGuess": "mcq",
       "confidence": 1.0,
       "prompt": "Choose the translation",
-      "body_raw": "הָאֱלֹהִים הוּא בַּהֵיכָל",
-      "answer_raw": "God is in the temple."
+      "body_raw": "יָשַׁב הַמֶּלֶךְ עַל־הֶעָפָר",
+      "answer_raw": "The king sat upon the dust."
     },
     {
       "unit": 16,
@@ -80,8 +80,8 @@
       "typeGuess": "mcq",
       "confidence": 1.0,
       "prompt": "Choose the translation",
-      "body_raw": "נָתַן אֶת־הַחֶרֶב לַמֶּלֶךְ",
-      "answer_raw": "He gave the sword to the king."
+      "body_raw": "הַיָּדַיִם",
+      "answer_raw": "The (two) hands"
     },
     {
       "unit": 16,
@@ -89,8 +89,8 @@
       "typeGuess": "mcq",
       "confidence": 1.0,
       "prompt": "Choose the translation",
-      "body_raw": "כָּתַב הַיֶּלֶד בַּסֵּפֶר",
-      "answer_raw": "The boy wrote in the book."
+      "body_raw": "יַרְכָתַיִם",
+      "answer_raw": "(Two) sides"
     },
     {
       "unit": 16,
@@ -98,359 +98,8 @@
       "typeGuess": "translate-phrase",
       "confidence": 1.0,
       "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "To a lion",
-      "answer_raw": "לַאֲרִי"
-    },
-    {
-      "unit": 16,
-      "n": 12,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "God gave the woman to the man for wife.",
-      "answer_raw": "נָתַן אֱלֹהִים אֶת־הָאִשָּׁה לָאִישׁ לְאִשָּׁה"
-    },
-    {
-      "unit": 16,
-      "n": 13,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "In the morning",
-      "answer_raw": "בַּבֹּקֶר"
-    },
-    {
-      "unit": 16,
-      "n": 14,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "In these heavens",
-      "answer_raw": "בַּשָּׁמַיִם הָאֵלֶּה"
-    },
-    {
-      "unit": 16,
-      "n": 15,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "In the earth",
-      "answer_raw": "בָּאָרֶץ"
-    },
-    {
-      "unit": 16,
-      "n": 16,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "In that day",
-      "answer_raw": "בַּיּוֹם הַהוּא"
-    },
-    {
-      "unit": 16,
-      "n": 17,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "In the lofty palace",
-      "answer_raw": "בַּהֵיכָל הָרָם"
-    },
-    {
-      "unit": 16,
-      "n": 18,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "The lion cried like an (the) ass.",
-      "answer_raw": "קָרָא הָאֲרִי כַּחֲמוֹר"
-    },
-    {
-      "unit": 16,
-      "n": 19,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "God called the firmament heaven, and the dry land called he earth.",
-      "answer_raw": "קָרָא אֱלֹהִים לָרָקִיעַ שָׁמָיִם וְלַיַּבָּשָׁה קָרָא אָרֶץ"
-    },
-    {
-      "unit": 16,
-      "n": 20,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "Man is dust out of the ground.",
-      "answer_raw": "עָפָר מִן־הָאֲדָמָה הָאָדָם"
-    },
-    {
-      "unit": 16,
-      "n": 21,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "He ate of the tree.",
-      "answer_raw": "אָכַל מִן־הָעֵץ"
-    },
-    {
-      "unit": 16,
-      "n": 22,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "The wise people rested on the seventh day.",
-      "answer_raw": "שָׁבַת הָעָם הֶחָכָם בַּיּוֹם הַשְּׁבִיעִי"
-    },
-    {
-      "unit": 16,
-      "n": 23,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "To the dust",
-      "answer_raw": "לֶעָפָר"
-    },
-    {
-      "unit": 16,
-      "n": 24,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "In (לְ) pain",
-      "answer_raw": "לָחֳלִי"
-    },
-    {
-      "unit": 16,
-      "n": 25,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "On (בְּ) the high mountain",
-      "answer_raw": "בָּהָר הָרָם"
-    },
-    {
-      "unit": 16,
-      "n": 26,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "One called to the other and said, Yahweh is good.",
-      "answer_raw": "קָרָא זֶה אֶל־זֶה וְאָמַר טוֹב יְהוָה"
-    },
-    {
-      "unit": 16,
-      "n": 27,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "אָמַר יהוה לָאִשָּׁה",
-      "answer_raw": "Yahweh said to the woman."
-    },
-    {
-      "unit": 16,
-      "n": 28,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "מִן־הָעֵץ אָכָלְתְּ",
-      "answer_raw": "Thou (fem.) hast eaten of the tree."
-    },
-    {
-      "unit": 16,
-      "n": 29,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "בֵּאלֹהִים וּבְמֹשֶׁה",
-      "answer_raw": "In God and Moses"
-    },
-    {
-      "unit": 16,
-      "n": 30,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "לֵאלֹהִים זָעֲקוּ בַּמִּלְחָמָה",
-      "answer_raw": "They cried to God in the battle."
-    },
-    {
-      "unit": 16,
-      "n": 31,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "דָּוִד וִיהוֹנָתָן",
-      "answer_raw": "David and Jonathan"
-    },
-    {
-      "unit": 16,
-      "n": 32,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "אֲרִי וַחֲמוֹר",
-      "answer_raw": "A lion and an ass"
-    },
-    {
-      "unit": 16,
-      "n": 33,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "יִשְׂרָאֵל וִיהוּדָה",
-      "answer_raw": "Israel and Judah"
-    },
-    {
-      "unit": 16,
-      "n": 34,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "וביום ההוא כתבתי בספר",
-      "answer_raw": "And on that day I wrote in the book."
-    },
-    {
-      "unit": 16,
-      "n": 35,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "משה ומרים",
-      "answer_raw": "Moses and Miriam"
-    },
-    {
-      "unit": 16,
-      "n": 36,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "יום ולילה",
-      "answer_raw": "Day and night"
-    },
-    {
-      "unit": 16,
-      "n": 37,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "I said to the man.",
-      "answer_raw": "אָמַרְתִּי לָאִישׁ"
-    },
-    {
-      "unit": 16,
-      "n": 38,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "We rested on the seventh day.",
-      "answer_raw": "שָׁבַתְנוּ בַּיּוֹם הַשְּׁבִיעִי"
-    },
-    {
-      "unit": 16,
-      "n": 39,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "And of the tree we have eaten.",
-      "answer_raw": "וּמִן־הָעֵץ אָכַלְנוּ"
-    },
-    {
-      "unit": 16,
-      "n": 40,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "God destroyed from the earth man and cattle.",
-      "answer_raw": "מָחָה אֱלֹהִים מִן־הָאָרֶץ מֵאָדָם וְעַד־בְּהֵמָה"
-    },
-    {
-      "unit": 16,
-      "n": 41,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "People and king",
-      "answer_raw": "עַם וָמֶלֶךְ"
-    },
-    {
-      "unit": 16,
-      "n": 42,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "Elijah and Elisha",
-      "answer_raw": "אֵלִיָּהוּ וֶאֱלִישָׁע"
-    },
-    {
-      "unit": 16,
-      "n": 43,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "Who spilt the water upon the earth?",
-      "answer_raw": "מִי שָׁפַךְ אֶת־הַמַּיִם עַל־הָאָרֶץ"
-    },
-    {
-      "unit": 16,
-      "n": 44,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "I heard the voice in the garden.",
-      "answer_raw": "שָׁמַעְתִּי אֶת־הַקּוֹל בַּגָּן"
-    },
-    {
-      "unit": 16,
-      "n": 45,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "Thou hast said, Holy (is) Yahweh.",
-      "answer_raw": "אָמַרְתָּ קָדוֹשׁ יְהוָה"
-    },
-    {
-      "unit": 16,
-      "n": 46,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "And these, who (are) these?",
-      "answer_raw": "וְאֵלֶּה מִי אֵלֶּה"
-    },
-    {
-      "unit": 16,
-      "n": 47,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "Dry land and water",
-      "answer_raw": "יַבָּשָׁה וָמַיִם"
-    },
-    {
-      "unit": 16,
-      "n": 48,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "Night and morning",
-      "answer_raw": "לַיְלָה וָבֹקֶר"
-    },
-    {
-      "unit": 16,
-      "n": 49,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "Man is not wise as God.",
-      "answer_raw": "לֹא חָכָם הָאָדָם כֵּאלֹהִים"
-    },
-    {
-      "unit": 16,
-      "n": 50,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "Thou (f.) hast ruled over this people.",
-      "answer_raw": "מָשַׁלְתְּ בָּעָם הַזֶּה"
+      "body_raw": "The two-sides",
+      "answer_raw": "הַיַּרְכָתָיִם"
     }
   ]
 }

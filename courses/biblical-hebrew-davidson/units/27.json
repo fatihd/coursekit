@@ -1,89 +1,101 @@
 {
   "schema": "unit-lesson-v1.json",
   "unit": 27,
-  "title": "Niphal",
-  "description": "Learn the Niphal stem, the simple reflexive and passive.",
+  "title": "Strong Nouns (First Declension)",
+  "description": "Inflect nouns like דָּבָר whose vowels reduce under endings.",
   "teaches": [
-    "he-dav-18-008",
-    "he-dav-10-022",
-    "he-dav-27-001",
-    "he-dav-09-026",
-    "he-dav-21-019",
-    "he-dav-21-033",
-    "he-dav-19-040",
-    "he-dav-19-041",
-    "he-dav-19-042",
-    "he-dav-19-043",
-    "he-dav-19-044"
+    "he-dav-11-003",
+    "he-dav-13-012",
+    "he-dav-51-010",
+    "he-dav-13-006",
+    "he-dav-38-005",
+    "he-dav-33-005",
+    "he-dav-51-005",
+    "he-dav-09-004"
   ],
   "assumes": [
+    "he-dav-51-006",
     "he-dav-10-017",
-    "he-dav-37-012",
-    "he-dav-21-016",
-    "he-dav-10-076",
-    "he-dav-13-018",
-    "he-dav-13-028",
-    "he-dav-19-035",
-    "he-dav-19-036",
-    "he-dav-19-037",
-    "he-dav-19-038",
-    "he-dav-19-039"
+    "he-dav-18-008",
+    "he-dav-10-022",
+    "he-dav-09-056",
+    "he-dav-10-045",
+    "he-dav-21-007",
+    "he-dav-13-007"
   ],
   "blocks": [
     {
       "type": "prose",
       "caption": "Summary",
-      "html": "<p>Niphal is the simple reflexive and passive. Its characteristic letter is nun: in the perfect the prefix ni- is added to the stem, and in the imperfect the prefix is yin-, whose nun then assimilates to the next consonant and doubles it. So קָטַל (he killed) becomes נִקְטַל (he was killed), and the imperfect יִקָּטֵל shows the doubled middle letter. Niphal is inflected exactly like Qal, so once you know the Qal you can build it freely.</p>"
+      "html": "<p>Nouns whose vowels can change are grouped by how they change when the stress moves. The first family, the strong nouns, looks like the verb perfect: דָּבָר (word), זָקֵן (old man), חָכָם (wise). When an ending is added the stress moves to it, and the vowel two places before it reduces to shewa: דְּבָרִים (words), דְּבַר (word of).</p>"
     },
     {
       "type": "prose",
-      "caption": "The form",
-      "html": "<p>The perfect prefixes ni-, closing the first syllable; the imperfect prefixes yin-, and the nun assimilates so that the first root consonant is doubled. The imperative and infinitive construct add a secondary he on the front (as if by analogy with the Hiphil), giving the form הִקָּטֵל. The participle is like the perfect but with a long first vowel.</p>"
+      "caption": "Three pattern families",
+      "html": "<p>Nouns may be arranged by the internal vowel changes produced when the place of the tone shifts through inflection. Words with unchangeable vowels — pure-long or diphthongal — suffer no internal change and need no classification; but the forms with changeable vowels fall into a few clear families. Three of them cover most nouns: the segholates, the strong (verb-like) nouns, and the participial nouns.</p>"
     },
     {
       "type": "prose",
-      "caption": "The meanings",
-      "html": "<p>Niphal is properly the reflexive of Qal — נִשְׁמַר, &quot;he kept himself, he was on guard&quot; — and it also expresses reciprocal action (two parties acting on one another) and, most commonly, the passive of Qal, as &quot;he was broken&quot;, &quot;he was buried&quot;. The participle sometimes has a gerundive force, meaning &quot;to be desired, desirable&quot;.</p>"
+      "caption": "The strong (verb-like) nouns",
+      "html": "<p>A large class of nouns has the form of the verb perfect and is chiefly made of participles and adjectives, though many are substantives: דָּבָר (word), חָכָם (wise), קָדוֹשׁ (holy). Their vowels are tone-long and therefore changeable. When the plural ending is added, the tone plants itself on the ending, and the original vowel, now two places from the tone, reduces to shewa: דְּבָרִים (words). The construct is made as short as possible.</p>"
     },
     {
-      "type": "prose",
-      "caption": "The agent",
-      "html": "<p>When a Niphal is passive, the agent — the one by whom the action is done — is usually expressed by the preposition לְ. Read it as &quot;by&quot;: נִבְחַר לוֹ, &quot;chosen by him&quot;. This small idiom recurs, so recognise it as you read.</p>"
+      "type": "table",
+      "caption": "Plural, construct, and suffix",
+      "columns": [
+        "Form",
+        "דָּבָר (word)",
+        "זָקֵן (old man)"
+      ],
+      "rows": [
+        [
+          "singular",
+          "דָּבָר",
+          "זָקֵן"
+        ],
+        [
+          "construct singular",
+          "דְּבַר",
+          "זְקַן"
+        ],
+        [
+          "plural",
+          "דְּבָרִים",
+          "זְקֵנִים"
+        ],
+        [
+          "construct plural",
+          "דִּבְרֵי",
+          "זִקְנֵי"
+        ],
+        [
+          "with suffix",
+          "דְּבָרִי (my word)",
+          "זְקֵנָיו (his elders)"
+        ]
+      ]
     },
     {
       "type": "prose",
       "caption": "Common confusion",
-      "html": "<p>Do not lump Niphal together with Hitpael. They are different forms with different histories: Niphal is the simple reflexive/passive built on the Qal, while Hitpael is the reflexive of the intensive. Their prefixes and vowels differ, and their meanings should be translated from context, not from a single label.</p>"
-    },
-    {
-      "type": "prose",
-      "caption": "Worked example",
-      "html": "<p>Take נִכְתַּב (&quot;it was written&quot;). The nun prefix marks Niphal, and the imperfect would be יִכָּתֵב, with the doubled kaf from the assimilated nun. Translate it as the passive of the simple stem: &quot;it was written&quot;, not &quot;it wrote itself&quot;. The clue to Niphal is always the nun prefix in the perfect and the doubled first radical in the imperfect.</p>"
-    },
-    {
-      "type": "prose",
-      "caption": "Reading practice",
-      "html": "<p>Read these aloud and parse each form. נִכְתַּב הַסֵּפֶר — &quot;the book was written&quot; (Niphal perfect). נִשְׁמַר הָאִישׁ — &quot;the man kept himself, was on guard&quot; (reflexive). In each, the nun prefix and the doubled radical in the imperfect are the clues to Niphal.</p>"
+      "html": "<p>Do not take דְּבַר for a different word from דָּבָר: it is the construct, shortened because it has lost its stress. In the construct plural דִּבְרֵי both vowels have moved.</p>"
     },
     {
       "type": "prose",
       "caption": "Source",
-      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (22nd ed., 1923), §25.</p>"
+      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (22nd ed., 1923), §18.</p>"
     },
     {
       "type": "vocab",
       "refs": [
-        "he-dav-18-008",
-        "he-dav-10-022",
-        "he-dav-27-001",
-        "he-dav-09-026",
-        "he-dav-21-019",
-        "he-dav-21-033",
-        "he-dav-19-040",
-        "he-dav-19-041",
-        "he-dav-19-042",
-        "he-dav-19-043",
-        "he-dav-19-044"
+        "he-dav-11-003",
+        "he-dav-13-012",
+        "he-dav-51-010",
+        "he-dav-13-006",
+        "he-dav-38-005",
+        "he-dav-33-005",
+        "he-dav-51-005",
+        "he-dav-09-004"
       ]
     }
   ],

@@ -1,105 +1,102 @@
 {
   "schema": "unit-lesson-v1.json",
   "unit": 22,
-  "title": "Qal Yiqtol and Tenseless Forms",
-  "description": "Recognize the Qal prefix conjugation and related forms.",
+  "title": "Prefix Prepositions",
+  "description": "Recognize the prepositions that attach to the next word.",
   "teaches": [
-    "he-dav-51-010",
-    "he-dav-51-005",
-    "he-dav-09-055",
-    "he-dav-09-005",
-    "he-dav-09-077",
-    "he-dav-09-031",
-    "he-dav-21-039",
-    "he-dav-13-029",
-    "he-dav-19-016",
-    "he-dav-19-017",
-    "he-dav-19-018"
+    "he-dav-51-022",
+    "he-dav-51-013",
+    "he-dav-15-001",
+    "he-dav-10-008",
+    "he-dav-51-008",
+    "he-dav-20-003",
+    "he-dav-18-009",
+    "he-dav-18-014",
+    "he-dav-09-010",
+    "he-dav-38-002"
   ],
   "assumes": [
-    "he-dav-51-008",
-    "he-dav-21-002",
-    "he-dav-09-014",
-    "he-dav-09-019",
-    "he-dav-21-012",
-    "he-dav-21-031",
-    "he-dav-21-006",
-    "he-dav-21-023",
-    "he-dav-21-008",
-    "he-dav-21-011",
-    "he-dav-21-014",
-    "he-dav-12-009"
+    "he-dav-54-002",
+    "he-dav-51-001",
+    "he-dav-51-018",
+    "he-dav-10-009",
+    "he-dav-09-024",
+    "he-dav-21-003",
+    "he-dav-09-070",
+    "he-dav-21-030",
+    "he-dav-56-006",
+    "he-dav-09-106"
   ],
   "blocks": [
     {
       "type": "prose",
       "caption": "Summary",
-      "html": "<p>The imperfect, called Yiqtol in this course, describes incomplete or future action and is built with prefixes, and usually suffixes as well: יִשְׁמֹר (he will keep), תִּשְׁמֹר (you will keep), אֶשְׁמֹר (I will keep), יִשְׁמְרוּ (they will keep). The prefix marks the person, and the ending marks gender and number. Learning the prefix set is the key to reading this conjugation.</p>"
+      "html": "<p>Three common prepositions attach directly to the front of the word they govern: בְּ (in, with), לְ (to, for), and כְּ (like, as), and a fourth, מִ (from), does so in a shortened form. Because they are prefixes, they are read together with the noun, and their short vowel changes before an article or a guttural. Recognise the prefix and read it with its noun as one unit.</p>"
     },
     {
       "type": "table",
-      "caption": "Qal Yiqtol of שָׁמַר",
+      "caption": "Prefix prepositions",
       "columns": [
-        "Person",
-        "Form"
+        "Prefix",
+        "Meaning",
+        "Example"
       ],
       "rows": [
         [
-          "3ms",
-          "יִשְׁמֹר"
+          "בְּ",
+          "in, with",
+          "בַּבַּיִת (in the house)"
         ],
         [
-          "3fs",
-          "תִּשְׁמֹר"
+          "לְ",
+          "to, for",
+          "לַמֶּלֶךְ (to the king)"
         ],
         [
-          "2ms",
-          "תִּשְׁמֹר"
+          "כְּ",
+          "like, as",
+          "כְּמֶלֶךְ (like a king)"
         ],
         [
-          "1cs",
-          "אֶשְׁמֹר"
-        ],
-        [
-          "3mp",
-          "יִשְׁמְרוּ"
+          "מִ",
+          "from",
+          "מִבַּיִת (from a house)"
         ]
       ]
     },
     {
       "type": "prose",
-      "caption": "The prefixes",
-      "html": "<p>The third-person masculine singular prefix is י (yiqtol), the third-person feminine and second person use ת (tiqtol), the first person uses א (eqtol), and the plural adds an ending. Because י and ת and א all appear at the start, the first letter of a verb is the first thing to read: it tells you who is acting.</p>"
+      "caption": "The prefixed prepositions",
+      "html": "<p>בְּבַיִת is &quot;in a house&quot;, לַמֶּלֶךְ &quot;to the king&quot;, כְּמֶלֶךְ &quot;like a king&quot;, מִבַּיִת &quot;from a house&quot;. When the article follows, the two prefixes combine: בְּ + הַ becomes בַּ, לְ + הַ becomes לַ, and the article&#x27;s doubling moves onto the noun. This combination is extremely common, so learn to spot it.</p>"
     },
     {
       "type": "prose",
-      "caption": "Tenseless forms",
-      "html": "<p>The Yiqtol is not strictly future; it describes action that is not presented as a completed whole — ongoing, repeated, or yet to come. Context decides whether to translate &quot;he keeps&quot;, &quot;he will keep&quot;, or &quot;he used to keep&quot;. The Qatal, by contrast, presents the action as complete.</p>"
+      "caption": "Vowel changes",
+      "html": "<p>Before a noun with a simple shewa, בְּ/לְ/כְּ take a short î or e to avoid two shewas together. Before a guttural with a composite shewa, they take the vowel of that composite shewa. These adjustments are regular and predictable once you know the shewa rules.</p>"
     },
     {
       "type": "prose",
       "caption": "Common confusion",
-      "html": "<p>Do not translate Yiqtol only as future. Its basic value is incomplete action, so past habitual and general present are also possible. Read the prefix for person, then let the sentence decide the time. Watch that the third-person feminine and the second-person masculine share the same prefix ת and differ only by ending.</p>"
+      "html": "<p>Do not separate the prefix from its noun when translating. בְּ is not a word standing alone; it is &quot;in&quot; or &quot;with&quot; attached to the next word. When you see בַּ, לַ, or כַּ with a doubled following consonant, read it as the preposition plus the definite article.</p>"
     },
     {
       "type": "prose",
       "caption": "Source",
-      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (22nd ed., 1923), §21.</p>"
+      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (22nd ed., 1923), §14.</p>"
     },
     {
       "type": "vocab",
       "refs": [
-        "he-dav-51-010",
-        "he-dav-51-005",
-        "he-dav-09-055",
-        "he-dav-09-005",
-        "he-dav-09-077",
-        "he-dav-09-031",
-        "he-dav-21-039",
-        "he-dav-13-029",
-        "he-dav-19-016",
-        "he-dav-19-017",
-        "he-dav-19-018"
+        "he-dav-51-022",
+        "he-dav-51-013",
+        "he-dav-15-001",
+        "he-dav-10-008",
+        "he-dav-51-008",
+        "he-dav-20-003",
+        "he-dav-18-009",
+        "he-dav-18-014",
+        "he-dav-09-010",
+        "he-dav-38-002"
       ]
     }
   ],

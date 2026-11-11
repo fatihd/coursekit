@@ -8,8 +8,8 @@
 > lesson, complete real authored exercises, close and reopen the app without losing progress,
 > and move progress to another browser with Export/Import.
 
-Davidson Unit 1 (and OER Unit 1) is the beginner smoke test. Davidson **Unit 21** (Qal Qatal)
-is the primary content benchmark; **Unit 22** (Qal Yiqtol) is the later grammar check.
+Davidson Unit 1 (and OER Unit 1) is the beginner smoke test. Davidson **Unit 35** (Qal Qatal)
+is the primary content benchmark; **Unit 38** (Qal Yiqtol) is the later grammar check.
 
 ## 2. Non-negotiable boundaries
 
@@ -24,7 +24,7 @@ is the primary content benchmark; **Unit 22** (Qal Yiqtol) is the later grammar 
 - **R1 — Truthful contracts:** docs describe actual behaviour (done).
 - **R2 — Runtime foundations:** launch, release, browser-only progress with Export/Import
   (ADR-019), read-only Docker/static serve (done).
-- **R3 — Meaningful courseware:** Davidson Units 21–22 lessons and their authored/parsing
+- **R3 — Meaningful courseware:** Davidson Units 35 and 38 lessons and their authored/parsing
   exercises reviewed for accuracy; exwb exercises wired into the course (ROADMAP P9-T6).
 - **R4 — Student acceptance:** the acceptance tests below pass on the exact release / site.
 
@@ -41,14 +41,14 @@ is the primary content benchmark; **Unit 22** (Qal Yiqtol) is the later grammar 
 ### Course contract
 
 - Davidson Unit 1 renders Hebrew and the on-screen keyboard (`e2e.py --accessibility`).
-- Davidson Units 21–22 present coherent grammar lessons and grade their parsing exercises.
-- `e2e.py courses/biblical-hebrew-davidson --units 56` and `courses/biblical-hebrew-oer
+- Davidson Units 35 and 38 present coherent grammar lessons and grade their parsing exercises.
+- `e2e.py courses/biblical-hebrew-davidson --units 79` and `courses/biblical-hebrew-oer
   --units 20` complete; `--authored`, `--exercise-types`, `--keyboard` pass.
 
 ### Human checks
 
 - A non-developer can follow the README.
-- A human reviewer approves Davidson Units 21–22 and a sample of OER units.
+- A human reviewer approves Davidson Units 35 and 38 and a sample of OER units.
 - A keyboard-only user can operate the roadmap, lesson gate, and drill.
 - Errors explain the next action in ordinary language.
 

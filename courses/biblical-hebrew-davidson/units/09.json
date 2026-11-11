@@ -1,97 +1,47 @@
 {
   "schema": "unit-lesson-v1.json",
   "unit": 9,
-  "title": "Roots and Patterns",
-  "description": "Use consonantal roots and patterns to analyze vocabulary.",
-  "teaches": [
-    "he-dav-15-002",
-    "he-dav-16-002",
-    "he-dav-16-001",
-    "he-dav-16-004",
-    "he-dav-35-003",
-    "he-dav-16-003",
-    "he-dav-37-006",
-    "he-dav-20-001",
-    "he-dav-34-002",
-    "he-dav-10-011",
-    "he-dav-10-019",
-    "he-dav-56-002",
-    "he-dav-13-011",
-    "he-dav-13-039",
-    "he-dav-19-057"
+  "title": "The Quiescent Letters",
+  "description": "Recognize when א, ה, ו, and י fall silent.",
+  "teaches": [],
+  "assumes": [
+    "he-dav-07-003",
+    "he-dav-07-001"
   ],
-  "assumes": [],
   "blocks": [
     {
       "type": "prose",
       "caption": "Summary",
-      "html": "<p>Most Hebrew words are built from a root of (usually) three consonants placed into a pattern of vowels and affixes. The root carries the core meaning; the pattern carries the form and the grammatical job. Recognising the root lets you group related words — מֶלֶךְ (king), מַלְכָּה (queen), מַמְלָכָה (kingdom) all share מ־ל־ך — and to make a first guess at a new word&#x27;s meaning.</p>"
-    },
-    {
-      "type": "table",
-      "caption": "Root and pattern",
-      "columns": [
-        "Root",
-        "Meaning",
-        "Examples"
-      ],
-      "rows": [
-        [
-          "מ־ל־ך",
-          "to rule",
-          "מֶלֶךְ (king), מַלְכָּה (queen), מַמְלָכָה (kingdom)"
-        ],
-        [
-          "ס־פ־ר",
-          "to count, recount",
-          "סֵפֶר (book), סָפַר (he counted)"
-        ],
-        [
-          "ק־ד־שׁ",
-          "to be holy",
-          "קָדוֹשׁ (holy), קֹדֶשׁ (holiness)"
-        ]
-      ]
+      "html": "<p>The letters א, ה, ו, and י are weak. At the start of a syllable they are consonants; at the end of a syllable after a vowel they usually lose their consonant sound and fall silent, or quiesce. The syllable then ends in a vowel, and that vowel is usually long. Much of the behavior of the weak verbs follows from this.</p>"
     },
     {
       "type": "prose",
-      "caption": "The root",
-      "html": "<p>A root is the three consonants that persist across a family of words. The root מ־ל־ך means &quot;to rule&quot;; ק־ד־שׁ means &quot;to be holy&quot;; ס־פ־ר means &quot;to count or recount&quot;. The root is an abstraction: it is not a word by itself, but it is the meaning shared by every word built on it. Write it with hyphens (or a dot) to show you mean the root, not a word.</p>"
+      "caption": "Consonant or silent",
+      "html": "<p>Compare אָמַר (ʾāmar, he said), where א opens the syllable and is sounded, with יֹאמַר (yōmar, he says), where א closes the first syllable and is silent. A silent letter takes no shewa: בִּימֵי (in the days of), not בִּיְמֵי; רֵאשִׁית (beginning), with no shewa under its silent א. If such a letter does carry shewa, it is being treated as a consonant.</p>"
     },
     {
       "type": "prose",
-      "caption": "Patterns",
-      "html": "<p>A pattern (mishqal) is a vowel-and-affix frame into which a root is set. The same root in different patterns gives different nouns and verbs. The pattern tells you the word class and often a shade of meaning, while the root tells you the basic idea. Learning a few common patterns makes new vocabulary much easier.</p>"
+      "caption": "Silent aleph lengthens the vowel",
+      "html": "<p>At the end of a word א is always silent, and usually at the end of a syllable. The syllable is then as good as open, so its vowel is long: on the pattern of קָטַל one would expect מָצַא, but the word is מָצָא (he found). In מָצָאתָ (you found) the ת has no dagesh lene, because the silent א leaves a vowel before it.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Final ו and י",
+      "html": "<p>At the end of a word ו and י are vowel letters when the vowel before them matches: ו after o or u, י after i or e: לִי (to me), לוֹ (to him). After a different vowel they are consonants: חַי (ḥay, living), הוֹי (hôy, ah!), יַחְדָּו (yaḥdāw, together). The ending ־ָיו is read āw: סוּסָיו (his horses).</p>"
     },
     {
       "type": "prose",
       "caption": "Common confusion",
-      "html": "<p>Do not confuse a root with a word, and do not force a meaning onto every word with the same root. Roots are a reading aid, not a translation machine; context and the dictionary still decide the exact sense. Also, weak roots (with ו, י, or a repeated letter) change their letters across forms, so a root may be hidden.</p>"
+      "html": "<p>Do not drop a quiescent letter when you look up a word. It has fallen silent, not disappeared: יֹאמַר still comes from אָמַר, and מָצָא still has the root מצא.</p>"
     },
     {
       "type": "prose",
       "caption": "Source",
-      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (22nd ed., 1923), §16, §20.1.</p>"
+      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (22nd ed., 1923), §9.</p>"
     },
     {
       "type": "vocab",
-      "refs": [
-        "he-dav-15-002",
-        "he-dav-16-002",
-        "he-dav-16-001",
-        "he-dav-16-004",
-        "he-dav-35-003",
-        "he-dav-16-003",
-        "he-dav-37-006",
-        "he-dav-20-001",
-        "he-dav-34-002",
-        "he-dav-10-011",
-        "he-dav-10-019",
-        "he-dav-56-002",
-        "he-dav-13-011",
-        "he-dav-13-039",
-        "he-dav-19-057"
-      ]
+      "refs": []
     }
   ],
   "didYouKnow": ""

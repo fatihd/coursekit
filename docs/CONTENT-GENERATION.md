@@ -55,7 +55,7 @@ lesson stubs with prose + vocab blocks); OER enrichment landed in P6-T2 (2026-08
 
 
 **Public-domain course (2026-11-03, updated 2026-11-05):** `courses/biblical-hebrew-davidson`
-(ADR-014, ADR-016, ADR-017) is a separate 56-unit course built on public-domain grammars; it reuses
+(ADR-014, ADR-016, ADR-017) is a separate 79-unit course built on public-domain grammars; it reuses
 no other course's data. Its vocabulary CSV adds a `parse` column (mapped to
 `extra.parse` by `materialize.py`/`textify.py`), carrying each verb's grammatical description
 for the `parse-verb`/`produce-form` exercise types (ADR-015). `oer_source`/`oer_license` there
@@ -117,6 +117,16 @@ into `authored/` + `exercises/` for 34 units, placed by `build/_sources/davidson
 grammar: §47–§49 land in units 50/55 though comparison, numerals and particles are taught in
 units 14/19/20). Shapes: 427 typed English→Hebrew, 442 Hebrew→English choice, 181 parse choice,
 43 pointing corrections, 45 "give the form" choice; item format in `docs/DATA-MODEL.md` §4.
+**One topic per unit (2026-11-11, P12-T6).** The Davidson course has 79 units, each on a single topic; Davidson
+sections that had no unit (§4, §9, §24, §32) now have one. Unit numbers appear in `units.json`, `course.json`,
+`content/chapters/NN.md`, `build/_sources/davidson/{grammar-units,exwb-units,vocab-layout}.json`; tests look units up by title.
+
+**Per-sentence placement (2026-11-11, P12-T1).** Each translation sentence is tagged with the grammar it uses
+(`build/_sources/davidson/sentence-grammar.json`, ids from `grammar-units.json`) and placed in the first unit that
+teaches all of it (floor: unit 13); parse, form and pointing items stay in their block's unit.
+
+*(2026-11-11, ADR-022: Hebrew→English choice, block-level placement and random sampling are being replaced by
+typed translation, per-sentence placement and the exercise ladder; a later offline authoring pass expands the corpus into static course data.)*
 
 **Vocabulary layout (2026-11-10, P9-T12).** `build/rebalance_vocab.py --course courses/biblical-hebrew-davidson
 --layout build/_sources/davidson/vocab-layout.json` sets the unit of every word: units 9–56 get about the same

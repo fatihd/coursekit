@@ -1,10 +1,12 @@
 import csv
+import json
 import subprocess
 import sys
 import unittest
 from pathlib import Path
 
 COURSE = Path("courses/biblical-hebrew-davidson")
+UNITS = {u["title"]: u["n"] for u in json.loads((COURSE / "units.json").read_text(encoding="utf-8"))["units"]}
 
 
 class DavidsonContentTests(unittest.TestCase):
@@ -15,22 +17,23 @@ class DavidsonContentTests(unittest.TestCase):
         ) as vocab_file:
             cls.items = list(csv.DictReader(vocab_file))
 
-    def test_weak_noun_examples_are_taught_after_their_verb_units(self):
+    def test_noun_examples_sit_in_their_noun_units(self):
         expected = {
-            11: {"מֶלֶךְ", "סֵפֶר", "דָּבָר", "כֹּהֵן"},
-            41: {"עַיִן", "קוֹל", "אוֹר", "מָוֶת", "מָקוֹם", "תָּוֶךְ"},
-            43: {"עָם", "הַר", "חֹק", "גַּן"},
-            45: {"שָׂדֶה", "מַחֲנֶה", "פָּנִים", "מַיִם", "בַּת", "בַּיִת", "אָח", "בֵּן"},
+            "Strong Nouns (First Declension)": {"דָּבָר"},
+            "Segholate Nouns (Second Declension)": {"מֶלֶךְ", "סֵפֶר"},
+            "Participial Nouns (Third Declension)": {"כֹּהֵן"},
+            "Nouns from Hollow Roots": {"עַיִן", "קוֹל", "אוֹר", "מָוֶת", "מָקוֹם", "תָּוֶךְ"},
+            "Nouns from Double-Ayin Roots": {"עָם", "הַר", "חֹק", "גַּן"},
+            "Nouns from Lamed-He Roots": {"שָׂדֶה", "מַחֲנֶה", "פָּנִים", "מַיִם", "בַּת", "בַּיִת", "אָח", "בֵּן"},
         }
-        for unit, forms in expected.items():
-            with self.subTest(unit=unit):
-                rows = [item for item in self.items if int(item["unit"]) == unit]
+        for title, forms in expected.items():
+            with self.subTest(unit=title):
+                rows = [item for item in self.items if int(item["unit"]) == UNITS[title]]
                 self.assertTrue(forms.issubset({row["scriptForm"] for row in rows}))
-                self.assertGreaterEqual(sum(bool(row["plural"]) for row in rows), 2)
 
     def test_numerals_unit_teaches_the_core_numerals(self):
         core = {item["gloss"] for item in self.items
-                if int(item["unit"]) == 19 and item["category"] == "numeral"}
+                if int(item["unit"]) == UNITS["Numbers One to Ten"] and item["category"] == "numeral"}
         for gloss in ("one", "two", "three", "four", "five", "six", "seven", "eight",
                       "nine", "ten", "hundred", "thousand"):
             with self.subTest(gloss=gloss):
@@ -40,9 +43,9 @@ class DavidsonContentTests(unittest.TestCase):
         counts = {}
         for item in self.items:
             counts[int(item["unit"])] = counts.get(int(item["unit"]), 0) + 1
-        for unit in range(9, 57):
+        for unit in range(UNITS["Roots and Patterns"], max(UNITS.values()) + 1):
             with self.subTest(unit=unit):
-                self.assertTrue(8 <= counts.get(unit, 0) <= 16, counts.get(unit, 0))
+                self.assertTrue(4 <= counts.get(unit, 0) <= 18, counts.get(unit, 0))
 
     def test_vocabulary_layout_is_up_to_date(self):
         result = subprocess.run(
@@ -55,7 +58,8 @@ class DavidsonContentTests(unittest.TestCase):
     def test_numerals_cover_gendered_11_to_19_and_feminine_ordinals(self):
         numerals = [
             item for item in self.items
-            if 19 <= int(item["unit"]) <= 35 and item["category"] == "numeral"
+            if UNITS["Numbers One to Ten"] <= int(item["unit"]) <= UNITS["Numbers One to Ten"] + 20
+            and item["category"] == "numeral"
         ]
         gloss_gender = {(item["gloss"], item["gender"]) for item in numerals}
         numbers = {

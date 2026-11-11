@@ -404,12 +404,12 @@ async () => {
 
 
 LESSON_HEADINGS_JS = r"""
-async () => {
+async (n) => {
   const origin = window.location.origin;
   const { renderLesson } = await import(origin + "/engine/views/lesson.js");
   const course = await (await fetch(origin + "/course.json")).json();
-  const lesson = await (await fetch(origin + "/units/08.json")).json();
-  const unit = course.units.find((u) => u.n === 8);
+  const lesson = await (await fetch(origin + "/units/" + String(n).padStart(2, "0") + ".json")).json();
+  const unit = course.units.find((u) => u.n === n);
   const root = document.createElement("div");
   renderLesson(root, { course, vocab: {}, progress: { units: {} }, navigate() {}, onStartDrills() {} }, unit, lesson);
   return Array.from(root.querySelectorAll(".block-prose-heading"), (h) => h.textContent.trim());
@@ -672,6 +672,39 @@ def run_wrong_feedback_layout(page, authored, failures):
     return 1
 
 
+NO_TRANSLIT_JS = r"""
+async () => {
+  const origin = window.location.origin;
+  const { buildSession } = await import(origin + "/engine/session.js");
+  const course = await (await fetch(origin + "/course.json")).json();
+  const vocab = await (await fetch(origin + "/vocab.json")).json();
+  const items = vocab.items;
+  const features = course.features || {};
+  let leaks = 0, total = 0;
+  for (let unit = 9; unit <= 30; unit++) {
+    const pool = items.filter((x) => x.unit === unit);
+    if (!pool.length) continue;
+    const session = buildSession(course, pool, { features, unitN: unit, vocabList: items });
+    for (const it of session) {
+      total += 1;
+      if (it.direction === "translit->script" || it.transliteration || /translit/i.test(JSON.stringify(it.prompt || ""))) leaks += 1;
+    }
+  }
+  return { off: features.transliteration === false, leaks, total };
+}
+"""
+
+
+def run_no_translit(page, failures):
+    """A course with features.transliteration false never shows transliteration in a drill."""
+    r = page.evaluate(NO_TRANSLIT_JS)
+    if not r["off"]:
+        return 0
+    check(r["total"] > 0 and r["leaks"] == 0,
+          f"transliteration off: {r['total']} generated items, none uses transliteration", failures)
+    return 1
+
+
 def run_parse_fields(page, authored, failures):
     """P9-T8: a parse item grades field by field (right answer; one wrong field flagged alone)."""
     item = next((it for u in sorted(authored) for it in authored[u]
@@ -774,9 +807,10 @@ def run_single_option(page, failures):
 
 
 def run_lesson_heading_check(page, failures):
-    headings = page.evaluate(LESSON_HEADINGS_JS)
-    for heading in ("Metheg", "Maqqeph", "Pause", "Qere and Kethib"):
-        check(heading in headings, f"Davidson unit 8 renders the {heading} section heading", failures)
+    for n, wanted in ((10, ("Pause",)), (11, ("Metheg", "Maqqeph")), (12, ("Qere and Kethib", "The divine name"))):
+        headings = page.evaluate(LESSON_HEADINGS_JS, n)
+        for heading in wanted:
+            check(heading in headings, f"Davidson unit {n} renders the {heading} section heading", failures)
 
 
 def run_drill_keyboard(page, vocab, failures, authored=None):
@@ -864,6 +898,7 @@ def main():
                 tips = run_drill_tips(page, authored, failures)
                 run_parse_fields(page, authored, failures)
                 run_wrong_feedback_layout(page, authored, failures)
+                run_no_translit(page, failures)
                 print(f"  hint/explain drill items checked: {tips}")
                 browser.close()
             elif args.accessibility:

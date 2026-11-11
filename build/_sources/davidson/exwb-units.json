@@ -1,50 +1,182 @@
 {
   "schema": "davidson-exwb-units-v1",
   "about": "Which course unit receives each curated exwb block (ROADMAP P9-T6). Keys are curated file stems in exwb/curated/. Davidson's exercises are cumulative, so a block goes to the unit that teaches its topic, moved later when that unit comes before material the sentences rely on. Held blocks (exwb/EXEMPTIONS.md) are not listed and are not emitted.",
-  "held": ["davidson-s01", "davidson-s02", "davidson-s03", "davidson-s04", "davidson-s05", "davidson-s07", "davidson-s09"],
-  "correctionBlocks": ["davidson-s06", "davidson-s08"],
+  "held": [
+    "davidson-s01",
+    "davidson-s02",
+    "davidson-s03",
+    "davidson-s04",
+    "davidson-s05",
+    "davidson-s07",
+    "davidson-s09"
+  ],
+  "correctionBlocks": [
+    "davidson-s06",
+    "davidson-s08"
+  ],
   "grammarLeafOffset": 19,
   "keyLeafOffset": 15,
   "blocks": {
-    "davidson-s06": {"unit": 6, "reason": "vowel system and tone: Syllables and Shewa"},
-    "davidson-s08": {"unit": 7, "reason": "gutturals; corrections need pointing and shewa, so after unit 6"},
-    "davidson-s11": {"unit": 13, "reason": "the article"},
-    "davidson-s12": {"unit": 13, "reason": "pronouns; the sentences use the article, so with §11"},
-    "davidson-s13": {"unit": 15, "reason": "demonstratives, interrogatives, relative"},
-    "davidson-s14": {"unit": 16, "reason": "inseparable prepositions"},
-    "davidson-s15": {"unit": 16, "reason": "waw conjunctive; the sentences use §14 prepositions"},
-    "davidson-s16": {"unit": 17, "reason": "noun inflection; sentences rely on §11-§15"},
-    "davidson-s17": {"unit": 18, "reason": "cases and construct state: the noun phrase"},
-    "davidson-s18": {"unit": 18, "reason": "first declension (construct forms)"},
-    "davidson-s19": {"unit": 20, "reason": "nouns with suffixes; after the early noun units"},
-    "davidson-s20": {"unit": 21, "reason": "the verb, Qal perfect"},
-    "davidson-s21": {"unit": 22, "reason": "Qal imperfect, imperative, infinitive"},
-    "davidson-s22": {"unit": 26, "reason": "stative verbs"},
-    "davidson-s23": {"unit": 24, "reason": "waw consecutive: after Wayyiqtol (23) and Weqatal (24)"},
-    "davidson-s25": {"unit": 27, "reason": "Niphal"},
-    "davidson-s26": {"unit": 28, "reason": "Piel and Pual"},
-    "davidson-s27": {"unit": 30, "reason": "Hiphil and Hophal"},
-    "davidson-s28": {"unit": 32, "reason": "skeleton paradigm parse list: after the last stem"},
-    "davidson-s29": {"unit": 32, "reason": "second declension; the sentences use all stems"},
-    "davidson-s30": {"unit": 32, "reason": "third declension; the sentences use all stems"},
-    "davidson-s31": {"unit": 47, "reason": "verbal suffixes"},
-    "davidson-s33": {"unit": 33, "reason": "Pe Nun"},
-    "davidson-s34": {"unit": 34, "reason": "Pe guttural"},
-    "davidson-s35": {"unit": 35, "reason": "Pe Aleph"},
-    "davidson-s36": {"unit": 36, "reason": "Ayin guttural"},
-    "davidson-s37": {"unit": 37, "reason": "Lamedh guttural"},
-    "davidson-s38": {"unit": 38, "reason": "Lamedh Aleph"},
-    "davidson-s39": {"unit": 39, "reason": "Pe Yodh and Pe Waw"},
-    "davidson-s40": {"unit": 40, "reason": "hollow verbs"},
-    "davidson-s41": {"unit": 41, "reason": "nouns from hollow roots"},
-    "davidson-s42": {"unit": 42, "reason": "double Ayin verbs"},
-    "davidson-s43": {"unit": 43, "reason": "nouns from double Ayin roots"},
-    "davidson-s44": {"unit": 44, "reason": "Lamedh He verbs"},
-    "davidson-s45a": {"unit": 45, "reason": "Lamedh He apocopated forms"},
-    "davidson-s45b": {"unit": 46, "reason": "doubly weak verbs and irregular nouns"},
-    "davidson-s46": {"unit": 48, "reason": "perfect, imperfect, participle: complete parsing"},
-    "davidson-s47": {"unit": 50, "reason": "comparison is taught in unit 14, but the sentences use the full verb system"},
-    "davidson-s48": {"unit": 50, "reason": "numerals are taught in unit 19, but the sentences use the full verb system"},
-    "davidson-s49": {"unit": 55, "reason": "particles are taught in unit 20, but the sentences use the full verb system; purpose clauses"}
-  }
+    "davidson-s06": {
+      "unit": 7,
+      "reason": "vowel system and tone: Syllables and Shewa"
+    },
+    "davidson-s08": {
+      "unit": 8,
+      "reason": "gutturals; corrections need pointing and shewa, so after the syllables unit"
+    },
+    "davidson-s11": {
+      "unit": 16,
+      "reason": "the article"
+    },
+    "davidson-s12": {
+      "unit": 15,
+      "reason": "pronouns"
+    },
+    "davidson-s13": {
+      "unit": 18,
+      "reason": "demonstratives, interrogatives, relative"
+    },
+    "davidson-s14": {
+      "unit": 22,
+      "reason": "inseparable prepositions"
+    },
+    "davidson-s15": {
+      "unit": 20,
+      "reason": "waw conjunctive"
+    },
+    "davidson-s16": {
+      "unit": 14,
+      "reason": "noun inflection: gender and number"
+    },
+    "davidson-s17": {
+      "unit": 24,
+      "reason": "cases and construct state: the noun phrase"
+    },
+    "davidson-s18": {
+      "unit": 24,
+      "reason": "first declension (construct forms)"
+    },
+    "davidson-s19": {
+      "unit": 25,
+      "reason": "nouns with suffixes"
+    },
+    "davidson-s20": {
+      "unit": 35,
+      "reason": "the verb, Qal perfect"
+    },
+    "davidson-s21": {
+      "unit": 38,
+      "reason": "Qal imperfect, imperative, infinitive"
+    },
+    "davidson-s22": {
+      "unit": 44,
+      "reason": "stative verbs"
+    },
+    "davidson-s23": {
+      "unit": 40,
+      "reason": "waw consecutive"
+    },
+    "davidson-s25": {
+      "unit": 46,
+      "reason": "Niphal"
+    },
+    "davidson-s26": {
+      "unit": 47,
+      "reason": "Piel and Pual"
+    },
+    "davidson-s27": {
+      "unit": 49,
+      "reason": "Hiphil and Hophal"
+    },
+    "davidson-s28": {
+      "unit": 51,
+      "reason": "skeleton paradigm parse list: after the last stem"
+    },
+    "davidson-s29": {
+      "unit": 28,
+      "reason": "second declension (segholates)"
+    },
+    "davidson-s30": {
+      "unit": 37,
+      "reason": "third declension (participial nouns)"
+    },
+    "davidson-s31": {
+      "unit": 52,
+      "reason": "verbal suffixes"
+    },
+    "davidson-s33": {
+      "unit": 54,
+      "reason": "Pe Nun"
+    },
+    "davidson-s34": {
+      "unit": 55,
+      "reason": "Pe guttural"
+    },
+    "davidson-s35": {
+      "unit": 56,
+      "reason": "Pe Aleph"
+    },
+    "davidson-s36": {
+      "unit": 57,
+      "reason": "Ayin guttural"
+    },
+    "davidson-s37": {
+      "unit": 58,
+      "reason": "Lamedh guttural"
+    },
+    "davidson-s38": {
+      "unit": 59,
+      "reason": "Lamedh Aleph"
+    },
+    "davidson-s39": {
+      "unit": 60,
+      "reason": "Pe Yodh and Pe Waw"
+    },
+    "davidson-s40": {
+      "unit": 61,
+      "reason": "hollow verbs"
+    },
+    "davidson-s41": {
+      "unit": 62,
+      "reason": "nouns from hollow roots"
+    },
+    "davidson-s42": {
+      "unit": 63,
+      "reason": "double Ayin verbs"
+    },
+    "davidson-s43": {
+      "unit": 64,
+      "reason": "nouns from double Ayin roots"
+    },
+    "davidson-s44": {
+      "unit": 65,
+      "reason": "Lamedh He verbs"
+    },
+    "davidson-s45a": {
+      "unit": 67,
+      "reason": "Lamedh He apocopated forms"
+    },
+    "davidson-s45b": {
+      "unit": 68,
+      "reason": "doubly weak verbs and irregular nouns"
+    },
+    "davidson-s46": {
+      "unit": 69,
+      "reason": "perfect, imperfect, participle: complete parsing"
+    },
+    "davidson-s47": {
+      "unit": 29,
+      "reason": "comparison"
+    },
+    "davidson-s48": {
+      "unit": 31,
+      "reason": "numerals"
+    },
+    "davidson-s49": {
+      "unit": 34,
+      "reason": "particles; purpose clauses"
+    }
+  },
+  "note": ""
 }

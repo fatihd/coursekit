@@ -1,79 +1,65 @@
 {
   "schema": "unit-lesson-v1.json",
   "unit": 26,
-  "title": "Transitive and Stative Verbs",
-  "description": "Distinguish active, intransitive, and stative Qal verbs and their forms.",
+  "title": "Suffixes on Prepositions",
+  "description": "Read pronoun objects attached to prepositions.",
   "teaches": [
+    "he-dav-51-006",
     "he-dav-10-017",
-    "he-dav-37-012",
-    "he-dav-21-016",
-    "he-dav-10-076",
-    "he-dav-13-018",
-    "he-dav-13-028",
-    "he-dav-19-035",
-    "he-dav-19-036",
-    "he-dav-19-037",
-    "he-dav-19-038",
-    "he-dav-19-039"
+    "he-dav-18-008",
+    "he-dav-10-022",
+    "he-dav-09-056",
+    "he-dav-10-045",
+    "he-dav-21-007",
+    "he-dav-13-007"
   ],
   "assumes": [
-    "he-dav-39-002",
-    "he-dav-55-003",
-    "he-dav-56-001",
-    "he-dav-13-008",
-    "he-dav-13-002",
-    "he-dav-13-026",
-    "he-dav-19-029",
-    "he-dav-19-031",
-    "he-dav-19-032",
-    "he-dav-19-033",
-    "he-dav-19-034"
+    "he-dav-09-009",
+    "he-dav-09-055",
+    "he-dav-21-032",
+    "he-dav-10-012",
+    "he-dav-09-006",
+    "he-dav-51-015",
+    "he-dav-44-011",
+    "he-dav-13-018"
   ],
   "blocks": [
     {
       "type": "prose",
       "caption": "Summary",
-      "html": "<p>The Qal perfect may end in any of three vowels: a, e, or o. Verbs in a are transitive (active); verbs in e and o are intransitive or stative — they describe the condition of the subject. The distinction shapes the whole verb: an active verb forms its imperfect in o, a stative verb in a, and the stative perfect is often best translated as an English present (&quot;I know&quot;, &quot;I am old&quot;).</p>"
+      "html": "<p>The same suffixes on a preposition give its object: לִי (to me), בּוֹ (in him), עִמּוֹ (with him). Some prepositions take the suffixes in the form used with plural nouns: עָלַי (upon me), אֵלָיו (to him), לְפָנֶיךָ (before you).</p>"
     },
     {
       "type": "prose",
-      "caption": "Active and stative",
-      "html": "<p>Verbs are named after the vowel of their perfect: a-verbs, e-verbs, and o-verbs. Verbs ending in a are transitive; verbs in e and o are intransitive, though the terms do not correspond exactly to those of Western languages. The intransitive class is wide, embracing words that describe the condition of the subject — to be full, to thirst, to fear, to love — even when they can take an object. These are called stative verbs, verbs of state, physical (to be great, to be old) or mental (to rejoice, to hate).</p>"
+      "caption": "Prepositional suffixes",
+      "html": "<p>The same suffixes on a preposition give the object of that preposition: לְ becomes לִי (to me), לְךָ (to you), לוֹ (to him); בְּ becomes בִּי (in me), בּוֹ (in it). A few prepositions, like עַל and אֶל, change shape a little before the suffix. Learn the suffixes once and they serve both nouns and prepositions.</p>"
     },
     {
       "type": "prose",
-      "caption": "The forms of the stative",
-      "html": "<p>The two classes differ throughout. The active verb (perfect in a) forms its imperfect in o: קָטַל gives יִקְטֹל. The stative verb (perfect in e or o) forms its imperfect in a: כָּבֵד (to be heavy) gives יִכְבַּד. The participle of the active verb is קֹטֵל; the stative&#x27;s participle is the same as its perfect, a verbal adjective — זָקֵן (old), יָרֵא (fearing).</p>"
-    },
-    {
-      "type": "prose",
-      "caption": "The stative perfect in translation",
-      "html": "<p>The perfect of a stative verb usually corresponds to the English present: יָדַעְתִּי, &quot;I know&quot; (not &quot;I knew&quot;); זָקַנְתִּי, &quot;I am old&quot;. This is found with other verbs of affection and mental state: &quot;I trust&quot;, &quot;I remember&quot;. The condition or state is regarded as the abiding result of a past experience, and Hebrew expresses that abiding state with the perfect.</p>"
+      "caption": "Plural-type suffixes and מִן",
+      "html": "<p>עַל, אֶל, עַד, תַּחַת, and לִפְנֵי take the suffixes in the form used with plural nouns, with a -y- before the ending: עָלַי (upon me), עָלָיו (upon him), אֵלֶיךָ (to you), לְפָנַי (before me). The meaning is the same; only the joining vowel differs. מִן doubles itself before a suffix: מִמֶּנִּי (from me), מִמֶּנּוּ (from him, or from us).</p>"
     },
     {
       "type": "prose",
       "caption": "Common confusion",
-      "html": "<p>Do not translate every Qal perfect as a past tense. A stative perfect — &quot;I know&quot;, &quot;I am old&quot;, &quot;I fear&quot; — is a present state. And do not confuse stative with intransitive: not all intransitive verbs are stative (to reign is intransitive but not stative), and some stative verbs take an object (to love, to put on). Let the vowel and the meaning together decide.</p>"
+      "html": "<p>When a suffix is attached to a preposition, it is the object of that preposition, not the subject of a sentence. Thus a form meaning “to him” answers “to whom?”, while a suffix on a noun answers “whose?”. Keep this apart from verbal suffixes, which mark the direct object of an action and are treated later. The suffix itself is a pronoun in each case; its grammatical job comes from the word to which it is attached.</p>"
     },
     {
       "type": "prose",
       "caption": "Source",
-      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (22nd ed., 1923), §22.</p>"
+      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (22nd ed., 1923), §19.</p>"
     },
     {
       "type": "vocab",
       "refs": [
+        "he-dav-51-006",
         "he-dav-10-017",
-        "he-dav-37-012",
-        "he-dav-21-016",
-        "he-dav-10-076",
-        "he-dav-13-018",
-        "he-dav-13-028",
-        "he-dav-19-035",
-        "he-dav-19-036",
-        "he-dav-19-037",
-        "he-dav-19-038",
-        "he-dav-19-039"
+        "he-dav-18-008",
+        "he-dav-10-022",
+        "he-dav-09-056",
+        "he-dav-10-045",
+        "he-dav-21-007",
+        "he-dav-13-007"
       ]
     }
   ],

@@ -13,7 +13,7 @@ between browsers.
 
 | Course | Units | Source | License |
 |---|---|---|---|
-| `courses/biblical-hebrew-davidson` | 56 | A. B. Davidson, *An Introductory Hebrew Grammar* (22nd ed., 1923) and McFadyen's *Key* (1924) — public domain | Lesson prose CC BY-SA 3.0 |
+| `courses/biblical-hebrew-davidson` | 79 | A. B. Davidson, *An Introductory Hebrew Grammar* (22nd ed., 1923) and McFadyen's *Key* (1924) — public domain | Lesson prose CC BY-SA 3.0 |
 | `courses/biblical-hebrew-oer` | 20 | Aaron Christianson, *An Open Introduction to Biblical Hebrew* | CC BY-SA 3.0 |
 
 Details and attribution: each course's `content/ATTRIBUTION.md`.

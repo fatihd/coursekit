@@ -1,0 +1,190 @@
+{
+  "note": "Grammar feature -> the Davidson unit that teaches it. Sentence tags in sentence-grammar.json use these ids; a sentence is placed in the first unit where all its features are taught. The 3rd masc. sing. Qal perfect is the vocabulary form of a verb and needs no feature. A weak-verb feature is tagged only where the form shows the weakness (e.g. יִפֹּל, not נָפַל); a guttural class only where its vowels differ from the strong verb. Sentences are never placed before `floor`. Features below the floor are not tagged.",
+  "features": {
+    "plural": {
+      "unit": 14,
+      "label": "gender and number endings, dual"
+    },
+    "pronoun": {
+      "unit": 15,
+      "label": "independent personal pronouns"
+    },
+    "article": {
+      "unit": 16,
+      "label": "the definite article"
+    },
+    "adjective": {
+      "unit": 17,
+      "label": "attributive and predicate adjectives"
+    },
+    "verbless": {
+      "unit": 17,
+      "label": "verbless (nominal) sentence"
+    },
+    "comparison": {
+      "unit": 29,
+      "label": "comparison with מִן, superlative"
+    },
+    "demonstrative": {
+      "unit": 18,
+      "label": "this, that, these, those"
+    },
+    "waw": {
+      "unit": 20,
+      "label": "waw conjunctive and its vowel changes"
+    },
+    "relative": {
+      "unit": 19,
+      "label": "relative אֲשֶׁר"
+    },
+    "question-word": {
+      "unit": 19,
+      "label": "מִי, מָה"
+    },
+    "prefix-prep": {
+      "unit": 22,
+      "label": "בְּ, כְּ, לְ, מִן prefixed"
+    },
+    "suffix": {
+      "unit": 25,
+      "label": "pronominal suffixes on nouns"
+    },
+    "prep-suffix": {
+      "unit": 26,
+      "label": "pronominal suffixes on prepositions"
+    },
+    "prep": {
+      "unit": 16,
+      "label": "independent prepositions (learned as words; taught formally in their own unit)"
+    },
+    "object-marker": {
+      "unit": 21,
+      "label": "אֵת / אֶת־"
+    },
+    "construct": {
+      "unit": 24,
+      "label": "construct state and chains"
+    },
+    "he-locale": {
+      "unit": 24,
+      "label": "directional ending ־ָה (מִצְרַיְמָה, צָפוֹנָה)"
+    },
+    "numeral": {
+      "unit": 30,
+      "label": "numerals"
+    },
+    "particle": {
+      "unit": 34,
+      "label": "interrogative הֲ, הִנֵּה, יֵשׁ/אֵין (לֹא is a vocabulary word)"
+    },
+    "qatal": {
+      "unit": 35,
+      "label": "Qal perfect beyond the 3rd masc. sing."
+    },
+    "participle": {
+      "unit": 36,
+      "label": "Qal participle"
+    },
+    "yiqtol": {
+      "unit": 38,
+      "label": "Qal imperfect"
+    },
+    "wayyiqtol": {
+      "unit": 39,
+      "label": "waw consecutive with the imperfect"
+    },
+    "weqatal": {
+      "unit": 40,
+      "label": "waw consecutive with the perfect"
+    },
+    "volitive": {
+      "unit": 43,
+      "label": "imperative, jussive, cohortative, infinitives"
+    },
+    "stative": {
+      "unit": 44,
+      "label": "stative verbs"
+    },
+    "niphal": {
+      "unit": 46,
+      "label": "Niphal"
+    },
+    "piel": {
+      "unit": 47,
+      "label": "Piel"
+    },
+    "pual": {
+      "unit": 48,
+      "label": "Pual"
+    },
+    "hiphil": {
+      "unit": 49,
+      "label": "Hiphil"
+    },
+    "hophal": {
+      "unit": 50,
+      "label": "Hophal"
+    },
+    "hitpael": {
+      "unit": 51,
+      "label": "Hitpael"
+    },
+    "pe-nun": {
+      "unit": 54,
+      "label": "Pe-Nun forms"
+    },
+    "pe-guttural": {
+      "unit": 55,
+      "label": "Pe-guttural forms"
+    },
+    "pe-aleph": {
+      "unit": 56,
+      "label": "Pe-Aleph forms"
+    },
+    "ayin-guttural": {
+      "unit": 57,
+      "label": "Ayin-guttural forms"
+    },
+    "lamed-guttural": {
+      "unit": 58,
+      "label": "Lamed-guttural forms"
+    },
+    "lamed-aleph": {
+      "unit": 59,
+      "label": "Lamed-Aleph forms"
+    },
+    "pe-yod": {
+      "unit": 60,
+      "label": "Pe-Yod / Pe-Waw forms"
+    },
+    "hollow": {
+      "unit": 61,
+      "label": "hollow verb forms"
+    },
+    "geminate": {
+      "unit": 63,
+      "label": "double-Ayin forms"
+    },
+    "lamed-he": {
+      "unit": 65,
+      "label": "Lamed-He forms"
+    },
+    "apocopated": {
+      "unit": 67,
+      "label": "apocopated and doubly weak forms"
+    },
+    "verb-suffix": {
+      "unit": 52,
+      "label": "object suffixes on verbs"
+    },
+    "purpose": {
+      "unit": 33,
+      "label": "אִם, לְמַעַן, פֶּן (conditions and purpose in full later)"
+    },
+    "segholate": {
+      "unit": 28,
+      "label": "segholate noun inflection (מַלְכִּי, מְלָכִים)"
+    }
+  },
+  "floor": 16
+}

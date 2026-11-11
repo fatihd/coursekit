@@ -1,89 +1,81 @@
 {
   "schema": "unit-lesson-v1.json",
   "unit": 54,
-  "title": "Waw, Relative, and Circumstantial Clauses",
-  "description": "Use waw and relative clauses to connect sentences.",
+  "title": "Pe-Nun Verbs",
+  "description": "Track the weak first radical nun and its changes.",
   "teaches": [
-    "he-dav-10-079",
-    "he-dav-13-014",
-    "he-dav-09-082",
-    "he-dav-09-089",
-    "he-dav-13-023",
-    "he-dav-09-086",
-    "he-dav-51-019",
-    "he-dav-09-084",
-    "he-dav-09-122",
-    "he-dav-51-014"
+    "he-dav-33-003",
+    "he-dav-33-001",
+    "he-dav-09-043",
+    "he-dav-51-007",
+    "he-dav-33-006",
+    "he-dav-33-007",
+    "he-dav-33-002",
+    "he-dav-33-009",
+    "he-dav-33-008"
   ],
   "assumes": [
-    "he-dav-09-112",
-    "he-dav-10-048",
-    "he-dav-51-020",
-    "he-dav-10-049",
-    "he-dav-10-064",
-    "he-dav-09-107",
-    "he-dav-10-075",
-    "he-dav-51-026",
-    "he-dav-09-092",
-    "he-dav-10-072"
+    "he-dav-09-118",
+    "he-dav-10-074",
+    "he-dav-10-034",
+    "he-dav-10-055",
+    "he-dav-09-115",
+    "he-dav-09-104",
+    "he-dav-09-108"
   ],
   "blocks": [
     {
       "type": "prose",
       "caption": "Summary",
-      "html": "<p>Waw connects words and clauses with &quot;and&quot;, and a relative clause introduced by אֲשֶׁר (who, which, that) or כִּי (that) modifies a noun or completes a verb. Recognise where a relative clause begins and ends, and translate the relative particle appropriately. These connectors are what turn lists of words into continuous narrative.</p>"
-    },
-    {
-      "type": "table",
-      "caption": "Relative and waw",
-      "columns": [
-        "Clause",
-        "Meaning"
-      ],
-      "rows": [
-        [
-          "הָאִישׁ אֲשֶׁר בָּא",
-          "the man who came"
-        ],
-        [
-          "וַיֹּאמֶר",
-          "and he said"
-        ]
-      ]
+      "html": "<p>Pe-Nun verbs begin with the root letter nun, which is weak and is often assimilated to the following consonant, which is then doubled. So נָפַל (he fell) becomes יִפֹּל (he will fall), and נָתַן (he gave) becomes יִתֵּן (he will give). The nun behaves exactly as it does in other languages when it is not followed by a full vowel: its sound is absorbed into the next consonant.</p>"
     },
     {
       "type": "prose",
-      "caption": "Waw",
-      "html": "<p>The conjunction ו links nouns, phrases, and whole clauses. At the start of a clause it often carries the narrative along: וַיֹּאמֶר, &quot;and he said&quot;. The vowel of ו adjusts to the next word, but its joining force is constant. Distinguish simple &quot;and&quot; from the narrative &quot;and then&quot; by context.</p>"
+      "caption": "Assimilation",
+      "html": "<p>When the nun stands at the end of a syllable — as in the Qal imperfect, and in the Niphal, Hiphil, and Hophal — it is usually assimilated to the next consonant, which doubles: yinpol becomes yippol, hinpil becomes hippil. Read the doubled consonant as the trace of the lost nun.</p>"
     },
     {
       "type": "prose",
-      "caption": "Relative clauses",
-      "html": "<p>אֲשֶׁר introduces a clause that describes a noun: הָאִישׁ אֲשֶׁר בָּא, &quot;the man who came&quot;. כִּי can mean &quot;that&quot; after verbs of saying and knowing: אָמַר כִּי בָּא, &quot;he said that he came&quot;. Read the relative clause as a unit attached to its noun or verb.</p>"
+      "caption": "The exception",
+      "html": "<p>The nun is not usually assimilated when the middle radical is a guttural, because a guttural cannot be doubled. In such verbs the nun stays written, and the guttural simply follows it. This is the one regular exception to remember.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Imperative and infinitive",
+      "html": "<p>In verbs whose imperfect has the a vowel, the nun is almost always dropped in the imperative, and in the infinitive construct, which then adds a feminine ending and takes a segholate form — the infinitive נָתַן becomes תֵּת. In verbs whose imperfect has o, the nun is kept. Distinguish the two imperfect types carefully.</p>"
     },
     {
       "type": "prose",
       "caption": "Common confusion",
-      "html": "<p>Do not translate כִּי with only one English word. It means &quot;that&quot;, &quot;for&quot;, &quot;because&quot;, or &quot;when&quot; depending on context, so let the sentence decide. And do not break a relative clause at the wrong place: אֲשֶׁר reaches forward to its verb, so read to the end of the clause before translating.</p>"
+      "html": "<p>Do not mistake a Pe-Nun imperfect for a geminate verb. Both can show a doubled consonant, but in Pe-Nun the doubling comes from a dropped nun, not from two identical root letters. Compare the perfect, where the nun is still visible, to recover the root.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Worked example",
+      "html": "<p>Take נָפַל (&quot;he fell&quot;) and its imperfect יִפֹּל (&quot;he will fall&quot;). The nun of the perfect disappears in the imperfect, and the pe doubles: yinpol becomes yippol. The doubled letter is the trace of the dropped nun, and this is the pattern to recognise in Pe-Nun imperfects.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Reading practice",
+      "html": "<p>Read and parse. נָפַל הָעָם — &quot;the people fell&quot;. יִפֹּל הָאִישׁ — &quot;the man will fall&quot;. The perfect keeps the nun; the imperfect drops it and doubles the next consonant. The doubled letter is the trace of the lost nun.</p>"
     },
     {
       "type": "prose",
       "caption": "Source",
-      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (22nd ed., 1923), §13, §15.</p>"
+      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (22nd ed., 1923), §33.</p>"
     },
     {
       "type": "vocab",
       "refs": [
-        "he-dav-10-079",
-        "he-dav-13-014",
-        "he-dav-09-082",
-        "he-dav-09-089",
-        "he-dav-13-023",
-        "he-dav-09-086",
-        "he-dav-51-019",
-        "he-dav-09-084",
-        "he-dav-09-122",
-        "he-dav-51-014"
+        "he-dav-33-003",
+        "he-dav-33-001",
+        "he-dav-09-043",
+        "he-dav-51-007",
+        "he-dav-33-006",
+        "he-dav-33-007",
+        "he-dav-33-002",
+        "he-dav-33-009",
+        "he-dav-33-008"
       ]
     }
   ],

@@ -126,6 +126,7 @@ the gate just tracks `lessonRead` in progress.
   generator config), calling `render` per item and `grade` on the student's answer.
 - Distractor pool = **known set** filtered by the generator's params; difficulty = lookback
   depth (how far back the pool reaches).
+- Progression follows the exercise ladder and growing exercise corpus of ADR-022 (AGENTS.md §0).
 
 ### Opt-in features (ADR-015)
 

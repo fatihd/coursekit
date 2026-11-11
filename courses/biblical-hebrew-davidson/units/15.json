@@ -1,102 +1,109 @@
 {
   "schema": "unit-lesson-v1.json",
   "unit": 15,
-  "title": "Demonstratives and Waw",
-  "description": "Use demonstratives and the conjunction waw in simple clauses.",
+  "title": "Independent Pronouns",
+  "description": "Read the personal pronouns by person, gender, and number.",
   "teaches": [
-    "he-dav-40-002",
-    "he-dav-55-001",
-    "he-dav-39-006",
-    "he-dav-35-001",
-    "he-dav-10-009",
-    "he-dav-09-036",
-    "he-dav-21-003",
-    "he-dav-09-070",
-    "he-dav-21-030",
-    "he-dav-10-031",
-    "he-dav-09-072",
-    "he-dav-10-023",
-    "he-dav-19-030"
+    "he-dav-18-010",
+    "he-dav-52-001",
+    "he-dav-10-006",
+    "he-dav-39-005",
+    "he-dav-09-037",
+    "he-dav-21-005",
+    "he-dav-10-005",
+    "he-dav-09-020",
+    "he-dav-09-021",
+    "he-dav-10-039",
+    "he-dav-34-014"
   ],
   "assumes": [
-    "he-dav-39-008",
-    "he-dav-37-011",
-    "he-dav-51-023",
-    "he-dav-15-005",
-    "he-dav-38-003",
-    "he-dav-15-004",
-    "he-dav-09-028",
-    "he-dav-39-007",
-    "he-dav-51-024",
-    "he-dav-21-005",
-    "he-dav-13-005",
-    "he-dav-21-017",
-    "he-dav-38-004"
+    "he-dav-18-003",
+    "he-dav-18-005",
+    "he-dav-18-006",
+    "he-dav-53-002",
+    "he-dav-51-025",
+    "he-dav-51-003",
+    "he-dav-53-001",
+    "he-dav-44-004",
+    "he-dav-44-002",
+    "he-dav-40-004"
   ],
   "blocks": [
     {
       "type": "prose",
       "caption": "Summary",
-      "html": "<p>The demonstratives זֶה (this, masculine) and זֹאת (this, feminine), and אֵלֶּה (these) point to a nearby person or thing. Like adjectives they usually follow the noun and, when the noun is definite, they are made definite as well. The conjunction ו (waw) means &quot;and&quot;; it prefixes the next word and changes its short vowel depending on what follows. Both are workhorses of simple clauses.</p>"
+      "html": "<p>The independent personal pronoun stands alone as the subject of a sentence: אֲנִי (I), אַתָּה (you), הוּא (he). It marks person (first, second, third), gender (masculine or feminine), and number (singular or plural). Hebrew uses the independent pronoun for emphasis, for contrast, and as the subject of a verbless sentence, but because the verb already carries its own person ending, the pronoun is not needed to make a verb say who is acting.</p>"
     },
     {
       "type": "table",
-      "caption": "Demonstratives",
+      "caption": "Independent pronouns",
       "columns": [
-        "Form",
-        "Meaning"
+        "Person",
+        "Singular",
+        "Plural"
       ],
       "rows": [
         [
-          "זֶה",
-          "this (masculine)"
+          "1",
+          "אֲנִי (I)",
+          "אֲנַחְנוּ (we)"
         ],
         [
-          "זֹאת",
-          "this (feminine)"
+          "2 m",
+          "אַתָּה (you)",
+          "אַתֶּם (you)"
         ],
         [
-          "אֵלֶּה",
-          "these"
+          "2 f",
+          "אַתְּ (you)",
+          "אַתֶּן (you)"
+        ],
+        [
+          "3 m",
+          "הוּא (he)",
+          "הֵם (they)"
+        ],
+        [
+          "3 f",
+          "הִיא (she)",
+          "הֵנָּה (they)"
         ]
       ]
     },
     {
       "type": "prose",
-      "caption": "Demonstratives",
-      "html": "<p>זֶה and זֹאת agree with their noun in gender, אֵלֶּה in number. Because the demonstrative is definite by nature, a definite noun takes a definite demonstrative: הָאִישׁ הַזֶּה (this man), הָאִשָּׁה הַזֹּאת (this woman). They can also stand alone: זֶה טוֹב, &quot;this is good&quot;.</p>"
+      "caption": "Person, gender, and number",
+      "html": "<p>The first person is the speaker (אֲנִי, אֲנַחְנוּ); the second is the one spoken to (אַתָּה, אַתְּ, אַתֶּם); the third is the one spoken about (הוּא, הִיא, הֵם, הֵנָּה). The second and third persons distinguish masculine from feminine in both singular and plural; the first person does not. Learn the whole table so the forms are automatic.</p>"
     },
     {
       "type": "prose",
-      "caption": "Waw",
-      "html": "<p>The conjunction ו attaches to the front of a word: דָּבָר (word) becomes וּדְבַר (and a word). Before a consonant its vowel is usually a vocal shewa (וְ), but before a shewa, a guttural, or a labial consonant it becomes û or takes another form. These small changes are pronunciation only; the meaning stays &quot;and&quot;.</p>"
+      "caption": "Using the pronoun",
+      "html": "<p>Because a verb carries its person in its ending, the separate pronoun usually adds emphasis: אֲנִי שָׁמַרְתִּי stresses &quot;I myself kept&quot;. In a verbless sentence the pronoun supplies the missing verb: הוּא מֶלֶךְ is &quot;he is a king&quot;. Notice the pronoun agrees with the noun or verb it stands for.</p>"
     },
     {
       "type": "prose",
       "caption": "Common confusion",
-      "html": "<p>Do not read ו as a full word with a fixed vowel. Its vowel adapts to the next sound, so וּ, וַ, וֶ, וֹ all occur as the same conjunction in different positions. Recognise the prefixed ו as &quot;and&quot; and let the following word determine how it is read.</p>"
+      "html": "<p>Do not add a separate pronoun to every verb; that over-translates. Reserve the independent pronoun for emphasis or for sentences with no verb. Also do not confuse הוּא (he) with הִיא (she): the difference is the vowel and the final letter, so read carefully.</p>"
     },
     {
       "type": "prose",
       "caption": "Source",
-      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (22nd ed., 1923), §13, §15.</p>"
+      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (22nd ed., 1923), §12.</p>"
     },
     {
       "type": "vocab",
       "refs": [
-        "he-dav-40-002",
-        "he-dav-55-001",
-        "he-dav-39-006",
-        "he-dav-35-001",
-        "he-dav-10-009",
-        "he-dav-09-036",
-        "he-dav-21-003",
-        "he-dav-09-070",
-        "he-dav-21-030",
-        "he-dav-10-031",
-        "he-dav-09-072",
-        "he-dav-10-023",
-        "he-dav-19-030"
+        "he-dav-18-010",
+        "he-dav-52-001",
+        "he-dav-10-006",
+        "he-dav-39-005",
+        "he-dav-09-037",
+        "he-dav-21-005",
+        "he-dav-10-005",
+        "he-dav-09-020",
+        "he-dav-09-021",
+        "he-dav-10-039",
+        "he-dav-34-014"
       ]
     }
   ],

@@ -20,7 +20,9 @@
   downloaded with `python scripts/fetch-sources <book>` (git-ignored in the public repo).
 - `exwb_to_authored.py` — Davidson drills from the hand-checked exwb set: reads
   `exwb/curated/davidson-*.json` + `_sources/davidson/exwb-units.json`, writes the course's
-  `authored/NN.json` + `exercises/NN.json` (`--check` to verify they are current; P9-T6).
+  `authored/NN.json` + `exercises/NN.json` (`--check` to verify they are current; P9-T6). Translation sentences
+  are placed one by one: first unit teaching all their grammar (`_sources/davidson/sentence-grammar.json` tags,
+  `grammar-units.json` feature → unit; P12-T1).
 - `rebalance_vocab.py` — spreads a course's words evenly over its units (Davidson: `--layout
   _sources/davidson/vocab-layout.json`, pinned ids + topic units); rewrites the `unit` column of
   `content/vocab.csv` and the chapters' Vocabulary/Teaches/Assumes lists; `--recount _oer/morphhb/books`

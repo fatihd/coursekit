@@ -1,93 +1,78 @@
 {
   "schema": "unit-lesson-v1.json",
   "unit": 52,
-  "title": "Construct Chains and Genitive Relations",
-  "description": "Read the construct state and its genitive relations.",
+  "title": "Object Suffixes on the Verb",
+  "description": "Recognize pronoun objects attached to verbs.",
   "teaches": [
-    "he-dav-09-067",
-    "he-dav-09-117",
-    "he-dav-09-090",
-    "he-dav-09-078",
-    "he-dav-09-059",
-    "he-dav-09-105",
-    "he-dav-13-032",
-    "he-dav-09-081",
-    "he-dav-09-102",
-    "he-dav-09-103"
+    "he-dav-09-050",
+    "he-dav-09-094",
+    "he-dav-10-042",
+    "he-dav-09-083",
+    "he-dav-55-004",
+    "he-dav-10-021",
+    "he-dav-13-016"
   ],
   "assumes": [
-    "he-dav-10-035",
-    "he-dav-18-013",
-    "he-dav-56-008",
-    "he-dav-10-082",
-    "he-dav-10-081",
-    "he-dav-56-005",
-    "he-dav-09-119",
-    "he-dav-09-045",
-    "he-dav-10-056",
-    "he-dav-09-068"
+    "he-dav-09-018",
+    "he-dav-09-023",
+    "he-dav-17-002",
+    "he-dav-09-113",
+    "he-dav-09-098",
+    "he-dav-10-077",
+    "he-dav-44-016",
+    "he-dav-10-020"
   ],
   "blocks": [
     {
       "type": "prose",
       "caption": "Summary",
-      "html": "<p>When one noun is bound closely to a following noun, the first stands in the construct state and the second, often definite, supplies the genitive: בֵּית הַמֶּלֶךְ (the house of the king, &quot;the king&#x27;s house&quot;). The construct noun is usually shortened and never takes the article; only the last noun of the chain is made definite. Translating &quot;X of Y&quot; — and watching for long chains — is the skill here.</p>"
-    },
-    {
-      "type": "table",
-      "caption": "Construct chains",
-      "columns": [
-        "Phrase",
-        "Meaning"
-      ],
-      "rows": [
-        [
-          "בֵּית הַמֶּלֶךְ",
-          "the house of the king"
-        ],
-        [
-          "דְּבַר הָאֱלֹהִים",
-          "the word of God"
-        ],
-        [
-          "בֵּן הָאִישׁ",
-          "the son of the man"
-        ]
-      ]
+      "html": "<p>A verb may take a pronominal suffix that marks the direct object of the action, not the subject. שְׁמָרוֹ means &quot;he kept him&quot;, and שְׁמָרַנִי &quot;he kept me&quot;. The suffix&#x27;s person, gender, and number identify the one acted upon, while the verb&#x27;s own ending still marks the subject. These suffixes are the same in form as the possessive suffixes on nouns.</p>"
     },
     {
       "type": "prose",
-      "caption": "The construct state",
-      "html": "<p>The first noun in a construct chain drops its article and often shortens its vowels: בַּיִת (house) becomes בֵּית (house of) in בֵּית הַמֶּלֶךְ. The meaning is possession or close relation, exactly like English &quot;of&quot; or the apostrophe-s. Only the final noun carries the article, and its definiteness governs the whole chain.</p>"
+      "caption": "The forms",
+      "html": "<p>A pronoun object can be attached to the verb instead of written with אֹת־: שְׁמָרוֹ (he kept him) for שָׁמַר אֹתוֹ. The endings are those of the nouns, sometimes with a connecting vowel: ־נִי (me), ־ךָ / ־ךְ (you, m./f.), ־וֹ or ־הוּ (him), ־הָ (her), ־נוּ (us), ־כֶם (you, pl.), ־ם (them). The suffix pulls the stress forward, so the verb&#x27;s vowels reduce: שָׁמַר → שְׁמָרַנִי (he kept me). The imperfect often adds ־ֵ־ or ־ֶנּ־ before the suffix: יִשְׁמְרֵנִי (he will keep me), יִשְׁמְרֶנּוּ (he will keep him). Read the verb first, then the suffix.</p>"
     },
     {
       "type": "prose",
-      "caption": "Reading a chain",
-      "html": "<p>A chain can be longer than two nouns: בֵּית אֲבִי הַמֶּלֶךְ, &quot;the house of the father of the king&quot;. Each noun except the last is in the construct state. Read from the last definite noun backward, or translate each &quot;of&quot; in order, to keep the relationships straight.</p>"
+      "caption": "Object suffixes",
+      "html": "<p>The pronominal suffixes attached to a verb express the direct object, and they are the same suffixes that nouns take for possession. So שְׁמָרוֹ (&quot;he kept him&quot;) and בֵּיתוֹ (&quot;his house&quot;) share the suffix -ô. Learn the suffix set once and it serves nouns, prepositions, and verbs alike.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Reading the suffix",
+      "html": "<p>To parse a suffixed verb, first name the verb&#x27;s own stem, conjugation, and subject from its prefix and ending, then name the object from the suffix. The suffix does not change the subject; it adds the one acted upon. Distinguish a subject ending from an object suffix by asking whether the verb already has its subject marked.</p>"
     },
     {
       "type": "prose",
       "caption": "Common confusion",
-      "html": "<p>Do not translate the construct as if the first noun had the article. בֵּית הַמֶּלֶךְ is &quot;the house of the king&quot;, not &quot;the house the king&quot;. The article belongs to the final noun but makes the whole phrase definite. Watch for the shortened construct form, which can look like a different word.</p>"
+      "html": "<p>Do not confuse a subject ending with an object suffix. The verb&#x27;s person ending marks the doer; a following suffix marks the one done to. When a suffix appears on a form that already has its subject, the suffix is the object. Read both, in order, before translating.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Worked example",
+      "html": "<p>Take שְׁמָרוֹ (&quot;he kept him&quot;). The verb&#x27;s own ending marks the subject &quot;he&quot;, and the suffix -ô marks the object &quot;him&quot;. Read the subject from the verb and the object from the suffix, in that order, before translating.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Reading practice",
+      "html": "<p>Read and parse. שְׁמָרוֹ — &quot;he kept him&quot; (subject &quot;he&quot;, object &quot;him&quot;). שְׁמָרַנִי — &quot;he kept me&quot;. Read the subject from the verb&#x27;s ending and the object from the suffix, in that order.</p>"
     },
     {
       "type": "prose",
       "caption": "Source",
-      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (22nd ed., 1923), §17.</p>"
+      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (22nd ed., 1923), §31.</p>"
     },
     {
       "type": "vocab",
       "refs": [
-        "he-dav-09-067",
-        "he-dav-09-117",
-        "he-dav-09-090",
-        "he-dav-09-078",
-        "he-dav-09-059",
-        "he-dav-09-105",
-        "he-dav-13-032",
-        "he-dav-09-081",
-        "he-dav-09-102",
-        "he-dav-09-103"
+        "he-dav-09-050",
+        "he-dav-09-094",
+        "he-dav-10-042",
+        "he-dav-09-083",
+        "he-dav-55-004",
+        "he-dav-10-021",
+        "he-dav-13-016"
       ]
     }
   ],

@@ -15,7 +15,7 @@ further expansion. Scope and acceptance tests: `docs/RESCUE-PLAN.md`; decision: 
 |---|---|---|---|
 | R1 | Reconcile contracts and docs | Docs describe actual behavior | ✅ Done |
 | R2 | Runtime foundations | Launch, release, browser-only progress with Export/Import (ADR-019), local-only use | ✅ Done: fresh release → launch → restart → export → import restores progress |
-| R3 | Substantive lesson flow | Davidson Units 21–22 human-reviewed; their exercises run in the drill | A student can learn and practice the unit's grammar, not only vocabulary MCQs |
+| R3 | Substantive lesson flow | Davidson Units 35 and 38 (Qal Qatal, Qal Yiqtol) human-reviewed; their exercises run in the drill | A student can learn and practice the unit's grammar, not only vocabulary MCQs |
 | R4 | Student release gate | Exact release artifact / site passes platform, course, accessibility, and content checks | Synthetic + Davidson + OER contract tests and human checklist pass |
 
 Legend for acceptance tests:
@@ -108,6 +108,23 @@ all source PDFs stay in a private repository. Decision record: ADR-020.
 
 Order: T1 → T2 → T3/T4/T5 → T7 → T8 → T9; T6 any time. P9-T5b–T7 are not prerequisites
 (the courses ship as preview) but make the Davidson course much better if done first.
+
+---
+
+## P12 — Exercise ladder and corpus expansion (ADR-022, 2026-11-11)
+
+The course vision (AGENTS.md §0): exercises of increasing difficulty, sentences from the start, and a
+large, growing exercise corpus. Applies to Davidson first.
+
+| ID | Task | Exit criteria | Acceptance test |
+|---|---|---|---|
+| P12-T1 | Per-sentence placement | ✅ Done 2026-11-11: 869 sentences tagged (`build/_sources/davidson/sentence-grammar.json`), feature → unit in `grammar-units.json`; sentences now span units 13–46 (none wait for 47–56); early units 13/15/18/20/32 gained short sections (verbless sentence; מִי/מָה, אֲשֶׁר, object marker; construct state, directional ־ָה; לְמַעַן/פֶּן; object suffixes on the verb). Every Davidson sentence tagged with the grammar it uses; units tagged with the grammar they teach; each sentence placed in the first unit where its grammar and words are taught (replaces block placement in `exwb-units.json`) | Test: no sentence sits before its grammar/words; sentences appear from the first grammar units |
+| P12-T2 | Typed Hebrew→English | The 442 Hebrew→English items become typed translation, checked against the Key | e2e: a typed Key translation grades correct; no Hebrew→English `mcq` left |
+| P12-T3 | Pointed Hebrew grading | Top-rung English→Hebrew requires pointing; pausal/contextual final word, maqqef and Key alternatives accepted; wrong/missing points shown in red | e2e: right consonants with a wrong vowel → wrong, highlighted |
+| P12-T4 | The ladder | Session builder orders T/F → choice → fill-in → translate without points → with points; every exercise counts toward the unit (no random 10) | e2e: a unit session climbs the ladder; unit done only when its exercises are passed |
+| P12-T6 | One topic per unit | ✅ Done 2026-11-11: Davidson rearranged from 56 to 79 units, each on one topic: splits of old units 7, 8, 11, 13, 15, 17, 18, 19, 20, 21, 25, 32/47, 46, 54, 55; new units for Davidson §4 (vowel letters with points), §9 (quiescents), §24 (stem scheme), §32 (weak-verb classes); declensions moved after the suffixes / participle. Exercises, grammar layout and vocabulary remapped. No progress migration (user: not needed yet) | `validate`, unit tests, `e2e.py --units 40`, `--keyboard` (reading-aid headings in units 10–12) green |
+| P12-T7 | Deep links and finer progress (ideas, later) | URL hash routes for unit / exercise block / item; progress per exercise block; stable seeds so a link reproduces the same set | design agreed with the user |
+| P12-T5 | Corpus expansion (offline authoring pass, later) | Written into the static course data: new exercises per unit from its grammar and words, and Bible-prose excerpts (open texts) fitting what is taught; every rung populated in every unit | Count per unit per rung reported; a retake shows different items |
 
 ---
 

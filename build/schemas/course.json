@@ -67,7 +67,8 @@
         "reviewWarmup": { "type": "boolean" },
         "targetItems": { "type": "integer", "minimum": 1 },
         "reviewItems": { "type": "integer", "minimum": 0 },
-        "authoredPerSession": { "type": "integer", "minimum": 1 }
+        "authoredPerSession": { "type": "integer", "minimum": 1 },
+        "transliteration": { "type": "boolean" }
       },
       "additionalProperties": false
     }

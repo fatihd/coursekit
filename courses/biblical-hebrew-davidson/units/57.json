@@ -1,0 +1,78 @@
+{
+  "schema": "unit-lesson-v1.json",
+  "unit": 57,
+  "title": "Ayin-Guttural Verbs",
+  "description": "Handle a guttural in middle position.",
+  "teaches": [
+    "he-dav-36-011",
+    "he-dav-36-007",
+    "he-dav-36-003",
+    "he-dav-36-010",
+    "he-dav-36-008",
+    "he-dav-36-002",
+    "he-dav-36-009",
+    "he-dav-36-004",
+    "he-dav-36-001"
+  ],
+  "assumes": [
+    "he-dav-35-004",
+    "he-dav-13-017",
+    "he-dav-09-060",
+    "he-dav-10-076",
+    "he-dav-34-005",
+    "he-dav-34-007",
+    "he-dav-34-006"
+  ],
+  "blocks": [
+    {
+      "type": "prose",
+      "caption": "Summary",
+      "html": "<p>Ayin-Guttural verbs have a guttural as the middle radical. The middle guttural cannot be doubled, and it prefers an a-class vowel. This shows most clearly in the intensive stems — Piel, Pual, and Hitpael — where the expected doubling of the middle radical is replaced by a lengthened preceding vowel.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "The middle guttural",
+      "html": "<p>In the Qal imperfect and imperative the middle guttural prefers a, so the vowel before it opens to a. In the perfect of Piel the vowel is often a as well. These are the guttural&#x27;s preference for the a sound working in the middle of the word.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "The intensive forms",
+      "html": "<p>Because a guttural cannot be doubled, Piel, Pual, and Hitpael omit the dagesh from the middle radical, and the preceding short vowel is lengthened to compensate. So &quot;he blessed&quot; (Piel of ברך) is בֵּרֵךְ, with a long e before the guttural instead of a doubled resh. The stem is still recognisable by its prefix and vowel pattern.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Common confusion",
+      "html": "<p>Do not mistake an Ayin-Guttural Piel for another stem just because the doubling is missing. The guttural rule explains it: where Piel would double, the guttural forces a long vowel instead. Name the stem first, then apply the guttural law.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Worked example",
+      "html": "<p>Take בֵּרֵךְ (&quot;he blessed&quot;, Piel of ברך). The middle radical resh is a guttural and cannot be doubled, so the vowel before it lengthens to ē instead. The stem is still Piel — the i and the long ē — but the doubling is replaced by the lengthened vowel.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Reading practice",
+      "html": "<p>Read and parse. שָׁאַל הָאִישׁ — &quot;the man asked&quot;. בֵּרֵךְ אֶת־הָעָם — &quot;he blessed the people&quot; (Piel of a guttural root). Where Piel would double, the guttural forces a lengthened vowel instead.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Source",
+      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (22nd ed., 1923), §36.</p>"
+    },
+    {
+      "type": "vocab",
+      "refs": [
+        "he-dav-36-011",
+        "he-dav-36-007",
+        "he-dav-36-003",
+        "he-dav-36-010",
+        "he-dav-36-008",
+        "he-dav-36-002",
+        "he-dav-36-009",
+        "he-dav-36-004",
+        "he-dav-36-001"
+      ]
+    }
+  ],
+  "didYouKnow": ""
+}

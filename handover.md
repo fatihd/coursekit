@@ -28,4 +28,18 @@
 - 2026-11-10: P9-T11 deferred (user). P9-T12 done — Davidson vocabulary even (units 9–56: 10–15 words, were 0–113):
   `build/rebalance_vocab.py --layout build/_sources/davidson/vocab-layout.json` (`--recount build/_oer/morphhb/books`
   refilled `frequency` from OSHB). `generate-lessons.py` is stale for Davidson — do not run it.
-- Next up: nothing queued; P9-T9, P9-T11, P10-T10 and P11 are deferred/parked (user, 2026-11-10).
+- 2026-11-11: course vision restated by the user and written to AGENTS.md §0 + ADR-022 (exercise ladder, sentences
+  from the start, per-sentence placement, typed translation both ways, no transliteration, corpus expansion by
+  a later offline pass; static course data, no live agent). Docs that caused the drift got superseded-notes: RESCUE-PLAN (exercise expansion freeze),
+  CONTENT-GENERATION (Hebrew→English mcq), P9-T6 block placement + random sampling, EXERCISE-TYPES/ARCHITECTURE
+  (difficulty = distractor lookback).
+- 2026-11-11: `docs/DECISIONS/` deleted (user: ADR files pollute context); every decision is one line in
+  AGENTS.md §12 under its old ADR-NNN label, so existing references still resolve.
+  Uncommitted: Davidson `features.transliteration: false` (engine switch).
+- 2026-11-11: P12-T1 done — per-sentence placement (869 sentences tagged by hand from their pointed Hebrew;
+  `build/_sources/davidson/sentence-grammar.json` + `grammar-units.json`); new sections in chapters 13, 15, 18, 20, 32;
+  vocabulary re-laid out (core numerals pinned to 19). New sentences need tags or `exwb_to_authored.py` stops.
+- 2026-11-11: P12-T6 done — 79 one-topic Davidson units (splits + new units for §4, §9, §24, §32); exercises,
+  `grammar-units.json`, `exwb-units.json`, `vocab-layout.json` remapped; new `prep-suffix` and `segholate` grammar
+  features; old progress not migrated (user). P12-T7 (deep links, per-block progress) recorded as ideas.
+- Next up: P12-T4 (ladder, with T2 typed Hebrew→English and T3 pointed grading).

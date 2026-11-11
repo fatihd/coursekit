@@ -3,1094 +3,235 @@
   "unit": 16,
   "items": [
     {
-      "type": "mcq",
-      "prompt": "Choose the translation",
-      "stimulus": "קָרָא אֱלֹהִים לָאוֹר יוֹם וְלַחֹשֶׁךְ קָרָא לָיְלָה",
-      "stimulusIsScript": true,
-      "options": [
-        "The boy sat in this place.",
-        "God rested on the seventh day from the work which he had made.",
-        "He gave the sword to the king.",
-        "God called the light day, and the darkness he called night."
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "To-day",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַיּוֹם"
       ],
-      "answer": "God called the light day, and the darkness he called night.",
-      "optionIsScript": false,
-      "shape": "he-en",
+      "answerIsScript": true,
+      "shape": "en-he",
       "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 A 1; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
-        "exwb": "davidson-s14#A1",
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §11 B 1; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n64/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n64.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n22/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n22.jpg",
+        "exwb": "davidson-s11#B1",
         "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the translation",
-      "stimulus": "שָׁבַת אֱלֹהִים בַּיּוֹם הַשְּׁבִיעִי מֵהַמְּלָאכָה אֲשֶׁר עָשָׂה",
-      "stimulusIsScript": true,
-      "options": [
-        "God rested on the seventh day from the work which he had made.",
-        "The boy wrote in the book.",
-        "The man heard the voice in the garden.",
-        "God made the man out of dust from the ground."
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "The morning",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַבֹּקֶר"
       ],
-      "answer": "God rested on the seventh day from the work which he had made.",
-      "optionIsScript": false,
-      "shape": "he-en",
+      "answerIsScript": true,
+      "shape": "en-he",
       "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 A 2; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
-        "exwb": "davidson-s14#A2",
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §11 B 2; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n64/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n64.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n22/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n22.jpg",
+        "exwb": "davidson-s11#B2",
         "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the translation",
-      "stimulus": "שָׁמַע הָאָדָם אֶת־הַקּוֹל בַּגָּן",
-      "stimulusIsScript": true,
-      "options": [
-        "Yahweh blotted out everything which he had made, man and beast.",
-        "The man heard the voice in the garden.",
-        "The boy sat in this place.",
-        "The king ruled over the people."
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "The night",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַלָּיְלָה"
       ],
-      "answer": "The man heard the voice in the garden.",
-      "optionIsScript": false,
-      "shape": "he-en",
+      "answerIsScript": true,
+      "shape": "en-he",
       "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 A 3; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
-        "exwb": "davidson-s14#A3",
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §11 B 3; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n64/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n64.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n22/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n22.jpg",
+        "exwb": "davidson-s11#B3",
         "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the translation",
-      "stimulus": "מָשַׁל הַמֶּלֶךְ בָּעָם",
-      "stimulusIsScript": true,
-      "options": [
-        "The man heard the voice in the garden.",
-        "The king ruled over the people.",
-        "God made the man out of dust from the ground.",
-        "The boy sat in this place."
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "The eye",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָעַיִן"
       ],
-      "answer": "The king ruled over the people.",
-      "optionIsScript": false,
-      "shape": "he-en",
+      "answerIsScript": true,
+      "shape": "en-he",
       "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 A 4; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
-        "exwb": "davidson-s14#A4",
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §12 B 1; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n65/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n65.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n24/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n24.jpg",
+        "exwb": "davidson-s12#B1",
         "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the translation",
-      "stimulus": "יָשַׁב הַיֶּלֶד בַּמָּקוֹם הַזֶּה",
-      "stimulusIsScript": true,
-      "options": [
-        "The boy sat in this place.",
-        "The man heard the voice in the garden.",
-        "He gave the sword to the king.",
-        "The king ruled over the people."
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "The hand",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַיָּד"
       ],
-      "answer": "The boy sat in this place.",
-      "optionIsScript": false,
-      "shape": "he-en",
+      "answerIsScript": true,
+      "shape": "en-he",
       "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 A 5; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
-        "exwb": "davidson-s14#A5",
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §12 B 2; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n65/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n65.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n24/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n24.jpg",
+        "exwb": "davidson-s12#B2",
         "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
-      "type": "mcq",
-      "prompt": "Choose the translation",
-      "stimulus": "מָחָה יהוה אֶת־כָּל־אֲשֶׁר עָשָׂה מֵאָדָם וְעַד בְּהֵמָה",
-      "stimulusIsScript": true,
-      "options": [
-        "Yahweh blotted out everything which he had made, man and beast.",
-        "The king ruled over the people.",
-        "God called the light day, and the darkness he called night.",
-        "God is in the temple."
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "The sword",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַחֶרֶב"
       ],
-      "answer": "Yahweh blotted out everything which he had made, man and beast.",
-      "optionIsScript": false,
-      "shape": "he-en",
+      "answerIsScript": true,
+      "shape": "en-he",
       "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 A 6; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
-        "exwb": "davidson-s14#A6",
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §12 B 7; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n65/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n65.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n24/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n24.jpg",
+        "exwb": "davidson-s12#B7",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "The stone",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאֶבֶן",
+        "הָאָבֶן"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §12 B 16; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n65/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n65.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n24/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n24.jpg",
+        "exwb": "davidson-s12#B16",
         "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
       "type": "mcq",
       "prompt": "Choose the translation",
-      "stimulus": "עָשָׂה אֱלֹהִים אֶת־הָאָדָם עָפָר מִן־הָאֲדָמָה",
+      "stimulus": "יָשַׁב הַמֶּלֶךְ עַל־הֶעָפָר",
       "stimulusIsScript": true,
       "options": [
-        "The king ruled over the people.",
-        "The boy sat in this place.",
-        "God is in the temple.",
-        "God made the man out of dust from the ground."
+        "This is the day which God made.",
+        "The king sat upon the dust.",
+        "This mountain is very high.",
+        "God created the heavens and the earth."
       ],
-      "answer": "God made the man out of dust from the ground.",
+      "answer": "The king sat upon the dust.",
       "optionIsScript": false,
       "shape": "he-en",
       "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 A 7; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
-        "exwb": "davidson-s14#A7",
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §13 A 8; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n69/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n69.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n25/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n25.jpg",
+        "exwb": "davidson-s13#A8",
         "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
       "type": "mcq",
       "prompt": "Choose the translation",
-      "stimulus": "הָאֱלֹהִים הוּא בַּהֵיכָל",
+      "stimulus": "הַיָּדַיִם",
       "stimulusIsScript": true,
       "options": [
-        "The boy sat in this place.",
-        "God called the light day, and the darkness he called night.",
-        "The boy wrote in the book.",
-        "God is in the temple."
+        "The (two) hands",
+        "Those are the princes and the mighty men whom the king set over the people.",
+        "How high those palaces are!",
+        "These mountains are very high."
       ],
-      "answer": "God is in the temple.",
+      "answer": "The (two) hands",
       "optionIsScript": false,
       "shape": "he-en",
       "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 A 8; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
-        "exwb": "davidson-s14#A8",
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §16 A 8b; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n76/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n76.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n31/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n31.jpg",
+        "exwb": "davidson-s16#A8b",
         "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
       "type": "mcq",
       "prompt": "Choose the translation",
-      "stimulus": "נָתַן אֶת־הַחֶרֶב לַמֶּלֶךְ",
+      "stimulus": "יַרְכָתַיִם",
       "stimulusIsScript": true,
       "options": [
-        "He gave the sword to the king.",
-        "God rested on the seventh day from the work which he had made.",
-        "Yahweh blotted out everything which he had made, man and beast.",
-        "God called the light day, and the darkness he called night."
+        "(Two) sides",
+        "The ox did not drink of the water, for it was bitter.",
+        "How high those palaces are!",
+        "Yahweh remembers that we are dust."
       ],
-      "answer": "He gave the sword to the king.",
+      "answer": "(Two) sides",
       "optionIsScript": false,
       "shape": "he-en",
       "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 A 9; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
-        "exwb": "davidson-s14#A9",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "mcq",
-      "prompt": "Choose the translation",
-      "stimulus": "כָּתַב הַיֶּלֶד בַּסֵּפֶר",
-      "stimulusIsScript": true,
-      "options": [
-        "God is in the temple.",
-        "Yahweh blotted out everything which he had made, man and beast.",
-        "The man heard the voice in the garden.",
-        "The boy wrote in the book."
-      ],
-      "answer": "The boy wrote in the book.",
-      "optionIsScript": false,
-      "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 A 10; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
-        "exwb": "davidson-s14#A10",
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §16 A 8c; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n76/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n76.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n31/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n31.jpg",
+        "exwb": "davidson-s16#A8c",
         "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
       "type": "translate-phrase",
       "prompt": "Translate into Hebrew (pointing optional)",
-      "stimulus": "To a lion",
+      "stimulus": "The two-sides",
       "stimulusIsScript": false,
       "accepted": [
-        "לַאֲרִי"
+        "הַיַּרְכָתָיִם"
       ],
       "answerIsScript": true,
       "shape": "en-he",
       "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 1; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
-        "exwb": "davidson-s14#B1",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "stimulus": "God gave the woman to the man for wife.",
-      "stimulusIsScript": false,
-      "accepted": [
-        "נָתַן אֱלֹהִים אֶת־הָאִשָּׁה לָאִישׁ לְאִשָּׁה"
-      ],
-      "answerIsScript": true,
-      "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 2; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
-        "exwb": "davidson-s14#B2",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "stimulus": "In the morning",
-      "stimulusIsScript": false,
-      "accepted": [
-        "בַּבֹּקֶר"
-      ],
-      "answerIsScript": true,
-      "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 3; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
-        "exwb": "davidson-s14#B3",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "stimulus": "In these heavens",
-      "stimulusIsScript": false,
-      "accepted": [
-        "בַּשָּׁמַיִם הָאֵלֶּה"
-      ],
-      "answerIsScript": true,
-      "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 4; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
-        "exwb": "davidson-s14#B4",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "stimulus": "In the earth",
-      "stimulusIsScript": false,
-      "accepted": [
-        "בָּאָרֶץ"
-      ],
-      "answerIsScript": true,
-      "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 5; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
-        "exwb": "davidson-s14#B5",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "stimulus": "In that day",
-      "stimulusIsScript": false,
-      "accepted": [
-        "בַּיּוֹם הַהוּא"
-      ],
-      "answerIsScript": true,
-      "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 6; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
-        "exwb": "davidson-s14#B6",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "stimulus": "In the lofty palace",
-      "stimulusIsScript": false,
-      "accepted": [
-        "בַּהֵיכָל הָרָם"
-      ],
-      "answerIsScript": true,
-      "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 7; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
-        "exwb": "davidson-s14#B7",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "stimulus": "The lion cried like an (the) ass.",
-      "stimulusIsScript": false,
-      "accepted": [
-        "קָרָא הָאֲרִי כַּחֲמוֹר"
-      ],
-      "answerIsScript": true,
-      "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 8; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
-        "exwb": "davidson-s14#B8",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "stimulus": "God called the firmament heaven, and the dry land called he earth.",
-      "stimulusIsScript": false,
-      "accepted": [
-        "קָרָא אֱלֹהִים לָרָקִיעַ שָׁמָיִם וְלַיַּבָּשָׁה קָרָא אָרֶץ"
-      ],
-      "answerIsScript": true,
-      "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 9; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
-        "exwb": "davidson-s14#B9",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "stimulus": "Man is dust out of the ground.",
-      "stimulusIsScript": false,
-      "accepted": [
-        "עָפָר מִן־הָאֲדָמָה הָאָדָם"
-      ],
-      "answerIsScript": true,
-      "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 10; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
-        "exwb": "davidson-s14#B10",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "stimulus": "He ate of the tree.",
-      "stimulusIsScript": false,
-      "accepted": [
-        "אָכַל מִן־הָעֵץ"
-      ],
-      "answerIsScript": true,
-      "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 11; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
-        "exwb": "davidson-s14#B11",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "stimulus": "The wise people rested on the seventh day.",
-      "stimulusIsScript": false,
-      "accepted": [
-        "שָׁבַת הָעָם הֶחָכָם בַּיּוֹם הַשְּׁבִיעִי"
-      ],
-      "answerIsScript": true,
-      "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 12; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
-        "exwb": "davidson-s14#B12",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "stimulus": "To the dust",
-      "stimulusIsScript": false,
-      "accepted": [
-        "לֶעָפָר"
-      ],
-      "answerIsScript": true,
-      "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 13; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
-        "exwb": "davidson-s14#B13",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "stimulus": "In (לְ) pain",
-      "stimulusIsScript": false,
-      "accepted": [
-        "לָחֳלִי"
-      ],
-      "answerIsScript": true,
-      "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 14; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
-        "exwb": "davidson-s14#B14",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "stimulus": "On (בְּ) the high mountain",
-      "stimulusIsScript": false,
-      "accepted": [
-        "בָּהָר הָרָם"
-      ],
-      "answerIsScript": true,
-      "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 15; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
-        "exwb": "davidson-s14#B15",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "stimulus": "One called to the other and said, Yahweh is good.",
-      "stimulusIsScript": false,
-      "accepted": [
-        "קָרָא זֶה אֶל־זֶה וְאָמַר טוֹב יְהוָה"
-      ],
-      "answerIsScript": true,
-      "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 16; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
-        "exwb": "davidson-s14#B16",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "mcq",
-      "prompt": "Choose the translation",
-      "stimulus": "אָמַר יהוה לָאִשָּׁה",
-      "stimulusIsScript": true,
-      "options": [
-        "Moses and Miriam",
-        "Yahweh said to the woman.",
-        "And on that day I wrote in the book.",
-        "They cried to God in the battle."
-      ],
-      "answer": "Yahweh said to the woman.",
-      "optionIsScript": false,
-      "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §15 A 1; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n74/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n74.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n29/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n29.jpg",
-        "exwb": "davidson-s15#A1",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "mcq",
-      "prompt": "Choose the translation",
-      "stimulus": "מִן־הָעֵץ אָכָלְתְּ",
-      "stimulusIsScript": true,
-      "options": [
-        "Yahweh said to the woman.",
-        "Thou (fem.) hast eaten of the tree.",
-        "Day and night",
-        "And on that day I wrote in the book."
-      ],
-      "answer": "Thou (fem.) hast eaten of the tree.",
-      "optionIsScript": false,
-      "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §15 A 2; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n74/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n74.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n29/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n29.jpg",
-        "exwb": "davidson-s15#A2",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "mcq",
-      "prompt": "Choose the translation",
-      "stimulus": "בֵּאלֹהִים וּבְמֹשֶׁה",
-      "stimulusIsScript": true,
-      "options": [
-        "In God and Moses",
-        "And on that day I wrote in the book.",
-        "David and Jonathan",
-        "They cried to God in the battle."
-      ],
-      "answer": "In God and Moses",
-      "optionIsScript": false,
-      "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §15 A 3; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n74/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n74.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n29/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n29.jpg",
-        "exwb": "davidson-s15#A3",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "mcq",
-      "prompt": "Choose the translation",
-      "stimulus": "לֵאלֹהִים זָעֲקוּ בַּמִּלְחָמָה",
-      "stimulusIsScript": true,
-      "options": [
-        "They cried to God in the battle.",
-        "In God and Moses",
-        "Israel and Judah",
-        "Moses and Miriam"
-      ],
-      "answer": "They cried to God in the battle.",
-      "optionIsScript": false,
-      "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §15 A 4; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n74/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n74.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n29/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n29.jpg",
-        "exwb": "davidson-s15#A4",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "mcq",
-      "prompt": "Choose the translation",
-      "stimulus": "דָּוִד וִיהוֹנָתָן",
-      "stimulusIsScript": true,
-      "options": [
-        "And on that day I wrote in the book.",
-        "David and Jonathan",
-        "They cried to God in the battle.",
-        "Thou (fem.) hast eaten of the tree."
-      ],
-      "answer": "David and Jonathan",
-      "optionIsScript": false,
-      "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §15 A 5; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n74/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n74.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n29/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n29.jpg",
-        "exwb": "davidson-s15#A5",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "mcq",
-      "prompt": "Choose the translation",
-      "stimulus": "אֲרִי וַחֲמוֹר",
-      "stimulusIsScript": true,
-      "options": [
-        "Yahweh said to the woman.",
-        "And on that day I wrote in the book.",
-        "Thou (fem.) hast eaten of the tree.",
-        "A lion and an ass"
-      ],
-      "answer": "A lion and an ass",
-      "optionIsScript": false,
-      "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §15 A 6; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n74/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n74.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n29/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n29.jpg",
-        "exwb": "davidson-s15#A6",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "mcq",
-      "prompt": "Choose the translation",
-      "stimulus": "יִשְׂרָאֵל וִיהוּדָה",
-      "stimulusIsScript": true,
-      "options": [
-        "In God and Moses",
-        "Day and night",
-        "Israel and Judah",
-        "Yahweh said to the woman."
-      ],
-      "answer": "Israel and Judah",
-      "optionIsScript": false,
-      "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §15 A 7; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n74/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n74.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n29/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n29.jpg",
-        "exwb": "davidson-s15#A7",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "mcq",
-      "prompt": "Choose the translation",
-      "stimulus": "וביום ההוא כתבתי בספר",
-      "stimulusIsScript": true,
-      "options": [
-        "David and Jonathan",
-        "Moses and Miriam",
-        "And on that day I wrote in the book.",
-        "Israel and Judah"
-      ],
-      "answer": "And on that day I wrote in the book.",
-      "optionIsScript": false,
-      "shape": "he-en",
-      "hint": "With vowel points: וּבַיּוֹם הַהוּא כָּתַבְתִּי בַּסֵּפֶר",
-      "data": {
-        "pointed": "וּבַיּוֹם הַהוּא כָּתַבְתִּי בַּסֵּפֶר"
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §15 A 8; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n74/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n74.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n29/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n29.jpg",
-        "exwb": "davidson-s15#A8",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "mcq",
-      "prompt": "Choose the translation",
-      "stimulus": "משה ומרים",
-      "stimulusIsScript": true,
-      "options": [
-        "Thou (fem.) hast eaten of the tree.",
-        "Israel and Judah",
-        "They cried to God in the battle.",
-        "Moses and Miriam"
-      ],
-      "answer": "Moses and Miriam",
-      "optionIsScript": false,
-      "shape": "he-en",
-      "hint": "With vowel points: מֹשֶׁה וּמִרְיָם",
-      "data": {
-        "pointed": "מֹשֶׁה וּמִרְיָם"
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §15 A 9; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n74/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n74.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n29/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n29.jpg",
-        "exwb": "davidson-s15#A9",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "mcq",
-      "prompt": "Choose the translation",
-      "stimulus": "יום ולילה",
-      "stimulusIsScript": true,
-      "options": [
-        "Israel and Judah",
-        "Day and night",
-        "David and Jonathan",
-        "Thou (fem.) hast eaten of the tree."
-      ],
-      "answer": "Day and night",
-      "optionIsScript": false,
-      "shape": "he-en",
-      "hint": "With vowel points: יוֹם וָלָיְלָה",
-      "data": {
-        "pointed": "יוֹם וָלָיְלָה"
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §15 A 10; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n74/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n74.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n29/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n29.jpg",
-        "exwb": "davidson-s15#A10",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "stimulus": "I said to the man.",
-      "stimulusIsScript": false,
-      "accepted": [
-        "אָמַרְתִּי לָאִישׁ"
-      ],
-      "answerIsScript": true,
-      "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §15 B 1; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n74/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n74.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n29/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n29.jpg",
-        "exwb": "davidson-s15#B1",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "stimulus": "We rested on the seventh day.",
-      "stimulusIsScript": false,
-      "accepted": [
-        "שָׁבַתְנוּ בַּיּוֹם הַשְּׁבִיעִי"
-      ],
-      "answerIsScript": true,
-      "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §15 B 2; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n74/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n74.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n29/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n29.jpg",
-        "exwb": "davidson-s15#B2",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "stimulus": "And of the tree we have eaten.",
-      "stimulusIsScript": false,
-      "accepted": [
-        "וּמִן־הָעֵץ אָכַלְנוּ"
-      ],
-      "answerIsScript": true,
-      "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §15 B 3; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n74/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n74.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n29/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n29.jpg",
-        "exwb": "davidson-s15#B3",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "stimulus": "God destroyed from the earth man and cattle.",
-      "stimulusIsScript": false,
-      "accepted": [
-        "מָחָה אֱלֹהִים מִן־הָאָרֶץ מֵאָדָם וְעַד־בְּהֵמָה"
-      ],
-      "answerIsScript": true,
-      "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §15 B 4; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n74/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n74.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n29/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n29.jpg",
-        "exwb": "davidson-s15#B4",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "stimulus": "People and king",
-      "stimulusIsScript": false,
-      "accepted": [
-        "עַם וָמֶלֶךְ"
-      ],
-      "answerIsScript": true,
-      "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §15 B 5; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n74/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n74.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n29/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n29.jpg",
-        "exwb": "davidson-s15#B5",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "stimulus": "Elijah and Elisha",
-      "stimulusIsScript": false,
-      "accepted": [
-        "אֵלִיָּהוּ וֶאֱלִישָׁע"
-      ],
-      "answerIsScript": true,
-      "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §15 B 6; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n74/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n74.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n29/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n29.jpg",
-        "exwb": "davidson-s15#B6",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "stimulus": "Who spilt the water upon the earth?",
-      "stimulusIsScript": false,
-      "accepted": [
-        "מִי שָׁפַךְ אֶת־הַמַּיִם עַל־הָאָרֶץ"
-      ],
-      "answerIsScript": true,
-      "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §15 B 7; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n74/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n74.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n29/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n29.jpg",
-        "exwb": "davidson-s15#B7",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "stimulus": "I heard the voice in the garden.",
-      "stimulusIsScript": false,
-      "accepted": [
-        "שָׁמַעְתִּי אֶת־הַקּוֹל בַּגָּן"
-      ],
-      "answerIsScript": true,
-      "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §15 B 8; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n74/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n74.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n29/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n29.jpg",
-        "exwb": "davidson-s15#B8",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "stimulus": "Thou hast said, Holy (is) Yahweh.",
-      "stimulusIsScript": false,
-      "accepted": [
-        "אָמַרְתָּ קָדוֹשׁ יְהוָה"
-      ],
-      "answerIsScript": true,
-      "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §15 B 9; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n74/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n74.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n29/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n29.jpg",
-        "exwb": "davidson-s15#B9",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "stimulus": "And these, who (are) these?",
-      "stimulusIsScript": false,
-      "accepted": [
-        "וְאֵלֶּה מִי אֵלֶּה"
-      ],
-      "answerIsScript": true,
-      "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §15 B 10; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n74/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n74.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n29/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n29.jpg",
-        "exwb": "davidson-s15#B10",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "stimulus": "Dry land and water",
-      "stimulusIsScript": false,
-      "accepted": [
-        "יַבָּשָׁה וָמַיִם"
-      ],
-      "answerIsScript": true,
-      "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §15 B 11; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n74/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n74.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n29/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n29.jpg",
-        "exwb": "davidson-s15#B11",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "stimulus": "Night and morning",
-      "stimulusIsScript": false,
-      "accepted": [
-        "לַיְלָה וָבֹקֶר"
-      ],
-      "answerIsScript": true,
-      "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §15 B 12; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n74/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n74.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n29/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n29.jpg",
-        "exwb": "davidson-s15#B12",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "stimulus": "Man is not wise as God.",
-      "stimulusIsScript": false,
-      "accepted": [
-        "לֹא חָכָם הָאָדָם כֵּאלֹהִים"
-      ],
-      "answerIsScript": true,
-      "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §15 B 13; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n74/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n74.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n29/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n29.jpg",
-        "exwb": "davidson-s15#B13",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "stimulus": "Thou (f.) hast ruled over this people.",
-      "stimulusIsScript": false,
-      "accepted": [
-        "מָשַׁלְתְּ בָּעָם הַזֶּה"
-      ],
-      "answerIsScript": true,
-      "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §15 B 14; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n74/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n74.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n29/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n29.jpg",
-        "exwb": "davidson-s15#B14",
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §16 B 11; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n76/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n76.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n31/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n31.jpg",
+        "exwb": "davidson-s16#B11",
         "note": "Transcribed by hand from the scans and checked against the Key."
       }
     }

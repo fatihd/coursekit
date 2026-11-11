@@ -3,390 +3,1741 @@
   "unit": 44,
   "items": [
     {
-      "type": "mcq",
-      "prompt": "Choose the translation",
-      "stimulus": "כֹּה אָמַר יהוה לָעֲצָמוֹת הָאֵלֶּה הִנֵּה אֲנִי מֵבִיא בָכֶם רוּחַ וִחְיִיתֶם",
+      "type": "parse-form",
+      "prompt": "Parse this form",
+      "stimulus": "תִּשְׁפַּלְנָה",
       "stimulusIsScript": true,
-      "options": [
-        "And I, behold, I will cause it to rain upon the earth forty days and forty nights, and I will blot out every thing that I have made from off the face of the ground.",
-        "And it shall be that when I bring clouds over the earth, then the bow shall be seen in the clouds, and the bow shall be in the clouds, and I will look upon it, to remember my covenant.",
-        "Command the priests that bear the ark of Yahweh that they come up out of the Jordan.",
-        "Thus saith Yahweh to these bones, Behold, I will cause breath to enter into you, and ye shall live."
+      "fields": [
+        {
+          "key": "stem",
+          "label": "Stem",
+          "options": [
+            "Qal",
+            "Niph'al",
+            "Pi'el",
+            "Pu'al",
+            "Hithpa'el",
+            "Hiph'il",
+            "Hoph'al",
+            "Po'lel"
+          ]
+        },
+        {
+          "key": "form",
+          "label": "Form",
+          "options": [
+            "perfect",
+            "imperfect",
+            "imperative",
+            "jussive",
+            "cohortative",
+            "participle",
+            "infinitive construct",
+            "infinitive absolute"
+          ]
+        },
+        {
+          "key": "person",
+          "label": "Person",
+          "options": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "key": "gender",
+          "label": "Gender",
+          "options": [
+            "masc.",
+            "fem."
+          ]
+        },
+        {
+          "key": "number",
+          "label": "Number",
+          "options": [
+            "sing.",
+            "plur.",
+            "dual"
+          ]
+        },
+        {
+          "key": "root",
+          "label": "Root",
+          "options": [
+            "כָּבֵד",
+            "שָׁפֵל",
+            "קָטֹן",
+            "שָׁכֹל"
+          ],
+          "isScript": true
+        }
       ],
-      "answer": "Thus saith Yahweh to these bones, Behold, I will cause breath to enter into you, and ye shall live.",
-      "optionIsScript": false,
-      "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §44 A 1; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n164/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n164.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n124/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n124.jpg",
-        "exwb": "davidson-s44#A1",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "mcq",
-      "prompt": "Choose the translation",
-      "stimulus": "צַוֵּה אֶת־הַכֹּהֲנִים נֹשְׂאֵי אֲרוֹן יהוה וְיַעֲלוּ מִן־הַיַּרְדֵּן",
-      "stimulusIsScript": true,
-      "options": [
-        "And I, behold, I will cause it to rain upon the earth forty days and forty nights, and I will blot out every thing that I have made from off the face of the ground.",
-        "Command the priests that bear the ark of Yahweh that they come up out of the Jordan.",
-        "Thus saith Yahweh to these bones, Behold, I will cause breath to enter into you, and ye shall live.",
-        "I have been young and now am old: yet have I not seen the righteous forsaken, nor his seed seeking bread."
+      "readings": [
+        {
+          "form": "imperfect",
+          "stem": "Qal",
+          "root": "שָׁפֵל",
+          "gender": "fem.",
+          "number": "plur.",
+          "person": "2"
+        },
+        {
+          "form": "imperfect",
+          "stem": "Qal",
+          "root": "שָׁפֵל",
+          "gender": "fem.",
+          "number": "plur.",
+          "person": "3"
+        }
       ],
-      "answer": "Command the priests that bear the ark of Yahweh that they come up out of the Jordan.",
-      "optionIsScript": false,
-      "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §44 A 2; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n164/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n164.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n124/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n124.jpg",
-        "exwb": "davidson-s44#A2",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "mcq",
-      "prompt": "Choose the translation",
-      "stimulus": "לֹא אֹסִף עוֹד לְהַכּוֹת אֶת־כָּל־חַי כַּאֲשֶׁר עָשִׂיתִי",
-      "stimulusIsScript": true,
-      "options": [
-        "I will not again smite any more every living thing, as I have done.",
-        "I have been young and now am old: yet have I not seen the righteous forsaken, nor his seed seeking bread.",
-        "O that I had water to drink!",
-        "And Pharaoh said, Depart from me, take heed to thyself, see my face no more; for in the day thou seest my face thou shalt die."
-      ],
-      "answer": "I will not again smite any more every living thing, as I have done.",
-      "optionIsScript": false,
-      "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §44 A 3; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n164/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n164.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n124/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n124.jpg",
-        "exwb": "davidson-s44#A3",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "mcq",
-      "prompt": "Choose the translation",
-      "stimulus": "אֶבֶן מָאֲסוּ הַבּוֹנִים הָיְתָה לְרֹאשׁ פִּנָּה",
-      "stimulusIsScript": true,
-      "options": [
-        "Command the priests that bear the ark of Yahweh that they come up out of the Jordan.",
-        "The stone which the builders rejected is become the head of the corner.",
-        "And it shall be that when I bring clouds over the earth, then the bow shall be seen in the clouds, and the bow shall be in the clouds, and I will look upon it, to remember my covenant.",
-        "Lift up now thine eyes and look; for all the land which thou art looking upon, to thee will I give it; and I will make thy seed as the dust of the earth, so that if a man can number the dust of the earth, thy seed also may be numbered."
-      ],
-      "answer": "The stone which the builders rejected is become the head of the corner.",
-      "optionIsScript": false,
-      "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §44 A 4; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n164/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n164.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n124/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n124.jpg",
-        "exwb": "davidson-s44#A4",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "mcq",
-      "prompt": "Choose the translation",
-      "stimulus": "וְהָיָה בְּעַנְנִי עָנָן עַל־הָאָרֶץ וְנִרְאֲתָה הַקֶּשֶׁת בֶּעָנָן וְהָיְתָה הַקֶּשֶׁת בֶּעָנָן וּרְאִיתִיהָ לִזְכֹּר בְּרִיתִי",
-      "stimulusIsScript": true,
-      "options": [
-        "And it shall be that when I bring clouds over the earth, then the bow shall be seen in the clouds, and the bow shall be in the clouds, and I will look upon it, to remember my covenant.",
-        "I have been young and now am old: yet have I not seen the righteous forsaken, nor his seed seeking bread.",
-        "The stone which the builders rejected is become the head of the corner.",
-        "I will not again smite any more every living thing, as I have done."
-      ],
-      "answer": "And it shall be that when I bring clouds over the earth, then the bow shall be seen in the clouds, and the bow shall be in the clouds, and I will look upon it, to remember my covenant.",
-      "optionIsScript": false,
-      "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §44 A 5; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n164/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n164.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n124/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n124.jpg",
-        "exwb": "davidson-s44#A5",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "mcq",
-      "prompt": "Choose the translation",
-      "stimulus": "שָׂא נָא עֵינֶיךָ וּרְאֵה כִּי אֶת־כָּל־הָאָרֶץ אֲשֶׁר אַתָּה רֹאֶה לְךָ אֶתְּנֶנָּה וְשַׂמְתִּי אֶת־זַרְעֲךָ כַּעֲפַר הָאָרֶץ אֲשֶׁר אִם יוּכַל אִישׁ לִמְנוֹת אֶת־עֲפַר הָאָרֶץ גַּם זַרְעֲךָ יִמָּנֶה",
-      "stimulusIsScript": true,
-      "options": [
-        "Lift up now thine eyes and look; for all the land which thou art looking upon, to thee will I give it; and I will make thy seed as the dust of the earth, so that if a man can number the dust of the earth, thy seed also may be numbered.",
-        "And I, behold, I will cause it to rain upon the earth forty days and forty nights, and I will blot out every thing that I have made from off the face of the ground.",
-        "Thus saith Yahweh to these bones, Behold, I will cause breath to enter into you, and ye shall live.",
-        "The stone which the builders rejected is become the head of the corner."
-      ],
-      "answer": "Lift up now thine eyes and look; for all the land which thou art looking upon, to thee will I give it; and I will make thy seed as the dust of the earth, so that if a man can number the dust of the earth, thy seed also may be numbered.",
-      "optionIsScript": false,
-      "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §44 A 6; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n164/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n164.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n124/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n124.jpg",
-        "exwb": "davidson-s44#A6",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "mcq",
-      "prompt": "Choose the translation",
-      "stimulus": "וַיֹּאמֶר פַּרְעֹה לֵךְ מֵעָלָי הִשָּׁמֶר לְךָ אַל־תֹּסֶף רְאוֹת פָּנַי כִּי בְּיוֹם רְאֹתְךָ פָּנַי תָּמוּת",
-      "stimulusIsScript": true,
-      "options": [
-        "Lift up now thine eyes and look; for all the land which thou art looking upon, to thee will I give it; and I will make thy seed as the dust of the earth, so that if a man can number the dust of the earth, thy seed also may be numbered.",
-        "And Pharaoh said, Depart from me, take heed to thyself, see my face no more; for in the day thou seest my face thou shalt die.",
-        "Thus saith Yahweh to these bones, Behold, I will cause breath to enter into you, and ye shall live.",
-        "O that I had water to drink!"
-      ],
-      "answer": "And Pharaoh said, Depart from me, take heed to thyself, see my face no more; for in the day thou seest my face thou shalt die.",
-      "optionIsScript": false,
-      "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §44 A 7; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n164/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n164.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n124/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n124.jpg",
-        "exwb": "davidson-s44#A7",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "mcq",
-      "prompt": "Choose the translation",
-      "stimulus": "מִי יַשְׁקֵנִי מַיִם",
-      "stimulusIsScript": true,
-      "options": [
-        "Command the priests that bear the ark of Yahweh that they come up out of the Jordan.",
-        "O that I had water to drink!",
-        "Thus saith Yahweh to these bones, Behold, I will cause breath to enter into you, and ye shall live.",
-        "And it shall be that when I bring clouds over the earth, then the bow shall be seen in the clouds, and the bow shall be in the clouds, and I will look upon it, to remember my covenant."
-      ],
-      "answer": "O that I had water to drink!",
-      "optionIsScript": false,
-      "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §44 A 8; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n164/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n164.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n124/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n124.jpg",
-        "exwb": "davidson-s44#A8",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "mcq",
-      "prompt": "Choose the translation",
-      "stimulus": "ואני הנני ממטיר על־הארץ ארבעים יום וארבעים לילה ומחיתי את־כל אשר עשיתי מעל פני האדמה",
-      "stimulusIsScript": true,
-      "options": [
-        "Thus saith Yahweh to these bones, Behold, I will cause breath to enter into you, and ye shall live.",
-        "The stone which the builders rejected is become the head of the corner.",
-        "And I, behold, I will cause it to rain upon the earth forty days and forty nights, and I will blot out every thing that I have made from off the face of the ground.",
-        "I have been young and now am old: yet have I not seen the righteous forsaken, nor his seed seeking bread."
-      ],
-      "answer": "And I, behold, I will cause it to rain upon the earth forty days and forty nights, and I will blot out every thing that I have made from off the face of the ground.",
-      "optionIsScript": false,
-      "shape": "he-en",
-      "hint": "With vowel points: וַאֲנִי הִנְנִי מַמְטִיר עַל־הָאָרֶץ אַרְבָּעִים יוֹם וְאַרְבָּעִים לַיְלָה וּמָחִיתִי אֶת־כָּל־אֲשֶׁר עָשִׂיתִי מֵעַל פְּנֵי הָאֲדָמָה",
+      "shape": "parse",
+      "explain": "Key: 2 or 3 plur. fem. impf. Qal of שָׁפֵל",
       "data": {
-        "pointed": "וַאֲנִי הִנְנִי מַמְטִיר עַל־הָאָרֶץ אַרְבָּעִים יוֹם וְאַרְבָּעִים לַיְלָה וּמָחִיתִי אֶת־כָּל־אֲשֶׁר עָשִׂיתִי מֵעַל פְּנֵי הָאֲדָמָה"
+        "parse": {
+          "form": "imperfect",
+          "stem": "Qal",
+          "root": "שָׁפֵל",
+          "alt": "3 plur. fem. impf. Qal of שָׁפֵל"
+        }
       },
       "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §44 A 9; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n164/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n164.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n124/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n124.jpg",
-        "exwb": "davidson-s44#A9",
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §22 A L1; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n101/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n101.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n50/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n50.jpg",
+        "exwb": "davidson-s22#AL1",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "parse-form",
+      "prompt": "Parse this form",
+      "stimulus": "קָטֹנְתִּי",
+      "stimulusIsScript": true,
+      "fields": [
+        {
+          "key": "stem",
+          "label": "Stem",
+          "options": [
+            "Qal",
+            "Niph'al",
+            "Pi'el",
+            "Pu'al",
+            "Hithpa'el",
+            "Hiph'il",
+            "Hoph'al",
+            "Po'lel"
+          ]
+        },
+        {
+          "key": "form",
+          "label": "Form",
+          "options": [
+            "perfect",
+            "imperfect",
+            "imperative",
+            "jussive",
+            "cohortative",
+            "participle",
+            "infinitive construct",
+            "infinitive absolute"
+          ]
+        },
+        {
+          "key": "person",
+          "label": "Person",
+          "options": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "key": "number",
+          "label": "Number",
+          "options": [
+            "sing.",
+            "plur.",
+            "dual"
+          ]
+        },
+        {
+          "key": "root",
+          "label": "Root",
+          "options": [
+            "קָטֹן",
+            "שָׁפֵל",
+            "כָּבֵד",
+            "שָׁכֹל"
+          ],
+          "isScript": true
+        }
+      ],
+      "readings": [
+        {
+          "number": "sing.",
+          "form": "perfect",
+          "stem": "Qal",
+          "root": "קָטֹן",
+          "person": "1"
+        }
+      ],
+      "shape": "parse",
+      "explain": "Key: 1 sing. pf. Qal of קָטֹן",
+      "data": {
+        "parse": {
+          "person": "1",
+          "number": "sing.",
+          "form": "perfect",
+          "stem": "Qal",
+          "root": "קָטֹן"
+        }
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §22 A L2; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n101/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n101.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n50/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n50.jpg",
+        "exwb": "davidson-s22#AL2",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "parse-form",
+      "prompt": "Parse this form",
+      "stimulus": "תִּקְטַן",
+      "stimulusIsScript": true,
+      "fields": [
+        {
+          "key": "stem",
+          "label": "Stem",
+          "options": [
+            "Qal",
+            "Niph'al",
+            "Pi'el",
+            "Pu'al",
+            "Hithpa'el",
+            "Hiph'il",
+            "Hoph'al",
+            "Po'lel"
+          ]
+        },
+        {
+          "key": "form",
+          "label": "Form",
+          "options": [
+            "perfect",
+            "imperfect",
+            "imperative",
+            "jussive",
+            "cohortative",
+            "participle",
+            "infinitive construct",
+            "infinitive absolute"
+          ]
+        },
+        {
+          "key": "person",
+          "label": "Person",
+          "options": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "key": "gender",
+          "label": "Gender",
+          "options": [
+            "masc.",
+            "fem."
+          ]
+        },
+        {
+          "key": "number",
+          "label": "Number",
+          "options": [
+            "sing.",
+            "plur.",
+            "dual"
+          ]
+        },
+        {
+          "key": "root",
+          "label": "Root",
+          "options": [
+            "לָבֵשׁ",
+            "קָטֹן",
+            "גָּדֵל",
+            "שָׁכֹל"
+          ],
+          "isScript": true
+        }
+      ],
+      "readings": [
+        {
+          "gender": "masc.",
+          "number": "sing.",
+          "form": "imperfect",
+          "stem": "Qal",
+          "root": "קָטֹן",
+          "person": "2"
+        },
+        {
+          "gender": "fem.",
+          "number": "sing.",
+          "form": "imperfect",
+          "stem": "Qal",
+          "root": "קָטֹן",
+          "person": "3"
+        }
+      ],
+      "shape": "parse",
+      "explain": "Key: 2 sing. masc. or 3 sing. fem. impf. Qal of קָטֹן",
+      "data": {
+        "parse": {
+          "person": "2",
+          "gender": "masc.",
+          "number": "sing.",
+          "form": "imperfect",
+          "stem": "Qal",
+          "root": "קָטֹן",
+          "alt": "3 sing. fem. impf. Qal of קָטֹן"
+        }
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §22 A L3; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n101/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n101.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n50/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n50.jpg",
+        "exwb": "davidson-s22#AL3",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "parse-form",
+      "prompt": "Parse this form",
+      "stimulus": "יָכְלָה",
+      "stimulusIsScript": true,
+      "fields": [
+        {
+          "key": "stem",
+          "label": "Stem",
+          "options": [
+            "Qal",
+            "Niph'al",
+            "Pi'el",
+            "Pu'al",
+            "Hithpa'el",
+            "Hiph'il",
+            "Hoph'al",
+            "Po'lel"
+          ]
+        },
+        {
+          "key": "form",
+          "label": "Form",
+          "options": [
+            "perfect",
+            "imperfect",
+            "imperative",
+            "jussive",
+            "cohortative",
+            "participle",
+            "infinitive construct",
+            "infinitive absolute"
+          ]
+        },
+        {
+          "key": "person",
+          "label": "Person",
+          "options": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "key": "gender",
+          "label": "Gender",
+          "options": [
+            "masc.",
+            "fem."
+          ]
+        },
+        {
+          "key": "number",
+          "label": "Number",
+          "options": [
+            "sing.",
+            "plur.",
+            "dual"
+          ]
+        },
+        {
+          "key": "root",
+          "label": "Root",
+          "options": [
+            "יָכֹל",
+            "כָּבֵד",
+            "רָעֵב",
+            "גָּדֵל"
+          ],
+          "isScript": true
+        }
+      ],
+      "readings": [
+        {
+          "gender": "fem.",
+          "number": "sing.",
+          "form": "perfect",
+          "stem": "Qal",
+          "root": "יָכֹל",
+          "person": "3"
+        }
+      ],
+      "shape": "parse",
+      "explain": "Key: 3 sing. fem. pf. Qal of יָכֹל",
+      "data": {
+        "parse": {
+          "person": "3",
+          "gender": "fem.",
+          "number": "sing.",
+          "form": "perfect",
+          "stem": "Qal",
+          "root": "יָכֹל"
+        }
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §22 A L4; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n101/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n101.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n50/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n50.jpg",
+        "exwb": "davidson-s22#AL4",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "parse-form",
+      "prompt": "Parse this form",
+      "stimulus": "יְכָלְתֶּם",
+      "stimulusIsScript": true,
+      "fields": [
+        {
+          "key": "stem",
+          "label": "Stem",
+          "options": [
+            "Qal",
+            "Niph'al",
+            "Pi'el",
+            "Pu'al",
+            "Hithpa'el",
+            "Hiph'il",
+            "Hoph'al",
+            "Po'lel"
+          ]
+        },
+        {
+          "key": "form",
+          "label": "Form",
+          "options": [
+            "perfect",
+            "imperfect",
+            "imperative",
+            "jussive",
+            "cohortative",
+            "participle",
+            "infinitive construct",
+            "infinitive absolute"
+          ]
+        },
+        {
+          "key": "person",
+          "label": "Person",
+          "options": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "key": "gender",
+          "label": "Gender",
+          "options": [
+            "masc.",
+            "fem."
+          ]
+        },
+        {
+          "key": "number",
+          "label": "Number",
+          "options": [
+            "sing.",
+            "plur.",
+            "dual"
+          ]
+        },
+        {
+          "key": "root",
+          "label": "Root",
+          "options": [
+            "כָּבֵד",
+            "יָכֹל",
+            "לָבֵשׁ",
+            "קָטֹן"
+          ],
+          "isScript": true
+        }
+      ],
+      "readings": [
+        {
+          "gender": "masc.",
+          "number": "plur.",
+          "form": "perfect",
+          "stem": "Qal",
+          "root": "יָכֹל",
+          "person": "2"
+        }
+      ],
+      "shape": "parse",
+      "explain": "Key: 2 plur. masc. pf. Qal of יָכֹל (see § 22. 1 b)",
+      "data": {
+        "parse": {
+          "person": "2",
+          "gender": "masc.",
+          "number": "plur.",
+          "form": "perfect",
+          "stem": "Qal",
+          "root": "יָכֹל"
+        }
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §22 A L5; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n101/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n101.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n50/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n50.jpg",
+        "exwb": "davidson-s22#AL5",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "parse-form",
+      "prompt": "Parse this form",
+      "stimulus": "אֶשְׁכַּל",
+      "stimulusIsScript": true,
+      "fields": [
+        {
+          "key": "stem",
+          "label": "Stem",
+          "options": [
+            "Qal",
+            "Niph'al",
+            "Pi'el",
+            "Pu'al",
+            "Hithpa'el",
+            "Hiph'il",
+            "Hoph'al",
+            "Po'lel"
+          ]
+        },
+        {
+          "key": "form",
+          "label": "Form",
+          "options": [
+            "perfect",
+            "imperfect",
+            "imperative",
+            "jussive",
+            "cohortative",
+            "participle",
+            "infinitive construct",
+            "infinitive absolute"
+          ]
+        },
+        {
+          "key": "person",
+          "label": "Person",
+          "options": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "key": "number",
+          "label": "Number",
+          "options": [
+            "sing.",
+            "plur.",
+            "dual"
+          ]
+        },
+        {
+          "key": "root",
+          "label": "Root",
+          "options": [
+            "שָׁכֹל",
+            "יָכֹל",
+            "קָטֹן",
+            "כָּבֵד"
+          ],
+          "isScript": true
+        }
+      ],
+      "readings": [
+        {
+          "number": "sing.",
+          "form": "imperfect",
+          "stem": "Qal",
+          "root": "שָׁכֹל",
+          "person": "1"
+        }
+      ],
+      "shape": "parse",
+      "explain": "Key: 1 sing. impf. Qal of שָׁכֹל",
+      "data": {
+        "parse": {
+          "person": "1",
+          "number": "sing.",
+          "form": "imperfect",
+          "stem": "Qal",
+          "root": "שָׁכֹל"
+        }
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §22 A L6; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n101/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n101.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n50/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n50.jpg",
+        "exwb": "davidson-s22#AL6",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "parse-form",
+      "prompt": "Parse this form",
+      "stimulus": "לִבְשִׁי",
+      "stimulusIsScript": true,
+      "fields": [
+        {
+          "key": "stem",
+          "label": "Stem",
+          "options": [
+            "Qal",
+            "Niph'al",
+            "Pi'el",
+            "Pu'al",
+            "Hithpa'el",
+            "Hiph'il",
+            "Hoph'al",
+            "Po'lel"
+          ]
+        },
+        {
+          "key": "form",
+          "label": "Form",
+          "options": [
+            "perfect",
+            "imperfect",
+            "imperative",
+            "jussive",
+            "cohortative",
+            "participle",
+            "infinitive construct",
+            "infinitive absolute"
+          ]
+        },
+        {
+          "key": "person",
+          "label": "Person",
+          "options": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "key": "gender",
+          "label": "Gender",
+          "options": [
+            "masc.",
+            "fem."
+          ]
+        },
+        {
+          "key": "number",
+          "label": "Number",
+          "options": [
+            "sing.",
+            "plur.",
+            "dual"
+          ]
+        },
+        {
+          "key": "root",
+          "label": "Root",
+          "options": [
+            "לָבֵשׁ",
+            "קָטֹן",
+            "שָׁפֵל",
+            "שָׁכֹל"
+          ],
+          "isScript": true
+        }
+      ],
+      "readings": [
+        {
+          "gender": "fem.",
+          "number": "sing.",
+          "form": "imperative",
+          "stem": "Qal",
+          "root": "לָבֵשׁ",
+          "person": "2"
+        }
+      ],
+      "shape": "parse",
+      "explain": "Key: 2 sing. fem. imperat. Qal of לָבֵשׁ (לָבַשׁ is also found)",
+      "data": {
+        "parse": {
+          "person": "2",
+          "gender": "fem.",
+          "number": "sing.",
+          "form": "imperative",
+          "stem": "Qal",
+          "root": "לָבֵשׁ"
+        }
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §22 A L7; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n101/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n101.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n50/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n50.jpg",
+        "exwb": "davidson-s22#AL7",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "parse-form",
+      "prompt": "Parse this form",
+      "stimulus": "נִכְבַּד",
+      "stimulusIsScript": true,
+      "fields": [
+        {
+          "key": "stem",
+          "label": "Stem",
+          "options": [
+            "Qal",
+            "Niph'al",
+            "Pi'el",
+            "Pu'al",
+            "Hithpa'el",
+            "Hiph'il",
+            "Hoph'al",
+            "Po'lel"
+          ]
+        },
+        {
+          "key": "form",
+          "label": "Form",
+          "options": [
+            "perfect",
+            "imperfect",
+            "imperative",
+            "jussive",
+            "cohortative",
+            "participle",
+            "infinitive construct",
+            "infinitive absolute"
+          ]
+        },
+        {
+          "key": "person",
+          "label": "Person",
+          "options": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "key": "number",
+          "label": "Number",
+          "options": [
+            "sing.",
+            "plur.",
+            "dual"
+          ]
+        },
+        {
+          "key": "root",
+          "label": "Root",
+          "options": [
+            "גָּדֵל",
+            "שָׁפֵל",
+            "כָּבֵד",
+            "קָטֹן"
+          ],
+          "isScript": true
+        }
+      ],
+      "readings": [
+        {
+          "number": "plur.",
+          "form": "imperfect",
+          "stem": "Qal",
+          "root": "כָּבֵד",
+          "person": "1"
+        }
+      ],
+      "shape": "parse",
+      "explain": "Key: 1 plur. impf. Qal of כָּבֵד",
+      "data": {
+        "parse": {
+          "person": "1",
+          "number": "plur.",
+          "form": "imperfect",
+          "stem": "Qal",
+          "root": "כָּבֵד"
+        }
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §22 A L8; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n101/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n101.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n50/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n50.jpg",
+        "exwb": "davidson-s22#AL8",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "parse-form",
+      "prompt": "Parse this form",
+      "stimulus": "תִּכְבְּדִי",
+      "stimulusIsScript": true,
+      "fields": [
+        {
+          "key": "stem",
+          "label": "Stem",
+          "options": [
+            "Qal",
+            "Niph'al",
+            "Pi'el",
+            "Pu'al",
+            "Hithpa'el",
+            "Hiph'il",
+            "Hoph'al",
+            "Po'lel"
+          ]
+        },
+        {
+          "key": "form",
+          "label": "Form",
+          "options": [
+            "perfect",
+            "imperfect",
+            "imperative",
+            "jussive",
+            "cohortative",
+            "participle",
+            "infinitive construct",
+            "infinitive absolute"
+          ]
+        },
+        {
+          "key": "person",
+          "label": "Person",
+          "options": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "key": "gender",
+          "label": "Gender",
+          "options": [
+            "masc.",
+            "fem."
+          ]
+        },
+        {
+          "key": "number",
+          "label": "Number",
+          "options": [
+            "sing.",
+            "plur.",
+            "dual"
+          ]
+        },
+        {
+          "key": "root",
+          "label": "Root",
+          "options": [
+            "שָׁפֵל",
+            "קָטֹן",
+            "כָּבֵד",
+            "רָעֵב"
+          ],
+          "isScript": true
+        }
+      ],
+      "readings": [
+        {
+          "gender": "fem.",
+          "number": "sing.",
+          "form": "imperfect",
+          "stem": "Qal",
+          "root": "כָּבֵד",
+          "person": "2"
+        }
+      ],
+      "shape": "parse",
+      "explain": "Key: 2 sing. fem. impf. Qal of כָּבֵד",
+      "data": {
+        "parse": {
+          "person": "2",
+          "gender": "fem.",
+          "number": "sing.",
+          "form": "imperfect",
+          "stem": "Qal",
+          "root": "כָּבֵד"
+        }
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §22 A L9; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n101/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n101.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n50/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n50.jpg",
+        "exwb": "davidson-s22#AL9",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "parse-form",
+      "prompt": "Parse this form",
+      "stimulus": "אֶגְדַּל",
+      "stimulusIsScript": true,
+      "fields": [
+        {
+          "key": "stem",
+          "label": "Stem",
+          "options": [
+            "Qal",
+            "Niph'al",
+            "Pi'el",
+            "Pu'al",
+            "Hithpa'el",
+            "Hiph'il",
+            "Hoph'al",
+            "Po'lel"
+          ]
+        },
+        {
+          "key": "form",
+          "label": "Form",
+          "options": [
+            "perfect",
+            "imperfect",
+            "imperative",
+            "jussive",
+            "cohortative",
+            "participle",
+            "infinitive construct",
+            "infinitive absolute"
+          ]
+        },
+        {
+          "key": "person",
+          "label": "Person",
+          "options": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "key": "number",
+          "label": "Number",
+          "options": [
+            "sing.",
+            "plur.",
+            "dual"
+          ]
+        },
+        {
+          "key": "root",
+          "label": "Root",
+          "options": [
+            "גָּדֵל",
+            "שָׁפֵל",
+            "כָּבֵד",
+            "רָעֵב"
+          ],
+          "isScript": true
+        }
+      ],
+      "readings": [
+        {
+          "number": "sing.",
+          "form": "imperfect",
+          "stem": "Qal",
+          "root": "גָּדֵל",
+          "person": "1"
+        }
+      ],
+      "shape": "parse",
+      "explain": "Key: 1 sing. impf. Qal of גָּדֵל",
+      "data": {
+        "parse": {
+          "person": "1",
+          "number": "sing.",
+          "form": "imperfect",
+          "stem": "Qal",
+          "root": "גָּדֵל"
+        }
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §22 A L10; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n101/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n101.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n50/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n50.jpg",
+        "exwb": "davidson-s22#AL10",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "parse-form",
+      "prompt": "Parse this form",
+      "stimulus": "רָעֵבוּ",
+      "stimulusIsScript": true,
+      "fields": [
+        {
+          "key": "stem",
+          "label": "Stem",
+          "options": [
+            "Qal",
+            "Niph'al",
+            "Pi'el",
+            "Pu'al",
+            "Hithpa'el",
+            "Hiph'il",
+            "Hoph'al",
+            "Po'lel"
+          ]
+        },
+        {
+          "key": "form",
+          "label": "Form",
+          "options": [
+            "perfect",
+            "imperfect",
+            "imperative",
+            "jussive",
+            "cohortative",
+            "participle",
+            "infinitive construct",
+            "infinitive absolute"
+          ]
+        },
+        {
+          "key": "person",
+          "label": "Person",
+          "options": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "key": "number",
+          "label": "Number",
+          "options": [
+            "sing.",
+            "plur.",
+            "dual"
+          ]
+        },
+        {
+          "key": "root",
+          "label": "Root",
+          "options": [
+            "גָּדֵל",
+            "שָׁכֹל",
+            "שָׁפֵל",
+            "רָעֵב"
+          ],
+          "isScript": true
+        }
+      ],
+      "readings": [
+        {
+          "number": "plur.",
+          "form": "perfect",
+          "stem": "Qal",
+          "root": "רָעֵב",
+          "person": "3"
+        }
+      ],
+      "shape": "parse",
+      "explain": "Key: 3 plur. pf. Qal of רָעֵב (pausal form of רָעֲבוּ)",
+      "data": {
+        "parse": {
+          "person": "3",
+          "number": "plur.",
+          "form": "perfect",
+          "stem": "Qal",
+          "root": "רָעֵב"
+        }
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §22 A L11; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n101/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n101.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n50/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n50.jpg",
+        "exwb": "davidson-s22#AL11",
         "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
       "type": "mcq",
       "prompt": "Choose the translation",
-      "stimulus": "נער הייתי גם־זקנתי ולא ראיתי צדיק נעזב וזרעו מבקש־לחם",
+      "stimulus": "לֹא יָכֹלְתָּ לִסְפֹּר הַכּוֹכָבִים",
       "stimulusIsScript": true,
       "options": [
-        "The stone which the builders rejected is become the head of the corner.",
-        "I will not again smite any more every living thing, as I have done.",
-        "O that I had water to drink!",
-        "I have been young and now am old: yet have I not seen the righteous forsaken, nor his seed seeking bread."
+        "The king shall read in the book of the law all the days of his life, that he may learn to fear Yahweh his God.",
+        "No flesh can be righteous before thee.",
+        "I am sated with burnt-offerings, and in the blood of oxen I delight not.",
+        "Thou art not able to count the stars."
       ],
-      "answer": "I have been young and now am old: yet have I not seen the righteous forsaken, nor his seed seeking bread.",
+      "answer": "Thou art not able to count the stars.",
       "optionIsScript": false,
       "shape": "he-en",
-      "hint": "With vowel points: נַעַר הָיִיתִי גַּם־זָקַנְתִּי וְלֹא רָאִיתִי צַדִּיק נֶעֱזָב וְזַרְעוֹ מְבַקֶּשׁ־לָחֶם",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §22 B 2; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n101/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n101.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n50/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n50.jpg",
+        "exwb": "davidson-s22#B2",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "יִגְדַּל שֵׁם יהוה עַד עוֹלָם",
+      "stimulusIsScript": true,
+      "options": [
+        "Nigh art thou, O Yahweh, and all thy commandments are truth, my ringing cry shall come near before thee.",
+        "Now I know that thou fearest God.",
+        "The name of Yahweh will be great for ever.",
+        "Draw near (sing.) and hearken to all the words which I am about to speak unto thee."
+      ],
+      "answer": "The name of Yahweh will be great for ever.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §22 B 3; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n101/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n101.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n50/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n50.jpg",
+        "exwb": "davidson-s22#B3",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "קְרַב וּשְׁמַע אֶת־כָּל־הַדְּבָרִים אֲשֶׁר אָנֹכִי דֹבֵר אֵלֶיךָ",
+      "stimulusIsScript": true,
+      "options": [
+        "Draw near (sing.) and hearken to all the words which I am about to speak unto thee.",
+        "Thou art not able to count the stars.",
+        "We shall not hear the sound of the trumpet, nor shall we be hungry for bread.",
+        "O Yahweh, my God, thou art very great."
+      ],
+      "answer": "Draw near (sing.) and hearken to all the words which I am about to speak unto thee.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §22 B 4; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n101/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n101.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n50/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n50.jpg",
+        "exwb": "davidson-s22#B4",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "עַתָּה יָדַעְתִּי כִּי יְרֵא אֱלֹהִים אָתָּה",
+      "stimulusIsScript": true,
+      "options": [
+        "I am sated with burnt-offerings, and in the blood of oxen I delight not.",
+        "The name of Yahweh will be great for ever.",
+        "The memory of the righteous is blessed, but the name of the wicked shall rot.",
+        "Now I know that thou fearest God."
+      ],
+      "answer": "Now I know that thou fearest God.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §22 B 5; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n101/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n101.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n50/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n50.jpg",
+        "exwb": "davidson-s22#B5",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "יהוה אֱלֹהַי גָּדַלְתָּ מְאֹד",
+      "stimulusIsScript": true,
+      "options": [
+        "I am sated with burnt-offerings, and in the blood of oxen I delight not.",
+        "The memory of the righteous is blessed, but the name of the wicked shall rot.",
+        "O Yahweh, my God, thou art very great.",
+        "Thou art not able to count the stars."
+      ],
+      "answer": "O Yahweh, my God, thou art very great.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §22 B 6; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n101/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n101.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n50/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n50.jpg",
+        "exwb": "davidson-s22#B6",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "זֵכֶר צַדִּיק לִבְרָכָה וְשֵׁם רְשָׁעִים יִרְקָב",
+      "stimulusIsScript": true,
+      "options": [
+        "Now I know that thou fearest God.",
+        "The name of Yahweh will be great for ever.",
+        "The memory of the righteous is blessed, but the name of the wicked shall rot.",
+        "Draw near (sing.) and hearken to all the words which I am about to speak unto thee."
+      ],
+      "answer": "The memory of the righteous is blessed, but the name of the wicked shall rot.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §22 B 7; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n101/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n101.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n50/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n50.jpg",
+        "exwb": "davidson-s22#B7",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "קָרוֹב אַתָּה יהוה וְכָל־מִצְוֹתֶיךָ אֱמֶת תִּקְרַב רִנָּתִי לְפָנֶיךָ",
+      "stimulusIsScript": true,
+      "options": [
+        "Holy art thou, O Yahweh, all the earth is full of thy glory.",
+        "Thou art not able to count the stars.",
+        "The king shall read in the book of the law all the days of his life, that he may learn to fear Yahweh his God.",
+        "Nigh art thou, O Yahweh, and all thy commandments are truth, my ringing cry shall come near before thee."
+      ],
+      "answer": "Nigh art thou, O Yahweh, and all thy commandments are truth, my ringing cry shall come near before thee.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §22 B 8; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n101/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n101.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n50/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n50.jpg",
+        "exwb": "davidson-s22#B8",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "לֹא יִצְדַּק לְפָנֶיךָ כָּל־בָּשָׂר",
+      "stimulusIsScript": true,
+      "options": [
+        "The memory of the righteous is blessed, but the name of the wicked shall rot.",
+        "We shall not hear the sound of the trumpet, nor shall we be hungry for bread.",
+        "No flesh can be righteous before thee.",
+        "Draw near (sing.) and hearken to all the words which I am about to speak unto thee."
+      ],
+      "answer": "No flesh can be righteous before thee.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §22 B 11; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n101/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n101.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n50/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n50.jpg",
+        "exwb": "davidson-s22#B11",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "קדוש אתה יהוה מלאה כל־הארץ כבודך",
+      "stimulusIsScript": true,
+      "options": [
+        "The name of Yahweh will be great for ever.",
+        "The king shall read in the book of the law all the days of his life, that he may learn to fear Yahweh his God.",
+        "No flesh can be righteous before thee.",
+        "Holy art thou, O Yahweh, all the earth is full of thy glory."
+      ],
+      "answer": "Holy art thou, O Yahweh, all the earth is full of thy glory.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "hint": "With vowel points: קָדוֹשׁ אַתָּה יְהוָה מָלְאָה כָל־הָאָרֶץ כְּבוֹדֶךָ",
       "data": {
-        "pointed": "נַעַר הָיִיתִי גַּם־זָקַנְתִּי וְלֹא רָאִיתִי צַדִּיק נֶעֱזָב וְזַרְעוֹ מְבַקֶּשׁ־לָחֶם"
+        "pointed": "קָדוֹשׁ אַתָּה יְהוָה מָלְאָה כָל־הָאָרֶץ כְּבוֹדֶךָ"
       },
       "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §44 A 10; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n164/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n164.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n124/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n124.jpg",
-        "exwb": "davidson-s44#A10",
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §22 B 12; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n101/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n101.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n50/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n50.jpg",
+        "exwb": "davidson-s22#B12",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "שבעתי עולות ודם פרים לא חפצתי",
+      "stimulusIsScript": true,
+      "options": [
+        "In the time of Solomon's old age his heart was not perfect with Yahweh his God, like the heart of David.",
+        "I am sated with burnt-offerings, and in the blood of oxen I delight not.",
+        "Nigh art thou, O Yahweh, and all thy commandments are truth, my ringing cry shall come near before thee.",
+        "Now I know that thou fearest God."
+      ],
+      "answer": "I am sated with burnt-offerings, and in the blood of oxen I delight not.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "hint": "With vowel points: שָׂבַעְתִּי עוֹלוֹת וְדַם פָּרִים לֹא חָפָצְתִּי",
+      "data": {
+        "pointed": "שָׂבַעְתִּי עוֹלוֹת וְדַם פָּרִים לֹא חָפָצְתִּי"
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §22 B 13; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n101/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n101.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n50/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n50.jpg",
+        "exwb": "davidson-s22#B13",
         "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
       "type": "translate-phrase",
       "prompt": "Translate into Hebrew (pointing optional)",
-      "stimulus": "Behold, thy maid is in thy (f.) hand, do to her the (thing) good in thine eyes.",
+      "stimulus": "I cannot draw near.",
       "stimulusIsScript": false,
       "accepted": [
-        "הִנֵּה שִׁפְחָתֵךְ בְּיָדֵךְ עֲשִׂי־לָהּ הַטּוֹב בְּעֵינָיִךְ"
+        "לֹא יָכֹלְתִּי לִקְרֹב"
       ],
       "answerIsScript": true,
       "shape": "en-he",
       "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §44 B 1; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n164/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n164.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n124/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n124.jpg",
-        "exwb": "davidson-s44#B1",
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §22 C 1; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n101/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n101.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n50/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n50.jpg",
+        "exwb": "davidson-s22#C1",
         "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
       "type": "translate-phrase",
       "prompt": "Translate into Hebrew (pointing optional)",
-      "stimulus": "And they left off building the city.",
+      "stimulus": "I will be great.",
       "stimulusIsScript": false,
       "accepted": [
-        "וַיַּחְדְּלוּ לִבְנֹת הָעִיר"
+        "אֶגְדַּל"
       ],
       "answerIsScript": true,
       "shape": "en-he",
       "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §44 B 2; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n164/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n164.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n124/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n124.jpg",
-        "exwb": "davidson-s44#B2",
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §22 C 2; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n101/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n101.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n50/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n50.jpg",
+        "exwb": "davidson-s22#C2",
         "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
       "type": "translate-phrase",
       "prompt": "Translate into Hebrew (pointing optional)",
-      "stimulus": "I am not able to do (any)thing until thou come thither.",
+      "stimulus": "Draw near.",
       "stimulusIsScript": false,
       "accepted": [
-        "לֹא אוּכַל לַעֲשׂוֹת דָּבָר עַד־בֹּאֲךָ שָׁמָּה"
+        "קְרַב",
+        "קִרְבוּ"
       ],
       "answerIsScript": true,
       "shape": "en-he",
       "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §44 B 3; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n164/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n164.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n124/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n124.jpg",
-        "exwb": "davidson-s44#B3",
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §22 C 3; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n101/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n101.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n50/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n50.jpg",
+        "exwb": "davidson-s22#C3",
         "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
       "type": "translate-phrase",
       "prompt": "Translate into Hebrew (pointing optional)",
-      "stimulus": "And the waters increased very (much), and the heads of the mountains were covered.",
+      "stimulus": "The God who made the heavens and the earth I (am) fearing.",
       "stimulusIsScript": false,
       "accepted": [
-        "וַיִּרְבּוּ הַמַּיִם מְאֹד וַיְכֻסּוּ רָאשֵׁי הֶהָרִים"
+        "אֶת־הָאֱלֹהִים אֲשֶׁר עָשָׂה אֶת־הַשָּׁמַיִם וְאֶת־הָאָרֶץ אֲנִי יָרֵא"
       ],
       "answerIsScript": true,
       "shape": "en-he",
       "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §44 B 4; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n164/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n164.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n124/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n124.jpg",
-        "exwb": "davidson-s44#B4",
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §22 C 4; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n101/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n101.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n50/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n50.jpg",
+        "exwb": "davidson-s22#C4",
         "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
       "type": "translate-phrase",
       "prompt": "Translate into Hebrew (pointing optional)",
-      "stimulus": "I have commanded thee not to eat of the tree which is in the midst of the garden, lest thou die.",
+      "stimulus": "Ye cannot keep my statutes with (בְּ) all your heart.",
       "stimulusIsScript": false,
       "accepted": [
-        "צִוִּיתִיךָ לְבִלְתִּי אֲכָל מִן־הָעֵץ אֲשֶׁר בְּתוֹךְ הַגָּן פֶּן־תָּמוּת"
+        "לֹא יְכָלְתֶּם לִשְׁמֹר אֶת־פִּקּוּדַי בְּכָל־לְבַבְכֶם"
       ],
       "answerIsScript": true,
       "shape": "en-he",
       "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §44 B 5; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n164/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n164.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n124/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n124.jpg",
-        "exwb": "davidson-s44#B5",
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §22 C 5; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n101/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n101.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n50/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n50.jpg",
+        "exwb": "davidson-s22#C5",
         "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
       "type": "translate-phrase",
       "prompt": "Translate into Hebrew (pointing optional)",
-      "stimulus": "For thou, Yahweh of hosts, God of Israel, hast opened the ear of thy servant saying, A house will I build for thee.",
+      "stimulus": "Thou art little.",
       "stimulusIsScript": false,
       "accepted": [
-        "כִּי־אַתָּה יְהוָה צְבָאוֹת אֱלֹהֵי יִשְׂרָאֵל גָּלִיתָה אֶת־אֹזֶן עַבְדְּךָ לֵאמֹר בַּיִת אֶבְנֶה־לָּךְ"
+        "קָטֹנְתְּ",
+        "קָטֹנְתָּ"
       ],
       "answerIsScript": true,
       "shape": "en-he",
       "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §44 B 6; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n164/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n164.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n124/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n124.jpg",
-        "exwb": "davidson-s44#B6",
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §22 C 6; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n101/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n101.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n50/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n50.jpg",
+        "exwb": "davidson-s22#C6",
         "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
       "type": "translate-phrase",
       "prompt": "Translate into Hebrew (pointing optional)",
-      "stimulus": "And he said unto the children of Israel, (At)-evening (acc.) then (waw. cons. pf.) shall ye know that Yahweh hath brought you out from the land of Egypt, and (in-the)-morning (acc.) then shall ye see his glory.",
+      "stimulus": "Hear in order that thou mayest learn to fear Yahweh thy God.",
       "stimulusIsScript": false,
       "accepted": [
-        "וַיֹּאמֶר אֶל־בְּנֵי יִשְׂרָאֵל עֶרֶב וִידַעְתֶּם כִּי יְהוָה הוֹצִיא אֶתְכֶם מֵאֶרֶץ מִצְרַיִם וּבֹקֶר וּרְאִיתֶם אֶת־כְּבוֹדוֹ"
+        "שְׁמַע לְמַעַן תִּלְמַד לְיִרְאָה אֶת־יְהוָה אֱלֹהֶיךָ"
       ],
       "answerIsScript": true,
       "shape": "en-he",
       "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §44 B 7; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n164/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n164.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n124/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n124.jpg",
-        "exwb": "davidson-s44#B7",
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §22 C 7; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n101/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n101.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n50/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n50.jpg",
+        "exwb": "davidson-s22#C7",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "They are not able to pursue after me.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "לֹא יָכְלוּ לִרְדֹּף אַחֲרָי"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §22 C 8; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n101/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n101.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n50/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n50.jpg",
+        "exwb": "davidson-s22#C8",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "I am bereaved.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שָׁכָלְתִּי"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §22 C 9; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n101/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n101.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n50/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n50.jpg",
+        "exwb": "davidson-s22#C9",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "I know that thou shalt assuredly reign.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "יָדַעְתִּי כִּי מָלֹךְ תִּמְלֹךְ"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §22 C 10; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n101/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n101.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n50/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n50.jpg",
+        "exwb": "davidson-s22#C10",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "Cease to draw near before me, for your hands are full of blood (pl.).",
+      "stimulusIsScript": false,
+      "accepted": [
+        "חִדְלוּ לִקְרֹב לְפָנַי כִּי מָלְאוּ יְדֵיכֶם דָּמִים"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §22 C 11; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n101/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n101.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n50/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n50.jpg",
+        "exwb": "davidson-s22#C11",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "How great art thou (O) my God, very deep are thy thoughts.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מַה־גָּדַלְתָּ אֱלֹהַי עָמְקוּ מְאֹד מַחְשְׁבֹתֶיךָ"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §22 C 12; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n101/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n101.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n50/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n50.jpg",
+        "exwb": "davidson-s22#C12",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אַל־תִּקְרַב הֲלֹם כִּי הַמָּקוֹם אֲשֶׁר אַתָּה עוֹמֵד עָלָיו אַדְמַת קֹדֶשׁ הוּא",
+      "stimulusIsScript": true,
+      "options": [
+        "And the Israelites forgot Yahweh their God and he sold them into the hand of the king of Moab.",
+        "Draw not nigh hither, for the place whereon thou art standing is holy ground.",
+        "Let us draw nigh to Yahweh, that he may judge between me and thee.",
+        "I would keep thy law continually."
+      ],
+      "answer": "Draw not nigh hither, for the place whereon thou art standing is holy ground.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §23 A 5; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n106/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n106.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n54/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n54.jpg",
+        "exwb": "davidson-s23#A5",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "נקרבה אל־יהוה וישפט ביני ובינך",
+      "stimulusIsScript": true,
+      "options": [
+        "Let us make a covenant, I and thou, and it shall be for a witness between me and thee.",
+        "Let us draw nigh to Yahweh, that he may judge between me and thee.",
+        "Jacob said to Esau, First sell me thy birthright; and he sold him his birthright.",
+        "And the Israelites forgot Yahweh their God and he sold them into the hand of the king of Moab."
+      ],
+      "answer": "Let us draw nigh to Yahweh, that he may judge between me and thee.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "hint": "With vowel points: נִקְרְבָה אֶל־יְהוָה וְיִשְׁפֹּט בֵּינִי וּבֵינֶךָ",
+      "data": {
+        "pointed": "נִקְרְבָה אֶל־יְהוָה וְיִשְׁפֹּט בֵּינִי וּבֵינֶךָ"
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §23 A 10; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n106/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n106.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n54/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n54.jpg",
+        "exwb": "davidson-s23#A10",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "Do not (ye) draw near.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אַל־תִּקְרְבוּ"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §23 B 3; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n106/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n106.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n54/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n54.jpg",
+        "exwb": "davidson-s23#B3",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "Sarah bare to her husband a son, and the boy grew up.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "יָלְדָה שָׂרָה לְאִישָׁהּ בֵּן וַיִּגְדַּל הַיֶּלֶד"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §23 B 10; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n106/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n106.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n54/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n54.jpg",
+        "exwb": "davidson-s23#B10",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "כספך וזהבך לא חפצתי",
+      "stimulusIsScript": true,
+      "options": [
+        "Thy word is a lamp to my foot and a light to my path.",
+        "Thy silver and gold I do not delight in.",
+        "The face of Yahweh is against the wicked, to cut off the remembrance of them from the earth.",
+        "Make fat the heart of this people and make heavy their ears."
+      ],
+      "answer": "Thy silver and gold I do not delight in.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "hint": "With vowel points: כַּסְפְּךָ וּזְהָבְךָ לֹא חָפָצְתִּי",
+      "data": {
+        "pointed": "כַּסְפְּךָ וּזְהָבְךָ לֹא חָפָצְתִּי"
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §29 A 9; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n123/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n123.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n69/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n69.jpg",
+        "exwb": "davidson-s29#A9",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "All his prophets are dumb dogs, they cannot bark.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "כָּל־נְבִיאָיו כְּלָבִים אִלְּמִים לֹא יָכְלוּ לִנְבֹּחַ"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §30 C 3; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n125/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n125.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n72/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n72.jpg",
+        "exwb": "davidson-s30#C3",
         "note": "Transcribed by hand from the scans and checked against the Key."
       }
     }

@@ -1,85 +1,107 @@
 {
   "schema": "unit-lesson-v1.json",
   "unit": 14,
-  "title": "Adjective Comparison",
-  "description": "Form comparatives and superlatives with מִן, the article, and repetition.",
+  "title": "Gender and Number",
+  "description": "Recognize noun and adjective gender, number, and agreement.",
   "teaches": [
-    "he-dav-39-008",
-    "he-dav-37-011",
-    "he-dav-51-023",
-    "he-dav-15-005",
-    "he-dav-38-003",
-    "he-dav-15-004",
-    "he-dav-09-028",
-    "he-dav-39-007",
-    "he-dav-51-024",
-    "he-dav-21-005",
-    "he-dav-13-005",
-    "he-dav-21-017",
-    "he-dav-38-004"
+    "he-dav-18-003",
+    "he-dav-18-005",
+    "he-dav-18-006",
+    "he-dav-53-002",
+    "he-dav-51-025",
+    "he-dav-51-003",
+    "he-dav-53-001",
+    "he-dav-44-004",
+    "he-dav-44-002",
+    "he-dav-40-004"
   ],
   "assumes": [
-    "he-dav-34-013",
-    "he-dav-10-005",
-    "he-dav-09-020",
-    "he-dav-09-021",
-    "he-dav-17-005",
-    "he-dav-10-039",
-    "he-dav-13-003",
-    "he-dav-09-058",
-    "he-dav-12-006",
-    "he-dav-09-062",
-    "he-dav-09-044",
-    "he-dav-34-014",
-    "he-dav-09-091"
+    "he-dav-15-002",
+    "he-dav-16-002",
+    "he-dav-16-001",
+    "he-dav-16-004",
+    "he-dav-35-003",
+    "he-dav-16-003",
+    "he-dav-37-006",
+    "he-dav-20-001",
+    "he-dav-34-002",
+    "he-dav-10-011",
+    "he-dav-10-019",
+    "he-dav-56-002",
+    "he-dav-13-011",
+    "he-dav-13-039",
+    "he-dav-19-057"
   ],
   "blocks": [
     {
       "type": "prose",
       "caption": "Summary",
-      "html": "<p>The Hebrew adjective undergoes no change of ending or vowels in comparison; there are no forms like &quot;better&quot; or &quot;best&quot;. The comparative is expressed by the positive adjective followed by the preposition מִן (from): טוֹב מִיַּיִן, &quot;good away from wine&quot;, that is &quot;better than wine&quot;. The superlative is expressed by isolating the adjective — with the article, a suffix, or a construct relation — or by intensifying it with &quot;very&quot; or by repetition.</p>"
+      "html": "<p>Every Hebrew noun is masculine or feminine, and singular, plural, or (rarely) dual. Gender is grammatical, not natural: it is a property of the word, so the word for &quot;book&quot; is masculine and the word for &quot;land&quot; is feminine regardless of what they name. There is no neuter. The most reliable way to know a noun&#x27;s gender is to learn it with the word, because the endings only hint at it.</p><p>Feminine nouns very often end in -āh (מַלְכָּה, &quot;queen&quot;) or in -t, but many feminine nouns have neither ending (אֶרֶץ, &quot;land&quot;). Masculine nouns usually have no special ending in the singular. The regular masculine plural is -îm (מְלָכִים, &quot;kings&quot;), and the regular feminine plural is -ôt (מְלָכוֹת, &quot;queens&quot;), but many common words are irregular, so the plural must be learned with each noun.</p><p>Adjectives agree with the noun they describe in gender and number: a masculine singular noun takes a masculine singular adjective, and so on. When you meet a noun and adjective together, compare their forms before you translate the phrase.</p>"
+    },
+    {
+      "type": "table",
+      "caption": "Gender and number endings",
+      "columns": [
+        "Form",
+        "Typical ending",
+        "Example"
+      ],
+      "rows": [
+        [
+          "masculine singular",
+          "—",
+          "מֶלֶךְ (king)"
+        ],
+        [
+          "feminine singular",
+          "-āh / -t",
+          "מַלְכָּה (queen)"
+        ],
+        [
+          "masculine plural",
+          "-îm",
+          "מְלָכִים (kings)"
+        ],
+        [
+          "feminine plural",
+          "-ôt",
+          "מְלָכוֹת (queens)"
+        ]
+      ]
     },
     {
       "type": "prose",
-      "caption": "The comparative",
-      "html": "<p>To say &quot;better than wine&quot; Hebrew writes טוֹב מִיַּיִן, literally &quot;good from wine&quot;, or &quot;good in distinction from wine&quot;. The preposition מִן does the whole work of &quot;than&quot;. The same construction is used with verbs: אֶגְדַּל מִמְּךָ, &quot;I will be greater than you&quot;. Let מִן before the standard of comparison be the sign to translate &quot;than&quot;.</p>"
+      "caption": "The dual",
+      "html": "<p>A small group of nouns uses a special dual ending, -ayim, for things that naturally come in pairs. The hand is יָד (singular) but יָדַיִם (two hands); the eye is עַיִן but עֵינַיִם (two eyes). The dual is limited and mostly fixed to body parts and a few measures, so you need not produce it freely — only recognise it.</p>"
     },
     {
       "type": "prose",
-      "caption": "The superlative",
-      "html": "<p>The superlative is also expressed by the positive adjective raised into isolation. &quot;He is the greatest&quot; is written הוּא הַגָּדוֹל, literally &quot;he, the great one&quot;, with the article marking the one set apart. A suffix or a construct relation does the same: קְטֹן בָּנָיו, &quot;the youngest of his sons&quot;. This is the &quot;great one among&quot; idea: the adjective is singled out as the one who surpasses the rest.</p>"
-    },
-    {
-      "type": "prose",
-      "caption": "The absolute superlative",
-      "html": "<p>Absolute superlativeness — &quot;most holy&quot;, &quot;very good&quot; — is expressed variously: by the word מְאֹד (very), as טוֹב מְאֹד (good exceedingly); or by repetition, as קֹדֶשׁ קָדָשִׁים, &quot;holy of holies&quot;, that is &quot;most holy&quot;. Repetition is a frequent and vivid way of saying &quot;the very best, the most&quot;.</p>"
+      "caption": "Agreement",
+      "html": "<p>A Hebrew adjective normally follows its noun and copies its gender and number: מֶלֶךְ טוֹב, &quot;a good king&quot;, but מַלְכָּה טוֹבָה, &quot;a good queen&quot;. This agreement is the main clue that a word is an adjective rather than another noun. In the next units you will add the article, which adds a third point of agreement, definiteness.</p>"
     },
     {
       "type": "prose",
       "caption": "Common confusion",
-      "html": "<p>Do not look for comparative or superlative endings on the adjective; Hebrew has none. Read מִן as &quot;than&quot;, read the article or construct as &quot;the … one of&quot; or &quot;the most&quot;, and read repetition as &quot;most&quot;. The adjective&#x27;s form stays the same throughout; only the construction changes the degree.</p>"
+      "html": "<p>Do not guess gender from the English meaning, and do not guess the plural from the ending alone. A word ending in -im is usually masculine plural, but a few are feminine; a word ending in -ôt is usually feminine plural. Learn each noun as a set — singular, gender, and plural together — and treat the endings as hints, not rules.</p>"
     },
     {
       "type": "prose",
       "caption": "Source",
-      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (22nd ed., 1923), §47.</p>"
+      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (22nd ed., 1923), §16.</p>"
     },
     {
       "type": "vocab",
       "refs": [
-        "he-dav-39-008",
-        "he-dav-37-011",
-        "he-dav-51-023",
-        "he-dav-15-005",
-        "he-dav-38-003",
-        "he-dav-15-004",
-        "he-dav-09-028",
-        "he-dav-39-007",
-        "he-dav-51-024",
-        "he-dav-21-005",
-        "he-dav-13-005",
-        "he-dav-21-017",
-        "he-dav-38-004"
+        "he-dav-18-003",
+        "he-dav-18-005",
+        "he-dav-18-006",
+        "he-dav-53-002",
+        "he-dav-51-025",
+        "he-dav-51-003",
+        "he-dav-53-001",
+        "he-dav-44-004",
+        "he-dav-44-002",
+        "he-dav-40-004"
       ]
     }
   ],

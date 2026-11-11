@@ -1,114 +1,39 @@
 {
   "schema": "unit-lesson-v1.json",
   "unit": 10,
-  "title": "Gender and Number",
-  "description": "Recognize noun and adjective gender, number, and agreement.",
-  "teaches": [
-    "he-dav-18-003",
-    "he-dav-18-005",
-    "he-dav-18-006",
-    "he-dav-53-002",
-    "he-dav-51-025",
-    "he-dav-51-003",
-    "he-dav-53-001",
-    "he-dav-44-004",
-    "he-dav-44-002",
-    "he-dav-40-004",
-    "he-dav-18-010",
-    "he-dav-52-001",
-    "he-dav-33-004"
-  ],
-  "assumes": [
-    "he-dav-15-002",
-    "he-dav-16-002",
-    "he-dav-16-001",
-    "he-dav-16-004",
-    "he-dav-35-003",
-    "he-dav-16-003",
-    "he-dav-37-006",
-    "he-dav-20-001",
-    "he-dav-34-002",
-    "he-dav-10-011",
-    "he-dav-10-019",
-    "he-dav-56-002",
-    "he-dav-13-011",
-    "he-dav-13-039",
-    "he-dav-19-057"
-  ],
+  "title": "Accents and Pause",
+  "description": "Read the accents as stress, punctuation, and chant, and recognize pausal forms.",
+  "teaches": [],
+  "assumes": [],
   "blocks": [
     {
       "type": "prose",
       "caption": "Summary",
-      "html": "<p>Every Hebrew noun is masculine or feminine, and singular, plural, or (rarely) dual. Gender is grammatical, not natural: it is a property of the word, so the word for &quot;book&quot; is masculine and the word for &quot;land&quot; is feminine regardless of what they name. There is no neuter. The most reliable way to know a noun&#x27;s gender is to learn it with the word, because the endings only hint at it.</p><p>Feminine nouns very often end in -āh (מַלְכָּה, &quot;queen&quot;) or in -t, but many feminine nouns have neither ending (אֶרֶץ, &quot;land&quot;). Masculine nouns usually have no special ending in the singular. The regular masculine plural is -îm (מְלָכִים, &quot;kings&quot;), and the regular feminine plural is -ôt (מְלָכוֹת, &quot;queens&quot;), but many common words are irregular, so the plural must be learned with each noun.</p><p>Adjectives agree with the noun they describe in gender and number: a masculine singular noun takes a masculine singular adjective, and so on. When you meet a noun and adjective together, compare their forms before you translate the phrase.</p>"
-    },
-    {
-      "type": "table",
-      "caption": "Gender and number endings",
-      "columns": [
-        "Form",
-        "Typical ending",
-        "Example"
-      ],
-      "rows": [
-        [
-          "masculine singular",
-          "—",
-          "מֶלֶךְ (king)"
-        ],
-        [
-          "feminine singular",
-          "-āh / -t",
-          "מַלְכָּה (queen)"
-        ],
-        [
-          "masculine plural",
-          "-îm",
-          "מְלָכִים (kings)"
-        ],
-        [
-          "feminine plural",
-          "-ôt",
-          "מְלָכוֹת (queens)"
-        ]
-      ]
+      "html": "<p>The accent signs of the Hebrew Bible do three jobs at once: they mark the stressed syllable of each word, they punctuate the verse, and they guide its chanting. At the main breaks of a verse a pause lengthens the stressed vowel, so a word can look different there than in the body of the verse.</p>"
     },
     {
       "type": "prose",
-      "caption": "The dual",
-      "html": "<p>A small group of nouns uses a special dual ending, -ayim, for things that naturally come in pairs. The hand is יָד (singular) but יָדַיִם (two hands); the eye is עַיִן but עֵינַיִם (two eyes). The dual is limited and mostly fixed to body parts and a few measures, so you need not produce it freely — only recognise it.</p>"
+      "caption": "The three uses of the accents",
+      "html": "<p>The accents first mark the tone-syllable, guiding the pronunciation of each word; the main tone falls usually on the last syllable, though in the segholate nouns (מֶלֶךְ, king) and some verb forms it falls on the next-to-last. Second, they are signs of logical punctuation, like our commas and stops, so they are a running commentary on the sense. Third, they are musical signs, guiding the recitative by which the whole text is read. This last use embraces the other two.</p>"
     },
     {
       "type": "prose",
-      "caption": "Agreement",
-      "html": "<p>A Hebrew adjective normally follows its noun and copies its gender and number: מֶלֶךְ טוֹב, &quot;a good king&quot;, but מַלְכָּה טוֹבָה, &quot;a good queen&quot;. This agreement is the main clue that a word is an adjective rather than another noun. In the next units you will add the article, which adds a third point of agreement, definiteness.</p>"
+      "caption": "Pause",
+      "html": "<p>At the middle and end of a Hebrew verse a natural pause occurs, and it changes vowels. A short vowel in the tone-syllable becomes long; occasionally the tone shifts from the last syllable to the next-to-last, which is then lengthened; and a vocal shewa before the tone may rise to a full vowel. The result is that a word may appear in a different vowel-form in pause than in the body of the verse — a change to recognize, not to confuse with a different word.</p>"
     },
     {
       "type": "prose",
       "caption": "Common confusion",
-      "html": "<p>Do not guess gender from the English meaning, and do not guess the plural from the ending alone. A word ending in -im is usually masculine plural, but a few are feminine; a word ending in -ôt is usually feminine plural. Learn each noun as a set — singular, gender, and plural together — and treat the endings as hints, not rules.</p>"
+      "html": "<p>Do not take a pausal form for a different word. מַיִם (water) appears as מָיִם at a verse break, and לַיְלָה (night) as לָיְלָה; the consonants are the same, and only the stressed vowel has lengthened.</p>"
     },
     {
       "type": "prose",
       "caption": "Source",
-      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (22nd ed., 1923), §16.</p>"
+      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (22nd ed., 1923), §10.</p>"
     },
     {
       "type": "vocab",
-      "refs": [
-        "he-dav-18-003",
-        "he-dav-18-005",
-        "he-dav-18-006",
-        "he-dav-53-002",
-        "he-dav-51-025",
-        "he-dav-51-003",
-        "he-dav-53-001",
-        "he-dav-44-004",
-        "he-dav-44-002",
-        "he-dav-40-004",
-        "he-dav-18-010",
-        "he-dav-52-001",
-        "he-dav-33-004"
-      ]
+      "refs": []
     }
   ],
   "didYouKnow": ""

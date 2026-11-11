@@ -5,353 +5,47 @@
     {
       "unit": 40,
       "n": 1,
-      "typeGuess": "parse-form",
+      "typeGuess": "translate-phrase",
       "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "נָס",
-      "answer_raw": "3 sing. masc. pf. Qal or sing. masc. ptc. Qal of נוס. He fled, or (one) fleeing"
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "Thus saith (perf.) Yahweh: Behold I will-give (ptc.) this city into the hand of the king of Bābel, and he will burn it with fire.",
+      "answer_raw": "כֹּה אָמַר יְהוָה הִנֵּה אֲנִי נֹתֵן אֶת־הָעִיר הַזֹּאת בְּיַד מֶלֶךְ בָּבֶל וְשָׂרַף אֹתָהּ בָּאֵשׁ"
     },
     {
       "unit": 40,
       "n": 2,
-      "typeGuess": "parse-form",
+      "typeGuess": "translate-phrase",
       "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "סָרָה",
-      "answer_raw": "3 sing. fem. pf. Qal of סור, She turned aside; or fem. sing. ptc. Qal, (One) turning aside"
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "And thou shalt keep his law continually.",
+      "answer_raw": "וְשָׁמַרְתָּ אֶת־תּוֹרָתוֹ תָּמִיד"
     },
     {
       "unit": 40,
       "n": 3,
-      "typeGuess": "parse-form",
+      "typeGuess": "translate-phrase",
       "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "שָׁבָה",
-      "answer_raw": "fem. sing. ptc. Qal of שׁוב. (One) returning"
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "And it shall be, like prophet, like priest.",
+      "answer_raw": "וְהָיָה כַנָּבִיא כַּכֹּהֵן"
     },
     {
       "unit": 40,
       "n": 4,
-      "typeGuess": "parse-form",
+      "typeGuess": "mcq",
       "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "וּבָאָה",
-      "answer_raw": "3 sing. fem. pf. Qal of בוא with waw consec. And she will come"
+      "prompt": "Choose the translation",
+      "body_raw": "ולקחתם את־מקלכם בידכם",
+      "answer_raw": "And ye shall take your staff in your hand."
     },
     {
       "unit": 40,
       "n": 5,
-      "typeGuess": "parse-form",
-      "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "וְסָרוּ",
-      "answer_raw": "3 pl. pf. Qal of סור with waw consec. And they will turn aside"
-    },
-    {
-      "unit": 40,
-      "n": 6,
-      "typeGuess": "parse-form",
-      "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "אָרוּם",
-      "answer_raw": "1 sing. impf. Qal of רום. I will be (high, i.e.) exalted"
-    },
-    {
-      "unit": 40,
-      "n": 7,
-      "typeGuess": "parse-form",
-      "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "תָּשׁוּבִי",
-      "answer_raw": "2 sing. fem. impf. Qal of שׁוב. Thou (f.) shalt return"
-    },
-    {
-      "unit": 40,
-      "n": 8,
-      "typeGuess": "parse-form",
-      "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "תְּשׁוּבֶינָה",
-      "answer_raw": "2 or 3 pl. fem. impf. Qal of שׁוב. Ye (f.) or they (f.) shall return"
-    },
-    {
-      "unit": 40,
-      "n": 9,
-      "typeGuess": "parse-form",
-      "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "יָרֹם",
-      "answer_raw": "3 sing. masc. jussive Qal of רום. Let him be exalted"
-    },
-    {
-      "unit": 40,
-      "n": 10,
-      "typeGuess": "parse-form",
-      "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "אָמוּתָה",
-      "answer_raw": "1 sing. cohortative Qal of מות (§ 23. 1. 2). Let me die"
-    },
-    {
-      "unit": 40,
-      "n": 11,
-      "typeGuess": "parse-form",
-      "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "וַיָּמָת",
-      "answer_raw": "3 sing. masc. impf. Qal of מות with waw consec. And he died"
-    },
-    {
-      "unit": 40,
-      "n": 12,
-      "typeGuess": "parse-form",
-      "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "לָצוּד",
-      "answer_raw": "inf. cstr. Qal of צוד, with לְ. To hunt"
-    },
-    {
-      "unit": 40,
-      "n": 13,
-      "typeGuess": "parse-form",
-      "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "תִּכּוֹן",
-      "answer_raw": "2 sing. masc. or 3 sing. fem. impf. Niph. of כון. Thou shalt or she shall be established"
-    },
-    {
-      "unit": 40,
-      "n": 14,
-      "typeGuess": "parse-form",
-      "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "הֲרִימוֹתָ",
-      "answer_raw": "2 sing. masc. pf. Hiph. of רום. Thou hast lifted up"
-    },
-    {
-      "unit": 40,
-      "n": 15,
-      "typeGuess": "parse-form",
-      "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "וַהֲשִׁבֹתִי",
-      "answer_raw": "(scriptio defectiva for וַהֲשִׁיבוֹתִי) 1 sing. pf. Hiph. of שׁוב with waw consec. And I will turn (or bring) back"
-    },
-    {
-      "unit": 40,
-      "n": 16,
-      "typeGuess": "parse-form",
-      "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "יָאִיר",
-      "answer_raw": "3 sing. masc. impf. Hiph. of אור. He will give light (or cause to shine)"
-    },
-    {
-      "unit": 40,
-      "n": 17,
-      "typeGuess": "parse-form",
-      "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "וְיָרֵם",
-      "answer_raw": "3 sing. masc. jussive Hiph. of רום with simple waw. (In order) that he may lift up; or, and let him lift up"
-    },
-    {
-      "unit": 40,
-      "n": 18,
-      "typeGuess": "parse-form",
-      "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "אַל־תָּשֵׁב",
-      "answer_raw": "2 sing. masc. or 3 sing. fem. jussive Hiph. of שׁוב, with prohibitive אַל. Do not turn away"
-    },
-    {
-      "unit": 40,
-      "n": 19,
-      "typeGuess": "parse-form",
-      "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "הָבִיאָה",
-      "answer_raw": "2 sing. masc. emphatic imperat. Hiph. of בוא (§ 23. 2). (Cause to come, i.e.) bring"
-    },
-    {
-      "unit": 40,
-      "n": 20,
-      "typeGuess": "parse-form",
-      "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "נָשִׂימָה",
-      "answer_raw": "1 pl. cohortative Hiph. of שׂום or שׂים, or Qal of שׂים. Let us put or place"
-    },
-    {
-      "unit": 40,
-      "n": 21,
-      "typeGuess": "parse-form",
-      "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "יְכוֹנְנֶהָ",
-      "answer_raw": "3 sing. masc. impf. Po'lel of כון with 3 sing. fem. suffix. He will establish her"
-    },
-    {
-      "unit": 40,
-      "n": 22,
-      "typeGuess": "parse-form",
-      "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "מוּבָא",
-      "answer_raw": "masc. sing. ptc. Hoph. of בוא. (That which is) brought"
-    },
-    {
-      "unit": 40,
-      "n": 23,
-      "typeGuess": "parse-form",
-      "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "תְּמוֹתֵת",
-      "answer_raw": "2 sing. masc. or 3 sing. fem. impf. Po'lel of מות. Shall slay"
-    },
-    {
-      "unit": 40,
-      "n": 24,
       "typeGuess": "mcq",
       "confidence": 1.0,
       "prompt": "Choose the translation",
-      "body_raw": "בְּזֵעַת אַפֶּיךָ תֹּאכַל לֶחֶם עַד שׁוּבְךָ אֶל־הָאֲדָמָה כִּי עָפָר אַתָּה וְאֶל־עָפָר תָּשׁוּב",
-      "answer_raw": "In the sweat of thy face thou shalt eat bread till thou return to the ground; for dust thou art, and unto dust shalt thou return."
-    },
-    {
-      "unit": 40,
-      "n": 25,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "וַאֲנִי הִנְנִי מֵבִיא אֶת־הַמַּבּוּל מַיִם עַל־הָאָרֶץ לְשַׁחֵת כָּל־בָּשָׂר מִתַּחַת הַשָּׁמָיִם",
-      "answer_raw": "And on my part, behold, I am about to bring the flood, (that is), waters upon the earth, to destroy all flesh from under heaven."
-    },
-    {
-      "unit": 40,
-      "n": 26,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "יָדֹעַ תֵּדְעוּ כִּי אִם מְמִתִים אַתֶּם אֹתִי כִּי־דָם נָקִי אַתֶּם נֹתְנִים עֲלֵיכֶם",
-      "answer_raw": "Know ye for certain that, if ye put me to death, it is innocent blood that ye will be bringing upon yourselves."
-    },
-    {
-      "unit": 40,
-      "n": 27,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "וְלֹא מָצְאָה הַיּוֹנָה מָנוֹחַ לְכַף רַגְלָהּ וַתָּשָׁב אֶל־נֹחַ אֶל־הַתֵּבָה וַיִּשְׁלַח יָדוֹ וַיִּקָּחֶהָ וַיָּבֵא אֹתָהּ אֵלָיו אֶל־הַתֵּבָה",
-      "answer_raw": "But the dove found no resting-place for the sole of her foot, so she returned unto Noah to the ark; and he put forth his hand and took her and brought her in unto him into the ark."
-    },
-    {
-      "unit": 40,
-      "n": 28,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "יהוה אֱלֹהָי תָּשָׁב־נָא נֶפֶשׁ הַיֶּלֶד הַזֶּה",
-      "answer_raw": "O Yahweh, my God, I pray thee, let the soul of this child return."
-    },
-    {
-      "unit": 40,
-      "n": 29,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "הנה אנכי מת והיה אלהים עמכם והשיב אתכם אל־ארץ אבותיכם",
-      "answer_raw": "Behold, I am about to die; but God will be with you and bring you back to the land of your fathers."
-    },
-    {
-      "unit": 40,
-      "n": 30,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "אם־שכח תשכח את־יהוה אלהיך והלכת אחרי אלהים אחרים ועבדתם העדתי בך היום כי אבד תאבד",
-      "answer_raw": "If thou shalt at all forget Yahweh thy God and go after other gods and serve them, I (solemnly) testify against thee this day that thou shalt assuredly perish."
-    },
-    {
-      "unit": 40,
-      "n": 31,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "And they fled the way of the wilderness.",
-      "answer_raw": "וַיָּנֻסוּ דֶּרֶךְ הַמִּדְבָּר"
-    },
-    {
-      "unit": 40,
-      "n": 32,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "Depart not from-after Yahweh, but (and) ye shall serve him with all your heart.",
-      "answer_raw": "אַל־תָּסוּרוּ מֵאַחֲרֵי יְהוָה וַעֲבַדְתֶּם אֹתוֹ בְּכָל־לְבַבְכֶם"
-    },
-    {
-      "unit": 40,
-      "n": 33,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "Arise, shine, for thy (f.) light is come.",
-      "answer_raw": "קוּמִי אוֹרִי כִּי בָא אוֹרֵךְ"
-    },
-    {
-      "unit": 40,
-      "n": 34,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "And he took not from his hand (that) which he had brought.",
-      "answer_raw": "וְלֹא לָקַח מִיָּדוֹ אֵת אֲשֶׁר־הֵבִיא (or הֱבִיאוֹת)"
-    },
-    {
-      "unit": 40,
-      "n": 35,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "I will surely-return (inf. abs.) unto thee (f.).",
-      "answer_raw": "שׁוֹב אָשׁוּב אֵלַיִךְ"
-    },
-    {
-      "unit": 40,
-      "n": 36,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "And he arose in the morning and saddled his ass and went with the princes of Moab.",
-      "answer_raw": "וַיָּקָם בַּבֹּקֶר וַיַּחֲבֹשׁ אֶת־חֲמֹרוֹ וַיֵּלֶךְ עִם־שָׂרֵי מוֹאָב"
-    },
-    {
-      "unit": 40,
-      "n": 37,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "And he called the man (dat.) and said unto him, Thou hast brought upon me and upon my kingdom a great sin.",
-      "answer_raw": "וַיִּקְרָא לָאִישׁ וַיֹּאמֶר אֵלָיו הֵבֵאתָ עָלַי וְעַל־מַמְלַכְתִּי חֲטָאָה גְדֹלָה"
-    },
-    {
-      "unit": 40,
-      "n": 38,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "And his wife said to him, If Yahweh had wished (pf.) to kill us, he would not have taken (pf.) from our hand a burnt-offering.",
-      "answer_raw": "וַתֹּאמֶר לוֹ אִשְׁתּוֹ לוּ חָפֵץ יְהוָה לַהֲמִיתֵנוּ לֹא לָקַח מִיָּדֵנוּ עֹלָה"
-    },
-    {
-      "unit": 40,
-      "n": 39,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "And the woman went out to meet the captain of the king's host and she said, Turn aside, my lord, turn aside unto me, fear not; and he turned aside unto her to the tent.",
-      "answer_raw": "וַתֵּצֵא הָאִשָּׁה לִקְרַאת שַׂר צְבָא הַמֶּלֶךְ וַתֹּאמֶר סוּרָה אֲדֹנִי סוּרָה אֵלַי אַל־תִּירָא וַיָּסַר אֵלֶיהָ הָאֹהֱלָה"
+      "body_raw": "וְרָדְפוּ מִכֶּם חֲמִשָּׁה מֵאָה וּמֵאָה מִכֶּם רְבָבָה יִרְדֹּפוּ",
+      "answer_raw": "And five of you shall chase a hundred, and a hundred of you shall chase ten thousand."
     }
   ]
 }

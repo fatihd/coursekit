@@ -1,84 +1,81 @@
 {
   "schema": "unit-lesson-v1.json",
   "unit": 24,
-  "title": "Weqatal",
-  "description": "Read the waw-consecutive perfect in continuing sequences.",
+  "title": "The Construct State and the Directional Ending",
+  "description": "Join nouns as \"X of Y\", and mark motion toward a place.",
   "teaches": [
-    "he-dav-15-001",
-    "he-dav-10-008",
-    "he-dav-20-003",
-    "he-dav-18-009",
-    "he-dav-18-014",
-    "he-dav-09-010",
-    "he-dav-19-024",
-    "he-dav-19-025",
-    "he-dav-19-026",
-    "he-dav-19-027",
-    "he-dav-19-028"
+    "he-dav-10-052",
+    "he-dav-13-010",
+    "he-dav-21-013",
+    "he-dav-13-033",
+    "he-dav-13-037",
+    "he-dav-51-002",
+    "he-dav-10-023",
+    "he-dav-10-028",
+    "he-dav-21-026",
+    "he-dav-13-036",
+    "he-dav-13-031",
+    "he-dav-09-121",
+    "he-dav-36-006"
   ],
   "assumes": [
-    "he-dav-51-013",
-    "he-dav-51-006",
-    "he-dav-13-012",
-    "he-dav-18-011",
-    "he-dav-56-003",
-    "he-dav-51-009",
-    "he-dav-19-019",
-    "he-dav-19-020",
-    "he-dav-19-021",
-    "he-dav-19-022",
-    "he-dav-19-023"
+    "he-dav-40-001",
+    "he-dav-34-001",
+    "he-dav-34-010",
+    "he-dav-17-003",
+    "he-dav-09-032",
+    "he-dav-39-001",
+    "he-dav-10-013",
+    "he-dav-09-036",
+    "he-dav-09-003",
+    "he-dav-21-024",
+    "he-dav-18-002",
+    "he-dav-21-010",
+    "he-dav-35-002",
+    "he-dav-09-099"
   ],
   "blocks": [
     {
       "type": "prose",
       "caption": "Summary",
-      "html": "<p>After an imperfect (or a command, participle, or other imperfect-equivalent), a following verb is continued with waw joined to the perfect — weqatal (&quot;and he will do&quot;). This is the counterpart of wayyiqtol: it carries a future, habitual, or commanded sequence forward. Again the waw marks sequence and subordination, not a change of tense.</p>"
+      "html": "<p>Two nouns joined as &quot;X of Y&quot; form a construct chain: the first noun is in the construct state, shortened and unstressed, and never takes the article; the chain is definite if its last noun is. A separate ending, unstressed ־ָה, marks motion toward a place. Davidson treats both under the cases of the noun.</p>"
     },
     {
       "type": "prose",
-      "caption": "Weqatal",
-      "html": "<p>When the opening verb is an imperfect, the verbs that continue the same line are perfects preceded by waw. The waw is pointed like the ordinary copulative waw, and the tone is often thrown forward. Translate each as continuing the future or modal force of the opening verb.</p>"
+      "caption": "The construct state",
+      "html": "<p>Hebrew says &quot;the word of the king&quot; by joining two nouns: דְּבַר הַמֶּלֶךְ. The first noun is in the construct state: it loses its stress, its vowels often shorten (דָּבָר → דְּבַר, plural דְּבָרִים → דִּבְרֵי), and it never takes the article. The whole chain is definite when its last noun is definite: דְּבַר הַמֶּלֶךְ &quot;the word of the king&quot;, דְּבַר מֶלֶךְ &quot;a word of a king&quot;. An adjective stands after the whole chain: יוֹם יְהוָה הַגָּדוֹל (the great day of Yahweh). The endings change: feminine ־ָה becomes ־ַת (תּוֹרָה → תּוֹרַת), masculine plural ־ִים and dual ־ַיִם become ־ֵי (סוּסִים → סוּסֵי, יָדַיִם → יְדֵי). כֹּל &quot;all&quot; is usually construct כָּל־: כָּל־הָאָרֶץ (all the earth). Unit 73 takes longer chains further.</p>"
     },
     {
       "type": "prose",
-      "caption": "The opening form governs the sequence",
-      "html": "<p>The first verb supplies the point of view. If it presents an action as future, habitual, intended, or otherwise incomplete, the following weqatal forms carry that same line forward. This is why a perfect form joined by waw can refer to future or commanded action. It is not a past perfect, and waw has not mechanically turned one tense into another; the sequence inherits its relation from the opening verb.</p><p>The opening verb can be an imperative or participle as well as an imperfect. Davidson treats these as equivalents that establish an unfinished or intended action. A passage may also begin with a weqatal when the governing idea is understood from what precedes in the discourse. Read the clause chain, not just the single form.</p>"
-    },
-    {
-      "type": "prose",
-      "caption": "Distinguish weqatal from ordinary waw",
-      "html": "<p>An ordinary waw plus perfect can simply coordinate clauses. To recognize weqatal, ask what form or construction comes first and whether the following perfects continue its future, modal, or habitual force. The waw is attached to the perfect with the ordinary conjunction pointing, and the stress often moves forward to the final syllable. This forward accent contrasts with the commonly retracted accent of wayyiqtol, but context remains decisive.</p>"
-    },
-    {
-      "type": "prose",
-      "caption": "Recognizing it",
-      "html": "<p>Look for a perfect form joined to the preceding verb by waw, in a passage whose first verb is an imperfect, an imperative, or a participle. The waw binds the perfect to the earlier idea, so the whole sequence shares its time and mood.</p>"
+      "caption": "The directional ending",
+      "html": "<p>An unstressed ־ָה added to a noun marks motion toward it: אֶרֶץ → אַרְצָה (to the ground), מִצְרַיִם → מִצְרַיְמָה (to Egypt), צָפוֹן → צָפוֹנָה (northward), הָהָר → הָהָרָה (toward the mountain). Do not confuse it with the feminine ending ־ָה, which is stressed.</p>"
     },
     {
       "type": "prose",
       "caption": "Common confusion",
-      "html": "<p>Do not read weqatal as a past perfect. Its value is set by the verb it continues: after a future or command it means future or commanded action. Identify the opening verb first, then read the weqatal chain in its light.</p><p>The same principle applies when the opening event is only implied or when a series continues across clauses. Before translating, mark the first finite verb or equivalent, then trace which later verbs stay under its scope. This prevents the misleading word-by-word reading “and he did” where the clause actually means “then he will do,” “and he must do,” or another continuation of the first idea.</p>"
+      "html": "<p>Do not give the first noun &quot;the&quot; because the chain is definite: in דְּבַר הַמֶּלֶךְ (the word of the king) only the last noun has the article. And do not mistake the directional ־ָה for a feminine ending: אַרְצָה (to the ground) is stressed on its first syllable.</p>"
     },
     {
       "type": "prose",
       "caption": "Source",
-      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (22nd ed., 1923), §23.</p>"
+      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (22nd ed., 1923), §17.</p>"
     },
     {
       "type": "vocab",
       "refs": [
-        "he-dav-15-001",
-        "he-dav-10-008",
-        "he-dav-20-003",
-        "he-dav-18-009",
-        "he-dav-18-014",
-        "he-dav-09-010",
-        "he-dav-19-024",
-        "he-dav-19-025",
-        "he-dav-19-026",
-        "he-dav-19-027",
-        "he-dav-19-028"
+        "he-dav-10-052",
+        "he-dav-13-010",
+        "he-dav-21-013",
+        "he-dav-13-033",
+        "he-dav-13-037",
+        "he-dav-51-002",
+        "he-dav-10-023",
+        "he-dav-10-028",
+        "he-dav-21-026",
+        "he-dav-13-036",
+        "he-dav-13-031",
+        "he-dav-09-121",
+        "he-dav-36-006"
       ]
     }
   ],

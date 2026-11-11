@@ -31,7 +31,7 @@ Hebrew review**; that review and editing is a release gate.
   Exercise Workbench (`exwb/curated/`, CC0 transcription) and generated into the course by
   `build/exwb_to_authored.py`. Every item links back to its prompt and answer scan pages
   (`source.promptUrl` / `source.answerUrl`) and cites its § and item number. The reading and
-  transliteration drills (§1–§5, §7, §9) are held for now (`exwb/EXEMPTIONS.md`). See `build/_sources/davidson/SOURCES.md` and `docs/DECISIONS/ADR-017-*.md`.
+  transliteration drills (§1–§5, §7, §9) are held for now (`exwb/EXEMPTIONS.md`). See `build/_sources/davidson/SOURCES.md` and ADR-017 (AGENTS.md §12).
 - Grammar (22nd ed.): <https://archive.org/details/introductoryhebr0000davi_w1b2>
 - Key: <https://archive.org/details/keytoexercisesin0000mcfa>
 - 19th edition (1914), historical: <https://archive.org/details/introductoryheb00daviuoft>

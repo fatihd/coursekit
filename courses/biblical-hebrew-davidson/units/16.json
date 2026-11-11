@@ -1,111 +1,76 @@
 {
   "schema": "unit-lesson-v1.json",
   "unit": 16,
-  "title": "Prefix Prepositions",
-  "description": "Recognize the prepositions that attach to the next word.",
+  "title": "The Definite Article",
+  "description": "Mark a noun as definite with the article.",
   "teaches": [
-    "he-dav-44-006",
-    "he-dav-09-008",
-    "he-dav-37-005",
-    "he-dav-54-002",
-    "he-dav-51-022",
-    "he-dav-09-024",
-    "he-dav-10-014",
-    "he-dav-09-056",
-    "he-dav-21-004",
-    "he-dav-44-001",
-    "he-dav-10-045",
-    "he-dav-09-106",
-    "he-dav-13-007"
+    "he-dav-12-004",
+    "he-dav-12-005",
+    "he-dav-12-002",
+    "he-dav-12-003",
+    "he-dav-12-007",
+    "he-dav-18-007",
+    "he-dav-12-001",
+    "he-dav-10-018",
+    "he-dav-13-004",
+    "he-dav-12-008",
+    "he-dav-13-001",
+    "he-dav-10-016"
   ],
   "assumes": [
-    "he-dav-40-002",
-    "he-dav-55-001",
-    "he-dav-39-006",
-    "he-dav-35-001",
-    "he-dav-10-009",
-    "he-dav-09-036",
-    "he-dav-21-003",
-    "he-dav-09-070",
-    "he-dav-21-030",
-    "he-dav-10-031",
-    "he-dav-09-072",
-    "he-dav-10-023",
-    "he-dav-19-030"
+    "he-dav-18-010",
+    "he-dav-52-001",
+    "he-dav-10-006",
+    "he-dav-39-005",
+    "he-dav-09-037",
+    "he-dav-21-005",
+    "he-dav-10-005",
+    "he-dav-09-020",
+    "he-dav-09-021",
+    "he-dav-10-039",
+    "he-dav-34-014"
   ],
   "blocks": [
     {
       "type": "prose",
       "caption": "Summary",
-      "html": "<p>Three common prepositions attach directly to the front of the word they govern: בְּ (in, with), לְ (to, for), and כְּ (like, as), and a fourth, מִ (from), does so in a shortened form. Because they are prefixes, they are read together with the noun, and their short vowel changes before an article or a guttural. Recognise the prefix and read it with its noun as one unit.</p>"
-    },
-    {
-      "type": "table",
-      "caption": "Prefix prepositions",
-      "columns": [
-        "Prefix",
-        "Meaning",
-        "Example"
-      ],
-      "rows": [
-        [
-          "בְּ",
-          "in, with",
-          "בַּבַּיִת (in the house)"
-        ],
-        [
-          "לְ",
-          "to, for",
-          "לַמֶּלֶךְ (to the king)"
-        ],
-        [
-          "כְּ",
-          "like, as",
-          "כְּמֶלֶךְ (like a king)"
-        ],
-        [
-          "מִ",
-          "from",
-          "מִבַּיִת (from a house)"
-        ]
-      ]
+      "html": "<p>Hebrew marks a noun as definite by prefixing the article הַ- and doubling the next consonant: מֶלֶךְ (a king), הַמֶּלֶךְ (the king). There is no indefinite article; a bare noun is indefinite. Before a guttural or ר, which cannot be doubled, the article&#x27;s vowel changes instead.</p>"
     },
     {
       "type": "prose",
-      "caption": "The prefixed prepositions",
-      "html": "<p>בְּבַיִת is &quot;in a house&quot;, לַמֶּלֶךְ &quot;to the king&quot;, כְּמֶלֶךְ &quot;like a king&quot;, מִבַּיִת &quot;from a house&quot;. When the article follows, the two prefixes combine: בְּ + הַ becomes בַּ, לְ + הַ becomes לַ, and the article&#x27;s doubling moves onto the noun. This combination is extremely common, so learn to spot it.</p>"
+      "caption": "The article",
+      "html": "<p>The article is the syllable הַ- prefixed to the noun, with the consonant after it doubled: מֶלֶךְ (a king) becomes הַמֶּלֶךְ (the king). Before a guttural the doubling is often dropped and the vowel adjusts. The article makes a specific, known thing; without it the noun is general or indefinite.</p>"
     },
     {
       "type": "prose",
-      "caption": "Vowel changes",
-      "html": "<p>Before a noun with a simple shewa, בְּ/לְ/כְּ take a short î or e to avoid two shewas together. Before a guttural with a composite shewa, they take the vowel of that composite shewa. These adjustments are regular and predictable once you know the shewa rules.</p>"
+      "caption": "Before gutturals",
+      "html": "<p>א, ע, and ר refuse the doubling, so the article lengthens to הָ: הָאִישׁ (the man), הָעִיר (the city), הָרֹאשׁ (the head). Before ה and ח the doubling is implied and the article stays הַ: הַהֵיכָל (the palace), הַחֹשֶׁךְ (the darkness). Before ח with qamets, and before an unstressed הָ or עָ, it becomes הֶ: הֶחָכָם (the wise one), הֶעָפָר (the dust); but הָהָר (the mountain), הָעָם (the people), where הָ and עָ are stressed.</p>"
     },
     {
       "type": "prose",
       "caption": "Common confusion",
-      "html": "<p>Do not separate the prefix from its noun when translating. בְּ is not a word standing alone; it is &quot;in&quot; or &quot;with&quot; attached to the next word. When you see בַּ, לַ, or כַּ with a doubled following consonant, read it as the preposition plus the definite article.</p>"
+      "html": "<p>Do not count the doubled consonant after הַ as part of the root. הַמֶּלֶךְ is ha + melek; the dagesh in מ belongs to the article.</p>"
     },
     {
       "type": "prose",
       "caption": "Source",
-      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (22nd ed., 1923), §14.</p>"
+      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (22nd ed., 1923), §11.</p>"
     },
     {
       "type": "vocab",
       "refs": [
-        "he-dav-44-006",
-        "he-dav-09-008",
-        "he-dav-37-005",
-        "he-dav-54-002",
-        "he-dav-51-022",
-        "he-dav-09-024",
-        "he-dav-10-014",
-        "he-dav-09-056",
-        "he-dav-21-004",
-        "he-dav-44-001",
-        "he-dav-10-045",
-        "he-dav-09-106",
-        "he-dav-13-007"
+        "he-dav-12-004",
+        "he-dav-12-005",
+        "he-dav-12-002",
+        "he-dav-12-003",
+        "he-dav-12-007",
+        "he-dav-18-007",
+        "he-dav-12-001",
+        "he-dav-10-018",
+        "he-dav-13-004",
+        "he-dav-12-008",
+        "he-dav-13-001",
+        "he-dav-10-016"
       ]
     }
   ],

@@ -5,326 +5,38 @@
     {
       "unit": 26,
       "n": 1,
-      "typeGuess": "parse-form",
+      "typeGuess": "translate-phrase",
       "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "תִּשְׁפַּלְנָה",
-      "answer_raw": "2 or 3 plur. fem. impf. Qal of שָׁפֵל"
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "God gave me a new song.",
+      "answer_raw": "נָתַן־לִי אֱלֹהִים שִׁיר חָדָשׁ"
     },
     {
       "unit": 26,
       "n": 2,
-      "typeGuess": "parse-form",
+      "typeGuess": "mcq",
       "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "קָטֹנְתִּי",
-      "answer_raw": "1 sing. pf. Qal of קָטֹן"
+      "prompt": "Choose the translation",
+      "body_raw": "לְפָנַי",
+      "answer_raw": "before me"
     },
     {
       "unit": 26,
       "n": 3,
-      "typeGuess": "parse-form",
+      "typeGuess": "mcq",
       "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "תִּקְטַן",
-      "answer_raw": "2 sing. masc. or 3 sing. fem. impf. Qal of קָטֹן"
+      "prompt": "Choose the translation",
+      "body_raw": "לְפָנַיִךְ",
+      "answer_raw": "before thee (f.)"
     },
     {
       "unit": 26,
       "n": 4,
-      "typeGuess": "parse-form",
-      "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "יָכְלָה",
-      "answer_raw": "3 sing. fem. pf. Qal of יָכֹל"
-    },
-    {
-      "unit": 26,
-      "n": 5,
-      "typeGuess": "parse-form",
-      "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "יְכָלְתֶּם",
-      "answer_raw": "2 plur. masc. pf. Qal of יָכֹל (see § 22. 1 b)"
-    },
-    {
-      "unit": 26,
-      "n": 6,
-      "typeGuess": "parse-form",
-      "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "אֶשְׁכַּל",
-      "answer_raw": "1 sing. impf. Qal of שָׁכֹל"
-    },
-    {
-      "unit": 26,
-      "n": 7,
-      "typeGuess": "parse-form",
-      "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "לִבְשִׁי",
-      "answer_raw": "2 sing. fem. imperat. Qal of לָבֵשׁ (לָבַשׁ is also found)"
-    },
-    {
-      "unit": 26,
-      "n": 8,
-      "typeGuess": "parse-form",
-      "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "נִכְבַּד",
-      "answer_raw": "1 plur. impf. Qal of כָּבֵד"
-    },
-    {
-      "unit": 26,
-      "n": 9,
-      "typeGuess": "parse-form",
-      "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "תִּכְבְּדִי",
-      "answer_raw": "2 sing. fem. impf. Qal of כָּבֵד"
-    },
-    {
-      "unit": 26,
-      "n": 10,
-      "typeGuess": "parse-form",
-      "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "אֶגְדַּל",
-      "answer_raw": "1 sing. impf. Qal of גָּדֵל"
-    },
-    {
-      "unit": 26,
-      "n": 11,
-      "typeGuess": "parse-form",
-      "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "רָעֵבוּ",
-      "answer_raw": "3 plur. pf. Qal of רָעֵב (pausal form of רָעֲבוּ)"
-    },
-    {
-      "unit": 26,
-      "n": 12,
       "typeGuess": "mcq",
       "confidence": 1.0,
       "prompt": "Choose the translation",
-      "body_raw": "קוֹל שׁוֹפָר לֹא נִשְׁמַע וְלַלֶּחֶם לֹא נִרְעָב",
-      "answer_raw": "We shall not hear the sound of the trumpet, nor shall we be hungry for bread."
-    },
-    {
-      "unit": 26,
-      "n": 13,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "לֹא יָכֹלְתָּ לִסְפֹּר הַכּוֹכָבִים",
-      "answer_raw": "Thou art not able to count the stars."
-    },
-    {
-      "unit": 26,
-      "n": 14,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "יִגְדַּל שֵׁם יהוה עַד עוֹלָם",
-      "answer_raw": "The name of Yahweh will be great for ever."
-    },
-    {
-      "unit": 26,
-      "n": 15,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "קְרַב וּשְׁמַע אֶת־כָּל־הַדְּבָרִים אֲשֶׁר אָנֹכִי דֹבֵר אֵלֶיךָ",
-      "answer_raw": "Draw near (sing.) and hearken to all the words which I am about to speak unto thee."
-    },
-    {
-      "unit": 26,
-      "n": 16,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "עַתָּה יָדַעְתִּי כִּי יְרֵא אֱלֹהִים אָתָּה",
-      "answer_raw": "Now I know that thou fearest God."
-    },
-    {
-      "unit": 26,
-      "n": 17,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "יהוה אֱלֹהַי גָּדַלְתָּ מְאֹד",
-      "answer_raw": "O Yahweh, my God, thou art very great."
-    },
-    {
-      "unit": 26,
-      "n": 18,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "זֵכֶר צַדִּיק לִבְרָכָה וְשֵׁם רְשָׁעִים יִרְקָב",
-      "answer_raw": "The memory of the righteous is blessed, but the name of the wicked shall rot."
-    },
-    {
-      "unit": 26,
-      "n": 19,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "קָרוֹב אַתָּה יהוה וְכָל־מִצְוֹתֶיךָ אֱמֶת תִּקְרַב רִנָּתִי לְפָנֶיךָ",
-      "answer_raw": "Nigh art thou, O Yahweh, and all thy commandments are truth, my ringing cry shall come near before thee."
-    },
-    {
-      "unit": 26,
-      "n": 20,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "לְעֵת זִקְנַת שְׁלֹמֹה לֹא הָיָה לְבָבוֹ שָׁלֵם עִם־יהוה אֱלֹהָיו כִּלְבַב דָּוִיד",
-      "answer_raw": "In the time of Solomon's old age his heart was not perfect with Yahweh his God, like the heart of David."
-    },
-    {
-      "unit": 26,
-      "n": 21,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "יִקְרָא הַמֶּלֶךְ בְּסֵפֶר הַתּוֹרָה כָּל־יְמֵי חַיָּיו לְמַעַן יִלְמַד לְיִרְאָה אֶת־יהוה אֱלֹהָיו",
-      "answer_raw": "The king shall read in the book of the law all the days of his life, that he may learn to fear Yahweh his God."
-    },
-    {
-      "unit": 26,
-      "n": 22,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "לֹא יִצְדַּק לְפָנֶיךָ כָּל־בָּשָׂר",
-      "answer_raw": "No flesh can be righteous before thee."
-    },
-    {
-      "unit": 26,
-      "n": 23,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "קדוש אתה יהוה מלאה כל־הארץ כבודך",
-      "answer_raw": "Holy art thou, O Yahweh, all the earth is full of thy glory."
-    },
-    {
-      "unit": 26,
-      "n": 24,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "שבעתי עולות ודם פרים לא חפצתי",
-      "answer_raw": "I am sated with burnt-offerings, and in the blood of oxen I delight not."
-    },
-    {
-      "unit": 26,
-      "n": 25,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "I cannot draw near.",
-      "answer_raw": "לֹא יָכֹלְתִּי לִקְרֹב"
-    },
-    {
-      "unit": 26,
-      "n": 26,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "I will be great.",
-      "answer_raw": "אֶגְדַּל"
-    },
-    {
-      "unit": 26,
-      "n": 27,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "Draw near.",
-      "answer_raw": "קְרַב (sing.) or קִרְבוּ (plur.)"
-    },
-    {
-      "unit": 26,
-      "n": 28,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "The God who made the heavens and the earth I (am) fearing.",
-      "answer_raw": "אֶת־הָאֱלֹהִים אֲשֶׁר עָשָׂה אֶת־הַשָּׁמַיִם וְאֶת־הָאָרֶץ אֲנִי יָרֵא"
-    },
-    {
-      "unit": 26,
-      "n": 29,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "Ye cannot keep my statutes with (בְּ) all your heart.",
-      "answer_raw": "לֹא יְכָלְתֶּם לִשְׁמֹר אֶת־פִּקּוּדַי בְּכָל־לְבַבְכֶם"
-    },
-    {
-      "unit": 26,
-      "n": 30,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "Thou art little.",
-      "answer_raw": "קָטֹנְתְּ (fem.) or קָטֹנְתָּ (masc.)"
-    },
-    {
-      "unit": 26,
-      "n": 31,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "Hear in order that thou mayest learn to fear Yahweh thy God.",
-      "answer_raw": "שְׁמַע לְמַעַן תִּלְמַד לְיִרְאָה אֶת־יְהוָה אֱלֹהֶיךָ"
-    },
-    {
-      "unit": 26,
-      "n": 32,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "They are not able to pursue after me.",
-      "answer_raw": "לֹא יָכְלוּ לִרְדֹּף אַחֲרָי"
-    },
-    {
-      "unit": 26,
-      "n": 33,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "I am bereaved.",
-      "answer_raw": "שָׁכָלְתִּי"
-    },
-    {
-      "unit": 26,
-      "n": 34,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "I know that thou shalt assuredly reign.",
-      "answer_raw": "יָדַעְתִּי כִּי מָלֹךְ תִּמְלֹךְ"
-    },
-    {
-      "unit": 26,
-      "n": 35,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "Cease to draw near before me, for your hands are full of blood (pl.).",
-      "answer_raw": "חִדְלוּ לִקְרֹב לְפָנַי כִּי מָלְאוּ יְדֵיכֶם דָּמִים"
-    },
-    {
-      "unit": 26,
-      "n": 36,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "How great art thou (O) my God, very deep are thy thoughts.",
-      "answer_raw": "מַה־גָּדַלְתָּ אֱלֹהַי עָמְקוּ מְאֹד מַחְשְׁבֹתֶיךָ"
+      "body_raw": "יָצָא לוֹט אֶל־הָאֲנָשִׁים הַפֶּתְחָה וְהַדֶּלֶת סָגַר אַחֲרָיו",
+      "answer_raw": "Lot went out to the men to the doorway, and he closed the door after him."
     }
   ]
 }

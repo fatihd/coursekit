@@ -1,93 +1,78 @@
 {
   "schema": "unit-lesson-v1.json",
   "unit": 55,
-  "title": "Conditional and Purpose Clauses",
-  "description": "Recognize conditional and purpose structures.",
+  "title": "Pe-Guttural Verbs",
+  "description": "Handle a guttural in first position.",
   "teaches": [
-    "he-dav-10-062",
-    "he-dav-10-065",
-    "he-dav-10-054",
-    "he-dav-09-057",
-    "he-dav-51-016",
-    "he-dav-09-093",
-    "he-dav-55-006",
-    "he-dav-09-085",
-    "he-dav-13-024",
-    "he-dav-09-116"
+    "he-dav-34-009",
+    "he-dav-34-011",
+    "he-dav-34-012",
+    "he-dav-34-017",
+    "he-dav-34-008",
+    "he-dav-34-015",
+    "he-dav-34-003",
+    "he-dav-34-004",
+    "he-dav-34-016"
   ],
   "assumes": [
-    "he-dav-10-079",
-    "he-dav-13-014",
-    "he-dav-09-082",
-    "he-dav-09-089",
-    "he-dav-13-023",
-    "he-dav-09-086",
-    "he-dav-51-019",
-    "he-dav-09-084",
-    "he-dav-09-122",
-    "he-dav-51-014"
+    "he-dav-33-003",
+    "he-dav-33-001",
+    "he-dav-09-043",
+    "he-dav-51-007",
+    "he-dav-33-006",
+    "he-dav-33-007",
+    "he-dav-33-002",
+    "he-dav-33-009",
+    "he-dav-33-008"
   ],
   "blocks": [
     {
       "type": "prose",
       "caption": "Summary",
-      "html": "<p>A condition is introduced by אִם (if) or, in some constructions, כִּי (if, when), and states the circumstance on which the main clause depends. A purpose clause is introduced by לְמַעַן (so that) or פֶּן (lest). Identify the condition and its consequence, or the purpose and the action it motivates, then translate each clause in its own order.</p>"
-    },
-    {
-      "type": "table",
-      "caption": "Condition and purpose",
-      "columns": [
-        "Clause",
-        "Meaning"
-      ],
-      "rows": [
-        [
-          "אִם תִּשְׁמֹר",
-          "if you will keep"
-        ],
-        [
-          "לְמַעַן תִּחְיֶה",
-          "so that you may live"
-        ],
-        [
-          "פֶּן תִּשְׁכַּח",
-          "lest you forget"
-        ]
-      ]
+      "html": "<p>Pe-Guttural verbs begin with one of the gutturals א, ה, ח, or ע. The guttural affects the vowels and the shewa at the front of the word, because gutturals prefer an a-class vowel and take a composite shewa where a strong verb would take a simple one. The changes are the regular consequences of the guttural rules already learned.</p>"
     },
     {
       "type": "prose",
-      "caption": "Conditions",
-      "html": "<p>אִם opens a condition: אִם תִּשְׁמֹר, &quot;if you will keep&quot;. The consequence follows in the main clause, often with the conjunction ו or simply by sequence. Read the condition first, then the result, and keep the &quot;if … then …&quot; structure clear even when English would reorder it.</p>"
+      "caption": "The first guttural",
+      "html": "<p>Where a strong verb would have a simple vocal shewa, a first guttural takes a composite shewa (a ḥateph) — a short vowel written with the shewa. So the second-person plural, the imperative, and the infinitive of a Pe-Guttural verb keep a short vowel beside the guttural instead of a bare shewa.</p>"
     },
     {
       "type": "prose",
-      "caption": "Purpose",
-      "html": "<p>לְמַעַן states a positive purpose, &quot;so that&quot;: לְמַעַן תִּחְיֶה, &quot;so that you may live&quot;. פֶּן states a negative purpose, &quot;lest&quot;: פֶּן תִּשְׁכַּח, &quot;lest you forget&quot;. These often follow an imperative or a command, giving the reason for it.</p>"
+      "caption": "Vowel changes",
+      "html": "<p>The vowel i before a guttural becomes e, and the short vowel often repeats itself under the guttural as a ḥateph of the same quality. In stative verbs (imperfect in a) the guttural takes e in the imperfect; in active verbs (imperfect in o) it takes a. These are the same guttural rules applied to the front of the word.</p>"
     },
     {
       "type": "prose",
       "caption": "Common confusion",
-      "html": "<p>Do not flatten אִם into a single meaning. It is &quot;if&quot; in conditions, but can also be &quot;or&quot; in questions. And do not translate פֶּן as a simple negative; it carries the idea of a feared result, &quot;lest&quot;, which is why it pairs naturally with commands and warnings.</p>"
+      "html": "<p>Do not treat Pe-Guttural verbs as a new list of exceptions. They follow the guttural laws — prefer a, take a composite shewa, cannot be doubled — already learned for the writing system. Apply those rules and the forms fall into place without extra memorising.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Worked example",
+      "html": "<p>Take עָמַד (&quot;he stood&quot;). The first guttural ע takes a composite shewa where a strong verb would take a simple one, and the vowel near it opens toward a. Watch for the ḥateph under the first guttural — that is the mark of a Pe-Guttural verb.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Reading practice",
+      "html": "<p>Read and parse. עָמַד הָאִישׁ — &quot;the man stood&quot;. עָבַר הָעָם — &quot;the people passed over&quot;. Watch for the composite shewa under the first guttural, and the a-vowel beside it, as the marks of a Pe-Guttural verb.</p>"
     },
     {
       "type": "prose",
       "caption": "Source",
-      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (22nd ed., 1923), §23 (final clauses), §49.</p>"
+      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (22nd ed., 1923), §34.</p>"
     },
     {
       "type": "vocab",
       "refs": [
-        "he-dav-10-062",
-        "he-dav-10-065",
-        "he-dav-10-054",
-        "he-dav-09-057",
-        "he-dav-51-016",
-        "he-dav-09-093",
-        "he-dav-55-006",
-        "he-dav-09-085",
-        "he-dav-13-024",
-        "he-dav-09-116"
+        "he-dav-34-009",
+        "he-dav-34-011",
+        "he-dav-34-012",
+        "he-dav-34-017",
+        "he-dav-34-008",
+        "he-dav-34-015",
+        "he-dav-34-003",
+        "he-dav-34-004",
+        "he-dav-34-016"
       ]
     }
   ],

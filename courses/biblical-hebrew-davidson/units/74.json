@@ -1,0 +1,83 @@
+{
+  "schema": "unit-lesson-v1.json",
+  "unit": 74,
+  "title": "Agreement and Pronominal Reference",
+  "description": "Check subject-predicate and pronominal agreement.",
+  "teaches": [
+    "he-dav-09-092",
+    "he-dav-10-072",
+    "he-dav-10-079",
+    "he-dav-13-014",
+    "he-dav-09-082",
+    "he-dav-09-089"
+  ],
+  "assumes": [
+    "he-dav-51-020",
+    "he-dav-10-049",
+    "he-dav-10-064",
+    "he-dav-09-107",
+    "he-dav-10-075",
+    "he-dav-51-026"
+  ],
+  "blocks": [
+    {
+      "type": "prose",
+      "caption": "Summary",
+      "html": "<p>A verb or predicate agrees with its subject in person, gender, and number, and a pronoun agrees with its antecedent. When you meet a pronoun or a verb, ask what it refers to and confirm the agreement; a mismatch usually means the referent has been misread. Agreement is a built-in cross-check that keeps reading accurate.</p>"
+    },
+    {
+      "type": "table",
+      "caption": "Agreement",
+      "columns": [
+        "Subject",
+        "Verb"
+      ],
+      "rows": [
+        [
+          "הָאִישׁ (the man)",
+          "שָׁמַר (he kept)"
+        ],
+        [
+          "הָאִשָּׁה (the woman)",
+          "שָׁמְרָה (she kept)"
+        ],
+        [
+          "הָאֲנָשִׁים (the men)",
+          "שָׁמְרוּ (they kept)"
+        ]
+      ]
+    },
+    {
+      "type": "prose",
+      "caption": "Subject agreement",
+      "html": "<p>הָאִישׁ שָׁמַר is &quot;the man kept&quot; (masculine singular subject, masculine singular verb); הָאִשָּׁה שָׁמְרָה is &quot;the woman kept&quot;; הָאֲנָשִׁים שָׁמְרוּ is &quot;the men kept&quot;. The verb&#x27;s ending points back to its subject, so a verb can confirm who the subject is even across intervening words.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Pronominal reference",
+      "html": "<p>A pronoun stands for a noun already mentioned: הָאִישׁ בָּא וְהוּא עָמַד, &quot;the man came and he stood&quot;. Check the pronoun&#x27;s gender and number against its antecedent; if they do not match, the pronoun refers to someone else or you have misread the antecedent.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Common confusion",
+      "html": "<p>Do not ignore agreement as a detail. When a verb ending does not fit the noun you assumed, reconsider the subject. Collective nouns (like עַם, &quot;people&quot;) sometimes take a plural verb by sense, and a few nouns have unexpected gender — learn those as you meet them rather than forcing the agreement.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Source",
+      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (22nd ed., 1923), §12–13, §16.</p>"
+    },
+    {
+      "type": "vocab",
+      "refs": [
+        "he-dav-09-092",
+        "he-dav-10-072",
+        "he-dav-10-079",
+        "he-dav-13-014",
+        "he-dav-09-082",
+        "he-dav-09-089"
+      ]
+    }
+  ],
+  "didYouKnow": ""
+}

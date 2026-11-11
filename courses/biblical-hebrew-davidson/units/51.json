@@ -1,93 +1,80 @@
 {
   "schema": "unit-lesson-v1.json",
   "unit": 51,
-  "title": "Noun Clauses and Verbless Sentences",
-  "description": "Recognize sentences that have no finite verb.",
+  "title": "Hitpael",
+  "description": "Learn the Hitpael stem and its reflexive meanings.",
   "teaches": [
-    "he-dav-10-035",
-    "he-dav-18-013",
-    "he-dav-56-008",
-    "he-dav-10-082",
-    "he-dav-10-081",
-    "he-dav-56-005",
-    "he-dav-09-119",
-    "he-dav-09-045",
-    "he-dav-10-056",
-    "he-dav-09-068"
+    "he-dav-09-018",
+    "he-dav-09-023",
+    "he-dav-17-002",
+    "he-dav-09-113",
+    "he-dav-09-098",
+    "he-dav-10-077",
+    "he-dav-44-016",
+    "he-dav-10-020"
   ],
   "assumes": [
-    "he-dav-13-034",
-    "he-dav-10-046",
-    "he-dav-10-057",
-    "he-dav-09-066",
-    "he-dav-09-097",
-    "he-dav-10-044",
-    "he-dav-09-053",
-    "he-dav-20-004",
-    "he-dav-54-001",
-    "he-dav-09-120"
+    "he-dav-51-021",
+    "he-dav-09-088",
+    "he-dav-55-007",
+    "he-dav-55-002",
+    "he-dav-09-087",
+    "he-dav-09-034",
+    "he-dav-10-043",
+    "he-dav-37-012"
   ],
   "blocks": [
     {
       "type": "prose",
       "caption": "Summary",
-      "html": "<p>A noun clause (or verbless sentence) identifies or describes a subject without a finite verb, joining subject and predicate by word order: הָאִישׁ טוֹב (the man is good). The present tense is understood. The particles יֵשׁ (there is) and אֵין (there is not) open existential clauses. Reading these requires watching for the missing &quot;is&quot;, which English supplies but Hebrew does not.</p>"
-    },
-    {
-      "type": "table",
-      "caption": "Verbless sentences",
-      "columns": [
-        "Sentence",
-        "Meaning"
-      ],
-      "rows": [
-        [
-          "הָאִישׁ טוֹב",
-          "the man is good"
-        ],
-        [
-          "יֵשׁ אִישׁ",
-          "there is a man"
-        ],
-        [
-          "אֵין אִישׁ",
-          "there is no man"
-        ]
-      ]
+      "html": "<p>Hitpael is the reflexive stem, formed by prefixing hith- to the Piel root-form: הִתְקַטֵּל, &quot;he killed himself&quot;. It is the reflexive of the intensive, and its meanings include acting on oneself, showing oneself as, reciprocal action, and acting for one&#x27;s own benefit.</p>"
     },
     {
       "type": "prose",
-      "caption": "The verbless clause",
-      "html": "<p>When two nouns, or a noun and an adjective, stand together with no verb, supply &quot;is/are&quot;: הָאִישׁ טוֹב, &quot;the man is good&quot;; דָּוִד מֶלֶךְ, &quot;David is king&quot;. The subject usually comes first, then the predicate. Definiteness helps decide which is which: the definite noun is normally the subject, the indefinite or adjectival one the predicate.</p>"
+      "caption": "The form",
+      "html": "<p>The prefix hith- marks the stem. Before a sibilant the t and the sibilant change places (metathesis): הִשְׁתַּמֵּר for the expected הִתְשַׁמֵּר. Before a dental the t is assimilated. These are the only points that can hide the prefix, so learn to see through them.</p>"
     },
     {
       "type": "prose",
-      "caption": "Existential clauses",
-      "html": "<p>יֵשׁ and אֵין state existence or possession: יֵשׁ אִישׁ, &quot;there is a man&quot;; אֵין אִישׁ, &quot;there is no man&quot;. With a pronominal suffix they express possession: יֶשְׁנוֹ, &quot;he has&quot;; אֵינֶנּוּ, &quot;he has not&quot;. These are the standard way to say &quot;have&quot; in Hebrew.</p>"
+      "caption": "The meanings",
+      "html": "<p>Hitpael is properly reflexive of Piel — &quot;to sanctify oneself&quot;. But it very often means &quot;to show oneself as&quot; or &quot;to give oneself out as&quot; performing the action: &quot;to show oneself revengeful&quot;, &quot;to give oneself out to be rich&quot;. It may express reciprocal action (&quot;they looked on one another&quot;) or action for oneself (&quot;to walk about for oneself&quot;). These shades share the idea of the subject turned back on itself.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Niphal and Hitpael",
+      "html": "<p>The two are not the same. Niphal is the simple reflexive/passive of Qal; Hitpael is the reflexive of the intensive Piel. They differ in formation and in history, and they are never interchangeable. When you meet a reflexive idea, decide first whether the underlying verb is simple (Niphal) or intensive (Hitpael).</p>"
     },
     {
       "type": "prose",
       "caption": "Common confusion",
-      "html": "<p>Do not look for a verb that is not there. When a sentence lacks a verb, do not add a word like &quot;was&quot; unless the context is past. Also remember אֵין is a negation of existence, not a verb; translate it as &quot;there is not&quot; or &quot;he has not&quot; rather than a simple &quot;no&quot;.</p>"
+      "html": "<p>Do not treat Hitpael as merely &quot;passive&quot;. Its core is reflexivity — the subject acting on or for itself — and the &quot;show oneself as&quot; nuance is frequent. Read the prefix, recover the root, and let the reflexive force guide the translation.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Worked example",
+      "html": "<p>Take הִתְפַּלֵּל (&quot;he prayed&quot;). The hith- prefix marks Hitpael, and the meaning is reflexive — literally &quot;he judged himself&quot;, hence &quot;he prayed&quot;. The subject acts on itself, which is the core idea to look for in every Hitpael.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Reading practice",
+      "html": "<p>Read and parse. הִתְפַּלֵּל הָאִישׁ — &quot;the man prayed&quot; (Hitpael, reflexive). הִתְקַדֵּשׁ הָעָם — &quot;the people sanctified themselves&quot;. The hith- prefix marks the stem, and the subject acting on itself is the meaning.</p>"
     },
     {
       "type": "prose",
       "caption": "Source",
-      "html": "<p>Davidson, *Hebrew Syntax* (1901).</p>"
+      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (22nd ed., 1923), §26.</p>"
     },
     {
       "type": "vocab",
       "refs": [
-        "he-dav-10-035",
-        "he-dav-18-013",
-        "he-dav-56-008",
-        "he-dav-10-082",
-        "he-dav-10-081",
-        "he-dav-56-005",
-        "he-dav-09-119",
-        "he-dav-09-045",
-        "he-dav-10-056",
-        "he-dav-09-068"
+        "he-dav-09-018",
+        "he-dav-09-023",
+        "he-dav-17-002",
+        "he-dav-09-113",
+        "he-dav-09-098",
+        "he-dav-10-077",
+        "he-dav-44-016",
+        "he-dav-10-020"
       ]
     }
   ],

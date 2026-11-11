@@ -28,6 +28,8 @@ export default {
   list, mapping object). The grader is type-specific.
 
 Difficulty = **lookback depth**: how far back the `pool` reaches for distractors.
+*(Distractor setting only. Course difficulty is the exercise ladder of ADR-022: true/false → multiple choice →
+fill in the blank → translate without points → translate with points.)*
 - `within-unit` — distractors only from the current unit (early units).
 - `recent` — last ≤3 completed units.
 - `known` — the full known set (later units → old vocab resurfaces naturally).

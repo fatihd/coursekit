@@ -6,6 +6,11 @@ block-to-unit map `build/_sources/davidson/exwb-units.json`, and writes
 `authored/NN.json` (engine items) plus `exercises/NN.json` (raw scaffolds) for
 every mapped unit. Held blocks are skipped. Output is deterministic.
 
+Translation sentences are placed one by one (P12-T1): each goes to the first unit
+that teaches all the grammar it uses, from `sentence-grammar.json` (tags per
+sentence) and `grammar-units.json` (feature -> unit). Other items stay in their
+block's unit.
+
     python build/exwb_to_authored.py --course courses/biblical-hebrew-davidson
     python build/exwb_to_authored.py --course courses/biblical-hebrew-davidson --check
 """
@@ -24,6 +29,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 CURATED = ROOT / "exwb" / "curated"
 MAP = ROOT / "build" / "_sources" / "davidson" / "exwb-units.json"
+GRAMMAR = ROOT / "build" / "_sources" / "davidson" / "grammar-units.json"
+TAGS = ROOT / "build" / "_sources" / "davidson" / "sentence-grammar.json"
+SENTENCE_SHAPES = ("en-he", "he-en")
 GRAMMAR_ID = "introductoryhebr0000davi_w1b2"
 KEY_ID = "keytoexercisesin0000mcfa"
 NOTE = "Transcribed by hand from the scans and checked against the Key."
@@ -354,11 +362,25 @@ def dump(obj: dict) -> str:
     return json.dumps(obj, ensure_ascii=False, indent=2) + "\n"
 
 
+def sentence_units() -> dict[str, int]:
+    grammar = json.loads(GRAMMAR.read_text(encoding="utf-8"))
+    units = {k: v["unit"] for k, v in grammar["features"].items()}
+    tags = json.loads(TAGS.read_text(encoding="utf-8"))["sentences"]
+    out = {}
+    for ref, feats in tags.items():
+        unknown = [f for f in feats if f not in units]
+        if unknown:
+            sys.exit(f"{ref}: unknown grammar feature(s) {unknown} in {TAGS.relative_to(ROOT)}")
+        out[ref] = max([grammar["floor"]] + [units[f] for f in feats])
+    return out
+
+
 def build(cfg: dict) -> tuple[dict[int, list[dict]], dict[int, list[dict]], Counter]:
     per_unit: dict[int, list[dict]] = defaultdict(list)
     per_unit_raw: dict[int, list[dict]] = defaultdict(list)
     shapes: Counter = Counter()
     held = set(cfg.get("held", []))
+    placed = sentence_units()
     for path in sorted(CURATED.glob("davidson-*.json")):
         stem = path.stem
         if stem in held:
@@ -367,8 +389,15 @@ def build(cfg: dict) -> tuple[dict[int, list[dict]], dict[int, list[dict]], Coun
             sys.exit(f"{stem}: not held and not mapped in {MAP.relative_to(ROOT)}")
         unit = cfg["blocks"][stem]["unit"]
         authored, raw = build_block(stem, json.loads(path.read_text(encoding="utf-8")), cfg)
-        per_unit[unit] += authored
-        per_unit_raw[unit] += raw
+        for item, scaffold in zip(authored, raw):
+            target = unit
+            if item["shape"] in SENTENCE_SHAPES:
+                ref = item["source"]["exwb"]
+                if ref not in placed:
+                    sys.exit(f"{ref}: sentence has no grammar tags in {TAGS.relative_to(ROOT)}")
+                target = placed[ref]
+            per_unit[target].append(item)
+            per_unit_raw[target].append(scaffold)
         shapes.update(a["shape"] for a in authored)
     missing = set(cfg["blocks"]) - {p.stem for p in CURATED.glob("davidson-*.json")}
     if missing:

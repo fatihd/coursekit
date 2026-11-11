@@ -1,125 +1,95 @@
 {
   "schema": "unit-lesson-v1.json",
   "unit": 18,
-  "title": "Other Prepositions and the Noun Phrase",
-  "description": "Use independent prepositions and the object marker.",
+  "title": "Demonstratives",
+  "description": "Point to things near and far with this, that, these, and those.",
   "teaches": [
-    "he-dav-35-002",
-    "he-dav-09-099",
-    "he-dav-10-052",
-    "he-dav-13-010",
-    "he-dav-21-013",
-    "he-dav-13-033",
-    "he-dav-13-037",
-    "he-dav-51-002",
-    "he-dav-56-006",
-    "he-dav-10-028",
-    "he-dav-21-026",
-    "he-dav-13-036",
-    "he-dav-13-031",
-    "he-dav-09-121",
-    "he-dav-36-006"
+    "he-dav-33-004",
+    "he-dav-44-013",
+    "he-dav-15-003",
+    "he-dav-51-023",
+    "he-dav-15-005",
+    "he-dav-15-004",
+    "he-dav-09-028",
+    "he-dav-51-024",
+    "he-dav-21-017"
   ],
   "assumes": [
-    "he-dav-51-001",
-    "he-dav-51-018",
-    "he-dav-38-002",
-    "he-dav-40-001",
-    "he-dav-34-010",
-    "he-dav-17-003",
-    "he-dav-09-032",
-    "he-dav-39-001",
-    "he-dav-10-013",
-    "he-dav-10-004",
-    "he-dav-09-003",
-    "he-dav-21-024",
-    "he-dav-10-012",
-    "he-dav-18-002",
-    "he-dav-21-010"
+    "he-dav-10-015",
+    "he-dav-51-004",
+    "he-dav-34-013",
+    "he-dav-21-004",
+    "he-dav-17-005",
+    "he-dav-13-003",
+    "he-dav-09-058",
+    "he-dav-12-006",
+    "he-dav-09-062",
+    "he-dav-09-044",
+    "he-dav-09-091"
   ],
   "blocks": [
     {
       "type": "prose",
       "caption": "Summary",
-      "html": "<p>Alongside the prefixed prepositions, Hebrew has independent prepositions that stand as separate words: מִן (from), עַל (upon), אֶל (to, toward), עִם (with), תַּחַת (under). The particle אֵת (or אֶת־) marks a definite direct object and is not translated; it simply signals that the following noun is the object of a transitive verb. Together these complete the noun phrase and its relations.</p>"
+      "html": "<p>זֶה (this, masculine), זֹאת (this, feminine), and אֵלֶּה (these) point to something near; הוּא, הִיא (that) and הֵם, הֵן (those) point to something farther away. After a noun they behave like adjectives and take the article when the noun has it: הָאִישׁ הַזֶּה (this man), הַיּוֹם הַהוּא (that day). Before a noun, without the article, they make a sentence: זֶה הָאִישׁ (this is the man).</p>"
     },
     {
       "type": "table",
-      "caption": "Prepositions and the object marker",
+      "caption": "Demonstratives",
       "columns": [
         "Form",
         "Meaning"
       ],
       "rows": [
         [
-          "מִן",
-          "from"
+          "זֶה",
+          "this (masculine)"
         ],
         [
-          "עַל",
-          "upon, over"
+          "זֹאת",
+          "this (feminine)"
         ],
         [
-          "אֶל",
-          "to, toward"
+          "אֵלֶּה",
+          "these"
         ],
         [
-          "עִם",
-          "with"
+          "הוּא / הִיא",
+          "that (masculine / feminine)"
         ],
         [
-          "תַּחַת",
-          "under"
-        ],
-        [
-          "אֵת",
-          "(definite direct object)"
+          "הֵם / הֵן",
+          "those (masculine / feminine)"
         ]
       ]
     },
     {
       "type": "prose",
-      "caption": "Independent prepositions",
-      "html": "<p>Read מִן, עַל, אֶל, עִם, and תַּחַת as separate words that relate a noun to the rest of the sentence: עַל הַר (on a mountain), אֶל הָעִיר (to the city), עִם הָעָם (with the people). They often take pronominal suffixes like the prefixed prepositions, giving forms such as עָלַי (upon me) and עִמּוֹ (with him).</p><p>Unlike בְּ, לְ, and כְּ, these prepositions stand as independent words before a noun. Their meanings are broad and context-sensitive: מִן can mean “from” or “out of,” עַל can express position or relation, and אֶל commonly marks direction or a goal. Read the preposition with the noun it governs, then fit that phrase into the clause; do not assume one English equivalent works in every context. When a preposition governs a pronoun, Hebrew normally attaches a pronominal suffix rather than placing an independent pronoun immediately after it.</p><p>The short form מִן also shows a sound change that Davidson describes as assimilation: its final nun merges with the following consonant, which is then strengthened. This is why the surface form may not look like the citation form מִן. Before a guttural, which cannot take ordinary doubling, the form behaves differently. When reading, use the following consonant and the phrase&#x27;s meaning to recognize the preposition rather than searching only for the full word מִן.</p>"
-    },
-    {
-      "type": "prose",
-      "caption": "The object marker אֵת",
-      "html": "<p>אֵת is not a preposition but a marker of a definite direct object. When the object is definite, the verb is followed by אֵת: רָאָה הָאִישׁ אֶת־הַמֶּלֶךְ, &quot;the man saw the king&quot;. It is left untranslated; its job is to show that what follows is the object, not the subject.</p>"
-    },
-    {
-      "type": "prose",
-      "caption": "Find the object in the clause",
-      "html": "<p>Use אֵת as a parsing signal, not as a translated word. Locate the finite verb, then ask which noun phrase is its object. If that object is definite, אֵת may introduce it; the object can be a name, a noun with the article, or a noun made definite by a suffix. The marker is especially helpful when Hebrew word order alone does not identify the object. It does not mean “with”—that is עִם—and it does not by itself tell you the verb&#x27;s tense or stem.</p><p>The written form אֵת must also be distinguished from the homonymous preposition אֵת/אֶת meaning “with” in some uses. The construction gives the clue: before a definite direct object after a transitive verb, read it as the object marker; in a prepositional phrase, interpret it by its relation to the following noun. Always parse the phrase before assigning an English gloss.</p>"
+      "caption": "Demonstratives",
+      "html": "<p>זֶה and זֹאת agree with their noun in gender, אֵלֶּה in number. Because the demonstrative is definite by nature, a definite noun takes a definite demonstrative: הָאִישׁ הַזֶּה (this man), הָאִשָּׁה הַזֹּאת (this woman). They can also stand alone: זֶה טוֹב, &quot;this is good&quot;.</p>"
     },
     {
       "type": "prose",
       "caption": "Common confusion",
-      "html": "<p>Do not translate אֵת as &quot;with&quot; (that is עִם) or confuse it with אֵת the other homonym. When אֵת (or אֶת־) stands before a noun after a transitive verb, it marks the object and adds no English word. Check whether the noun is definite: אֵת appears with definite objects, while indefinite objects usually stand without it.</p><p>The marker is a strong clue, not a substitute for understanding the whole clause. Hebrew can omit it in poetry or in constructions where definiteness is understood, so an unmarked noun is not automatically the subject. Use agreement, verb meaning, and clause context along with אֵת.</p>"
+      "html": "<p>Watch the article. הָאִישׁ הַזֶּה is &quot;this man&quot;, a phrase; זֶה הָאִישׁ is &quot;this is the man&quot;, a sentence. And הוּא can be &quot;he&quot; or &quot;that&quot;: with the article after a definite noun, as in הַיּוֹם הַהוּא, it is &quot;that&quot;.</p>"
     },
     {
       "type": "prose",
       "caption": "Source",
-      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (22nd ed., 1923), §14–15.</p>"
+      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (22nd ed., 1923), §13.</p>"
     },
     {
       "type": "vocab",
       "refs": [
-        "he-dav-35-002",
-        "he-dav-09-099",
-        "he-dav-10-052",
-        "he-dav-13-010",
-        "he-dav-21-013",
-        "he-dav-13-033",
-        "he-dav-13-037",
-        "he-dav-51-002",
-        "he-dav-56-006",
-        "he-dav-10-028",
-        "he-dav-21-026",
-        "he-dav-13-036",
-        "he-dav-13-031",
-        "he-dav-09-121",
-        "he-dav-36-006"
+        "he-dav-33-004",
+        "he-dav-44-013",
+        "he-dav-15-003",
+        "he-dav-51-023",
+        "he-dav-15-005",
+        "he-dav-15-004",
+        "he-dav-09-028",
+        "he-dav-51-024",
+        "he-dav-21-017"
       ]
     }
   ],

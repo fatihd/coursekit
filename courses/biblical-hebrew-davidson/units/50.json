@@ -1,91 +1,75 @@
 {
   "schema": "unit-lesson-v1.json",
   "unit": 50,
-  "title": "Verb Review and Reading",
-  "description": "Consolidate the verb system in short phrases.",
+  "title": "Hophal",
+  "description": "Learn the Hophal stem, the passive of Hiphil.",
   "teaches": [
-    "he-dav-13-034",
-    "he-dav-10-046",
-    "he-dav-10-057",
-    "he-dav-09-066",
-    "he-dav-09-097",
-    "he-dav-10-044",
-    "he-dav-09-053",
-    "he-dav-20-004",
-    "he-dav-54-001",
-    "he-dav-09-120"
+    "he-dav-51-021",
+    "he-dav-09-088",
+    "he-dav-55-007",
+    "he-dav-55-002",
+    "he-dav-09-087",
+    "he-dav-09-034",
+    "he-dav-10-043",
+    "he-dav-37-012"
   ],
   "assumes": [
-    "he-dav-13-020",
-    "he-dav-10-033",
-    "he-dav-10-066",
-    "he-dav-09-061",
-    "he-dav-09-080",
-    "he-dav-10-047",
-    "he-dav-09-041",
-    "he-dav-09-042",
-    "he-dav-10-073",
-    "he-dav-13-027"
+    "he-dav-10-002",
+    "he-dav-10-003",
+    "he-dav-09-064",
+    "he-dav-09-016",
+    "he-dav-30-002",
+    "he-dav-30-001",
+    "he-dav-30-003",
+    "he-dav-30-004"
   ],
   "blocks": [
     {
       "type": "prose",
       "caption": "Summary",
-      "html": "<p>Consolidate the verb system by producing forms from roots and features, and by reading short phrases that mix Qal and derived stems with weak roots. The goal is fluent recognition and accurate parsing, not speed. Any part that still feels slow is the part to review.</p>"
+      "html": "<p>Hophal is the passive of Hiphil. Where Hiphil הִקְטִיל means &quot;he caused to kill&quot;, Hophal הָקְטַל means &quot;he was caused to kill&quot; or &quot;it was brought about&quot;. It uses an o-class vowel (a short o) with the same he prefix, and it is uncommon, so recognising it is the main task.</p>"
     },
     {
       "type": "prose",
-      "caption": "Producing and reading",
-      "html": "<p>Given a root, stem, and features, build the form; given a form, parse it back. Move both directions until the patterns are automatic. Real Hebrew mixes perfect and imperfect, Qal and derived stems, and strong and weak roots all at once, so practise on phrases, not isolated words.</p>"
+      "caption": "The form",
+      "html": "<p>Hophal keeps the he prefix of Hiphil but replaces the i-vowel with an o (a qamets-hatuf): הָקְטַל against הִקְטִיל. The imperfect is יָקְטַל. The distinction between the two vowels — i for the causative active, o for its passive — is the whole trick of telling them apart.</p>"
     },
     {
       "type": "prose",
-      "caption": "Reading a phrase",
-      "html": "<p>In a phrase, parse each verb in order — root, stem, conjugation, person — then identify each noun and its relation, and translate clause by clause. Do not translate word by word; let each clause&#x27;s structure determine the English.</p>"
-    },
-    {
-      "type": "prose",
-      "caption": "Read the verbal sequence",
-      "html": "<p>Begin with the clause&#x27;s first finite verb or verbal equivalent. Ask whether it presents a completed event, an incomplete or repeated action, or a continuous state. Then follow the links: a wayyiqtol can continue a past sequence after a perfect or its equivalent; a weqatal can continue the future, habitual, or modal force of an imperfect, command, participle, or implied equivalent. A participle usually portrays ongoing action rather than the next event in a sequence. These are relationships among clauses, not mechanical tense switches.</p>"
-    },
-    {
-      "type": "prose",
-      "caption": "Check the whole clause",
-      "html": "<p>After parsing a verb, identify its subject and any object or complement, including attached pronominal suffixes. Check whether a stative perfect is best rendered as an English present, whether an imperfect expresses repetition or possibility, and whether a following clause is dependent or consecutive. Only then translate in natural English. If one form is uncertain, use the surrounding verbs and syntax as evidence before returning to the appropriate stem or weak-verb paradigm.</p>"
+      "caption": "Hiphil and Hophal",
+      "html": "<p>The two belong together as one pair: the causative active and its passive. Teach them side by side, because every Hophal is the passive counterpart of a Hiphil, and a Hophal in the text points back to a causative idea. When you see a passive-looking he-prefixed verb, ask what causative idea it is the passive of.</p>"
     },
     {
       "type": "prose",
       "caption": "Common confusion",
-      "html": "<p>Do not expect a passage to use only one form. Mixing is normal, and the discipline of parsing in order is what keeps the reading accurate. If a form still baffles, return to the relevant weak-verb or stem chapter rather than guessing.</p><p>The final test is coherent reading: your parse of each form should fit both its own morphology and the clause sequence around it. A correct label that produces an impossible or disconnected translation is a reason to check the analysis again, especially for weak roots, stative verbs, and waw-consecutive forms.</p>"
+      "html": "<p>Do not confuse Hophal with the Qal passive or with Pual. All three can be passive, but only Hophal carries the he prefix of the causative. Match the passive to its active stem — Hiphil for Hophal — and the parse is settled.</p>"
     },
     {
       "type": "prose",
       "caption": "Worked example",
-      "html": "<p>Parse וַיִּשְׁמַע in a phrase. The waw-consecutive marks narrative sequence, and the imperfect יִשְׁמַע is &quot;he heard&quot;. Name it as &quot;Qal imperfect 3ms of שׁמע with waw-consecutive&quot;, then translate the chain as a past sequence, clause by clause.</p>"
+      "html": "<p>Take הָקְטַל (&quot;he was caused to kill&quot;). The he prefix is the same as Hiphil, but the o-vowel (a short o) replaces the i, marking the passive. Match every Hophal back to its Hiphil: הָקְטַל is the passive of הִקְטִיל.</p>"
     },
     {
       "type": "prose",
       "caption": "Reading practice",
-      "html": "<p>Parse the phrase וַיָּקָם הָאִישׁ וַיֵּלֶךְ — &quot;and the man arose and went&quot;. וַיָּקָם is the waw-consecutive imperfect of קום, וַיֵּלֶךְ of הלך. Read the chain as a past sequence, each verb linked to the one before it.</p>"
+      "html": "<p>Read and parse. הָקְטַל הָעָם — &quot;the people were caused to be slain&quot;. The he prefix with the o-vowel (not the Hiphil i) marks Hophal, the passive of the causative. Match each Hophal back to its Hiphil.</p>"
     },
     {
       "type": "prose",
       "caption": "Source",
-      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (22nd ed., 1923), §28, §46.</p>"
+      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (22nd ed., 1923), §27.</p>"
     },
     {
       "type": "vocab",
       "refs": [
-        "he-dav-13-034",
-        "he-dav-10-046",
-        "he-dav-10-057",
-        "he-dav-09-066",
-        "he-dav-09-097",
-        "he-dav-10-044",
-        "he-dav-09-053",
-        "he-dav-20-004",
-        "he-dav-54-001",
-        "he-dav-09-120"
+        "he-dav-51-021",
+        "he-dav-09-088",
+        "he-dav-55-007",
+        "he-dav-55-002",
+        "he-dav-09-087",
+        "he-dav-09-034",
+        "he-dav-10-043",
+        "he-dav-37-012"
       ]
     }
   ],

@@ -1,86 +1,70 @@
 {
   "schema": "unit-lesson-v1.json",
   "unit": 44,
-  "title": "Lamed-He Verbs",
-  "description": "Recognize the weak final radical he.",
+  "title": "Transitive and Stative Verbs",
+  "description": "Distinguish active, intransitive, and stative Qal verbs and their forms.",
   "teaches": [
-    "he-dav-44-010",
-    "he-dav-44-009",
-    "he-dav-09-113",
-    "he-dav-44-007",
-    "he-dav-44-003",
-    "he-dav-10-034",
-    "he-dav-44-014",
-    "he-dav-44-005",
-    "he-dav-44-016",
-    "he-dav-10-068",
-    "he-dav-44-017",
-    "he-dav-44-018"
+    "he-dav-09-033",
+    "he-dav-09-047",
+    "he-dav-09-100",
+    "he-dav-10-026",
+    "he-dav-21-037",
+    "he-dav-21-018",
+    "he-dav-21-022",
+    "he-dav-21-027"
   ],
   "assumes": [
-    "he-dav-43-001",
-    "he-dav-43-002",
-    "he-dav-43-003",
-    "he-dav-09-087",
-    "he-dav-09-034",
-    "he-dav-10-043",
-    "he-dav-09-023",
-    "he-dav-17-002",
-    "he-dav-09-060",
-    "he-dav-10-050",
-    "he-dav-43-004"
+    "he-dav-09-040",
+    "he-dav-13-002",
+    "he-dav-21-019",
+    "he-dav-21-025",
+    "he-dav-13-026",
+    "he-dav-21-009",
+    "he-dav-13-028",
+    "he-dav-19-067"
   ],
   "blocks": [
     {
       "type": "prose",
       "caption": "Summary",
-      "html": "<p>Lamed-He verbs end in a weak he, which appears as a final vowel or drops out. בָּנָה (he built) becomes יִבְנֶה (he will build), and עָשָׂה (he made) becomes יַעֲשֶׂה. The final he is usually a spelling of a vowel that was once a full root consonant, so the ending changes across the forms.</p>"
+      "html": "<p>The Qal perfect may end in any of three vowels: a, e, or o. Verbs in a are transitive (active); verbs in e and o are intransitive or stative — they describe the condition of the subject. The distinction shapes the whole verb: an active verb forms its imperfect in o, a stative verb in a, and the stative perfect is often best translated as an English present (&quot;I know&quot;, &quot;I am old&quot;).</p>"
     },
     {
       "type": "prose",
-      "caption": "The final he",
-      "html": "<p>The final he of a Lamed-He verb is a weak letter that surfaces as a vowel: in the perfect it is -āh (בָּנָה), in the imperfect -eh (יִבְנֶה). It is not a feminine ending, even though it looks like one. Read it as the root&#x27;s third radical showing through.</p>"
+      "caption": "Active and stative",
+      "html": "<p>Verbs are named after the vowel of their perfect: a-verbs, e-verbs, and o-verbs. Verbs ending in a are transitive; verbs in e and o are intransitive, though the terms do not correspond exactly to those of Western languages. The intransitive class is wide, embracing words that describe the condition of the subject — to be full, to thirst, to fear, to love — even when they can take an object. These are called stative verbs, verbs of state, physical (to be great, to be old) or mental (to rejoice, to hate).</p>"
     },
     {
       "type": "prose",
-      "caption": "The forms",
-      "html": "<p>The imperfect, imperative, and infinitive of these verbs end in a vowel rather than a consonant, and the class frequently overlaps with Lamed-Aleph. The perfect and imperfect endings are the main clue: -āh in the perfect, -eh in the imperfect.</p>"
+      "caption": "The forms of the stative",
+      "html": "<p>The two classes differ throughout. The active verb (perfect in a) forms its imperfect in o: קָטַל gives יִקְטֹל. The stative verb (perfect in e or o) forms its imperfect in a: כָּבֵד (to be heavy) gives יִכְבַּד. The participle of the active verb is קֹטֵל; the stative&#x27;s participle is the same as its perfect, a verbal adjective — זָקֵן (old), יָרֵא (fearing).</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "The stative perfect in translation",
+      "html": "<p>The perfect of a stative verb usually corresponds to the English present: יָדַעְתִּי, &quot;I know&quot; (not &quot;I knew&quot;); זָקַנְתִּי, &quot;I am old&quot;. This is found with other verbs of affection and mental state: &quot;I trust&quot;, &quot;I remember&quot;. The condition or state is regarded as the abiding result of a past experience, and Hebrew expresses that abiding state with the perfect.</p>"
     },
     {
       "type": "prose",
       "caption": "Common confusion",
-      "html": "<p>Do not read a final he on a verb as a feminine ending. בָּנָה is a third-person masculine perfect, not a feminine form. Compare the perfect and imperfect endings to see the weak final radical, and keep the class distinct from Lamed-Aleph, with which it overlaps.</p>"
-    },
-    {
-      "type": "prose",
-      "caption": "Worked example",
-      "html": "<p>Take בָּנָה (&quot;he built&quot;) and יִבְנֶה (&quot;he will build&quot;). The final he is a weak letter that appears as -āh in the perfect and -eh in the imperfect. It is not a feminine ending; it is the root&#x27;s third radical showing through as a vowel.</p>"
-    },
-    {
-      "type": "prose",
-      "caption": "Reading practice",
-      "html": "<p>Read and parse. בָּנָה הָאִישׁ — &quot;the man built&quot;. עָשָׂה הָעָם — &quot;the people made&quot;. The final -āh (perfect) and -eh (imperfect) are the weak final radical, not a feminine ending.</p>"
+      "html": "<p>Do not translate every Qal perfect as a past tense. A stative perfect — &quot;I know&quot;, &quot;I am old&quot;, &quot;I fear&quot; — is a present state. And do not confuse stative with intransitive: not all intransitive verbs are stative (to reign is intransitive but not stative), and some stative verbs take an object (to love, to put on). Let the vowel and the meaning together decide.</p>"
     },
     {
       "type": "prose",
       "caption": "Source",
-      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (22nd ed., 1923), §44.</p>"
+      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (22nd ed., 1923), §22.</p>"
     },
     {
       "type": "vocab",
       "refs": [
-        "he-dav-44-010",
-        "he-dav-44-009",
-        "he-dav-09-113",
-        "he-dav-44-007",
-        "he-dav-44-003",
-        "he-dav-10-034",
-        "he-dav-44-014",
-        "he-dav-44-005",
-        "he-dav-44-016",
-        "he-dav-10-068",
-        "he-dav-44-017",
-        "he-dav-44-018"
+        "he-dav-09-033",
+        "he-dav-09-047",
+        "he-dav-09-100",
+        "he-dav-10-026",
+        "he-dav-21-037",
+        "he-dav-21-018",
+        "he-dav-21-022",
+        "he-dav-21-027"
       ]
     }
   ],

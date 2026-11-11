@@ -8,8 +8,8 @@
       "typeGuess": "mcq",
       "confidence": 1.0,
       "prompt": "Choose the translation",
-      "body_raw": "לֹא שָׁתָה הָעָם מִמֵּי הַיְאֹר",
-      "answer_raw": "The people did not drink from the waters of the river."
+      "body_raw": "רָם מְאֹד הָהָר הַזֶּה",
+      "answer_raw": "This mountain is very high."
     },
     {
       "unit": 18,
@@ -17,8 +17,8 @@
       "typeGuess": "mcq",
       "confidence": 1.0,
       "prompt": "Choose the translation",
-      "body_raw": "לָקַח דָּוִד אֲבִיגַיִל לְאִשָּׁה וְהִיא אִשָּׁה טוֹבַת שֶׂכֶל",
-      "answer_raw": "David took Abigail to wife, and she was a woman of good understanding."
+      "body_raw": "הַלַּיְלָה הַהוּא",
+      "answer_raw": "That night"
     },
     {
       "unit": 18,
@@ -26,8 +26,8 @@
       "typeGuess": "mcq",
       "confidence": 1.0,
       "prompt": "Choose the translation",
-      "body_raw": "אֶבְיוֹנֵי הָעָם הֵם צַדִּיקִים",
-      "answer_raw": "The poor of the people are righteous."
+      "body_raw": "הָעָם הֶעָצוּם הַזֶּה",
+      "answer_raw": "This powerful people"
     },
     {
       "unit": 18,
@@ -35,62 +35,62 @@
       "typeGuess": "mcq",
       "confidence": 1.0,
       "prompt": "Choose the translation",
-      "body_raw": "לֹא שָׁמַרְנוּ תּוֹרַת יהוה אֱלֹהֵי יִשְׂרָאֵל",
-      "answer_raw": "We have not kept the law of Yahweh, the God of Israel."
+      "body_raw": "זה המלך החכם",
+      "answer_raw": "This is the wise king."
     },
     {
       "unit": 18,
       "n": 5,
-      "typeGuess": "mcq",
+      "typeGuess": "translate-phrase",
       "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "עָשָׂה הַשַּׂר כְּמִצְוַת הַמֶּלֶךְ",
-      "answer_raw": "The prince did according to the king's commandment."
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "That great day",
+      "answer_raw": "הַיּוֹם הַגָּדוֹל הַהוּא"
     },
     {
       "unit": 18,
       "n": 6,
-      "typeGuess": "mcq",
+      "typeGuess": "translate-phrase",
       "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "וּבְתוֹרַת יהוה לֹא הָלָכְתָּ",
-      "answer_raw": "And in the law of Yahweh thou hast not walked."
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "This (is) a good head.",
+      "answer_raw": "זֶה רֹאשׁ טוֹב"
     },
     {
       "unit": 18,
       "n": 7,
-      "typeGuess": "mcq",
+      "typeGuess": "translate-phrase",
       "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "אֵלֶּה מִצְוֹת אֱלֹהֵי כָּל־הָאָרֶץ אֲשֶׁר כָּתַבְתִּי הַיּוֹם הַזֶּה",
-      "answer_raw": "These are the commandments of the God of all the earth which I have written this day."
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "This (is) the good head.",
+      "answer_raw": "זֶה הָרֹאשׁ הַטּוֹב"
     },
     {
       "unit": 18,
       "n": 8,
-      "typeGuess": "mcq",
+      "typeGuess": "translate-phrase",
       "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "שָׁכַב הַיֶּלֶד עַל־מִטַּת אִישׁ הָאֱלֹהִים",
-      "answer_raw": "The boy lay on the bed of the man of God."
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "This head (is) good.",
+      "answer_raw": "טוֹב הָרֹאשׁ הַזֶּה"
     },
     {
       "unit": 18,
       "n": 9,
-      "typeGuess": "mcq",
+      "typeGuess": "translate-phrase",
       "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "בָּא חַיִל גָּדוֹל מִיַּרְכְּתֵי הָאָרֶץ וּמֵאַרְבַּע רוּחוֹת הַשָּׁמָיִם",
-      "answer_raw": "There came a great army from the ends of the earth and from the four winds of heaven."
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "This good head",
+      "answer_raw": "הָרֹאשׁ הַטּוֹב הַזֶּה"
     },
     {
       "unit": 18,
       "n": 10,
-      "typeGuess": "mcq",
+      "typeGuess": "translate-phrase",
       "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "אָכַלְנוּ מִכָּל־עֵץ הַגָּן",
-      "answer_raw": "We ate of every tree of the garden."
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "He sat by (עַל) those waters.",
+      "answer_raw": "יָשַׁב עַל־הַמַּיִם הָהֵם"
     },
     {
       "unit": 18,
@@ -98,971 +98,26 @@
       "typeGuess": "mcq",
       "confidence": 1.0,
       "prompt": "Choose the translation",
-      "body_raw": "וּמַלְכַּת הָאָרֶץ בַּת אִישׁ גִּבּוֹר חָיִל",
-      "answer_raw": "Now the queen of the land was the daughter of a mighty man of valour."
+      "body_raw": "הֶהָרִים הָאֵלֶּה רָמִים מְאֹד",
+      "answer_raw": "These mountains are very high."
     },
     {
       "unit": 18,
       "n": 12,
-      "typeGuess": "mcq",
+      "typeGuess": "translate-phrase",
       "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "הָיָה רָעָב בָּאָרֶץ וְאַבְרָם יָרַד מִצְרַיְמָה כִּי כָבֵד הָרָעָב בָּאָרֶץ",
-      "answer_raw": "There was a famine in the land, and Abraham went down into Egypt, for the famine was sore in the land."
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "These waters (are) bitter.",
+      "answer_raw": "מָרִים הַמַּיִם הָאֵלֶּה"
     },
     {
       "unit": 18,
       "n": 13,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "תורת יהוה טובה",
-      "answer_raw": "The law of Yahweh is good."
-    },
-    {
-      "unit": 18,
-      "n": 14,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "ביום ההוא עשה יהוה ישועה בישראל",
-      "answer_raw": "On that day Yahweh wrought deliverance in Israel."
-    },
-    {
-      "unit": 18,
-      "n": 15,
       "typeGuess": "translate-phrase",
       "confidence": 1.0,
       "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "The great day of Yahweh",
-      "answer_raw": "יוֹם יְהוָה הַגָּדוֹל"
-    },
-    {
-      "unit": 18,
-      "n": 16,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "The day of Yahweh is great.",
-      "answer_raw": "גָּדוֹל יוֹם יְהוָה"
-    },
-    {
-      "unit": 18,
-      "n": 17,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "The good queen of the land",
-      "answer_raw": "מַלְכַּת הָאָרֶץ הַטּוֹבָה"
-    },
-    {
-      "unit": 18,
-      "n": 18,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "All the people of the earth",
-      "answer_raw": "כָּל־עַם הָאָרֶץ"
-    },
-    {
-      "unit": 18,
-      "n": 19,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "All the king's good asses",
-      "answer_raw": "כָּל־חֲמוֹרֵי הַמֶּלֶךְ הַטּוֹבִים"
-    },
-    {
-      "unit": 18,
-      "n": 20,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "The captain (prince) reviewed all the mighty-men of valour and all the people of war.",
-      "answer_raw": "פָּקַד הַשַּׂר אֶת־כָּל־גִּבּוֹרֵי הַחַיִל וְאֶת־כָּל־עַם הַמִּלְחָמָה"
-    },
-    {
-      "unit": 18,
-      "n": 21,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "In the two-sides of the temple",
-      "answer_raw": "בְּיַרְכְּתֵי הַהֵיכָל"
-    },
-    {
-      "unit": 18,
-      "n": 22,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "I have gone northward.",
-      "answer_raw": "הָלַכְתִּי צָפוֹנָה"
-    },
-    {
-      "unit": 18,
-      "n": 23,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "We are gone down to Sheol.",
-      "answer_raw": "יָרַדְנוּ שְׁאוֹלָה"
-    },
-    {
-      "unit": 18,
-      "n": 24,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "He went towards-the-mountain.",
-      "answer_raw": "הָלַךְ הָהָרָה"
-    },
-    {
-      "unit": 18,
-      "n": 25,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "We slew the man's ass.",
-      "answer_raw": "הָרַגְנוּ אֶת־חֲמוֹר הָאִישׁ"
-    },
-    {
-      "unit": 18,
-      "n": 26,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "The people did not drink from the waters of the river, for they (were) blood.",
-      "answer_raw": "לֹא שָׁתָה הָעָם מִמֵּי הַיְאֹר כִּי דָם הֵם"
-    },
-    {
-      "unit": 18,
-      "n": 27,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "Ye have not kept the commandments of the God of all the earth.",
-      "answer_raw": "לֹא שְׁמַרְתֶּם אֶת־מִצְוֹת אֱלֹהֵי כָל־הָאָרֶץ"
-    },
-    {
-      "unit": 18,
-      "n": 28,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "The spirit of God (was) upon the waters.",
-      "answer_raw": "רוּחַ אֱלֹהִים עַל־הַמָּיִם"
-    },
-    {
-      "unit": 18,
-      "n": 29,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "God of the spirits (that belong) to all flesh",
-      "answer_raw": "אֱלֹהֵי הָרוּחֹת לְכָל־בָּשָׂר"
-    },
-    {
-      "unit": 18,
-      "n": 30,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "I have broken down all the walls of the city.",
-      "answer_raw": "נָתַצְתִּי אֶת־כָּל־חוֹמֹת הָעִיר"
-    },
-    {
-      "unit": 18,
-      "n": 31,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "Thou hast kept the poor of the land from all ill.",
-      "answer_raw": "שָׁמַרְתָּ אֶת־אֶבְיוֹנֵי הָאָרֶץ מִכָּל־רָע"
-    },
-    {
-      "unit": 18,
-      "n": 32,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "Thou (f.) hast eaten of the tree of the garden.",
-      "answer_raw": "אָכַלְתְּ מֵעֵץ הַגָּן"
-    },
-    {
-      "unit": 18,
-      "n": 33,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the construct singular of this word (male)",
-      "body_raw": "זָכָר (male) → cstr. sing.",
-      "answer_raw": "זְכַר"
-    },
-    {
-      "unit": 18,
-      "n": 34,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the absolute plural of this word (male)",
-      "body_raw": "זָכָר (male) → abs. plur.",
-      "answer_raw": "זְכָרִים"
-    },
-    {
-      "unit": 18,
-      "n": 35,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the construct plural of this word (male)",
-      "body_raw": "זָכָר (male) → cstr. plur.",
-      "answer_raw": "זִכְרֵי"
-    },
-    {
-      "unit": 18,
-      "n": 36,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the construct singular of this word (word)",
-      "body_raw": "דָּבָר (word) → cstr. sing.",
-      "answer_raw": "דְּבַר"
-    },
-    {
-      "unit": 18,
-      "n": 37,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the absolute plural of this word (word)",
-      "body_raw": "דָּבָר (word) → abs. plur.",
-      "answer_raw": "דְּבָרִים"
-    },
-    {
-      "unit": 18,
-      "n": 38,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the construct plural of this word (word)",
-      "body_raw": "דָּבָר (word) → cstr. plur.",
-      "answer_raw": "דִּבְרֵי"
-    },
-    {
-      "unit": 18,
-      "n": 39,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the construct singular of this word (proverb)",
-      "body_raw": "מָשָׁל (proverb) → cstr. sing.",
-      "answer_raw": "מְשַׁל"
-    },
-    {
-      "unit": 18,
-      "n": 40,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the absolute plural of this word (proverb)",
-      "body_raw": "מָשָׁל (proverb) → abs. plur.",
-      "answer_raw": "מְשָׁלִים"
-    },
-    {
-      "unit": 18,
-      "n": 41,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the construct plural of this word (proverb)",
-      "body_raw": "מָשָׁל (proverb) → cstr. plur.",
-      "answer_raw": "מִשְׁלֵי"
-    },
-    {
-      "unit": 18,
-      "n": 42,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the construct singular of this word (heavy)",
-      "body_raw": "כָּבֵד (heavy) → cstr. sing.",
-      "answer_raw": "כְּבַד or כְּבֵד"
-    },
-    {
-      "unit": 18,
-      "n": 43,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the absolute plural of this word (heavy)",
-      "body_raw": "כָּבֵד (heavy) → abs. plur.",
-      "answer_raw": "כְּבֵדִים"
-    },
-    {
-      "unit": 18,
-      "n": 44,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the construct plural of this word (heavy)",
-      "body_raw": "כָּבֵד (heavy) → cstr. plur.",
-      "answer_raw": "כִּבְדֵי"
-    },
-    {
-      "unit": 18,
-      "n": 45,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the construct singular of this word (leopard)",
-      "body_raw": "נָמֵר (leopard) → cstr. sing.",
-      "answer_raw": "נְמַר"
-    },
-    {
-      "unit": 18,
-      "n": 46,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the absolute plural of this word (leopard)",
-      "body_raw": "נָמֵר (leopard) → abs. plur.",
-      "answer_raw": "נְמֵרִים"
-    },
-    {
-      "unit": 18,
-      "n": 47,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the construct plural of this word (leopard)",
-      "body_raw": "נָמֵר (leopard) → cstr. plur.",
-      "answer_raw": "נִמְרֵי"
-    },
-    {
-      "unit": 18,
-      "n": 48,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the construct singular of this word (short)",
-      "body_raw": "קָצֵר (short) → cstr. sing.",
-      "answer_raw": "קְצַר"
-    },
-    {
-      "unit": 18,
-      "n": 49,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the absolute plural of this word (short)",
-      "body_raw": "קָצֵר (short) → abs. plur.",
-      "answer_raw": "קְצֵרִים"
-    },
-    {
-      "unit": 18,
-      "n": 50,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the construct plural of this word (short)",
-      "body_raw": "קָצֵר (short) → cstr. plur.",
-      "answer_raw": "קִצְרֵי"
-    },
-    {
-      "unit": 18,
-      "n": 51,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the construct singular of this word (luminary)",
-      "body_raw": "מָאוֹר (luminary) → cstr. sing.",
-      "answer_raw": "מְאוֹר"
-    },
-    {
-      "unit": 18,
-      "n": 52,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the absolute plural of this word (luminary)",
-      "body_raw": "מָאוֹר (luminary) → abs. plur.",
-      "answer_raw": "מְאוֹרֹת"
-    },
-    {
-      "unit": 18,
-      "n": 53,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the construct plural of this word (luminary)",
-      "body_raw": "מָאוֹר (luminary) → cstr. plur.",
-      "answer_raw": "מְאוֹרֵי"
-    },
-    {
-      "unit": 18,
-      "n": 54,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the construct singular of this word (prophet)",
-      "body_raw": "נָבִיא (prophet) → cstr. sing.",
-      "answer_raw": "נְבִיא"
-    },
-    {
-      "unit": 18,
-      "n": 55,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the absolute plural of this word (prophet)",
-      "body_raw": "נָבִיא (prophet) → abs. plur.",
-      "answer_raw": "נְבִיאִים"
-    },
-    {
-      "unit": 18,
-      "n": 56,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the construct plural of this word (prophet)",
-      "body_raw": "נָבִיא (prophet) → cstr. plur.",
-      "answer_raw": "נְבִיאֵי"
-    },
-    {
-      "unit": 18,
-      "n": 57,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the construct singular of this word (fat)",
-      "body_raw": "בָּרִיא (fat) → cstr. sing.",
-      "answer_raw": "בְּרִיא"
-    },
-    {
-      "unit": 18,
-      "n": 58,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the absolute plural of this word (fat)",
-      "body_raw": "בָּרִיא (fat) → abs. plur.",
-      "answer_raw": "בְּרִיאִים"
-    },
-    {
-      "unit": 18,
-      "n": 59,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the construct plural of this word (fat)",
-      "body_raw": "בָּרִיא (fat) → cstr. plur.",
-      "answer_raw": "בְּרִיאֵי"
-    },
-    {
-      "unit": 18,
-      "n": 60,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the construct singular of this word (perfect)",
-      "body_raw": "תָּמִים (perfect) → cstr. sing.",
-      "answer_raw": "תְּמִים"
-    },
-    {
-      "unit": 18,
-      "n": 61,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the absolute plural of this word (perfect)",
-      "body_raw": "תָּמִים (perfect) → abs. plur.",
-      "answer_raw": "תְּמִימִים"
-    },
-    {
-      "unit": 18,
-      "n": 62,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the construct plural of this word (perfect)",
-      "body_raw": "תָּמִים (perfect) → cstr. plur.",
-      "answer_raw": "תְּמִימֵי"
-    },
-    {
-      "unit": 18,
-      "n": 63,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the construct singular of this word (lip (f.))",
-      "body_raw": "שָׂפָה (lip (f.)) → cstr. sing.",
-      "answer_raw": "שְׂפַת"
-    },
-    {
-      "unit": 18,
-      "n": 64,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the absolute dual of this word (lip (f.))",
-      "body_raw": "שָׂפָה (lip (f.)) → abs. dual",
-      "answer_raw": "שְׂפָתַיִם"
-    },
-    {
-      "unit": 18,
-      "n": 65,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the construct dual of this word (lip (f.))",
-      "body_raw": "שָׂפָה (lip (f.)) → cstr. dual",
-      "answer_raw": "שִׂפְתֵי"
-    },
-    {
-      "unit": 18,
-      "n": 66,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the construct singular of this word (blessing (f.))",
-      "body_raw": "בְּרָכָה (blessing (f.)) → cstr. sing.",
-      "answer_raw": "בִּרְכַּת"
-    },
-    {
-      "unit": 18,
-      "n": 67,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the absolute plural of this word (blessing (f.))",
-      "body_raw": "בְּרָכָה (blessing (f.)) → abs. plur.",
-      "answer_raw": "בְּרָכוֹת"
-    },
-    {
-      "unit": 18,
-      "n": 68,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the construct plural of this word (blessing (f.))",
-      "body_raw": "בְּרָכָה (blessing (f.)) → cstr. plur.",
-      "answer_raw": "בִּרְכוֹת"
-    },
-    {
-      "unit": 18,
-      "n": 69,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the construct singular of this word (vengeance (f.))",
-      "body_raw": "נְקָמָה (vengeance (f.)) → cstr. sing.",
-      "answer_raw": "נִקְמַת"
-    },
-    {
-      "unit": 18,
-      "n": 70,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the absolute plural of this word (vengeance (f.))",
-      "body_raw": "נְקָמָה (vengeance (f.)) → abs. plur.",
-      "answer_raw": "נְקָמוֹת"
-    },
-    {
-      "unit": 18,
-      "n": 71,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the construct plural of this word (vengeance (f.))",
-      "body_raw": "נְקָמָה (vengeance (f.)) → cstr. plur.",
-      "answer_raw": "נִקְמוֹת"
-    },
-    {
-      "unit": 18,
-      "n": 72,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the construct singular of this word (corpse (f.))",
-      "body_raw": "נְבֵלָה (corpse (f.)) → cstr. sing.",
-      "answer_raw": "נִבְלַת"
-    },
-    {
-      "unit": 18,
-      "n": 73,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the absolute plural of this word (corpse (f.))",
-      "body_raw": "נְבֵלָה (corpse (f.)) → abs. plur.",
-      "answer_raw": "נְבֵלוֹת"
-    },
-    {
-      "unit": 18,
-      "n": 74,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the construct plural of this word (corpse (f.))",
-      "body_raw": "נְבֵלָה (corpse (f.)) → cstr. plur.",
-      "answer_raw": "נִבְלוֹת"
-    },
-    {
-      "unit": 18,
-      "n": 75,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the construct singular of this word (holy)",
-      "body_raw": "קָדוֹשׁ (holy) → cstr. sing.",
-      "answer_raw": "קְדוֹשׁ"
-    },
-    {
-      "unit": 18,
-      "n": 76,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the absolute plural of this word (holy)",
-      "body_raw": "קָדוֹשׁ (holy) → abs. plur.",
-      "answer_raw": "קְדוֹשִׁים"
-    },
-    {
-      "unit": 18,
-      "n": 77,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the construct plural of this word (holy)",
-      "body_raw": "קָדוֹשׁ (holy) → cstr. plur.",
-      "answer_raw": "קְדוֹשֵׁי"
-    },
-    {
-      "unit": 18,
-      "n": 78,
-      "typeGuess": "parse-form",
-      "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "בְּרִיאוֹת",
-      "answer_raw": "abs. or cstr. plur. fem. of בָּרִיא fat"
-    },
-    {
-      "unit": 18,
-      "n": 79,
-      "typeGuess": "parse-form",
-      "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "דְּגַת",
-      "answer_raw": "cstr. sing. of דָּגָה fish (almost always collective), fem. of דָּג"
-    },
-    {
-      "unit": 18,
-      "n": 80,
-      "typeGuess": "parse-form",
-      "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "נְבִיאֵי",
-      "answer_raw": "cstr. plur. of נָבִיא prophet"
-    },
-    {
-      "unit": 18,
-      "n": 81,
-      "typeGuess": "parse-form",
-      "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "יִשְׁרֵי",
-      "answer_raw": "cstr. plur. masc. of יָשָׁר upright"
-    },
-    {
-      "unit": 18,
-      "n": 82,
-      "typeGuess": "parse-form",
-      "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "רְקִיעַ",
-      "answer_raw": "cstr. sing. of רָקִיעַ firmament"
-    },
-    {
-      "unit": 18,
-      "n": 83,
-      "typeGuess": "parse-form",
-      "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "לְבָבוֹת",
-      "answer_raw": "abs. plur. of לֵבָב heart (occurs only once, 1 Chr. 28:9)"
-    },
-    {
-      "unit": 18,
-      "n": 84,
-      "typeGuess": "parse-form",
-      "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "מְאוֹר",
-      "answer_raw": "cstr. sing. of מָאוֹר luminary"
-    },
-    {
-      "unit": 18,
-      "n": 85,
-      "typeGuess": "parse-form",
-      "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "מִשְׁלֵי",
-      "answer_raw": "cstr. plur. of מָשָׁל proverb"
-    },
-    {
-      "unit": 18,
-      "n": 86,
-      "typeGuess": "parse-form",
-      "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "כְּבַד",
-      "answer_raw": "cstr. sing. masc. of כָּבֵד heavy"
-    },
-    {
-      "unit": 18,
-      "n": 87,
-      "typeGuess": "parse-form",
-      "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "פְּקִידֵי",
-      "answer_raw": "cstr. plur. of פָּקִיד overseer"
-    },
-    {
-      "unit": 18,
-      "n": 88,
-      "typeGuess": "parse-form",
-      "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "לְבַב",
-      "answer_raw": "cstr. sing. of לֵבָב heart"
-    },
-    {
-      "unit": 18,
-      "n": 89,
-      "typeGuess": "parse-form",
-      "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "שִׂפְתֵי",
-      "answer_raw": "cstr. dual of שָׂפָה lip"
-    },
-    {
-      "unit": 18,
-      "n": 90,
-      "typeGuess": "parse-form",
-      "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "נִקְמַת",
-      "answer_raw": "cstr. sing. of נְקָמָה vengeance"
-    },
-    {
-      "unit": 18,
-      "n": 91,
-      "typeGuess": "parse-form",
-      "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "בִּרְכוֹת",
-      "answer_raw": "cstr. plur. of בְּרָכָה blessing"
-    },
-    {
-      "unit": 18,
-      "n": 92,
-      "typeGuess": "parse-form",
-      "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "יָדַיִם",
-      "answer_raw": "abs. dual of יָד hand"
-    },
-    {
-      "unit": 18,
-      "n": 93,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "וְחֹשֶׁךְ עַל־פְּנֵי הַמָּיִם",
-      "answer_raw": "And darkness was upon the face of the waters."
-    },
-    {
-      "unit": 18,
-      "n": 94,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "כָּתַב הַנָּבִיא אֶת־כָּל־הַדְּבָרִים בַּסֵּפֶר",
-      "answer_raw": "The prophet wrote all the words in a book."
-    },
-    {
-      "unit": 18,
-      "n": 95,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "הָיָה דְבַר יהוה אֶל־הַנְּבִיאִים",
-      "answer_raw": "The word of Yahweh came to the prophets."
-    },
-    {
-      "unit": 18,
-      "n": 96,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "תּוֹרַת יהוה בִּלְבַב הַצַּדִּיקִים",
-      "answer_raw": "The law of Yahweh is in the heart of the righteous."
-    },
-    {
-      "unit": 18,
-      "n": 97,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "כָּתַבְתִּי לָעָם הַזֶּה אֶת־כָּל־דִּבְרֵי תּוֹרַת יהוה",
-      "answer_raw": "I have written for this people all the words of the law of Yahweh."
-    },
-    {
-      "unit": 18,
-      "n": 98,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "לֹא הָיָה שָׁם אִישׁ מִזִּקְנֵי יִשְׂרָאֵל",
-      "answer_raw": "None of the elders of Israel was there."
-    },
-    {
-      "unit": 18,
-      "n": 99,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "נָתַן אֱלֹהִים אֶת־שְׁנֵי הַמְּאוֹרוֹת הַגְּדֹלִים בִּרְקִיעַ הַשָּׁמָיִם",
-      "answer_raw": "God set the two great luminaries in the firmament of heaven."
-    },
-    {
-      "unit": 18,
-      "n": 100,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "אָסַף הַשַּׂר חַיִל כָּבֵד כְּכוֹכְבֵי הַשָּׁמַיִם וְכַחוֹל אֲשֶׁר עַל־שְׂפַת הַיָּם",
-      "answer_raw": "The prince gathered an army, great as the stars of heaven or the sand on the seashore."
-    },
-    {
-      "unit": 18,
-      "n": 101,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "אָמַר יִצְחָק הַקֹּל קוֹל יַעֲקֹב וְהַיָּדַיִם יְדֵי עֵשָׂו",
-      "answer_raw": "Isaac said, The voice is the voice of Jacob, but the hands are the hands of Esau."
-    },
-    {
-      "unit": 18,
-      "n": 102,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "נָשָׂא הַנָּבִיא הַזָּקֵן אֶת־נִבְלַת אִישׁ הָאֱלֹהִים אֶל־הַחֲמוֹר",
-      "answer_raw": "The aged prophet lifted the corpse of the man of God on to the ass."
-    },
-    {
-      "unit": 18,
-      "n": 103,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "כבד־לשון אנכי",
-      "answer_raw": "I am heavy of tongue (i.e. slow of speech)."
-    },
-    {
-      "unit": 18,
-      "n": 104,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "קרא עזרא בספר תורת האלהים",
-      "answer_raw": "Ezra read in the book of the law of God."
-    },
-    {
-      "unit": 18,
-      "n": 105,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "The law of Yahweh is perfect.",
-      "answer_raw": "תּוֹרַת יְהוָה תְּמִימָה"
-    },
-    {
-      "unit": 18,
-      "n": 106,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "The king saw the fat kine upon the bank (lip) of the river.",
-      "answer_raw": "רָאָה הַמֶּלֶךְ אֶת־הַפָּרוֹת הַבְּרִיאוֹת עַל־שְׂפַת הַיְאֹר"
-    },
-    {
-      "unit": 18,
-      "n": 107,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "Ye have eaten the flesh of fat oxen.",
-      "answer_raw": "אֲכַלְתֶּם בְּשַׂר פָּרִים בְּרִאִים"
-    },
-    {
-      "unit": 18,
-      "n": 108,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "The words of the lips of Yahweh (are) upright.",
-      "answer_raw": "יְשָׁרִים דִּבְרֵי שִׂפְתֵי יְהוָה"
-    },
-    {
-      "unit": 18,
-      "n": 109,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "I (am) not a man of words.",
-      "answer_raw": "לֹא אִישׁ דְּבָרִים אָנֹכִי"
-    },
-    {
-      "unit": 18,
-      "n": 110,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "Good (are) the words of the law of Yahweh.",
-      "answer_raw": "טוֹבִים דִּבְרֵי תּוֹרַת יְהוָה"
-    },
-    {
-      "unit": 18,
-      "n": 111,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "The waters (are) upon the face of the ground.",
-      "answer_raw": "הַמַּיִם עַל־פְּנֵי הָאֲדָמָה"
-    },
-    {
-      "unit": 18,
-      "n": 112,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "We have heard the words of the prophets of the God of all the earth.",
-      "answer_raw": "שָׁמַעְנוּ אֶת־דִּבְרֵי נְבִיאֵי אֱלֹהֵי כָל־הָאָרֶץ"
-    },
-    {
-      "unit": 18,
-      "n": 113,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "Thou hast kept the heart of this people from evil.",
-      "answer_raw": "שָׁמַרְתָּ אֶת־לְבַב הָעָם הַזֶּה מֵרָע"
-    },
-    {
-      "unit": 18,
-      "n": 114,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "Very great (are) the righteousnesses of God.",
-      "answer_raw": "גְּדֹלוֹת מְאֹד צִדְקוֹת אֱלֹהִים"
-    },
-    {
-      "unit": 18,
-      "n": 115,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "Blessed (are) the upright of heart.",
-      "answer_raw": "בְּרוּכִים יִשְׁרֵי לֵב"
-    },
-    {
-      "unit": 18,
-      "n": 116,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "The vengeance of the people (was) great.",
-      "answer_raw": "גְּדוֹלָה נִקְמַת הָעָם"
-    },
-    {
-      "unit": 18,
-      "n": 117,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "The proverbs of the wise king (are) perfect.",
-      "answer_raw": "מִשְׁלֵי הַמֶּלֶךְ הֶחָכָם תְּמִימִים"
-    },
-    {
-      "unit": 18,
-      "n": 118,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "He destroyed all the fishes of the river.",
-      "answer_raw": "מָחָה אֶת־כָּל־דְּגַת הַיְאֹר"
+      "body_raw": "Those heavens (are) very lofty.",
+      "answer_raw": "הַשָּׁמַיִם הָהֵם רָמִים מְאֹד"
     }
   ]
 }

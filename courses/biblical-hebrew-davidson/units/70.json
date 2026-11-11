@@ -1,0 +1,71 @@
+{
+  "schema": "unit-lesson-v1.json",
+  "unit": 70,
+  "title": "Form Production",
+  "description": "Produce verb forms from root, stem, and features.",
+  "teaches": [
+    "he-dav-10-081",
+    "he-dav-56-005",
+    "he-dav-09-119",
+    "he-dav-09-045",
+    "he-dav-10-056",
+    "he-dav-09-068"
+  ],
+  "assumes": [
+    "he-dav-20-004",
+    "he-dav-54-001",
+    "he-dav-10-035",
+    "he-dav-18-013",
+    "he-dav-56-008",
+    "he-dav-10-082"
+  ],
+  "blocks": [
+    {
+      "type": "prose",
+      "caption": "Summary",
+      "html": "<p>Given a root, a stem, and a set of features, you can build the correct form, and the reverse is parsing. The regular verb is the training case, and its seven parts — perfect, imperfect, imperative, infinitive construct, infinitive absolute, active participle, passive participle — are modelled exactly on the Qal, so that mastering Qal gives the whole system.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "The paradigm",
+      "html": "<p>Davidson&#x27;s skeleton paradigm is meant to show relationships, not to be memorized as a fresh list of unrelated forms. The names of several stems reflect their perfect-vowel patterns. Across a regular stem, the imperfect is the “regulative” form for the imperative and infinitive construct: these three generally share an ending pattern. The derived stems then add their characteristic prefix or internal vowel/doubling pattern to the same framework.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Producing forms",
+      "html": "<p>To build a form, work in a fixed order. First choose the stem and place the three root radicals in its pattern; next choose the conjugation; then add the person endings or prefixes and check where the tone falls. Finally apply consonant and vowel rules—especially vocal or silent shewa, doubling, and any weak-radical changes already taught. To parse, reverse those decisions. If the result violates the stem&#x27;s expected pattern, revisit the root or the chosen features instead of accepting a familiar-looking form.</p><p>The skeleton also predicts useful relationships: the infinitive absolute is not built by adding the same affixes as the construct infinitive, passive stems generally lack an imperative, and the Hiphil imperative follows its jussive imperfect pattern rather than the ordinary imperfect ending. Qal stative verbs are another exception: their infinitive construct often has a different vowel from the imperfect and imperative. These are checks against overgeneralizing the regular verb, not a reason to abandon the paradigm.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Common confusion",
+      "html": "<p>Do not rely on recognition alone. Produce the form from its description, and parse the form back, so the pattern is active in memory rather than merely familiar. Check the stem, conjugation, affixes, and accent against the paradigm before accepting it. If the form belongs to a weak class, apply that class&#x27;s rule after the regular pattern is established; do not treat every weak form as a new regular paradigm.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Worked example",
+      "html": "<p>Build &quot;he will send&quot; from the root שׁלח: set the root into the Qal imperfect pattern with the yod prefix, giving יִשְׁלַח. To check, reverse the steps — strip the prefix, recover the root — and the round trip confirms the form.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Reading practice",
+      "html": "<p>Build these from the descriptions, then parse them back as a check. “Qal imperfect 3ms of שׁלח” → יִשְׁלַח. “Piel perfect 3ms of דבר” → דִּבֵּר. “Hiphil perfect 3ms of גדל” → הִגְדִּיל. For each, name the root, stem pattern, conjugation, and person before writing the form. Then parse your answer in reverse and explain which visible feature confirms each choice. This round trip tests the grammar, not just handwriting or memory of one form.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Source",
+      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (22nd ed., 1923), §28.</p>"
+    },
+    {
+      "type": "vocab",
+      "refs": [
+        "he-dav-10-081",
+        "he-dav-56-005",
+        "he-dav-09-119",
+        "he-dav-09-045",
+        "he-dav-10-056",
+        "he-dav-09-068"
+      ]
+    }
+  ],
+  "didYouKnow": ""
+}

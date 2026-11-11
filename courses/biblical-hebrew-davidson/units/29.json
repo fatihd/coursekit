@@ -1,84 +1,75 @@
 {
   "schema": "unit-lesson-v1.json",
   "unit": 29,
-  "title": "Pual",
-  "description": "Learn the Pual stem, the passive of Piel, and contrast it with the Qal passive.",
+  "title": "Adjective Comparison",
+  "description": "Form comparatives and superlatives with מִן, the article, and repetition.",
   "teaches": [
-    "he-dav-09-013",
     "he-dav-09-012",
     "he-dav-18-001",
-    "he-dav-09-011",
-    "he-dav-10-036",
-    "he-dav-51-012",
-    "he-dav-19-047",
-    "he-dav-19-048",
-    "he-dav-19-049",
-    "he-dav-19-050",
-    "he-dav-19-051"
+    "he-dav-37-003",
+    "he-dav-10-031",
+    "he-dav-10-073",
+    "he-dav-19-013",
+    "he-dav-19-014",
+    "he-dav-19-018",
+    "he-dav-19-025",
+    "he-dav-19-030"
   ],
   "assumes": [
-    "he-dav-28-001",
-    "he-dav-38-005",
-    "he-dav-09-004",
+    "he-dav-11-001",
+    "he-dav-18-011",
+    "he-dav-09-014",
+    "he-dav-09-019",
     "he-dav-44-012",
-    "he-dav-28-003",
-    "he-dav-28-002",
-    "he-dav-28-004",
-    "he-dav-28-006",
-    "he-dav-28-005",
-    "he-dav-19-045",
-    "he-dav-19-046"
+    "he-dav-09-013",
+    "he-dav-11-002",
+    "he-dav-10-041",
+    "he-dav-09-041"
   ],
   "blocks": [
     {
       "type": "prose",
       "caption": "Summary",
-      "html": "<p>Pual is the passive of Piel in its various senses. Where Piel has the i–e vowels (קִטֵּל), Pual has u–a (קֻטַּל, &quot;he was killed utterly&quot;), with the same doubled middle radical. It inflects like Qal and is much rarer than Piel, so recognition is the main task.</p>"
+      "html": "<p>The Hebrew adjective undergoes no change of ending or vowels in comparison; there are no forms like &quot;better&quot; or &quot;best&quot;. The comparative is expressed by the positive adjective followed by the preposition מִן (from): טוֹב מִיַּיִן, &quot;good away from wine&quot;, that is &quot;better than wine&quot;. The superlative is expressed by isolating the adjective — with the article, a suffix, or a construct relation — or by intensifying it with &quot;very&quot; or by repetition.</p>"
     },
     {
       "type": "prose",
-      "caption": "The form",
-      "html": "<p>Pual keeps the doubled middle radical of Piel but changes the vowels to u–a: קֻטַּל (perfect) and יְקֻטַּל (imperfect). Its participles follow the imperfect and begin with m. Once you know Piel, Pual is a small step.</p>"
+      "caption": "The comparative",
+      "html": "<p>To say &quot;better than wine&quot; Hebrew writes טוֹב מִיַּיִן, literally &quot;good from wine&quot;, or &quot;good in distinction from wine&quot;. The preposition מִן does the whole work of &quot;than&quot;. The same construction is used with verbs: אֶגְדַּל מִמְּךָ, &quot;I will be greater than you&quot;. Let מִן before the standard of comparison be the sign to translate &quot;than&quot;.</p>"
     },
     {
       "type": "prose",
-      "caption": "Qal passive and Pual",
-      "html": "<p>Hebrew once had a passive Qal, whose only surviving traces are the passive participle and a few forms. Pual is a different thing: the passive of the intensive Piel. This matters because the two are easy to confuse — a passive-looking form might be a Qal passive rather than a Pual. Check the stem: if the active would be Piel (with its doubled middle letter and i–e vowels), the passive is Pual; if the active would be Qal, the passive is the old Qal passive, not Pual.</p>"
+      "caption": "The superlative",
+      "html": "<p>The superlative is also expressed by the positive adjective raised into isolation. &quot;He is the greatest&quot; is written הוּא הַגָּדוֹל, literally &quot;he, the great one&quot;, with the article marking the one set apart. A suffix or a construct relation does the same: קְטֹן בָּנָיו, &quot;the youngest of his sons&quot;. This is the &quot;great one among&quot; idea: the adjective is singled out as the one who surpasses the rest.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "The absolute superlative",
+      "html": "<p>Absolute superlativeness — &quot;most holy&quot;, &quot;very good&quot; — is expressed variously: by the word מְאֹד (very), as טוֹב מְאֹד (good exceedingly); or by repetition, as קֹדֶשׁ קָדָשִׁים, &quot;holy of holies&quot;, that is &quot;most holy&quot;. Repetition is a frequent and vivid way of saying &quot;the very best, the most&quot;.</p>"
     },
     {
       "type": "prose",
       "caption": "Common confusion",
-      "html": "<p>The distinction between the Qal passive and Pual is often lost in a quick glance, because both look passive. The test is the stem of the active verb. When the meaning is simple and passive, it is the Qal passive; when it is the passive of an intensive or factitive idea, it is Pual. Davidson notes that a few forms are best taken as old Qal passives rather than Pual or Hophal.</p>"
-    },
-    {
-      "type": "prose",
-      "caption": "Worked example",
-      "html": "<p>Take קֻטַּל (&quot;he was killed utterly&quot;). The u–a vowels and the doubled middle letter mark Pual, the passive of Piel קִטֵּל. Ask which active it is the passive of: if the active would be an intensive Piel, the passive is Pual. This is how you tell it from the old Qal passive.</p>"
-    },
-    {
-      "type": "prose",
-      "caption": "Reading practice",
-      "html": "<p>Read and parse. שֻׁלַּח הָעֶבֶד — &quot;the servant was sent&quot; (Pual). The u–a vowels with the doubled letter mark Pual, the passive of Piel. Ask which intensive active it is the passive of before translating.</p>"
+      "html": "<p>Do not look for comparative or superlative endings on the adjective; Hebrew has none. Read מִן as &quot;than&quot;, read the article or construct as &quot;the … one of&quot; or &quot;the most&quot;, and read repetition as &quot;most&quot;. The adjective&#x27;s form stays the same throughout; only the construction changes the degree.</p>"
     },
     {
       "type": "prose",
       "caption": "Source",
-      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (22nd ed., 1923), §26.</p>"
+      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (22nd ed., 1923), §47.</p>"
     },
     {
       "type": "vocab",
       "refs": [
-        "he-dav-09-013",
         "he-dav-09-012",
         "he-dav-18-001",
-        "he-dav-09-011",
-        "he-dav-10-036",
-        "he-dav-51-012",
-        "he-dav-19-047",
-        "he-dav-19-048",
-        "he-dav-19-049",
-        "he-dav-19-050",
-        "he-dav-19-051"
+        "he-dav-37-003",
+        "he-dav-10-031",
+        "he-dav-10-073",
+        "he-dav-19-013",
+        "he-dav-19-014",
+        "he-dav-19-018",
+        "he-dav-19-025",
+        "he-dav-19-030"
       ]
     }
   ],

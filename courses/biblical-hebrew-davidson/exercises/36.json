@@ -5,263 +5,83 @@
     {
       "unit": 36,
       "n": 1,
-      "typeGuess": "parse-form",
+      "typeGuess": "translate-phrase",
       "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "טַהֲרֵנִי",
-      "answer_raw": "Cleanse thou me (Pi. imperat. with 1 s. suffix: pf. טִהַר, impf. יְטַהֵר)"
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "Blessed (are) the upright of heart.",
+      "answer_raw": "בְּרוּכִים יִשְׁרֵי לֵב"
     },
     {
       "unit": 36,
       "n": 2,
-      "typeGuess": "parse-form",
+      "typeGuess": "mcq",
       "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "טַעֲמוּ",
-      "answer_raw": "Taste ye (Qal)"
+      "prompt": "Choose the translation",
+      "body_raw": "מָה רַב טוּבְךָ אֲשֶׁר צָפַנְתָּ לִירֵאֶיךָ פָּעַלְתָּ לַבֹּטְחִים בָּךְ נֶגֶד בְּנֵי אָדָם",
+      "answer_raw": "How abundant is thy goodness, which thou hast treasured up for them that fear thee, (which) thou hast wrought for them that trust in thee, in the sight of the children of men."
     },
     {
       "unit": 36,
       "n": 3,
-      "typeGuess": "parse-form",
+      "typeGuess": "mcq",
       "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "בָּרְכוּ",
-      "answer_raw": "Bless ye (Pi.)"
+      "prompt": "Choose the translation",
+      "body_raw": "מֹשְׁלֵי הָעָם הַזֶּה",
+      "answer_raw": "The rulers of this people"
     },
     {
       "unit": 36,
       "n": 4,
-      "typeGuess": "parse-form",
+      "typeGuess": "mcq",
       "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "יְשָׁרֵת",
-      "answer_raw": "He will serve (Pi.)"
+      "prompt": "Choose the translation",
+      "body_raw": "קָבְרוּ אֶת־נִבְלַת הַנָּבִיא הַזָּקֵן בַּקֶּבֶר אֲשֶׁר אִישׁ הָאֱלֹהִים קָבוּר שָׁם",
+      "answer_raw": "They buried the corpse of the aged prophet in the grave where the man of God was buried."
     },
     {
       "unit": 36,
       "n": 5,
-      "typeGuess": "parse-form",
+      "typeGuess": "mcq",
       "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "זַעֲקִי",
-      "answer_raw": "Cry thou (f. Qal)"
+      "prompt": "Choose the translation",
+      "body_raw": "וּדְבוֹרָה אִשָּׁה נְבִיאָה הִיא שֹׁפְטָה אֶת־יִשְׂרָאֵל בָּעֵת הַהִיא וְהִיא יוֹשֶׁבֶת תַּחַת־תֹּמֶר דְּבוֹרָה בְּהַר אֶפְרָיִם",
+      "answer_raw": "Now Deborah, a prophetess, was judging Israel at that time, and she used to sit under Deborah's palm in the hill-country of Ephraim."
     },
     {
       "unit": 36,
       "n": 6,
-      "typeGuess": "parse-form",
+      "typeGuess": "translate-phrase",
       "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "וַיִּלָּחֲמוּ",
-      "answer_raw": "And they fought (Niph.)"
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "A city shedding blood like water",
+      "answer_raw": "עִיר שֹׁפֶכֶת דָּם כַּמָּיִם"
     },
     {
       "unit": 36,
       "n": 7,
-      "typeGuess": "parse-form",
+      "typeGuess": "translate-phrase",
       "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "וִיטַהֵר",
-      "answer_raw": "He will cleanse (Pi.)"
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "body_raw": "Hands shedding blood",
+      "answer_raw": "יָדַיִם שֹׁפְכוֹת דָּם"
     },
     {
       "unit": 36,
       "n": 8,
-      "typeGuess": "parse-form",
+      "typeGuess": "mcq",
       "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "אֶרְחַץ",
-      "answer_raw": "I will wash (Qal)"
+      "prompt": "Choose the translation",
+      "body_raw": "אָכְלוּ בְנֵי־יִשְׂרָאֵל אֶת־הַפֶּסַח מָתְנֵיהֶם חֲגֻרִים נַעֲלֵיהֶם בְּרַגְלֵיהֶם וּמַקְלָם בְּיָדָם",
+      "answer_raw": "The Israelites ate the passover with their loins girt, their sandals on their feet, and their staff in their hand."
     },
     {
       "unit": 36,
       "n": 9,
-      "typeGuess": "parse-form",
-      "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "רֻחַצְתְּ",
-      "answer_raw": "Thou (f.) hast been washed (Pu.)"
-    },
-    {
-      "unit": 36,
-      "n": 10,
-      "typeGuess": "parse-form",
-      "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "אֶרְחָצֵךְ",
-      "answer_raw": "I will wash (Qal) thee (f.: see § 31. 3 (a) i)"
-    },
-    {
-      "unit": 36,
-      "n": 11,
-      "typeGuess": "parse-form",
-      "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "נִבְחֲרָה",
-      "answer_raw": "Let us choose (1 pl. cohortat. Qal)"
-    },
-    {
-      "unit": 36,
-      "n": 12,
-      "typeGuess": "parse-form",
-      "confidence": 1.0,
-      "prompt": "Parse this form",
-      "body_raw": "מְצַעֵק",
-      "answer_raw": "Crying aloud (Pi. ptc. m.)"
-    },
-    {
-      "unit": 36,
-      "n": 13,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "בַּעֲלִי",
-      "answer_raw": "My lord (בַּעַל with 1 s. suffix); as a form it might also be 2 s. f. imper. Qal of בָּעַל"
-    },
-    {
-      "unit": 36,
-      "n": 14,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "שְׁעָרַיִךְ",
-      "answer_raw": "Thy (f.) gates"
-    },
-    {
-      "unit": 36,
-      "n": 15,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "יֻקַּח־נָא מְעַט מַיִם וְרַחֲצוּ רַגְלֵיכֶם וְהִשָּׁעֲנוּ תַּחַת הָעֵץ וְאֶקְחָה פַת־לֶחֶם וְסַעֲדוּ לִבְּכֶם אַחַר תַּעֲבֹרוּ",
-      "answer_raw": "Let there now be fetched a little water, and wash your feet, and rest yourselves under the tree, and let me fetch a morsel of bread, and sustain ye your hearts: afterwards ye shall pass on."
-    },
-    {
-      "unit": 36,
-      "n": 16,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "וַיְגָרֶשׁ יהוה אֶת־הָאָדָם וַיְשַׁלְּחֵהוּ מִגַּן־עֵדֶן לַעֲבֹד אֶת־הָאֲדָמָה אֲשֶׁר לֻקַּח מִשָּׁם",
-      "answer_raw": "And Yahweh drove out the man and sent him forth from the garden of Eden to till the ground whence he had been taken."
-    },
-    {
-      "unit": 36,
-      "n": 17,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "הָכְרַת מִנְחָה וָנֶסֶךְ אָבְלוּ הַכֹּהֲנִים מְשָׁרְתֵי יהוה",
-      "answer_raw": "The meal-offering and the drink-offering are cut off; the priests, the ministers of Yahweh, mourn."
-    },
-    {
-      "unit": 36,
-      "n": 18,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "וַיְבָרְכוּ הַכֹּהֲנִים אֶת־בְּנֵי יִשְׂרָאֵל לֵאמֹר יְבָרֶכְךָ יהוה וְיִשְׁמְרֶךָ יִשָּׂא יהוה פָּנָיו אֵלֶיךָ",
-      "answer_raw": "And the priests blessed the Israelites, saying, Yahweh bless thee and keep thee, Yahweh lift up his face towards thee."
-    },
-    {
-      "unit": 36,
-      "n": 19,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "וַיִּזְעֲקוּ בְנֵי יִשְׂרָאֵל אֶל־יהוה לֵאמֹר עָזַבְנוּ אֶת־אֱלֹהֵינוּ וַנַּעֲבֹד אֶת־הַבְּעָלִים",
-      "answer_raw": "And the Israelites cried to Yahweh, saying, We have forsaken our God and served the Baals."
-    },
-    {
-      "unit": 36,
-      "n": 20,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "וַאֲבָרֶכְךָ וַאֲגַדְּלָה שְׁמֶךָ וַאֲבָרְכָה מְבָרְכֶיךָ וְנִבְרְכוּ בְךָ כֹּל מִשְׁפְּחֹת הָאֲדָמָה",
-      "answer_raw": "And I will bless thee and make thy name great, and I will bless those that bless thee, and by thee shall all the families of the earth bless themselves."
-    },
-    {
-      "unit": 36,
-      "n": 21,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "ברכי נפשי את־יהוה ואל־תשכחי כל־חסדיו",
-      "answer_raw": "Bless Yahweh, O my soul, and forget not any of his kindnesses."
-    },
-    {
-      "unit": 36,
-      "n": 22,
-      "typeGuess": "mcq",
-      "confidence": 1.0,
-      "prompt": "Choose the translation",
-      "body_raw": "ביום ההוא תאמרי לי אישי ולא תקראי לי עוד בעלי",
-      "answer_raw": "In that day thou shalt say to me, My husband, and thou shalt no more call me, My lord."
-    },
-    {
-      "unit": 36,
-      "n": 23,
       "typeGuess": "translate-phrase",
       "confidence": 1.0,
       "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "Beyond the rivers of Ethiopia",
-      "answer_raw": "בְּעֵבֶר נַהֲרֵי כוּשׁ"
-    },
-    {
-      "unit": 36,
-      "n": 24,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "Our feet shall stand in thy (f.) gates (O) Jerusalem.",
-      "answer_raw": "תַּעֲמֹדְנָה רַגְלֵינוּ בִּשְׁעָרַיִךְ יְרוּשָׁלָםִ"
-    },
-    {
-      "unit": 36,
-      "n": 25,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "Thou shalt love Yahweh thy God and him thou shalt serve.",
-      "answer_raw": "תֶּאֱהַב אֵת יְהוָה אֱלֹהֶיךָ וְאֹתוֹ תַעֲבֹד"
-    },
-    {
-      "unit": 36,
-      "n": 26,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "And your fathers cried unto me and said, We shall perish from the violence of our enemies.",
-      "answer_raw": "וַיִּזְעֲקוּ אֵלַי אֲבֹתֵיכֶם וַיֹּאמְרוּ נֹאבַד מֵחֲמַס אֹיְבֵינוּ"
-    },
-    {
-      "unit": 36,
-      "n": 27,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "And she said unto her husband, Drive out this maid-servant and her son.",
-      "answer_raw": "וַתֹּאמֶר לְאִישָׁהּ גָּרֵשׁ אֶת־הַשִּׁפְחָה הַזֹּאת וְאֶת־בְּנָהּ"
-    },
-    {
-      "unit": 36,
-      "n": 28,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "And they forgot Yahweh, and he sold them into the hand of their enemies and they fought against them.",
-      "answer_raw": "וַיִּשְׁכְּחוּ אֶת־יְהוָה וַיִּמְכְּרֵם בְּיַד אֹיְבֵיהֶם וַיִּלָּחֲמוּ בָם"
-    },
-    {
-      "unit": 36,
-      "n": 29,
-      "typeGuess": "translate-phrase",
-      "confidence": 1.0,
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "body_raw": "And they took wives from all whom they chose.",
-      "answer_raw": "וַיִּקְחוּ לָהֶם נָשִׁים מִכֹּל אֲשֶׁר בָּחָרוּ"
+      "body_raw": "Evermore Yahweh supports all who fall.",
+      "answer_raw": "סוֹמֵךְ יְהוָה לְכָל־הַנֹּפְלִים"
     }
   ]
 }

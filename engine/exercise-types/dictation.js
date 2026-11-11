@@ -14,7 +14,7 @@ export default {
         stimulus: x.gloss,
         stimulusIsScript: false,
         answer: x.scriptForm,
-        transliteration: x.transliteration,
+        ...(params.transliteration !== false && x.transliteration ? { transliteration: x.transliteration } : {}),
       }));
   },
 
@@ -32,7 +32,9 @@ export default {
     input.spellcheck = false;
     root.appendChild(input);
 
-    root.appendChild(el("p", "ex-hint", "Use the on-screen keyboard, or type the transliteration."));
+    root.appendChild(el("p", "ex-hint", item.transliteration
+      ? "Use the on-screen keyboard, or type the transliteration."
+      : "Use the on-screen keyboard; type the pointed word."));
     return root;
   },
 

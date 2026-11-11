@@ -1,0 +1,2620 @@
+{
+  "schema": "authored-exercises-v1.json",
+  "unit": 60,
+  "items": [
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וישביעני לאמר לא־תקח אשה לבני מבנות הכנעני אשר אנכי ישב בארצו",
+      "stimulusIsScript": true,
+      "options": [
+        "Behold, I am sending an angel before thee to keep thee in the way: take thou heed before him and hearken unto his voice.",
+        "The poor of Zion I will satisfy with bread, and her priests I will clothe with salvation.",
+        "And Yahweh planted a garden in Eden, and he made to grow out of the ground every kind of tree, desirable in appearance and good for food.",
+        "And he made me swear, saying, Thou shalt not take a wife for my son from the daughters of the Canaanites, in whose land I am dwelling."
+      ],
+      "answer": "And he made me swear, saying, Thou shalt not take a wife for my son from the daughters of the Canaanites, in whose land I am dwelling.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "hint": "With vowel points: וַיַּשְׁבִּעֵנִי לֵאמֹר לֹא־תִקַּח אִשָּׁה לִבְנִי מִבְּנוֹת הַכְּנַעֲנִי אֲשֶׁר אָנֹכִי יֹשֵׁב בְּאַרְצוֹ",
+      "data": {
+        "pointed": "וַיַּשְׁבִּעֵנִי לֵאמֹר לֹא־תִקַּח אִשָּׁה לִבְנִי מִבְּנוֹת הַכְּנַעֲנִי אֲשֶׁר אָנֹכִי יֹשֵׁב בְּאַרְצוֹ"
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §37 B 5; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n142/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n142.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n94/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n94.jpg",
+        "exwb": "davidson-s37#B5",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "parse-form",
+      "prompt": "Parse this form",
+      "stimulus": "רְדָה",
+      "stimulusIsScript": true,
+      "fields": [
+        {
+          "key": "stem",
+          "label": "Stem",
+          "options": [
+            "Qal",
+            "Niph'al",
+            "Pi'el",
+            "Pu'al",
+            "Hithpa'el",
+            "Hiph'il",
+            "Hoph'al",
+            "Po'lel"
+          ]
+        },
+        {
+          "key": "form",
+          "label": "Form",
+          "options": [
+            "perfect",
+            "imperfect",
+            "imperative",
+            "jussive",
+            "cohortative",
+            "participle",
+            "infinitive construct",
+            "infinitive absolute"
+          ]
+        },
+        {
+          "key": "person",
+          "label": "Person",
+          "options": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "key": "gender",
+          "label": "Gender",
+          "options": [
+            "masc.",
+            "fem."
+          ]
+        },
+        {
+          "key": "number",
+          "label": "Number",
+          "options": [
+            "sing.",
+            "plur.",
+            "dual"
+          ]
+        },
+        {
+          "key": "root",
+          "label": "Root",
+          "options": [
+            "יצע",
+            "ינק",
+            "ירד",
+            "יקד"
+          ],
+          "isScript": true
+        }
+      ],
+      "readings": [
+        {
+          "gender": "masc.",
+          "number": "sing.",
+          "form": "imperative",
+          "stem": "Qal",
+          "root": "ירד",
+          "person": "2"
+        }
+      ],
+      "shape": "parse",
+      "explain": "Key: 2 sing. masc. emph. imper. (from רֵד) Qal of ירד. Come down",
+      "data": {
+        "parse": {
+          "person": "2",
+          "gender": "masc.",
+          "number": "sing.",
+          "form": "imperative",
+          "stem": "Qal",
+          "root": "ירד",
+          "gloss": "Come down"
+        }
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §39 A L1; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n148/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n148.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n101/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n101.jpg",
+        "exwb": "davidson-s39#AL1",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "parse-form",
+      "prompt": "Parse this form",
+      "stimulus": "לָרֶדֶת",
+      "stimulusIsScript": true,
+      "fields": [
+        {
+          "key": "stem",
+          "label": "Stem",
+          "options": [
+            "Qal",
+            "Niph'al",
+            "Pi'el",
+            "Pu'al",
+            "Hithpa'el",
+            "Hiph'il",
+            "Hoph'al",
+            "Po'lel"
+          ]
+        },
+        {
+          "key": "form",
+          "label": "Form",
+          "options": [
+            "perfect",
+            "imperfect",
+            "imperative",
+            "jussive",
+            "cohortative",
+            "participle",
+            "infinitive construct",
+            "infinitive absolute"
+          ]
+        },
+        {
+          "key": "root",
+          "label": "Root",
+          "options": [
+            "ינק",
+            "ירד",
+            "ידע",
+            "ישׁן"
+          ],
+          "isScript": true
+        }
+      ],
+      "readings": [
+        {
+          "form": "infinitive construct",
+          "stem": "Qal",
+          "root": "ירד"
+        }
+      ],
+      "shape": "parse",
+      "explain": "Key: inf. cstr. Qal of ירד; with לְ. To go down",
+      "data": {
+        "parse": {
+          "form": "infinitive construct",
+          "stem": "Qal",
+          "root": "ירד",
+          "gloss": "To go down"
+        }
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §39 A L2; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n148/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n148.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n101/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n101.jpg",
+        "exwb": "davidson-s39#AL2",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "parse-form",
+      "prompt": "Parse this form",
+      "stimulus": "דַּע",
+      "stimulusIsScript": true,
+      "fields": [
+        {
+          "key": "stem",
+          "label": "Stem",
+          "options": [
+            "Qal",
+            "Niph'al",
+            "Pi'el",
+            "Pu'al",
+            "Hithpa'el",
+            "Hiph'il",
+            "Hoph'al",
+            "Po'lel"
+          ]
+        },
+        {
+          "key": "form",
+          "label": "Form",
+          "options": [
+            "perfect",
+            "imperfect",
+            "imperative",
+            "jussive",
+            "cohortative",
+            "participle",
+            "infinitive construct",
+            "infinitive absolute"
+          ]
+        },
+        {
+          "key": "person",
+          "label": "Person",
+          "options": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "key": "gender",
+          "label": "Gender",
+          "options": [
+            "masc.",
+            "fem."
+          ]
+        },
+        {
+          "key": "number",
+          "label": "Number",
+          "options": [
+            "sing.",
+            "plur.",
+            "dual"
+          ]
+        },
+        {
+          "key": "root",
+          "label": "Root",
+          "options": [
+            "יצע",
+            "ידע",
+            "יצג",
+            "ירד"
+          ],
+          "isScript": true
+        }
+      ],
+      "readings": [
+        {
+          "gender": "masc.",
+          "number": "sing.",
+          "form": "imperative",
+          "stem": "Qal",
+          "root": "ידע",
+          "person": "2"
+        }
+      ],
+      "shape": "parse",
+      "explain": "Key: 2 sing. masc. imper. Qal of ידע. Know (thou)",
+      "data": {
+        "parse": {
+          "person": "2",
+          "gender": "masc.",
+          "number": "sing.",
+          "form": "imperative",
+          "stem": "Qal",
+          "root": "ידע",
+          "gloss": "Know (thou)"
+        }
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §39 A L3; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n148/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n148.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n101/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n101.jpg",
+        "exwb": "davidson-s39#AL3",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "parse-form",
+      "prompt": "Parse this form",
+      "stimulus": "דַּעַת",
+      "stimulusIsScript": true,
+      "fields": [
+        {
+          "key": "stem",
+          "label": "Stem",
+          "options": [
+            "Qal",
+            "Niph'al",
+            "Pi'el",
+            "Pu'al",
+            "Hithpa'el",
+            "Hiph'il",
+            "Hoph'al",
+            "Po'lel"
+          ]
+        },
+        {
+          "key": "form",
+          "label": "Form",
+          "options": [
+            "perfect",
+            "imperfect",
+            "imperative",
+            "jussive",
+            "cohortative",
+            "participle",
+            "infinitive construct",
+            "infinitive absolute"
+          ]
+        },
+        {
+          "key": "root",
+          "label": "Root",
+          "options": [
+            "הלך",
+            "ידע",
+            "ירד",
+            "יקד"
+          ],
+          "isScript": true
+        }
+      ],
+      "readings": [
+        {
+          "form": "infinitive construct",
+          "stem": "Qal",
+          "root": "ידע"
+        }
+      ],
+      "shape": "parse",
+      "explain": "Key: inf. cstr. Qal of ידע. Frequently used as a noun = knowledge",
+      "data": {
+        "parse": {
+          "form": "infinitive construct",
+          "stem": "Qal",
+          "root": "ידע",
+          "gloss": "Frequently used as a noun = knowledge"
+        }
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §39 A L4; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n148/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n148.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n101/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n101.jpg",
+        "exwb": "davidson-s39#AL4",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "parse-form",
+      "prompt": "Parse this form",
+      "stimulus": "נֵלְכָה",
+      "stimulusIsScript": true,
+      "fields": [
+        {
+          "key": "stem",
+          "label": "Stem",
+          "options": [
+            "Qal",
+            "Niph'al",
+            "Pi'el",
+            "Pu'al",
+            "Hithpa'el",
+            "Hiph'il",
+            "Hoph'al",
+            "Po'lel"
+          ]
+        },
+        {
+          "key": "form",
+          "label": "Form",
+          "options": [
+            "perfect",
+            "imperfect",
+            "imperative",
+            "jussive",
+            "cohortative",
+            "participle",
+            "infinitive construct",
+            "infinitive absolute"
+          ]
+        },
+        {
+          "key": "person",
+          "label": "Person",
+          "options": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "key": "number",
+          "label": "Number",
+          "options": [
+            "sing.",
+            "plur.",
+            "dual"
+          ]
+        },
+        {
+          "key": "root",
+          "label": "Root",
+          "options": [
+            "ירשׁ",
+            "יקד",
+            "הלך",
+            "ינק"
+          ],
+          "isScript": true
+        }
+      ],
+      "readings": [
+        {
+          "number": "plur.",
+          "form": "cohortative",
+          "stem": "Qal",
+          "root": "הלך",
+          "person": "1"
+        }
+      ],
+      "shape": "parse",
+      "explain": "Key: 1 plur. cohortative Qal (from נֵלֵךְ) of הלך. Let us go",
+      "data": {
+        "parse": {
+          "person": "1",
+          "number": "plur.",
+          "form": "cohortative",
+          "stem": "Qal",
+          "root": "הלך",
+          "gloss": "Let us go"
+        }
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §39 A L5; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n148/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n148.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n101/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n101.jpg",
+        "exwb": "davidson-s39#AL5",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "parse-form",
+      "prompt": "Parse this form",
+      "stimulus": "אִינַק",
+      "stimulusIsScript": true,
+      "fields": [
+        {
+          "key": "stem",
+          "label": "Stem",
+          "options": [
+            "Qal",
+            "Niph'al",
+            "Pi'el",
+            "Pu'al",
+            "Hithpa'el",
+            "Hiph'il",
+            "Hoph'al",
+            "Po'lel"
+          ]
+        },
+        {
+          "key": "form",
+          "label": "Form",
+          "options": [
+            "perfect",
+            "imperfect",
+            "imperative",
+            "jussive",
+            "cohortative",
+            "participle",
+            "infinitive construct",
+            "infinitive absolute"
+          ]
+        },
+        {
+          "key": "person",
+          "label": "Person",
+          "options": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "key": "number",
+          "label": "Number",
+          "options": [
+            "sing.",
+            "plur.",
+            "dual"
+          ]
+        },
+        {
+          "key": "root",
+          "label": "Root",
+          "options": [
+            "יצע",
+            "יקד",
+            "ינק",
+            "יצג"
+          ],
+          "isScript": true
+        }
+      ],
+      "readings": [
+        {
+          "number": "sing.",
+          "form": "imperfect",
+          "stem": "Qal",
+          "root": "ינק",
+          "person": "1"
+        }
+      ],
+      "shape": "parse",
+      "explain": "Key: 1 sing. impf. Qal of ינק. I will suck",
+      "data": {
+        "parse": {
+          "person": "1",
+          "number": "sing.",
+          "form": "imperfect",
+          "stem": "Qal",
+          "root": "ינק",
+          "gloss": "I will suck"
+        }
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §39 A L6; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n148/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n148.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n101/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n101.jpg",
+        "exwb": "davidson-s39#AL6",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "parse-form",
+      "prompt": "Parse this form",
+      "stimulus": "תִּירָא",
+      "stimulusIsScript": true,
+      "fields": [
+        {
+          "key": "stem",
+          "label": "Stem",
+          "options": [
+            "Qal",
+            "Niph'al",
+            "Pi'el",
+            "Pu'al",
+            "Hithpa'el",
+            "Hiph'il",
+            "Hoph'al",
+            "Po'lel"
+          ]
+        },
+        {
+          "key": "form",
+          "label": "Form",
+          "options": [
+            "perfect",
+            "imperfect",
+            "imperative",
+            "jussive",
+            "cohortative",
+            "participle",
+            "infinitive construct",
+            "infinitive absolute"
+          ]
+        },
+        {
+          "key": "person",
+          "label": "Person",
+          "options": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "key": "gender",
+          "label": "Gender",
+          "options": [
+            "masc.",
+            "fem."
+          ]
+        },
+        {
+          "key": "number",
+          "label": "Number",
+          "options": [
+            "sing.",
+            "plur.",
+            "dual"
+          ]
+        },
+        {
+          "key": "root",
+          "label": "Root",
+          "options": [
+            "ירא",
+            "הלך",
+            "ירשׁ",
+            "יצע"
+          ],
+          "isScript": true
+        }
+      ],
+      "readings": [
+        {
+          "gender": "masc.",
+          "number": "sing.",
+          "form": "imperfect",
+          "stem": "Qal",
+          "root": "ירא",
+          "person": "2"
+        },
+        {
+          "gender": "fem.",
+          "number": "sing.",
+          "form": "imperfect",
+          "stem": "Qal",
+          "root": "ירא",
+          "person": "3"
+        }
+      ],
+      "shape": "parse",
+      "explain": "Key: 2 sing. masc. or 3 sing. fem. impf. Qal of ירא. Thou wilt (or she will) fear",
+      "data": {
+        "parse": {
+          "person": "2",
+          "gender": "masc.",
+          "number": "sing.",
+          "form": "imperfect",
+          "stem": "Qal",
+          "root": "ירא",
+          "gloss": "Thou wilt fear",
+          "alt": "3 sing. fem. impf. Qal of ירא. Thou wilt fear"
+        }
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §39 A L7; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n148/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n148.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n101/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n101.jpg",
+        "exwb": "davidson-s39#AL7",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "parse-form",
+      "prompt": "Parse this form",
+      "stimulus": "הַנּוֹרָא",
+      "stimulusIsScript": true,
+      "fields": [
+        {
+          "key": "stem",
+          "label": "Stem",
+          "options": [
+            "Qal",
+            "Niph'al",
+            "Pi'el",
+            "Pu'al",
+            "Hithpa'el",
+            "Hiph'il",
+            "Hoph'al",
+            "Po'lel"
+          ]
+        },
+        {
+          "key": "form",
+          "label": "Form",
+          "options": [
+            "perfect",
+            "imperfect",
+            "imperative",
+            "jussive",
+            "cohortative",
+            "participle",
+            "infinitive construct",
+            "infinitive absolute"
+          ]
+        },
+        {
+          "key": "gender",
+          "label": "Gender",
+          "options": [
+            "masc.",
+            "fem."
+          ]
+        },
+        {
+          "key": "number",
+          "label": "Number",
+          "options": [
+            "sing.",
+            "plur.",
+            "dual"
+          ]
+        },
+        {
+          "key": "root",
+          "label": "Root",
+          "options": [
+            "יצג",
+            "ישׁן",
+            "ירא",
+            "ירשׁ"
+          ],
+          "isScript": true
+        }
+      ],
+      "readings": [
+        {
+          "gender": "masc.",
+          "number": "sing.",
+          "form": "participle",
+          "stem": "Niph'al",
+          "root": "ירא"
+        }
+      ],
+      "shape": "parse",
+      "explain": "Key: masc. sing. ptc. Niph. of ירא, with article. The one who is feared, or to be feared; the terrible",
+      "data": {
+        "parse": {
+          "gender": "masc.",
+          "number": "sing.",
+          "form": "participle",
+          "stem": "Niph'al",
+          "root": "ירא",
+          "gloss": "The one who is feared, or to be feared"
+        }
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §39 A L8; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n148/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n148.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n101/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n101.jpg",
+        "exwb": "davidson-s39#AL8",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "parse-form",
+      "prompt": "Parse this form",
+      "stimulus": "אִוָּרֵשׁ",
+      "stimulusIsScript": true,
+      "fields": [
+        {
+          "key": "stem",
+          "label": "Stem",
+          "options": [
+            "Qal",
+            "Niph'al",
+            "Pi'el",
+            "Pu'al",
+            "Hithpa'el",
+            "Hiph'il",
+            "Hoph'al",
+            "Po'lel"
+          ]
+        },
+        {
+          "key": "form",
+          "label": "Form",
+          "options": [
+            "perfect",
+            "imperfect",
+            "imperative",
+            "jussive",
+            "cohortative",
+            "participle",
+            "infinitive construct",
+            "infinitive absolute"
+          ]
+        },
+        {
+          "key": "person",
+          "label": "Person",
+          "options": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "key": "number",
+          "label": "Number",
+          "options": [
+            "sing.",
+            "plur.",
+            "dual"
+          ]
+        },
+        {
+          "key": "root",
+          "label": "Root",
+          "options": [
+            "הלך",
+            "יצע",
+            "ירשׁ",
+            "ישׁן"
+          ],
+          "isScript": true
+        }
+      ],
+      "readings": [
+        {
+          "number": "sing.",
+          "form": "imperfect",
+          "stem": "Niph'al",
+          "root": "ירשׁ",
+          "person": "1"
+        }
+      ],
+      "shape": "parse",
+      "explain": "Key: 1 sing. impf. Niph. of ירשׁ. I shall be (dispossessed =) impoverished, come to poverty",
+      "data": {
+        "parse": {
+          "person": "1",
+          "number": "sing.",
+          "form": "imperfect",
+          "stem": "Niph'al",
+          "root": "ירשׁ",
+          "gloss": "I shall be (dispossessed =) impoverished, come to poverty"
+        }
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §39 A L9; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n148/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n148.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n101/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n101.jpg",
+        "exwb": "davidson-s39#AL9",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "parse-form",
+      "prompt": "Parse this form",
+      "stimulus": "וַיּוֹרֶשׁ",
+      "stimulusIsScript": true,
+      "fields": [
+        {
+          "key": "stem",
+          "label": "Stem",
+          "options": [
+            "Qal",
+            "Niph'al",
+            "Pi'el",
+            "Pu'al",
+            "Hithpa'el",
+            "Hiph'il",
+            "Hoph'al",
+            "Po'lel"
+          ]
+        },
+        {
+          "key": "form",
+          "label": "Form",
+          "options": [
+            "perfect",
+            "imperfect",
+            "imperative",
+            "jussive",
+            "cohortative",
+            "participle",
+            "infinitive construct",
+            "infinitive absolute"
+          ]
+        },
+        {
+          "key": "person",
+          "label": "Person",
+          "options": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "key": "gender",
+          "label": "Gender",
+          "options": [
+            "masc.",
+            "fem."
+          ]
+        },
+        {
+          "key": "number",
+          "label": "Number",
+          "options": [
+            "sing.",
+            "plur.",
+            "dual"
+          ]
+        },
+        {
+          "key": "root",
+          "label": "Root",
+          "options": [
+            "הלך",
+            "ישׁן",
+            "ירא",
+            "ירשׁ"
+          ],
+          "isScript": true
+        }
+      ],
+      "readings": [
+        {
+          "gender": "masc.",
+          "number": "sing.",
+          "form": "imperfect",
+          "stem": "Hiph'il",
+          "root": "ירשׁ",
+          "person": "3"
+        }
+      ],
+      "shape": "parse",
+      "explain": "Key: 3 sing. masc. impf. Hiph. of ירשׁ, with waw consec. And he dispossessed, i.e. drove out",
+      "data": {
+        "parse": {
+          "person": "3",
+          "gender": "masc.",
+          "number": "sing.",
+          "form": "imperfect",
+          "stem": "Hiph'il",
+          "root": "ירשׁ",
+          "gloss": "And he dispossessed, i.e. drove out"
+        }
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §39 A L10; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n148/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n148.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n101/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n101.jpg",
+        "exwb": "davidson-s39#AL10",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "parse-form",
+      "prompt": "Parse this form",
+      "stimulus": "וָאִישָׁנָה",
+      "stimulusIsScript": true,
+      "fields": [
+        {
+          "key": "stem",
+          "label": "Stem",
+          "options": [
+            "Qal",
+            "Niph'al",
+            "Pi'el",
+            "Pu'al",
+            "Hithpa'el",
+            "Hiph'il",
+            "Hoph'al",
+            "Po'lel"
+          ]
+        },
+        {
+          "key": "form",
+          "label": "Form",
+          "options": [
+            "perfect",
+            "imperfect",
+            "imperative",
+            "jussive",
+            "cohortative",
+            "participle",
+            "infinitive construct",
+            "infinitive absolute"
+          ]
+        },
+        {
+          "key": "person",
+          "label": "Person",
+          "options": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "key": "number",
+          "label": "Number",
+          "options": [
+            "sing.",
+            "plur.",
+            "dual"
+          ]
+        },
+        {
+          "key": "root",
+          "label": "Root",
+          "options": [
+            "ידע",
+            "ירא",
+            "יקד",
+            "ישׁן"
+          ],
+          "isScript": true
+        }
+      ],
+      "readings": [
+        {
+          "number": "sing.",
+          "form": "cohortative",
+          "stem": "Qal",
+          "root": "ישׁן",
+          "person": "1"
+        }
+      ],
+      "shape": "parse",
+      "explain": "Key: 1 sing. cohortative Qal of ישׁן. And I slept",
+      "data": {
+        "parse": {
+          "person": "1",
+          "number": "sing.",
+          "form": "cohortative",
+          "stem": "Qal",
+          "root": "ישׁן",
+          "gloss": "And I slept"
+        }
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §39 A L11; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n148/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n148.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n101/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n101.jpg",
+        "exwb": "davidson-s39#AL11",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "parse-form",
+      "prompt": "Parse this form",
+      "stimulus": "תּוּקַד",
+      "stimulusIsScript": true,
+      "fields": [
+        {
+          "key": "stem",
+          "label": "Stem",
+          "options": [
+            "Qal",
+            "Niph'al",
+            "Pi'el",
+            "Pu'al",
+            "Hithpa'el",
+            "Hiph'il",
+            "Hoph'al",
+            "Po'lel"
+          ]
+        },
+        {
+          "key": "form",
+          "label": "Form",
+          "options": [
+            "perfect",
+            "imperfect",
+            "imperative",
+            "jussive",
+            "cohortative",
+            "participle",
+            "infinitive construct",
+            "infinitive absolute"
+          ]
+        },
+        {
+          "key": "person",
+          "label": "Person",
+          "options": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "key": "gender",
+          "label": "Gender",
+          "options": [
+            "masc.",
+            "fem."
+          ]
+        },
+        {
+          "key": "number",
+          "label": "Number",
+          "options": [
+            "sing.",
+            "plur.",
+            "dual"
+          ]
+        },
+        {
+          "key": "root",
+          "label": "Root",
+          "options": [
+            "יקד",
+            "ירא",
+            "ידע",
+            "ינק"
+          ],
+          "isScript": true
+        }
+      ],
+      "readings": [
+        {
+          "gender": "fem.",
+          "number": "sing.",
+          "form": "imperfect",
+          "stem": "Hoph'al",
+          "root": "יקד",
+          "person": "3"
+        }
+      ],
+      "shape": "parse",
+      "explain": "Key: 3 sing. fem. (or 2 sing. masc.) impf. Hoph. of יקד. It shall be kindled, burn",
+      "data": {
+        "parse": {
+          "person": "3",
+          "gender": "fem.",
+          "number": "sing.",
+          "form": "imperfect",
+          "stem": "Hoph'al",
+          "root": "יקד",
+          "gloss": "It shall be kindled, burn"
+        }
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §39 A L12; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n148/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n148.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n101/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n101.jpg",
+        "exwb": "davidson-s39#AL12",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "parse-form",
+      "prompt": "Parse this form",
+      "stimulus": "בְּהוֹרִידִי",
+      "stimulusIsScript": true,
+      "fields": [
+        {
+          "key": "stem",
+          "label": "Stem",
+          "options": [
+            "Qal",
+            "Niph'al",
+            "Pi'el",
+            "Pu'al",
+            "Hithpa'el",
+            "Hiph'il",
+            "Hoph'al",
+            "Po'lel"
+          ]
+        },
+        {
+          "key": "form",
+          "label": "Form",
+          "options": [
+            "perfect",
+            "imperfect",
+            "imperative",
+            "jussive",
+            "cohortative",
+            "participle",
+            "infinitive construct",
+            "infinitive absolute"
+          ]
+        },
+        {
+          "key": "root",
+          "label": "Root",
+          "options": [
+            "יקד",
+            "ירשׁ",
+            "יצע",
+            "ירד"
+          ],
+          "isScript": true
+        }
+      ],
+      "readings": [
+        {
+          "form": "infinitive construct",
+          "stem": "Hiph'il",
+          "root": "ירד"
+        }
+      ],
+      "shape": "parse",
+      "explain": "Key: inf. cstr. Hiph. of ירד with בְּ and 1 sing. suffix. When I brought down",
+      "data": {
+        "parse": {
+          "form": "infinitive construct",
+          "stem": "Hiph'il",
+          "root": "ירד",
+          "gloss": "When I brought down"
+        }
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §39 A L13; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n148/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n148.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n101/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n101.jpg",
+        "exwb": "davidson-s39#AL13",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "parse-form",
+      "prompt": "Parse this form",
+      "stimulus": "תֵּרַדְנָה",
+      "stimulusIsScript": true,
+      "fields": [
+        {
+          "key": "stem",
+          "label": "Stem",
+          "options": [
+            "Qal",
+            "Niph'al",
+            "Pi'el",
+            "Pu'al",
+            "Hithpa'el",
+            "Hiph'il",
+            "Hoph'al",
+            "Po'lel"
+          ]
+        },
+        {
+          "key": "form",
+          "label": "Form",
+          "options": [
+            "perfect",
+            "imperfect",
+            "imperative",
+            "jussive",
+            "cohortative",
+            "participle",
+            "infinitive construct",
+            "infinitive absolute"
+          ]
+        },
+        {
+          "key": "person",
+          "label": "Person",
+          "options": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "key": "gender",
+          "label": "Gender",
+          "options": [
+            "masc.",
+            "fem."
+          ]
+        },
+        {
+          "key": "number",
+          "label": "Number",
+          "options": [
+            "sing.",
+            "plur.",
+            "dual"
+          ]
+        },
+        {
+          "key": "root",
+          "label": "Root",
+          "options": [
+            "יצג",
+            "ירד",
+            "הלך",
+            "יקד"
+          ],
+          "isScript": true
+        }
+      ],
+      "readings": [
+        {
+          "form": "imperfect",
+          "stem": "Qal",
+          "root": "ירד",
+          "gender": "fem.",
+          "number": "plur.",
+          "person": "2"
+        },
+        {
+          "form": "imperfect",
+          "stem": "Qal",
+          "root": "ירד",
+          "gender": "fem.",
+          "number": "plur.",
+          "person": "3"
+        }
+      ],
+      "shape": "parse",
+      "explain": "Key: 2 or 3 plur. fem. impf. Qal of ירד. Ye or they will come down",
+      "data": {
+        "parse": {
+          "form": "imperfect",
+          "stem": "Qal",
+          "root": "ירד",
+          "gloss": "Ye or they will come down",
+          "alt": "3 plur. fem. impf. Qal of ירד. Ye or they will come down"
+        }
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §39 A L14; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n148/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n148.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n101/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n101.jpg",
+        "exwb": "davidson-s39#AL14",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "parse-form",
+      "prompt": "Parse this form",
+      "stimulus": "וַיֹּרִדֻהוּ",
+      "stimulusIsScript": true,
+      "fields": [
+        {
+          "key": "stem",
+          "label": "Stem",
+          "options": [
+            "Qal",
+            "Niph'al",
+            "Pi'el",
+            "Pu'al",
+            "Hithpa'el",
+            "Hiph'il",
+            "Hoph'al",
+            "Po'lel"
+          ]
+        },
+        {
+          "key": "form",
+          "label": "Form",
+          "options": [
+            "perfect",
+            "imperfect",
+            "imperative",
+            "jussive",
+            "cohortative",
+            "participle",
+            "infinitive construct",
+            "infinitive absolute"
+          ]
+        },
+        {
+          "key": "person",
+          "label": "Person",
+          "options": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "key": "gender",
+          "label": "Gender",
+          "options": [
+            "masc.",
+            "fem."
+          ]
+        },
+        {
+          "key": "number",
+          "label": "Number",
+          "options": [
+            "sing.",
+            "plur.",
+            "dual"
+          ]
+        }
+      ],
+      "readings": [
+        {
+          "gender": "masc.",
+          "number": "plur.",
+          "form": "imperfect",
+          "stem": "Hiph'il",
+          "person": "3"
+        }
+      ],
+      "shape": "parse",
+      "explain": "Key: 3 plur. masc. impf. Hiph. with waw consec. and 3 sing. masc. suffix (scriptio defectiva). And they brought him down",
+      "data": {
+        "parse": {
+          "suffix": "3 sing. masc. suffix",
+          "person": "3",
+          "gender": "masc.",
+          "number": "plur.",
+          "form": "imperfect",
+          "stem": "Hiph'il",
+          "waw": "consecutive"
+        }
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §39 A L15; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n148/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n148.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n101/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n101.jpg",
+        "exwb": "davidson-s39#AL15",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "parse-form",
+      "prompt": "Parse this form",
+      "stimulus": "הֻצַּע",
+      "stimulusIsScript": true,
+      "fields": [
+        {
+          "key": "stem",
+          "label": "Stem",
+          "options": [
+            "Qal",
+            "Niph'al",
+            "Pi'el",
+            "Pu'al",
+            "Hithpa'el",
+            "Hiph'il",
+            "Hoph'al",
+            "Po'lel"
+          ]
+        },
+        {
+          "key": "form",
+          "label": "Form",
+          "options": [
+            "perfect",
+            "imperfect",
+            "imperative",
+            "jussive",
+            "cohortative",
+            "participle",
+            "infinitive construct",
+            "infinitive absolute"
+          ]
+        },
+        {
+          "key": "person",
+          "label": "Person",
+          "options": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "key": "gender",
+          "label": "Gender",
+          "options": [
+            "masc.",
+            "fem."
+          ]
+        },
+        {
+          "key": "number",
+          "label": "Number",
+          "options": [
+            "sing.",
+            "plur.",
+            "dual"
+          ]
+        },
+        {
+          "key": "root",
+          "label": "Root",
+          "options": [
+            "יצג",
+            "ירא",
+            "יצע",
+            "ישׁן"
+          ],
+          "isScript": true
+        }
+      ],
+      "readings": [
+        {
+          "gender": "masc.",
+          "number": "sing.",
+          "form": "perfect",
+          "stem": "Hoph'al",
+          "root": "יצע",
+          "person": "3"
+        }
+      ],
+      "shape": "parse",
+      "explain": "Key: 3 sing. masc. pf. Hoph. of יצע. It was spread",
+      "data": {
+        "parse": {
+          "person": "3",
+          "gender": "masc.",
+          "number": "sing.",
+          "form": "perfect",
+          "stem": "Hoph'al",
+          "root": "יצע",
+          "gloss": "It was spread"
+        }
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §39 A L16; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n148/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n148.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n101/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n101.jpg",
+        "exwb": "davidson-s39#AL16",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "parse-form",
+      "prompt": "Parse this form",
+      "stimulus": "מַצִּיג",
+      "stimulusIsScript": true,
+      "fields": [
+        {
+          "key": "stem",
+          "label": "Stem",
+          "options": [
+            "Qal",
+            "Niph'al",
+            "Pi'el",
+            "Pu'al",
+            "Hithpa'el",
+            "Hiph'il",
+            "Hoph'al",
+            "Po'lel"
+          ]
+        },
+        {
+          "key": "form",
+          "label": "Form",
+          "options": [
+            "perfect",
+            "imperfect",
+            "imperative",
+            "jussive",
+            "cohortative",
+            "participle",
+            "infinitive construct",
+            "infinitive absolute"
+          ]
+        },
+        {
+          "key": "gender",
+          "label": "Gender",
+          "options": [
+            "masc.",
+            "fem."
+          ]
+        },
+        {
+          "key": "number",
+          "label": "Number",
+          "options": [
+            "sing.",
+            "plur.",
+            "dual"
+          ]
+        },
+        {
+          "key": "root",
+          "label": "Root",
+          "options": [
+            "יצג",
+            "ירא",
+            "ידע",
+            "הלך"
+          ],
+          "isScript": true
+        }
+      ],
+      "readings": [
+        {
+          "gender": "masc.",
+          "number": "sing.",
+          "form": "participle",
+          "stem": "Hiph'il",
+          "root": "יצג"
+        }
+      ],
+      "shape": "parse",
+      "explain": "Key: masc. sing. ptc. Hiph. of יצג. One who sets or places",
+      "data": {
+        "parse": {
+          "gender": "masc.",
+          "number": "sing.",
+          "form": "participle",
+          "stem": "Hiph'il",
+          "root": "יצג",
+          "gloss": "One who sets or places"
+        }
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §39 A L17; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n148/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n148.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n101/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n101.jpg",
+        "exwb": "davidson-s39#AL17",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "parse-form",
+      "prompt": "Parse this form",
+      "stimulus": "וַנֵּדָעֵם",
+      "stimulusIsScript": true,
+      "fields": [
+        {
+          "key": "stem",
+          "label": "Stem",
+          "options": [
+            "Qal",
+            "Niph'al",
+            "Pi'el",
+            "Pu'al",
+            "Hithpa'el",
+            "Hiph'il",
+            "Hoph'al",
+            "Po'lel"
+          ]
+        },
+        {
+          "key": "form",
+          "label": "Form",
+          "options": [
+            "perfect",
+            "imperfect",
+            "imperative",
+            "jussive",
+            "cohortative",
+            "participle",
+            "infinitive construct",
+            "infinitive absolute"
+          ]
+        },
+        {
+          "key": "person",
+          "label": "Person",
+          "options": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "key": "number",
+          "label": "Number",
+          "options": [
+            "sing.",
+            "plur.",
+            "dual"
+          ]
+        },
+        {
+          "key": "root",
+          "label": "Root",
+          "options": [
+            "יצג",
+            "ישׁן",
+            "ידע",
+            "ירשׁ"
+          ],
+          "isScript": true
+        }
+      ],
+      "readings": [
+        {
+          "number": "plur.",
+          "form": "imperfect",
+          "stem": "Qal",
+          "root": "ידע",
+          "person": "1"
+        }
+      ],
+      "shape": "parse",
+      "explain": "Key: 1 plur. impf. Qal of ידע with waw consec. and 3 plur. masc. suffix. And we knew them",
+      "data": {
+        "parse": {
+          "person": "1",
+          "number": "plur.",
+          "form": "imperfect",
+          "stem": "Qal",
+          "root": "ידע",
+          "gloss": "And we knew them"
+        }
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §39 A L18; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n148/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n148.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n101/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n101.jpg",
+        "exwb": "davidson-s39#AL18",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "parse-form",
+      "prompt": "Parse this form",
+      "stimulus": "יִירָשׁוּם",
+      "stimulusIsScript": true,
+      "fields": [
+        {
+          "key": "stem",
+          "label": "Stem",
+          "options": [
+            "Qal",
+            "Niph'al",
+            "Pi'el",
+            "Pu'al",
+            "Hithpa'el",
+            "Hiph'il",
+            "Hoph'al",
+            "Po'lel"
+          ]
+        },
+        {
+          "key": "form",
+          "label": "Form",
+          "options": [
+            "perfect",
+            "imperfect",
+            "imperative",
+            "jussive",
+            "cohortative",
+            "participle",
+            "infinitive construct",
+            "infinitive absolute"
+          ]
+        },
+        {
+          "key": "person",
+          "label": "Person",
+          "options": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "key": "gender",
+          "label": "Gender",
+          "options": [
+            "masc.",
+            "fem."
+          ]
+        },
+        {
+          "key": "number",
+          "label": "Number",
+          "options": [
+            "sing.",
+            "plur.",
+            "dual"
+          ]
+        },
+        {
+          "key": "root",
+          "label": "Root",
+          "options": [
+            "הלך",
+            "ירשׁ",
+            "יצע",
+            "ירא"
+          ],
+          "isScript": true
+        }
+      ],
+      "readings": [
+        {
+          "gender": "masc.",
+          "number": "plur.",
+          "form": "imperfect",
+          "stem": "Qal",
+          "root": "ירשׁ",
+          "person": "3"
+        }
+      ],
+      "shape": "parse",
+      "explain": "Key: 3 plur. masc. impf. Qal of ירשׁ, with 3 plur. masc. suffix. They will possess them",
+      "data": {
+        "parse": {
+          "person": "3",
+          "gender": "masc.",
+          "number": "plur.",
+          "form": "imperfect",
+          "stem": "Qal",
+          "root": "ירשׁ",
+          "gloss": "They will possess them"
+        }
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §39 A L19; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n148/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n148.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n101/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n101.jpg",
+        "exwb": "davidson-s39#AL19",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיֵּרֶד אַבְרָם מִצְרַיְמָה וַיֹּאמֶר אֶל־אִשְׁתּוֹ אִמְרִי־נָא אֲחֹתִי אַתְּ לְמַעַן יִיטַב־לִי בַעֲבוּרֵךְ וַיִּקַּח אֹתָהּ הַמֶּלֶךְ וּלְאַבְרָם הֵיטִיב בַּעֲבוּרָהּ וַיְנַגַּע יהוה אֹתוֹ נְגָעִים גְּדֹלִים וַיֵּדַע כִּי אִשְׁתּוֹ הִיא",
+      "stimulusIsScript": true,
+      "options": [
+        "Yahweh said to Abram, I am Yahweh who brought thee out of Ur of the Chaldees to give thee this land to possess it. And he said, O Lord Yahweh, whereby shall I know that I shall possess it?",
+        "And he forsook the counsel which the old men had given him, and he took counsel with the young men.",
+        "And Abram went down into Egypt, and he said to his wife, Say, I pray thee, thou art my sister, in order that it may be well with me for thy sake. And the king took her, and with Abram he dealt well for her sake. But Yahweh plagued him with great plagues, and he learned that she was his wife.",
+        "And thou shalt remember all the way which Yahweh thy God hath led thee now for forty years in the wilderness, to know what was in thy heart, whether thou wouldst keep his commandments or no."
+      ],
+      "answer": "And Abram went down into Egypt, and he said to his wife, Say, I pray thee, thou art my sister, in order that it may be well with me for thy sake. And the king took her, and with Abram he dealt well for her sake. But Yahweh plagued him with great plagues, and he learned that she was his wife.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §39 B 1; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n148/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n148.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n101/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n101.jpg",
+        "exwb": "davidson-s39#B1",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אָמַר יהוה אֶל־אַבְרָם אֲנִי יהוה אֲשֶׁר הוֹצֵאתִיךָ מֵאוּר כַּשְׂדִּים לָתֶת לְךָ אֶת־הָאָרֶץ הַזֹּאת לְרִשְׁתָּהּ וַיֹּאמַר אֲדֹנָי יהוה בַּמָּה אֵדַע כִּי אִירָשֶׁנָּה",
+      "stimulusIsScript": true,
+      "options": [
+        "Yahweh said to Abram, I am Yahweh who brought thee out of Ur of the Chaldees to give thee this land to possess it. And he said, O Lord Yahweh, whereby shall I know that I shall possess it?",
+        "And Abram went down into Egypt, and he said to his wife, Say, I pray thee, thou art my sister, in order that it may be well with me for thy sake. And the king took her, and with Abram he dealt well for her sake. But Yahweh plagued him with great plagues, and he learned that she was his wife.",
+        "And the sons of Jacob said to him, The man asked about us and about our kindred, saying, Is your father still alive? have you a brother? and we told him according to the tenor of these words. Could we possibly know that he would say, Bring your brother down?",
+        "Those that trust in Yahweh shall walk and not be weary."
+      ],
+      "answer": "Yahweh said to Abram, I am Yahweh who brought thee out of Ur of the Chaldees to give thee this land to possess it. And he said, O Lord Yahweh, whereby shall I know that I shall possess it?",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §39 B 2; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n148/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n148.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n101/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n101.jpg",
+        "exwb": "davidson-s39#B2",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיֹּאמְרוּ בְּנֵי יַעֲקֹב אֵלָיו שָׁאוֹל שָׁאַל הָאִישׁ לָנוּ וּלְמוֹלַדְתֵּנוּ לֵאמֹר הַעוֹד אֲבִיכֶם חַי הֲיֵשׁ לָכֶם אָח וַנַּגֶּד־לוֹ עַל־פִּי הַדְּבָרִים הָאֵלֶּה הֲיָדוֹעַ נֵדַע כִּי יֹאמַר הוֹרִידוּ אֶת־אֲחִיכֶם",
+      "stimulusIsScript": true,
+      "options": [
+        "And thou shalt remember all the way which Yahweh thy God hath led thee now for forty years in the wilderness, to know what was in thy heart, whether thou wouldst keep his commandments or no.",
+        "Those that trust in Yahweh shall walk and not be weary.",
+        "And the sons of Jacob said to him, The man asked about us and about our kindred, saying, Is your father still alive? have you a brother? and we told him according to the tenor of these words. Could we possibly know that he would say, Bring your brother down?",
+        "And he forsook the counsel which the old men had given him, and he took counsel with the young men."
+      ],
+      "answer": "And the sons of Jacob said to him, The man asked about us and about our kindred, saying, Is your father still alive? have you a brother? and we told him according to the tenor of these words. Could we possibly know that he would say, Bring your brother down?",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §39 B 3; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n148/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n148.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n101/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n101.jpg",
+        "exwb": "davidson-s39#B3",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיַּעֲזֹב אֶת־עֲצַת הַזְּקֵנִים אֲשֶׁר יְעָצֻהוּ וַיִּוָּעַץ אֶת־הַיְלָדִים",
+      "stimulusIsScript": true,
+      "options": [
+        "And he forsook the counsel which the old men had given him, and he took counsel with the young men.",
+        "And the sons of Jacob said to him, The man asked about us and about our kindred, saying, Is your father still alive? have you a brother? and we told him according to the tenor of these words. Could we possibly know that he would say, Bring your brother down?",
+        "And Abram went down into Egypt, and he said to his wife, Say, I pray thee, thou art my sister, in order that it may be well with me for thy sake. And the king took her, and with Abram he dealt well for her sake. But Yahweh plagued him with great plagues, and he learned that she was his wife.",
+        "Yahweh said to Abram, I am Yahweh who brought thee out of Ur of the Chaldees to give thee this land to possess it. And he said, O Lord Yahweh, whereby shall I know that I shall possess it?"
+      ],
+      "answer": "And he forsook the counsel which the old men had given him, and he took counsel with the young men.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §39 B 4; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n148/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n148.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n101/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n101.jpg",
+        "exwb": "davidson-s39#B4",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַבֹּטְחִים בַּיהוָה יֵלְכוּ וְלֹא יִיעָפוּ",
+      "stimulusIsScript": true,
+      "options": [
+        "Yahweh said to Abram, I am Yahweh who brought thee out of Ur of the Chaldees to give thee this land to possess it. And he said, O Lord Yahweh, whereby shall I know that I shall possess it?",
+        "And Abram went down into Egypt, and he said to his wife, Say, I pray thee, thou art my sister, in order that it may be well with me for thy sake. And the king took her, and with Abram he dealt well for her sake. But Yahweh plagued him with great plagues, and he learned that she was his wife.",
+        "Those that trust in Yahweh shall walk and not be weary.",
+        "And thou shalt remember all the way which Yahweh thy God hath led thee now for forty years in the wilderness, to know what was in thy heart, whether thou wouldst keep his commandments or no."
+      ],
+      "answer": "Those that trust in Yahweh shall walk and not be weary.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §39 B 5; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n148/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n148.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n101/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n101.jpg",
+        "exwb": "davidson-s39#B5",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וזכרת את־כל־הדרך אשר הוליכך יהוה אלהיך זה ארבעים שנה במדבר לדעת את־אשר בלבבך התשמר מצותיו אם־לא",
+      "stimulusIsScript": true,
+      "options": [
+        "And thou shalt remember all the way which Yahweh thy God hath led thee now for forty years in the wilderness, to know what was in thy heart, whether thou wouldst keep his commandments or no.",
+        "And the sons of Jacob said to him, The man asked about us and about our kindred, saying, Is your father still alive? have you a brother? and we told him according to the tenor of these words. Could we possibly know that he would say, Bring your brother down?",
+        "Those that trust in Yahweh shall walk and not be weary.",
+        "Yahweh said to Abram, I am Yahweh who brought thee out of Ur of the Chaldees to give thee this land to possess it. And he said, O Lord Yahweh, whereby shall I know that I shall possess it?"
+      ],
+      "answer": "And thou shalt remember all the way which Yahweh thy God hath led thee now for forty years in the wilderness, to know what was in thy heart, whether thou wouldst keep his commandments or no.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "hint": "With vowel points: וְזָכַרְתָּ אֶת־כָּל־הַדֶּרֶךְ אֲשֶׁר הוֹלִיכְךָ יְהוָה אֱלֹהֶיךָ זֶה אַרְבָּעִים שָׁנָה בַּמִּדְבָּר לָדַעַת אֶת־אֲשֶׁר בִּלְבָבְךָ הֲתִשְׁמֹר מִצְוֹתָיו אִם־לֹא",
+      "data": {
+        "pointed": "וְזָכַרְתָּ אֶת־כָּל־הַדֶּרֶךְ אֲשֶׁר הוֹלִיכְךָ יְהוָה אֱלֹהֶיךָ זֶה אַרְבָּעִים שָׁנָה בַּמִּדְבָּר לָדַעַת אֶת־אֲשֶׁר בִּלְבָבְךָ הֲתִשְׁמֹר מִצְוֹתָיו אִם־לֹא"
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §39 B 6; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n148/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n148.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n101/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n101.jpg",
+        "exwb": "davidson-s39#B6",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "And the ark went upon the face of the waters.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַתֵּלֶךְ הַתֵּבָה עַל־פְּנֵי הַמָּיִם"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §39 C 1; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n148/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n148.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n101/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n101.jpg",
+        "exwb": "davidson-s39#C1",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "Make me to know thy ways.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הוֹדִיעֵנִי נָא אֶת־דְּרָכֶיךָ"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §39 C 2; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n148/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n148.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n101/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n101.jpg",
+        "exwb": "davidson-s39#C2",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "And they said unto her, Wilt thou go with this man? and she said, I will go.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיֹּאמְרוּ אֵלֶיהָ הֲתֵלְכִי עִם־הָאִישׁ הַזֶּה וַתֹּאמֶר אֵלֵךְ"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §39 C 3; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n148/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n148.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n101/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n101.jpg",
+        "exwb": "davidson-s39#C3",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "And he said, Cause every man to go out of the house; and there stood no man with him, when he made himself known to his brethren.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיֹּאמֶר הוֹצִיאוּ כָל־אִישׁ מִן־הַבַּיִת וְלֹא־עָמַד אִישׁ אִתּוֹ בְּהִתְוַדְּעוֹ אֶל־אֶחָיו"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §39 C 4; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n148/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n148.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n101/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n101.jpg",
+        "exwb": "davidson-s39#C4",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "And the man opened the doors of the house and went out to go on (dat.) his way.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיִּפְתַּח הָאִישׁ אֶת־דַּלְתוֹת הַבַּיִת וַיֵּצֵא לָלֶכֶת לְדַרְכּוֹ"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §39 C 5; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n148/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n148.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n101/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n101.jpg",
+        "exwb": "davidson-s39#C5",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "And the daughter of Pharaoh said to her, Take this child and nurse (suckle) it for me, and she took the child and nursed it.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַתֹּאמֶר־לָהּ בַּת־פַּרְעֹה קְחִי אֶת־הַיֶּלֶד הַזֶּה וְהֵינִקִהוּ לִי וַתִּקַּח אֶת־הַיֶּלֶד וַתֵּינִקֵהוּ"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §39 C 6; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n148/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n148.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n101/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n101.jpg",
+        "exwb": "davidson-s39#C6",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "Behold I have heard that there is corn in Egypt, go down thither and buy us a little food.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הִנֵּה שָׁמַעְתִּי כִּי יֶשׁ־שֶׁבֶר בְּמִצְרָיִם רְדוּ־שָׁמָּה וְשִׁבְרוּ־לָנוּ מְעַט אֹכֶל"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §39 C 7; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n148/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n148.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n101/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n101.jpg",
+        "exwb": "davidson-s39#C7",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "And Yahweh said unto him, Go not down to Egypt, dwell in the land which I shall say unto thee.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיֹּאמֶר אֵלָיו יְהוָה אַל־תֵּרֵד מִצְרָיְמָה שֵׁב בָּאָרֶץ אֲשֶׁר אֹמַר אֵלֶיךָ"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §39 C 8; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n148/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n148.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n101/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n101.jpg",
+        "exwb": "davidson-s39#C8",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "And he was afraid and said, How terrible (ירא, Niph. ptc.) is this place!",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיִּירָא וַיֹּאמֶר מַה־נּוֹרָא הַמָּקוֹם הַזֶּה"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §39 C 9; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n148/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n148.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n101/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n101.jpg",
+        "exwb": "davidson-s39#C9",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "And he said, My son shall not go down, for his brother is dead and he alone is left, and should mischief befall him in the way in which ye shall go, then shall ye bring down my grey-hairs in sorrow to Sheol.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיֹּאמֶר לֹא־יֵרֵד בְּנִי כִּי־אָחִיו מֵת וְהוּא לְבַדּוֹ נִשְׁאָר וּקְרָאָהוּ אָסוֹן בַּדֶּרֶךְ אֲשֶׁר תֵּלְכוּ־בָהּ וְהוֹרַדְתֶּם אֶת־שֵׂיבָתִי בְּיָגוֹן שְׁאוֹלָה"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §39 C 10; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n148/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n148.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n101/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n101.jpg",
+        "exwb": "davidson-s39#C10",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "And Noah awoke from his wine and knew what his younger (little) son had done to him.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיִּיקַץ נֹחַ מִיֵּינוֹ וַיֵּדַע אֵת אֲשֶׁר־עָשָׂה לוֹ בְּנוֹ הַקָּטָן"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §41 B 3; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n155/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n155.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n112/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n112.jpg",
+        "exwb": "davidson-s41#B3",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וּבְצִלּוֹ יֵשְׁבוּ גּוֹיִם רַבִּים",
+      "stimulusIsScript": true,
+      "options": [
+        "And in its shadow many nations used to dwell.",
+        "And the woman came to him and said, Behold, thy handmaid hath hearkened unto thy voice, and I have put my life in my hand.",
+        "These are the statutes and the judgments which ye shall observe in the land which I have given you to possess it, all the days that ye live upon the earth, for ye are my people.",
+        "And David came to his house, and behold, the maiden was coming out to meet him with timbrels."
+      ],
+      "answer": "And in its shadow many nations used to dwell.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §43 A 2; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n161/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n161.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n121/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n121.jpg",
+        "exwb": "davidson-s43#A2",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הִנֵּה הָעַלְמָה יֹלֶדֶת בֵּן וְקָרָאת שְׁמוֹ עִמָּנוּ אֵל",
+      "stimulusIsScript": true,
+      "options": [
+        "Behold, the young woman is about to bear a son and she shall call his name Immanuel.",
+        "And in its shadow many nations used to dwell.",
+        "God thou shalt not revile, and a ruler among thy people thou shalt not curse.",
+        "And the woman came to him and said, Behold, thy handmaid hath hearkened unto thy voice, and I have put my life in my hand."
+      ],
+      "answer": "Behold, the young woman is about to bear a son and she shall call his name Immanuel.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §43 A 7; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n161/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n161.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n121/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n121.jpg",
+        "exwb": "davidson-s43#A7",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אלה החקים והמשפטים אשר תשמרו בארץ אשר נתתי לכם לרשתה כל הימים אשר־אתם חיים על־האדמה כי עמי אתם",
+      "stimulusIsScript": true,
+      "options": [
+        "God thou shalt not revile, and a ruler among thy people thou shalt not curse.",
+        "And David came to his house, and behold, the maiden was coming out to meet him with timbrels.",
+        "These are the statutes and the judgments which ye shall observe in the land which I have given you to possess it, all the days that ye live upon the earth, for ye are my people.",
+        "Behold, the young woman is about to bear a son and she shall call his name Immanuel."
+      ],
+      "answer": "These are the statutes and the judgments which ye shall observe in the land which I have given you to possess it, all the days that ye live upon the earth, for ye are my people.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "hint": "With vowel points: אֵלֶּה הַחֻקִּים וְהַמִּשְׁפָּטִים אֲשֶׁר תִּשְׁמְרוּ בָּאָרֶץ אֲשֶׁר נָתַתִּי לָכֶם לְרִשְׁתָּהּ כָּל־הַיָּמִים אֲשֶׁר־אַתֶּם חַיִּים עַל־הָאֲדָמָה כִּי עַמִּי אַתֶּם",
+      "data": {
+        "pointed": "אֵלֶּה הַחֻקִּים וְהַמִּשְׁפָּטִים אֲשֶׁר תִּשְׁמְרוּ בָּאָרֶץ אֲשֶׁר נָתַתִּי לָכֶם לְרִשְׁתָּהּ כָּל־הַיָּמִים אֲשֶׁר־אַתֶּם חַיִּים עַל־הָאֲדָמָה כִּי עַמִּי אַתֶּם"
+      },
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §43 A 10; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n161/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n161.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n121/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n121.jpg",
+        "exwb": "davidson-s43#A10",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אַשְׁרֵי יוֹשְׁבֵי בֵיתֶךָ",
+      "stimulusIsScript": true,
+      "options": [
+        "Children's children are the crown of old men, and the glory of children are their fathers.",
+        "And Moses arose and came to their rescue and watered their flock: and when they came to their father, he said, Why have you come (so) quickly to-day?",
+        "And I will establish my covenant with thee, and thou shalt enter into the ark, thou and thy sons and thy wife and thy sons' wives with thee.",
+        "Happy are they that dwell in thy house."
+      ],
+      "answer": "Happy are they that dwell in thy house.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §45b C 4; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n173/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n173.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n130/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n130.jpg",
+        "exwb": "davidson-s45b#C4",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "His daughter abode in her father's house two years.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "יָשְׁבָה בִתּוֹ בְּבֵית אָבִיהָ שְׁנָתַיִם"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §45b D 5; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n173/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n173.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n130/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n130.jpg",
+        "exwb": "davidson-s45b#D5",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "יֶלֶד יֻלַּד־לָנוּ בֵּן נִתַּן־לָנוּ",
+      "stimulusIsScript": true,
+      "options": [
+        "And he looked, and behold, a well in the field, and behold, there were flocks of sheep lying there by it, for out of that well they used to water the flocks.",
+        "This is the covenant that I will make with the house of Israel after those days: I will put my law in their inward parts, and on their hearts will I write it, and I will be their God, and they shall be my people.",
+        "A child has been born to us, a son has been given to us.",
+        "Thy servant was shepherding his father's flock; and if a lion came and took a sheep out of the flock, I would go out after him, and smite him, and rescue it from his mouth."
+      ],
+      "answer": "A child has been born to us, a son has been given to us.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §46 A 2; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n179/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n179.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n134/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n134.jpg",
+        "exwb": "davidson-s46#A2",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "יוֹדֵעַ יהוה דֶּרֶךְ צַדִּיקִים וְדֶרֶךְ רְשָׁעִים תֹּאבֵד",
+      "stimulusIsScript": true,
+      "options": [
+        "Yahweh is my shepherd, I shall not want.",
+        "This is the covenant that I will make with the house of Israel after those days: I will put my law in their inward parts, and on their hearts will I write it, and I will be their God, and they shall be my people.",
+        "A child has been born to us, a son has been given to us.",
+        "Yahweh knoweth the way of the righteous, but the way of the wicked shall perish."
+      ],
+      "answer": "Yahweh knoweth the way of the righteous, but the way of the wicked shall perish.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §46 A 7; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n179/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n179.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n134/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n134.jpg",
+        "exwb": "davidson-s46#A7",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "I counsel thee, let all thy people be gathered together.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "יָעַצְתִּי יֵאָסֵף כָּל־עַמְּךָ"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §46 B 9; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n179/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n179.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n134/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n134.jpg",
+        "exwb": "davidson-s46#B9",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "They found maidens coming out to draw water.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מָצְאוּ נְעָרוֹת יֹצְאוֹת לִשְׁאֹב מָיִם"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §46 B 10; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n179/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n179.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n134/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n134.jpg",
+        "exwb": "davidson-s46#B10",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "A righteous man careth for the life of his beast.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "יוֹדֵעַ צַדִּיק נֶפֶשׁ בְּהֶמְתּוֹ"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §46 B 12; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n179/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n179.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n134/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n134.jpg",
+        "exwb": "davidson-s46#B12",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "טוֹב יוֹם הַמָּוֶת מִיּוֹם הִוָּלְדוֹ",
+      "stimulusIsScript": true,
+      "options": [
+        "O thou fairest among women!",
+        "I will make of thee a nation more powerful and numerous than it.",
+        "Take away my life, for I am not better than my fathers.",
+        "The day of death is better than the day of one's birth."
+      ],
+      "answer": "The day of death is better than the day of one's birth.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §47 A 4; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n181/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n181.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n140/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n140.jpg",
+        "exwb": "davidson-s47#A4",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיִּקַּח מִנְחָה לְאָחִיו עִזִּים מָאתַיִם וְאֵילִים עֶשְׂרִים וּגְמַלִּים מֵינִיקוֹת וּבְנֵיהֶם שְׁלֹשִׁים",
+      "stimulusIsScript": true,
+      "options": [
+        "And he said to his father, My two sons thou mayest slay, if I bring him not to thee.",
+        "A day in thy courts is better than a thousand.",
+        "And he took a present for his brother—two hundred she-goats, and twenty rams, and thirty milch camels and their colts.",
+        "And after this he lived a hundred and forty years, and he saw his sons and his sons' sons—four generations."
+      ],
+      "answer": "And he took a present for his brother—two hundred she-goats, and twenty rams, and thirty milch camels and their colts.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §48 A 2; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n185/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n185.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n142/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n142.jpg",
+        "exwb": "davidson-s48#A2",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיֹּאמֶר אֲלֵיהֶם צְאוּ שְׁלָשְׁתְּכֶם וַיֵּצְאוּ שְׁלָשְׁתָּם",
+      "stimulusIsScript": true,
+      "options": [
+        "And he said to them, Come out, the three of you; and they came out, the three of them.",
+        "A day in thy courts is better than a thousand.",
+        "And he took a present for his brother—two hundred she-goats, and twenty rams, and thirty milch camels and their colts.",
+        "And five of you shall chase a hundred, and a hundred of you shall chase ten thousand."
+      ],
+      "answer": "And he said to them, Come out, the three of you; and they came out, the three of them.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §48 A 8; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n185/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n185.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n142/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n142.jpg",
+        "exwb": "davidson-s48#A8",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אָנָה אֵלֵךְ מֵרוּחֶךָ",
+      "stimulusIsScript": true,
+      "options": [
+        "And he wept; and thus he said, as he went, O that I had died instead of thee, my son.",
+        "Whence shall my help come?",
+        "Whither shall I go from thy spirit?",
+        "Thou shalt assuredly go to my father's house and take a wife for my son."
+      ],
+      "answer": "Whither shall I go from thy spirit?",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §49 A 1; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n188/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n188.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n146/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n146.jpg",
+        "exwb": "davidson-s49#A1",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אִם־לֹא אֶל־בֵּית־אָבִי תֵּלֵךְ וְלָקַחְתָּ אִשָּׁה לִבְנִי",
+      "stimulusIsScript": true,
+      "options": [
+        "Far be it from me, O Yahweh, that I should do this thing: (shall I drink) the blood of the men who went at the risk of their lives?",
+        "Entreat Yahweh your God that he may remove this death from me.",
+        "Thou shalt assuredly go to my father's house and take a wife for my son.",
+        "And Saul swore to her by Yahweh, saying, As Yahweh liveth, there shall no punishment befall thee for this thing. Then the woman said, Whom shall I bring up for thee? And he said, Bring me up Samuel. And when the woman saw Samuel, she cried with a loud voice. But the king said to her, Be not afraid; for what didst thou see? And the woman said, I saw a god coming up out of the earth."
+      ],
+      "answer": "Thou shalt assuredly go to my father's house and take a wife for my son.",
+      "optionIsScript": false,
+      "shape": "he-en",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §49 A 6; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n188/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n188.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n146/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n146.jpg",
+        "exwb": "davidson-s49#A6",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "And he said to her, My daughter, wilt thou go with this man, or wilt thou stay with me? and she said, Alas, my father, I cannot stay with thee.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיֹּאמֶר אֵלֶיהָ בִּתִּי הֲתֵלְכִי עִם־הָאִישׁ הַזֶּה אִם תֵּשְׁבִי עִמָּדִי וַתֹּאמֶר אֲהָהּ אָבִי לֹא אוּכַל לָשֶׁבֶת עִמָּךְ"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §49 B 1; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n188/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n188.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n146/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n146.jpg",
+        "exwb": "davidson-s49#B1",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "God never grows faint or weary: if ye believe in him, how can ye say, My way is hidden from my God? for he remembereth that we are dust, and evermore he giveth strength to the weary who put their trust in him.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "לֹא יִיעַף אֱלֹהִים וְלֹא יִיגָע אִם תַּאֲמִינוּ בוֹ אֵיךְ תֹּאמְרוּ נִסְתְּרָה דַרְכִּי מֵאֱלֹהָי כִּי זָכוּר כִּי עָפָר אֲנָחְנוּ וְכֹחַ הוּא נֹתֵן לַיָּגֵעַ אֲשֶׁר יִבְטַח בּוֹ"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §49 B 7; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n188/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n188.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n146/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n146.jpg",
+        "exwb": "davidson-s49#B7",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    }
+  ]
+}

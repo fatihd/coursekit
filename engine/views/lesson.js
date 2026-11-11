@@ -1,7 +1,7 @@
 import { el, scriptSpan } from "../dom.js";
 import { weakUnits } from "../knowledge.js";
 
-function renderVocabCard(course, item) {
+function renderVocabCard(course, item, showTranslit = true) {
   const card = el("div", "vocab-card");
 
   const word = el("div", "vocab-word");
@@ -20,8 +20,8 @@ function renderVocabCard(course, item) {
     const n = item.number === "s" ? "sing." : item.number === "p" ? "plur." : item.number === "d" ? "dual" : "";
     meta.appendChild(el("span", "vocab-gender", [g, n].filter(Boolean).join(" ")));
   }
-  if (item.transliteration) meta.appendChild(el("span", "vocab-translit", item.transliteration));
-  if (item.pronunciation && item.pronunciation !== item.transliteration) {
+  if (showTranslit && item.transliteration) meta.appendChild(el("span", "vocab-translit", item.transliteration));
+  if (showTranslit && item.pronunciation && item.pronunciation !== item.transliteration) {
     meta.appendChild(el("span", "vocab-pron", item.pronunciation));
   }
   if (item.category) meta.appendChild(el("span", "vocab-cat", item.category));
@@ -101,7 +101,7 @@ export function renderLesson(root, ctx, unit, lesson) {
       const grid = el("div", "vocab-grid");
       for (const ref of block.refs) {
         const item = ctx.vocab[ref];
-        if (item) grid.appendChild(renderVocabCard(ctx.course, item));
+        if (item) grid.appendChild(renderVocabCard(ctx.course, item, !ctx.features || ctx.features.transliteration !== false));
       }
       root.appendChild(grid);
     } else if (block.type === "table" || block.type === "paradigm") {

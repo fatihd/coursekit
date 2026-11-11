@@ -3,2304 +3,706 @@
   "unit": 22,
   "items": [
     {
-      "type": "parse-form",
-      "prompt": "Parse this form",
-      "stimulus": "אֶשְׁמֹר",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "קָרָא אֱלֹהִים לָאוֹר יוֹם וְלַחֹשֶׁךְ קָרָא לָיְלָה",
       "stimulusIsScript": true,
-      "fields": [
-        {
-          "key": "stem",
-          "label": "Stem",
-          "options": [
-            "Qal",
-            "Niph'al",
-            "Pi'el",
-            "Pu'al",
-            "Hithpa'el",
-            "Hiph'il",
-            "Hoph'al",
-            "Po'lel"
-          ]
-        },
-        {
-          "key": "form",
-          "label": "Form",
-          "options": [
-            "perfect",
-            "imperfect",
-            "imperative",
-            "jussive",
-            "cohortative",
-            "participle",
-            "infinitive construct",
-            "infinitive absolute"
-          ]
-        },
-        {
-          "key": "person",
-          "label": "Person",
-          "options": [
-            "1",
-            "2",
-            "3"
-          ]
-        },
-        {
-          "key": "number",
-          "label": "Number",
-          "options": [
-            "sing.",
-            "plur.",
-            "dual"
-          ]
-        },
-        {
-          "key": "root",
-          "label": "Root",
-          "options": [
-            "שָׁמַר",
-            "דָּרַשׁ",
-            "גָּנַב",
-            "רָמַשׂ"
-          ],
-          "isScript": true
-        }
+      "options": [
+        "The boy sat in this place.",
+        "God rested on the seventh day from the work which he had made.",
+        "He gave the sword to the king.",
+        "God called the light day, and the darkness he called night."
       ],
-      "readings": [
-        {
-          "number": "sing.",
-          "form": "imperfect",
-          "stem": "Qal",
-          "root": "שָׁמַר",
-          "person": "1"
-        }
-      ],
-      "shape": "parse",
-      "explain": "Key: 1 sing. impf. Qal of שָׁמַר",
-      "data": {
-        "parse": {
-          "person": "1",
-          "number": "sing.",
-          "form": "imperfect",
-          "stem": "Qal",
-          "root": "שָׁמַר"
-        }
-      },
+      "answer": "God called the light day, and the darkness he called night.",
+      "optionIsScript": false,
+      "shape": "he-en",
       "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 A L1; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
-        "exwb": "davidson-s21#AL1",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "parse-form",
-      "prompt": "Parse this form",
-      "stimulus": "לִשְׁמֹר",
-      "stimulusIsScript": true,
-      "fields": [
-        {
-          "key": "stem",
-          "label": "Stem",
-          "options": [
-            "Qal",
-            "Niph'al",
-            "Pi'el",
-            "Pu'al",
-            "Hithpa'el",
-            "Hiph'il",
-            "Hoph'al",
-            "Po'lel"
-          ]
-        },
-        {
-          "key": "form",
-          "label": "Form",
-          "options": [
-            "perfect",
-            "imperfect",
-            "imperative",
-            "jussive",
-            "cohortative",
-            "participle",
-            "infinitive construct",
-            "infinitive absolute"
-          ]
-        },
-        {
-          "key": "root",
-          "label": "Root",
-          "options": [
-            "רָמַשׂ",
-            "זָכַר",
-            "גָּנַב",
-            "שָׁמַר"
-          ],
-          "isScript": true
-        }
-      ],
-      "readings": [
-        {
-          "form": "infinitive construct",
-          "stem": "Qal",
-          "root": "שָׁמַר"
-        }
-      ],
-      "shape": "parse",
-      "explain": "Key: inf. cstr. Qal of שָׁמַר, with prepos. לְ prefixed",
-      "data": {
-        "parse": {
-          "form": "infinitive construct",
-          "stem": "Qal",
-          "root": "שָׁמַר"
-        }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 A L2; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
-        "exwb": "davidson-s21#AL2",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "parse-form",
-      "prompt": "Parse this form",
-      "stimulus": "שִׁמְרוּ",
-      "stimulusIsScript": true,
-      "fields": [
-        {
-          "key": "stem",
-          "label": "Stem",
-          "options": [
-            "Qal",
-            "Niph'al",
-            "Pi'el",
-            "Pu'al",
-            "Hithpa'el",
-            "Hiph'il",
-            "Hoph'al",
-            "Po'lel"
-          ]
-        },
-        {
-          "key": "form",
-          "label": "Form",
-          "options": [
-            "perfect",
-            "imperfect",
-            "imperative",
-            "jussive",
-            "cohortative",
-            "participle",
-            "infinitive construct",
-            "infinitive absolute"
-          ]
-        },
-        {
-          "key": "person",
-          "label": "Person",
-          "options": [
-            "1",
-            "2",
-            "3"
-          ]
-        },
-        {
-          "key": "gender",
-          "label": "Gender",
-          "options": [
-            "masc.",
-            "fem."
-          ]
-        },
-        {
-          "key": "number",
-          "label": "Number",
-          "options": [
-            "sing.",
-            "plur.",
-            "dual"
-          ]
-        },
-        {
-          "key": "root",
-          "label": "Root",
-          "options": [
-            "שָׁמַר",
-            "כָּרַת",
-            "זָכַר",
-            "דָּרַשׁ"
-          ],
-          "isScript": true
-        }
-      ],
-      "readings": [
-        {
-          "gender": "masc.",
-          "number": "plur.",
-          "form": "imperative",
-          "stem": "Qal",
-          "root": "שָׁמַר",
-          "person": "2"
-        }
-      ],
-      "shape": "parse",
-      "explain": "Key: 2 plur. masc. imperat. Qal of שָׁמַר",
-      "data": {
-        "parse": {
-          "person": "2",
-          "gender": "masc.",
-          "number": "plur.",
-          "form": "imperative",
-          "stem": "Qal",
-          "root": "שָׁמַר"
-        }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 A L3; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
-        "exwb": "davidson-s21#AL3",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "parse-form",
-      "prompt": "Parse this form",
-      "stimulus": "שְׁמֹר",
-      "stimulusIsScript": true,
-      "fields": [
-        {
-          "key": "stem",
-          "label": "Stem",
-          "options": [
-            "Qal",
-            "Niph'al",
-            "Pi'el",
-            "Pu'al",
-            "Hithpa'el",
-            "Hiph'il",
-            "Hoph'al",
-            "Po'lel"
-          ]
-        },
-        {
-          "key": "form",
-          "label": "Form",
-          "options": [
-            "perfect",
-            "imperfect",
-            "imperative",
-            "jussive",
-            "cohortative",
-            "participle",
-            "infinitive construct",
-            "infinitive absolute"
-          ]
-        },
-        {
-          "key": "person",
-          "label": "Person",
-          "options": [
-            "1",
-            "2",
-            "3"
-          ]
-        },
-        {
-          "key": "gender",
-          "label": "Gender",
-          "options": [
-            "masc.",
-            "fem."
-          ]
-        },
-        {
-          "key": "number",
-          "label": "Number",
-          "options": [
-            "sing.",
-            "plur.",
-            "dual"
-          ]
-        },
-        {
-          "key": "root",
-          "label": "Root",
-          "options": [
-            "רָמַשׂ",
-            "זָכַר",
-            "כָּרַת",
-            "שָׁמַר"
-          ],
-          "isScript": true
-        }
-      ],
-      "readings": [
-        {
-          "gender": "masc.",
-          "number": "sing.",
-          "form": "imperative",
-          "stem": "Qal",
-          "root": "שָׁמַר",
-          "person": "2"
-        },
-        {
-          "form": "infinitive construct",
-          "root": "שָׁמַר",
-          "stem": "Qal"
-        }
-      ],
-      "shape": "parse",
-      "explain": "Key: 2 sing. masc. imperat. Qal of שָׁמַר; also inf. cstr.",
-      "data": {
-        "parse": {
-          "person": "2",
-          "gender": "masc.",
-          "number": "sing.",
-          "form": "imperative",
-          "stem": "Qal",
-          "root": "שָׁמַר",
-          "alt": "inf. cstr"
-        }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 A L4; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
-        "exwb": "davidson-s21#AL4",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "parse-form",
-      "prompt": "Parse this form",
-      "stimulus": "תִּשְׁמֹר",
-      "stimulusIsScript": true,
-      "fields": [
-        {
-          "key": "stem",
-          "label": "Stem",
-          "options": [
-            "Qal",
-            "Niph'al",
-            "Pi'el",
-            "Pu'al",
-            "Hithpa'el",
-            "Hiph'il",
-            "Hoph'al",
-            "Po'lel"
-          ]
-        },
-        {
-          "key": "form",
-          "label": "Form",
-          "options": [
-            "perfect",
-            "imperfect",
-            "imperative",
-            "jussive",
-            "cohortative",
-            "participle",
-            "infinitive construct",
-            "infinitive absolute"
-          ]
-        },
-        {
-          "key": "person",
-          "label": "Person",
-          "options": [
-            "1",
-            "2",
-            "3"
-          ]
-        },
-        {
-          "key": "gender",
-          "label": "Gender",
-          "options": [
-            "masc.",
-            "fem."
-          ]
-        },
-        {
-          "key": "number",
-          "label": "Number",
-          "options": [
-            "sing.",
-            "plur.",
-            "dual"
-          ]
-        },
-        {
-          "key": "root",
-          "label": "Root",
-          "options": [
-            "פָּקַד",
-            "רָמַשׂ",
-            "דָּרַשׁ",
-            "שָׁמַר"
-          ],
-          "isScript": true
-        }
-      ],
-      "readings": [
-        {
-          "gender": "masc.",
-          "number": "sing.",
-          "form": "imperfect",
-          "stem": "Qal",
-          "root": "שָׁמַר",
-          "person": "2"
-        },
-        {
-          "gender": "fem.",
-          "number": "sing.",
-          "form": "imperfect",
-          "stem": "Qal",
-          "root": "שָׁמַר",
-          "person": "3"
-        }
-      ],
-      "shape": "parse",
-      "explain": "Key: 2 sing. masc. or 3 sing. fem. impf. Qal of שָׁמַר",
-      "data": {
-        "parse": {
-          "person": "2",
-          "gender": "masc.",
-          "number": "sing.",
-          "form": "imperfect",
-          "stem": "Qal",
-          "root": "שָׁמַר",
-          "alt": "3 sing. fem. impf. Qal of שָׁמַר"
-        }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 A L5; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
-        "exwb": "davidson-s21#AL5",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "parse-form",
-      "prompt": "Parse this form",
-      "stimulus": "יִשְׁמְרוּ",
-      "stimulusIsScript": true,
-      "fields": [
-        {
-          "key": "stem",
-          "label": "Stem",
-          "options": [
-            "Qal",
-            "Niph'al",
-            "Pi'el",
-            "Pu'al",
-            "Hithpa'el",
-            "Hiph'il",
-            "Hoph'al",
-            "Po'lel"
-          ]
-        },
-        {
-          "key": "form",
-          "label": "Form",
-          "options": [
-            "perfect",
-            "imperfect",
-            "imperative",
-            "jussive",
-            "cohortative",
-            "participle",
-            "infinitive construct",
-            "infinitive absolute"
-          ]
-        },
-        {
-          "key": "person",
-          "label": "Person",
-          "options": [
-            "1",
-            "2",
-            "3"
-          ]
-        },
-        {
-          "key": "gender",
-          "label": "Gender",
-          "options": [
-            "masc.",
-            "fem."
-          ]
-        },
-        {
-          "key": "number",
-          "label": "Number",
-          "options": [
-            "sing.",
-            "plur.",
-            "dual"
-          ]
-        },
-        {
-          "key": "root",
-          "label": "Root",
-          "options": [
-            "כָּרַת",
-            "זָכַר",
-            "פָּקַד",
-            "שָׁמַר"
-          ],
-          "isScript": true
-        }
-      ],
-      "readings": [
-        {
-          "gender": "masc.",
-          "number": "plur.",
-          "form": "imperfect",
-          "stem": "Qal",
-          "root": "שָׁמַר",
-          "person": "3"
-        }
-      ],
-      "shape": "parse",
-      "explain": "Key: 3 plur. masc. impf. Qal of שָׁמַר",
-      "data": {
-        "parse": {
-          "person": "3",
-          "gender": "masc.",
-          "number": "plur.",
-          "form": "imperfect",
-          "stem": "Qal",
-          "root": "שָׁמַר"
-        }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 A L6; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
-        "exwb": "davidson-s21#AL6",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "parse-form",
-      "prompt": "Parse this form",
-      "stimulus": "נִשְׁמֹר",
-      "stimulusIsScript": true,
-      "fields": [
-        {
-          "key": "stem",
-          "label": "Stem",
-          "options": [
-            "Qal",
-            "Niph'al",
-            "Pi'el",
-            "Pu'al",
-            "Hithpa'el",
-            "Hiph'il",
-            "Hoph'al",
-            "Po'lel"
-          ]
-        },
-        {
-          "key": "form",
-          "label": "Form",
-          "options": [
-            "perfect",
-            "imperfect",
-            "imperative",
-            "jussive",
-            "cohortative",
-            "participle",
-            "infinitive construct",
-            "infinitive absolute"
-          ]
-        },
-        {
-          "key": "person",
-          "label": "Person",
-          "options": [
-            "1",
-            "2",
-            "3"
-          ]
-        },
-        {
-          "key": "number",
-          "label": "Number",
-          "options": [
-            "sing.",
-            "plur.",
-            "dual"
-          ]
-        },
-        {
-          "key": "root",
-          "label": "Root",
-          "options": [
-            "זָכַר",
-            "שָׁמַר",
-            "רָמַשׂ",
-            "כָּרַת"
-          ],
-          "isScript": true
-        }
-      ],
-      "readings": [
-        {
-          "number": "plur.",
-          "form": "imperfect",
-          "stem": "Qal",
-          "root": "שָׁמַר",
-          "person": "1"
-        }
-      ],
-      "shape": "parse",
-      "explain": "Key: 1 plur. impf. Qal of שָׁמַר",
-      "data": {
-        "parse": {
-          "person": "1",
-          "number": "plur.",
-          "form": "imperfect",
-          "stem": "Qal",
-          "root": "שָׁמַר"
-        }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 A L7; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
-        "exwb": "davidson-s21#AL7",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "parse-form",
-      "prompt": "Parse this form",
-      "stimulus": "גְּנוּבִים",
-      "stimulusIsScript": true,
-      "fields": [
-        {
-          "key": "stem",
-          "label": "Stem",
-          "options": [
-            "Qal",
-            "Niph'al",
-            "Pi'el",
-            "Pu'al",
-            "Hithpa'el",
-            "Hiph'il",
-            "Hoph'al",
-            "Po'lel"
-          ]
-        },
-        {
-          "key": "form",
-          "label": "Form",
-          "options": [
-            "perfect",
-            "imperfect",
-            "imperative",
-            "jussive",
-            "cohortative",
-            "participle",
-            "infinitive construct",
-            "infinitive absolute"
-          ]
-        },
-        {
-          "key": "gender",
-          "label": "Gender",
-          "options": [
-            "masc.",
-            "fem."
-          ]
-        },
-        {
-          "key": "number",
-          "label": "Number",
-          "options": [
-            "sing.",
-            "plur.",
-            "dual"
-          ]
-        },
-        {
-          "key": "state",
-          "label": "State",
-          "options": [
-            "absolute",
-            "construct"
-          ]
-        },
-        {
-          "key": "root",
-          "label": "Root",
-          "options": [
-            "פָּקַד",
-            "זָכַר",
-            "דָּרַשׁ",
-            "גָּנַב"
-          ],
-          "isScript": true
-        }
-      ],
-      "readings": [
-        {
-          "gender": "masc.",
-          "number": "plur.",
-          "form": "participle",
-          "stem": "Qal",
-          "state": "absolute",
-          "root": "גָּנַב"
-        }
-      ],
-      "shape": "parse",
-      "explain": "Key: plur. masc. abs. of passive ptc. Qal of גָּנַב",
-      "data": {
-        "parse": {
-          "gender": "masc.",
-          "number": "plur.",
-          "form": "participle",
-          "stem": "Qal",
-          "state": "absolute",
-          "root": "גָּנַב"
-        }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 A L8; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
-        "exwb": "davidson-s21#AL8",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "parse-form",
-      "prompt": "Parse this form",
-      "stimulus": "גָּנוֹב",
-      "stimulusIsScript": true,
-      "fields": [
-        {
-          "key": "stem",
-          "label": "Stem",
-          "options": [
-            "Qal",
-            "Niph'al",
-            "Pi'el",
-            "Pu'al",
-            "Hithpa'el",
-            "Hiph'il",
-            "Hoph'al",
-            "Po'lel"
-          ]
-        },
-        {
-          "key": "form",
-          "label": "Form",
-          "options": [
-            "perfect",
-            "imperfect",
-            "imperative",
-            "jussive",
-            "cohortative",
-            "participle",
-            "infinitive construct",
-            "infinitive absolute"
-          ]
-        },
-        {
-          "key": "root",
-          "label": "Root",
-          "options": [
-            "גָּנַב",
-            "רָמַשׂ",
-            "פָּקַד",
-            "זָכַר"
-          ],
-          "isScript": true
-        }
-      ],
-      "readings": [
-        {
-          "form": "infinitive absolute",
-          "stem": "Qal",
-          "root": "גָּנַב"
-        }
-      ],
-      "shape": "parse",
-      "explain": "Key: inf. abs. Qal of גָּנַב",
-      "data": {
-        "parse": {
-          "form": "infinitive absolute",
-          "stem": "Qal",
-          "root": "גָּנַב"
-        }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 A L9; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
-        "exwb": "davidson-s21#AL9",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "parse-form",
-      "prompt": "Parse this form",
-      "stimulus": "תִּפְקְדוּ",
-      "stimulusIsScript": true,
-      "fields": [
-        {
-          "key": "stem",
-          "label": "Stem",
-          "options": [
-            "Qal",
-            "Niph'al",
-            "Pi'el",
-            "Pu'al",
-            "Hithpa'el",
-            "Hiph'il",
-            "Hoph'al",
-            "Po'lel"
-          ]
-        },
-        {
-          "key": "form",
-          "label": "Form",
-          "options": [
-            "perfect",
-            "imperfect",
-            "imperative",
-            "jussive",
-            "cohortative",
-            "participle",
-            "infinitive construct",
-            "infinitive absolute"
-          ]
-        },
-        {
-          "key": "person",
-          "label": "Person",
-          "options": [
-            "1",
-            "2",
-            "3"
-          ]
-        },
-        {
-          "key": "gender",
-          "label": "Gender",
-          "options": [
-            "masc.",
-            "fem."
-          ]
-        },
-        {
-          "key": "number",
-          "label": "Number",
-          "options": [
-            "sing.",
-            "plur.",
-            "dual"
-          ]
-        },
-        {
-          "key": "root",
-          "label": "Root",
-          "options": [
-            "פָּקַד",
-            "שָׁמַר",
-            "דָּרַשׁ",
-            "רָמַשׂ"
-          ],
-          "isScript": true
-        }
-      ],
-      "readings": [
-        {
-          "gender": "masc.",
-          "number": "plur.",
-          "form": "imperfect",
-          "stem": "Qal",
-          "root": "פָּקַד",
-          "person": "2"
-        }
-      ],
-      "shape": "parse",
-      "explain": "Key: 2 plur. masc. impf. Qal of פָּקַד",
-      "data": {
-        "parse": {
-          "person": "2",
-          "gender": "masc.",
-          "number": "plur.",
-          "form": "imperfect",
-          "stem": "Qal",
-          "root": "פָּקַד"
-        }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 A L10; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
-        "exwb": "davidson-s21#AL10",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "parse-form",
-      "prompt": "Parse this form",
-      "stimulus": "תִּזְכְּרִי",
-      "stimulusIsScript": true,
-      "fields": [
-        {
-          "key": "stem",
-          "label": "Stem",
-          "options": [
-            "Qal",
-            "Niph'al",
-            "Pi'el",
-            "Pu'al",
-            "Hithpa'el",
-            "Hiph'il",
-            "Hoph'al",
-            "Po'lel"
-          ]
-        },
-        {
-          "key": "form",
-          "label": "Form",
-          "options": [
-            "perfect",
-            "imperfect",
-            "imperative",
-            "jussive",
-            "cohortative",
-            "participle",
-            "infinitive construct",
-            "infinitive absolute"
-          ]
-        },
-        {
-          "key": "person",
-          "label": "Person",
-          "options": [
-            "1",
-            "2",
-            "3"
-          ]
-        },
-        {
-          "key": "gender",
-          "label": "Gender",
-          "options": [
-            "masc.",
-            "fem."
-          ]
-        },
-        {
-          "key": "number",
-          "label": "Number",
-          "options": [
-            "sing.",
-            "plur.",
-            "dual"
-          ]
-        },
-        {
-          "key": "root",
-          "label": "Root",
-          "options": [
-            "רָמַשׂ",
-            "שָׁמַר",
-            "זָכַר",
-            "גָּנַב"
-          ],
-          "isScript": true
-        }
-      ],
-      "readings": [
-        {
-          "gender": "fem.",
-          "number": "sing.",
-          "form": "imperfect",
-          "stem": "Qal",
-          "root": "זָכַר",
-          "person": "2"
-        }
-      ],
-      "shape": "parse",
-      "explain": "Key: 2 sing. fem. impf. Qal of זָכַר",
-      "data": {
-        "parse": {
-          "person": "2",
-          "gender": "fem.",
-          "number": "sing.",
-          "form": "imperfect",
-          "stem": "Qal",
-          "root": "זָכַר"
-        }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 A L11; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
-        "exwb": "davidson-s21#AL11",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "parse-form",
-      "prompt": "Parse this form",
-      "stimulus": "זְכֹר",
-      "stimulusIsScript": true,
-      "fields": [
-        {
-          "key": "stem",
-          "label": "Stem",
-          "options": [
-            "Qal",
-            "Niph'al",
-            "Pi'el",
-            "Pu'al",
-            "Hithpa'el",
-            "Hiph'il",
-            "Hoph'al",
-            "Po'lel"
-          ]
-        },
-        {
-          "key": "form",
-          "label": "Form",
-          "options": [
-            "perfect",
-            "imperfect",
-            "imperative",
-            "jussive",
-            "cohortative",
-            "participle",
-            "infinitive construct",
-            "infinitive absolute"
-          ]
-        },
-        {
-          "key": "person",
-          "label": "Person",
-          "options": [
-            "1",
-            "2",
-            "3"
-          ]
-        },
-        {
-          "key": "gender",
-          "label": "Gender",
-          "options": [
-            "masc.",
-            "fem."
-          ]
-        },
-        {
-          "key": "number",
-          "label": "Number",
-          "options": [
-            "sing.",
-            "plur.",
-            "dual"
-          ]
-        },
-        {
-          "key": "root",
-          "label": "Root",
-          "options": [
-            "פָּקַד",
-            "כָּרַת",
-            "רָמַשׂ",
-            "זָכַר"
-          ],
-          "isScript": true
-        }
-      ],
-      "readings": [
-        {
-          "gender": "masc.",
-          "number": "sing.",
-          "form": "imperative",
-          "stem": "Qal",
-          "root": "זָכַר",
-          "person": "2"
-        },
-        {
-          "form": "infinitive construct",
-          "root": "זָכַר",
-          "stem": "Qal"
-        }
-      ],
-      "shape": "parse",
-      "explain": "Key: 2 sing. masc. imperat. Qal of זָכַר; also inf. cstr.",
-      "data": {
-        "parse": {
-          "person": "2",
-          "gender": "masc.",
-          "number": "sing.",
-          "form": "imperative",
-          "stem": "Qal",
-          "root": "זָכַר",
-          "alt": "inf. cstr"
-        }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 A L12; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
-        "exwb": "davidson-s21#AL12",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "parse-form",
-      "prompt": "Parse this form",
-      "stimulus": "כֹּרְתִים",
-      "stimulusIsScript": true,
-      "fields": [
-        {
-          "key": "stem",
-          "label": "Stem",
-          "options": [
-            "Qal",
-            "Niph'al",
-            "Pi'el",
-            "Pu'al",
-            "Hithpa'el",
-            "Hiph'il",
-            "Hoph'al",
-            "Po'lel"
-          ]
-        },
-        {
-          "key": "form",
-          "label": "Form",
-          "options": [
-            "perfect",
-            "imperfect",
-            "imperative",
-            "jussive",
-            "cohortative",
-            "participle",
-            "infinitive construct",
-            "infinitive absolute"
-          ]
-        },
-        {
-          "key": "gender",
-          "label": "Gender",
-          "options": [
-            "masc.",
-            "fem."
-          ]
-        },
-        {
-          "key": "number",
-          "label": "Number",
-          "options": [
-            "sing.",
-            "plur.",
-            "dual"
-          ]
-        },
-        {
-          "key": "state",
-          "label": "State",
-          "options": [
-            "absolute",
-            "construct"
-          ]
-        },
-        {
-          "key": "root",
-          "label": "Root",
-          "options": [
-            "כָּרַת",
-            "רָמַשׂ",
-            "פָּקַד",
-            "שָׁמַר"
-          ],
-          "isScript": true
-        }
-      ],
-      "readings": [
-        {
-          "gender": "masc.",
-          "number": "plur.",
-          "form": "participle",
-          "stem": "Qal",
-          "state": "absolute",
-          "root": "כָּרַת"
-        }
-      ],
-      "shape": "parse",
-      "explain": "Key: plur. masc. abs. of active ptc. Qal of כָּרַת",
-      "data": {
-        "parse": {
-          "gender": "masc.",
-          "number": "plur.",
-          "form": "participle",
-          "stem": "Qal",
-          "state": "absolute",
-          "root": "כָּרַת"
-        }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 A L13; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
-        "exwb": "davidson-s21#AL13",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "parse-form",
-      "prompt": "Parse this form",
-      "stimulus": "דֹּרְשֵׁי",
-      "stimulusIsScript": true,
-      "fields": [
-        {
-          "key": "stem",
-          "label": "Stem",
-          "options": [
-            "Qal",
-            "Niph'al",
-            "Pi'el",
-            "Pu'al",
-            "Hithpa'el",
-            "Hiph'il",
-            "Hoph'al",
-            "Po'lel"
-          ]
-        },
-        {
-          "key": "form",
-          "label": "Form",
-          "options": [
-            "perfect",
-            "imperfect",
-            "imperative",
-            "jussive",
-            "cohortative",
-            "participle",
-            "infinitive construct",
-            "infinitive absolute"
-          ]
-        },
-        {
-          "key": "gender",
-          "label": "Gender",
-          "options": [
-            "masc.",
-            "fem."
-          ]
-        },
-        {
-          "key": "number",
-          "label": "Number",
-          "options": [
-            "sing.",
-            "plur.",
-            "dual"
-          ]
-        },
-        {
-          "key": "state",
-          "label": "State",
-          "options": [
-            "absolute",
-            "construct"
-          ]
-        },
-        {
-          "key": "root",
-          "label": "Root",
-          "options": [
-            "פָּקַד",
-            "שָׁמַר",
-            "דָּרַשׁ",
-            "זָכַר"
-          ],
-          "isScript": true
-        }
-      ],
-      "readings": [
-        {
-          "gender": "masc.",
-          "number": "plur.",
-          "form": "participle",
-          "stem": "Qal",
-          "state": "construct",
-          "root": "דָּרַשׁ"
-        }
-      ],
-      "shape": "parse",
-      "explain": "Key: plur. masc. cstr. of active ptc. Qal of דָּרַשׁ",
-      "data": {
-        "parse": {
-          "gender": "masc.",
-          "number": "plur.",
-          "form": "participle",
-          "stem": "Qal",
-          "state": "construct",
-          "root": "דָּרַשׁ"
-        }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 A L14; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
-        "exwb": "davidson-s21#AL14",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "parse-form",
-      "prompt": "Parse this form",
-      "stimulus": "רֹמֶשֶׂת",
-      "stimulusIsScript": true,
-      "fields": [
-        {
-          "key": "stem",
-          "label": "Stem",
-          "options": [
-            "Qal",
-            "Niph'al",
-            "Pi'el",
-            "Pu'al",
-            "Hithpa'el",
-            "Hiph'il",
-            "Hoph'al",
-            "Po'lel"
-          ]
-        },
-        {
-          "key": "form",
-          "label": "Form",
-          "options": [
-            "perfect",
-            "imperfect",
-            "imperative",
-            "jussive",
-            "cohortative",
-            "participle",
-            "infinitive construct",
-            "infinitive absolute"
-          ]
-        },
-        {
-          "key": "gender",
-          "label": "Gender",
-          "options": [
-            "masc.",
-            "fem."
-          ]
-        },
-        {
-          "key": "number",
-          "label": "Number",
-          "options": [
-            "sing.",
-            "plur.",
-            "dual"
-          ]
-        },
-        {
-          "key": "state",
-          "label": "State",
-          "options": [
-            "absolute",
-            "construct"
-          ]
-        },
-        {
-          "key": "root",
-          "label": "Root",
-          "options": [
-            "גָּנַב",
-            "רָמַשׂ",
-            "דָּרַשׁ",
-            "שָׁמַר"
-          ],
-          "isScript": true
-        }
-      ],
-      "readings": [
-        {
-          "gender": "fem.",
-          "number": "sing.",
-          "state": "absolute",
-          "form": "participle",
-          "stem": "Qal",
-          "root": "רָמַשׂ"
-        },
-        {
-          "form": "participle",
-          "state": "construct",
-          "stem": "Qal",
-          "root": "רָמַשׂ",
-          "gender": "fem.",
-          "number": "sing."
-        }
-      ],
-      "shape": "parse",
-      "explain": "Key: sing. fem. abs. or cstr. of active ptc. Qal of רָמַשׂ",
-      "data": {
-        "parse": {
-          "gender": "fem.",
-          "number": "sing.",
-          "state": "absolute",
-          "form": "participle",
-          "stem": "Qal",
-          "root": "רָמַשׂ",
-          "alt": "cstr. of active ptc. Qal of רָמַשׂ"
-        }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 A L15; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
-        "exwb": "davidson-s21#AL15",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "parse-form",
-      "prompt": "Parse this form",
-      "stimulus": "תִּשְׁמֹרְנָה",
-      "stimulusIsScript": true,
-      "fields": [
-        {
-          "key": "stem",
-          "label": "Stem",
-          "options": [
-            "Qal",
-            "Niph'al",
-            "Pi'el",
-            "Pu'al",
-            "Hithpa'el",
-            "Hiph'il",
-            "Hoph'al",
-            "Po'lel"
-          ]
-        },
-        {
-          "key": "form",
-          "label": "Form",
-          "options": [
-            "perfect",
-            "imperfect",
-            "imperative",
-            "jussive",
-            "cohortative",
-            "participle",
-            "infinitive construct",
-            "infinitive absolute"
-          ]
-        },
-        {
-          "key": "person",
-          "label": "Person",
-          "options": [
-            "1",
-            "2",
-            "3"
-          ]
-        },
-        {
-          "key": "gender",
-          "label": "Gender",
-          "options": [
-            "masc.",
-            "fem."
-          ]
-        },
-        {
-          "key": "number",
-          "label": "Number",
-          "options": [
-            "sing.",
-            "plur.",
-            "dual"
-          ]
-        },
-        {
-          "key": "root",
-          "label": "Root",
-          "options": [
-            "כָּרַת",
-            "שָׁמַר",
-            "רָמַשׂ",
-            "גָּנַב"
-          ],
-          "isScript": true
-        }
-      ],
-      "readings": [
-        {
-          "form": "imperfect",
-          "stem": "Qal",
-          "root": "שָׁמַר",
-          "gender": "fem.",
-          "number": "plur.",
-          "person": "2"
-        },
-        {
-          "form": "imperfect",
-          "stem": "Qal",
-          "root": "שָׁמַר",
-          "gender": "fem.",
-          "number": "plur.",
-          "person": "3"
-        }
-      ],
-      "shape": "parse",
-      "explain": "Key: 2 or 3 plur. fem. impf. Qal of שָׁמַר",
-      "data": {
-        "parse": {
-          "form": "imperfect",
-          "stem": "Qal",
-          "root": "שָׁמַר",
-          "alt": "3 plur. fem. impf. Qal of שָׁמַר"
-        }
-      },
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 A L16; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
-        "exwb": "davidson-s21#AL16",
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 A 1; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
+        "exwb": "davidson-s14#A1",
         "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
       "type": "mcq",
       "prompt": "Choose the translation",
-      "stimulus": "לֹא תִגְנֹב",
+      "stimulus": "שָׁמַע הָאָדָם אֶת־הַקּוֹל בַּגָּן",
       "stimulusIsScript": true,
       "options": [
-        "Pursue after him.",
-        "Ye shall not observe their judgments.",
-        "Thou shalt not steal.",
-        "On that day I will pour out my spirit upon all flesh."
+        "Yahweh blotted out everything which he had made, man and beast.",
+        "The man heard the voice in the garden.",
+        "The boy sat in this place.",
+        "The king ruled over the people."
       ],
-      "answer": "Thou shalt not steal.",
+      "answer": "The man heard the voice in the garden.",
       "optionIsScript": false,
       "shape": "he-en",
       "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 B 1; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
-        "exwb": "davidson-s21#B1",
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 A 3; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
+        "exwb": "davidson-s14#A3",
         "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
       "type": "mcq",
       "prompt": "Choose the translation",
-      "stimulus": "לֹא תִשְׁמְרוּ אֶת־מִשְׁפְּטֵיהֶם",
+      "stimulus": "מָשַׁל הַמֶּלֶךְ בָּעָם",
       "stimulusIsScript": true,
       "options": [
-        "Ye shall not observe their judgments.",
-        "As for us, we will cut down trees from the mountain.",
-        "Pursue after him.",
-        "They buried the corpse of the aged prophet in the grave where the man of God was buried."
+        "The man heard the voice in the garden.",
+        "The king ruled over the people.",
+        "God made the man out of dust from the ground.",
+        "The boy sat in this place."
       ],
-      "answer": "Ye shall not observe their judgments.",
+      "answer": "The king ruled over the people.",
       "optionIsScript": false,
       "shape": "he-en",
       "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 B 2; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
-        "exwb": "davidson-s21#B2",
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 A 4; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
+        "exwb": "davidson-s14#A4",
         "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
       "type": "mcq",
       "prompt": "Choose the translation",
-      "stimulus": "אֲנַחְנוּ נִכְרֹת עֵצִים מִן־הָהָר",
+      "stimulus": "יָשַׁב הַיֶּלֶד בַּמָּקוֹם הַזֶּה",
       "stimulusIsScript": true,
       "options": [
-        "As for us, we will cut down trees from the mountain.",
-        "They buried the corpse of the aged prophet in the grave where the man of God was buried.",
-        "And now gather to me all Israel to mount Carmel and the prophets of the Ba'al four hundred, that eat at Jezebel's table.",
-        "Ye shall not observe their judgments."
+        "The boy sat in this place.",
+        "The man heard the voice in the garden.",
+        "He gave the sword to the king.",
+        "The king ruled over the people."
       ],
-      "answer": "As for us, we will cut down trees from the mountain.",
+      "answer": "The boy sat in this place.",
       "optionIsScript": false,
       "shape": "he-en",
       "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 B 3; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
-        "exwb": "davidson-s21#B3",
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 A 5; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
+        "exwb": "davidson-s14#A5",
         "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
       "type": "mcq",
       "prompt": "Choose the translation",
-      "stimulus": "רִדְפוּ אַחֲרָיו",
+      "stimulus": "עָשָׂה אֱלֹהִים אֶת־הָאָדָם עָפָר מִן־הָאֲדָמָה",
       "stimulusIsScript": true,
       "options": [
-        "Pursue after him.",
-        "Joseph came from the land of Egypt to bury Jacob.",
-        "The rulers of this people",
-        "Thine enemies will pursue after thee no more."
+        "The king ruled over the people.",
+        "The boy sat in this place.",
+        "God is in the temple.",
+        "God made the man out of dust from the ground."
       ],
-      "answer": "Pursue after him.",
+      "answer": "God made the man out of dust from the ground.",
       "optionIsScript": false,
       "shape": "he-en",
       "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 B 4; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
-        "exwb": "davidson-s21#B4",
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 A 7; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
+        "exwb": "davidson-s14#A7",
         "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
       "type": "mcq",
       "prompt": "Choose the translation",
-      "stimulus": "אָמַרְתִּי לִשְׁמֹר דְּבָרֶיךָ",
+      "stimulus": "הָאֱלֹהִים הוּא בַּהֵיכָל",
       "stimulusIsScript": true,
       "options": [
-        "Now Deborah, a prophetess, was judging Israel at that time, and she used to sit under Deborah's palm in the hill-country of Ephraim.",
-        "Ye shall not observe their judgments.",
-        "They buried the corpse of the aged prophet in the grave where the man of God was buried.",
-        "I have promised to keep thy words."
+        "The boy sat in this place.",
+        "God called the light day, and the darkness he called night.",
+        "The boy wrote in the book.",
+        "God is in the temple."
       ],
-      "answer": "I have promised to keep thy words.",
+      "answer": "God is in the temple.",
       "optionIsScript": false,
       "shape": "he-en",
       "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 B 5; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
-        "exwb": "davidson-s21#B5",
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 A 8; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
+        "exwb": "davidson-s14#A8",
         "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
       "type": "mcq",
       "prompt": "Choose the translation",
-      "stimulus": "מֹשְׁלֵי הָעָם הַזֶּה",
+      "stimulus": "נָתַן אֶת־הַחֶרֶב לַמֶּלֶךְ",
       "stimulusIsScript": true,
       "options": [
-        "Now Deborah, a prophetess, was judging Israel at that time, and she used to sit under Deborah's palm in the hill-country of Ephraim.",
-        "Ye shall not observe their judgments.",
-        "The rulers of this people",
-        "Who shall dwell on the mount of Yahweh? One who walks perfectly, and works righteousness, and speaks truth in his heart."
+        "He gave the sword to the king.",
+        "God rested on the seventh day from the work which he had made.",
+        "Yahweh blotted out everything which he had made, man and beast.",
+        "God called the light day, and the darkness he called night."
       ],
-      "answer": "The rulers of this people",
+      "answer": "He gave the sword to the king.",
       "optionIsScript": false,
       "shape": "he-en",
       "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 B 6; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
-        "exwb": "davidson-s21#B6",
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 A 9; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
+        "exwb": "davidson-s14#A9",
         "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
       "type": "mcq",
       "prompt": "Choose the translation",
-      "stimulus": "מִי יִשְׁכֹּן בְּהַר יהוה הוֹלֵךְ תָּמִים וּפֹעֵל צֶדֶק וְדֹבֵר אֱמֶת בִּלְבָבוֹ",
+      "stimulus": "כָּתַב הַיֶּלֶד בַּסֵּפֶר",
       "stimulusIsScript": true,
       "options": [
-        "I have promised to keep thy words.",
-        "Who shall dwell on the mount of Yahweh? One who walks perfectly, and works righteousness, and speaks truth in his heart.",
-        "The rulers of this people",
-        "Ye shall not observe their judgments."
+        "God is in the temple.",
+        "Yahweh blotted out everything which he had made, man and beast.",
+        "The man heard the voice in the garden.",
+        "The boy wrote in the book."
       ],
-      "answer": "Who shall dwell on the mount of Yahweh? One who walks perfectly, and works righteousness, and speaks truth in his heart.",
+      "answer": "The boy wrote in the book.",
       "optionIsScript": false,
       "shape": "he-en",
       "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 B 7; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
-        "exwb": "davidson-s21#B7",
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 A 10; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
+        "exwb": "davidson-s14#A10",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "To a lion",
+      "stimulusIsScript": false,
+      "accepted": [
+        "לַאֲרִי"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 1; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
+        "exwb": "davidson-s14#B1",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "God gave the woman to the man for wife.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "נָתַן אֱלֹהִים אֶת־הָאִשָּׁה לָאִישׁ לְאִשָּׁה"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 2; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
+        "exwb": "davidson-s14#B2",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "In the morning",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בַּבֹּקֶר"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 3; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
+        "exwb": "davidson-s14#B3",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "In these heavens",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בַּשָּׁמַיִם הָאֵלֶּה"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 4; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
+        "exwb": "davidson-s14#B4",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "In the earth",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בָּאָרֶץ"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 5; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
+        "exwb": "davidson-s14#B5",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "In that day",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בַּיּוֹם הַהוּא"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 6; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
+        "exwb": "davidson-s14#B6",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "In the lofty palace",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בַּהֵיכָל הָרָם"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 7; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
+        "exwb": "davidson-s14#B7",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "The lion cried like an (the) ass.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "קָרָא הָאֲרִי כַּחֲמוֹר"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 8; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
+        "exwb": "davidson-s14#B8",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "God called the firmament heaven, and the dry land called he earth.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "קָרָא אֱלֹהִים לָרָקִיעַ שָׁמָיִם וְלַיַּבָּשָׁה קָרָא אָרֶץ"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 9; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
+        "exwb": "davidson-s14#B9",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "Man is dust out of the ground.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "עָפָר מִן־הָאֲדָמָה הָאָדָם"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 10; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
+        "exwb": "davidson-s14#B10",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "He ate of the tree.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אָכַל מִן־הָעֵץ"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 11; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
+        "exwb": "davidson-s14#B11",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "To the dust",
+      "stimulusIsScript": false,
+      "accepted": [
+        "לֶעָפָר"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 13; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
+        "exwb": "davidson-s14#B13",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "In (לְ) pain",
+      "stimulusIsScript": false,
+      "accepted": [
+        "לָחֳלִי"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 14; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
+        "exwb": "davidson-s14#B14",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "On (בְּ) the high mountain",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בָּהָר הָרָם"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §14 B 15; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n71/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n71.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n27/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n27.jpg",
+        "exwb": "davidson-s14#B15",
         "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
       "type": "mcq",
       "prompt": "Choose the translation",
-      "stimulus": "בָּא יוֹסֵף מֵאֶרֶץ מִצְרַיִם לִקְבֹּר אֶת־יַעֲקֹב",
+      "stimulus": "אָמַר יהוה לָאִשָּׁה",
       "stimulusIsScript": true,
       "options": [
-        "Pursue after him.",
-        "As for us, we will cut down trees from the mountain.",
-        "They buried the corpse of the aged prophet in the grave where the man of God was buried.",
-        "Joseph came from the land of Egypt to bury Jacob."
+        "Moses and Miriam",
+        "Yahweh said to the woman.",
+        "And on that day I wrote in the book.",
+        "They cried to God in the battle."
       ],
-      "answer": "Joseph came from the land of Egypt to bury Jacob.",
+      "answer": "Yahweh said to the woman.",
       "optionIsScript": false,
       "shape": "he-en",
       "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 B 8; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
-        "exwb": "davidson-s21#B8",
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §15 A 1; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n74/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n74.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n29/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n29.jpg",
+        "exwb": "davidson-s15#A1",
         "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
       "type": "mcq",
       "prompt": "Choose the translation",
-      "stimulus": "קָבְרוּ אֶת־נִבְלַת הַנָּבִיא הַזָּקֵן בַּקֶּבֶר אֲשֶׁר אִישׁ הָאֱלֹהִים קָבוּר שָׁם",
+      "stimulus": "בֵּאלֹהִים וּבְמֹשֶׁה",
       "stimulusIsScript": true,
       "options": [
-        "They buried the corpse of the aged prophet in the grave where the man of God was buried.",
-        "The sons of Jacob went down to Egypt to buy food.",
-        "God said to Abimelech in a dream of the night, Behold, thou art a dead man because of the woman whom thou hast taken, for she is a married woman.",
-        "And now gather to me all Israel to mount Carmel and the prophets of the Ba'al four hundred, that eat at Jezebel's table."
+        "In God and Moses",
+        "And on that day I wrote in the book.",
+        "David and Jonathan",
+        "They cried to God in the battle."
       ],
-      "answer": "They buried the corpse of the aged prophet in the grave where the man of God was buried.",
+      "answer": "In God and Moses",
       "optionIsScript": false,
       "shape": "he-en",
       "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 B 9; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
-        "exwb": "davidson-s21#B9",
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §15 A 3; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n74/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n74.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n29/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n29.jpg",
+        "exwb": "davidson-s15#A3",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "God destroyed from the earth man and cattle.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מָחָה אֱלֹהִים מִן־הָאָרֶץ מֵאָדָם וְעַד־בְּהֵמָה"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §15 B 4; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n74/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n74.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n29/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n29.jpg",
+        "exwb": "davidson-s15#B4",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "Man is not wise as God.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "לֹא חָכָם הָאָדָם כֵּאלֹהִים"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §15 B 13; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n74/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n74.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n29/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n29.jpg",
+        "exwb": "davidson-s15#B13",
         "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
       "type": "mcq",
       "prompt": "Choose the translation",
-      "stimulus": "יָרְדוּ בְנֵי יַעֲקֹב מִצְרַיְמָה לִשְׁבָּר־אֹכֶל",
+      "stimulus": "לֹא שָׁתָה הַפָּר מִן־הַמַּיִם כִּי מָרִים הֵם",
       "stimulusIsScript": true,
       "options": [
-        "I have promised to keep thy words.",
-        "Now Deborah, a prophetess, was judging Israel at that time, and she used to sit under Deborah's palm in the hill-country of Ephraim.",
-        "The sons of Jacob went down to Egypt to buy food.",
-        "As for us, we will cut down trees from the mountain."
+        "These are the ill-favoured kine which the king saw by the river.",
+        "The ox did not drink of the water, for it was bitter.",
+        "I said to this people, righteous are ye.",
+        "The (two) hands"
       ],
-      "answer": "The sons of Jacob went down to Egypt to buy food.",
+      "answer": "The ox did not drink of the water, for it was bitter.",
       "optionIsScript": false,
       "shape": "he-en",
       "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 B 10; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
-        "exwb": "davidson-s21#B10",
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §16 A 1; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n76/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n76.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n31/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n31.jpg",
+        "exwb": "davidson-s16#A1",
         "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
       "type": "mcq",
       "prompt": "Choose the translation",
-      "stimulus": "וְעַתָּה קְבֹץ אֵלַי אֶת־כָּל־יִשְׂרָאֵל אֶל־הַר הַכַּרְמֶל וְאֶת־נְבִיאֵי הַבַּעַל אַרְבַּע מֵאוֹת אֹכְלֵי שֻׁלְחַן אִיזָבֶל",
+      "stimulus": "מָשַׁל הָאָדָם בַּבְּהֵמָה וּבַדָּגִים",
       "stimulusIsScript": true,
       "options": [
-        "And now gather to me all Israel to mount Carmel and the prophets of the Ba'al four hundred, that eat at Jezebel's table.",
-        "The rulers of this people",
-        "Thine enemies will pursue after thee no more.",
-        "The sons of Jacob went down to Egypt to buy food."
+        "Thou hast counted the stars.",
+        "Man has dominion over the beasts and the fish.",
+        "The king saw in a dream the goodly kine by the river.",
+        "(Two) sides"
       ],
-      "answer": "And now gather to me all Israel to mount Carmel and the prophets of the Ba'al four hundred, that eat at Jezebel's table.",
+      "answer": "Man has dominion over the beasts and the fish.",
       "optionIsScript": false,
       "shape": "he-en",
       "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 B 11; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
-        "exwb": "davidson-s21#B11",
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §16 A 3; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n76/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n76.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n31/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n31.jpg",
+        "exwb": "davidson-s16#A3",
         "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
       "type": "mcq",
       "prompt": "Choose the translation",
-      "stimulus": "וּדְבוֹרָה אִשָּׁה נְבִיאָה הִיא שֹׁפְטָה אֶת־יִשְׂרָאֵל בָּעֵת הַהִיא וְהִיא יוֹשֶׁבֶת תַּחַת־תֹּמֶר דְּבוֹרָה בְּהַר אֶפְרָיִם",
+      "stimulus": "ראה המלך בחלום את־הפרות הטבות על־היאר",
       "stimulusIsScript": true,
       "options": [
-        "The rulers of this people",
-        "Ye shall not observe their judgments.",
-        "God said to Abimelech in a dream of the night, Behold, thou art a dead man because of the woman whom thou hast taken, for she is a married woman.",
-        "Now Deborah, a prophetess, was judging Israel at that time, and she used to sit under Deborah's palm in the hill-country of Ephraim."
+        "These are the ill-favoured kine which the king saw by the river.",
+        "Man has dominion over the beasts and the fish.",
+        "How high those palaces are!",
+        "The king saw in a dream the goodly kine by the river."
       ],
-      "answer": "Now Deborah, a prophetess, was judging Israel at that time, and she used to sit under Deborah's palm in the hill-country of Ephraim.",
+      "answer": "The king saw in a dream the goodly kine by the river.",
       "optionIsScript": false,
       "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 B 12; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
-        "exwb": "davidson-s21#B12",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "mcq",
-      "prompt": "Choose the translation",
-      "stimulus": "אָמַר אֱלֹהִים אֶל־אֲבִימֶלֶךְ בַּחֲלוֹם הַלַּיְלָה הִנֵּה אַתָּה מֵת עַל־הָאִשָּׁה אֲשֶׁר לָקַחְתָּ וְהִיא בְּעֻלַת בָּעַל",
-      "stimulusIsScript": true,
-      "options": [
-        "Ye shall not observe their judgments.",
-        "Thine enemies will pursue after thee no more.",
-        "Thou shalt not steal.",
-        "God said to Abimelech in a dream of the night, Behold, thou art a dead man because of the woman whom thou hast taken, for she is a married woman."
-      ],
-      "answer": "God said to Abimelech in a dream of the night, Behold, thou art a dead man because of the woman whom thou hast taken, for she is a married woman.",
-      "optionIsScript": false,
-      "shape": "he-en",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 B 13; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
-        "exwb": "davidson-s21#B13",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "mcq",
-      "prompt": "Choose the translation",
-      "stimulus": "איביך לא ירדפו עוד אחריך",
-      "stimulusIsScript": true,
-      "options": [
-        "Joseph came from the land of Egypt to bury Jacob.",
-        "Now Deborah, a prophetess, was judging Israel at that time, and she used to sit under Deborah's palm in the hill-country of Ephraim.",
-        "God said to Abimelech in a dream of the night, Behold, thou art a dead man because of the woman whom thou hast taken, for she is a married woman.",
-        "Thine enemies will pursue after thee no more."
-      ],
-      "answer": "Thine enemies will pursue after thee no more.",
-      "optionIsScript": false,
-      "shape": "he-en",
-      "hint": "With vowel points: אֹיְבֶיךָ לֹא יִרְדְּפוּ עוֹד אַחֲרֶיךָ",
+      "hint": "With vowel points: רָאָה הַמֶּלֶךְ בַּחֲלוֹם אֶת־הַפָּרוֹת הַטֹּבוֹת עַל־הַיְאֹר",
       "data": {
-        "pointed": "אֹיְבֶיךָ לֹא יִרְדְּפוּ עוֹד אַחֲרֶיךָ"
+        "pointed": "רָאָה הַמֶּלֶךְ בַּחֲלוֹם אֶת־הַפָּרוֹת הַטֹּבוֹת עַל־הַיְאֹר"
       },
       "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 B 14; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
-        "exwb": "davidson-s21#B14",
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §16 A 9; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n76/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n76.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n31/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n31.jpg",
+        "exwb": "davidson-s16#A9",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "The just are as the stars which (are) in the firmament.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַצַּדִּיקִים כַּכּוֹכָבִים אֲשֶׁר בָּרָקִיעַ"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §16 B 10; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n76/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n76.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n31/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n31.jpg",
+        "exwb": "davidson-s16#B10",
+        "note": "Transcribed by hand from the scans and checked against the Key."
+      }
+    },
+    {
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (pointing optional)",
+      "stimulus": "Water from the wells",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מַיִם מֵהַבְּאֵרֹת"
+      ],
+      "answerIsScript": true,
+      "shape": "en-he",
+      "source": {
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §16 B 15; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n76/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n76.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n31/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n31.jpg",
+        "exwb": "davidson-s16#B15",
         "note": "Transcribed by hand from the scans and checked against the Key."
       }
     },
     {
       "type": "mcq",
       "prompt": "Choose the translation",
-      "stimulus": "ביום ההוא אשפך את־רוחי על־כל־בשר",
+      "stimulus": "ביום ההוא עשה יהוה ישועה בישראל",
       "stimulusIsScript": true,
       "options": [
-        "They buried the corpse of the aged prophet in the grave where the man of God was buried.",
-        "Pursue after him.",
-        "Ye shall not observe their judgments.",
-        "On that day I will pour out my spirit upon all flesh."
+        "There was a famine in the land, and Abraham went down into Egypt, for the famine was sore in the land.",
+        "On that day Yahweh wrought deliverance in Israel.",
+        "The law of Yahweh is good.",
+        "And in the law of Yahweh thou hast not walked."
       ],
-      "answer": "On that day I will pour out my spirit upon all flesh.",
+      "answer": "On that day Yahweh wrought deliverance in Israel.",
       "optionIsScript": false,
       "shape": "he-en",
-      "hint": "With vowel points: בַּיּוֹם הַהוּא אֶשְׁפֹּךְ אֶת־רוּחִי עַל־כָּל־בָּשָׂר",
+      "hint": "With vowel points: בַּיּוֹם הַהוּא עָשָׂה יְהוָה יְשׁוּעָה בְּיִשְׂרָאֵל",
       "data": {
-        "pointed": "בַּיּוֹם הַהוּא אֶשְׁפֹּךְ אֶת־רוּחִי עַל־כָּל־בָּשָׂר"
+        "pointed": "בַּיּוֹם הַהוּא עָשָׂה יְהוָה יְשׁוּעָה בְּיִשְׂרָאֵל"
       },
       "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 B 15; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
-        "exwb": "davidson-s21#B15",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "stimulus": "I will pursue after her.",
-      "stimulusIsScript": false,
-      "accepted": [
-        "אֶרְדֹּף אַחֲרֶיהָ"
-      ],
-      "answerIsScript": true,
-      "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 C 1; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
-        "exwb": "davidson-s21#C1",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "stimulus": "I promised (said) to pursue after them.",
-      "stimulusIsScript": false,
-      "accepted": [
-        "אָמַרְתִּי לִרְדֹּף אַחֲרֵיהֶם"
-      ],
-      "answerIsScript": true,
-      "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 C 2; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
-        "exwb": "davidson-s21#C2",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "stimulus": "Pursue after him.",
-      "stimulusIsScript": false,
-      "accepted": [
-        "רְדֹף אַחֲרָיו",
-        "רִדְפוּ אַחֲרָיו"
-      ],
-      "answerIsScript": true,
-      "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 C 3; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
-        "exwb": "davidson-s21#C3",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "stimulus": "He set the stars in the firmament of the heavens to rule over the night.",
-      "stimulusIsScript": false,
-      "accepted": [
-        "נָתַן אֶת־הַכּוֹכָבִים בִּרְקִיעַ הַשָּׁמַיִם לִמְשֹׁל בַּלָּיְלָה"
-      ],
-      "answerIsScript": true,
-      "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 C 4; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
-        "exwb": "davidson-s21#C4",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "stimulus": "Yahweh will judge this people.",
-      "stimulusIsScript": false,
-      "accepted": [
-        "יִשְׁפֹּט יְהוָה אֶת־הָעָם הַזֶּה"
-      ],
-      "answerIsScript": true,
-      "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 C 5; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
-        "exwb": "davidson-s21#C5",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "stimulus": "A city shedding blood like water",
-      "stimulusIsScript": false,
-      "accepted": [
-        "עִיר שֹׁפֶכֶת דָּם כַּמָּיִם"
-      ],
-      "answerIsScript": true,
-      "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 C 6; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
-        "exwb": "davidson-s21#C6",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "stimulus": "Keep thy tongue from evil.",
-      "stimulusIsScript": false,
-      "accepted": [
-        "שְׁמֹר לְשׁוֹנְךָ מֵרָע"
-      ],
-      "answerIsScript": true,
-      "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 C 7; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
-        "exwb": "davidson-s21#C7",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "stimulus": "Ye shall keep the commandments of your God with all your heart.",
-      "stimulusIsScript": false,
-      "accepted": [
-        "תִּשְׁמְרוּ אֶת־מִצְוֹת אֱלֹהֵיכֶם בְּכָל־לְבַבְכֶם"
-      ],
-      "answerIsScript": true,
-      "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 C 8; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
-        "exwb": "davidson-s21#C8",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "stimulus": "They left off counting the proverbs of his lips, for they (were) as the sand which (is) upon the shore of the sea.",
-      "stimulusIsScript": false,
-      "accepted": [
-        "חָדְלוּ לִסְפֹּר אֶת־מִשְׁלֵי שְׂפָתָיו כִּי הֵם כַּחוֹל אֲשֶׁר עַל שְׂפַת הַיָּם"
-      ],
-      "answerIsScript": true,
-      "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 C 9; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
-        "exwb": "davidson-s21#C9",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "stimulus": "His commandments and his words will we keep.",
-      "stimulusIsScript": false,
-      "accepted": [
-        "אֶת־מִצְוֹתָיו וְאֶת־דְּבָרָיו נִשְׁמֹר"
-      ],
-      "answerIsScript": true,
-      "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 C 10; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
-        "exwb": "davidson-s21#C10",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "stimulus": "His children (sons) will keep his covenant.",
-      "stimulusIsScript": false,
-      "accepted": [
-        "יִשְׁמְרוּ בָנָיו אֶת־בְּרִיתוֹ"
-      ],
-      "answerIsScript": true,
-      "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 C 11; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
-        "exwb": "davidson-s21#C11",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "stimulus": "Hands shedding blood",
-      "stimulusIsScript": false,
-      "accepted": [
-        "יָדַיִם שֹׁפְכוֹת דָּם"
-      ],
-      "answerIsScript": true,
-      "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 C 12; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
-        "exwb": "davidson-s21#C12",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "stimulus": "But I would seek unto God.",
-      "stimulusIsScript": false,
-      "accepted": [
-        "וַאֲנִי אֶדְרֹשׁ אֶל־אֱלֹהִים"
-      ],
-      "answerIsScript": true,
-      "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 C 13; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
-        "exwb": "davidson-s21#C13",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "stimulus": "He came to shed blood.",
-      "stimulusIsScript": false,
-      "accepted": [
-        "בָּא לִשְׁפֹּךְ דָּם"
-      ],
-      "answerIsScript": true,
-      "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 C 14; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
-        "exwb": "davidson-s21#C14",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "stimulus": "We will burn your city with (in the) fire.",
-      "stimulusIsScript": false,
-      "accepted": [
-        "נִשְׂרֹף אֶת־עִירְכֶם בָּאֵשׁ"
-      ],
-      "answerIsScript": true,
-      "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 C 15; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
-        "exwb": "davidson-s21#C15",
-        "note": "Transcribed by hand from the scans and checked against the Key."
-      }
-    },
-    {
-      "type": "translate-phrase",
-      "prompt": "Translate into Hebrew (pointing optional)",
-      "stimulus": "Bury my corpse in the grave where the prophets (are) buried (ptc.).",
-      "stimulusIsScript": false,
-      "accepted": [
-        "קְבֹר אֶת־נִבְלָתִי בַּקֶּבֶר אֲשֶׁר הַנְּבִיאִים קְבוּרִים שָׁם",
-        "קִבְרוּ אֶת־נִבְלָתִי בַּקֶּבֶר אֲשֶׁר הַנְּבִיאִים קְבוּרִים שָׁם"
-      ],
-      "answerIsScript": true,
-      "shape": "en-he",
-      "source": {
-        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §21 C 16; McFadyen, Key to the Exercises (1924)",
-        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n98/mode/1up",
-        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n98.jpg",
-        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n46/mode/1up",
-        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n46.jpg",
-        "exwb": "davidson-s21#C16",
+        "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §17 A 14; McFadyen, Key to the Exercises (1924)",
+        "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n81/mode/1up",
+        "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n81.jpg",
+        "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n33/mode/1up",
+        "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n33.jpg",
+        "exwb": "davidson-s17#A14",
         "note": "Transcribed by hand from the scans and checked against the Key."
       }
     }

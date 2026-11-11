@@ -41,6 +41,7 @@ export function buildSession(course, pool, options = {}) {
   const produce = getType("produce-form");
 
   const features = options.features || {};
+  const translit = features.transliteration !== false;
   const target = options.count || features.targetItems || 14;
   const allAuthored = options.authored || [];
   const authoredCap = features.authoredPerSession;
@@ -64,13 +65,13 @@ export function buildSession(course, pool, options = {}) {
   const generated = [];
   generated.push(
     ...mcq.generate(
-      { count: 6, directions: ["script->gloss", "gloss->script", "translit->script"] },
+      { count: 6, directions: translit ? ["script->gloss", "gloss->script", "translit->script"] : ["script->gloss", "gloss->script"] },
       pool,
     ),
   );
   generated.push(...match.generate({ count: 5 }, pool));
   generated.push(...trans.generate({ count: 3 }, pool));
-  generated.push(...dict.generate({ count: 3 }, pool));
+  generated.push(...dict.generate({ count: 3, transliteration: translit }, pool));
 
   if (features.parsing) {
     const verbLemmas = options.vocabList

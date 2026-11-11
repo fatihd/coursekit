@@ -13,6 +13,8 @@ from pathlib import Path
 COURSE = Path("courses/biblical-hebrew-davidson")
 CURATED = Path("exwb/curated")
 UNIT_MAP = Path("build/_sources/davidson/exwb-units.json")
+GRAMMAR = Path("build/_sources/davidson/grammar-units.json")
+TAGS = Path("build/_sources/davidson/sentence-grammar.json")
 AUTHORED = COURSE / "authored"
 
 
@@ -84,14 +86,33 @@ class DavidsonExercisesTests(unittest.TestCase):
                     else:
                         self.assertTrue(item["answer"])
 
-    def test_items_sit_in_their_mapped_unit(self):
+    def test_items_sit_in_their_unit(self):
+        """Sentences sit in the first unit that teaches all their grammar; other items in their block's unit."""
         blocks = json.loads(UNIT_MAP.read_text(encoding="utf-8"))["blocks"]
+        grammar = json.loads(GRAMMAR.read_text(encoding="utf-8"))
+        units = {k: v["unit"] for k, v in grammar["features"].items()}
+        tags = json.loads(TAGS.read_text(encoding="utf-8"))["sentences"]
         for path in self.files:
             unit = int(path.stem)
             for item in json.loads(path.read_text(encoding="utf-8"))["items"]:
-                stem = item["source"]["exwb"].split("#")[0]
-                with self.subTest(file=path.name, block=stem):
-                    self.assertEqual(blocks[stem]["unit"], unit)
+                ref = item["source"]["exwb"]
+                with self.subTest(file=path.name, item=ref):
+                    if item["shape"] in ("en-he", "he-en"):
+                        self.assertIn(ref, tags)
+                        self.assertEqual(unit, max([grammar["floor"]] + [units[f] for f in tags[ref]]))
+                    else:
+                        self.assertEqual(blocks[ref.split("#")[0]]["unit"], unit)
+
+    def test_sentences_start_early_and_none_wait_for_the_review_units(self):
+        placed = {}
+        for path in self.files:
+            for item in json.loads(path.read_text(encoding="utf-8"))["items"]:
+                if item["shape"] in ("en-he", "he-en"):
+                    placed[item["source"]["exwb"]] = int(path.stem)
+        grammar = json.loads(GRAMMAR.read_text(encoding="utf-8"))
+        units = {u["title"]: u["n"] for u in json.loads((COURSE / "units.json").read_text(encoding="utf-8"))["units"]}
+        self.assertEqual(min(placed.values()), grammar["floor"])
+        self.assertLess(max(placed.values()), units["Complete Parsing"])
 
     def test_full_grammar_inventory_has_every_detected_exercise_block(self):
         inventory = json.loads(
