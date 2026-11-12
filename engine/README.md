@@ -7,8 +7,8 @@
 ## Implemented (P3-T1)
 
 - `main.js` — bootstrap: load `course.json`, route to views.
-- `store.js` — progress in `localStorage`, Export/Import with merge (ADR-019), unit-state
-  computation.
+- `store.js` — progress in `localStorage`, Export/Import with merge, reset (ADR-019), unit-state
+  computation. `main.js` holds the progress operations (mark a unit / an exercise done, reset a unit).
 - `views/roadmap.js` — visible unit map in 3 parts; node states.
 
 ## Implemented runtime pieces

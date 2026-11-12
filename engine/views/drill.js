@@ -56,6 +56,28 @@ function focusFirst(container) {
   if (select) select.focus();
 }
 
+function renderItemCode(item, ctx) {
+  const line = el("p", "drill-item-code", `Item ${item.id}`);
+  if (!ctx.onMarkItem || !ctx.isItemDone || !(item.rung || item.block)) return [line];
+  const toggle = el("button", "item-mark");
+  toggle.type = "button";
+  const show = () => {
+    const done = ctx.isItemDone(item);
+    toggle.textContent = done ? "Done ✓ · mark as not done" : "Mark as done";
+    toggle.classList.toggle("item-mark--done", done);
+  };
+  toggle.addEventListener("click", async () => {
+    toggle.disabled = true;
+    await ctx.onMarkItem(item, !ctx.isItemDone(item));
+    toggle.disabled = false;
+    show();
+  });
+  show();
+  const ops = el("p", "drill-item-ops");
+  ops.appendChild(toggle);
+  return [line, ops];
+}
+
 export function renderDrill(root, ctx) {
   const { course, items, navigate, unit, onComplete } = ctx;
   const features = ctx.features || {};
@@ -135,7 +157,7 @@ export function renderDrill(root, ctx) {
     if (item.source && (item.source.promptUrl || item.source.answerUrl)) {
       stage.appendChild(renderSource(item.source));
     }
-    if (item.id) stage.appendChild(el("p", "drill-item-code", `Item ${item.id}`));
+    if (item.id) stage.append(...renderItemCode(item, ctx));
 
     const checkBtn = el("button", "gate-btn", "Check");
     checkBtn.addEventListener("click", () => {
@@ -147,7 +169,7 @@ export function renderDrill(root, ctx) {
       }
 
       const result = type.grade(item, answer);
-      stage.querySelectorAll("button, input, select").forEach((n) => {
+      stage.querySelectorAll("button:not(.item-mark), input, select").forEach((n) => {
         n.disabled = true;
       });
       if (result.selfCheck) {

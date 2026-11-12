@@ -173,6 +173,15 @@ when absent (all existing courses), the prior drill mix and progress shape are u
 - Roadmap **Export progress** downloads `<courseId>-progress-<date>.json`; **Import
   progress** validates the file and merges it keeping the best of both sides.
 - No server write, no git, no tokens; the roadmap shows when progress was last exported.
+- Progress operations (2026-11-12, P12-T10), each with an in-page confirm step for the resets:
+  roadmap **Reset all progress…** (removes the stored progress); lesson **Mark unit as done**
+  (state done, next unit unlocked: `currentUnit` = max(current, n+1); no ladder items, so no stars)
+  and **Reset this unit…** (drops the unit's state, ladder answers, saved sessions and skill tally);
+  under every drill item a **Mark as done / Mark as not done** toggle that adds or removes the item
+  in the unit's `done` lists exactly like a right answer (a completed ladder still unlocks; removing
+  never re-locks). A unit before `currentUnit` with no state shows as available.
+- Routing drops stale renders: `loadLesson`/`loadDrill` check a route counter after each await, so a
+  slow load never draws over a page the student has already left.
 
 ## 8. Release / forkability
 

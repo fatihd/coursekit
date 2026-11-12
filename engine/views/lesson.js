@@ -1,4 +1,4 @@
-import { el, scriptSpan } from "../dom.js";
+import { confirmAction, el, scriptSpan } from "../dom.js";
 import { weakUnits } from "../knowledge.js";
 
 function renderVocabCard(course, item, showTranslit = true) {
@@ -169,4 +169,22 @@ export function renderLesson(root, ctx, unit, lesson) {
   btn.addEventListener("click", () => ctx.onStartDrills(unit.n));
   gate.appendChild(btn);
   root.appendChild(gate);
+
+  if (ctx.onMarkUnitDone || ctx.onResetUnit) {
+    const ops = el("div", "unit-ops");
+    if (ctx.unitDone) {
+      ops.appendChild(el("span", "unit-ops-done", "Unit complete ✓"));
+    } else if (ctx.onMarkUnitDone) {
+      const mark = el("button", "gate-btn gate-secondary unit-mark-done", "Mark unit as done");
+      mark.type = "button";
+      mark.title = "Unlock the next unit without finishing these exercises (no stars are given)";
+      mark.addEventListener("click", () => ctx.onMarkUnitDone(unit.n));
+      ops.appendChild(mark);
+    }
+    if (ctx.onResetUnit && (ctx.unitStarted || ctx.unitDone)) {
+      ops.appendChild(confirmAction("Reset this unit…", "Clear this unit's answers, ladder progress and saved session?",
+        "Reset unit", () => ctx.onResetUnit(unit.n), "unit-reset"));
+    }
+    root.appendChild(ops);
+  }
 }

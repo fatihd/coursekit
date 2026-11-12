@@ -1,3 +1,4 @@
+import { confirmAction } from "../dom.js";
 import { unitState } from "../store.js";
 
 export function renderRoadmap(root, course, progress, navigate, sync) {
@@ -62,7 +63,18 @@ export function renderRoadmap(root, course, progress, navigate, sync) {
       status.textContent = `Last exported ${last.slice(0, 10)}.`;
     }
 
-    box.append(exportBtn, importBtn, file, status);
+    box.append(exportBtn, importBtn, file);
+    if (sync.onReset) {
+      box.appendChild(confirmAction("Reset all progress…",
+        "Erase all progress for this course in this browser? Export it first if you may want it back.",
+        "Erase progress", () => {
+          sync.onReset();
+          navigate("roadmap");
+          const s = document.querySelector(".sync-status");
+          if (s) s.textContent = "Progress reset.";
+        }, "progress-reset"));
+    }
+    box.appendChild(status);
     header.appendChild(box);
   }
 

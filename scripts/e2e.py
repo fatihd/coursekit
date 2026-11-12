@@ -781,6 +781,76 @@ def run_course_shapes(page, authored, failures):
     return len(picked)
 
 
+def run_progress_ops(page, url, authored, course_dir, failures):
+    """Reset all / reset a unit / mark a unit done / mark an exercise done or not done."""
+    course = json.loads((Path(course_dir) / "course.json").read_text(encoding="utf-8"))
+    cid = course["id"]
+    slug = {u["n"]: u.get("slug") or f"u{u['n']}" for u in course["units"]}
+    base = url.split("#")[0]
+
+    def stored():
+        raw = page.evaluate("k => localStorage.getItem(k)", f"lang-research.progress.{cid}")
+        return json.loads(raw) if raw else None
+
+    page.goto(f"{base}#/{slug[3]}")
+    page.wait_for_selector(".unit-mark-done")
+    check(not page.query_selector(".unit-reset"), "an untouched unit offers no reset", failures)
+    page.click(".unit-mark-done")
+    page.wait_for_selector(".unit-ops-done")
+    p = stored()
+    check(p["units"]["3"]["state"] == "done", "Mark unit as done stores unit 3 as done", failures)
+    check(p["currentUnit"] >= 4, f"marking unit 3 done unlocks unit 4 (currentUnit {p['currentUnit']})", failures)
+    page.goto(f"{base}#/")
+    page.wait_for_selector(".roadmap")
+    check("unit--done" in unit_classes(page, 3), "unit 3 shows done on the roadmap", failures)
+    check("unit--available" in unit_classes(page, 2), "skipped unit 2 shows available, not locked", failures)
+    check("unit--available" in unit_classes(page, 4), "unit 4 is available", failures)
+
+    n = next(u for u in sorted(authored) if any(it.get("rung") for it in authored[u]))
+    item = next(it for it in authored[n] if it.get("rung") and it.get("type") == "mcq")
+    page.goto(f"{base}#/{slug[n]}/item/{item['id']}")
+    page.wait_for_selector(".item-mark")
+    check(page.text_content(".item-mark") == "Mark as done", "an unanswered exercise offers Mark as done", failures)
+    page.click(".item-mark")
+    page.wait_for_selector(".item-mark--done")
+    done = (stored()["units"].get(str(n)) or {}).get("done", {}).get(str(item["rung"]), [])
+    check(item["id"] in done, f"Mark as done records {item['id']} as done", failures)
+    page.click(".item-mark")
+    page.wait_for_selector(".item-mark:not(.item-mark--done)")
+    done = (stored()["units"].get(str(n)) or {}).get("done", {}).get(str(item["rung"]), [])
+    check(item["id"] not in done, "Mark as not done removes it again", failures)
+    page.click(".item-mark")
+    page.wait_for_selector(".item-mark--done")
+    page.click(".ex-option")
+    page.click(".drill-feedback .gate-btn")
+    page.wait_for_selector(".drill-ok, .drill-no")
+    check(page.is_enabled(".item-mark"), "the done toggle stays usable after Check", failures)
+    page.goto(f"{base}#/{slug[n]}")
+    page.wait_for_selector(".ladder-row")
+    count = page.text_content(f".ladder-row[data-rung='{item['rung']}'] .blocks-count")
+    check(count.startswith("1 /"), f"the lesson ladder counts the marked exercise ({count})", failures)
+
+    page.click(".unit-reset .confirm-start")
+    page.click(".unit-reset .confirm-no")
+    check(page.is_visible(".unit-reset .confirm-start"), "Cancel keeps the unit", failures)
+    page.click(".unit-reset .confirm-start")
+    page.click(".unit-reset .confirm-yes")
+    page.wait_for_selector(".unit-reset", state="detached")
+    check(str(n) not in stored()["units"], f"Reset this unit clears unit {n}", failures)
+    check("3" in stored()["units"], "resetting one unit leaves the others", failures)
+
+    page.goto(f"{base}#/")
+    page.wait_for_selector(".progress-reset")
+    page.click(".progress-reset .confirm-start")
+    page.click(".progress-reset .confirm-yes")
+    page.wait_for_selector(".roadmap")
+    check(page.text_content(".roadmap-stats").startswith("0 of"), "Reset all progress shows 0 units complete", failures)
+    check(stored() is None, "Reset all progress clears the browser's stored progress", failures)
+    check("unit--available" in unit_classes(page, 1) and "unit--locked" in unit_classes(page, 2),
+          "after a reset only unit 1 is open", failures)
+    return 1
+
+
 def run_routes(browser, page, url, vocab, authored, course_dir, failures):
     """P12-T7: hash URLs, seeded sessions that resume, item codes, per-block progress."""
     course = json.loads((Path(course_dir) / "course.json").read_text(encoding="utf-8"))
@@ -1184,6 +1254,11 @@ def main():
         help="hash URLs, seeded sessions that resume after reload, item codes, per-block progress",
     )
     ap.add_argument(
+        "--progress-ops",
+        action="store_true",
+        help="reset all, reset a unit, mark a unit done, mark an exercise done / not done",
+    )
+    ap.add_argument(
         "--keyboard",
         action="store_true",
         help="assert no single-option MCQ/choice across all units, and that Enter advances after checking",
@@ -1222,6 +1297,11 @@ def main():
                 print("=== routes / sessions / block progress ===")
                 check(run_routes(browser, page, url, vocab, authored, args.course, failures) == 1,
                       "course has authored items with blocks to route to", failures)
+                browser.close()
+            elif args.progress_ops:
+                print("=== progress operations ===")
+                check(run_progress_ops(page, url, authored, args.course, failures) == 1,
+                      "progress operations ran", failures)
                 browser.close()
             elif args.authored:
                 print("=== authored-exercise harness ===")
@@ -1268,13 +1348,13 @@ def main():
                         )
 
             stored = None
-            if not (args.exercise_types or args.authored or args.accessibility or args.keyboard or args.routes or args.ladder):
+            if not (args.exercise_types or args.authored or args.accessibility or args.keyboard or args.routes or args.ladder or args.progress_ops):
                 with open(f"{args.course}/course.json", encoding="utf-8") as f:
                     cid = json.load(f)["id"]
                 stored = page.evaluate("k => localStorage.getItem(k)", f"lang-research.progress.{cid}")
             browser.close()
 
-        if stored is not None or (not (args.exercise_types or args.authored or args.accessibility or args.keyboard or args.routes or args.ladder)):
+        if stored is not None or (not (args.exercise_types or args.authored or args.accessibility or args.keyboard or args.routes or args.ladder or args.progress_ops)):
             progress = json.loads(stored or "{}")
             for unit_n in range(1, args.units + 1):
                 state = progress.get("units", {}).get(str(unit_n), {}).get("state")
@@ -1308,6 +1388,8 @@ def main():
         print("\nE2E PASS — keyboard/single-option harness: Enter advances after checking; no single-option choices")
     elif args.routes:
         print("\nE2E PASS — routes: seeded URLs resume after reload, item codes, per-block progress")
+    elif args.progress_ops:
+        print("\nE2E PASS — progress operations: reset all, reset a unit, mark a unit or an exercise done")
     elif args.ladder:
         print("\nE2E PASS — ladder: rungs in order, pointed grading, English self-check, unlock and stars")
     else:

@@ -132,6 +132,9 @@ python scripts/e2e.py courses/biblical-hebrew-davidson --routes
 # Exercise ladder: rung order, pointed grading, typed English with self-check, unlock and stars
 python scripts/e2e.py courses/biblical-hebrew-davidson --ladder
 
+# Progress operations: reset all, reset a unit, mark a unit or an exercise done / not done
+python scripts/e2e.py courses/biblical-hebrew-davidson --progress-ops
+
 # Accessibility regression (keyboard navigation + on-screen Hebrew keyboard)
 python scripts/e2e.py courses/biblical-hebrew-davidson --accessibility
 
@@ -326,7 +329,7 @@ ADR files any more: to make or change a decision, add or edit its line here.
 | ADR-016 | Davidson covers the whole grammar, one topic per unit (79 units since 2026-11-11); noun forms taught by pattern family; the noun phrase (construct, prepositions, waw, suffixes) before demonstratives and clauses (2026-11-12). |
 | ADR-017 | Every Davidson exercise links to its scan page (exercise and key) on archive.org. |
 | ADR-018 | Every Davidson exercise block is inventoried from the grammar itself (no caps); curated by hand in exwb. |
-| ADR-019 | Progress lives only in the browser (`localStorage`), moved with Export/Import (merge keeping the best). |
+| ADR-019 | Progress lives only in the browser (`localStorage`), moved with Export/Import (merge keeping the best); the student can reset all or one unit and mark a unit or an exercise done (2026-11-12). |
 | ADR-020 | Public repo `fatihd/coursekit` (fresh history, open courses only, MIT code, CC0 exwb data, GitHub Pages); changes only via `scripts/make-public-snapshot`. |
 | ADR-021 | Davidson follows the 22nd edition (1923) only. |
 | ADR-022 | The course vision of §0: exercise ladder, sentences from the start, per-sentence placement, typed translation, no transliteration, a large exercise corpus built offline (static course data, no live agent). |

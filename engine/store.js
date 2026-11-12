@@ -47,6 +47,11 @@ export function saveProgress(courseId, progress) {
   }
 }
 
+export function resetProgress(courseId) {
+  localStorage.removeItem(KEY_PREFIX + courseId);
+  return emptyProgress(courseId);
+}
+
 export function exportProgress(courseId, progress) {
   saveProgress(courseId, progress);
   progress.lastExportedAt = progress.updatedAt;
@@ -132,6 +137,6 @@ export function unitState(progress, n) {
   const u = progress.units[n];
   if (u && u.state === "done") return "done";
   if (u && u.state === "in-progress") return "in-progress";
-  if (n === progress.currentUnit) return "available";
+  if (n <= progress.currentUnit) return "available";
   return "locked";
 }

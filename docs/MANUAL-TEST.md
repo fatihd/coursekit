@@ -82,6 +82,15 @@ Serves the hub course and opens `http://127.0.0.1:8000/app/index.html`. Stop wit
   Click **Import progress** and choose the file → the completed units are back.
 - Import the same file again → "nothing new". Import a file of another course → error.
 
+### 5b. Progress operations
+- Open a later unit's lesson → **Mark unit as done** → "Unit complete ✓"; the roadmap shows it done
+  and the next unit open; skipped earlier units show as available.
+- In a drill, **Mark as done** under the item code → "Done ✓ · mark as not done"; the lesson's ladder
+  count goes up by one; click again → it goes back down.
+- Lesson **Reset this unit…** → **Reset unit** → the unit's ladder counts are 0 again.
+- Roadmap **Reset all progress…** → **Cancel** keeps everything; **Erase progress** → `0 of 79 units
+  complete`, only unit 1 open.
+
 ### 6. Restart / persistence
 - Stop (`Ctrl-C`), start again with the same command, reopen the URL.
 - Expect completed units still **done** and the roadmap to resume where it left off.

@@ -18,6 +18,9 @@
   added from the file. Importing never loses work from either side.
 - The roadmap status line shows "Last exported …" / "you have made progress since" /
   "stored in this browser only".
+- **Reset all progress…** (roadmap, confirm step): `resetProgress` removes the stored progress;
+  the course starts over at unit 1. **Reset this unit…**, **Mark unit as done** (lesson) and the
+  per-exercise **Mark as done / not done** toggle edit the same stored object (2026-11-12).
 
 ## What is gone
 

@@ -1,4 +1,4 @@
-import { loadProgress, saveProgress, exportProgress, importProgress } from "./store.js";
+import { loadProgress, saveProgress, exportProgress, importProgress, resetProgress } from "./store.js";
 import { renderRoadmap } from "./views/roadmap.js";
 import { renderLesson } from "./views/lesson.js";
 import { renderDrill } from "./views/drill.js";
@@ -61,7 +61,10 @@ function setHash(hash) {
   if (location.hash !== hash) history.replaceState(null, "", hash);
 }
 
+let routeSeq = 0;
+
 function route() {
+  routeSeq += 1;
   const [slug, kind, a, b, c] = location.hash.replace(/^#\/?/, "").split("/").filter(Boolean).map(decodeURIComponent);
   const unit = slug ? unitBySlug(slug) : null;
   if (!unit) return showRoadmap();
@@ -77,6 +80,9 @@ function showRoadmap() {
   renderRoadmap(ctx.root, ctx.course, ctx.progress, navigate, {
     stars: (n) => ladderStars(n),
     onExport: () => exportProgress(ctx.course.id, ctx.progress),
+    onReset: () => {
+      ctx.progress = resetProgress(ctx.course.id);
+    },
     onImport: async (file) => {
       const r = await importProgress(ctx.course.id, ctx.progress, file);
       if (r.ok) {
@@ -179,9 +185,11 @@ function sessionKey(unitN, block) {
 }
 
 async function loadLesson(unitN) {
+  const seq = routeSeq;
   const lesson = await fetchJSON(`${ctx.base}units/${String(unitN).padStart(2, "0")}.json`);
   const unit = ctx.course.units.find((u) => u.n === unitN);
   const authored = await authoredFor(unitN);
+  if (seq !== routeSeq) return;
   const saved = (ctx.progress.sessions || {})[sessionKey(unitN)];
 
   renderLesson(ctx.root, {
@@ -196,6 +204,18 @@ async function loadLesson(unitN) {
     ladder: ladderSummary(unitN, authored),
     unlockRung: ctx.features && ctx.features.unlockRung,
     resume: saved ? { href: routeFor("drill", unitN, saved), pos: saved.pos, total: saved.total } : null,
+    unitDone: (ctx.progress.units[unitN] || {}).state === "done",
+    unitStarted: Boolean(ctx.progress.units[unitN] || saved),
+    onMarkUnitDone: (n) => {
+      markDone(n);
+      commit();
+      navigate("lesson", n);
+    },
+    onResetUnit: (n) => {
+      resetUnit(n);
+      commit();
+      navigate("lesson", n);
+    },
     onStartDrills: (n) => {
       const prev = ctx.progress.units[n] || {};
       ctx.progress.units[n] = { ...prev, state: prev.state === "done" ? "done" : "in-progress", lessonRead: true };
@@ -221,14 +241,47 @@ function markDone(unitN) {
   const prev = ctx.progress.units[unitN] || {};
   if (prev.state !== "done") {
     ctx.progress.units[unitN] = { ...prev, state: "done", lessonRead: true };
-    if (ctx.progress.currentUnit === unitN) ctx.progress.currentUnit = unitN + 1;
+    ctx.progress.currentUnit = Math.max(ctx.progress.currentUnit, unitN + 1);
   }
 }
 
+function resetUnit(unitN) {
+  delete ctx.progress.units[unitN];
+  for (const key of Object.keys(ctx.progress.sessions || {})) {
+    if (key === String(unitN) || key.startsWith(`${unitN}:`)) delete ctx.progress.sessions[key];
+  }
+  if (ctx.progress.skills) delete ctx.progress.skills[String(unitN)];
+}
+
+function itemOwner(unitN, item) {
+  return item.spiral && item.rung ? item.sourceUnit : unitN;
+}
+
+function itemDone(unitN, item) {
+  return masteredIn(itemOwner(unitN, item)).has(item.id);
+}
+
+async function setItemDone(unitN, item, done) {
+  const owner = itemOwner(unitN, item);
+  if (done) {
+    recordAnswer(owner, item, true);
+    if (item.rung && ladderComplete(owner, await authoredFor(owner))) markDone(owner);
+  } else {
+    const u = ctx.progress.units[owner];
+    if (u && u.done) {
+      const key = String(item.rung || 0);
+      u.done = { ...u.done, [key]: (u.done[key] || []).filter((id) => id !== item.id) };
+    }
+  }
+  commit();
+}
+
 async function loadDrill(unitN, opts = {}) {
+  const seq = routeSeq;
   const unit = ctx.course.units.find((u) => u.n === unitN);
   const pool = ctx.vocabList.filter((item) => item.unit === unitN);
   const authored = await authoredFor(unitN);
+  if (seq !== routeSeq) return;
 
   if (opts.item) {
     const item = authored.find((it) => it.id === opts.item);
@@ -245,6 +298,7 @@ async function loadDrill(unitN, opts = {}) {
 
   const mastered = masteredIn(unitN);
   const reviewPlan = opts.block || opts.rung ? null : await buildReviewPlan(unitN, opts.seed);
+  if (seq !== routeSeq) return;
   const items = withSeed(opts.seed, () => {
     if (opts.block || opts.rung) {
       const inBlock = authored.filter((it) => (opts.block ? it.block === opts.block : it.rung === opts.rung));
@@ -294,8 +348,10 @@ function showDrill(unit, items, opts) {
     onPosition: (idx) => {
       if (!opts.single) setHash(where(idx + 1));
     },
+    isItemDone: (item) => itemDone(unitN, item),
+    onMarkItem: (item, done) => setItemDone(unitN, item, done),
     onAnswer: async (item, correct, state) => {
-      const owner = item.spiral && item.rung ? item.sourceUnit : unitN;
+      const owner = itemOwner(unitN, item);
       recordAnswer(owner, item, correct);
       if (correct && item.rung && ladderComplete(owner, await authoredFor(owner))) markDone(owner);
       if (!opts.single) {

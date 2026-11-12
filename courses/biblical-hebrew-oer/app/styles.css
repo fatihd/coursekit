@@ -114,3 +114,12 @@ button, input, select { font: inherit; }
 .ladder-fill { display: block; height: 100%; background: var(--accent); }
 .ladder-row--done .blocks-label::after { content: " ✓"; color: var(--accent); }
 .unit-stars { display: block; margin-top: 0.25rem; font-size: 0.8rem; letter-spacing: 0.1em; color: #c9a227; }
+.unit-ops { display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem; margin: 1.25rem 0 0; }
+.unit-ops-done { color: var(--muted); }
+.confirm { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; }
+.confirm-ask { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; }
+.confirm-ask[hidden], .confirm-start[hidden] { display: none; }
+.confirm-question { color: var(--muted); }
+.drill-item-ops { margin: 0.25rem 0 0; font-size: 0.75rem; }
+.item-mark { padding: 0; border: 0; background: none; color: var(--accent); cursor: pointer; font: inherit; text-decoration: underline; }
+.item-mark--done { color: var(--muted); }
