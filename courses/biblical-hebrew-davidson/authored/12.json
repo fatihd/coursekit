@@ -1,0 +1,358 @@
+{
+  "schema": "authored-exercises-v1.json",
+  "unit": 12,
+  "sources": {
+    "r12-1": {
+      "citation": "Written for this course on Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), §10",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n57/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n57.jpg"
+    },
+    "r12-2": {
+      "citation": "Written for this course on Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), §10",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n57/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n57.jpg"
+    },
+    "r12-3": {
+      "citation": "Written for this course on Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), §10",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n57/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n57.jpg"
+    },
+    "r12-4": {
+      "citation": "Written for this course on Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), §10",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n57/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n57.jpg"
+    },
+    "r12-5": {
+      "citation": "Written for this course on Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), §10",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n57/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n57.jpg"
+    },
+    "r12-6": {
+      "citation": "Written for this course on Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), §10",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n57/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n57.jpg"
+    },
+    "r12-7": {
+      "citation": "Written for this course on Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), §10",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n57/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n57.jpg"
+    }
+  },
+  "items": [
+    {
+      "id": "r12-1.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "יְהוָה",
+      "stimulusIsScript": true,
+      "statement": "This word is read as אֱלֹהִים.",
+      "answer": false,
+      "expected": "This word is read as אֲדֹנָי.",
+      "block": "r12",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r12-1"
+    },
+    {
+      "id": "r12-1.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "What is read aloud for this word?",
+      "stimulus": "יְהוָה",
+      "stimulusIsScript": true,
+      "options": [
+        "אֱלֹהִים",
+        "אֲדֹנָי"
+      ],
+      "answer": "אֲדֹנָי",
+      "optionIsScript": true,
+      "block": "r12",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r12-1"
+    },
+    {
+      "id": "r12-1.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Type the word that is read in its place",
+      "stimulus": "יְהוָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֲדֹנָי"
+      ],
+      "answerIsScript": true,
+      "block": "r12",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r12-1"
+    },
+    {
+      "id": "r12-2.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "אֲדֹנָי יֱהוִה",
+      "stimulusIsScript": true,
+      "statement": "The second word is read as אֱלֹהִים.",
+      "answer": true,
+      "expected": "The second word is read as אֱלֹהִים.",
+      "block": "r12",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r12-2"
+    },
+    {
+      "id": "r12-2.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "What is read for the second word?",
+      "stimulus": "אֲדֹנָי יֱהוִה",
+      "stimulusIsScript": true,
+      "options": [
+        "אֱלֹהִים",
+        "אֲדֹנָי"
+      ],
+      "answer": "אֱלֹהִים",
+      "optionIsScript": true,
+      "block": "r12",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r12-2"
+    },
+    {
+      "id": "r12-2.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Type the word that is read for the second word",
+      "stimulus": "אֲדֹנָי יֱהוִה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֱלֹהִים"
+      ],
+      "answerIsScript": true,
+      "block": "r12",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r12-2"
+    },
+    {
+      "id": "r12-3.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "יְהוָה",
+      "stimulusIsScript": true,
+      "statement": "The vowels are those of אֲדֹנָי (Lord).",
+      "answer": true,
+      "expected": "The vowels are those of אֲדֹנָי (Lord).",
+      "block": "r12",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r12-3"
+    },
+    {
+      "id": "r12-3.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Whose vowels are written under these letters?",
+      "stimulus": "יְהוָה",
+      "stimulusIsScript": true,
+      "options": [
+        "the name's own vowels",
+        "those of אֲדֹנָי (Lord)",
+        "those of אֱלֹהִים (God)"
+      ],
+      "answer": "those of אֲדֹנָי (Lord)",
+      "optionIsScript": false,
+      "block": "r12",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r12-3"
+    },
+    {
+      "id": "r12-4.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "הִוא",
+      "stimulusIsScript": true,
+      "statement": "It is read הוּא.",
+      "answer": false,
+      "expected": "It is read הִיא.",
+      "block": "r12",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r12-4"
+    },
+    {
+      "id": "r12-4.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "In the Pentateuch this word is written הוא but pointed הִוא. What is read?",
+      "stimulus": "הִוא",
+      "stimulusIsScript": true,
+      "options": [
+        "הוּא",
+        "הִיא"
+      ],
+      "answer": "הִיא",
+      "optionIsScript": true,
+      "block": "r12",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r12-4"
+    },
+    {
+      "id": "r12-4.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Type what is read (the Qere)",
+      "stimulus": "הִוא",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הִיא"
+      ],
+      "answerIsScript": true,
+      "block": "r12",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r12-4"
+    },
+    {
+      "id": "r12-5.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "נַעֲרָ",
+      "stimulusIsScript": true,
+      "statement": "It is read נַעֲרָה.",
+      "answer": true,
+      "expected": "It is read נַעֲרָה.",
+      "block": "r12",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r12-5"
+    },
+    {
+      "id": "r12-5.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "In the Pentateuch \"girl\" is often written נער, pointed נַעֲרָ. What is read?",
+      "stimulus": "נַעֲרָ",
+      "stimulusIsScript": true,
+      "options": [
+        "נַעֲרָה",
+        "נַעַר"
+      ],
+      "answer": "נַעֲרָה",
+      "optionIsScript": true,
+      "block": "r12",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r12-5"
+    },
+    {
+      "id": "r12-5.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Type what is read (the Qere)",
+      "stimulus": "נַעֲרָ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "נַעֲרָה"
+      ],
+      "answerIsScript": true,
+      "block": "r12",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r12-5"
+    },
+    {
+      "id": "r12-6.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "קְרֵי",
+      "stimulusIsScript": true,
+      "statement": "They are written in the margin.",
+      "answer": true,
+      "expected": "They are written in the margin.",
+      "block": "r12",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r12-6"
+    },
+    {
+      "id": "r12-6.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Where are the consonants of the Qere (\"read\") written?",
+      "stimulus": "קְרֵי",
+      "stimulusIsScript": true,
+      "options": [
+        "under the written word",
+        "in the margin",
+        "in the text, in place of the written letters"
+      ],
+      "answer": "in the margin",
+      "optionIsScript": false,
+      "block": "r12",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r12-6"
+    },
+    {
+      "id": "r12-7.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "כְּתִיב",
+      "stimulusIsScript": true,
+      "statement": "Yes: letters and vowels belong together",
+      "answer": false,
+      "expected": "No: those vowels belong to the Qere in the margin",
+      "block": "r12",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r12-7"
+    },
+    {
+      "id": "r12-7.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Should you read the written letters (Kethib) with the vowels printed under them?",
+      "stimulus": "כְּתִיב",
+      "stimulusIsScript": true,
+      "options": [
+        "Yes: letters and vowels belong together",
+        "No: those vowels belong to the Qere in the margin"
+      ],
+      "answer": "No: those vowels belong to the Qere in the margin",
+      "optionIsScript": false,
+      "block": "r12",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r12-7"
+    }
+  ]
+}

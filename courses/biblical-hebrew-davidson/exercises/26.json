@@ -8,8 +8,8 @@
       "typeGuess": "true-false",
       "confidence": 1.0,
       "prompt": "Is this the right translation?",
-      "body_raw": "God gave me a new song.",
-      "answer_raw": "נָתַן־לִי אֱלֹהִים שִׁיר חָדָשׁ"
+      "body_raw": "זֶה הַיֶּלֶד אֲשֶׁר שָׁמַע אֶת־הַקּוֹל",
+      "answer_raw": "This is the boy who heard the voice."
     },
     {
       "unit": 26,
@@ -17,8 +17,8 @@
       "typeGuess": "true-false",
       "confidence": 1.0,
       "prompt": "Is this the right translation?",
-      "body_raw": "לְפָנַי",
-      "answer_raw": "before me"
+      "body_raw": "מִי יָלַד אֶת־אֵלֶּה",
+      "answer_raw": "Who has borne these?"
     },
     {
       "unit": 26,
@@ -26,8 +26,8 @@
       "typeGuess": "true-false",
       "confidence": 1.0,
       "prompt": "Is this the right translation?",
-      "body_raw": "לְפָנַיִךְ",
-      "answer_raw": "before thee (f.)"
+      "body_raw": "בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ",
+      "answer_raw": "God created the heavens and the earth."
     },
     {
       "unit": 26,
@@ -35,8 +35,170 @@
       "typeGuess": "true-false",
       "confidence": 1.0,
       "prompt": "Is this the right translation?",
-      "body_raw": "יָצָא לוֹט אֶל־הָאֲנָשִׁים הַפֶּתְחָה וְהַדֶּלֶת סָגַר אַחֲרָיו",
-      "answer_raw": "Lot went out to the men to the doorway, and he closed the door after him."
+      "body_raw": "לקח המלך את־החרב",
+      "answer_raw": "The king took the sword."
+    },
+    {
+      "unit": 26,
+      "n": 5,
+      "typeGuess": "true-false",
+      "confidence": 1.0,
+      "prompt": "Is this the right translation?",
+      "body_raw": "This (is) the bad boy who spilt the water upon the earth.",
+      "answer_raw": "זֶה הַיֶּלֶד הָרַע אֲשֶׁר שָׁפַךְ אֶת־הַמַּיִם עַל־הָאָרֶץ"
+    },
+    {
+      "unit": 26,
+      "n": 6,
+      "typeGuess": "true-false",
+      "confidence": 1.0,
+      "prompt": "Is this the right translation?",
+      "body_raw": "שָׁמַע הָאָדָם אֶת־הַקּוֹל בַּגָּן",
+      "answer_raw": "The man heard the voice in the garden."
+    },
+    {
+      "unit": 26,
+      "n": 7,
+      "typeGuess": "true-false",
+      "confidence": 1.0,
+      "prompt": "Is this the right translation?",
+      "body_raw": "מָחָה יהוה אֶת־כָּל־אֲשֶׁר עָשָׂה מֵאָדָם וְעַד בְּהֵמָה",
+      "answer_raw": "Yahweh blotted out everything which he had made, man and beast."
+    },
+    {
+      "unit": 26,
+      "n": 8,
+      "typeGuess": "true-false",
+      "confidence": 1.0,
+      "prompt": "Is this the right translation?",
+      "body_raw": "עָשָׂה אֱלֹהִים אֶת־הָאָדָם עָפָר מִן־הָאֲדָמָה",
+      "answer_raw": "God made the man out of dust from the ground."
+    },
+    {
+      "unit": 26,
+      "n": 9,
+      "typeGuess": "true-false",
+      "confidence": 1.0,
+      "prompt": "Is this the right translation?",
+      "body_raw": "נָתַן אֶת־הַחֶרֶב לַמֶּלֶךְ",
+      "answer_raw": "He gave the sword to the king."
+    },
+    {
+      "unit": 26,
+      "n": 10,
+      "typeGuess": "true-false",
+      "confidence": 1.0,
+      "prompt": "Is this the right translation?",
+      "body_raw": "God gave the woman to the man for wife.",
+      "answer_raw": "נָתַן אֱלֹהִים אֶת־הָאִשָּׁה לָאִישׁ לְאִשָּׁה"
+    },
+    {
+      "unit": 26,
+      "n": 11,
+      "typeGuess": "true-false",
+      "confidence": 1.0,
+      "prompt": "Is this the right translation?",
+      "body_raw": "Who spilt the water upon the earth?",
+      "answer_raw": "מִי שָׁפַךְ אֶת־הַמַּיִם עַל־הָאָרֶץ"
+    },
+    {
+      "unit": 26,
+      "n": 12,
+      "typeGuess": "true-false",
+      "confidence": 1.0,
+      "prompt": "Is this the right translation?",
+      "body_raw": "ראה המלך בחלום את־הפרות הטבות על־היאר",
+      "answer_raw": "The king saw in a dream the goodly kine by the river."
+    },
+    {
+      "unit": 26,
+      "n": 13,
+      "typeGuess": "true-false",
+      "confidence": 1.0,
+      "prompt": "Is this the right translation?",
+      "body_raw": "God remembers the just (pl.).",
+      "answer_raw": "זָכַר אֱלֹהִים אֶת־הַצַּדִּיקִים"
+    },
+    {
+      "unit": 26,
+      "n": 14,
+      "typeGuess": "true-false",
+      "confidence": 1.0,
+      "prompt": "Is this the right translation?",
+      "body_raw": "The captain (prince) reviewed all the mighty-men of valour and all the people of war.",
+      "answer_raw": "פָּקַד הַשַּׂר אֶת־כָּל־גִּבּוֹרֵי הַחַיִל וְאֶת־כָּל־עַם הַמִּלְחָמָה"
+    },
+    {
+      "unit": 26,
+      "n": 15,
+      "typeGuess": "true-false",
+      "confidence": 1.0,
+      "prompt": "Is this the right translation?",
+      "body_raw": "כָּתַב הַנָּבִיא אֶת־כָּל־הַדְּבָרִים בַּסֵּפֶר",
+      "answer_raw": "The prophet wrote all the words in a book."
+    },
+    {
+      "unit": 26,
+      "n": 16,
+      "typeGuess": "true-false",
+      "confidence": 1.0,
+      "prompt": "Is this the right translation?",
+      "body_raw": "נָשָׂא הַנָּבִיא הַזָּקֵן אֶת־נִבְלַת אִישׁ הָאֱלֹהִים אֶל־הַחֲמוֹר",
+      "answer_raw": "The aged prophet lifted the corpse of the man of God on to the ass."
+    },
+    {
+      "unit": 26,
+      "n": 17,
+      "typeGuess": "true-false",
+      "confidence": 1.0,
+      "prompt": "Is this the right translation?",
+      "body_raw": "The king saw the fat kine upon the bank (lip) of the river.",
+      "answer_raw": "רָאָה הַמֶּלֶךְ אֶת־הַפָּרוֹת הַבְּרִיאוֹת עַל־שְׂפַת הַיְאֹר"
+    },
+    {
+      "unit": 26,
+      "n": 18,
+      "typeGuess": "true-false",
+      "confidence": 1.0,
+      "prompt": "Is this the right translation?",
+      "body_raw": "He destroyed all the fishes of the river.",
+      "answer_raw": "מָחָה אֶת־כָּל־דְּגַת הַיְאֹר"
+    },
+    {
+      "unit": 26,
+      "n": 19,
+      "typeGuess": "true-false",
+      "confidence": 1.0,
+      "prompt": "Is this the right translation?",
+      "body_raw": "זָכַר לְעוֹלָם בְּרִיתוֹ אֲשֶׁר כָּרַת אֶת־אַבְרָהָם",
+      "answer_raw": "He has remembered for ever his covenant, which he made with Abraham."
+    },
+    {
+      "unit": 26,
+      "n": 20,
+      "typeGuess": "true-false",
+      "confidence": 1.0,
+      "prompt": "Is this the right translation?",
+      "body_raw": "שמע יהוה אלהינו את־תפלתנו",
+      "answer_raw": "Yahweh our God has heard our prayer."
+    },
+    {
+      "unit": 26,
+      "n": 21,
+      "typeGuess": "true-false",
+      "confidence": 1.0,
+      "prompt": "Is this the right translation?",
+      "body_raw": "God has redeemed his holy (ones).",
+      "answer_raw": "פָּדָה אֱלֹהִים אֶת־קְדוֹשָׁיו"
+    },
+    {
+      "unit": 26,
+      "n": 22,
+      "typeGuess": "true-false",
+      "confidence": 1.0,
+      "prompt": "Is this the right translation?",
+      "body_raw": "He lifted his corpse upon the ass.",
+      "answer_raw": "נָשָׂא אֶת־נִבְלָתוֹ אֶל־הַחֲמוֹר"
     }
   ]
 }

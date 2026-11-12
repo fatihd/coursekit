@@ -1520,8 +1520,8 @@
       "prompt": "Is this the right translation?",
       "stimulus": "הַפַּח נִשְׁבָּר וַאֲנַחְנוּ נִמְלָטְנוּ",
       "stimulusIsScript": true,
-      "statement": "The snare is broken, and, as for them, we are escaped.",
-      "answer": false,
+      "statement": "The snare is broken, and, as for us, we are escaped.",
+      "answer": true,
       "expected": "The snare is broken, and, as for us, we are escaped.",
       "block": "s25",
       "blockLabel": "Davidson §25",
@@ -1537,10 +1537,10 @@
       "stimulus": "הַפַּח נִשְׁבָּר וַאֲנַחְנוּ נִמְלָטְנוּ",
       "stimulusIsScript": true,
       "options": [
-        "A snare is broken, and, as for us, we are escaped.",
-        "The snare is broken, and, as for me, we are escaped.",
         "The snare is broken, and, as for us, we are escaped.",
-        "The snare is broken, and, as for them, we are escaped."
+        "The snare is broken, and, as for us, I am escaped.",
+        "A snare is broken, and, as for us, we are escaped.",
+        "The snare is broken, and, as for me, we are escaped."
       ],
       "answer": "The snare is broken, and, as for us, we are escaped.",
       "optionIsScript": false,
@@ -2080,10 +2080,10 @@
       "stimulus": "הִשָּׁמֶר לְךָ פֶּן־תִּכְרֹת בְּרִית לְיוֹשֵׁב הָאָרֶץ וְלָקַחְתָּ מִבְּנֹתָיו לְבָנֶיךָ",
       "stimulusIsScript": true,
       "options": [
-        "Beware lest thou make a covenant with the inhabitants of the land and take of your daughters for thy sons.",
-        "Beware lest thou make a covenant with the inhabitants of a land and take of their daughters for thy sons.",
-        "Beware lest thou make a covenant with the inhabitants of the land and take of their daughters for thy sons.",
-        "Beware lest thou make a covenant with the inhabitants of the land and take of their daughters for his sons."
+        "Beware lest thou make a covenant with the inhabitants of the land and take of their daughters for his sons.",
+        "Beware lest thou make the covenant with the inhabitants of the land and take of their daughters for thy sons.",
+        "Beware lest I make a covenant with the inhabitants of the land and take of their daughters for thy sons.",
+        "Beware lest thou make a covenant with the inhabitants of the land and take of their daughters for thy sons."
       ],
       "answer": "Beware lest thou make a covenant with the inhabitants of the land and take of their daughters for thy sons.",
       "optionIsScript": false,
@@ -2261,9 +2261,9 @@
       "stimulus": "נִסְתַּרְתִּי מִפְּנֵי אֱלֹהָי",
       "stimulusIsScript": true,
       "options": [
-        "I am hidden from a face of my God.",
-        "I am hidden to the face of my God.",
-        "I am hidden from the face of his God.",
+        "I am hidden from the face of thy God.",
+        "They are hidden from the face of my God.",
+        "I am hidden in the face of my God.",
         "I am hidden from the face of my God."
       ],
       "answer": "I am hidden from the face of my God.",
@@ -2279,10 +2279,10 @@
       "rungLabel": "Fill in",
       "type": "translate-phrase",
       "prompt": "Fill in the missing word: I am hidden from the face of my God.",
-      "stimulus": "נִסְתַּרְתִּי מִפְּנֵי ＿＿＿",
+      "stimulus": "נִסְתַּרְתִּי ＿＿＿ אֱלֹהָי",
       "stimulusIsScript": true,
       "accepted": [
-        "אֱלֹהָי"
+        "מִפְּנֵי"
       ],
       "answerIsScript": true,
       "block": "s25",
@@ -2706,10 +2706,10 @@
       "stimulus": "עֵינַי עַל־כָּל־דַּרְכֵיהֶם לֹא נִסְתְּרוּ מִלְּפָנָי וְלֹא־נִצְפַּן עֲוֹנָם מִנֶּגֶד עֵינָי",
       "stimulusIsScript": true,
       "options": [
-        "Mine eyes are upon all their ways, they are hidden from my face; neither is their iniquity concealed from mine eyes.",
-        "Mine eyes are upon all their ways, they are not hidden in my face; neither is their iniquity concealed from mine eyes.",
+        "Mine eyes are upon all their ways, they are not hidden to my face; neither is their iniquity concealed from mine eyes.",
+        "Mine eyes are upon all their ways, I am not hidden from my face; neither is their iniquity concealed from mine eyes.",
         "Mine eyes are upon all their ways, they are not hidden from my face; neither is their iniquity concealed from mine eyes.",
-        "Mine eyes are upon all their ways, they are not hidden from my face; neither is your iniquity concealed from mine eyes."
+        "Mine eyes are upon all our ways, they are not hidden from my face; neither is their iniquity concealed from mine eyes."
       ],
       "answer": "Mine eyes are upon all their ways, they are not hidden from my face; neither is their iniquity concealed from mine eyes.",
       "optionIsScript": false,

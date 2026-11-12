@@ -1,0 +1,487 @@
+{
+  "schema": "authored-exercises-v1.json",
+  "unit": 42,
+  "sources": {
+    "s23-A1": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §23 A 1; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n106/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n106.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n54/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n54.jpg",
+      "exwb": "davidson-s23#A1",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s23-A2": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §23 A 2; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n106/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n106.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n54/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n54.jpg",
+      "exwb": "davidson-s23#A2",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s23-A4": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §23 A 4; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n106/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n106.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n54/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n54.jpg",
+      "exwb": "davidson-s23#A4",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s23-B2": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §23 B 2; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n106/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n106.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n54/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n54.jpg",
+      "exwb": "davidson-s23#B2",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "s23-B4": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §23 B 4; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n106/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n106.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n54/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n54.jpg",
+      "exwb": "davidson-s23#B4",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    }
+  },
+  "items": [
+    {
+      "id": "s23-A1.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אֶשְׁמְרָה תוֹרָתְךָ תָמִיד",
+      "stimulusIsScript": true,
+      "statement": "They would keep thy law continually.",
+      "answer": false,
+      "expected": "I would keep thy law continually.",
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "he-en",
+      "src": "s23-A1"
+    },
+    {
+      "id": "s23-A1.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אֶשְׁמְרָה תוֹרָתְךָ תָמִיד",
+      "stimulusIsScript": true,
+      "options": [
+        "We would keep thy law continually.",
+        "I would keep his law continually.",
+        "I would keep thy law continually.",
+        "They would keep thy law continually."
+      ],
+      "answer": "I would keep thy law continually.",
+      "optionIsScript": false,
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "he-en",
+      "src": "s23-A1"
+    },
+    {
+      "id": "s23-A1.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: I would keep thy law continually.",
+      "stimulus": "＿＿＿ תוֹרָתְךָ תָמִיד",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶשְׁמְרָה"
+      ],
+      "answerIsScript": true,
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "he-en",
+      "src": "s23-A1"
+    },
+    {
+      "id": "s23-A1.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "אֶשְׁמְרָה תוֹרָתְךָ תָמִיד",
+      "stimulusIsScript": true,
+      "accepted": [
+        "I would keep thy law continually.",
+        "I would keep your law continually."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "he-en",
+      "src": "s23-A1"
+    },
+    {
+      "id": "s23-A1.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "I would keep thy law continually.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֶשְׁמְרָה תוֹרָתְךָ תָמִיד"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "he-en",
+      "src": "s23-A1"
+    },
+    {
+      "id": "s23-A2.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "נִכְרְתָה בְרִית אֲנִי וְאַתָּה וְהָיָה לְעֵד בֵּינִי וּבֵינֶךָ",
+      "stimulusIsScript": true,
+      "statement": "Let us make a covenant, I and thou, and it shall be for a witness between me and thee.",
+      "answer": true,
+      "expected": "Let us make a covenant, I and thou, and it shall be for a witness between me and thee.",
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "he-en",
+      "src": "s23-A2"
+    },
+    {
+      "id": "s23-A2.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "נִכְרְתָה בְרִית אֲנִי וְאַתָּה וְהָיָה לְעֵד בֵּינִי וּבֵינֶךָ",
+      "stimulusIsScript": true,
+      "options": [
+        "Let us make the covenant, I and thou, and it shall be for a witness between me and thee.",
+        "Let us make a covenant, I and thou, and it shall be for a witness between me and thee.",
+        "Let us make a covenant, they and thou, and it shall be for a witness between me and thee.",
+        "Let me make a covenant, I and thou, and it shall be for a witness between me and thee."
+      ],
+      "answer": "Let us make a covenant, I and thou, and it shall be for a witness between me and thee.",
+      "optionIsScript": false,
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "he-en",
+      "src": "s23-A2"
+    },
+    {
+      "id": "s23-A2.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Let us make a covenant, I and thou, and it shall be for a witness between me and thee.",
+      "stimulus": "נִכְרְתָה ＿＿＿ אֲנִי וְאַתָּה וְהָיָה לְעֵד בֵּינִי וּבֵינֶךָ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "בְרִית"
+      ],
+      "answerIsScript": true,
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "he-en",
+      "src": "s23-A2"
+    },
+    {
+      "id": "s23-A2.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "נִכְרְתָה בְרִית אֲנִי וְאַתָּה וְהָיָה לְעֵד בֵּינִי וּבֵינֶךָ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Let us make a covenant, I and thou, and it shall be for a witness between me and thee.",
+        "Let us make a covenant, I and you, and it shall be for a witness between me and you."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "he-en",
+      "src": "s23-A2"
+    },
+    {
+      "id": "s23-A2.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Let us make a covenant, I and thou, and it shall be for a witness between me and thee.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "נִכְרְתָה בְרִית אֲנִי וְאַתָּה וְהָיָה לְעֵד בֵּינִי וּבֵינֶךָ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "he-en",
+      "src": "s23-A2"
+    },
+    {
+      "id": "s23-A4.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אַל־תִּקְצֹף יהוה עַד־מְאֹד",
+      "stimulusIsScript": true,
+      "statement": "Be not very angry, O Yahweh.",
+      "answer": true,
+      "expected": "Be not very angry, O Yahweh.",
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "he-en",
+      "src": "s23-A4"
+    },
+    {
+      "id": "s23-A4.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אַל־תִּקְצֹף יהוה עַד־מְאֹד",
+      "stimulusIsScript": true,
+      "options": [
+        "Be not very angry, O Yahweh.",
+        "And thou shalt keep his law continually.",
+        "Be very angry, O Yahweh.",
+        "And it shall be, like prophet, like priest."
+      ],
+      "answer": "Be not very angry, O Yahweh.",
+      "optionIsScript": false,
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "he-en",
+      "src": "s23-A4"
+    },
+    {
+      "id": "s23-A4.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Be not very angry, O Yahweh.",
+      "stimulus": "אַל־תִּקְצֹף ＿＿＿ עַד־מְאֹד",
+      "stimulusIsScript": true,
+      "accepted": [
+        "יהוה"
+      ],
+      "answerIsScript": true,
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "he-en",
+      "src": "s23-A4"
+    },
+    {
+      "id": "s23-A4.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "אַל־תִּקְצֹף יהוה עַד־מְאֹד",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Be not very angry, O Yahweh.",
+        "Be not very angry, O the Lord."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "he-en",
+      "src": "s23-A4"
+    },
+    {
+      "id": "s23-A4.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Be not very angry, O Yahweh.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אַל־תִּקְצֹף יהוה עַד־מְאֹד"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "he-en",
+      "src": "s23-A4"
+    },
+    {
+      "id": "s23-B2.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אֶשְׁכְּבָה",
+      "stimulusIsScript": true,
+      "statement": "Let me lie down.",
+      "answer": true,
+      "expected": "Let me lie down.",
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "en-he",
+      "src": "s23-B2"
+    },
+    {
+      "id": "s23-B2.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אֶשְׁכְּבָה",
+      "stimulusIsScript": true,
+      "options": [
+        "And the waters prevailed exceedingly upon the earth, and all flesh expired that moved upon the earth, among birds and cattle, and all mankind.",
+        "Let me lie down.",
+        "Let him lie down.",
+        "Let us lie down."
+      ],
+      "answer": "Let me lie down.",
+      "optionIsScript": false,
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "en-he",
+      "src": "s23-B2"
+    },
+    {
+      "id": "s23-B2.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "Let me lie down.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֶשְׁכְּבָה"
+      ],
+      "answerIsScript": true,
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "en-he",
+      "src": "s23-B2"
+    },
+    {
+      "id": "s23-B2.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Let me lie down.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֶשְׁכְּבָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "en-he",
+      "src": "s23-B2"
+    },
+    {
+      "id": "s23-B4.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "יִשְׁפֹּט יְהוָה בֵּינִי וּבֵין הָעָם הַזֶּה",
+      "stimulusIsScript": true,
+      "statement": "May Yahweh judge between me and (between) this people.",
+      "answer": true,
+      "expected": "May Yahweh judge between me and (between) this people.",
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "en-he",
+      "src": "s23-B4"
+    },
+    {
+      "id": "s23-B4.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "יִשְׁפֹּט יְהוָה בֵּינִי וּבֵין הָעָם הַזֶּה",
+      "stimulusIsScript": true,
+      "options": [
+        "May Yahweh judge between me and (between) that people.",
+        "May Yahweh judge between me and (between) this people.",
+        "May Yahweh judge between us and (between) this people.",
+        "May Yahweh judge between him and (between) this people."
+      ],
+      "answer": "May Yahweh judge between me and (between) this people.",
+      "optionIsScript": false,
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "en-he",
+      "src": "s23-B4"
+    },
+    {
+      "id": "s23-B4.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: May Yahweh judge between me and (between) this people.",
+      "stimulus": "＿＿＿ יְהוָה בֵּינִי וּבֵין הָעָם הַזֶּה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "יִשְׁפֹּט"
+      ],
+      "answerIsScript": true,
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "en-he",
+      "src": "s23-B4"
+    },
+    {
+      "id": "s23-B4.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "May Yahweh judge between me and (between) this people.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "יִשְׁפֹּט יְהוָה בֵּינִי וּבֵין הָעָם הַזֶּה"
+      ],
+      "answerIsScript": true,
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "en-he",
+      "src": "s23-B4"
+    },
+    {
+      "id": "s23-B4.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "May Yahweh judge between me and (between) this people.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "יִשְׁפֹּט יְהוָה בֵּינִי וּבֵין הָעָם הַזֶּה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s23",
+      "blockLabel": "Davidson §23",
+      "shape": "en-he",
+      "src": "s23-B4"
+    }
+  ]
+}

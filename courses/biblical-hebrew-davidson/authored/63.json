@@ -2242,9 +2242,9 @@
       "stimulusIsScript": true,
       "options": [
         "Upon the woman with whom I am seeking hospitality thou hast brought evil, by slaying her son.",
-        "Upon a woman with whom I am seeking hospitality thou hast brought evil, by slaying her son.",
-        "Upon the woman with whom I am seeking hospitality thou hast brought evil, by slaying their son.",
-        "To the woman with whom I am seeking hospitality thou hast brought evil, by slaying her son."
+        "To the woman with whom I am seeking hospitality thou hast brought evil, by slaying her son.",
+        "Upon the woman with whom I am seeking hospitality thou hast brought evil, by slaying his son.",
+        "Upon a woman with whom I am seeking hospitality thou hast brought evil, by slaying her son."
       ],
       "answer": "Upon the woman with whom I am seeking hospitality thou hast brought evil, by slaying her son.",
       "optionIsScript": false,
@@ -2315,8 +2315,8 @@
       "prompt": "Is this the right translation?",
       "stimulus": "וַיּוֹרֶד אֶת־הָעָם אֶל־הַמָּיִם וַיֹּאמֶר יְהוָה אֶל־גִּדְעוֹן כֹּל אֲשֶׁר־יָלֹק בִּלְשׁוֹנוֹ מִן־הַמַּיִם כַּאֲשֶׁר יָלֹק הַכֶּלֶב תַּצִּיג אוֹתוֹ לְבָד",
       "stimulusIsScript": true,
-      "statement": "And he brought the people down to the water; and Yahweh said to Gideon, Every one that laps of the water with his tongue as a dog laps, him shalt thou set by himself.",
-      "answer": true,
+      "statement": "And he brought the people down to a water; and Yahweh said to Gideon, Every one that laps of the water with his tongue as a dog laps, him shalt thou set by himself.",
+      "answer": false,
       "expected": "And he brought the people down to the water; and Yahweh said to Gideon, Every one that laps of the water with his tongue as a dog laps, him shalt thou set by himself.",
       "block": "s42",
       "blockLabel": "Davidson §42",
@@ -2332,10 +2332,10 @@
       "stimulus": "וַיּוֹרֶד אֶת־הָעָם אֶל־הַמָּיִם וַיֹּאמֶר יְהוָה אֶל־גִּדְעוֹן כֹּל אֲשֶׁר־יָלֹק בִּלְשׁוֹנוֹ מִן־הַמַּיִם כַּאֲשֶׁר יָלֹק הַכֶּלֶב תַּצִּיג אוֹתוֹ לְבָד",
       "stimulusIsScript": true,
       "options": [
-        "And he brought the people down to the water; and Yahweh said to Gideon, Every one that laps of the water with his tongue as the dog laps, him shalt thou set by himself.",
-        "And he brought the people down to the water; and Yahweh said to Gideon, Every one that laps of the water with my tongue as a dog laps, him shalt thou set by himself.",
-        "And he brought the people down to the water; and Yahweh said to Gideon, Every one that laps of the water with his tongue as a dog laps, him shalt thou set by himself.",
-        "And he brought the people down to the water; and Yahweh said to Gideon, Every one that laps of the water with his tongue as a dog laps, them shalt thou set by himself."
+        "And he brought the people down to a water; and Yahweh said to Gideon, Every one that laps of the water with his tongue as a dog laps, him shalt thou set by himself.",
+        "And he brought the people down to the water; and Yahweh said to Gideon, Every one this laps of the water with his tongue as a dog laps, him shalt thou set by himself.",
+        "And he brought the people down to the water; and Yahweh said from Gideon, Every one that laps of the water with his tongue as a dog laps, him shalt thou set by himself.",
+        "And he brought the people down to the water; and Yahweh said to Gideon, Every one that laps of the water with his tongue as a dog laps, him shalt thou set by himself."
       ],
       "answer": "And he brought the people down to the water; and Yahweh said to Gideon, Every one that laps of the water with his tongue as a dog laps, him shalt thou set by himself.",
       "optionIsScript": false,
@@ -2855,7 +2855,7 @@
       "prompt": "Is this the right translation?",
       "stimulus": "אֱלֹהִים לֹא תְקַלֵּל וְנָשִׂיא בְעַמְּךָ לֹא תָאֹר",
       "stimulusIsScript": true,
-      "statement": "God thou shalt revile, and a ruler among thy people thou shalt not curse.",
+      "statement": "God I shalt not revile, and a ruler among thy people thou shalt not curse.",
       "answer": false,
       "expected": "God thou shalt not revile, and a ruler among thy people thou shalt not curse.",
       "block": "s43",
@@ -2873,9 +2873,9 @@
       "stimulusIsScript": true,
       "options": [
         "God thou shalt not revile, and the ruler among thy people thou shalt not curse.",
-        "God thou shalt not revile, and a ruler among his people thou shalt not curse.",
-        "God thou shalt not revile, and a ruler among thy people thou shalt not curse.",
-        "God thou shalt revile, and a ruler among thy people thou shalt not curse."
+        "God thou shalt not revile, and a ruler among thy people thou shalt curse.",
+        "God I shalt not revile, and a ruler among thy people thou shalt not curse.",
+        "God thou shalt not revile, and a ruler among thy people thou shalt not curse."
       ],
       "answer": "God thou shalt not revile, and a ruler among thy people thou shalt not curse.",
       "optionIsScript": false,
@@ -2890,10 +2890,10 @@
       "rungLabel": "Fill in",
       "type": "translate-phrase",
       "prompt": "Fill in the missing word: God thou shalt not revile, and a ruler among thy people thou shalt not curse.",
-      "stimulus": "＿＿＿ לֹא תְקַלֵּל וְנָשִׂיא בְעַמְּךָ לֹא תָאֹר",
+      "stimulus": "אֱלֹהִים לֹא ＿＿＿ וְנָשִׂיא בְעַמְּךָ לֹא תָאֹר",
       "stimulusIsScript": true,
       "accepted": [
-        "אֱלֹהִים"
+        "תְקַלֵּל"
       ],
       "answerIsScript": true,
       "block": "s43",

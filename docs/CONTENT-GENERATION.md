@@ -123,13 +123,34 @@ sections that had no unit (§4, §9, §24, §32) now have one. Unit numbers appe
 
 **Per-sentence placement (2026-11-11, P12-T1).** Each translation sentence is tagged with the grammar it uses
 (`build/_sources/davidson/sentence-grammar.json`, ids from `grammar-units.json`) and placed in the first unit that
-teaches all of it (floor: unit 13); parse, form and pointing items stay in their block's unit.
+teaches all of it (floor: unit 16). Phrases before the article (2026-11-12): `build/_sources/davidson/indefinite-phrases.json`
+lists Davidson phrases with the article taken off (pointed by hand) and their English with a/an, nothing (mass
+nouns), "(some)" (plurals) or "(two)" (duals); they become ladder items in units 14 (nouns, plurals, duals,
+noun + adjective) and 15 (pronoun + noun), shape `phrase`, `source.adaptedFrom` naming the exercise, which keeps
+its own place too. Vocabulary first use (`build/rebalance_vocab.py`) counts the plural column (also spelled ־ת for ־וֹת),
+adjective endings (־ָה ־ִים ־וֹת ־ת, without a prefix letter) and ignores the script units' syllable/dagesh drills. Davidson
+words missing from the frequency list are added to `content/vocab.csv` by hand (2026-11-12: wolf, palace, cow, side,
+רָם "high"; frequency from `--recount`); common nouns are not pinned late, they are taught at first use. Parse, form and pointing items stay in their block's unit. A feature names one unit's
+topic: when a unit is split, split its feature too and re-tag the sentences (2026-11-12: `volitive` → `imperative`/`jussive`/`infinitive`,
+`particle` → `question`/`particle`).
+
+**Noun phrase first and script-unit recognition (2026-11-12, P12-T8/T9).** Davidson units 18–26 teach the noun
+phrase before demonstratives and clauses (construct 18, prefix prepositions 19, independent prepositions 20, waw 21,
+noun suffixes 22, preposition suffixes 23, demonstratives 24, who/what/relative 25, object marker 26). To reorder units,
+renumber together: `content/chapters/NN.md` (file and `# Unit N` heading), `units.json`, `course.json`,
+`grammar-units.json`, `exwb-units.json`, `vocab-layout.json`, the `unit` column of `content/vocab.csv`; then run
+`exwb_to_authored.py` → `rebalance_vocab.py` → `materialize.py` → `exwb_to_authored.py` and `scripts/validate --snapshot`.
+Units without Davidson exercises (6, 9–12) get hand-written recognition questions from
+`build/_sources/davidson/recognition.json`: each question is a true/false claim (rung 1), a choice (rung 2) and,
+where it has `typed`, a typed answer (rung 3, `pointing` for pointed answers); shape `recognition`, linked to the
+grammar page of its section (no Key link).
 
 **Exercise ladder (2026-11-11, P12-T2/T3/T4).** `build/davidson_ladder.py` (called by `exwb_to_authored.py`)
 turns each of the 869 sentences into five items (true/false, choose, fill in, translate, translate with vowel
 points; 4,510 items with the parse/form/pointing questions). Wrong options and false statements are the Key's
 English with one point changed (possessive, article, this/that, preposition group, "not", subject/object
-pronoun); if fewer than three such changes exist, other sentences of the same Davidson section fill in. Typed
+pronoun — a changed subject takes the matching form of "to be": "I (am)" → "We (are)"; for a bare noun phrase
+also number: "A good man" → "(Some) good men", "(Some) stars" → "A star" / "(Two) stars"); if fewer than three such changes exist, other sentences of the same Davidson section fill in. Typed
 English is graded against variants of the Key's English: bracketed supplied words optional ("The light (is)
 good"), grammar notes like "(fem.)" dropped, a one-word alternative in brackets may replace the word before it,
 archaic forms modernized (thou hast → you have; -eth/-est verbs from the hand-checked table

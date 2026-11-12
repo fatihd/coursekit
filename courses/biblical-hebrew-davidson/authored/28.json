@@ -228,8 +228,8 @@
       "prompt": "Is this the right translation?",
       "stimulus": "מַלְכִּי",
       "stimulusIsScript": true,
-      "statement": "His king",
-      "answer": false,
+      "statement": "My king",
+      "answer": true,
       "expected": "My king",
       "block": "s29",
       "blockLabel": "Davidson §29",
@@ -245,10 +245,10 @@
       "stimulus": "מַלְכִּי",
       "stimulusIsScript": true,
       "options": [
-        "Thy king",
-        "Our king",
+        "The my king",
+        "His king",
         "My king",
-        "His king"
+        "Our king"
       ],
       "answer": "My king",
       "optionIsScript": false,
@@ -300,7 +300,7 @@
       "prompt": "Is this the right translation?",
       "stimulus": "מְלָכֵינוּ",
       "stimulusIsScript": true,
-      "statement": "My kings",
+      "statement": "The our kings",
       "answer": false,
       "expected": "Our kings",
       "block": "s29",
@@ -318,8 +318,8 @@
       "stimulusIsScript": true,
       "options": [
         "Their kings",
-        "Your kings",
         "My kings",
+        "The our kings",
         "Our kings"
       ],
       "answer": "Our kings",
@@ -392,7 +392,7 @@
         "Her books",
         "His books",
         "My books",
-        "Their books"
+        "The his books"
       ],
       "answer": "His books",
       "optionIsScript": false,
@@ -444,7 +444,7 @@
       "prompt": "Is this the right translation?",
       "stimulus": "צִדְקָתָהּ",
       "stimulusIsScript": true,
-      "statement": "My righteousness",
+      "statement": "Their righteousness",
       "answer": false,
       "expected": "Her righteousness",
       "block": "s29",
@@ -461,9 +461,9 @@
       "stimulus": "צִדְקָתָהּ",
       "stimulusIsScript": true,
       "options": [
-        "His righteousness",
         "My righteousness",
         "Their righteousness",
+        "The her righteousness",
         "Her righteousness"
       ],
       "answer": "Her righteousness",
@@ -662,7 +662,7 @@
       "prompt": "Is this the right translation?",
       "stimulus": "קַרְנֵנוּ",
       "stimulusIsScript": true,
-      "statement": "Their horn",
+      "statement": "Your horn",
       "answer": false,
       "expected": "Our horn",
       "block": "s29",
@@ -679,10 +679,10 @@
       "stimulus": "קַרְנֵנוּ",
       "stimulusIsScript": true,
       "options": [
+        "The our horn",
         "Your horn",
-        "My horn",
-        "Their horn",
-        "Our horn"
+        "Our horn",
+        "Their horn"
       ],
       "answer": "Our horn",
       "optionIsScript": false,
@@ -753,7 +753,7 @@
       "options": [
         "His silver",
         "Their silver",
-        "Your silver",
+        "The their silver",
         "Our silver"
       ],
       "answer": "Their silver",
@@ -1002,8 +1002,8 @@
       "stimulusIsScript": true,
       "options": [
         "My mantle",
+        "The my mantle",
         "Our mantle",
-        "His mantle",
         "Thy mantle"
       ],
       "answer": "My mantle",
@@ -1056,7 +1056,7 @@
       "prompt": "Is this the right translation?",
       "stimulus": "גְּבִרְתָּהּ",
       "stimulusIsScript": true,
-      "statement": "Their mistress",
+      "statement": "The her mistress",
       "answer": false,
       "expected": "Her mistress",
       "block": "s29",
@@ -1073,9 +1073,9 @@
       "stimulus": "גְּבִרְתָּהּ",
       "stimulusIsScript": true,
       "options": [
-        "His mistress",
-        "My mistress",
         "Their mistress",
+        "My mistress",
+        "The her mistress",
         "Her mistress"
       ],
       "answer": "Her mistress",

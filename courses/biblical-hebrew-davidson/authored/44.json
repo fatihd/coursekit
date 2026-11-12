@@ -1439,7 +1439,7 @@
       "prompt": "Is this the right translation?",
       "stimulus": "לֹא יָכֹלְתָּ לִסְפֹּר הַכּוֹכָבִים",
       "stimulusIsScript": true,
-      "statement": "Thou art able to count the stars.",
+      "statement": "Thou art not able to count stars.",
       "answer": false,
       "expected": "Thou art not able to count the stars.",
       "block": "s22",
@@ -1456,10 +1456,10 @@
       "stimulus": "לֹא יָכֹלְתָּ לִסְפֹּר הַכּוֹכָבִים",
       "stimulusIsScript": true,
       "options": [
-        "Draw near (sing.) and hearken to all the words which I am about to speak unto thee.",
         "Thou art able to count the stars.",
+        "Thou art not able to count stars.",
         "Thou art not able to count the stars.",
-        "Thou art not able to count stars."
+        "She is not able to count the stars."
       ],
       "answer": "Thou art not able to count the stars.",
       "optionIsScript": false,
@@ -1641,7 +1641,7 @@
         "Draw near (sing.) and hearken in all the words which I am about to speak unto thee.",
         "Draw near (sing.) and hearken to all the words which I am about to speak unto thee.",
         "Draw near (sing.) and hearken to all words which I am about to speak unto thee.",
-        "Draw near (sing.) and hearken to all the words which I am about to speak unto me."
+        "Draw near (sing.) and hearken to all the words which I am about to speak unto him."
       ],
       "answer": "Draw near (sing.) and hearken to all the words which I am about to speak unto thee.",
       "optionIsScript": false,
@@ -1820,8 +1820,8 @@
       "stimulus": "יהוה אֱלֹהַי גָּדַלְתָּ מְאֹד",
       "stimulusIsScript": true,
       "options": [
-        "O Yahweh, our God, thou art very great.",
-        "O Yahweh, his God, thou art very great.",
+        "O Yahweh, my God, I am very great.",
+        "O Yahweh, my God, she is very great.",
         "O Yahweh, thy God, thou art very great.",
         "O Yahweh, my God, thou art very great."
       ],
@@ -1986,8 +1986,8 @@
       "prompt": "Is this the right translation?",
       "stimulus": "קָרוֹב אַתָּה יהוה וְכָל־מִצְוֹתֶיךָ אֱמֶת תִּקְרַב רִנָּתִי לְפָנֶיךָ",
       "stimulusIsScript": true,
-      "statement": "Nigh art thou, O Yahweh, and all thy commandments are truth, my ringing cry shall come near before thee.",
-      "answer": true,
+      "statement": "Nigh art thou, O Yahweh, and all thy commandments are truth, my ringing cry shall come near before me.",
+      "answer": false,
       "expected": "Nigh art thou, O Yahweh, and all thy commandments are truth, my ringing cry shall come near before thee.",
       "block": "s22",
       "blockLabel": "Davidson §22",
@@ -2004,7 +2004,7 @@
       "stimulusIsScript": true,
       "options": [
         "Nigh art thou, O Yahweh, and all thy commandments are truth, my ringing cry shall come near before thee.",
-        "Nigh art thou, O Yahweh, and all thy commandments are truth, my ringing cry shall come near before him.",
+        "Nigh art she, O Yahweh, and all thy commandments are truth, my ringing cry shall come near before thee.",
         "Nigh art thou, O Yahweh, and all thy commandments are truth, my ringing cry shall come near before me.",
         "Nigh art thou, O Yahweh, and all thy commandments are truth, our ringing cry shall come near before thee."
       ],
@@ -2170,8 +2170,8 @@
       "prompt": "Is this the right translation?",
       "stimulus": "קָדוֹשׁ אַתָּה יְהוָה מָלְאָה כָל־הָאָרֶץ כְּבוֹדֶךָ",
       "stimulusIsScript": true,
-      "statement": "Holy art thou, O Yahweh, all the earth is full of thy glory.",
-      "answer": true,
+      "statement": "Holy art she, O Yahweh, all the earth is full of thy glory.",
+      "answer": false,
       "expected": "Holy art thou, O Yahweh, all the earth is full of thy glory.",
       "block": "s22",
       "blockLabel": "Davidson §22",
@@ -2187,8 +2187,8 @@
       "stimulus": "קָדוֹשׁ אַתָּה יְהוָה מָלְאָה כָל־הָאָרֶץ כְּבוֹדֶךָ",
       "stimulusIsScript": true,
       "options": [
+        "Holy art she, O Yahweh, all the earth is full of thy glory.",
         "Holy art thou, O Yahweh, all the earth is full of thy glory.",
-        "Holy art thou, O Yahweh, all the earth is full of my glory.",
         "Holy art thou, O Yahweh, all an earth is full of thy glory.",
         "Holy art thou, O Yahweh, all the earth is full of his glory."
       ],
@@ -2205,10 +2205,10 @@
       "rungLabel": "Fill in",
       "type": "translate-phrase",
       "prompt": "Fill in the missing word: Holy art thou, O Yahweh, all the earth is full of thy glory.",
-      "stimulus": "＿＿＿ אַתָּה יְהוָה מָלְאָה כָל־הָאָרֶץ כְּבוֹדֶךָ",
+      "stimulus": "קָדוֹשׁ אַתָּה יְהוָה מָלְאָה ＿＿＿ כְּבוֹדֶךָ",
       "stimulusIsScript": true,
       "accepted": [
-        "קָדוֹשׁ"
+        "כָל־הָאָרֶץ"
       ],
       "answerIsScript": true,
       "block": "s22",
@@ -2264,8 +2264,8 @@
       "prompt": "Is this the right translation?",
       "stimulus": "שָׂבַעְתִּי עוֹלוֹת וְדַם פָּרִים לֹא חָפָצְתִּי",
       "stimulusIsScript": true,
-      "statement": "I am sated with burnt-offerings, and in the blood of oxen I delight not.",
-      "answer": true,
+      "statement": "I am sated with burnt-offerings, and in the blood of oxen I delight.",
+      "answer": false,
       "expected": "I am sated with burnt-offerings, and in the blood of oxen I delight not.",
       "block": "s22",
       "blockLabel": "Davidson §22",
@@ -2282,9 +2282,9 @@
       "stimulusIsScript": true,
       "options": [
         "I am sated with burnt-offerings, and in the blood of oxen I delight not.",
-        "I am sated with burnt-offerings, and from the blood of oxen I delight not.",
         "I am sated with burnt-offerings, and in a blood of oxen I delight not.",
-        "I am sated with burnt-offerings, and in the blood of oxen we delight not."
+        "We are sated with burnt-offerings, and in the blood of oxen I delight not.",
+        "I am sated with burnt-offerings, and in the blood of oxen I delight."
       ],
       "answer": "I am sated with burnt-offerings, and in the blood of oxen I delight not.",
       "optionIsScript": false,
@@ -2590,7 +2590,7 @@
       "prompt": "Is this the right translation?",
       "stimulus": "אֶת־הָאֱלֹהִים אֲשֶׁר עָשָׂה אֶת־הַשָּׁמַיִם וְאֶת־הָאָרֶץ אֲנִי יָרֵא",
       "stimulusIsScript": true,
-      "statement": "The God who made the heavens and the earth we (am) fearing.",
+      "statement": "The God who made the heavens and the earth we (are) fearing.",
       "answer": false,
       "expected": "The God who made the heavens and the earth I (am) fearing.",
       "block": "s22",
@@ -2607,10 +2607,10 @@
       "stimulus": "אֶת־הָאֱלֹהִים אֲשֶׁר עָשָׂה אֶת־הַשָּׁמַיִם וְאֶת־הָאָרֶץ אֲנִי יָרֵא",
       "stimulusIsScript": true,
       "options": [
-        "The God who made the heavens and the earth they (am) fearing.",
+        "The God who made the heavens and the earth they (are) fearing.",
         "The God who made the heavens and the earth I (am) fearing.",
         "A God who made the heavens and the earth I (am) fearing.",
-        "The God who made the heavens and the earth we (am) fearing."
+        "The God who made the heavens and the earth we (are) fearing."
       ],
       "answer": "The God who made the heavens and the earth I (am) fearing.",
       "optionIsScript": false,
@@ -2785,9 +2785,9 @@
       "stimulus": "קָטֹנְתְּ",
       "stimulusIsScript": true,
       "options": [
-        "Holy art thou, O Yahweh, all the earth is full of thy glory.",
-        "Nigh art thou, O Yahweh, and all thy commandments are truth, my ringing cry shall come near before thee.",
-        "The memory of the righteous is blessed, but the name of the wicked shall rot.",
+        "I am little.",
+        "She is little.",
+        "In the time of Solomon's old age his heart was not perfect with Yahweh his God, like the heart of David.",
         "Thou art little."
       ],
       "answer": "Thou art little.",
@@ -2931,7 +2931,7 @@
       "prompt": "Is this the right translation?",
       "stimulus": "לֹא יָכְלוּ לִרְדֹּף אַחֲרָי",
       "stimulusIsScript": true,
-      "statement": "They are not able to pursue after us.",
+      "statement": "We are not able to pursue after me.",
       "answer": false,
       "expected": "They are not able to pursue after me.",
       "block": "s22",
@@ -2948,8 +2948,8 @@
       "stimulus": "לֹא יָכְלוּ לִרְדֹּף אַחֲרָי",
       "stimulusIsScript": true,
       "options": [
-        "They are not able to pursue after him.",
         "They are not able to pursue after us.",
+        "We are not able to pursue after me.",
         "They are not able to pursue after me.",
         "They are able to pursue after me."
       ],
@@ -2966,10 +2966,10 @@
       "rungLabel": "Fill in",
       "type": "translate-phrase",
       "prompt": "Fill in the missing word: They are not able to pursue after me.",
-      "stimulus": "לֹא ＿＿＿ לִרְדֹּף אַחֲרָי",
+      "stimulus": "לֹא יָכְלוּ לִרְדֹּף ＿＿＿",
       "stimulusIsScript": true,
       "accepted": [
-        "יָכְלוּ"
+        "אַחֲרָי"
       ],
       "answerIsScript": true,
       "block": "s22",
@@ -3020,7 +3020,7 @@
       "prompt": "Is this the right translation?",
       "stimulus": "שָׁכָלְתִּי",
       "stimulusIsScript": true,
-      "statement": "How great art thou (O) my God, very deep are thy thoughts.",
+      "statement": "They are bereaved.",
       "answer": false,
       "expected": "I am bereaved.",
       "block": "s22",
@@ -3037,10 +3037,10 @@
       "stimulus": "שָׁכָלְתִּי",
       "stimulusIsScript": true,
       "options": [
-        "How great art thou (O) my God, very deep are thy thoughts.",
-        "Ye cannot keep my statutes with (בְּ) all your heart.",
+        "They are bereaved.",
+        "We are bereaved.",
         "I am bereaved.",
-        "Thou art little."
+        "The name of Yahweh will be great for ever."
       ],
       "answer": "I am bereaved.",
       "optionIsScript": false,
@@ -3110,9 +3110,9 @@
       "stimulusIsScript": true,
       "options": [
         "I know that thou shalt assuredly reign.",
+        "I know that she shalt assuredly reign.",
         "We know that thou shalt assuredly reign.",
-        "I cannot draw near.",
-        "They know that thou shalt assuredly reign."
+        "I know that I shalt assuredly reign."
       ],
       "answer": "I know that thou shalt assuredly reign.",
       "optionIsScript": false,
@@ -3270,8 +3270,8 @@
       "prompt": "Is this the right translation?",
       "stimulus": "מַה־גָּדַלְתָּ אֱלֹהַי עָמְקוּ מְאֹד מַחְשְׁבֹתֶיךָ",
       "stimulusIsScript": true,
-      "statement": "How great art thou (O) my God, very deep are my thoughts.",
-      "answer": false,
+      "statement": "How great art thou (O) my God, very deep are thy thoughts.",
+      "answer": true,
       "expected": "How great art thou (O) my God, very deep are thy thoughts.",
       "block": "s22",
       "blockLabel": "Davidson §22",
@@ -3287,10 +3287,10 @@
       "stimulus": "מַה־גָּדַלְתָּ אֱלֹהַי עָמְקוּ מְאֹד מַחְשְׁבֹתֶיךָ",
       "stimulusIsScript": true,
       "options": [
-        "How great art thou (O) my God, very deep are his thoughts.",
         "How great art thou (O) my God, very deep are thy thoughts.",
-        "How great art thou (O) my God, very deep are my thoughts.",
-        "How great art thou (O) my God, very deep are your thoughts."
+        "How great art thou (O) my God, very deep are his thoughts.",
+        "How great art thou (O) his God, very deep are thy thoughts.",
+        "How great art she (O) my God, very deep are thy thoughts."
       ],
       "answer": "How great art thou (O) my God, very deep are thy thoughts.",
       "optionIsScript": false,
@@ -3305,10 +3305,10 @@
       "rungLabel": "Fill in",
       "type": "translate-phrase",
       "prompt": "Fill in the missing word: How great art thou (O) my God, very deep are thy thoughts.",
-      "stimulus": "מַה־גָּדַלְתָּ אֱלֹהַי עָמְקוּ מְאֹד ＿＿＿",
+      "stimulus": "＿＿＿ אֱלֹהַי עָמְקוּ מְאֹד מַחְשְׁבֹתֶיךָ",
       "stimulusIsScript": true,
       "accepted": [
-        "מַחְשְׁבֹתֶיךָ"
+        "מַה־גָּדַלְתָּ"
       ],
       "answerIsScript": true,
       "block": "s22",
@@ -3359,7 +3359,7 @@
       "prompt": "Is this the right translation?",
       "stimulus": "אַל־תִּקְרַב הֲלֹם כִּי הַמָּקוֹם אֲשֶׁר אַתָּה עוֹמֵד עָלָיו אַדְמַת קֹדֶשׁ הוּא",
       "stimulusIsScript": true,
-      "statement": "Draw not nigh hither, for a place whereon thou art standing is holy ground.",
+      "statement": "Draw not nigh hither, for the place whereon she is standing is holy ground.",
       "answer": false,
       "expected": "Draw not nigh hither, for the place whereon thou art standing is holy ground.",
       "block": "s23",
@@ -3376,10 +3376,10 @@
       "stimulus": "אַל־תִּקְרַב הֲלֹם כִּי הַמָּקוֹם אֲשֶׁר אַתָּה עוֹמֵד עָלָיו אַדְמַת קֹדֶשׁ הוּא",
       "stimulusIsScript": true,
       "options": [
-        "Draw not nigh hither, for the place whereon thou art standing is holy ground.",
-        "Draw nigh hither, for the place whereon thou art standing is holy ground.",
+        "Draw not nigh hither, for the place whereon she is standing is holy ground.",
         "Draw not nigh hither, for a place whereon thou art standing is holy ground.",
-        "Abraham said to the Hittites, Sell me a grave, that I may bury my dead out of my sight."
+        "Draw not nigh hither, for the place whereon thou art standing is holy ground.",
+        "Draw nigh hither, for the place whereon thou art standing is holy ground."
       ],
       "answer": "Draw not nigh hither, for the place whereon thou art standing is holy ground.",
       "optionIsScript": false,

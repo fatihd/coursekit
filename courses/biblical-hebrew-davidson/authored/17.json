@@ -1324,10 +1324,10 @@
       "stimulus": "יוֹם גָּדוֹל",
       "stimulusIsScript": true,
       "options": [
-        "The morning",
         "The great day",
-        "The firmament is high.",
-        "A great day"
+        "(Some) great days",
+        "A great day",
+        "The great darkness"
       ],
       "answer": "A great day",
       "optionIsScript": false,
@@ -1342,10 +1342,10 @@
       "rungLabel": "Fill in",
       "type": "translate-phrase",
       "prompt": "Fill in the missing word: A great day",
-      "stimulus": "יוֹם ＿＿＿",
+      "stimulus": "＿＿＿ גָּדוֹל",
       "stimulusIsScript": true,
       "accepted": [
-        "גָּדוֹל"
+        "יוֹם"
       ],
       "answerIsScript": true,
       "block": "s11",
@@ -1863,10 +1863,10 @@
       "stimulus": "אַתָּה הוּא הָאֱלֹהִים",
       "stimulusIsScript": true,
       "options": [
-        "The sword",
         "Thou art God.",
-        "We (are) the people.",
-        "The good servant"
+        "The darkness is very great upon the earth and upon the waters.",
+        "She is God.",
+        "I am God."
       ],
       "answer": "Thou art God.",
       "optionIsScript": false,
@@ -1881,10 +1881,10 @@
       "rungLabel": "Fill in",
       "type": "translate-phrase",
       "prompt": "Fill in the missing word: Thou art God.",
-      "stimulus": "אַתָּה ＿＿＿ הָאֱלֹהִים",
+      "stimulus": "＿＿＿ הוּא הָאֱלֹהִים",
       "stimulusIsScript": true,
       "accepted": [
-        "הוּא"
+        "אַתָּה"
       ],
       "answerIsScript": true,
       "block": "s12",
@@ -1937,7 +1937,7 @@
       "prompt": "Is this the right translation?",
       "stimulus": "אַתְּ הָאִשָּׁה",
       "stimulusIsScript": true,
-      "statement": "Thou art a woman.",
+      "statement": "She is the woman.",
       "answer": false,
       "expected": "Thou art the woman.",
       "block": "s12",
@@ -1954,10 +1954,10 @@
       "stimulus": "אַתְּ הָאִשָּׁה",
       "stimulusIsScript": true,
       "options": [
-        "The good servant",
         "Thou art a woman.",
+        "She is the woman.",
         "Thou art the woman.",
-        "A tall and great people"
+        "I am the woman."
       ],
       "answer": "Thou art the woman.",
       "optionIsScript": false,
@@ -2315,10 +2315,10 @@
       "stimulus": "אֲנִי הָאִישׁ הֶחָכָם",
       "stimulusIsScript": true,
       "options": [
+        "We are the wise man.",
         "I am a wise man.",
-        "The hand",
         "I am the wise man.",
-        "The powerful and great people"
+        "They are the wise man."
       ],
       "answer": "I am the wise man.",
       "optionIsScript": false,
@@ -2751,7 +2751,7 @@
       "prompt": "Is this the right translation?",
       "stimulus": "אֲנִי הָאִישׁ",
       "stimulusIsScript": true,
-      "statement": "They (am) the man.",
+      "statement": "They (are) the man.",
       "answer": false,
       "expected": "I (am) the man.",
       "block": "s12",
@@ -2769,8 +2769,8 @@
       "stimulusIsScript": true,
       "options": [
         "I (am) the man.",
-        "They (am) the man.",
-        "We (am) the man.",
+        "They (are) the man.",
+        "We (are) the man.",
         "I (am) a man."
       ],
       "answer": "I (am) the man.",
@@ -2859,7 +2859,7 @@
       "options": [
         "We (are) a people.",
         "We (are) the people.",
-        "I (are) the people.",
+        "I (am) the people.",
         "They (are) the people."
       ],
       "answer": "We (are) the people.",
@@ -3126,9 +3126,9 @@
       "stimulusIsScript": true,
       "options": [
         "Thou (art) a man.",
-        "The heavens and the earth",
+        "I (am) the man.",
         "Thou (art) the man.",
-        "The sore disease"
+        "She (is) the man."
       ],
       "answer": "Thou (art) the man.",
       "optionIsScript": false,
@@ -3215,7 +3215,7 @@
       "stimulusIsScript": true,
       "options": [
         "They (are) heavens.",
-        "I (are) the heavens.",
+        "I (am) the heavens.",
         "We (are) the heavens.",
         "They (are) the heavens."
       ],
@@ -3286,8 +3286,8 @@
       "prompt": "Is this the right translation?",
       "stimulus": "זָכַר יְהוָה כִּי עָפָר אֲנָחְנוּ",
       "stimulusIsScript": true,
-      "statement": "Yahweh remembers that we are dust.",
-      "answer": true,
+      "statement": "Yahweh remembers that I am dust.",
+      "answer": false,
       "expected": "Yahweh remembers that we are dust.",
       "block": "s16",
       "blockLabel": "Davidson §16",
@@ -3304,10 +3304,10 @@
       "stimulus": "זָכַר יְהוָה כִּי עָפָר אֲנָחְנוּ",
       "stimulusIsScript": true,
       "options": [
-        "How high those palaces are!",
-        "Thou hast heard the cows.",
-        "Bread he ate and water he drank.",
-        "Yahweh remembers that we are dust."
+        "Yahweh remembers that we are dust.",
+        "Yahweh remembers that they are dust.",
+        "Who (are) these princes and heroes?",
+        "Yahweh remembers that I am dust."
       ],
       "answer": "Yahweh remembers that we are dust.",
       "optionIsScript": false,

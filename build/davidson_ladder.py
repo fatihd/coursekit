@@ -37,7 +37,8 @@ POSS = {"my": ["thy", "his", "our"], "thy": ["my", "his", "your"], "his": ["her"
         "their": ["his", "our", "your"], "thine": ["my", "his", "their"]}
 DEMS = {"this": "that", "that": "this", "these": "those", "those": "these"}
 PREP_GROUPS = [{"in", "on", "upon", "at"}, {"to", "unto", "toward", "towards"}, {"from"}]
-SUBJ = {"i": ["we", "they"], "we": ["I", "they"], "they": ["we", "I"], "he": ["she"], "she": ["he"]}
+SUBJ = {"i": ["we", "they"], "we": ["I", "they"], "they": ["we", "I"], "he": ["she"], "she": ["he"],
+        "thou": ["I", "she"]}
 OBJ = {"me": ["him", "us"], "him": ["me", "them"], "us": ["them", "me"], "them": ["us", "him"],
        "thee": ["me", "him"]}
 AGREE = {"am", "is", "are", "was", "were", "have", "has", "hast", "hath", "art", "do", "does", "doth", "dost"}
@@ -203,6 +204,10 @@ def mutations(text: str) -> list[tuple[str, str]]:
             cand = text[:a2] + text[b:]
             if cand.lower() != text.lower():
                 out.append(("negation", re.sub(r"\s+", " ", cand)))
+        elif low in SUBJ and (be := following_be(text, b)):
+            for r in SUBJ[low]:
+                word = r[0].upper() + r[1:] if sentence_start(text, a) or r == "I" else r
+                out.append(("subject", text[:a] + word + " " + be[3] + BE[r.lower()] + text[be[1]:]))
         elif low in SUBJ and (low in {"he", "she"} or (nxt_low and nxt_low not in AGREE
                                                           and not re.search(r"(est|eth)$", nxt_low))):
             if low in {"i", "we", "they"} and i and toks[i - 1][2].lower() in {"to", "from", "with", "for", "by"}:
@@ -212,6 +217,7 @@ def mutations(text: str) -> list[tuple[str, str]]:
         elif low in OBJ:
             for r in OBJ[low]:
                 put(i, r, "object")
+    out += phrase_mutations(text)
     seen, uniq = set(), []
     for kind, cand in out:
         cand = re.sub(r"\s+", " ", cand).strip()
@@ -219,6 +225,72 @@ def mutations(text: str) -> list[tuple[str, str]]:
             seen.add(cand.lower())
             uniq.append((kind, cand))
     return uniq
+
+
+BE = {"i": "am", "we": "are", "they": "are", "you": "are", "he": "is", "she": "is", "it": "is", "thou": "art"}
+IRREGULAR = {"man": "men", "woman": "women", "ox": "oxen", "foot": "feet", "tooth": "teeth", "child": "children",
+             "wolf": "wolves", "calf": "calves", "loaf": "loaves", "leaf": "leaves", "knife": "knives", "half": "halves"}
+PHRASE = re.compile(r"(?:(A|An|The)\s+|\((Some|Two)\)\s+)?((?:[A-Za-z-]+\s+){0,2}[A-Za-z-]+)")
+
+
+def following_be(text: str, end: int) -> tuple[int, int, str, str] | None:
+    """The form of "to be" right after a subject (optionally in brackets): (start, end, word)."""
+    m = re.match(r"(\s*(?:\([a-z.]+\)\s*)?)(\(?)(am|is|are|art)\b", text[end:], re.I)
+    if not m:
+        return None
+    return end + m.start(3), end + m.end(3), m.group(3), m.group(2)
+
+
+def pluralize(word: str) -> str:
+    low = word.lower()
+    if low in IRREGULAR:
+        return IRREGULAR[low]
+    if re.search(r"[^aeiou]y$", low):
+        return word[:-1] + "ies"
+    if re.search(r"(s|x|ch|sh)$", low):
+        return word + "es"
+    return word + "s"
+
+
+def singularize(word: str) -> str:
+    low = word.lower()
+    for one, many in IRREGULAR.items():
+        if low == many:
+            return one
+    if low.endswith("ies"):
+        return word[:-3] + "y"
+    if re.search(r"(ss|x|ch|sh)es$", low):
+        return word[:-2]
+    if low.endswith("s") and not low.endswith("ss"):
+        return word[:-1]
+    return word
+
+
+def a_or_an(word: str) -> str:
+    return "An" if word[0].lower() in "aeiou" else "A"
+
+
+def phrase_mutations(text: str) -> list[tuple[str, str]]:
+    """Number and definiteness changes for a bare noun phrase ("A good man", "(Some) stars", "(Two) hands")."""
+    m = PHRASE.fullmatch(text.strip())
+    if not m or any(w.lower() in AGREE | FUNCTION | set(SUBJ) for w in m.group(3).split()):
+        return []
+    art, qty, words = m.group(1), m.group(2), m.group(3).split()
+    head, rest = words[-1], words[:-1]
+    out = []
+    if art in ("A", "An"):
+        many = rest + [pluralize(head)]
+        out += [("number", "(Some) " + " ".join(w.lower() for w in many)), ("article", "The " + " ".join(w.lower() for w in words))]
+    elif qty:
+        one = rest + [singularize(head)]
+        if one[-1] == head:
+            return [("article", "The " + " ".join(w.lower() for w in words))]
+        out.append(("number", a_or_an(one[0]) + " " + " ".join(w.lower() for w in one)))
+        out.append(("number", ("(Two) " if qty == "Some" else "(Some) ") + " ".join(w.lower() for w in words)))
+        out.append(("article", "The " + " ".join(w.lower() for w in words)))
+    elif art is None:
+        out.append(("article", "The " + " ".join(w.lower() for w in words)))
+    return out
 
 
 def pick_distractors(text: str, rng: random.Random, fallback: list[str], n: int = 3) -> list[str]:

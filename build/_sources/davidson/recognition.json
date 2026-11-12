@@ -1,0 +1,75 @@
+{
+  "note": "Recognition questions for the script units that have no Davidson exercises (6, 9-12), written for this course from the lesson and the Davidson section in `section` (grammar page `page`, linked as the scan). Each question becomes rung 1 (true/false: `claim` with the answer or the first wrong option) and rung 2 (choose among `answer` + `wrong`); a question with `typed` also gets rung 3 (type the answer; `pointing: true` checks vowel points). `script` marks Hebrew options. No transliteration. Read by build/exwb_to_authored.py.",
+  "units": {
+    "6": {"section": 4, "page": 19, "questions": [
+      {"stimulus": "קוֹל", "prompt": "Which letter in this word is a vowel letter?", "claim": "The vowel letter in this word is {x}.", "script": true, "answer": "ו", "wrong": ["ל", "ק"]},
+      {"stimulus": "שִׁיר", "prompt": "Which letter in this word is a vowel letter?", "claim": "The vowel letter in this word is {x}.", "script": true, "answer": "י", "wrong": ["ר", "ש"]},
+      {"stimulus": "גָּדוֹל", "prompt": "Which letter in this word is a vowel letter?", "claim": "The vowel letter in this word is {x}.", "script": true, "answer": "ו", "wrong": ["ד", "ל"]},
+      {"stimulus": "חֵיק", "prompt": "Which letter in this word is a vowel letter?", "claim": "The vowel letter in this word is {x}.", "script": true, "answer": "י", "wrong": ["ח", "ק"]},
+      {"stimulus": "קֹל", "prompt": "Is this spelling full or defective?", "claim": "This spelling is {x}.", "answer": "defective (no vowel letter)", "wrong": ["full (with its vowel letter)"],
+       "typed": {"prompt": "Write this word in full spelling, with its vowel letter", "accepted": ["קוֹל"]}},
+      {"stimulus": "חֵק", "prompt": "Is this spelling full or defective?", "claim": "This spelling is {x}.", "answer": "defective (no vowel letter)", "wrong": ["full (with its vowel letter)"],
+       "typed": {"prompt": "Write this word in full spelling, with its vowel letter", "accepted": ["חֵיק"]}},
+      {"stimulus": "שִׁרִים", "prompt": "Is this spelling full or defective?", "claim": "This spelling is {x}.", "answer": "defective (no vowel letter)", "wrong": ["full (with its vowel letter)"],
+       "typed": {"prompt": "Write this word in full spelling, with its vowel letter", "accepted": ["שִׁירִים"]}},
+      {"stimulus": "גָּדוֹל", "prompt": "Is this spelling full or defective?", "claim": "This spelling is {x}.", "answer": "full (with its vowel letter)", "wrong": ["defective (no vowel letter)"]},
+      {"stimulus": "קוֹל", "prompt": "How many vowels does this word have?", "claim": "This word has {x}.", "answer": "one vowel, written twice (point and letter)", "wrong": ["two vowels", "three vowels"]}
+    ]},
+    "9": {"section": 9, "page": 36, "questions": [
+      {"stimulus": "אָמַר", "prompt": "Is the א in this word sounded or silent?", "claim": "The א here is {x}.", "answer": "sounded (a consonant)", "wrong": ["silent (quiescent)"]},
+      {"stimulus": "יֹאמַר", "prompt": "Is the א in this word sounded or silent?", "claim": "The א here is {x}.", "answer": "silent (quiescent)", "wrong": ["sounded (a consonant)"],
+       "typed": {"prompt": "Type the three root letters of this word (for looking it up)", "accepted": ["אמר"]}},
+      {"stimulus": "רֵאשִׁית", "prompt": "Is the א in this word sounded or silent?", "claim": "The א here is {x}.", "answer": "silent (quiescent)", "wrong": ["sounded (a consonant)"]},
+      {"stimulus": "מָצָא", "prompt": "Is the final א sounded or silent?", "claim": "The final א is {x}.", "answer": "silent (quiescent)", "wrong": ["sounded (a consonant)"],
+       "typed": {"prompt": "Type the three root letters of this word (for looking it up)", "accepted": ["מצא"]}},
+      {"stimulus": "לוֹ", "prompt": "Is the final ו a vowel letter or a consonant?", "claim": "The final ו is {x}.", "answer": "a vowel letter", "wrong": ["a consonant"]},
+      {"stimulus": "חַי", "prompt": "Is the final י a vowel letter or a consonant?", "claim": "The final י is {x}.", "answer": "a consonant", "wrong": ["a vowel letter"]},
+      {"stimulus": "יַחְדָּו", "prompt": "Is the final ו a vowel letter or a consonant?", "claim": "The final ו is {x}.", "answer": "a consonant", "wrong": ["a vowel letter"]},
+      {"stimulus": "לִי", "prompt": "Is the final י a vowel letter or a consonant?", "claim": "The final י is {x}.", "answer": "a vowel letter", "wrong": ["a consonant"]},
+      {"stimulus": "מָצָאתָ", "prompt": "Why does the ת have no dagesh lene?", "claim": "The ת has no dagesh lene because {x}.", "answer": "the silent א leaves a vowel before it", "wrong": ["ת never takes dagesh lene", "the word is in pause"],
+       "typed": {"prompt": "Type the three root letters of this word (for looking it up)", "accepted": ["מצא"]}},
+      {"stimulus": "בִּימֵי", "prompt": "Why is there no shewa under the י?", "claim": "There is no shewa under the י because {x}.", "answer": "a silent letter takes no shewa", "wrong": ["shewa is never written under י", "the shewa has been dropped before the dagesh"]}
+    ]},
+    "10": {"section": 10, "page": 38, "questions": [
+      {"stimulus": "אָרֶץ", "prompt": "Is this the pausal form or the contextual form?", "claim": "This is {x}.", "answer": "the pausal form (at a verse break)", "wrong": ["the contextual form (in the body of the verse)"],
+       "typed": {"prompt": "Type the contextual form (in the body of the verse), with vowel points", "accepted": ["אֶרֶץ"], "pointing": true}},
+      {"stimulus": "אֶרֶץ", "prompt": "Is this the pausal form or the contextual form?", "claim": "This is {x}.", "answer": "the contextual form (in the body of the verse)", "wrong": ["the pausal form (at a verse break)"],
+       "typed": {"prompt": "Type the pausal form (at a verse break), with vowel points", "accepted": ["אָרֶץ"], "pointing": true}},
+      {"stimulus": "מָיִם", "prompt": "Is this the pausal form or the contextual form?", "claim": "This is {x}.", "answer": "the pausal form (at a verse break)", "wrong": ["the contextual form (in the body of the verse)"],
+       "typed": {"prompt": "Type the contextual form (in the body of the verse), with vowel points", "accepted": ["מַיִם"], "pointing": true}},
+      {"stimulus": "לַיְלָה", "prompt": "Is this the pausal form or the contextual form?", "claim": "This is {x}.", "answer": "the contextual form (in the body of the verse)", "wrong": ["the pausal form (at a verse break)"],
+       "typed": {"prompt": "Type the pausal form (at a verse break), with vowel points", "accepted": ["לָיְלָה"], "pointing": true}},
+      {"stimulus": "אָתָּה", "prompt": "Is this the pausal form or the contextual form?", "claim": "This is {x}.", "answer": "the pausal form (at a verse break)", "wrong": ["the contextual form (in the body of the verse)"],
+       "typed": {"prompt": "Type the contextual form (in the body of the verse), with vowel points", "accepted": ["אַתָּה"], "pointing": true}},
+      {"stimulus": "כֶּסֶף", "prompt": "Is this the pausal form or the contextual form?", "claim": "This is {x}.", "answer": "the contextual form (in the body of the verse)", "wrong": ["the pausal form (at a verse break)"],
+       "typed": {"prompt": "Type the pausal form (at a verse break), with vowel points", "accepted": ["כָּסֶף"], "pointing": true}},
+      {"stimulus": "מָיִם", "prompt": "This is מַיִם (water) in pause. What has changed?", "claim": "In pause, {x}.", "answer": "the stressed vowel has lengthened", "wrong": ["a vocal shewa has become a full vowel", "the consonants have changed"]},
+      {"stimulus": "קָטָלָה", "prompt": "This is קָטְלָה (she killed) in pause. What has changed?", "claim": "In pause, {x}.", "answer": "a vocal shewa has become a full, stressed vowel", "wrong": ["the stressed vowel has lengthened", "the consonants have changed"]},
+      {"stimulus": "אָתָּה", "prompt": "This is אַתָּה (you) in pause. What has changed?", "claim": "In pause, {x}.", "answer": "the stress has moved back to the first syllable, which has lengthened", "wrong": ["a vocal shewa has become a full vowel", "the consonants have changed"]}
+    ]},
+    "11": {"section": 10, "page": 38, "questions": [
+      {"stimulus": "כָּל־הָעָם", "prompt": "Why is the vowel of כָּל short here?", "claim": "The vowel is short because {x}.", "answer": "maqqeph has taken away its accent", "wrong": ["the word is in pause", "metheg has shortened it"],
+       "typed": {"prompt": "Join כֹּל and הָעָם with maqqeph, with vowel points", "accepted": ["כָּל־הָעָם"], "pointing": true}},
+      {"stimulus": "כָּל־הָאָרֶץ", "prompt": "What does the raised hyphen do?", "claim": "The raised hyphen {x}.", "answer": "binds the words so that only the last keeps its accent", "wrong": ["marks a secondary stress", "marks a break in the verse"],
+       "typed": {"prompt": "Join כֹּל and הָאָרֶץ with maqqeph, with vowel points", "accepted": ["כָּל־הָאָרֶץ"], "pointing": true}},
+      {"stimulus": "אֶת־הָאָרֶץ", "prompt": "How many accents do these two words have?", "claim": "These two words have {x}.", "answer": "one, on the last word", "wrong": ["two, one on each word"]},
+      {"stimulus": "אֶת־הָאִישׁ", "prompt": "The object marker אֵת stands here as אֶת. Why?", "claim": "It stands as אֶת because {x}.", "answer": "joined by maqqeph, it lost its accent and its vowel shortened", "wrong": ["the article shortens the word before it", "the word is in pause"],
+       "typed": {"prompt": "Join אֵת and הָאִישׁ with maqqeph, with vowel points", "accepted": ["אֶת־הָאִישׁ"], "pointing": true}},
+      {"stimulus": "הָֽאָדָם", "prompt": "What does the small vertical stroke beside the first vowel mark?", "claim": "The stroke marks {x}.", "answer": "a secondary stress, so the vowel is not hurried over", "wrong": ["the main stress of the word", "that the word is joined to the next"]},
+      {"stimulus": "הָֽאָדָם", "prompt": "Does the metheg change the sound of the vowel?", "claim": "The metheg {x}.", "answer": "does not change it; it only keeps it from being slurred", "wrong": ["lengthens the vowel", "shortens the vowel"]}
+    ]},
+    "12": {"section": 10, "page": 38, "questions": [
+      {"stimulus": "יְהוָה", "prompt": "What is read aloud for this word?", "claim": "This word is read as {x}.", "script": true, "answer": "אֲדֹנָי", "wrong": ["אֱלֹהִים"],
+       "typed": {"prompt": "Type the word that is read in its place", "accepted": ["אֲדֹנָי"]}},
+      {"stimulus": "אֲדֹנָי יֱהוִה", "prompt": "What is read for the second word?", "claim": "The second word is read as {x}.", "script": true, "answer": "אֱלֹהִים", "wrong": ["אֲדֹנָי"],
+       "typed": {"prompt": "Type the word that is read for the second word", "accepted": ["אֱלֹהִים"]}},
+      {"stimulus": "יְהוָה", "prompt": "Whose vowels are written under these letters?", "claim": "The vowels are {x}.", "answer": "those of אֲדֹנָי (Lord)", "wrong": ["the name's own vowels", "those of אֱלֹהִים (God)"]},
+      {"stimulus": "הִוא", "prompt": "In the Pentateuch this word is written הוא but pointed הִוא. What is read?", "claim": "It is read {x}.", "script": true, "answer": "הִיא", "wrong": ["הוּא"],
+       "typed": {"prompt": "Type what is read (the Qere)", "accepted": ["הִיא"]}},
+      {"stimulus": "נַעֲרָ", "prompt": "In the Pentateuch \"girl\" is often written נער, pointed נַעֲרָ. What is read?", "claim": "It is read {x}.", "script": true, "answer": "נַעֲרָה", "wrong": ["נַעַר"],
+       "typed": {"prompt": "Type what is read (the Qere)", "accepted": ["נַעֲרָה"]}},
+      {"stimulus": "קְרֵי", "prompt": "Where are the consonants of the Qere (\"read\") written?", "claim": "They are written {x}.", "answer": "in the margin", "wrong": ["in the text, in place of the written letters", "under the written word"]},
+      {"stimulus": "כְּתִיב", "prompt": "Should you read the written letters (Kethib) with the vowels printed under them?", "claim": "{x}", "answer": "No: those vowels belong to the Qere in the margin", "wrong": ["Yes: letters and vowels belong together"]}
+    ]}
+  }
+}

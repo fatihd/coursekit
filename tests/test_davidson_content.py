@@ -17,7 +17,7 @@ class DavidsonContentTests(unittest.TestCase):
         ) as vocab_file:
             cls.items = list(csv.DictReader(vocab_file))
 
-    def test_noun_examples_sit_in_their_noun_units(self):
+    def test_noun_examples_are_taught_by_their_noun_units(self):
         expected = {
             "Strong Nouns (First Declension)": {"דָּבָר"},
             "Segholate Nouns (Second Declension)": {"מֶלֶךְ", "סֵפֶר"},
@@ -28,8 +28,20 @@ class DavidsonContentTests(unittest.TestCase):
         }
         for title, forms in expected.items():
             with self.subTest(unit=title):
-                rows = [item for item in self.items if int(item["unit"]) == UNITS[title]]
+                rows = [item for item in self.items if int(item["unit"]) <= UNITS[title]]
                 self.assertTrue(forms.issubset({row["scriptForm"] for row in rows}))
+
+    def test_phrase_words_are_taught_by_their_unit(self):
+        sys.path.insert(0, "build")
+        import rebalance_vocab as rv
+        phrases = json.loads(Path("build/_sources/davidson/indefinite-phrases.json").read_text(encoding="utf-8"))
+        for phrase in phrases["phrases"]:
+            for word in phrase["hebrew"][0].split():
+                with self.subTest(word=word):
+                    used = {rv.consonants(word)}
+                    taught = [int(row["unit"]) for row in self.items
+                              if rv.row_first_use(row, {phrase["unit"]: used}) is not None]
+                    self.assertTrue(taught and min(taught) <= phrase["unit"], (word, taught))
 
     def test_numerals_unit_teaches_the_core_numerals(self):
         core = {item["gloss"] for item in self.items

@@ -1,0 +1,510 @@
+{
+  "schema": "authored-exercises-v1.json",
+  "unit": 15,
+  "sources": {
+    "s12-B5i": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), adapted (article removed) from exercise §12 B 5; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n65/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n65.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n24/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n24.jpg",
+      "note": "Transcribed by hand from the scans and checked against the Key.",
+      "adaptedFrom": "davidson-s12#B5"
+    },
+    "s12-B14i": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), adapted (article removed) from exercise §12 B 14; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n65/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n65.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n24/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n24.jpg",
+      "note": "Transcribed by hand from the scans and checked against the Key.",
+      "adaptedFrom": "davidson-s12#B14"
+    },
+    "s12-A5i": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), adapted (article removed) from exercise §12 A 5; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n65/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n65.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n24/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n24.jpg",
+      "note": "Transcribed by hand from the scans and checked against the Key.",
+      "adaptedFrom": "davidson-s12#A5"
+    },
+    "s12-B6i": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), adapted (article removed) from exercise §12 B 6; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n65/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n65.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n24/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n24.jpg",
+      "note": "Transcribed by hand from the scans and checked against the Key.",
+      "adaptedFrom": "davidson-s12#B6"
+    },
+    "s12-A13i": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), adapted (article removed) from exercise §12 A 13; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n65/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n65.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n24/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n24.jpg",
+      "note": "Transcribed by hand from the scans and checked against the Key.",
+      "adaptedFrom": "davidson-s12#A13"
+    }
+  },
+  "items": [
+    {
+      "id": "s12-B5i.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אֲנִי אִישׁ",
+      "stimulusIsScript": true,
+      "statement": "I (am) the man.",
+      "answer": false,
+      "expected": "I (am) a man.",
+      "block": "s12",
+      "blockLabel": "Davidson §12",
+      "shape": "phrase",
+      "src": "s12-B5i"
+    },
+    {
+      "id": "s12-B5i.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אֲנִי אִישׁ",
+      "stimulusIsScript": true,
+      "options": [
+        "I (am) the man.",
+        "We (are) a man.",
+        "They (are) a man.",
+        "I (am) a man."
+      ],
+      "answer": "I (am) a man.",
+      "optionIsScript": false,
+      "block": "s12",
+      "blockLabel": "Davidson §12",
+      "shape": "phrase",
+      "src": "s12-B5i"
+    },
+    {
+      "id": "s12-B5i.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: I (am) a man.",
+      "stimulus": "＿＿＿ אִישׁ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֲנִי"
+      ],
+      "answerIsScript": true,
+      "block": "s12",
+      "blockLabel": "Davidson §12",
+      "shape": "phrase",
+      "src": "s12-B5i"
+    },
+    {
+      "id": "s12-B5i.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "אֲנִי אִישׁ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "I am a man.",
+        "I a man."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s12",
+      "blockLabel": "Davidson §12",
+      "shape": "phrase",
+      "src": "s12-B5i"
+    },
+    {
+      "id": "s12-B5i.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "I (am) a man.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֲנִי אִישׁ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s12",
+      "blockLabel": "Davidson §12",
+      "shape": "phrase",
+      "src": "s12-B5i"
+    },
+    {
+      "id": "s12-B14i.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אַתָּה אִישׁ",
+      "stimulusIsScript": true,
+      "statement": "Thou (art) a man.",
+      "answer": true,
+      "expected": "Thou (art) a man.",
+      "block": "s12",
+      "blockLabel": "Davidson §12",
+      "shape": "phrase",
+      "src": "s12-B14i"
+    },
+    {
+      "id": "s12-B14i.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אַתָּה אִישׁ",
+      "stimulusIsScript": true,
+      "options": [
+        "Thou (art) a man.",
+        "She (is) a man.",
+        "Thou (art) the man.",
+        "I (am) a man."
+      ],
+      "answer": "Thou (art) a man.",
+      "optionIsScript": false,
+      "block": "s12",
+      "blockLabel": "Davidson §12",
+      "shape": "phrase",
+      "src": "s12-B14i"
+    },
+    {
+      "id": "s12-B14i.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Thou (art) a man.",
+      "stimulus": "＿＿＿ אִישׁ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אַתָּה"
+      ],
+      "answerIsScript": true,
+      "block": "s12",
+      "blockLabel": "Davidson §12",
+      "shape": "phrase",
+      "src": "s12-B14i"
+    },
+    {
+      "id": "s12-B14i.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "אַתָּה אִישׁ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Thou art a man.",
+        "You are a man.",
+        "Thou a man.",
+        "You a man."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s12",
+      "blockLabel": "Davidson §12",
+      "shape": "phrase",
+      "src": "s12-B14i"
+    },
+    {
+      "id": "s12-B14i.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Thou (art) a man.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אַתָּה אִישׁ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s12",
+      "blockLabel": "Davidson §12",
+      "shape": "phrase",
+      "src": "s12-B14i"
+    },
+    {
+      "id": "s12-A5i.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אַתְּ אִשָּׁה",
+      "stimulusIsScript": true,
+      "statement": "Thou (fem.) art a woman.",
+      "answer": true,
+      "expected": "Thou (fem.) art a woman.",
+      "block": "s12",
+      "blockLabel": "Davidson §12",
+      "shape": "phrase",
+      "src": "s12-A5i"
+    },
+    {
+      "id": "s12-A5i.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אַתְּ אִשָּׁה",
+      "stimulusIsScript": true,
+      "options": [
+        "I am a woman.",
+        "She is a woman.",
+        "Thou (fem.) art a woman.",
+        "Thou (fem.) art the woman."
+      ],
+      "answer": "Thou (fem.) art a woman.",
+      "optionIsScript": false,
+      "block": "s12",
+      "blockLabel": "Davidson §12",
+      "shape": "phrase",
+      "src": "s12-A5i"
+    },
+    {
+      "id": "s12-A5i.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Thou (fem.) art a woman.",
+      "stimulus": "＿＿＿ אִשָּׁה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אַתְּ"
+      ],
+      "answerIsScript": true,
+      "block": "s12",
+      "blockLabel": "Davidson §12",
+      "shape": "phrase",
+      "src": "s12-A5i"
+    },
+    {
+      "id": "s12-A5i.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "אַתְּ אִשָּׁה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Thou art a woman.",
+        "You are a woman."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s12",
+      "blockLabel": "Davidson §12",
+      "shape": "phrase",
+      "src": "s12-A5i"
+    },
+    {
+      "id": "s12-A5i.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Thou (fem.) art a woman.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אַתְּ אִשָּׁה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s12",
+      "blockLabel": "Davidson §12",
+      "shape": "phrase",
+      "src": "s12-A5i"
+    },
+    {
+      "id": "s12-B6i.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אֲנַחְנוּ עַם",
+      "stimulusIsScript": true,
+      "statement": "We (are) a people.",
+      "answer": true,
+      "expected": "We (are) a people.",
+      "block": "s12",
+      "blockLabel": "Davidson §12",
+      "shape": "phrase",
+      "src": "s12-B6i"
+    },
+    {
+      "id": "s12-B6i.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אֲנַחְנוּ עַם",
+      "stimulusIsScript": true,
+      "options": [
+        "We (are) a people.",
+        "I (am) a people.",
+        "We (are) the people.",
+        "They (are) a people."
+      ],
+      "answer": "We (are) a people.",
+      "optionIsScript": false,
+      "block": "s12",
+      "blockLabel": "Davidson §12",
+      "shape": "phrase",
+      "src": "s12-B6i"
+    },
+    {
+      "id": "s12-B6i.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: We (are) a people.",
+      "stimulus": "＿＿＿ עַם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֲנַחְנוּ"
+      ],
+      "answerIsScript": true,
+      "block": "s12",
+      "blockLabel": "Davidson §12",
+      "shape": "phrase",
+      "src": "s12-B6i"
+    },
+    {
+      "id": "s12-B6i.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "אֲנַחְנוּ עַם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "We are a people.",
+        "We a people."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s12",
+      "blockLabel": "Davidson §12",
+      "shape": "phrase",
+      "src": "s12-B6i"
+    },
+    {
+      "id": "s12-B6i.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "We (are) a people.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֲנַחְנוּ עַם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s12",
+      "blockLabel": "Davidson §12",
+      "shape": "phrase",
+      "src": "s12-B6i"
+    },
+    {
+      "id": "s12-A13i.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אֲנִי אִישׁ חָכָם",
+      "stimulusIsScript": true,
+      "statement": "I (am) a wise man.",
+      "answer": true,
+      "expected": "I (am) a wise man.",
+      "block": "s12",
+      "blockLabel": "Davidson §12",
+      "shape": "phrase",
+      "src": "s12-A13i"
+    },
+    {
+      "id": "s12-A13i.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אֲנִי אִישׁ חָכָם",
+      "stimulusIsScript": true,
+      "options": [
+        "I (am) a wise man.",
+        "They (are) a wise man.",
+        "We (are) a wise man.",
+        "I (am) the wise man."
+      ],
+      "answer": "I (am) a wise man.",
+      "optionIsScript": false,
+      "block": "s12",
+      "blockLabel": "Davidson §12",
+      "shape": "phrase",
+      "src": "s12-A13i"
+    },
+    {
+      "id": "s12-A13i.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: I (am) a wise man.",
+      "stimulus": "＿＿＿ אִישׁ חָכָם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֲנִי"
+      ],
+      "answerIsScript": true,
+      "block": "s12",
+      "blockLabel": "Davidson §12",
+      "shape": "phrase",
+      "src": "s12-A13i"
+    },
+    {
+      "id": "s12-A13i.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "אֲנִי אִישׁ חָכָם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "I am a wise man.",
+        "I a wise man."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s12",
+      "blockLabel": "Davidson §12",
+      "shape": "phrase",
+      "src": "s12-A13i"
+    },
+    {
+      "id": "s12-A13i.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "I (am) a wise man.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֲנִי אִישׁ חָכָם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s12",
+      "blockLabel": "Davidson §12",
+      "shape": "phrase",
+      "src": "s12-A13i"
+    }
+  ]
+}

@@ -1,0 +1,461 @@
+{
+  "schema": "authored-exercises-v1.json",
+  "unit": 9,
+  "sources": {
+    "r09-1": {
+      "citation": "Written for this course on Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), §9",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n55/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n55.jpg"
+    },
+    "r09-2": {
+      "citation": "Written for this course on Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), §9",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n55/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n55.jpg"
+    },
+    "r09-3": {
+      "citation": "Written for this course on Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), §9",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n55/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n55.jpg"
+    },
+    "r09-4": {
+      "citation": "Written for this course on Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), §9",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n55/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n55.jpg"
+    },
+    "r09-5": {
+      "citation": "Written for this course on Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), §9",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n55/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n55.jpg"
+    },
+    "r09-6": {
+      "citation": "Written for this course on Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), §9",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n55/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n55.jpg"
+    },
+    "r09-7": {
+      "citation": "Written for this course on Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), §9",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n55/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n55.jpg"
+    },
+    "r09-8": {
+      "citation": "Written for this course on Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), §9",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n55/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n55.jpg"
+    },
+    "r09-9": {
+      "citation": "Written for this course on Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), §9",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n55/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n55.jpg"
+    },
+    "r09-10": {
+      "citation": "Written for this course on Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), §9",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n55/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n55.jpg"
+    }
+  },
+  "items": [
+    {
+      "id": "r09-1.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "אָמַר",
+      "stimulusIsScript": true,
+      "statement": "The א here is silent (quiescent).",
+      "answer": false,
+      "expected": "The א here is sounded (a consonant).",
+      "block": "r09",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r09-1"
+    },
+    {
+      "id": "r09-1.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Is the א in this word sounded or silent?",
+      "stimulus": "אָמַר",
+      "stimulusIsScript": true,
+      "options": [
+        "sounded (a consonant)",
+        "silent (quiescent)"
+      ],
+      "answer": "sounded (a consonant)",
+      "optionIsScript": false,
+      "block": "r09",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r09-1"
+    },
+    {
+      "id": "r09-2.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "יֹאמַר",
+      "stimulusIsScript": true,
+      "statement": "The א here is silent (quiescent).",
+      "answer": true,
+      "expected": "The א here is silent (quiescent).",
+      "block": "r09",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r09-2"
+    },
+    {
+      "id": "r09-2.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Is the א in this word sounded or silent?",
+      "stimulus": "יֹאמַר",
+      "stimulusIsScript": true,
+      "options": [
+        "sounded (a consonant)",
+        "silent (quiescent)"
+      ],
+      "answer": "silent (quiescent)",
+      "optionIsScript": false,
+      "block": "r09",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r09-2"
+    },
+    {
+      "id": "r09-2.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Type the three root letters of this word (for looking it up)",
+      "stimulus": "יֹאמַר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אמר"
+      ],
+      "answerIsScript": true,
+      "block": "r09",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r09-2"
+    },
+    {
+      "id": "r09-3.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "רֵאשִׁית",
+      "stimulusIsScript": true,
+      "statement": "The א here is silent (quiescent).",
+      "answer": true,
+      "expected": "The א here is silent (quiescent).",
+      "block": "r09",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r09-3"
+    },
+    {
+      "id": "r09-3.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Is the א in this word sounded or silent?",
+      "stimulus": "רֵאשִׁית",
+      "stimulusIsScript": true,
+      "options": [
+        "silent (quiescent)",
+        "sounded (a consonant)"
+      ],
+      "answer": "silent (quiescent)",
+      "optionIsScript": false,
+      "block": "r09",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r09-3"
+    },
+    {
+      "id": "r09-4.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "מָצָא",
+      "stimulusIsScript": true,
+      "statement": "The final א is silent (quiescent).",
+      "answer": true,
+      "expected": "The final א is silent (quiescent).",
+      "block": "r09",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r09-4"
+    },
+    {
+      "id": "r09-4.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Is the final א sounded or silent?",
+      "stimulus": "מָצָא",
+      "stimulusIsScript": true,
+      "options": [
+        "silent (quiescent)",
+        "sounded (a consonant)"
+      ],
+      "answer": "silent (quiescent)",
+      "optionIsScript": false,
+      "block": "r09",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r09-4"
+    },
+    {
+      "id": "r09-4.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Type the three root letters of this word (for looking it up)",
+      "stimulus": "מָצָא",
+      "stimulusIsScript": true,
+      "accepted": [
+        "מצא"
+      ],
+      "answerIsScript": true,
+      "block": "r09",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r09-4"
+    },
+    {
+      "id": "r09-5.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "לוֹ",
+      "stimulusIsScript": true,
+      "statement": "The final ו is a consonant.",
+      "answer": false,
+      "expected": "The final ו is a vowel letter.",
+      "block": "r09",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r09-5"
+    },
+    {
+      "id": "r09-5.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Is the final ו a vowel letter or a consonant?",
+      "stimulus": "לוֹ",
+      "stimulusIsScript": true,
+      "options": [
+        "a consonant",
+        "a vowel letter"
+      ],
+      "answer": "a vowel letter",
+      "optionIsScript": false,
+      "block": "r09",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r09-5"
+    },
+    {
+      "id": "r09-6.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "חַי",
+      "stimulusIsScript": true,
+      "statement": "The final י is a vowel letter.",
+      "answer": false,
+      "expected": "The final י is a consonant.",
+      "block": "r09",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r09-6"
+    },
+    {
+      "id": "r09-6.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Is the final י a vowel letter or a consonant?",
+      "stimulus": "חַי",
+      "stimulusIsScript": true,
+      "options": [
+        "a consonant",
+        "a vowel letter"
+      ],
+      "answer": "a consonant",
+      "optionIsScript": false,
+      "block": "r09",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r09-6"
+    },
+    {
+      "id": "r09-7.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "יַחְדָּו",
+      "stimulusIsScript": true,
+      "statement": "The final ו is a vowel letter.",
+      "answer": false,
+      "expected": "The final ו is a consonant.",
+      "block": "r09",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r09-7"
+    },
+    {
+      "id": "r09-7.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Is the final ו a vowel letter or a consonant?",
+      "stimulus": "יַחְדָּו",
+      "stimulusIsScript": true,
+      "options": [
+        "a vowel letter",
+        "a consonant"
+      ],
+      "answer": "a consonant",
+      "optionIsScript": false,
+      "block": "r09",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r09-7"
+    },
+    {
+      "id": "r09-8.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "לִי",
+      "stimulusIsScript": true,
+      "statement": "The final י is a vowel letter.",
+      "answer": true,
+      "expected": "The final י is a vowel letter.",
+      "block": "r09",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r09-8"
+    },
+    {
+      "id": "r09-8.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Is the final י a vowel letter or a consonant?",
+      "stimulus": "לִי",
+      "stimulusIsScript": true,
+      "options": [
+        "a consonant",
+        "a vowel letter"
+      ],
+      "answer": "a vowel letter",
+      "optionIsScript": false,
+      "block": "r09",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r09-8"
+    },
+    {
+      "id": "r09-9.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "מָצָאתָ",
+      "stimulusIsScript": true,
+      "statement": "The ת has no dagesh lene because ת never takes dagesh lene.",
+      "answer": false,
+      "expected": "The ת has no dagesh lene because the silent א leaves a vowel before it.",
+      "block": "r09",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r09-9"
+    },
+    {
+      "id": "r09-9.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Why does the ת have no dagesh lene?",
+      "stimulus": "מָצָאתָ",
+      "stimulusIsScript": true,
+      "options": [
+        "the silent א leaves a vowel before it",
+        "ת never takes dagesh lene",
+        "the word is in pause"
+      ],
+      "answer": "the silent א leaves a vowel before it",
+      "optionIsScript": false,
+      "block": "r09",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r09-9"
+    },
+    {
+      "id": "r09-9.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Type the three root letters of this word (for looking it up)",
+      "stimulus": "מָצָאתָ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "מצא"
+      ],
+      "answerIsScript": true,
+      "block": "r09",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r09-9"
+    },
+    {
+      "id": "r09-10.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "בִּימֵי",
+      "stimulusIsScript": true,
+      "statement": "There is no shewa under the י because shewa is never written under י.",
+      "answer": false,
+      "expected": "There is no shewa under the י because a silent letter takes no shewa.",
+      "block": "r09",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r09-10"
+    },
+    {
+      "id": "r09-10.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Why is there no shewa under the י?",
+      "stimulus": "בִּימֵי",
+      "stimulusIsScript": true,
+      "options": [
+        "shewa is never written under י",
+        "a silent letter takes no shewa",
+        "the shewa has been dropped before the dagesh"
+      ],
+      "answer": "a silent letter takes no shewa",
+      "optionIsScript": false,
+      "block": "r09",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r09-10"
+    }
+  ]
+}

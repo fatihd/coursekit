@@ -241,21 +241,6 @@
       "category": "preposition"
     },
     {
-      "id": "he-dav-35-003",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 13,
-      "scriptForm": "אָמַר",
-      "transliteration": "ʼāmar",
-      "gloss": "he said",
-      "category": "verb",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
       "id": "he-dav-16-003",
       "language": "he",
       "kind": "lexeme",
@@ -267,15 +252,60 @@
       "category": "preposition"
     },
     {
-      "id": "he-dav-37-006",
+      "id": "he-dav-10-006",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 13,
-      "scriptForm": "שָׁמַע",
-      "transliteration": "šāmaʼ",
-      "gloss": "he heard",
-      "category": "verb",
+      "scriptForm": "יָד",
+      "transliteration": "yād",
+      "gloss": "hand",
+      "category": "noun",
+      "props": {
+        "gender": "f",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-41-001",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 13,
+      "scriptForm": "עַיִן",
+      "transliteration": "’ayin",
+      "gloss": "eye",
+      "category": "noun",
+      "props": {
+        "gender": "f",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-10-018",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 13,
+      "scriptForm": "עֶבֶד",
+      "transliteration": "ʼeḇeḏ",
+      "gloss": "servant",
+      "category": "noun",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-13-004",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 13,
+      "scriptForm": "רַע",
+      "transliteration": "ra’",
+      "gloss": "evil",
+      "category": "adjective",
       "props": {
         "gender": "m",
         "number": "s"
@@ -293,29 +323,14 @@
       "category": "particle"
     },
     {
-      "id": "he-dav-34-002",
+      "id": "he-dav-45-004",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 13,
-      "scriptForm": "עָמַד",
-      "transliteration": "ʼāmaḏ",
-      "gloss": "he stood",
-      "category": "verb",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-10-011",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 13,
-      "scriptForm": "שָׁמַיִם",
-      "transliteration": "šāmayim",
-      "gloss": "heavens",
+      "scriptForm": "מַיִם",
+      "transliteration": "mayim",
+      "gloss": "water",
       "category": "noun",
       "props": {
         "gender": "m",
@@ -323,44 +338,29 @@
       }
     },
     {
-      "id": "he-dav-10-019",
+      "id": "he-dav-43-002",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 13,
-      "scriptForm": "חָכְמָה",
-      "transliteration": "ḥoḵmāh",
-      "gloss": "wisdom",
+      "scriptForm": "הַר",
+      "transliteration": "har",
+      "gloss": "mountain",
       "category": "noun",
       "props": {
-        "gender": "f",
+        "gender": "m",
         "number": "s"
       }
     },
     {
-      "id": "he-dav-56-002",
+      "id": "he-dav-13-001",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 13,
-      "scriptForm": "אֱמֶת",
-      "transliteration": "ʼĕmeṯ",
-      "gloss": "truth",
-      "category": "noun",
-      "props": {
-        "gender": "f",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-13-011",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 13,
-      "scriptForm": "חָזָק",
-      "transliteration": "ḥāzāq",
-      "gloss": "strong",
+      "scriptForm": "גָּדוֹל",
+      "transliteration": "gādôl",
+      "gloss": "great",
       "category": "adjective",
       "props": {
         "gender": "m",
@@ -368,14 +368,104 @@
       }
     },
     {
-      "id": "he-dav-13-039",
+      "id": "he-dav-09-037",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 13,
-      "scriptForm": "רַךְ",
-      "transliteration": "raḵ",
-      "gloss": "tender",
+      "scriptForm": "חֶרֶב",
+      "transliteration": "ḥereḇ",
+      "gloss": "sword",
+      "category": "noun",
+      "props": {
+        "gender": "f",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-09-024",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 13,
+      "scriptForm": "יָם",
+      "transliteration": "yām",
+      "gloss": "sea",
+      "category": "noun",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-34-013",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 13,
+      "scriptForm": "עָבַד",
+      "transliteration": "ʼāḇaḏ",
+      "gloss": "he served",
+      "category": "verb",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-10-005",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 13,
+      "scriptForm": "אֶבֶן",
+      "transliteration": "’eḇen",
+      "gloss": "stone",
+      "category": "noun",
+      "props": {
+        "gender": "f",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-09-020",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 14,
+      "scriptForm": "לַיְלָה",
+      "transliteration": "layəlāh",
+      "gloss": "night",
+      "category": "noun",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-09-021",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 14,
+      "scriptForm": "בֹּקֶר",
+      "transliteration": "bōqer",
+      "gloss": "morning",
+      "category": "noun",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-13-040",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 14,
+      "scriptForm": "רָם",
+      "transliteration": "rām",
+      "gloss": "high; lofty",
       "category": "adjective",
       "props": {
         "gender": "m",
@@ -383,18 +473,213 @@
       }
     },
     {
-      "id": "he-dav-19-057",
+      "id": "he-dav-10-039",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
-      "unit": 13,
-      "scriptForm": "אַלְפַּיִם",
-      "transliteration": "ʼalpáyim",
-      "gloss": "two thousand",
-      "category": "numeral",
+      "unit": 14,
+      "scriptForm": "בָּקָר",
+      "transliteration": "bāqār",
+      "gloss": "cattle",
+      "category": "noun",
       "props": {
         "gender": "m",
-        "number": "d"
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-41-003",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 14,
+      "scriptForm": "אוֹר",
+      "transliteration": "ʼôr",
+      "gloss": "light",
+      "category": "noun",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-09-072",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 14,
+      "scriptForm": "חֲמוֹר",
+      "transliteration": "ḥămôr",
+      "gloss": "donkey",
+      "category": "noun",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-10-045",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 14,
+      "scriptForm": "שִׁיר",
+      "transliteration": "šîr",
+      "gloss": "song",
+      "category": "noun",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-09-044",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 14,
+      "scriptForm": "חֹשֶׁךְ",
+      "transliteration": "ḥōšeḵ",
+      "gloss": "darkness",
+      "category": "noun",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-10-084",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 14,
+      "scriptForm": "הֵיכָל",
+      "transliteration": "hêḵāl",
+      "gloss": "palace; temple",
+      "category": "noun",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-34-014",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 14,
+      "scriptForm": "חָרַב",
+      "transliteration": "ḥāraḇ",
+      "gloss": "he was desolate",
+      "category": "verb",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-13-029",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 14,
+      "scriptForm": "מָר",
+      "transliteration": "mār",
+      "gloss": "bitter",
+      "category": "adjective",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-09-090",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 14,
+      "scriptForm": "כּוֹכָב",
+      "transliteration": "kôḵāḇ",
+      "gloss": "star",
+      "category": "noun",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-10-068",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 14,
+      "scriptForm": "בְּאֵר",
+      "transliteration": "bəʼēr",
+      "gloss": "well",
+      "category": "noun",
+      "props": {
+        "gender": "f",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-10-086",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 14,
+      "scriptForm": "יְרֵכָה",
+      "transliteration": "yərēḵāh",
+      "gloss": "side; far part",
+      "category": "noun",
+      "props": {
+        "gender": "f",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-10-085",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 14,
+      "scriptForm": "פָּרָה",
+      "transliteration": "pārāh",
+      "gloss": "cow",
+      "category": "noun",
+      "props": {
+        "gender": "f",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-09-091",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 14,
+      "scriptForm": "רָקִיעַ",
+      "transliteration": "rāqîaʼ",
+      "gloss": "expanse",
+      "category": "noun",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-10-083",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 14,
+      "scriptForm": "זְאֵב",
+      "transliteration": "zəʼēḇ",
+      "gloss": "wolf",
+      "category": "noun",
+      "props": {
+        "gender": "m",
+        "number": "s"
       }
     },
     {
@@ -402,7 +687,7 @@
       "language": "he",
       "kind": "lexeme",
       "level": "A",
-      "unit": 14,
+      "unit": 15,
       "scriptForm": "אֵת",
       "transliteration": "ʼēt",
       "gloss": "object marker",
@@ -413,7 +698,7 @@
       "language": "he",
       "kind": "lexeme",
       "level": "A",
-      "unit": 14,
+      "unit": 15,
       "scriptForm": "עַל",
       "transliteration": "ʿal",
       "gloss": "upon",
@@ -424,136 +709,70 @@
       "language": "he",
       "kind": "lexeme",
       "level": "A",
-      "unit": 14,
+      "unit": 15,
       "scriptForm": "אֶל",
       "transliteration": "ʼel",
       "gloss": "to, toward",
       "category": "preposition"
     },
     {
-      "id": "he-dav-53-002",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 14,
-      "scriptForm": "אֲשֶׁר",
-      "transliteration": "ʼăšer",
-      "gloss": "who (relative)",
-      "category": "particle"
-    },
-    {
-      "id": "he-dav-51-025",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 14,
-      "scriptForm": "כֹּל",
-      "transliteration": "kōl",
-      "gloss": "all",
-      "category": "particle"
-    },
-    {
-      "id": "he-dav-51-003",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 14,
-      "scriptForm": "לֹא",
-      "transliteration": "lōʼ",
-      "gloss": "not",
-      "category": "adverb"
-    },
-    {
-      "id": "he-dav-53-001",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 14,
-      "scriptForm": "כִּי",
-      "transliteration": "kî",
-      "gloss": "that",
-      "category": "conjunction"
-    },
-    {
-      "id": "he-dav-44-004",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 14,
-      "scriptForm": "הָיָה",
-      "transliteration": "hāyāh",
-      "gloss": "he was",
-      "category": "verb",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-44-002",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 14,
-      "scriptForm": "עָשָׂה",
-      "transliteration": "ʼāśāh",
-      "gloss": "he made",
-      "category": "verb",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-40-004",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 14,
-      "scriptForm": "בָּא",
-      "transliteration": "bāʼ",
-      "gloss": "he came",
-      "category": "verb",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-18-010",
+      "id": "he-dav-43-001",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 15,
-      "scriptForm": "לִפְנֵי",
-      "transliteration": "lip̄ənê",
-      "gloss": "before",
-      "category": "preposition"
-    },
-    {
-      "id": "he-dav-52-001",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 15,
-      "scriptForm": "בֵּית",
-      "transliteration": "bēṯ",
-      "gloss": "house of",
-      "category": "noun"
-    },
-    {
-      "id": "he-dav-10-006",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 15,
-      "scriptForm": "יָד",
-      "transliteration": "yād",
-      "gloss": "hand",
+      "scriptForm": "עָם",
+      "transliteration": "’ām",
+      "gloss": "people",
       "category": "noun",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-12-002",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 15,
+      "scriptForm": "אַתָּה",
+      "transliteration": "’attāh",
+      "gloss": "you (ms)",
+      "category": "pronoun",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-12-003",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 15,
+      "scriptForm": "אַתְּ",
+      "transliteration": "’att",
+      "gloss": "you (fs)",
+      "category": "pronoun",
       "props": {
         "gender": "f",
         "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-12-007",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 15,
+      "scriptForm": "אַתֶּם",
+      "transliteration": "’attem",
+      "gloss": "you (mp)",
+      "category": "pronoun",
+      "props": {
+        "gender": "m",
+        "number": "p"
       }
     },
     {
@@ -572,17 +791,28 @@
       }
     },
     {
-      "id": "he-dav-09-037",
+      "id": "he-dav-18-007",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 15,
-      "scriptForm": "חֶרֶב",
-      "transliteration": "ḥereḇ",
-      "gloss": "sword",
-      "category": "noun",
+      "scriptForm": "עִם",
+      "transliteration": "ʿim",
+      "gloss": "with",
+      "category": "preposition"
+    },
+    {
+      "id": "he-dav-12-001",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 15,
+      "scriptForm": "אֲנִי",
+      "transliteration": "’ănî",
+      "gloss": "I",
+      "category": "pronoun",
       "props": {
-        "gender": "f",
+        "gender": "c",
         "number": "s"
       }
     },
@@ -602,79 +832,56 @@
       }
     },
     {
-      "id": "he-dav-10-005",
+      "id": "he-dav-13-003",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 15,
-      "scriptForm": "אֶבֶן",
-      "transliteration": "’eḇen",
-      "gloss": "stone",
-      "category": "noun",
-      "props": {
-        "gender": "f",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-09-020",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 15,
-      "scriptForm": "לַיְלָה",
-      "transliteration": "layəlāh",
-      "gloss": "night",
-      "category": "noun",
+      "scriptForm": "חָכָם",
+      "transliteration": "ḥāḵām",
+      "gloss": "wise",
+      "category": "adjective",
       "props": {
         "gender": "m",
         "number": "s"
       }
     },
     {
-      "id": "he-dav-09-021",
+      "id": "he-dav-12-006",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 15,
-      "scriptForm": "בֹּקֶר",
-      "transliteration": "bōqer",
-      "gloss": "morning",
-      "category": "noun",
+      "scriptForm": "אֲנַחְנוּ",
+      "transliteration": "’ănaḥnû",
+      "gloss": "we",
+      "category": "pronoun",
       "props": {
-        "gender": "m",
-        "number": "s"
+        "gender": "c",
+        "number": "p"
       }
     },
     {
-      "id": "he-dav-10-039",
+      "id": "he-dav-53-002",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
-      "unit": 15,
-      "scriptForm": "בָּקָר",
-      "transliteration": "bāqār",
-      "gloss": "cattle",
-      "category": "noun",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
+      "unit": 16,
+      "scriptForm": "אֲשֶׁר",
+      "transliteration": "ʼăšer",
+      "gloss": "who (relative)",
+      "category": "particle"
     },
     {
-      "id": "he-dav-34-014",
+      "id": "he-dav-53-001",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
-      "unit": 15,
-      "scriptForm": "חָרַב",
-      "transliteration": "ḥāraḇ",
-      "gloss": "he was desolate",
-      "category": "verb",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
+      "unit": 16,
+      "scriptForm": "כִּי",
+      "transliteration": "kî",
+      "gloss": "that",
+      "category": "conjunction"
     },
     {
       "id": "he-dav-12-004",
@@ -707,107 +914,6 @@
       }
     },
     {
-      "id": "he-dav-12-002",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 16,
-      "scriptForm": "אַתָּה",
-      "transliteration": "’attāh",
-      "gloss": "you (ms)",
-      "category": "pronoun",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-12-003",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 16,
-      "scriptForm": "אַתְּ",
-      "transliteration": "’att",
-      "gloss": "you (fs)",
-      "category": "pronoun",
-      "props": {
-        "gender": "f",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-12-007",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 16,
-      "scriptForm": "אַתֶּם",
-      "transliteration": "’attem",
-      "gloss": "you (mp)",
-      "category": "pronoun",
-      "props": {
-        "gender": "m",
-        "number": "p"
-      }
-    },
-    {
-      "id": "he-dav-18-007",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 16,
-      "scriptForm": "עִם",
-      "transliteration": "ʿim",
-      "gloss": "with",
-      "category": "preposition"
-    },
-    {
-      "id": "he-dav-12-001",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 16,
-      "scriptForm": "אֲנִי",
-      "transliteration": "’ănî",
-      "gloss": "I",
-      "category": "pronoun",
-      "props": {
-        "gender": "c",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-10-018",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 16,
-      "scriptForm": "עֶבֶד",
-      "transliteration": "ʼeḇeḏ",
-      "gloss": "servant",
-      "category": "noun",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-13-004",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 16,
-      "scriptForm": "רַע",
-      "transliteration": "ra’",
-      "gloss": "evil",
-      "category": "adjective",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
       "id": "he-dav-12-008",
       "language": "he",
       "kind": "lexeme",
@@ -823,18 +929,18 @@
       }
     },
     {
-      "id": "he-dav-13-001",
+      "id": "he-dav-10-011",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 16,
-      "scriptForm": "גָּדוֹל",
-      "transliteration": "gādôl",
-      "gloss": "great",
-      "category": "adjective",
+      "scriptForm": "שָׁמַיִם",
+      "transliteration": "šāmayim",
+      "gloss": "heavens",
+      "category": "noun",
       "props": {
         "gender": "m",
-        "number": "s"
+        "number": "p"
       }
     },
     {
@@ -857,7 +963,7 @@
       "language": "he",
       "kind": "lexeme",
       "level": "A",
-      "unit": 17,
+      "unit": 16,
       "scriptForm": "זָהָב",
       "transliteration": "zāhāb",
       "gloss": "gold",
@@ -872,33 +978,18 @@
       "language": "he",
       "kind": "lexeme",
       "level": "A",
-      "unit": 17,
+      "unit": 16,
       "scriptForm": "מְאֹד",
       "transliteration": "məʼōḏ",
       "gloss": "very",
       "category": "adverb"
     },
     {
-      "id": "he-dav-34-013",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 17,
-      "scriptForm": "עָבַד",
-      "transliteration": "ʼāḇaḏ",
-      "gloss": "he served",
-      "category": "verb",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
       "id": "he-dav-21-004",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
-      "unit": 17,
+      "unit": 16,
       "scriptForm": "זָכַר",
       "transliteration": "zāḵar",
       "gloss": "he remembered",
@@ -913,7 +1004,7 @@
       "language": "he",
       "kind": "lexeme",
       "level": "A",
-      "unit": 17,
+      "unit": 16,
       "scriptForm": "רֵעַ",
       "transliteration": "rēaʼ",
       "gloss": "companion",
@@ -924,26 +1015,11 @@
       }
     },
     {
-      "id": "he-dav-13-003",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 17,
-      "scriptForm": "חָכָם",
-      "transliteration": "ḥāḵām",
-      "gloss": "wise",
-      "category": "adjective",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
       "id": "he-dav-09-058",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
-      "unit": 17,
+      "unit": 16,
       "scriptForm": "עֶרֶב",
       "transliteration": "ʼereḇ",
       "gloss": "evening",
@@ -954,26 +1030,11 @@
       }
     },
     {
-      "id": "he-dav-12-006",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 17,
-      "scriptForm": "אֲנַחְנוּ",
-      "transliteration": "’ănaḥnû",
-      "gloss": "we",
-      "category": "pronoun",
-      "props": {
-        "gender": "c",
-        "number": "p"
-      }
-    },
-    {
       "id": "he-dav-09-062",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
-      "unit": 17,
+      "unit": 16,
       "scriptForm": "עָפָר",
       "transliteration": "ʼāp̄ār",
       "gloss": "dust",
@@ -984,14 +1045,85 @@
       }
     },
     {
-      "id": "he-dav-09-044",
+      "id": "he-dav-51-003",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 17,
-      "scriptForm": "חֹשֶׁךְ",
-      "transliteration": "ḥōšeḵ",
-      "gloss": "darkness",
+      "scriptForm": "לֹא",
+      "transliteration": "lōʼ",
+      "gloss": "not",
+      "category": "adverb"
+    },
+    {
+      "id": "he-dav-44-004",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 17,
+      "scriptForm": "הָיָה",
+      "transliteration": "hāyāh",
+      "gloss": "he was",
+      "category": "verb",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-21-029",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 17,
+      "scriptForm": "דָּבַר",
+      "transliteration": "dāḇar",
+      "gloss": "he spoke (Qal)",
+      "category": "verb",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-34-010",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 17,
+      "scriptForm": "הָלַךְ",
+      "transliteration": "hālaḵ",
+      "gloss": "he walked",
+      "category": "verb",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-39-007",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 17,
+      "scriptForm": "יָלַד",
+      "transliteration": "yālaḏ",
+      "gloss": "he bore",
+      "category": "verb",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-17-003",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 17,
+      "scriptForm": "פֶּה",
+      "transliteration": "peh",
+      "gloss": "mouth",
       "category": "noun",
       "props": {
         "gender": "m",
@@ -999,15 +1131,150 @@
       }
     },
     {
-      "id": "he-dav-09-091",
+      "id": "he-dav-09-003",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 17,
-      "scriptForm": "רָקִיעַ",
-      "transliteration": "rāqîaʼ",
-      "gloss": "expanse",
+      "scriptForm": "נָבִיא",
+      "transliteration": "nābî’",
+      "gloss": "prophet",
       "category": "noun",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-18-002",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 17,
+      "scriptForm": "אֲדָמָה",
+      "transliteration": "ʼăḏāmāh",
+      "gloss": "ground",
+      "category": "noun",
+      "props": {
+        "gender": "f",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-56-001",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 17,
+      "scriptForm": "תּוֹרָה",
+      "transliteration": "tôrāh",
+      "gloss": "instruction",
+      "category": "noun",
+      "props": {
+        "gender": "f",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-21-010",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 17,
+      "scriptForm": "שָׁכַב",
+      "transliteration": "šāḵaḇ",
+      "gloss": "he lay down",
+      "category": "verb",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-13-008",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 17,
+      "scriptForm": "צַדִּיק",
+      "transliteration": "ṣaddîq",
+      "gloss": "righteous",
+      "category": "adjective",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-09-099",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 17,
+      "scriptForm": "שָׂפָה",
+      "transliteration": "śāp̄āh",
+      "gloss": "lip",
+      "category": "noun",
+      "props": {
+        "gender": "f",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-13-005",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 17,
+      "scriptForm": "קָדוֹשׁ",
+      "transliteration": "qādôš",
+      "gloss": "holy",
+      "category": "adjective",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-13-010",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 17,
+      "scriptForm": "יָשָׁר",
+      "transliteration": "yāšār",
+      "gloss": "upright",
+      "category": "adjective",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-35-003",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 18,
+      "scriptForm": "אָמַר",
+      "transliteration": "ʼāmar",
+      "gloss": "he said",
+      "category": "verb",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-44-002",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 18,
+      "scriptForm": "עָשָׂה",
+      "transliteration": "ʼāśāh",
+      "gloss": "he made",
+      "category": "verb",
       "props": {
         "gender": "m",
         "number": "s"
@@ -1029,138 +1296,15 @@
       }
     },
     {
-      "id": "he-dav-44-013",
+      "id": "he-dav-09-008",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 18,
-      "scriptForm": "רָאָה",
-      "transliteration": "rāʼāh",
-      "gloss": "he saw",
-      "category": "verb",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-15-003",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 18,
-      "scriptForm": "זֶה",
-      "transliteration": "zeh",
-      "gloss": "this (m)",
-      "category": "demonstrative",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-51-023",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 18,
-      "scriptForm": "מָה",
-      "transliteration": "māh",
-      "gloss": "what",
-      "category": "particle"
-    },
-    {
-      "id": "he-dav-15-005",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 18,
-      "scriptForm": "אֵלֶּה",
-      "transliteration": "’ēlleh",
-      "gloss": "these",
-      "category": "demonstrative",
-      "props": {
-        "gender": "c",
-        "number": "p"
-      }
-    },
-    {
-      "id": "he-dav-15-004",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 18,
-      "scriptForm": "זֹאת",
-      "transliteration": "zō’t",
-      "gloss": "this (f)",
-      "category": "demonstrative",
-      "props": {
-        "gender": "f",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-09-028",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 18,
-      "scriptForm": "רֹאשׁ",
-      "transliteration": "rōʼš",
-      "gloss": "head",
+      "scriptForm": "שֵׁם",
+      "transliteration": "šēm",
+      "gloss": "name",
       "category": "noun",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-51-024",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 18,
-      "scriptForm": "מִי",
-      "transliteration": "mî",
-      "gloss": "who?",
-      "category": "particle"
-    },
-    {
-      "id": "he-dav-21-017",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 18,
-      "scriptForm": "שָׁפַךְ",
-      "transliteration": "šāp̄aḵ",
-      "gloss": "he poured",
-      "category": "verb",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-18-012",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 19,
-      "scriptForm": "עַד",
-      "transliteration": "ʼaḏ",
-      "gloss": "until",
-      "category": "preposition"
-    },
-    {
-      "id": "he-dav-37-011",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 19,
-      "scriptForm": "לָקַח",
-      "transliteration": "lāqaḥ",
-      "gloss": "he took",
-      "category": "verb",
       "props": {
         "gender": "m",
         "number": "s"
@@ -1171,7 +1315,7 @@
       "language": "he",
       "kind": "lexeme",
       "level": "A",
-      "unit": 19,
+      "unit": 18,
       "scriptForm": "אָכַל",
       "transliteration": "ʼāḵal",
       "gloss": "he ate",
@@ -1180,6 +1324,144 @@
         "gender": "m",
         "number": "s"
       }
+    },
+    {
+      "id": "he-dav-21-013",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 18,
+      "scriptForm": "כָּבַד",
+      "transliteration": "kāḇaḏ",
+      "gloss": "he was heavy",
+      "category": "verb",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-13-033",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 18,
+      "scriptForm": "תָּמִים",
+      "transliteration": "tāmîm",
+      "gloss": "blameless",
+      "category": "adjective",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-51-002",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 18,
+      "scriptForm": "פֹּה",
+      "transliteration": "pōh",
+      "gloss": "here",
+      "category": "adverb"
+    },
+    {
+      "id": "he-dav-10-028",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 18,
+      "scriptForm": "בְּרָכָה",
+      "transliteration": "bərāḵāh",
+      "gloss": "blessing",
+      "category": "noun",
+      "props": {
+        "gender": "f",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-21-026",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 18,
+      "scriptForm": "קָצַר",
+      "transliteration": "qāṣar",
+      "gloss": "he reaped",
+      "category": "verb",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-13-036",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 18,
+      "scriptForm": "כָּבֵד",
+      "transliteration": "kāḇēḏ",
+      "gloss": "heavy",
+      "category": "adjective",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-10-001",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 18,
+      "scriptForm": "מַלְכָּה",
+      "transliteration": "malkāh",
+      "gloss": "queen",
+      "category": "noun",
+      "props": {
+        "gender": "f",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-09-121",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 18,
+      "scriptForm": "יֹשֶׁר",
+      "transliteration": "yōšer",
+      "gloss": "uprightness",
+      "category": "noun",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-51-001",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 19,
+      "scriptForm": "שָׁם",
+      "transliteration": "šām",
+      "gloss": "there",
+      "category": "adverb"
+    },
+    {
+      "id": "he-dav-51-018",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 19,
+      "scriptForm": "שָׁמָּה",
+      "transliteration": "šāmmāh",
+      "gloss": "thither",
+      "category": "adverb"
     },
     {
       "id": "he-dav-38-003",
@@ -1197,15 +1479,101 @@
       }
     },
     {
-      "id": "he-dav-10-014",
+      "id": "he-dav-40-001",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 19,
-      "scriptForm": "לֶחֶם",
-      "transliteration": "leḥem",
-      "gloss": "bread",
+      "scriptForm": "שָׂם",
+      "transliteration": "śām",
+      "gloss": "he placed",
+      "category": "verb",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-34-001",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 19,
+      "scriptForm": "עָבַר",
+      "transliteration": "ʼāḇar",
+      "gloss": "he passed over",
+      "category": "verb",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-10-009",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 19,
+      "scriptForm": "אָדָם",
+      "transliteration": "ʼādām",
+      "gloss": "man, human",
       "category": "noun",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-51-024",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 19,
+      "scriptForm": "מִי",
+      "transliteration": "mî",
+      "gloss": "who?",
+      "category": "particle"
+    },
+    {
+      "id": "he-dav-09-032",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 19,
+      "scriptForm": "שַׂר",
+      "transliteration": "śar",
+      "gloss": "prince",
+      "category": "noun",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-10-013",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 19,
+      "scriptForm": "דָּם",
+      "transliteration": "dām",
+      "gloss": "blood",
+      "category": "noun",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-21-003",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 19,
+      "scriptForm": "כָּתַב",
+      "transliteration": "kāṯaḇ",
+      "gloss": "he wrote",
+      "category": "verb",
       "props": {
         "gender": "m",
         "number": "s"
@@ -1227,264 +1595,14 @@
       }
     },
     {
-      "id": "he-dav-13-005",
+      "id": "he-dav-10-026",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 19,
-      "scriptForm": "קָדוֹשׁ",
-      "transliteration": "qādôš",
-      "gloss": "holy",
-      "category": "adjective",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-09-072",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 19,
-      "scriptForm": "חֲמוֹר",
-      "transliteration": "ḥămôr",
-      "gloss": "donkey",
-      "category": "noun",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-38-004",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 19,
-      "scriptForm": "בָּרָא",
-      "transliteration": "bārāʼ",
-      "gloss": "he created",
-      "category": "verb",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-18-004",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 20,
-      "scriptForm": "מִן",
-      "transliteration": "min",
-      "gloss": "from",
-      "category": "preposition"
-    },
-    {
-      "id": "he-dav-21-029",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 20,
-      "scriptForm": "דָּבַר",
-      "transliteration": "dāḇar",
-      "gloss": "he spoke (Qal)",
-      "category": "verb",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-39-008",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 20,
-      "scriptForm": "יָצָא",
-      "transliteration": "yāṣāʼ",
-      "gloss": "he went out",
-      "category": "verb",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-40-002",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 20,
-      "scriptForm": "שָׁב",
-      "transliteration": "šāḇ",
-      "gloss": "he returned",
-      "category": "verb",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-55-001",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 20,
-      "scriptForm": "אִם",
-      "transliteration": "ʾim",
-      "gloss": "if",
-      "category": "conjunction"
-    },
-    {
-      "id": "he-dav-44-006",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 20,
-      "scriptForm": "עָלָה",
-      "transliteration": "ʼālāh",
-      "gloss": "he went up",
-      "category": "verb",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-09-008",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 20,
-      "scriptForm": "שֵׁם",
-      "transliteration": "šēm",
-      "gloss": "name",
-      "category": "noun",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-37-005",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 20,
-      "scriptForm": "שָׁלַח",
-      "transliteration": "šālaḥ",
-      "gloss": "he sent",
-      "category": "verb",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-39-007",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 20,
-      "scriptForm": "יָלַד",
-      "transliteration": "yālaḏ",
-      "gloss": "he bore",
-      "category": "verb",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-54-002",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 21,
-      "scriptForm": "הִנֵּה",
-      "transliteration": "hinnēh",
-      "gloss": "behold",
-      "category": "particle"
-    },
-    {
-      "id": "he-dav-51-001",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 21,
-      "scriptForm": "שָׁם",
-      "transliteration": "šām",
-      "gloss": "there",
-      "category": "adverb"
-    },
-    {
-      "id": "he-dav-51-018",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 21,
-      "scriptForm": "שָׁמָּה",
-      "transliteration": "šāmmāh",
-      "gloss": "thither",
-      "category": "adverb"
-    },
-    {
-      "id": "he-dav-10-009",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 21,
-      "scriptForm": "אָדָם",
-      "transliteration": "ʼādām",
-      "gloss": "man, human",
-      "category": "noun",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-09-024",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 21,
-      "scriptForm": "יָם",
-      "transliteration": "yām",
-      "gloss": "sea",
-      "category": "noun",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-21-003",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 21,
-      "scriptForm": "כָּתַב",
-      "transliteration": "kāṯaḇ",
-      "gloss": "he wrote",
-      "category": "verb",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-09-070",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 21,
-      "scriptForm": "בְּהֵמָה",
-      "transliteration": "bəhēmāh",
-      "gloss": "beast",
+      "scriptForm": "מִצְוָה",
+      "transliteration": "miṣwāh",
+      "gloss": "commandment",
       "category": "noun",
       "props": {
         "gender": "f",
@@ -1496,7 +1614,7 @@
       "language": "he",
       "kind": "lexeme",
       "level": "A",
-      "unit": 21,
+      "unit": 19,
       "scriptForm": "סָפַר",
       "transliteration": "sāp̄ar",
       "gloss": "he counted",
@@ -1507,227 +1625,26 @@
       }
     },
     {
-      "id": "he-dav-56-006",
+      "id": "he-dav-51-025",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
-      "unit": 21,
-      "scriptForm": "יְשׁוּעָה",
-      "transliteration": "yəšûʼāh",
-      "gloss": "salvation",
-      "category": "noun",
-      "props": {
-        "gender": "f",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-09-106",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 21,
-      "scriptForm": "חֲלוֹם",
-      "transliteration": "ḥălôm",
-      "gloss": "dream",
-      "category": "noun",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-51-022",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 22,
-      "scriptForm": "אֵין",
-      "transliteration": "ʼên",
-      "gloss": "there is not",
+      "unit": 20,
+      "scriptForm": "כֹּל",
+      "transliteration": "kōl",
+      "gloss": "all",
       "category": "particle"
     },
     {
-      "id": "he-dav-51-013",
+      "id": "he-dav-37-011",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
-      "unit": 22,
-      "scriptForm": "לָכֵן",
-      "transliteration": "lāḵēn",
-      "gloss": "therefore",
-      "category": "adverb"
-    },
-    {
-      "id": "he-dav-15-001",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 22,
-      "scriptForm": "גַּם",
-      "transliteration": "gam",
-      "gloss": "also",
-      "category": "adverb"
-    },
-    {
-      "id": "he-dav-10-008",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 22,
-      "scriptForm": "נֶפֶשׁ",
-      "transliteration": "nep̄eš",
-      "gloss": "life",
-      "category": "noun",
-      "props": {
-        "gender": "f",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-51-008",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 22,
-      "scriptForm": "לָמָּה",
-      "transliteration": "lāmmāh",
-      "gloss": "why",
-      "category": "adverb"
-    },
-    {
-      "id": "he-dav-20-003",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 22,
-      "scriptForm": "אַל",
-      "transliteration": "ʼal",
-      "gloss": "not (with a command)",
-      "category": "particle"
-    },
-    {
-      "id": "he-dav-18-009",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 22,
-      "scriptForm": "אַחֲרֵי",
-      "transliteration": "ʼaḥărê",
-      "gloss": "after",
-      "category": "preposition"
-    },
-    {
-      "id": "he-dav-18-014",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 22,
-      "scriptForm": "אַחַר",
-      "transliteration": "ʼaḥar",
-      "gloss": "behind",
-      "category": "preposition"
-    },
-    {
-      "id": "he-dav-09-010",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 22,
-      "scriptForm": "דֶּרֶךְ",
-      "transliteration": "derek",
-      "gloss": "way",
-      "category": "noun",
-      "props": {
-        "gender": "f",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-38-002",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 22,
-      "scriptForm": "נָשָׂא",
-      "transliteration": "nāśāʼ",
-      "gloss": "he lifted",
+      "unit": 20,
+      "scriptForm": "לָקַח",
+      "transliteration": "lāqaḥ",
+      "gloss": "he took",
       "category": "verb",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-40-001",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 23,
-      "scriptForm": "שָׂם",
-      "transliteration": "śām",
-      "gloss": "he placed",
-      "category": "verb",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-34-001",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 23,
-      "scriptForm": "עָבַר",
-      "transliteration": "ʼāḇar",
-      "gloss": "he passed over",
-      "category": "verb",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-34-010",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 23,
-      "scriptForm": "הָלַךְ",
-      "transliteration": "hālaḵ",
-      "gloss": "he walked",
-      "category": "verb",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-17-003",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 23,
-      "scriptForm": "פֶּה",
-      "transliteration": "peh",
-      "gloss": "mouth",
-      "category": "noun",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-09-032",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 23,
-      "scriptForm": "שַׂר",
-      "transliteration": "śar",
-      "gloss": "prince",
-      "category": "noun",
       "props": {
         "gender": "m",
         "number": "s"
@@ -1738,7 +1655,7 @@
       "language": "he",
       "kind": "lexeme",
       "level": "A",
-      "unit": 23,
+      "unit": 20,
       "scriptForm": "יָרַד",
       "transliteration": "yāraḏ",
       "gloss": "he went down",
@@ -1749,14 +1666,14 @@
       }
     },
     {
-      "id": "he-dav-10-013",
+      "id": "he-dav-10-014",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
-      "unit": 23,
-      "scriptForm": "דָּם",
-      "transliteration": "dām",
-      "gloss": "blood",
+      "unit": 20,
+      "scriptForm": "לֶחֶם",
+      "transliteration": "leḥem",
+      "gloss": "bread",
       "category": "noun",
       "props": {
         "gender": "m",
@@ -1764,104 +1681,14 @@
       }
     },
     {
-      "id": "he-dav-09-036",
+      "id": "he-dav-09-070",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
-      "unit": 23,
-      "scriptForm": "מִלְחָמָה",
-      "transliteration": "milḥāmāh",
-      "gloss": "war",
-      "category": "noun",
-      "props": {
-        "gender": "f",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-09-003",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 23,
-      "scriptForm": "נָבִיא",
-      "transliteration": "nābî’",
-      "gloss": "prophet",
-      "category": "noun",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-21-024",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 23,
-      "scriptForm": "פָּקַד",
-      "transliteration": "pāqaḏ",
-      "gloss": "he visited",
-      "category": "verb",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-18-002",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 23,
-      "scriptForm": "אֲדָמָה",
-      "transliteration": "ʼăḏāmāh",
-      "gloss": "ground",
-      "category": "noun",
-      "props": {
-        "gender": "f",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-21-010",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 23,
-      "scriptForm": "שָׁכַב",
-      "transliteration": "šāḵaḇ",
-      "gloss": "he lay down",
-      "category": "verb",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-35-002",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 23,
-      "scriptForm": "אָסַף",
-      "transliteration": "ʼāsap̄",
-      "gloss": "he gathered",
-      "category": "verb",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-09-099",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 23,
-      "scriptForm": "שָׂפָה",
-      "transliteration": "śāp̄āh",
-      "gloss": "lip",
+      "unit": 20,
+      "scriptForm": "בְּהֵמָה",
+      "transliteration": "bəhēmāh",
+      "gloss": "beast",
       "category": "noun",
       "props": {
         "gender": "f",
@@ -1873,7 +1700,7 @@
       "language": "he",
       "kind": "lexeme",
       "level": "A",
-      "unit": 24,
+      "unit": 20,
       "scriptForm": "גִּבּוֹר",
       "transliteration": "gibbôr",
       "gloss": "warrior",
@@ -1884,85 +1711,14 @@
       }
     },
     {
-      "id": "he-dav-13-010",
+      "id": "he-dav-10-002",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
-      "unit": 24,
-      "scriptForm": "יָשָׁר",
-      "transliteration": "yāšār",
-      "gloss": "upright",
-      "category": "adjective",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-21-013",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 24,
-      "scriptForm": "כָּבַד",
-      "transliteration": "kāḇaḏ",
-      "gloss": "he was heavy",
-      "category": "verb",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-13-033",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 24,
-      "scriptForm": "תָּמִים",
-      "transliteration": "tāmîm",
-      "gloss": "blameless",
-      "category": "adjective",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-13-037",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 24,
-      "scriptForm": "קַל",
-      "transliteration": "qal",
-      "gloss": "swift",
-      "category": "adjective",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-51-002",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 24,
-      "scriptForm": "פֹּה",
-      "transliteration": "pōh",
-      "gloss": "here",
-      "category": "adverb"
-    },
-    {
-      "id": "he-dav-10-023",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 24,
-      "scriptForm": "עֵד",
-      "transliteration": "ʼēḏ",
-      "gloss": "witness",
+      "unit": 20,
+      "scriptForm": "סוּס",
+      "transliteration": "sûs",
+      "gloss": "horse",
       "category": "noun",
       "props": {
         "gender": "m",
@@ -1970,14 +1726,14 @@
       }
     },
     {
-      "id": "he-dav-10-028",
+      "id": "he-dav-10-003",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
-      "unit": 24,
-      "scriptForm": "בְּרָכָה",
-      "transliteration": "bərāḵāh",
-      "gloss": "blessing",
+      "unit": 20,
+      "scriptForm": "סוּסָה",
+      "transliteration": "sûsāh",
+      "gloss": "mare",
       "category": "noun",
       "props": {
         "gender": "f",
@@ -1985,14 +1741,14 @@
       }
     },
     {
-      "id": "he-dav-21-026",
+      "id": "he-dav-40-004",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
-      "unit": 24,
-      "scriptForm": "קָצַר",
-      "transliteration": "qāṣar",
-      "gloss": "he reaped",
+      "unit": 21,
+      "scriptForm": "בָּא",
+      "transliteration": "bāʼ",
+      "gloss": "he came",
       "category": "verb",
       "props": {
         "gender": "m",
@@ -2000,71 +1756,22 @@
       }
     },
     {
-      "id": "he-dav-13-036",
+      "id": "he-dav-51-008",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
-      "unit": 24,
-      "scriptForm": "כָּבֵד",
-      "transliteration": "kāḇēḏ",
-      "gloss": "heavy",
-      "category": "adjective",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-13-031",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 24,
-      "scriptForm": "רָעָב",
-      "transliteration": "rāʼāḇ",
-      "gloss": "hungry",
-      "category": "adjective",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-09-121",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 24,
-      "scriptForm": "יֹשֶׁר",
-      "transliteration": "yōšer",
-      "gloss": "uprightness",
-      "category": "noun",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-36-006",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 24,
-      "scriptForm": "רָעַב",
-      "transliteration": "rāʼaḇ",
-      "gloss": "he hungered",
-      "category": "verb",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
+      "unit": 21,
+      "scriptForm": "לָמָּה",
+      "transliteration": "lāmmāh",
+      "gloss": "why",
+      "category": "adverb"
     },
     {
       "id": "he-dav-09-009",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
-      "unit": 25,
+      "unit": 21,
       "scriptForm": "עוֹלָם",
       "transliteration": "ʼôlām",
       "gloss": "eternity",
@@ -2079,13 +1786,465 @@
       "language": "he",
       "kind": "lexeme",
       "level": "A",
-      "unit": 25,
+      "unit": 21,
       "scriptForm": "עֵת",
       "transliteration": "ʼēṯ",
       "gloss": "time",
       "category": "noun",
       "props": {
         "gender": "f",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-09-006",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 21,
+      "scriptForm": "חֶסֶד",
+      "transliteration": "ḥesed",
+      "gloss": "steadfast love",
+      "category": "noun",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-13-037",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 21,
+      "scriptForm": "קַל",
+      "transliteration": "qal",
+      "gloss": "swift",
+      "category": "adjective",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-13-031",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 21,
+      "scriptForm": "רָעָב",
+      "transliteration": "rāʼāḇ",
+      "gloss": "hungry",
+      "category": "adjective",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-36-006",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 21,
+      "scriptForm": "רָעַב",
+      "transliteration": "rāʼaḇ",
+      "gloss": "he hungered",
+      "category": "verb",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-18-010",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 22,
+      "scriptForm": "לִפְנֵי",
+      "transliteration": "lip̄ənê",
+      "gloss": "before",
+      "category": "preposition"
+    },
+    {
+      "id": "he-dav-52-001",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 22,
+      "scriptForm": "בֵּית",
+      "transliteration": "bēṯ",
+      "gloss": "house of",
+      "category": "noun"
+    },
+    {
+      "id": "he-dav-39-008",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 22,
+      "scriptForm": "יָצָא",
+      "transliteration": "yāṣāʼ",
+      "gloss": "he went out",
+      "category": "verb",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-09-056",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 22,
+      "scriptForm": "חֹדֶשׁ",
+      "transliteration": "ḥōḏeš",
+      "gloss": "month",
+      "category": "noun",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-51-015",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 22,
+      "scriptForm": "תָּמִיד",
+      "transliteration": "tāmîḏ",
+      "gloss": "continually",
+      "category": "adverb"
+    },
+    {
+      "id": "he-dav-21-007",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 22,
+      "scriptForm": "סָגַר",
+      "transliteration": "sāḡar",
+      "gloss": "he shut",
+      "category": "verb",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-13-007",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 22,
+      "scriptForm": "חָדָשׁ",
+      "transliteration": "ḥādāš",
+      "gloss": "new",
+      "category": "adjective",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-13-018",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 22,
+      "scriptForm": "שָׁלֵם",
+      "transliteration": "šālēm",
+      "gloss": "complete",
+      "category": "adjective",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-44-013",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 23,
+      "scriptForm": "רָאָה",
+      "transliteration": "rāʼāh",
+      "gloss": "he saw",
+      "category": "verb",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-18-012",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 23,
+      "scriptForm": "עַד",
+      "transliteration": "ʼaḏ",
+      "gloss": "until",
+      "category": "preposition"
+    },
+    {
+      "id": "he-dav-15-003",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 23,
+      "scriptForm": "זֶה",
+      "transliteration": "zeh",
+      "gloss": "this (m)",
+      "category": "demonstrative",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-15-005",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 23,
+      "scriptForm": "אֵלֶּה",
+      "transliteration": "’ēlleh",
+      "gloss": "these",
+      "category": "demonstrative",
+      "props": {
+        "gender": "c",
+        "number": "p"
+      }
+    },
+    {
+      "id": "he-dav-15-004",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 23,
+      "scriptForm": "זֹאת",
+      "transliteration": "zō’t",
+      "gloss": "this (f)",
+      "category": "demonstrative",
+      "props": {
+        "gender": "f",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-09-028",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 23,
+      "scriptForm": "רֹאשׁ",
+      "transliteration": "rōʼš",
+      "gloss": "head",
+      "category": "noun",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-10-012",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 23,
+      "scriptForm": "בָּשָׂר",
+      "transliteration": "bāśār",
+      "gloss": "flesh",
+      "category": "noun",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-56-006",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 23,
+      "scriptForm": "יְשׁוּעָה",
+      "transliteration": "yəšûʼāh",
+      "gloss": "salvation",
+      "category": "noun",
+      "props": {
+        "gender": "f",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-18-004",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 24,
+      "scriptForm": "מִן",
+      "transliteration": "min",
+      "gloss": "from",
+      "category": "preposition"
+    },
+    {
+      "id": "he-dav-37-006",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 24,
+      "scriptForm": "שָׁמַע",
+      "transliteration": "šāmaʼ",
+      "gloss": "he heard",
+      "category": "verb",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-40-002",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 24,
+      "scriptForm": "שָׁב",
+      "transliteration": "šāḇ",
+      "gloss": "he returned",
+      "category": "verb",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-55-001",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 24,
+      "scriptForm": "אִם",
+      "transliteration": "ʾim",
+      "gloss": "if",
+      "category": "conjunction"
+    },
+    {
+      "id": "he-dav-51-023",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 24,
+      "scriptForm": "מָה",
+      "transliteration": "māh",
+      "gloss": "what",
+      "category": "particle"
+    },
+    {
+      "id": "he-dav-35-002",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 24,
+      "scriptForm": "אָסַף",
+      "transliteration": "ʼāsap̄",
+      "gloss": "he gathered",
+      "category": "verb",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-21-017",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 24,
+      "scriptForm": "שָׁפַךְ",
+      "transliteration": "šāp̄aḵ",
+      "gloss": "he poured",
+      "category": "verb",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-38-004",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 24,
+      "scriptForm": "בָּרָא",
+      "transliteration": "bārāʼ",
+      "gloss": "he created",
+      "category": "verb",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-44-006",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 25,
+      "scriptForm": "עָלָה",
+      "transliteration": "ʼālāh",
+      "gloss": "he went up",
+      "category": "verb",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-38-002",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 25,
+      "scriptForm": "נָשָׂא",
+      "transliteration": "nāśāʼ",
+      "gloss": "he lifted",
+      "category": "verb",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-09-036",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 25,
+      "scriptForm": "מִלְחָמָה",
+      "transliteration": "milḥāmāh",
+      "gloss": "war",
+      "category": "noun",
+      "props": {
+        "gender": "f",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-21-024",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 25,
+      "scriptForm": "פָּקַד",
+      "transliteration": "pāqaḏ",
+      "gloss": "he visited",
+      "category": "verb",
+      "props": {
+        "gender": "m",
         "number": "s"
       }
     },
@@ -2105,14 +2264,14 @@
       }
     },
     {
-      "id": "he-dav-10-012",
+      "id": "he-dav-10-023",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 25,
-      "scriptForm": "בָּשָׂר",
-      "transliteration": "bāśār",
-      "gloss": "flesh",
+      "scriptForm": "עֵד",
+      "transliteration": "ʼēḏ",
+      "gloss": "witness",
       "category": "noun",
       "props": {
         "gender": "m",
@@ -2120,30 +2279,19 @@
       }
     },
     {
-      "id": "he-dav-09-006",
+      "id": "he-dav-09-106",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 25,
-      "scriptForm": "חֶסֶד",
-      "transliteration": "ḥesed",
-      "gloss": "steadfast love",
+      "scriptForm": "חֲלוֹם",
+      "transliteration": "ḥălôm",
+      "gloss": "dream",
       "category": "noun",
       "props": {
         "gender": "m",
         "number": "s"
       }
-    },
-    {
-      "id": "he-dav-51-015",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 25,
-      "scriptForm": "תָּמִיד",
-      "transliteration": "tāmîḏ",
-      "gloss": "continually",
-      "category": "adverb"
     },
     {
       "id": "he-dav-44-011",
@@ -2161,111 +2309,14 @@
       }
     },
     {
-      "id": "he-dav-13-018",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 25,
-      "scriptForm": "שָׁלֵם",
-      "transliteration": "šālēm",
-      "gloss": "complete",
-      "category": "adjective",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-51-006",
+      "id": "he-dav-37-005",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 26,
-      "scriptForm": "כֹּה",
-      "transliteration": "kōh",
-      "gloss": "thus",
-      "category": "adverb"
-    },
-    {
-      "id": "he-dav-10-017",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 26,
-      "scriptForm": "גּוֹי",
-      "transliteration": "gôy",
-      "gloss": "nation",
-      "category": "noun",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-18-008",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 26,
-      "scriptForm": "תַּחַת",
-      "transliteration": "taḥat",
-      "gloss": "under",
-      "category": "preposition"
-    },
-    {
-      "id": "he-dav-10-022",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 26,
-      "scriptForm": "חַיָּה",
-      "transliteration": "ḥayyāh",
-      "gloss": "animal",
-      "category": "noun",
-      "props": {
-        "gender": "f",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-09-056",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 26,
-      "scriptForm": "חֹדֶשׁ",
-      "transliteration": "ḥōḏeš",
-      "gloss": "month",
-      "category": "noun",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-10-045",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 26,
-      "scriptForm": "שִׁיר",
-      "transliteration": "šîr",
-      "gloss": "song",
-      "category": "noun",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-21-007",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 26,
-      "scriptForm": "סָגַר",
-      "transliteration": "sāḡar",
-      "gloss": "he shut",
+      "scriptForm": "שָׁלַח",
+      "transliteration": "šālaḥ",
+      "gloss": "he sent",
       "category": "verb",
       "props": {
         "gender": "m",
@@ -2273,17 +2324,87 @@
       }
     },
     {
-      "id": "he-dav-13-007",
+      "id": "he-dav-54-002",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 26,
-      "scriptForm": "חָדָשׁ",
-      "transliteration": "ḥādāš",
-      "gloss": "new",
-      "category": "adjective",
+      "scriptForm": "הִנֵּה",
+      "transliteration": "hinnēh",
+      "gloss": "behold",
+      "category": "particle"
+    },
+    {
+      "id": "he-dav-51-022",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 26,
+      "scriptForm": "אֵין",
+      "transliteration": "ʼên",
+      "gloss": "there is not",
+      "category": "particle"
+    },
+    {
+      "id": "he-dav-51-013",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 26,
+      "scriptForm": "לָכֵן",
+      "transliteration": "lāḵēn",
+      "gloss": "therefore",
+      "category": "adverb"
+    },
+    {
+      "id": "he-dav-15-001",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 26,
+      "scriptForm": "גַּם",
+      "transliteration": "gam",
+      "gloss": "also",
+      "category": "adverb"
+    },
+    {
+      "id": "he-dav-10-008",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 26,
+      "scriptForm": "נֶפֶשׁ",
+      "transliteration": "nep̄eš",
+      "gloss": "life",
+      "category": "noun",
       "props": {
-        "gender": "m",
+        "gender": "f",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-20-003",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 26,
+      "scriptForm": "אַל",
+      "transliteration": "ʼal",
+      "gloss": "not (with a command)",
+      "category": "particle"
+    },
+    {
+      "id": "he-dav-09-010",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 26,
+      "scriptForm": "דֶּרֶךְ",
+      "transliteration": "derek",
+      "gloss": "way",
+      "category": "noun",
+      "props": {
+        "gender": "f",
         "number": "s"
       }
     },
@@ -2303,6 +2424,80 @@
       }
     },
     {
+      "id": "he-dav-18-009",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 27,
+      "scriptForm": "אַחֲרֵי",
+      "transliteration": "ʼaḥărê",
+      "gloss": "after",
+      "category": "preposition"
+    },
+    {
+      "id": "he-dav-18-014",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 27,
+      "scriptForm": "אַחַר",
+      "transliteration": "ʼaḥar",
+      "gloss": "behind",
+      "category": "preposition"
+    },
+    {
+      "id": "he-dav-51-006",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 27,
+      "scriptForm": "כֹּה",
+      "transliteration": "kōh",
+      "gloss": "thus",
+      "category": "adverb"
+    },
+    {
+      "id": "he-dav-10-017",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 27,
+      "scriptForm": "גּוֹי",
+      "transliteration": "gôy",
+      "gloss": "nation",
+      "category": "noun",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-18-008",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 27,
+      "scriptForm": "תַּחַת",
+      "transliteration": "taḥat",
+      "gloss": "under",
+      "category": "preposition"
+    },
+    {
+      "id": "he-dav-10-022",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 27,
+      "scriptForm": "חַיָּה",
+      "transliteration": "ḥayyāh",
+      "gloss": "animal",
+      "category": "noun",
+      "props": {
+        "gender": "f",
+        "number": "s"
+      }
+    },
+    {
       "id": "he-dav-13-012",
       "language": "he",
       "kind": "lexeme",
@@ -2312,88 +2507,6 @@
       "transliteration": "ḥay",
       "gloss": "living",
       "category": "adjective",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-51-010",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 27,
-      "scriptForm": "עוֹד",
-      "transliteration": "ʼôḏ",
-      "gloss": "still",
-      "category": "adverb"
-    },
-    {
-      "id": "he-dav-13-006",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 27,
-      "scriptForm": "רַב",
-      "transliteration": "raḇ",
-      "gloss": "many",
-      "category": "adjective",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-38-005",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 27,
-      "scriptForm": "מָצָא",
-      "transliteration": "māṣāʼ",
-      "gloss": "he found",
-      "category": "verb",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-33-005",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 27,
-      "scriptForm": "נָפַל",
-      "transliteration": "nāp̄al",
-      "gloss": "he fell",
-      "category": "verb",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-51-005",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 27,
-      "scriptForm": "עַתָּה",
-      "transliteration": "ʼattāh",
-      "gloss": "now",
-      "category": "adverb"
-    },
-    {
-      "id": "he-dav-09-004",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 27,
-      "scriptForm": "מִשְׁפָּט",
-      "transliteration": "mišpāṭ",
-      "gloss": "judgment",
-      "category": "noun",
       "props": {
         "gender": "m",
         "number": "s"
@@ -2415,55 +2528,40 @@
       }
     },
     {
-      "id": "he-dav-18-011",
+      "id": "he-dav-51-010",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 28,
-      "scriptForm": "בֵּין",
-      "transliteration": "bên",
-      "gloss": "between",
-      "category": "preposition"
+      "scriptForm": "עוֹד",
+      "transliteration": "ʼôḏ",
+      "gloss": "still",
+      "category": "adverb"
     },
     {
-      "id": "he-dav-09-014",
+      "id": "he-dav-13-006",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 28,
-      "scriptForm": "מִזְבֵּחַ",
-      "transliteration": "mizbēaḥ",
-      "gloss": "altar",
-      "category": "noun",
+      "scriptForm": "רַב",
+      "transliteration": "raḇ",
+      "gloss": "many",
+      "category": "adjective",
       "props": {
         "gender": "m",
         "number": "s"
       }
     },
     {
-      "id": "he-dav-09-019",
+      "id": "he-dav-38-005",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 28,
-      "scriptForm": "אֵשׁ",
-      "transliteration": "ʼēš",
-      "gloss": "fire",
-      "category": "noun",
-      "props": {
-        "gender": "f",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-44-012",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 28,
-      "scriptForm": "בָּנָה",
-      "transliteration": "bānāh",
-      "gloss": "he built",
+      "scriptForm": "מָצָא",
+      "transliteration": "māṣāʼ",
+      "gloss": "he found",
       "category": "verb",
       "props": {
         "gender": "m",
@@ -2471,19 +2569,30 @@
       }
     },
     {
-      "id": "he-dav-09-013",
+      "id": "he-dav-33-005",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 28,
-      "scriptForm": "שַׁעַר",
-      "transliteration": "šaʼar",
-      "gloss": "gate",
-      "category": "noun",
+      "scriptForm": "נָפַל",
+      "transliteration": "nāp̄al",
+      "gloss": "he fell",
+      "category": "verb",
       "props": {
         "gender": "m",
         "number": "s"
       }
+    },
+    {
+      "id": "he-dav-51-005",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 28,
+      "scriptForm": "עַתָּה",
+      "transliteration": "ʼattāh",
+      "gloss": "now",
+      "category": "adverb"
     },
     {
       "id": "he-dav-11-002",
@@ -2531,14 +2640,14 @@
       }
     },
     {
-      "id": "he-dav-09-012",
+      "id": "he-dav-09-004",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 29,
-      "scriptForm": "אֹהֶל",
-      "transliteration": "ʼōhel",
-      "gloss": "tent",
+      "scriptForm": "מִשְׁפָּט",
+      "transliteration": "mišpāṭ",
+      "gloss": "judgment",
       "category": "noun",
       "props": {
         "gender": "m",
@@ -2546,15 +2655,19 @@
       }
     },
     {
-      "id": "he-dav-18-001",
+      "id": "he-dav-09-014",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 29,
-      "scriptForm": "סָבִיב",
-      "transliteration": "sāḇîḇ",
-      "gloss": "around",
-      "category": "adverb"
+      "scriptForm": "מִזְבֵּחַ",
+      "transliteration": "mizbēaḥ",
+      "gloss": "altar",
+      "category": "noun",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
     },
     {
       "id": "he-dav-37-003",
@@ -2580,6 +2693,21 @@
       "scriptForm": "שַׁבָּת",
       "transliteration": "šabbāṯ",
       "gloss": "Sabbath",
+      "category": "noun",
+      "props": {
+        "gender": "f",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-09-097",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 29,
+      "scriptForm": "שֵׁן",
+      "transliteration": "šēn",
+      "gloss": "tooth",
       "category": "noun",
       "props": {
         "gender": "f",
@@ -2983,60 +3111,56 @@
       }
     },
     {
-      "id": "he-dav-10-004",
+      "id": "he-dav-18-011",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 32,
-      "scriptForm": "עֵץ",
-      "transliteration": "’ēṣ",
-      "gloss": "tree",
+      "scriptForm": "בֵּין",
+      "transliteration": "bên",
+      "gloss": "between",
+      "category": "preposition"
+    },
+    {
+      "id": "he-dav-09-019",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 32,
+      "scriptForm": "אֵשׁ",
+      "transliteration": "ʼēš",
+      "gloss": "fire",
       "category": "noun",
       "props": {
-        "gender": "m",
+        "gender": "f",
         "number": "s"
       }
     },
     {
-      "id": "he-dav-13-019",
+      "id": "he-dav-44-012",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 32,
-      "scriptForm": "בָּרוּךְ",
-      "transliteration": "bārûḵ",
-      "gloss": "blessed",
-      "category": "adjective",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-17-004",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 32,
-      "scriptForm": "אָדוֹן",
-      "transliteration": "ʼādôn",
-      "gloss": "lord",
-      "category": "noun",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-39-002",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 32,
-      "scriptForm": "יָרֵא",
-      "transliteration": "yārēʼ",
-      "gloss": "he feared",
+      "scriptForm": "בָּנָה",
+      "transliteration": "bānāh",
+      "gloss": "he built",
       "category": "verb",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-13-027",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 32,
+      "scriptForm": "גָּבֹהַּ",
+      "transliteration": "gāḇōah",
+      "gloss": "high",
+      "category": "adjective",
       "props": {
         "gender": "m",
         "number": "s"
@@ -3103,14 +3227,14 @@
       }
     },
     {
-      "id": "he-dav-10-060",
+      "id": "he-dav-09-013",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 33,
-      "scriptForm": "כְּלִי",
-      "transliteration": "kəlî",
-      "gloss": "vessel",
+      "scriptForm": "שַׁעַר",
+      "transliteration": "šaʼar",
+      "gloss": "gate",
       "category": "noun",
       "props": {
         "gender": "m",
@@ -3118,15 +3242,30 @@
       }
     },
     {
-      "id": "he-dav-20-002",
+      "id": "he-dav-09-012",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 33,
-      "scriptForm": "אוֹ",
-      "transliteration": "ʼô",
-      "gloss": "or",
-      "category": "conjunction"
+      "scriptForm": "אֹהֶל",
+      "transliteration": "ʼōhel",
+      "gloss": "tent",
+      "category": "noun",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-18-001",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 33,
+      "scriptForm": "סָבִיב",
+      "transliteration": "sāḇîḇ",
+      "gloss": "around",
+      "category": "adverb"
     },
     {
       "id": "he-dav-12-009",
@@ -3141,21 +3280,6 @@
       "props": {
         "gender": "f",
         "number": "p"
-      }
-    },
-    {
-      "id": "he-dav-13-027",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 33,
-      "scriptForm": "גָּבֹהַּ",
-      "transliteration": "gāḇōah",
-      "gloss": "high",
-      "category": "adjective",
-      "props": {
-        "gender": "m",
-        "number": "s"
       }
     },
     {
@@ -3219,32 +3343,17 @@
       }
     },
     {
-      "id": "he-dav-10-025",
+      "id": "he-dav-10-004",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 34,
-      "scriptForm": "מִשְׁפָּחָה",
-      "transliteration": "mišpāḥāh",
-      "gloss": "family",
+      "scriptForm": "עֵץ",
+      "transliteration": "’ēṣ",
+      "gloss": "tree",
       "category": "noun",
       "props": {
-        "gender": "f",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-10-029",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 34,
-      "scriptForm": "חַטָּאת",
-      "transliteration": "ḥaṭṭāʼt",
-      "gloss": "sin",
-      "category": "noun",
-      "props": {
-        "gender": "f",
+        "gender": "m",
         "number": "s"
       }
     },
@@ -3258,6 +3367,21 @@
       "transliteration": "pāṯaḥ",
       "gloss": "he opened",
       "category": "verb",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-09-023",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 34,
+      "scriptForm": "נָהָר",
+      "transliteration": "nāhār",
+      "gloss": "river",
+      "category": "noun",
       "props": {
         "gender": "m",
         "number": "s"
@@ -3474,29 +3598,29 @@
       }
     },
     {
-      "id": "he-dav-09-110",
+      "id": "he-dav-13-019",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 36,
-      "scriptForm": "עוֹלָה",
-      "transliteration": "ʼôlāh",
-      "gloss": "burnt offering",
-      "category": "noun",
+      "scriptForm": "בָּרוּךְ",
+      "transliteration": "bārûḵ",
+      "gloss": "blessed",
+      "category": "adjective",
       "props": {
-        "gender": "f",
+        "gender": "m",
         "number": "s"
       }
     },
     {
-      "id": "he-dav-10-051",
+      "id": "he-dav-17-004",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 36,
-      "scriptForm": "אוֹיֵב",
-      "transliteration": "ʼôyēḇ",
-      "gloss": "enemy",
+      "scriptForm": "אָדוֹן",
+      "transliteration": "ʼādôn",
+      "gloss": "lord",
       "category": "noun",
       "props": {
         "gender": "m",
@@ -3504,17 +3628,17 @@
       }
     },
     {
-      "id": "he-dav-56-003",
+      "id": "he-dav-39-002",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 36,
-      "scriptForm": "בְּרִית",
-      "transliteration": "bərîṯ",
-      "gloss": "covenant",
-      "category": "noun",
+      "scriptForm": "יָרֵא",
+      "transliteration": "yārēʼ",
+      "gloss": "he feared",
+      "category": "verb",
       "props": {
-        "gender": "f",
+        "gender": "m",
         "number": "s"
       }
     },
@@ -3605,30 +3729,45 @@
       }
     },
     {
-      "id": "he-dav-10-040",
+      "id": "he-dav-10-060",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 37,
-      "scriptForm": "צֹאן",
-      "transliteration": "ṣōʼn",
-      "gloss": "flock",
+      "scriptForm": "כְּלִי",
+      "transliteration": "kəlî",
+      "gloss": "vessel",
+      "category": "noun",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-20-002",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 37,
+      "scriptForm": "אוֹ",
+      "transliteration": "ʼô",
+      "gloss": "or",
+      "category": "conjunction"
+    },
+    {
+      "id": "he-dav-56-002",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 37,
+      "scriptForm": "אֱמֶת",
+      "transliteration": "ʼĕmeṯ",
+      "gloss": "truth",
       "category": "noun",
       "props": {
         "gender": "f",
         "number": "s"
       }
-    },
-    {
-      "id": "he-dav-55-003",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 37,
-      "scriptForm": "לְמַעַן",
-      "transliteration": "ləmaʼan",
-      "gloss": "so that",
-      "category": "conjunction"
     },
     {
       "id": "he-dav-09-005",
@@ -3640,21 +3779,6 @@
       "transliteration": "ṣedeq",
       "gloss": "righteousness",
       "category": "noun",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-13-029",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 37,
-      "scriptForm": "מָר",
-      "transliteration": "mār",
-      "gloss": "bitter",
-      "category": "adjective",
       "props": {
         "gender": "m",
         "number": "s"
@@ -3706,47 +3830,47 @@
       }
     },
     {
-      "id": "he-dav-09-011",
+      "id": "he-dav-10-025",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 38,
-      "scriptForm": "מִדְבָּר",
-      "transliteration": "midbār",
-      "gloss": "wilderness",
+      "scriptForm": "מִשְׁפָּחָה",
+      "transliteration": "mišpāḥāh",
+      "gloss": "family",
       "category": "noun",
       "props": {
-        "gender": "m",
+        "gender": "f",
         "number": "s"
       }
     },
     {
-      "id": "he-dav-13-009",
+      "id": "he-dav-10-029",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 38,
-      "scriptForm": "רָשָׁע",
-      "transliteration": "rāšāʼ",
-      "gloss": "wicked",
-      "category": "adjective",
+      "scriptForm": "חַטָּאת",
+      "transliteration": "ḥaṭṭāʼt",
+      "gloss": "sin",
+      "category": "noun",
       "props": {
-        "gender": "m",
+        "gender": "f",
         "number": "s"
       }
     },
     {
-      "id": "he-dav-09-046",
+      "id": "he-dav-09-110",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 38,
-      "scriptForm": "מַטֶּה",
-      "transliteration": "maṭṭeh",
-      "gloss": "staff",
+      "scriptForm": "עוֹלָה",
+      "transliteration": "ʼôlāh",
+      "gloss": "burnt offering",
       "category": "noun",
       "props": {
-        "gender": "m",
+        "gender": "f",
         "number": "s"
       }
     },
@@ -3826,14 +3950,29 @@
       }
     },
     {
-      "id": "he-dav-10-007",
+      "id": "he-dav-10-051",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 39,
-      "scriptForm": "רֶגֶל",
-      "transliteration": "regel",
-      "gloss": "foot",
+      "scriptForm": "אוֹיֵב",
+      "transliteration": "ʼôyēḇ",
+      "gloss": "enemy",
+      "category": "noun",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-56-003",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 39,
+      "scriptForm": "בְּרִית",
+      "transliteration": "bərîṯ",
+      "gloss": "covenant",
       "category": "noun",
       "props": {
         "gender": "f",
@@ -3841,49 +3980,30 @@
       }
     },
     {
-      "id": "he-dav-56-007",
+      "id": "he-dav-10-040",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 39,
-      "scriptForm": "גְּבוּל",
-      "transliteration": "gəḇûl",
-      "gloss": "border",
+      "scriptForm": "צֹאן",
+      "transliteration": "ṣōʼn",
+      "gloss": "flock",
       "category": "noun",
       "props": {
-        "gender": "m",
+        "gender": "f",
         "number": "s"
       }
     },
     {
-      "id": "he-dav-09-074",
+      "id": "he-dav-55-003",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 39,
-      "scriptForm": "מַעֲשֶׂה",
-      "transliteration": "maʼăśeh",
-      "gloss": "deed",
-      "category": "noun",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-10-030",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 39,
-      "scriptForm": "עֲוֹן",
-      "transliteration": "ʼāwōn",
-      "gloss": "iniquity",
-      "category": "noun",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
+      "scriptForm": "לְמַעַן",
+      "transliteration": "ləmaʼan",
+      "gloss": "so that",
+      "category": "conjunction"
     },
     {
       "id": "he-dav-19-050",
@@ -3942,14 +4062,14 @@
       }
     },
     {
-      "id": "he-dav-09-017",
+      "id": "he-dav-09-011",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 40,
-      "scriptForm": "זֶרַע",
-      "transliteration": "zeraʼ",
-      "gloss": "seed",
+      "scriptForm": "מִדְבָּר",
+      "transliteration": "midbār",
+      "gloss": "wilderness",
       "category": "noun",
       "props": {
         "gender": "m",
@@ -3957,29 +4077,29 @@
       }
     },
     {
-      "id": "he-dav-10-032",
+      "id": "he-dav-13-009",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 40,
-      "scriptForm": "מוֹעֵד",
-      "transliteration": "môʼēḏ",
-      "gloss": "appointed time",
-      "category": "noun",
+      "scriptForm": "רָשָׁע",
+      "transliteration": "rāšāʼ",
+      "gloss": "wicked",
+      "category": "adjective",
       "props": {
         "gender": "m",
         "number": "s"
       }
     },
     {
-      "id": "he-dav-10-071",
+      "id": "he-dav-09-077",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 40,
-      "scriptForm": "נַחֲלָה",
-      "transliteration": "naḥălāh",
-      "gloss": "inheritance",
+      "scriptForm": "אוֹת",
+      "transliteration": "ʼôṯ",
+      "gloss": "sign",
       "category": "noun",
       "props": {
         "gender": "f",
@@ -3987,17 +4107,17 @@
       }
     },
     {
-      "id": "he-dav-56-001",
+      "id": "he-dav-09-031",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 40,
-      "scriptForm": "תּוֹרָה",
-      "transliteration": "tôrāh",
-      "gloss": "instruction",
+      "scriptForm": "שֻׁלְחָן",
+      "transliteration": "šulḥān",
+      "gloss": "table",
       "category": "noun",
       "props": {
-        "gender": "f",
+        "gender": "m",
         "number": "s"
       }
     },
@@ -4044,77 +4164,92 @@
       }
     },
     {
-      "id": "he-dav-19-058",
+      "id": "he-dav-19-057",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 40,
+      "scriptForm": "אַלְפַּיִם",
+      "transliteration": "ʼalpáyim",
+      "gloss": "two thousand",
+      "category": "numeral",
+      "props": {
+        "gender": "m",
+        "number": "d"
+      }
+    },
+    {
+      "id": "he-dav-09-046",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 41,
+      "scriptForm": "מַטֶּה",
+      "transliteration": "maṭṭeh",
+      "gloss": "staff",
+      "category": "noun",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-10-007",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 41,
+      "scriptForm": "רֶגֶל",
+      "transliteration": "regel",
+      "gloss": "foot",
+      "category": "noun",
+      "props": {
+        "gender": "f",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-56-007",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 41,
+      "scriptForm": "גְּבוּל",
+      "transliteration": "gəḇûl",
+      "gloss": "border",
+      "category": "noun",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-09-074",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 41,
+      "scriptForm": "מַעֲשֶׂה",
+      "transliteration": "maʼăśeh",
+      "gloss": "deed",
+      "category": "noun",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-19-058",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 41,
       "scriptForm": "רִאשׁוֹנָה",
       "transliteration": "riʼšōnāh",
       "gloss": "first (f)",
       "category": "numeral",
       "props": {
         "gender": "f",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-09-029",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 41,
-      "scriptForm": "מַלְאָךְ",
-      "transliteration": "malʼāḵ",
-      "gloss": "messenger",
-      "category": "noun",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-09-109",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 41,
-      "scriptForm": "מִנְחָה",
-      "transliteration": "minḥāh",
-      "gloss": "gift",
-      "category": "noun",
-      "props": {
-        "gender": "f",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-36-005",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 41,
-      "scriptForm": "אָהַב",
-      "transliteration": "ʼāhaḇ",
-      "gloss": "he loved",
-      "category": "verb",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-13-008",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 41,
-      "scriptForm": "צַדִּיק",
-      "transliteration": "ṣaddîq",
-      "gloss": "righteous",
-      "category": "adjective",
-      "props": {
-        "gender": "m",
         "number": "s"
       }
     },
@@ -4164,77 +4299,77 @@
       }
     },
     {
+      "id": "he-dav-10-030",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 42,
+      "scriptForm": "עֲוֹן",
+      "transliteration": "ʼāwōn",
+      "gloss": "iniquity",
+      "category": "noun",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-09-017",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 42,
+      "scriptForm": "זֶרַע",
+      "transliteration": "zeraʼ",
+      "gloss": "seed",
+      "category": "noun",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-10-032",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 42,
+      "scriptForm": "מוֹעֵד",
+      "transliteration": "môʼēḏ",
+      "gloss": "appointed time",
+      "category": "noun",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-10-071",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 42,
+      "scriptForm": "נַחֲלָה",
+      "transliteration": "naḥălāh",
+      "gloss": "inheritance",
+      "category": "noun",
+      "props": {
+        "gender": "f",
+        "number": "s"
+      }
+    },
+    {
       "id": "he-dav-19-062",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
-      "unit": 41,
+      "unit": 42,
       "scriptForm": "חֲמִישִׁית",
       "transliteration": "ḥămîšîṯ",
       "gloss": "fifth (f)",
       "category": "numeral",
       "props": {
         "gender": "f",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-09-030",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 42,
-      "scriptForm": "אָרוֹן",
-      "transliteration": "ʼārôn",
-      "gloss": "ark",
-      "category": "noun",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-09-026",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 42,
-      "scriptForm": "כָּבוֹד",
-      "transliteration": "kāḇôḏ",
-      "gloss": "glory",
-      "category": "noun",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-09-077",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 42,
-      "scriptForm": "אוֹת",
-      "transliteration": "ʼôṯ",
-      "gloss": "sign",
-      "category": "noun",
-      "props": {
-        "gender": "f",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-09-031",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 42,
-      "scriptForm": "שֻׁלְחָן",
-      "transliteration": "šulḥān",
-      "gloss": "table",
-      "category": "noun",
-      "props": {
-        "gender": "m",
         "number": "s"
       }
     },
@@ -4280,36 +4415,6 @@
       "category": "numeral",
       "props": {
         "gender": "f",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-19-066",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 42,
-      "scriptForm": "תְּשִׁיעִית",
-      "transliteration": "təšîʻîṯ",
-      "gloss": "ninth (f)",
-      "category": "numeral",
-      "props": {
-        "gender": "f",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-09-040",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 43,
-      "scriptForm": "שֶׁמֶן",
-      "transliteration": "šemen",
-      "gloss": "oil",
-      "category": "noun",
-      "props": {
-        "gender": "m",
         "number": "s"
       }
     },
@@ -4374,32 +4479,47 @@
       }
     },
     {
-      "id": "he-dav-21-009",
+      "id": "he-dav-13-034",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 43,
-      "scriptForm": "רָכַב",
-      "transliteration": "rāḵaḇ",
-      "gloss": "he rode",
-      "category": "verb",
+      "scriptForm": "מָלֵא",
+      "transliteration": "mālēʼ",
+      "gloss": "full",
+      "category": "adjective",
       "props": {
         "gender": "m",
         "number": "s"
       }
     },
     {
-      "id": "he-dav-13-028",
+      "id": "he-dav-09-073",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 43,
-      "scriptForm": "שָׁפָל",
-      "transliteration": "šāp̄āl",
-      "gloss": "low",
-      "category": "adjective",
+      "scriptForm": "כֶּלֶב",
+      "transliteration": "keleḇ",
+      "gloss": "dog",
+      "category": "noun",
       "props": {
         "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-19-066",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 43,
+      "scriptForm": "תְּשִׁיעִית",
+      "transliteration": "təšîʻîṯ",
+      "gloss": "ninth (f)",
+      "category": "numeral",
+      "props": {
+        "gender": "f",
         "number": "s"
       }
     },
@@ -4419,14 +4539,14 @@
       }
     },
     {
-      "id": "he-dav-09-033",
+      "id": "he-dav-09-029",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 44,
-      "scriptForm": "שֵׁבֶט",
-      "transliteration": "šēḇeṭ",
-      "gloss": "tribe",
+      "scriptForm": "מַלְאָךְ",
+      "transliteration": "malʼāḵ",
+      "gloss": "messenger",
       "category": "noun",
       "props": {
         "gender": "m",
@@ -4434,14 +4554,14 @@
       }
     },
     {
-      "id": "he-dav-09-047",
+      "id": "he-dav-09-109",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 44,
-      "scriptForm": "חָצֵר",
-      "transliteration": "ḥāṣēr",
-      "gloss": "courtyard",
+      "scriptForm": "מִנְחָה",
+      "transliteration": "minḥāh",
+      "gloss": "gift",
       "category": "noun",
       "props": {
         "gender": "f",
@@ -4449,32 +4569,32 @@
       }
     },
     {
-      "id": "he-dav-09-100",
+      "id": "he-dav-36-005",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 44,
-      "scriptForm": "אֹזֶן",
-      "transliteration": "ʼōzen",
-      "gloss": "ear",
-      "category": "noun",
+      "scriptForm": "אָהַב",
+      "transliteration": "ʼāhaḇ",
+      "gloss": "he loved",
+      "category": "verb",
       "props": {
-        "gender": "f",
+        "gender": "m",
         "number": "s"
       }
     },
     {
-      "id": "he-dav-10-026",
+      "id": "he-dav-21-009",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 44,
-      "scriptForm": "מִצְוָה",
-      "transliteration": "miṣwāh",
-      "gloss": "commandment",
-      "category": "noun",
+      "scriptForm": "רָכַב",
+      "transliteration": "rāḵaḇ",
+      "gloss": "he rode",
+      "category": "verb",
       "props": {
-        "gender": "f",
+        "gender": "m",
         "number": "s"
       }
     },
@@ -4524,29 +4644,14 @@
       }
     },
     {
-      "id": "he-dav-21-027",
+      "id": "he-dav-13-028",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 44,
-      "scriptForm": "כָּבַס",
-      "transliteration": "kāḇas",
-      "gloss": "he washed clothes",
-      "category": "verb",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-13-022",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 45,
-      "scriptForm": "נָבוֹן",
-      "transliteration": "nāḇôn",
-      "gloss": "discerning",
+      "scriptForm": "שָׁפָל",
+      "transliteration": "šāp̄āl",
+      "gloss": "low",
       "category": "adjective",
       "props": {
         "gender": "m",
@@ -4554,14 +4659,14 @@
       }
     },
     {
-      "id": "he-dav-09-054",
+      "id": "he-dav-09-030",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 45,
-      "scriptForm": "דּוֹר",
-      "transliteration": "dôr",
-      "gloss": "generation",
+      "scriptForm": "אָרוֹן",
+      "transliteration": "ʼārôn",
+      "gloss": "ark",
       "category": "noun",
       "props": {
         "gender": "m",
@@ -4569,30 +4674,60 @@
       }
     },
     {
-      "id": "he-dav-09-076",
+      "id": "he-dav-09-026",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 45,
-      "scriptForm": "מְלָאכָה",
-      "transliteration": "məlāʼḵāh",
-      "gloss": "work",
+      "scriptForm": "כָּבוֹד",
+      "transliteration": "kāḇôḏ",
+      "gloss": "glory",
       "category": "noun",
       "props": {
-        "gender": "f",
+        "gender": "m",
         "number": "s"
       }
     },
     {
-      "id": "he-dav-10-053",
+      "id": "he-dav-09-040",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 45,
-      "scriptForm": "רוֹעֶה",
-      "transliteration": "rôʼeh",
-      "gloss": "shepherd",
+      "scriptForm": "שֶׁמֶן",
+      "transliteration": "šemen",
+      "gloss": "oil",
       "category": "noun",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-09-033",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 45,
+      "scriptForm": "שֵׁבֶט",
+      "transliteration": "šēḇeṭ",
+      "gloss": "tribe",
+      "category": "noun",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-21-027",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 45,
+      "scriptForm": "כָּבַס",
+      "transliteration": "kāḇas",
+      "gloss": "he washed clothes",
+      "category": "verb",
       "props": {
         "gender": "m",
         "number": "s"
@@ -4644,21 +4779,6 @@
       }
     },
     {
-      "id": "he-dav-21-021",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 45,
-      "scriptForm": "צָרַף",
-      "transliteration": "ṣārap̄",
-      "gloss": "he refined",
-      "category": "verb",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
       "id": "he-dav-27-001",
       "language": "he",
       "kind": "lexeme",
@@ -4674,14 +4794,14 @@
       }
     },
     {
-      "id": "he-dav-09-049",
+      "id": "he-dav-09-047",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 46,
-      "scriptForm": "צָפוֹן",
-      "transliteration": "ṣāp̄ôn",
-      "gloss": "north",
+      "scriptForm": "חָצֵר",
+      "transliteration": "ḥāṣēr",
+      "gloss": "courtyard",
       "category": "noun",
       "props": {
         "gender": "f",
@@ -4689,14 +4809,14 @@
       }
     },
     {
-      "id": "he-dav-09-075",
+      "id": "he-dav-09-100",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 46,
-      "scriptForm": "עֲבוֹדָה",
-      "transliteration": "ʼăḇôḏāh",
-      "gloss": "service",
+      "scriptForm": "אֹזֶן",
+      "transliteration": "ʼōzen",
+      "gloss": "ear",
       "category": "noun",
       "props": {
         "gender": "f",
@@ -4704,15 +4824,34 @@
       }
     },
     {
-      "id": "he-dav-51-017",
+      "id": "he-dav-13-022",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 46,
-      "scriptForm": "יַחַד",
-      "transliteration": "yaḥaḏ",
-      "gloss": "together",
-      "category": "adverb"
+      "scriptForm": "נָבוֹן",
+      "transliteration": "nāḇôn",
+      "gloss": "discerning",
+      "category": "adjective",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-21-021",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 46,
+      "scriptForm": "צָרַף",
+      "transliteration": "ṣārap̄",
+      "gloss": "he refined",
+      "category": "verb",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
     },
     {
       "id": "he-dav-21-033",
@@ -4753,21 +4892,6 @@
       "scriptForm": "רָצַץ",
       "transliteration": "rāṣaṣ",
       "gloss": "he crushed",
-      "category": "verb",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-21-040",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 46,
-      "scriptForm": "כָּזַב",
-      "transliteration": "kāzaḇ",
-      "gloss": "he lied",
       "category": "verb",
       "props": {
         "gender": "m",
@@ -4835,14 +4959,14 @@
       }
     },
     {
-      "id": "he-dav-09-039",
+      "id": "he-dav-09-054",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 47,
-      "scriptForm": "יַיִן",
-      "transliteration": "yayin",
-      "gloss": "wine",
+      "scriptForm": "דּוֹר",
+      "transliteration": "dôr",
+      "gloss": "generation",
       "category": "noun",
       "props": {
         "gender": "m",
@@ -4880,14 +5004,14 @@
       }
     },
     {
-      "id": "he-dav-21-015",
+      "id": "he-dav-21-040",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 47,
-      "scriptForm": "פָּזַר",
-      "transliteration": "pāzar",
-      "gloss": "he scattered",
+      "scriptForm": "כָּזַב",
+      "transliteration": "kāzaḇ",
+      "gloss": "he lied",
       "category": "verb",
       "props": {
         "gender": "m",
@@ -4895,15 +5019,19 @@
       }
     },
     {
-      "id": "he-dav-51-011",
+      "id": "he-dav-09-076",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 48,
-      "scriptForm": "אָז",
-      "transliteration": "ʼāz",
-      "gloss": "then",
-      "category": "adverb"
+      "scriptForm": "מְלָאכָה",
+      "transliteration": "məlāʼḵāh",
+      "gloss": "work",
+      "category": "noun",
+      "props": {
+        "gender": "f",
+        "number": "s"
+      }
     },
     {
       "id": "he-dav-37-014",
@@ -4962,17 +5090,17 @@
       }
     },
     {
-      "id": "he-dav-10-001",
+      "id": "he-dav-21-015",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 48,
-      "scriptForm": "מַלְכָּה",
-      "transliteration": "malkāh",
-      "gloss": "queen",
-      "category": "noun",
+      "scriptForm": "פָּזַר",
+      "transliteration": "pāzar",
+      "gloss": "he scattered",
+      "category": "verb",
       "props": {
-        "gender": "f",
+        "gender": "m",
         "number": "s"
       }
     },
@@ -5007,14 +5135,14 @@
       }
     },
     {
-      "id": "he-dav-10-002",
+      "id": "he-dav-10-053",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 49,
-      "scriptForm": "סוּס",
-      "transliteration": "sûs",
-      "gloss": "horse",
+      "scriptForm": "רוֹעֶה",
+      "transliteration": "rôʼeh",
+      "gloss": "shepherd",
       "category": "noun",
       "props": {
         "gender": "m",
@@ -5022,14 +5150,14 @@
       }
     },
     {
-      "id": "he-dav-10-003",
+      "id": "he-dav-09-049",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 49,
-      "scriptForm": "סוּסָה",
-      "transliteration": "sûsāh",
-      "gloss": "mare",
+      "scriptForm": "צָפוֹן",
+      "transliteration": "ṣāp̄ôn",
+      "gloss": "north",
       "category": "noun",
       "props": {
         "gender": "f",
@@ -5037,32 +5165,17 @@
       }
     },
     {
-      "id": "he-dav-09-064",
+      "id": "he-dav-10-019",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 49,
-      "scriptForm": "נְחֹשֶׁת",
-      "transliteration": "nəḥōšeṯ",
-      "gloss": "bronze",
+      "scriptForm": "חָכְמָה",
+      "transliteration": "ḥoḵmāh",
+      "gloss": "wisdom",
       "category": "noun",
       "props": {
         "gender": "f",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-09-016",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 49,
-      "scriptForm": "מִשְׁכָּן",
-      "transliteration": "miškān",
-      "gloss": "dwelling",
-      "category": "noun",
-      "props": {
-        "gender": "m",
         "number": "s"
       }
     },
@@ -5127,6 +5240,88 @@
       }
     },
     {
+      "id": "he-dav-09-075",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 50,
+      "scriptForm": "עֲבוֹדָה",
+      "transliteration": "ʼăḇôḏāh",
+      "gloss": "service",
+      "category": "noun",
+      "props": {
+        "gender": "f",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-51-017",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 50,
+      "scriptForm": "יַחַד",
+      "transliteration": "yaḥaḏ",
+      "gloss": "together",
+      "category": "adverb"
+    },
+    {
+      "id": "he-dav-09-039",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 50,
+      "scriptForm": "יַיִן",
+      "transliteration": "yayin",
+      "gloss": "wine",
+      "category": "noun",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-51-011",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 50,
+      "scriptForm": "אָז",
+      "transliteration": "ʼāz",
+      "gloss": "then",
+      "category": "adverb"
+    },
+    {
+      "id": "he-dav-09-064",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 50,
+      "scriptForm": "נְחֹשֶׁת",
+      "transliteration": "nəḥōšeṯ",
+      "gloss": "bronze",
+      "category": "noun",
+      "props": {
+        "gender": "f",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-09-016",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 50,
+      "scriptForm": "מִשְׁכָּן",
+      "transliteration": "miškān",
+      "gloss": "dwelling",
+      "category": "noun",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
       "id": "he-dav-51-021",
       "language": "he",
       "kind": "lexeme",
@@ -5142,7 +5337,7 @@
       "language": "he",
       "kind": "lexeme",
       "level": "A",
-      "unit": 50,
+      "unit": 51,
       "scriptForm": "שֶׁמֶשׁ",
       "transliteration": "šemeš",
       "gloss": "sun",
@@ -5157,7 +5352,7 @@
       "language": "he",
       "kind": "lexeme",
       "level": "A",
-      "unit": 50,
+      "unit": 51,
       "scriptForm": "אַף",
       "transliteration": "ʼap̄",
       "gloss": "indeed",
@@ -5168,7 +5363,7 @@
       "language": "he",
       "kind": "lexeme",
       "level": "A",
-      "unit": 50,
+      "unit": 51,
       "scriptForm": "פֶּן",
       "transliteration": "pen",
       "gloss": "lest",
@@ -5179,7 +5374,7 @@
       "language": "he",
       "kind": "lexeme",
       "level": "A",
-      "unit": 50,
+      "unit": 51,
       "scriptForm": "עֶצֶם",
       "transliteration": "ʼeṣem",
       "gloss": "bone",
@@ -5194,130 +5389,10 @@
       "language": "he",
       "kind": "lexeme",
       "level": "A",
-      "unit": 50,
+      "unit": 51,
       "scriptForm": "קָהָל",
       "transliteration": "qāhāl",
       "gloss": "assembly",
-      "category": "noun",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-10-043",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 50,
-      "scriptForm": "רֶכֶב",
-      "transliteration": "reḵeḇ",
-      "gloss": "chariot",
-      "category": "noun",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-37-012",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 50,
-      "scriptForm": "בָּטַח",
-      "transliteration": "bāṭaḥ",
-      "gloss": "he trusted",
-      "category": "verb",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-09-018",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 51,
-      "scriptForm": "פְּרִי",
-      "transliteration": "pərî",
-      "gloss": "fruit",
-      "category": "noun",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-09-023",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 51,
-      "scriptForm": "נָהָר",
-      "transliteration": "nāhār",
-      "gloss": "river",
-      "category": "noun",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-17-002",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 51,
-      "scriptForm": "אָחוֹת",
-      "transliteration": "ʼāḥôṯ",
-      "gloss": "sister",
-      "category": "noun",
-      "props": {
-        "gender": "f",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-09-113",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 51,
-      "scriptForm": "בְּכוֹר",
-      "transliteration": "bəḵôr",
-      "gloss": "firstborn",
-      "category": "noun",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-09-098",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 51,
-      "scriptForm": "לָשׁוֹן",
-      "transliteration": "lāšôn",
-      "gloss": "tongue",
-      "category": "noun",
-      "props": {
-        "gender": "f",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-10-077",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 51,
-      "scriptForm": "שֶׁקֶר",
-      "transliteration": "šeqer",
-      "gloss": "falsehood",
       "category": "noun",
       "props": {
         "gender": "m",
@@ -5355,11 +5430,116 @@
       }
     },
     {
-      "id": "he-dav-09-050",
+      "id": "he-dav-10-043",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 52,
+      "scriptForm": "רֶכֶב",
+      "transliteration": "reḵeḇ",
+      "gloss": "chariot",
+      "category": "noun",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-37-012",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 52,
+      "scriptForm": "בָּטַח",
+      "transliteration": "bāṭaḥ",
+      "gloss": "he trusted",
+      "category": "verb",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-09-018",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 52,
+      "scriptForm": "פְּרִי",
+      "transliteration": "pərî",
+      "gloss": "fruit",
+      "category": "noun",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-17-002",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 52,
+      "scriptForm": "אָחוֹת",
+      "transliteration": "ʼāḥôṯ",
+      "gloss": "sister",
+      "category": "noun",
+      "props": {
+        "gender": "f",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-09-113",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 52,
+      "scriptForm": "בְּכוֹר",
+      "transliteration": "bəḵôr",
+      "gloss": "firstborn",
+      "category": "noun",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-09-098",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 52,
+      "scriptForm": "לָשׁוֹן",
+      "transliteration": "lāšôn",
+      "gloss": "tongue",
+      "category": "noun",
+      "props": {
+        "gender": "f",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-10-077",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 52,
+      "scriptForm": "שֶׁקֶר",
+      "transliteration": "šeqer",
+      "gloss": "falsehood",
+      "category": "noun",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-09-050",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 53,
       "scriptForm": "נֶגֶב",
       "transliteration": "neḡeḇ",
       "gloss": "south",
@@ -5374,7 +5554,7 @@
       "language": "he",
       "kind": "lexeme",
       "level": "A",
-      "unit": 52,
+      "unit": 53,
       "scriptForm": "כָּנָף",
       "transliteration": "kānāp̄",
       "gloss": "wing",
@@ -5389,7 +5569,7 @@
       "language": "he",
       "kind": "lexeme",
       "level": "A",
-      "unit": 52,
+      "unit": 53,
       "scriptForm": "כֶּבֶשׂ",
       "transliteration": "keḇeś",
       "gloss": "lamb",
@@ -5404,7 +5584,7 @@
       "language": "he",
       "kind": "lexeme",
       "level": "A",
-      "unit": 52,
+      "unit": 53,
       "scriptForm": "יֶתֶר",
       "transliteration": "yeṯer",
       "gloss": "remainder",
@@ -5419,7 +5599,7 @@
       "language": "he",
       "kind": "lexeme",
       "level": "A",
-      "unit": 52,
+      "unit": 53,
       "scriptForm": "יַעַן",
       "transliteration": "yaʼan",
       "gloss": "because",
@@ -5430,115 +5610,10 @@
       "language": "he",
       "kind": "lexeme",
       "level": "A",
-      "unit": 52,
+      "unit": 53,
       "scriptForm": "שִׂמְחָה",
       "transliteration": "śimḥāh",
       "gloss": "joy",
-      "category": "noun",
-      "props": {
-        "gender": "f",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-13-016",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 52,
-      "scriptForm": "טָהוֹר",
-      "transliteration": "ṭāhôr",
-      "gloss": "clean",
-      "category": "adjective",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-09-118",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 53,
-      "scriptForm": "דַּעַת",
-      "transliteration": "daʼaṯ",
-      "gloss": "knowledge",
-      "category": "noun",
-      "props": {
-        "gender": "f",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-10-074",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 53,
-      "scriptForm": "פֶּשַׁע",
-      "transliteration": "pešaʼ",
-      "gloss": "transgression",
-      "category": "noun",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-10-034",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 53,
-      "scriptForm": "כֶּרֶם",
-      "transliteration": "kerem",
-      "gloss": "vineyard",
-      "category": "noun",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-10-055",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 53,
-      "scriptForm": "גֵּר",
-      "transliteration": "gēr",
-      "gloss": "sojourner",
-      "category": "noun",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-09-115",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 53,
-      "scriptForm": "מַלְכוּת",
-      "transliteration": "malkûṯ",
-      "gloss": "kingdom",
-      "category": "noun",
-      "props": {
-        "gender": "f",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-09-104",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 53,
-      "scriptForm": "עֵצָה",
-      "transliteration": "ʼēṣāh",
-      "gloss": "counsel",
       "category": "noun",
       "props": {
         "gender": "f",
@@ -5591,17 +5666,17 @@
       }
     },
     {
-      "id": "he-dav-09-043",
+      "id": "he-dav-13-016",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 54,
-      "scriptForm": "דֶּלֶת",
-      "transliteration": "deleṯ",
-      "gloss": "door",
-      "category": "noun",
+      "scriptForm": "טָהוֹר",
+      "transliteration": "ṭāhôr",
+      "gloss": "clean",
+      "category": "adjective",
       "props": {
-        "gender": "f",
+        "gender": "m",
         "number": "s"
       }
     },
@@ -5685,6 +5760,21 @@
       "scriptForm": "נָדַר",
       "transliteration": "nāḏar",
       "gloss": "he vowed",
+      "category": "verb",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-34-002",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 55,
+      "scriptForm": "עָמַד",
+      "transliteration": "ʼāmaḏ",
+      "gloss": "he stood",
       "category": "verb",
       "props": {
         "gender": "m",
@@ -5812,21 +5902,6 @@
       }
     },
     {
-      "id": "he-dav-34-016",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 55,
-      "scriptForm": "חָמַל",
-      "transliteration": "ḥāmal",
-      "gloss": "he spared",
-      "category": "verb",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
       "id": "he-dav-35-004",
       "language": "he",
       "kind": "lexeme",
@@ -5842,29 +5917,29 @@
       }
     },
     {
-      "id": "he-dav-13-017",
+      "id": "he-dav-09-118",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 56,
-      "scriptForm": "טָמֵא",
-      "transliteration": "ṭāmēʼ",
-      "gloss": "unclean",
-      "category": "adjective",
+      "scriptForm": "דַּעַת",
+      "transliteration": "daʼaṯ",
+      "gloss": "knowledge",
+      "category": "noun",
       "props": {
-        "gender": "m",
+        "gender": "f",
         "number": "s"
       }
     },
     {
-      "id": "he-dav-09-060",
+      "id": "he-dav-10-055",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 56,
-      "scriptForm": "עָנָן",
-      "transliteration": "ʼānān",
-      "gloss": "cloud",
+      "scriptForm": "גֵּר",
+      "transliteration": "gēr",
+      "gloss": "sojourner",
       "category": "noun",
       "props": {
         "gender": "m",
@@ -5881,6 +5956,21 @@
       "transliteration": "ḥāmās",
       "gloss": "violence",
       "category": "noun",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-34-016",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 56,
+      "scriptForm": "חָמַל",
+      "transliteration": "ḥāmal",
+      "gloss": "he spared",
+      "category": "verb",
       "props": {
         "gender": "m",
         "number": "s"
@@ -5910,21 +6000,6 @@
       "scriptForm": "חָצַב",
       "transliteration": "ḥāṣaḇ",
       "gloss": "he hewed",
-      "category": "verb",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-34-006",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 56,
-      "scriptForm": "עָלַץ",
-      "transliteration": "ʼālaṣ",
-      "gloss": "he exulted",
       "category": "verb",
       "props": {
         "gender": "m",
@@ -6172,6 +6247,21 @@
       }
     },
     {
+      "id": "he-dav-13-011",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 58,
+      "scriptForm": "חָזָק",
+      "transliteration": "ḥāzāq",
+      "gloss": "strong",
+      "category": "adjective",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
       "id": "he-dav-37-016",
       "language": "he",
       "kind": "lexeme",
@@ -6180,21 +6270,6 @@
       "scriptForm": "זָרַע",
       "transliteration": "zāraʼ",
       "gloss": "he sowed",
-      "category": "verb",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-37-015",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 58,
-      "scriptForm": "סָלַח",
-      "transliteration": "sālaḥ",
-      "gloss": "he forgave",
       "category": "verb",
       "props": {
         "gender": "m",
@@ -6232,36 +6307,6 @@
       }
     },
     {
-      "id": "he-dav-13-025",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 59,
-      "scriptForm": "רָחוֹק",
-      "transliteration": "rāḥôq",
-      "gloss": "far",
-      "category": "adjective",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-09-015",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 59,
-      "scriptForm": "קָרְבָּן",
-      "transliteration": "qorbān",
-      "gloss": "offering",
-      "category": "noun",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
       "id": "he-dav-38-006",
       "language": "he",
       "kind": "lexeme",
@@ -6288,6 +6333,36 @@
       "category": "noun",
       "props": {
         "gender": "f",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-10-044",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 59,
+      "scriptForm": "גָּמָל",
+      "transliteration": "gāmāl",
+      "gloss": "camel",
+      "category": "noun",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-37-015",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 59,
+      "scriptForm": "סָלַח",
+      "transliteration": "sālaḥ",
+      "gloss": "he forgave",
+      "category": "verb",
+      "props": {
+        "gender": "m",
         "number": "s"
       }
     },
@@ -6322,15 +6397,15 @@
       }
     },
     {
-      "id": "he-dav-13-021",
+      "id": "he-dav-34-006",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 59,
-      "scriptForm": "יָשָׁן",
-      "transliteration": "yāšān",
-      "gloss": "old",
-      "category": "adjective",
+      "scriptForm": "עָלַץ",
+      "transliteration": "ʼālaṣ",
+      "gloss": "he exulted",
+      "category": "verb",
       "props": {
         "gender": "m",
         "number": "s"
@@ -6367,14 +6442,14 @@
       }
     },
     {
-      "id": "he-dav-10-024",
+      "id": "he-dav-10-074",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 60,
-      "scriptForm": "אַרְיֵה",
-      "transliteration": "ʼaryēh",
-      "gloss": "lion",
+      "scriptForm": "פֶּשַׁע",
+      "transliteration": "pešaʼ",
+      "gloss": "transgression",
       "category": "noun",
       "props": {
         "gender": "m",
@@ -6382,14 +6457,14 @@
       }
     },
     {
-      "id": "he-dav-09-071",
+      "id": "he-dav-10-034",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 60,
-      "scriptForm": "שׁוֹר",
-      "transliteration": "šôr",
-      "gloss": "ox",
+      "scriptForm": "כֶּרֶם",
+      "transliteration": "kerem",
+      "gloss": "vineyard",
       "category": "noun",
       "props": {
         "gender": "m",
@@ -6438,21 +6513,6 @@
       "category": "adverb"
     },
     {
-      "id": "he-dav-09-073",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 60,
-      "scriptForm": "כֶּלֶב",
-      "transliteration": "keleḇ",
-      "gloss": "dog",
-      "category": "noun",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
       "id": "he-dav-51-014",
       "language": "he",
       "kind": "lexeme",
@@ -6462,6 +6522,21 @@
       "transliteration": "mēʼayin",
       "gloss": "from where",
       "category": "adverb"
+    },
+    {
+      "id": "he-dav-13-021",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 60,
+      "scriptForm": "יָשָׁן",
+      "transliteration": "yāšān",
+      "gloss": "old",
+      "category": "adjective",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
     },
     {
       "id": "he-dav-40-003",
@@ -6479,14 +6554,59 @@
       }
     },
     {
-      "id": "he-dav-13-013",
+      "id": "he-dav-09-115",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 61,
-      "scriptForm": "עָנִי",
-      "transliteration": "ʼānî",
-      "gloss": "poor",
+      "scriptForm": "מַלְכוּת",
+      "transliteration": "malkûṯ",
+      "gloss": "kingdom",
+      "category": "noun",
+      "props": {
+        "gender": "f",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-09-104",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 61,
+      "scriptForm": "עֵצָה",
+      "transliteration": "ʼēṣāh",
+      "gloss": "counsel",
+      "category": "noun",
+      "props": {
+        "gender": "f",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-09-043",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 61,
+      "scriptForm": "דֶּלֶת",
+      "transliteration": "deleṯ",
+      "gloss": "door",
+      "category": "noun",
+      "props": {
+        "gender": "f",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-13-017",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 61,
+      "scriptForm": "טָמֵא",
+      "transliteration": "ṭāmēʼ",
+      "gloss": "unclean",
       "category": "adjective",
       "props": {
         "gender": "m",
@@ -6494,29 +6614,14 @@
       }
     },
     {
-      "id": "he-dav-10-027",
+      "id": "he-dav-09-060",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 61,
-      "scriptForm": "תְּפִלָּה",
-      "transliteration": "təpillāh",
-      "gloss": "prayer",
-      "category": "noun",
-      "props": {
-        "gender": "f",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-10-069",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 61,
-      "scriptForm": "גּוֹרָל",
-      "transliteration": "gôrāl",
-      "gloss": "lot",
+      "scriptForm": "עָנָן",
+      "transliteration": "ʼānān",
+      "gloss": "cloud",
       "category": "noun",
       "props": {
         "gender": "m",
@@ -6524,14 +6629,29 @@
       }
     },
     {
-      "id": "he-dav-09-063",
+      "id": "he-dav-13-025",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 61,
-      "scriptForm": "בַּרְזֶל",
-      "transliteration": "barzel",
-      "gloss": "iron",
+      "scriptForm": "רָחוֹק",
+      "transliteration": "rāḥôq",
+      "gloss": "far",
+      "category": "adjective",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-09-015",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 61,
+      "scriptForm": "קָרְבָּן",
+      "transliteration": "qorbān",
+      "gloss": "offering",
       "category": "noun",
       "props": {
         "gender": "m",
@@ -6539,77 +6659,17 @@
       }
     },
     {
-      "id": "he-dav-09-096",
+      "id": "he-dav-10-024",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 61,
-      "scriptForm": "קֶרֶן",
-      "transliteration": "qeren",
-      "gloss": "horn",
-      "category": "noun",
-      "props": {
-        "gender": "f",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-09-111",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 61,
-      "scriptForm": "תְּרוּמָה",
-      "transliteration": "tərûmāh",
-      "gloss": "contribution",
-      "category": "noun",
-      "props": {
-        "gender": "f",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-10-050",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 61,
-      "scriptForm": "קֶשֶׁת",
-      "transliteration": "qešeṯ",
-      "gloss": "bow",
-      "category": "noun",
-      "props": {
-        "gender": "f",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-09-035",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 61,
-      "scriptForm": "מִקְדָּשׁ",
-      "transliteration": "miqdāš",
-      "gloss": "sanctuary",
+      "scriptForm": "אַרְיֵה",
+      "transliteration": "ʼaryēh",
+      "gloss": "lion",
       "category": "noun",
       "props": {
         "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-41-001",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 62,
-      "scriptForm": "עַיִן",
-      "transliteration": "’ayin",
-      "gloss": "eye",
-      "category": "noun",
-      "props": {
-        "gender": "f",
         "number": "s"
       }
     },
@@ -6674,14 +6734,14 @@
       }
     },
     {
-      "id": "he-dav-41-003",
+      "id": "he-dav-09-071",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 62,
-      "scriptForm": "אוֹר",
-      "transliteration": "ʼôr",
-      "gloss": "light",
+      "scriptForm": "שׁוֹר",
+      "transliteration": "šôr",
+      "gloss": "ox",
       "category": "noun",
       "props": {
         "gender": "m",
@@ -6689,17 +6749,32 @@
       }
     },
     {
-      "id": "he-dav-09-048",
+      "id": "he-dav-13-013",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 62,
-      "scriptForm": "מִזְרָח",
-      "transliteration": "mizrāḥ",
-      "gloss": "east",
-      "category": "noun",
+      "scriptForm": "עָנִי",
+      "transliteration": "ʼānî",
+      "gloss": "poor",
+      "category": "adjective",
       "props": {
         "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-10-027",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 62,
+      "scriptForm": "תְּפִלָּה",
+      "transliteration": "təpillāh",
+      "gloss": "prayer",
+      "category": "noun",
+      "props": {
+        "gender": "f",
         "number": "s"
       }
     },
@@ -6719,14 +6794,14 @@
       }
     },
     {
-      "id": "he-dav-09-065",
+      "id": "he-dav-10-069",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 63,
-      "scriptForm": "אֶרֶז",
-      "transliteration": "ʼerez",
-      "gloss": "cedar",
+      "scriptForm": "גּוֹרָל",
+      "transliteration": "gôrāl",
+      "gloss": "lot",
       "category": "noun",
       "props": {
         "gender": "m",
@@ -6734,14 +6809,29 @@
       }
     },
     {
-      "id": "he-dav-10-080",
+      "id": "he-dav-09-063",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 63,
-      "scriptForm": "צָרָה",
-      "transliteration": "ṣārāh",
-      "gloss": "distress",
+      "scriptForm": "בַּרְזֶל",
+      "transliteration": "barzel",
+      "gloss": "iron",
+      "category": "noun",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-09-096",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 63,
+      "scriptForm": "קֶרֶן",
+      "transliteration": "qeren",
+      "gloss": "horn",
       "category": "noun",
       "props": {
         "gender": "f",
@@ -6749,14 +6839,14 @@
       }
     },
     {
-      "id": "he-dav-09-101",
+      "id": "he-dav-09-111",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 63,
-      "scriptForm": "בֶּטֶן",
-      "transliteration": "beṭen",
-      "gloss": "belly",
+      "scriptForm": "תְּרוּמָה",
+      "transliteration": "tərûmāh",
+      "gloss": "contribution",
       "category": "noun",
       "props": {
         "gender": "f",
@@ -6764,14 +6854,29 @@
       }
     },
     {
-      "id": "he-dav-09-052",
+      "id": "he-dav-10-050",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 63,
-      "scriptForm": "קֵץ",
-      "transliteration": "qēṣ",
-      "gloss": "end",
+      "scriptForm": "קֶשֶׁת",
+      "transliteration": "qešeṯ",
+      "gloss": "bow",
+      "category": "noun",
+      "props": {
+        "gender": "f",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-09-035",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 63,
+      "scriptForm": "מִקְדָּשׁ",
+      "transliteration": "miqdāš",
+      "gloss": "sanctuary",
       "category": "noun",
       "props": {
         "gender": "m",
@@ -6779,45 +6884,15 @@
       }
     },
     {
-      "id": "he-dav-10-070",
+      "id": "he-dav-09-048",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 63,
-      "scriptForm": "חֵלֶק",
-      "transliteration": "ḥēleq",
-      "gloss": "portion",
+      "scriptForm": "מִזְרָח",
+      "transliteration": "mizrāḥ",
+      "gloss": "east",
       "category": "noun",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-09-038",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 63,
-      "scriptForm": "מָגֵן",
-      "transliteration": "māḡēn",
-      "gloss": "shield",
-      "category": "noun",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-13-020",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 63,
-      "scriptForm": "אָרוּר",
-      "transliteration": "ʼārûr",
-      "gloss": "cursed",
-      "category": "adjective",
       "props": {
         "gender": "m",
         "number": "s"
@@ -6839,36 +6914,6 @@
       }
     },
     {
-      "id": "he-dav-43-001",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 64,
-      "scriptForm": "עָם",
-      "transliteration": "’ām",
-      "gloss": "people",
-      "category": "noun",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-43-002",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 64,
-      "scriptForm": "הַר",
-      "transliteration": "har",
-      "gloss": "mountain",
-      "category": "noun",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
       "id": "he-dav-43-003",
       "language": "he",
       "kind": "lexeme",
@@ -6884,14 +6929,14 @@
       }
     },
     {
-      "id": "he-dav-10-033",
+      "id": "he-dav-09-065",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 64,
-      "scriptForm": "חָג",
-      "transliteration": "ḥāḡ",
-      "gloss": "feast",
+      "scriptForm": "אֶרֶז",
+      "transliteration": "ʼerez",
+      "gloss": "cedar",
       "category": "noun",
       "props": {
         "gender": "m",
@@ -6899,14 +6944,44 @@
       }
     },
     {
-      "id": "he-dav-10-066",
+      "id": "he-dav-10-080",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
       "unit": 64,
-      "scriptForm": "חֶבֶל",
-      "transliteration": "ḥeḇel",
-      "gloss": "rope",
+      "scriptForm": "צָרָה",
+      "transliteration": "ṣārāh",
+      "gloss": "distress",
+      "category": "noun",
+      "props": {
+        "gender": "f",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-09-101",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 64,
+      "scriptForm": "בֶּטֶן",
+      "transliteration": "beṭen",
+      "gloss": "belly",
+      "category": "noun",
+      "props": {
+        "gender": "f",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-09-052",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 64,
+      "scriptForm": "קֵץ",
+      "transliteration": "qēṣ",
+      "gloss": "end",
       "category": "noun",
       "props": {
         "gender": "m",
@@ -7139,21 +7214,6 @@
       }
     },
     {
-      "id": "he-dav-45-004",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 66,
-      "scriptForm": "מַיִם",
-      "transliteration": "mayim",
-      "gloss": "water",
-      "category": "noun",
-      "props": {
-        "gender": "m",
-        "number": "p"
-      }
-    },
-    {
       "id": "he-dav-45-001",
       "language": "he",
       "kind": "lexeme",
@@ -7184,6 +7244,81 @@
       }
     },
     {
+      "id": "he-dav-10-070",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 67,
+      "scriptForm": "חֵלֶק",
+      "transliteration": "ḥēleq",
+      "gloss": "portion",
+      "category": "noun",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-09-038",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 67,
+      "scriptForm": "מָגֵן",
+      "transliteration": "māḡēn",
+      "gloss": "shield",
+      "category": "noun",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-13-020",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 67,
+      "scriptForm": "אָרוּר",
+      "transliteration": "ʼārûr",
+      "gloss": "cursed",
+      "category": "adjective",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-10-033",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 67,
+      "scriptForm": "חָג",
+      "transliteration": "ḥāḡ",
+      "gloss": "feast",
+      "category": "noun",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-10-066",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 67,
+      "scriptForm": "חֶבֶל",
+      "transliteration": "ḥeḇel",
+      "gloss": "rope",
+      "category": "noun",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
       "id": "he-dav-09-061",
       "language": "he",
       "kind": "lexeme",
@@ -7203,7 +7338,7 @@
       "language": "he",
       "kind": "lexeme",
       "level": "A",
-      "unit": 67,
+      "unit": 68,
       "scriptForm": "עֵדוּת",
       "transliteration": "ʼēḏûṯ",
       "gloss": "testimony",
@@ -7218,7 +7353,7 @@
       "language": "he",
       "kind": "lexeme",
       "level": "A",
-      "unit": 67,
+      "unit": 68,
       "scriptForm": "תְּהִלָּה",
       "transliteration": "təhillāh",
       "gloss": "praise",
@@ -7229,47 +7364,17 @@
       }
     },
     {
-      "id": "he-dav-13-034",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 67,
-      "scriptForm": "מָלֵא",
-      "transliteration": "mālēʼ",
-      "gloss": "full",
-      "category": "adjective",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
       "id": "he-dav-10-046",
       "language": "he",
       "kind": "lexeme",
       "level": "A",
-      "unit": 67,
+      "unit": 68,
       "scriptForm": "מִזְמוֹר",
       "transliteration": "mizmôr",
       "gloss": "psalm",
       "category": "noun",
       "props": {
         "gender": "m",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-10-068",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 67,
-      "scriptForm": "בְּאֵר",
-      "transliteration": "bəʼēr",
-      "gloss": "well",
-      "category": "noun",
-      "props": {
-        "gender": "f",
         "number": "s"
       }
     },
@@ -7304,36 +7409,6 @@
       }
     },
     {
-      "id": "he-dav-09-097",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 68,
-      "scriptForm": "שֵׁן",
-      "transliteration": "šēn",
-      "gloss": "tooth",
-      "category": "noun",
-      "props": {
-        "gender": "f",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-10-044",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 68,
-      "scriptForm": "גָּמָל",
-      "transliteration": "gāmāl",
-      "gloss": "camel",
-      "category": "noun",
-      "props": {
-        "gender": "m",
-        "number": "s"
-      }
-    },
-    {
       "id": "he-dav-09-053",
       "language": "he",
       "kind": "lexeme",
@@ -7345,21 +7420,6 @@
       "category": "noun",
       "props": {
         "gender": "f",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-09-120",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 68,
-      "scriptForm": "מוּסָר",
-      "transliteration": "mûsār",
-      "gloss": "discipline",
-      "category": "noun",
-      "props": {
-        "gender": "m",
         "number": "s"
       }
     },
@@ -7384,6 +7444,21 @@
       "transliteration": "ʼôy",
       "gloss": "woe",
       "category": "interjection"
+    },
+    {
+      "id": "he-dav-09-120",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 69,
+      "scriptForm": "מוּסָר",
+      "transliteration": "mûsār",
+      "gloss": "discipline",
+      "category": "noun",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
     },
     {
       "id": "he-dav-10-035",
@@ -7431,7 +7506,7 @@
       "language": "he",
       "kind": "lexeme",
       "level": "A",
-      "unit": 69,
+      "unit": 70,
       "scriptForm": "חֲנִית",
       "transliteration": "ḥănîṯ",
       "gloss": "spear",
@@ -7521,7 +7596,7 @@
       "language": "he",
       "kind": "lexeme",
       "level": "A",
-      "unit": 70,
+      "unit": 71,
       "scriptForm": "צִפּוֹר",
       "transliteration": "ṣippôr",
       "gloss": "bird",
@@ -7558,21 +7633,6 @@
       "category": "noun",
       "props": {
         "gender": "f",
-        "number": "s"
-      }
-    },
-    {
-      "id": "he-dav-09-090",
-      "language": "he",
-      "kind": "lexeme",
-      "level": "A",
-      "unit": 71,
-      "scriptForm": "כּוֹכָב",
-      "transliteration": "kôḵāḇ",
-      "gloss": "star",
-      "category": "noun",
-      "props": {
-        "gender": "m",
         "number": "s"
       }
     },
@@ -7959,7 +8019,7 @@
       "language": "he",
       "kind": "lexeme",
       "level": "A",
-      "unit": 76,
+      "unit": 75,
       "scriptForm": "עֲטָרָה",
       "transliteration": "ʼăṭārāh",
       "gloss": "wreath",
@@ -8030,7 +8090,7 @@
       "language": "he",
       "kind": "lexeme",
       "level": "A",
-      "unit": 77,
+      "unit": 76,
       "scriptForm": "לֶהָבָה",
       "transliteration": "lehāḇāh",
       "gloss": "flame",
@@ -8075,6 +8135,21 @@
       "scriptForm": "עָמֹק",
       "transliteration": "ʼāmōq",
       "gloss": "deep",
+      "category": "adjective",
+      "props": {
+        "gender": "m",
+        "number": "s"
+      }
+    },
+    {
+      "id": "he-dav-13-039",
+      "language": "he",
+      "kind": "lexeme",
+      "level": "A",
+      "unit": 77,
+      "scriptForm": "רַךְ",
+      "transliteration": "raḵ",
+      "gloss": "tender",
       "category": "adjective",
       "props": {
         "gender": "m",

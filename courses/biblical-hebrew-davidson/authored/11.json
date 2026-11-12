@@ -1,0 +1,307 @@
+{
+  "schema": "authored-exercises-v1.json",
+  "unit": 11,
+  "sources": {
+    "r11-1": {
+      "citation": "Written for this course on Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), §10",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n57/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n57.jpg"
+    },
+    "r11-2": {
+      "citation": "Written for this course on Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), §10",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n57/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n57.jpg"
+    },
+    "r11-3": {
+      "citation": "Written for this course on Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), §10",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n57/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n57.jpg"
+    },
+    "r11-4": {
+      "citation": "Written for this course on Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), §10",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n57/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n57.jpg"
+    },
+    "r11-5": {
+      "citation": "Written for this course on Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), §10",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n57/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n57.jpg"
+    },
+    "r11-6": {
+      "citation": "Written for this course on Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), §10",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n57/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n57.jpg"
+    }
+  },
+  "items": [
+    {
+      "id": "r11-1.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "כָּל־הָעָם",
+      "stimulusIsScript": true,
+      "statement": "The vowel is short because maqqeph has taken away its accent.",
+      "answer": true,
+      "expected": "The vowel is short because maqqeph has taken away its accent.",
+      "block": "r11",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r11-1"
+    },
+    {
+      "id": "r11-1.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Why is the vowel of כָּל short here?",
+      "stimulus": "כָּל־הָעָם",
+      "stimulusIsScript": true,
+      "options": [
+        "the word is in pause",
+        "maqqeph has taken away its accent",
+        "metheg has shortened it"
+      ],
+      "answer": "maqqeph has taken away its accent",
+      "optionIsScript": false,
+      "block": "r11",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r11-1"
+    },
+    {
+      "id": "r11-1.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Join כֹּל and הָעָם with maqqeph, with vowel points",
+      "stimulus": "כָּל־הָעָם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "כָּל־הָעָם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "r11",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r11-1"
+    },
+    {
+      "id": "r11-2.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "כָּל־הָאָרֶץ",
+      "stimulusIsScript": true,
+      "statement": "The raised hyphen binds the words so that only the last keeps its accent.",
+      "answer": true,
+      "expected": "The raised hyphen binds the words so that only the last keeps its accent.",
+      "block": "r11",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r11-2"
+    },
+    {
+      "id": "r11-2.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "What does the raised hyphen do?",
+      "stimulus": "כָּל־הָאָרֶץ",
+      "stimulusIsScript": true,
+      "options": [
+        "marks a break in the verse",
+        "marks a secondary stress",
+        "binds the words so that only the last keeps its accent"
+      ],
+      "answer": "binds the words so that only the last keeps its accent",
+      "optionIsScript": false,
+      "block": "r11",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r11-2"
+    },
+    {
+      "id": "r11-2.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Join כֹּל and הָאָרֶץ with maqqeph, with vowel points",
+      "stimulus": "כָּל־הָאָרֶץ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "כָּל־הָאָרֶץ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "r11",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r11-2"
+    },
+    {
+      "id": "r11-3.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "אֶת־הָאָרֶץ",
+      "stimulusIsScript": true,
+      "statement": "These two words have one, on the last word.",
+      "answer": true,
+      "expected": "These two words have one, on the last word.",
+      "block": "r11",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r11-3"
+    },
+    {
+      "id": "r11-3.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "How many accents do these two words have?",
+      "stimulus": "אֶת־הָאָרֶץ",
+      "stimulusIsScript": true,
+      "options": [
+        "two, one on each word",
+        "one, on the last word"
+      ],
+      "answer": "one, on the last word",
+      "optionIsScript": false,
+      "block": "r11",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r11-3"
+    },
+    {
+      "id": "r11-4.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "אֶת־הָאִישׁ",
+      "stimulusIsScript": true,
+      "statement": "It stands as אֶת because the article shortens the word before it.",
+      "answer": false,
+      "expected": "It stands as אֶת because joined by maqqeph, it lost its accent and its vowel shortened.",
+      "block": "r11",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r11-4"
+    },
+    {
+      "id": "r11-4.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "The object marker אֵת stands here as אֶת. Why?",
+      "stimulus": "אֶת־הָאִישׁ",
+      "stimulusIsScript": true,
+      "options": [
+        "the word is in pause",
+        "joined by maqqeph, it lost its accent and its vowel shortened",
+        "the article shortens the word before it"
+      ],
+      "answer": "joined by maqqeph, it lost its accent and its vowel shortened",
+      "optionIsScript": false,
+      "block": "r11",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r11-4"
+    },
+    {
+      "id": "r11-4.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Join אֵת and הָאִישׁ with maqqeph, with vowel points",
+      "stimulus": "אֶת־הָאִישׁ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶת־הָאִישׁ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "r11",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r11-4"
+    },
+    {
+      "id": "r11-5.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "הָֽאָדָם",
+      "stimulusIsScript": true,
+      "statement": "The stroke marks a secondary stress, so the vowel is not hurried over.",
+      "answer": true,
+      "expected": "The stroke marks a secondary stress, so the vowel is not hurried over.",
+      "block": "r11",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r11-5"
+    },
+    {
+      "id": "r11-5.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "What does the small vertical stroke beside the first vowel mark?",
+      "stimulus": "הָֽאָדָם",
+      "stimulusIsScript": true,
+      "options": [
+        "that the word is joined to the next",
+        "a secondary stress, so the vowel is not hurried over",
+        "the main stress of the word"
+      ],
+      "answer": "a secondary stress, so the vowel is not hurried over",
+      "optionIsScript": false,
+      "block": "r11",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r11-5"
+    },
+    {
+      "id": "r11-6.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "הָֽאָדָם",
+      "stimulusIsScript": true,
+      "statement": "The metheg lengthens the vowel.",
+      "answer": false,
+      "expected": "The metheg does not change it; it only keeps it from being slurred.",
+      "block": "r11",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r11-6"
+    },
+    {
+      "id": "r11-6.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Does the metheg change the sound of the vowel?",
+      "stimulus": "הָֽאָדָם",
+      "stimulusIsScript": true,
+      "options": [
+        "shortens the vowel",
+        "lengthens the vowel",
+        "does not change it; it only keeps it from being slurred"
+      ],
+      "answer": "does not change it; it only keeps it from being slurred",
+      "optionIsScript": false,
+      "block": "r11",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r11-6"
+    }
+  ]
+}

@@ -623,10 +623,10 @@
       "stimulus": "אָמַר אֱלֹהִים אֶל־אֲבִימֶלֶךְ בַּחֲלוֹם הַלַּיְלָה הִנֵּה אַתָּה מֵת עַל־הָאִשָּׁה אֲשֶׁר לָקַחְתָּ וְהִיא בְּעֻלַת בָּעַל",
       "stimulusIsScript": true,
       "options": [
-        "God said to Abimelech in a dream of the night, Behold, thou art the dead man because of the woman whom thou hast taken, for she is a married woman.",
         "God said to Abimelech in a dream of the night, Behold, thou art a dead man because of the woman whom thou hast taken, for she is a married woman.",
-        "God said to Abimelech in a dream of the night, Behold, thou art a dead man because of the woman whom thou hast taken, for he is a married woman.",
-        "God said in Abimelech in a dream of the night, Behold, thou art a dead man because of the woman whom thou hast taken, for she is a married woman."
+        "God said to Abimelech in a dream of the night, Behold, she is a dead man because of the woman whom thou hast taken, for she is a married woman.",
+        "God said to Abimelech in a dream of the night, Behold, thou art a dead man because of a woman whom thou hast taken, for she is a married woman.",
+        "God said from Abimelech in a dream of the night, Behold, thou art a dead man because of the woman whom thou hast taken, for she is a married woman."
       ],
       "answer": "God said to Abimelech in a dream of the night, Behold, thou art a dead man because of the woman whom thou hast taken, for she is a married woman.",
       "optionIsScript": false,
@@ -641,10 +641,10 @@
       "rungLabel": "Fill in",
       "type": "translate-phrase",
       "prompt": "Fill in the missing word: God said to Abimelech in a dream of the night, Behold, thou art a dead man because of the woman whom thou hast taken, for she is a married woman.",
-      "stimulus": "אָמַר אֱלֹהִים אֶל־אֲבִימֶלֶךְ בַּחֲלוֹם הַלַּיְלָה הִנֵּה אַתָּה מֵת ＿＿＿ אֲשֶׁר לָקַחְתָּ וְהִיא בְּעֻלַת בָּעַל",
+      "stimulus": "אָמַר ＿＿＿ אֶל־אֲבִימֶלֶךְ בַּחֲלוֹם הַלַּיְלָה הִנֵּה אַתָּה מֵת עַל־הָאִשָּׁה אֲשֶׁר לָקַחְתָּ וְהִיא בְּעֻלַת בָּעַל",
       "stimulusIsScript": true,
       "accepted": [
-        "עַל־הָאִשָּׁה"
+        "אֱלֹהִים"
       ],
       "answerIsScript": true,
       "block": "s21",
@@ -3344,8 +3344,8 @@
       "prompt": "Is this the right translation?",
       "stimulus": "בְּזֵעַת אַפֶּיךָ תֹּאכַל לֶחֶם עַד שׁוּבְךָ אֶל־הָאֲדָמָה כִּי עָפָר אַתָּה וְאֶל־עָפָר תָּשׁוּב",
       "stimulusIsScript": true,
-      "statement": "In the sweat of thy face thou shalt eat bread till thou return to the ground; for dust thou art, and unto dust shalt thou return.",
-      "answer": true,
+      "statement": "In the sweat of my face thou shalt eat bread till thou return to the ground; for dust thou art, and unto dust shalt thou return.",
+      "answer": false,
       "expected": "In the sweat of thy face thou shalt eat bread till thou return to the ground; for dust thou art, and unto dust shalt thou return.",
       "block": "s40",
       "blockLabel": "Davidson §40",
@@ -3361,10 +3361,10 @@
       "stimulus": "בְּזֵעַת אַפֶּיךָ תֹּאכַל לֶחֶם עַד שׁוּבְךָ אֶל־הָאֲדָמָה כִּי עָפָר אַתָּה וְאֶל־עָפָר תָּשׁוּב",
       "stimulusIsScript": true,
       "options": [
+        "From the sweat of thy face thou shalt eat bread till thou return to the ground; for dust thou art, and unto dust shalt thou return.",
         "In the sweat of thy face thou shalt eat bread till thou return to the ground; for dust thou art, and unto dust shalt thou return.",
-        "In the sweat of your face thou shalt eat bread till thou return to the ground; for dust thou art, and unto dust shalt thou return.",
-        "In a sweat of thy face thou shalt eat bread till thou return to the ground; for dust thou art, and unto dust shalt thou return.",
-        "From the sweat of thy face thou shalt eat bread till thou return to the ground; for dust thou art, and unto dust shalt thou return."
+        "In the sweat of my face thou shalt eat bread till thou return to the ground; for dust thou art, and unto dust shalt thou return.",
+        "In the sweat of thy face thou shalt eat bread till I return to the ground; for dust thou art, and unto dust shalt thou return."
       ],
       "answer": "In the sweat of thy face thou shalt eat bread till thou return to the ground; for dust thou art, and unto dust shalt thou return.",
       "optionIsScript": false,
@@ -3452,10 +3452,10 @@
       "stimulus": "וַאֲנִי הִנְנִי מֵבִיא אֶת־הַמַּבּוּל מַיִם עַל־הָאָרֶץ לְשַׁחֵת כָּל־בָּשָׂר מִתַּחַת הַשָּׁמָיִם",
       "stimulusIsScript": true,
       "options": [
-        "And on my part, behold, I am about to bring the flood, (that is), waters upon an earth, to destroy all flesh from under heaven.",
+        "And on my part, behold, I am about to bring a flood, (that is), waters upon the earth, to destroy all flesh from under heaven.",
         "And on my part, behold, I am about to bring the flood, (that is), waters upon the earth, to destroy all flesh from under heaven.",
         "And on his part, behold, I am about to bring the flood, (that is), waters upon the earth, to destroy all flesh from under heaven.",
-        "And on my part, behold, I am about to bring the flood, (that is), waters to the earth, to destroy all flesh from under heaven."
+        "And from my part, behold, I am about to bring the flood, (that is), waters upon the earth, to destroy all flesh from under heaven."
       ],
       "answer": "And on my part, behold, I am about to bring the flood, (that is), waters upon the earth, to destroy all flesh from under heaven.",
       "optionIsScript": false,
@@ -3819,10 +3819,10 @@
       "stimulus": "הִנֵּה אָנֹכִי מֵת וְהָיָה אֱלֹהִים עִמָּכֶם וְהֵשִׁיב אֶתְכֶם אֶל־אֶרֶץ אֲבוֹתֵיכֶם",
       "stimulusIsScript": true,
       "options": [
-        "Behold, I am about to die; but God will be with you and bring you back to a land of your fathers.",
+        "Behold, they are about to die; but God will be with you and bring you back to the land of your fathers.",
         "Behold, I am about to die; but God will be with you and bring you back to the land of your fathers.",
-        "Behold, I am about to die; but God will be with you and bring you back from the land of your fathers.",
-        "Behold, I am about to die; but God will be with you and bring you back to the land of my fathers."
+        "Behold, I am about to die; but God will be with you and bring you back to the land of their fathers.",
+        "Behold, I am about to die; but God will be with you and bring you back from the land of your fathers."
       ],
       "answer": "Behold, I am about to die; but God will be with you and bring you back to the land of your fathers.",
       "optionIsScript": false,
@@ -3910,10 +3910,10 @@
       "stimulus": "אִם־שָׁכֹחַ תִּשְׁכַּח אֶת־יְהוָה אֱלֹהֶיךָ וְהָלַכְתָּ אַחֲרֵי אֱלֹהִים אֲחֵרִים וַעֲבַדְתָּם הַעִדֹתִי בְךָ הַיּוֹם כִּי אָבֹד תֹּאבֵד",
       "stimulusIsScript": true,
       "options": [
-        "If thou shalt at all forget Yahweh my God and go after other gods and serve them, I (solemnly) testify against thee this day that thou shalt assuredly perish.",
-        "If thou shalt at all forget Yahweh thy God and go after other gods and serve them, we (solemnly) testify against thee this day that thou shalt assuredly perish.",
-        "If thou shalt at all forget Yahweh thy God and go after other gods and serve them, I (solemnly) testify against me this day that thou shalt assuredly perish.",
-        "If thou shalt at all forget Yahweh thy God and go after other gods and serve them, I (solemnly) testify against thee this day that thou shalt assuredly perish."
+        "If thou shalt at all forget Yahweh thy God and go after other gods and serve him, I (solemnly) testify against thee this day that thou shalt assuredly perish.",
+        "If I shalt at all forget Yahweh thy God and go after other gods and serve them, I (solemnly) testify against thee this day that thou shalt assuredly perish.",
+        "If thou shalt at all forget Yahweh thy God and go after other gods and serve them, I (solemnly) testify against thee this day that thou shalt assuredly perish.",
+        "If thou shalt from all forget Yahweh thy God and go after other gods and serve them, I (solemnly) testify against thee this day that thou shalt assuredly perish."
       ],
       "answer": "If thou shalt at all forget Yahweh thy God and go after other gods and serve them, I (solemnly) testify against thee this day that thou shalt assuredly perish.",
       "optionIsScript": false,
@@ -3928,10 +3928,10 @@
       "rungLabel": "Fill in",
       "type": "translate-phrase",
       "prompt": "Fill in the missing word: If thou shalt at all forget Yahweh thy God and go after other gods and serve them, I (solemnly) testify against thee this day that thou shalt assuredly perish.",
-      "stimulus": "אִם־שָׁכֹחַ תִּשְׁכַּח אֶת־יְהוָה אֱלֹהֶיךָ וְהָלַכְתָּ אַחֲרֵי אֱלֹהִים אֲחֵרִים ＿＿＿ הַעִדֹתִי בְךָ הַיּוֹם כִּי אָבֹד תֹּאבֵד",
+      "stimulus": "אִם־שָׁכֹחַ תִּשְׁכַּח ＿＿＿ אֱלֹהֶיךָ וְהָלַכְתָּ אַחֲרֵי אֱלֹהִים אֲחֵרִים וַעֲבַדְתָּם הַעִדֹתִי בְךָ הַיּוֹם כִּי אָבֹד תֹּאבֵד",
       "stimulusIsScript": true,
       "accepted": [
-        "וַעֲבַדְתָּם"
+        "אֶת־יְהוָה"
       ],
       "answerIsScript": true,
       "block": "s40",
@@ -5176,10 +5176,10 @@
       "stimulus": "הִנֵּה זָקַנְתִּי לֹא יָדַעְתִּי אֶת־יוֹם מוֹתִי",
       "stimulusIsScript": true,
       "options": [
-        "Behold I am old, I know not the day of my death.",
         "Behold I am old, I know not the day of thy death.",
-        "Behold I am old, we know not the day of my death.",
-        "Behold I am old, I know the day of my death."
+        "Behold I am old, I know not the day of my death.",
+        "Behold they are old, I know not the day of my death.",
+        "Behold I am old, I know not a day of my death."
       ],
       "answer": "Behold I am old, I know not the day of my death.",
       "optionIsScript": false,
@@ -5248,7 +5248,7 @@
       "prompt": "Is this the right translation?",
       "stimulus": "וַיֹּאמֶר אֵלֶיהָ הַנָּבִיא וְאַתְּ קוּמִי לְכִי לְבֵיתֵךְ בְּבֹא רַגְלַיִךְ הָעִירָה וּמֵת הַיָּלֶד",
       "stimulusIsScript": true,
-      "statement": "And the prophet said unto her, And thou (fem.) arise, go to thy house; when thy feet come in-the-city, then (waw cons.) the boy shall die.",
+      "statement": "And the prophet said unto her, And thou (fem.) arise, go to my house; when thy feet come to-the-city, then (waw cons.) the boy shall die.",
       "answer": false,
       "expected": "And the prophet said unto her, And thou (fem.) arise, go to thy house; when thy feet come to-the-city, then (waw cons.) the boy shall die.",
       "block": "s41",
@@ -5265,10 +5265,10 @@
       "stimulus": "וַיֹּאמֶר אֵלֶיהָ הַנָּבִיא וְאַתְּ קוּמִי לְכִי לְבֵיתֵךְ בְּבֹא רַגְלַיִךְ הָעִירָה וּמֵת הַיָּלֶד",
       "stimulusIsScript": true,
       "options": [
-        "And the prophet said unto her, And thou (fem.) arise, go to your house; when thy feet come to-the-city, then (waw cons.) the boy shall die.",
-        "And the prophet said unto her, And thou (fem.) arise, go to thy house; when thy feet come to-the-city, then (waw cons.) the boy shall die.",
+        "And the prophet said unto her, And thou (fem.) arise, go to my house; when thy feet come to-the-city, then (waw cons.) the boy shall die.",
         "And the prophet said unto her, And thou (fem.) arise, go to thy house; when thy feet come to-a-city, then (waw cons.) the boy shall die.",
-        "And the prophet said unto her, And thou (fem.) arise, go to thy house; when thy feet come in-the-city, then (waw cons.) the boy shall die."
+        "And the prophet said unto her, And thou (fem.) arise, go to thy house; when thy feet come to-the-city, then (waw cons.) the boy shall die.",
+        "And the prophet said from her, And thou (fem.) arise, go to thy house; when thy feet come to-the-city, then (waw cons.) the boy shall die."
       ],
       "answer": "And the prophet said unto her, And thou (fem.) arise, go to thy house; when thy feet come to-the-city, then (waw cons.) the boy shall die.",
       "optionIsScript": false,
@@ -5791,7 +5791,7 @@
       "prompt": "Is this the right translation?",
       "stimulus": "רִיבוּ בְאִמְּכֶם רִיבוּ כִּי־הִיא לֹא אִשְׁתִּי וְאָנֹכִי לֹא אִישָׁהּ",
       "stimulusIsScript": true,
-      "statement": "Plead with your mother, plead, for she is not our wife, and I am not her husband.",
+      "statement": "Plead with your mother, plead, for she is my wife, and I am not her husband.",
       "answer": false,
       "expected": "Plead with your mother, plead, for she is not my wife, and I am not her husband.",
       "block": "s43",
@@ -5808,10 +5808,10 @@
       "stimulus": "רִיבוּ בְאִמְּכֶם רִיבוּ כִּי־הִיא לֹא אִשְׁתִּי וְאָנֹכִי לֹא אִישָׁהּ",
       "stimulusIsScript": true,
       "options": [
-        "Plead with your mother, plead, for he is not my wife, and I am not her husband.",
         "Plead with your mother, plead, for she is not my wife, and I am not her husband.",
+        "Plead with your mother, plead, for she is not my wife, and I am not their husband.",
         "Plead with your mother, plead, for she is my wife, and I am not her husband.",
-        "Plead with your mother, plead, for she is not our wife, and I am not her husband."
+        "Plead with your mother, plead, for he is not my wife, and I am not her husband."
       ],
       "answer": "Plead with your mother, plead, for she is not my wife, and I am not her husband.",
       "optionIsScript": false,
@@ -5826,10 +5826,10 @@
       "rungLabel": "Fill in",
       "type": "translate-phrase",
       "prompt": "Fill in the missing word: Plead with your mother, plead, for she is not my wife, and I am not her husband.",
-      "stimulus": "רִיבוּ בְאִמְּכֶם רִיבוּ כִּי־הִיא לֹא אִשְׁתִּי ＿＿＿ לֹא אִישָׁהּ",
+      "stimulus": "רִיבוּ ＿＿＿ רִיבוּ כִּי־הִיא לֹא אִשְׁתִּי וְאָנֹכִי לֹא אִישָׁהּ",
       "stimulusIsScript": true,
       "accepted": [
-        "וְאָנֹכִי"
+        "בְאִמְּכֶם"
       ],
       "answerIsScript": true,
       "block": "s43",
@@ -5880,8 +5880,8 @@
       "prompt": "Is this the right translation?",
       "stimulus": "וַהֲקִמֹתִי אֶת־בְּרִיתִי אִתָּךְ וּבָאתָ אֶל־הַתֵּבָה אַתָּה וּבָנֶיךָ וְאִשְׁתְּךָ וּנְשֵׁי־בָנֶיךָ אִתָּךְ",
       "stimulusIsScript": true,
-      "statement": "And I will establish my covenant with thee, and thou shalt enter into the ark, thou and thy sons and thy wife and thy sons' wives with thee.",
-      "answer": true,
+      "statement": "And I will establish my covenant with thee, and thou shalt enter into the ark, thou and thy sons and thy wife and thy sons' wives with him.",
+      "answer": false,
       "expected": "And I will establish my covenant with thee, and thou shalt enter into the ark, thou and thy sons and thy wife and thy sons' wives with thee.",
       "block": "s45b",
       "blockLabel": "Davidson §45",
@@ -5897,10 +5897,10 @@
       "stimulus": "וַהֲקִמֹתִי אֶת־בְּרִיתִי אִתָּךְ וּבָאתָ אֶל־הַתֵּבָה אַתָּה וּבָנֶיךָ וְאִשְׁתְּךָ וּנְשֵׁי־בָנֶיךָ אִתָּךְ",
       "stimulusIsScript": true,
       "options": [
-        "And I will establish his covenant with thee, and thou shalt enter into the ark, thou and thy sons and thy wife and thy sons' wives with thee.",
-        "And I will establish my covenant with thee, and thou shalt enter into the ark, thou and thy sons and thy wife and thy sons' wives with him.",
+        "And I will establish my covenant with thee, and thou shalt enter into the ark, thou and thy sons and thy wife and thy sons' wives with thee.",
+        "And I will establish my covenant with thee, and thou shalt enter into the ark, thou and thy sons and thy wife and your sons' wives with thee.",
         "And they will establish my covenant with thee, and thou shalt enter into the ark, thou and thy sons and thy wife and thy sons' wives with thee.",
-        "And I will establish my covenant with thee, and thou shalt enter into the ark, thou and thy sons and thy wife and thy sons' wives with thee."
+        "And I will establish my covenant with thee, and thou shalt enter into the ark, thou and thy sons and thy wife and thy sons' wives with him."
       ],
       "answer": "And I will establish my covenant with thee, and thou shalt enter into the ark, thou and thy sons and thy wife and thy sons' wives with thee.",
       "optionIsScript": false,

@@ -1,0 +1,107 @@
+{
+  "schema": "authored-exercises-v1.json",
+  "unit": 32,
+  "sources": {
+    "s47-A5": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §47 A 5; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n181/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n181.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n140/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n140.jpg",
+      "exwb": "davidson-s47#A5",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    }
+  },
+  "items": [
+    {
+      "id": "s47-A5.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וְאֵין אִישׁ מִבְּנֵי יִשְׂרָאֵל טוֹב מִמֶּנּוּ מִשִּׁכְמוֹ וָמַעְלָה גָּבֹהַּ מִכָּל־הָעָם",
+      "stimulusIsScript": true,
+      "statement": "There was no man of the Israelites goodlier than he: from his shoulders and upward he was taller than any of the people.",
+      "answer": true,
+      "expected": "There was no man of the Israelites goodlier than he: from his shoulders and upward he was taller than any of the people.",
+      "block": "s47",
+      "blockLabel": "Davidson §47",
+      "shape": "he-en",
+      "src": "s47-A5"
+    },
+    {
+      "id": "s47-A5.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וְאֵין אִישׁ מִבְּנֵי יִשְׂרָאֵל טוֹב מִמֶּנּוּ מִשִּׁכְמוֹ וָמַעְלָה גָּבֹהַּ מִכָּל־הָעָם",
+      "stimulusIsScript": true,
+      "options": [
+        "There was no man of the Israelites goodlier than he: from her shoulders and upward he was taller than any of the people.",
+        "There was no man of the Israelites goodlier than he: In his shoulders and upward he was taller than any of the people.",
+        "There was no man of the Israelites goodlier than he: from his shoulders and upward she was taller than any of the people.",
+        "There was no man of the Israelites goodlier than he: from his shoulders and upward he was taller than any of the people."
+      ],
+      "answer": "There was no man of the Israelites goodlier than he: from his shoulders and upward he was taller than any of the people.",
+      "optionIsScript": false,
+      "block": "s47",
+      "blockLabel": "Davidson §47",
+      "shape": "he-en",
+      "src": "s47-A5"
+    },
+    {
+      "id": "s47-A5.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: There was no man of the Israelites goodlier than he: from his shoulders and upward he was taller than any of the people.",
+      "stimulus": "וְאֵין אִישׁ מִבְּנֵי יִשְׂרָאֵל טוֹב מִמֶּנּוּ מִשִּׁכְמוֹ וָמַעְלָה גָּבֹהַּ ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "מִכָּל־הָעָם"
+      ],
+      "answerIsScript": true,
+      "block": "s47",
+      "blockLabel": "Davidson §47",
+      "shape": "he-en",
+      "src": "s47-A5"
+    },
+    {
+      "id": "s47-A5.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וְאֵין אִישׁ מִבְּנֵי יִשְׂרָאֵל טוֹב מִמֶּנּוּ מִשִּׁכְמוֹ וָמַעְלָה גָּבֹהַּ מִכָּל־הָעָם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "There was no man of the Israelites goodlier than he: from his shoulders and upward he was taller than any of the people."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "s47",
+      "blockLabel": "Davidson §47",
+      "shape": "he-en",
+      "src": "s47-A5"
+    },
+    {
+      "id": "s47-A5.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "There was no man of the Israelites goodlier than he: from his shoulders and upward he was taller than any of the people.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וְאֵין אִישׁ מִבְּנֵי יִשְׂרָאֵל טוֹב מִמֶּנּוּ מִשִּׁכְמוֹ וָמַעְלָה גָּבֹהַּ מִכָּל־הָעָם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s47",
+      "blockLabel": "Davidson §47",
+      "shape": "he-en",
+      "src": "s47-A5"
+    }
+  ]
+}

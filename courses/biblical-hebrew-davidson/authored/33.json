@@ -1,0 +1,106 @@
+{
+  "schema": "authored-exercises-v1.json",
+  "unit": 33,
+  "sources": {
+    "s49-B3": {
+      "citation": "Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), exercise §49 B 3; McFadyen, Key to the Exercises (1924)",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n188/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n188.jpg",
+      "answerUrl": "https://archive.org/details/keytoexercisesin0000mcfa/page/n146/mode/1up",
+      "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n146.jpg",
+      "exwb": "davidson-s49#B3",
+      "note": "Transcribed by hand from the scans and checked against the Key."
+    }
+  },
+  "items": [
+    {
+      "id": "s49-B3.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַאַתָּה בְּנִי אִם־לֹא",
+      "stimulusIsScript": true,
+      "statement": "Art I my son or not?",
+      "answer": false,
+      "expected": "Art thou my son or not?",
+      "block": "s49",
+      "blockLabel": "Davidson §49",
+      "shape": "en-he",
+      "src": "s49-B3"
+    },
+    {
+      "id": "s49-B3.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַאַתָּה בְּנִי אִם־לֹא",
+      "stimulusIsScript": true,
+      "options": [
+        "Art thou my son or not?",
+        "Art I my son or not?",
+        "Art thou our son or not?",
+        "Art thou my son or?"
+      ],
+      "answer": "Art thou my son or not?",
+      "optionIsScript": false,
+      "block": "s49",
+      "blockLabel": "Davidson §49",
+      "shape": "en-he",
+      "src": "s49-B3"
+    },
+    {
+      "id": "s49-B3.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Art thou my son or not?",
+      "stimulus": "＿＿＿ בְּנִי אִם־לֹא",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַאַתָּה"
+      ],
+      "answerIsScript": true,
+      "block": "s49",
+      "blockLabel": "Davidson §49",
+      "shape": "en-he",
+      "src": "s49-B3"
+    },
+    {
+      "id": "s49-B3.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "Art thou my son or not?",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַאַתָּה בְּנִי אִם־לֹא"
+      ],
+      "answerIsScript": true,
+      "block": "s49",
+      "blockLabel": "Davidson §49",
+      "shape": "en-he",
+      "src": "s49-B3"
+    },
+    {
+      "id": "s49-B3.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Art thou my son or not?",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַאַתָּה בְּנִי אִם־לֹא"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "s49",
+      "blockLabel": "Davidson §49",
+      "shape": "en-he",
+      "src": "s49-B3"
+    }
+  ]
+}

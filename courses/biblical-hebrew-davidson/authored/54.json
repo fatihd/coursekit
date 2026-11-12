@@ -418,8 +418,8 @@
       "options": [
         "Thus saith (perf.) Yahweh the God of Israel: Behold I give (ptc.) this city into the hand of the king of Babylon and he shall burn it with fire, and thou shalt not escape from his hand, but thou shalt be captured and given into their hand.",
         "Thus saith (perf.) Yahweh the God of Israel: Behold I give (ptc.) this city into the hand of the king of Babylon and he shall burn it with fire, and thou shalt not escape from his hand, but thou shalt be captured and given into his hand.",
-        "Thus saith (perf.) Yahweh the God of Israel: Behold they give (ptc.) this city into the hand of the king of Babylon and he shall burn it with fire, and thou shalt not escape from his hand, but thou shalt be captured and given into his hand.",
-        "Thus saith (perf.) Yahweh the God of Israel: Behold I give (ptc.) this city into a hand of the king of Babylon and he shall burn it with fire, and thou shalt not escape from his hand, but thou shalt be captured and given into his hand."
+        "Thus saith (perf.) Yahweh the God of Israel: Behold I give (ptc.) this city into the hand of the king of Babylon and he shall burn it with fire, and thou shalt escape from his hand, but thou shalt be captured and given into his hand.",
+        "Thus saith (perf.) Yahweh the God of Israel: Behold I give (ptc.) this city into the hand of the king of Babylon and he shall burn it with fire, and thou shalt not escape to his hand, but thou shalt be captured and given into his hand."
       ],
       "answer": "Thus saith (perf.) Yahweh the God of Israel: Behold I give (ptc.) this city into the hand of the king of Babylon and he shall burn it with fire, and thou shalt not escape from his hand, but thou shalt be captured and given into his hand.",
       "optionIsScript": false,
@@ -434,10 +434,10 @@
       "rungLabel": "Fill in",
       "type": "translate-phrase",
       "prompt": "Fill in the missing word: Thus saith (perf.) Yahweh the God of Israel: Behold I give (ptc.) this city into the hand of the king of Babylon and he shall burn it with fire, and thou shalt not escape from his hand, but thou shalt be captured and given into his hand.",
-      "stimulus": "כֹּה אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל הִנְנִי נֹתֵן אֶת־הָעִיר הַזֹּאת בְּיַד ＿＿＿ וְשָׂרְפָהּ בָּאֵשׁ וְאַתָּה לֹא תִמָּלֵט מִיָּדוֹ כִּי תִלָּכֵד וְנִתַּתָּ בְיָדוֹ",
+      "stimulus": "כֹּה אָמַר יְהוָה אֱלֹהֵי ＿＿＿ הִנְנִי נֹתֵן אֶת־הָעִיר הַזֹּאת בְּיַד מֶלֶךְ־בָּבֶל וְשָׂרְפָהּ בָּאֵשׁ וְאַתָּה לֹא תִמָּלֵט מִיָּדוֹ כִּי תִלָּכֵד וְנִתַּתָּ בְיָדוֹ",
       "stimulusIsScript": true,
       "accepted": [
-        "מֶלֶךְ־בָּבֶל"
+        "יִשְׂרָאֵל"
       ],
       "answerIsScript": true,
       "block": "s25",
@@ -991,8 +991,8 @@
       "prompt": "Is this the right translation?",
       "stimulus": "תַּצִּילֵם",
       "stimulusIsScript": true,
-      "statement": "Thou (m.) wilt deliver him, or she will deliver them",
-      "answer": false,
+      "statement": "Thou (m.) wilt deliver them, or she will deliver them",
+      "answer": true,
       "expected": "Thou (m.) wilt deliver them, or she will deliver them",
       "block": "s33",
       "blockLabel": "Davidson §33",
@@ -1008,9 +1008,9 @@
       "stimulus": "תַּצִּילֵם",
       "stimulusIsScript": true,
       "options": [
-        "Thou (m.) wilt deliver them, or he will deliver them",
         "Thou (m.) wilt deliver them, or she will deliver him",
-        "Thou (m.) wilt deliver him, or she will deliver them",
+        "Thou (m.) wilt deliver us, or she will deliver them",
+        "Thou (m.) wilt deliver them, or he will deliver them",
         "Thou (m.) wilt deliver them, or she will deliver them"
       ],
       "answer": "Thou (m.) wilt deliver them, or she will deliver them",
@@ -2323,10 +2323,10 @@
       "stimulus": "שַׁל־נְעָלֶיךָ מֵעַל רַגְלֶיךָ כִּי הַמָּקוֹם אֲשֶׁר אַתָּה עוֹמֵד עָלָיו אַדְמַת־קֹדֶשׁ הוּא",
       "stimulusIsScript": true,
       "options": [
-        "Put off his sandals from off thy feet, for the place whereon thou art standing is holy ground.",
+        "Put off thy sandals from off your feet, for the place whereon thou art standing is holy ground.",
         "Put off thy sandals from off thy feet, for the place whereon thou art standing is holy ground.",
         "Put off thy sandals from off thy feet, for a place whereon thou art standing is holy ground.",
-        "Put off your sandals from off thy feet, for the place whereon thou art standing is holy ground."
+        "Put off thy sandals from off thy feet, for the place whereon I am standing is holy ground."
       ],
       "answer": "Put off thy sandals from off thy feet, for the place whereon thou art standing is holy ground.",
       "optionIsScript": false,
@@ -2754,8 +2754,8 @@
       "stimulus": "הַצִּילֵנִי כִּי יְשׁוּעָתִי אָתָּה",
       "stimulusIsScript": true,
       "options": [
-        "Deliver me, for thou art thy salvation.",
-        "Deliver me, for thou art his salvation.",
+        "Deliver me, for thou art our salvation.",
+        "Deliver me, for I am my salvation.",
         "Deliver me, for thou art my salvation.",
         "Deliver him, for thou art my salvation."
       ],
@@ -3630,8 +3630,8 @@
       "prompt": "Is this the right translation?",
       "stimulus": "עַל־הָרֵי יִשְׂרָאֵל תִּפֹּל אַתָּה וְכָל־הָעַמִּים אֲשֶׁר אִתָּךְ",
       "stimulusIsScript": true,
-      "statement": "Thou shalt fall to the mountains of Israel, thou and all the peoples that are with thee.",
-      "answer": false,
+      "statement": "Thou shalt fall upon the mountains of Israel, thou and all the peoples that are with thee.",
+      "answer": true,
       "expected": "Thou shalt fall upon the mountains of Israel, thou and all the peoples that are with thee.",
       "block": "s43",
       "blockLabel": "Davidson §43",
@@ -3647,9 +3647,9 @@
       "stimulus": "עַל־הָרֵי יִשְׂרָאֵל תִּפֹּל אַתָּה וְכָל־הָעַמִּים אֲשֶׁר אִתָּךְ",
       "stimulusIsScript": true,
       "options": [
-        "Thou shalt fall to the mountains of Israel, thou and all the peoples that are with thee.",
         "Thou shalt fall upon the mountains of Israel, thou and all the peoples that are with thee.",
-        "Thou shalt fall upon the mountains of Israel, thou and all the peoples that are with me.",
+        "She shalt fall upon the mountains of Israel, thou and all the peoples that are with thee.",
+        "Thou shalt fall upon the mountains of Israel, thou and all the peoples that are with him.",
         "Thou shalt fall upon mountains of Israel, thou and all the peoples that are with thee."
       ],
       "answer": "Thou shalt fall upon the mountains of Israel, thou and all the peoples that are with thee.",
@@ -3665,10 +3665,10 @@
       "rungLabel": "Fill in",
       "type": "translate-phrase",
       "prompt": "Fill in the missing word: Thou shalt fall upon the mountains of Israel, thou and all the peoples that are with thee.",
-      "stimulus": "＿＿＿ יִשְׂרָאֵל תִּפֹּל אַתָּה וְכָל־הָעַמִּים אֲשֶׁר אִתָּךְ",
+      "stimulus": "עַל־הָרֵי יִשְׂרָאֵל תִּפֹּל אַתָּה ＿＿＿ אֲשֶׁר אִתָּךְ",
       "stimulusIsScript": true,
       "accepted": [
-        "עַל־הָרֵי"
+        "וְכָל־הָעַמִּים"
       ],
       "answerIsScript": true,
       "block": "s43",
@@ -3737,8 +3737,8 @@
       "stimulusIsScript": true,
       "options": [
         "Take away my life, for I am not better than my fathers.",
-        "Take away thy life, for I am not better than my fathers.",
-        "Take away my life, for I am not better than our fathers.",
+        "Take away my life, for we are not better than my fathers.",
+        "Take away our life, for I am not better than my fathers.",
         "Take away my life, for I am better than my fathers."
       ],
       "answer": "Take away my life, for I am not better than my fathers.",

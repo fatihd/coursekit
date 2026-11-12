@@ -1141,9 +1141,9 @@
       "stimulusIsScript": true,
       "options": [
         "Thou wilt keep them",
-        "They honoured me with their lips.",
-        "Thou wilt keep us",
-        "Thou wilt keep him"
+        "I wilt keep them",
+        "She wilt keep them",
+        "Thou wilt keep us"
       ],
       "answer": "Thou wilt keep them",
       "optionIsScript": false,
@@ -2919,7 +2919,7 @@
       "prompt": "Is this the right translation?",
       "stimulus": "שְׁמֹר אֶת־דִּבְרֵי יהוה כָּתְבֵם עַל־לוּחַ לִבֶּךָ",
       "stimulusIsScript": true,
-      "statement": "Keep thou the words of Yahweh, write them on a tablet of thy heart.",
+      "statement": "Keep thou the words of Yahweh, write him on the tablet of thy heart.",
       "answer": false,
       "expected": "Keep thou the words of Yahweh, write them on the tablet of thy heart.",
       "block": "s31",
@@ -2936,10 +2936,10 @@
       "stimulus": "שְׁמֹר אֶת־דִּבְרֵי יהוה כָּתְבֵם עַל־לוּחַ לִבֶּךָ",
       "stimulusIsScript": true,
       "options": [
-        "Keep thou the words of Yahweh, write him on the tablet of thy heart.",
         "Keep thou the words of Yahweh, write them on the tablet of thy heart.",
+        "Keep thou words of Yahweh, write them on the tablet of thy heart.",
         "Keep thou the words of Yahweh, write them on the tablet of your heart.",
-        "Keep thou the words of Yahweh, write them on a tablet of thy heart."
+        "Keep thou the words of Yahweh, write him on the tablet of thy heart."
       ],
       "answer": "Keep thou the words of Yahweh, write them on the tablet of thy heart.",
       "optionIsScript": false,
@@ -3558,9 +3558,9 @@
       "stimulus": "וּשְׁמַרְתַּנִי בְּדַרְכֶּךָ",
       "stimulusIsScript": true,
       "options": [
-        "And thou shalt keep him in thy way.",
         "And thou shalt keep me from thy way.",
-        "And thou shalt keep me in your way.",
+        "And thou shalt keep me in my way.",
+        "And thou shalt keep us in thy way.",
         "And thou shalt keep me in thy way."
       ],
       "answer": "And thou shalt keep me in thy way.",
@@ -3630,8 +3630,8 @@
       "prompt": "Is this the right translation?",
       "stimulus": "שָׁמְרֵהוּ",
       "stimulusIsScript": true,
-      "statement": "Keep thou me.",
-      "answer": false,
+      "statement": "Keep thou him.",
+      "answer": true,
       "expected": "Keep thou him.",
       "block": "s31",
       "blockLabel": "Davidson §31",
@@ -3647,10 +3647,10 @@
       "stimulus": "שָׁמְרֵהוּ",
       "stimulusIsScript": true,
       "options": [
-        "She stole them",
-        "Keep thou him.",
+        "Keep she him.",
+        "Keep I him.",
         "Keep thou me.",
-        "Keep thou them."
+        "Keep thou him."
       ],
       "answer": "Keep thou him.",
       "optionIsScript": false,
@@ -3880,8 +3880,8 @@
       "prompt": "Is this the right translation?",
       "stimulus": "אַל־נָא תִקְבְּרֵנִי בְּמִצְרָיִם וְשָׁכַבְתִּי עִם־אֲבֹתַי וּקְבַרְתַּנִי בִּקְבֻרָתָם",
       "stimulusIsScript": true,
-      "statement": "Bury me not in Egypt, but I will lie with my fathers and thou shalt bury me in their burying-place.",
-      "answer": true,
+      "statement": "Bury me not in Egypt, but I will lie with my fathers and thou shalt bury me in your burying-place.",
+      "answer": false,
       "expected": "Bury me not in Egypt, but I will lie with my fathers and thou shalt bury me in their burying-place.",
       "block": "s31",
       "blockLabel": "Davidson §31",
@@ -3897,10 +3897,10 @@
       "stimulus": "אַל־נָא תִקְבְּרֵנִי בְּמִצְרָיִם וְשָׁכַבְתִּי עִם־אֲבֹתַי וּקְבַרְתַּנִי בִּקְבֻרָתָם",
       "stimulusIsScript": true,
       "options": [
-        "Bury me not in Egypt, but I will lie with his fathers and thou shalt bury me in their burying-place.",
-        "Bury him not in Egypt, but I will lie with my fathers and thou shalt bury me in their burying-place.",
         "Bury me not from Egypt, but I will lie with my fathers and thou shalt bury me in their burying-place.",
-        "Bury me not in Egypt, but I will lie with my fathers and thou shalt bury me in their burying-place."
+        "Bury me not in Egypt, but I will lie with my fathers and thou shalt bury me in their burying-place.",
+        "Bury me not in Egypt, but I will lie with my fathers and thou shalt bury me in your burying-place.",
+        "Bury him not in Egypt, but I will lie with my fathers and thou shalt bury me in their burying-place."
       ],
       "answer": "Bury me not in Egypt, but I will lie with my fathers and thou shalt bury me in their burying-place.",
       "optionIsScript": false,
@@ -3915,10 +3915,10 @@
       "rungLabel": "Fill in",
       "type": "translate-phrase",
       "prompt": "Fill in the missing word: Bury me not in Egypt, but I will lie with my fathers and thou shalt bury me in their burying-place.",
-      "stimulus": "אַל־נָא תִקְבְּרֵנִי ＿＿＿ וְשָׁכַבְתִּי עִם־אֲבֹתַי וּקְבַרְתַּנִי בִּקְבֻרָתָם",
+      "stimulus": "אַל־נָא ＿＿＿ בְּמִצְרָיִם וְשָׁכַבְתִּי עִם־אֲבֹתַי וּקְבַרְתַּנִי בִּקְבֻרָתָם",
       "stimulusIsScript": true,
       "accepted": [
-        "בְּמִצְרָיִם"
+        "תִקְבְּרֵנִי"
       ],
       "answerIsScript": true,
       "block": "s31",

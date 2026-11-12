@@ -323,7 +323,7 @@ ADR files any more: to make or change a decision, add or edit its line here.
 | ADR-013 | `courses/biblical-hebrew-oer` is a separate CC BY-SA 3.0 course from the open textbook; nothing from the private courses. |
 | ADR-014 | `courses/biblical-hebrew-davidson` is a separate course built on public-domain Davidson + McFadyen's Key. |
 | ADR-015 | Opt-in course features (`parsing`, `diagnostics`, `reviewWarmup`, session sizes); unit-level skill counts, no per-card state. |
-| ADR-016 | Davidson covers the whole grammar, one topic per unit (79 units since 2026-11-11); noun forms taught by pattern family. |
+| ADR-016 | Davidson covers the whole grammar, one topic per unit (79 units since 2026-11-11); noun forms taught by pattern family; the noun phrase (construct, prepositions, waw, suffixes) before demonstratives and clauses (2026-11-12). |
 | ADR-017 | Every Davidson exercise links to its scan page (exercise and key) on archive.org. |
 | ADR-018 | Every Davidson exercise block is inventoried from the grammar itself (no caps); curated by hand in exwb. |
 | ADR-019 | Progress lives only in the browser (`localStorage`), moved with Export/Import (merge keeping the best). |

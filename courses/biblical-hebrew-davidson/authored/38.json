@@ -1873,9 +1873,9 @@
       "stimulusIsScript": true,
       "options": [
         "Thou shalt not steal.",
-        "God said to Abimelech in a dream of the night, Behold, thou art a dead man because of the woman whom thou hast taken, for she is a married woman.",
         "Thou shalt steal.",
-        "On that day I will pour out my spirit upon all flesh."
+        "She shalt not steal.",
+        "I shalt not steal."
       ],
       "answer": "Thou shalt not steal.",
       "optionIsScript": false,
@@ -3042,9 +3042,9 @@
       "stimulusIsScript": true,
       "options": [
         "Thou shalt not lie down in that place.",
-        "Thou shalt not lie down to that place.",
-        "Thou shalt lie down in that place.",
-        "Thou shalt not lie down in this place."
+        "Thou shalt not lie down in this place.",
+        "She shalt not lie down in that place.",
+        "Thou shalt lie down in that place."
       ],
       "answer": "Thou shalt not lie down in that place.",
       "optionIsScript": false,
@@ -3113,7 +3113,7 @@
       "prompt": "Is this the right translation?",
       "stimulus": "אֵלֶּה הַחֻקִּים וְהַמִּשְׁפָּטִים אֲשֶׁר תִּשְׁמְרוּ בָּאָרֶץ אֲשֶׁר אַתֶּם עֹבְרִים שָׁמָּה אַתָּה וּבִנְךָ וּבֶן־בִּנְךָ",
       "stimulusIsScript": true,
-      "statement": "These are statutes and the judgments which ye shall keep in the land whither ye (are) crossing, thou and thy son and thy son's son.",
+      "statement": "Those are the statutes and the judgments which ye shall keep in the land whither ye (are) crossing, thou and thy son and thy son's son.",
       "answer": false,
       "expected": "These are the statutes and the judgments which ye shall keep in the land whither ye (are) crossing, thou and thy son and thy son's son.",
       "block": "s30",
@@ -3130,10 +3130,10 @@
       "stimulus": "אֵלֶּה הַחֻקִּים וְהַמִּשְׁפָּטִים אֲשֶׁר תִּשְׁמְרוּ בָּאָרֶץ אֲשֶׁר אַתֶּם עֹבְרִים שָׁמָּה אַתָּה וּבִנְךָ וּבֶן־בִּנְךָ",
       "stimulusIsScript": true,
       "options": [
-        "These are the statutes and the judgments which ye shall keep in the land whither ye (are) crossing, thou and your son and thy son's son.",
-        "Those are the statutes and the judgments which ye shall keep in the land whither ye (are) crossing, thou and thy son and thy son's son.",
+        "These are the statutes and the judgments which ye shall keep in the land whither ye (are) crossing, thou and his son and thy son's son.",
+        "These are the statutes and judgments which ye shall keep in the land whither ye (are) crossing, thou and thy son and thy son's son.",
         "These are the statutes and the judgments which ye shall keep in the land whither ye (are) crossing, thou and thy son and thy son's son.",
-        "These are statutes and the judgments which ye shall keep in the land whither ye (are) crossing, thou and thy son and thy son's son."
+        "Those are the statutes and the judgments which ye shall keep in the land whither ye (are) crossing, thou and thy son and thy son's son."
       ],
       "answer": "These are the statutes and the judgments which ye shall keep in the land whither ye (are) crossing, thou and thy son and thy son's son.",
       "optionIsScript": false,

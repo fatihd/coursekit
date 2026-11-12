@@ -1233,7 +1233,7 @@
       "prompt": "Is this the right translation?",
       "stimulus": "שָׂא נָא עֵינֶיךָ וּרְאֵה כִּי אֶת־כָּל־הָאָרֶץ אֲשֶׁר אַתָּה רֹאֶה לְךָ אֶתְּנֶנָּה וְשַׂמְתִּי אֶת־זַרְעֲךָ כַּעֲפַר הָאָרֶץ אֲשֶׁר אִם יוּכַל אִישׁ לִמְנוֹת אֶת־עֲפַר הָאָרֶץ גַּם זַרְעֲךָ יִמָּנֶה",
       "stimulusIsScript": true,
-      "statement": "Lift up now thine eyes and look; for all the land which thou art looking upon, to thee will I give it; and I will make your seed as the dust of the earth, so that if a man can number the dust of the earth, thy seed also may be numbered.",
+      "statement": "Lift up now thine eyes and look; for all the land which thou art looking upon, to thee will I give it; and they will make thy seed as the dust of the earth, so that if a man can number the dust of the earth, thy seed also may be numbered.",
       "answer": false,
       "expected": "Lift up now thine eyes and look; for all the land which thou art looking upon, to thee will I give it; and I will make thy seed as the dust of the earth, so that if a man can number the dust of the earth, thy seed also may be numbered.",
       "block": "s44",
@@ -1251,9 +1251,9 @@
       "stimulusIsScript": true,
       "options": [
         "Lift up now thine eyes and look; for all the land which thou art looking upon, to thee will I give it; and I will make thy seed as the dust of the earth, so that if a man can number the dust of the earth, thy seed also may be numbered.",
-        "Lift up now thine eyes and look; for all the land which thou art looking upon, to thee will I give it; and I will make your seed as the dust of the earth, so that if a man can number the dust of the earth, thy seed also may be numbered.",
-        "Lift up now thine eyes and look; for all the land which thou art looking upon, to thee will I give it; and I will make thy seed as the dust of the earth, so that if a man can number the dust of an earth, thy seed also may be numbered.",
-        "Lift up now thine eyes and look; for all the land which thou art looking upon, to thee will they give it; and I will make thy seed as the dust of the earth, so that if a man can number the dust of the earth, thy seed also may be numbered."
+        "Lift up now thine eyes and look; for all the land which thou art looking upon, to thee will I give it; and they will make thy seed as the dust of the earth, so that if a man can number the dust of the earth, thy seed also may be numbered.",
+        "Lift up now their eyes and look; for all the land which thou art looking upon, to thee will I give it; and I will make thy seed as the dust of the earth, so that if a man can number the dust of the earth, thy seed also may be numbered.",
+        "Lift up now thine eyes and look; for all the land which thou art looking upon, to thee will I give it; and I will make thy seed as the dust of the earth, so this if a man can number the dust of the earth, thy seed also may be numbered."
       ],
       "answer": "Lift up now thine eyes and look; for all the land which thou art looking upon, to thee will I give it; and I will make thy seed as the dust of the earth, so that if a man can number the dust of the earth, thy seed also may be numbered.",
       "optionIsScript": false,
@@ -1341,8 +1341,8 @@
       "stimulus": "וַיֹּאמֶר פַּרְעֹה לֵךְ מֵעָלָי הִשָּׁמֶר לְךָ אַל־תֹּסֶף רְאוֹת פָּנַי כִּי בְּיוֹם רְאֹתְךָ פָּנַי תָּמוּת",
       "stimulusIsScript": true,
       "options": [
+        "And Pharaoh said, Depart from me, take heed to thyself, see my face no more; for in the day thou seest my face I shalt die.",
         "And Pharaoh said, Depart in me, take heed to thyself, see my face no more; for in the day thou seest my face thou shalt die.",
-        "And Pharaoh said, Depart from me, take heed to thyself, see my face no more; for in a day thou seest my face thou shalt die.",
         "And Pharaoh said, Depart from me, take heed to thyself, see his face no more; for in the day thou seest my face thou shalt die.",
         "And Pharaoh said, Depart from me, take heed to thyself, see my face no more; for in the day thou seest my face thou shalt die."
       ],
@@ -1865,8 +1865,8 @@
       "prompt": "Is this the right translation?",
       "stimulus": "לֹא אוּכַל לַעֲשׂוֹת דָּבָר עַד־בֹּאֲךָ שָׁמָּה",
       "stimulusIsScript": true,
-      "statement": "I am able to do (any)thing until thou come thither.",
-      "answer": false,
+      "statement": "I am not able to do (any)thing until thou come thither.",
+      "answer": true,
       "expected": "I am not able to do (any)thing until thou come thither.",
       "block": "s44",
       "blockLabel": "Davidson §44",
@@ -1883,9 +1883,9 @@
       "stimulusIsScript": true,
       "options": [
         "I am able to do (any)thing until thou come thither.",
-        "Lift up now thine eyes and look; for all the land which thou art looking upon, to thee will I give it; and I will make thy seed as the dust of the earth, so that if a man can number the dust of the earth, thy seed also may be numbered.",
-        "And Pharaoh said, Depart from me, take heed to thyself, see my face no more; for in the day thou seest my face thou shalt die.",
-        "I am not able to do (any)thing until thou come thither."
+        "I am not able to do (any)thing until thou come thither.",
+        "We are not able to do (any)thing until thou come thither.",
+        "I am not able to do (any)thing until she come thither."
       ],
       "answer": "I am not able to do (any)thing until thou come thither.",
       "optionIsScript": false,
@@ -2043,8 +2043,8 @@
       "prompt": "Is this the right translation?",
       "stimulus": "צִוִּיתִיךָ לְבִלְתִּי אֲכָל מִן־הָעֵץ אֲשֶׁר בְּתוֹךְ הַגָּן פֶּן־תָּמוּת",
       "stimulusIsScript": true,
-      "statement": "I have commanded him not to eat of the tree which is in the midst of the garden, lest thou die.",
-      "answer": false,
+      "statement": "I have commanded thee not to eat of the tree which is in the midst of the garden, lest thou die.",
+      "answer": true,
       "expected": "I have commanded thee not to eat of the tree which is in the midst of the garden, lest thou die.",
       "block": "s44",
       "blockLabel": "Davidson §44",
@@ -2060,10 +2060,10 @@
       "stimulus": "צִוִּיתִיךָ לְבִלְתִּי אֲכָל מִן־הָעֵץ אֲשֶׁר בְּתוֹךְ הַגָּן פֶּן־תָּמוּת",
       "stimulusIsScript": true,
       "options": [
-        "I have commanded thee not to eat of the tree which is from the midst of the garden, lest thou die.",
+        "I have commanded thee to eat of the tree which is in the midst of the garden, lest thou die.",
         "I have commanded thee not to eat of the tree which is in the midst of the garden, lest thou die.",
-        "I have commanded him not to eat of the tree which is in the midst of the garden, lest thou die.",
-        "I have commanded thee to eat of the tree which is in the midst of the garden, lest thou die."
+        "I have commanded thee not to eat of the tree which is to the midst of the garden, lest thou die.",
+        "I have commanded thee not to eat of the tree which is in the midst of a garden, lest thou die."
       ],
       "answer": "I have commanded thee not to eat of the tree which is in the midst of the garden, lest thou die.",
       "optionIsScript": false,
@@ -2078,10 +2078,10 @@
       "rungLabel": "Fill in",
       "type": "translate-phrase",
       "prompt": "Fill in the missing word: I have commanded thee not to eat of the tree which is in the midst of the garden, lest thou die.",
-      "stimulus": "צִוִּיתִיךָ ＿＿＿ אֲכָל מִן־הָעֵץ אֲשֶׁר בְּתוֹךְ הַגָּן פֶּן־תָּמוּת",
+      "stimulus": "צִוִּיתִיךָ לְבִלְתִּי אֲכָל מִן־הָעֵץ אֲשֶׁר בְּתוֹךְ הַגָּן ＿＿＿",
       "stimulusIsScript": true,
       "accepted": [
-        "לְבִלְתִּי"
+        "פֶּן־תָּמוּת"
       ],
       "answerIsScript": true,
       "block": "s44",
@@ -2149,8 +2149,8 @@
       "stimulus": "כִּי־אַתָּה יְהוָה צְבָאוֹת אֱלֹהֵי יִשְׂרָאֵל גָּלִיתָה אֶת־אֹזֶן עַבְדְּךָ לֵאמֹר בַּיִת אֶבְנֶה־לָּךְ",
       "stimulusIsScript": true,
       "options": [
-        "For thou, Yahweh of hosts, God of Israel, hast opened the ear of thy servant saying, The house will I build for thee.",
         "For thou, Yahweh of hosts, God of Israel, hast opened the ear of his servant saying, A house will I build for thee.",
+        "For thou, Yahweh of hosts, God of Israel, hast opened an ear of thy servant saying, A house will I build for thee.",
         "For thou, Yahweh of hosts, God of Israel, hast opened the ear of thy servant saying, A house will I build for thee.",
         "For thou, Yahweh of hosts, God of Israel, hast opened the ear of thy servant saying, A house will they build for thee."
       ],
@@ -2167,10 +2167,10 @@
       "rungLabel": "Fill in",
       "type": "translate-phrase",
       "prompt": "Fill in the missing word: For thou, Yahweh of hosts, God of Israel, hast opened the ear of thy servant saying, A house will I build for thee.",
-      "stimulus": "＿＿＿ יְהוָה צְבָאוֹת אֱלֹהֵי יִשְׂרָאֵל גָּלִיתָה אֶת־אֹזֶן עַבְדְּךָ לֵאמֹר בַּיִת אֶבְנֶה־לָּךְ",
+      "stimulus": "כִּי־אַתָּה יְהוָה ＿＿＿ אֱלֹהֵי יִשְׂרָאֵל גָּלִיתָה אֶת־אֹזֶן עַבְדְּךָ לֵאמֹר בַּיִת אֶבְנֶה־לָּךְ",
       "stimulusIsScript": true,
       "accepted": [
-        "כִּי־אַתָּה"
+        "צְבָאוֹת"
       ],
       "answerIsScript": true,
       "block": "s44",
@@ -2869,10 +2869,10 @@
       "stimulus": "וְעַתָּה לֵךְ וְאָנֹכִי אֶהְיֶה עִם־פִּיךָ וְהוֹרֵיתִיךָ אֲשֶׁר תְּדַבֵּר",
       "stimulusIsScript": true,
       "options": [
+        "And now go, and I, from my part, will be with thy mouth, and teach thee what thou shalt speak.",
         "And now go, and I, on my part, will be with his mouth, and teach thee what thou shalt speak.",
-        "And now go, and I, on my part, will be with thy mouth, and teach him what thou shalt speak.",
         "And now go, and I, on my part, will be with thy mouth, and teach thee what thou shalt speak.",
-        "And now go, and they, on my part, will be with thy mouth, and teach thee what thou shalt speak."
+        "And now go, and I, on my part, will be with thy mouth, and teach thee what she shalt speak."
       ],
       "answer": "And now go, and I, on my part, will be with thy mouth, and teach thee what thou shalt speak.",
       "optionIsScript": false,
@@ -3841,8 +3841,8 @@
       "prompt": "Is this the right translation?",
       "stimulus": "עוֹד הוּא מְדַבֵּר וְאֶחָד מֵעֲבָדָיו בָּא וַיֹּאמַר נִדְמִינוּ כֻּלָּנוּ",
       "stimulusIsScript": true,
-      "statement": "While he was yet speaking one of his servants came and said, We are undone—all of us.",
-      "answer": true,
+      "statement": "While he was yet speaking one of her servants came and said, We are undone—all of us.",
+      "answer": false,
       "expected": "While he was yet speaking one of his servants came and said, We are undone—all of us.",
       "block": "s46",
       "blockLabel": "Davidson §46",
@@ -3858,10 +3858,10 @@
       "stimulus": "עוֹד הוּא מְדַבֵּר וְאֶחָד מֵעֲבָדָיו בָּא וַיֹּאמַר נִדְמִינוּ כֻּלָּנוּ",
       "stimulusIsScript": true,
       "options": [
-        "While she was yet speaking one of his servants came and said, We are undone—all of us.",
+        "While he was yet speaking one of his servants came and said, We are undone—all of me.",
         "While he was yet speaking one of his servants came and said, We are undone—all of us.",
-        "While he was yet speaking one of his servants came and said, We are undone—all of them.",
-        "While he was yet speaking one of their servants came and said, We are undone—all of us."
+        "While she was yet speaking one of his servants came and said, We are undone—all of us.",
+        "While he was yet speaking one of her servants came and said, We are undone—all of us."
       ],
       "answer": "While he was yet speaking one of his servants came and said, We are undone—all of us.",
       "optionIsScript": false,
@@ -4383,8 +4383,8 @@
       "prompt": "Is this the right translation?",
       "stimulus": "לֹא־יָמוּשׁ סֵפֶר הַתּוֹרָה הַזֶּה מִפִּיךָ וְהָגִיתָ בּוֹ יוֹמָם וָלַיְלָה לְמַעַן תִּשְׁמֹר לַעֲשׂוֹת כְּכָל־הַכָּתוּב בּוֹ וְדִבַּרְתָּ בּוֹ לְבָנֶיךָ אַחֲרֶיךָ בְּשִׁבְתְּךָ בְּבֵיתֶךָ וּבְלֶכְתְּךָ בַדָּרֶךְ",
       "stimulusIsScript": true,
-      "statement": "This book of the law shall not depart out of thy mouth, but thou shalt meditate therein day and night, in order that thou thyself mayst observe to do according to all that is written therein, and that thou mayst speak of it to thy children after thee, when thou sittest from thine house and when thou walkest by the way.",
-      "answer": false,
+      "statement": "This book of the law shall not depart out of thy mouth, but thou shalt meditate therein day and night, in order that thou thyself mayst observe to do according to all that is written therein, and that thou mayst speak of it to thy children after thee, when thou sittest in thine house and when thou walkest by the way.",
+      "answer": true,
       "expected": "This book of the law shall not depart out of thy mouth, but thou shalt meditate therein day and night, in order that thou thyself mayst observe to do according to all that is written therein, and that thou mayst speak of it to thy children after thee, when thou sittest in thine house and when thou walkest by the way.",
       "block": "s49",
       "blockLabel": "Davidson §49",
@@ -4400,10 +4400,10 @@
       "stimulus": "לֹא־יָמוּשׁ סֵפֶר הַתּוֹרָה הַזֶּה מִפִּיךָ וְהָגִיתָ בּוֹ יוֹמָם וָלַיְלָה לְמַעַן תִּשְׁמֹר לַעֲשׂוֹת כְּכָל־הַכָּתוּב בּוֹ וְדִבַּרְתָּ בּוֹ לְבָנֶיךָ אַחֲרֶיךָ בְּשִׁבְתְּךָ בְּבֵיתֶךָ וּבְלֶכְתְּךָ בַדָּרֶךְ",
       "stimulusIsScript": true,
       "options": [
-        "This book of the law shall not depart out of thy mouth, but thou shalt meditate therein day and night, in order that thou thyself mayst observe to do according to all that is written therein, and that thou mayst speak of it to thy children after thee, when thou sittest in thine house and when thou walkest by a way.",
         "This book of the law shall not depart out of thy mouth, but thou shalt meditate therein day and night, in order that thou thyself mayst observe to do according to all that is written therein, and that thou mayst speak of it to thy children after thee, when thou sittest in thine house and when thou walkest by the way.",
-        "This book of the law shall not depart out of thy mouth, but thou shalt meditate therein day and night, in order that thou thyself mayst observe to do according to all that is written therein, and that thou mayst speak of it to his children after thee, when thou sittest in thine house and when thou walkest by the way.",
-        "This book of the law shall not depart out of thy mouth, but thou shalt meditate therein day and night, in order that thou thyself mayst observe to do according to all that is written therein, and that thou mayst speak of it to thy children after thee, when thou sittest from thine house and when thou walkest by the way."
+        "This book of the law shall not depart out of thy mouth, but thou shalt meditate therein day and night, in order that thou thyself mayst observe to do according to all that is written therein, and that thou mayst speak of it to my children after thee, when thou sittest in thine house and when thou walkest by the way.",
+        "This book of the law shall not depart out of thy mouth, but thou shalt meditate therein day and night, in order that thou thyself mayst observe to do according to all that is written therein, and that thou mayst speak of it to thy children after thee, when thou sittest from thine house and when thou walkest by the way.",
+        "This book of the law shall not depart out of thy mouth, but thou shalt meditate therein day and night, in order that thou thyself mayst observe to do according to all that is written therein, and that she mayst speak of it to thy children after thee, when thou sittest in thine house and when thou walkest by the way."
       ],
       "answer": "This book of the law shall not depart out of thy mouth, but thou shalt meditate therein day and night, in order that thou thyself mayst observe to do according to all that is written therein, and that thou mayst speak of it to thy children after thee, when thou sittest in thine house and when thou walkest by the way.",
       "optionIsScript": false,
@@ -4418,10 +4418,10 @@
       "rungLabel": "Fill in",
       "type": "translate-phrase",
       "prompt": "Fill in the missing word: This book of the law shall not depart out of thy mouth, but thou shalt meditate therein day and night, in order that thou thyself mayst observe to do according to all that is written therein, and that thou mayst speak of it to thy children after thee, when thou sittest in thine house and when thou walkest by the way.",
-      "stimulus": "לֹא־יָמוּשׁ סֵפֶר הַתּוֹרָה הַזֶּה מִפִּיךָ וְהָגִיתָ בּוֹ יוֹמָם וָלַיְלָה לְמַעַן תִּשְׁמֹר לַעֲשׂוֹת כְּכָל־הַכָּתוּב בּוֹ וְדִבַּרְתָּ בּוֹ לְבָנֶיךָ אַחֲרֶיךָ בְּשִׁבְתְּךָ בְּבֵיתֶךָ ＿＿＿ בַדָּרֶךְ",
+      "stimulus": "＿＿＿ סֵפֶר הַתּוֹרָה הַזֶּה מִפִּיךָ וְהָגִיתָ בּוֹ יוֹמָם וָלַיְלָה לְמַעַן תִּשְׁמֹר לַעֲשׂוֹת כְּכָל־הַכָּתוּב בּוֹ וְדִבַּרְתָּ בּוֹ לְבָנֶיךָ אַחֲרֶיךָ בְּשִׁבְתְּךָ בְּבֵיתֶךָ וּבְלֶכְתְּךָ בַדָּרֶךְ",
       "stimulusIsScript": true,
       "accepted": [
-        "וּבְלֶכְתְּךָ"
+        "לֹא־יָמוּשׁ"
       ],
       "answerIsScript": true,
       "block": "s49",

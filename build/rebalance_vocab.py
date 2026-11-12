@@ -48,15 +48,35 @@ def exercise_words(course):
     return words
 
 
-def first_use(form, words):
-    key = consonants(form)
+def defective(key):
+    return key[:-2] + "ת" if key.endswith("ות") and len(key) >= 4 else key
+
+
+def row_keys(row):
+    base = consonants(row["scriptForm"])
+    keys = {base, consonants(row.get("plural") or "")} - {""}
+    keys |= {defective(k) for k in keys - {base}}
+    inflected = set()
+    if row["category"] == "adjective" and len(base) >= 2:
+        inflected = {base + "ה", base + "ימ", base + "ות", base + "ת"} - keys
+    return keys, inflected
+
+
+def row_first_use(row, words):
+    keys, inflected = row_keys(row)
+    uses = [first_use(k, words) for k in keys] + [first_use(k, words, prefixed=False) for k in inflected]
+    uses = [u for u in uses if u is not None]
+    return min(uses) if uses else None
+
+
+def first_use(key, words, prefixed=True):
     if not key:
         return None
     if len(key) == 1:
         return min(words) if words else None
     for unit in sorted(words):
         found = words[unit]
-        if key in found or (len(key) >= 2 and any(p + key in found for p in PREFIXES)):
+        if key in found or (prefixed and len(key) >= 2 and any(p + key in found for p in PREFIXES)):
             return unit
     return None
 
@@ -117,7 +137,7 @@ def make_groups(rows, words, layout, last):
         groups.setdefault(key, []).append(row)
     pending = []
     for (_, _, topic), members in sorted(groups.items(), key=lambda kv: kv[1][0]["id"]):
-        uses = [u for u in (first_use(r["scriptForm"], words) for r in members) if u is not None]
+        uses = [u for u in (row_first_use(r, words) for r in members) if u is not None]
         release = topic or first
         if uses and min(uses) < release:
             release = first
@@ -228,6 +248,7 @@ def main():
     words = exercise_words(course)
     layout = json.loads(Path(args.layout).read_text(encoding="utf-8"))
     first = layout["first"]
+    words = {u: w for u, w in words.items() if u >= first}
     assigned, target = plan(rows, words, layout, last)
     by_unit = ordered(rows, assigned)
     outputs = {csv_path: render_csv(header, rows, assigned, by_unit)}
@@ -236,7 +257,7 @@ def main():
         outputs[path] = render_chapter(text, int(path.stem), by_unit)
     stale = [p for p, t in outputs.items() if p.read_text(encoding="utf-8") != t]
     late = [r["id"] for r in rows if r["id"] not in layout["pinned"]
-            and (u := first_use(r["scriptForm"], words)) is not None and assigned[r["id"]] > u]
+            and (u := row_first_use(r, words)) is not None and assigned[r["id"]] > u]
     counts = {u: len(by_unit.get(u, [])) for u in range(first, last + 1)}
     print(f"target {target}/unit; units {first}-{last}: min {min(counts.values())}, "
           f"max {max(counts.values())}; taught after first use: {len(late)}")

@@ -1,0 +1,479 @@
+{
+  "schema": "authored-exercises-v1.json",
+  "unit": 10,
+  "sources": {
+    "r10-1": {
+      "citation": "Written for this course on Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), §10",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n57/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n57.jpg"
+    },
+    "r10-2": {
+      "citation": "Written for this course on Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), §10",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n57/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n57.jpg"
+    },
+    "r10-3": {
+      "citation": "Written for this course on Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), §10",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n57/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n57.jpg"
+    },
+    "r10-4": {
+      "citation": "Written for this course on Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), §10",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n57/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n57.jpg"
+    },
+    "r10-5": {
+      "citation": "Written for this course on Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), §10",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n57/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n57.jpg"
+    },
+    "r10-6": {
+      "citation": "Written for this course on Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), §10",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n57/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n57.jpg"
+    },
+    "r10-7": {
+      "citation": "Written for this course on Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), §10",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n57/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n57.jpg"
+    },
+    "r10-8": {
+      "citation": "Written for this course on Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), §10",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n57/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n57.jpg"
+    },
+    "r10-9": {
+      "citation": "Written for this course on Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), §10",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n57/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n57.jpg"
+    }
+  },
+  "items": [
+    {
+      "id": "r10-1.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "אָרֶץ",
+      "stimulusIsScript": true,
+      "statement": "This is the contextual form (in the body of the verse).",
+      "answer": false,
+      "expected": "This is the pausal form (at a verse break).",
+      "block": "r10",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r10-1"
+    },
+    {
+      "id": "r10-1.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Is this the pausal form or the contextual form?",
+      "stimulus": "אָרֶץ",
+      "stimulusIsScript": true,
+      "options": [
+        "the pausal form (at a verse break)",
+        "the contextual form (in the body of the verse)"
+      ],
+      "answer": "the pausal form (at a verse break)",
+      "optionIsScript": false,
+      "block": "r10",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r10-1"
+    },
+    {
+      "id": "r10-1.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Type the contextual form (in the body of the verse), with vowel points",
+      "stimulus": "אָרֶץ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶרֶץ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "r10",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r10-1"
+    },
+    {
+      "id": "r10-2.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "אֶרֶץ",
+      "stimulusIsScript": true,
+      "statement": "This is the contextual form (in the body of the verse).",
+      "answer": true,
+      "expected": "This is the contextual form (in the body of the verse).",
+      "block": "r10",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r10-2"
+    },
+    {
+      "id": "r10-2.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Is this the pausal form or the contextual form?",
+      "stimulus": "אֶרֶץ",
+      "stimulusIsScript": true,
+      "options": [
+        "the pausal form (at a verse break)",
+        "the contextual form (in the body of the verse)"
+      ],
+      "answer": "the contextual form (in the body of the verse)",
+      "optionIsScript": false,
+      "block": "r10",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r10-2"
+    },
+    {
+      "id": "r10-2.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Type the pausal form (at a verse break), with vowel points",
+      "stimulus": "אֶרֶץ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אָרֶץ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "r10",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r10-2"
+    },
+    {
+      "id": "r10-3.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "מָיִם",
+      "stimulusIsScript": true,
+      "statement": "This is the pausal form (at a verse break).",
+      "answer": true,
+      "expected": "This is the pausal form (at a verse break).",
+      "block": "r10",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r10-3"
+    },
+    {
+      "id": "r10-3.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Is this the pausal form or the contextual form?",
+      "stimulus": "מָיִם",
+      "stimulusIsScript": true,
+      "options": [
+        "the contextual form (in the body of the verse)",
+        "the pausal form (at a verse break)"
+      ],
+      "answer": "the pausal form (at a verse break)",
+      "optionIsScript": false,
+      "block": "r10",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r10-3"
+    },
+    {
+      "id": "r10-3.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Type the contextual form (in the body of the verse), with vowel points",
+      "stimulus": "מָיִם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "מַיִם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "r10",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r10-3"
+    },
+    {
+      "id": "r10-4.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "לַיְלָה",
+      "stimulusIsScript": true,
+      "statement": "This is the pausal form (at a verse break).",
+      "answer": false,
+      "expected": "This is the contextual form (in the body of the verse).",
+      "block": "r10",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r10-4"
+    },
+    {
+      "id": "r10-4.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Is this the pausal form or the contextual form?",
+      "stimulus": "לַיְלָה",
+      "stimulusIsScript": true,
+      "options": [
+        "the contextual form (in the body of the verse)",
+        "the pausal form (at a verse break)"
+      ],
+      "answer": "the contextual form (in the body of the verse)",
+      "optionIsScript": false,
+      "block": "r10",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r10-4"
+    },
+    {
+      "id": "r10-4.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Type the pausal form (at a verse break), with vowel points",
+      "stimulus": "לַיְלָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "לָיְלָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "r10",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r10-4"
+    },
+    {
+      "id": "r10-5.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "אָתָּה",
+      "stimulusIsScript": true,
+      "statement": "This is the pausal form (at a verse break).",
+      "answer": true,
+      "expected": "This is the pausal form (at a verse break).",
+      "block": "r10",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r10-5"
+    },
+    {
+      "id": "r10-5.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Is this the pausal form or the contextual form?",
+      "stimulus": "אָתָּה",
+      "stimulusIsScript": true,
+      "options": [
+        "the contextual form (in the body of the verse)",
+        "the pausal form (at a verse break)"
+      ],
+      "answer": "the pausal form (at a verse break)",
+      "optionIsScript": false,
+      "block": "r10",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r10-5"
+    },
+    {
+      "id": "r10-5.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Type the contextual form (in the body of the verse), with vowel points",
+      "stimulus": "אָתָּה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אַתָּה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "r10",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r10-5"
+    },
+    {
+      "id": "r10-6.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "כֶּסֶף",
+      "stimulusIsScript": true,
+      "statement": "This is the pausal form (at a verse break).",
+      "answer": false,
+      "expected": "This is the contextual form (in the body of the verse).",
+      "block": "r10",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r10-6"
+    },
+    {
+      "id": "r10-6.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Is this the pausal form or the contextual form?",
+      "stimulus": "כֶּסֶף",
+      "stimulusIsScript": true,
+      "options": [
+        "the contextual form (in the body of the verse)",
+        "the pausal form (at a verse break)"
+      ],
+      "answer": "the contextual form (in the body of the verse)",
+      "optionIsScript": false,
+      "block": "r10",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r10-6"
+    },
+    {
+      "id": "r10-6.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Type the pausal form (at a verse break), with vowel points",
+      "stimulus": "כֶּסֶף",
+      "stimulusIsScript": true,
+      "accepted": [
+        "כָּסֶף"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "r10",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r10-6"
+    },
+    {
+      "id": "r10-7.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "מָיִם",
+      "stimulusIsScript": true,
+      "statement": "In pause, a vocal shewa has become a full vowel.",
+      "answer": false,
+      "expected": "In pause, the stressed vowel has lengthened.",
+      "block": "r10",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r10-7"
+    },
+    {
+      "id": "r10-7.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "This is מַיִם (water) in pause. What has changed?",
+      "stimulus": "מָיִם",
+      "stimulusIsScript": true,
+      "options": [
+        "a vocal shewa has become a full vowel",
+        "the consonants have changed",
+        "the stressed vowel has lengthened"
+      ],
+      "answer": "the stressed vowel has lengthened",
+      "optionIsScript": false,
+      "block": "r10",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r10-7"
+    },
+    {
+      "id": "r10-8.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "קָטָלָה",
+      "stimulusIsScript": true,
+      "statement": "In pause, a vocal shewa has become a full, stressed vowel.",
+      "answer": true,
+      "expected": "In pause, a vocal shewa has become a full, stressed vowel.",
+      "block": "r10",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r10-8"
+    },
+    {
+      "id": "r10-8.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "This is קָטְלָה (she killed) in pause. What has changed?",
+      "stimulus": "קָטָלָה",
+      "stimulusIsScript": true,
+      "options": [
+        "the stressed vowel has lengthened",
+        "the consonants have changed",
+        "a vocal shewa has become a full, stressed vowel"
+      ],
+      "answer": "a vocal shewa has become a full, stressed vowel",
+      "optionIsScript": false,
+      "block": "r10",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r10-8"
+    },
+    {
+      "id": "r10-9.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "אָתָּה",
+      "stimulusIsScript": true,
+      "statement": "In pause, a vocal shewa has become a full vowel.",
+      "answer": false,
+      "expected": "In pause, the stress has moved back to the first syllable, which has lengthened.",
+      "block": "r10",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r10-9"
+    },
+    {
+      "id": "r10-9.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "This is אַתָּה (you) in pause. What has changed?",
+      "stimulus": "אָתָּה",
+      "stimulusIsScript": true,
+      "options": [
+        "a vocal shewa has become a full vowel",
+        "the consonants have changed",
+        "the stress has moved back to the first syllable, which has lengthened"
+      ],
+      "answer": "the stress has moved back to the first syllable, which has lengthened",
+      "optionIsScript": false,
+      "block": "r10",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r10-9"
+    }
+  ]
+}

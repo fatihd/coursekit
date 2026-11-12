@@ -2367,8 +2367,8 @@
       "prompt": "Is this the right translation?",
       "stimulus": "כֹּה אָמַר יהוה אֲנִי מַרְעִישׁ אֶת־כָּל־הַגּוֹיִם וּמִלֵּאתִי אֶת־הַבַּיִת הַזֶּה כָּבוֹד",
       "stimulusIsScript": true,
-      "statement": "Thus saith Yahweh, I am about to shake all the nations, and I will fill this house with glory.",
-      "answer": true,
+      "statement": "Thus saith Yahweh, we are about to shake all the nations, and I will fill this house with glory.",
+      "answer": false,
       "expected": "Thus saith Yahweh, I am about to shake all the nations, and I will fill this house with glory.",
       "block": "s38",
       "blockLabel": "Davidson §38",
@@ -2384,10 +2384,10 @@
       "stimulus": "כֹּה אָמַר יהוה אֲנִי מַרְעִישׁ אֶת־כָּל־הַגּוֹיִם וּמִלֵּאתִי אֶת־הַבַּיִת הַזֶּה כָּבוֹד",
       "stimulusIsScript": true,
       "options": [
+        "Thus saith Yahweh, we are about to shake all the nations, and I will fill this house with glory.",
+        "Thus saith Yahweh, I am about to shake all nations, and I will fill this house with glory.",
         "Thus saith Yahweh, I am about to shake all the nations, and I will fill that house with glory.",
-        "Thus saith Yahweh, I am about to shake all the nations, and we will fill this house with glory.",
-        "Thus saith Yahweh, I am about to shake all the nations, and I will fill this house with glory.",
-        "Thus saith Yahweh, I am about to shake all nations, and I will fill this house with glory."
+        "Thus saith Yahweh, I am about to shake all the nations, and I will fill this house with glory."
       ],
       "answer": "Thus saith Yahweh, I am about to shake all the nations, and I will fill this house with glory.",
       "optionIsScript": false,
@@ -2840,8 +2840,8 @@
       "stimulusIsScript": true,
       "options": [
         "I am full (perf.) of the spirit of judgment and of power, to tell to Jacob his transgression and to Israel his sin.",
-        "I am full (perf.) of the spirit of judgment and of power, to tell to Jacob his transgression and in Israel his sin.",
         "I am full (perf.) of the spirit of judgment and of power, to tell to Jacob their transgression and to Israel his sin.",
+        "We are full (perf.) of the spirit of judgment and of power, to tell to Jacob his transgression and to Israel his sin.",
         "I am full (perf.) of a spirit of judgment and of power, to tell to Jacob his transgression and to Israel his sin."
       ],
       "answer": "I am full (perf.) of the spirit of judgment and of power, to tell to Jacob his transgression and to Israel his sin.",
@@ -3000,8 +3000,8 @@
       "prompt": "Is this the right translation?",
       "stimulus": "הַמְצָאתַנִי אֹיְבִי וַיֹּאמֶר מְצָאתִיךָ",
       "stimulusIsScript": true,
-      "statement": "Hast thou found-me, mine enemy? and he said, I have found-him.",
-      "answer": false,
+      "statement": "Hast thou found-me, mine enemy? and he said, I have found-thee.",
+      "answer": true,
       "expected": "Hast thou found-me, mine enemy? and he said, I have found-thee.",
       "block": "s38",
       "blockLabel": "Davidson §38",
@@ -3017,10 +3017,10 @@
       "stimulus": "הַמְצָאתַנִי אֹיְבִי וַיֹּאמֶר מְצָאתִיךָ",
       "stimulusIsScript": true,
       "options": [
-        "Hast thou found-me, mine enemy? and he said, I have found-thee.",
-        "Hast thou found-us, mine enemy? and he said, I have found-thee.",
+        "Hast thou found-me, mine enemy? and she said, I have found-thee.",
         "Hast thou found-me, mine enemy? and he said, I have found-him.",
-        "Hast thou found-me, mine enemy? and she said, I have found-thee."
+        "Hast thou found-me, mine enemy? and he said, I have found-thee.",
+        "Hast thou found-us, mine enemy? and he said, I have found-thee."
       ],
       "answer": "Hast thou found-me, mine enemy? and he said, I have found-thee.",
       "optionIsScript": false,
@@ -3356,7 +3356,7 @@
       "prompt": "Is this the right translation?",
       "stimulus": "תֶּאֱהַב אֶת־אֹיִבְךָ לֹא תִשְׂנָאֵהוּ בִּלְבָבֶךָ",
       "stimulusIsScript": true,
-      "statement": "Thou shalt love thine enemy, thou shalt not hate them in thy heart.",
+      "statement": "Thou shalt love their enemy, thou shalt not hate him in thy heart.",
       "answer": false,
       "expected": "Thou shalt love thine enemy, thou shalt not hate him in thy heart.",
       "block": "s38",
@@ -3373,10 +3373,10 @@
       "stimulus": "תֶּאֱהַב אֶת־אֹיִבְךָ לֹא תִשְׂנָאֵהוּ בִּלְבָבֶךָ",
       "stimulusIsScript": true,
       "options": [
-        "Thou shalt love thine enemy, thou shalt not hate him from thy heart.",
-        "Thou shalt love thine enemy, thou shalt not hate them in thy heart.",
-        "Thou shalt love my enemy, thou shalt not hate him in thy heart.",
-        "Thou shalt love thine enemy, thou shalt not hate him in thy heart."
+        "Thou shalt love thine enemy, thou shalt not hate him in thy heart.",
+        "I shalt love thine enemy, thou shalt not hate him in thy heart.",
+        "Thou shalt love their enemy, thou shalt not hate him in thy heart.",
+        "Thou shalt love thine enemy, thou shalt not hate them in thy heart."
       ],
       "answer": "Thou shalt love thine enemy, thou shalt not hate him in thy heart.",
       "optionIsScript": false,
@@ -3391,10 +3391,10 @@
       "rungLabel": "Fill in",
       "type": "translate-phrase",
       "prompt": "Fill in the missing word: Thou shalt love thine enemy, thou shalt not hate him in thy heart.",
-      "stimulus": "תֶּאֱהַב אֶת־אֹיִבְךָ לֹא תִשְׂנָאֵהוּ ＿＿＿",
+      "stimulus": "תֶּאֱהַב ＿＿＿ לֹא תִשְׂנָאֵהוּ בִּלְבָבֶךָ",
       "stimulusIsScript": true,
       "accepted": [
-        "בִּלְבָבֶךָ"
+        "אֶת־אֹיִבְךָ"
       ],
       "answerIsScript": true,
       "block": "s38",

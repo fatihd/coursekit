@@ -128,10 +128,10 @@
       "stimulus": "הַיּוֹם",
       "stimulusIsScript": true,
       "options": [
-        "The night and the day",
-        "To-day",
         "The man and the woman",
-        "The night"
+        "To-day",
+        "The to-day",
+        "The night and the day"
       ],
       "answer": "To-day",
       "optionIsScript": false,
@@ -782,8 +782,8 @@
       "prompt": "Is this the right translation?",
       "stimulus": "יַרְכָתַיִם",
       "stimulusIsScript": true,
-      "statement": "I counted the stars which God has set in the heavens.",
-      "answer": false,
+      "statement": "(Two) sides",
+      "answer": true,
       "expected": "(Two) sides",
       "block": "s16",
       "blockLabel": "Davidson §16",
@@ -800,9 +800,9 @@
       "stimulusIsScript": true,
       "options": [
         "(Two) sides",
-        "The just are as the stars which (are) in the firmament.",
-        "I counted the stars which God has set in the heavens.",
-        "Bread he ate and water he drank."
+        "A side",
+        "The sides",
+        "(Some) sides"
       ],
       "answer": "(Two) sides",
       "optionIsScript": false,

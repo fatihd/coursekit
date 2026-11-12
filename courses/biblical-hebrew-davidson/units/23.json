@@ -1,104 +1,65 @@
 {
   "schema": "unit-lesson-v1.json",
   "unit": 23,
-  "title": "Independent Prepositions",
-  "description": "Read prepositions that stand as separate words.",
+  "title": "Suffixes on Prepositions",
+  "description": "Read pronoun objects attached to prepositions.",
   "teaches": [
-    "he-dav-40-001",
-    "he-dav-34-001",
-    "he-dav-34-010",
-    "he-dav-17-003",
-    "he-dav-09-032",
-    "he-dav-39-001",
-    "he-dav-10-013",
-    "he-dav-09-036",
-    "he-dav-09-003",
-    "he-dav-21-024",
-    "he-dav-18-002",
-    "he-dav-21-010",
-    "he-dav-35-002",
-    "he-dav-09-099"
+    "he-dav-44-013",
+    "he-dav-18-012",
+    "he-dav-15-003",
+    "he-dav-15-005",
+    "he-dav-15-004",
+    "he-dav-09-028",
+    "he-dav-10-012",
+    "he-dav-56-006"
   ],
   "assumes": [
-    "he-dav-51-022",
-    "he-dav-51-013",
-    "he-dav-15-001",
-    "he-dav-10-008",
-    "he-dav-51-008",
-    "he-dav-20-003",
-    "he-dav-18-009",
-    "he-dav-18-014",
-    "he-dav-09-010",
-    "he-dav-38-002"
+    "he-dav-18-010",
+    "he-dav-52-001",
+    "he-dav-39-008",
+    "he-dav-09-056",
+    "he-dav-51-015",
+    "he-dav-21-007",
+    "he-dav-13-007",
+    "he-dav-13-018"
   ],
   "blocks": [
     {
       "type": "prose",
       "caption": "Summary",
-      "html": "<p>Besides the prefixes בְּ, לְ, and כְּ, Hebrew has prepositions that stand as words: מִן (from), עַל (upon), אֶל (to), עִם (with), תַּחַת (under). Short ones are joined to their noun by maqqef, and מִן often shrinks to a prefix מִ- with the next consonant doubled.</p>"
-    },
-    {
-      "type": "table",
-      "caption": "Independent prepositions",
-      "columns": [
-        "Form",
-        "Meaning"
-      ],
-      "rows": [
-        [
-          "מִן",
-          "from"
-        ],
-        [
-          "עַל",
-          "upon, over"
-        ],
-        [
-          "אֶל",
-          "to, toward"
-        ],
-        [
-          "עִם",
-          "with"
-        ],
-        [
-          "תַּחַת",
-          "under"
-        ]
-      ]
+      "html": "<p>The same suffixes on a preposition give its object: לִי (to me), בּוֹ (in him), עִמּוֹ (with him). Some prepositions take the suffixes in the form used with plural nouns: עָלַי (upon me), אֵלָיו (to him), לְפָנֶיךָ (before you).</p>"
     },
     {
       "type": "prose",
-      "caption": "Independent prepositions",
-      "html": "<p>Read מִן, עַל, אֶל, עִם, and תַּחַת as separate words that relate a noun to the rest of the sentence: עַל הַר (on a mountain), אֶל הָעִיר (to the city), עִם הָעָם (with the people). They often take pronominal suffixes like the prefixed prepositions, giving forms such as עָלַי (upon me) and עִמּוֹ (with him).</p><p>Unlike בְּ, לְ, and כְּ, these prepositions stand as independent words before a noun. Their meanings are broad and context-sensitive: מִן can mean “from” or “out of,” עַל can express position or relation, and אֶל commonly marks direction or a goal. Read the preposition with the noun it governs, then fit that phrase into the clause; do not assume one English equivalent works in every context. When a preposition governs a pronoun, Hebrew normally attaches a pronominal suffix rather than placing an independent pronoun immediately after it.</p><p>The short form מִן also shows a sound change that Davidson describes as assimilation: its final nun merges with the following consonant, which is then strengthened. This is why the surface form may not look like the citation form מִן. Before a guttural, which cannot take ordinary doubling, the form behaves differently. When reading, use the following consonant and the phrase&#x27;s meaning to recognize the preposition rather than searching only for the full word מִן.</p>"
+      "caption": "Prepositional suffixes",
+      "html": "<p>The same suffixes on a preposition give the object of that preposition: לְ becomes לִי (to me), לְךָ (to you), לוֹ (to him); בְּ becomes בִּי (in me), בּוֹ (in it). A few prepositions, like עַל and אֶל, change shape a little before the suffix. Learn the suffixes once and they serve both nouns and prepositions.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Plural-type suffixes and מִן",
+      "html": "<p>עַל, אֶל, עַד, תַּחַת, and לִפְנֵי take the suffixes in the form used with plural nouns, with a -y- before the ending: עָלַי (upon me), עָלָיו (upon him), אֵלֶיךָ (to you), לְפָנַי (before me). The meaning is the same; only the joining vowel differs. מִן doubles itself before a suffix: מִמֶּנִּי (from me), מִמֶּנּוּ (from him, or from us).</p>"
     },
     {
       "type": "prose",
       "caption": "Common confusion",
-      "html": "<p>Do not read the prefixed מִ- as a root letter: מִזִּקְנֵי is מִן + זִקְנֵי (from the elders of), the doubled ז taking the place of the nun.</p>"
+      "html": "<p>When a suffix is attached to a preposition, it is the object of that preposition, not the subject of a sentence. Thus a form meaning “to him” answers “to whom?”, while a suffix on a noun answers “whose?”. Keep this apart from verbal suffixes, which mark the direct object of an action and are treated later. The suffix itself is a pronoun in each case; its grammatical job comes from the word to which it is attached.</p>"
     },
     {
       "type": "prose",
       "caption": "Source",
-      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (22nd ed., 1923), §14.</p>"
+      "html": "<p>Davidson, *An Introductory Hebrew Grammar* (22nd ed., 1923), §19.</p>"
     },
     {
       "type": "vocab",
       "refs": [
-        "he-dav-40-001",
-        "he-dav-34-001",
-        "he-dav-34-010",
-        "he-dav-17-003",
-        "he-dav-09-032",
-        "he-dav-39-001",
-        "he-dav-10-013",
-        "he-dav-09-036",
-        "he-dav-09-003",
-        "he-dav-21-024",
-        "he-dav-18-002",
-        "he-dav-21-010",
-        "he-dav-35-002",
-        "he-dav-09-099"
+        "he-dav-44-013",
+        "he-dav-18-012",
+        "he-dav-15-003",
+        "he-dav-15-005",
+        "he-dav-15-004",
+        "he-dav-09-028",
+        "he-dav-10-012",
+        "he-dav-56-006"
       ]
     }
   ],

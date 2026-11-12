@@ -43,6 +43,20 @@ class DistractorTests(unittest.TestCase):
         self.assertFalse([c for k, c in L.mutations("He came to shed blood.") if k == "preposition"])
 
 
+class PhraseDistractorTests(unittest.TestCase):
+    def test_subject_change_keeps_the_verb_agreeing(self):
+        cands = [c for _, c in L.mutations("I (am) a man.")]
+        self.assertIn("We (are) a man.", cands)
+        self.assertNotIn("They (am) a man.", cands)
+        self.assertIn("She is a woman.", [c for _, c in L.mutations("Thou (fem.) art a woman.")])
+
+    def test_number_and_article_change_for_bare_phrases(self):
+        self.assertEqual({c for _, c in L.mutations("A good man")}, {"The good man", "(Some) good men"})
+        self.assertEqual({c for _, c in L.mutations("(Some) wolves")}, {"A wolf", "(Two) wolves", "The wolves"})
+        self.assertEqual({c for _, c in L.mutations("(Two) hands")}, {"A hand", "(Some) hands", "The hands"})
+        self.assertEqual({c for _, c in L.mutations("(Some) bitter water")}, {"The bitter water"})
+
+
 class PausalTests(unittest.TestCase):
     def test_pause_lengthens_one_vowel(self):
         self.assertTrue(L.pausal_pair("הַמָּיִם", "הַמַּיִם"))

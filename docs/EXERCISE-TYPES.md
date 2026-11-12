@@ -209,9 +209,9 @@ Course difficulty is a ladder of five rungs (AGENTS.md §0). Davidson items carr
 
 | Rung | Items | Grading |
 |---|---|---|
-| 1 True or false | `true-false`: Hebrew + an English translation | exact |
-| 2 Choose | `mcq`: the Key's English among variants that differ in one point (possessive, article, this/that, preposition group, "not", subject/object pronoun); Davidson's form and pointing questions | exact |
-| 3 Fill in | `translate-phrase`: one Hebrew word blanked, English given; Davidson's parse questions | consonants (`normalizeHebrew`) |
+| 1 True or false | `true-false`: Hebrew + an English translation; in units 6, 9–12 a claim about the word (recognition) | exact |
+| 2 Choose | `mcq`: the Key's English among variants that differ in one point (possessive, article, this/that, preposition group, "not", subject/object pronoun with an agreeing "to be"; number and article for bare noun phrases); Davidson's form and pointing questions | exact |
+| 3 Fill in | `translate-phrase`: one Hebrew word blanked, English given; Davidson's parse questions; recognition answers typed in Hebrew (units 6, 9–12) | consonants (`normalizeHebrew`); pointed where the item has `pointing: "required"` |
 | 4 Translate | `translate-phrase` in the sentence's direction: Hebrew→English typed English, English→Hebrew typed Hebrew | English: `normalizeEnglish` against the Key's variants (bracketed supplied words optional, notes dropped, archaic forms modernized, shall=will, contractions); no match → the Key is shown and the student marks right/wrong (`selfCheck`). Hebrew: consonants |
 | 5 Translate with vowel points | `translate-phrase` English→Hebrew, `pointing: "required"` | `pointedForm`: vowels, dagesh, shin/sin dots must match; ignored are cantillation and meteg, maqqef vs space, a word-initial dagesh lene, and full vs defective spelling (holem-waw, shureq, hiriq/tsere-yod inside a word). The Key's pausal last word may be typed in its contextual form. Wrong or missing points are shown red per letter (`annotate`) |
 

@@ -2747,9 +2747,9 @@
       "stimulusIsScript": true,
       "options": [
         "We are gone down in Sheol.",
-        "We are gone down from Sheol.",
-        "God of the spirits (that belong) to all flesh",
-        "We are gone down to Sheol."
+        "We are gone down to Sheol.",
+        "They are gone down to Sheol.",
+        "I am gone down to Sheol."
       ],
       "answer": "We are gone down to Sheol.",
       "optionIsScript": false,
@@ -2764,10 +2764,10 @@
       "rungLabel": "Fill in",
       "type": "translate-phrase",
       "prompt": "Fill in the missing word: We are gone down to Sheol.",
-      "stimulus": "＿＿＿ שְׁאוֹלָה",
+      "stimulus": "יָרַדְנוּ ＿＿＿",
       "stimulusIsScript": true,
       "accepted": [
-        "יָרַדְנוּ"
+        "שְׁאוֹלָה"
       ],
       "answerIsScript": true,
       "block": "s17",
@@ -3729,8 +3729,8 @@
       "stimulusIsScript": true,
       "options": [
         "But as for me, in thee have I trusted, O Yahweh; I have said, “Thou art my God.”",
-        "But as for me, in thee have I trusted, O Yahweh; I have said, “Thou art his God.”",
-        "But as for us, in thee have I trusted, O Yahweh; I have said, “Thou art my God.”",
+        "But as for me, in thee have I trusted, O Yahweh; I have said, “she is my God.”",
+        "But as for me, in thee have I trusted, O Yahweh; I have said, “Thou art thy God.”",
         "But as for me, to thee have I trusted, O Yahweh; I have said, “Thou art my God.”"
       ],
       "answer": "But as for me, in thee have I trusted, O Yahweh; I have said, “Thou art my God.”",
@@ -5062,7 +5062,7 @@
       "prompt": "Is this the right translation?",
       "stimulus": "אֲנִי יוֹסֵף אֲשֶׁר־מְכַרְתֶּם אֹתִי מִצְרָיְמָה",
       "stimulusIsScript": true,
-      "statement": "They have forgotten my words and the proverbs of my lips.",
+      "statement": "They are Joseph whom ye sold into Egypt.",
       "answer": false,
       "expected": "I am Joseph whom ye sold into Egypt.",
       "block": "s20",
@@ -5079,10 +5079,10 @@
       "stimulus": "אֲנִי יוֹסֵף אֲשֶׁר־מְכַרְתֶּם אֹתִי מִצְרָיְמָה",
       "stimulusIsScript": true,
       "options": [
-        "These (are) the proverbs of Solomon the wise king of Israel.",
+        "We are Joseph whom ye sold into Egypt.",
         "I am Joseph whom ye sold into Egypt.",
-        "Ye have burnt their city in the fire.",
-        "They have forgotten my words and the proverbs of my lips."
+        "They shed blood like water.",
+        "They are Joseph whom ye sold into Egypt."
       ],
       "answer": "I am Joseph whom ye sold into Egypt.",
       "optionIsScript": false,

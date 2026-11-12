@@ -1,0 +1,87 @@
+{
+  "schema": "workbook-exercises-v1.json",
+  "unit": 10,
+  "items": [
+    {
+      "unit": 10,
+      "n": 1,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Is this the pausal form or the contextual form?",
+      "body_raw": "אָרֶץ",
+      "answer_raw": "the pausal form (at a verse break)"
+    },
+    {
+      "unit": 10,
+      "n": 2,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Is this the pausal form or the contextual form?",
+      "body_raw": "אֶרֶץ",
+      "answer_raw": "the contextual form (in the body of the verse)"
+    },
+    {
+      "unit": 10,
+      "n": 3,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Is this the pausal form or the contextual form?",
+      "body_raw": "מָיִם",
+      "answer_raw": "the pausal form (at a verse break)"
+    },
+    {
+      "unit": 10,
+      "n": 4,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Is this the pausal form or the contextual form?",
+      "body_raw": "לַיְלָה",
+      "answer_raw": "the contextual form (in the body of the verse)"
+    },
+    {
+      "unit": 10,
+      "n": 5,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Is this the pausal form or the contextual form?",
+      "body_raw": "אָתָּה",
+      "answer_raw": "the pausal form (at a verse break)"
+    },
+    {
+      "unit": 10,
+      "n": 6,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "Is this the pausal form or the contextual form?",
+      "body_raw": "כֶּסֶף",
+      "answer_raw": "the contextual form (in the body of the verse)"
+    },
+    {
+      "unit": 10,
+      "n": 7,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "This is מַיִם (water) in pause. What has changed?",
+      "body_raw": "מָיִם",
+      "answer_raw": "the stressed vowel has lengthened"
+    },
+    {
+      "unit": 10,
+      "n": 8,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "This is קָטְלָה (she killed) in pause. What has changed?",
+      "body_raw": "קָטָלָה",
+      "answer_raw": "a vocal shewa has become a full, stressed vowel"
+    },
+    {
+      "unit": 10,
+      "n": 9,
+      "typeGuess": "mcq",
+      "confidence": 1.0,
+      "prompt": "This is אַתָּה (you) in pause. What has changed?",
+      "body_raw": "אָתָּה",
+      "answer_raw": "the stress has moved back to the first syllable, which has lengthened"
+    }
+  ]
+}

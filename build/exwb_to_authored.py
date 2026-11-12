@@ -26,13 +26,15 @@ import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 
-from davidson_ladder import PausalForms, clean_display, ladder
+from davidson_ladder import RUNG_KEYS, RUNG_NAMES, PausalForms, clean_display, ladder
 
 ROOT = Path(__file__).resolve().parent.parent
 CURATED = ROOT / "exwb" / "curated"
 MAP = ROOT / "build" / "_sources" / "davidson" / "exwb-units.json"
 GRAMMAR = ROOT / "build" / "_sources" / "davidson" / "grammar-units.json"
 TAGS = ROOT / "build" / "_sources" / "davidson" / "sentence-grammar.json"
+PHRASES = ROOT / "build" / "_sources" / "davidson" / "indefinite-phrases.json"
+RECOGNITION = ROOT / "build" / "_sources" / "davidson" / "recognition.json"
 SENTENCE_SHAPES = ("en-he", "he-en")
 GRAMMAR_ID = "introductoryhebr0000davi_w1b2"
 KEY_ID = "keytoexercisesin0000mcfa"
@@ -446,7 +448,87 @@ def build(cfg: dict) -> tuple[dict[int, dict], Counter]:
             u["sources"][entry["base"]] = entry["source"]
             u["raw"].append(entry["raw"])
             shapes[entry["shape"]] += 1
+    for unit, entry in phrase_entries(cfg, dict(blocks), pausal):
+        u = units[unit]
+        u["items"] += entry["items"]
+        u["sources"][entry["base"]] = entry["source"]
+        u["raw"].append(entry["raw"])
+        shapes["phrase"] += 1
+    for unit, entry in recognition_entries(cfg):
+        u = units[unit]
+        u["items"] += entry["items"]
+        u["sources"][entry["base"]] = entry["source"]
+        u["raw"].append(entry["raw"])
+        shapes["recognition"] += 1
     return units, shapes
+
+
+def phrase_entries(cfg: dict, blocks: dict[str, dict], pausal: PausalForms) -> list[tuple[int, dict]]:
+    """Article-less phrases (indefinite-phrases.json) as ladder items in the units before the article."""
+    phrases = json.loads(PHRASES.read_text(encoding="utf-8"))["phrases"]
+    by_stem: dict[tuple[str, int], list[dict]] = defaultdict(list)
+    for ph in phrases:
+        stem, pn = ph["from"].split("#")
+        if stem not in blocks or not any(f"{i['part']}{i['num']}" == pn for i in blocks[stem]["items"]):
+            sys.exit(f"{ph['from']}: no such exercise ({PHRASES.relative_to(ROOT)})")
+        by_stem[(stem, ph["unit"])].append({**ph, "part": pn[0], "num": pn[1:] + "i"})
+    out = []
+    for (stem, _), group in by_stem.items():
+        synth = {"note": blocks[stem].get("note", ""),
+                 "items": [{"part": g["part"], "num": g["num"], "prompt": "; ".join(g["hebrew"]),
+                            "answer": g["english"]} for g in group]}
+        units = {f"{g['part']}{g['num']}": g["unit"] for g in group}
+        for entry in build_block(stem, synth, cfg, pausal):
+            ref = entry["source"]["exwb"].removesuffix("i")
+            entry["source"]["citation"] = entry["source"]["citation"].replace(
+                "exercise ", "adapted (article removed) from exercise ").replace(f"{entry['base'][-1]};", ";", 1)
+            del entry["source"]["exwb"]
+            entry["source"]["adaptedFrom"] = ref
+            for item in entry["items"]:
+                item["shape"] = "phrase"
+            out.append((units[entry["base"].split("-", 1)[1]], entry))
+    return out
+
+
+def rung_item(base: str, common: dict, rung: int, body: dict) -> dict:
+    return {"id": f"{base}.{RUNG_KEYS[rung]}", "rung": rung, "rungLabel": RUNG_NAMES[rung], **body, **common}
+
+
+def recognition_entries(cfg: dict) -> list[tuple[int, dict]]:
+    """Recognition questions (recognition.json) for the script units: true/false, choose, and a typed answer."""
+    data = json.loads(RECOGNITION.read_text(encoding="utf-8"))["units"]
+    out = []
+    for unit_key, spec in sorted(data.items(), key=lambda kv: int(kv[0])):
+        unit = int(unit_key)
+        for n, q in enumerate(spec["questions"], start=1):
+            base = f"r{unit:02d}-{n}"
+            rng = random.Random(base)
+            script = q.get("script", False)
+            common = {"block": f"r{unit:02d}", "blockLabel": "Recognition", "shape": "recognition", "src": base}
+
+            truth = rng.random() < 0.5
+            options = [q["answer"]] + q["wrong"]
+            rng.shuffle(options)
+            items = [
+                rung_item(base, common, 1, {"type": "true-false", "prompt": "True or false?", "stimulus": q["stimulus"],
+                         "stimulusIsScript": True, "statement": q["claim"].format(x=q["answer"] if truth else q["wrong"][0]),
+                         "answer": truth, "expected": q["claim"].format(x=q["answer"])}),
+                rung_item(base, common, 2, {"type": "mcq", "prompt": q["prompt"], "stimulus": q["stimulus"], "stimulusIsScript": True,
+                         "options": options, "answer": q["answer"], "optionIsScript": script}),
+            ]
+            if q.get("typed"):
+                body = {"type": "translate-phrase", "prompt": q["typed"]["prompt"], "stimulus": q["stimulus"],
+                        "stimulusIsScript": True, "accepted": q["typed"]["accepted"], "answerIsScript": True}
+                if q["typed"].get("pointing"):
+                    body["pointing"] = "required"
+                items.append(rung_item(base, common, 3, body))
+            source = {"citation": "Written for this course on Davidson, An Introductory Hebrew Grammar "
+                                  f"(22nd ed., 1923), §{spec['section']}",
+                      **leaf_links(f"grammar p. {spec['page']}", cfg["grammarLeafOffset"], 0)}
+            out.append((unit, {"base": base, "source": source, "items": items,
+                               "raw": {"typeGuess": "mcq", "confidence": 1.0, "prompt": q["prompt"],
+                                       "body_raw": q["stimulus"], "answer_raw": q["answer"]}}))
+    return out
 
 
 def main() -> int:

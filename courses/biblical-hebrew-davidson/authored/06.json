@@ -1,0 +1,424 @@
+{
+  "schema": "authored-exercises-v1.json",
+  "unit": 6,
+  "sources": {
+    "r06-1": {
+      "citation": "Written for this course on Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), §4",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n38/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n38.jpg"
+    },
+    "r06-2": {
+      "citation": "Written for this course on Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), §4",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n38/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n38.jpg"
+    },
+    "r06-3": {
+      "citation": "Written for this course on Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), §4",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n38/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n38.jpg"
+    },
+    "r06-4": {
+      "citation": "Written for this course on Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), §4",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n38/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n38.jpg"
+    },
+    "r06-5": {
+      "citation": "Written for this course on Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), §4",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n38/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n38.jpg"
+    },
+    "r06-6": {
+      "citation": "Written for this course on Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), §4",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n38/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n38.jpg"
+    },
+    "r06-7": {
+      "citation": "Written for this course on Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), §4",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n38/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n38.jpg"
+    },
+    "r06-8": {
+      "citation": "Written for this course on Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), §4",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n38/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n38.jpg"
+    },
+    "r06-9": {
+      "citation": "Written for this course on Davidson, An Introductory Hebrew Grammar (22nd ed., 1923), §4",
+      "promptUrl": "https://archive.org/details/introductoryhebr0000davi_w1b2/page/n38/mode/1up",
+      "promptImageUrl": "https://archive.org/download/introductoryhebr0000davi_w1b2/page/n38.jpg"
+    }
+  },
+  "items": [
+    {
+      "id": "r06-1.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "קוֹל",
+      "stimulusIsScript": true,
+      "statement": "The vowel letter in this word is ו.",
+      "answer": true,
+      "expected": "The vowel letter in this word is ו.",
+      "block": "r06",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r06-1"
+    },
+    {
+      "id": "r06-1.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Which letter in this word is a vowel letter?",
+      "stimulus": "קוֹל",
+      "stimulusIsScript": true,
+      "options": [
+        "ל",
+        "ק",
+        "ו"
+      ],
+      "answer": "ו",
+      "optionIsScript": true,
+      "block": "r06",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r06-1"
+    },
+    {
+      "id": "r06-2.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "שִׁיר",
+      "stimulusIsScript": true,
+      "statement": "The vowel letter in this word is ר.",
+      "answer": false,
+      "expected": "The vowel letter in this word is י.",
+      "block": "r06",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r06-2"
+    },
+    {
+      "id": "r06-2.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Which letter in this word is a vowel letter?",
+      "stimulus": "שִׁיר",
+      "stimulusIsScript": true,
+      "options": [
+        "י",
+        "ש",
+        "ר"
+      ],
+      "answer": "י",
+      "optionIsScript": true,
+      "block": "r06",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r06-2"
+    },
+    {
+      "id": "r06-3.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "גָּדוֹל",
+      "stimulusIsScript": true,
+      "statement": "The vowel letter in this word is ד.",
+      "answer": false,
+      "expected": "The vowel letter in this word is ו.",
+      "block": "r06",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r06-3"
+    },
+    {
+      "id": "r06-3.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Which letter in this word is a vowel letter?",
+      "stimulus": "גָּדוֹל",
+      "stimulusIsScript": true,
+      "options": [
+        "ל",
+        "ד",
+        "ו"
+      ],
+      "answer": "ו",
+      "optionIsScript": true,
+      "block": "r06",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r06-3"
+    },
+    {
+      "id": "r06-4.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "חֵיק",
+      "stimulusIsScript": true,
+      "statement": "The vowel letter in this word is י.",
+      "answer": true,
+      "expected": "The vowel letter in this word is י.",
+      "block": "r06",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r06-4"
+    },
+    {
+      "id": "r06-4.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Which letter in this word is a vowel letter?",
+      "stimulus": "חֵיק",
+      "stimulusIsScript": true,
+      "options": [
+        "ק",
+        "ח",
+        "י"
+      ],
+      "answer": "י",
+      "optionIsScript": true,
+      "block": "r06",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r06-4"
+    },
+    {
+      "id": "r06-5.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "קֹל",
+      "stimulusIsScript": true,
+      "statement": "This spelling is full (with its vowel letter).",
+      "answer": false,
+      "expected": "This spelling is defective (no vowel letter).",
+      "block": "r06",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r06-5"
+    },
+    {
+      "id": "r06-5.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Is this spelling full or defective?",
+      "stimulus": "קֹל",
+      "stimulusIsScript": true,
+      "options": [
+        "defective (no vowel letter)",
+        "full (with its vowel letter)"
+      ],
+      "answer": "defective (no vowel letter)",
+      "optionIsScript": false,
+      "block": "r06",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r06-5"
+    },
+    {
+      "id": "r06-5.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Write this word in full spelling, with its vowel letter",
+      "stimulus": "קֹל",
+      "stimulusIsScript": true,
+      "accepted": [
+        "קוֹל"
+      ],
+      "answerIsScript": true,
+      "block": "r06",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r06-5"
+    },
+    {
+      "id": "r06-6.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "חֵק",
+      "stimulusIsScript": true,
+      "statement": "This spelling is defective (no vowel letter).",
+      "answer": true,
+      "expected": "This spelling is defective (no vowel letter).",
+      "block": "r06",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r06-6"
+    },
+    {
+      "id": "r06-6.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Is this spelling full or defective?",
+      "stimulus": "חֵק",
+      "stimulusIsScript": true,
+      "options": [
+        "full (with its vowel letter)",
+        "defective (no vowel letter)"
+      ],
+      "answer": "defective (no vowel letter)",
+      "optionIsScript": false,
+      "block": "r06",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r06-6"
+    },
+    {
+      "id": "r06-6.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Write this word in full spelling, with its vowel letter",
+      "stimulus": "חֵק",
+      "stimulusIsScript": true,
+      "accepted": [
+        "חֵיק"
+      ],
+      "answerIsScript": true,
+      "block": "r06",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r06-6"
+    },
+    {
+      "id": "r06-7.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "שִׁרִים",
+      "stimulusIsScript": true,
+      "statement": "This spelling is full (with its vowel letter).",
+      "answer": false,
+      "expected": "This spelling is defective (no vowel letter).",
+      "block": "r06",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r06-7"
+    },
+    {
+      "id": "r06-7.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Is this spelling full or defective?",
+      "stimulus": "שִׁרִים",
+      "stimulusIsScript": true,
+      "options": [
+        "full (with its vowel letter)",
+        "defective (no vowel letter)"
+      ],
+      "answer": "defective (no vowel letter)",
+      "optionIsScript": false,
+      "block": "r06",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r06-7"
+    },
+    {
+      "id": "r06-7.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Write this word in full spelling, with its vowel letter",
+      "stimulus": "שִׁרִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "שִׁירִים"
+      ],
+      "answerIsScript": true,
+      "block": "r06",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r06-7"
+    },
+    {
+      "id": "r06-8.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "גָּדוֹל",
+      "stimulusIsScript": true,
+      "statement": "This spelling is full (with its vowel letter).",
+      "answer": true,
+      "expected": "This spelling is full (with its vowel letter).",
+      "block": "r06",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r06-8"
+    },
+    {
+      "id": "r06-8.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Is this spelling full or defective?",
+      "stimulus": "גָּדוֹל",
+      "stimulusIsScript": true,
+      "options": [
+        "full (with its vowel letter)",
+        "defective (no vowel letter)"
+      ],
+      "answer": "full (with its vowel letter)",
+      "optionIsScript": false,
+      "block": "r06",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r06-8"
+    },
+    {
+      "id": "r06-9.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "קוֹל",
+      "stimulusIsScript": true,
+      "statement": "This word has two vowels.",
+      "answer": false,
+      "expected": "This word has one vowel, written twice (point and letter).",
+      "block": "r06",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r06-9"
+    },
+    {
+      "id": "r06-9.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "How many vowels does this word have?",
+      "stimulus": "קוֹל",
+      "stimulusIsScript": true,
+      "options": [
+        "three vowels",
+        "one vowel, written twice (point and letter)",
+        "two vowels"
+      ],
+      "answer": "one vowel, written twice (point and letter)",
+      "optionIsScript": false,
+      "block": "r06",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r06-9"
+    }
+  ]
+}

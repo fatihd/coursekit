@@ -214,6 +214,12 @@ keeps the engine shape of its type and adds:
               "exwb": "davidson-s21#AL1", "note": "Transcribed by hand from the scans …" } }
 ```
 
+An article-less phrase (`build/_sources/davidson/indefinite-phrases.json`) has `"shape": "phrase"`, ids ending in
+`i` (`s11-B9i.choice`) and `source.adaptedFrom` (the exwb ref of the exercise it was made from) instead of `exwb`.
+A recognition question (`build/_sources/davidson/recognition.json`, units 6 and 9–12) has `"shape": "recognition"`,
+ids `rNN-k.tf|choice|fill`, block `rNN` ("Recognition"), and a `source` with the citation and the grammar page
+(`promptUrl`, `promptImageUrl`) only: there is no Key answer.
+
 `parse` items are `parse-form` drills (P9-T8): `readings` = exwb `data.parse` (closed fields only),
 with missing person/gender/number filled from the key's answer text ("2 or 3 plur. fem." → two
 readings), plus the key's alternative (`data.parse.alt`, parsed; it inherits root and stem, and

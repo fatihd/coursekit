@@ -2267,7 +2267,7 @@
       "prompt": "Is this the right translation?",
       "stimulus": "בַּיּוֹם הַהוּא תֹּאמְרִי לִי אִישִׁי וְלֹא־תִקְרְאִי לִי עוֹד בַּעְלִי",
       "stimulusIsScript": true,
-      "statement": "In that day thou shalt say to me, My husband, and thou shalt no more call me, Thy lord.",
+      "statement": "In that day thou shalt say to me, His husband, and thou shalt no more call me, My lord.",
       "answer": false,
       "expected": "In that day thou shalt say to me, My husband, and thou shalt no more call me, My lord.",
       "block": "s36",
@@ -2284,10 +2284,10 @@
       "stimulus": "בַּיּוֹם הַהוּא תֹּאמְרִי לִי אִישִׁי וְלֹא־תִקְרְאִי לִי עוֹד בַּעְלִי",
       "stimulusIsScript": true,
       "options": [
+        "In that day thou shalt say to me, His husband, and thou shalt no more call me, My lord.",
+        "In that day thou shalt say to me, My husband, and thou shalt no more call me, My lord.",
         "In that day thou shalt say to him, My husband, and thou shalt no more call me, My lord.",
-        "From that day thou shalt say to me, My husband, and thou shalt no more call me, My lord.",
-        "In that day thou shalt say to me, My husband, and thou shalt no more call me, Thy lord.",
-        "In that day thou shalt say to me, My husband, and thou shalt no more call me, My lord."
+        "In that day thou shalt say from me, My husband, and thou shalt no more call me, My lord."
       ],
       "answer": "In that day thou shalt say to me, My husband, and thou shalt no more call me, My lord.",
       "optionIsScript": false,
@@ -2377,9 +2377,9 @@
       "stimulusIsScript": true,
       "options": [
         "Thou shalt love Yahweh thy God and them thou shalt serve.",
-        "Thou shalt love Yahweh his God and him thou shalt serve.",
-        "Thou shalt love Yahweh your God and him thou shalt serve.",
-        "Thou shalt love Yahweh thy God and him thou shalt serve."
+        "Thou shalt love Yahweh thy God and him she shalt serve.",
+        "Thou shalt love Yahweh thy God and him thou shalt serve.",
+        "Thou shalt love Yahweh his God and him thou shalt serve."
       ],
       "answer": "Thou shalt love Yahweh thy God and him thou shalt serve.",
       "optionIsScript": false,
@@ -2394,10 +2394,10 @@
       "rungLabel": "Fill in",
       "type": "translate-phrase",
       "prompt": "Fill in the missing word: Thou shalt love Yahweh thy God and him thou shalt serve.",
-      "stimulus": "תֶּאֱהַב אֵת ＿＿＿ אֱלֹהֶיךָ וְאֹתוֹ תַעֲבֹד",
+      "stimulus": "תֶּאֱהַב אֵת יְהוָה ＿＿＿ וְאֹתוֹ תַעֲבֹד",
       "stimulusIsScript": true,
       "accepted": [
-        "יְהוָה"
+        "אֱלֹהֶיךָ"
       ],
       "answerIsScript": true,
       "block": "s36",
