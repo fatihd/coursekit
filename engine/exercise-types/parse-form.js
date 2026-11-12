@@ -87,8 +87,14 @@ export default {
     return { correct, expected, fields };
   },
 
+  hint(node, item, answer, result) {
+    this.annotate(node, item, answer, result);
+    return "Fields outlined red are wrong.";
+  },
+
   annotate(node, item, answer, result) {
     for (const sel of node.querySelectorAll(".ex-select")) {
+      sel.classList.remove("ex-select--ok", "ex-select--no");
       const ok = result.fields && result.fields[sel.dataset.field];
       sel.classList.add(ok ? "ex-select--ok" : "ex-select--no");
     }

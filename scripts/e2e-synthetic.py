@@ -165,9 +165,13 @@ def answer(page, vocab, unit_n):
         raise RuntimeError(f"mcq option not found: correct={correct!r} stim={stim!r}")
 
     if page.query_selector(".ex--match"):
-        for row in page.query_selector_all(".ex-match-row"):
-            word = row.query_selector(".script").text_content().strip()
-            row.query_selector("select").select_option(value=unit_map[word]["gloss"])
+        rights = {t.get_attribute("data-value"): t for t in page.query_selector_all(".ex--match .ex-tile[data-side='right']")}
+        for tile in page.query_selector_all(".ex--match .ex-tile[data-side='left']"):
+            left = tile.get_attribute("data-value")
+            item = unit_map.get(left) or script.get(left)
+            target = item["gloss"] if item is not None else (gloss.get(left) or {}).get("scriptForm")
+            tile.click()
+            rights[target].click()
         return
 
     if page.query_selector(".ex--categorize"):
@@ -253,7 +257,7 @@ def main():
                 page.wait_for_selector(".lesson-title")
                 check(page.text_content(".lesson-title").strip().startswith("Unit 1"), "keyboard Enter opens unit 1 lesson", failures)
 
-                page.click(".gate-btn")
+                page.click(".gate .gate-btn")
                 page.wait_for_selector(".drill-stage")
 
                 # First question must be the authored item.

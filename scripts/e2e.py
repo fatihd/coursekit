@@ -75,6 +75,7 @@ def load_vocab(course):
                 if f.get("parse") and x.get("root"):
                     produce_map.setdefault(f"{f['parse']} (root {x['root']})", f["scriptForm"])
     return {
+        "by_id": {x["id"]: x for x in items},
         "by_unit": by_unit,
         "script": script_map,
         "gloss": gloss_map,
@@ -179,7 +180,47 @@ def click_option(page, selector, answer):
     return False
 
 
+def submit(page):
+    """Click Check; if the drill offers a retry (course feature `retries`), give up so the answer is shown."""
+    page.click(".drill-feedback .gate-btn")
+    page.wait_for_selector(".drill-ok, .drill-no, .drill-selfcheck, .drill-retry, .drill-hint")
+    if page.query_selector(".drill-retry"):
+        page.click(".drill-giveup")
+        page.wait_for_selector(".drill-ok, .drill-no")
+
+
+def answer_match(page, unit_map, unit_gloss, vocab):
+    """Tap each left tile, then the right tile that belongs to it (gloss, plural or Hebrew word)."""
+    rights = {t.get_attribute("data-value"): t for t in page.query_selector_all(".ex--match .ex-tile[data-side='right']")}
+    for tile in page.query_selector_all(".ex--match .ex-tile[data-side='left']"):
+        left = tile.get_attribute("data-value")
+        item = unit_map.get(left) or vocab["script"].get(left)
+        target = None
+        if item is not None:
+            target = next((item.get(k) for k in ("gloss", "plural") if item.get(k) in rights), None)
+        if target is None:
+            item = unit_gloss.get(left) or vocab["gloss"].get(left)
+            target = item["scriptForm"] if item and item["scriptForm"] in rights else None
+        if target is None:
+            raise RuntimeError(f"match: no right tile for {left!r}")
+        tile.click()
+        rights[target].click()
+
+
+def answer_word_item(page, vocab):
+    """Words-track items are answered from their item code (w<rung>-<vocab id>)."""
+    code_el = page.query_selector(".drill-item-code")
+    code = code_el.text_content().removeprefix("Item ") if code_el else ""
+    m = re.match(r"^w([34])-(.+)$", code)
+    if not m or not page.query_selector(".ex--translate"):
+        return False
+    page.fill(".ex--translate .ex-text", vocab["by_id"][m.group(2)]["scriptForm"])
+    return True
+
+
 def answer_current(page, vocab, unit_n, authored=None):
+    if answer_word_item(page, vocab):
+        return
     if authored:
         code_el = page.query_selector(".drill-item-code")
         code = code_el.text_content().removeprefix("Item ") if code_el else None
@@ -248,10 +289,7 @@ def answer_current(page, vocab, unit_n, authored=None):
         raise RuntimeError(f"mcq option not found: correct={correct!r} stim={stim!r}")
 
     if page.query_selector(".ex--match"):
-        for row in page.query_selector_all(".ex-match-row"):
-            hebrew = row.query_selector(".script").text_content().strip()
-            gloss = unit_map[hebrew]["gloss"]
-            row.query_selector("select").select_option(value=gloss)
+        answer_match(page, unit_map, unit_gloss, vocab)
         return
 
     if page.query_selector(".ex--categorize"):
@@ -290,7 +328,7 @@ def run_drill(page, vocab, unit_n, authored=None, max_sessions=80):
                 break
             qcount += 1
             answer_current(page, vocab, unit_n, authored)
-            page.click(".drill-feedback .gate-btn")
+            submit(page)
             page.wait_for_selector(".drill-feedback .gate-btn")
             page.click(".drill-feedback .gate-btn:not(.drill-selfcheck-no)")
             page.wait_for_selector(".drill-stage, .drill-result")
@@ -345,6 +383,9 @@ async () => {
           (b) => b.dataset.value === item.answer,
         );
         if (btn) btn.click();
+      } else if (item.left) {
+        const tileOf = (side, v) => Array.from(node.querySelectorAll(`.ex-tile[data-side='${side}']`)).find((b) => b.dataset.value === v);
+        for (const l of item.left) { tileOf("left", l).click(); tileOf("right", item.answer[l]).click(); }
       } else if (item.blanks) {
         Array.from(node.querySelectorAll(".ex-gap-select")).forEach((sel, i) => {
           sel.value = item.blanks[i].word;
@@ -479,7 +520,8 @@ async () => {
       if (item.type === "true-false") {
         node.querySelector(`.ex-option[data-value='${item.answer}']`).click();
       } else if (item.left) {
-        node.querySelectorAll(".ex-select").forEach((sel) => { sel.value = item.answer[sel.dataset.left]; });
+        const tileOf = (side, v) => Array.from(node.querySelectorAll(`.ex-tile[data-side='${side}']`)).find((b) => b.dataset.value === v);
+        for (const l of item.left) { tileOf("left", l).click(); tileOf("right", item.answer[l]).click(); }
       } else if (item.words) {
         node.querySelectorAll(".ex-select").forEach((sel) => {
           const w = item.words.find((w) => w.text === sel.dataset.word);
@@ -781,6 +823,245 @@ def run_course_shapes(page, authored, failures):
     return len(picked)
 
 
+DUP_GLOSS_JS = r"""
+async () => {
+  const { getType } = await import("/engine/exercise-types/index.js");
+  const pool = [
+    { id: "a", scriptForm: "א", gloss: "go", category: "verb" },
+    { id: "b", scriptForm: "ב", gloss: "go", category: "verb" },
+    { id: "c", scriptForm: "ג", gloss: "say", category: "verb" },
+    { id: "d", scriptForm: "ד", gloss: "eat", category: "verb" },
+  ];
+  const item = getType("match-by-line").generate({ count: 4, extra: 0 }, pool)[0];
+  const glosses = Object.values(item.answer);
+  return { left: item.left.length, unique: new Set(glosses).size === glosses.length };
+}
+"""
+
+
+def match_target(page, vocab, unit_n, left, rights):
+    unit_map = vocab["by_unit"].get(unit_n, {})
+    item = unit_map.get(left) or vocab["script"].get(left)
+    if item is not None:
+        hit = next((item.get(k) for k in ("gloss", "plural") if item.get(k) in rights), None)
+        if hit:
+            return hit
+    item = vocab["unit_gloss"].get(unit_n, {}).get(left) or vocab["gloss"].get(left)
+    return item["scriptForm"] if item else None
+
+
+def run_words(page, url, vocab, course_dir, failures):
+    """Words track (per-word ladder) and the tap-to-pair match exercise."""
+    course = json.loads((Path(course_dir) / "course.json").read_text(encoding="utf-8"))
+    if not (course.get("features") or {}).get("wordLadder"):
+        return 0
+    n = 16
+    slug = next(u.get("slug") or f"u{u['n']}" for u in course["units"] if u["n"] == n)
+    base = url.split("#")[0]
+    dup = page.evaluate(DUP_GLOSS_JS)
+    check(dup["unique"] and dup["left"] == 3, f"a match set never has two words with the same gloss ({dup})", failures)
+
+    page.goto(f"{base}#/{slug}")
+    page.wait_for_selector(".words .ladder-row")
+    rows = page.query_selector_all(".words .ladder-row")
+    check(len(rows) == 4, "the lesson shows four word rungs", failures)
+    total = int(page.text_content(".words .ladder-row[data-word-rung='1'] .blocks-count").split("/")[1])
+    page.click(".words-practice")
+    page.wait_for_selector(".ex--match")
+    check(re.match(rf"^#/{slug}/words/1/[a-z0-9]+/1$", page.evaluate("location.hash")) is not None,
+          f"word practice gets its own seeded URL ({page.evaluate('location.hash')})", failures)
+    lefts = page.query_selector_all(".ex--match .ex-tile[data-side='left']")
+    rights_el = page.query_selector_all(".ex--match .ex-tile[data-side='right']")
+    check(len(rights_el) == len(lefts) + 2, f"two extra translations so the last pair is not free ({len(lefts)}+{len(rights_el) - len(lefts)})", failures)
+    rights = {t.get_attribute("data-value"): t for t in rights_el}
+    first = lefts[0].get_attribute("data-value")
+    good = match_target(page, vocab, n, first, rights)
+    wrong = next(v for v in rights if v != good)
+    lefts[0].click()
+    rights[wrong].click()
+    page.wait_for_selector(".ex--match .ex-tile--wrong", state="attached")
+    check("misses: 1" in page.text_content(".ex-match-status"), "a wrong pair counts as a miss", failures)
+    check(page.query_selector(".ex--match .ex-tile--matched") is None, "a wrong pair is not locked", failures)
+    keys = "abcdefghi"
+    order = [t.get_attribute("data-value") for t in rights_el]
+    page.keyboard.press("1")
+    page.keyboard.press(keys[order.index(good)])
+    check(len(page.query_selector_all(".ex--match .ex-tile--matched")) == 2, "keys 1 and a-i pair tiles", failures)
+    for tile in page.query_selector_all(".ex--match .ex-tile[data-side='left']:not(.ex-tile--matched)"):
+        left = tile.get_attribute("data-value")
+        tile.click()
+        rights[match_target(page, vocab, n, left, rights)].click()
+    check(page.evaluate("document.activeElement && document.activeElement.textContent") == "Check",
+          "Check gets focus when the last pair is made", failures)
+    submit(page)
+    page.wait_for_selector(".drill-ok, .drill-no")
+    check(page.query_selector(".drill-ok") is not None, "one miss still counts as right", failures)
+    check(len(page.query_selector_all(".ex-match-card")) == len(lefts), "word cards are shown after checking", failures)
+
+    page.set_viewport_size({"width": 380, "height": 800})
+    wide = page.evaluate("document.documentElement.scrollWidth <= window.innerWidth + 1")
+    check(wide, "the match board fits a phone screen", failures)
+    page.set_viewport_size({"width": 1280, "height": 800})
+
+    while page.query_selector(".drill-feedback .gate-btn"):
+        btn = page.query_selector(".drill-feedback .gate-btn")
+        if btn.text_content() == "See results":
+            btn.click()
+            break
+        btn.click()
+        page.wait_for_selector(".drill-stage, .drill-result")
+        if page.query_selector(".drill-result"):
+            break
+        answer_current(page, vocab, n)
+        submit(page)
+        page.wait_for_selector(".drill-ok, .drill-no")
+    page.goto(f"{base}#/{slug}")
+    page.wait_for_selector(".words .ladder-row")
+    done = int(page.text_content(".words .ladder-row[data-word-rung='1'] .blocks-count").split("/")[0])
+    check(0 < done < total or (done == total - 1), f"rung 1 credits the words matched without a miss ({done}/{total})", failures)
+    page.goto(f"{base}#/")
+    page.wait_for_selector(".roadmap")
+    star = page.query_selector(f".unit[data-unit='{n}'] .unit-words")
+    check(star is not None, "the roadmap shows a word star", failures)
+    merged = page.evaluate("""async () => (await import("/engine/store.js")).mergeProgress(
+      { units: { 1: { words: { 1: ["a"] } } } }, { units: { 1: { words: { 1: ["b"], 2: ["a"] } } } }).units[1].words""")
+    check(merged == {"1": ["a", "b"], "2": ["a"]}, f"import merges word progress ({merged})", failures)
+    return 1
+
+
+def answer_test_question(page, vocab, items):
+    """Test mode hides item codes, so answer by the question's content (authored items, then the word list)."""
+    if answer_authored(page, items):
+        return
+    if page.query_selector(".ex--translate"):
+        stim = page.text_content(".ex--translate .ex-stimulus").strip()
+        page.fill(".ex--translate .ex-text", vocab["gloss"][stim]["scriptForm"])
+        return
+    if page.query_selector(".ex--match"):
+        rights = {t.get_attribute("data-value"): t for t in page.query_selector_all(".ex--match .ex-tile[data-side='right']")}
+        for tile in page.query_selector_all(".ex--match .ex-tile[data-side='left']"):
+            left = tile.get_attribute("data-value")
+            tile.click()
+            rights[match_target(page, vocab, 0, left, rights)].click()
+        return
+    answer_current(page, vocab, 0)
+
+
+def run_modes(browser, page, url, vocab, authored, course_dir, failures):
+    """Drill mode (retry with a hint, requeue, first-try credit) and test mode (unit/part/final)."""
+    course = json.loads((Path(course_dir) / "course.json").read_text(encoding="utf-8"))
+    features = course.get("features") or {}
+    if not (features.get("retries") and features.get("tests")):
+        return 0
+    cid = course["id"]
+    n = 16
+    slug = next(u.get("slug") or f"u{u['n']}" for u in course["units"] if u["n"] == n)
+    base = url.split("#")[0]
+    by_id = {it["id"]: it for it in authored[n]}
+
+    def stored():
+        return json.loads(page.evaluate("k => localStorage.getItem(k) || '{}'", f"lang-research.progress.{cid}"))
+
+    def current():
+        return by_id[page.text_content(".drill-item-code").removeprefix("Item ")]
+
+    def click_value(value):
+        for opt in page.query_selector_all(".ex--mcq .ex-option"):
+            if opt.get_attribute("data-value") == value:
+                opt.click()
+                return
+
+    page.goto(f"{base}#/{slug}/rung/2")
+    page.wait_for_selector(".ex--mcq")
+    total = int(page.text_content(".drill-progress").split(" of ")[1].split(" ")[0])
+    it = current()
+    click_value(next(o for o in it["options"] if o != it["answer"]))
+    page.click(".drill-feedback .gate-btn")
+    page.wait_for_selector(".drill-retry")
+    check(len(page.query_selector_all(".ex-option--struck")) == 2, "a miss crosses out the choice and one more wrong option", failures)
+    click_value(it["answer"])
+    page.click(".drill-feedback .gate-btn")
+    page.wait_for_selector(".drill-ok")
+    check("Practised" in page.text_content(".drill-ok"), "right on the second try is practised, not done", failures)
+    check(it["id"] not in (stored().get("units", {}).get(str(n), {}).get("done", {}).get("2", [])),
+          "a second-try answer earns no credit", failures)
+    page.click(".drill-feedback .gate-btn")
+    page.wait_for_selector(".ex--mcq")
+    it = current()
+    click_value(next(o for o in it["options"] if o != it["answer"]))
+    page.click(".drill-feedback .gate-btn")
+    page.wait_for_selector(".drill-giveup")
+    page.click(".drill-giveup")
+    page.wait_for_selector(".drill-no")
+    check("come back at the end" in page.text_content(".drill-no"), "a missed question is queued again", failures)
+    check(f" of {total + 1}" in page.text_content(".drill-progress"), f"the session grows by one ({page.text_content('.drill-progress')})", failures)
+    page.click(".drill-feedback .gate-btn")
+    page.wait_for_selector(".ex--mcq")
+    it = current()
+    click_value(it["answer"])
+    page.click(".drill-feedback .gate-btn")
+    page.wait_for_selector(".drill-ok")
+    check(it["id"] in stored()["units"][str(n)]["done"]["2"], "a first-try answer is credited", failures)
+    page.click(".drill-feedback .gate-btn")
+    page.wait_for_selector(".ex--mcq")
+    page.reload()
+    page.wait_for_selector(".drill-progress")
+    check(f" of {total + 1}" in page.text_content(".drill-progress"), "the queued question survives a reload", failures)
+
+    page.evaluate("localStorage.clear()")
+    page.goto(f"{base}#/{slug}")
+    page.wait_for_selector(".unit-test")
+    page.click(".unit-test")
+    page.wait_for_selector(".test-title")
+    hash_ = page.evaluate("location.hash")
+    check(re.match(rf"^#/{slug}/test/[a-z0-9]+$", hash_) is not None, f"a unit test gets a seeded URL ({hash_})", failures)
+    check(not page.query_selector(".drill-item-code, .drill-source, .drill-tip, .item-mark"),
+          "test mode shows no item codes, scan links, hints or done toggles", failures)
+    page.click(".test-next")
+    check(page.query_selector(".drill-hint") is not None, "an unanswered question cannot be skipped", failures)
+    first_text = page.inner_text(".drill-stage")
+    other = browser.new_context().new_page()
+    other.goto(f"{base}#/{slug}/test/{hash_.rsplit('/', 1)[1]}")
+    other.wait_for_selector(".test-title")
+    check(other.inner_text(".drill-stage") == first_text, "the same test link gives the same questions", failures)
+    other.close()
+    items = [x for u in sorted(authored) for x in authored[u]]
+    count = 0
+    while page.query_selector(".test-next"):
+        answer_test_question(page, vocab, items)
+        page.click(".test-next")
+        count += 1
+        if count > 60:
+            break
+    page.wait_for_selector(".test-result")
+    for b in page.query_selector_all(".test-mark-right"):
+        b.click()
+    page.click(".test-done")
+    page.wait_for_selector(".test-done:disabled")
+    tests = stored().get("tests", [])
+    check(len(tests) == 1 and tests[0]["scope"] == "unit" and tests[0]["score"] >= 80,
+          f"the result is stored ({tests})", failures)
+    check(stored()["units"].get(str(n), {}).get("state") == "done", "passing a unit test marks the unit done", failures)
+    page.goto(f"{base}#/{slug}")
+    page.wait_for_selector(".test-last")
+    page.goto(f"{base}#/")
+    page.wait_for_selector(".part-test-link")
+    check(len(page.query_selector_all(".part-test-link:not(.final-test-link)")) == len(course["parts"]) and page.query_selector(".final-test-link"),
+          "the roadmap offers a test per part and a mock final", failures)
+    page.click(".final-test-link")
+    page.wait_for_selector(".test-title")
+    check(page.text_content(".test-title").startswith("Final exam"), "the mock final opens", failures)
+    units = set()
+    while page.query_selector(".test-next") and len(units) < 3:
+        m = re.search(r"Unit (\d+)", page.text_content(".test-progress"))
+        if m:
+            units.add(m.group(1))
+        answer_test_question(page, vocab, items)
+        page.click(".test-next")
+    check(len(units) >= 3, f"the mock final draws on many units ({sorted(units)})", failures)
+    return 1
+
+
 def run_progress_ops(page, url, authored, course_dir, failures):
     """Reset all / reset a unit / mark a unit done / mark an exercise done or not done."""
     course = json.loads((Path(course_dir) / "course.json").read_text(encoding="utf-8"))
@@ -822,7 +1103,7 @@ def run_progress_ops(page, url, authored, course_dir, failures):
     page.click(".item-mark")
     page.wait_for_selector(".item-mark--done")
     page.click(".ex-option")
-    page.click(".drill-feedback .gate-btn")
+    submit(page)
     page.wait_for_selector(".drill-ok, .drill-no")
     check(page.is_enabled(".item-mark"), "the done toggle stays usable after Check", failures)
     page.goto(f"{base}#/{slug[n]}")
@@ -874,7 +1155,7 @@ def run_routes(browser, page, url, vocab, authored, course_dir, failures):
     first = page.inner_text(".drill-stage")
 
     answer_current(page, vocab, n, authored)
-    page.click(".drill-feedback .gate-btn")
+    submit(page)
     page.wait_for_selector(".drill-feedback .gate-btn")
     page.click(".drill-feedback .gate-btn")
     page.wait_for_selector(".drill-stage")
@@ -900,7 +1181,7 @@ def run_routes(browser, page, url, vocab, authored, course_dir, failures):
     page.wait_for_selector(".drill-item-code")
     check(page.text_content(".drill-item-code") == f"Item {item['id']}", f"#/{slug}/item/{item['id']} shows that item", failures)
     answer_authored(page, [item])
-    page.click(".drill-feedback .gate-btn")
+    submit(page)
     page.wait_for_selector(".drill-ok, .drill-no")
     check(bool(page.query_selector(".drill-ok")), "the linked item grades its key answer correct", failures)
 
@@ -957,7 +1238,7 @@ def run_ladder(browser, page, url, vocab, authored, course_dir, failures):
 
     page.goto(f"{base}#/{slug}")
     page.wait_for_selector(".ladder-row")
-    rungs = [r.get_attribute("data-rung") for r in page.query_selector_all(".ladder-row")]
+    rungs = [r.get_attribute("data-rung") for r in page.query_selector_all(".ladder .ladder-row")]
     check(rungs == ["1", "2", "3", "4", "5"], f"unit {n} shows a five-rung ladder ({rungs})", failures)
     page.click(".gate .gate-btn")
     page.wait_for_selector(".drill-progress")
@@ -966,12 +1247,12 @@ def run_ladder(browser, page, url, vocab, authored, course_dir, failures):
         if not page.query_selector(".drill-review-tag"):
             labels.append(page.text_content(".drill-progress"))
         answer_current(page, vocab, n, authored)
-        page.click(".drill-feedback .gate-btn")
+        submit(page)
         page.wait_for_selector(".drill-feedback .gate-btn")
         page.click(".drill-feedback .gate-btn")
         page.wait_for_selector(".drill-stage, .drill-result")
         seen += 1
-    ladder_labels = [x.split("· ")[1] for x in labels if "· " in x]
+    ladder_labels = [x.split("· ", 1)[1] for x in labels if "· " in x and "· Words" not in x]
     check(ladder_labels and set(ladder_labels) == {"True or false"},
           f"a first session climbs from rung 1 ({sorted(set(ladder_labels))})", failures)
 
@@ -1025,7 +1306,7 @@ def run_ladder(browser, page, url, vocab, authored, course_dir, failures):
     page.reload()
     page.wait_for_selector(".drill-stage")
     answer_authored(page, [last])
-    page.click(".drill-feedback .gate-btn")
+    submit(page)
     page.wait_for_selector(".drill-ok, .drill-no")
     page.goto(f"{base}#/")
     page.wait_for_selector(".roadmap")
@@ -1096,7 +1377,7 @@ def run_review(page, url, vocab, authored, course_dir, failures):
         tags.append(page.text_content(".drill-review-tag"))
         code = (page.text_content(".drill-item-code") or "").removeprefix("Item ")
         answer_current(page, vocab, 40, authored)
-        page.click(".drill-feedback .gate-btn")
+        submit(page)
         page.wait_for_selector(".drill-feedback .gate-btn")
         if page.query_selector(".drill-ok") and "." in code:
             credited.append(code)
@@ -1199,7 +1480,7 @@ def run_lesson_heading_check(page, failures):
 def run_drill_keyboard(page, vocab, failures, authored=None):
     page.click(".unit[data-unit='1']")
     page.wait_for_selector(".lesson-title")
-    page.click(".gate-btn")
+    page.click(".gate .gate-btn")
     page.wait_for_selector(".drill-stage")
 
     qcount = 0
@@ -1208,7 +1489,7 @@ def run_drill_keyboard(page, vocab, failures, authored=None):
             break
         qcount += 1
         answer_current(page, vocab, 1, authored)
-        page.click(".drill-feedback .gate-btn")  # Check
+        submit(page)
         page.wait_for_selector(".drill-feedback .gate-btn")
         before = page.text_content(".drill-progress").strip()
         page.keyboard.press("Enter")  # advance via keyboard, not a click
@@ -1254,6 +1535,16 @@ def main():
         help="hash URLs, seeded sessions that resume after reload, item codes, per-block progress",
     )
     ap.add_argument(
+        "--modes",
+        action="store_true",
+        help="drill mode (retry with a hint, requeue, first-try credit) and test mode (unit, part, final)",
+    )
+    ap.add_argument(
+        "--words",
+        action="store_true",
+        help="words track: per-word ladder, tap-to-pair matching (misses, keys, cards, phone width)",
+    )
+    ap.add_argument(
         "--progress-ops",
         action="store_true",
         help="reset all, reset a unit, mark a unit done, mark an exercise done / not done",
@@ -1297,6 +1588,14 @@ def main():
                 print("=== routes / sessions / block progress ===")
                 check(run_routes(browser, page, url, vocab, authored, args.course, failures) == 1,
                       "course has authored items with blocks to route to", failures)
+                browser.close()
+            elif args.modes:
+                print("=== drill mode and test mode ===")
+                check(run_modes(browser, page, url, vocab, authored, args.course, failures) == 1, "course has retries and tests", failures)
+                browser.close()
+            elif args.words:
+                print("=== words track ===")
+                check(run_words(page, url, vocab, args.course, failures) == 1, "course has a words track", failures)
                 browser.close()
             elif args.progress_ops:
                 print("=== progress operations ===")
@@ -1348,13 +1647,13 @@ def main():
                         )
 
             stored = None
-            if not (args.exercise_types or args.authored or args.accessibility or args.keyboard or args.routes or args.ladder or args.progress_ops):
+            if not (args.exercise_types or args.authored or args.accessibility or args.keyboard or args.routes or args.ladder or args.progress_ops or args.words or args.modes):
                 with open(f"{args.course}/course.json", encoding="utf-8") as f:
                     cid = json.load(f)["id"]
                 stored = page.evaluate("k => localStorage.getItem(k)", f"lang-research.progress.{cid}")
             browser.close()
 
-        if stored is not None or (not (args.exercise_types or args.authored or args.accessibility or args.keyboard or args.routes or args.ladder or args.progress_ops)):
+        if stored is not None or (not (args.exercise_types or args.authored or args.accessibility or args.keyboard or args.routes or args.ladder or args.progress_ops or args.words or args.modes)):
             progress = json.loads(stored or "{}")
             for unit_n in range(1, args.units + 1):
                 state = progress.get("units", {}).get(str(unit_n), {}).get("state")
@@ -1388,6 +1687,10 @@ def main():
         print("\nE2E PASS — keyboard/single-option harness: Enter advances after checking; no single-option choices")
     elif args.routes:
         print("\nE2E PASS — routes: seeded URLs resume after reload, item codes, per-block progress")
+    elif args.modes:
+        print("\nE2E PASS — drill mode (retry, requeue, first-try credit) and test mode (unit, part, final)")
+    elif args.words:
+        print("\nE2E PASS — words track: per-word ladder, tap-to-pair matching")
     elif args.progress_ops:
         print("\nE2E PASS — progress operations: reset all, reset a unit, mark a unit or an exercise done")
     elif args.ladder:

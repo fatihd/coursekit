@@ -115,6 +115,23 @@ right once; the roadmap shows a star per completed rung (`authored/ladder.json` 
 lists the ladder with a progress bar and a Practice link (`#/<slug>/rung/<n>/<seed>/<q>`) per rung, plus the
 Davidson sections. The on-screen keyboard pads the page while open so it never covers the Check button.
 
+### Drill mode and test mode (P12-T13/T14, ADR-024)
+
+With `features.retries`, a drill gives one hinted retry after a miss (or "Show answer"), queues a question that
+stays wrong once more at the end of the session, and credits only right first answers. With `features.tests`,
+the lesson offers **Test yourself** and the roadmap a test per part and a mock final (`engine/views/test.js`):
+seeded questions, one attempt each, no hints or item codes, graded at the end with self-marking for typed
+English; results in `progress.tests`; a unit test at 80%+ marks the unit done.
+
+### Words track (P12-T12)
+
+With `features.wordLadder`, the lesson shows a **Words** section above the exercise ladder: four word rungs
+(recognize, recall, type, type with vowel points) with counts and Practice links, and a "Practice words" button
+(`#/<slug>/words/<rung>/<seed>/<q>`, `engine/words.js`). Word progress is `progress.units[n].words`; it does not
+gate unlocking. The roadmap shows a word star (✎★ when every word is right on every rung). Book-exercise
+sessions open with a few word questions (a match set and choose items) drawn from this unit's words, those not
+yet right first; earlier units' words appear only as wrong options.
+
 ### Lesson gate
 
 The "Mark lesson read → start drills" gate is **soft**: it encourages the teach→drill

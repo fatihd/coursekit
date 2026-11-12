@@ -41,7 +41,11 @@
     "reviewWarmup": true,             // offer an optional warm-up from weak prior units
     "targetItems": 24,                // session size (default 14 when absent)
     "reviewItems": 5,                 // spiral/review items pulled to the front (default 2)
-    "authoredPerSession": 10          // random sample of authored items per session (default all)
+    "authoredPerSession": 10,         // random sample of authored items per session (default all)
+    "wordLadder": true,               // per-unit Words track, four rungs per word (P12-T12)
+    "wordsPerSession": 10,            // items per Words session (default 10; a match set is one item)
+    "retries": true,                  // drill: one hinted retry, missed questions return at the end, first-try credit
+    "tests": true                     // test mode: unit / part / mock final tests (ADR-024)
   }
 }
 ```
@@ -343,11 +347,17 @@ non-lexeme kinds). Units reference them in `teaches`/`assumes`.
     "u01": { "state": "done",     "lessonRead": true,  "bestScore": 90, "lastPlayed": "2026-08-12T10:00Z" },
     "u02": { "state": "done",     "lessonRead": true,  "bestScore": 85, "lastPlayed": "2026-08-12T11:00Z" },
     "u03": { "state": "in-progress","lessonRead": true, "bestScore": 0,  "lastPlayed": "2026-08-12T12:00Z",
-             "done": { "1": ["s20-B3.tf"], "2": ["s20-B3.choice"] } }   // ids answered right, per ladder rung (P12-T4)
+             "done": { "1": ["s20-B3.tf"], "2": ["s20-B3.choice"] },    // ids answered right, per ladder rung (P12-T4)
+             "words": { "1": ["he-dav-02-001"], "2": [] } }             // vocab ids right, per word rung (P12-T12)
   },
   "sessions": {                                         // open drill per unit ("N") or block ("N:block")
-    "35": { "seed": "k3f9q1", "block": null, "pos": 7, "total": 24, "correct": 5, "answered": 6, "detail": [] }
+    "35": { "seed": "k3f9q1", "block": null, "pos": 7, "total": 24, "correct": 5, "answered": 6, "detail": [],
+            "requeue": ["s20-B3.choice"] }             // questions coming back at the end (retries)
   },
+  "tests": [                                            // test-mode results (ADR-024), oldest first
+    { "scope": "unit", "key": 16, "seed": "mooprt", "date": "2026-11-12T10:35:53Z", "correct": 16, "total": 16,
+      "score": 100, "elapsed": "0:52" }                 // scope unit|part|final; key = unit or part number
+  ],
   "knownSet": ["he-dav-01-001", "he-dav-01-002", /* … items from completed units */],
   "skills": { "20": { "correct": 12, "attempts": 14 } },   // optional, ADR-015
   "xp": 175,

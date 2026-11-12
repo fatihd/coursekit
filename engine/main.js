@@ -2,10 +2,12 @@ import { loadProgress, saveProgress, exportProgress, importProgress, resetProgre
 import { renderRoadmap } from "./views/roadmap.js";
 import { renderLesson } from "./views/lesson.js";
 import { renderDrill } from "./views/drill.js";
+import { PASS_MARK, renderTest } from "./views/test.js";
 import { buildSession } from "./session.js";
 import { buildRecap, reviewUnits, weakUnits } from "./knowledge.js";
 import { initKeyboard } from "./keyboard.js";
 import { newSeed, shuffle, withSeed } from "./exercise-types/util.js";
+import { WORD_RUNG_COUNT, openRung, warmupWords, wordItemsFor, wordSummary, wordsSession } from "./words.js";
 
 const ctx = {
   base: "",
@@ -48,6 +50,11 @@ function routeFor(view, n, extra = {}) {
   if (view === "block") return extra.seed ? `${base}/block/${extra.block}/${extra.seed}/${extra.pos || 1}` : `${base}/block/${extra.block}`;
   if (view === "rung") return extra.seed ? `${base}/rung/${extra.rung}/${extra.seed}/${extra.pos || 1}` : `${base}/rung/${extra.rung}`;
   if (view === "item") return `${base}/item/${extra.item}`;
+  if (view === "test") return extra.seed ? `${base}/test/${extra.seed}` : `${base}/test`;
+  if (view === "words") {
+    const r = extra.rung || 0;
+    return extra.seed ? `${base}/words/${r}/${extra.seed}/${extra.pos || 1}` : r ? `${base}/words/${r}` : `${base}/words`;
+  }
   return base;
 }
 
@@ -63,9 +70,17 @@ function setHash(hash) {
 
 let routeSeq = 0;
 
+function testRoute(scope, part, seed) {
+  const base = scope === "part" ? `#/test/part/${part}` : "#/test/final";
+  return seed ? `${base}/${seed}` : base;
+}
+
 function route() {
   routeSeq += 1;
   const [slug, kind, a, b, c] = location.hash.replace(/^#\/?/, "").split("/").filter(Boolean).map(decodeURIComponent);
+  if (slug === "test" && (kind === "part" || kind === "final")) {
+    return loadTest(kind === "part" ? { scope: "part", part: Number(a), seed: b } : { scope: "final", seed: a });
+  }
   const unit = slug ? unitBySlug(slug) : null;
   if (!unit) return showRoadmap();
   if (!kind) return loadLesson(unit.n);
@@ -73,12 +88,18 @@ function route() {
   if (kind === "block") return loadDrill(unit.n, { block: a, seed: b, pos: c });
   if (kind === "rung") return loadDrill(unit.n, { rung: Number(a), seed: b, pos: c });
   if (kind === "item") return loadDrill(unit.n, { item: a });
+  if (kind === "test") return loadTest({ scope: "unit", unit: unit.n, seed: a });
+  if (kind === "words") return loadWords(unit.n, { rung: Number(a) || 0, seed: b, pos: c });
   return loadLesson(unit.n);
 }
 
 function showRoadmap() {
   renderRoadmap(ctx.root, ctx.course, ctx.progress, navigate, {
     stars: (n) => ladderStars(n),
+    wordStar: (n) => wordStar(n),
+    tests: ctx.features && ctx.features.tests
+      ? { part: (n) => testRoute("part", n), final: testRoute("final"), last: (scope, key) => lastTest(scope, key) }
+      : null,
     onExport: () => exportProgress(ctx.course.id, ctx.progress),
     onReset: () => {
       ctx.progress = resetProgress(ctx.course.id);
@@ -158,6 +179,35 @@ function ladderStars(unitN) {
   return Object.keys(totals).sort().map((r) => (done[r] || []).length >= totals[r]);
 }
 
+function unitWords(unitN) {
+  return ctx.vocabList.filter((v) => v.unit === unitN && v.scriptForm && v.gloss);
+}
+
+function wordDistractors(unitN) {
+  return ctx.vocabList.filter((v) => v.unit <= unitN && v.unit >= unitN - 5 && v.unit !== unitN);
+}
+
+function wordsDone(unitN) {
+  return (ctx.progress.units[unitN] || {}).words || {};
+}
+
+function wordStar(unitN) {
+  if (!(ctx.features && ctx.features.wordLadder)) return null;
+  const words = unitWords(unitN);
+  if (!words.length) return null;
+  return openRung(words, wordsDone(unitN)) === null;
+}
+
+function recordWords(unitN, item, res) {
+  const ids = item.type === "match-by-line" ? res.words || [] : res.correct ? item.wordIds || [] : [];
+  if (!ids.length) return;
+  const u = ctx.progress.units[unitN] || {};
+  const words = { ...(u.words || {}) };
+  const key = String(item.wordRung);
+  words[key] = [...new Set([...(words[key] || []), ...ids])];
+  ctx.progress.units[unitN] = { ...u, words };
+}
+
 function reviewCandidates(unitN) {
   return ctx.course.units.map((u) => u.n)
     .filter((n) => n < unitN && (ctx.vocabList.some((v) => v.unit === n) || ctx.ladder[String(n)]));
@@ -201,10 +251,16 @@ async function loadLesson(unitN) {
     recap: buildRecap(ctx.course, ctx.progress, unitN),
     warmup: weakUnits(ctx.progress, unitN, 3, reviewCandidates(unitN)),
     blocks: blockSummary(unitN, authored),
+    words: ctx.features && ctx.features.wordLadder && unitWords(unitN).length
+      ? { rows: wordSummary(unitWords(unitN), wordsDone(unitN)).map((r) => ({ ...r, href: routeFor("words", unitN, { rung: r.rung }) })), href: routeFor("words", unitN) }
+      : null,
     ladder: ladderSummary(unitN, authored),
     unlockRung: ctx.features && ctx.features.unlockRung,
     resume: saved ? { href: routeFor("drill", unitN, saved), pos: saved.pos, total: saved.total } : null,
     unitDone: (ctx.progress.units[unitN] || {}).state === "done",
+    test: ctx.features && ctx.features.tests && (ctx.ladder[String(unitN)] || unitWords(unitN).length)
+      ? { href: routeFor("test", unitN), last: lastTest("unit", unitN), passMark: PASS_MARK }
+      : null,
     unitStarted: Boolean(ctx.progress.units[unitN] || saved),
     onMarkUnitDone: (n) => {
       markDone(n);
@@ -276,6 +332,102 @@ async function setItemDone(unitN, item, done) {
   commit();
 }
 
+function lastTest(scope, key) {
+  const list = (ctx.progress.tests || []).filter((t) => t.scope === scope && (scope === "final" || t.key === key));
+  return list.length ? list[list.length - 1] : null;
+}
+
+function pickLadder(authored, plan, unitN) {
+  const used = new Set();
+  const out = [];
+  for (const [rung, count] of plan) {
+    const pool = shuffle(authored.filter((it) => it.rung === rung && !used.has(it.src || it.id)));
+    for (const it of pool.slice(0, count)) {
+      used.add(it.src || it.id);
+      out.push({ ...it, sourceUnit: unitN });
+    }
+  }
+  return out;
+}
+
+async function testItems(opts) {
+  const units = opts.scope === "unit" ? [opts.unit]
+    : opts.scope === "part" ? ctx.course.units.filter((u) => u.part === opts.part).map((u) => u.n)
+      : ctx.course.units.map((u) => u.n);
+  const authoredBy = {};
+  for (const n of units) authoredBy[n] = ctx.ladder[String(n)] ? await authoredFor(n) : [];
+  return withSeed(`${opts.seed}:test`, () => {
+    let items = [];
+    if (opts.scope === "unit") {
+      items = pickLadder(authoredBy[opts.unit], [[5, 6], [4, 6], [3, 4], [2, 2], [1, 2]], opts.unit);
+    } else {
+      const plan = opts.scope === "part" ? [[5, 1], [4, 1]] : [[5, 1], [4, 1]];
+      const cap = 30;
+      const per = shuffle(units.filter((n) => authoredBy[n].length)).map((n) => pickLadder(authoredBy[n], plan, n));
+      for (let round = 0; items.length < cap && per.some((l) => l.length > round); round++) {
+        for (const l of per) if (l[round] && items.length < cap) items.push(l[round]);
+      }
+    }
+    if (ctx.features && ctx.features.wordLadder) {
+      const words = shuffle(units.flatMap((n) => unitWords(n))).slice(0, items.length ? 5 : 12);
+      const wordItems = wordItemsFor(items.length ? 3 : 2, words, wordDistractors(Math.max(...units)))
+        .map((it) => ({ ...it, sourceUnit: ctx.vocab[it.wordIds[0]] ? ctx.vocab[it.wordIds[0]].unit : undefined }));
+      items = [...items, ...wordItems];
+    }
+    return shuffle(items);
+  });
+}
+
+async function loadTest(opts) {
+  const seq = routeSeq;
+  if (!opts.seed) {
+    const seed = newSeed();
+    setHash(opts.scope === "unit" ? routeFor("test", opts.unit, { seed }) : testRoute(opts.scope, opts.part, seed));
+    return route();
+  }
+  const items = await testItems(opts);
+  if (seq !== routeSeq) return;
+  const unit = opts.scope === "unit" ? ctx.course.units.find((u) => u.n === opts.unit) : null;
+  const part = opts.scope === "part" ? (ctx.course.parts || []).find((p) => p.n === opts.part) : null;
+  const title = unit ? `Unit ${unit.n} test — ${unit.title}` : part ? `Part ${part.n} test — ${part.title}` : "Final exam (mock)";
+  renderTest(ctx.root, {
+    course: ctx.course,
+    items,
+    seed: opts.seed,
+    title,
+    backLabel: unit ? "← Lesson" : "← Roadmap",
+    onBack: () => (unit ? navigate("lesson", unit.n) : navigate("roadmap")),
+    onFinish: (r) => {
+      const key = unit ? unit.n : part ? part.n : null;
+      ctx.progress.tests = [...(ctx.progress.tests || []), {
+        scope: opts.scope, key, seed: opts.seed, date: new Date().toISOString(),
+        correct: r.correct, total: r.total, score: r.score, elapsed: r.elapsed,
+      }];
+      let msg = null;
+      if (unit && r.passed && (ctx.progress.units[unit.n] || {}).state !== "done") {
+        markDone(unit.n);
+        msg = `Passed — Unit ${unit.n} is marked done and the next unit is open.`;
+      }
+      commit();
+      return msg;
+    },
+  });
+}
+
+async function loadWords(unitN, opts = {}) {
+  const unit = ctx.course.units.find((u) => u.n === unitN);
+  const words = unitWords(unitN);
+  if (!words.length) return loadLesson(unitN);
+  const rung = opts.rung || openRung(words, wordsDone(unitN)) || WORD_RUNG_COUNT;
+  if (!opts.seed) {
+    setHash(routeFor("words", unitN, { rung, seed: newSeed() }));
+    return route();
+  }
+  const items = withSeed(opts.seed, () => wordsSession(words, wordsDone(unitN), rung, wordDistractors(unitN), (ctx.features && ctx.features.wordsPerSession) || 10));
+  if (!items.length) return loadLesson(unitN);
+  showDrill(unit, items, { seed: opts.seed, pos: opts.pos, words: rung });
+}
+
 async function loadDrill(unitN, opts = {}) {
   const seq = routeSeq;
   const unit = ctx.course.units.find((u) => u.n === unitN);
@@ -305,7 +457,11 @@ async function loadDrill(unitN, opts = {}) {
       const cap = (ctx.features && ctx.features.authoredPerSession) || inBlock.length;
       return [...shuffle(inBlock.filter((it) => !mastered.has(it.id))), ...shuffle(inBlock.filter((it) => mastered.has(it.id)))].slice(0, cap);
     }
+    const wordWarmup = ctx.features && ctx.features.wordLadder
+      ? warmupWords(unitWords(unitN), wordsDone(unitN), wordDistractors(unitN), ctx.features.vocabPerSession ?? 3)
+      : null;
     return buildSession(ctx.course, pool, {
+      wordWarmup,
       unitN,
       vocabList: ctx.vocabList,
       progress: ctx.progress,
@@ -322,12 +478,14 @@ async function loadDrill(unitN, opts = {}) {
 
 function showDrill(unit, items, opts) {
   const unitN = unit.n;
-  const group = opts.block || (opts.rung ? `rung${opts.rung}` : null);
+  const group = opts.block || (opts.rung ? `rung${opts.rung}` : opts.words ? `words${opts.words}` : null);
   const key = sessionKey(unitN, group);
   const sessions = ctx.progress.sessions || {};
   const saved = !opts.single && sessions[key] && sessions[key].seed === opts.seed ? sessions[key] : null;
   const pos = saved ? saved.pos : Math.min(Math.max(parseInt(opts.pos, 10) || 1, 1), items.length);
-  const where = (p) => (opts.block
+  const where = (p) => (opts.words
+    ? routeFor("words", unitN, { rung: opts.words, seed: opts.seed, pos: p })
+    : opts.block
     ? routeFor("block", unitN, { block: opts.block, seed: opts.seed, pos: p })
     : opts.rung ? routeFor("rung", unitN, { rung: opts.rung, seed: opts.seed, pos: p })
       : routeFor("drill", unitN, { seed: opts.seed, pos: p }));
@@ -343,26 +501,27 @@ function showDrill(unit, items, opts) {
     seed: opts.seed,
     single: Boolean(opts.single),
     start: pos - 1,
-    initial: saved ? { correct: saved.correct, answered: saved.answered, detail: saved.detail || [] } : null,
+    initial: saved ? { correct: saved.correct, answered: saved.answered, detail: saved.detail || [], requeue: saved.requeue || [] } : null,
     features: ctx.features,
     onPosition: (idx) => {
       if (!opts.single) setHash(where(idx + 1));
     },
     isItemDone: (item) => itemDone(unitN, item),
     onMarkItem: (item, done) => setItemDone(unitN, item, done),
-    onAnswer: async (item, correct, state) => {
+    onAnswer: async (item, correct, state, res = {}) => {
       const owner = itemOwner(unitN, item);
-      recordAnswer(owner, item, correct);
+      if (item.wordRung) recordWords(unitN, item, { ...res, correct });
+      else recordAnswer(owner, item, correct);
       if (correct && item.rung && ladderComplete(owner, await authoredFor(owner))) markDone(owner);
       if (!opts.single) {
         ctx.progress.sessions = { ...(ctx.progress.sessions || {}) };
-        ctx.progress.sessions[key] = { seed: opts.seed, block: opts.block || null, rung: opts.rung || null, pos: state.next + 1, total: items.length, correct: state.correct, answered: state.answered, detail: state.detail };
+        ctx.progress.sessions[key] = { seed: opts.seed, block: opts.block || null, rung: opts.rung || null, pos: state.next + 1, total: items.length, correct: state.correct, answered: state.answered, detail: state.detail, requeue: state.requeue || [] };
       }
       commit();
     },
     onComplete: (correct, total, detail) => {
       if (ctx.progress.sessions) delete ctx.progress.sessions[key];
-      if (opts.single || opts.block || opts.rung || !total) {
+      if (opts.single || opts.block || opts.rung || opts.words || !total) {
         commit();
         return;
       }

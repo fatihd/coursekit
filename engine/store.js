@@ -89,6 +89,13 @@ export function mergeProgress(a, b) {
       }
       merged.done = done;
     }
+    if (ua.words || ub.words) {
+      const words = { ...(ua.words || {}) };
+      for (const [rung, ids] of Object.entries(ub.words || {})) {
+        words[rung] = [...new Set([...(words[rung] || []), ...ids])];
+      }
+      merged.words = words;
+    }
     units[n] = merged;
   }
   const out = {
@@ -105,6 +112,17 @@ export function mergeProgress(a, b) {
       skills[k] = !sa || (sb.attempts || 0) > (sa.attempts || 0) ? { ...sb } : sa;
     }
     out.skills = skills;
+  }
+  if (a.tests || b.tests) {
+    const seen = new Set();
+    out.tests = [...(a.tests || []), ...(b.tests || [])]
+      .filter((t) => {
+        const k = `${t.scope}:${t.key}:${t.seed}:${t.date}`;
+        if (seen.has(k)) return false;
+        seen.add(k);
+        return true;
+      })
+      .sort((x, y) => (x.date < y.date ? -1 : 1));
   }
   if (a.sessions || b.sessions) out.sessions = { ...(b.sessions || {}), ...(a.sessions || {}) };
   if (!out.student?.name && b.student?.name) out.student = { ...b.student };

@@ -87,6 +87,18 @@ export function renderRoadmap(root, course, progress, navigate, sync) {
     const h2 = document.createElement("h2");
     h2.textContent = `${part.n}. ${part.title}`;
     section.appendChild(h2);
+    if (sync && sync.tests) {
+      const row = document.createElement("p");
+      row.className = "part-test";
+      const a = document.createElement("a");
+      a.href = sync.tests.part(part.n);
+      a.className = "part-test-link";
+      a.textContent = `Part ${part.n} test`;
+      row.appendChild(a);
+      const last = sync.tests.last("part", part.n);
+      if (last) row.appendChild(document.createTextNode(` · last ${last.score}%`));
+      section.appendChild(row);
+    }
 
     const grid = document.createElement("div");
     grid.className = "roadmap";
@@ -117,11 +129,39 @@ export function renderRoadmap(root, course, progress, navigate, sync) {
         s.textContent = stars.map((x) => (x ? "★" : "☆")).join("");
         btn.appendChild(s);
       }
+      const wordStar = sync && sync.wordStar ? sync.wordStar(u.n) : null;
+      if (wordStar !== null && wordStar !== undefined) {
+        const w = document.createElement("span");
+        w.className = wordStar ? "unit-words unit-words--done" : "unit-words";
+        w.setAttribute("aria-label", wordStar ? "all words learned" : "words not all learned yet");
+        w.textContent = wordStar ? "✎★" : "✎☆";
+        btn.appendChild(w);
+      }
       btn.addEventListener("click", () => navigate("lesson", u.n));
       grid.appendChild(btn);
     }
 
     section.appendChild(grid);
     root.appendChild(section);
+  }
+
+  if (sync && sync.tests) {
+    const box = document.createElement("section");
+    box.className = "part final-test";
+    const h2 = document.createElement("h2");
+    h2.textContent = "Final exam (mock)";
+    box.appendChild(h2);
+    const p = document.createElement("p");
+    p.className = "part-test";
+    p.textContent = "Unseen-style questions from the whole course, translation both ways with vowel points, and words. One attempt each, checked at the end. ";
+    const a = document.createElement("a");
+    a.href = sync.tests.final;
+    a.className = "part-test-link final-test-link";
+    a.textContent = "Take the mock final";
+    p.appendChild(a);
+    const last = sync.tests.last("final");
+    if (last) p.appendChild(document.createTextNode(` · last ${last.score}%`));
+    box.appendChild(p);
+    root.appendChild(box);
   }
 }

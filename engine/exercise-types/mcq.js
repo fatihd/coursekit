@@ -1,5 +1,5 @@
 import { el, scriptSpan } from "../dom.js";
-import { shuffle } from "./util.js";
+import { random, shuffle } from "./util.js";
 
 const DIRECTIONS = {
   "script->gloss": {
@@ -110,5 +110,22 @@ export default {
 
   grade(item, answer) {
     return { correct: answer === item.answer, expected: item.answer };
+  },
+
+  hint(node, item, answer) {
+    const wrong = Array.from(node.querySelectorAll(".ex-option")).filter((b) => b.dataset.value !== item.answer);
+    const strike = (b) => {
+      b.classList.remove("ex-option--selected");
+      b.classList.add("ex-option--struck");
+      b.disabled = true;
+    };
+    const chosen = wrong.find((b) => b.dataset.value === answer);
+    if (chosen) strike(chosen);
+    const left = wrong.filter((b) => !b.disabled);
+    if (left.length > 1) {
+      strike(left[Math.floor(random() * left.length)]);
+      return "Two wrong options are crossed out.";
+    }
+    return "Your choice is crossed out.";
   },
 };

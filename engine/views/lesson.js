@@ -113,6 +113,33 @@ export function renderLesson(root, ctx, unit, lesson) {
     }
   }
 
+  if (ctx.words) {
+    const box = el("section", "words");
+    box.appendChild(el("h2", "blocks-title", "Words"));
+    box.appendChild(el("p", "ladder-note", "Learn this unit's words: recognize, recall, type, type with vowel points. Optional for unlocking."));
+    const list = el("ol", "ladder-list");
+    for (const r of ctx.words.rows) {
+      const row = el("li", r.done >= r.total ? "ladder-row ladder-row--done" : "ladder-row");
+      row.dataset.wordRung = r.rung;
+      row.appendChild(el("span", "blocks-label", `${r.rung}. ${r.label}`));
+      const bar = el("span", "ladder-bar");
+      const fill = el("span", "ladder-fill");
+      fill.style.width = `${Math.round((100 * r.done) / Math.max(1, r.total))}%`;
+      bar.appendChild(fill);
+      row.appendChild(bar);
+      row.appendChild(el("span", "blocks-count", `${r.done} / ${r.total}`));
+      const practice = el("a", "blocks-practice", "Practice");
+      practice.href = r.href;
+      row.appendChild(practice);
+      list.appendChild(row);
+    }
+    box.appendChild(list);
+    const go = el("a", "gate-btn gate-secondary words-practice", "Practice words");
+    go.href = ctx.words.href;
+    box.appendChild(go);
+    root.appendChild(box);
+  }
+
   if (ctx.ladder && ctx.ladder.length) {
     const box = el("section", "ladder");
     box.appendChild(el("h2", "blocks-title", "Exercise ladder"));
@@ -168,7 +195,17 @@ export function renderLesson(root, ctx, unit, lesson) {
   const btn = el("button", ctx.resume ? "gate-btn gate-secondary" : "gate-btn", ctx.resume ? "Start new drills" : "Start drills →");
   btn.addEventListener("click", () => ctx.onStartDrills(unit.n));
   gate.appendChild(btn);
+  if (ctx.test) {
+    const test = el("a", "gate-btn gate-secondary unit-test", "Test yourself");
+    test.href = ctx.test.href;
+    test.title = `One attempt per question, checked at the end; ${ctx.test.passMark}% or more marks the unit done`;
+    gate.appendChild(test);
+  }
   root.appendChild(gate);
+  if (ctx.test && ctx.test.last) {
+    const t = ctx.test.last;
+    root.appendChild(el("p", "test-last", `Last test: ${t.score}% (${t.correct} / ${t.total}) on ${t.date.slice(0, 10)}.`));
+  }
 
   if (ctx.onMarkUnitDone || ctx.onResetUnit) {
     const ops = el("div", "unit-ops");

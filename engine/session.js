@@ -118,7 +118,7 @@ export function buildSession(course, pool, options = {}) {
 
   if (ladderMode) {
     const vocabCount = Math.min(features.vocabPerSession ?? 4, generated.length);
-    const vocab = generated.slice(0, vocabCount);
+    const vocab = options.wordWarmup || generated.slice(0, vocabCount);
     const climb = ladderSession(ladderItems, mastered, Math.max(0, target - spiralItems_.length - vocab.length));
     return [...spiralItems_, ...vocab, ...climb].map((item) => (item.id ? item : { ...item, id: generatedId(item) }));
   }

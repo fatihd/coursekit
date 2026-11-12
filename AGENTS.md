@@ -132,6 +132,12 @@ python scripts/e2e.py courses/biblical-hebrew-davidson --routes
 # Exercise ladder: rung order, pointed grading, typed English with self-check, unlock and stars
 python scripts/e2e.py courses/biblical-hebrew-davidson --ladder
 
+# Words track and tap-to-pair matching (misses, keys, cards, phone width, merge)
+python scripts/e2e.py courses/biblical-hebrew-davidson --words
+
+# Drill mode (hinted retry, requeue, first-try credit) and test mode (unit, part, mock final)
+python scripts/e2e.py courses/biblical-hebrew-davidson --modes
+
 # Progress operations: reset all, reset a unit, mark a unit or an exercise done / not done
 python scripts/e2e.py courses/biblical-hebrew-davidson --progress-ops
 
@@ -333,3 +339,5 @@ ADR files any more: to make or change a decision, add or edit its line here.
 | ADR-020 | Public repo `fatihd/coursekit` (fresh history, open courses only, MIT code, CC0 exwb data, GitHub Pages); changes only via `scripts/make-public-snapshot`. |
 | ADR-021 | Davidson follows the 22nd edition (1923) only. |
 | ADR-022 | The course vision of §0: exercise ladder, sentences from the start, per-sentence placement, typed translation, no transliteration, a large exercise corpus built offline (static course data, no live agent). |
+| ADR-023 | Words are a separate per-unit track (four rungs per word: recognize, recall, type, type with points), optional for unlocking; book sessions open with a few word questions; word drills use only the unit's own words (earlier words only as wrong options) (user, 2026-11-12). |
+| ADR-024 | Drill mode: one hinted retry, a question still wrong returns once at the end of the same session, credit only for right first answers, no hearts/lives. Test mode: unit tests (80% tests out of the unit), part tests, a mock final; one attempt, graded at the end, results kept separately (user, 2026-11-12). |

@@ -15,6 +15,7 @@ export default {
   generate(params, pool)      // → item instance (for generated drills)
   render(item, ctx)            // → DOM node (or HTML string) for one item
   grade(item, answer)          // → { correct: bool, expected: any, feedback?: string }
+  hint?(node, item, answer, result)  // optional (drill retries): mark the miss in place, return a short hint
 }
 ```
 
@@ -41,7 +42,7 @@ fill in the blank → translate without points → translate with points.)*
 | id | Form | Description |
 |---|---|---|
 | `mcq` | MCQ | Pick the correct script/transliteration/gloss from N options. Directions: script→gloss, gloss→script, transliteration→script, script→transliteration. |
-| `match-by-line` | Match | Pair N left items with N right items by drawing lines (or selecting pairs). Used for Hebrew↔English matching. |
+| `match-by-line` | Match | Tap to pair (2026-11-12): two columns of tiles; tap one, then its partner. A right pair locks, a wrong pair shakes and counts a miss; keys 1–9 / a–i pick tiles. Right with at most one miss. Hebrew↔English both ways, or singular↔plural (`kind: "plural"`). |
 | `categorize` | Sort into columns | Sort words into labeled columns by gender / root (`shoresh`) / dagesh type / part of speech / binyan. |
 | `translate-phrase` | Translate + analyze | Translate a phrase (Hebrew→English or EN→HE) AND identify a property (PNG=person/number/gender, nominal-sentence yes/no, definiteness). |
 | `fill-blank-verse` | Fill blank in a verse | A Bible verse with a blank; choose the word (often a pronominal-suffix form) that fits. |
@@ -52,9 +53,27 @@ fill in the blank → translate without points → translate with points.)*
 | `scan-text` | Scan a verse | Given a verse, find instances of a feature (matres lectionis, moving shewa, construct chains) and select/mark them. |
 | `synonym-antonym` | Pair matching | Match word pairs that are synonyms or antonyms, then translate. |
 
-Generated `match-by-line` items contain at most one row per script form. If the pool has
-multiple lexicon entries with identical spelling, the generator keeps the last entry for
-that spelling so each displayed left item has one unambiguous gloss.
+Generated `match-by-line` items contain at most one row per script form **and per gloss** (two words
+glossed "to go" never share a set), plus two extra right-hand options (`extra`, near-misses of the same
+category first, from `distractors`) so the last pair is never free. Words the student has not got right yet
+come first (`prefer`); earlier units' words are only used as extra options, never as words to match.
+Item fields: `left`, `right` (left values' partners + extras), `answer {left→right}`, `leftIsScript`,
+`rightIsScript`, `words {left→vocab id}`, `cards` (shown after checking: word, plural, gloss, gender).
+`collect` returns `{pairs, misses, firstTry}`; `grade` is right when every pair is right with ≤ 1 miss and
+returns `words` (vocab ids matched without a miss). In test mode (`ctx.exam`) pairs are not checked as they
+are made; a paired tile can be tapped again to undo. Built from buttons, CSS grid and a CSS animation
+(reduced motion respected), so it works by touch, mouse and keyboard on phone, tablet and desktop.
+
+### Words track (P12-T12, course feature `wordLadder`)
+
+`engine/words.js`: every unit's words get their own four-rung ladder, separate from the book exercises and
+optional for unlocking: 1 Recognize (match sets of 3–5 words, else choose the English), 2 Recall (choose the
+Hebrew), 3 Type the word (consonants), 4 Type with vowel points (`pointing: "required"`). Item ids
+`w<rung>-<vocab id>` (match sets `w1-m-<ids>`), `wordRung`, `wordIds`. A word counts on a rung when answered
+right (in a match set: matched without a miss); stored in `progress.units[n].words`. Sessions
+(`#/<slug>/words[/<rung>/<seed>/<q>]`, `wordsPerSession`, default 10) take the lowest rung with open words, open
+words first. A book-exercise session opens with `vocabPerSession` (default 3) word questions: one match set
+(or a singular↔plural set when the unit has ≥ 3 plurals) and choose items.
 
 ### Ideated / extended types
 
@@ -178,7 +197,21 @@ Validation is enforced by `build/schemas/authored-exercises.json` via
 
 - Each `grade` returns correctness + the expected answer + optional feedback. Drills give
   **immediate** feedback (not delayed); wrong answers reveal the correct one.
-- No penalty queue, no rescheduling, no per-card intervals — ever (ADR-005).
+- **Drill mode with retries** (course feature `retries`, 2026-11-12, ADR-024): a first miss gives one more
+  try with a hint (`hint`: mcq crosses out the choice and one more wrong option; typed Hebrew with points
+  marks the wrong letters red; typed Hebrew without points gives the first letter of each word; parse-form
+  outlines the wrong fields), or "Show answer". True/false, self-checked English and match sets have no
+  retry. A question still wrong comes back once at the end of the same session ("· again"; kept in
+  `sessions[key].requeue` across a reload). Only a right **first** answer earns credit (ladder `done`,
+  word rungs, score); right after a miss is "practised" and the item stays open for a later session.
+- **Test mode** (course feature `tests`, ADR-024, `engine/views/test.js`): a unit test (`#/<slug>/test/<seed>`;
+  rungs 5/4/3/2/1 = 6/6/4/2/2 items, one per sentence, plus 5 typed words), a part test and a mock final
+  (`#/test/part/<n>/<seed>`, `#/test/final/<seed>`: rungs 4–5 spread over the units, up to 30, plus 5 typed
+  words). One attempt per question, no hints, item codes, scan links or done toggles; match sets pair without
+  checking. Everything is graded at the end; self-checked English is marked against the Key on the results
+  page. Results go to `progress.tests`; a unit test at 80% or more marks the unit done (testing out).
+- No spaced-repetition scheduling, no due dates, no per-card intervals across sessions — ever (ADR-005).
+  The in-session requeue above is not a schedule: nothing carries over except "not yet right".
 - Score per session → unit `bestScore` in progress; passing threshold unlocks the next unit
   (soft unlock: recommended-next highlight, not a hard gate).
 - **No single-option MCQ.** Every choice-based item (`mcq`, `parse-noun`, `parse-verb`,

@@ -82,6 +82,18 @@ Serves the hub course and opens `http://127.0.0.1:8000/app/index.html`. Stop wit
   Click **Import progress** and choose the file → the completed units are back.
 - Import the same file again → "nothing new". Import a file of another course → error.
 
+### 5a. Words and matching
+- Open unit 16 → **Words** shows four rungs at 0. **Practice words** → a match set: tap a Hebrew tile then a
+  wrong translation → both shake, "misses: 1"; pair the rest (or keys 1–5, a–g) → Check → right, word cards shown.
+- Back on the lesson, rung 1 counts the words matched without a miss. Try it on a phone-width window: two columns, no
+  sideways scrolling.
+
+### 5c. Drill retries and tests
+- In a "Choose" practice, pick a wrong option → "Not quite — try again", two options crossed out; pick the right
+  one → "Practised …". Miss another and click **Show answer** → "It will come back at the end"; the count grows by one.
+- Lesson **Test yourself** → questions without hints or item codes; finish → results with your answers and the Key;
+  mark typed English answers, **Save result** → at 80%+ the unit is marked done. Roadmap: Part tests and the mock final.
+
 ### 5b. Progress operations
 - Open a later unit's lesson → **Mark unit as done** → "Unit complete ✓"; the roadmap shows it done
   and the next unit open; skipped earlier units show as available.

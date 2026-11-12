@@ -85,7 +85,21 @@ export default {
     return { correct, expected: item.accepted.join(" / ") };
   },
 
+  hint(node, item, answer, result) {
+    if (item.answerIsScript && item.pointing === "required") {
+      this.annotate(node, item, answer, result);
+      return "Letters marked red have wrong or missing vowel points.";
+    }
+    if (item.answerIsScript) {
+      const first = (item.accepted[0] || "").split(/\s+/).map((w) => w.replace(/[\u0591-\u05c7]/g, "").charAt(0)).filter(Boolean);
+      return first.length ? `It starts with ${first.join(" … ")}.` : null;
+    }
+    return null;
+  },
+
   annotate(node, item, answer, result) {
+    const old = node.querySelector(".ex-pointing");
+    if (old) old.remove();
     if (!(item.answerIsScript && item.pointing === "required") || result.correct) return;
     const box = el("div", "ex-pointing");
     box.appendChild(el("span", "ex-pointing-label", "Your pointing: "));

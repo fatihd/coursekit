@@ -47,7 +47,7 @@ function focusFirst(container) {
     input.focus();
     return;
   }
-  const option = container.querySelector(".ex-option");
+  const option = container.querySelector(".ex-option:not(:disabled), .ex-tile:not(:disabled)");
   if (option) {
     option.focus();
     return;
@@ -78,9 +78,25 @@ function renderItemCode(item, ctx) {
   return [line, ops];
 }
 
+function retryable(item, res) {
+  if (res.selfCheck || item.type === "true-false" || item.type === "match-by-line") return false;
+  return !(item.options && item.options.length < 3);
+}
+
 export function renderDrill(root, ctx) {
-  const { course, items, navigate, unit, onComplete } = ctx;
+  const { course, navigate, unit, onComplete } = ctx;
   const features = ctx.features || {};
+  const retries = Boolean(features.retries) && !ctx.single;
+  const items = [...ctx.items];
+  const repeats = new Set();
+  for (const id of (ctx.initial && ctx.initial.requeue) || []) {
+    const it = ctx.items.find((x) => x.id === id);
+    if (it) {
+      items.push(it);
+      repeats.add(items.length - 1);
+    }
+  }
+  const pending = () => [...repeats].filter((i) => i > idx).map((i) => items[i].id).filter(Boolean);
   root.replaceChildren();
 
   let idx = ctx.start || 0;
@@ -135,7 +151,8 @@ export function renderDrill(root, ctx) {
 
   function renderQuestion() {
     const rungLabel = items[idx].rungLabel ? ` · ${items[idx].rungLabel}` : "";
-    progress.textContent = `Question ${idx + 1} of ${items.length}${rungLabel}`;
+    const again = repeats.has(idx) ? " · again" : "";
+    progress.textContent = `Question ${idx + 1} of ${items.length}${rungLabel}${again}`;
     if (ctx.onPosition) ctx.onPosition(idx);
     feedback.replaceChildren();
     stage.replaceChildren();
@@ -143,6 +160,8 @@ export function renderDrill(root, ctx) {
 
     const item = items[idx];
     const type = getType(item.type);
+    const repeat = repeats.has(idx);
+    let attempts = 0;
 
     if (item.spiral) {
       const from = item.sourceUnit ? ` · Unit ${item.sourceUnit} — ${unitTitle(course, item.sourceUnit)}` : "";
@@ -169,6 +188,25 @@ export function renderDrill(root, ctx) {
       }
 
       const result = type.grade(item, answer);
+      if (!result.correct && retries && attempts === 0 && retryable(item, result)) {
+        attempts = 1;
+        const hint = type.hint ? type.hint(node, item, answer, result) : null;
+        feedback.replaceChildren();
+        const msg = el("p", "drill-retry", `Not quite — try again.${hint ? ` ${hint}` : ""}`);
+        msg.dir = "auto";
+        const giveUp = el("button", "gate-btn gate-secondary drill-giveup", "Show answer");
+        giveUp.addEventListener("click", () => {
+          stage.querySelectorAll("button:not(.item-mark), input, select").forEach((n) => {
+            n.disabled = true;
+          });
+          finish(result);
+        });
+        const actions = el("span", "drill-actions");
+        actions.append(checkBtn, giveUp);
+        feedback.append(msg, actions);
+        focusFirst(stage);
+        return;
+      }
       stage.querySelectorAll("button:not(.item-mark), input, select").forEach((n) => {
         n.disabled = true;
       });
@@ -192,16 +230,29 @@ export function renderDrill(root, ctx) {
 
       function finish(res) {
         if (type.annotate) type.annotate(node, item, answer, res);
-        if (res.correct) correctCount += 1;
-        answered += 1;
-        detail.push({ unit: item.sourceUnit || unit.n, correct: res.correct });
-        if (ctx.onAnswer) ctx.onAnswer(item, res.correct, { next: idx + 1, correct: correctCount, answered, detail });
+        const firstTry = attempts === 0 && !repeat;
+        const credited = res.correct && firstTry;
+        let requeued = false;
+        if (!repeat) {
+          if (credited) correctCount += 1;
+          answered += 1;
+          detail.push({ unit: item.sourceUnit || unit.n, correct: credited });
+          if (retries && !res.correct) {
+            items.push(item);
+            repeats.add(items.length - 1);
+            requeued = true;
+            progress.textContent = `Question ${idx + 1} of ${items.length}${rungLabel}${again}`;
+          }
+        }
+        const scored = firstTry ? res : { ...res, words: [] };
+        if (ctx.onAnswer) ctx.onAnswer(item, credited, { next: idx + 1, correct: correctCount, answered, detail, requeue: pending() }, scored);
 
         feedback.replaceChildren();
         const text = res.correct
           ? (res.selfMarked ? "Marked right." : "Correct!")
           : (res.selfMarked ? "Marked wrong." : `Not quite — answer: ${res.expected}`);
-        const msg = el("p", res.correct ? "drill-ok" : "drill-no", res.message && !res.correct ? `${res.message} ${text}` : text);
+        const note = res.correct && !firstTry ? " Practised — it counts once you get it right first time." : requeued ? " It will come back at the end." : "";
+        const msg = el("p", res.correct ? "drill-ok" : "drill-no", (res.message && !res.correct ? `${res.message} ${text}` : text) + note);
         msg.dir = "auto";
         feedback.appendChild(msg);
         if (item.explain) {
@@ -223,6 +274,7 @@ export function renderDrill(root, ctx) {
       }
     });
     feedback.appendChild(checkBtn);
+    node.addEventListener("ex-complete", () => checkBtn.focus());
 
     focusFirst(stage);
   }

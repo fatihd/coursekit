@@ -106,7 +106,7 @@ def main():
 
                 page.click(".unit[data-unit='1']")
                 page.wait_for_selector(".lesson-title")
-                page.click(".gate-btn")
+                page.click(".gate .gate-btn")
                 page.wait_for_selector(".drill-stage")
                 qcount = 0
                 while not page.query_selector(".drill-result"):
@@ -140,7 +140,10 @@ def main():
                         page.keyboard.press("Enter")
                     else:
                         page.click(".drill-feedback .gate-btn")
-                    page.wait_for_selector(".drill-feedback .drill-ok, .drill-feedback .drill-no")
+                    page.wait_for_selector(".drill-feedback .drill-ok, .drill-feedback .drill-no, .drill-retry")
+                    if page.query_selector(".drill-retry"):
+                        page.click(".drill-giveup")
+                        page.wait_for_selector(".drill-feedback .drill-ok, .drill-feedback .drill-no")
                     page.wait_for_selector(".drill-feedback .gate-btn")
                     if oer_ui and before_box:
                         after_box = page.locator(".drill-feedback .gate-btn").bounding_box()

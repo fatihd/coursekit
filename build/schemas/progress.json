@@ -38,7 +38,8 @@
       "minimum": 1
     },
     "units": {
-      "type": "object"
+      "type": "object",
+      "description": "Per unit: state, lessonRead, bestScore, lastPlayed, done (ladder ids per rung), words (vocab ids per word rung)"
     },
     "knownSet": {
       "type": "array",
@@ -86,6 +87,25 @@
     "sessions": {
       "type": "object",
       "description": "Open drill session per unit (seed, position, score) so a reload or link resumes it"
+    },
+    "tests": {
+      "type": "array",
+      "description": "Test-mode results (unit, part or final mock exam), oldest first",
+      "items": {
+        "type": "object",
+        "required": ["scope", "seed", "date", "correct", "total", "score"],
+        "properties": {
+          "scope": { "enum": ["unit", "part", "final"] },
+          "key": { "type": ["integer", "null"] },
+          "seed": { "type": "string" },
+          "date": { "type": "string" },
+          "correct": { "type": "integer", "minimum": 0 },
+          "total": { "type": "integer", "minimum": 0 },
+          "score": { "type": "integer", "minimum": 0, "maximum": 100 },
+          "elapsed": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
     },
     "lastExportedAt": {
       "type": [

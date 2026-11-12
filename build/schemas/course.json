@@ -71,6 +71,10 @@
         "authoredPerSession": { "type": "integer", "minimum": 1 },
         "vocabPerSession": { "type": "integer", "minimum": 0 },
         "unlockRung": { "type": "integer", "minimum": 1, "maximum": 9 },
+        "wordLadder": { "type": "boolean" },
+        "retries": { "type": "boolean" },
+        "tests": { "type": "boolean" },
+        "wordsPerSession": { "type": "integer", "minimum": 1 },
         "transliteration": { "type": "boolean" }
       },
       "additionalProperties": false
