@@ -137,17 +137,21 @@ large, growing exercise corpus. Applies to Davidson first.
 
 ## P11 — Biblical Greek support (reach goal, planned 2026-11-06)
 
-**Parked 2026-11-10 (user).**
+**Parked 2026-11-10 (user); restarted 2026-11-12; backbone decided 2026-11-13 (user):** J. G. Machen, *New Testament
+Greek for Beginners* (1923), public domain everywhere, with W. H. Davis, *Beginner's Grammar of the Greek NT* (1923) as an
+extra sentence source (ADR-025). Full course textbooks only, never the Harper "inductive" books. Machen has no key:
+answers are written by us and every Greek form is checked against MorphGNT. Sources, OCR, inventory and grading policy:
+`docs/GREEK-SOURCES.md`.
 
 A Greek course built **only from open sources**, so it can be public. Copyrighted Greek
 course PDFs stay private and are not part of this plan.
 
 | ID | Task | Exit criteria | Acceptance test |
 |---|---|---|---|
-| P11-T1 | Choose the open Greek sources (user decision) | ADR picks the grammar and data, e.g. Machen, *New Testament Greek for Beginners* (1923, public domain) or Davis, *Beginner's Grammar of the Greek NT* (1923); text/vocab from SBLGNT (CC BY 4.0), MorphGNT (CC BY-SA), Dodson lexicon (PD) | ADR accepted; licenses recorded in `docs/CONTENT-GENERATION.md` allowlist |
-| P11-T2 | Greek script support in the engine | `docs/I18N-SCRIPTS.md` Greek profile: polytonic `el_GR` on-screen keyboard (breathings, accents, iota subscript), open font (e.g. Gentium Plus / GFS, OFL), LTR, transliteration scheme; grader normalises Unicode (NFC, final sigma, optional accent-insensitive mode) | `e2e.py --accessibility` and `--keyboard` on a Greek course: type a polytonic word with the on-screen keyboard; accent-insensitive mode grades `λογος` = `λόγος` when enabled |
+| P11-T1 | Choose the open Greek sources (user decision) — **done 2026-11-13** | ADR-025: Machen (1923) backbone, Davis (1923) extra sentences; `scripts/fetch-sources machen`, `davis`, `morphgnt`; local OCR scripts in each `build/_sources/<book>/` | ADR accepted; licenses recorded in `docs/CONTENT-GENERATION.md` allowlist |
+| P11-T2 | Greek script support in the engine (groundwork 2026-11-12/13: `engine/greek.js` with the ADR-025 grading policy, `el_GR` keyboard, `scripts/e2e-greek.py`; graders not wired yet) | `docs/I18N-SCRIPTS.md` Greek profile: polytonic `el_GR` on-screen keyboard (breathings, accents, iota subscript), open font (e.g. Gentium Plus / GFS, OFL), LTR, no transliteration (§0); grader normalises Unicode (NFC, final sigma) and grades lower rungs on letters + breathings + iota subscript, the top rung with full accents (grave = acute, clitic variants, movable ν, elision accepted) | `e2e.py --accessibility` and `--keyboard` on a Greek course: type a polytonic word with the on-screen keyboard; a lower rung grades `λογος` = `λόγος`, the top rung does not |
 | P11-T3 | Greek parse features | `parse-noun`/`parse-verb` generalised to Greek categories (case/number/gender; tense/voice/mood/person/number) via course config, not Hebrew-specific code | Synthetic Greek parse items grade field by field |
-| P11-T4 | exwb Greek profile | exwb profile for the chosen grammar (LTR, tesseract `grc`+`eng`), exercises + answers curated (no key exists for Machen — answers authored and reviewed) | `exwb export --all` produces valid authored items |
+| P11-T4 | exwb Greek profile | exwb Greek support (LTR, tesseract `grc`+`eng`, `el_GR` keyboard) and a Machen profile; Machen (~980) and Davis (~580) items curated with our answers, every Greek form checked against MorphGNT (`docs/GREEK-SOURCES.md` §6–7) | `exwb export --all` produces valid authored items; the form check passes |
 | P11-T5 | `courses/biblical-greek-<name>` | Unit map, lessons, vocabulary, authored exercises, attribution | `scripts/validate` + `e2e.py --units N` green; human Greek review |
 | P11-T6 | Add to the hosted site | Third course on the P10 site | Deployed smoke test covers the Greek course |
 

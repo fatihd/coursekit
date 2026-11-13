@@ -183,7 +183,10 @@ still supplies the key's coordinate segmentation.
 | Aaron Christianson, *An Open Introduction to Biblical Hebrew* | Hebrew | CC BY-SA 3.0 | Primary source of the `biblical-hebrew-oer` course and an open reference for lesson explanations; adapt and attribute, do not reproduce exercises or unlicensed assets |
 | OpenScriptures Hebrew Bible (OSHB) / MorphHB | Hebrew | CC BY 4.0 | Morphology, roots, glosses, frequency |
 | Wiktionary Hebrew | Hebrew | CC BY-SA | Glosses, usage notes, etymology |
-| SBLGNT (SBL Greek New Testament) | Greek | CC BY-SA 4.0 | Greek text for gap-fill, examples |
+| SBLGNT (SBL Greek New Testament) | Greek | CC BY 4.0 (sblgnt.com/license, checked 2026-11-12) | Greek text for examples and NT excerpt exercises; fetched with MorphGNT into `build/_sources/morphgnt/` |
+| MorphGNT (SBLGNT edition; github.com/morphgnt/sblgnt, commit `aaed91e5`) | Greek | CC BY-SA 3.0 (parsing, lemmas) | NT frequencies, form → lemma, parse codes, OCR checks; share-alike: keep derived data in CC BY-SA course data, not in CC0 exwb data |
+| J. Gresham Machen, *New Testament Greek for Beginners* (Macmillan, 1923; course text = the 1923 plates, January 1924 printing, archive.org `newtestamentgree00mach_0`) | Greek | Public domain everywhere: US — published 1923, renewed 1951, expired 2018-12-31; life+70 — Machen †1937-01-01, PD since 2008 | Backbone of the open Greek course (ADR-025); exercises via local OCR, answers written by us and checked against MorphGNT. Provenance: `build/_sources/machen/SOURCES.md`; evaluation: `docs/GREEK-SOURCES.md` |
+| W. Hersey Davis, *Beginner's Grammar of the Greek New Testament* (Doran, © 1923; 1923 text, archive.org `beginnersgrammar0000will_n9j4`, not the 1942 fifth edition) | Greek | Public domain everywhere: US — published 1923, expired by 2018-12-31; life+70 — Davis †1950, PD since 2021 | Extra sentence source, placed per sentence (ADR-022, ADR-025). Provenance: `build/_sources/davis/SOURCES.md` |
 | Wiktionary Greek | Greek | CC BY-SA | Glosses, morphology, etymology |
 | Perseus (Greek/Latin) | Greek | open (varies) | Morphology, lexicon |
 | Comprehensive Aramaic Lexicon (CAL) | Aramaic | scholarly open | Aramaic lexicon, morphology |
@@ -194,6 +197,9 @@ still supplies the key's coordinate segmentation.
 | Brown–Driver–Briggs (1906), Strong's (1890) | Hebrew | Public domain | Glosses and Strong's references |
 | World English Bible (eBible.org, `engwebp`) | English | Public domain | Translations of the Bible verses in the Davidson corpus (P12-T5); `fetch_oer.py --source web` |
 
+- **SBLGNT + MorphGNT with CC BY-SA course data (checked 2026-11-13):** SBLGNT's CC BY 4.0 text may be included in a
+  CC BY-SA adaptation with attribution; MorphGNT's CC BY-SA 3.0 data may go into CC BY-SA 3.0 or a later version.
+  A Greek course under CC BY-SA 3.0 (like Davidson) or 4.0 is fine; neither may go into the CC0 `exwb/curated/` data.
 - Each OER-sourced row must carry **attribution** + license in `extra.source`/`extra.license`
   (written into `vocab.json` or `units/NN.json` block metadata).
 - Cache fetched OER data under `build/_oer/` (gitignored if large; keep a manifest).

@@ -1,0 +1,32 @@
+{
+  "source": "Internet Archive (public domain everywhere: published 1923, Davis died 1950; see SOURCES.md)",
+  "files": [
+    {
+      "file": "davis-1923.pdf",
+      "url": "https://archive.org/download/beginnersgrammar0000will_n9j4/beginnersgrammar0000will_n9j4.pdf",
+      "gunzip": false,
+      "optional": false,
+      "sha256": "2fae31929ec5e17f3b0a617e8ece4b5963ba2678fa085cdf6c1975d95724ac52",
+      "bytes": 7962982,
+      "use": "Original 1923 text (George H. Doran printing, before 1928; no fifth-edition note): page images + local tesseract OCR"
+    },
+    {
+      "file": "davis-1923-djvu.xml",
+      "url": "https://archive.org/download/beginnersgrammar0000will_n9j4/beginnersgrammar0000will_n9j4_djvu.xml",
+      "gunzip": false,
+      "optional": false,
+      "sha256": "71095fcefea314f9cd19f9d2fc8d366749ae66e9c752ec5dd4dac201c924b257",
+      "bytes": 3851551,
+      "use": "Word boxes (DjVu scan n = PDF page n)"
+    },
+    {
+      "file": "davis-1923-djvu.txt",
+      "url": "https://archive.org/download/beginnersgrammar0000will_n9j4/beginnersgrammar0000will_n9j4_djvu.txt",
+      "gunzip": false,
+      "optional": true,
+      "sha256": "8e21679e6744a62a34365be539b00f0b80ed6a63ae311959b398d40a5d7883bf",
+      "bytes": 279286,
+      "use": "plain OCR locator"
+    }
+  ]
+}

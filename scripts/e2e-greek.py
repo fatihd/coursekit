@@ -1,0 +1,169 @@
+#!/usr/bin/env python3
+"""scripts/e2e-greek.py — Greek script support check (ROADMAP P11-T2 groundwork).
+
+Serves the hub `engine/` with a one-page harness and drives it headlessly:
+  * `engine/greek.js`: polytonic composition (mark order, NFC, final sigma), grading keys at three
+    strictness levels (letters / breathings / full accents), punctuation and movable-nu tolerance,
+    and the per-letter accent diff;
+  * `engine/keyboard.js` with the `el_GR` layout: typing ἄνθρωπος and ᾠδῇ with the on-screen keys.
+
+No course is needed and no progress is touched.
+
+Usage:
+    python scripts/e2e-greek.py [--port 8157]
+"""
+
+import argparse
+import http.server
+import json
+import sys
+import threading
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+HARNESS = """<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Greek harness</title></head>
+<body>
+<input class="ex-text hebrew-input" id="answer" type="text" lang="grc">
+<script type="module">
+import * as greek from "/engine/greek.js";
+import { initKeyboard } from "/engine/keyboard.js";
+window.greek = greek;
+await initKeyboard(document.body, "el_GR");
+window.ready = true;
+</script>
+</body></html>
+"""
+
+UNIT_CASES = [
+    ("composeGreek", ["ά̓νθρωπος"], "ἄνθρωπος", "breathing and accent typed in either order compose to ἄ"),
+    ("composeGreek", ["ᾣ"], "ᾣ", "iota subscript, rough breathing and grave compose to one letter"),
+    ("composeGreek", ["λογοσ και"], "λογος και", "word-final σ becomes ς"),
+    ("composeGreek", ["ςα"], "σα", "ς inside a word becomes σ"),
+    ("composeGreek", ["ά"], "ά", "oxia and tonos are the same letter after NFC"),
+    ("sameGreek", ["λογος", "λόγος", "letters"], True, "letters mode: λογος = λόγος"),
+    ("sameGreek", ["λογος", "λόγος", "full"], False, "full mode: λογος ≠ λόγος"),
+    ("sameGreek", ["λογός", "λόγος", "full"], False, "full mode: wrong accent position is wrong"),
+    ("sameGreek", ["ανθρωπος", "ἄνθρωπος", "breathings"], False, "breathings mode: a missing breathing is wrong"),
+    ("sameGreek", ["ἀνθρωπος", "ἄνθρωπος", "breathings"], True, "breathings mode: accents are not required"),
+    ("sameGreek", ["ἀλλὰ καὶ", "ἀλλά καί", "full"], True, "grave and acute count as the same accent"),
+    ("sameGreek", ["τί λέγεις;", "τί λέγεις;", "full"], True, "Greek question mark = semicolon; punctuation ignored"),
+    ("sameGreek", ["ἀλλ’ οὐ", "ἀλλ᾽ οὐ", "full"], True, "elision mark variants are equal"),
+    ("sameGreek", ["Ἰησοῦς", "ἰησοῦς", "full"], True, "capitals are ignored"),
+    ("sameGreek", ["ἐστιν", "ἐστι", "full"], True, "movable nu is optional (ἐστι = ἐστιν)"),
+    ("sameGreek", ["λέγουσιν αὐτῷ", "λέγουσι αὐτῷ", "full"], True, "movable nu is optional (-σι/-σιν)"),
+    ("sameGreek", ["ἐστιν", "ἐστι", "full", {"movableNu": False}], False, "movable nu can be made strict"),
+    ("sameGreek", ["ἐν", "ἐ", "full"], False, "short words keep their final nu"),
+    ("sameGreek", ["οὐδέν", "οὐδέ", "full"], False, "οὐδέν is not οὐδέ"),
+    ("sameGreek", ["πίστιν", "πίστι", "full"], False, "a final nu that is not movable counts"),
+    ("sameGreek", ["δι’ αὐτοῦ", "διὰ αὐτοῦ", "full"], True, "elided and full forms are equal (δι’ = διά)"),
+    ("sameGreek", ["ἀλλ’ οὐ", "ἀλλὰ οὐ", "full"], True, "elided and full forms are equal (ἀλλ’ = ἀλλά)"),
+    ("sameGreek", ["ἄνθρωπός τις", "ἄνθρωπος τις", "full"], True, "accent thrown back from an enclitic is not penalised"),
+    ("sameGreek", ["λόγος ἐστίν", "λόγος ἐστιν", "full"], True, "an enclitic with or without its accent is accepted"),
+    ("sameGreek", ["εἴ τις", "εἰ τις", "full"], True, "a proclitic with or without an accent is accepted"),
+    ("sameGreek", ["ὁ λόγος", "ὅ λόγος", "full"], False, "the article ὁ and the relative ὅ stay distinct"),
+    ("sameGreek", ["ἀγαπᾶν", "ἀγαπᾷν", "breathings"], False, "iota subscript is required even when accents are not"),
+    ("sameGreek", ["\u1fbfΙησοῦς", "Ἰησοῦς", "full"], True, "a spacing breathing before a capital counts as its breathing"),
+    ("hasAccents", ["λογος"], False, "hasAccents false without accents"),
+    ("hasAccents", ["λόγος"], True, "hasAccents true with accents"),
+]
+
+
+class Handler(http.server.SimpleHTTPRequestHandler):
+    def __init__(self, *a, **kw):
+        super().__init__(*a, directory=str(ROOT), **kw)
+
+    def do_GET(self):
+        if self.path.split("?")[0] == "/harness.html":
+            body = HARNESS.encode("utf-8")
+            self.send_response(200)
+            self.send_header("Content-Type", "text/html; charset=utf-8")
+            self.send_header("Content-Length", str(len(body)))
+            self.end_headers()
+            self.wfile.write(body)
+            return
+        if not self.path.startswith("/engine/"):
+            self.send_error(404)
+            return
+        super().do_GET()
+
+    def guess_type(self, path):
+        return "text/javascript" if str(path).endswith(".js") else super().guess_type(path)
+
+    def log_message(self, *a):
+        pass
+
+
+def check(cond, msg, failures):
+    print(f"  {'PASS' if cond else 'FAIL'}: {msg}")
+    if not cond:
+        failures.append(msg)
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--port", type=int, default=8157)
+    args = ap.parse_args()
+    server = http.server.ThreadingHTTPServer(("127.0.0.1", args.port), Handler)
+    threading.Thread(target=server.serve_forever, daemon=True).start()
+    failures = []
+    try:
+        from playwright.sync_api import sync_playwright
+
+        with sync_playwright() as p:
+            browser = p.chromium.launch()
+            page = browser.new_page()
+            errors = []
+            page.on("pageerror", lambda e: errors.append(str(e)))
+            page.goto(f"http://127.0.0.1:{args.port}/harness.html")
+            page.wait_for_function("window.ready === true")
+
+            print("engine/greek.js")
+            for fn, fargs, want, msg in UNIT_CASES:
+                got = page.evaluate(f"(a) => window.greek.{fn}(...a)", fargs)
+                check(got == want, f"{msg} (got {json.dumps(got, ensure_ascii=False)})", failures)
+
+            diff = page.evaluate("() => window.greek.accentDiff('λογός ἄγει', 'λόγος ἄγει')")
+            marks = [[c["ok"] for c in w["clusters"]] for w in diff]
+            check(marks == [[True, False, True, False, True], [True, True, True, True]],
+                  f"accentDiff marks the misplaced and missing accents (got {marks})", failures)
+            diff = page.evaluate("() => window.greek.accentDiff('ἐστιν', 'ἐστίν')")
+            check(diff[0]["ok"], "accentDiff does not mark an enclitic's accent", failures)
+
+            print("engine/keyboard.js + el_GR")
+            page.focus("#answer")
+            check(page.is_visible(".keyboard"), "on-screen keyboard shows on focus", failures)
+
+            def press(key):
+                page.dispatch_event(f".keyboard button[data-key='{key}']", "mousedown")
+
+            for k in ["α", "̓́", "ν", "θ", "ρ", "ω", "π", "ο", "σ"]:
+                press(k)
+            got = page.input_value("#answer")
+            check(got == "ἄνθρωπος", f"typing α + smooth acute + νθρωποσ gives ἄνθρωπος (got {got})", failures)
+            check(page.evaluate("(s) => s === s.normalize('NFC')", got), "typed text is NFC", failures)
+
+            page.fill("#answer", "")
+            page.focus("#answer")
+            for k in ["ω", "ͅ", "̔", "δ", "η", "͂", "ͅ"]:
+                press(k)
+            got = page.input_value("#answer")
+            check(got == "ᾡδῇ", f"marks typed after the letter in any order give ᾡδῇ (got {got})", failures)
+
+            glyph = page.text_content(".keyboard button[data-key='̔́'] .kb-glyph")
+            check(glyph == "ἅ", f"mark key shows its mark on a carrier letter (got {glyph})", failures)
+            check(not errors, f"no page errors ({errors})", failures)
+            browser.close()
+    finally:
+        server.shutdown()
+
+    if failures:
+        print(f"GREEK FAIL — {len(failures)} check(s) failed")
+        return 1
+    print("GREEK OK")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

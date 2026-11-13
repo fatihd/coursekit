@@ -67,6 +67,7 @@ MENTIONS = [
     (r"Greek_[AC]_EN", "private source file"),
     (r"Vocabulary_Greek-EN", "private source file"),
     (r"Basics of Biblical Hebrew Grammar", "private reference grammar"),
+    (r"\bNunn\b", "private Greek reference (public domain in the US only until 2033)"),
     (r"ספר תרגול", "private source file"),
 ]
 SECRETS = [

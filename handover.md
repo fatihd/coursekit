@@ -25,6 +25,8 @@
 - 2026-11-10: wrong-answer feedback fixed — the "Review Unit …" link sat in the same grid cell as the red
   "Not quite — answer: …" line and covered it; it now has its own row (`--authored` checks no overlap at 1000/400 px).
   P11 Greek and the Cloudflare mirror (P10-T10) parked (user, 2026-11-10).
+- 2026-11-13: P11 Greek restarted (user): backbone Machen (1923), Davis (1923) as extra sentences (ADR-025); sources,
+  OCR, inventory and grading policy in `docs/GREEK-SOURCES.md`; `el_GR` keyboard + `engine/greek.js` groundwork.
 - 2026-11-10: P9-T11 deferred (user). P9-T12 done — Davidson vocabulary even (units 9–56: 10–15 words, were 0–113):
   `build/rebalance_vocab.py --layout build/_sources/davidson/vocab-layout.json` (`--recount build/_oer/morphhb/books`
   refilled `frequency` from OSHB). `generate-lessons.py` is stale for Davidson — do not run it.
@@ -59,5 +61,9 @@
 - 2026-11-12: P12-T11/T12 done (ADR-023) — tap-to-pair matching (per-pair feedback, ≤ 1 miss, extras, no duplicate glosses, both directions, plural sets, word cards) and a per-unit Words track (four word rungs, own sessions, word star, optional for unlocking); gate `e2e.py --words`.
 - 2026-11-12: P12-T13/T14 done (ADR-024) — drill mode (hinted retry, requeue at the end, first-try credit) and test mode (unit tests that test out at 80%, part tests, mock final; graded at the end, self-marked English, `progress.tests`); gate `e2e.py --modes`. Fixed: lesson/test feedback buttons shared one grid cell; e2e clicks scoped to the drills gate.
 - 2026-11-12: P12-T5 first pass done (ADR-026) — corpus expansion for Davidson: `build/davidson_corpus.py` checks every word of `build/_sources/davidson/corpus.json` (659 sentences written for the course, units 16–79) against the Hebrew Bible (OSHB forms, `corpus-forms.json`) and places each sentence by its words' lemmas and the grammar their morphology shows (plus tags for verbless sentences, look-alike constructs, segholates, apocopated forms); `bible-excerpts.json` holds 65 whole verses that use only course words, with the World English Bible (`fetch_oer.py --source web`). Items carry `extra: true`; a unit needs every book exercise plus new sentences up to `features.ladderTarget` (20) per rung, the rest stay for practice and tests (`ladder.json` `extra`, progress keys `x1`…`x5`). Drill sessions now save their item ids so a resumed session is the same session. Numerals got Strong's numbers; possessive and subject swaps in wrong options keep the number (no "I am evil men"). Gate `e2e.py --corpus`, `tests/test_davidson_corpus.py`.
-- Greek (P11): Nunn + Key evaluated (report pending merge); open question: Nunn is public domain in the US only until 2033.
-- Next up: user decisions on the Greek report; optional corpus pass 2 (units 13–15, 72–79).
+- 2026-11-13: P11 Greek restarted (ADR-025): Machen (1923) backbone, Davis (1923) extra sentences, SBLGNT/MorphGNT;
+  course data CC BY-SA 4.0; core vocabulary = Machen + every NT lemma occurring 50+ times, optional reading vocabulary
+  for 10–49. Sources, local OCR, inventory and grading policy in `docs/GREEK-SOURCES.md`; `el_GR` keyboard and
+  `engine/greek.js` groundwork (`scripts/e2e-greek.py`).
+- Next up: Greek P11-T2 (wire the graders), builder refactor, exwb Greek profile, Machen answers checked against
+  MorphGNT; optional corpus pass 2 (units 13–15, 72–79).

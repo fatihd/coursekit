@@ -1,0 +1,59 @@
+{
+  "source": "Internet Archive (public domain everywhere: published 1923, Machen died 1937; see SOURCES.md)",
+  "files": [
+    {
+      "file": "machen-1924.pdf",
+      "url": "https://archive.org/download/newtestamentgree00mach_0/newtestamentgree00mach_0.pdf",
+      "gunzip": false,
+      "optional": false,
+      "sha256": "2af942654ab11860e8df2bff38b24b3653557095d60ee2cf6662479d0fa72da8",
+      "bytes": 19965550,
+      "use": "Course text: January 1924 printing from the March 1923 plates (text identical to the first printing); page images + local tesseract OCR"
+    },
+    {
+      "file": "machen-1924-djvu.xml",
+      "url": "https://archive.org/download/newtestamentgree00mach_0/newtestamentgree00mach_0_djvu.xml",
+      "gunzip": false,
+      "optional": false,
+      "sha256": "3fa227a7f6b9b544bbb8ad600f78efe4e3488031624e0e615900679ce8be2aac",
+      "bytes": 6088877,
+      "use": "Word boxes (DjVu scan n = PDF page n)"
+    },
+    {
+      "file": "machen-1924-djvu.txt",
+      "url": "https://archive.org/download/newtestamentgree00mach_0/newtestamentgree00mach_0_djvu.txt",
+      "gunzip": false,
+      "optional": true,
+      "sha256": "50c350ce854864a619443bd3f807be2851787cbbe587a33c95a7e27da8029ba5",
+      "bytes": 508224,
+      "use": "Internet Archive OCR: a second reading for OCR voting (95.8% Greek words exact on the samples)"
+    },
+    {
+      "file": "machen-1925.pdf",
+      "url": "https://archive.org/download/newtestamentgree0000jgre_j2c9/newtestamentgree0000jgre_j2c9.pdf",
+      "gunzip": false,
+      "optional": true,
+      "sha256": "d3c0d414d21e49e0906c6d0957d0da1f5e1b6245ae720f98d21ea634a3a133d6",
+      "bytes": 11390169,
+      "use": "October 1925 printing, same plates and text: second scan for unclear spots"
+    },
+    {
+      "file": "machen-1925-djvu.txt",
+      "url": "https://archive.org/download/newtestamentgree0000jgre_j2c9/newtestamentgree0000jgre_j2c9_djvu.txt",
+      "gunzip": false,
+      "optional": true,
+      "sha256": "f87e0b5cf6a0494433461a73fff85967280f31ea3190d3679a29352298fce712",
+      "bytes": 447747,
+      "use": "plain OCR locator for the 1925 printing"
+    },
+    {
+      "file": "machen-1937-corrected-djvu.txt",
+      "url": "https://archive.org/download/newtestamentgree00mach/newtestamentgree00mach_djvu.txt",
+      "gunzip": false,
+      "optional": true,
+      "sha256": "624879603ae83b3b0aca5b126c719255b71fa0aeb6402b77e8eb01ba951ff9cb",
+      "bytes": 500401,
+      "use": "OCR of the February 1937 printing (text 'reprinted with corrections' from September 1927): only to look up misprints Machen corrected; not a course text"
+    }
+  ]
+}

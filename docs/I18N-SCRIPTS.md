@@ -1,16 +1,22 @@
 # I18N-SCRIPTS
 
-> Per-script runtime config: direction, bundled fonts, on-screen keyboards, transliteration
-> schemes. Language config arrives via `course.json.script` and loads from `engine/keyboards/`,
-> `engine/translit/`, `engine/fonts/`. Scripts supported: Hebrew, Greek, Aramaic (square).
+> Per-script runtime config: direction, fonts, on-screen keyboards, normalisation. Language config
+> arrives via `course.json.script`; keyboards load from `engine/keyboards/`.
+> Last updated: 2026-11-12. **Implemented:** Hebrew (keyboard `he_IL`, pointed grading). **Greek: groundwork
+> only** — keyboard `el_GR` and `engine/greek.js` exist and are tested (`scripts/e2e-greek.py`), but no grader uses
+> them yet and no Greek course exists (ROADMAP P11). **Aramaic: planned, nothing implemented.** No font is
+> bundled and there is no `engine/fonts/` or `engine/translit/` folder.
 
 ## 1. Script registry
 
-| Script | Languages | Direction | Bundled font (OFL) | Keyboard | Translit scheme |
+| Script | Languages | Direction | Font | Keyboard | State |
 |---|---|---|---|---|---|
-| Hebrew square (+ niqqud) | Biblical Hebrew, Aramaic | `rtl` | Ezra SIL **or** SBL Hebrew | `he_IL` (incl. niqqud) | `he-sbl` (SBL-style academic) |
-| Greek polytonic | Biblical Greek | `ltr` | SBL Greek **or** GFS Didot | `el_GR` (polytonic) | `el-translit` (Beta Code ↔ Unicode) |
-| Aramaic square | Aramaic A | `rtl` | (shares Hebrew square font) + Aramaic-specific marks | `arc` (based on `he_IL` with additions) | `arc-translit` |
+| Hebrew square (+ niqqud) | Biblical Hebrew | `rtl` | system fonts (Ezra SIL / SBL Hebrew if installed); none bundled | `he_IL` (incl. niqqud) | implemented |
+| Greek polytonic | Biblical Greek | `ltr` | none yet; candidates Gentium Plus or GFS Didot (OFL) | `el_GR` (polytonic) | keyboard + normalisation module; graders not wired (P11-T2) |
+| Aramaic square | Aramaic A | `rtl` | (would share the Hebrew font) | (`arc`, planned) | not started |
+
+Transliteration schemes (`he-sbl`, `el-translit`, `arc-translit`) were planned but never built as modules; the
+course vision forbids transliteration in exercises (AGENTS.md §0), so they are not planned any more.
 
 Fonts are **bundled** (not loaded from a CDN) so a fork works offline. Sources:
 - Ezra SIL — SIL Open Font License (OFL).
@@ -65,33 +71,35 @@ real letter (בָ; the shin/sin dots on ש; maqqef alone) in the Hebrew font, wi
 a layout key may set `name` and `base` (the carrier letter, `""` for none). Every key carries
 `data-key` with the character it types (exwb uses this to skip marks the layout already has).
 
-### `el_GR` (Greek polytonic)
-Letters + accents (acute/grave/circumflex), rough/smooth breathing, iota subscript. Outputs
-precomposed polytonic where possible; engine normalizes to NFC.
+### `el_GR` (Greek polytonic) — groundwork 2026-11-12 (P11-T2)
+`engine/keyboards/el_GR.js`: 24 letters, final ς and the elision mark; a mark row (`marks`, drawn on a carrier
+letter with its name) with smooth, rough, acute, grave, circumflex, the four breathing+accent combinations, iota
+subscript and diaeresis. The layout's `compose` function (`composeGreek`) runs after every key: marks are put in
+canonical order (diaeresis, breathing, accent, iota subscript) whatever order they were typed in, the text is
+NFC-composed to precomposed polytonic letters, and σ at the end of a word becomes ς (ς inside a word becomes σ).
+`engine/keyboard.js` imports the layout lazily (`initKeyboard` returns a promise for `el_GR`), so exwb, which serves
+only `keyboard.js`, `dom.js` and `keyboards/he_IL.js`, is unaffected. Inputs still need the `hebrew-input` class
+to open the keyboard (a script-neutral name is planned with the grader work).
 
-### `arc` (Aramaic square)
-Based on `he_IL` with Aramaic-specific marks (e.g., sěgōlā where distinct). Mostly a
-superset; kept separate for clarity.
+**Greek normalisation (`engine/greek.js`, not yet called by graders; policy ADR-025, 2026-11-13):**
+`sameGreek(a, b, level, options)` compares typed and expected Greek. Levels: `breathings` for the lower typed rungs
+(letters, breathings and iota subscript must match; accents and diaeresis ignored — the iota subscript is required on
+every rung), `full` for the top rung (accents too, but grave = acute, and enclitic/proclitic accent variants are
+accepted: ἄνθρωπός τις = ἄνθρωπος τις, ἐστίν = ἐστιν, εἴ τις = εἰ τις; ὁ and ὅ stay distinct), and `letters`
+(all marks ignored; not used by the policy). Always: NFC (oxia = tonos), capitals and punctuation ignored, final
+ς = σ, Greek question mark ; = `;`, elision marks ’ ᾽ ' unified, a spacing breathing before a capital (᾿Ι) read as
+its breathing. Defaults (each can be switched off in `options`): `movableNu` (-σι/-σιν, -ε/-εν, ἐστι/ἐστιν; not
+οὐδέν/μηδέν or words of three letters), `elision` (δι’ = διά, ἀλλ’ = ἀλλά, καθ’ = κατά, …), `clitics`.
+`accentDiff(answer, expected)` marks letters whose marks differ, for a red-marks view like `pointingDiff`.
+Test: `python scripts/e2e-greek.py`.
 
-## 4. Transliteration schemes (`engine/translit/`)
+### `arc` (Aramaic square) — not started
+Would be based on `he_IL` with Aramaic-specific marks.
 
-Each scheme is a pair of maps: `toLatin(scriptForm) → latin` and
-`fromLatin(latin) → scriptForm` (best-effort; used to grade transliteration input
-without requiring the student to type pointed script).
+## 4. Transliteration
 
-### `he-sbl` (SBL academic transliteration)
- groceries… rough rules (canonical):
-- א = ʼ (aleph), ע = ʻ (ayin), ח = ḥ, ט = ṭ, צ = ṣ, שׂ = ś, ת = t (or th per tradition)
-- Vowels: qamats = ā, pataḥ = a, ḥataf = ă, tsere = ē, segol = e, ḥireq = i, ḥolam = ō, shureq = u, qibbuts = u
-- Dagesh, shewa (ə / silent), maqqef remain as combining marks
-
-### `el-translit` (Greek)
-Beta Code-compatible direction plus a dead-key polytonic keyboard map; the engine
-prefers precomposed output and falls back to canonical combining.
-
-### `arc-translit`
-Hebrew-based plus distinct Aramaic conventions (to be finalized when the Aramaic course is
-authored).
+No transliteration module exists (`engine/translit/` was never created). Transliteration is not used in exercises
+(AGENTS.md §0). The prototype `dictation` / `translit-normalize` exercise types carry their own Hebrew handling.
 
 ## 5. Direction and rendering notes
 

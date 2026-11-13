@@ -2,9 +2,19 @@ import { el } from "./dom.js";
 import heIL from "./keyboards/he_IL.js";
 
 const layouts = { he_IL: heIL };
+const lazyLayouts = { el_GR: () => import("./keyboards/el_GR.js") };
 
 let overlay = null;
 let activeInput = null;
+let compose = null;
+
+function recompose(input) {
+  const pos = input.selectionStart ?? input.value.length;
+  const before = compose(input.value.slice(0, pos));
+  input.value = compose(input.value);
+  const at = Math.min(before.length, input.value.length);
+  input.setSelectionRange(at, at);
+}
 
 function insertAtCursor(input, text) {
   const start = input.selectionStart ?? input.value.length;
@@ -31,6 +41,7 @@ function applyKey(k) {
   } else {
     insertAtCursor(input, k.key);
   }
+  if (compose) recompose(input);
   input.dispatchEvent(new Event("input", { bubbles: true }));
   input.focus();
 }
@@ -40,7 +51,7 @@ function buildKey(k) {
   if (k.niqqud) {
     btn = el("button", "kb-key kb-key--niqqud");
     const base = k.base === undefined ? "ב" : k.base;
-    btn.appendChild(el("span", "kb-glyph", base + k.key));
+    btn.appendChild(el("span", "kb-glyph", compose ? compose(base + k.key) : base + k.key));
     if (k.name) {
       btn.appendChild(el("span", "kb-name", k.name));
       btn.title = k.name;
@@ -59,7 +70,14 @@ function buildKey(k) {
 }
 
 export function initKeyboard(root, layoutId) {
-  const layout = layouts[layoutId] || heIL;
+  if (!layouts[layoutId] && lazyLayouts[layoutId]) {
+    return lazyLayouts[layoutId]().then((m) => buildKeyboard(root, m.default));
+  }
+  return buildKeyboard(root, layouts[layoutId] || heIL);
+}
+
+function buildKeyboard(root, layout) {
+  compose = layout.compose || null;
   overlay = el("div", "keyboard");
   overlay.style.display = "none";
 
@@ -70,7 +88,7 @@ export function initKeyboard(root, layoutId) {
   }
 
   const nrow = el("div", "kb-row kb-row--niqqud");
-  for (const k of layout.niqqud) {
+  for (const k of layout.marks || layout.niqqud) {
     nrow.appendChild(buildKey({ ...k, niqqud: true }));
   }
   overlay.appendChild(nrow);
