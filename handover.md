@@ -74,4 +74,6 @@
 - 2026-11-13: typed Greek accepted in any valid word order (no postpositive first, no article last; feedback shows our
   order); Machen Lessons III–VIII curated; `courses/biblical-greek-machen` scaffold (units 1–8) validates and passes
   `e2e.py --units 7`, `--ladder`, `--keyboard`, `--accessibility`; not on the site yet (P11-T6).
-- Next up: Machen Lessons IX–XXXIII and their units; vocabulary layers; optional corpus pass 2 (units 13–15, 72–79).
+- 2026-11-14: Machen Lessons IX–XXIII curated and their units 9–23 added; the Greek course is in the public repo
+  (not on the site yet).
+- Next up: Machen Lessons XXIV–XXXIII and their units; vocabulary layers; optional corpus pass 2 (units 13–15, 72–79).

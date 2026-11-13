@@ -1,0 +1,126 @@
+{
+  "schema": "unit-lesson-v1.json",
+  "unit": 4,
+  "title": "The Second Declension",
+  "description": "Masculine and neuter nouns in -ος and -ον; cases, word order and movable ν.",
+  "teaches": [
+    "gr-mac-04-001",
+    "gr-mac-04-002",
+    "gr-mac-04-003",
+    "gr-mac-04-004",
+    "gr-mac-04-005",
+    "gr-mac-04-006",
+    "gr-mac-04-007",
+    "gr-mac-04-008",
+    "gr-mac-04-009",
+    "gr-mac-04-010",
+    "gr-mac-04-011",
+    "gr-mac-04-012"
+  ],
+  "assumes": [
+    "gr-mac-03-001",
+    "gr-mac-03-002",
+    "gr-mac-03-003",
+    "gr-mac-03-004",
+    "gr-mac-03-005",
+    "gr-mac-03-006",
+    "gr-mac-03-007",
+    "gr-mac-03-008"
+  ],
+  "blocks": [
+    {
+      "type": "prose",
+      "caption": "Summary",
+      "html": "<p>Greek nouns change their endings for case: nominative for the subject, genitive for &quot;of&quot;, dative for &quot;to&quot; or &quot;for&quot;, accusative for the direct object, vocative for address. Because the case shows the job of each word, Greek word order is free: ἄνθρωπος βλέπει δοῦλον and δοῦλον βλέπει ἄνθρωπος both mean &quot;a man sees a servant&quot;.</p>"
+    },
+    {
+      "type": "table",
+      "caption": "λόγος and δῶρον",
+      "columns": [
+        "Case",
+        "Singular",
+        "Plural",
+        "Singular",
+        "Plural"
+      ],
+      "rows": [
+        [
+          "Nominative",
+          "λόγος",
+          "λόγοι",
+          "δῶρον",
+          "δῶρα"
+        ],
+        [
+          "Genitive",
+          "λόγου",
+          "λόγων",
+          "δώρου",
+          "δώρων"
+        ],
+        [
+          "Dative",
+          "λόγῳ",
+          "λόγοις",
+          "δώρῳ",
+          "δώροις"
+        ],
+        [
+          "Accusative",
+          "λόγον",
+          "λόγους",
+          "δῶρον",
+          "δῶρα"
+        ],
+        [
+          "Vocative",
+          "λόγε",
+          "λόγοι",
+          "δῶρον",
+          "δῶρα"
+        ],
+        [
+          "Neuter nouns have the same form in the nominative and accusative. There is no indefinite article: λόγος is \"a word\"."
+        ]
+      ]
+    },
+    {
+      "type": "prose",
+      "caption": "Accent of nouns",
+      "html": "<p>A noun keeps its accent on the syllable where the nominative has it, as far as the general rules allow; in the genitive and dative an accented ultima takes the circumflex: θεός, θεοῦ, θεῷ.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "How the course checks word order",
+      "html": "<p>You may type a Greek answer in any order of the right words, as long as no postpositive word (δέ, γάρ, οὖν) stands first and no article stands last; when your order differs from ours the feedback shows ours.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Common confusion",
+      "html": "<p>λόγοι (nominative plural) and λόγους (accusative plural) differ only in the ending: read to the end of every word.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Source",
+      "html": "<p>Machen, *New Testament Greek for Beginners* (1923), Lesson 4 (p. 23).</p>"
+    },
+    {
+      "type": "vocab",
+      "refs": [
+        "gr-mac-04-001",
+        "gr-mac-04-002",
+        "gr-mac-04-003",
+        "gr-mac-04-004",
+        "gr-mac-04-005",
+        "gr-mac-04-006",
+        "gr-mac-04-007",
+        "gr-mac-04-008",
+        "gr-mac-04-009",
+        "gr-mac-04-010",
+        "gr-mac-04-011",
+        "gr-mac-04-012"
+      ]
+    }
+  ],
+  "didYouKnow": ""
+}

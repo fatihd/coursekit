@@ -12,7 +12,7 @@ import greek_text as G  # noqa: E402
 
 ARCHAIC = re.compile(r"\b(thou|thee|thy|thine|ye|art|hast|hath|wast|wilt|shalt|dost|doth)\b|\b\w+(?:est|eth)\b", re.I)
 NOT_ARCHAIC = {"rest", "priest", "best", "west", "least", "honest", "nest", "test", "guest", "lest", "forest",
-               "harvest", "beth", "seth"}
+               "harvest", "beth", "seth", "manifest", "interest", "request", "earnest", "chest", "breast"}
 
 
 class MachenCuratedTests(unittest.TestCase):

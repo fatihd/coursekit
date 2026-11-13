@@ -15,6 +15,7 @@ between browsers.
 |---|---|---|---|
 | `courses/biblical-hebrew-davidson` | 79 | A. B. Davidson, *An Introductory Hebrew Grammar* (22nd ed., 1923) and McFadyen's *Key* (1924) — public domain | Lesson prose CC BY-SA 3.0 |
 | `courses/biblical-hebrew-oer` | 20 | Aaron Christianson, *An Open Introduction to Biblical Hebrew* | CC BY-SA 3.0 |
+| `courses/biblical-greek-machen` | in progress | J. Gresham Machen, *New Testament Greek for Beginners* (1923) — public domain; MorphGNT/SBLGNT data | CC BY-SA 4.0 (not on the hosted site yet) |
 
 Details and attribution: each course's `content/ATTRIBUTION.md`.
 
@@ -46,5 +47,6 @@ The app opens at `http://127.0.0.1:8000/app/index.html`. With Docker instead, re
 
 ## License
 
-Code: MIT (`LICENSE`). Course lesson prose: CC BY-SA 3.0. Curated exercise data in `exwb/curated/`:
-CC0 1.0. Source books: public domain.
+Code: MIT (`LICENSE`). Course lesson prose: CC BY-SA 3.0 (Hebrew courses), CC BY-SA 4.0 (Greek course). Curated
+exercise data in `exwb/curated/`: CC0 1.0. Source books: public domain. MorphGNT-derived data: CC BY-SA 3.0; SBLGNT:
+CC BY 4.0.

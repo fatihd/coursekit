@@ -129,13 +129,28 @@ lesson adds the lemmas that occur 10–49 times (Words track, ADR-023; optional 
   formed exactly on a paradigm Machen prints, listed with its page in `attested.json`). One misprint fixed from the
   1927 printing (p. 50, VIII I.3: ἄγει με ὁ κύριος …); Machen's thou/thy/ye/your are given as you/your (sg.)/(pl.)
   with his wording in `data.book_prompt`.
+- **Curated 2026-11-14:** Lessons IX–XXIII (`machen-l09.json` … `-l23.json`), the same way: 728 items in III–XXIII,
+  8,263 Greek words attested. Forms the NT lacks are accepted only when made exactly on a paradigm Machen prints
+  (user, 2026-11-13); each is listed in `attested.json` with the page and section of the paradigm it follows
+  (the contract-verb paradigms are §§590–592, pp. 239–241). 1927 comparison now also checks the item numbering:
+  the 1927 printing renumbers XIII part II, XIV part I, XVII part II and XXI part II (the 1923 plates skip a number)
+  and corrects XX I.11 ἀναληφθέντος to ἀναλημφθέντος (p. 126); the course follows those numbers and that spelling.
+  IX part II has 14 twice in both printings (the second is `14b`). Machen spells σώζω without iota subscript; the
+  SBLGNT spelling σῴζω is accepted as an alternate.
+- **Licences in the public repo (user, 2026-11-13):** `courses/biblical-greek-machen` is in `scripts/public-allowlist.txt`
+  with a required `content/ATTRIBUTION.md` (not on the site yet). MorphGNT-derived files (`greek-forms.json`,
+  `lemma-counts.json`, the NT frequencies in the course word list) keep CC BY-SA 3.0, SBLGNT text CC BY 4.0; the
+  public LICENSE says so. `exwb/curated` (CC0) holds only Machen's text and our answers.
+- **Glosses for the frequency layers (user, 2026-11-13):** the Dodson Greek–English lexicon (public domain, GitHub
+  `biblicalhumanities/Dodson-Greek-Lexicon`) may be downloaded for the 50+ and 10–49 layers; to be recorded in a
+  manifest with sha256 when it is fetched.
 - **Word order (user, 2026-11-13):** typed Greek is accepted in any order of the same words, as long as no postpositive
   (δέ, γάρ, οὖν, μέν, τε, γε, ἄν, δή, τοι, μέντοι, τοίνυν, and the enclitic pronouns μου/μοι/με/σου/σοι/σε) stands
   first and no article stands last in a clause; the feedback then shows our order (`engine/greek.js`
   `sameWordsAnyOrder`, `build/greek_text.py` `same_any_order`). Greek profile only.
 - **exwb numbering:** in Greek mode, OCR look-alikes of item numbers (ὃ./ὅ. for 3/5, δ. for 5/6, Ἴ./τ. for 7, 1]. for
   11, 18. for 13) count as numbers when they are the expected next one; Davidson is unchanged (48 blocks).
-- **Course scaffold (P11-T5):** `courses/biblical-greek-machen`, units 1–8 = Lessons I–VIII; units 1–2 have
+- **Course (P11-T5):** `courses/biblical-greek-machen`, units 1–23 = Lessons I–XXIII (parts 1–5); units 1–2 have
   recognition questions (`build/_sources/machen/recognition.json`), units 3–8 Machen's exercises as five-rung ladders;
   `build/machen_course.py` writes `content/vocab.csv` (Machen's lesson vocabularies with NT frequencies) and
   `authored/`; lesson text written for the course; CC BY-SA 4.0.

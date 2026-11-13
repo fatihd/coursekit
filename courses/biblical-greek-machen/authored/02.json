@@ -1,0 +1,588 @@
+{
+  "schema": "authored-exercises-v1.json",
+  "unit": 2,
+  "sources": {
+    "r02-1": {
+      "citation": "Written for this course on Machen, New Testament Greek for Beginners (1923), Lesson 2",
+      "promptUrl": "https://archive.org/details/newtestamentgree00mach_0/page/n30/mode/1up",
+      "promptImageUrl": "https://archive.org/download/newtestamentgree00mach_0/page/n30.jpg"
+    },
+    "r02-2": {
+      "citation": "Written for this course on Machen, New Testament Greek for Beginners (1923), Lesson 2",
+      "promptUrl": "https://archive.org/details/newtestamentgree00mach_0/page/n30/mode/1up",
+      "promptImageUrl": "https://archive.org/download/newtestamentgree00mach_0/page/n30.jpg"
+    },
+    "r02-3": {
+      "citation": "Written for this course on Machen, New Testament Greek for Beginners (1923), Lesson 2",
+      "promptUrl": "https://archive.org/details/newtestamentgree00mach_0/page/n30/mode/1up",
+      "promptImageUrl": "https://archive.org/download/newtestamentgree00mach_0/page/n30.jpg"
+    },
+    "r02-4": {
+      "citation": "Written for this course on Machen, New Testament Greek for Beginners (1923), Lesson 2",
+      "promptUrl": "https://archive.org/details/newtestamentgree00mach_0/page/n30/mode/1up",
+      "promptImageUrl": "https://archive.org/download/newtestamentgree00mach_0/page/n30.jpg"
+    },
+    "r02-5": {
+      "citation": "Written for this course on Machen, New Testament Greek for Beginners (1923), Lesson 2",
+      "promptUrl": "https://archive.org/details/newtestamentgree00mach_0/page/n30/mode/1up",
+      "promptImageUrl": "https://archive.org/download/newtestamentgree00mach_0/page/n30.jpg"
+    },
+    "r02-6": {
+      "citation": "Written for this course on Machen, New Testament Greek for Beginners (1923), Lesson 2",
+      "promptUrl": "https://archive.org/details/newtestamentgree00mach_0/page/n30/mode/1up",
+      "promptImageUrl": "https://archive.org/download/newtestamentgree00mach_0/page/n30.jpg"
+    },
+    "r02-7": {
+      "citation": "Written for this course on Machen, New Testament Greek for Beginners (1923), Lesson 2",
+      "promptUrl": "https://archive.org/details/newtestamentgree00mach_0/page/n30/mode/1up",
+      "promptImageUrl": "https://archive.org/download/newtestamentgree00mach_0/page/n30.jpg"
+    },
+    "r02-8": {
+      "citation": "Written for this course on Machen, New Testament Greek for Beginners (1923), Lesson 2",
+      "promptUrl": "https://archive.org/details/newtestamentgree00mach_0/page/n30/mode/1up",
+      "promptImageUrl": "https://archive.org/download/newtestamentgree00mach_0/page/n30.jpg"
+    },
+    "r02-9": {
+      "citation": "Written for this course on Machen, New Testament Greek for Beginners (1923), Lesson 2",
+      "promptUrl": "https://archive.org/details/newtestamentgree00mach_0/page/n30/mode/1up",
+      "promptImageUrl": "https://archive.org/download/newtestamentgree00mach_0/page/n30.jpg"
+    },
+    "r02-10": {
+      "citation": "Written for this course on Machen, New Testament Greek for Beginners (1923), Lesson 2",
+      "promptUrl": "https://archive.org/details/newtestamentgree00mach_0/page/n30/mode/1up",
+      "promptImageUrl": "https://archive.org/download/newtestamentgree00mach_0/page/n30.jpg"
+    }
+  },
+  "items": [
+    {
+      "id": "r02-1.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "ὁδός",
+      "stimulusIsScript": true,
+      "statement": "The first vowel has a rough (an h sound) breathing.",
+      "answer": true,
+      "expected": "The first vowel has a rough (an h sound) breathing.",
+      "block": "r02",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r02-1"
+    },
+    {
+      "id": "r02-1.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Which breathing does the first vowel have?",
+      "stimulus": "ὁδός",
+      "stimulusIsScript": true,
+      "options": [
+        "no breathing",
+        "smooth (no sound)",
+        "rough (an h sound)"
+      ],
+      "answer": "rough (an h sound)",
+      "optionIsScript": false,
+      "block": "r02",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r02-1"
+    },
+    {
+      "id": "r02-1.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Type ὁδός with its breathing",
+      "stimulus": "ὁδός",
+      "stimulusIsScript": true,
+      "accepted": [
+        "ὁδός"
+      ],
+      "answerIsScript": true,
+      "block": "r02",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r02-1"
+    },
+    {
+      "id": "r02-2.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "ἀπόστολος",
+      "stimulusIsScript": true,
+      "statement": "The first vowel has a rough (an h sound) breathing.",
+      "answer": false,
+      "expected": "The first vowel has a smooth (no sound) breathing.",
+      "block": "r02",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r02-2"
+    },
+    {
+      "id": "r02-2.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Which breathing does the first vowel have?",
+      "stimulus": "ἀπόστολος",
+      "stimulusIsScript": true,
+      "options": [
+        "no breathing",
+        "smooth (no sound)",
+        "rough (an h sound)"
+      ],
+      "answer": "smooth (no sound)",
+      "optionIsScript": false,
+      "block": "r02",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r02-2"
+    },
+    {
+      "id": "r02-2.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Type ἀπόστολος with its breathing",
+      "stimulus": "ἀπόστολος",
+      "stimulusIsScript": true,
+      "accepted": [
+        "ἀπόστολος"
+      ],
+      "answerIsScript": true,
+      "block": "r02",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r02-2"
+    },
+    {
+      "id": "r02-3.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "υἱός",
+      "stimulusIsScript": true,
+      "statement": "In a diphthong the breathing stands over the first vowel.",
+      "answer": false,
+      "expected": "In a diphthong the breathing stands over the second vowel.",
+      "block": "r02",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r02-3"
+    },
+    {
+      "id": "r02-3.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Where does the breathing of a diphthong stand?",
+      "stimulus": "υἱός",
+      "stimulusIsScript": true,
+      "options": [
+        "over the first vowel",
+        "over the second vowel",
+        "before the word"
+      ],
+      "answer": "over the second vowel",
+      "optionIsScript": false,
+      "block": "r02",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r02-3"
+    },
+    {
+      "id": "r02-3.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Type υἱός with its breathing",
+      "stimulus": "υἱός",
+      "stimulusIsScript": true,
+      "accepted": [
+        "υἱός"
+      ],
+      "answerIsScript": true,
+      "block": "r02",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r02-3"
+    },
+    {
+      "id": "r02-4.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "δῶρον",
+      "stimulusIsScript": true,
+      "statement": "The accent on this word is the acute.",
+      "answer": false,
+      "expected": "The accent on this word is the circumflex.",
+      "block": "r02",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r02-4"
+    },
+    {
+      "id": "r02-4.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Which accent is on this word?",
+      "stimulus": "δῶρον",
+      "stimulusIsScript": true,
+      "options": [
+        "circumflex",
+        "grave",
+        "acute"
+      ],
+      "answer": "circumflex",
+      "optionIsScript": false,
+      "block": "r02",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r02-4"
+    },
+    {
+      "id": "r02-4.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Type δῶρον with its breathing",
+      "stimulus": "δῶρον",
+      "stimulusIsScript": true,
+      "accepted": [
+        "δῶρον"
+      ],
+      "answerIsScript": true,
+      "block": "r02",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r02-4"
+    },
+    {
+      "id": "r02-5.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "λόγος",
+      "stimulusIsScript": true,
+      "statement": "The accent on this word is the acute.",
+      "answer": true,
+      "expected": "The accent on this word is the acute.",
+      "block": "r02",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r02-5"
+    },
+    {
+      "id": "r02-5.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Which accent is on this word?",
+      "stimulus": "λόγος",
+      "stimulusIsScript": true,
+      "options": [
+        "circumflex",
+        "grave",
+        "acute"
+      ],
+      "answer": "acute",
+      "optionIsScript": false,
+      "block": "r02",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r02-5"
+    },
+    {
+      "id": "r02-5.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Type λόγος",
+      "stimulus": "λόγος",
+      "stimulusIsScript": true,
+      "accepted": [
+        "λόγος"
+      ],
+      "answerIsScript": true,
+      "block": "r02",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r02-5"
+    },
+    {
+      "id": "r02-6.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "ἀδελφὸς βλέπει",
+      "stimulusIsScript": true,
+      "statement": "ἀδελφὸς has a grave because an acute on the ultima becomes grave before another word.",
+      "answer": true,
+      "expected": "ἀδελφὸς has a grave because an acute on the ultima becomes grave before another word.",
+      "block": "r02",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r02-6"
+    },
+    {
+      "id": "r02-6.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Why does ἀδελφὸς have a grave accent here?",
+      "stimulus": "ἀδελφὸς βλέπει",
+      "stimulusIsScript": true,
+      "options": [
+        "the ultima is long",
+        "the word is a verb",
+        "an acute on the ultima becomes grave before another word"
+      ],
+      "answer": "an acute on the ultima becomes grave before another word",
+      "optionIsScript": false,
+      "block": "r02",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r02-6"
+    },
+    {
+      "id": "r02-6.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Type ἀδελφός (alone, with its breathing)",
+      "stimulus": "ἀδελφὸς βλέπει",
+      "stimulusIsScript": true,
+      "accepted": [
+        "ἀδελφός"
+      ],
+      "answerIsScript": true,
+      "block": "r02",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r02-6"
+    },
+    {
+      "id": "r02-7.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "ἄνθρωπος",
+      "stimulusIsScript": true,
+      "statement": "The accent is on the antepenult.",
+      "answer": true,
+      "expected": "The accent is on the antepenult.",
+      "block": "r02",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r02-7"
+    },
+    {
+      "id": "r02-7.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "On which syllable is the accent?",
+      "stimulus": "ἄνθρωπος",
+      "stimulusIsScript": true,
+      "options": [
+        "the ultima",
+        "the penult",
+        "the antepenult"
+      ],
+      "answer": "the antepenult",
+      "optionIsScript": false,
+      "block": "r02",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r02-7"
+    },
+    {
+      "id": "r02-7.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Type ἄνθρωπος with its breathing",
+      "stimulus": "ἄνθρωπος",
+      "stimulusIsScript": true,
+      "accepted": [
+        "ἄνθρωπος"
+      ],
+      "answerIsScript": true,
+      "block": "r02",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r02-7"
+    },
+    {
+      "id": "r02-8.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "ἀνθρώπου",
+      "stimulusIsScript": true,
+      "statement": "The accent moved because the word is plural.",
+      "answer": false,
+      "expected": "The accent moved because the ultima is long.",
+      "block": "r02",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r02-8"
+    },
+    {
+      "id": "r02-8.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Why has the accent moved from ἄνθρωπος?",
+      "stimulus": "ἀνθρώπου",
+      "stimulusIsScript": true,
+      "options": [
+        "the word is plural",
+        "a circumflex cannot stand there",
+        "the ultima is long"
+      ],
+      "answer": "the ultima is long",
+      "optionIsScript": false,
+      "block": "r02",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r02-8"
+    },
+    {
+      "id": "r02-8.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Type ἀνθρώπου with its breathing",
+      "stimulus": "ἀνθρώπου",
+      "stimulusIsScript": true,
+      "accepted": [
+        "ἀνθρώπου"
+      ],
+      "answerIsScript": true,
+      "block": "r02",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r02-8"
+    },
+    {
+      "id": "r02-9.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "τῷ λόγῳ",
+      "stimulusIsScript": true,
+      "statement": "The mark under the ω is iota subscript.",
+      "answer": true,
+      "expected": "The mark under the ω is iota subscript.",
+      "block": "r02",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r02-9"
+    },
+    {
+      "id": "r02-9.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "What is the small mark under the ω?",
+      "stimulus": "τῷ λόγῳ",
+      "stimulusIsScript": true,
+      "options": [
+        "iota subscript",
+        "a grave accent",
+        "a breathing"
+      ],
+      "answer": "iota subscript",
+      "optionIsScript": false,
+      "block": "r02",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r02-9"
+    },
+    {
+      "id": "r02-9.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Type τῷ λόγῳ with the iota subscripts",
+      "stimulus": "τῷ λόγῳ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "τῷ λόγῳ"
+      ],
+      "answerIsScript": true,
+      "block": "r02",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r02-9"
+    },
+    {
+      "id": "r02-10.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "ἡμέρα",
+      "stimulusIsScript": true,
+      "statement": "ἡμέρα has a rough (an h sound) breathing.",
+      "answer": true,
+      "expected": "ἡμέρα has a rough (an h sound) breathing.",
+      "block": "r02",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r02-10"
+    },
+    {
+      "id": "r02-10.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Which breathing does ἡμέρα have?",
+      "stimulus": "ἡμέρα",
+      "stimulusIsScript": true,
+      "options": [
+        "smooth (no sound)",
+        "rough (an h sound)",
+        "no breathing"
+      ],
+      "answer": "rough (an h sound)",
+      "optionIsScript": false,
+      "block": "r02",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r02-10"
+    },
+    {
+      "id": "r02-10.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Type ἡμέρα with its breathing",
+      "stimulus": "ἡμέρα",
+      "stimulusIsScript": true,
+      "accepted": [
+        "ἡμέρα"
+      ],
+      "answerIsScript": true,
+      "block": "r02",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r02-10"
+    }
+  ]
+}

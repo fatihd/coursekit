@@ -1,0 +1,87 @@
+{
+  "schema": "unit-lesson-v1.json",
+  "unit": 3,
+  "title": "Present Active Indicative",
+  "description": "The present tense of λύω and the verb endings that show the subject.",
+  "teaches": [
+    "gr-mac-03-001",
+    "gr-mac-03-002",
+    "gr-mac-03-003",
+    "gr-mac-03-004",
+    "gr-mac-03-005",
+    "gr-mac-03-006",
+    "gr-mac-03-007",
+    "gr-mac-03-008"
+  ],
+  "assumes": [],
+  "blocks": [
+    {
+      "type": "prose",
+      "caption": "Summary",
+      "html": "<p>The Greek verb shows its subject by its ending. λύω means I loose; λύομεν, we loose. There is no separate word for &quot;I&quot; or &quot;we&quot; unless it is stressed. The present tense means both &quot;I loose&quot; and &quot;I am loosing&quot;.</p>"
+    },
+    {
+      "type": "table",
+      "caption": "Present active indicative of λύω",
+      "columns": [
+        "Person",
+        "Singular",
+        "Plural"
+      ],
+      "rows": [
+        [
+          "1st",
+          "λύω, I loose",
+          "λύομεν, we loose"
+        ],
+        [
+          "2nd",
+          "λύεις, you (sg.) loose",
+          "λύετε, you (pl.) loose"
+        ],
+        [
+          "3rd",
+          "λύει, he looses",
+          "λύουσι(ν), they loose"
+        ],
+        [
+          "Take off the -ω of the first person to find the present stem (λυ-), then add the endings -ω, -εις, -ει, -ομεν, -ετε, -ουσι(ν). Every verb of this lesson goes the same way: βλέπω, βλέπεις, βλέπει …"
+        ]
+      ]
+    },
+    {
+      "type": "prose",
+      "caption": "Two kinds of \"you\"",
+      "html": "<p>Greek keeps singular and plural &quot;you&quot; apart. The course writes them as you (sg.) and you (pl.); older English used thou and ye, and the typed answers accept those too.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Verb accent",
+      "html": "<p>The accent of a verb goes as far back from the end as the length of the ultima allows: λύομεν, but λύω. This &quot;recessive&quot; accent holds for nearly all verb forms.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Common confusion",
+      "html": "<p>λύουσι and λύουσιν are the same form: the ν (movable ν) is added before a vowel or at the end of a sentence, and the course accepts either.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Source",
+      "html": "<p>Machen, *New Testament Greek for Beginners* (1923), Lesson 3 (p. 20).</p>"
+    },
+    {
+      "type": "vocab",
+      "refs": [
+        "gr-mac-03-001",
+        "gr-mac-03-002",
+        "gr-mac-03-003",
+        "gr-mac-03-004",
+        "gr-mac-03-005",
+        "gr-mac-03-006",
+        "gr-mac-03-007",
+        "gr-mac-03-008"
+      ]
+    }
+  ],
+  "didYouKnow": ""
+}

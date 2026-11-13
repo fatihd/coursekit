@@ -1,0 +1,234 @@
+{
+  "id": "biblical-greek-machen",
+  "title": "New Testament Greek — Machen Course",
+  "language": "grc",
+  "level": "A",
+  "script": {
+    "direction": "ltr",
+    "font": "GentiumPlus",
+    "fontFile": "fonts/GentiumPlus-Regular.woff2",
+    "keyboard": "el_GR",
+    "translitScheme": "none",
+    "profile": "greek",
+    "code": "grc"
+  },
+  "units": [
+    {
+      "id": "u01",
+      "n": 1,
+      "title": "The Alphabet",
+      "slug": "the-alphabet",
+      "part": 1
+    },
+    {
+      "id": "u02",
+      "n": 2,
+      "title": "Breathings and Accents",
+      "slug": "breathings-and-accents",
+      "part": 1
+    },
+    {
+      "id": "u03",
+      "n": 3,
+      "title": "Present Active Indicative",
+      "slug": "present-active-indicative",
+      "part": 2
+    },
+    {
+      "id": "u04",
+      "n": 4,
+      "title": "The Second Declension",
+      "slug": "the-second-declension",
+      "part": 2
+    },
+    {
+      "id": "u05",
+      "n": 5,
+      "title": "The First Declension",
+      "slug": "the-first-declension",
+      "part": 2
+    },
+    {
+      "id": "u06",
+      "n": 6,
+      "title": "The Article and Adjectives",
+      "slug": "the-article-and-adjectives",
+      "part": 2
+    },
+    {
+      "id": "u07",
+      "n": 7,
+      "title": "Masculine First Declension; Prepositions",
+      "slug": "prepositions",
+      "part": 2
+    },
+    {
+      "id": "u08",
+      "n": 8,
+      "title": "Enclitics, Personal Pronouns, εἰμί",
+      "slug": "personal-pronouns",
+      "part": 2
+    },
+    {
+      "id": "u09",
+      "n": 9,
+      "title": "Demonstratives and αὐτός",
+      "slug": "demonstratives-and-autos",
+      "part": 3
+    },
+    {
+      "id": "u10",
+      "n": 10,
+      "title": "Present Middle and Passive",
+      "slug": "present-middle-and-passive",
+      "part": 3
+    },
+    {
+      "id": "u11",
+      "n": 11,
+      "title": "The Imperfect Active",
+      "slug": "the-imperfect-active",
+      "part": 3
+    },
+    {
+      "id": "u12",
+      "n": 12,
+      "title": "Imperfect Middle and Passive",
+      "slug": "imperfect-middle-and-passive",
+      "part": 3
+    },
+    {
+      "id": "u13",
+      "n": 13,
+      "title": "The Future",
+      "slug": "the-future",
+      "part": 3
+    },
+    {
+      "id": "u14",
+      "n": 14,
+      "title": "The First Aorist",
+      "slug": "the-first-aorist",
+      "part": 3
+    },
+    {
+      "id": "u15",
+      "n": 15,
+      "title": "The Second Aorist",
+      "slug": "the-second-aorist",
+      "part": 3
+    },
+    {
+      "id": "u16",
+      "n": 16,
+      "title": "The Aorist and Future Passive",
+      "slug": "the-aorist-and-future-passive",
+      "part": 4
+    },
+    {
+      "id": "u17",
+      "n": 17,
+      "title": "The Third Declension",
+      "slug": "the-third-declension",
+      "part": 4
+    },
+    {
+      "id": "u18",
+      "n": 18,
+      "title": "Present Participles",
+      "slug": "present-participles",
+      "part": 4
+    },
+    {
+      "id": "u19",
+      "n": 19,
+      "title": "Aorist Participles",
+      "slug": "aorist-participles",
+      "part": 4
+    },
+    {
+      "id": "u20",
+      "n": 20,
+      "title": "The Aorist Passive Participle",
+      "slug": "the-aorist-passive-participle",
+      "part": 4
+    },
+    {
+      "id": "u21",
+      "n": 21,
+      "title": "The Subjunctive",
+      "slug": "the-subjunctive",
+      "part": 5
+    },
+    {
+      "id": "u22",
+      "n": 22,
+      "title": "The Infinitive",
+      "slug": "the-infinitive",
+      "part": 5
+    },
+    {
+      "id": "u23",
+      "n": 23,
+      "title": "Contract Verbs",
+      "slug": "contract-verbs",
+      "part": 5
+    }
+  ],
+  "parts": [
+    {
+      "n": 1,
+      "title": "Letters and Accents",
+      "units": [
+        1,
+        2
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Verbs, Nouns and Adjectives",
+      "units": [
+        3,
+        8
+      ]
+    },
+    {
+      "n": 3,
+      "title": "Pronouns, Voices and Past Tenses",
+      "units": [
+        9,
+        15
+      ]
+    },
+    {
+      "n": 4,
+      "title": "Passives, the Third Declension and Participles",
+      "units": [
+        16,
+        20
+      ]
+    },
+    {
+      "n": 5,
+      "title": "Moods and Contract Verbs",
+      "units": [
+        21,
+        23
+      ]
+    }
+  ],
+  "prerequisites": [],
+  "knowledgeGraph": "prerequisites/knowledge.json",
+  "features": {
+    "diagnostics": true,
+    "reviewWarmup": true,
+    "targetItems": 24,
+    "reviewItems": 5,
+    "authoredPerSession": 10,
+    "unlockRung": 3,
+    "transliteration": false,
+    "wordLadder": true,
+    "retries": true,
+    "tests": true
+  }
+}

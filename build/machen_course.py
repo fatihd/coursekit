@@ -78,9 +78,13 @@ def lemma_counts(lemmas: list[str]) -> dict[str, int]:
     return json.loads(COUNTS.read_text(encoding="utf-8"))["counts"]
 
 
+def lemma_of(w: list) -> str:
+    return w[4] if len(w) > 4 and w[4] else w[0]
+
+
 def vocab_rows(cmap: dict) -> list[dict]:
     words = [(u["n"], w) for u in cmap["units"] for w in u["vocab"]]
-    counts = lemma_counts([w[0] for _, w in words])
+    counts = lemma_counts(sorted({lemma_of(w) for _, w in words}))
     rows, seq = [], Counter()
     for unit, w in words:
         seq[unit] += 1
@@ -88,7 +92,7 @@ def vocab_rows(cmap: dict) -> list[dict]:
         rows.append({
             "id": f"gr-mac-{unit:02d}-{seq[unit]:03d}", "unit": str(unit), "category": category, "scriptForm": word,
             "plural": "", "transliteration": "", "pronunciation": "", "gloss": gloss,
-            "gender": w[3] if len(w) > 3 else "", "number": "", "frequency": str(counts.get(word, 0)),
+            "gender": w[3] if len(w) > 3 else "", "number": "", "frequency": str(counts.get(lemma_of(w), 0)),
             "root": "", "strong": "", "pos": category, "binyan": "", "parse": "", "forms": "",
             "oer_source": "Machen (1923); MorphGNT", "oer_license": "public domain; CC BY-SA 3.0",
         })

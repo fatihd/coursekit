@@ -1,0 +1,131 @@
+{
+  "schema": "unit-lesson-v1.json",
+  "unit": 7,
+  "title": "Masculine First Declension; Prepositions",
+  "description": "Nouns in -ης like προφήτης, and prepositions with the genitive, dative and accusative.",
+  "teaches": [
+    "gr-mac-07-001",
+    "gr-mac-07-002",
+    "gr-mac-07-003",
+    "gr-mac-07-004",
+    "gr-mac-07-005",
+    "gr-mac-07-006",
+    "gr-mac-07-007",
+    "gr-mac-07-008",
+    "gr-mac-07-009",
+    "gr-mac-07-010",
+    "gr-mac-07-011",
+    "gr-mac-07-012",
+    "gr-mac-07-013",
+    "gr-mac-07-014",
+    "gr-mac-07-015",
+    "gr-mac-07-016",
+    "gr-mac-07-017",
+    "gr-mac-07-018",
+    "gr-mac-07-019",
+    "gr-mac-07-020",
+    "gr-mac-07-021"
+  ],
+  "assumes": [
+    "gr-mac-06-001",
+    "gr-mac-06-002",
+    "gr-mac-06-003",
+    "gr-mac-06-004",
+    "gr-mac-06-005",
+    "gr-mac-06-006",
+    "gr-mac-06-007",
+    "gr-mac-06-008",
+    "gr-mac-06-009",
+    "gr-mac-06-010",
+    "gr-mac-06-011",
+    "gr-mac-06-012",
+    "gr-mac-06-013",
+    "gr-mac-06-014",
+    "gr-mac-06-015"
+  ],
+  "blocks": [
+    {
+      "type": "prose",
+      "caption": "Summary",
+      "html": "<p>A few first-declension nouns are masculine and end in -ης (προφήτης, μαθητής): genitive singular -ου, like the second declension. Prepositions take fixed cases: the genitive for separation (ἀπό, ἐκ), the dative for rest (ἐν), the accusative for motion toward (εἰς, πρός).</p>"
+    },
+    {
+      "type": "table",
+      "caption": "προφήτης",
+      "columns": [
+        "Case",
+        "Singular",
+        "Plural"
+      ],
+      "rows": [
+        [
+          "Nom.",
+          "προφήτης",
+          "προφῆται"
+        ],
+        [
+          "Gen.",
+          "προφήτου",
+          "προφητῶν"
+        ],
+        [
+          "Dat.",
+          "προφήτῃ",
+          "προφήταις"
+        ],
+        [
+          "Acc.",
+          "προφήτην",
+          "προφήτας"
+        ],
+        [
+          "Voc.",
+          "προφῆτα",
+          "προφῆται"
+        ]
+      ]
+    },
+    {
+      "type": "prose",
+      "caption": "Prepositions with more than one case",
+      "html": "<p>Learn each preposition together with its case: διά with the genitive is &quot;through&quot;, with the accusative &quot;on account of&quot;; μετά with the genitive is &quot;with&quot;, with the accusative &quot;after&quot;. ἐκ becomes ἐξ before a vowel. A preposition ending in a vowel may drop it before a vowel (δι’ αὐτοῦ, ἀπ’ αὐτοῦ), and before a rough breathing its consonant becomes aspirated (ἀφ’ ὑμῶν, μεθ’ ὑμῶν); the course accepts elided and full forms alike.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Common confusion",
+      "html": "<p>ἐν, εἰς and ἐκ are proclitics without an accent of their own. Do not confuse εἰς (into) with εἶς (one) or ἐν (in) with ἕν (one, neuter).</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Source",
+      "html": "<p>Machen, *New Testament Greek for Beginners* (1923), Lesson 7 (p. 39).</p>"
+    },
+    {
+      "type": "vocab",
+      "refs": [
+        "gr-mac-07-001",
+        "gr-mac-07-002",
+        "gr-mac-07-003",
+        "gr-mac-07-004",
+        "gr-mac-07-005",
+        "gr-mac-07-006",
+        "gr-mac-07-007",
+        "gr-mac-07-008",
+        "gr-mac-07-009",
+        "gr-mac-07-010",
+        "gr-mac-07-011",
+        "gr-mac-07-012",
+        "gr-mac-07-013",
+        "gr-mac-07-014",
+        "gr-mac-07-015",
+        "gr-mac-07-016",
+        "gr-mac-07-017",
+        "gr-mac-07-018",
+        "gr-mac-07-019",
+        "gr-mac-07-020",
+        "gr-mac-07-021"
+      ]
+    }
+  ],
+  "didYouKnow": ""
+}

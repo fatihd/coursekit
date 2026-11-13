@@ -1,0 +1,164 @@
+{
+  "schema": "unit-lesson-v1.json",
+  "unit": 17,
+  "title": "The Third Declension",
+  "description": "Nouns of the third declension: ἐλπίς, νύξ, ἄρχων, and the neuters in -μα.",
+  "teaches": [
+    "gr-mac-17-001",
+    "gr-mac-17-002",
+    "gr-mac-17-003",
+    "gr-mac-17-004",
+    "gr-mac-17-005",
+    "gr-mac-17-006",
+    "gr-mac-17-007",
+    "gr-mac-17-008",
+    "gr-mac-17-009",
+    "gr-mac-17-010",
+    "gr-mac-17-011",
+    "gr-mac-17-012",
+    "gr-mac-17-013"
+  ],
+  "assumes": [
+    "gr-mac-16-001",
+    "gr-mac-16-002",
+    "gr-mac-16-003",
+    "gr-mac-16-004",
+    "gr-mac-16-005",
+    "gr-mac-16-006",
+    "gr-mac-16-007",
+    "gr-mac-16-008",
+    "gr-mac-16-009",
+    "gr-mac-16-010",
+    "gr-mac-16-011",
+    "gr-mac-16-012",
+    "gr-mac-16-013"
+  ],
+  "blocks": [
+    {
+      "type": "prose",
+      "caption": "Summary",
+      "html": "<p>Third-declension nouns show their stem in the genitive singular: ἐλπίς, ἐλπίδος (stem ἐλπιδ-); νύξ, νυκτός (stem νυκτ-); ἄρχων, ἄρχοντος (stem ἀρχοντ-). Learn every third-declension noun with its genitive and article. The endings are -ς, -ος, -ι, -α (or -ν) in the singular and -ες, -ων, -σι(ν), -ας in the plural. Before σ a dental drops (ἐλπίσι for ἐλπιδσι), a palatal and σ make ξ (νυξί), and ντ drops with the vowel lengthened (ἄρχουσι).</p>"
+    },
+    {
+      "type": "table",
+      "caption": "ἐλπίς, νύξ, ἄρχων",
+      "columns": [
+        "Case",
+        "ἐλπίς (f)",
+        "νύξ (f)",
+        "ἄρχων (m)"
+      ],
+      "rows": [
+        [
+          "Nom. sg.",
+          "ἐλπίς",
+          "νύξ",
+          "ἄρχων"
+        ],
+        [
+          "Gen. sg.",
+          "ἐλπίδος",
+          "νυκτός",
+          "ἄρχοντος"
+        ],
+        [
+          "Dat. sg.",
+          "ἐλπίδι",
+          "νυκτί",
+          "ἄρχοντι"
+        ],
+        [
+          "Acc. sg.",
+          "ἐλπίδα",
+          "νύκτα",
+          "ἄρχοντα"
+        ],
+        [
+          "Nom. pl.",
+          "ἐλπίδες",
+          "νύκτες",
+          "ἄρχοντες"
+        ],
+        [
+          "Gen. pl.",
+          "ἐλπίδων",
+          "νυκτῶν",
+          "ἀρχόντων"
+        ],
+        [
+          "Dat. pl.",
+          "ἐλπίσι(ν)",
+          "νυξί(ν)",
+          "ἄρχουσι(ν)"
+        ],
+        [
+          "Acc. pl.",
+          "ἐλπίδας",
+          "νύκτας",
+          "ἄρχοντας"
+        ],
+        [
+          "A monosyllable like νύξ accents the ultima of the genitive and dative in both numbers (νυκτός, νυκτῶν)."
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Neuters in -μα",
+      "columns": [
+        "Case",
+        "Singular",
+        "Plural"
+      ],
+      "rows": [
+        [
+          "Nom., acc.",
+          "ὄνομα",
+          "ὀνόματα"
+        ],
+        [
+          "Gen.",
+          "ὀνόματος",
+          "ὀνομάτων"
+        ],
+        [
+          "Dat.",
+          "ὀνόματι",
+          "ὀνόμασι(ν)"
+        ],
+        [
+          "Like αἷμα, γράμμα, θέλημα, πνεῦμα, ῥῆμα and σῶμα; all are neuter."
+        ]
+      ]
+    },
+    {
+      "type": "prose",
+      "caption": "Common confusion",
+      "html": "<p>ἄρχουσι(ν) is both the dative plural of ἄρχων (to rulers) and the present of ἄρχω (they rule); the context decides.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Source",
+      "html": "<p>Machen, *New Testament Greek for Beginners* (1923), Lesson 17 (p. 97).</p>"
+    },
+    {
+      "type": "vocab",
+      "refs": [
+        "gr-mac-17-001",
+        "gr-mac-17-002",
+        "gr-mac-17-003",
+        "gr-mac-17-004",
+        "gr-mac-17-005",
+        "gr-mac-17-006",
+        "gr-mac-17-007",
+        "gr-mac-17-008",
+        "gr-mac-17-009",
+        "gr-mac-17-010",
+        "gr-mac-17-011",
+        "gr-mac-17-012",
+        "gr-mac-17-013"
+      ]
+    }
+  ],
+  "didYouKnow": ""
+}

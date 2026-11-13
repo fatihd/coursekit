@@ -1,0 +1,63 @@
+{
+  "schema": "unit-lesson-v1.json",
+  "unit": 2,
+  "title": "Breathings and Accents",
+  "description": "Breathings, the three accents, and the rules that fix where an accent may stand.",
+  "teaches": [],
+  "assumes": [],
+  "blocks": [
+    {
+      "type": "prose",
+      "caption": "Summary",
+      "html": "<p>Every word that begins with a vowel or diphthong carries a breathing: rough (῾, an h sound) or smooth (᾿, no sound). Words also carry one accent: acute (´), grave (`) or circumflex (῀). The accent can stand only on one of the last three syllables, and the length of the last syllable limits where it may go.</p>"
+    },
+    {
+      "type": "table",
+      "caption": "Breathings",
+      "columns": [
+        "Mark",
+        "Name",
+        "Example",
+        "Sound"
+      ],
+      "rows": [
+        [
+          "ἀ",
+          "smooth",
+          "ἀπόστολος",
+          "apostolos"
+        ],
+        [
+          "ἁ",
+          "rough",
+          "ὁδός",
+          "hodos"
+        ],
+        [
+          "On a diphthong the breathing stands over the second vowel: υἱός, οἶκος. ρ at the start of a word always has the rough breathing (ῥῆμα). The iota subscript, a small ι under α, η or ω (ᾳ, ῃ, ῳ), is a silent iota; it must be written, and the course always checks it."
+        ]
+      ]
+    },
+    {
+      "type": "prose",
+      "caption": "Accents",
+      "html": "<p>The last three syllables are the ultima, the penult and the antepenult. The acute may stand on any of them; the circumflex only on a long vowel or diphthong in the ultima or penult; the grave only on the ultima. If the ultima is long, the acute cannot stand on the antepenult (ἄνθρωπος but ἀνθρώπου) and a long penult takes an acute, not a circumflex (δῶρον but δώρου). An acute on the ultima becomes grave when another word follows without punctuation: ἀδελφός, but ἀδελφὸς βλέπει.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "How the course checks accents",
+      "html": "<p>On the lower typing rungs the course checks letters, breathings and the iota subscript. On the top rung it checks the accents too; a grave typed as an acute is accepted, and so is either form of an accent that a following enclitic changes.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Common confusion",
+      "html": "<p>αι and οι count as short at the end of a word for accent purposes (ἄνθρωποι), except in the optative. The breathing of a capital stands before it: Ἰησοῦς.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Source",
+      "html": "<p>Machen, *New Testament Greek for Beginners* (1923), Lesson 2 (p. 13).</p>"
+    }
+  ],
+  "didYouKnow": ""
+}

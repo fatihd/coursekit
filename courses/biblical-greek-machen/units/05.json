@@ -1,0 +1,150 @@
+{
+  "schema": "unit-lesson-v1.json",
+  "unit": 5,
+  "title": "The First Declension",
+  "description": "Feminine nouns in -α and -η.",
+  "teaches": [
+    "gr-mac-05-001",
+    "gr-mac-05-002",
+    "gr-mac-05-003",
+    "gr-mac-05-004",
+    "gr-mac-05-005",
+    "gr-mac-05-006",
+    "gr-mac-05-007",
+    "gr-mac-05-008",
+    "gr-mac-05-009",
+    "gr-mac-05-010",
+    "gr-mac-05-011",
+    "gr-mac-05-012",
+    "gr-mac-05-013",
+    "gr-mac-05-014"
+  ],
+  "assumes": [
+    "gr-mac-04-001",
+    "gr-mac-04-002",
+    "gr-mac-04-003",
+    "gr-mac-04-004",
+    "gr-mac-04-005",
+    "gr-mac-04-006",
+    "gr-mac-04-007",
+    "gr-mac-04-008",
+    "gr-mac-04-009",
+    "gr-mac-04-010",
+    "gr-mac-04-011",
+    "gr-mac-04-012"
+  ],
+  "blocks": [
+    {
+      "type": "prose",
+      "caption": "Summary",
+      "html": "<p>Most nouns of the first declension are feminine and end in -α or -η. Their endings are close to those of the second declension, with α or η where the second declension has ο.</p>"
+    },
+    {
+      "type": "table",
+      "caption": "ὥρα, ἀλήθεια, δόξα, γραφή",
+      "columns": [
+        "Case",
+        "ὥρα",
+        "ἀλήθεια",
+        "δόξα",
+        "γραφή"
+      ],
+      "rows": [
+        [
+          "Nom. sg.",
+          "ὥρα",
+          "ἀλήθεια",
+          "δόξα",
+          "γραφή"
+        ],
+        [
+          "Gen. sg.",
+          "ὥρας",
+          "ἀληθείας",
+          "δόξης",
+          "γραφῆς"
+        ],
+        [
+          "Dat. sg.",
+          "ὥρᾳ",
+          "ἀληθείᾳ",
+          "δόξῃ",
+          "γραφῇ"
+        ],
+        [
+          "Acc. sg.",
+          "ὥραν",
+          "ἀλήθειαν",
+          "δόξαν",
+          "γραφήν"
+        ],
+        [
+          "Nom. pl.",
+          "ὧραι",
+          "ἀλήθειαι",
+          "δόξαι",
+          "γραφαί"
+        ],
+        [
+          "Gen. pl.",
+          "ὡρῶν",
+          "ἀληθειῶν",
+          "δοξῶν",
+          "γραφῶν"
+        ],
+        [
+          "Dat. pl.",
+          "ὥραις",
+          "ἀληθείαις",
+          "δόξαις",
+          "γραφαῖς"
+        ],
+        [
+          "Acc. pl.",
+          "ὥρας",
+          "ἀληθείας",
+          "δόξας",
+          "γραφάς"
+        ],
+        [
+          "After ε, ι or ρ the α stays through the singular (ὥρα, ἡμέρα); otherwise a short α of the nominative becomes η in the genitive and dative singular (δόξα, δόξης). The plural is the same for all of them."
+        ]
+      ]
+    },
+    {
+      "type": "prose",
+      "caption": "Genitive plural",
+      "html": "<p>Every first-declension noun has a circumflex on the ultima in the genitive plural, wherever the nominative is accented: ὡρῶν, ἡμερῶν, γραφῶν.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Common confusion",
+      "html": "<p>ὥρας can be genitive singular or accusative plural; ψυχαί is plural, ψυχῇ dative singular. Let the sentence decide.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Source",
+      "html": "<p>Machen, *New Testament Greek for Beginners* (1923), Lesson 5 (p. 29).</p>"
+    },
+    {
+      "type": "vocab",
+      "refs": [
+        "gr-mac-05-001",
+        "gr-mac-05-002",
+        "gr-mac-05-003",
+        "gr-mac-05-004",
+        "gr-mac-05-005",
+        "gr-mac-05-006",
+        "gr-mac-05-007",
+        "gr-mac-05-008",
+        "gr-mac-05-009",
+        "gr-mac-05-010",
+        "gr-mac-05-011",
+        "gr-mac-05-012",
+        "gr-mac-05-013",
+        "gr-mac-05-014"
+      ]
+    }
+  ],
+  "didYouKnow": ""
+}

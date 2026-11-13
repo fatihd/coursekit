@@ -1,5 +1,5 @@
 {
-  "note": "Greek forms printed in Machen (1923 plates) outside the exercise sentences — paradigms and vocabularies — that our answers may use although the SBLGNT does not have them. Each entry names the page and section where the form is printed. Read by build/greek_corpus.py.",
+  "note": "Greek forms that our answers may use although the SBLGNT does not have them: forms printed in Machen (1923 plates) outside the exercise sentences (paradigms and vocabularies), and forms made exactly on a paradigm Machen prints (accepted by the user 2026-11-13). Each entry names the page and section of the printed form or of the paradigm it follows. Read by build/greek_corpus.py.",
   "forms": [
     {
       "form": "λύω",
@@ -36,6 +36,888 @@
       "page": 34,
       "section": "62",
       "where": "declined like μικρός (§62: feminine in -α after a vowel); δίκαιος is in the Lesson VI vocabulary"
+    },
+    {
+      "form": "πισταί",
+      "page": 33,
+      "section": "61",
+      "where": "formed like ἀγαθαί in the declension of ἀγαθός (§61); πιστός is in the Lesson VI vocabulary"
+    },
+    {
+      "form": "βαπτίζομεν",
+      "page": 20,
+      "section": "18",
+      "where": "formed like λύομεν in the paradigm of λύω (§18); βαπτίζω is in the Lesson IX vocabulary (§101)"
+    },
+    {
+      "form": "σώζονται",
+      "page": 59,
+      "section": "112",
+      "where": "formed like λύονται in the present passive of λύω (§112); σώζω is in the Lesson X vocabulary (§108)"
+    },
+    {
+      "form": "σῴζονται",
+      "page": 59,
+      "section": "112",
+      "where": "formed like λύονται in the present passive of λύω (§112), with the SBLGNT spelling σῴζω of Machen's σώζω (§108)"
+    },
+    {
+      "form": "σώζομαι",
+      "page": 59,
+      "section": "112",
+      "where": "formed like λύομαι in the present passive of λύω (§112); σώζω is in the Lesson X vocabulary (§108)"
+    },
+    {
+      "form": "σῴζομαι",
+      "page": 59,
+      "section": "112",
+      "where": "formed like λύομαι in the present passive of λύω (§112), with the SBLGNT spelling σῴζω of Machen's σώζω (§108)"
+    },
+    {
+      "form": "σῴζῃ",
+      "page": 59,
+      "section": "112",
+      "where": "formed like λύῃ in the present passive of λύω (§112), with the SBLGNT spelling σῴζω; Machen prints σώζῃ (§120 I.11)"
+    },
+    {
+      "form": "διδάσκομαι",
+      "page": 59,
+      "section": "112",
+      "where": "formed like λύομαι in the present passive of λύω (§112); διδάσκω is in the Lesson III vocabulary (§16)"
+    },
+    {
+      "form": "διδασκόμεθα",
+      "page": 59,
+      "section": "112",
+      "where": "formed like λυόμεθα in the present passive of λύω (§112); διδάσκω is in the Lesson III vocabulary (§16)"
+    },
+    {
+      "form": "διδάσκεται",
+      "page": 59,
+      "section": "112",
+      "where": "formed like λύεται in the present passive of λύω (§112); διδάσκω is in the Lesson III vocabulary (§16)"
+    },
+    {
+      "form": "γινόμεθα",
+      "page": 58,
+      "section": "110",
+      "where": "formed like λυόμεθα in the present middle of λύω (§110); γίνομαι is in the Lesson X vocabulary (§108)"
+    },
+    {
+      "form": "λύεται",
+      "page": 59,
+      "section": "112",
+      "where": "printed in the present passive of λύω (§112)"
+    },
+    {
+      "form": "γράφονται",
+      "page": 59,
+      "section": "112",
+      "where": "formed like λύονται in the present passive of λύω (§112); γράφω is in the Lesson III vocabulary (§16)"
+    },
+    {
+      "form": "ἀπεθνήσκετε",
+      "page": 65,
+      "section": "123, 131",
+      "where": "formed like ἐλύετε in the imperfect of λύω (§123), augmented after the preposition (§131); Machen prints ἀπέθνησκον (§135 I.6)"
+    },
+    {
+      "form": "ἀπεθνῄσκετε",
+      "page": 65,
+      "section": "123, 131",
+      "where": "formed like ἐλύετε in the imperfect of λύω (§123, §131), with the SBLGNT spelling ἀποθνῄσκω of Machen's ἀποθνήσκω (§121)"
+    },
+    {
+      "form": "ἦρες",
+      "page": 65,
+      "section": "123, 126",
+      "where": "formed like ἔλυες in the imperfect of λύω (§123), with the augment of a verb beginning with a vowel (§126); Machen prints ἦρε (§135 I.9)"
+    },
+    {
+      "form": "ἔπεμπε",
+      "page": 65,
+      "section": "123",
+      "where": "formed like ἔλυε in the imperfect of λύω (§123); πέμπω is in the Lesson VII vocabulary"
+    },
+    {
+      "form": "ἔπεμπον",
+      "page": 65,
+      "section": "123",
+      "where": "formed like ἔλυον in the imperfect of λύω (§123); πέμπω is in the Lesson VII vocabulary"
+    },
+    {
+      "form": "ἔγραφε",
+      "page": 65,
+      "section": "123",
+      "where": "formed like ἔλυε in the imperfect of λύω (§123); γράφω is in the Lesson III vocabulary (§16)"
+    },
+    {
+      "form": "σωζόμεθα",
+      "page": 59,
+      "section": "112",
+      "where": "formed like λυόμεθα in the present passive of λύω (§112); σώζω is in the Lesson X vocabulary (§108)"
+    },
+    {
+      "form": "σῳζόμεθα",
+      "page": 59,
+      "section": "112",
+      "where": "formed like λυόμεθα in the present passive of λύω (§112), with the SBLGNT spelling σῴζω of Machen's σώζω (§108)"
+    },
+    {
+      "form": "παρελάμβανον",
+      "page": 66,
+      "section": "123, 131",
+      "where": "formed like ἔλυον in the imperfect of λύω (§123), augmented after the preposition (§131); Machen prints παρελαμβάνετε (§135 I.5)"
+    },
+    {
+      "form": "συνῆγον",
+      "page": 66,
+      "section": "123, 126, 131",
+      "where": "formed like ἔλυον (§123), with ἀ- augmented to ἠ- (§126) after the preposition (§131); Machen prints συνῆγεν (§135 I.7)"
+    },
+    {
+      "form": "ἀποστέλλομαι",
+      "page": 59,
+      "section": "112",
+      "where": "formed like λύομαι in the present passive of λύω (§112); ἀποστέλλω is in the Lesson XI vocabulary (§121)"
+    },
+    {
+      "form": "πέμπομαι",
+      "page": 59,
+      "section": "112",
+      "where": "formed like λύομαι in the present passive of λύω (§112); πέμπω is in the Lesson VII vocabulary"
+    },
+    {
+      "form": "ἐγράφετο",
+      "page": 70,
+      "section": "143",
+      "where": "formed like ἐλύετο in the imperfect passive of λύω (§143); γράφω is in the Lesson III vocabulary (§16)"
+    },
+    {
+      "form": "ἔπεμπες",
+      "page": 65,
+      "section": "123",
+      "where": "formed like ἔλυες in the imperfect active of λύω (§123); πέμπω is in the Lesson VII vocabulary"
+    },
+    {
+      "form": "ἐπέμπου",
+      "page": 70,
+      "section": "143",
+      "where": "formed like ἐλύου in the imperfect passive of λύω (§143); πέμπω is in the Lesson VII vocabulary"
+    },
+    {
+      "form": "ἀπέστελλες",
+      "page": 66,
+      "section": "123, 131",
+      "where": "formed like ἔλυες in the imperfect active of λύω (§123), augmented after the preposition (§131); Machen prints ἀπέστελλον (§135 I.16)"
+    },
+    {
+      "form": "ἀπεστέλλου",
+      "page": 70,
+      "section": "143, 131",
+      "where": "formed like ἐλύου in the imperfect passive of λύω (§143), augmented after the preposition (§131); ἀποστέλλω is in the Lesson XI vocabulary (§121)"
+    },
+    {
+      "form": "εἰσήρχεσθε",
+      "page": 69,
+      "section": "138, 131",
+      "where": "formed like ἐλύεσθε in the imperfect middle of λύω (§138), augmented after the preposition (§131); Machen prints ἐξήρχεσθε (§149 I.17)"
+    },
+    {
+      "form": "ἀπηρχόμεθα",
+      "page": 69,
+      "section": "138, 131",
+      "where": "formed like ἐλυόμεθα in the imperfect middle of λύω (§138), augmented after the preposition (§131); Machen prints ἀπήρχοντο (§149 I.4)"
+    },
+    {
+      "form": "πλοίοις",
+      "page": 26,
+      "section": "41",
+      "where": "formed like δώροις in the declension of δῶρον (§41); πλοῖον is in the Lesson XII vocabulary (§136)"
+    },
+    {
+      "form": "ἀπεκρίνοντο",
+      "page": 69,
+      "section": "138, 131",
+      "where": "formed like ἐλύοντο in the imperfect middle of λύω (§138), augmented after the preposition (§131); ἀποκρίνομαι is in the Lesson X vocabulary (§108)"
+    },
+    {
+      "form": "ἐβλέπομεν",
+      "page": 65,
+      "section": "123",
+      "where": "formed like ἐλύομεν in the imperfect active of λύω (§123); Machen prints ἔβλεπεν (§135 I.18)"
+    },
+    {
+      "form": "ἐσώζου",
+      "page": 70,
+      "section": "143",
+      "where": "formed like ἐλύου in the imperfect passive of λύω (§143); σώζω is in the Lesson X vocabulary (§108)"
+    },
+    {
+      "form": "ἐσῴζου",
+      "page": 70,
+      "section": "143",
+      "where": "formed like ἐλύου in the imperfect passive of λύω (§143), with the SBLGNT spelling σῴζω of Machen's σώζω (§108)"
+    },
+    {
+      "form": "ἐσώζεσθε",
+      "page": 70,
+      "section": "143",
+      "where": "formed like ἐλύεσθε in the imperfect passive of λύω (§143); σώζω is in the Lesson X vocabulary (§108)"
+    },
+    {
+      "form": "ἐσῴζεσθε",
+      "page": 70,
+      "section": "143",
+      "where": "formed like ἐλύεσθε in the imperfect passive of λύω (§143), with the SBLGNT spelling σῴζω of Machen's σώζω (§108)"
+    },
+    {
+      "form": "ἐγινόμεθα",
+      "page": 69,
+      "section": "138",
+      "where": "formed like ἐλυόμεθα in the imperfect middle of λύω (§138); γίνομαι is in the Lesson X vocabulary (§108)"
+    },
+    {
+      "form": "ἀπέθνησκες",
+      "page": 65,
+      "section": "123, 131",
+      "where": "formed like ἔλυες in the imperfect active of λύω (§123), augmented after the preposition (§131); Machen prints ἀπέθνησκεν (§149 I.14)"
+    },
+    {
+      "form": "προσεύξονται",
+      "page": 75,
+      "section": "155",
+      "where": "formed like λύσονται in the future middle of λύω (§155); προσεύξομαι is in the Lesson XIII vocabulary (§150)"
+    },
+    {
+      "form": "προσευξόμεθα",
+      "page": 75,
+      "section": "155",
+      "where": "formed like λυσόμεθα in the future middle of λύω (§155); προσεύξομαι is in the Lesson XIII vocabulary (§150)"
+    },
+    {
+      "form": "ἐλαμβάνετο",
+      "page": 70,
+      "section": "143",
+      "where": "formed like ἐλύετο in the imperfect passive of λύω (§143); λαμβάνω is in the Lesson III vocabulary (§16)"
+    },
+    {
+      "form": "ἐλαμβάνοντο",
+      "page": 70,
+      "section": "143",
+      "where": "formed like ἐλύοντο in the imperfect passive of λύω (§143); λαμβάνω is in the Lesson III vocabulary (§16)"
+    },
+    {
+      "form": "ἕξομεν",
+      "page": 75,
+      "section": "154",
+      "where": "formed like λύσομεν in the future active of λύω (§154); ἕξω is in the Lesson XIII vocabulary (§150)"
+    },
+    {
+      "form": "διδάξομεν",
+      "page": 75,
+      "section": "154",
+      "where": "formed like λύσομεν in the future active of λύω (§154); διδάξω is in the Lesson XIII vocabulary (§150)"
+    },
+    {
+      "form": "διώξεις",
+      "page": 75,
+      "section": "154",
+      "where": "formed like λύσεις in the future active of λύω (§154); διώξω is in the Lesson XIII vocabulary (§150)"
+    },
+    {
+      "form": "ἐπιστεύομεν",
+      "page": 65,
+      "section": "123",
+      "where": "formed like ἐλύομεν in the imperfect active of λύω (§123); πιστεύω is in the Lesson XIV vocabulary (§166)"
+    },
+    {
+      "form": "ἔπεισεν",
+      "page": 82,
+      "section": "171, 179",
+      "where": "formed like ἔλυσεν in the first aorist active of λύω (§171), the dental of πείθω dropped before σ (§179); Machen prints ἐπείσαμεν (§185 I.8)"
+    },
+    {
+      "form": "προσηύξω",
+      "page": 83,
+      "section": "178, 126",
+      "where": "formed like ἐλύσω in the first aorist middle of λύω (§178), with the ε of the diphthong lengthened in the augment (§126), as in the SBLGNT's προσηύξατο"
+    },
+    {
+      "form": "ἐκήρυξα",
+      "page": 82,
+      "section": "171",
+      "where": "formed like ἔλυσα in the first aorist active of λύω (§171); κηρύσσω, future κηρύξω, is in the Lesson XIII vocabulary (§150)"
+    },
+    {
+      "form": "ἐδιώξατε",
+      "page": 82,
+      "section": "171",
+      "where": "formed like ἐλύσατε in the first aorist active of λύω (§171); διώκω, future διώξω, is in the Lesson XIII vocabulary (§150)"
+    },
+    {
+      "form": "εἰσήρχοντο",
+      "page": 69,
+      "section": "138, 131",
+      "where": "formed like ἐλύοντο in the imperfect middle of λύω (§138), augmented after the preposition (§131); Machen prints ἀπήρχοντο (§149 I.4)"
+    },
+    {
+      "form": "εἰσηρχόμεθα",
+      "page": 69,
+      "section": "138, 131",
+      "where": "formed like ἐλυόμεθα in the imperfect middle of λύω (§138), augmented after the preposition (§131); Machen prints ἠρχόμην (§149 I.20)"
+    },
+    {
+      "form": "ἐξήλθετε",
+      "page": 89,
+      "section": "193",
+      "where": "formed like ἐλίπετε in the second aorist active of λείπω (§193); Machen prints εἰσήλθετε and ἤλθετε (§195 I.13, I.18)"
+    },
+    {
+      "form": "ἤχθησαν",
+      "page": 93,
+      "section": "201",
+      "where": "formed like ἐλύθησαν in the aorist passive of λύω (§201); ἤχθην is in the Lesson XVI vocabulary (§196)"
+    },
+    {
+      "form": "ἠνέχθησαν",
+      "page": 93,
+      "section": "201",
+      "where": "formed like ἐλύθησαν in the aorist passive of λύω (§201); ἠνέχθην is in the Lesson XVI vocabulary (§196)"
+    },
+    {
+      "form": "ἐπέμφθην",
+      "page": 93,
+      "section": "201",
+      "where": "formed like ἐλύθην in the aorist passive of λύω (§201); Machen prints ἐπέμφθησαν (§209 I.8)"
+    },
+    {
+      "form": "ἐπέμπεσθε",
+      "page": 70,
+      "section": "143",
+      "where": "formed like ἐλύεσθε in the imperfect passive of λύω (§143); πέμπω is in the Lesson VII vocabulary"
+    },
+    {
+      "form": "ἐγράφησαν",
+      "page": 95,
+      "section": "206",
+      "where": "printed in the second aorist passive of γράφω (§206)"
+    },
+    {
+      "form": "ἡτοιμάσθη",
+      "page": 93,
+      "section": "201",
+      "where": "formed like ἐλύθη in the aorist passive of λύω (§201); Machen prints ἑτοιμασθήσεται (§209 I.15)"
+    },
+    {
+      "form": "ἀνελήμφθησαν",
+      "page": 93,
+      "section": "201",
+      "where": "formed like ἐλύθησαν in the aorist passive of λύω (§201); Machen prints ἀνελήμφθη (§209 I.10)"
+    },
+    {
+      "form": "ἠκούσθησαν",
+      "page": 93,
+      "section": "201",
+      "where": "formed like ἐλύθησαν in the aorist passive of λύω (§201); ἠκούσθην is in the Lesson XVI vocabulary (§196)"
+    },
+    {
+      "form": "ἐγράψαμεν",
+      "page": 82,
+      "section": "171",
+      "where": "formed like ἐλύσαμεν in the first aorist active of λύω (§171); γράφω is in the Lesson III vocabulary (§16)"
+    },
+    {
+      "form": "σώμασιν",
+      "page": 100,
+      "section": "222",
+      "where": "formed like ὀνόμασι(ν) in the declension of ὄνομα (§222); σῶμα is in the Lesson XVII vocabulary (§210)"
+    },
+    {
+      "form": "ἐγερθησόμεθα",
+      "page": 93,
+      "section": "202",
+      "where": "formed like λυθησόμεθα in the future passive of λύω (§202); ἠγέρθην is in the Lesson XVI vocabulary (§196)"
+    },
+    {
+      "form": "ἐδιώχθητε",
+      "page": 93,
+      "section": "201, 204",
+      "where": "formed like ἐλύθητε in the aorist passive of λύω (§201), κ becoming χ before θ (§204); διώκω is in the Lesson XIII vocabulary (§150)"
+    },
+    {
+      "form": "σώζει",
+      "page": 20,
+      "section": "18",
+      "where": "formed like λύει in the paradigm of λύω (§18); σώζω is in the Lesson X vocabulary (§108)"
+    },
+    {
+      "form": "ἔσωζεν",
+      "page": 65,
+      "section": "123",
+      "where": "formed like ἔλυεν in the imperfect active of λύω (§123); σώζω is in the Lesson X vocabulary (§108)"
+    },
+    {
+      "form": "ἔσῳζεν",
+      "page": 65,
+      "section": "123",
+      "where": "formed like ἔλυεν in the imperfect active of λύω (§123), with the SBLGNT spelling σῴζω of Machen's σώζω (§108)"
+    },
+    {
+      "form": "ἐδιωκόμεθα",
+      "page": 70,
+      "section": "143",
+      "where": "formed like ἐλυόμεθα in the imperfect passive of λύω (§143); διώκω is in the Lesson XIII vocabulary (§150)"
+    },
+    {
+      "form": "σώζοντα",
+      "page": 102,
+      "section": "226",
+      "where": "formed like λύοντα in the present active participle of λύω (§226); Machen prints the neuter σῶζον (§240 I.12)"
+    },
+    {
+      "form": "σῴζοντα",
+      "page": 102,
+      "section": "226",
+      "where": "formed like λύοντα in the present active participle of λύω (§226), with the SBLGNT spelling σῴζω of Machen's σώζω (§108)"
+    },
+    {
+      "form": "σώζοντος",
+      "page": 102,
+      "section": "226",
+      "where": "formed like λύοντος in the present active participle of λύω (§226); σώζω is in the Lesson X vocabulary (§108)"
+    },
+    {
+      "form": "κηρύσσοντες",
+      "page": 102,
+      "section": "226",
+      "where": "formed like λύοντες in the present active participle of λύω (§226); κηρύσσω is in the Lesson XIII vocabulary (§150)"
+    },
+    {
+      "form": "κηρυσσόμενα",
+      "page": 103,
+      "section": "230",
+      "where": "formed like λυόμενα in the present middle and passive participle of λύω (§230); Machen prints κηρυσσόμενον (§240 I.18)"
+    },
+    {
+      "form": "δεχομένη",
+      "page": 103,
+      "section": "230",
+      "where": "formed like λυομένη in the present middle and passive participle of λύω (§230); Machen prints δεχόμενος (§240 I.2)"
+    },
+    {
+      "form": "διδάσκοντα",
+      "page": 102,
+      "section": "226",
+      "where": "formed like λύοντα in the present active participle of λύω (§226); διδάσκω is in the Lesson III vocabulary (§16)"
+    },
+    {
+      "form": "ἐξεβλήθημεν",
+      "page": 93,
+      "section": "201",
+      "where": "formed like ἐλύθημεν in the aorist passive of λύω (§201); Machen prints ἐξεβλήθησαν (§209 I.4)"
+    },
+    {
+      "form": "διώκοντος",
+      "page": 102,
+      "section": "226",
+      "where": "formed like λύοντος in the present active participle of λύω (§226); διώκω is in the Lesson XIII vocabulary (§150)"
+    },
+    {
+      "form": "ἀκουομένη",
+      "page": 103,
+      "section": "230",
+      "where": "formed like λυομένη in the present middle and passive participle of λύω (§230); ἀκούω is in the Lesson X vocabulary (§108)"
+    },
+    {
+      "form": "λαμβανούσας",
+      "page": 102,
+      "section": "226",
+      "where": "formed like λυούσας in the present active participle of λύω (§226); λαμβάνω is in the Lesson III vocabulary (§16)"
+    },
+    {
+      "form": "πιστεύσαντα",
+      "page": 113,
+      "section": "242",
+      "where": "formed like λύσαντα in the aorist active participle of λύω (§242); πιστεύω is in the Lesson XIV vocabulary (§166)"
+    },
+    {
+      "form": "εἰσελθοῦσιν",
+      "page": 115,
+      "section": "249",
+      "where": "formed like ἰδοῦσι(ν) in the declension of ἰδών (§249); Machen prints ἐξελθοῦσιν (§257 I.12)"
+    },
+    {
+      "form": "ἐνεγκόντων",
+      "page": 115,
+      "section": "249",
+      "where": "formed like ἰδόντων in the declension of ἰδών (§249); ἐνεγκών is in the Lesson XIX vocabulary (§241)"
+    },
+    {
+      "form": "ἰδόντων",
+      "page": 115,
+      "section": "249",
+      "where": "printed in the declension of ἰδών (§249)"
+    },
+    {
+      "form": "ἐκβαλλόμενα",
+      "page": 103,
+      "section": "230",
+      "where": "formed like λυόμενα in the present middle and passive participle of λύω (§230); Machen prints ἐξέβαλεν (§209 I.7) and βάλλω is in the Lesson VII vocabulary"
+    },
+    {
+      "form": "ἐκβάλλοντι",
+      "page": 102,
+      "section": "226",
+      "where": "formed like λύοντι in the present active participle of λύω (§226); βάλλω is in the Lesson VII vocabulary"
+    },
+    {
+      "form": "διερχόμενοι",
+      "page": 103,
+      "section": "230",
+      "where": "formed like λυόμενοι in the present middle and passive participle of λύω (§230); διέρχομαι is in the Lesson X vocabulary (§108)"
+    },
+    {
+      "form": "ἐδιδάξαμεν",
+      "page": 82,
+      "section": "171",
+      "where": "formed like ἐλύσαμεν in the first aorist active of λύω (§171); Machen prints ἐδιδάξατε (§209 I.3)"
+    },
+    {
+      "form": "λαβόντων",
+      "page": 115,
+      "section": "249",
+      "where": "formed like ἰδόντων in the declension of ἰδών (§249); ἔλαβον is in the Lesson XV vocabulary (§186)"
+    },
+    {
+      "form": "ἀγαγόντων",
+      "page": 115,
+      "section": "249",
+      "where": "formed like ἰδόντων in the declension of ἰδών (§249); ἀγαγών is in the Lesson XIX vocabulary (§241)"
+    },
+    {
+      "form": "ἐλθοῦσιν",
+      "page": 115,
+      "section": "249",
+      "where": "formed like ἰδοῦσι(ν) in the declension of ἰδών (§249); ἐλθών is in the Lesson XIX vocabulary (§241)"
+    },
+    {
+      "form": "ἐκβληθέντες",
+      "page": 121,
+      "section": "259",
+      "where": "formed like λυθέντες in the declension of λυθείς (§259); Machen prints ἐκβληθέντος (§267 I.5)"
+    },
+    {
+      "form": "εἰσερχομένων",
+      "page": 103,
+      "section": "230",
+      "where": "formed like λυομένων in the present middle and passive participle of λύω (§230); Machen prints εἰσερχομένῳ (§267 I.17)"
+    },
+    {
+      "form": "διωκομένων",
+      "page": 103,
+      "section": "230",
+      "where": "formed like λυομένων in the present middle and passive participle of λύω (§230); Machen prints διωκόμενοι (§240 I.1)"
+    },
+    {
+      "form": "λυθεῖσαν",
+      "page": 121,
+      "section": "259",
+      "where": "printed in the declension of λυθείς (§259)"
+    },
+    {
+      "form": "λυθέντα",
+      "page": 121,
+      "section": "259",
+      "where": "printed in the declension of λυθείς (§259)"
+    },
+    {
+      "form": "γραφέντων",
+      "page": 121,
+      "section": "258, 259",
+      "where": "formed like λυθέντων (§259) on γραφείς, which is in the Lesson XX vocabulary (§258)"
+    },
+    {
+      "form": "ἀχθέντες",
+      "page": 121,
+      "section": "259",
+      "where": "formed like λυθέντες in the declension of λυθείς (§259); ἤχθην is in the Lesson XVI vocabulary (§196)"
+    },
+    {
+      "form": "προσενεχθέντες",
+      "page": 121,
+      "section": "259",
+      "where": "formed like λυθέντες in the declension of λυθείς (§259); ἠνέχθην is in the Lesson XVI vocabulary (§196) and Machen prints προσηνέχθησαν (§209 I.16)"
+    },
+    {
+      "form": "βληθέντος",
+      "page": 121,
+      "section": "259",
+      "where": "formed like λυθέντος in the declension of λυθείς (§259); Machen prints βληθέντες (§267 I.10)"
+    },
+    {
+      "form": "βληθεισῶν",
+      "page": 121,
+      "section": "259",
+      "where": "formed like λυθεισῶν in the declension of λυθείς (§259); Machen prints βληθέντες (§267 I.10)"
+    },
+    {
+      "form": "ἐγερθέντα",
+      "page": 121,
+      "section": "259",
+      "where": "formed like λυθέντα in the declension of λυθείς (§259); Machen prints ἐγερθέντος (§267 I.4)"
+    },
+    {
+      "form": "σωθῶμεν",
+      "page": 130,
+      "section": "279",
+      "where": "formed like λυθῶμεν in the aorist passive subjunctive of λύω (§279); Machen prints σωθῶσιν (§291 I.5)"
+    },
+    {
+      "form": "ἐπιστρέψωμεν",
+      "page": 129,
+      "section": "274",
+      "where": "formed like λύσωμεν in the aorist active subjunctive of λύω (§274); ἐπέστρεψα is in the Lesson XIV vocabulary (§166)"
+    },
+    {
+      "form": "ἑτοιμάσῃ",
+      "page": 129,
+      "section": "274",
+      "where": "formed like λύσῃ in the aorist active subjunctive of λύω (§274); ἡτοίμασα is in the Lesson XIV vocabulary (§166)"
+    },
+    {
+      "form": "εἰσελευσόμεθα",
+      "page": 75,
+      "section": "155",
+      "where": "formed like λυσόμεθα in the future middle of λύω (§155) on ἐλεύσομαι (Lesson XIII vocabulary, §150), with εἰς- as in εἰσελεύσεσθε (§195 I.13)"
+    },
+    {
+      "form": "κηρύξωμεν",
+      "page": 129,
+      "section": "274",
+      "where": "formed like λύσωμεν in the aorist active subjunctive of λύω (§274); ἐκήρυξα is in the Lesson XIV vocabulary (§166)"
+    },
+    {
+      "form": "δεξαμένην",
+      "page": 114,
+      "section": "246",
+      "where": "formed like λυσαμένην in the aorist middle participle of λύω (§246); Machen prints δεξαμένας (§267 I.12)"
+    },
+    {
+      "form": "ἁμαρτάνωσιν",
+      "page": 128,
+      "section": "270",
+      "where": "formed like λύωσι(ν) in the present active subjunctive of λύω (§270); Machen prints ἁμαρτάνωμεν (§291 I.6)"
+    },
+    {
+      "form": "σώσῃ",
+      "page": 129,
+      "section": "274",
+      "where": "formed like λύσῃ in the aorist active subjunctive of λύω (§274); Machen prints σώσαντα (§267 I.10)"
+    },
+    {
+      "form": "ἐκβάλλωμεν",
+      "page": 128,
+      "section": "270",
+      "where": "formed like λύωμεν in the present active subjunctive of λύω (§270); Machen prints ἐξέβαλλες (§135 I.15)"
+    },
+    {
+      "form": "σωθήσονται",
+      "page": 93,
+      "section": "202",
+      "where": "formed like λυθήσονται in the future passive of λύω (§202); Machen prints σωθήσεσθε (§291 I.2)"
+    },
+    {
+      "form": "διώξει",
+      "page": 75,
+      "section": "154",
+      "where": "formed like λύσει in the future active of λύω (§154); διώξω is in the Lesson XIII vocabulary (§150)"
+    },
+    {
+      "form": "εὐαγγελίσῃ",
+      "page": 129,
+      "section": "275",
+      "where": "formed like λύσῃ in the aorist middle subjunctive of λύω (§275); Machen prints εὐαγγελισώμεθα (§291 I.1)"
+    },
+    {
+      "form": "ἐνέγκωσιν",
+      "page": 130,
+      "section": "278",
+      "where": "formed like λίπωσι(ν) in the second aorist active subjunctive (§278) on the stem of ἐνεγκών (Lesson XIX vocabulary, §241)"
+    },
+    {
+      "form": "κελεῦσαι",
+      "page": 136,
+      "section": "293, 295",
+      "where": "formed like λῦσαι, the aorist active infinitive of λύω (§293, accent §295); Machen prints κελεύσας (§312 I.2)"
+    },
+    {
+      "form": "θέλωμεν",
+      "page": 128,
+      "section": "270",
+      "where": "formed like λύωμεν in the present active subjunctive of λύω (§270); θέλω is in the Lesson XXII vocabulary (§292)"
+    },
+    {
+      "form": "κελεύσει",
+      "page": 75,
+      "section": "154",
+      "where": "formed like λύσει in the future active of λύω (§154); Machen prints κελεύσας (§312 I.2)"
+    },
+    {
+      "form": "σώσαντι",
+      "page": 113,
+      "section": "242",
+      "where": "formed like λύσαντι in the aorist active participle of λύω (§242); Machen prints σώσαντα (§267 I.10)"
+    },
+    {
+      "form": "δέξεται",
+      "page": 75,
+      "section": "155",
+      "where": "formed like λύσεται in the future middle of λύω (§155); Machen prints δέξονται (§185 I.19)"
+    },
+    {
+      "form": "ἐπιστρέφοντας",
+      "page": 102,
+      "section": "226",
+      "where": "formed like λύοντας in the present active participle of λύω (§226); ἐπιστρέφω is in the Lesson XIV vocabulary (§166)"
+    },
+    {
+      "form": "προσευχομένων",
+      "page": 103,
+      "section": "230",
+      "where": "formed like λυομένων in the present middle and passive participle of λύω (§230); προσεύχομαι is in the Lesson XIII vocabulary (§150)"
+    },
+    {
+      "form": "θεραπεύσῃ",
+      "page": 129,
+      "section": "274",
+      "where": "formed like λύσῃ in the aorist active subjunctive of λύω (§274); ἐθεράπευσα is in the Lesson XIV vocabulary (§166)"
+    },
+    {
+      "form": "ἀγαπήσαντα",
+      "page": 113,
+      "section": "242, 321",
+      "where": "formed like λύσαντα in the aorist active participle of λύω (§242), the α of ἀγαπάω lengthened to η before σ (§321)"
+    },
+    {
+      "form": "προσκυνήσωμεν",
+      "page": 129,
+      "section": "274, 321",
+      "where": "formed like λύσωμεν in the aorist active subjunctive of λύω (§274), the ε of προσκυνέω lengthened to η (§321)"
+    },
+    {
+      "form": "εὐλογήσωμεν",
+      "page": 129,
+      "section": "274, 321",
+      "where": "formed like λύσωμεν in the aorist active subjunctive of λύω (§274), the ε of εὐλογέω lengthened to η (§321)"
+    },
+    {
+      "form": "προσκυνῶμεν",
+      "page": 240,
+      "section": "591",
+      "where": "formed like φιλῶμεν in the present subjunctive of φιλέω (§591); προσκυνέω is in the Lesson XXIII vocabulary (§313)"
+    },
+    {
+      "form": "εὐλογῶμεν",
+      "page": 240,
+      "section": "591",
+      "where": "formed like φιλῶμεν in the present subjunctive of φιλέω (§591); εὐλογέω is in the Lesson XXIII vocabulary (§313)"
+    },
+    {
+      "form": "ἀκολουθεῖν",
+      "page": 240,
+      "section": "591",
+      "where": "formed like φιλεῖν, the present infinitive of φιλέω (§591); ἀκολουθέω is in the Lesson XXIII vocabulary (§313)"
+    },
+    {
+      "form": "λαλήσαντα",
+      "page": 113,
+      "section": "242, 321",
+      "where": "formed like λύσαντα in the aorist active participle of λύω (§242), ε lengthened to η (§321); Machen prints λαλήσαντι (§324 I.4)"
+    },
+    {
+      "form": "ζητῶμεν",
+      "page": 240,
+      "section": "591",
+      "where": "formed like φιλῶμεν in the present subjunctive of φιλέω (§591); Machen prints ζητήσωμεν (§324 I.4)"
+    },
+    {
+      "form": "περιπατήσαντος",
+      "page": 113,
+      "section": "242, 321",
+      "where": "formed like λύσαντος in the aorist active participle of λύω (§242), ε lengthened to η (§321)"
+    },
+    {
+      "form": "σταυρωθέντος",
+      "page": 121,
+      "section": "259, 321",
+      "where": "formed like λυθέντος in the declension of λυθείς (§259), the ο of σταυρόω lengthened to ω (§321); Machen prints σταυρούμενον (§324 I.19)"
+    },
+    {
+      "form": "ἀκολουθῇς",
+      "page": 240,
+      "section": "591",
+      "where": "formed like φιλῇς in the present subjunctive of φιλέω (§591); ἀκολουθέω is in the Lesson XXIII vocabulary (§313)"
+    },
+    {
+      "form": "ἀκολουθήσῃς",
+      "page": 129,
+      "section": "274, 321",
+      "where": "formed like λύσῃς in the aorist active subjunctive of λύω (§274), ε lengthened to η (§321)"
+    },
+    {
+      "form": "θεωρήσεις",
+      "page": 75,
+      "section": "154, 321",
+      "where": "formed like λύσεις in the future active of λύω (§154), ε lengthened to η (§321); Machen prints θεωρήσομεν (§324 I.15)"
+    },
+    {
+      "form": "εὐλογοῦντας",
+      "page": 240,
+      "section": "591, 226",
+      "where": "formed like λύοντας (§226) with ε and ο contracted to ου as in φιλοῦντος of φιλέω (§591)"
+    },
+    {
+      "form": "ἀγαπήσομεν",
+      "page": 75,
+      "section": "154, 321",
+      "where": "formed like λύσομεν in the future active of λύω (§154), α lengthened to η (§321)"
+    },
+    {
+      "form": "ἀκολουθούντων",
+      "page": 240,
+      "section": "591, 226",
+      "where": "formed like λυόντων (§226) with ε and ο contracted to ου as in φιλούντων of φιλέω (§591); Machen prints ἀκολουθοῦντι (§324 I.6)"
+    },
+    {
+      "form": "δηλώσω",
+      "page": 75,
+      "section": "154, 321",
+      "where": "formed like λύσω in the future active of λύω (§154), the ο of δηλόω lengthened to ω (§321)"
+    },
+    {
+      "form": "ἀκολουθήσασιν",
+      "page": 113,
+      "section": "242, 321",
+      "where": "formed like λύσασι(ν) in the aorist active participle of λύω (§242), ε lengthened to η (§321)"
+    },
+    {
+      "form": "δηλωθέντα",
+      "page": 121,
+      "section": "259, 321",
+      "where": "formed like λυθέντα in the declension of λυθείς (§259), ο lengthened to ω (§321)"
+    },
+    {
+      "form": "τηροῦσι",
+      "page": 240,
+      "section": "591",
+      "where": "formed like φιλοῦσι(ν) in the present of φιλέω (§591); Machen prints τηρῶμεν (§324 I.5)"
+    },
+    {
+      "form": "εὐλογοῦν",
+      "page": 240,
+      "section": "591",
+      "where": "formed like φιλοῦν, the neuter of the present participle of φιλέω (§591)"
     }
   ]
 }

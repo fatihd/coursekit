@@ -1,0 +1,142 @@
+{
+  "schema": "unit-lesson-v1.json",
+  "unit": 20,
+  "title": "The Aorist Passive Participle",
+  "description": "The aorist passive participle and the genitive absolute.",
+  "teaches": [
+    "gr-mac-20-001",
+    "gr-mac-20-002",
+    "gr-mac-20-003",
+    "gr-mac-20-004",
+    "gr-mac-20-005",
+    "gr-mac-20-006",
+    "gr-mac-20-007",
+    "gr-mac-20-008",
+    "gr-mac-20-009"
+  ],
+  "assumes": [
+    "gr-mac-19-001",
+    "gr-mac-19-002",
+    "gr-mac-19-003",
+    "gr-mac-19-004",
+    "gr-mac-19-005",
+    "gr-mac-19-006",
+    "gr-mac-19-007"
+  ],
+  "blocks": [
+    {
+      "type": "prose",
+      "caption": "Summary",
+      "html": "<p>The aorist passive participle is made on the aorist passive stem without augment: λυθείς, λυθεῖσα, λυθέν, having been loosed (γραφείς, having been written, from the second aorist passive). A participle with a noun or pronoun in the genitive, standing outside the structure of the rest of the sentence, is a genitive absolute: πορευθέντος τοῦ ἄρχοντος οἱ δοῦλοι εἶπον ταῦτα, when the ruler had gone, the servants said these things. It is used only when the noun is not the subject or object of the main verb.</p>"
+    },
+    {
+      "type": "table",
+      "caption": "λυθείς, having been loosed",
+      "columns": [
+        "Case",
+        "Masc.",
+        "Fem.",
+        "Neut."
+      ],
+      "rows": [
+        [
+          "Nom. sg.",
+          "λυθείς",
+          "λυθεῖσα",
+          "λυθέν"
+        ],
+        [
+          "Gen. sg.",
+          "λυθέντος",
+          "λυθείσης",
+          "λυθέντος"
+        ],
+        [
+          "Dat. sg.",
+          "λυθέντι",
+          "λυθείσῃ",
+          "λυθέντι"
+        ],
+        [
+          "Acc. sg.",
+          "λυθέντα",
+          "λυθεῖσαν",
+          "λυθέν"
+        ],
+        [
+          "Nom. pl.",
+          "λυθέντες",
+          "λυθεῖσαι",
+          "λυθέντα"
+        ],
+        [
+          "Gen. pl.",
+          "λυθέντων",
+          "λυθεισῶν",
+          "λυθέντων"
+        ],
+        [
+          "Dat. pl.",
+          "λυθεῖσι(ν)",
+          "λυθείσαις",
+          "λυθεῖσι(ν)"
+        ],
+        [
+          "Acc. pl.",
+          "λυθέντας",
+          "λυθείσας",
+          "λυθέντα"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "The participles so far",
+      "columns": [
+        "",
+        "Active",
+        "Middle",
+        "Passive"
+      ],
+      "rows": [
+        [
+          "Present",
+          "λύων",
+          "λυόμενος",
+          "λυόμενος"
+        ],
+        [
+          "Aorist",
+          "λύσας",
+          "λυσάμενος",
+          "λυθείς"
+        ]
+      ]
+    },
+    {
+      "type": "prose",
+      "caption": "Common confusion",
+      "html": "<p>If the noun of the participle is already in the sentence, the participle simply agrees with it and there is no genitive absolute: ἐκβληθέντα ἐκ τῆς συναγωγῆς ἐδίδαξεν αὐτὸν ὁ κύριος, the Lord taught him after he had been cast out of the synagogue.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Source",
+      "html": "<p>Machen, *New Testament Greek for Beginners* (1923), Lesson 20 (p. 121).</p>"
+    },
+    {
+      "type": "vocab",
+      "refs": [
+        "gr-mac-20-001",
+        "gr-mac-20-002",
+        "gr-mac-20-003",
+        "gr-mac-20-004",
+        "gr-mac-20-005",
+        "gr-mac-20-006",
+        "gr-mac-20-007",
+        "gr-mac-20-008",
+        "gr-mac-20-009"
+      ]
+    }
+  ],
+  "didYouKnow": ""
+}

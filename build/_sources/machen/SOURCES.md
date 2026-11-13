@@ -34,3 +34,14 @@ Scan page = printed page + 18 (printed p. 32 = PDF page 50). Lessons start on pr
 Measured on 377 Greek words transcribed by hand from three exercise passages (Lessons V, XIV, XXXIII): archive.org
 text 95.8% of Greek words exact; local page-level `grc+eng` 94.2%; local page + `grc` line re-read 95.8%; that merge
 voted against the archive.org text with MorphGNT word forms 96.6%. Details: `docs/GREEK-SOURCES.md`.
+
+## Derived data and licenses
+
+| File | Derived from | License |
+|---|---|---|
+| `greek-forms.json` | MorphGNT `sblgnt` word forms and lemmas (SBLGNT text) | CC BY-SA 3.0 (MorphGNT); SBLGNT text CC BY 4.0 |
+| `lemma-counts.json` | MorphGNT lemma counts | CC BY-SA 3.0 (MorphGNT) |
+| `attested.json`, `corrections.json`, `course-map.json`, `recognition.json` | Machen (public domain) plus our own data | CC BY-SA 4.0, like the course |
+| `exwb/curated/machen-*.json` | Machen's exercises plus our answers only | CC0 1.0 (no MorphGNT or SBLGNT data) |
+
+The course credits MorphGNT and the SBLGNT in `courses/biblical-greek-machen/content/ATTRIBUTION.md`.

@@ -1,0 +1,596 @@
+{
+  "schema": "authored-exercises-v1.json",
+  "unit": 1,
+  "sources": {
+    "r01-1": {
+      "citation": "Written for this course on Machen, New Testament Greek for Beginners (1923), Lesson 1",
+      "promptUrl": "https://archive.org/details/newtestamentgree00mach_0/page/n26/mode/1up",
+      "promptImageUrl": "https://archive.org/download/newtestamentgree00mach_0/page/n26.jpg"
+    },
+    "r01-2": {
+      "citation": "Written for this course on Machen, New Testament Greek for Beginners (1923), Lesson 1",
+      "promptUrl": "https://archive.org/details/newtestamentgree00mach_0/page/n26/mode/1up",
+      "promptImageUrl": "https://archive.org/download/newtestamentgree00mach_0/page/n26.jpg"
+    },
+    "r01-3": {
+      "citation": "Written for this course on Machen, New Testament Greek for Beginners (1923), Lesson 1",
+      "promptUrl": "https://archive.org/details/newtestamentgree00mach_0/page/n26/mode/1up",
+      "promptImageUrl": "https://archive.org/download/newtestamentgree00mach_0/page/n26.jpg"
+    },
+    "r01-4": {
+      "citation": "Written for this course on Machen, New Testament Greek for Beginners (1923), Lesson 1",
+      "promptUrl": "https://archive.org/details/newtestamentgree00mach_0/page/n26/mode/1up",
+      "promptImageUrl": "https://archive.org/download/newtestamentgree00mach_0/page/n26.jpg"
+    },
+    "r01-5": {
+      "citation": "Written for this course on Machen, New Testament Greek for Beginners (1923), Lesson 1",
+      "promptUrl": "https://archive.org/details/newtestamentgree00mach_0/page/n26/mode/1up",
+      "promptImageUrl": "https://archive.org/download/newtestamentgree00mach_0/page/n26.jpg"
+    },
+    "r01-6": {
+      "citation": "Written for this course on Machen, New Testament Greek for Beginners (1923), Lesson 1",
+      "promptUrl": "https://archive.org/details/newtestamentgree00mach_0/page/n26/mode/1up",
+      "promptImageUrl": "https://archive.org/download/newtestamentgree00mach_0/page/n26.jpg"
+    },
+    "r01-7": {
+      "citation": "Written for this course on Machen, New Testament Greek for Beginners (1923), Lesson 1",
+      "promptUrl": "https://archive.org/details/newtestamentgree00mach_0/page/n26/mode/1up",
+      "promptImageUrl": "https://archive.org/download/newtestamentgree00mach_0/page/n26.jpg"
+    },
+    "r01-8": {
+      "citation": "Written for this course on Machen, New Testament Greek for Beginners (1923), Lesson 1",
+      "promptUrl": "https://archive.org/details/newtestamentgree00mach_0/page/n26/mode/1up",
+      "promptImageUrl": "https://archive.org/download/newtestamentgree00mach_0/page/n26.jpg"
+    },
+    "r01-9": {
+      "citation": "Written for this course on Machen, New Testament Greek for Beginners (1923), Lesson 1",
+      "promptUrl": "https://archive.org/details/newtestamentgree00mach_0/page/n26/mode/1up",
+      "promptImageUrl": "https://archive.org/download/newtestamentgree00mach_0/page/n26.jpg"
+    },
+    "r01-10": {
+      "citation": "Written for this course on Machen, New Testament Greek for Beginners (1923), Lesson 1",
+      "promptUrl": "https://archive.org/details/newtestamentgree00mach_0/page/n26/mode/1up",
+      "promptImageUrl": "https://archive.org/download/newtestamentgree00mach_0/page/n26.jpg"
+    }
+  },
+  "items": [
+    {
+      "id": "r01-1.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "λ",
+      "stimulusIsScript": true,
+      "statement": "This letter is lambda.",
+      "answer": true,
+      "expected": "This letter is lambda.",
+      "block": "r01",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r01-1"
+    },
+    {
+      "id": "r01-1.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Which letter is this?",
+      "stimulus": "λ",
+      "stimulusIsScript": true,
+      "options": [
+        "delta",
+        "mu",
+        "alpha",
+        "lambda"
+      ],
+      "answer": "lambda",
+      "optionIsScript": false,
+      "block": "r01",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r01-1"
+    },
+    {
+      "id": "r01-1.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Type the Greek letter lambda",
+      "stimulus": "λ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "λ"
+      ],
+      "answerIsScript": true,
+      "block": "r01",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r01-1"
+    },
+    {
+      "id": "r01-2.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "ξ",
+      "stimulusIsScript": true,
+      "statement": "This letter is xi.",
+      "answer": true,
+      "expected": "This letter is xi.",
+      "block": "r01",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r01-2"
+    },
+    {
+      "id": "r01-2.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Which letter is this?",
+      "stimulus": "ξ",
+      "stimulusIsScript": true,
+      "options": [
+        "chi",
+        "psi",
+        "zeta",
+        "xi"
+      ],
+      "answer": "xi",
+      "optionIsScript": false,
+      "block": "r01",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r01-2"
+    },
+    {
+      "id": "r01-2.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Type the Greek letter xi",
+      "stimulus": "ξ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "ξ"
+      ],
+      "answerIsScript": true,
+      "block": "r01",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r01-2"
+    },
+    {
+      "id": "r01-3.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "η",
+      "stimulusIsScript": true,
+      "statement": "This letter is nu.",
+      "answer": false,
+      "expected": "This letter is eta.",
+      "block": "r01",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r01-3"
+    },
+    {
+      "id": "r01-3.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Which letter is this?",
+      "stimulus": "η",
+      "stimulusIsScript": true,
+      "options": [
+        "eta",
+        "iota",
+        "nu",
+        "epsilon"
+      ],
+      "answer": "eta",
+      "optionIsScript": false,
+      "block": "r01",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r01-3"
+    },
+    {
+      "id": "r01-3.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Type the Greek letter eta",
+      "stimulus": "η",
+      "stimulusIsScript": true,
+      "accepted": [
+        "η"
+      ],
+      "answerIsScript": true,
+      "block": "r01",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r01-3"
+    },
+    {
+      "id": "r01-4.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "ω",
+      "stimulusIsScript": true,
+      "statement": "This letter is omega.",
+      "answer": true,
+      "expected": "This letter is omega.",
+      "block": "r01",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r01-4"
+    },
+    {
+      "id": "r01-4.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Which letter is this?",
+      "stimulus": "ω",
+      "stimulusIsScript": true,
+      "options": [
+        "omega",
+        "upsilon",
+        "psi",
+        "omicron"
+      ],
+      "answer": "omega",
+      "optionIsScript": false,
+      "block": "r01",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r01-4"
+    },
+    {
+      "id": "r01-4.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Type the Greek letter omega",
+      "stimulus": "ω",
+      "stimulusIsScript": true,
+      "accepted": [
+        "ω"
+      ],
+      "answerIsScript": true,
+      "block": "r01",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r01-4"
+    },
+    {
+      "id": "r01-5.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "θ",
+      "stimulusIsScript": true,
+      "statement": "This letter is theta.",
+      "answer": true,
+      "expected": "This letter is theta.",
+      "block": "r01",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r01-5"
+    },
+    {
+      "id": "r01-5.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Which letter is this?",
+      "stimulus": "θ",
+      "stimulusIsScript": true,
+      "options": [
+        "delta",
+        "omicron",
+        "phi",
+        "theta"
+      ],
+      "answer": "theta",
+      "optionIsScript": false,
+      "block": "r01",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r01-5"
+    },
+    {
+      "id": "r01-5.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Type the Greek letter theta",
+      "stimulus": "θ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "θ"
+      ],
+      "answerIsScript": true,
+      "block": "r01",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r01-5"
+    },
+    {
+      "id": "r01-6.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "χ",
+      "stimulusIsScript": true,
+      "statement": "This letter is xi.",
+      "answer": false,
+      "expected": "This letter is chi.",
+      "block": "r01",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r01-6"
+    },
+    {
+      "id": "r01-6.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Which letter is this?",
+      "stimulus": "χ",
+      "stimulusIsScript": true,
+      "options": [
+        "kappa",
+        "xi",
+        "chi",
+        "psi"
+      ],
+      "answer": "chi",
+      "optionIsScript": false,
+      "block": "r01",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r01-6"
+    },
+    {
+      "id": "r01-6.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Type the Greek letter chi",
+      "stimulus": "χ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "χ"
+      ],
+      "answerIsScript": true,
+      "block": "r01",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r01-6"
+    },
+    {
+      "id": "r01-7.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "ψ",
+      "stimulusIsScript": true,
+      "statement": "This letter is phi.",
+      "answer": false,
+      "expected": "This letter is psi.",
+      "block": "r01",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r01-7"
+    },
+    {
+      "id": "r01-7.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Which letter is this?",
+      "stimulus": "ψ",
+      "stimulusIsScript": true,
+      "options": [
+        "chi",
+        "psi",
+        "phi",
+        "upsilon"
+      ],
+      "answer": "psi",
+      "optionIsScript": false,
+      "block": "r01",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r01-7"
+    },
+    {
+      "id": "r01-7.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Type the Greek letter psi",
+      "stimulus": "ψ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "ψ"
+      ],
+      "answerIsScript": true,
+      "block": "r01",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r01-7"
+    },
+    {
+      "id": "r01-8.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "ρ",
+      "stimulusIsScript": true,
+      "statement": "This letter is rho.",
+      "answer": true,
+      "expected": "This letter is rho.",
+      "block": "r01",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r01-8"
+    },
+    {
+      "id": "r01-8.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Which letter is this?",
+      "stimulus": "ρ",
+      "stimulusIsScript": true,
+      "options": [
+        "nu",
+        "beta",
+        "pi",
+        "rho"
+      ],
+      "answer": "rho",
+      "optionIsScript": false,
+      "block": "r01",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r01-8"
+    },
+    {
+      "id": "r01-8.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Type the Greek letter rho",
+      "stimulus": "ρ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "ρ"
+      ],
+      "answerIsScript": true,
+      "block": "r01",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r01-8"
+    },
+    {
+      "id": "r01-9.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "ς",
+      "stimulusIsScript": true,
+      "statement": "This form of sigma is written only at the beginning of a word.",
+      "answer": false,
+      "expected": "This form of sigma is written only at the end of a word.",
+      "block": "r01",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r01-9"
+    },
+    {
+      "id": "r01-9.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Where is this form of sigma written?",
+      "stimulus": "ς",
+      "stimulusIsScript": true,
+      "options": [
+        "only at the beginning of a word",
+        "anywhere in a word",
+        "only at the end of a word"
+      ],
+      "answer": "only at the end of a word",
+      "optionIsScript": false,
+      "block": "r01",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r01-9"
+    },
+    {
+      "id": "r01-9.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Type the word λόγος (the final sigma comes by itself)",
+      "stimulus": "ς",
+      "stimulusIsScript": true,
+      "accepted": [
+        "λόγος"
+      ],
+      "answerIsScript": true,
+      "block": "r01",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r01-9"
+    },
+    {
+      "id": "r01-10.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "True or false?",
+      "stimulus": "γγ",
+      "stimulusIsScript": true,
+      "statement": "γγ is pronounced gg (as in egg).",
+      "answer": false,
+      "expected": "γγ is pronounced ng (as in finger).",
+      "block": "r01",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r01-10"
+    },
+    {
+      "id": "r01-10.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "How is γγ pronounced?",
+      "stimulus": "γγ",
+      "stimulusIsScript": true,
+      "options": [
+        "gg (as in egg)",
+        "ng (as in finger)",
+        "j (as in judge)"
+      ],
+      "answer": "ng (as in finger)",
+      "optionIsScript": false,
+      "block": "r01",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r01-10"
+    },
+    {
+      "id": "r01-10.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Type the word ἄγγελος",
+      "stimulus": "γγ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "ἄγγελος"
+      ],
+      "answerIsScript": true,
+      "block": "r01",
+      "blockLabel": "Recognition",
+      "shape": "recognition",
+      "src": "r01-10"
+    }
+  ]
+}

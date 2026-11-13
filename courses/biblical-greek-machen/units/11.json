@@ -1,0 +1,139 @@
+{
+  "schema": "unit-lesson-v1.json",
+  "unit": 11,
+  "title": "The Imperfect Active",
+  "description": "The imperfect active indicative, the augment, and the imperfect of εἰμί.",
+  "teaches": [
+    "gr-mac-11-001",
+    "gr-mac-11-002",
+    "gr-mac-11-003",
+    "gr-mac-11-004",
+    "gr-mac-11-005",
+    "gr-mac-11-006",
+    "gr-mac-11-007",
+    "gr-mac-11-008",
+    "gr-mac-11-009",
+    "gr-mac-11-010",
+    "gr-mac-11-011",
+    "gr-mac-11-012",
+    "gr-mac-11-013",
+    "gr-mac-11-014",
+    "gr-mac-11-015",
+    "gr-mac-11-016",
+    "gr-mac-11-017"
+  ],
+  "assumes": [
+    "gr-mac-10-001",
+    "gr-mac-10-002",
+    "gr-mac-10-003",
+    "gr-mac-10-004",
+    "gr-mac-10-005",
+    "gr-mac-10-006",
+    "gr-mac-10-007",
+    "gr-mac-10-008",
+    "gr-mac-10-009",
+    "gr-mac-10-010",
+    "gr-mac-10-011",
+    "gr-mac-10-012",
+    "gr-mac-10-013",
+    "gr-mac-10-014"
+  ],
+  "blocks": [
+    {
+      "type": "prose",
+      "caption": "Summary",
+      "html": "<p>The imperfect is the past of continuing action: ἔλυον, I was loosing. It is made on the present stem with an augment in front and the secondary endings. Before a consonant the augment is ἐ- (λύω, ἔλυον); a verb beginning with a vowel lengthens it (ἀκούω, ἤκουον; αἴρω, ἦρον; α becomes η). In a compound verb the augment comes after the preposition (ἀποστέλλω, ἀπέστελλον), and a preposition ending in a vowel usually loses it (ἀπο- + ἐ- = ἀπε-). The accent cannot go back past the augment.</p>"
+    },
+    {
+      "type": "table",
+      "caption": "ἔλυον, I was loosing",
+      "columns": [
+        "Person",
+        "Singular",
+        "Plural"
+      ],
+      "rows": [
+        [
+          "1st",
+          "ἔλυον",
+          "ἐλύομεν"
+        ],
+        [
+          "2nd",
+          "ἔλυες",
+          "ἐλύετε"
+        ],
+        [
+          "3rd",
+          "ἔλυε(ν)",
+          "ἔλυον"
+        ],
+        [
+          "The secondary active endings are -ν, -ς, (none), -μεν, -τε, -ν; the first singular and third plural look alike."
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Imperfect of εἰμί",
+      "columns": [
+        "Person",
+        "Singular",
+        "Plural"
+      ],
+      "rows": [
+        [
+          "1st",
+          "ἤμην",
+          "ἦμεν"
+        ],
+        [
+          "2nd",
+          "ἦς",
+          "ἦτε"
+        ],
+        [
+          "3rd",
+          "ἦν",
+          "ἦσαν"
+        ],
+        [
+          "These forms are not enclitic. After οὐκ and some other words the third singular present is ἔστιν (accent on the first syllable): οὐκ ἔστιν, but οὐκ ἐσμέν."
+        ]
+      ]
+    },
+    {
+      "type": "prose",
+      "caption": "μέν … δέ",
+      "html": "<p>μέν … δέ sets two clauses side by side: τότε μὲν … νῦν δὲ …, then … but now …; μέν is often best left untranslated.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Source",
+      "html": "<p>Machen, *New Testament Greek for Beginners* (1923), Lesson 11 (p. 64).</p>"
+    },
+    {
+      "type": "vocab",
+      "refs": [
+        "gr-mac-11-001",
+        "gr-mac-11-002",
+        "gr-mac-11-003",
+        "gr-mac-11-004",
+        "gr-mac-11-005",
+        "gr-mac-11-006",
+        "gr-mac-11-007",
+        "gr-mac-11-008",
+        "gr-mac-11-009",
+        "gr-mac-11-010",
+        "gr-mac-11-011",
+        "gr-mac-11-012",
+        "gr-mac-11-013",
+        "gr-mac-11-014",
+        "gr-mac-11-015",
+        "gr-mac-11-016",
+        "gr-mac-11-017"
+      ]
+    }
+  ],
+  "didYouKnow": ""
+}

@@ -1,0 +1,165 @@
+{
+  "schema": "unit-lesson-v1.json",
+  "unit": 21,
+  "title": "The Subjunctive",
+  "description": "The subjunctive mood: purpose with ἵνα, future conditions with ἐάν, and the hortatory subjunctive.",
+  "teaches": [
+    "gr-mac-21-001",
+    "gr-mac-21-002",
+    "gr-mac-21-003",
+    "gr-mac-21-004",
+    "gr-mac-21-005",
+    "gr-mac-21-006",
+    "gr-mac-21-007",
+    "gr-mac-21-008",
+    "gr-mac-21-009",
+    "gr-mac-21-010",
+    "gr-mac-21-011",
+    "gr-mac-21-012",
+    "gr-mac-21-013"
+  ],
+  "assumes": [
+    "gr-mac-20-001",
+    "gr-mac-20-002",
+    "gr-mac-20-003",
+    "gr-mac-20-004",
+    "gr-mac-20-005",
+    "gr-mac-20-006",
+    "gr-mac-20-007",
+    "gr-mac-20-008",
+    "gr-mac-20-009"
+  ],
+  "blocks": [
+    {
+      "type": "prose",
+      "caption": "Summary",
+      "html": "<p>The subjunctive has only a present and an aorist (in the New Testament). It always takes primary endings, joined by the long variable vowel ω/η instead of ο/ε. The aorist subjunctive has no augment: it is made on the unaugmented aorist stem (λύσω, λίπω, λυθῶ). The tenses of the subjunctive differ not in time but in kind of action: the present for continuing or repeated action, the aorist for the action as a simple event. Its negative is μή.</p>"
+    },
+    {
+      "type": "table",
+      "caption": "λύω, present subjunctive",
+      "columns": [
+        "Person",
+        "Active",
+        "Middle and passive"
+      ],
+      "rows": [
+        [
+          "1st sg.",
+          "λύω",
+          "λύωμαι"
+        ],
+        [
+          "2nd sg.",
+          "λύῃς",
+          "λύῃ"
+        ],
+        [
+          "3rd sg.",
+          "λύῃ",
+          "λύηται"
+        ],
+        [
+          "1st pl.",
+          "λύωμεν",
+          "λυώμεθα"
+        ],
+        [
+          "2nd pl.",
+          "λύητε",
+          "λύησθε"
+        ],
+        [
+          "3rd pl.",
+          "λύωσι(ν)",
+          "λύωνται"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Aorist subjunctive",
+      "columns": [
+        "Person",
+        "Active",
+        "Middle",
+        "Passive"
+      ],
+      "rows": [
+        [
+          "1st sg.",
+          "λύσω",
+          "λύσωμαι",
+          "λυθῶ"
+        ],
+        [
+          "2nd sg.",
+          "λύσῃς",
+          "λύσῃ",
+          "λυθῇς"
+        ],
+        [
+          "3rd sg.",
+          "λύσῃ",
+          "λύσηται",
+          "λυθῇ"
+        ],
+        [
+          "1st pl.",
+          "λύσωμεν",
+          "λυσώμεθα",
+          "λυθῶμεν"
+        ],
+        [
+          "2nd pl.",
+          "λύσητε",
+          "λύσησθε",
+          "λυθῆτε"
+        ],
+        [
+          "3rd pl.",
+          "λύσωσι(ν)",
+          "λύσωνται",
+          "λυθῶσι(ν)"
+        ],
+        [
+          "The second aorist subjunctive has the same endings on the second aorist stem: λίπω, λίπῃς, λίπῃ. The present subjunctive of εἰμί is ὦ, ᾖς, ᾖ, ὦμεν, ἦτε, ὦσι(ν)."
+        ]
+      ]
+    },
+    {
+      "type": "prose",
+      "caption": "Uses",
+      "html": "<p>- Hortatory: the first person plural urges: πιστεύσωμεν, let us believe; μὴ ἁμαρτάνωμεν, let us not sin.\n- Purpose: ἵνα with the subjunctive, in order that: ἦλθεν ἵνα σώσῃ ἁμαρτωλούς.\n- Future condition: ἐάν with the subjunctive, if (in future time): ἐὰν ἴδῃ τὸν κύριον, πιστεύσει. A condition about the present or past takes εἰ with the indicative: εἰ ἐλάβομεν ταύτην τὴν ἐντολήν.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Common confusion",
+      "html": "<p>λύσω is both the aorist subjunctive (that I may loose) and the future indicative (I shall loose); λύσῃ is aorist subjunctive active third singular or future middle second singular. The construction (ἵνα, ἐάν, or a main verb) decides.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Source",
+      "html": "<p>Machen, *New Testament Greek for Beginners* (1923), Lesson 21 (p. 128).</p>"
+    },
+    {
+      "type": "vocab",
+      "refs": [
+        "gr-mac-21-001",
+        "gr-mac-21-002",
+        "gr-mac-21-003",
+        "gr-mac-21-004",
+        "gr-mac-21-005",
+        "gr-mac-21-006",
+        "gr-mac-21-007",
+        "gr-mac-21-008",
+        "gr-mac-21-009",
+        "gr-mac-21-010",
+        "gr-mac-21-011",
+        "gr-mac-21-012",
+        "gr-mac-21-013"
+      ]
+    }
+  ],
+  "didYouKnow": ""
+}

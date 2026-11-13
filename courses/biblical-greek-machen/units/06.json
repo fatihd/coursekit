@@ -1,0 +1,136 @@
+{
+  "schema": "unit-lesson-v1.json",
+  "unit": 6,
+  "title": "The Article and Adjectives",
+  "description": "The definite article, adjectives of the second and first declension, attributive and predicate positions.",
+  "teaches": [
+    "gr-mac-06-001",
+    "gr-mac-06-002",
+    "gr-mac-06-003",
+    "gr-mac-06-004",
+    "gr-mac-06-005",
+    "gr-mac-06-006",
+    "gr-mac-06-007",
+    "gr-mac-06-008",
+    "gr-mac-06-009",
+    "gr-mac-06-010",
+    "gr-mac-06-011",
+    "gr-mac-06-012",
+    "gr-mac-06-013",
+    "gr-mac-06-014",
+    "gr-mac-06-015"
+  ],
+  "assumes": [
+    "gr-mac-05-001",
+    "gr-mac-05-002",
+    "gr-mac-05-003",
+    "gr-mac-05-004",
+    "gr-mac-05-005",
+    "gr-mac-05-006",
+    "gr-mac-05-007",
+    "gr-mac-05-008",
+    "gr-mac-05-009",
+    "gr-mac-05-010",
+    "gr-mac-05-011",
+    "gr-mac-05-012",
+    "gr-mac-05-013",
+    "gr-mac-05-014"
+  ],
+  "blocks": [
+    {
+      "type": "prose",
+      "caption": "Summary",
+      "html": "<p>The article ὁ, ἡ, τό agrees with its noun in gender, number and case. Adjectives have three sets of endings (masculine and neuter like λόγος and δῶρον, feminine like ὥρα or γραφή). Where the adjective stands tells you whether it describes the noun or says something about it.</p>"
+    },
+    {
+      "type": "table",
+      "caption": "The article",
+      "columns": [
+        "Case",
+        "Masc.",
+        "Fem.",
+        "Neut.",
+        "Masc. pl.",
+        "Fem. pl.",
+        "Neut. pl."
+      ],
+      "rows": [
+        [
+          "Nom.",
+          "ὁ",
+          "ἡ",
+          "τό",
+          "οἱ",
+          "αἱ",
+          "τά"
+        ],
+        [
+          "Gen.",
+          "τοῦ",
+          "τῆς",
+          "τοῦ",
+          "τῶν",
+          "τῶν",
+          "τῶν"
+        ],
+        [
+          "Dat.",
+          "τῷ",
+          "τῇ",
+          "τῷ",
+          "τοῖς",
+          "ταῖς",
+          "τοῖς"
+        ],
+        [
+          "Acc.",
+          "τόν",
+          "τήν",
+          "τό",
+          "τούς",
+          "τάς",
+          "τά"
+        ],
+        [
+          "ὁ, ἡ, οἱ, αἱ have no accent of their own (proclitics)."
+        ]
+      ]
+    },
+    {
+      "type": "prose",
+      "caption": "Attributive and predicate position",
+      "html": "<p>After the article, the adjective describes: ὁ ἀγαθὸς λόγος or ὁ λόγος ὁ ἀγαθός, &quot;the good word&quot;. Outside the article it makes a statement, with &quot;is&quot; understood: ἀγαθὸς ὁ λόγος or ὁ λόγος ἀγαθός, &quot;the word is good&quot;. An adjective can also stand alone as a noun: οἱ ἀγαθοί, the good (men); τὰ κακά, evil things.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Common confusion",
+      "html": "<p>Greek often uses the article with abstract nouns (ἡ ἀλήθεια, truth) and leaves it out where English needs &quot;the&quot;. Translate by English usage.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Source",
+      "html": "<p>Machen, *New Testament Greek for Beginners* (1923), Lesson 6 (p. 33).</p>"
+    },
+    {
+      "type": "vocab",
+      "refs": [
+        "gr-mac-06-001",
+        "gr-mac-06-002",
+        "gr-mac-06-003",
+        "gr-mac-06-004",
+        "gr-mac-06-005",
+        "gr-mac-06-006",
+        "gr-mac-06-007",
+        "gr-mac-06-008",
+        "gr-mac-06-009",
+        "gr-mac-06-010",
+        "gr-mac-06-011",
+        "gr-mac-06-012",
+        "gr-mac-06-013",
+        "gr-mac-06-014",
+        "gr-mac-06-015"
+      ]
+    }
+  ],
+  "didYouKnow": ""
+}

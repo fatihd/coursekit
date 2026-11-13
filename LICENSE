@@ -24,4 +24,8 @@ SOFTWARE.
 
 This license covers the code (engine/, scripts/, build/, exwb/ tooling, tests/).
 Course content carries its own license: see courses/*/content/ATTRIBUTION.md
-(lesson prose CC BY-SA 3.0; source books public domain) and exwb/curated/LICENSE (CC0 1.0).
+(Hebrew courses: lesson prose CC BY-SA 3.0; courses/biblical-greek-machen: CC BY-SA 4.0; source books public domain)
+and exwb/curated/LICENSE (CC0 1.0). Data derived from MorphGNT (CC BY-SA 3.0) and the SBLGNT (CC BY 4.0) —
+build/_sources/machen/greek-forms.json, build/_sources/machen/lemma-counts.json and the NT frequencies and glosses in
+courses/biblical-greek-machen — keeps those licenses and their attribution, not MIT. Likewise the Open Scriptures
+Hebrew Bible morphology (CC BY 4.0) behind build/_sources/davidson/corpus-forms.json.
