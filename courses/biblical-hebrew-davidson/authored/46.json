@@ -262,6 +262,30 @@
       "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n140.jpg",
       "exwb": "davidson-s47#B10",
       "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "c46-01": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c46-02": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c46-03": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c46-04": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c46-05": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c46-06": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c46-07": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c46-08": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
     }
   },
   "items": [
@@ -291,7 +315,7 @@
       "stimulusIsScript": true,
       "options": [
         "We shall hear the sound of the trumpet, nor shall we be hungry for bread.",
-        "I shall not hear the sound of the trumpet, nor shall we be hungry for bread.",
+        "They shall not hear the sound of the trumpet, nor shall we be hungry for bread.",
         "We shall not hear the sound of a trumpet, nor shall we be hungry for bread.",
         "We shall not hear the sound of the trumpet, nor shall we be hungry for bread."
       ],
@@ -1538,7 +1562,7 @@
       "stimulusIsScript": true,
       "options": [
         "The snare is broken, and, as for us, we are escaped.",
-        "The snare is broken, and, as for us, I am escaped.",
+        "The snare is broken, and, as for us, they are escaped.",
         "A snare is broken, and, as for us, we are escaped.",
         "The snare is broken, and, as for me, we are escaped."
       ],
@@ -1791,7 +1815,7 @@
       "prompt": "Is this the right translation?",
       "stimulus": "נִגְרַשְׁתִּי הַיּוֹם מֵעַל פְּנֵי הָאֲדָמָה וּמִפָּנֶיךָ אֶסָּתֵר",
       "stimulusIsScript": true,
-      "statement": "I have been driven out this day from the face of the ground, and from thy face shall they be hidden.",
+      "statement": "I have been driven out this day from the face of the ground, and from thy face shall he be hidden.",
       "answer": false,
       "expected": "I have been driven out this day from the face of the ground, and from thy face shall I be hidden.",
       "block": "s25",
@@ -1811,7 +1835,7 @@
         "I have been driven out this day from the face of the ground, and from thy face shall I be hidden.",
         "I have been driven out this day from a face of the ground, and from thy face shall I be hidden.",
         "I have been driven out this day from the face of the ground, and from my face shall I be hidden.",
-        "I have been driven out this day from the face of the ground, and from thy face shall they be hidden."
+        "I have been driven out this day from the face of the ground, and from thy face shall he be hidden."
       ],
       "answer": "I have been driven out this day from the face of the ground, and from thy face shall I be hidden.",
       "optionIsScript": false,
@@ -2261,8 +2285,8 @@
       "stimulus": "נִסְתַּרְתִּי מִפְּנֵי אֱלֹהָי",
       "stimulusIsScript": true,
       "options": [
-        "I am hidden from the face of thy God.",
-        "They are hidden from the face of my God.",
+        "I am hidden from the face of your God.",
+        "He is hidden from the face of my God.",
         "I am hidden in the face of my God.",
         "I am hidden from the face of my God."
       ],
@@ -2707,7 +2731,7 @@
       "stimulusIsScript": true,
       "options": [
         "Mine eyes are upon all their ways, they are not hidden to my face; neither is their iniquity concealed from mine eyes.",
-        "Mine eyes are upon all their ways, I am not hidden from my face; neither is their iniquity concealed from mine eyes.",
+        "Mine eyes are upon all their ways, you are not hidden from my face; neither is their iniquity concealed from mine eyes.",
         "Mine eyes are upon all their ways, they are not hidden from my face; neither is their iniquity concealed from mine eyes.",
         "Mine eyes are upon all our ways, they are not hidden from my face; neither is their iniquity concealed from mine eyes."
       ],
@@ -2950,6 +2974,764 @@
       "blockLabel": "Davidson §47",
       "shape": "en-he",
       "src": "s47-B10"
+    },
+    {
+      "id": "c46-01.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וְנִכְרְתָה הַנֶּפֶשׁ הַהִוא מֵעַמֶּיהָ",
+      "stimulusIsScript": true,
+      "statement": "This soul shall be cut off from its people.",
+      "answer": false,
+      "expected": "That soul shall be cut off from its people.",
+      "block": "c46",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c46-01",
+      "extra": true
+    },
+    {
+      "id": "c46-01.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וְנִכְרְתָה הַנֶּפֶשׁ הַהִוא מֵעַמֶּיהָ",
+      "stimulusIsScript": true,
+      "options": [
+        "The vessel was broken.",
+        "That soul shall be cut off from its people.",
+        "This soul shall be cut off from its people.",
+        "In the court of the king"
+      ],
+      "answer": "That soul shall be cut off from its people.",
+      "optionIsScript": false,
+      "block": "c46",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c46-01",
+      "extra": true
+    },
+    {
+      "id": "c46-01.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: That soul shall be cut off from its people.",
+      "stimulus": "וְנִכְרְתָה ＿＿＿ הַהִוא מֵעַמֶּיהָ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַנֶּפֶשׁ"
+      ],
+      "answerIsScript": true,
+      "block": "c46",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c46-01",
+      "extra": true
+    },
+    {
+      "id": "c46-01.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וְנִכְרְתָה הַנֶּפֶשׁ הַהִוא מֵעַמֶּיהָ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "That soul shall be cut off from its people."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c46",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c46-01",
+      "extra": true
+    },
+    {
+      "id": "c46-01.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "That soul shall be cut off from its people.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וְנִכְרְתָה הַנֶּפֶשׁ הַהִוא מֵעַמֶּיהָ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c46",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c46-01",
+      "extra": true
+    },
+    {
+      "id": "c46-02.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "נִשְׁבַּר הַכְּלִי",
+      "stimulusIsScript": true,
+      "statement": "A vessel was broken.",
+      "answer": false,
+      "expected": "The vessel was broken.",
+      "block": "c46",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c46-02",
+      "extra": true
+    },
+    {
+      "id": "c46-02.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "נִשְׁבַּר הַכְּלִי",
+      "stimulusIsScript": true,
+      "options": [
+        "A vessel was broken.",
+        "The vessel was broken.",
+        "He was buried there.",
+        "The word was heard."
+      ],
+      "answer": "The vessel was broken.",
+      "optionIsScript": false,
+      "block": "c46",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c46-02",
+      "extra": true
+    },
+    {
+      "id": "c46-02.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The vessel was broken.",
+      "stimulus": "נִשְׁבַּר ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַכְּלִי"
+      ],
+      "answerIsScript": true,
+      "block": "c46",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c46-02",
+      "extra": true
+    },
+    {
+      "id": "c46-02.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The vessel was broken.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "נִשְׁבַּר הַכְּלִי"
+      ],
+      "answerIsScript": true,
+      "block": "c46",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c46-02",
+      "extra": true
+    },
+    {
+      "id": "c46-02.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The vessel was broken.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "נִשְׁבַּר הַכְּלִי"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c46",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c46-02",
+      "extra": true
+    },
+    {
+      "id": "c46-03.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָעִיר נִלְכְּדָה",
+      "stimulusIsScript": true,
+      "statement": "The city was captured.",
+      "answer": true,
+      "expected": "The city was captured.",
+      "block": "c46",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c46-03",
+      "extra": true
+    },
+    {
+      "id": "c46-03.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָעִיר נִלְכְּדָה",
+      "stimulusIsScript": true,
+      "options": [
+        "The city was captured.",
+        "A city was captured.",
+        "He was buried there.",
+        "That soul shall be cut off from its people."
+      ],
+      "answer": "The city was captured.",
+      "optionIsScript": false,
+      "block": "c46",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c46-03",
+      "extra": true
+    },
+    {
+      "id": "c46-03.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The city was captured.",
+      "stimulus": "הָעִיר ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "נִלְכְּדָה"
+      ],
+      "answerIsScript": true,
+      "block": "c46",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c46-03",
+      "extra": true
+    },
+    {
+      "id": "c46-03.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הָעִיר נִלְכְּדָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The city was captured."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c46",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c46-03",
+      "extra": true
+    },
+    {
+      "id": "c46-03.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The city was captured.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָעִיר נִלְכְּדָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c46",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c46-03",
+      "extra": true
+    },
+    {
+      "id": "c46-04.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיִּקָּבֵר שָׁם",
+      "stimulusIsScript": true,
+      "statement": "He was buried there.",
+      "answer": true,
+      "expected": "He was buried there.",
+      "block": "c46",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c46-04",
+      "extra": true
+    },
+    {
+      "id": "c46-04.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיִּקָּבֵר שָׁם",
+      "stimulusIsScript": true,
+      "options": [
+        "She was buried there.",
+        "In the ears of the people",
+        "That soul shall be cut off from its people.",
+        "He was buried there."
+      ],
+      "answer": "He was buried there.",
+      "optionIsScript": false,
+      "block": "c46",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c46-04",
+      "extra": true
+    },
+    {
+      "id": "c46-04.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: He was buried there.",
+      "stimulus": "וַיִּקָּבֵר ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "שָׁם"
+      ],
+      "answerIsScript": true,
+      "block": "c46",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c46-04",
+      "extra": true
+    },
+    {
+      "id": "c46-04.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וַיִּקָּבֵר שָׁם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "He was buried there."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c46",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c46-04",
+      "extra": true
+    },
+    {
+      "id": "c46-04.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "He was buried there.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיִּקָּבֵר שָׁם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c46",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c46-04",
+      "extra": true
+    },
+    {
+      "id": "c46-05.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "נִשְׁמַע הַדָּבָר",
+      "stimulusIsScript": true,
+      "statement": "The word was heard.",
+      "answer": true,
+      "expected": "The word was heard.",
+      "block": "c46",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c46-05",
+      "extra": true
+    },
+    {
+      "id": "c46-05.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "נִשְׁמַע הַדָּבָר",
+      "stimulusIsScript": true,
+      "options": [
+        "In the ears of the people",
+        "The word was heard.",
+        "A word was heard.",
+        "The city was captured."
+      ],
+      "answer": "The word was heard.",
+      "optionIsScript": false,
+      "block": "c46",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c46-05",
+      "extra": true
+    },
+    {
+      "id": "c46-05.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The word was heard.",
+      "stimulus": "נִשְׁמַע ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַדָּבָר"
+      ],
+      "answerIsScript": true,
+      "block": "c46",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c46-05",
+      "extra": true
+    },
+    {
+      "id": "c46-05.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "נִשְׁמַע הַדָּבָר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The word was heard."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c46",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c46-05",
+      "extra": true
+    },
+    {
+      "id": "c46-05.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The word was heard.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "נִשְׁמַע הַדָּבָר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c46",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c46-05",
+      "extra": true
+    },
+    {
+      "id": "c46-06.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "בַּחֲצַר הַמֶּלֶךְ",
+      "stimulusIsScript": true,
+      "statement": "To the court of the king",
+      "answer": false,
+      "expected": "In the court of the king",
+      "block": "c46",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c46-06",
+      "extra": true
+    },
+    {
+      "id": "c46-06.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "בַּחֲצַר הַמֶּלֶךְ",
+      "stimulusIsScript": true,
+      "options": [
+        "From the court of the king",
+        "In the court of the king",
+        "In the court of a king",
+        "To the court of the king"
+      ],
+      "answer": "In the court of the king",
+      "optionIsScript": false,
+      "block": "c46",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c46-06",
+      "extra": true
+    },
+    {
+      "id": "c46-06.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: In the court of the king",
+      "stimulus": "בַּחֲצַר ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַמֶּלֶךְ"
+      ],
+      "answerIsScript": true,
+      "block": "c46",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c46-06",
+      "extra": true
+    },
+    {
+      "id": "c46-06.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "In the court of the king",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בַּחֲצַר הַמֶּלֶךְ"
+      ],
+      "answerIsScript": true,
+      "block": "c46",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c46-06",
+      "extra": true
+    },
+    {
+      "id": "c46-06.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "In the court of the king",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בַּחֲצַר הַמֶּלֶךְ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c46",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c46-06",
+      "extra": true
+    },
+    {
+      "id": "c46-07.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אִישׁ נָבוֹן וְחָכָם",
+      "stimulusIsScript": true,
+      "statement": "A discerning and wise man",
+      "answer": true,
+      "expected": "A discerning and wise man",
+      "block": "c46",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c46-07",
+      "extra": true
+    },
+    {
+      "id": "c46-07.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אִישׁ נָבוֹן וְחָכָם",
+      "stimulusIsScript": true,
+      "options": [
+        "The discerning and wise man",
+        "That soul shall be cut off from its people.",
+        "He was buried there.",
+        "A discerning and wise man"
+      ],
+      "answer": "A discerning and wise man",
+      "optionIsScript": false,
+      "block": "c46",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c46-07",
+      "extra": true
+    },
+    {
+      "id": "c46-07.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: A discerning and wise man",
+      "stimulus": "＿＿＿ נָבוֹן וְחָכָם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אִישׁ"
+      ],
+      "answerIsScript": true,
+      "block": "c46",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c46-07",
+      "extra": true
+    },
+    {
+      "id": "c46-07.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "אִישׁ נָבוֹן וְחָכָם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "A discerning and wise man"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c46",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c46-07",
+      "extra": true
+    },
+    {
+      "id": "c46-07.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "A discerning and wise man",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אִישׁ נָבוֹן וְחָכָם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c46",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c46-07",
+      "extra": true
+    },
+    {
+      "id": "c46-08.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "בְּאָזְנֵי הָעָם",
+      "stimulusIsScript": true,
+      "statement": "From the ears of the people",
+      "answer": false,
+      "expected": "In the ears of the people",
+      "block": "c46",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c46-08",
+      "extra": true
+    },
+    {
+      "id": "c46-08.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "בְּאָזְנֵי הָעָם",
+      "stimulusIsScript": true,
+      "options": [
+        "In ears of the people",
+        "From the ears of the people",
+        "In the ears of the people",
+        "To the ears of the people"
+      ],
+      "answer": "In the ears of the people",
+      "optionIsScript": false,
+      "block": "c46",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c46-08",
+      "extra": true
+    },
+    {
+      "id": "c46-08.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: In the ears of the people",
+      "stimulus": "＿＿＿ הָעָם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "בְּאָזְנֵי"
+      ],
+      "answerIsScript": true,
+      "block": "c46",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c46-08",
+      "extra": true
+    },
+    {
+      "id": "c46-08.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "בְּאָזְנֵי הָעָם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "In the ears of the people"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c46",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c46-08",
+      "extra": true
+    },
+    {
+      "id": "c46-08.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "In the ears of the people",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בְּאָזְנֵי הָעָם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c46",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c46-08",
+      "extra": true
     }
   ]
 }

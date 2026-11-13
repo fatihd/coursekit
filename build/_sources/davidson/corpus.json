@@ -1,0 +1,6696 @@
+{
+  "note": "Sentences written for this course (corpus expansion, ROADMAP P12-T5). Each uses only words and grammar taught by its unit; `unit` must equal the unit computed by build/davidson_corpus.py from the words' Hebrew Bible analyses plus `tags` (grammar the analyses cannot show: verbless sentence, construct forms that look absolute). Every Hebrew word form is attested in the Hebrew Bible, in Davidson's exercises or in the course word list. `plain` lists weak-verb forms that show no weakness. `direction` picks rung 4 (he-en: translate into English; en-he: into Hebrew); every sentence also gets rungs 1-3 and 5. Alternatives after the first Hebrew are accepted answers.",
+  "sentences": [
+    {
+      "id": "c16-01",
+      "unit": 16,
+      "direction": "he-en",
+      "hebrew": [
+        "הָאִישׁ יָשַׁב עַל־הָהָר"
+      ],
+      "english": "The man sat on the mountain."
+    },
+    {
+      "id": "c16-02",
+      "unit": 16,
+      "direction": "en-he",
+      "hebrew": [
+        "הָעֶבֶד יָשַׁב עִם־הָאִישׁ",
+        "יָשַׁב הָעֶבֶד עִם־הָאִישׁ"
+      ],
+      "english": "The servant sat with the man."
+    },
+    {
+      "id": "c16-03",
+      "unit": 16,
+      "direction": "he-en",
+      "hebrew": [
+        "אֱלֹהִים מָלַךְ עַל־הָעָם"
+      ],
+      "english": "God reigned over the people."
+    },
+    {
+      "id": "c16-04",
+      "unit": 16,
+      "direction": "en-he",
+      "hebrew": [
+        "הָאִישׁ מָלַךְ עַל־הָעִיר",
+        "מָלַךְ הָאִישׁ עַל־הָעִיר"
+      ],
+      "english": "The man reigned over the city."
+    },
+    {
+      "id": "c16-05",
+      "unit": 16,
+      "direction": "he-en",
+      "hebrew": [
+        "הוּא יָשַׁב עַל־הָאֶבֶן"
+      ],
+      "english": "He sat on the stone."
+    },
+    {
+      "id": "c16-06",
+      "unit": 16,
+      "direction": "en-he",
+      "hebrew": [
+        "הָאָב יָשַׁב עִם־הָעֶבֶד",
+        "יָשַׁב הָאָב עִם־הָעֶבֶד"
+      ],
+      "english": "The father sat with the servant."
+    },
+    {
+      "id": "c16-07",
+      "unit": 16,
+      "direction": "he-en",
+      "hebrew": [
+        "הָעָם יָשַׁב עַל־הַיָּם"
+      ],
+      "english": "The people dwelt by the sea."
+    },
+    {
+      "id": "c16-08",
+      "unit": 16,
+      "direction": "en-he",
+      "hebrew": [
+        "הוּא מָלַךְ עַל־הָאָרֶץ",
+        "מָלַךְ עַל־הָאָרֶץ"
+      ],
+      "english": "He reigned over the land."
+    },
+    {
+      "id": "c16-09",
+      "unit": 16,
+      "direction": "he-en",
+      "hebrew": [
+        "הוּא יָשַׁב עִם־הָעָם"
+      ],
+      "english": "He dwelt with the people."
+    },
+    {
+      "id": "c16-10",
+      "unit": 16,
+      "direction": "en-he",
+      "hebrew": [
+        "הָאִישׁ יָשַׁב עִם־הָאִשָּׁה",
+        "יָשַׁב הָאִישׁ עִם־הָאִשָּׁה"
+      ],
+      "english": "The man sat with the woman."
+    },
+    {
+      "id": "c16-11",
+      "unit": 16,
+      "direction": "he-en",
+      "hebrew": [
+        "הָעֶבֶד עָבַד עִם־הָאָב"
+      ],
+      "english": "The servant served with the father."
+    },
+    {
+      "id": "c16-12",
+      "unit": 16,
+      "direction": "he-en",
+      "hebrew": [
+        "חָרַב הָהָר"
+      ],
+      "english": "The mountain was desolate."
+    },
+    {
+      "id": "c17-01",
+      "unit": 17,
+      "direction": "he-en",
+      "hebrew": [
+        "הָאִישׁ הַטּוֹב יָשַׁב עַל־הָהָר"
+      ],
+      "english": "The good man sat on the mountain."
+    },
+    {
+      "id": "c17-02",
+      "unit": 17,
+      "direction": "en-he",
+      "hebrew": [
+        "הָאִשָּׁה חֲכָמָה",
+        "חֲכָמָה הָאִשָּׁה"
+      ],
+      "english": "The woman is wise.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c17-03",
+      "unit": 17,
+      "direction": "he-en",
+      "hebrew": [
+        "טוֹב הָאוֹר"
+      ],
+      "english": "The light is good.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c17-04",
+      "unit": 17,
+      "direction": "he-en",
+      "hebrew": [
+        "הַנָּבִיא צַדִּיק"
+      ],
+      "english": "The prophet is righteous.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c17-05",
+      "unit": 17,
+      "direction": "en-he",
+      "hebrew": [
+        "אֱלֹהִים קָדוֹשׁ",
+        "קָדוֹשׁ אֱלֹהִים"
+      ],
+      "english": "God is holy.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c17-06",
+      "unit": 17,
+      "direction": "he-en",
+      "hebrew": [
+        "טוֹבָה הַתּוֹרָה"
+      ],
+      "english": "The instruction is good.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c17-07",
+      "unit": 17,
+      "direction": "en-he",
+      "hebrew": [
+        "הַמַּיִם מָרִים",
+        "מָרִים הַמַּיִם"
+      ],
+      "english": "The water is bitter.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c17-08",
+      "unit": 17,
+      "direction": "he-en",
+      "hebrew": [
+        "גָּדוֹל הַיָּם"
+      ],
+      "english": "The sea is great.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c17-09",
+      "unit": 17,
+      "direction": "en-he",
+      "hebrew": [
+        "הָאָרֶץ טוֹבָה מְאֹד",
+        "טוֹבָה הָאָרֶץ מְאֹד"
+      ],
+      "english": "The land is very good.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c17-10",
+      "unit": 17,
+      "direction": "he-en",
+      "hebrew": [
+        "הוּא הָיָה אִישׁ צַדִּיק"
+      ],
+      "english": "He was a righteous man."
+    },
+    {
+      "id": "c17-11",
+      "unit": 17,
+      "direction": "en-he",
+      "hebrew": [
+        "הַנָּבִיא הָלַךְ אֶל־הָהָר",
+        "הָלַךְ הַנָּבִיא אֶל־הָהָר"
+      ],
+      "english": "The prophet went to the mountain."
+    },
+    {
+      "id": "c17-12",
+      "unit": 17,
+      "direction": "he-en",
+      "hebrew": [
+        "הַנָּבִיא לֹא הָלַךְ אֶל־הָעִיר"
+      ],
+      "english": "The prophet did not go to the city."
+    },
+    {
+      "id": "c17-13",
+      "unit": 17,
+      "direction": "en-he",
+      "hebrew": [
+        "הָאִישׁ שָׁכַב עַל־הָאֲדָמָה",
+        "שָׁכַב הָאִישׁ עַל־הָאֲדָמָה"
+      ],
+      "english": "The man lay on the ground."
+    },
+    {
+      "id": "c17-14",
+      "unit": 17,
+      "direction": "he-en",
+      "hebrew": [
+        "אַתָּה אִישׁ חָכָם"
+      ],
+      "english": "You are a wise man.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c17-15",
+      "unit": 17,
+      "direction": "en-he",
+      "hebrew": [
+        "הָעִיר גְּדוֹלָה",
+        "גְּדוֹלָה הָעִיר"
+      ],
+      "english": "The city is great.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c17-16",
+      "unit": 17,
+      "direction": "he-en",
+      "hebrew": [
+        "לֹא טוֹב הַחֹשֶׁךְ"
+      ],
+      "english": "The darkness is not good.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c17-17",
+      "unit": 17,
+      "direction": "en-he",
+      "hebrew": [
+        "הָאִישׁ יָשָׁר",
+        "יָשָׁר הָאִישׁ"
+      ],
+      "english": "The man is upright.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c17-18",
+      "unit": 17,
+      "direction": "he-en",
+      "hebrew": [
+        "הָעֶבֶד הֶחָכָם הָלַךְ עִם־הַנָּבִיא"
+      ],
+      "english": "The wise servant walked with the prophet."
+    },
+    {
+      "id": "c17-19",
+      "unit": 17,
+      "direction": "en-he",
+      "hebrew": [
+        "הָאֲדָמָה טוֹבָה",
+        "טוֹבָה הָאֲדָמָה"
+      ],
+      "english": "The ground is good.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c17-20",
+      "unit": 17,
+      "direction": "he-en",
+      "hebrew": [
+        "אֲנַחְנוּ עֲבָדִים"
+      ],
+      "english": "We are servants.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c17-21",
+      "unit": 17,
+      "direction": "he-en",
+      "hebrew": [
+        "הֵם אֲנָשִׁים רָעִים"
+      ],
+      "english": "They are evil men.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c17-22",
+      "unit": 17,
+      "direction": "en-he",
+      "hebrew": [
+        "הִיא אִשָּׁה טוֹבָה"
+      ],
+      "english": "She is a good woman.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c17-23",
+      "unit": 17,
+      "direction": "he-en",
+      "hebrew": [
+        "הַזָּהָב טוֹב"
+      ],
+      "english": "The gold is good.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c17-24",
+      "unit": 17,
+      "direction": "en-he",
+      "hebrew": [
+        "הָעִיר הַגְּדוֹלָה"
+      ],
+      "english": "The great city"
+    },
+    {
+      "id": "c17-25",
+      "unit": 17,
+      "direction": "he-en",
+      "hebrew": [
+        "אֱלֹהִים הָיָה עִם־הָאִישׁ"
+      ],
+      "english": "God was with the man."
+    },
+    {
+      "id": "c18-01",
+      "unit": 18,
+      "direction": "he-en",
+      "hebrew": [
+        "אִישׁ הָאֱלֹהִים הָלַךְ הָהָרָה"
+      ],
+      "english": "The man of God went to the mountain."
+    },
+    {
+      "id": "c18-02",
+      "unit": 18,
+      "direction": "en-he",
+      "hebrew": [
+        "עֶבֶד הַנָּבִיא יָשַׁב עַל־הָאֶבֶן",
+        "יָשַׁב עֶבֶד הַנָּבִיא עַל־הָאֶבֶן"
+      ],
+      "english": "The servant of the prophet sat on the stone.",
+      "tags": [
+        "construct"
+      ]
+    },
+    {
+      "id": "c18-03",
+      "unit": 18,
+      "direction": "he-en",
+      "hebrew": [
+        "שֵׁם הָאִישׁ טוֹב"
+      ],
+      "english": "The name of the man is good.",
+      "tags": [
+        "verbless",
+        "construct"
+      ]
+    },
+    {
+      "id": "c18-04",
+      "unit": 18,
+      "direction": "he-en",
+      "hebrew": [
+        "הַר הָאֱלֹהִים"
+      ],
+      "english": "The mountain of God",
+      "tags": [
+        "construct"
+      ]
+    },
+    {
+      "id": "c18-05",
+      "unit": 18,
+      "direction": "en-he",
+      "hebrew": [
+        "אֵשֶׁת הַנָּבִיא חֲכָמָה",
+        "חֲכָמָה אֵשֶׁת הַנָּבִיא"
+      ],
+      "english": "The wife of the prophet is wise.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c18-06",
+      "unit": 18,
+      "direction": "he-en",
+      "hebrew": [
+        "מַלְכַּת הָעִיר חֲכָמָה"
+      ],
+      "english": "The queen of the city is wise.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c18-07",
+      "unit": 18,
+      "direction": "en-he",
+      "hebrew": [
+        "יַד הָאִישׁ"
+      ],
+      "english": "The hand of the man"
+    },
+    {
+      "id": "c18-08",
+      "unit": 18,
+      "direction": "he-en",
+      "hebrew": [
+        "עֵינֵי הָאִישׁ"
+      ],
+      "english": "The eyes of the man"
+    },
+    {
+      "id": "c18-09",
+      "unit": 18,
+      "direction": "he-en",
+      "hebrew": [
+        "הָאִישׁ הָלַךְ הָעִירָה"
+      ],
+      "english": "The man went to the city."
+    },
+    {
+      "id": "c18-10",
+      "unit": 18,
+      "direction": "en-he",
+      "hebrew": [
+        "הָעֶבֶד הָלַךְ הָהָרָה",
+        "הָלַךְ הָעֶבֶד הָהָרָה"
+      ],
+      "english": "The servant went to the mountain."
+    },
+    {
+      "id": "c18-11",
+      "unit": 18,
+      "direction": "he-en",
+      "hebrew": [
+        "אֶרֶץ הָעָם טוֹבָה"
+      ],
+      "english": "The land of the people is good.",
+      "tags": [
+        "verbless",
+        "construct"
+      ]
+    },
+    {
+      "id": "c18-12",
+      "unit": 18,
+      "direction": "en-he",
+      "hebrew": [
+        "שֵׁם הָעִיר גָּדוֹל",
+        "גָּדוֹל שֵׁם הָעִיר"
+      ],
+      "english": "The name of the city is great.",
+      "tags": [
+        "verbless",
+        "construct"
+      ]
+    },
+    {
+      "id": "c18-13",
+      "unit": 18,
+      "direction": "he-en",
+      "hebrew": [
+        "אֱלֹהֵי הָאָרֶץ"
+      ],
+      "english": "The God of the land"
+    },
+    {
+      "id": "c18-14",
+      "unit": 18,
+      "direction": "he-en",
+      "hebrew": [
+        "הַנָּבִיא אָמַר כִּי טוֹב הָאוֹר"
+      ],
+      "english": "The prophet said that the light is good.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c18-15",
+      "unit": 18,
+      "direction": "en-he",
+      "hebrew": [
+        "אִישׁ הָאֱלֹהִים אָמַר כִּי הָעִיר רָעָה",
+        "אָמַר אִישׁ הָאֱלֹהִים כִּי הָעִיר רָעָה"
+      ],
+      "english": "The man of God said that the city is evil.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c19-01",
+      "unit": 19,
+      "direction": "he-en",
+      "hebrew": [
+        "הָאִישׁ יָשַׁב בָּעִיר"
+      ],
+      "english": "The man dwelt in the city."
+    },
+    {
+      "id": "c19-02",
+      "unit": 19,
+      "direction": "en-he",
+      "hebrew": [
+        "הַנָּבִיא הָלַךְ לָעִיר",
+        "הַנָּבִיא הָלַךְ אֶל־הָעִיר",
+        "הָלַךְ הַנָּבִיא אֶל־הָעִיר"
+      ],
+      "english": "The prophet went to the city."
+    },
+    {
+      "id": "c19-03",
+      "unit": 19,
+      "direction": "he-en",
+      "hebrew": [
+        "הָעָם שָׁתָה מַיִם"
+      ],
+      "english": "The people drank water."
+    },
+    {
+      "id": "c19-04",
+      "unit": 19,
+      "direction": "en-he",
+      "hebrew": [
+        "הַנָּבִיא יָשַׁב שָׁם",
+        "יָשַׁב הַנָּבִיא שָׁם"
+      ],
+      "english": "The prophet sat there."
+    },
+    {
+      "id": "c19-05",
+      "unit": 19,
+      "direction": "he-en",
+      "hebrew": [
+        "הָאִישׁ שָׂם אֶבֶן עַל־הָהָר"
+      ],
+      "english": "The man placed a stone on the mountain."
+    },
+    {
+      "id": "c19-06",
+      "unit": 19,
+      "direction": "he-en",
+      "hebrew": [
+        "הָאִישׁ יָשַׁב בַּלַּיְלָה עַל־הָאֲדָמָה"
+      ],
+      "english": "The man sat on the ground in the night."
+    },
+    {
+      "id": "c19-07",
+      "unit": 19,
+      "direction": "en-he",
+      "hebrew": [
+        "אֱלֹהִים בַּשָּׁמַיִם",
+        "הָאֱלֹהִים בַּשָּׁמַיִם"
+      ],
+      "english": "God is in the heavens.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c19-08",
+      "unit": 19,
+      "direction": "he-en",
+      "hebrew": [
+        "הָעָם יָשַׁב בָּאָרֶץ"
+      ],
+      "english": "The people dwelt in the land."
+    },
+    {
+      "id": "c19-09",
+      "unit": 19,
+      "direction": "en-he",
+      "hebrew": [
+        "הַשַּׂר יָשַׁב בַּהֵיכָל",
+        "יָשַׁב הַשַּׂר בַּהֵיכָל"
+      ],
+      "english": "The prince sat in the palace."
+    },
+    {
+      "id": "c19-10",
+      "unit": 19,
+      "direction": "he-en",
+      "hebrew": [
+        "הָאִישׁ קָרָא בְּשֵׁם אֱלֹהִים"
+      ],
+      "english": "The man called on the name of God."
+    },
+    {
+      "id": "c19-11",
+      "unit": 19,
+      "direction": "en-he",
+      "hebrew": [
+        "הַזָּהָב בָּאָרֶץ"
+      ],
+      "english": "The gold is in the land.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c19-12",
+      "unit": 19,
+      "direction": "he-en",
+      "hebrew": [
+        "הָאִישׁ עָבַר בַּמַּיִם"
+      ],
+      "english": "The man passed through the water."
+    },
+    {
+      "id": "c20-01",
+      "unit": 20,
+      "direction": "he-en",
+      "hebrew": [
+        "הָאִישׁ יָרַד מֵהָהָר"
+      ],
+      "english": "The man went down from the mountain."
+    },
+    {
+      "id": "c20-02",
+      "unit": 20,
+      "direction": "en-he",
+      "hebrew": [
+        "הַנָּבִיא יָרַד אֶל־הָעִיר",
+        "יָרַד הַנָּבִיא אֶל־הָעִיר"
+      ],
+      "english": "The prophet went down to the city."
+    },
+    {
+      "id": "c20-03",
+      "unit": 20,
+      "direction": "he-en",
+      "hebrew": [
+        "הָעֶבֶד לָקַח לֶחֶם"
+      ],
+      "english": "The servant took bread."
+    },
+    {
+      "id": "c20-04",
+      "unit": 20,
+      "direction": "en-he",
+      "hebrew": [
+        "כָּל־הָעָם יָשַׁב בָּאָרֶץ",
+        "יָשַׁב כָּל־הָעָם בָּאָרֶץ"
+      ],
+      "english": "All the people dwelt in the land."
+    },
+    {
+      "id": "c20-05",
+      "unit": 20,
+      "direction": "he-en",
+      "hebrew": [
+        "הַסּוּס גָּדוֹל"
+      ],
+      "english": "The horse is great.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c20-06",
+      "unit": 20,
+      "direction": "en-he",
+      "hebrew": [
+        "כָּל־הָאָרֶץ טוֹבָה",
+        "טוֹבָה כָּל־הָאָרֶץ"
+      ],
+      "english": "The whole land is good.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c20-07",
+      "unit": 20,
+      "direction": "he-en",
+      "hebrew": [
+        "הַגִּבּוֹר לָקַח חֶרֶב"
+      ],
+      "english": "The warrior took a sword."
+    },
+    {
+      "id": "c20-08",
+      "unit": 20,
+      "direction": "en-he",
+      "hebrew": [
+        "הָאִישׁ אָכַל לֶחֶם",
+        "אָכַל הָאִישׁ לֶחֶם"
+      ],
+      "english": "The man ate bread."
+    },
+    {
+      "id": "c20-09",
+      "unit": 20,
+      "direction": "he-en",
+      "hebrew": [
+        "הַגִּבּוֹר יָשַׁב עַל־הַסּוּס"
+      ],
+      "english": "The warrior sat on the horse."
+    },
+    {
+      "id": "c21-01",
+      "unit": 21,
+      "direction": "he-en",
+      "hebrew": [
+        "הַכֶּסֶף וְהַזָּהָב בָּעִיר"
+      ],
+      "english": "The silver and the gold are in the city.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c21-02",
+      "unit": 21,
+      "direction": "en-he",
+      "hebrew": [
+        "הָאִישׁ בָּא הָעִירָה",
+        "הָאִישׁ בָּא אֶל־הָעִיר",
+        "בָּא הָאִישׁ הָעִירָה"
+      ],
+      "english": "The man came to the city."
+    },
+    {
+      "id": "c21-03",
+      "unit": 21,
+      "direction": "he-en",
+      "hebrew": [
+        "טוֹב וְיָשָׁר הָאִישׁ"
+      ],
+      "english": "The man is good and upright.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c21-04",
+      "unit": 21,
+      "direction": "en-he",
+      "hebrew": [
+        "הָאִישׁ טוֹב וְחָכָם",
+        "טוֹב וְחָכָם הָאִישׁ"
+      ],
+      "english": "The man is good and wise.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c21-05",
+      "unit": 21,
+      "direction": "he-en",
+      "hebrew": [
+        "הַסּוּס וְהַחֲמוֹר"
+      ],
+      "english": "The horse and the donkey"
+    },
+    {
+      "id": "c21-06",
+      "unit": 21,
+      "direction": "en-he",
+      "hebrew": [
+        "הָאָב וְהָאֵם בָּעִיר"
+      ],
+      "english": "The father and the mother are in the city.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c21-07",
+      "unit": 21,
+      "direction": "he-en",
+      "hebrew": [
+        "הָעֶבֶד לָקַח לֶחֶם וּמַיִם"
+      ],
+      "english": "The servant took bread and water."
+    },
+    {
+      "id": "c21-08",
+      "unit": 21,
+      "direction": "he-en",
+      "hebrew": [
+        "שָׁמַיִם וָאָרֶץ"
+      ],
+      "english": "Heaven and earth"
+    },
+    {
+      "id": "c21-09",
+      "unit": 21,
+      "direction": "he-en",
+      "hebrew": [
+        "חֶסֶד אֱלֹהִים לְעוֹלָם"
+      ],
+      "english": "The steadfast love of God is forever.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c21-10",
+      "unit": 21,
+      "direction": "en-he",
+      "hebrew": [
+        "אֱלֹהִים טוֹב וְיָשָׁר",
+        "טוֹב וְיָשָׁר אֱלֹהִים"
+      ],
+      "english": "God is good and upright.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c22-01",
+      "unit": 22,
+      "direction": "he-en",
+      "hebrew": [
+        "אָבִי אִישׁ טוֹב"
+      ],
+      "english": "My father is a good man.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c22-02",
+      "unit": 22,
+      "direction": "en-he",
+      "hebrew": [
+        "שְׁמוֹ גָּדוֹל",
+        "גָּדוֹל שְׁמוֹ"
+      ],
+      "english": "His name is great.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c22-03",
+      "unit": 22,
+      "direction": "he-en",
+      "hebrew": [
+        "הָאִישׁ יָשַׁב עִם־אִשְׁתּוֹ"
+      ],
+      "english": "The man sat with his wife."
+    },
+    {
+      "id": "c22-04",
+      "unit": 22,
+      "direction": "en-he",
+      "hebrew": [
+        "עַמִּי בָּעִיר"
+      ],
+      "english": "My people are in the city.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c22-05",
+      "unit": 22,
+      "direction": "he-en",
+      "hebrew": [
+        "תּוֹרָתְךָ טוֹבָה"
+      ],
+      "english": "Your instruction is good.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c22-06",
+      "unit": 22,
+      "direction": "he-en",
+      "hebrew": [
+        "אִמּוֹ חֲכָמָה"
+      ],
+      "english": "His mother is wise.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c22-07",
+      "unit": 22,
+      "direction": "en-he",
+      "hebrew": [
+        "הַנָּבִיא יָצָא מִבֵּיתוֹ",
+        "יָצָא הַנָּבִיא מִבֵּיתוֹ"
+      ],
+      "english": "The prophet went out from his house."
+    },
+    {
+      "id": "c22-08",
+      "unit": 22,
+      "direction": "he-en",
+      "hebrew": [
+        "יָדוֹ עַל־הָעִיר"
+      ],
+      "english": "His hand is upon the city.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c22-09",
+      "unit": 22,
+      "direction": "he-en",
+      "hebrew": [
+        "רוּחוֹ טוֹבָה"
+      ],
+      "english": "His spirit is good.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c22-10",
+      "unit": 22,
+      "direction": "en-he",
+      "hebrew": [
+        "עִירוֹ גְּדוֹלָה",
+        "גְּדוֹלָה עִירוֹ"
+      ],
+      "english": "His city is great.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c22-11",
+      "unit": 22,
+      "direction": "he-en",
+      "hebrew": [
+        "אָבִיו יָשַׁב לִפְנֵי הַהֵיכָל"
+      ],
+      "english": "His father sat before the palace."
+    },
+    {
+      "id": "c22-12",
+      "unit": 22,
+      "direction": "he-en",
+      "hebrew": [
+        "אֱלֹהֵינוּ קָדוֹשׁ"
+      ],
+      "english": "Our God is holy.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c22-13",
+      "unit": 22,
+      "direction": "en-he",
+      "hebrew": [
+        "אֱלֹהֵינוּ גָּדוֹל",
+        "גָּדוֹל אֱלֹהֵינוּ"
+      ],
+      "english": "Our God is great.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c22-14",
+      "unit": 22,
+      "direction": "he-en",
+      "hebrew": [
+        "דָּמוֹ עַל־הָאֲדָמָה"
+      ],
+      "english": "His blood is on the ground.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c22-15",
+      "unit": 22,
+      "direction": "he-en",
+      "hebrew": [
+        "הָאִישׁ הָלַךְ עִם־אָבִיו"
+      ],
+      "english": "The man went with his father."
+    },
+    {
+      "id": "c22-16",
+      "unit": 22,
+      "direction": "he-en",
+      "hebrew": [
+        "מִצְוֹתֶיךָ טוֹבוֹת"
+      ],
+      "english": "Your commandments are good.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c22-17",
+      "unit": 22,
+      "direction": "en-he",
+      "hebrew": [
+        "אִשְׁתּוֹ חֲכָמָה וְטוֹבָה"
+      ],
+      "english": "His wife is wise and good.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c22-18",
+      "unit": 22,
+      "direction": "he-en",
+      "hebrew": [
+        "יָשַׁב הַנָּבִיא בְּבֵיתוֹ"
+      ],
+      "english": "The prophet sat in his house."
+    },
+    {
+      "id": "c22-19",
+      "unit": 22,
+      "direction": "he-en",
+      "hebrew": [
+        "הַשַּׂר יָצָא מֵהֵיכָלוֹ"
+      ],
+      "english": "The prince went out from his palace."
+    },
+    {
+      "id": "c22-20",
+      "unit": 22,
+      "direction": "en-he",
+      "hebrew": [
+        "אָבִי וְאִמִּי בָּעִיר"
+      ],
+      "english": "My father and my mother are in the city.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c22-21",
+      "unit": 22,
+      "direction": "he-en",
+      "hebrew": [
+        "הָאִישׁ יָשַׁב לְפָנָיו"
+      ],
+      "english": "The man sat before him."
+    },
+    {
+      "id": "c23-01",
+      "unit": 23,
+      "direction": "he-en",
+      "hebrew": [
+        "אֱלֹהִים עִמָּנוּ"
+      ],
+      "english": "God is with us.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c23-02",
+      "unit": 23,
+      "direction": "en-he",
+      "hebrew": [
+        "הַנָּבִיא הָלַךְ עִמּוֹ",
+        "הָלַךְ הַנָּבִיא עִמּוֹ"
+      ],
+      "english": "The prophet went with him."
+    },
+    {
+      "id": "c23-03",
+      "unit": 23,
+      "direction": "he-en",
+      "hebrew": [
+        "שָׁלוֹם לְךָ"
+      ],
+      "english": "Peace to you.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c23-04",
+      "unit": 23,
+      "direction": "he-en",
+      "hebrew": [
+        "יְשׁוּעָתִי בֵּאלֹהִים"
+      ],
+      "english": "My salvation is in God.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c23-05",
+      "unit": 23,
+      "direction": "he-en",
+      "hebrew": [
+        "יָדוֹ עָלֵינוּ"
+      ],
+      "english": "His hand is upon us.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c23-06",
+      "unit": 23,
+      "direction": "en-he",
+      "hebrew": [
+        "הָאִשָּׁה עִמִּי"
+      ],
+      "english": "The woman is with me.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c23-07",
+      "unit": 23,
+      "direction": "en-he",
+      "hebrew": [
+        "הַנָּבִיא אָמַר אֵלָיו",
+        "אָמַר הַנָּבִיא אֵלָיו"
+      ],
+      "english": "The prophet said to him."
+    },
+    {
+      "id": "c23-08",
+      "unit": 23,
+      "direction": "he-en",
+      "hebrew": [
+        "אֱלֹהִים אָמַר אֵלֵינוּ"
+      ],
+      "english": "God said to us."
+    },
+    {
+      "id": "c23-09",
+      "unit": 23,
+      "direction": "he-en",
+      "hebrew": [
+        "הָאִישׁ יָשַׁב עַל־הָהָר עַד־הָעֶרֶב"
+      ],
+      "english": "The man sat on the mountain until the evening."
+    },
+    {
+      "id": "c23-10",
+      "unit": 23,
+      "direction": "en-he",
+      "hebrew": [
+        "הָעָם יָשַׁב שָׁם עַד־הַבֹּקֶר",
+        "יָשַׁב הָעָם שָׁם עַד־הַבֹּקֶר"
+      ],
+      "english": "The people stayed there until the morning."
+    },
+    {
+      "id": "c23-11",
+      "unit": 23,
+      "direction": "he-en",
+      "hebrew": [
+        "דָּמוֹ בְּרֹאשׁוֹ"
+      ],
+      "english": "His blood is on his head.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c23-12",
+      "unit": 23,
+      "direction": "he-en",
+      "hebrew": [
+        "הָאָרֶץ לָנוּ"
+      ],
+      "english": "The land is ours.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c23-13",
+      "unit": 23,
+      "direction": "en-he",
+      "hebrew": [
+        "הַכֶּסֶף לוֹ"
+      ],
+      "english": "The silver is his.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c23-14",
+      "unit": 23,
+      "direction": "he-en",
+      "hebrew": [
+        "הַזָּהָב לָהֶם"
+      ],
+      "english": "The gold is theirs.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c23-15",
+      "unit": 23,
+      "direction": "en-he",
+      "hebrew": [
+        "הָאִישׁ רָאָה עִיר גְּדוֹלָה",
+        "רָאָה הָאִישׁ עִיר גְּדוֹלָה"
+      ],
+      "english": "The man saw a great city."
+    },
+    {
+      "id": "c24-01",
+      "unit": 24,
+      "direction": "he-en",
+      "hebrew": [
+        "הָאִישׁ הַזֶּה חָכָם"
+      ],
+      "english": "This man is wise.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c24-02",
+      "unit": 24,
+      "direction": "en-he",
+      "hebrew": [
+        "הָעִיר הַזֹּאת גְּדוֹלָה",
+        "גְּדוֹלָה הָעִיר הַזֹּאת"
+      ],
+      "english": "This city is great.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c24-03",
+      "unit": 24,
+      "direction": "he-en",
+      "hebrew": [
+        "זֶה הַיּוֹם"
+      ],
+      "english": "This is the day.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c24-04",
+      "unit": 24,
+      "direction": "he-en",
+      "hebrew": [
+        "אֵלֶּה הָאֲנָשִׁים"
+      ],
+      "english": "These are the men.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c24-05",
+      "unit": 24,
+      "direction": "en-he",
+      "hebrew": [
+        "הָאֲנָשִׁים הָאֵלֶּה רָעִים",
+        "רָעִים הָאֲנָשִׁים הָאֵלֶּה"
+      ],
+      "english": "These men are evil.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c24-06",
+      "unit": 24,
+      "direction": "he-en",
+      "hebrew": [
+        "בַּיּוֹם הַהוּא יָצָא הַנָּבִיא מִן־הָעִיר"
+      ],
+      "english": "On that day the prophet went out from the city.",
+      "tags": [
+        "demonstrative"
+      ]
+    },
+    {
+      "id": "c24-07",
+      "unit": 24,
+      "direction": "he-en",
+      "hebrew": [
+        "שָׁב הָאִישׁ אֶל־בֵּית אָבִיו"
+      ],
+      "english": "The man returned to his father's house."
+    },
+    {
+      "id": "c24-08",
+      "unit": 24,
+      "direction": "en-he",
+      "hebrew": [
+        "הָעָם שָׁב אֶל־הָאָרֶץ הַזֹּאת",
+        "שָׁב הָעָם אֶל־הָאָרֶץ הַזֹּאת"
+      ],
+      "english": "The people returned to this land."
+    },
+    {
+      "id": "c24-09",
+      "unit": 24,
+      "direction": "he-en",
+      "hebrew": [
+        "זֹאת הַתּוֹרָה"
+      ],
+      "english": "This is the instruction.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c24-10",
+      "unit": 24,
+      "direction": "he-en",
+      "hebrew": [
+        "הַזָּהָב הַזֶּה מִן־הָאָרֶץ הַהִיא"
+      ],
+      "english": "This gold is from that land.",
+      "tags": [
+        "verbless",
+        "demonstrative"
+      ]
+    },
+    {
+      "id": "c24-11",
+      "unit": 24,
+      "direction": "en-he",
+      "hebrew": [
+        "הָאִשָּׁה הַזֹּאת חֲכָמָה מְאֹד"
+      ],
+      "english": "This woman is very wise.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c24-12",
+      "unit": 24,
+      "direction": "he-en",
+      "hebrew": [
+        "הַיּוֹם הַזֶּה טוֹב"
+      ],
+      "english": "This day is good.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c25-01",
+      "unit": 25,
+      "direction": "he-en",
+      "hebrew": [
+        "מִי הָאִישׁ הַזֶּה"
+      ],
+      "english": "Who is this man?",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c25-02",
+      "unit": 25,
+      "direction": "en-he",
+      "hebrew": [
+        "מַה־שְּׁמוֹ",
+        "מַה שְּׁמוֹ"
+      ],
+      "english": "What is his name?",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c25-03",
+      "unit": 25,
+      "direction": "he-en",
+      "hebrew": [
+        "הָאִישׁ אֲשֶׁר יָשַׁב בָּעִיר חָכָם"
+      ],
+      "english": "The man who dwelt in the city is wise.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c25-04",
+      "unit": 25,
+      "direction": "en-he",
+      "hebrew": [
+        "מִי עָלָה אֶל־הָהָר"
+      ],
+      "english": "Who went up to the mountain?"
+    },
+    {
+      "id": "c25-05",
+      "unit": 25,
+      "direction": "he-en",
+      "hebrew": [
+        "הָעִיר אֲשֶׁר עַל־הָהָר גְּדוֹלָה"
+      ],
+      "english": "The city which is on the mountain is great.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c25-06",
+      "unit": 25,
+      "direction": "he-en",
+      "hebrew": [
+        "מָה הַחֲלוֹם הַזֶּה"
+      ],
+      "english": "What is this dream?",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c25-07",
+      "unit": 25,
+      "direction": "en-he",
+      "hebrew": [
+        "הַנָּבִיא עָלָה הָהָרָה",
+        "עָלָה הַנָּבִיא הָהָרָה"
+      ],
+      "english": "The prophet went up to the mountain."
+    },
+    {
+      "id": "c25-08",
+      "unit": 25,
+      "direction": "he-en",
+      "hebrew": [
+        "מִי אַתָּה"
+      ],
+      "english": "Who are you?",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c25-09",
+      "unit": 25,
+      "direction": "en-he",
+      "hebrew": [
+        "הַמִּלְחָמָה גְּדוֹלָה",
+        "גְּדוֹלָה הַמִּלְחָמָה"
+      ],
+      "english": "The war is great.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c25-10",
+      "unit": 25,
+      "direction": "he-en",
+      "hebrew": [
+        "הָאִישׁ נָשָׂא עֵינָיו"
+      ],
+      "english": "The man lifted up his eyes."
+    },
+    {
+      "id": "c25-11",
+      "unit": 25,
+      "direction": "he-en",
+      "hebrew": [
+        "מַה־זֹּאת"
+      ],
+      "english": "What is this?",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c26-01",
+      "unit": 26,
+      "direction": "he-en",
+      "hebrew": [
+        "הָאִישׁ זָכַר אֶת־אָבִיו"
+      ],
+      "english": "The man remembered his father."
+    },
+    {
+      "id": "c26-02",
+      "unit": 26,
+      "direction": "en-he",
+      "hebrew": [
+        "אֱלֹהִים זָכַר אֶת־הָעָם",
+        "זָכַר אֱלֹהִים אֶת־הָעָם"
+      ],
+      "english": "God remembered the people."
+    },
+    {
+      "id": "c26-03",
+      "unit": 26,
+      "direction": "he-en",
+      "hebrew": [
+        "הַנָּבִיא שָׁלַח אֶת־הָעֶבֶד"
+      ],
+      "english": "The prophet sent the servant."
+    },
+    {
+      "id": "c26-04",
+      "unit": 26,
+      "direction": "he-en",
+      "hebrew": [
+        "הָאִישׁ לָקַח אֶת־הַחֶרֶב"
+      ],
+      "english": "The man took the sword."
+    },
+    {
+      "id": "c26-05",
+      "unit": 26,
+      "direction": "en-he",
+      "hebrew": [
+        "הָעֶבֶד לָקַח אֶת־הַלֶּחֶם",
+        "לָקַח הָעֶבֶד אֶת־הַלֶּחֶם"
+      ],
+      "english": "The servant took the bread."
+    },
+    {
+      "id": "c26-06",
+      "unit": 26,
+      "direction": "he-en",
+      "hebrew": [
+        "אֱלֹהִים בָּרָא אֶת־הַשָּׁמַיִם וְאֶת־הָאָרֶץ"
+      ],
+      "english": "God created the heavens and the earth."
+    },
+    {
+      "id": "c26-08",
+      "unit": 26,
+      "direction": "he-en",
+      "hebrew": [
+        "גַּם הוּא הָלַךְ אֶל־הָעִיר"
+      ],
+      "english": "He also went to the city."
+    },
+    {
+      "id": "c26-09",
+      "unit": 26,
+      "direction": "en-he",
+      "hebrew": [
+        "הָאִישׁ רָאָה אֶת־הַכּוֹכָבִים",
+        "רָאָה הָאִישׁ אֶת־הַכּוֹכָבִים"
+      ],
+      "english": "The man saw the stars."
+    },
+    {
+      "id": "c26-10",
+      "unit": 26,
+      "direction": "he-en",
+      "hebrew": [
+        "הָעָם אָכַל אֶת־הַלֶּחֶם"
+      ],
+      "english": "The people ate the bread."
+    },
+    {
+      "id": "c26-11",
+      "unit": 26,
+      "direction": "he-en",
+      "hebrew": [
+        "הַדֶּרֶךְ הַזֹּאת טוֹבָה"
+      ],
+      "english": "This way is good.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c26-12",
+      "unit": 26,
+      "direction": "en-he",
+      "hebrew": [
+        "הוּא נָתַן אֶת־הַכֶּסֶף לָאִישׁ",
+        "נָתַן אֶת־הַכֶּסֶף לָאִישׁ"
+      ],
+      "english": "He gave the silver to the man."
+    },
+    {
+      "id": "c26-13",
+      "unit": 26,
+      "direction": "he-en",
+      "hebrew": [
+        "לָכֵן שָׁב הָעָם אֶל־הָעִיר"
+      ],
+      "english": "Therefore the people returned to the city."
+    },
+    {
+      "id": "c27-01",
+      "unit": 27,
+      "direction": "he-en",
+      "hebrew": [
+        "הַדָּבָר הַזֶּה טוֹב"
+      ],
+      "english": "This word is good.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c27-02",
+      "unit": 27,
+      "direction": "en-he",
+      "hebrew": [
+        "כֹּה אָמַר הַנָּבִיא"
+      ],
+      "english": "Thus said the prophet."
+    },
+    {
+      "id": "c27-03",
+      "unit": 27,
+      "direction": "he-en",
+      "hebrew": [
+        "דִּבְרֵי הַנָּבִיא"
+      ],
+      "english": "The words of the prophet"
+    },
+    {
+      "id": "c27-04",
+      "unit": 27,
+      "direction": "en-he",
+      "hebrew": [
+        "אַחֲרֵי הַדְּבָרִים הָאֵלֶּה",
+        "אַחַר הַדְּבָרִים הָאֵלֶּה"
+      ],
+      "english": "After these things"
+    },
+    {
+      "id": "c27-05",
+      "unit": 27,
+      "direction": "he-en",
+      "hebrew": [
+        "הַגּוֹי הַגָּדוֹל"
+      ],
+      "english": "The great nation"
+    },
+    {
+      "id": "c27-06",
+      "unit": 27,
+      "direction": "he-en",
+      "hebrew": [
+        "הָעָם הָלַךְ אַחֲרֵי הַנָּבִיא"
+      ],
+      "english": "The people went after the prophet."
+    },
+    {
+      "id": "c27-07",
+      "unit": 27,
+      "direction": "en-he",
+      "hebrew": [
+        "הָאִישׁ חַי"
+      ],
+      "english": "The man is alive.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c27-08",
+      "unit": 27,
+      "direction": "he-en",
+      "hebrew": [
+        "דְּבָרֶיךָ טוֹבִים"
+      ],
+      "english": "Your words are good.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c27-09",
+      "unit": 27,
+      "direction": "en-he",
+      "hebrew": [
+        "הוּא שָׁמַע אֶת־דִּבְרֵי הַנָּבִיא",
+        "שָׁמַע אֶת־דִּבְרֵי הַנָּבִיא"
+      ],
+      "english": "He heard the words of the prophet."
+    },
+    {
+      "id": "c27-10",
+      "unit": 27,
+      "direction": "he-en",
+      "hebrew": [
+        "אֱלֹהִים חַיִּים"
+      ],
+      "english": "The living God"
+    },
+    {
+      "id": "c27-11",
+      "unit": 27,
+      "direction": "he-en",
+      "hebrew": [
+        "הָעָם יָשַׁב תַּחַת הָהָר"
+      ],
+      "english": "The people sat beneath the mountain."
+    },
+    {
+      "id": "c27-12",
+      "unit": 27,
+      "direction": "he-en",
+      "hebrew": [
+        "כֹּה אָמַר אֱלֹהִים אֶל־הָעָם"
+      ],
+      "english": "Thus said God to the people."
+    },
+    {
+      "id": "c27-13",
+      "unit": 27,
+      "direction": "he-en",
+      "hebrew": [
+        "הַדָּבָר אֲשֶׁר אָמַר הַנָּבִיא טוֹב"
+      ],
+      "english": "The word which the prophet spoke is good.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c27-14",
+      "unit": 27,
+      "direction": "he-en",
+      "hebrew": [
+        "כָּבֵד הַדָּבָר מְאֹד"
+      ],
+      "english": "The matter is very heavy.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c28-01",
+      "unit": 28,
+      "direction": "he-en",
+      "hebrew": [
+        "הַמֶּלֶךְ יָשַׁב בַּהֵיכָל"
+      ],
+      "english": "The king sat in the palace."
+    },
+    {
+      "id": "c28-02",
+      "unit": 28,
+      "direction": "en-he",
+      "hebrew": [
+        "מַלְכִּי גָּדוֹל",
+        "גָּדוֹל מַלְכִּי"
+      ],
+      "english": "My king is great.",
+      "tags": [
+        "verbless",
+        "segholate"
+      ]
+    },
+    {
+      "id": "c28-03",
+      "unit": 28,
+      "direction": "he-en",
+      "hebrew": [
+        "מַלְכֵי הָאָרֶץ"
+      ],
+      "english": "The kings of the earth",
+      "tags": [
+        "segholate"
+      ]
+    },
+    {
+      "id": "c28-04",
+      "unit": 28,
+      "direction": "en-he",
+      "hebrew": [
+        "הַמְּלָכִים הָאֵלֶּה רָעִים",
+        "רָעִים הַמְּלָכִים הָאֵלֶּה"
+      ],
+      "english": "These kings are evil.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c28-05",
+      "unit": 28,
+      "direction": "he-en",
+      "hebrew": [
+        "הַנָּבִיא מָצָא סֵפֶר"
+      ],
+      "english": "The prophet found a book."
+    },
+    {
+      "id": "c28-06",
+      "unit": 28,
+      "direction": "en-he",
+      "hebrew": [
+        "הָאִישׁ נָפַל עַל־הָאָרֶץ",
+        "נָפַל הָאִישׁ עַל־הָאָרֶץ"
+      ],
+      "english": "The man fell to the ground."
+    },
+    {
+      "id": "c28-08",
+      "unit": 28,
+      "direction": "he-en",
+      "hebrew": [
+        "עַתָּה הַמֶּלֶךְ בָּעִיר"
+      ],
+      "english": "Now the king is in the city.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c28-09",
+      "unit": 28,
+      "direction": "en-he",
+      "hebrew": [
+        "עַמִּים רַבִּים"
+      ],
+      "english": "Many peoples"
+    },
+    {
+      "id": "c28-10",
+      "unit": 28,
+      "direction": "he-en",
+      "hebrew": [
+        "הַסֵּפֶר הַזֶּה טוֹב"
+      ],
+      "english": "This book is good.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c28-11",
+      "unit": 28,
+      "direction": "he-en",
+      "hebrew": [
+        "דַּרְכּוֹ טוֹבָה"
+      ],
+      "english": "His way is good.",
+      "tags": [
+        "verbless",
+        "segholate"
+      ]
+    },
+    {
+      "id": "c28-12",
+      "unit": 28,
+      "direction": "en-he",
+      "hebrew": [
+        "הַמֶּלֶךְ שָׁלַח אֶת־עַבְדּוֹ",
+        "שָׁלַח הַמֶּלֶךְ אֶת־עַבְדּוֹ"
+      ],
+      "english": "The king sent his servant.",
+      "tags": [
+        "segholate"
+      ]
+    },
+    {
+      "id": "c28-13",
+      "unit": 28,
+      "direction": "he-en",
+      "hebrew": [
+        "חַסְדּוֹ גָּדוֹל"
+      ],
+      "english": "His steadfast love is great.",
+      "tags": [
+        "verbless",
+        "segholate"
+      ]
+    },
+    {
+      "id": "c28-14",
+      "unit": 28,
+      "direction": "he-en",
+      "hebrew": [
+        "נַפְשִׁי בְּיָדוֹ"
+      ],
+      "english": "My life is in his hand.",
+      "tags": [
+        "verbless",
+        "segholate"
+      ]
+    },
+    {
+      "id": "c28-15",
+      "unit": 28,
+      "direction": "en-he",
+      "hebrew": [
+        "הַמֶּלֶךְ מָצָא אֶת־הַכֶּסֶף",
+        "מָצָא הַמֶּלֶךְ אֶת־הַכֶּסֶף"
+      ],
+      "english": "The king found the silver."
+    },
+    {
+      "id": "c29-01",
+      "unit": 29,
+      "direction": "he-en",
+      "hebrew": [
+        "טוֹב שֵׁם מֵעֹשֶׁר"
+      ],
+      "english": "A name is better than wealth.",
+      "tags": [
+        "verbless",
+        "comparison"
+      ]
+    },
+    {
+      "id": "c29-02",
+      "unit": 29,
+      "direction": "en-he",
+      "hebrew": [
+        "הַמֶּלֶךְ גָּדוֹל מִן־הָעָם",
+        "הַמֶּלֶךְ גָּדוֹל מֵהָעָם"
+      ],
+      "english": "The king is greater than the people.",
+      "tags": [
+        "verbless",
+        "comparison"
+      ]
+    },
+    {
+      "id": "c29-03",
+      "unit": 29,
+      "direction": "he-en",
+      "hebrew": [
+        "הַזָּהָב טוֹב מִן־הַכֶּסֶף"
+      ],
+      "english": "The gold is better than the silver.",
+      "tags": [
+        "verbless",
+        "comparison"
+      ]
+    },
+    {
+      "id": "c29-04",
+      "unit": 29,
+      "direction": "he-en",
+      "hebrew": [
+        "חָכָם הוּא מִכָּל־הָאָדָם"
+      ],
+      "english": "He is wiser than all men.",
+      "tags": [
+        "verbless",
+        "comparison"
+      ]
+    },
+    {
+      "id": "c29-05",
+      "unit": 29,
+      "direction": "en-he",
+      "hebrew": [
+        "מִשְׁפָּטָיו יְשָׁרִים",
+        "יְשָׁרִים מִשְׁפָּטָיו"
+      ],
+      "english": "His judgments are upright.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c29-06",
+      "unit": 29,
+      "direction": "he-en",
+      "hebrew": [
+        "הַמִּזְבֵּחַ לִפְנֵי הַהֵיכָל"
+      ],
+      "english": "The altar is before the temple.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c29-07",
+      "unit": 29,
+      "direction": "he-en",
+      "hebrew": [
+        "הוּא הַגָּדוֹל מִכֻּלָּם"
+      ],
+      "english": "He is the greatest of them all.",
+      "tags": [
+        "verbless",
+        "comparison"
+      ]
+    },
+    {
+      "id": "c30-01",
+      "unit": 30,
+      "direction": "he-en",
+      "hebrew": [
+        "שְׁנֵי אֲנָשִׁים"
+      ],
+      "english": "Two men"
+    },
+    {
+      "id": "c30-02",
+      "unit": 30,
+      "direction": "en-he",
+      "hebrew": [
+        "שָׁלֹשׁ עָרִים"
+      ],
+      "english": "Three cities"
+    },
+    {
+      "id": "c30-03",
+      "unit": 30,
+      "direction": "he-en",
+      "hebrew": [
+        "שִׁבְעָה יָמִים"
+      ],
+      "english": "Seven days"
+    },
+    {
+      "id": "c30-04",
+      "unit": 30,
+      "direction": "en-he",
+      "hebrew": [
+        "שֶׁבַע שָׁנִים"
+      ],
+      "english": "Seven years"
+    },
+    {
+      "id": "c30-05",
+      "unit": 30,
+      "direction": "he-en",
+      "hebrew": [
+        "אִישׁ אֶחָד בָּא אֶל־הָעִיר"
+      ],
+      "english": "One man came to the city."
+    },
+    {
+      "id": "c30-06",
+      "unit": 30,
+      "direction": "he-en",
+      "hebrew": [
+        "עֶשֶׂר שָׁנִים"
+      ],
+      "english": "Ten years"
+    },
+    {
+      "id": "c30-07",
+      "unit": 30,
+      "direction": "he-en",
+      "hebrew": [
+        "מֵאָה אִישׁ"
+      ],
+      "english": "A hundred men"
+    },
+    {
+      "id": "c30-08",
+      "unit": 30,
+      "direction": "he-en",
+      "hebrew": [
+        "אֶלֶף אִישׁ"
+      ],
+      "english": "A thousand men"
+    },
+    {
+      "id": "c30-09",
+      "unit": 30,
+      "direction": "he-en",
+      "hebrew": [
+        "הָאִישׁ יָשַׁב שָׁם שִׁבְעָה יָמִים"
+      ],
+      "english": "The man stayed there seven days."
+    },
+    {
+      "id": "c30-10",
+      "unit": 30,
+      "direction": "en-he",
+      "hebrew": [
+        "שְׁנֵי הָאֲנָשִׁים בָּעִיר"
+      ],
+      "english": "The two men are in the city.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c30-11",
+      "unit": 30,
+      "direction": "he-en",
+      "hebrew": [
+        "חָמֵשׁ שָׁנִים"
+      ],
+      "english": "Five years"
+    },
+    {
+      "id": "c30-12",
+      "unit": 30,
+      "direction": "he-en",
+      "hebrew": [
+        "הַמֶּלֶךְ מָלַךְ שֶׁבַע שָׁנִים"
+      ],
+      "english": "The king reigned seven years."
+    },
+    {
+      "id": "c30-13",
+      "unit": 30,
+      "direction": "en-he",
+      "hebrew": [
+        "יוֹם אֶחָד"
+      ],
+      "english": "One day"
+    },
+    {
+      "id": "c30-14",
+      "unit": 30,
+      "direction": "he-en",
+      "hebrew": [
+        "בַּיּוֹם הַשְּׁבִיעִי שַׁבָּת"
+      ],
+      "english": "On the seventh day is a Sabbath.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c30-15",
+      "unit": 30,
+      "direction": "he-en",
+      "hebrew": [
+        "שְׁתֵּי נָשִׁים"
+      ],
+      "english": "Two women"
+    },
+    {
+      "id": "c30-16",
+      "unit": 30,
+      "direction": "he-en",
+      "hebrew": [
+        "מָאתַיִם אִישׁ"
+      ],
+      "english": "Two hundred men"
+    },
+    {
+      "id": "c31-01",
+      "unit": 31,
+      "direction": "he-en",
+      "hebrew": [
+        "אַרְבָּעִים יוֹם"
+      ],
+      "english": "Forty days"
+    },
+    {
+      "id": "c31-02",
+      "unit": 31,
+      "direction": "en-he",
+      "hebrew": [
+        "אַרְבָּעִים שָׁנָה"
+      ],
+      "english": "Forty years"
+    },
+    {
+      "id": "c31-03",
+      "unit": 31,
+      "direction": "he-en",
+      "hebrew": [
+        "חֲמִשִּׁים אִישׁ"
+      ],
+      "english": "Fifty men"
+    },
+    {
+      "id": "c31-04",
+      "unit": 31,
+      "direction": "he-en",
+      "hebrew": [
+        "אַחַד עָשָׂר אִישׁ"
+      ],
+      "english": "Eleven men"
+    },
+    {
+      "id": "c31-05",
+      "unit": 31,
+      "direction": "he-en",
+      "hebrew": [
+        "בַּיּוֹם הָרִאשׁוֹן"
+      ],
+      "english": "On the first day"
+    },
+    {
+      "id": "c31-06",
+      "unit": 31,
+      "direction": "en-he",
+      "hebrew": [
+        "הַחֹדֶשׁ הָרִאשׁוֹן"
+      ],
+      "english": "The first month"
+    },
+    {
+      "id": "c31-07",
+      "unit": 31,
+      "direction": "he-en",
+      "hebrew": [
+        "הַמֶּלֶךְ מָלַךְ אַרְבָּעִים שָׁנָה"
+      ],
+      "english": "The king reigned forty years."
+    },
+    {
+      "id": "c31-08",
+      "unit": 31,
+      "direction": "en-he",
+      "hebrew": [
+        "הָאִישׁ יָשַׁב שָׁם אַרְבָּעִים יוֹם",
+        "יָשַׁב הָאִישׁ שָׁם אַרְבָּעִים יוֹם"
+      ],
+      "english": "The man stayed there forty days."
+    },
+    {
+      "id": "c31-09",
+      "unit": 31,
+      "direction": "he-en",
+      "hebrew": [
+        "שִׁשִּׁים עִיר"
+      ],
+      "english": "Sixty cities"
+    },
+    {
+      "id": "c31-10",
+      "unit": 31,
+      "direction": "he-en",
+      "hebrew": [
+        "שְׁמֹנִים אִישׁ"
+      ],
+      "english": "Eighty men"
+    },
+    {
+      "id": "c31-11",
+      "unit": 31,
+      "direction": "en-he",
+      "hebrew": [
+        "תִּשְׁעִים שָׁנָה"
+      ],
+      "english": "Ninety years"
+    },
+    {
+      "id": "c31-12",
+      "unit": 31,
+      "direction": "he-en",
+      "hebrew": [
+        "בַּשָּׁנָה הָרִאשׁוֹנָה"
+      ],
+      "english": "In the first year"
+    },
+    {
+      "id": "c32-01",
+      "unit": 32,
+      "direction": "he-en",
+      "hebrew": [
+        "הֲטוֹב הַדָּבָר"
+      ],
+      "english": "Is the word good?",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c32-02",
+      "unit": 32,
+      "direction": "en-he",
+      "hebrew": [
+        "הַאַתָּה הָאִישׁ"
+      ],
+      "english": "Are you the man?",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c32-03",
+      "unit": 32,
+      "direction": "he-en",
+      "hebrew": [
+        "אֵין לֶחֶם בָּעִיר"
+      ],
+      "english": "There is no bread in the city.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c32-04",
+      "unit": 32,
+      "direction": "en-he",
+      "hebrew": [
+        "אֵין אִישׁ בָּעִיר"
+      ],
+      "english": "There is no man in the city.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c32-05",
+      "unit": 32,
+      "direction": "he-en",
+      "hebrew": [
+        "הַמֶּלֶךְ בָּנָה עִיר"
+      ],
+      "english": "The king built a city."
+    },
+    {
+      "id": "c32-06",
+      "unit": 32,
+      "direction": "he-en",
+      "hebrew": [
+        "הָהָר גָּבֹהַּ מְאֹד"
+      ],
+      "english": "The mountain is very high.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c32-07",
+      "unit": 32,
+      "direction": "en-he",
+      "hebrew": [
+        "הָאֵשׁ עַל־הַמִּזְבֵּחַ"
+      ],
+      "english": "The fire is on the altar.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c32-08",
+      "unit": 32,
+      "direction": "he-en",
+      "hebrew": [
+        "בֵּין הָעִיר וּבֵין הָהָר"
+      ],
+      "english": "Between the city and the mountain"
+    },
+    {
+      "id": "c32-09",
+      "unit": 32,
+      "direction": "he-en",
+      "hebrew": [
+        "הֲשָׁלוֹם לָאִישׁ"
+      ],
+      "english": "Is it well with the man?",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c32-10",
+      "unit": 32,
+      "direction": "en-he",
+      "hebrew": [
+        "אֵין אֱלֹהִים כֵּאלֹהֵינוּ"
+      ],
+      "english": "There is no god like our God.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c32-11",
+      "unit": 32,
+      "direction": "he-en",
+      "hebrew": [
+        "הַיּוֹם הַשְּׁלִישִׁי"
+      ],
+      "english": "The third day"
+    },
+    {
+      "id": "c32-12",
+      "unit": 32,
+      "direction": "he-en",
+      "hebrew": [
+        "הַמֶּלֶךְ בָּנָה מִזְבֵּחַ"
+      ],
+      "english": "The king built an altar."
+    },
+    {
+      "id": "c32-13",
+      "unit": 32,
+      "direction": "en-he",
+      "hebrew": [
+        "הֲטוֹבָה הָאָרֶץ"
+      ],
+      "english": "Is the land good?",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c32-14",
+      "unit": 32,
+      "direction": "he-en",
+      "hebrew": [
+        "הֲלֹא אֱלֹהִים בַּשָּׁמַיִם"
+      ],
+      "english": "Is not God in the heavens?",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c32-15",
+      "unit": 32,
+      "direction": "he-en",
+      "hebrew": [
+        "אֵין זֶה כִּי אִם־בֵּית אֱלֹהִים"
+      ],
+      "english": "This is none other than the house of God.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c33-01",
+      "unit": 33,
+      "direction": "he-en",
+      "hebrew": [
+        "אִם הָאִישׁ הַזֶּה נָבִיא אֱלֹהִים עִמּוֹ"
+      ],
+      "english": "If this man is a prophet, God is with him.",
+      "tags": [
+        "purpose",
+        "verbless"
+      ]
+    },
+    {
+      "id": "c33-02",
+      "unit": 33,
+      "direction": "he-en",
+      "hebrew": [
+        "הָאִישׁ יָשַׁב בַּשַּׁעַר"
+      ],
+      "english": "The man sat in the gate."
+    },
+    {
+      "id": "c33-03",
+      "unit": 33,
+      "direction": "en-he",
+      "hebrew": [
+        "הַנָּבִיא יָשַׁב בָּאֹהֶל",
+        "יָשַׁב הַנָּבִיא בָּאֹהֶל"
+      ],
+      "english": "The prophet sat in the tent."
+    },
+    {
+      "id": "c33-04",
+      "unit": 33,
+      "direction": "he-en",
+      "hebrew": [
+        "הָעָם סָבִיב לָעִיר"
+      ],
+      "english": "The people are around the city.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c33-05",
+      "unit": 33,
+      "direction": "he-en",
+      "hebrew": [
+        "שַׁעַר הָעִיר"
+      ],
+      "english": "The gate of the city",
+      "tags": [
+        "construct"
+      ]
+    },
+    {
+      "id": "c33-06",
+      "unit": 33,
+      "direction": "en-he",
+      "hebrew": [
+        "הַמֶּלֶךְ יָצָא מִן־הַשַּׁעַר",
+        "יָצָא הַמֶּלֶךְ מִן־הַשַּׁעַר"
+      ],
+      "english": "The king went out from the gate."
+    },
+    {
+      "id": "c33-07",
+      "unit": 33,
+      "direction": "he-en",
+      "hebrew": [
+        "אֹהֶל הַמֶּלֶךְ"
+      ],
+      "english": "The tent of the king",
+      "tags": [
+        "construct"
+      ]
+    },
+    {
+      "id": "c33-08",
+      "unit": 33,
+      "direction": "he-en",
+      "hebrew": [
+        "הַחֹדֶשׁ הַשְּׁמִינִי"
+      ],
+      "english": "The eighth month"
+    },
+    {
+      "id": "c33-09",
+      "unit": 33,
+      "direction": "he-en",
+      "hebrew": [
+        "בַּיּוֹם הָעֲשִׂירִי"
+      ],
+      "english": "On the tenth day"
+    },
+    {
+      "id": "c34-01",
+      "unit": 34,
+      "direction": "he-en",
+      "hebrew": [
+        "הִנֵּה הָאִישׁ"
+      ],
+      "english": "Behold, the man!",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c34-02",
+      "unit": 34,
+      "direction": "he-en",
+      "hebrew": [
+        "עוֹד הַמֶּלֶךְ חַי"
+      ],
+      "english": "The king is still alive.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c34-03",
+      "unit": 34,
+      "direction": "he-en",
+      "hebrew": [
+        "הִנֵּה הַמֶּלֶךְ בָּעִיר"
+      ],
+      "english": "Behold, the king is in the city.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c34-04",
+      "unit": 34,
+      "direction": "en-he",
+      "hebrew": [
+        "עוֹד הַנָּבִיא בָּעִיר"
+      ],
+      "english": "The prophet is still in the city.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c34-05",
+      "unit": 34,
+      "direction": "he-en",
+      "hebrew": [
+        "הָאִישׁ יָשַׁב תַּחַת הָעֵץ"
+      ],
+      "english": "The man sat under the tree."
+    },
+    {
+      "id": "c34-06",
+      "unit": 34,
+      "direction": "en-he",
+      "hebrew": [
+        "הָעֵץ הַזֶּה גָּבֹהַּ",
+        "גָּבֹהַּ הָעֵץ הַזֶּה"
+      ],
+      "english": "This tree is high.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c34-07",
+      "unit": 34,
+      "direction": "he-en",
+      "hebrew": [
+        "הַמֶּלֶךְ פָּתַח אֶת־שַׁעַר הָעִיר"
+      ],
+      "english": "The king opened the gate of the city."
+    },
+    {
+      "id": "c34-08",
+      "unit": 34,
+      "direction": "he-en",
+      "hebrew": [
+        "הַנָּהָר הַגָּדוֹל"
+      ],
+      "english": "The great river"
+    },
+    {
+      "id": "c34-09",
+      "unit": 34,
+      "direction": "en-he",
+      "hebrew": [
+        "עֵץ חַיִּים"
+      ],
+      "english": "A tree of life",
+      "tags": [
+        "construct"
+      ]
+    },
+    {
+      "id": "c34-10",
+      "unit": 34,
+      "direction": "he-en",
+      "hebrew": [
+        "הִנֵּה אֲנִי"
+      ],
+      "english": "Here I am.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c35-01",
+      "unit": 35,
+      "direction": "he-en",
+      "hebrew": [
+        "שָׁמַרְתִּי אֶת־הַתּוֹרָה"
+      ],
+      "english": "I kept the instruction."
+    },
+    {
+      "id": "c35-02",
+      "unit": 35,
+      "direction": "en-he",
+      "hebrew": [
+        "שָׁמַרְנוּ אֶת־מִצְוֹתָיו",
+        "אֲנַחְנוּ שָׁמַרְנוּ אֶת־מִצְוֹתָיו"
+      ],
+      "english": "We kept his commandments."
+    },
+    {
+      "id": "c35-03",
+      "unit": 35,
+      "direction": "he-en",
+      "hebrew": [
+        "רָדְפוּ הָאֲנָשִׁים אַחֲרֵי הָאִישׁ"
+      ],
+      "english": "The men pursued the man."
+    },
+    {
+      "id": "c35-04",
+      "unit": 35,
+      "direction": "en-he",
+      "hebrew": [
+        "לָכַד הַמֶּלֶךְ אֶת־הָעִיר",
+        "הַמֶּלֶךְ לָכַד אֶת־הָעִיר"
+      ],
+      "english": "The king captured the city."
+    },
+    {
+      "id": "c35-05",
+      "unit": 35,
+      "direction": "he-en",
+      "hebrew": [
+        "שָׂרְפוּ אֶת־הָעִיר בָּאֵשׁ"
+      ],
+      "english": "They burned the city with fire.",
+      "plain": [
+        "שָׂרְפוּ"
+      ]
+    },
+    {
+      "id": "c35-06",
+      "unit": 35,
+      "direction": "he-en",
+      "hebrew": [
+        "קָבַרְתִּי אֶת־אָבִי"
+      ],
+      "english": "I buried my father."
+    },
+    {
+      "id": "c35-07",
+      "unit": 35,
+      "direction": "en-he",
+      "hebrew": [
+        "זָכַרְתִּי אֶת־הַדָּבָר הַזֶּה",
+        "אֲנִי זָכַרְתִּי אֶת־הַדָּבָר הַזֶּה"
+      ],
+      "english": "I remembered this word."
+    },
+    {
+      "id": "c35-08",
+      "unit": 35,
+      "direction": "he-en",
+      "hebrew": [
+        "הוּא שָׁפַט אֶת־יִשְׂרָאֵל אַרְבָּעִים שָׁנָה"
+      ],
+      "english": "He judged Israel forty years."
+    },
+    {
+      "id": "c35-09",
+      "unit": 35,
+      "direction": "en-he",
+      "hebrew": [
+        "כָּתַבְתִּי אֶת־הַדְּבָרִים הָאֵלֶּה בַּסֵּפֶר",
+        "אֲנִי כָּתַבְתִּי אֶת־הַדְּבָרִים הָאֵלֶּה בַּסֵּפֶר"
+      ],
+      "english": "I wrote these words in the book."
+    },
+    {
+      "id": "c35-10",
+      "unit": 35,
+      "direction": "he-en",
+      "hebrew": [
+        "מָלְכוּ מְלָכִים רַבִּים בָּאָרֶץ"
+      ],
+      "english": "Many kings reigned in the land."
+    },
+    {
+      "id": "c35-11",
+      "unit": 35,
+      "direction": "he-en",
+      "hebrew": [
+        "שָׁכַבְתִּי בַּלַּיְלָה"
+      ],
+      "english": "I lay down in the night."
+    },
+    {
+      "id": "c35-12",
+      "unit": 35,
+      "direction": "he-en",
+      "hebrew": [
+        "פָּקַדְתִּי אֶתְכֶם"
+      ],
+      "english": "I have visited you."
+    },
+    {
+      "id": "c35-13",
+      "unit": 35,
+      "direction": "he-en",
+      "hebrew": [
+        "הַנָּשִׁים שָׁמְרוּ אֶת־הַבְּהֵמָה"
+      ],
+      "english": "The women kept the cattle."
+    },
+    {
+      "id": "c35-14",
+      "unit": 35,
+      "direction": "en-he",
+      "hebrew": [
+        "זָכַרְנוּ אֶת־הַמִּצְוָה",
+        "אֲנַחְנוּ זָכַרְנוּ אֶת־הַמִּצְוָה"
+      ],
+      "english": "We remembered the commandment."
+    },
+    {
+      "id": "c35-15",
+      "unit": 35,
+      "direction": "he-en",
+      "hebrew": [
+        "סָגְרוּ אֶת־שַׁעַר הָעִיר"
+      ],
+      "english": "They shut the gate of the city."
+    },
+    {
+      "id": "c36-01",
+      "unit": 36,
+      "direction": "he-en",
+      "hebrew": [
+        "הַמֶּלֶךְ יֹשֵׁב בַּהֵיכָל"
+      ],
+      "english": "The king is sitting in the palace.",
+      "plain": [
+        "יֹשֵׁב"
+      ]
+    },
+    {
+      "id": "c36-02",
+      "unit": 36,
+      "direction": "en-he",
+      "hebrew": [
+        "הָאִישׁ שֹׁמֵר אֶת־הַתּוֹרָה"
+      ],
+      "english": "The man keeps the instruction."
+    },
+    {
+      "id": "c36-03",
+      "unit": 36,
+      "direction": "he-en",
+      "hebrew": [
+        "בָּרוּךְ הָאִישׁ"
+      ],
+      "english": "Blessed is the man.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c36-04",
+      "unit": 36,
+      "direction": "he-en",
+      "hebrew": [
+        "בָּרוּךְ אֱלֹהִים"
+      ],
+      "english": "Blessed be God.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c36-05",
+      "unit": 36,
+      "direction": "en-he",
+      "hebrew": [
+        "אֲדֹנִי הַמֶּלֶךְ"
+      ],
+      "english": "My lord the king"
+    },
+    {
+      "id": "c36-06",
+      "unit": 36,
+      "direction": "he-en",
+      "hebrew": [
+        "הָעָם יֹשֵׁב בָּאָרֶץ"
+      ],
+      "english": "The people are dwelling in the land.",
+      "plain": [
+        "יֹשֵׁב"
+      ]
+    },
+    {
+      "id": "c36-07",
+      "unit": 36,
+      "direction": "he-en",
+      "hebrew": [
+        "הַשֹּׁפֵט יֹשֵׁב בַּשַּׁעַר"
+      ],
+      "english": "The judge sits in the gate.",
+      "plain": [
+        "יֹשֵׁב"
+      ]
+    },
+    {
+      "id": "c36-08",
+      "unit": 36,
+      "direction": "en-he",
+      "hebrew": [
+        "אֲנִי שֹׁמֵר אֶת־הַמִּצְוָה"
+      ],
+      "english": "I keep the commandment."
+    },
+    {
+      "id": "c36-09",
+      "unit": 36,
+      "direction": "he-en",
+      "hebrew": [
+        "הָאֲנָשִׁים הֹלְכִים אֶל־הָעִיר"
+      ],
+      "english": "The men are going to the city.",
+      "plain": [
+        "הֹלְכִים"
+      ]
+    },
+    {
+      "id": "c36-10",
+      "unit": 36,
+      "direction": "he-en",
+      "hebrew": [
+        "הַדָּבָר כָּתוּב בַּסֵּפֶר"
+      ],
+      "english": "The word is written in the book."
+    },
+    {
+      "id": "c36-11",
+      "unit": 36,
+      "direction": "en-he",
+      "hebrew": [
+        "הָאִשָּׁה יֹשֶׁבֶת בָּאֹהֶל"
+      ],
+      "english": "The woman is sitting in the tent.",
+      "plain": [
+        "יֹשֶׁבֶת"
+      ]
+    },
+    {
+      "id": "c36-12",
+      "unit": 36,
+      "direction": "he-en",
+      "hebrew": [
+        "הָהָר נֶגֶד הָעִיר"
+      ],
+      "english": "The mountain is opposite the city.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c36-13",
+      "unit": 36,
+      "direction": "en-he",
+      "hebrew": [
+        "שֹׁמְרֵי הַשַּׁעַר"
+      ],
+      "english": "The keepers of the gate"
+    },
+    {
+      "id": "c37-01",
+      "unit": 37,
+      "direction": "he-en",
+      "hebrew": [
+        "הַכֹּהֵן בָּא אֶל־הַהֵיכָל"
+      ],
+      "english": "The priest came to the temple."
+    },
+    {
+      "id": "c37-02",
+      "unit": 37,
+      "direction": "en-he",
+      "hebrew": [
+        "הַכֹּהֵן הַגָּדוֹל"
+      ],
+      "english": "The high priest"
+    },
+    {
+      "id": "c37-03",
+      "unit": 37,
+      "direction": "he-en",
+      "hebrew": [
+        "דְּבָרֶיךָ אֱמֶת"
+      ],
+      "english": "Your words are truth.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c37-04",
+      "unit": 37,
+      "direction": "he-en",
+      "hebrew": [
+        "הַכֹּהֲנִים לָקְחוּ אֶת־הַכֵּלִים"
+      ],
+      "english": "The priests took the vessels.",
+      "plain": [
+        "לָקְחוּ"
+      ]
+    },
+    {
+      "id": "c37-05",
+      "unit": 37,
+      "direction": "en-he",
+      "hebrew": [
+        "צֶדֶק וּמִשְׁפָּט"
+      ],
+      "english": "Righteousness and justice"
+    },
+    {
+      "id": "c37-06",
+      "unit": 37,
+      "direction": "he-en",
+      "hebrew": [
+        "אִישׁ אוֹ אִשָּׁה"
+      ],
+      "english": "A man or a woman"
+    },
+    {
+      "id": "c37-07",
+      "unit": 37,
+      "direction": "he-en",
+      "hebrew": [
+        "הַשֹּׁפְטִים שָׁפְטוּ בְּצֶדֶק"
+      ],
+      "english": "The judges judged in righteousness."
+    },
+    {
+      "id": "c37-08",
+      "unit": 37,
+      "direction": "en-he",
+      "hebrew": [
+        "כְּלֵי זָהָב"
+      ],
+      "english": "Vessels of gold"
+    },
+    {
+      "id": "c37-09",
+      "unit": 37,
+      "direction": "he-en",
+      "hebrew": [
+        "הַכֹּהֵן שָׁמַר אֶת־כְּלֵי הַהֵיכָל"
+      ],
+      "english": "The priest kept the vessels of the temple."
+    },
+    {
+      "id": "c37-10",
+      "unit": 37,
+      "direction": "he-en",
+      "hebrew": [
+        "תּוֹרַת אֱמֶת"
+      ],
+      "english": "A law of truth"
+    },
+    {
+      "id": "c38-01",
+      "unit": 38,
+      "direction": "he-en",
+      "hebrew": [
+        "אֶשְׁמֹר אֶת־תּוֹרָתְךָ"
+      ],
+      "english": "I will keep your instruction."
+    },
+    {
+      "id": "c38-02",
+      "unit": 38,
+      "direction": "en-he",
+      "hebrew": [
+        "הַמֶּלֶךְ יִמְלֹךְ עַל־הָעָם",
+        "יִמְלֹךְ הַמֶּלֶךְ עַל־הָעָם"
+      ],
+      "english": "The king will reign over the people."
+    },
+    {
+      "id": "c38-03",
+      "unit": 38,
+      "direction": "he-en",
+      "hebrew": [
+        "לֹא תִּגְנֹב"
+      ],
+      "english": "You shall not steal."
+    },
+    {
+      "id": "c38-04",
+      "unit": 38,
+      "direction": "he-en",
+      "hebrew": [
+        "אֶזְכֹּר אֶת־הַיּוֹם הַזֶּה"
+      ],
+      "english": "I will remember this day."
+    },
+    {
+      "id": "c38-05",
+      "unit": 38,
+      "direction": "en-he",
+      "hebrew": [
+        "הֵם יִשְׁמְרוּ אֶת־הַמִּצְוֹת",
+        "יִשְׁמְרוּ אֶת־הַמִּצְוֹת"
+      ],
+      "english": "They will keep the commandments."
+    },
+    {
+      "id": "c38-06",
+      "unit": 38,
+      "direction": "he-en",
+      "hebrew": [
+        "מִי יִמְלֹךְ עָלֵינוּ"
+      ],
+      "english": "Who will reign over us?"
+    },
+    {
+      "id": "c38-07",
+      "unit": 38,
+      "direction": "he-en",
+      "hebrew": [
+        "תִּשְׁפֹּט אֶת־הָעָם"
+      ],
+      "english": "You will judge the people."
+    },
+    {
+      "id": "c38-08",
+      "unit": 38,
+      "direction": "he-en",
+      "hebrew": [
+        "יִזְכֹּר אֱלֹהִים אֶת־עַמּוֹ"
+      ],
+      "english": "God will remember his people."
+    },
+    {
+      "id": "c38-09",
+      "unit": 38,
+      "direction": "en-he",
+      "hebrew": [
+        "אֲנִי אֶשְׁפֹּט אֶת־הָעָם",
+        "אֶשְׁפֹּט אֶת־הָעָם"
+      ],
+      "english": "I will judge the people."
+    },
+    {
+      "id": "c38-10",
+      "unit": 38,
+      "direction": "he-en",
+      "hebrew": [
+        "כָּל־מִשְׁפְּחוֹת הָאֲדָמָה"
+      ],
+      "english": "All the families of the earth"
+    },
+    {
+      "id": "c38-11",
+      "unit": 38,
+      "direction": "he-en",
+      "hebrew": [
+        "הֵם יִרְדְּפוּ אַחֲרֵיכֶם"
+      ],
+      "english": "They will pursue you."
+    },
+    {
+      "id": "c39-01",
+      "unit": 39,
+      "direction": "he-en",
+      "hebrew": [
+        "וַיִּזְכֹּר אֱלֹהִים אֶת־נֹחַ"
+      ],
+      "english": "God remembered Noah."
+    },
+    {
+      "id": "c39-02",
+      "unit": 39,
+      "direction": "en-he",
+      "hebrew": [
+        "וַיִּמְלֹךְ הַמֶּלֶךְ אַרְבָּעִים שָׁנָה"
+      ],
+      "english": "The king reigned forty years."
+    },
+    {
+      "id": "c39-03",
+      "unit": 39,
+      "direction": "he-en",
+      "hebrew": [
+        "וַיִּשְׁמְרוּ אֶת־הַבְּרִית"
+      ],
+      "english": "They kept the covenant."
+    },
+    {
+      "id": "c39-04",
+      "unit": 39,
+      "direction": "he-en",
+      "hebrew": [
+        "וַיִּרְדְּפוּ אַחֲרֵיהֶם"
+      ],
+      "english": "They pursued them."
+    },
+    {
+      "id": "c39-05",
+      "unit": 39,
+      "direction": "he-en",
+      "hebrew": [
+        "וַיִּכְתֹּב מֹשֶׁה אֶת־הַתּוֹרָה הַזֹּאת"
+      ],
+      "english": "Moses wrote this instruction."
+    },
+    {
+      "id": "c39-06",
+      "unit": 39,
+      "direction": "en-he",
+      "hebrew": [
+        "וַיִּכְרֹת בְּרִית עִם־הָעָם"
+      ],
+      "english": "He made a covenant with the people."
+    },
+    {
+      "id": "c39-07",
+      "unit": 39,
+      "direction": "he-en",
+      "hebrew": [
+        "וַיִּשְׁכַּב שָׁם"
+      ],
+      "english": "He lay down there."
+    },
+    {
+      "id": "c39-08",
+      "unit": 39,
+      "direction": "he-en",
+      "hebrew": [
+        "וַיִּקְבְּרוּ אֹתוֹ בָּעִיר"
+      ],
+      "english": "They buried him in the city."
+    },
+    {
+      "id": "c39-09",
+      "unit": 39,
+      "direction": "en-he",
+      "hebrew": [
+        "וַיִּשְׁפֹּט אֶת־הָעָם"
+      ],
+      "english": "He judged the people."
+    },
+    {
+      "id": "c39-10",
+      "unit": 39,
+      "direction": "he-en",
+      "hebrew": [
+        "וַיִּלְכְּדוּ אֶת־הָעִיר"
+      ],
+      "english": "They captured the city."
+    },
+    {
+      "id": "c39-11",
+      "unit": 39,
+      "direction": "he-en",
+      "hebrew": [
+        "וַיִּשְׂרְפוּ אֶת־הָעִיר בָּאֵשׁ"
+      ],
+      "english": "They burned the city with fire."
+    },
+    {
+      "id": "c40-01",
+      "unit": 40,
+      "direction": "he-en",
+      "hebrew": [
+        "וְשָׁמַרְתָּ אֶת־מִצְוֹתָיו"
+      ],
+      "english": "And you shall keep his commandments."
+    },
+    {
+      "id": "c40-02",
+      "unit": 40,
+      "direction": "en-he",
+      "hebrew": [
+        "וְזָכַרְתָּ אֶת־הַיּוֹם הַזֶּה"
+      ],
+      "english": "And you shall remember this day."
+    },
+    {
+      "id": "c40-03",
+      "unit": 40,
+      "direction": "he-en",
+      "hebrew": [
+        "וְשָׁפַט אֶת־הָעָם"
+      ],
+      "english": "And he will judge the people."
+    },
+    {
+      "id": "c40-04",
+      "unit": 40,
+      "direction": "he-en",
+      "hebrew": [
+        "וְכָתַבְתָּ אֶת־הַדְּבָרִים"
+      ],
+      "english": "And you shall write the words."
+    },
+    {
+      "id": "c40-05",
+      "unit": 40,
+      "direction": "he-en",
+      "hebrew": [
+        "הָרָשָׁע רָדַף אַחֲרֵי הַצַּדִּיק"
+      ],
+      "english": "The wicked pursued the righteous."
+    },
+    {
+      "id": "c40-06",
+      "unit": 40,
+      "direction": "he-en",
+      "hebrew": [
+        "הַלֶּחֶם עַל־הַשֻּׁלְחָן"
+      ],
+      "english": "The bread is on the table.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c40-07",
+      "unit": 40,
+      "direction": "en-he",
+      "hebrew": [
+        "וְהָיָה לְאוֹת"
+      ],
+      "english": "And it shall be for a sign."
+    },
+    {
+      "id": "c40-08",
+      "unit": 40,
+      "direction": "he-en",
+      "hebrew": [
+        "הָעָם הָלַךְ בַּמִּדְבָּר אַרְבָּעִים שָׁנָה"
+      ],
+      "english": "The people walked in the wilderness forty years."
+    },
+    {
+      "id": "c40-09",
+      "unit": 40,
+      "direction": "en-he",
+      "hebrew": [
+        "וְזָכַרְתָּ אֶת־הַבְּרִית"
+      ],
+      "english": "And you shall remember the covenant."
+    },
+    {
+      "id": "c41-01",
+      "unit": 41,
+      "direction": "he-en",
+      "hebrew": [
+        "שְׁמֹר אֶת־הַמִּצְוָה"
+      ],
+      "english": "Keep the commandment."
+    },
+    {
+      "id": "c41-02",
+      "unit": 41,
+      "direction": "en-he",
+      "hebrew": [
+        "זְכֹר אֶת־יוֹם הַשַּׁבָּת"
+      ],
+      "english": "Remember the Sabbath day."
+    },
+    {
+      "id": "c41-03",
+      "unit": 41,
+      "direction": "he-en",
+      "hebrew": [
+        "שִׁמְרוּ אֶת־מִצְוֹתַי"
+      ],
+      "english": "Keep my commandments."
+    },
+    {
+      "id": "c41-04",
+      "unit": 41,
+      "direction": "he-en",
+      "hebrew": [
+        "כִּתְבוּ אֶת־הַדְּבָרִים הָאֵלֶּה"
+      ],
+      "english": "Write these words."
+    },
+    {
+      "id": "c41-05",
+      "unit": 41,
+      "direction": "en-he",
+      "hebrew": [
+        "שִׁפְטוּ בְּצֶדֶק"
+      ],
+      "english": "Judge in righteousness."
+    },
+    {
+      "id": "c41-06",
+      "unit": 41,
+      "direction": "he-en",
+      "hebrew": [
+        "הַמַּטֶּה בְּיָדוֹ"
+      ],
+      "english": "The staff is in his hand.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c41-07",
+      "unit": 41,
+      "direction": "he-en",
+      "hebrew": [
+        "שְׁמֹר רַגְלְךָ"
+      ],
+      "english": "Guard your foot.",
+      "tags": [
+        "segholate"
+      ]
+    },
+    {
+      "id": "c41-08",
+      "unit": 41,
+      "direction": "en-he",
+      "hebrew": [
+        "מַעֲשֵׂה אֱלֹהִים"
+      ],
+      "english": "The work of God"
+    },
+    {
+      "id": "c41-09",
+      "unit": 41,
+      "direction": "he-en",
+      "hebrew": [
+        "גְּבוּל הָאָרֶץ"
+      ],
+      "english": "The border of the land",
+      "tags": [
+        "construct"
+      ]
+    },
+    {
+      "id": "c41-10",
+      "unit": 41,
+      "direction": "he-en",
+      "hebrew": [
+        "זִכְרוּ אֶת־הַתּוֹרָה"
+      ],
+      "english": "Remember the instruction."
+    },
+    {
+      "id": "c41-11",
+      "unit": 41,
+      "direction": "en-he",
+      "hebrew": [
+        "שִׁמְרוּ אֶת־הַשַּׁבָּת"
+      ],
+      "english": "Keep the Sabbath."
+    },
+    {
+      "id": "c42-01",
+      "unit": 42,
+      "direction": "he-en",
+      "hebrew": [
+        "יִמְלֹךְ הַמֶּלֶךְ"
+      ],
+      "english": "Let the king reign.",
+      "tags": [
+        "jussive"
+      ]
+    },
+    {
+      "id": "c42-02",
+      "unit": 42,
+      "direction": "he-en",
+      "hebrew": [
+        "נִכְרְתָה בְרִית",
+        "נִכְרְתָה בְּרִית"
+      ],
+      "english": "Let us make a covenant."
+    },
+    {
+      "id": "c42-03",
+      "unit": 42,
+      "direction": "en-he",
+      "hebrew": [
+        "אֶשְׁמְרָה תוֹרָתְךָ",
+        "אֶשְׁמְרָה תּוֹרָתְךָ"
+      ],
+      "english": "Let me keep your instruction."
+    },
+    {
+      "id": "c42-04",
+      "unit": 42,
+      "direction": "he-en",
+      "hebrew": [
+        "אֶזְכְּרָה אֶת־מַעֲשֵׂי אֱלֹהִים"
+      ],
+      "english": "Let me remember the works of God."
+    },
+    {
+      "id": "c42-05",
+      "unit": 42,
+      "direction": "he-en",
+      "hebrew": [
+        "יִשְׁפֹּט אֱלֹהִים בֵּינֵינוּ"
+      ],
+      "english": "May God judge between us.",
+      "tags": [
+        "jussive"
+      ]
+    },
+    {
+      "id": "c42-06",
+      "unit": 42,
+      "direction": "he-en",
+      "hebrew": [
+        "לַמּוֹעֵד הַזֶּה"
+      ],
+      "english": "At this appointed time"
+    },
+    {
+      "id": "c42-07",
+      "unit": 42,
+      "direction": "he-en",
+      "hebrew": [
+        "הָאָרֶץ נַחֲלָה לָכֶם"
+      ],
+      "english": "The land is an inheritance for you.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c42-08",
+      "unit": 42,
+      "direction": "he-en",
+      "hebrew": [
+        "אַל־תִּזְכֹּר עֲוֹנֵנוּ"
+      ],
+      "english": "Do not remember our iniquity."
+    },
+    {
+      "id": "c43-01",
+      "unit": 43,
+      "direction": "he-en",
+      "hebrew": [
+        "מְלֹךְ עָלֵינוּ"
+      ],
+      "english": "Reign over us."
+    },
+    {
+      "id": "c43-02",
+      "unit": 43,
+      "direction": "he-en",
+      "hebrew": [
+        "לִשְׁמֹר אֶת־מִצְוֹתָיו"
+      ],
+      "english": "To keep his commandments"
+    },
+    {
+      "id": "c43-03",
+      "unit": 43,
+      "direction": "en-he",
+      "hebrew": [
+        "הָלַךְ לִקְבֹּר אֶת־אָבִיו"
+      ],
+      "english": "He went to bury his father."
+    },
+    {
+      "id": "c43-04",
+      "unit": 43,
+      "direction": "he-en",
+      "hebrew": [
+        "זָכוֹר אֶת־יוֹם הַשַּׁבָּת"
+      ],
+      "english": "Remember the Sabbath day."
+    },
+    {
+      "id": "c43-05",
+      "unit": 43,
+      "direction": "he-en",
+      "hebrew": [
+        "שָׁמוֹר אֶת־יוֹם הַשַּׁבָּת"
+      ],
+      "english": "Keep the Sabbath day."
+    },
+    {
+      "id": "c43-06",
+      "unit": 43,
+      "direction": "he-en",
+      "hebrew": [
+        "הַכֶּלֶב הַקָּטֹן"
+      ],
+      "english": "The small dog"
+    },
+    {
+      "id": "c43-07",
+      "unit": 43,
+      "direction": "en-he",
+      "hebrew": [
+        "הַיּוֹם קָרוֹב",
+        "קָרוֹב הַיּוֹם"
+      ],
+      "english": "The day is near.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c43-08",
+      "unit": 43,
+      "direction": "he-en",
+      "hebrew": [
+        "הַהֵיכָל מָלֵא"
+      ],
+      "english": "The temple is full.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c43-09",
+      "unit": 43,
+      "direction": "he-en",
+      "hebrew": [
+        "מָכַר אֶת־עַבְדּוֹ"
+      ],
+      "english": "He sold his servant.",
+      "tags": [
+        "segholate"
+      ]
+    },
+    {
+      "id": "c43-10",
+      "unit": 43,
+      "direction": "he-en",
+      "hebrew": [
+        "לִכְתֹּב אֶת־הַדְּבָרִים"
+      ],
+      "english": "To write the words"
+    },
+    {
+      "id": "c43-11",
+      "unit": 43,
+      "direction": "en-he",
+      "hebrew": [
+        "בָּא הַמֶּלֶךְ לִשְׁפֹּט אֶת־הָאָרֶץ",
+        "הַמֶּלֶךְ בָּא לִשְׁפֹּט אֶת־הָאָרֶץ"
+      ],
+      "english": "The king came to judge the land."
+    },
+    {
+      "id": "c43-12",
+      "unit": 43,
+      "direction": "he-en",
+      "hebrew": [
+        "קָרוֹב אֱלֹהִים"
+      ],
+      "english": "God is near.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c44-01",
+      "unit": 44,
+      "direction": "he-en",
+      "hebrew": [
+        "אָהַב הַמֶּלֶךְ אֶת־הַנָּבִיא"
+      ],
+      "english": "The king loved the prophet."
+    },
+    {
+      "id": "c44-02",
+      "unit": 44,
+      "direction": "en-he",
+      "hebrew": [
+        "הַמַּלְאָךְ בָּא אֶל־הָעִיר",
+        "בָּא הַמַּלְאָךְ אֶל־הָעִיר"
+      ],
+      "english": "The messenger came to the city."
+    },
+    {
+      "id": "c44-03",
+      "unit": 44,
+      "direction": "he-en",
+      "hebrew": [
+        "אָהַבְתִּי אֶת־תּוֹרָתְךָ"
+      ],
+      "english": "I have loved your instruction.",
+      "tags": [
+        "stative"
+      ],
+      "plain": [
+        "אָהַבְתִּי"
+      ]
+    },
+    {
+      "id": "c44-04",
+      "unit": 44,
+      "direction": "he-en",
+      "hebrew": [
+        "הַמֶּלֶךְ רָכַב עַל־הַסּוּס"
+      ],
+      "english": "The king rode on the horse."
+    },
+    {
+      "id": "c44-05",
+      "unit": 44,
+      "direction": "en-he",
+      "hebrew": [
+        "מַלְאֲכֵי אֱלֹהִים"
+      ],
+      "english": "The angels of God"
+    },
+    {
+      "id": "c44-06",
+      "unit": 44,
+      "direction": "he-en",
+      "hebrew": [
+        "הַמִּנְחָה עַל־הַמִּזְבֵּחַ"
+      ],
+      "english": "The offering is on the altar.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c44-07",
+      "unit": 44,
+      "direction": "he-en",
+      "hebrew": [
+        "הָאִישׁ שָׁפָל"
+      ],
+      "english": "The man is lowly.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c44-08",
+      "unit": 44,
+      "direction": "en-he",
+      "hebrew": [
+        "הַמַּלְאָךְ אֲשֶׁר שָׁלַח הַמֶּלֶךְ"
+      ],
+      "english": "The messenger whom the king sent"
+    },
+    {
+      "id": "c45-01",
+      "unit": 45,
+      "direction": "he-en",
+      "hebrew": [
+        "אֲרוֹן הַבְּרִית"
+      ],
+      "english": "The ark of the covenant",
+      "tags": [
+        "construct"
+      ]
+    },
+    {
+      "id": "c45-02",
+      "unit": 45,
+      "direction": "en-he",
+      "hebrew": [
+        "כְּבוֹד אֱלֹהִים"
+      ],
+      "english": "The glory of God"
+    },
+    {
+      "id": "c45-03",
+      "unit": 45,
+      "direction": "he-en",
+      "hebrew": [
+        "כְּבוֹדוֹ עַל־הַשָּׁמַיִם"
+      ],
+      "english": "His glory is above the heavens.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c45-04",
+      "unit": 45,
+      "direction": "he-en",
+      "hebrew": [
+        "הַכֹּהֵן לָקַח אֶת־הַשֶּׁמֶן"
+      ],
+      "english": "The priest took the oil."
+    },
+    {
+      "id": "c45-05",
+      "unit": 45,
+      "direction": "he-en",
+      "hebrew": [
+        "שִׁבְטֵי יִשְׂרָאֵל"
+      ],
+      "english": "The tribes of Israel",
+      "tags": [
+        "segholate"
+      ]
+    },
+    {
+      "id": "c45-06",
+      "unit": 45,
+      "direction": "en-he",
+      "hebrew": [
+        "הָאָרוֹן בַּהֵיכָל"
+      ],
+      "english": "The ark is in the temple.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c45-07",
+      "unit": 45,
+      "direction": "he-en",
+      "hebrew": [
+        "עֹשֶׁר וְכָבוֹד"
+      ],
+      "english": "Wealth and honour"
+    },
+    {
+      "id": "c45-08",
+      "unit": 45,
+      "direction": "he-en",
+      "hebrew": [
+        "שֵׁבֶט יְהוּדָה"
+      ],
+      "english": "The tribe of Judah",
+      "tags": [
+        "construct"
+      ]
+    },
+    {
+      "id": "c45-09",
+      "unit": 45,
+      "direction": "en-he",
+      "hebrew": [
+        "שֶׁמֶן טוֹב"
+      ],
+      "english": "Good oil"
+    },
+    {
+      "id": "c46-01",
+      "unit": 46,
+      "direction": "he-en",
+      "hebrew": [
+        "וְנִכְרְתָה הַנֶּפֶשׁ הַהִוא מֵעַמֶּיהָ"
+      ],
+      "english": "That soul shall be cut off from its people.",
+      "tags": [
+        "demonstrative"
+      ]
+    },
+    {
+      "id": "c46-02",
+      "unit": 46,
+      "direction": "en-he",
+      "hebrew": [
+        "נִשְׁבַּר הַכְּלִי"
+      ],
+      "english": "The vessel was broken."
+    },
+    {
+      "id": "c46-03",
+      "unit": 46,
+      "direction": "he-en",
+      "hebrew": [
+        "הָעִיר נִלְכְּדָה"
+      ],
+      "english": "The city was captured."
+    },
+    {
+      "id": "c46-04",
+      "unit": 46,
+      "direction": "he-en",
+      "hebrew": [
+        "וַיִּקָּבֵר שָׁם"
+      ],
+      "english": "He was buried there."
+    },
+    {
+      "id": "c46-05",
+      "unit": 46,
+      "direction": "he-en",
+      "hebrew": [
+        "נִשְׁמַע הַדָּבָר"
+      ],
+      "english": "The word was heard.",
+      "plain": [
+        "נִשְׁמַע"
+      ]
+    },
+    {
+      "id": "c46-06",
+      "unit": 46,
+      "direction": "en-he",
+      "hebrew": [
+        "בַּחֲצַר הַמֶּלֶךְ"
+      ],
+      "english": "In the court of the king"
+    },
+    {
+      "id": "c46-07",
+      "unit": 46,
+      "direction": "he-en",
+      "hebrew": [
+        "אִישׁ נָבוֹן וְחָכָם"
+      ],
+      "english": "A discerning and wise man"
+    },
+    {
+      "id": "c46-08",
+      "unit": 46,
+      "direction": "he-en",
+      "hebrew": [
+        "בְּאָזְנֵי הָעָם"
+      ],
+      "english": "In the ears of the people",
+      "tags": [
+        "segholate"
+      ]
+    },
+    {
+      "id": "c47-01",
+      "unit": 47,
+      "direction": "he-en",
+      "hebrew": [
+        "דִּבֶּר אֱלֹהִים אֶל־מֹשֶׁה"
+      ],
+      "english": "God spoke to Moses."
+    },
+    {
+      "id": "c47-02",
+      "unit": 47,
+      "direction": "en-he",
+      "hebrew": [
+        "וַיְדַבֵּר הַמֶּלֶךְ אֶל־הָעָם"
+      ],
+      "english": "The king spoke to the people."
+    },
+    {
+      "id": "c47-03",
+      "unit": 47,
+      "direction": "he-en",
+      "hebrew": [
+        "וַיְקַדֵּשׁ אֹתוֹ"
+      ],
+      "english": "He sanctified it."
+    },
+    {
+      "id": "c47-04",
+      "unit": 47,
+      "direction": "he-en",
+      "hebrew": [
+        "הַנָּבִיא מְדַבֵּר אֶל־הָעָם"
+      ],
+      "english": "The prophet is speaking to the people."
+    },
+    {
+      "id": "c47-05",
+      "unit": 47,
+      "direction": "en-he",
+      "hebrew": [
+        "דַּבֵּר אֶל־הָעָם"
+      ],
+      "english": "Speak to the people."
+    },
+    {
+      "id": "c47-06",
+      "unit": 47,
+      "direction": "he-en",
+      "hebrew": [
+        "בָּא לְדַבֵּר אֶל־הַמֶּלֶךְ"
+      ],
+      "english": "He came to speak to the king."
+    },
+    {
+      "id": "c47-07",
+      "unit": 47,
+      "direction": "he-en",
+      "hebrew": [
+        "מִדּוֹר לְדוֹר"
+      ],
+      "english": "From generation to generation"
+    },
+    {
+      "id": "c47-08",
+      "unit": 47,
+      "direction": "he-en",
+      "hebrew": [
+        "הַדּוֹר הַזֶּה"
+      ],
+      "english": "This generation"
+    },
+    {
+      "id": "c47-09",
+      "unit": 47,
+      "direction": "en-he",
+      "hebrew": [
+        "דִּבַּרְתִּי אֲלֵיכֶם"
+      ],
+      "english": "I have spoken to you."
+    },
+    {
+      "id": "c47-10",
+      "unit": 47,
+      "direction": "he-en",
+      "hebrew": [
+        "כָּל־הַדְּבָרִים אֲשֶׁר דִּבֶּר"
+      ],
+      "english": "All the words which he spoke"
+    },
+    {
+      "id": "c48-01",
+      "unit": 48,
+      "direction": "he-en",
+      "hebrew": [
+        "חוֹמַת הָעִיר"
+      ],
+      "english": "The wall of the city"
+    },
+    {
+      "id": "c48-02",
+      "unit": 48,
+      "direction": "en-he",
+      "hebrew": [
+        "הַמְּלָאכָה גְּדוֹלָה",
+        "גְּדוֹלָה הַמְּלָאכָה"
+      ],
+      "english": "The work is great.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c48-03",
+      "unit": 48,
+      "direction": "he-en",
+      "hebrew": [
+        "הַכֹּהֵן זָבַח עַל־הַמִּזְבֵּחַ"
+      ],
+      "english": "The priest sacrificed on the altar."
+    },
+    {
+      "id": "c48-04",
+      "unit": 48,
+      "direction": "he-en",
+      "hebrew": [
+        "רַק הוּא חָכָם"
+      ],
+      "english": "Only he is wise.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c48-05",
+      "unit": 48,
+      "direction": "he-en",
+      "hebrew": [
+        "וְחַטָּאתְךָ תְּכֻפָּר"
+      ],
+      "english": "And your sin is atoned for."
+    },
+    {
+      "id": "c48-06",
+      "unit": 48,
+      "direction": "he-en",
+      "hebrew": [
+        "שָׁלַט הָאָדָם בָּאָדָם"
+      ],
+      "english": "Man ruled over man."
+    },
+    {
+      "id": "c49-01",
+      "unit": 49,
+      "direction": "he-en",
+      "hebrew": [
+        "וַיַּבְדֵּל אֱלֹהִים בֵּין הָאוֹר וּבֵין הַחֹשֶׁךְ"
+      ],
+      "english": "God separated between the light and the darkness."
+    },
+    {
+      "id": "c49-02",
+      "unit": 49,
+      "direction": "en-he",
+      "hebrew": [
+        "הִשְׁמִיד הַמֶּלֶךְ אֶת־הָעִיר",
+        "הַמֶּלֶךְ הִשְׁמִיד אֶת־הָעִיר"
+      ],
+      "english": "The king destroyed the city."
+    },
+    {
+      "id": "c49-03",
+      "unit": 49,
+      "direction": "he-en",
+      "hebrew": [
+        "וַיַּשְׁלֵךְ אַהֲרֹן אֶת־מַטֵּהוּ"
+      ],
+      "english": "Aaron threw down his staff."
+    },
+    {
+      "id": "c49-04",
+      "unit": 49,
+      "direction": "he-en",
+      "hebrew": [
+        "הִגְדִּיל אֱלֹהִים אֶת־חַסְדּוֹ"
+      ],
+      "english": "God made his steadfast love great.",
+      "tags": [
+        "segholate"
+      ]
+    },
+    {
+      "id": "c49-05",
+      "unit": 49,
+      "direction": "en-he",
+      "hebrew": [
+        "הָרֹעֶה וְהַצֹּאן"
+      ],
+      "english": "The shepherd and the flock"
+    },
+    {
+      "id": "c49-06",
+      "unit": 49,
+      "direction": "he-en",
+      "hebrew": [
+        "חָכְמָה טוֹבָה מִכֶּסֶף"
+      ],
+      "english": "Wisdom is better than silver.",
+      "tags": [
+        "verbless",
+        "comparison"
+      ]
+    },
+    {
+      "id": "c49-07",
+      "unit": 49,
+      "direction": "he-en",
+      "hebrew": [
+        "חָכְמַת שְׁלֹמֹה"
+      ],
+      "english": "The wisdom of Solomon"
+    },
+    {
+      "id": "c49-08",
+      "unit": 49,
+      "direction": "he-en",
+      "hebrew": [
+        "לְהַשְׁמִיד אֶת־הָעִיר"
+      ],
+      "english": "To destroy the city"
+    },
+    {
+      "id": "c49-09",
+      "unit": 49,
+      "direction": "en-he",
+      "hebrew": [
+        "הַמֶּלֶךְ הִשְׁלִיךְ אֶת־הַחֶרֶב",
+        "הִשְׁלִיךְ הַמֶּלֶךְ אֶת־הַחֶרֶב"
+      ],
+      "english": "The king threw down the sword."
+    },
+    {
+      "id": "c49-10",
+      "unit": 49,
+      "direction": "he-en",
+      "hebrew": [
+        "מִן־הַצָּפוֹן"
+      ],
+      "english": "From the north"
+    },
+    {
+      "id": "c50-01",
+      "unit": 50,
+      "direction": "he-en",
+      "hebrew": [
+        "אָז שָׁב הַמֶּלֶךְ אֶל־הָעִיר"
+      ],
+      "english": "Then the king returned to the city."
+    },
+    {
+      "id": "c50-02",
+      "unit": 50,
+      "direction": "he-en",
+      "hebrew": [
+        "יֵשׁ לֶחֶם בָּעִיר"
+      ],
+      "english": "There is bread in the city.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c50-03",
+      "unit": 50,
+      "direction": "en-he",
+      "hebrew": [
+        "יֵשׁ אֱלֹהִים לְיִשְׂרָאֵל"
+      ],
+      "english": "There is a God in Israel.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c50-04",
+      "unit": 50,
+      "direction": "he-en",
+      "hebrew": [
+        "הַמִּשְׁכָּן וְכָל־כֵּלָיו"
+      ],
+      "english": "The tabernacle and all its vessels"
+    },
+    {
+      "id": "c50-05",
+      "unit": 50,
+      "direction": "he-en",
+      "hebrew": [
+        "לֶחֶם וָיָיִן"
+      ],
+      "english": "Bread and wine"
+    },
+    {
+      "id": "c50-06",
+      "unit": 50,
+      "direction": "he-en",
+      "hebrew": [
+        "עֲבוֹדַת הַמִּשְׁכָּן"
+      ],
+      "english": "The service of the tabernacle"
+    },
+    {
+      "id": "c50-07",
+      "unit": 50,
+      "direction": "en-he",
+      "hebrew": [
+        "כְּלֵי נְחֹשֶׁת"
+      ],
+      "english": "Vessels of bronze"
+    },
+    {
+      "id": "c50-08",
+      "unit": 50,
+      "direction": "he-en",
+      "hebrew": [
+        "הָמְלַךְ שְׁלֹמֹה עַל־יִשְׂרָאֵל"
+      ],
+      "english": "Solomon was made king over Israel."
+    },
+    {
+      "id": "c50-09",
+      "unit": 50,
+      "direction": "he-en",
+      "hebrew": [
+        "אָז יָשַׁב הַמֶּלֶךְ בְּהֵיכָלוֹ"
+      ],
+      "english": "Then the king sat in his palace."
+    },
+    {
+      "id": "c50-10",
+      "unit": 50,
+      "direction": "en-he",
+      "hebrew": [
+        "הַמִּשְׁכָּן בַּמִּדְבָּר"
+      ],
+      "english": "The tabernacle is in the wilderness.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c51-01",
+      "unit": 51,
+      "direction": "he-en",
+      "hebrew": [
+        "הִתְהַלֵּךְ לְפָנַי"
+      ],
+      "english": "Walk before me.",
+      "plain": [
+        "הִתְהַלֵּךְ"
+      ]
+    },
+    {
+      "id": "c51-02",
+      "unit": 51,
+      "direction": "he-en",
+      "hebrew": [
+        "הִתְקַדְּשׁוּ"
+      ],
+      "english": "Sanctify yourselves."
+    },
+    {
+      "id": "c51-03",
+      "unit": 51,
+      "direction": "he-en",
+      "hebrew": [
+        "הַשֶּׁמֶשׁ בַּשָּׁמַיִם"
+      ],
+      "english": "The sun is in the heavens.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c51-04",
+      "unit": 51,
+      "direction": "en-he",
+      "hebrew": [
+        "אַהֲבַת אֱלֹהִים"
+      ],
+      "english": "The love of God"
+    },
+    {
+      "id": "c51-05",
+      "unit": 51,
+      "direction": "he-en",
+      "hebrew": [
+        "קְהַל יִשְׂרָאֵל"
+      ],
+      "english": "The assembly of Israel"
+    },
+    {
+      "id": "c51-06",
+      "unit": 51,
+      "direction": "he-en",
+      "hebrew": [
+        "עֶצֶם מֵעֲצָמַי"
+      ],
+      "english": "Bone of my bones",
+      "tags": [
+        "segholate"
+      ]
+    },
+    {
+      "id": "c51-07",
+      "unit": 51,
+      "direction": "he-en",
+      "hebrew": [
+        "וַיִּתְקַדְּשׁוּ הַכֹּהֲנִים"
+      ],
+      "english": "The priests sanctified themselves."
+    },
+    {
+      "id": "c51-08",
+      "unit": 51,
+      "direction": "en-he",
+      "hebrew": [
+        "הַקָּהָל הַגָּדוֹל"
+      ],
+      "english": "The great assembly"
+    },
+    {
+      "id": "c51-09",
+      "unit": 51,
+      "direction": "he-en",
+      "hebrew": [
+        "הָאִישׁ מִתְהַלֵּךְ בָּעִיר"
+      ],
+      "english": "The man is walking about in the city.",
+      "plain": [
+        "מִתְהַלֵּךְ"
+      ]
+    },
+    {
+      "id": "c52-01",
+      "unit": 52,
+      "direction": "he-en",
+      "hebrew": [
+        "יְהוָה שֹׁמְרֶךָ"
+      ],
+      "english": "Yahweh is your keeper."
+    },
+    {
+      "id": "c52-02",
+      "unit": 52,
+      "direction": "he-en",
+      "hebrew": [
+        "יְהוָה רֹעִי"
+      ],
+      "english": "Yahweh is my shepherd."
+    },
+    {
+      "id": "c52-03",
+      "unit": 52,
+      "direction": "he-en",
+      "hebrew": [
+        "זָכְרֵנִי"
+      ],
+      "english": "Remember me."
+    },
+    {
+      "id": "c52-04",
+      "unit": 52,
+      "direction": "en-he",
+      "hebrew": [
+        "שָׁמְרֵנִי"
+      ],
+      "english": "Keep me."
+    },
+    {
+      "id": "c52-05",
+      "unit": 52,
+      "direction": "he-en",
+      "hebrew": [
+        "שָׁפְטֵנִי"
+      ],
+      "english": "Judge me."
+    },
+    {
+      "id": "c52-06",
+      "unit": 52,
+      "direction": "he-en",
+      "hebrew": [
+        "יְהוָה יִשְׁמָרְךָ"
+      ],
+      "english": "Yahweh will keep you."
+    },
+    {
+      "id": "c52-07",
+      "unit": 52,
+      "direction": "he-en",
+      "hebrew": [
+        "בֵּאלֹהִים בָּטַחְתִּי"
+      ],
+      "english": "In God I have trusted.",
+      "plain": [
+        "בָּטַחְתִּי"
+      ]
+    },
+    {
+      "id": "c52-08",
+      "unit": 52,
+      "direction": "he-en",
+      "hebrew": [
+        "פְּרִי הָעֵץ"
+      ],
+      "english": "The fruit of the tree",
+      "tags": [
+        "construct"
+      ]
+    },
+    {
+      "id": "c52-09",
+      "unit": 52,
+      "direction": "en-he",
+      "hebrew": [
+        "אֲחוֹתִי הִיא"
+      ],
+      "english": "She is my sister.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c52-10",
+      "unit": 52,
+      "direction": "he-en",
+      "hebrew": [
+        "בְּכוֹר הַמֶּלֶךְ"
+      ],
+      "english": "The firstborn of the king",
+      "tags": [
+        "construct"
+      ]
+    },
+    {
+      "id": "c52-11",
+      "unit": 52,
+      "direction": "he-en",
+      "hebrew": [
+        "לְשׁוֹן שֶׁקֶר"
+      ],
+      "english": "A lying tongue",
+      "tags": [
+        "construct"
+      ]
+    },
+    {
+      "id": "c52-12",
+      "unit": 52,
+      "direction": "he-en",
+      "hebrew": [
+        "דִּבְרֵי שֶׁקֶר"
+      ],
+      "english": "Words of falsehood"
+    },
+    {
+      "id": "c53-01",
+      "unit": 53,
+      "direction": "he-en",
+      "hebrew": [
+        "תַּחַת כְּנָפָיו"
+      ],
+      "english": "Under his wings"
+    },
+    {
+      "id": "c53-02",
+      "unit": 53,
+      "direction": "en-he",
+      "hebrew": [
+        "שִׂמְחָה גְדוֹלָה",
+        "שִׂמְחָה גְּדוֹלָה"
+      ],
+      "english": "Great joy"
+    },
+    {
+      "id": "c53-03",
+      "unit": 53,
+      "direction": "he-en",
+      "hebrew": [
+        "הַכֶּבֶשׂ הָאֶחָד"
+      ],
+      "english": "The one lamb"
+    },
+    {
+      "id": "c53-04",
+      "unit": 53,
+      "direction": "he-en",
+      "hebrew": [
+        "הָעָם יֹשֵׁב בַּנֶּגֶב"
+      ],
+      "english": "The people dwell in the Negeb.",
+      "plain": [
+        "יֹשֵׁב"
+      ]
+    },
+    {
+      "id": "c53-05",
+      "unit": 53,
+      "direction": "he-en",
+      "hebrew": [
+        "וְיֶתֶר דִּבְרֵי הַמֶּלֶךְ"
+      ],
+      "english": "And the rest of the words of the king",
+      "tags": [
+        "construct"
+      ]
+    },
+    {
+      "id": "c53-06",
+      "unit": 53,
+      "direction": "he-en",
+      "hebrew": [
+        "וְשִׂמְחַת לֵב"
+      ],
+      "english": "And gladness of heart"
+    },
+    {
+      "id": "c54-01",
+      "unit": 54,
+      "direction": "he-en",
+      "hebrew": [
+        "אֶתֵּן לְךָ אֶת־הָאָרֶץ הַזֹּאת"
+      ],
+      "english": "I will give you this land."
+    },
+    {
+      "id": "c54-02",
+      "unit": 54,
+      "direction": "en-he",
+      "hebrew": [
+        "תֵּן לִי לֶחֶם"
+      ],
+      "english": "Give me bread."
+    },
+    {
+      "id": "c54-03",
+      "unit": 54,
+      "direction": "he-en",
+      "hebrew": [
+        "וַיִּפֹּל אַרְצָה"
+      ],
+      "english": "He fell to the ground."
+    },
+    {
+      "id": "c54-04",
+      "unit": 54,
+      "direction": "he-en",
+      "hebrew": [
+        "וַיִּגַּשׁ אֵלָיו"
+      ],
+      "english": "And he approached him."
+    },
+    {
+      "id": "c54-05",
+      "unit": 54,
+      "direction": "he-en",
+      "hebrew": [
+        "הַצִּילֵנִי"
+      ],
+      "english": "Deliver me."
+    },
+    {
+      "id": "c54-06",
+      "unit": 54,
+      "direction": "he-en",
+      "hebrew": [
+        "אֵיךְ נָפְלוּ גִבּוֹרִים"
+      ],
+      "english": "How the mighty have fallen!"
+    },
+    {
+      "id": "c54-07",
+      "unit": 54,
+      "direction": "en-he",
+      "hebrew": [
+        "וַיִּשַּׁק־לוֹ"
+      ],
+      "english": "And he kissed him."
+    },
+    {
+      "id": "c54-08",
+      "unit": 54,
+      "direction": "he-en",
+      "hebrew": [
+        "הַבֵּט מִשָּׁמַיִם"
+      ],
+      "english": "Look down from heaven."
+    },
+    {
+      "id": "c54-09",
+      "unit": 54,
+      "direction": "he-en",
+      "hebrew": [
+        "לָתֶת לָהֶם לֶחֶם"
+      ],
+      "english": "To give them bread"
+    },
+    {
+      "id": "c54-10",
+      "unit": 54,
+      "direction": "he-en",
+      "hebrew": [
+        "נֹצֵר חֶסֶד"
+      ],
+      "english": "Keeping steadfast love"
+    },
+    {
+      "id": "c54-11",
+      "unit": 54,
+      "direction": "he-en",
+      "hebrew": [
+        "אִישׁ טָהוֹר"
+      ],
+      "english": "A clean man"
+    },
+    {
+      "id": "c54-12",
+      "unit": 54,
+      "direction": "en-he",
+      "hebrew": [
+        "וַיִּתֵּן לָהֶם לֶחֶם"
+      ],
+      "english": "And he gave them bread."
+    },
+    {
+      "id": "c54-13",
+      "unit": 54,
+      "direction": "he-en",
+      "hebrew": [
+        "וַיִּפֹּל עַל־פָּנָיו"
+      ],
+      "english": "He fell on his face."
+    },
+    {
+      "id": "c55-01",
+      "unit": 55,
+      "direction": "he-en",
+      "hebrew": [
+        "וַיַּעֲמֹד הָעָם"
+      ],
+      "english": "The people stood."
+    },
+    {
+      "id": "c55-02",
+      "unit": 55,
+      "direction": "en-he",
+      "hebrew": [
+        "עִמְדוּ עַל־הַדְּרָכִים"
+      ],
+      "english": "Stand by the ways.",
+      "tags": [
+        "segholate"
+      ]
+    },
+    {
+      "id": "c55-03",
+      "unit": 55,
+      "direction": "he-en",
+      "hebrew": [
+        "עָזְבוּ אֶת־יְהוָה"
+      ],
+      "english": "They have forsaken Yahweh."
+    },
+    {
+      "id": "c55-04",
+      "unit": 55,
+      "direction": "he-en",
+      "hebrew": [
+        "לֹא אֶעֱזָבְךָ"
+      ],
+      "english": "I will not forsake you."
+    },
+    {
+      "id": "c55-05",
+      "unit": 55,
+      "direction": "he-en",
+      "hebrew": [
+        "וַיַּעֲמֵד אֶת־הַכֹּהֲנִים"
+      ],
+      "english": "He appointed the priests."
+    },
+    {
+      "id": "c55-06",
+      "unit": 55,
+      "direction": "he-en",
+      "hebrew": [
+        "עֹמֵד לִפְנֵי הַמֶּלֶךְ"
+      ],
+      "english": "Standing before the king"
+    },
+    {
+      "id": "c55-07",
+      "unit": 55,
+      "direction": "he-en",
+      "hebrew": [
+        "לֹא חָפַצְתִּי"
+      ],
+      "english": "I do not delight.",
+      "tags": [
+        "stative"
+      ]
+    },
+    {
+      "id": "c55-08",
+      "unit": 55,
+      "direction": "he-en",
+      "hebrew": [
+        "תַּעֲרֹךְ לְפָנַי שֻׁלְחָן"
+      ],
+      "english": "You prepare a table before me."
+    },
+    {
+      "id": "c55-09",
+      "unit": 55,
+      "direction": "he-en",
+      "hebrew": [
+        "עִבְדוּ אֶת־יְהוָה"
+      ],
+      "english": "Serve Yahweh."
+    },
+    {
+      "id": "c55-10",
+      "unit": 55,
+      "direction": "en-he",
+      "hebrew": [
+        "נַעֲבֹד אֶת־יְהוָה",
+        "אֲנַחְנוּ נַעֲבֹד אֶת־יְהוָה"
+      ],
+      "english": "We will serve Yahweh."
+    },
+    {
+      "id": "c56-01",
+      "unit": 56,
+      "direction": "he-en",
+      "hebrew": [
+        "וַיֹּאמֶר אֱלֹהִים"
+      ],
+      "english": "And God said."
+    },
+    {
+      "id": "c56-02",
+      "unit": 56,
+      "direction": "en-he",
+      "hebrew": [
+        "וַיֹּאמֶר הַמֶּלֶךְ אֶל־הַנָּבִיא"
+      ],
+      "english": "The king said to the prophet."
+    },
+    {
+      "id": "c56-03",
+      "unit": 56,
+      "direction": "he-en",
+      "hebrew": [
+        "וַיֹּאכְלוּ לֶחֶם"
+      ],
+      "english": "They ate bread."
+    },
+    {
+      "id": "c56-04",
+      "unit": 56,
+      "direction": "he-en",
+      "hebrew": [
+        "וַיְדַבֵּר הַמֶּלֶךְ אֶל־הָעָם לֵאמֹר"
+      ],
+      "english": "The king spoke to the people, saying,"
+    },
+    {
+      "id": "c56-05",
+      "unit": 56,
+      "direction": "he-en",
+      "hebrew": [
+        "וְהֶאֱמִן בַּיהוָה"
+      ],
+      "english": "And he believed in Yahweh."
+    },
+    {
+      "id": "c56-06",
+      "unit": 56,
+      "direction": "en-he",
+      "hebrew": [
+        "לֹא תֹאכַל מִמֶּנּוּ"
+      ],
+      "english": "You shall not eat of it."
+    },
+    {
+      "id": "c56-07",
+      "unit": 56,
+      "direction": "he-en",
+      "hebrew": [
+        "דַּעַת אֱלֹהִים"
+      ],
+      "english": "The knowledge of God"
+    },
+    {
+      "id": "c56-08",
+      "unit": 56,
+      "direction": "he-en",
+      "hebrew": [
+        "לֹא תַחְמֹד"
+      ],
+      "english": "You shall not covet."
+    },
+    {
+      "id": "c56-09",
+      "unit": 56,
+      "direction": "en-he",
+      "hebrew": [
+        "וָאֹמַר"
+      ],
+      "english": "And I said."
+    },
+    {
+      "id": "c56-10",
+      "unit": 56,
+      "direction": "he-en",
+      "hebrew": [
+        "מָה יֹאמַר הַמֶּלֶךְ"
+      ],
+      "english": "What will the king say?"
+    },
+    {
+      "id": "c57-01",
+      "unit": 57,
+      "direction": "he-en",
+      "hebrew": [
+        "וַיְבָרֶךְ אֱלֹהִים אֶת־הַיּוֹם הַשְּׁבִיעִי"
+      ],
+      "english": "God blessed the seventh day."
+    },
+    {
+      "id": "c57-02",
+      "unit": 57,
+      "direction": "he-en",
+      "hebrew": [
+        "שְׁאַל אָבִיךָ"
+      ],
+      "english": "Ask your father."
+    },
+    {
+      "id": "c57-03",
+      "unit": 57,
+      "direction": "en-he",
+      "hebrew": [
+        "בָּחַר יְהוָה בְּצִיּוֹן"
+      ],
+      "english": "Yahweh has chosen Zion."
+    },
+    {
+      "id": "c57-04",
+      "unit": 57,
+      "direction": "he-en",
+      "hebrew": [
+        "אֲשֶׁר יִבְחַר יְהוָה"
+      ],
+      "english": "Which Yahweh will choose"
+    },
+    {
+      "id": "c57-05",
+      "unit": 57,
+      "direction": "he-en",
+      "hebrew": [
+        "גֹּאֲלִי חָי"
+      ],
+      "english": "My redeemer lives."
+    },
+    {
+      "id": "c57-06",
+      "unit": 57,
+      "direction": "he-en",
+      "hebrew": [
+        "וַיִּשְׁחֲטוּ אֶת־הָעֹלָה"
+      ],
+      "english": "They slaughtered the burnt offering."
+    },
+    {
+      "id": "c57-07",
+      "unit": 57,
+      "direction": "he-en",
+      "hebrew": [
+        "מָאֲסוּ אֶת־תּוֹרַת יְהוָה"
+      ],
+      "english": "They have rejected the instruction of Yahweh."
+    },
+    {
+      "id": "c57-08",
+      "unit": 57,
+      "direction": "en-he",
+      "hebrew": [
+        "רַחֲצוּ"
+      ],
+      "english": "Wash yourselves."
+    },
+    {
+      "id": "c57-09",
+      "unit": 57,
+      "direction": "he-en",
+      "hebrew": [
+        "בְּחָנֵנִי יְהוָה"
+      ],
+      "english": "Examine me, Yahweh."
+    },
+    {
+      "id": "c57-10",
+      "unit": 57,
+      "direction": "he-en",
+      "hebrew": [
+        "הָאִישׁ אֲשֶׁר בָּחַר יְהוָה"
+      ],
+      "english": "The man whom Yahweh chose"
+    },
+    {
+      "id": "c57-11",
+      "unit": 57,
+      "direction": "he-en",
+      "hebrew": [
+        "בָּרְכוּ אֶת־יְהוָה"
+      ],
+      "english": "Bless Yahweh."
+    },
+    {
+      "id": "c58-01",
+      "unit": 58,
+      "direction": "he-en",
+      "hebrew": [
+        "שְׁמַע יִשְׂרָאֵל"
+      ],
+      "english": "Hear, Israel."
+    },
+    {
+      "id": "c58-02",
+      "unit": 58,
+      "direction": "en-he",
+      "hebrew": [
+        "שִׁמְעוּ אֶת־הַדָּבָר הַזֶּה"
+      ],
+      "english": "Hear this word."
+    },
+    {
+      "id": "c58-03",
+      "unit": 58,
+      "direction": "he-en",
+      "hebrew": [
+        "וַיִּשְׁלַח אֶת־עַבְדּוֹ"
+      ],
+      "english": "He sent his servant.",
+      "tags": [
+        "segholate"
+      ]
+    },
+    {
+      "id": "c58-04",
+      "unit": 58,
+      "direction": "he-en",
+      "hebrew": [
+        "יִשְׂמַח לִבִּי"
+      ],
+      "english": "My heart will rejoice."
+    },
+    {
+      "id": "c58-05",
+      "unit": 58,
+      "direction": "he-en",
+      "hebrew": [
+        "אַל־תִּשְׁכַּח"
+      ],
+      "english": "Do not forget."
+    },
+    {
+      "id": "c58-06",
+      "unit": 58,
+      "direction": "he-en",
+      "hebrew": [
+        "וַיִּמְשַׁח אֹתוֹ"
+      ],
+      "english": "He anointed him."
+    },
+    {
+      "id": "c58-07",
+      "unit": 58,
+      "direction": "en-he",
+      "hebrew": [
+        "וַיִּבְרַח אֶל־הַמִּדְבָּר"
+      ],
+      "english": "He fled to the wilderness."
+    },
+    {
+      "id": "c58-08",
+      "unit": 58,
+      "direction": "he-en",
+      "hebrew": [
+        "יָד חֲזָקָה"
+      ],
+      "english": "A strong hand"
+    },
+    {
+      "id": "c58-09",
+      "unit": 58,
+      "direction": "he-en",
+      "hebrew": [
+        "וַיִּזְרַע יִצְחָק"
+      ],
+      "english": "Isaac sowed."
+    },
+    {
+      "id": "c58-10",
+      "unit": 58,
+      "direction": "he-en",
+      "hebrew": [
+        "וַיִּשְׁלַח יָדוֹ"
+      ],
+      "english": "He stretched out his hand."
+    },
+    {
+      "id": "c58-11",
+      "unit": 58,
+      "direction": "en-he",
+      "hebrew": [
+        "הַשְׁמִיעוּ"
+      ],
+      "english": "Proclaim."
+    },
+    {
+      "id": "c59-01",
+      "unit": 59,
+      "direction": "he-en",
+      "hebrew": [
+        "חָטָאתִי לַיהוָה"
+      ],
+      "english": "I have sinned against Yahweh."
+    },
+    {
+      "id": "c59-02",
+      "unit": 59,
+      "direction": "en-he",
+      "hebrew": [
+        "וַיִּקְרָא אֱלֹהִים לָאוֹר יוֹם"
+      ],
+      "english": "God called the light day."
+    },
+    {
+      "id": "c59-03",
+      "unit": 59,
+      "direction": "he-en",
+      "hebrew": [
+        "סֵפֶר הַתּוֹרָה מָצָאתִי"
+      ],
+      "english": "I have found the book of the instruction."
+    },
+    {
+      "id": "c59-04",
+      "unit": 59,
+      "direction": "he-en",
+      "hebrew": [
+        "רְפָאֵנִי יְהוָה"
+      ],
+      "english": "Heal me, Yahweh."
+    },
+    {
+      "id": "c59-05",
+      "unit": 59,
+      "direction": "he-en",
+      "hebrew": [
+        "סְלַח לַעֲוֹן הָעָם הַזֶּה"
+      ],
+      "english": "Pardon the iniquity of this people."
+    },
+    {
+      "id": "c59-06",
+      "unit": 59,
+      "direction": "he-en",
+      "hebrew": [
+        "שֶׁקֶר שָׂנֵאתִי"
+      ],
+      "english": "I hate falsehood."
+    },
+    {
+      "id": "c59-07",
+      "unit": 59,
+      "direction": "en-he",
+      "hebrew": [
+        "וַיִּשָּׂא עֵינָיו"
+      ],
+      "english": "He lifted up his eyes."
+    },
+    {
+      "id": "c59-08",
+      "unit": 59,
+      "direction": "he-en",
+      "hebrew": [
+        "וַיִּקְרָא בְּשֵׁם יְהוָה"
+      ],
+      "english": "He called on the name of Yahweh."
+    },
+    {
+      "id": "c59-09",
+      "unit": 59,
+      "direction": "he-en",
+      "hebrew": [
+        "גְּמַלִּים רַבִּים"
+      ],
+      "english": "Many camels"
+    },
+    {
+      "id": "c60-01",
+      "unit": 60,
+      "direction": "he-en",
+      "hebrew": [
+        "וַיֵּשֶׁב שָׁם"
+      ],
+      "english": "He dwelt there."
+    },
+    {
+      "id": "c60-02",
+      "unit": 60,
+      "direction": "en-he",
+      "hebrew": [
+        "יָדַעְתִּי כִּי אַתָּה אִישׁ חָכָם"
+      ],
+      "english": "I know that you are a wise man.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c60-03",
+      "unit": 60,
+      "direction": "he-en",
+      "hebrew": [
+        "וַיֵּרֶד מֹשֶׁה מִן־הָהָר"
+      ],
+      "english": "Moses went down from the mountain."
+    },
+    {
+      "id": "c60-04",
+      "unit": 60,
+      "direction": "he-en",
+      "hebrew": [
+        "וַיֵּצֵא מִן־הָעִיר"
+      ],
+      "english": "He went out from the city."
+    },
+    {
+      "id": "c60-05",
+      "unit": 60,
+      "direction": "en-he",
+      "hebrew": [
+        "צֵא מִן־הָעִיר"
+      ],
+      "english": "Go out from the city."
+    },
+    {
+      "id": "c60-06",
+      "unit": 60,
+      "direction": "he-en",
+      "hebrew": [
+        "הוֹשִׁיעֵנִי אֱלֹהִים"
+      ],
+      "english": "Save me, O God."
+    },
+    {
+      "id": "c60-07",
+      "unit": 60,
+      "direction": "he-en",
+      "hebrew": [
+        "וַיִּיצֶר יְהוָה אֱלֹהִים אֶת־הָאָדָם עָפָר מִן־הָאֲדָמָה"
+      ],
+      "english": "Yahweh God formed the man of dust from the ground."
+    },
+    {
+      "id": "c60-08",
+      "unit": 60,
+      "direction": "he-en",
+      "hebrew": [
+        "עַד־מָתַי"
+      ],
+      "english": "How long?"
+    },
+    {
+      "id": "c60-09",
+      "unit": 60,
+      "direction": "he-en",
+      "hebrew": [
+        "מֵאַיִן אַתָּה"
+      ],
+      "english": "Where are you from?",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c60-10",
+      "unit": 60,
+      "direction": "he-en",
+      "hebrew": [
+        "פֶּשַׁע יִשְׂרָאֵל"
+      ],
+      "english": "The transgression of Israel",
+      "tags": [
+        "construct"
+      ]
+    },
+    {
+      "id": "c60-11",
+      "unit": 60,
+      "direction": "en-he",
+      "hebrew": [
+        "שְׁבוּ פֹה"
+      ],
+      "english": "Stay here."
+    },
+    {
+      "id": "c60-12",
+      "unit": 60,
+      "direction": "he-en",
+      "hebrew": [
+        "דָּם נָקִי"
+      ],
+      "english": "Innocent blood"
+    },
+    {
+      "id": "c61-01",
+      "unit": 61,
+      "direction": "he-en",
+      "hebrew": [
+        "קוּמָה יְהוָה"
+      ],
+      "english": "Arise, Yahweh."
+    },
+    {
+      "id": "c61-02",
+      "unit": 61,
+      "direction": "he-en",
+      "hebrew": [
+        "וַיָּקָם אַבְרָהָם"
+      ],
+      "english": "Abraham rose."
+    },
+    {
+      "id": "c61-03",
+      "unit": 61,
+      "direction": "en-he",
+      "hebrew": [
+        "וַיָּשָׁב הַמֶּלֶךְ אֶל־הָעִיר"
+      ],
+      "english": "The king returned to the city."
+    },
+    {
+      "id": "c61-04",
+      "unit": 61,
+      "direction": "he-en",
+      "hebrew": [
+        "וַיָּבֹא אֶל־הָעִיר"
+      ],
+      "english": "He came to the city."
+    },
+    {
+      "id": "c61-05",
+      "unit": 61,
+      "direction": "he-en",
+      "hebrew": [
+        "שׁוּבוּ אֵלַי"
+      ],
+      "english": "Return to me."
+    },
+    {
+      "id": "c61-06",
+      "unit": 61,
+      "direction": "he-en",
+      "hebrew": [
+        "עֲצַת יְהוָה לְעוֹלָם"
+      ],
+      "english": "The counsel of Yahweh is forever.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c61-07",
+      "unit": 61,
+      "direction": "he-en",
+      "hebrew": [
+        "וְאֶת־הַדֶּלֶת סָגָרוּ"
+      ],
+      "english": "And they shut the door."
+    },
+    {
+      "id": "c61-08",
+      "unit": 61,
+      "direction": "he-en",
+      "hebrew": [
+        "טָמֵא הוּא"
+      ],
+      "english": "He is unclean.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c61-09",
+      "unit": 61,
+      "direction": "en-he",
+      "hebrew": [
+        "עֲנַן יְהוָה"
+      ],
+      "english": "The cloud of Yahweh"
+    },
+    {
+      "id": "c61-10",
+      "unit": 61,
+      "direction": "he-en",
+      "hebrew": [
+        "מֵרָחוֹק"
+      ],
+      "english": "From afar"
+    },
+    {
+      "id": "c61-11",
+      "unit": 61,
+      "direction": "he-en",
+      "hebrew": [
+        "כְּאַרְיֵה"
+      ],
+      "english": "Like a lion"
+    },
+    {
+      "id": "c61-12",
+      "unit": 61,
+      "direction": "he-en",
+      "hebrew": [
+        "קָרְבָּן לַיהוָה"
+      ],
+      "english": "An offering to Yahweh"
+    },
+    {
+      "id": "c61-13",
+      "unit": 61,
+      "direction": "he-en",
+      "hebrew": [
+        "וַיָּשֻׁבוּ אֶל־הָעִיר"
+      ],
+      "english": "They returned to the city."
+    },
+    {
+      "id": "c62-01",
+      "unit": 62,
+      "direction": "he-en",
+      "hebrew": [
+        "קוֹל יְהוָה עַל־הַמָּיִם"
+      ],
+      "english": "The voice of Yahweh is upon the waters.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c62-02",
+      "unit": 62,
+      "direction": "en-he",
+      "hebrew": [
+        "אֶת־קֹלְךָ שָׁמַעְתִּי"
+      ],
+      "english": "I heard your voice.",
+      "plain": [
+        "שָׁמַעְתִּי"
+      ]
+    },
+    {
+      "id": "c62-03",
+      "unit": 62,
+      "direction": "he-en",
+      "hebrew": [
+        "בְּתוֹךְ הָעִיר"
+      ],
+      "english": "In the midst of the city"
+    },
+    {
+      "id": "c62-04",
+      "unit": 62,
+      "direction": "he-en",
+      "hebrew": [
+        "הַמָּקוֹם הַזֶּה"
+      ],
+      "english": "This place"
+    },
+    {
+      "id": "c62-05",
+      "unit": 62,
+      "direction": "en-he",
+      "hebrew": [
+        "הַמָּקוֹם אֲשֶׁר בָּחַר יְהוָה"
+      ],
+      "english": "The place which Yahweh chose"
+    },
+    {
+      "id": "c62-06",
+      "unit": 62,
+      "direction": "he-en",
+      "hebrew": [
+        "הַחַיִּים וְהַמָּוֶת"
+      ],
+      "english": "Life and death"
+    },
+    {
+      "id": "c62-07",
+      "unit": 62,
+      "direction": "he-en",
+      "hebrew": [
+        "שׁוֹר וַחֲמוֹר"
+      ],
+      "english": "An ox and a donkey"
+    },
+    {
+      "id": "c62-08",
+      "unit": 62,
+      "direction": "he-en",
+      "hebrew": [
+        "אִישׁ עָנִי"
+      ],
+      "english": "A poor man"
+    },
+    {
+      "id": "c62-09",
+      "unit": 62,
+      "direction": "he-en",
+      "hebrew": [
+        "שְׁמַע תְּפִלָּתִי"
+      ],
+      "english": "Hear my prayer."
+    },
+    {
+      "id": "c63-01",
+      "unit": 63,
+      "direction": "he-en",
+      "hebrew": [
+        "חָנֵּנִי אֱלֹהִים"
+      ],
+      "english": "Be gracious to me, O God."
+    },
+    {
+      "id": "c63-02",
+      "unit": 63,
+      "direction": "he-en",
+      "hebrew": [
+        "וַיִּתְפַּלֵּל אֶל־יְהוָה"
+      ],
+      "english": "He prayed to Yahweh."
+    },
+    {
+      "id": "c63-03",
+      "unit": 63,
+      "direction": "he-en",
+      "hebrew": [
+        "הַגּוֹרָל הָרִאשׁוֹן"
+      ],
+      "english": "The first lot"
+    },
+    {
+      "id": "c63-04",
+      "unit": 63,
+      "direction": "he-en",
+      "hebrew": [
+        "כְּלֵי בַרְזֶל"
+      ],
+      "english": "Vessels of iron"
+    },
+    {
+      "id": "c63-05",
+      "unit": 63,
+      "direction": "he-en",
+      "hebrew": [
+        "קַרְנוֹת הַמִּזְבֵּחַ"
+      ],
+      "english": "The horns of the altar",
+      "tags": [
+        "segholate"
+      ]
+    },
+    {
+      "id": "c63-06",
+      "unit": 63,
+      "direction": "en-he",
+      "hebrew": [
+        "אֶת־קַשְׁתִּי נָתַתִּי בֶּעָנָן"
+      ],
+      "english": "I have set my bow in the cloud.",
+      "tags": [
+        "segholate"
+      ]
+    },
+    {
+      "id": "c63-07",
+      "unit": 63,
+      "direction": "he-en",
+      "hebrew": [
+        "מִקְדַּשׁ יְהוָה"
+      ],
+      "english": "The sanctuary of Yahweh"
+    },
+    {
+      "id": "c63-08",
+      "unit": 63,
+      "direction": "he-en",
+      "hebrew": [
+        "מִמִּזְרָח"
+      ],
+      "english": "From the east"
+    },
+    {
+      "id": "c63-09",
+      "unit": 63,
+      "direction": "he-en",
+      "hebrew": [
+        "וַיָּמָד אֶת־הַשַּׁעַר"
+      ],
+      "english": "He measured the gate."
+    },
+    {
+      "id": "c63-10",
+      "unit": 63,
+      "direction": "he-en",
+      "hebrew": [
+        "תְּרוּמָה לַיהוָה"
+      ],
+      "english": "A contribution to Yahweh"
+    },
+    {
+      "id": "c64-01",
+      "unit": 64,
+      "direction": "he-en",
+      "hebrew": [
+        "חֻקִּים וּמִשְׁפָּטִים"
+      ],
+      "english": "Statutes and judgments"
+    },
+    {
+      "id": "c64-02",
+      "unit": 64,
+      "direction": "en-he",
+      "hebrew": [
+        "אֶת־חֻקֶּיךָ אֶשְׁמֹר"
+      ],
+      "english": "I will keep your statutes."
+    },
+    {
+      "id": "c64-03",
+      "unit": 64,
+      "direction": "he-en",
+      "hebrew": [
+        "עֲצֵי אֲרָזִים"
+      ],
+      "english": "Cedar trees"
+    },
+    {
+      "id": "c64-04",
+      "unit": 64,
+      "direction": "he-en",
+      "hebrew": [
+        "בְּיוֹם צָרָה"
+      ],
+      "english": "In the day of distress"
+    },
+    {
+      "id": "c64-05",
+      "unit": 64,
+      "direction": "he-en",
+      "hebrew": [
+        "קֵץ כָּל־בָּשָׂר"
+      ],
+      "english": "The end of all flesh"
+    },
+    {
+      "id": "c64-06",
+      "unit": 64,
+      "direction": "he-en",
+      "hebrew": [
+        "בְּגַן־עֵדֶן"
+      ],
+      "english": "In the garden of Eden"
+    },
+    {
+      "id": "c64-07",
+      "unit": 64,
+      "direction": "en-he",
+      "hebrew": [
+        "הָאִישׁ בַּגָּן"
+      ],
+      "english": "The man is in the garden.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c64-08",
+      "unit": 64,
+      "direction": "he-en",
+      "hebrew": [
+        "מִבֶּטֶן אִמִּי"
+      ],
+      "english": "From my mother's womb",
+      "tags": [
+        "construct"
+      ]
+    },
+    {
+      "id": "c65-01",
+      "unit": 65,
+      "direction": "he-en",
+      "hebrew": [
+        "אֲשֶׁר עָשִׂיתִי"
+      ],
+      "english": "Which I have made"
+    },
+    {
+      "id": "c65-02",
+      "unit": 65,
+      "direction": "he-en",
+      "hebrew": [
+        "רָאִיתִי אֶת־הָעִיר"
+      ],
+      "english": "I saw the city."
+    },
+    {
+      "id": "c65-03",
+      "unit": 65,
+      "direction": "he-en",
+      "hebrew": [
+        "מָה יַעֲשֶׂה הַמֶּלֶךְ"
+      ],
+      "english": "What will the king do?"
+    },
+    {
+      "id": "c65-04",
+      "unit": 65,
+      "direction": "he-en",
+      "hebrew": [
+        "עֲנֵנִי יְהוָה"
+      ],
+      "english": "Answer me, Yahweh."
+    },
+    {
+      "id": "c65-05",
+      "unit": 65,
+      "direction": "he-en",
+      "hebrew": [
+        "לַעֲשׂוֹת מִשְׁפָּט"
+      ],
+      "english": "To do justice"
+    },
+    {
+      "id": "c65-06",
+      "unit": 65,
+      "direction": "he-en",
+      "hebrew": [
+        "וַיִּבְכּוּ הָעָם"
+      ],
+      "english": "The people wept."
+    },
+    {
+      "id": "c65-07",
+      "unit": 65,
+      "direction": "en-he",
+      "hebrew": [
+        "הוֹדוּ לַיהוָה כִּי־טוֹב"
+      ],
+      "english": "Give thanks to Yahweh, for he is good."
+    },
+    {
+      "id": "c65-08",
+      "unit": 65,
+      "direction": "he-en",
+      "hebrew": [
+        "גָּלָה כָבוֹד מִיִּשְׂרָאֵל"
+      ],
+      "english": "Glory has departed from Israel."
+    },
+    {
+      "id": "c65-09",
+      "unit": 65,
+      "direction": "he-en",
+      "hebrew": [
+        "כִּסִּיתָ כָל־חַטָּאתָם"
+      ],
+      "english": "You have covered all their sin."
+    },
+    {
+      "id": "c65-10",
+      "unit": 65,
+      "direction": "he-en",
+      "hebrew": [
+        "קֹנֵה שָׁמַיִם וָאָרֶץ"
+      ],
+      "english": "Possessor of heaven and earth"
+    },
+    {
+      "id": "c65-11",
+      "unit": 65,
+      "direction": "he-en",
+      "hebrew": [
+        "קַוֵּה אֶל־יְהוָה"
+      ],
+      "english": "Wait for Yahweh."
+    },
+    {
+      "id": "c65-12",
+      "unit": 65,
+      "direction": "he-en",
+      "hebrew": [
+        "וְהָיוּ לְבָשָׂר אֶחָד"
+      ],
+      "english": "And they shall become one flesh."
+    },
+    {
+      "id": "c66-01",
+      "unit": 66,
+      "direction": "he-en",
+      "hebrew": [
+        "בֶּן־הַמֶּלֶךְ"
+      ],
+      "english": "The son of the king"
+    },
+    {
+      "id": "c66-02",
+      "unit": 66,
+      "direction": "en-he",
+      "hebrew": [
+        "וַיִּקַּח אֶת־בְּנוֹ"
+      ],
+      "english": "He took his son."
+    },
+    {
+      "id": "c66-03",
+      "unit": 66,
+      "direction": "he-en",
+      "hebrew": [
+        "אָחִי אַתָּה"
+      ],
+      "english": "You are my brother.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c66-04",
+      "unit": 66,
+      "direction": "en-he",
+      "hebrew": [
+        "בַּת־פַּרְעֹה"
+      ],
+      "english": "Pharaoh's daughter"
+    },
+    {
+      "id": "c66-05",
+      "unit": 66,
+      "direction": "he-en",
+      "hebrew": [
+        "הָאִישׁ בַּשָּׂדֶה"
+      ],
+      "english": "The man is in the field.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c66-06",
+      "unit": 66,
+      "direction": "he-en",
+      "hebrew": [
+        "וְשָׁב אֶל־הַמַּחֲנֶה"
+      ],
+      "english": "And he returned to the camp."
+    },
+    {
+      "id": "c66-07",
+      "unit": 66,
+      "direction": "he-en",
+      "hebrew": [
+        "בָּנִים וּבָנוֹת"
+      ],
+      "english": "Sons and daughters"
+    },
+    {
+      "id": "c66-08",
+      "unit": 66,
+      "direction": "en-he",
+      "hebrew": [
+        "בְּנֵי יִשְׂרָאֵל"
+      ],
+      "english": "The sons of Israel"
+    },
+    {
+      "id": "c67-01",
+      "unit": 67,
+      "direction": "he-en",
+      "hebrew": [
+        "וַיַּרְא אֱלֹהִים כִּי־טוֹב"
+      ],
+      "english": "God saw that it was good.",
+      "tags": [
+        "apocopated"
+      ]
+    },
+    {
+      "id": "c67-02",
+      "unit": 67,
+      "direction": "en-he",
+      "hebrew": [
+        "וַיַּעַשׂ אֱלֹהִים אֶת־הָרָקִיעַ"
+      ],
+      "english": "God made the expanse.",
+      "tags": [
+        "apocopated"
+      ]
+    },
+    {
+      "id": "c67-03",
+      "unit": 67,
+      "direction": "he-en",
+      "hebrew": [
+        "וַיַּעַן הַמֶּלֶךְ"
+      ],
+      "english": "The king answered.",
+      "tags": [
+        "apocopated"
+      ]
+    },
+    {
+      "id": "c67-04",
+      "unit": 67,
+      "direction": "he-en",
+      "hebrew": [
+        "וַיְהִי עֶרֶב וַיְהִי בֹקֶר"
+      ],
+      "english": "And there was evening and there was morning.",
+      "tags": [
+        "apocopated"
+      ]
+    },
+    {
+      "id": "c67-05",
+      "unit": 67,
+      "direction": "he-en",
+      "hebrew": [
+        "וַיַּעַל מֹשֶׁה אֶל־הָאֱלֹהִים"
+      ],
+      "english": "Moses went up to God.",
+      "tags": [
+        "apocopated"
+      ]
+    },
+    {
+      "id": "c67-06",
+      "unit": 67,
+      "direction": "he-en",
+      "hebrew": [
+        "יְהִי אוֹר"
+      ],
+      "english": "Let there be light.",
+      "tags": [
+        "apocopated"
+      ]
+    },
+    {
+      "id": "c67-07",
+      "unit": 67,
+      "direction": "he-en",
+      "hebrew": [
+        "יְהוָה מָגִנִּי"
+      ],
+      "english": "Yahweh is my shield.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c67-08",
+      "unit": 67,
+      "direction": "he-en",
+      "hebrew": [
+        "אָרוּר הָאִישׁ"
+      ],
+      "english": "Cursed is the man.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c67-09",
+      "unit": 67,
+      "direction": "en-he",
+      "hebrew": [
+        "חֶלְקִי יְהוָה"
+      ],
+      "english": "Yahweh is my portion.",
+      "tags": [
+        "verbless",
+        "segholate"
+      ]
+    },
+    {
+      "id": "c67-10",
+      "unit": 67,
+      "direction": "he-en",
+      "hebrew": [
+        "בֶּחָג"
+      ],
+      "english": "At the feast"
+    },
+    {
+      "id": "c67-11",
+      "unit": 67,
+      "direction": "he-en",
+      "hebrew": [
+        "יְהוָה סַלְעִי"
+      ],
+      "english": "Yahweh is my rock.",
+      "tags": [
+        "verbless",
+        "segholate"
+      ]
+    },
+    {
+      "id": "c67-12",
+      "unit": 67,
+      "direction": "he-en",
+      "hebrew": [
+        "וַיִּבֶן שָׁם מִזְבֵּחַ"
+      ],
+      "english": "And he built an altar there.",
+      "tags": [
+        "apocopated"
+      ]
+    },
+    {
+      "id": "c68-01",
+      "unit": 68,
+      "direction": "he-en",
+      "hebrew": [
+        "אֲרוֹן הָעֵדוּת"
+      ],
+      "english": "The ark of the testimony"
+    },
+    {
+      "id": "c68-02",
+      "unit": 68,
+      "direction": "en-he",
+      "hebrew": [
+        "מִזְמוֹר לְדָוִד"
+      ],
+      "english": "A psalm of David"
+    },
+    {
+      "id": "c68-03",
+      "unit": 68,
+      "direction": "he-en",
+      "hebrew": [
+        "תָּמִיד תְּהִלָּתוֹ בְּפִי"
+      ],
+      "english": "His praise is continually in my mouth.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c68-04",
+      "unit": 68,
+      "direction": "he-en",
+      "hebrew": [
+        "אִשָּׁה אַלְמָנָה"
+      ],
+      "english": "A widow woman"
+    },
+    {
+      "id": "c68-05",
+      "unit": 68,
+      "direction": "he-en",
+      "hebrew": [
+        "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ"
+      ],
+      "english": "In the beginning God created the heavens and the earth."
+    },
+    {
+      "id": "c68-06",
+      "unit": 68,
+      "direction": "he-en",
+      "hebrew": [
+        "תַּחַת גַּפְנוֹ"
+      ],
+      "english": "Under his vine",
+      "tags": [
+        "segholate"
+      ]
+    },
+    {
+      "id": "c68-07",
+      "unit": 68,
+      "direction": "en-he",
+      "hebrew": [
+        "תְּהִלַּת יְהוָה"
+      ],
+      "english": "The praise of Yahweh"
+    },
+    {
+      "id": "c69-01",
+      "unit": 69,
+      "direction": "he-en",
+      "hebrew": [
+        "הוֹי גּוֹי חֹטֵא"
+      ],
+      "english": "Ah, sinful nation!"
+    },
+    {
+      "id": "c69-02",
+      "unit": 69,
+      "direction": "en-he",
+      "hebrew": [
+        "אוֹי לָנוּ"
+      ],
+      "english": "Woe to us!"
+    },
+    {
+      "id": "c69-03",
+      "unit": 69,
+      "direction": "he-en",
+      "hebrew": [
+        "מוּסַר יְהוָה"
+      ],
+      "english": "The discipline of Yahweh"
+    },
+    {
+      "id": "c69-04",
+      "unit": 69,
+      "direction": "he-en",
+      "hebrew": [
+        "עִיר וּמִגְדָּל"
+      ],
+      "english": "A city and a tower"
+    },
+    {
+      "id": "c69-05",
+      "unit": 69,
+      "direction": "he-en",
+      "hebrew": [
+        "בַּעֲבוּר זֹאת"
+      ],
+      "english": "For this reason"
+    },
+    {
+      "id": "c69-06",
+      "unit": 69,
+      "direction": "he-en",
+      "hebrew": [
+        "רַבָּה אֱמוּנָתֶךָ"
+      ],
+      "english": "Great is your faithfulness.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c69-07",
+      "unit": 69,
+      "direction": "he-en",
+      "hebrew": [
+        "הוֹי הָאֹמְרִים לָרַע טוֹב"
+      ],
+      "english": "Woe to those who call evil good."
+    },
+    {
+      "id": "c70-01",
+      "unit": 70,
+      "direction": "he-en",
+      "hebrew": [
+        "הַחֲנִית בְּיָדוֹ"
+      ],
+      "english": "The spear is in his hand.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c70-02",
+      "unit": 70,
+      "direction": "en-he",
+      "hebrew": [
+        "רַחֲמִים רַבִּים"
+      ],
+      "english": "Great compassion"
+    },
+    {
+      "id": "c70-03",
+      "unit": 70,
+      "direction": "he-en",
+      "hebrew": [
+        "יָתוֹם וְאַלְמָנָה"
+      ],
+      "english": "The orphan and the widow"
+    },
+    {
+      "id": "c70-04",
+      "unit": 70,
+      "direction": "he-en",
+      "hebrew": [
+        "מְנֹרַת זָהָב"
+      ],
+      "english": "A lampstand of gold"
+    },
+    {
+      "id": "c70-05",
+      "unit": 70,
+      "direction": "he-en",
+      "hebrew": [
+        "וַיִּשְׁלַח חִצָּיו"
+      ],
+      "english": "He sent out his arrows."
+    },
+    {
+      "id": "c70-06",
+      "unit": 70,
+      "direction": "he-en",
+      "hebrew": [
+        "בִּתְבוּנָה"
+      ],
+      "english": "With understanding"
+    },
+    {
+      "id": "c70-07",
+      "unit": 70,
+      "direction": "en-he",
+      "hebrew": [
+        "אֲבִי יְתוֹמִים"
+      ],
+      "english": "A father of orphans"
+    },
+    {
+      "id": "c71-01",
+      "unit": 71,
+      "direction": "he-en",
+      "hebrew": [
+        "גַּם־צִפּוֹר מָצְאָה בַיִת"
+      ],
+      "english": "Even the bird has found a home."
+    },
+    {
+      "id": "c71-02",
+      "unit": 71,
+      "direction": "he-en",
+      "hebrew": [
+        "שֶׁמֶן זַיִת"
+      ],
+      "english": "Olive oil"
+    },
+    {
+      "id": "c71-03",
+      "unit": 71,
+      "direction": "en-he",
+      "hebrew": [
+        "אֹתוֹת וּמֹפְתִים"
+      ],
+      "english": "Signs and wonders"
+    },
+    {
+      "id": "c71-04",
+      "unit": 71,
+      "direction": "he-en",
+      "hebrew": [
+        "וַיְהִי הַגֶּשֶׁם עַל־הָאָרֶץ אַרְבָּעִים יוֹם"
+      ],
+      "english": "The rain was on the earth forty days.",
+      "tags": [
+        "apocopated"
+      ]
+    },
+    {
+      "id": "c71-05",
+      "unit": 71,
+      "direction": "he-en",
+      "hebrew": [
+        "חֲזוֹן יְשַׁעְיָהוּ"
+      ],
+      "english": "The vision of Isaiah"
+    },
+    {
+      "id": "c71-06",
+      "unit": 71,
+      "direction": "he-en",
+      "hebrew": [
+        "וְנָתַתִּי גִשְׁמֵיכֶם בְּעִתָּם"
+      ],
+      "english": "I will give your rains in their season."
+    },
+    {
+      "id": "c71-07",
+      "unit": 71,
+      "direction": "en-he",
+      "hebrew": [
+        "רוּחַ חָכְמָה וּבִינָה"
+      ],
+      "english": "A spirit of wisdom and understanding"
+    },
+    {
+      "id": "c72-01",
+      "unit": 72,
+      "direction": "he-en",
+      "hebrew": [
+        "שֹׁמֵר נַפְשׁוֹת חֲסִידָיו"
+      ],
+      "english": "He keeps the lives of his faithful ones."
+    },
+    {
+      "id": "c72-02",
+      "unit": 72,
+      "direction": "en-he",
+      "hebrew": [
+        "הַבְּרָכָה וְהַקְּלָלָה"
+      ],
+      "english": "The blessing and the curse"
+    },
+    {
+      "id": "c72-03",
+      "unit": 72,
+      "direction": "he-en",
+      "hebrew": [
+        "קוֹל תּוֹדָה"
+      ],
+      "english": "The voice of thanksgiving"
+    },
+    {
+      "id": "c72-04",
+      "unit": 72,
+      "direction": "he-en",
+      "hebrew": [
+        "מַעְשַׂר הָאָרֶץ"
+      ],
+      "english": "The tithe of the land"
+    },
+    {
+      "id": "c72-05",
+      "unit": 72,
+      "direction": "he-en",
+      "hebrew": [
+        "מֵעַי מֵעַי"
+      ],
+      "english": "My bowels, my bowels!"
+    },
+    {
+      "id": "c72-06",
+      "unit": 72,
+      "direction": "he-en",
+      "hebrew": [
+        "כִּי־חָסִיד אָנִי"
+      ],
+      "english": "For I am faithful.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c73-01",
+      "unit": 73,
+      "direction": "he-en",
+      "hebrew": [
+        "הַחִנָּם יָרֵא אִיּוֹב אֱלֹהִים"
+      ],
+      "english": "Does Job fear God for nothing?"
+    },
+    {
+      "id": "c73-02",
+      "unit": 73,
+      "direction": "en-he",
+      "hebrew": [
+        "עַל־הַגָּג"
+      ],
+      "english": "On the roof"
+    },
+    {
+      "id": "c73-03",
+      "unit": 73,
+      "direction": "he-en",
+      "hebrew": [
+        "וַיִּקַּח שֵׁם וָיֶפֶת אֶת־הַשִּׂמְלָה"
+      ],
+      "english": "Shem and Japheth took the garment."
+    },
+    {
+      "id": "c73-04",
+      "unit": 73,
+      "direction": "he-en",
+      "hebrew": [
+        "שְׁבֻעַת יְהוָה"
+      ],
+      "english": "The oath of Yahweh"
+    },
+    {
+      "id": "c73-05",
+      "unit": 73,
+      "direction": "he-en",
+      "hebrew": [
+        "אָמֵן אָמֵן"
+      ],
+      "english": "Amen, amen."
+    },
+    {
+      "id": "c73-06",
+      "unit": 73,
+      "direction": "he-en",
+      "hebrew": [
+        "עַל־גַּג הַבַּיִת"
+      ],
+      "english": "On the roof of the house"
+    },
+    {
+      "id": "c73-07",
+      "unit": 73,
+      "direction": "he-en",
+      "hebrew": [
+        "וְאָמַר כָּל־הָעָם אָמֵן"
+      ],
+      "english": "And all the people shall say, Amen."
+    },
+    {
+      "id": "c74-01",
+      "unit": 74,
+      "direction": "he-en",
+      "hebrew": [
+        "וַיְהִי בָרָד"
+      ],
+      "english": "And there was hail.",
+      "tags": [
+        "apocopated"
+      ]
+    },
+    {
+      "id": "c74-02",
+      "unit": 74,
+      "direction": "en-he",
+      "hebrew": [
+        "וְהָיָה שְׂכָרִי"
+      ],
+      "english": "And it shall be my wage."
+    },
+    {
+      "id": "c74-03",
+      "unit": 74,
+      "direction": "he-en",
+      "hebrew": [
+        "קוֹל בְּכִי"
+      ],
+      "english": "The sound of weeping"
+    },
+    {
+      "id": "c74-04",
+      "unit": 74,
+      "direction": "he-en",
+      "hebrew": [
+        "מָה־אַדִּיר שִׁמְךָ"
+      ],
+      "english": "How majestic is your name!",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c74-05",
+      "unit": 74,
+      "direction": "he-en",
+      "hebrew": [
+        "שְׁאָר יָשׁוּב"
+      ],
+      "english": "A remnant will return."
+    },
+    {
+      "id": "c74-06",
+      "unit": 74,
+      "direction": "he-en",
+      "hebrew": [
+        "שֶׁמֶשׁ וְיָרֵחַ"
+      ],
+      "english": "Sun and moon"
+    },
+    {
+      "id": "c74-07",
+      "unit": 74,
+      "direction": "he-en",
+      "hebrew": [
+        "הַשֶּׁמֶשׁ וְהַיָּרֵחַ"
+      ],
+      "english": "The sun and the moon"
+    },
+    {
+      "id": "c75-01",
+      "unit": 75,
+      "direction": "he-en",
+      "hebrew": [
+        "וְהָאִישׁ מֹשֶׁה עָנָו מְאֹד"
+      ],
+      "english": "Now the man Moses was very humble.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c75-02",
+      "unit": 75,
+      "direction": "en-he",
+      "hebrew": [
+        "כִּדְמוּתֵנוּ"
+      ],
+      "english": "According to our likeness"
+    },
+    {
+      "id": "c75-03",
+      "unit": 75,
+      "direction": "he-en",
+      "hebrew": [
+        "וַיָּבֹא אֲלֵיהֶם פִּתְאֹם"
+      ],
+      "english": "He came upon them suddenly."
+    },
+    {
+      "id": "c75-04",
+      "unit": 75,
+      "direction": "he-en",
+      "hebrew": [
+        "הוֹדוֹ עַל־אֶרֶץ וְשָׁמָיִם"
+      ],
+      "english": "His splendor is above earth and heaven.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c75-05",
+      "unit": 75,
+      "direction": "he-en",
+      "hebrew": [
+        "אֲנִי בְּתֻמִּי הָלַכְתִּי"
+      ],
+      "english": "I have walked in my integrity.",
+      "plain": [
+        "הָלַכְתִּי"
+      ]
+    },
+    {
+      "id": "c75-06",
+      "unit": 75,
+      "direction": "he-en",
+      "hebrew": [
+        "עֲטֶרֶת זָהָב"
+      ],
+      "english": "A crown of gold"
+    },
+    {
+      "id": "c76-01",
+      "unit": 76,
+      "direction": "he-en",
+      "hebrew": [
+        "נַעֲלֵיכֶם בְּרַגְלֵיכֶם"
+      ],
+      "english": "Your sandals on your feet",
+      "tags": [
+        "verbless",
+        "segholate"
+      ]
+    },
+    {
+      "id": "c76-02",
+      "unit": 76,
+      "direction": "en-he",
+      "hebrew": [
+        "טוֹב שָׁכֵן קָרוֹב מֵאָח רָחוֹק"
+      ],
+      "english": "Better is a neighbor who is near than a brother far away.",
+      "tags": [
+        "verbless",
+        "comparison"
+      ]
+    },
+    {
+      "id": "c76-03",
+      "unit": 76,
+      "direction": "he-en",
+      "hebrew": [
+        "שִׁבְעָה שָׁבֻעֹת"
+      ],
+      "english": "Seven weeks"
+    },
+    {
+      "id": "c76-04",
+      "unit": 76,
+      "direction": "he-en",
+      "hebrew": [
+        "לַהֲבוֹת אֵשׁ"
+      ],
+      "english": "Flames of fire"
+    },
+    {
+      "id": "c77-01",
+      "unit": 77,
+      "direction": "he-en",
+      "hebrew": [
+        "בְּצֶלֶם אֱלֹהִים"
+      ],
+      "english": "In the image of God"
+    },
+    {
+      "id": "c77-02",
+      "unit": 77,
+      "direction": "en-he",
+      "hebrew": [
+        "וַיִּבְרָא אֱלֹהִים אֶת־הָאָדָם בְּצַלְמוֹ"
+      ],
+      "english": "God created man in his own image.",
+      "tags": [
+        "segholate"
+      ]
+    },
+    {
+      "id": "c77-03",
+      "unit": 77,
+      "direction": "he-en",
+      "hebrew": [
+        "וְאוּלָם חַי־אָנִי"
+      ],
+      "english": "But truly, as I live.",
+      "tags": [
+        "verbless"
+      ]
+    },
+    {
+      "id": "c77-04",
+      "unit": 77,
+      "direction": "he-en",
+      "hebrew": [
+        "מַיִם עֲמֻקִּים"
+      ],
+      "english": "Deep waters"
+    },
+    {
+      "id": "c77-05",
+      "unit": 77,
+      "direction": "he-en",
+      "hebrew": [
+        "לְמֶמְשֶׁלֶת הַיּוֹם"
+      ],
+      "english": "To rule the day"
+    },
+    {
+      "id": "c78-01",
+      "unit": 78,
+      "direction": "he-en",
+      "hebrew": [
+        "עֵקֶב אֲשֶׁר שָׁמַע אַבְרָהָם בְּקֹלִי"
+      ],
+      "english": "Because Abraham obeyed my voice."
+    },
+    {
+      "id": "c78-02",
+      "unit": 78,
+      "direction": "en-he",
+      "hebrew": [
+        "מָתוֹק מִדְּבַשׁ"
+      ],
+      "english": "Sweeter than honey",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "c78-03",
+      "unit": 78,
+      "direction": "he-en",
+      "hebrew": [
+        "כֵּלִים רֵקִים"
+      ],
+      "english": "Empty vessels"
+    },
+    {
+      "id": "c78-04",
+      "unit": 78,
+      "direction": "he-en",
+      "hebrew": [
+        "לְרֹאשׁ וְלֹא לְזָנָב"
+      ],
+      "english": "The head and not the tail"
+    },
+    {
+      "id": "c78-05",
+      "unit": 78,
+      "direction": "he-en",
+      "hebrew": [
+        "אִישׁ עַל־דִּגְלוֹ"
+      ],
+      "english": "Each man by his banner",
+      "tags": [
+        "segholate"
+      ]
+    },
+    {
+      "id": "c79-01",
+      "unit": 79,
+      "direction": "he-en",
+      "hebrew": [
+        "שִׂמְחַת גִּילִי"
+      ],
+      "english": "The joy of my rejoicing"
+    },
+    {
+      "id": "c79-02",
+      "unit": 79,
+      "direction": "he-en",
+      "hebrew": [
+        "בְּכֶתֶר מַלְכוּת"
+      ],
+      "english": "With the royal crown",
+      "tags": [
+        "construct"
+      ]
+    },
+    {
+      "id": "c79-03",
+      "unit": 79,
+      "direction": "en-he",
+      "hebrew": [
+        "וַיִּקְחוּ אֶת־הַמַּפְתֵּחַ"
+      ],
+      "english": "They took the key."
+    },
+    {
+      "id": "c79-04",
+      "unit": 79,
+      "direction": "he-en",
+      "hebrew": [
+        "וְאַמִּיץ לִבּוֹ בַּגִּבּוֹרִים"
+      ],
+      "english": "And he who is stout of heart among the mighty"
+    }
+  ]
+}

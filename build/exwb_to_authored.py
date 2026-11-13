@@ -35,6 +35,9 @@ GRAMMAR = ROOT / "build" / "_sources" / "davidson" / "grammar-units.json"
 TAGS = ROOT / "build" / "_sources" / "davidson" / "sentence-grammar.json"
 PHRASES = ROOT / "build" / "_sources" / "davidson" / "indefinite-phrases.json"
 RECOGNITION = ROOT / "build" / "_sources" / "davidson" / "recognition.json"
+CORPUS = ROOT / "build" / "_sources" / "davidson" / "corpus.json"
+CORPUS_FORMS = ROOT / "build" / "_sources" / "davidson" / "corpus-forms.json"
+BIBLE = ROOT / "build" / "_sources" / "davidson" / "bible-excerpts.json"
 SENTENCE_SHAPES = ("en-he", "he-en")
 GRAMMAR_ID = "introductoryhebr0000davi_w1b2"
 KEY_ID = "keytoexercisesin0000mcfa"
@@ -460,6 +463,13 @@ def build(cfg: dict) -> tuple[dict[int, dict], Counter]:
         u["sources"][entry["base"]] = entry["source"]
         u["raw"].append(entry["raw"])
         shapes["recognition"] += 1
+    for kind, entries in (("corpus", corpus_entries(pausal)), ("bible", bible_entries(pausal))):
+        for unit, entry in entries:
+            u = units[unit]
+            u["items"] += entry["items"]
+            u["sources"][entry["base"]] = entry["source"]
+            u["raw"].append(entry["raw"])
+            shapes[kind] += 1
     return units, shapes
 
 
@@ -531,6 +541,61 @@ def recognition_entries(cfg: dict) -> list[tuple[int, dict]]:
     return out
 
 
+def extra_entries(rows: list[dict], pausal: PausalForms, block_of, label: str, source_of,
+                  direction_of, rung5: bool) -> list[tuple[int, dict]]:
+    pools: dict[int, list[str]] = defaultdict(list)
+    for r in rows:
+        pools[r["unit"]].append(r["english"])
+    out = []
+    for r in rows:
+        base = r["base"]
+        rng = random.Random(base)
+        common = {"block": block_of(r), "blockLabel": label, "shape": "corpus" if label == "New sentences" else "bible",
+                  "src": base, "extra": True}
+        pool = [e for e in pools[r["unit"]] if e != r["english"]]
+        made = ladder(base, r["hebrew"], r["english"], pool, direction_of(r), rng, pausal, common)
+        if not rung5:
+            made = [it for it in made if it["rung"] != 5]
+        out.append((r["unit"], {"base": base, "source": source_of(r), "items": made,
+                                "raw": {"typeGuess": made[0]["type"], "confidence": 1.0, "prompt": made[0]["prompt"],
+                                        "body_raw": r["hebrew"][0], "answer_raw": r["english"]}}))
+    return out
+
+
+def corpus_entries(pausal: PausalForms) -> list[tuple[int, dict]]:
+    """Sentences written for this course (corpus.json), checked word by word against the Hebrew Bible."""
+    from davidson_corpus import sentence_unit
+    if not CORPUS.is_file():
+        return []
+    sentences = json.loads(CORPUS.read_text(encoding="utf-8"))["sentences"]
+    forms = json.loads(CORPUS_FORMS.read_text(encoding="utf-8"))["forms"]
+    rows = []
+    for s in sentences:
+        unit, problems = sentence_unit(s["hebrew"][0], forms, s.get("tags", []), s.get("plain"))
+        if problems or unit != s["unit"]:
+            sys.exit(f"{s['id']}: declared unit {s['unit']}, computed {unit} {problems} "
+                     "(python build/davidson_corpus.py report)")
+        rows.append({**s, "base": s["id"]})
+    source = {"citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible "
+                          "(Westminster Leningrad Codex) or in Davidson's grammar"}
+    return extra_entries(rows, pausal, lambda r: f"c{r['unit']:02d}", "New sentences", lambda r: source,
+                         lambda r: r["direction"], True)
+
+
+def bible_entries(pausal: PausalForms) -> list[tuple[int, dict]]:
+    """Whole Bible verses that use only course words (bible-excerpts.json), with the World English Bible."""
+    if not BIBLE.is_file():
+        return []
+    verses = json.loads(BIBLE.read_text(encoding="utf-8"))["verses"]
+    rows = [{**v, "hebrew": [v["hebrew"]], "base": "b-" + v["ref"].replace(".", "-")} for v in verses]
+
+    def source(r: dict) -> dict:
+        return {"citation": f"{r['cite']}. Hebrew: Westminster Leningrad Codex (public domain) via the Open Scriptures "
+                            "Hebrew Bible (morphology CC BY 4.0). English: World English Bible (public domain)",
+                "url": "https://worldenglish.bible"}
+    return extra_entries(rows, pausal, lambda r: f"b{r['unit']:02d}", "Bible verses", source, lambda r: "he-en", False)
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument("--course", required=True)
@@ -542,6 +607,7 @@ def main() -> int:
 
     wanted: dict[Path, str] = {}
     ladder_index = {}
+    extra_index = {}
     for unit, u in sorted(units.items()):
         name = f"{unit:02d}.json"
         wanted[course / "authored" / name] = dump(
@@ -549,11 +615,17 @@ def main() -> int:
         raw = [{"unit": unit, "n": i, **r} for i, r in enumerate(u["raw"], start=1)]
         wanted[course / "exercises" / name] = dump(
             {"schema": "workbook-exercises-v1.json", "unit": unit, "items": raw})
-        rungs = Counter(str(it["rung"]) for it in u["items"] if "rung" in it)
+        rungs = Counter(str(it["rung"]) for it in u["items"] if "rung" in it and not it.get("extra"))
+        extra = Counter(str(it["rung"]) for it in u["items"] if "rung" in it and it.get("extra"))
+        for r in extra:
+            rungs.setdefault(r, 0)
         ladder_index[str(unit)] = dict(sorted(rungs.items()))
+        if extra:
+            extra_index[str(unit)] = dict(sorted(extra.items()))
     wanted[course / "authored" / "ladder.json"] = dump(
-        {"note": "Items per ladder rung per unit (rung 1 true/false … 5 translate with vowel points); "
-                 "written by build/exwb_to_authored.py.", "units": ladder_index})
+        {"note": "Items per ladder rung per unit (rung 1 true/false … 5 translate with vowel points): `units` counts "
+                 "the book's exercises, `extra` the new sentences and Bible verses (corpus expansion); "
+                 "written by build/exwb_to_authored.py.", "units": ladder_index, "extra": extra_index})
     existing = {p for d in ("authored", "exercises") for p in (course / d).glob("[0-9][0-9].json")}
     existing |= {p for p in [course / "authored" / "ladder.json"] if p.exists()}
     stale = sorted(existing - set(wanted))

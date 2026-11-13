@@ -1,0 +1,985 @@
+{
+  "schema": "authored-exercises-v1.json",
+  "unit": 37,
+  "sources": {
+    "c37-01": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c37-02": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c37-03": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c37-04": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c37-05": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c37-06": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c37-07": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c37-08": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c37-09": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c37-10": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    }
+  },
+  "items": [
+    {
+      "id": "c37-01.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַכֹּהֵן בָּא אֶל־הַהֵיכָל",
+      "stimulusIsScript": true,
+      "statement": "The priest came in the temple.",
+      "answer": false,
+      "expected": "The priest came to the temple.",
+      "block": "c37",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c37-01",
+      "extra": true
+    },
+    {
+      "id": "c37-01.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַכֹּהֵן בָּא אֶל־הַהֵיכָל",
+      "stimulusIsScript": true,
+      "options": [
+        "A priest came to the temple.",
+        "The priest came to the temple.",
+        "The priest came from the temple.",
+        "The priest came in the temple."
+      ],
+      "answer": "The priest came to the temple.",
+      "optionIsScript": false,
+      "block": "c37",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c37-01",
+      "extra": true
+    },
+    {
+      "id": "c37-01.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The priest came to the temple.",
+      "stimulus": "הַכֹּהֵן ＿＿＿ אֶל־הַהֵיכָל",
+      "stimulusIsScript": true,
+      "accepted": [
+        "בָּא"
+      ],
+      "answerIsScript": true,
+      "block": "c37",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c37-01",
+      "extra": true
+    },
+    {
+      "id": "c37-01.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הַכֹּהֵן בָּא אֶל־הַהֵיכָל",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The priest came to the temple."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c37",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c37-01",
+      "extra": true
+    },
+    {
+      "id": "c37-01.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The priest came to the temple.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַכֹּהֵן בָּא אֶל־הַהֵיכָל"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c37",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c37-01",
+      "extra": true
+    },
+    {
+      "id": "c37-02.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַכֹּהֵן הַגָּדוֹל",
+      "stimulusIsScript": true,
+      "statement": "The high priest",
+      "answer": true,
+      "expected": "The high priest",
+      "block": "c37",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c37-02",
+      "extra": true
+    },
+    {
+      "id": "c37-02.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַכֹּהֵן הַגָּדוֹל",
+      "stimulusIsScript": true,
+      "options": [
+        "The high priest",
+        "The priests took the vessels.",
+        "The judges judged in righteousness.",
+        "A high priest"
+      ],
+      "answer": "The high priest",
+      "optionIsScript": false,
+      "block": "c37",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c37-02",
+      "extra": true
+    },
+    {
+      "id": "c37-02.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The high priest",
+      "stimulus": "הַכֹּהֵן ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַגָּדוֹל"
+      ],
+      "answerIsScript": true,
+      "block": "c37",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c37-02",
+      "extra": true
+    },
+    {
+      "id": "c37-02.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The high priest",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַכֹּהֵן הַגָּדוֹל"
+      ],
+      "answerIsScript": true,
+      "block": "c37",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c37-02",
+      "extra": true
+    },
+    {
+      "id": "c37-02.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The high priest",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַכֹּהֵן הַגָּדוֹל"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c37",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c37-02",
+      "extra": true
+    },
+    {
+      "id": "c37-03.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "דְּבָרֶיךָ אֱמֶת",
+      "stimulusIsScript": true,
+      "statement": "Your words are truth.",
+      "answer": true,
+      "expected": "Your words are truth.",
+      "block": "c37",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c37-03",
+      "extra": true
+    },
+    {
+      "id": "c37-03.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "דְּבָרֶיךָ אֱמֶת",
+      "stimulusIsScript": true,
+      "options": [
+        "My words are truth.",
+        "Their words are truth.",
+        "Your words are truth.",
+        "Our words are truth."
+      ],
+      "answer": "Your words are truth.",
+      "optionIsScript": false,
+      "block": "c37",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c37-03",
+      "extra": true
+    },
+    {
+      "id": "c37-03.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Your words are truth.",
+      "stimulus": "דְּבָרֶיךָ ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֱמֶת"
+      ],
+      "answerIsScript": true,
+      "block": "c37",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c37-03",
+      "extra": true
+    },
+    {
+      "id": "c37-03.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "דְּבָרֶיךָ אֱמֶת",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Your words are truth."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c37",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c37-03",
+      "extra": true
+    },
+    {
+      "id": "c37-03.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Your words are truth.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "דְּבָרֶיךָ אֱמֶת"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c37",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c37-03",
+      "extra": true
+    },
+    {
+      "id": "c37-04.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַכֹּהֲנִים לָקְחוּ אֶת־הַכֵּלִים",
+      "stimulusIsScript": true,
+      "statement": "Priests took the vessels.",
+      "answer": false,
+      "expected": "The priests took the vessels.",
+      "block": "c37",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c37-04",
+      "extra": true
+    },
+    {
+      "id": "c37-04.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַכֹּהֲנִים לָקְחוּ אֶת־הַכֵּלִים",
+      "stimulusIsScript": true,
+      "options": [
+        "The priests took the vessels.",
+        "Priests took the vessels.",
+        "The priest kept the vessels of the temple.",
+        "The priests took vessels."
+      ],
+      "answer": "The priests took the vessels.",
+      "optionIsScript": false,
+      "block": "c37",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c37-04",
+      "extra": true
+    },
+    {
+      "id": "c37-04.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The priests took the vessels.",
+      "stimulus": "הַכֹּהֲנִים לָקְחוּ ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶת־הַכֵּלִים"
+      ],
+      "answerIsScript": true,
+      "block": "c37",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c37-04",
+      "extra": true
+    },
+    {
+      "id": "c37-04.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הַכֹּהֲנִים לָקְחוּ אֶת־הַכֵּלִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The priests took the vessels."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c37",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c37-04",
+      "extra": true
+    },
+    {
+      "id": "c37-04.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The priests took the vessels.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַכֹּהֲנִים לָקְחוּ אֶת־הַכֵּלִים"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c37",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c37-04",
+      "extra": true
+    },
+    {
+      "id": "c37-05.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "צֶדֶק וּמִשְׁפָּט",
+      "stimulusIsScript": true,
+      "statement": "A law of truth",
+      "answer": false,
+      "expected": "Righteousness and justice",
+      "block": "c37",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c37-05",
+      "extra": true
+    },
+    {
+      "id": "c37-05.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "צֶדֶק וּמִשְׁפָּט",
+      "stimulusIsScript": true,
+      "options": [
+        "The priest came to the temple.",
+        "A law of truth",
+        "Righteousness and justice",
+        "The high priest"
+      ],
+      "answer": "Righteousness and justice",
+      "optionIsScript": false,
+      "block": "c37",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c37-05",
+      "extra": true
+    },
+    {
+      "id": "c37-05.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Righteousness and justice",
+      "stimulus": "צֶדֶק ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וּמִשְׁפָּט"
+      ],
+      "answerIsScript": true,
+      "block": "c37",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c37-05",
+      "extra": true
+    },
+    {
+      "id": "c37-05.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "Righteousness and justice",
+      "stimulusIsScript": false,
+      "accepted": [
+        "צֶדֶק וּמִשְׁפָּט"
+      ],
+      "answerIsScript": true,
+      "block": "c37",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c37-05",
+      "extra": true
+    },
+    {
+      "id": "c37-05.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Righteousness and justice",
+      "stimulusIsScript": false,
+      "accepted": [
+        "צֶדֶק וּמִשְׁפָּט"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c37",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c37-05",
+      "extra": true
+    },
+    {
+      "id": "c37-06.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אִישׁ אוֹ אִשָּׁה",
+      "stimulusIsScript": true,
+      "statement": "A man or the woman",
+      "answer": false,
+      "expected": "A man or a woman",
+      "block": "c37",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c37-06",
+      "extra": true
+    },
+    {
+      "id": "c37-06.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אִישׁ אוֹ אִשָּׁה",
+      "stimulusIsScript": true,
+      "options": [
+        "A man or the woman",
+        "The man or a woman",
+        "A man or a woman",
+        "The high priest"
+      ],
+      "answer": "A man or a woman",
+      "optionIsScript": false,
+      "block": "c37",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c37-06",
+      "extra": true
+    },
+    {
+      "id": "c37-06.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: A man or a woman",
+      "stimulus": "אִישׁ ＿＿＿ אִשָּׁה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אוֹ"
+      ],
+      "answerIsScript": true,
+      "block": "c37",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c37-06",
+      "extra": true
+    },
+    {
+      "id": "c37-06.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "אִישׁ אוֹ אִשָּׁה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "A man or a woman"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c37",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c37-06",
+      "extra": true
+    },
+    {
+      "id": "c37-06.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "A man or a woman",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אִישׁ אוֹ אִשָּׁה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c37",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c37-06",
+      "extra": true
+    },
+    {
+      "id": "c37-07.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַשֹּׁפְטִים שָׁפְטוּ בְּצֶדֶק",
+      "stimulusIsScript": true,
+      "statement": "The judges judged in righteousness.",
+      "answer": true,
+      "expected": "The judges judged in righteousness.",
+      "block": "c37",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c37-07",
+      "extra": true
+    },
+    {
+      "id": "c37-07.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַשֹּׁפְטִים שָׁפְטוּ בְּצֶדֶק",
+      "stimulusIsScript": true,
+      "options": [
+        "The judges judged in righteousness.",
+        "Your words are truth.",
+        "A law of truth",
+        "Judges judged in righteousness."
+      ],
+      "answer": "The judges judged in righteousness.",
+      "optionIsScript": false,
+      "block": "c37",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c37-07",
+      "extra": true
+    },
+    {
+      "id": "c37-07.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The judges judged in righteousness.",
+      "stimulus": "הַשֹּׁפְטִים ＿＿＿ בְּצֶדֶק",
+      "stimulusIsScript": true,
+      "accepted": [
+        "שָׁפְטוּ"
+      ],
+      "answerIsScript": true,
+      "block": "c37",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c37-07",
+      "extra": true
+    },
+    {
+      "id": "c37-07.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הַשֹּׁפְטִים שָׁפְטוּ בְּצֶדֶק",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The judges judged in righteousness."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c37",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c37-07",
+      "extra": true
+    },
+    {
+      "id": "c37-07.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The judges judged in righteousness.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַשֹּׁפְטִים שָׁפְטוּ בְּצֶדֶק"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c37",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c37-07",
+      "extra": true
+    },
+    {
+      "id": "c37-08.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "כְּלֵי זָהָב",
+      "stimulusIsScript": true,
+      "statement": "Your words are truth.",
+      "answer": false,
+      "expected": "Vessels of gold",
+      "block": "c37",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c37-08",
+      "extra": true
+    },
+    {
+      "id": "c37-08.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "כְּלֵי זָהָב",
+      "stimulusIsScript": true,
+      "options": [
+        "Righteousness and justice",
+        "Your words are truth.",
+        "The priest came to the temple.",
+        "Vessels of gold"
+      ],
+      "answer": "Vessels of gold",
+      "optionIsScript": false,
+      "block": "c37",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c37-08",
+      "extra": true
+    },
+    {
+      "id": "c37-08.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Vessels of gold",
+      "stimulus": "כְּלֵי ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "זָהָב"
+      ],
+      "answerIsScript": true,
+      "block": "c37",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c37-08",
+      "extra": true
+    },
+    {
+      "id": "c37-08.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "Vessels of gold",
+      "stimulusIsScript": false,
+      "accepted": [
+        "כְּלֵי זָהָב"
+      ],
+      "answerIsScript": true,
+      "block": "c37",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c37-08",
+      "extra": true
+    },
+    {
+      "id": "c37-08.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Vessels of gold",
+      "stimulusIsScript": false,
+      "accepted": [
+        "כְּלֵי זָהָב"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c37",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c37-08",
+      "extra": true
+    },
+    {
+      "id": "c37-09.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַכֹּהֵן שָׁמַר אֶת־כְּלֵי הַהֵיכָל",
+      "stimulusIsScript": true,
+      "statement": "The priest kept the vessels of a temple.",
+      "answer": false,
+      "expected": "The priest kept the vessels of the temple.",
+      "block": "c37",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c37-09",
+      "extra": true
+    },
+    {
+      "id": "c37-09.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַכֹּהֵן שָׁמַר אֶת־כְּלֵי הַהֵיכָל",
+      "stimulusIsScript": true,
+      "options": [
+        "The priest kept the vessels of the temple.",
+        "The priest kept the vessels of a temple.",
+        "A priest kept the vessels of the temple.",
+        "The priest kept vessels of the temple."
+      ],
+      "answer": "The priest kept the vessels of the temple.",
+      "optionIsScript": false,
+      "block": "c37",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c37-09",
+      "extra": true
+    },
+    {
+      "id": "c37-09.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The priest kept the vessels of the temple.",
+      "stimulus": "הַכֹּהֵן שָׁמַר ＿＿＿ הַהֵיכָל",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶת־כְּלֵי"
+      ],
+      "answerIsScript": true,
+      "block": "c37",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c37-09",
+      "extra": true
+    },
+    {
+      "id": "c37-09.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הַכֹּהֵן שָׁמַר אֶת־כְּלֵי הַהֵיכָל",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The priest kept the vessels of the temple."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c37",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c37-09",
+      "extra": true
+    },
+    {
+      "id": "c37-09.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The priest kept the vessels of the temple.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַכֹּהֵן שָׁמַר אֶת־כְּלֵי הַהֵיכָל"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c37",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c37-09",
+      "extra": true
+    },
+    {
+      "id": "c37-10.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "תּוֹרַת אֱמֶת",
+      "stimulusIsScript": true,
+      "statement": "The law of truth",
+      "answer": false,
+      "expected": "A law of truth",
+      "block": "c37",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c37-10",
+      "extra": true
+    },
+    {
+      "id": "c37-10.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "תּוֹרַת אֱמֶת",
+      "stimulusIsScript": true,
+      "options": [
+        "The priest came to the temple.",
+        "The law of truth",
+        "A law of truth",
+        "The priest kept the vessels of the temple."
+      ],
+      "answer": "A law of truth",
+      "optionIsScript": false,
+      "block": "c37",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c37-10",
+      "extra": true
+    },
+    {
+      "id": "c37-10.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: A law of truth",
+      "stimulus": "＿＿＿ אֱמֶת",
+      "stimulusIsScript": true,
+      "accepted": [
+        "תּוֹרַת"
+      ],
+      "answerIsScript": true,
+      "block": "c37",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c37-10",
+      "extra": true
+    },
+    {
+      "id": "c37-10.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "תּוֹרַת אֱמֶת",
+      "stimulusIsScript": true,
+      "accepted": [
+        "A law of truth"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c37",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c37-10",
+      "extra": true
+    },
+    {
+      "id": "c37-10.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "A law of truth",
+      "stimulusIsScript": false,
+      "accepted": [
+        "תּוֹרַת אֱמֶת"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c37",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c37-10",
+      "extra": true
+    }
+  ]
+}

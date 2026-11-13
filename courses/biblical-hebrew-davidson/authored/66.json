@@ -1,0 +1,1873 @@
+{
+  "schema": "authored-exercises-v1.json",
+  "unit": 66,
+  "sources": {
+    "c66-01": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c66-02": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c66-03": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c66-04": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c66-05": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c66-06": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c66-07": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c66-08": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "b-Gen-5-4": {
+      "citation": "Genesis 5:4. Hebrew: Westminster Leningrad Codex (public domain) via the Open Scriptures Hebrew Bible (morphology CC BY 4.0). English: World English Bible (public domain)",
+      "url": "https://worldenglish.bible"
+    },
+    "b-Gen-10-20": {
+      "citation": "Genesis 10:20. Hebrew: Westminster Leningrad Codex (public domain) via the Open Scriptures Hebrew Bible (morphology CC BY 4.0). English: World English Bible (public domain)",
+      "url": "https://worldenglish.bible"
+    },
+    "b-Gen-10-31": {
+      "citation": "Genesis 10:31. Hebrew: Westminster Leningrad Codex (public domain) via the Open Scriptures Hebrew Bible (morphology CC BY 4.0). English: World English Bible (public domain)",
+      "url": "https://worldenglish.bible"
+    },
+    "b-Gen-21-5": {
+      "citation": "Genesis 21:5. Hebrew: Westminster Leningrad Codex (public domain) via the Open Scriptures Hebrew Bible (morphology CC BY 4.0). English: World English Bible (public domain)",
+      "url": "https://worldenglish.bible"
+    },
+    "b-Gen-44-14": {
+      "citation": "Genesis 44:14. Hebrew: Westminster Leningrad Codex (public domain) via the Open Scriptures Hebrew Bible (morphology CC BY 4.0). English: World English Bible (public domain)",
+      "url": "https://worldenglish.bible"
+    },
+    "b-Gen-46-22": {
+      "citation": "Genesis 46:22. Hebrew: Westminster Leningrad Codex (public domain) via the Open Scriptures Hebrew Bible (morphology CC BY 4.0). English: World English Bible (public domain)",
+      "url": "https://worldenglish.bible"
+    },
+    "b-Gen-46-23": {
+      "citation": "Genesis 46:23. Hebrew: Westminster Leningrad Codex (public domain) via the Open Scriptures Hebrew Bible (morphology CC BY 4.0). English: World English Bible (public domain)",
+      "url": "https://worldenglish.bible"
+    },
+    "b-Exod-40-31": {
+      "citation": "Exodus 40:31. Hebrew: Westminster Leningrad Codex (public domain) via the Open Scriptures Hebrew Bible (morphology CC BY 4.0). English: World English Bible (public domain)",
+      "url": "https://worldenglish.bible"
+    },
+    "b-Num-33-39": {
+      "citation": "Numbers 33:39. Hebrew: Westminster Leningrad Codex (public domain) via the Open Scriptures Hebrew Bible (morphology CC BY 4.0). English: World English Bible (public domain)",
+      "url": "https://worldenglish.bible"
+    },
+    "b-Num-36-12": {
+      "citation": "Numbers 36:12. Hebrew: Westminster Leningrad Codex (public domain) via the Open Scriptures Hebrew Bible (morphology CC BY 4.0). English: World English Bible (public domain)",
+      "url": "https://worldenglish.bible"
+    },
+    "b-Josh-13-28": {
+      "citation": "Joshua 13:28. Hebrew: Westminster Leningrad Codex (public domain) via the Open Scriptures Hebrew Bible (morphology CC BY 4.0). English: World English Bible (public domain)",
+      "url": "https://worldenglish.bible"
+    },
+    "b-2Chr-15-1": {
+      "citation": "2 Chronicles 15:1. Hebrew: Westminster Leningrad Codex (public domain) via the Open Scriptures Hebrew Bible (morphology CC BY 4.0). English: World English Bible (public domain)",
+      "url": "https://worldenglish.bible"
+    },
+    "b-2Chr-21-5": {
+      "citation": "2 Chronicles 21:5. Hebrew: Westminster Leningrad Codex (public domain) via the Open Scriptures Hebrew Bible (morphology CC BY 4.0). English: World English Bible (public domain)",
+      "url": "https://worldenglish.bible"
+    },
+    "b-2Chr-27-8": {
+      "citation": "2 Chronicles 27:8. Hebrew: Westminster Leningrad Codex (public domain) via the Open Scriptures Hebrew Bible (morphology CC BY 4.0). English: World English Bible (public domain)",
+      "url": "https://worldenglish.bible"
+    }
+  },
+  "items": [
+    {
+      "id": "c66-01.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "בֶּן־הַמֶּלֶךְ",
+      "stimulusIsScript": true,
+      "statement": "The son of a king",
+      "answer": false,
+      "expected": "The son of the king",
+      "block": "c66",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c66-01",
+      "extra": true
+    },
+    {
+      "id": "c66-01.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "בֶּן־הַמֶּלֶךְ",
+      "stimulusIsScript": true,
+      "options": [
+        "He took his son.",
+        "The son of a king",
+        "A son of the king",
+        "The son of the king"
+      ],
+      "answer": "The son of the king",
+      "optionIsScript": false,
+      "block": "c66",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c66-01",
+      "extra": true
+    },
+    {
+      "id": "c66-01.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "בֶּן־הַמֶּלֶךְ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The son of the king"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c66",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c66-01",
+      "extra": true
+    },
+    {
+      "id": "c66-01.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The son of the king",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בֶּן־הַמֶּלֶךְ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c66",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c66-01",
+      "extra": true
+    },
+    {
+      "id": "c66-02.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיִּקַּח אֶת־בְּנוֹ",
+      "stimulusIsScript": true,
+      "statement": "He took his son.",
+      "answer": true,
+      "expected": "He took his son.",
+      "block": "c66",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c66-02",
+      "extra": true
+    },
+    {
+      "id": "c66-02.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיִּקַּח אֶת־בְּנוֹ",
+      "stimulusIsScript": true,
+      "options": [
+        "She took his son.",
+        "He took her son.",
+        "He took his son.",
+        "He took my son."
+      ],
+      "answer": "He took his son.",
+      "optionIsScript": false,
+      "block": "c66",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c66-02",
+      "extra": true
+    },
+    {
+      "id": "c66-02.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: He took his son.",
+      "stimulus": "וַיִּקַּח ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶת־בְּנוֹ"
+      ],
+      "answerIsScript": true,
+      "block": "c66",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c66-02",
+      "extra": true
+    },
+    {
+      "id": "c66-02.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "He took his son.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיִּקַּח אֶת־בְּנוֹ"
+      ],
+      "answerIsScript": true,
+      "block": "c66",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c66-02",
+      "extra": true
+    },
+    {
+      "id": "c66-02.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "He took his son.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיִּקַּח אֶת־בְּנוֹ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c66",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c66-02",
+      "extra": true
+    },
+    {
+      "id": "c66-03.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אָחִי אַתָּה",
+      "stimulusIsScript": true,
+      "statement": "You are my brother.",
+      "answer": true,
+      "expected": "You are my brother.",
+      "block": "c66",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c66-03",
+      "extra": true
+    },
+    {
+      "id": "c66-03.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אָחִי אַתָּה",
+      "stimulusIsScript": true,
+      "options": [
+        "You are my brother.",
+        "You are his brother.",
+        "You are our brother.",
+        "You are your brother."
+      ],
+      "answer": "You are my brother.",
+      "optionIsScript": false,
+      "block": "c66",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c66-03",
+      "extra": true
+    },
+    {
+      "id": "c66-03.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: You are my brother.",
+      "stimulus": "אָחִי ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אַתָּה"
+      ],
+      "answerIsScript": true,
+      "block": "c66",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c66-03",
+      "extra": true
+    },
+    {
+      "id": "c66-03.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "אָחִי אַתָּה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "You are my brother."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c66",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c66-03",
+      "extra": true
+    },
+    {
+      "id": "c66-03.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "You are my brother.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אָחִי אַתָּה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c66",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c66-03",
+      "extra": true
+    },
+    {
+      "id": "c66-04.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "בַּת־פַּרְעֹה",
+      "stimulusIsScript": true,
+      "statement": "Pharaoh's daughter",
+      "answer": true,
+      "expected": "Pharaoh's daughter",
+      "block": "c66",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c66-04",
+      "extra": true
+    },
+    {
+      "id": "c66-04.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "בַּת־פַּרְעֹה",
+      "stimulusIsScript": true,
+      "options": [
+        "He took his son.",
+        "Pharaoh's daughter",
+        "The son of the king",
+        "Sons and daughters"
+      ],
+      "answer": "Pharaoh's daughter",
+      "optionIsScript": false,
+      "block": "c66",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c66-04",
+      "extra": true
+    },
+    {
+      "id": "c66-04.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "Pharaoh's daughter",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בַּת־פַּרְעֹה"
+      ],
+      "answerIsScript": true,
+      "block": "c66",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c66-04",
+      "extra": true
+    },
+    {
+      "id": "c66-04.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Pharaoh's daughter",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בַּת־פַּרְעֹה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c66",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c66-04",
+      "extra": true
+    },
+    {
+      "id": "c66-05.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָאִישׁ בַּשָּׂדֶה",
+      "stimulusIsScript": true,
+      "statement": "The man is to the field.",
+      "answer": false,
+      "expected": "The man is in the field.",
+      "block": "c66",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c66-05",
+      "extra": true
+    },
+    {
+      "id": "c66-05.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָאִישׁ בַּשָּׂדֶה",
+      "stimulusIsScript": true,
+      "options": [
+        "The man is from the field.",
+        "The man is to the field.",
+        "The man is in the field.",
+        "The man is in a field."
+      ],
+      "answer": "The man is in the field.",
+      "optionIsScript": false,
+      "block": "c66",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c66-05",
+      "extra": true
+    },
+    {
+      "id": "c66-05.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The man is in the field.",
+      "stimulus": "＿＿＿ בַּשָּׂדֶה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הָאִישׁ"
+      ],
+      "answerIsScript": true,
+      "block": "c66",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c66-05",
+      "extra": true
+    },
+    {
+      "id": "c66-05.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הָאִישׁ בַּשָּׂדֶה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The man is in the field."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c66",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c66-05",
+      "extra": true
+    },
+    {
+      "id": "c66-05.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The man is in the field.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאִישׁ בַּשָּׂדֶה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c66",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c66-05",
+      "extra": true
+    },
+    {
+      "id": "c66-06.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וְשָׁב אֶל־הַמַּחֲנֶה",
+      "stimulusIsScript": true,
+      "statement": "And he returned from the camp.",
+      "answer": false,
+      "expected": "And he returned to the camp.",
+      "block": "c66",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c66-06",
+      "extra": true
+    },
+    {
+      "id": "c66-06.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וְשָׁב אֶל־הַמַּחֲנֶה",
+      "stimulusIsScript": true,
+      "options": [
+        "And he returned to the camp.",
+        "And he returned from the camp.",
+        "And she returned to the camp.",
+        "And he returned to a camp."
+      ],
+      "answer": "And he returned to the camp.",
+      "optionIsScript": false,
+      "block": "c66",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c66-06",
+      "extra": true
+    },
+    {
+      "id": "c66-06.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: And he returned to the camp.",
+      "stimulus": "וְשָׁב ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶל־הַמַּחֲנֶה"
+      ],
+      "answerIsScript": true,
+      "block": "c66",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c66-06",
+      "extra": true
+    },
+    {
+      "id": "c66-06.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וְשָׁב אֶל־הַמַּחֲנֶה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "And he returned to the camp."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c66",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c66-06",
+      "extra": true
+    },
+    {
+      "id": "c66-06.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And he returned to the camp.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וְשָׁב אֶל־הַמַּחֲנֶה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c66",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c66-06",
+      "extra": true
+    },
+    {
+      "id": "c66-07.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "בָּנִים וּבָנוֹת",
+      "stimulusIsScript": true,
+      "statement": "Sons and daughters",
+      "answer": true,
+      "expected": "Sons and daughters",
+      "block": "c66",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c66-07",
+      "extra": true
+    },
+    {
+      "id": "c66-07.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "בָּנִים וּבָנוֹת",
+      "stimulusIsScript": true,
+      "options": [
+        "Pharaoh's daughter",
+        "He took his son.",
+        "Sons and daughters",
+        "The son of the king"
+      ],
+      "answer": "Sons and daughters",
+      "optionIsScript": false,
+      "block": "c66",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c66-07",
+      "extra": true
+    },
+    {
+      "id": "c66-07.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Sons and daughters",
+      "stimulus": "＿＿＿ וּבָנוֹת",
+      "stimulusIsScript": true,
+      "accepted": [
+        "בָּנִים"
+      ],
+      "answerIsScript": true,
+      "block": "c66",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c66-07",
+      "extra": true
+    },
+    {
+      "id": "c66-07.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "בָּנִים וּבָנוֹת",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Sons and daughters"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c66",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c66-07",
+      "extra": true
+    },
+    {
+      "id": "c66-07.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Sons and daughters",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בָּנִים וּבָנוֹת"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c66",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c66-07",
+      "extra": true
+    },
+    {
+      "id": "c66-08.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "בְּנֵי יִשְׂרָאֵל",
+      "stimulusIsScript": true,
+      "statement": "Sons of Israel",
+      "answer": false,
+      "expected": "The sons of Israel",
+      "block": "c66",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c66-08",
+      "extra": true
+    },
+    {
+      "id": "c66-08.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "בְּנֵי יִשְׂרָאֵל",
+      "stimulusIsScript": true,
+      "options": [
+        "The sons of Israel",
+        "Sons and daughters",
+        "Sons of Israel",
+        "He took his son."
+      ],
+      "answer": "The sons of Israel",
+      "optionIsScript": false,
+      "block": "c66",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c66-08",
+      "extra": true
+    },
+    {
+      "id": "c66-08.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The sons of Israel",
+      "stimulus": "＿＿＿ יִשְׂרָאֵל",
+      "stimulusIsScript": true,
+      "accepted": [
+        "בְּנֵי"
+      ],
+      "answerIsScript": true,
+      "block": "c66",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c66-08",
+      "extra": true
+    },
+    {
+      "id": "c66-08.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The sons of Israel",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בְּנֵי יִשְׂרָאֵל"
+      ],
+      "answerIsScript": true,
+      "block": "c66",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c66-08",
+      "extra": true
+    },
+    {
+      "id": "c66-08.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The sons of Israel",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בְּנֵי יִשְׂרָאֵל"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c66",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c66-08",
+      "extra": true
+    },
+    {
+      "id": "b-Gen-5-4.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיִּהְיוּ יְמֵי־אָדָם אַחֲרֵי הוֹלִידוֹ אֶת־שֵׁת שְׁמֹנֶה מֵאֹת שָׁנָה וַיּוֹלֶד בָּנִים וּבָנוֹת",
+      "stimulusIsScript": true,
+      "statement": "The days of Adam after he became the father of Seth were eight hundred years, and she became the father of other sons and daughters.",
+      "answer": false,
+      "expected": "The days of Adam after he became the father of Seth were eight hundred years, and he became the father of other sons and daughters.",
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Gen-5-4",
+      "extra": true
+    },
+    {
+      "id": "b-Gen-5-4.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיִּהְיוּ יְמֵי־אָדָם אַחֲרֵי הוֹלִידוֹ אֶת־שֵׁת שְׁמֹנֶה מֵאֹת שָׁנָה וַיּוֹלֶד בָּנִים וּבָנוֹת",
+      "stimulusIsScript": true,
+      "options": [
+        "The days of Adam after he became the father of Seth were eight hundred years, and she became the father of other sons and daughters.",
+        "Days of Adam after he became the father of Seth were eight hundred years, and he became the father of other sons and daughters.",
+        "The days of Adam after he became the father of Seth were eight hundred years, and he became the father of other sons and daughters.",
+        "The days of Adam after she became the father of Seth were eight hundred years, and he became the father of other sons and daughters."
+      ],
+      "answer": "The days of Adam after he became the father of Seth were eight hundred years, and he became the father of other sons and daughters.",
+      "optionIsScript": false,
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Gen-5-4",
+      "extra": true
+    },
+    {
+      "id": "b-Gen-5-4.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The days of Adam after he became the father of Seth were eight hundred years, and he became the father of other sons and daughters.",
+      "stimulus": "＿＿＿ יְמֵי־אָדָם אַחֲרֵי הוֹלִידוֹ אֶת־שֵׁת שְׁמֹנֶה מֵאֹת שָׁנָה וַיּוֹלֶד בָּנִים וּבָנוֹת",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וַיִּהְיוּ"
+      ],
+      "answerIsScript": true,
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Gen-5-4",
+      "extra": true
+    },
+    {
+      "id": "b-Gen-5-4.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וַיִּהְיוּ יְמֵי־אָדָם אַחֲרֵי הוֹלִידוֹ אֶת־שֵׁת שְׁמֹנֶה מֵאֹת שָׁנָה וַיּוֹלֶד בָּנִים וּבָנוֹת",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The days of Adam after he became the father of Seth were eight hundred years, and he became the father of other sons and daughters."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Gen-5-4",
+      "extra": true
+    },
+    {
+      "id": "b-Gen-10-20.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אֵלֶּה בְנֵי־חָם לְמִשְׁפְּחֹתָם לִלְשֹׁנֹתָם בְּאַרְצֹתָם בְּגוֹיֵהֶם",
+      "stimulusIsScript": true,
+      "statement": "These are the sons of Ham, after their families, according to their languages, from their lands and their nations.",
+      "answer": false,
+      "expected": "These are the sons of Ham, after their families, according to their languages, in their lands and their nations.",
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Gen-10-20",
+      "extra": true
+    },
+    {
+      "id": "b-Gen-10-20.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אֵלֶּה בְנֵי־חָם לְמִשְׁפְּחֹתָם לִלְשֹׁנֹתָם בְּאַרְצֹתָם בְּגוֹיֵהֶם",
+      "stimulusIsScript": true,
+      "options": [
+        "These are the sons of Ham, after their families, according to their languages, in their lands and your nations.",
+        "These are sons of Ham, after their families, according to their languages, in their lands and their nations.",
+        "These are the sons of Ham, after their families, according to their languages, from their lands and their nations.",
+        "These are the sons of Ham, after their families, according to their languages, in their lands and their nations."
+      ],
+      "answer": "These are the sons of Ham, after their families, according to their languages, in their lands and their nations.",
+      "optionIsScript": false,
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Gen-10-20",
+      "extra": true
+    },
+    {
+      "id": "b-Gen-10-20.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: These are the sons of Ham, after their families, according to their languages, in their lands and their nations.",
+      "stimulus": "אֵלֶּה בְנֵי־חָם לְמִשְׁפְּחֹתָם לִלְשֹׁנֹתָם ＿＿＿ בְּגוֹיֵהֶם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "בְּאַרְצֹתָם"
+      ],
+      "answerIsScript": true,
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Gen-10-20",
+      "extra": true
+    },
+    {
+      "id": "b-Gen-10-20.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "אֵלֶּה בְנֵי־חָם לְמִשְׁפְּחֹתָם לִלְשֹׁנֹתָם בְּאַרְצֹתָם בְּגוֹיֵהֶם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "These are the sons of Ham, after their families, according to their languages, in their lands and their nations."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Gen-10-20",
+      "extra": true
+    },
+    {
+      "id": "b-Gen-10-31.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אֵלֶּה בְנֵי־שֵׁם לְמִשְׁפְּחֹתָם לִלְשֹׁנֹתָם בְּאַרְצֹתָם לְגוֹיֵהֶם",
+      "stimulusIsScript": true,
+      "statement": "These are sons of Shem, by their families, according to their languages, lands, and nations.",
+      "answer": false,
+      "expected": "These are the sons of Shem, by their families, according to their languages, lands, and nations.",
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Gen-10-31",
+      "extra": true
+    },
+    {
+      "id": "b-Gen-10-31.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אֵלֶּה בְנֵי־שֵׁם לְמִשְׁפְּחֹתָם לִלְשֹׁנֹתָם בְּאַרְצֹתָם לְגוֹיֵהֶם",
+      "stimulusIsScript": true,
+      "options": [
+        "These are the sons of Shem, by their families, according in their languages, lands, and nations.",
+        "These are sons of Shem, by their families, according to their languages, lands, and nations.",
+        "These are the sons of Shem, by his families, according to their languages, lands, and nations.",
+        "These are the sons of Shem, by their families, according to their languages, lands, and nations."
+      ],
+      "answer": "These are the sons of Shem, by their families, according to their languages, lands, and nations.",
+      "optionIsScript": false,
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Gen-10-31",
+      "extra": true
+    },
+    {
+      "id": "b-Gen-10-31.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: These are the sons of Shem, by their families, according to their languages, lands, and nations.",
+      "stimulus": "אֵלֶּה בְנֵי־שֵׁם ＿＿＿ לִלְשֹׁנֹתָם בְּאַרְצֹתָם לְגוֹיֵהֶם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "לְמִשְׁפְּחֹתָם"
+      ],
+      "answerIsScript": true,
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Gen-10-31",
+      "extra": true
+    },
+    {
+      "id": "b-Gen-10-31.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "אֵלֶּה בְנֵי־שֵׁם לְמִשְׁפְּחֹתָם לִלְשֹׁנֹתָם בְּאַרְצֹתָם לְגוֹיֵהֶם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "These are the sons of Shem, by their families, according to their languages, lands, and nations."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Gen-10-31",
+      "extra": true
+    },
+    {
+      "id": "b-Gen-21-5.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וְאַבְרָהָם בֶּן־מְאַת שָׁנָה בְּהִוָּלֶד לוֹ אֵת יִצְחָק בְּנוֹ",
+      "stimulusIsScript": true,
+      "statement": "Abraham was one hundred years old when his son, Isaac, was born to him.",
+      "answer": true,
+      "expected": "Abraham was one hundred years old when his son, Isaac, was born to him.",
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Gen-21-5",
+      "extra": true
+    },
+    {
+      "id": "b-Gen-21-5.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וְאַבְרָהָם בֶּן־מְאַת שָׁנָה בְּהִוָּלֶד לוֹ אֵת יִצְחָק בְּנוֹ",
+      "stimulusIsScript": true,
+      "options": [
+        "Abraham was one hundred years old when his son, Isaac, was born to him.",
+        "Abraham was one hundred years old when his son, Isaac, was born from him.",
+        "Abraham was one hundred years old when her son, Isaac, was born to him.",
+        "Abraham was one hundred years old when his son, Isaac, was born to me."
+      ],
+      "answer": "Abraham was one hundred years old when his son, Isaac, was born to him.",
+      "optionIsScript": false,
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Gen-21-5",
+      "extra": true
+    },
+    {
+      "id": "b-Gen-21-5.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Abraham was one hundred years old when his son, Isaac, was born to him.",
+      "stimulus": "וְאַבְרָהָם בֶּן־מְאַת שָׁנָה ＿＿＿ לוֹ אֵת יִצְחָק בְּנוֹ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "בְּהִוָּלֶד"
+      ],
+      "answerIsScript": true,
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Gen-21-5",
+      "extra": true
+    },
+    {
+      "id": "b-Gen-21-5.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וְאַבְרָהָם בֶּן־מְאַת שָׁנָה בְּהִוָּלֶד לוֹ אֵת יִצְחָק בְּנוֹ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Abraham was one hundred years old when his son, Isaac, was born to him."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Gen-21-5",
+      "extra": true
+    },
+    {
+      "id": "b-Gen-44-14.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיָּבֹא יְהוּדָה וְאֶחָיו בֵּיתָה יוֹסֵף וְהוּא עוֹדֶנּוּ שָׁם וַיִּפְּלוּ לְפָנָיו אָרְצָה",
+      "stimulusIsScript": true,
+      "statement": "Judah and his brothers came to Joseph's house, and he was still there. They fell on the ground before him.",
+      "answer": true,
+      "expected": "Judah and his brothers came to Joseph's house, and he was still there. They fell on the ground before him.",
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Gen-44-14",
+      "extra": true
+    },
+    {
+      "id": "b-Gen-44-14.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיָּבֹא יְהוּדָה וְאֶחָיו בֵּיתָה יוֹסֵף וְהוּא עוֹדֶנּוּ שָׁם וַיִּפְּלוּ לְפָנָיו אָרְצָה",
+      "stimulusIsScript": true,
+      "options": [
+        "Judah and his brothers came to Joseph's house, and he was still there. They fell from the ground before him.",
+        "Judah and his brothers came to Joseph's house, and he was still there. You fell on the ground before him.",
+        "Judah and my brothers came to Joseph's house, and he was still there. They fell on the ground before him.",
+        "Judah and his brothers came to Joseph's house, and he was still there. They fell on the ground before him."
+      ],
+      "answer": "Judah and his brothers came to Joseph's house, and he was still there. They fell on the ground before him.",
+      "optionIsScript": false,
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Gen-44-14",
+      "extra": true
+    },
+    {
+      "id": "b-Gen-44-14.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Judah and his brothers came to Joseph's house, and he was still there. They fell on the ground before him.",
+      "stimulus": "וַיָּבֹא יְהוּדָה וְאֶחָיו בֵּיתָה יוֹסֵף וְהוּא ＿＿＿ שָׁם וַיִּפְּלוּ לְפָנָיו אָרְצָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "עוֹדֶנּוּ"
+      ],
+      "answerIsScript": true,
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Gen-44-14",
+      "extra": true
+    },
+    {
+      "id": "b-Gen-44-14.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וַיָּבֹא יְהוּדָה וְאֶחָיו בֵּיתָה יוֹסֵף וְהוּא עוֹדֶנּוּ שָׁם וַיִּפְּלוּ לְפָנָיו אָרְצָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Judah and his brothers came to Joseph's house, and he was still there. They fell on the ground before him."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Gen-44-14",
+      "extra": true
+    },
+    {
+      "id": "b-Gen-46-22.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אֵלֶּה בְּנֵי רָחֵל אֲשֶׁר יֻלַּד לְיַעֲקֹב כָּל־נֶפֶשׁ אַרְבָּעָה עָשָׂר",
+      "stimulusIsScript": true,
+      "statement": "These are the sons of Rachel, who were born to Jacob: all the souls were fourteen.",
+      "answer": true,
+      "expected": "These are the sons of Rachel, who were born to Jacob: all the souls were fourteen.",
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Gen-46-22",
+      "extra": true
+    },
+    {
+      "id": "b-Gen-46-22.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אֵלֶּה בְּנֵי רָחֵל אֲשֶׁר יֻלַּד לְיַעֲקֹב כָּל־נֶפֶשׁ אַרְבָּעָה עָשָׂר",
+      "stimulusIsScript": true,
+      "options": [
+        "These are the sons of Rachel, who were born from Jacob: all the souls were fourteen.",
+        "Those are the sons of Rachel, who were born to Jacob: all the souls were fourteen.",
+        "These are sons of Rachel, who were born to Jacob: all the souls were fourteen.",
+        "These are the sons of Rachel, who were born to Jacob: all the souls were fourteen."
+      ],
+      "answer": "These are the sons of Rachel, who were born to Jacob: all the souls were fourteen.",
+      "optionIsScript": false,
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Gen-46-22",
+      "extra": true
+    },
+    {
+      "id": "b-Gen-46-22.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: These are the sons of Rachel, who were born to Jacob: all the souls were fourteen.",
+      "stimulus": "אֵלֶּה בְּנֵי רָחֵל אֲשֶׁר יֻלַּד לְיַעֲקֹב כָּל־נֶפֶשׁ ＿＿＿ עָשָׂר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אַרְבָּעָה"
+      ],
+      "answerIsScript": true,
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Gen-46-22",
+      "extra": true
+    },
+    {
+      "id": "b-Gen-46-22.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "אֵלֶּה בְּנֵי רָחֵל אֲשֶׁר יֻלַּד לְיַעֲקֹב כָּל־נֶפֶשׁ אַרְבָּעָה עָשָׂר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "These are the sons of Rachel, who were born to Jacob: all the souls were fourteen."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Gen-46-22",
+      "extra": true
+    },
+    {
+      "id": "b-Gen-46-23.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וּבְנֵי־דָן חֻשִׁים",
+      "stimulusIsScript": true,
+      "statement": "A son of Dan: Hushim.",
+      "answer": false,
+      "expected": "The son of Dan: Hushim.",
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Gen-46-23",
+      "extra": true
+    },
+    {
+      "id": "b-Gen-46-23.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וּבְנֵי־דָן חֻשִׁים",
+      "stimulusIsScript": true,
+      "options": [
+        "Moses, Aaron, and his sons washed their hands and their feet there.",
+        "These are the sons of Shem, by their families, according to their languages, lands, and nations.",
+        "A son of Dan: Hushim.",
+        "The son of Dan: Hushim."
+      ],
+      "answer": "The son of Dan: Hushim.",
+      "optionIsScript": false,
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Gen-46-23",
+      "extra": true
+    },
+    {
+      "id": "b-Gen-46-23.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The son of Dan: Hushim.",
+      "stimulus": "＿＿＿ חֻשִׁים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וּבְנֵי־דָן"
+      ],
+      "answerIsScript": true,
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Gen-46-23",
+      "extra": true
+    },
+    {
+      "id": "b-Gen-46-23.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וּבְנֵי־דָן חֻשִׁים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The son of Dan: Hushim."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Gen-46-23",
+      "extra": true
+    },
+    {
+      "id": "b-Exod-40-31.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וְרָחֲצוּ מִמֶּנּוּ מֹשֶׁה וְאַהֲרֹן וּבָנָיו אֶת־יְדֵיהֶם וְאֶת־רַגְלֵיהֶם",
+      "stimulusIsScript": true,
+      "statement": "Moses, Aaron, and my sons washed their hands and their feet there.",
+      "answer": false,
+      "expected": "Moses, Aaron, and his sons washed their hands and their feet there.",
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Exod-40-31",
+      "extra": true
+    },
+    {
+      "id": "b-Exod-40-31.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וְרָחֲצוּ מִמֶּנּוּ מֹשֶׁה וְאַהֲרֹן וּבָנָיו אֶת־יְדֵיהֶם וְאֶת־רַגְלֵיהֶם",
+      "stimulusIsScript": true,
+      "options": [
+        "Moses, Aaron, and my sons washed their hands and their feet there.",
+        "Moses, Aaron, and their sons washed their hands and their feet there.",
+        "Moses, Aaron, and his sons washed their hands and our feet there.",
+        "Moses, Aaron, and his sons washed their hands and their feet there."
+      ],
+      "answer": "Moses, Aaron, and his sons washed their hands and their feet there.",
+      "optionIsScript": false,
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Exod-40-31",
+      "extra": true
+    },
+    {
+      "id": "b-Exod-40-31.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Moses, Aaron, and his sons washed their hands and their feet there.",
+      "stimulus": "＿＿＿ מִמֶּנּוּ מֹשֶׁה וְאַהֲרֹן וּבָנָיו אֶת־יְדֵיהֶם וְאֶת־רַגְלֵיהֶם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וְרָחֲצוּ"
+      ],
+      "answerIsScript": true,
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Exod-40-31",
+      "extra": true
+    },
+    {
+      "id": "b-Exod-40-31.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וְרָחֲצוּ מִמֶּנּוּ מֹשֶׁה וְאַהֲרֹן וּבָנָיו אֶת־יְדֵיהֶם וְאֶת־רַגְלֵיהֶם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Moses, Aaron, and his sons washed their hands and their feet there."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Exod-40-31",
+      "extra": true
+    },
+    {
+      "id": "b-Num-33-39.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וְאַהֲרֹן בֶּן־שָׁלֹשׁ וְעֶשְׂרִים וּמְאַת שָׁנָה בְּמֹתוֹ בְּהֹר הָהָר",
+      "stimulusIsScript": true,
+      "statement": "Aaron was one hundred twenty-three years old when he died in Mount Hor.",
+      "answer": true,
+      "expected": "Aaron was one hundred twenty-three years old when he died in Mount Hor.",
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Num-33-39",
+      "extra": true
+    },
+    {
+      "id": "b-Num-33-39.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וְאַהֲרֹן בֶּן־שָׁלֹשׁ וְעֶשְׂרִים וּמְאַת שָׁנָה בְּמֹתוֹ בְּהֹר הָהָר",
+      "stimulusIsScript": true,
+      "options": [
+        "Aaron was one hundred twenty-three years old when he died in Mount Hor.",
+        "Aaron was one hundred twenty-three years old when he died to Mount Hor.",
+        "Aaron was one hundred twenty-three years old when he died from Mount Hor.",
+        "Aaron was one hundred twenty-three years old when she died in Mount Hor."
+      ],
+      "answer": "Aaron was one hundred twenty-three years old when he died in Mount Hor.",
+      "optionIsScript": false,
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Num-33-39",
+      "extra": true
+    },
+    {
+      "id": "b-Num-33-39.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Aaron was one hundred twenty-three years old when he died in Mount Hor.",
+      "stimulus": "＿＿＿ בֶּן־שָׁלֹשׁ וְעֶשְׂרִים וּמְאַת שָׁנָה בְּמֹתוֹ בְּהֹר הָהָר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וְאַהֲרֹן"
+      ],
+      "answerIsScript": true,
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Num-33-39",
+      "extra": true
+    },
+    {
+      "id": "b-Num-33-39.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וְאַהֲרֹן בֶּן־שָׁלֹשׁ וְעֶשְׂרִים וּמְאַת שָׁנָה בְּמֹתוֹ בְּהֹר הָהָר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Aaron was one hundred twenty-three years old when he died in Mount Hor."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Num-33-39",
+      "extra": true
+    },
+    {
+      "id": "b-Num-36-12.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "מִמִּשְׁפְּחֹת בְּנֵי־מְנַשֶּׁה בֶן־יוֹסֵף הָיוּ לְנָשִׁים וַתְּהִי נַחֲלָתָן עַל־מַטֵּה מִשְׁפַּחַת אֲבִיהֶן",
+      "stimulusIsScript": true,
+      "statement": "They were married into the families of the sons of Manasseh the son of Joseph. Their inheritance remained in the tribe of the family of our father.",
+      "answer": false,
+      "expected": "They were married into the families of the sons of Manasseh the son of Joseph. Their inheritance remained in the tribe of the family of their father.",
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Num-36-12",
+      "extra": true
+    },
+    {
+      "id": "b-Num-36-12.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "מִמִּשְׁפְּחֹת בְּנֵי־מְנַשֶּׁה בֶן־יוֹסֵף הָיוּ לְנָשִׁים וַתְּהִי נַחֲלָתָן עַל־מַטֵּה מִשְׁפַּחַת אֲבִיהֶן",
+      "stimulusIsScript": true,
+      "options": [
+        "They were married into the families of the sons of Manasseh the son of Joseph. Their inheritance remained to the tribe of the family of their father.",
+        "They were married into the families of the sons of Manasseh the son of Joseph. Their inheritance remained in the tribe of the family of their father.",
+        "They were married into the families of sons of Manasseh the son of Joseph. Their inheritance remained in the tribe of the family of their father.",
+        "They were married into the families of the sons of Manasseh the son of Joseph. Their inheritance remained in the tribe of the family of our father."
+      ],
+      "answer": "They were married into the families of the sons of Manasseh the son of Joseph. Their inheritance remained in the tribe of the family of their father.",
+      "optionIsScript": false,
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Num-36-12",
+      "extra": true
+    },
+    {
+      "id": "b-Num-36-12.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: They were married into the families of the sons of Manasseh the son of Joseph. Their inheritance remained in the tribe of the family of their father.",
+      "stimulus": "מִמִּשְׁפְּחֹת בְּנֵי־מְנַשֶּׁה ＿＿＿ הָיוּ לְנָשִׁים וַתְּהִי נַחֲלָתָן עַל־מַטֵּה מִשְׁפַּחַת אֲבִיהֶן",
+      "stimulusIsScript": true,
+      "accepted": [
+        "בֶן־יוֹסֵף"
+      ],
+      "answerIsScript": true,
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Num-36-12",
+      "extra": true
+    },
+    {
+      "id": "b-Num-36-12.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "מִמִּשְׁפְּחֹת בְּנֵי־מְנַשֶּׁה בֶן־יוֹסֵף הָיוּ לְנָשִׁים וַתְּהִי נַחֲלָתָן עַל־מַטֵּה מִשְׁפַּחַת אֲבִיהֶן",
+      "stimulusIsScript": true,
+      "accepted": [
+        "They were married into the families of the sons of Manasseh the son of Joseph. Their inheritance remained in the tribe of the family of their father."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Num-36-12",
+      "extra": true
+    },
+    {
+      "id": "b-Josh-13-28.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "זֹאת נַחֲלַת בְּנֵי־גָד לְמִשְׁפְּחֹתָם הֶעָרִים וְחַצְרֵיהֶם",
+      "stimulusIsScript": true,
+      "statement": "This is the inheritance of the children of Gad according to their families, the cities and its villages.",
+      "answer": true,
+      "expected": "This is the inheritance of the children of Gad according to their families, the cities and its villages.",
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Josh-13-28",
+      "extra": true
+    },
+    {
+      "id": "b-Josh-13-28.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "זֹאת נַחֲלַת בְּנֵי־גָד לְמִשְׁפְּחֹתָם הֶעָרִים וְחַצְרֵיהֶם",
+      "stimulusIsScript": true,
+      "options": [
+        "This is the inheritance of the children of Gad according in their families, the cities and its villages.",
+        "This is an inheritance of the children of Gad according to their families, the cities and its villages.",
+        "This is the inheritance of the children of Gad according to your families, the cities and its villages.",
+        "This is the inheritance of the children of Gad according to their families, the cities and its villages."
+      ],
+      "answer": "This is the inheritance of the children of Gad according to their families, the cities and its villages.",
+      "optionIsScript": false,
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Josh-13-28",
+      "extra": true
+    },
+    {
+      "id": "b-Josh-13-28.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: This is the inheritance of the children of Gad according to their families, the cities and its villages.",
+      "stimulus": "זֹאת נַחֲלַת בְּנֵי־גָד ＿＿＿ הֶעָרִים וְחַצְרֵיהֶם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "לְמִשְׁפְּחֹתָם"
+      ],
+      "answerIsScript": true,
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Josh-13-28",
+      "extra": true
+    },
+    {
+      "id": "b-Josh-13-28.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "זֹאת נַחֲלַת בְּנֵי־גָד לְמִשְׁפְּחֹתָם הֶעָרִים וְחַצְרֵיהֶם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "This is the inheritance of the children of Gad according to their families, the cities and its villages."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Josh-13-28",
+      "extra": true
+    },
+    {
+      "id": "b-2Chr-15-1.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַעֲזַרְיָהוּ בֶּן־עוֹדֵד הָיְתָה עָלָיו רוּחַ אֱלֹהִים",
+      "stimulusIsScript": true,
+      "statement": "The Spirit of God came to Azariah the son of Oded.",
+      "answer": false,
+      "expected": "The Spirit of God came on Azariah the son of Oded.",
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-2Chr-15-1",
+      "extra": true
+    },
+    {
+      "id": "b-2Chr-15-1.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַעֲזַרְיָהוּ בֶּן־עוֹדֵד הָיְתָה עָלָיו רוּחַ אֱלֹהִים",
+      "stimulusIsScript": true,
+      "options": [
+        "The Spirit of God came to Azariah the son of Oded.",
+        "A Spirit of God came on Azariah the son of Oded.",
+        "The Spirit of God came from Azariah the son of Oded.",
+        "The Spirit of God came on Azariah the son of Oded."
+      ],
+      "answer": "The Spirit of God came on Azariah the son of Oded.",
+      "optionIsScript": false,
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-2Chr-15-1",
+      "extra": true
+    },
+    {
+      "id": "b-2Chr-15-1.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The Spirit of God came on Azariah the son of Oded.",
+      "stimulus": "וַעֲזַרְיָהוּ ＿＿＿ הָיְתָה עָלָיו רוּחַ אֱלֹהִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "בֶּן־עוֹדֵד"
+      ],
+      "answerIsScript": true,
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-2Chr-15-1",
+      "extra": true
+    },
+    {
+      "id": "b-2Chr-15-1.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וַעֲזַרְיָהוּ בֶּן־עוֹדֵד הָיְתָה עָלָיו רוּחַ אֱלֹהִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The Spirit of God came on Azariah the son of Oded."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-2Chr-15-1",
+      "extra": true
+    },
+    {
+      "id": "b-2Chr-21-5.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "בֶּן־שְׁלֹשִׁים וּשְׁתַּיִם שָׁנָה יְהוֹרָם בְּמָלְכוֹ וּשְׁמוֹנֶה שָׁנִים מָלַךְ בִּירוּשָׁלִָם",
+      "stimulusIsScript": true,
+      "statement": "Jehoram was thirty-two years old when she began to reign, and he reigned eight years in Jerusalem.",
+      "answer": false,
+      "expected": "Jehoram was thirty-two years old when he began to reign, and he reigned eight years in Jerusalem.",
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-2Chr-21-5",
+      "extra": true
+    },
+    {
+      "id": "b-2Chr-21-5.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "בֶּן־שְׁלֹשִׁים וּשְׁתַּיִם שָׁנָה יְהוֹרָם בְּמָלְכוֹ וּשְׁמוֹנֶה שָׁנִים מָלַךְ בִּירוּשָׁלִָם",
+      "stimulusIsScript": true,
+      "options": [
+        "Jehoram was thirty-two years old when he began to reign, and she reigned eight years in Jerusalem.",
+        "Jehoram was thirty-two years old when he began to reign, and he reigned eight years in Jerusalem.",
+        "Jehoram was thirty-two years old when he began to reign, and he reigned eight years from Jerusalem.",
+        "Jehoram was thirty-two years old when she began to reign, and he reigned eight years in Jerusalem."
+      ],
+      "answer": "Jehoram was thirty-two years old when he began to reign, and he reigned eight years in Jerusalem.",
+      "optionIsScript": false,
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-2Chr-21-5",
+      "extra": true
+    },
+    {
+      "id": "b-2Chr-21-5.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Jehoram was thirty-two years old when he began to reign, and he reigned eight years in Jerusalem.",
+      "stimulus": "＿＿＿ וּשְׁתַּיִם שָׁנָה יְהוֹרָם בְּמָלְכוֹ וּשְׁמוֹנֶה שָׁנִים מָלַךְ בִּירוּשָׁלִָם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "בֶּן־שְׁלֹשִׁים"
+      ],
+      "answerIsScript": true,
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-2Chr-21-5",
+      "extra": true
+    },
+    {
+      "id": "b-2Chr-21-5.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "בֶּן־שְׁלֹשִׁים וּשְׁתַּיִם שָׁנָה יְהוֹרָם בְּמָלְכוֹ וּשְׁמוֹנֶה שָׁנִים מָלַךְ בִּירוּשָׁלִָם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Jehoram was thirty-two years old when he began to reign, and he reigned eight years in Jerusalem."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-2Chr-21-5",
+      "extra": true
+    },
+    {
+      "id": "b-2Chr-27-8.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "בֶּן־עֶשְׂרִים וְחָמֵשׁ שָׁנָה הָיָה בְמָלְכוֹ וְשֵׁשׁ־עֶשְׂרֵה שָׁנָה מָלַךְ בִּירוּשָׁלִָם",
+      "stimulusIsScript": true,
+      "statement": "She was twenty-five years old when he began to reign, and reigned sixteen years in Jerusalem.",
+      "answer": false,
+      "expected": "He was twenty-five years old when he began to reign, and reigned sixteen years in Jerusalem.",
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-2Chr-27-8",
+      "extra": true
+    },
+    {
+      "id": "b-2Chr-27-8.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "בֶּן־עֶשְׂרִים וְחָמֵשׁ שָׁנָה הָיָה בְמָלְכוֹ וְשֵׁשׁ־עֶשְׂרֵה שָׁנָה מָלַךְ בִּירוּשָׁלִָם",
+      "stimulusIsScript": true,
+      "options": [
+        "He was twenty-five years old when he began to reign, and reigned sixteen years to Jerusalem.",
+        "He was twenty-five years old when he began to reign, and reigned sixteen years in Jerusalem.",
+        "She was twenty-five years old when he began to reign, and reigned sixteen years in Jerusalem.",
+        "He was twenty-five years old when she began to reign, and reigned sixteen years in Jerusalem."
+      ],
+      "answer": "He was twenty-five years old when he began to reign, and reigned sixteen years in Jerusalem.",
+      "optionIsScript": false,
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-2Chr-27-8",
+      "extra": true
+    },
+    {
+      "id": "b-2Chr-27-8.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: He was twenty-five years old when he began to reign, and reigned sixteen years in Jerusalem.",
+      "stimulus": "בֶּן־עֶשְׂרִים וְחָמֵשׁ שָׁנָה הָיָה בְמָלְכוֹ וְשֵׁשׁ־עֶשְׂרֵה שָׁנָה מָלַךְ ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "בִּירוּשָׁלִָם"
+      ],
+      "answerIsScript": true,
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-2Chr-27-8",
+      "extra": true
+    },
+    {
+      "id": "b-2Chr-27-8.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "בֶּן־עֶשְׂרִים וְחָמֵשׁ שָׁנָה הָיָה בְמָלְכוֹ וְשֵׁשׁ־עֶשְׂרֵה שָׁנָה מָלַךְ בִּירוּשָׁלִָם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "He was twenty-five years old when he began to reign, and reigned sixteen years in Jerusalem."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "b66",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-2Chr-27-8",
+      "extra": true
+    }
+  ]
+}

@@ -181,6 +181,43 @@
       "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n42.jpg",
       "exwb": "davidson-s19#B12",
       "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "c25-01": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c25-02": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c25-03": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c25-04": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c25-05": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c25-06": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c25-07": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c25-08": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c25-09": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c25-10": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c25-11": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "b-Exod-15-3": {
+      "citation": "Exodus 15:3. Hebrew: Westminster Leningrad Codex (public domain) via the Open Scriptures Hebrew Bible (morphology CC BY 4.0). English: World English Bible (public domain)",
+      "url": "https://worldenglish.bible"
     }
   },
   "items": [
@@ -838,7 +875,7 @@
       "stimulusIsScript": true,
       "options": [
         "I (am) the great king who (is) over (עַל) a land.",
-        "We (are) the great king who (is) over (עַל) the land.",
+        "You (are) the great king who (is) over (עַל) the land.",
         "I (am) a great king who (is) over (עַל) the land.",
         "I (am) the great king who (is) over (עַל) the land."
       ],
@@ -1972,6 +2009,1094 @@
       "blockLabel": "Davidson §19",
       "shape": "en-he",
       "src": "s19-B12"
+    },
+    {
+      "id": "c25-01.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "מִי הָאִישׁ הַזֶּה",
+      "stimulusIsScript": true,
+      "statement": "Who is this man?",
+      "answer": true,
+      "expected": "Who is this man?",
+      "block": "c25",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c25-01",
+      "extra": true
+    },
+    {
+      "id": "c25-01.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "מִי הָאִישׁ הַזֶּה",
+      "stimulusIsScript": true,
+      "options": [
+        "Who are you?",
+        "Who is that man?",
+        "Who is this man?",
+        "The city which is on the mountain is great."
+      ],
+      "answer": "Who is this man?",
+      "optionIsScript": false,
+      "block": "c25",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c25-01",
+      "extra": true
+    },
+    {
+      "id": "c25-01.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Who is this man?",
+      "stimulus": "מִי הָאִישׁ ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַזֶּה"
+      ],
+      "answerIsScript": true,
+      "block": "c25",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c25-01",
+      "extra": true
+    },
+    {
+      "id": "c25-01.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "מִי הָאִישׁ הַזֶּה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Who is this man?"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c25",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c25-01",
+      "extra": true
+    },
+    {
+      "id": "c25-01.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Who is this man?",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מִי הָאִישׁ הַזֶּה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c25",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c25-01",
+      "extra": true
+    },
+    {
+      "id": "c25-02.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "מַה־שְּׁמוֹ",
+      "stimulusIsScript": true,
+      "statement": "What is their name?",
+      "answer": false,
+      "expected": "What is his name?",
+      "block": "c25",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c25-02",
+      "extra": true
+    },
+    {
+      "id": "c25-02.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "מַה־שְּׁמוֹ",
+      "stimulusIsScript": true,
+      "options": [
+        "What is his name?",
+        "What is her name?",
+        "What is my name?",
+        "What is their name?"
+      ],
+      "answer": "What is his name?",
+      "optionIsScript": false,
+      "block": "c25",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c25-02",
+      "extra": true
+    },
+    {
+      "id": "c25-02.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "What is his name?",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מַה־שְּׁמוֹ",
+        "מַה שְּׁמוֹ"
+      ],
+      "answerIsScript": true,
+      "block": "c25",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c25-02",
+      "extra": true
+    },
+    {
+      "id": "c25-02.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "What is his name?",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מַה־שְּׁמוֹ",
+        "מַה שְּׁמוֹ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c25",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c25-02",
+      "extra": true
+    },
+    {
+      "id": "c25-03.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָאִישׁ אֲשֶׁר יָשַׁב בָּעִיר חָכָם",
+      "stimulusIsScript": true,
+      "statement": "The man who dwelt in the city is wise.",
+      "answer": true,
+      "expected": "The man who dwelt in the city is wise.",
+      "block": "c25",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c25-03",
+      "extra": true
+    },
+    {
+      "id": "c25-03.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָאִישׁ אֲשֶׁר יָשַׁב בָּעִיר חָכָם",
+      "stimulusIsScript": true,
+      "options": [
+        "The man who dwelt from the city is wise.",
+        "The man who dwelt in the city is wise.",
+        "The man who dwelt in a city is wise.",
+        "The man who dwelt to the city is wise."
+      ],
+      "answer": "The man who dwelt in the city is wise.",
+      "optionIsScript": false,
+      "block": "c25",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c25-03",
+      "extra": true
+    },
+    {
+      "id": "c25-03.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The man who dwelt in the city is wise.",
+      "stimulus": "＿＿＿ אֲשֶׁר יָשַׁב בָּעִיר חָכָם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הָאִישׁ"
+      ],
+      "answerIsScript": true,
+      "block": "c25",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c25-03",
+      "extra": true
+    },
+    {
+      "id": "c25-03.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הָאִישׁ אֲשֶׁר יָשַׁב בָּעִיר חָכָם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The man who dwelt in the city is wise."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c25",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c25-03",
+      "extra": true
+    },
+    {
+      "id": "c25-03.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The man who dwelt in the city is wise.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאִישׁ אֲשֶׁר יָשַׁב בָּעִיר חָכָם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c25",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c25-03",
+      "extra": true
+    },
+    {
+      "id": "c25-04.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "מִי עָלָה אֶל־הָהָר",
+      "stimulusIsScript": true,
+      "statement": "Who went up to the mountain?",
+      "answer": true,
+      "expected": "Who went up to the mountain?",
+      "block": "c25",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c25-04",
+      "extra": true
+    },
+    {
+      "id": "c25-04.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "מִי עָלָה אֶל־הָהָר",
+      "stimulusIsScript": true,
+      "options": [
+        "Who went up to the mountain?",
+        "Who went up to a mountain?",
+        "Who went up in the mountain?",
+        "Who went up from the mountain?"
+      ],
+      "answer": "Who went up to the mountain?",
+      "optionIsScript": false,
+      "block": "c25",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c25-04",
+      "extra": true
+    },
+    {
+      "id": "c25-04.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Who went up to the mountain?",
+      "stimulus": "מִי עָלָה ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶל־הָהָר"
+      ],
+      "answerIsScript": true,
+      "block": "c25",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c25-04",
+      "extra": true
+    },
+    {
+      "id": "c25-04.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "Who went up to the mountain?",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מִי עָלָה אֶל־הָהָר"
+      ],
+      "answerIsScript": true,
+      "block": "c25",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c25-04",
+      "extra": true
+    },
+    {
+      "id": "c25-04.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Who went up to the mountain?",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מִי עָלָה אֶל־הָהָר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c25",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c25-04",
+      "extra": true
+    },
+    {
+      "id": "c25-05.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָעִיר אֲשֶׁר עַל־הָהָר גְּדוֹלָה",
+      "stimulusIsScript": true,
+      "statement": "The city which is from the mountain is great.",
+      "answer": false,
+      "expected": "The city which is on the mountain is great.",
+      "block": "c25",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c25-05",
+      "extra": true
+    },
+    {
+      "id": "c25-05.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָעִיר אֲשֶׁר עַל־הָהָר גְּדוֹלָה",
+      "stimulusIsScript": true,
+      "options": [
+        "The city which is on the mountain is great.",
+        "The city which is from the mountain is great.",
+        "The city which is to the mountain is great.",
+        "The city which is on a mountain is great."
+      ],
+      "answer": "The city which is on the mountain is great.",
+      "optionIsScript": false,
+      "block": "c25",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c25-05",
+      "extra": true
+    },
+    {
+      "id": "c25-05.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The city which is on the mountain is great.",
+      "stimulus": "הָעִיר אֲשֶׁר עַל־הָהָר ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "גְּדוֹלָה"
+      ],
+      "answerIsScript": true,
+      "block": "c25",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c25-05",
+      "extra": true
+    },
+    {
+      "id": "c25-05.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הָעִיר אֲשֶׁר עַל־הָהָר גְּדוֹלָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The city which is on the mountain is great."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c25",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c25-05",
+      "extra": true
+    },
+    {
+      "id": "c25-05.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The city which is on the mountain is great.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָעִיר אֲשֶׁר עַל־הָהָר גְּדוֹלָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c25",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c25-05",
+      "extra": true
+    },
+    {
+      "id": "c25-06.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "מָה הַחֲלוֹם הַזֶּה",
+      "stimulusIsScript": true,
+      "statement": "What is that dream?",
+      "answer": false,
+      "expected": "What is this dream?",
+      "block": "c25",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c25-06",
+      "extra": true
+    },
+    {
+      "id": "c25-06.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "מָה הַחֲלוֹם הַזֶּה",
+      "stimulusIsScript": true,
+      "options": [
+        "The man who dwelt in the city is wise.",
+        "What is that dream?",
+        "What is this dream?",
+        "Who is this man?"
+      ],
+      "answer": "What is this dream?",
+      "optionIsScript": false,
+      "block": "c25",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c25-06",
+      "extra": true
+    },
+    {
+      "id": "c25-06.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: What is this dream?",
+      "stimulus": "מָה הַחֲלוֹם ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַזֶּה"
+      ],
+      "answerIsScript": true,
+      "block": "c25",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c25-06",
+      "extra": true
+    },
+    {
+      "id": "c25-06.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "מָה הַחֲלוֹם הַזֶּה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "What is this dream?"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c25",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c25-06",
+      "extra": true
+    },
+    {
+      "id": "c25-06.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "What is this dream?",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מָה הַחֲלוֹם הַזֶּה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c25",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c25-06",
+      "extra": true
+    },
+    {
+      "id": "c25-07.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַנָּבִיא עָלָה הָהָרָה",
+      "stimulusIsScript": true,
+      "statement": "The prophet went up in the mountain.",
+      "answer": false,
+      "expected": "The prophet went up to the mountain.",
+      "block": "c25",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c25-07",
+      "extra": true
+    },
+    {
+      "id": "c25-07.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַנָּבִיא עָלָה הָהָרָה",
+      "stimulusIsScript": true,
+      "options": [
+        "The prophet went up in the mountain.",
+        "The prophet went up from the mountain.",
+        "The prophet went up to a mountain.",
+        "The prophet went up to the mountain."
+      ],
+      "answer": "The prophet went up to the mountain.",
+      "optionIsScript": false,
+      "block": "c25",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c25-07",
+      "extra": true
+    },
+    {
+      "id": "c25-07.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The prophet went up to the mountain.",
+      "stimulus": "הַנָּבִיא עָלָה ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הָהָרָה"
+      ],
+      "answerIsScript": true,
+      "block": "c25",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c25-07",
+      "extra": true
+    },
+    {
+      "id": "c25-07.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The prophet went up to the mountain.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַנָּבִיא עָלָה הָהָרָה",
+        "עָלָה הַנָּבִיא הָהָרָה"
+      ],
+      "answerIsScript": true,
+      "block": "c25",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c25-07",
+      "extra": true
+    },
+    {
+      "id": "c25-07.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The prophet went up to the mountain.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַנָּבִיא עָלָה הָהָרָה",
+        "עָלָה הַנָּבִיא הָהָרָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c25",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c25-07",
+      "extra": true
+    },
+    {
+      "id": "c25-08.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "מִי אַתָּה",
+      "stimulusIsScript": true,
+      "statement": "The man lifted up his eyes.",
+      "answer": false,
+      "expected": "Who are you?",
+      "block": "c25",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c25-08",
+      "extra": true
+    },
+    {
+      "id": "c25-08.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "מִי אַתָּה",
+      "stimulusIsScript": true,
+      "options": [
+        "The war is great.",
+        "Who are you?",
+        "The man lifted up his eyes.",
+        "What is his name?"
+      ],
+      "answer": "Who are you?",
+      "optionIsScript": false,
+      "block": "c25",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c25-08",
+      "extra": true
+    },
+    {
+      "id": "c25-08.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Who are you?",
+      "stimulus": "מִי ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אַתָּה"
+      ],
+      "answerIsScript": true,
+      "block": "c25",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c25-08",
+      "extra": true
+    },
+    {
+      "id": "c25-08.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "מִי אַתָּה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Who are you?"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c25",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c25-08",
+      "extra": true
+    },
+    {
+      "id": "c25-08.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Who are you?",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מִי אַתָּה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c25",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c25-08",
+      "extra": true
+    },
+    {
+      "id": "c25-09.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַמִּלְחָמָה גְּדוֹלָה",
+      "stimulusIsScript": true,
+      "statement": "A war is great.",
+      "answer": false,
+      "expected": "The war is great.",
+      "block": "c25",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c25-09",
+      "extra": true
+    },
+    {
+      "id": "c25-09.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַמִּלְחָמָה גְּדוֹלָה",
+      "stimulusIsScript": true,
+      "options": [
+        "What is this dream?",
+        "The man who dwelt in the city is wise.",
+        "A war is great.",
+        "The war is great."
+      ],
+      "answer": "The war is great.",
+      "optionIsScript": false,
+      "block": "c25",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c25-09",
+      "extra": true
+    },
+    {
+      "id": "c25-09.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The war is great.",
+      "stimulus": "הַמִּלְחָמָה ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "גְּדוֹלָה"
+      ],
+      "answerIsScript": true,
+      "block": "c25",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c25-09",
+      "extra": true
+    },
+    {
+      "id": "c25-09.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The war is great.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַמִּלְחָמָה גְּדוֹלָה",
+        "גְּדוֹלָה הַמִּלְחָמָה"
+      ],
+      "answerIsScript": true,
+      "block": "c25",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c25-09",
+      "extra": true
+    },
+    {
+      "id": "c25-09.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The war is great.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַמִּלְחָמָה גְּדוֹלָה",
+        "גְּדוֹלָה הַמִּלְחָמָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c25",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c25-09",
+      "extra": true
+    },
+    {
+      "id": "c25-10.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָאִישׁ נָשָׂא עֵינָיו",
+      "stimulusIsScript": true,
+      "statement": "The man lifted up his eyes.",
+      "answer": true,
+      "expected": "The man lifted up his eyes.",
+      "block": "c25",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c25-10",
+      "extra": true
+    },
+    {
+      "id": "c25-10.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָאִישׁ נָשָׂא עֵינָיו",
+      "stimulusIsScript": true,
+      "options": [
+        "The man lifted up his eyes.",
+        "The man lifted up her eyes.",
+        "The man lifted up their eyes.",
+        "A man lifted up his eyes."
+      ],
+      "answer": "The man lifted up his eyes.",
+      "optionIsScript": false,
+      "block": "c25",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c25-10",
+      "extra": true
+    },
+    {
+      "id": "c25-10.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The man lifted up his eyes.",
+      "stimulus": "הָאִישׁ נָשָׂא ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "עֵינָיו"
+      ],
+      "answerIsScript": true,
+      "block": "c25",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c25-10",
+      "extra": true
+    },
+    {
+      "id": "c25-10.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הָאִישׁ נָשָׂא עֵינָיו",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The man lifted up his eyes."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c25",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c25-10",
+      "extra": true
+    },
+    {
+      "id": "c25-10.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The man lifted up his eyes.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאִישׁ נָשָׂא עֵינָיו"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c25",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c25-10",
+      "extra": true
+    },
+    {
+      "id": "c25-11.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "מַה־זֹּאת",
+      "stimulusIsScript": true,
+      "statement": "What is this?",
+      "answer": true,
+      "expected": "What is this?",
+      "block": "c25",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c25-11",
+      "extra": true
+    },
+    {
+      "id": "c25-11.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "מַה־זֹּאת",
+      "stimulusIsScript": true,
+      "options": [
+        "The man lifted up his eyes.",
+        "What is this?",
+        "The city which is on the mountain is great.",
+        "What is that?"
+      ],
+      "answer": "What is this?",
+      "optionIsScript": false,
+      "block": "c25",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c25-11",
+      "extra": true
+    },
+    {
+      "id": "c25-11.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "מַה־זֹּאת",
+      "stimulusIsScript": true,
+      "accepted": [
+        "What is this?"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c25",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c25-11",
+      "extra": true
+    },
+    {
+      "id": "c25-11.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "What is this?",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מַה־זֹּאת"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c25",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c25-11",
+      "extra": true
+    },
+    {
+      "id": "b-Exod-15-3.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "יְהוָה אִישׁ מִלְחָמָה יְהוָה שְׁמוֹ",
+      "stimulusIsScript": true,
+      "statement": "Yahweh is a man of war. Yahweh is his name.",
+      "answer": true,
+      "expected": "Yahweh is a man of war. Yahweh is his name.",
+      "block": "b25",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Exod-15-3",
+      "extra": true
+    },
+    {
+      "id": "b-Exod-15-3.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "יְהוָה אִישׁ מִלְחָמָה יְהוָה שְׁמוֹ",
+      "stimulusIsScript": true,
+      "options": [
+        "Yahweh is a man of war. Yahweh is my name.",
+        "Yahweh is a man of war. Yahweh is their name.",
+        "Yahweh is the man of war. Yahweh is his name.",
+        "Yahweh is a man of war. Yahweh is his name."
+      ],
+      "answer": "Yahweh is a man of war. Yahweh is his name.",
+      "optionIsScript": false,
+      "block": "b25",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Exod-15-3",
+      "extra": true
+    },
+    {
+      "id": "b-Exod-15-3.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Yahweh is a man of war. Yahweh is his name.",
+      "stimulus": "יְהוָה אִישׁ מִלְחָמָה ＿＿＿ שְׁמוֹ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "יְהוָה"
+      ],
+      "answerIsScript": true,
+      "block": "b25",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Exod-15-3",
+      "extra": true
+    },
+    {
+      "id": "b-Exod-15-3.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "יְהוָה אִישׁ מִלְחָמָה יְהוָה שְׁמוֹ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Yahweh is a man of war. Yahweh is his name.",
+        "the Lord is a man of war. the Lord is his name."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "b25",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Exod-15-3",
+      "extra": true
     }
   ]
 }

@@ -170,3 +170,5 @@ button, input, select { font: inherit; }
 .drill-feedback .drill-actions { grid-area: action; display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; }
 .drill-feedback .drill-actions .gate-btn { grid-area: auto; }
 .drill-giveup { margin-left: 0; }
+
+.ladder-more { flex: 1 0 100%; font-size: 0.8rem; color: var(--muted); }

@@ -10,6 +10,36 @@
       "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n44.jpg",
       "exwb": "davidson-s20#A11",
       "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "c34-01": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c34-02": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c34-03": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c34-04": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c34-05": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c34-06": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c34-07": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c34-08": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c34-09": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c34-10": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
     }
   },
   "items": [
@@ -102,6 +132,955 @@
       "blockLabel": "Davidson §20",
       "shape": "he-en",
       "src": "s20-A11"
+    },
+    {
+      "id": "c34-01.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הִנֵּה הָאִישׁ",
+      "stimulusIsScript": true,
+      "statement": "Behold, the man!",
+      "answer": true,
+      "expected": "Behold, the man!",
+      "block": "c34",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c34-01",
+      "extra": true
+    },
+    {
+      "id": "c34-01.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הִנֵּה הָאִישׁ",
+      "stimulusIsScript": true,
+      "options": [
+        "A tree of life",
+        "Behold, the man!",
+        "Here I am.",
+        "Behold, a man!"
+      ],
+      "answer": "Behold, the man!",
+      "optionIsScript": false,
+      "block": "c34",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c34-01",
+      "extra": true
+    },
+    {
+      "id": "c34-01.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Behold, the man!",
+      "stimulus": "＿＿＿ הָאִישׁ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הִנֵּה"
+      ],
+      "answerIsScript": true,
+      "block": "c34",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c34-01",
+      "extra": true
+    },
+    {
+      "id": "c34-01.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הִנֵּה הָאִישׁ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Behold, the man!"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c34",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c34-01",
+      "extra": true
+    },
+    {
+      "id": "c34-01.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Behold, the man!",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הִנֵּה הָאִישׁ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c34",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c34-01",
+      "extra": true
+    },
+    {
+      "id": "c34-02.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "עוֹד הַמֶּלֶךְ חַי",
+      "stimulusIsScript": true,
+      "statement": "The king is still alive.",
+      "answer": true,
+      "expected": "The king is still alive.",
+      "block": "c34",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c34-02",
+      "extra": true
+    },
+    {
+      "id": "c34-02.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "עוֹד הַמֶּלֶךְ חַי",
+      "stimulusIsScript": true,
+      "options": [
+        "The king is still alive.",
+        "Behold, the man!",
+        "This tree is high.",
+        "A king is still alive."
+      ],
+      "answer": "The king is still alive.",
+      "optionIsScript": false,
+      "block": "c34",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c34-02",
+      "extra": true
+    },
+    {
+      "id": "c34-02.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The king is still alive.",
+      "stimulus": "עוֹד ＿＿＿ חַי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַמֶּלֶךְ"
+      ],
+      "answerIsScript": true,
+      "block": "c34",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c34-02",
+      "extra": true
+    },
+    {
+      "id": "c34-02.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "עוֹד הַמֶּלֶךְ חַי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The king is still alive."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c34",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c34-02",
+      "extra": true
+    },
+    {
+      "id": "c34-02.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The king is still alive.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "עוֹד הַמֶּלֶךְ חַי"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c34",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c34-02",
+      "extra": true
+    },
+    {
+      "id": "c34-03.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הִנֵּה הַמֶּלֶךְ בָּעִיר",
+      "stimulusIsScript": true,
+      "statement": "Behold, the king is in the city.",
+      "answer": true,
+      "expected": "Behold, the king is in the city.",
+      "block": "c34",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c34-03",
+      "extra": true
+    },
+    {
+      "id": "c34-03.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הִנֵּה הַמֶּלֶךְ בָּעִיר",
+      "stimulusIsScript": true,
+      "options": [
+        "Behold, the king is to the city.",
+        "Behold, a king is in the city.",
+        "Behold, the king is in the city.",
+        "Behold, the king is in a city."
+      ],
+      "answer": "Behold, the king is in the city.",
+      "optionIsScript": false,
+      "block": "c34",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c34-03",
+      "extra": true
+    },
+    {
+      "id": "c34-03.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Behold, the king is in the city.",
+      "stimulus": "＿＿＿ הַמֶּלֶךְ בָּעִיר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הִנֵּה"
+      ],
+      "answerIsScript": true,
+      "block": "c34",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c34-03",
+      "extra": true
+    },
+    {
+      "id": "c34-03.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הִנֵּה הַמֶּלֶךְ בָּעִיר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Behold, the king is in the city."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c34",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c34-03",
+      "extra": true
+    },
+    {
+      "id": "c34-03.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Behold, the king is in the city.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הִנֵּה הַמֶּלֶךְ בָּעִיר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c34",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c34-03",
+      "extra": true
+    },
+    {
+      "id": "c34-04.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "עוֹד הַנָּבִיא בָּעִיר",
+      "stimulusIsScript": true,
+      "statement": "The prophet is still in a city.",
+      "answer": false,
+      "expected": "The prophet is still in the city.",
+      "block": "c34",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c34-04",
+      "extra": true
+    },
+    {
+      "id": "c34-04.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "עוֹד הַנָּבִיא בָּעִיר",
+      "stimulusIsScript": true,
+      "options": [
+        "The prophet is still in a city.",
+        "A prophet is still in the city.",
+        "The prophet is still from the city.",
+        "The prophet is still in the city."
+      ],
+      "answer": "The prophet is still in the city.",
+      "optionIsScript": false,
+      "block": "c34",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c34-04",
+      "extra": true
+    },
+    {
+      "id": "c34-04.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The prophet is still in the city.",
+      "stimulus": "עוֹד הַנָּבִיא ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "בָּעִיר"
+      ],
+      "answerIsScript": true,
+      "block": "c34",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c34-04",
+      "extra": true
+    },
+    {
+      "id": "c34-04.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The prophet is still in the city.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "עוֹד הַנָּבִיא בָּעִיר"
+      ],
+      "answerIsScript": true,
+      "block": "c34",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c34-04",
+      "extra": true
+    },
+    {
+      "id": "c34-04.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The prophet is still in the city.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "עוֹד הַנָּבִיא בָּעִיר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c34",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c34-04",
+      "extra": true
+    },
+    {
+      "id": "c34-05.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָאִישׁ יָשַׁב תַּחַת הָעֵץ",
+      "stimulusIsScript": true,
+      "statement": "The man sat under the tree.",
+      "answer": true,
+      "expected": "The man sat under the tree.",
+      "block": "c34",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c34-05",
+      "extra": true
+    },
+    {
+      "id": "c34-05.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָאִישׁ יָשַׁב תַּחַת הָעֵץ",
+      "stimulusIsScript": true,
+      "options": [
+        "The man sat under the tree.",
+        "The man sat under a tree.",
+        "A man sat under the tree.",
+        "The king opened the gate of the city."
+      ],
+      "answer": "The man sat under the tree.",
+      "optionIsScript": false,
+      "block": "c34",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c34-05",
+      "extra": true
+    },
+    {
+      "id": "c34-05.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The man sat under the tree.",
+      "stimulus": "הָאִישׁ ＿＿＿ תַּחַת הָעֵץ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "יָשַׁב"
+      ],
+      "answerIsScript": true,
+      "block": "c34",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c34-05",
+      "extra": true
+    },
+    {
+      "id": "c34-05.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הָאִישׁ יָשַׁב תַּחַת הָעֵץ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The man sat under the tree."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c34",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c34-05",
+      "extra": true
+    },
+    {
+      "id": "c34-05.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The man sat under the tree.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאִישׁ יָשַׁב תַּחַת הָעֵץ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c34",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c34-05",
+      "extra": true
+    },
+    {
+      "id": "c34-06.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָעֵץ הַזֶּה גָּבֹהַּ",
+      "stimulusIsScript": true,
+      "statement": "That tree is high.",
+      "answer": false,
+      "expected": "This tree is high.",
+      "block": "c34",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c34-06",
+      "extra": true
+    },
+    {
+      "id": "c34-06.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָעֵץ הַזֶּה גָּבֹהַּ",
+      "stimulusIsScript": true,
+      "options": [
+        "Here I am.",
+        "This tree is high.",
+        "The king is still alive.",
+        "That tree is high."
+      ],
+      "answer": "This tree is high.",
+      "optionIsScript": false,
+      "block": "c34",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c34-06",
+      "extra": true
+    },
+    {
+      "id": "c34-06.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: This tree is high.",
+      "stimulus": "＿＿＿ הַזֶּה גָּבֹהַּ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הָעֵץ"
+      ],
+      "answerIsScript": true,
+      "block": "c34",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c34-06",
+      "extra": true
+    },
+    {
+      "id": "c34-06.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "This tree is high.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָעֵץ הַזֶּה גָּבֹהַּ",
+        "גָּבֹהַּ הָעֵץ הַזֶּה"
+      ],
+      "answerIsScript": true,
+      "block": "c34",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c34-06",
+      "extra": true
+    },
+    {
+      "id": "c34-06.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "This tree is high.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָעֵץ הַזֶּה גָּבֹהַּ",
+        "גָּבֹהַּ הָעֵץ הַזֶּה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c34",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c34-06",
+      "extra": true
+    },
+    {
+      "id": "c34-07.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַמֶּלֶךְ פָּתַח אֶת־שַׁעַר הָעִיר",
+      "stimulusIsScript": true,
+      "statement": "The king opened a gate of the city.",
+      "answer": false,
+      "expected": "The king opened the gate of the city.",
+      "block": "c34",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c34-07",
+      "extra": true
+    },
+    {
+      "id": "c34-07.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַמֶּלֶךְ פָּתַח אֶת־שַׁעַר הָעִיר",
+      "stimulusIsScript": true,
+      "options": [
+        "The king opened a gate of the city.",
+        "The king opened the gate of the city.",
+        "The king opened the gate of a city.",
+        "A king opened the gate of the city."
+      ],
+      "answer": "The king opened the gate of the city.",
+      "optionIsScript": false,
+      "block": "c34",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c34-07",
+      "extra": true
+    },
+    {
+      "id": "c34-07.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The king opened the gate of the city.",
+      "stimulus": "הַמֶּלֶךְ פָּתַח אֶת־שַׁעַר ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הָעִיר"
+      ],
+      "answerIsScript": true,
+      "block": "c34",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c34-07",
+      "extra": true
+    },
+    {
+      "id": "c34-07.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הַמֶּלֶךְ פָּתַח אֶת־שַׁעַר הָעִיר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The king opened the gate of the city."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c34",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c34-07",
+      "extra": true
+    },
+    {
+      "id": "c34-07.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The king opened the gate of the city.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַמֶּלֶךְ פָּתַח אֶת־שַׁעַר הָעִיר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c34",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c34-07",
+      "extra": true
+    },
+    {
+      "id": "c34-08.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַנָּהָר הַגָּדוֹל",
+      "stimulusIsScript": true,
+      "statement": "The great river",
+      "answer": true,
+      "expected": "The great river",
+      "block": "c34",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c34-08",
+      "extra": true
+    },
+    {
+      "id": "c34-08.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַנָּהָר הַגָּדוֹל",
+      "stimulusIsScript": true,
+      "options": [
+        "The great river",
+        "The prophet is still in the city.",
+        "The man sat under the tree.",
+        "A great river"
+      ],
+      "answer": "The great river",
+      "optionIsScript": false,
+      "block": "c34",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c34-08",
+      "extra": true
+    },
+    {
+      "id": "c34-08.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The great river",
+      "stimulus": "＿＿＿ הַגָּדוֹל",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַנָּהָר"
+      ],
+      "answerIsScript": true,
+      "block": "c34",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c34-08",
+      "extra": true
+    },
+    {
+      "id": "c34-08.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הַנָּהָר הַגָּדוֹל",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The great river"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c34",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c34-08",
+      "extra": true
+    },
+    {
+      "id": "c34-08.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The great river",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַנָּהָר הַגָּדוֹל"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c34",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c34-08",
+      "extra": true
+    },
+    {
+      "id": "c34-09.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "עֵץ חַיִּים",
+      "stimulusIsScript": true,
+      "statement": "The tree of life",
+      "answer": false,
+      "expected": "A tree of life",
+      "block": "c34",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c34-09",
+      "extra": true
+    },
+    {
+      "id": "c34-09.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "עֵץ חַיִּים",
+      "stimulusIsScript": true,
+      "options": [
+        "The great river",
+        "The man sat under the tree.",
+        "A tree of life",
+        "The tree of life"
+      ],
+      "answer": "A tree of life",
+      "optionIsScript": false,
+      "block": "c34",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c34-09",
+      "extra": true
+    },
+    {
+      "id": "c34-09.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: A tree of life",
+      "stimulus": "עֵץ ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "חַיִּים"
+      ],
+      "answerIsScript": true,
+      "block": "c34",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c34-09",
+      "extra": true
+    },
+    {
+      "id": "c34-09.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "A tree of life",
+      "stimulusIsScript": false,
+      "accepted": [
+        "עֵץ חַיִּים"
+      ],
+      "answerIsScript": true,
+      "block": "c34",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c34-09",
+      "extra": true
+    },
+    {
+      "id": "c34-09.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "A tree of life",
+      "stimulusIsScript": false,
+      "accepted": [
+        "עֵץ חַיִּים"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c34",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c34-09",
+      "extra": true
+    },
+    {
+      "id": "c34-10.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הִנֵּה אֲנִי",
+      "stimulusIsScript": true,
+      "statement": "Here you are.",
+      "answer": false,
+      "expected": "Here I am.",
+      "block": "c34",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c34-10",
+      "extra": true
+    },
+    {
+      "id": "c34-10.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הִנֵּה אֲנִי",
+      "stimulusIsScript": true,
+      "options": [
+        "Here you are.",
+        "The prophet is still in the city.",
+        "Here I am.",
+        "Here he is."
+      ],
+      "answer": "Here I am.",
+      "optionIsScript": false,
+      "block": "c34",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c34-10",
+      "extra": true
+    },
+    {
+      "id": "c34-10.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Here I am.",
+      "stimulus": "הִנֵּה ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֲנִי"
+      ],
+      "answerIsScript": true,
+      "block": "c34",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c34-10",
+      "extra": true
+    },
+    {
+      "id": "c34-10.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הִנֵּה אֲנִי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Here I am."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c34",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c34-10",
+      "extra": true
+    },
+    {
+      "id": "c34-10.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Here I am.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הִנֵּה אֲנִי"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c34",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c34-10",
+      "extra": true
     }
   ]
 }

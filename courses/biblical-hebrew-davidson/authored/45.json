@@ -1,0 +1,1048 @@
+{
+  "schema": "authored-exercises-v1.json",
+  "unit": 45,
+  "sources": {
+    "c45-01": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c45-02": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c45-03": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c45-04": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c45-05": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c45-06": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c45-07": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c45-08": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c45-09": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "b-Ps-113-4": {
+      "citation": "Psalms 113:4. Hebrew: Westminster Leningrad Codex (public domain) via the Open Scriptures Hebrew Bible (morphology CC BY 4.0). English: World English Bible (public domain)",
+      "url": "https://worldenglish.bible"
+    },
+    "b-Isa-14-18": {
+      "citation": "Isaiah 14:18. Hebrew: Westminster Leningrad Codex (public domain) via the Open Scriptures Hebrew Bible (morphology CC BY 4.0). English: World English Bible (public domain)",
+      "url": "https://worldenglish.bible"
+    }
+  },
+  "items": [
+    {
+      "id": "c45-01.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אֲרוֹן הַבְּרִית",
+      "stimulusIsScript": true,
+      "statement": "The ark of the covenant",
+      "answer": true,
+      "expected": "The ark of the covenant",
+      "block": "c45",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c45-01",
+      "extra": true
+    },
+    {
+      "id": "c45-01.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אֲרוֹן הַבְּרִית",
+      "stimulusIsScript": true,
+      "options": [
+        "The ark of the covenant",
+        "An ark of the covenant",
+        "The ark is in the temple.",
+        "The ark of a covenant"
+      ],
+      "answer": "The ark of the covenant",
+      "optionIsScript": false,
+      "block": "c45",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c45-01",
+      "extra": true
+    },
+    {
+      "id": "c45-01.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The ark of the covenant",
+      "stimulus": "＿＿＿ הַבְּרִית",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֲרוֹן"
+      ],
+      "answerIsScript": true,
+      "block": "c45",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c45-01",
+      "extra": true
+    },
+    {
+      "id": "c45-01.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "אֲרוֹן הַבְּרִית",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The ark of the covenant"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c45",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c45-01",
+      "extra": true
+    },
+    {
+      "id": "c45-01.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The ark of the covenant",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֲרוֹן הַבְּרִית"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c45",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c45-01",
+      "extra": true
+    },
+    {
+      "id": "c45-02.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "כְּבוֹד אֱלֹהִים",
+      "stimulusIsScript": true,
+      "statement": "A glory of God",
+      "answer": false,
+      "expected": "The glory of God",
+      "block": "c45",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c45-02",
+      "extra": true
+    },
+    {
+      "id": "c45-02.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "כְּבוֹד אֱלֹהִים",
+      "stimulusIsScript": true,
+      "options": [
+        "The ark of the covenant",
+        "The tribe of Judah",
+        "The glory of God",
+        "A glory of God"
+      ],
+      "answer": "The glory of God",
+      "optionIsScript": false,
+      "block": "c45",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c45-02",
+      "extra": true
+    },
+    {
+      "id": "c45-02.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The glory of God",
+      "stimulus": "כְּבוֹד ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֱלֹהִים"
+      ],
+      "answerIsScript": true,
+      "block": "c45",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c45-02",
+      "extra": true
+    },
+    {
+      "id": "c45-02.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The glory of God",
+      "stimulusIsScript": false,
+      "accepted": [
+        "כְּבוֹד אֱלֹהִים"
+      ],
+      "answerIsScript": true,
+      "block": "c45",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c45-02",
+      "extra": true
+    },
+    {
+      "id": "c45-02.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The glory of God",
+      "stimulusIsScript": false,
+      "accepted": [
+        "כְּבוֹד אֱלֹהִים"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c45",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c45-02",
+      "extra": true
+    },
+    {
+      "id": "c45-03.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "כְּבוֹדוֹ עַל־הַשָּׁמַיִם",
+      "stimulusIsScript": true,
+      "statement": "Their glory is above the heavens.",
+      "answer": false,
+      "expected": "His glory is above the heavens.",
+      "block": "c45",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c45-03",
+      "extra": true
+    },
+    {
+      "id": "c45-03.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "כְּבוֹדוֹ עַל־הַשָּׁמַיִם",
+      "stimulusIsScript": true,
+      "options": [
+        "Their glory is above the heavens.",
+        "His glory is above heavens.",
+        "His glory is above the heavens.",
+        "My glory is above the heavens."
+      ],
+      "answer": "His glory is above the heavens.",
+      "optionIsScript": false,
+      "block": "c45",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c45-03",
+      "extra": true
+    },
+    {
+      "id": "c45-03.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: His glory is above the heavens.",
+      "stimulus": "＿＿＿ עַל־הַשָּׁמַיִם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "כְּבוֹדוֹ"
+      ],
+      "answerIsScript": true,
+      "block": "c45",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c45-03",
+      "extra": true
+    },
+    {
+      "id": "c45-03.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "כְּבוֹדוֹ עַל־הַשָּׁמַיִם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "His glory is above the heavens."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c45",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c45-03",
+      "extra": true
+    },
+    {
+      "id": "c45-03.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "His glory is above the heavens.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "כְּבוֹדוֹ עַל־הַשָּׁמַיִם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c45",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c45-03",
+      "extra": true
+    },
+    {
+      "id": "c45-04.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַכֹּהֵן לָקַח אֶת־הַשֶּׁמֶן",
+      "stimulusIsScript": true,
+      "statement": "A priest took the oil.",
+      "answer": false,
+      "expected": "The priest took the oil.",
+      "block": "c45",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c45-04",
+      "extra": true
+    },
+    {
+      "id": "c45-04.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַכֹּהֵן לָקַח אֶת־הַשֶּׁמֶן",
+      "stimulusIsScript": true,
+      "options": [
+        "The priest took the oil.",
+        "A priest took the oil.",
+        "The ark of the covenant",
+        "The priest took an oil."
+      ],
+      "answer": "The priest took the oil.",
+      "optionIsScript": false,
+      "block": "c45",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c45-04",
+      "extra": true
+    },
+    {
+      "id": "c45-04.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The priest took the oil.",
+      "stimulus": "＿＿＿ לָקַח אֶת־הַשֶּׁמֶן",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַכֹּהֵן"
+      ],
+      "answerIsScript": true,
+      "block": "c45",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c45-04",
+      "extra": true
+    },
+    {
+      "id": "c45-04.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הַכֹּהֵן לָקַח אֶת־הַשֶּׁמֶן",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The priest took the oil."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c45",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c45-04",
+      "extra": true
+    },
+    {
+      "id": "c45-04.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The priest took the oil.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַכֹּהֵן לָקַח אֶת־הַשֶּׁמֶן"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c45",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c45-04",
+      "extra": true
+    },
+    {
+      "id": "c45-05.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "שִׁבְטֵי יִשְׂרָאֵל",
+      "stimulusIsScript": true,
+      "statement": "Tribes of Israel",
+      "answer": false,
+      "expected": "The tribes of Israel",
+      "block": "c45",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c45-05",
+      "extra": true
+    },
+    {
+      "id": "c45-05.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "שִׁבְטֵי יִשְׂרָאֵל",
+      "stimulusIsScript": true,
+      "options": [
+        "The tribes of Israel",
+        "His glory is above the heavens.",
+        "The tribe of Judah",
+        "Tribes of Israel"
+      ],
+      "answer": "The tribes of Israel",
+      "optionIsScript": false,
+      "block": "c45",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c45-05",
+      "extra": true
+    },
+    {
+      "id": "c45-05.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The tribes of Israel",
+      "stimulus": "＿＿＿ יִשְׂרָאֵל",
+      "stimulusIsScript": true,
+      "accepted": [
+        "שִׁבְטֵי"
+      ],
+      "answerIsScript": true,
+      "block": "c45",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c45-05",
+      "extra": true
+    },
+    {
+      "id": "c45-05.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "שִׁבְטֵי יִשְׂרָאֵל",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The tribes of Israel"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c45",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c45-05",
+      "extra": true
+    },
+    {
+      "id": "c45-05.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The tribes of Israel",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שִׁבְטֵי יִשְׂרָאֵל"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c45",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c45-05",
+      "extra": true
+    },
+    {
+      "id": "c45-06.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָאָרוֹן בַּהֵיכָל",
+      "stimulusIsScript": true,
+      "statement": "The ark is in the temple.",
+      "answer": true,
+      "expected": "The ark is in the temple.",
+      "block": "c45",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c45-06",
+      "extra": true
+    },
+    {
+      "id": "c45-06.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָאָרוֹן בַּהֵיכָל",
+      "stimulusIsScript": true,
+      "options": [
+        "The ark is in the temple.",
+        "The ark is in a temple.",
+        "An ark is in the temple.",
+        "The ark is to the temple."
+      ],
+      "answer": "The ark is in the temple.",
+      "optionIsScript": false,
+      "block": "c45",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c45-06",
+      "extra": true
+    },
+    {
+      "id": "c45-06.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The ark is in the temple.",
+      "stimulus": "הָאָרוֹן ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "בַּהֵיכָל"
+      ],
+      "answerIsScript": true,
+      "block": "c45",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c45-06",
+      "extra": true
+    },
+    {
+      "id": "c45-06.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The ark is in the temple.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאָרוֹן בַּהֵיכָל"
+      ],
+      "answerIsScript": true,
+      "block": "c45",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c45-06",
+      "extra": true
+    },
+    {
+      "id": "c45-06.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The ark is in the temple.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאָרוֹן בַּהֵיכָל"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c45",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c45-06",
+      "extra": true
+    },
+    {
+      "id": "c45-07.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "עֹשֶׁר וְכָבוֹד",
+      "stimulusIsScript": true,
+      "statement": "The ark is in the temple.",
+      "answer": false,
+      "expected": "Wealth and honour",
+      "block": "c45",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c45-07",
+      "extra": true
+    },
+    {
+      "id": "c45-07.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "עֹשֶׁר וְכָבוֹד",
+      "stimulusIsScript": true,
+      "options": [
+        "The tribe of Judah",
+        "Wealth and honour",
+        "The ark is in the temple.",
+        "Good oil"
+      ],
+      "answer": "Wealth and honour",
+      "optionIsScript": false,
+      "block": "c45",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c45-07",
+      "extra": true
+    },
+    {
+      "id": "c45-07.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Wealth and honour",
+      "stimulus": "עֹשֶׁר ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וְכָבוֹד"
+      ],
+      "answerIsScript": true,
+      "block": "c45",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c45-07",
+      "extra": true
+    },
+    {
+      "id": "c45-07.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "עֹשֶׁר וְכָבוֹד",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Wealth and honour"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c45",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c45-07",
+      "extra": true
+    },
+    {
+      "id": "c45-07.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Wealth and honour",
+      "stimulusIsScript": false,
+      "accepted": [
+        "עֹשֶׁר וְכָבוֹד"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c45",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c45-07",
+      "extra": true
+    },
+    {
+      "id": "c45-08.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "שֵׁבֶט יְהוּדָה",
+      "stimulusIsScript": true,
+      "statement": "A tribe of Judah",
+      "answer": false,
+      "expected": "The tribe of Judah",
+      "block": "c45",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c45-08",
+      "extra": true
+    },
+    {
+      "id": "c45-08.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "שֵׁבֶט יְהוּדָה",
+      "stimulusIsScript": true,
+      "options": [
+        "The tribe of Judah",
+        "The tribes of Israel",
+        "The ark is in the temple.",
+        "A tribe of Judah"
+      ],
+      "answer": "The tribe of Judah",
+      "optionIsScript": false,
+      "block": "c45",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c45-08",
+      "extra": true
+    },
+    {
+      "id": "c45-08.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The tribe of Judah",
+      "stimulus": "＿＿＿ יְהוּדָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "שֵׁבֶט"
+      ],
+      "answerIsScript": true,
+      "block": "c45",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c45-08",
+      "extra": true
+    },
+    {
+      "id": "c45-08.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "שֵׁבֶט יְהוּדָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The tribe of Judah"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c45",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c45-08",
+      "extra": true
+    },
+    {
+      "id": "c45-08.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The tribe of Judah",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שֵׁבֶט יְהוּדָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c45",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c45-08",
+      "extra": true
+    },
+    {
+      "id": "c45-09.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "שֶׁמֶן טוֹב",
+      "stimulusIsScript": true,
+      "statement": "Good oil",
+      "answer": true,
+      "expected": "Good oil",
+      "block": "c45",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c45-09",
+      "extra": true
+    },
+    {
+      "id": "c45-09.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "שֶׁמֶן טוֹב",
+      "stimulusIsScript": true,
+      "options": [
+        "His glory is above the heavens.",
+        "The good oil",
+        "Good oil",
+        "The glory of God"
+      ],
+      "answer": "Good oil",
+      "optionIsScript": false,
+      "block": "c45",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c45-09",
+      "extra": true
+    },
+    {
+      "id": "c45-09.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Good oil",
+      "stimulus": "＿＿＿ טוֹב",
+      "stimulusIsScript": true,
+      "accepted": [
+        "שֶׁמֶן"
+      ],
+      "answerIsScript": true,
+      "block": "c45",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c45-09",
+      "extra": true
+    },
+    {
+      "id": "c45-09.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "Good oil",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שֶׁמֶן טוֹב"
+      ],
+      "answerIsScript": true,
+      "block": "c45",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c45-09",
+      "extra": true
+    },
+    {
+      "id": "c45-09.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Good oil",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שֶׁמֶן טוֹב"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c45",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c45-09",
+      "extra": true
+    },
+    {
+      "id": "b-Ps-113-4.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "רָם עַל־כָּל־גּוֹיִם יְהוָה עַל הַשָּׁמַיִם כְּבוֹדוֹ",
+      "stimulusIsScript": true,
+      "statement": "Yahweh is high above all nations, my glory above the heavens.",
+      "answer": false,
+      "expected": "Yahweh is high above all nations, his glory above the heavens.",
+      "block": "b45",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Ps-113-4",
+      "extra": true
+    },
+    {
+      "id": "b-Ps-113-4.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "רָם עַל־כָּל־גּוֹיִם יְהוָה עַל הַשָּׁמַיִם כְּבוֹדוֹ",
+      "stimulusIsScript": true,
+      "options": [
+        "Yahweh is high above all nations, my glory above the heavens.",
+        "Yahweh is high above all nations, his glory above the heavens.",
+        "Yahweh is high above all nations, their glory above the heavens.",
+        "Yahweh is high above all nations, his glory above heavens."
+      ],
+      "answer": "Yahweh is high above all nations, his glory above the heavens.",
+      "optionIsScript": false,
+      "block": "b45",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Ps-113-4",
+      "extra": true
+    },
+    {
+      "id": "b-Ps-113-4.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Yahweh is high above all nations, his glory above the heavens.",
+      "stimulus": "רָם ＿＿＿ יְהוָה עַל הַשָּׁמַיִם כְּבוֹדוֹ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "עַל־כָּל־גּוֹיִם"
+      ],
+      "answerIsScript": true,
+      "block": "b45",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Ps-113-4",
+      "extra": true
+    },
+    {
+      "id": "b-Ps-113-4.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "רָם עַל־כָּל־גּוֹיִם יְהוָה עַל הַשָּׁמַיִם כְּבוֹדוֹ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Yahweh is high above all nations, his glory above the heavens.",
+        "the Lord is high above all nations, his glory above the heavens."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "b45",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Ps-113-4",
+      "extra": true
+    },
+    {
+      "id": "b-Isa-14-18.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "כָּל־מַלְכֵי גוֹיִם כֻּלָּם שָׁכְבוּ בְכָבוֹד אִישׁ בְּבֵיתוֹ",
+      "stimulusIsScript": true,
+      "statement": "All the kings of the nations sleep in glory, everyone in his own house.",
+      "answer": true,
+      "expected": "All the kings of the nations sleep in glory, everyone in his own house.",
+      "block": "b45",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Isa-14-18",
+      "extra": true
+    },
+    {
+      "id": "b-Isa-14-18.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "כָּל־מַלְכֵי גוֹיִם כֻּלָּם שָׁכְבוּ בְכָבוֹד אִישׁ בְּבֵיתוֹ",
+      "stimulusIsScript": true,
+      "options": [
+        "All the kings of the nations sleep in glory, everyone from his own house.",
+        "All the kings of the nations sleep in glory, everyone in his own house.",
+        "All the kings of nations sleep in glory, everyone in his own house.",
+        "All the kings of the nations sleep in glory, everyone in my own house."
+      ],
+      "answer": "All the kings of the nations sleep in glory, everyone in his own house.",
+      "optionIsScript": false,
+      "block": "b45",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Isa-14-18",
+      "extra": true
+    },
+    {
+      "id": "b-Isa-14-18.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: All the kings of the nations sleep in glory, everyone in his own house.",
+      "stimulus": "＿＿＿ גוֹיִם כֻּלָּם שָׁכְבוּ בְכָבוֹד אִישׁ בְּבֵיתוֹ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "כָּל־מַלְכֵי"
+      ],
+      "answerIsScript": true,
+      "block": "b45",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Isa-14-18",
+      "extra": true
+    },
+    {
+      "id": "b-Isa-14-18.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "כָּל־מַלְכֵי גוֹיִם כֻּלָּם שָׁכְבוּ בְכָבוֹד אִישׁ בְּבֵיתוֹ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "All the kings of the nations sleep in glory, everyone in his own house."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "b45",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Isa-14-18",
+      "extra": true
+    }
+  ]
+}

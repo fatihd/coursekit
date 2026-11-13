@@ -19,6 +19,36 @@
       "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n65.jpg",
       "exwb": "davidson-s27#B6",
       "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "c50-01": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c50-02": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c50-03": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c50-04": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c50-05": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c50-06": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c50-07": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c50-08": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c50-09": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c50-10": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
     }
   },
   "items": [
@@ -201,6 +231,953 @@
       "blockLabel": "Davidson §27",
       "shape": "en-he",
       "src": "s27-B6"
+    },
+    {
+      "id": "c50-01.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אָז שָׁב הַמֶּלֶךְ אֶל־הָעִיר",
+      "stimulusIsScript": true,
+      "statement": "Then the king returned to the city.",
+      "answer": true,
+      "expected": "Then the king returned to the city.",
+      "block": "c50",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c50-01",
+      "extra": true
+    },
+    {
+      "id": "c50-01.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אָז שָׁב הַמֶּלֶךְ אֶל־הָעִיר",
+      "stimulusIsScript": true,
+      "options": [
+        "Then the king returned from the city.",
+        "Then the king returned to the city.",
+        "Then the king returned in the city.",
+        "Then the king returned to a city."
+      ],
+      "answer": "Then the king returned to the city.",
+      "optionIsScript": false,
+      "block": "c50",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c50-01",
+      "extra": true
+    },
+    {
+      "id": "c50-01.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Then the king returned to the city.",
+      "stimulus": "אָז שָׁב ＿＿＿ אֶל־הָעִיר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַמֶּלֶךְ"
+      ],
+      "answerIsScript": true,
+      "block": "c50",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c50-01",
+      "extra": true
+    },
+    {
+      "id": "c50-01.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "אָז שָׁב הַמֶּלֶךְ אֶל־הָעִיר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Then the king returned to the city."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c50",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c50-01",
+      "extra": true
+    },
+    {
+      "id": "c50-01.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Then the king returned to the city.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אָז שָׁב הַמֶּלֶךְ אֶל־הָעִיר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c50",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c50-01",
+      "extra": true
+    },
+    {
+      "id": "c50-02.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "יֵשׁ לֶחֶם בָּעִיר",
+      "stimulusIsScript": true,
+      "statement": "There is bread in the city.",
+      "answer": true,
+      "expected": "There is bread in the city.",
+      "block": "c50",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c50-02",
+      "extra": true
+    },
+    {
+      "id": "c50-02.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "יֵשׁ לֶחֶם בָּעִיר",
+      "stimulusIsScript": true,
+      "options": [
+        "There is bread to the city.",
+        "There is bread in a city.",
+        "There is bread in the city.",
+        "There is bread from the city."
+      ],
+      "answer": "There is bread in the city.",
+      "optionIsScript": false,
+      "block": "c50",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c50-02",
+      "extra": true
+    },
+    {
+      "id": "c50-02.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: There is bread in the city.",
+      "stimulus": "＿＿＿ לֶחֶם בָּעִיר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "יֵשׁ"
+      ],
+      "answerIsScript": true,
+      "block": "c50",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c50-02",
+      "extra": true
+    },
+    {
+      "id": "c50-02.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "יֵשׁ לֶחֶם בָּעִיר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "There is bread in the city."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c50",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c50-02",
+      "extra": true
+    },
+    {
+      "id": "c50-02.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "There is bread in the city.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "יֵשׁ לֶחֶם בָּעִיר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c50",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c50-02",
+      "extra": true
+    },
+    {
+      "id": "c50-03.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "יֵשׁ אֱלֹהִים לְיִשְׂרָאֵל",
+      "stimulusIsScript": true,
+      "statement": "There is a God in Israel.",
+      "answer": true,
+      "expected": "There is a God in Israel.",
+      "block": "c50",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c50-03",
+      "extra": true
+    },
+    {
+      "id": "c50-03.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "יֵשׁ אֱלֹהִים לְיִשְׂרָאֵל",
+      "stimulusIsScript": true,
+      "options": [
+        "There is a God in Israel.",
+        "There is the God in Israel.",
+        "There is a God to Israel.",
+        "There is a God from Israel."
+      ],
+      "answer": "There is a God in Israel.",
+      "optionIsScript": false,
+      "block": "c50",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c50-03",
+      "extra": true
+    },
+    {
+      "id": "c50-03.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: There is a God in Israel.",
+      "stimulus": "＿＿＿ אֱלֹהִים לְיִשְׂרָאֵל",
+      "stimulusIsScript": true,
+      "accepted": [
+        "יֵשׁ"
+      ],
+      "answerIsScript": true,
+      "block": "c50",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c50-03",
+      "extra": true
+    },
+    {
+      "id": "c50-03.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "There is a God in Israel.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "יֵשׁ אֱלֹהִים לְיִשְׂרָאֵל"
+      ],
+      "answerIsScript": true,
+      "block": "c50",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c50-03",
+      "extra": true
+    },
+    {
+      "id": "c50-03.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "There is a God in Israel.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "יֵשׁ אֱלֹהִים לְיִשְׂרָאֵל"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c50",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c50-03",
+      "extra": true
+    },
+    {
+      "id": "c50-04.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַמִּשְׁכָּן וְכָל־כֵּלָיו",
+      "stimulusIsScript": true,
+      "statement": "A tabernacle and all its vessels",
+      "answer": false,
+      "expected": "The tabernacle and all its vessels",
+      "block": "c50",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c50-04",
+      "extra": true
+    },
+    {
+      "id": "c50-04.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַמִּשְׁכָּן וְכָל־כֵּלָיו",
+      "stimulusIsScript": true,
+      "options": [
+        "The tabernacle and all its vessels",
+        "The tabernacle is in the wilderness.",
+        "Then the king returned to the city.",
+        "A tabernacle and all its vessels"
+      ],
+      "answer": "The tabernacle and all its vessels",
+      "optionIsScript": false,
+      "block": "c50",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c50-04",
+      "extra": true
+    },
+    {
+      "id": "c50-04.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The tabernacle and all its vessels",
+      "stimulus": "הַמִּשְׁכָּן ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וְכָל־כֵּלָיו"
+      ],
+      "answerIsScript": true,
+      "block": "c50",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c50-04",
+      "extra": true
+    },
+    {
+      "id": "c50-04.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הַמִּשְׁכָּן וְכָל־כֵּלָיו",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The tabernacle and all its vessels"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c50",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c50-04",
+      "extra": true
+    },
+    {
+      "id": "c50-04.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The tabernacle and all its vessels",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַמִּשְׁכָּן וְכָל־כֵּלָיו"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c50",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c50-04",
+      "extra": true
+    },
+    {
+      "id": "c50-05.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "לֶחֶם וָיָיִן",
+      "stimulusIsScript": true,
+      "statement": "The service of the tabernacle",
+      "answer": false,
+      "expected": "Bread and wine",
+      "block": "c50",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c50-05",
+      "extra": true
+    },
+    {
+      "id": "c50-05.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "לֶחֶם וָיָיִן",
+      "stimulusIsScript": true,
+      "options": [
+        "There is bread in the city.",
+        "Bread and wine",
+        "The service of the tabernacle",
+        "The tabernacle is in the wilderness."
+      ],
+      "answer": "Bread and wine",
+      "optionIsScript": false,
+      "block": "c50",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c50-05",
+      "extra": true
+    },
+    {
+      "id": "c50-05.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Bread and wine",
+      "stimulus": "＿＿＿ וָיָיִן",
+      "stimulusIsScript": true,
+      "accepted": [
+        "לֶחֶם"
+      ],
+      "answerIsScript": true,
+      "block": "c50",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c50-05",
+      "extra": true
+    },
+    {
+      "id": "c50-05.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "לֶחֶם וָיָיִן",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Bread and wine"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c50",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c50-05",
+      "extra": true
+    },
+    {
+      "id": "c50-05.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Bread and wine",
+      "stimulusIsScript": false,
+      "accepted": [
+        "לֶחֶם וָיָיִן"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c50",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c50-05",
+      "extra": true
+    },
+    {
+      "id": "c50-06.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "עֲבוֹדַת הַמִּשְׁכָּן",
+      "stimulusIsScript": true,
+      "statement": "The service of the tabernacle",
+      "answer": true,
+      "expected": "The service of the tabernacle",
+      "block": "c50",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c50-06",
+      "extra": true
+    },
+    {
+      "id": "c50-06.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "עֲבוֹדַת הַמִּשְׁכָּן",
+      "stimulusIsScript": true,
+      "options": [
+        "Bread and wine",
+        "A service of the tabernacle",
+        "The service of the tabernacle",
+        "The service of a tabernacle"
+      ],
+      "answer": "The service of the tabernacle",
+      "optionIsScript": false,
+      "block": "c50",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c50-06",
+      "extra": true
+    },
+    {
+      "id": "c50-06.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The service of the tabernacle",
+      "stimulus": "＿＿＿ הַמִּשְׁכָּן",
+      "stimulusIsScript": true,
+      "accepted": [
+        "עֲבוֹדַת"
+      ],
+      "answerIsScript": true,
+      "block": "c50",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c50-06",
+      "extra": true
+    },
+    {
+      "id": "c50-06.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "עֲבוֹדַת הַמִּשְׁכָּן",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The service of the tabernacle"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c50",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c50-06",
+      "extra": true
+    },
+    {
+      "id": "c50-06.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The service of the tabernacle",
+      "stimulusIsScript": false,
+      "accepted": [
+        "עֲבוֹדַת הַמִּשְׁכָּן"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c50",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c50-06",
+      "extra": true
+    },
+    {
+      "id": "c50-07.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "כְּלֵי נְחֹשֶׁת",
+      "stimulusIsScript": true,
+      "statement": "The tabernacle is in the wilderness.",
+      "answer": false,
+      "expected": "Vessels of bronze",
+      "block": "c50",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c50-07",
+      "extra": true
+    },
+    {
+      "id": "c50-07.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "כְּלֵי נְחֹשֶׁת",
+      "stimulusIsScript": true,
+      "options": [
+        "Vessels of bronze",
+        "There is a God in Israel.",
+        "The tabernacle is in the wilderness.",
+        "Then the king sat in his palace."
+      ],
+      "answer": "Vessels of bronze",
+      "optionIsScript": false,
+      "block": "c50",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c50-07",
+      "extra": true
+    },
+    {
+      "id": "c50-07.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Vessels of bronze",
+      "stimulus": "כְּלֵי ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "נְחֹשֶׁת"
+      ],
+      "answerIsScript": true,
+      "block": "c50",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c50-07",
+      "extra": true
+    },
+    {
+      "id": "c50-07.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "Vessels of bronze",
+      "stimulusIsScript": false,
+      "accepted": [
+        "כְּלֵי נְחֹשֶׁת"
+      ],
+      "answerIsScript": true,
+      "block": "c50",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c50-07",
+      "extra": true
+    },
+    {
+      "id": "c50-07.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Vessels of bronze",
+      "stimulusIsScript": false,
+      "accepted": [
+        "כְּלֵי נְחֹשֶׁת"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c50",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c50-07",
+      "extra": true
+    },
+    {
+      "id": "c50-08.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָמְלַךְ שְׁלֹמֹה עַל־יִשְׂרָאֵל",
+      "stimulusIsScript": true,
+      "statement": "The service of the tabernacle",
+      "answer": false,
+      "expected": "Solomon was made king over Israel.",
+      "block": "c50",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c50-08",
+      "extra": true
+    },
+    {
+      "id": "c50-08.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָמְלַךְ שְׁלֹמֹה עַל־יִשְׂרָאֵל",
+      "stimulusIsScript": true,
+      "options": [
+        "There is a God in Israel.",
+        "The service of the tabernacle",
+        "Then the king returned to the city.",
+        "Solomon was made king over Israel."
+      ],
+      "answer": "Solomon was made king over Israel.",
+      "optionIsScript": false,
+      "block": "c50",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c50-08",
+      "extra": true
+    },
+    {
+      "id": "c50-08.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Solomon was made king over Israel.",
+      "stimulus": "הָמְלַךְ ＿＿＿ עַל־יִשְׂרָאֵל",
+      "stimulusIsScript": true,
+      "accepted": [
+        "שְׁלֹמֹה"
+      ],
+      "answerIsScript": true,
+      "block": "c50",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c50-08",
+      "extra": true
+    },
+    {
+      "id": "c50-08.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הָמְלַךְ שְׁלֹמֹה עַל־יִשְׂרָאֵל",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Solomon was made king over Israel."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c50",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c50-08",
+      "extra": true
+    },
+    {
+      "id": "c50-08.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Solomon was made king over Israel.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָמְלַךְ שְׁלֹמֹה עַל־יִשְׂרָאֵל"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c50",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c50-08",
+      "extra": true
+    },
+    {
+      "id": "c50-09.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אָז יָשַׁב הַמֶּלֶךְ בְּהֵיכָלוֹ",
+      "stimulusIsScript": true,
+      "statement": "Then the king sat in her palace.",
+      "answer": false,
+      "expected": "Then the king sat in his palace.",
+      "block": "c50",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c50-09",
+      "extra": true
+    },
+    {
+      "id": "c50-09.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אָז יָשַׁב הַמֶּלֶךְ בְּהֵיכָלוֹ",
+      "stimulusIsScript": true,
+      "options": [
+        "Then the king sat in his palace.",
+        "Then the king sat in her palace.",
+        "Then the king sat from his palace.",
+        "Then a king sat in his palace."
+      ],
+      "answer": "Then the king sat in his palace.",
+      "optionIsScript": false,
+      "block": "c50",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c50-09",
+      "extra": true
+    },
+    {
+      "id": "c50-09.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Then the king sat in his palace.",
+      "stimulus": "אָז יָשַׁב הַמֶּלֶךְ ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "בְּהֵיכָלוֹ"
+      ],
+      "answerIsScript": true,
+      "block": "c50",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c50-09",
+      "extra": true
+    },
+    {
+      "id": "c50-09.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "אָז יָשַׁב הַמֶּלֶךְ בְּהֵיכָלוֹ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Then the king sat in his palace."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c50",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c50-09",
+      "extra": true
+    },
+    {
+      "id": "c50-09.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Then the king sat in his palace.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אָז יָשַׁב הַמֶּלֶךְ בְּהֵיכָלוֹ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c50",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c50-09",
+      "extra": true
+    },
+    {
+      "id": "c50-10.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַמִּשְׁכָּן בַּמִּדְבָּר",
+      "stimulusIsScript": true,
+      "statement": "The tabernacle is to the wilderness.",
+      "answer": false,
+      "expected": "The tabernacle is in the wilderness.",
+      "block": "c50",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c50-10",
+      "extra": true
+    },
+    {
+      "id": "c50-10.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַמִּשְׁכָּן בַּמִּדְבָּר",
+      "stimulusIsScript": true,
+      "options": [
+        "The tabernacle is in the wilderness.",
+        "The tabernacle is from the wilderness.",
+        "The tabernacle is to the wilderness.",
+        "The tabernacle is in a wilderness."
+      ],
+      "answer": "The tabernacle is in the wilderness.",
+      "optionIsScript": false,
+      "block": "c50",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c50-10",
+      "extra": true
+    },
+    {
+      "id": "c50-10.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The tabernacle is in the wilderness.",
+      "stimulus": "＿＿＿ בַּמִּדְבָּר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַמִּשְׁכָּן"
+      ],
+      "answerIsScript": true,
+      "block": "c50",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c50-10",
+      "extra": true
+    },
+    {
+      "id": "c50-10.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The tabernacle is in the wilderness.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַמִּשְׁכָּן בַּמִּדְבָּר"
+      ],
+      "answerIsScript": true,
+      "block": "c50",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c50-10",
+      "extra": true
+    },
+    {
+      "id": "c50-10.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The tabernacle is in the wilderness.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַמִּשְׁכָּן בַּמִּדְבָּר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c50",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c50-10",
+      "extra": true
     }
   ]
 }

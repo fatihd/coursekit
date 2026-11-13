@@ -9,6 +9,8 @@ allowlist in docs/CONTENT-GENERATION.md §4:
     (morphology, roots, glosses, frequency)
   * Wiktionary Hebrew — CC BY-SA 3.0 / GFDL
     (glosses, usage notes, etymology)
+  * World English Bible (eBible.org) — public domain
+    (verse translations for the Bible excerpts, build/davidson_corpus.py)
 
 Output (all under build/_oer/):
   manifest.json             attribution manifest (every row carries source+license)
@@ -16,11 +18,13 @@ Output (all under build/_oer/):
   morphhb/lexicon.json       token index: scriptForm -> {strong, root, pos, gloss, count}
   wiktionary/<word>.json     per-word Wiktionary pages (raw title/authored summary)
   wiktionary/summary.json    index of fetched Wiktionary words
+  web/engwebp_vpl.txt        World English Bible, one verse per line
 
 Usage:
     python build/fetch_oer.py --source all
     python build/fetch_oer.py --source morphhb
     python build/fetch_oer.py --source wiktionary --course courses/biblical-hebrew-davidson
+    python build/fetch_oer.py --source web
 
 See docs/CONTENT-GENERATION.md, docs/STATUS.md P6-T1.
 """
@@ -53,6 +57,8 @@ WLC_WORDLIST = (
 )
 
 WIKTIONARY_API = "https://en.wiktionary.org/w/api.php"
+
+WEB_ZIP = "https://ebible.org/Scriptures/engwebp_vpl.zip"
 
 OSIS_NS = "{http://www.bibletechnologies.net/2003/OSIS/namespace}"
 
@@ -360,6 +366,17 @@ def write_wiktionary_index(out_dir):
     )
 
 
+def fetch_web():
+    import io
+    import zipfile
+    dest = OEROOT / "web"
+    ensure_dir(dest)
+    with zipfile.ZipFile(io.BytesIO(get(WEB_ZIP, timeout=120))) as z:
+        for name in ("engwebp_vpl.txt", "engwebp_about.htm"):
+            (dest / name).write_bytes(z.read(name))
+    print("web: build/_oer/web/engwebp_vpl.txt")
+
+
 # ---------------------------------------------------------------------------
 # Manifest
 # ---------------------------------------------------------------------------
@@ -388,6 +405,14 @@ def write_manifest():
                 "homepage": "https://en.wiktionary.org",
                 "rows": "build/_oer/wiktionary/index.json",
             },
+            {
+                "id": "web",
+                "name": "World English Bible (eBible.org)",
+                "license": "Public domain",
+                "licenseUrl": "https://ebible.org/find/details.php?id=engwebp",
+                "homepage": "https://worldenglish.bible",
+                "rows": "build/_oer/web/engwebp_vpl.txt",
+            },
         ],
     }
     (OEROOT / "manifest.json").write_text(
@@ -398,15 +423,19 @@ def write_manifest():
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--source", choices=["all", "morphhb", "wiktionary"], default="all")
-    ap.add_argument("--course", required=True)
+    ap.add_argument("--source", choices=["all", "morphhb", "wiktionary", "web"], default="all")
+    ap.add_argument("--course")
     ap.add_argument("--limit", type=int, default=None)
     args = ap.parse_args()
 
     if args.source in ("all", "morphhb"):
         fetch_morphhb()
     if args.source in ("all", "wiktionary"):
+        if not args.course:
+            ap.error("--course is required for wiktionary")
         fetch_wiktionary(Path(args.course), args.limit)
+    if args.source in ("all", "web"):
+        fetch_web()
     write_manifest()
     return 0
 

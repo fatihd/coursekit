@@ -1,0 +1,775 @@
+{
+  "schema": "authored-exercises-v1.json",
+  "unit": 69,
+  "sources": {
+    "c69-01": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c69-02": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c69-03": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c69-04": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c69-05": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c69-06": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c69-07": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "b-Gen-11-5": {
+      "citation": "Genesis 11:5. Hebrew: Westminster Leningrad Codex (public domain) via the Open Scriptures Hebrew Bible (morphology CC BY 4.0). English: World English Bible (public domain)",
+      "url": "https://worldenglish.bible"
+    }
+  },
+  "items": [
+    {
+      "id": "c69-01.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הוֹי גּוֹי חֹטֵא",
+      "stimulusIsScript": true,
+      "statement": "Ah, sinful nation!",
+      "answer": true,
+      "expected": "Ah, sinful nation!",
+      "block": "c69",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c69-01",
+      "extra": true
+    },
+    {
+      "id": "c69-01.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הוֹי גּוֹי חֹטֵא",
+      "stimulusIsScript": true,
+      "options": [
+        "Woe to those who call evil good.",
+        "Ah, sinful nation!",
+        "The discipline of Yahweh",
+        "A city and a tower"
+      ],
+      "answer": "Ah, sinful nation!",
+      "optionIsScript": false,
+      "block": "c69",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c69-01",
+      "extra": true
+    },
+    {
+      "id": "c69-01.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Ah, sinful nation!",
+      "stimulus": "＿＿＿ גּוֹי חֹטֵא",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הוֹי"
+      ],
+      "answerIsScript": true,
+      "block": "c69",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c69-01",
+      "extra": true
+    },
+    {
+      "id": "c69-01.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הוֹי גּוֹי חֹטֵא",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Ah, sinful nation!"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c69",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c69-01",
+      "extra": true
+    },
+    {
+      "id": "c69-01.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Ah, sinful nation!",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הוֹי גּוֹי חֹטֵא"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c69",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c69-01",
+      "extra": true
+    },
+    {
+      "id": "c69-02.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אוֹי לָנוּ",
+      "stimulusIsScript": true,
+      "statement": "Woe in us!",
+      "answer": false,
+      "expected": "Woe to us!",
+      "block": "c69",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c69-02",
+      "extra": true
+    },
+    {
+      "id": "c69-02.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אוֹי לָנוּ",
+      "stimulusIsScript": true,
+      "options": [
+        "Woe in us!",
+        "Woe from us!",
+        "Woe to us!",
+        "Woe to me!"
+      ],
+      "answer": "Woe to us!",
+      "optionIsScript": false,
+      "block": "c69",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c69-02",
+      "extra": true
+    },
+    {
+      "id": "c69-02.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Woe to us!",
+      "stimulus": "אוֹי ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "לָנוּ"
+      ],
+      "answerIsScript": true,
+      "block": "c69",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c69-02",
+      "extra": true
+    },
+    {
+      "id": "c69-02.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "Woe to us!",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אוֹי לָנוּ"
+      ],
+      "answerIsScript": true,
+      "block": "c69",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c69-02",
+      "extra": true
+    },
+    {
+      "id": "c69-02.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Woe to us!",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אוֹי לָנוּ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c69",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c69-02",
+      "extra": true
+    },
+    {
+      "id": "c69-03.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "מוּסַר יְהוָה",
+      "stimulusIsScript": true,
+      "statement": "The discipline of Yahweh",
+      "answer": true,
+      "expected": "The discipline of Yahweh",
+      "block": "c69",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c69-03",
+      "extra": true
+    },
+    {
+      "id": "c69-03.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "מוּסַר יְהוָה",
+      "stimulusIsScript": true,
+      "options": [
+        "A city and a tower",
+        "A discipline of Yahweh",
+        "The discipline of Yahweh",
+        "Woe to those who call evil good."
+      ],
+      "answer": "The discipline of Yahweh",
+      "optionIsScript": false,
+      "block": "c69",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c69-03",
+      "extra": true
+    },
+    {
+      "id": "c69-03.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The discipline of Yahweh",
+      "stimulus": "＿＿＿ יְהוָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "מוּסַר"
+      ],
+      "answerIsScript": true,
+      "block": "c69",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c69-03",
+      "extra": true
+    },
+    {
+      "id": "c69-03.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "מוּסַר יְהוָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The discipline of Yahweh",
+        "The discipline of the Lord"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c69",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c69-03",
+      "extra": true
+    },
+    {
+      "id": "c69-03.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The discipline of Yahweh",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מוּסַר יְהוָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c69",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c69-03",
+      "extra": true
+    },
+    {
+      "id": "c69-04.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "עִיר וּמִגְדָּל",
+      "stimulusIsScript": true,
+      "statement": "A city and a tower",
+      "answer": true,
+      "expected": "A city and a tower",
+      "block": "c69",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c69-04",
+      "extra": true
+    },
+    {
+      "id": "c69-04.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "עִיר וּמִגְדָּל",
+      "stimulusIsScript": true,
+      "options": [
+        "Woe to us!",
+        "The city and a tower",
+        "A city and the tower",
+        "A city and a tower"
+      ],
+      "answer": "A city and a tower",
+      "optionIsScript": false,
+      "block": "c69",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c69-04",
+      "extra": true
+    },
+    {
+      "id": "c69-04.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: A city and a tower",
+      "stimulus": "＿＿＿ וּמִגְדָּל",
+      "stimulusIsScript": true,
+      "accepted": [
+        "עִיר"
+      ],
+      "answerIsScript": true,
+      "block": "c69",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c69-04",
+      "extra": true
+    },
+    {
+      "id": "c69-04.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "עִיר וּמִגְדָּל",
+      "stimulusIsScript": true,
+      "accepted": [
+        "A city and a tower"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c69",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c69-04",
+      "extra": true
+    },
+    {
+      "id": "c69-04.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "A city and a tower",
+      "stimulusIsScript": false,
+      "accepted": [
+        "עִיר וּמִגְדָּל"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c69",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c69-04",
+      "extra": true
+    },
+    {
+      "id": "c69-05.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "בַּעֲבוּר זֹאת",
+      "stimulusIsScript": true,
+      "statement": "For this reason",
+      "answer": true,
+      "expected": "For this reason",
+      "block": "c69",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c69-05",
+      "extra": true
+    },
+    {
+      "id": "c69-05.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "בַּעֲבוּר זֹאת",
+      "stimulusIsScript": true,
+      "options": [
+        "Woe to those who call evil good.",
+        "For that reason",
+        "The discipline of Yahweh",
+        "For this reason"
+      ],
+      "answer": "For this reason",
+      "optionIsScript": false,
+      "block": "c69",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c69-05",
+      "extra": true
+    },
+    {
+      "id": "c69-05.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: For this reason",
+      "stimulus": "בַּעֲבוּר ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "זֹאת"
+      ],
+      "answerIsScript": true,
+      "block": "c69",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c69-05",
+      "extra": true
+    },
+    {
+      "id": "c69-05.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "בַּעֲבוּר זֹאת",
+      "stimulusIsScript": true,
+      "accepted": [
+        "For this reason"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c69",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c69-05",
+      "extra": true
+    },
+    {
+      "id": "c69-05.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "For this reason",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בַּעֲבוּר זֹאת"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c69",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c69-05",
+      "extra": true
+    },
+    {
+      "id": "c69-06.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "רַבָּה אֱמוּנָתֶךָ",
+      "stimulusIsScript": true,
+      "statement": "Great is your faithfulness.",
+      "answer": true,
+      "expected": "Great is your faithfulness.",
+      "block": "c69",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c69-06",
+      "extra": true
+    },
+    {
+      "id": "c69-06.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "רַבָּה אֱמוּנָתֶךָ",
+      "stimulusIsScript": true,
+      "options": [
+        "Great is their faithfulness.",
+        "Great is our faithfulness.",
+        "Great is your faithfulness.",
+        "Great is my faithfulness."
+      ],
+      "answer": "Great is your faithfulness.",
+      "optionIsScript": false,
+      "block": "c69",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c69-06",
+      "extra": true
+    },
+    {
+      "id": "c69-06.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Great is your faithfulness.",
+      "stimulus": "רַבָּה ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֱמוּנָתֶךָ"
+      ],
+      "answerIsScript": true,
+      "block": "c69",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c69-06",
+      "extra": true
+    },
+    {
+      "id": "c69-06.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "רַבָּה אֱמוּנָתֶךָ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Great is your faithfulness."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c69",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c69-06",
+      "extra": true
+    },
+    {
+      "id": "c69-06.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Great is your faithfulness.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "רַבָּה אֱמוּנָתֶךָ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c69",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c69-06",
+      "extra": true
+    },
+    {
+      "id": "c69-07.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הוֹי הָאֹמְרִים לָרַע טוֹב",
+      "stimulusIsScript": true,
+      "statement": "Woe to those who call evil good.",
+      "answer": true,
+      "expected": "Woe to those who call evil good.",
+      "block": "c69",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c69-07",
+      "extra": true
+    },
+    {
+      "id": "c69-07.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הוֹי הָאֹמְרִים לָרַע טוֹב",
+      "stimulusIsScript": true,
+      "options": [
+        "Woe in those who call evil good.",
+        "Woe to these who call evil good.",
+        "Woe from those who call evil good.",
+        "Woe to those who call evil good."
+      ],
+      "answer": "Woe to those who call evil good.",
+      "optionIsScript": false,
+      "block": "c69",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c69-07",
+      "extra": true
+    },
+    {
+      "id": "c69-07.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Woe to those who call evil good.",
+      "stimulus": "＿＿＿ הָאֹמְרִים לָרַע טוֹב",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הוֹי"
+      ],
+      "answerIsScript": true,
+      "block": "c69",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c69-07",
+      "extra": true
+    },
+    {
+      "id": "c69-07.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הוֹי הָאֹמְרִים לָרַע טוֹב",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Woe to those who call evil good."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c69",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c69-07",
+      "extra": true
+    },
+    {
+      "id": "c69-07.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Woe to those who call evil good.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הוֹי הָאֹמְרִים לָרַע טוֹב"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c69",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c69-07",
+      "extra": true
+    },
+    {
+      "id": "b-Gen-11-5.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיֵּרֶד יְהוָה לִרְאֹת אֶת־הָעִיר וְאֶת־הַמִּגְדָּל אֲשֶׁר בָּנוּ בְּנֵי הָאָדָם",
+      "stimulusIsScript": true,
+      "statement": "Yahweh came down to see a city and the tower, which the children of men built.",
+      "answer": false,
+      "expected": "Yahweh came down to see the city and the tower, which the children of men built.",
+      "block": "b69",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Gen-11-5",
+      "extra": true
+    },
+    {
+      "id": "b-Gen-11-5.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיֵּרֶד יְהוָה לִרְאֹת אֶת־הָעִיר וְאֶת־הַמִּגְדָּל אֲשֶׁר בָּנוּ בְּנֵי הָאָדָם",
+      "stimulusIsScript": true,
+      "options": [
+        "Yahweh came down to see a city and the tower, which the children of men built.",
+        "Yahweh came down to see the city and the tower, which the children of men built.",
+        "Yahweh came down to see the city and the tower, which a children of men built.",
+        "Yahweh came down to see the city and a tower, which the children of men built."
+      ],
+      "answer": "Yahweh came down to see the city and the tower, which the children of men built.",
+      "optionIsScript": false,
+      "block": "b69",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Gen-11-5",
+      "extra": true
+    },
+    {
+      "id": "b-Gen-11-5.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Yahweh came down to see the city and the tower, which the children of men built.",
+      "stimulus": "＿＿＿ יְהוָה לִרְאֹת אֶת־הָעִיר וְאֶת־הַמִּגְדָּל אֲשֶׁר בָּנוּ בְּנֵי הָאָדָם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וַיֵּרֶד"
+      ],
+      "answerIsScript": true,
+      "block": "b69",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Gen-11-5",
+      "extra": true
+    },
+    {
+      "id": "b-Gen-11-5.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וַיֵּרֶד יְהוָה לִרְאֹת אֶת־הָעִיר וְאֶת־הַמִּגְדָּל אֲשֶׁר בָּנוּ בְּנֵי הָאָדָם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Yahweh came down to see the city and the tower, which the children of men built.",
+        "the Lord came down to see the city and the tower, which the children of men built."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "b69",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Gen-11-5",
+      "extra": true
+    }
+  ]
+}

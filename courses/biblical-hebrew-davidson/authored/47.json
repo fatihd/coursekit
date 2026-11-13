@@ -172,6 +172,36 @@
       "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n140.jpg",
       "exwb": "davidson-s47#A8",
       "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "c47-01": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c47-02": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c47-03": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c47-04": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c47-05": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c47-06": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c47-07": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c47-08": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c47-09": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c47-10": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
     }
   },
   "items": [
@@ -202,7 +232,7 @@
       "options": [
         "Hear, O heavens, for it is Yahweh that has spoken: Sons have I brought up, but, as for them, they have rebelled against me.",
         "Hear, O heavens, for it is Yahweh this has spoken: Sons have I brought up, but, as for them, they have rebelled against me.",
-        "Hear, O heavens, for it is Yahweh that has spoken: Sons have they brought up, but, as for them, they have rebelled against me.",
+        "Hear, O heavens, for it is Yahweh that has spoken: Sons have he brought up, but, as for them, they have rebelled against me.",
         "Hear, O heavens, for it is Yahweh that has spoken: Sons have I brought up, but, as for us, they have rebelled against me."
       ],
       "answer": "Hear, O heavens, for it is Yahweh that has spoken: Sons have I brought up, but, as for them, they have rebelled against me.",
@@ -565,7 +595,7 @@
         "My face, Yahweh, I will seek.",
         "His face, Yahweh, I will seek.",
         "Thy face, Yahweh, I will seek.",
-        "Thy face, Yahweh, we will seek."
+        "Thy face, Yahweh, you will seek."
       ],
       "answer": "Thy face, Yahweh, I will seek.",
       "optionIsScript": false,
@@ -1017,7 +1047,7 @@
         "I cannot speak to this people, for they have hardened our heart.",
         "I cannot speak in this people, for they have hardened their heart.",
         "I cannot speak to this people, for they have hardened their heart.",
-        "They cannot speak to this people, for they have hardened their heart."
+        "He cannot speak to this people, for they have hardened their heart."
       ],
       "answer": "I cannot speak to this people, for they have hardened their heart.",
       "optionIsScript": false,
@@ -1195,7 +1225,7 @@
         "I will honour them that honour me.",
         "I will honour them this honour me.",
         "I will honour them that honour him.",
-        "They will honour them that honour me."
+        "He will honour them that honour me."
       ],
       "answer": "I will honour them that honour me.",
       "optionIsScript": false,
@@ -1353,7 +1383,7 @@
       "prompt": "Is this the right translation?",
       "stimulus": "שִׁלַּחְתִּי אֶת־אֹיְבִי וַיִּמָּלֵט",
       "stimulusIsScript": true,
-      "statement": "We let mine enemy go and he escaped.",
+      "statement": "You let mine enemy go and he escaped.",
       "answer": false,
       "expected": "I let mine enemy go and he escaped.",
       "block": "s30",
@@ -1371,9 +1401,9 @@
       "stimulusIsScript": true,
       "options": [
         "I let mine enemy go and he escaped.",
-        "We let mine enemy go and he escaped.",
+        "You let mine enemy go and he escaped.",
         "I let mine enemy go and she escaped.",
-        "They let mine enemy go and he escaped."
+        "He let mine enemy go and he escaped."
       ],
       "answer": "I let mine enemy go and he escaped.",
       "optionIsScript": false,
@@ -1553,7 +1583,7 @@
       "options": [
         "I will speak no more in their name.",
         "I will speak no more to his name.",
-        "We will speak no more in his name.",
+        "You will speak no more in his name.",
         "I will speak no more in his name."
       ],
       "answer": "I will speak no more in his name.",
@@ -1869,6 +1899,953 @@
       "blockLabel": "Davidson §47",
       "shape": "he-en",
       "src": "s47-A8"
+    },
+    {
+      "id": "c47-01.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "דִּבֶּר אֱלֹהִים אֶל־מֹשֶׁה",
+      "stimulusIsScript": true,
+      "statement": "God spoke to Moses.",
+      "answer": true,
+      "expected": "God spoke to Moses.",
+      "block": "c47",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c47-01",
+      "extra": true
+    },
+    {
+      "id": "c47-01.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "דִּבֶּר אֱלֹהִים אֶל־מֹשֶׁה",
+      "stimulusIsScript": true,
+      "options": [
+        "He sanctified it.",
+        "God spoke to Moses.",
+        "God spoke from Moses.",
+        "God spoke in Moses."
+      ],
+      "answer": "God spoke to Moses.",
+      "optionIsScript": false,
+      "block": "c47",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c47-01",
+      "extra": true
+    },
+    {
+      "id": "c47-01.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: God spoke to Moses.",
+      "stimulus": "דִּבֶּר ＿＿＿ אֶל־מֹשֶׁה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֱלֹהִים"
+      ],
+      "answerIsScript": true,
+      "block": "c47",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c47-01",
+      "extra": true
+    },
+    {
+      "id": "c47-01.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "דִּבֶּר אֱלֹהִים אֶל־מֹשֶׁה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "God spoke to Moses."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c47",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c47-01",
+      "extra": true
+    },
+    {
+      "id": "c47-01.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "God spoke to Moses.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "דִּבֶּר אֱלֹהִים אֶל־מֹשֶׁה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c47",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c47-01",
+      "extra": true
+    },
+    {
+      "id": "c47-02.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיְדַבֵּר הַמֶּלֶךְ אֶל־הָעָם",
+      "stimulusIsScript": true,
+      "statement": "The king spoke to the people.",
+      "answer": true,
+      "expected": "The king spoke to the people.",
+      "block": "c47",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c47-02",
+      "extra": true
+    },
+    {
+      "id": "c47-02.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיְדַבֵּר הַמֶּלֶךְ אֶל־הָעָם",
+      "stimulusIsScript": true,
+      "options": [
+        "The king spoke from the people.",
+        "A king spoke to the people.",
+        "The king spoke to a people.",
+        "The king spoke to the people."
+      ],
+      "answer": "The king spoke to the people.",
+      "optionIsScript": false,
+      "block": "c47",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c47-02",
+      "extra": true
+    },
+    {
+      "id": "c47-02.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The king spoke to the people.",
+      "stimulus": "וַיְדַבֵּר ＿＿＿ אֶל־הָעָם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַמֶּלֶךְ"
+      ],
+      "answerIsScript": true,
+      "block": "c47",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c47-02",
+      "extra": true
+    },
+    {
+      "id": "c47-02.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The king spoke to the people.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיְדַבֵּר הַמֶּלֶךְ אֶל־הָעָם"
+      ],
+      "answerIsScript": true,
+      "block": "c47",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c47-02",
+      "extra": true
+    },
+    {
+      "id": "c47-02.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The king spoke to the people.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיְדַבֵּר הַמֶּלֶךְ אֶל־הָעָם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c47",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c47-02",
+      "extra": true
+    },
+    {
+      "id": "c47-03.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיְקַדֵּשׁ אֹתוֹ",
+      "stimulusIsScript": true,
+      "statement": "She sanctified it.",
+      "answer": false,
+      "expected": "He sanctified it.",
+      "block": "c47",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c47-03",
+      "extra": true
+    },
+    {
+      "id": "c47-03.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיְקַדֵּשׁ אֹתוֹ",
+      "stimulusIsScript": true,
+      "options": [
+        "Speak to the people.",
+        "He sanctified it.",
+        "She sanctified it.",
+        "The king spoke to the people."
+      ],
+      "answer": "He sanctified it.",
+      "optionIsScript": false,
+      "block": "c47",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c47-03",
+      "extra": true
+    },
+    {
+      "id": "c47-03.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: He sanctified it.",
+      "stimulus": "＿＿＿ אֹתוֹ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וַיְקַדֵּשׁ"
+      ],
+      "answerIsScript": true,
+      "block": "c47",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c47-03",
+      "extra": true
+    },
+    {
+      "id": "c47-03.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וַיְקַדֵּשׁ אֹתוֹ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "He sanctified it."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c47",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c47-03",
+      "extra": true
+    },
+    {
+      "id": "c47-03.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "He sanctified it.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיְקַדֵּשׁ אֹתוֹ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c47",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c47-03",
+      "extra": true
+    },
+    {
+      "id": "c47-04.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַנָּבִיא מְדַבֵּר אֶל־הָעָם",
+      "stimulusIsScript": true,
+      "statement": "The prophet is speaking to the people.",
+      "answer": true,
+      "expected": "The prophet is speaking to the people.",
+      "block": "c47",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c47-04",
+      "extra": true
+    },
+    {
+      "id": "c47-04.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַנָּבִיא מְדַבֵּר אֶל־הָעָם",
+      "stimulusIsScript": true,
+      "options": [
+        "The prophet is speaking in the people.",
+        "The prophet is speaking to a people.",
+        "The prophet is speaking to the people.",
+        "The prophet is speaking from the people."
+      ],
+      "answer": "The prophet is speaking to the people.",
+      "optionIsScript": false,
+      "block": "c47",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c47-04",
+      "extra": true
+    },
+    {
+      "id": "c47-04.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The prophet is speaking to the people.",
+      "stimulus": "הַנָּבִיא מְדַבֵּר ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶל־הָעָם"
+      ],
+      "answerIsScript": true,
+      "block": "c47",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c47-04",
+      "extra": true
+    },
+    {
+      "id": "c47-04.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הַנָּבִיא מְדַבֵּר אֶל־הָעָם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The prophet is speaking to the people."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c47",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c47-04",
+      "extra": true
+    },
+    {
+      "id": "c47-04.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The prophet is speaking to the people.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַנָּבִיא מְדַבֵּר אֶל־הָעָם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c47",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c47-04",
+      "extra": true
+    },
+    {
+      "id": "c47-05.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "דַּבֵּר אֶל־הָעָם",
+      "stimulusIsScript": true,
+      "statement": "Speak to a people.",
+      "answer": false,
+      "expected": "Speak to the people.",
+      "block": "c47",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c47-05",
+      "extra": true
+    },
+    {
+      "id": "c47-05.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "דַּבֵּר אֶל־הָעָם",
+      "stimulusIsScript": true,
+      "options": [
+        "Speak in the people.",
+        "Speak to a people.",
+        "Speak from the people.",
+        "Speak to the people."
+      ],
+      "answer": "Speak to the people.",
+      "optionIsScript": false,
+      "block": "c47",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c47-05",
+      "extra": true
+    },
+    {
+      "id": "c47-05.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Speak to the people.",
+      "stimulus": "דַּבֵּר ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶל־הָעָם"
+      ],
+      "answerIsScript": true,
+      "block": "c47",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c47-05",
+      "extra": true
+    },
+    {
+      "id": "c47-05.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "Speak to the people.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "דַּבֵּר אֶל־הָעָם"
+      ],
+      "answerIsScript": true,
+      "block": "c47",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c47-05",
+      "extra": true
+    },
+    {
+      "id": "c47-05.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Speak to the people.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "דַּבֵּר אֶל־הָעָם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c47",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c47-05",
+      "extra": true
+    },
+    {
+      "id": "c47-06.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "בָּא לְדַבֵּר אֶל־הַמֶּלֶךְ",
+      "stimulusIsScript": true,
+      "statement": "He came to speak to a king.",
+      "answer": false,
+      "expected": "He came to speak to the king.",
+      "block": "c47",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c47-06",
+      "extra": true
+    },
+    {
+      "id": "c47-06.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "בָּא לְדַבֵּר אֶל־הַמֶּלֶךְ",
+      "stimulusIsScript": true,
+      "options": [
+        "She came to speak to the king.",
+        "He came to speak to a king.",
+        "He came to speak in the king.",
+        "He came to speak to the king."
+      ],
+      "answer": "He came to speak to the king.",
+      "optionIsScript": false,
+      "block": "c47",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c47-06",
+      "extra": true
+    },
+    {
+      "id": "c47-06.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: He came to speak to the king.",
+      "stimulus": "בָּא לְדַבֵּר ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶל־הַמֶּלֶךְ"
+      ],
+      "answerIsScript": true,
+      "block": "c47",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c47-06",
+      "extra": true
+    },
+    {
+      "id": "c47-06.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "בָּא לְדַבֵּר אֶל־הַמֶּלֶךְ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "He came to speak to the king."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c47",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c47-06",
+      "extra": true
+    },
+    {
+      "id": "c47-06.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "He came to speak to the king.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בָּא לְדַבֵּר אֶל־הַמֶּלֶךְ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c47",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c47-06",
+      "extra": true
+    },
+    {
+      "id": "c47-07.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "מִדּוֹר לְדוֹר",
+      "stimulusIsScript": true,
+      "statement": "From generation to generation",
+      "answer": true,
+      "expected": "From generation to generation",
+      "block": "c47",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c47-07",
+      "extra": true
+    },
+    {
+      "id": "c47-07.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "מִדּוֹר לְדוֹר",
+      "stimulusIsScript": true,
+      "options": [
+        "The king spoke to the people.",
+        "He sanctified it.",
+        "From generation to generation",
+        "Speak to the people."
+      ],
+      "answer": "From generation to generation",
+      "optionIsScript": false,
+      "block": "c47",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c47-07",
+      "extra": true
+    },
+    {
+      "id": "c47-07.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: From generation to generation",
+      "stimulus": "＿＿＿ לְדוֹר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "מִדּוֹר"
+      ],
+      "answerIsScript": true,
+      "block": "c47",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c47-07",
+      "extra": true
+    },
+    {
+      "id": "c47-07.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "מִדּוֹר לְדוֹר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "From generation to generation"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c47",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c47-07",
+      "extra": true
+    },
+    {
+      "id": "c47-07.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "From generation to generation",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מִדּוֹר לְדוֹר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c47",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c47-07",
+      "extra": true
+    },
+    {
+      "id": "c47-08.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַדּוֹר הַזֶּה",
+      "stimulusIsScript": true,
+      "statement": "This generation",
+      "answer": true,
+      "expected": "This generation",
+      "block": "c47",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c47-08",
+      "extra": true
+    },
+    {
+      "id": "c47-08.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַדּוֹר הַזֶּה",
+      "stimulusIsScript": true,
+      "options": [
+        "I have spoken to you.",
+        "This generation",
+        "The this generation",
+        "That generation"
+      ],
+      "answer": "This generation",
+      "optionIsScript": false,
+      "block": "c47",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c47-08",
+      "extra": true
+    },
+    {
+      "id": "c47-08.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: This generation",
+      "stimulus": "הַדּוֹר ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַזֶּה"
+      ],
+      "answerIsScript": true,
+      "block": "c47",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c47-08",
+      "extra": true
+    },
+    {
+      "id": "c47-08.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הַדּוֹר הַזֶּה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "This generation"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c47",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c47-08",
+      "extra": true
+    },
+    {
+      "id": "c47-08.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "This generation",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַדּוֹר הַזֶּה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c47",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c47-08",
+      "extra": true
+    },
+    {
+      "id": "c47-09.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "דִּבַּרְתִּי אֲלֵיכֶם",
+      "stimulusIsScript": true,
+      "statement": "I have spoken from you.",
+      "answer": false,
+      "expected": "I have spoken to you.",
+      "block": "c47",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c47-09",
+      "extra": true
+    },
+    {
+      "id": "c47-09.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "דִּבַּרְתִּי אֲלֵיכֶם",
+      "stimulusIsScript": true,
+      "options": [
+        "I have spoken in you.",
+        "I have spoken to you.",
+        "I have spoken from you.",
+        "He came to speak to the king."
+      ],
+      "answer": "I have spoken to you.",
+      "optionIsScript": false,
+      "block": "c47",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c47-09",
+      "extra": true
+    },
+    {
+      "id": "c47-09.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: I have spoken to you.",
+      "stimulus": "＿＿＿ אֲלֵיכֶם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "דִּבַּרְתִּי"
+      ],
+      "answerIsScript": true,
+      "block": "c47",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c47-09",
+      "extra": true
+    },
+    {
+      "id": "c47-09.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "I have spoken to you.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "דִּבַּרְתִּי אֲלֵיכֶם"
+      ],
+      "answerIsScript": true,
+      "block": "c47",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c47-09",
+      "extra": true
+    },
+    {
+      "id": "c47-09.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "I have spoken to you.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "דִּבַּרְתִּי אֲלֵיכֶם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c47",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c47-09",
+      "extra": true
+    },
+    {
+      "id": "c47-10.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "כָּל־הַדְּבָרִים אֲשֶׁר דִּבֶּר",
+      "stimulusIsScript": true,
+      "statement": "All the words which she spoke",
+      "answer": false,
+      "expected": "All the words which he spoke",
+      "block": "c47",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c47-10",
+      "extra": true
+    },
+    {
+      "id": "c47-10.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "כָּל־הַדְּבָרִים אֲשֶׁר דִּבֶּר",
+      "stimulusIsScript": true,
+      "options": [
+        "All the words which she spoke",
+        "All words which he spoke",
+        "From generation to generation",
+        "All the words which he spoke"
+      ],
+      "answer": "All the words which he spoke",
+      "optionIsScript": false,
+      "block": "c47",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c47-10",
+      "extra": true
+    },
+    {
+      "id": "c47-10.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: All the words which he spoke",
+      "stimulus": "כָּל־הַדְּבָרִים ＿＿＿ דִּבֶּר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֲשֶׁר"
+      ],
+      "answerIsScript": true,
+      "block": "c47",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c47-10",
+      "extra": true
+    },
+    {
+      "id": "c47-10.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "כָּל־הַדְּבָרִים אֲשֶׁר דִּבֶּר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "All the words which he spoke"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c47",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c47-10",
+      "extra": true
+    },
+    {
+      "id": "c47-10.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "All the words which he spoke",
+      "stimulusIsScript": false,
+      "accepted": [
+        "כָּל־הַדְּבָרִים אֲשֶׁר דִּבֶּר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c47",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c47-10",
+      "extra": true
     }
   ]
 }

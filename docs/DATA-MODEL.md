@@ -300,8 +300,13 @@ Every Davidson translation sentence yields five items in its unit file, ids `<sr
 
 The unit file carries `"sources": { "<src>": { citation, promptUrl, answerUrl, exwb, note } }` once per
 sentence; the engine attaches `source` to each item by its `src`. `authored/ladder.json` lists the items per
-rung per unit (`{"units": {"35": {"1": 15, "2": 15, …}}}`) for the roadmap's stars. `course.json` features:
-`unlockRung` (the next unit unlocks when every item of rungs 1…unlockRung was answered right once; Davidson 3)
+rung per unit (`{"units": {"35": {"1": 15, "2": 15, …}}, "extra": {"35": {"1": 15, …}}}`: `units` counts the
+book's exercises, `extra` the corpus items) for the roadmap's stars. Corpus items (new sentences `cNN-NN`, Bible verses
+`b-<Book>-<ch>-<v>`; P12-T5) carry `"extra": true` and shape `corpus` / `bible`; their right answers are stored under
+`progress.units[n].done["x<rung>"]`. `course.json` features:
+`unlockRung` (the next unit unlocks when every item of rungs 1…unlockRung was answered right once; Davidson 3),
+`ladderTarget` (right answers a rung needs: every book exercise, topped up from the extra items; Davidson 20; without
+it every extra item is needed)
 and `vocabPerSession` (generated vocabulary items in a ladder session, default 4).
 
 ## 5. Knowledge item — `prerequisites/knowledge.json`

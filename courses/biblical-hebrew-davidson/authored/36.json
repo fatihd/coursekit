@@ -82,6 +82,49 @@
       "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n134.jpg",
       "exwb": "davidson-s46#B13",
       "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "c36-01": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c36-02": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c36-03": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c36-04": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c36-05": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c36-06": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c36-07": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c36-08": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c36-09": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c36-10": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c36-11": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c36-12": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c36-13": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "b-Ps-99-2": {
+      "citation": "Psalms 99:2. Hebrew: Westminster Leningrad Codex (public domain) via the Open Scriptures Hebrew Bible (morphology CC BY 4.0). English: World English Bible (public domain)",
+      "url": "https://worldenglish.bible"
     }
   },
   "items": [
@@ -894,6 +937,1313 @@
       "blockLabel": "Davidson §46",
       "shape": "en-he",
       "src": "s46-B13"
+    },
+    {
+      "id": "c36-01.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַמֶּלֶךְ יֹשֵׁב בַּהֵיכָל",
+      "stimulusIsScript": true,
+      "statement": "The king is sitting in the palace.",
+      "answer": true,
+      "expected": "The king is sitting in the palace.",
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-01",
+      "extra": true
+    },
+    {
+      "id": "c36-01.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַמֶּלֶךְ יֹשֵׁב בַּהֵיכָל",
+      "stimulusIsScript": true,
+      "options": [
+        "The king is sitting from the palace.",
+        "The king is sitting in the palace.",
+        "The king is sitting to the palace.",
+        "The king is sitting in a palace."
+      ],
+      "answer": "The king is sitting in the palace.",
+      "optionIsScript": false,
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-01",
+      "extra": true
+    },
+    {
+      "id": "c36-01.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The king is sitting in the palace.",
+      "stimulus": "הַמֶּלֶךְ ＿＿＿ בַּהֵיכָל",
+      "stimulusIsScript": true,
+      "accepted": [
+        "יֹשֵׁב"
+      ],
+      "answerIsScript": true,
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-01",
+      "extra": true
+    },
+    {
+      "id": "c36-01.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הַמֶּלֶךְ יֹשֵׁב בַּהֵיכָל",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The king is sitting in the palace."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-01",
+      "extra": true
+    },
+    {
+      "id": "c36-01.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The king is sitting in the palace.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַמֶּלֶךְ יֹשֵׁב בַּהֵיכָל"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-01",
+      "extra": true
+    },
+    {
+      "id": "c36-02.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָאִישׁ שֹׁמֵר אֶת־הַתּוֹרָה",
+      "stimulusIsScript": true,
+      "statement": "A man keeps the instruction.",
+      "answer": false,
+      "expected": "The man keeps the instruction.",
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-02",
+      "extra": true
+    },
+    {
+      "id": "c36-02.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָאִישׁ שֹׁמֵר אֶת־הַתּוֹרָה",
+      "stimulusIsScript": true,
+      "options": [
+        "The man keeps the instruction.",
+        "The man keeps an instruction.",
+        "A man keeps the instruction.",
+        "The word is written in the book."
+      ],
+      "answer": "The man keeps the instruction.",
+      "optionIsScript": false,
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-02",
+      "extra": true
+    },
+    {
+      "id": "c36-02.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The man keeps the instruction.",
+      "stimulus": "הָאִישׁ ＿＿＿ אֶת־הַתּוֹרָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "שֹׁמֵר"
+      ],
+      "answerIsScript": true,
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-02",
+      "extra": true
+    },
+    {
+      "id": "c36-02.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The man keeps the instruction.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאִישׁ שֹׁמֵר אֶת־הַתּוֹרָה"
+      ],
+      "answerIsScript": true,
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-02",
+      "extra": true
+    },
+    {
+      "id": "c36-02.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The man keeps the instruction.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאִישׁ שֹׁמֵר אֶת־הַתּוֹרָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-02",
+      "extra": true
+    },
+    {
+      "id": "c36-03.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "בָּרוּךְ הָאִישׁ",
+      "stimulusIsScript": true,
+      "statement": "Blessed is a man.",
+      "answer": false,
+      "expected": "Blessed is the man.",
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-03",
+      "extra": true
+    },
+    {
+      "id": "c36-03.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "בָּרוּךְ הָאִישׁ",
+      "stimulusIsScript": true,
+      "options": [
+        "Blessed is the man.",
+        "Blessed is a man.",
+        "The men are going to the city.",
+        "Blessed be God."
+      ],
+      "answer": "Blessed is the man.",
+      "optionIsScript": false,
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-03",
+      "extra": true
+    },
+    {
+      "id": "c36-03.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Blessed is the man.",
+      "stimulus": "＿＿＿ הָאִישׁ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "בָּרוּךְ"
+      ],
+      "answerIsScript": true,
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-03",
+      "extra": true
+    },
+    {
+      "id": "c36-03.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "בָּרוּךְ הָאִישׁ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Blessed is the man."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-03",
+      "extra": true
+    },
+    {
+      "id": "c36-03.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Blessed is the man.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בָּרוּךְ הָאִישׁ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-03",
+      "extra": true
+    },
+    {
+      "id": "c36-04.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "בָּרוּךְ אֱלֹהִים",
+      "stimulusIsScript": true,
+      "statement": "Blessed be God.",
+      "answer": true,
+      "expected": "Blessed be God.",
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-04",
+      "extra": true
+    },
+    {
+      "id": "c36-04.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "בָּרוּךְ אֱלֹהִים",
+      "stimulusIsScript": true,
+      "options": [
+        "The people are dwelling in the land.",
+        "Blessed be God.",
+        "The word is written in the book.",
+        "The woman is sitting in the tent."
+      ],
+      "answer": "Blessed be God.",
+      "optionIsScript": false,
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-04",
+      "extra": true
+    },
+    {
+      "id": "c36-04.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Blessed be God.",
+      "stimulus": "＿＿＿ אֱלֹהִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "בָּרוּךְ"
+      ],
+      "answerIsScript": true,
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-04",
+      "extra": true
+    },
+    {
+      "id": "c36-04.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "בָּרוּךְ אֱלֹהִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Blessed be God."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-04",
+      "extra": true
+    },
+    {
+      "id": "c36-04.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Blessed be God.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בָּרוּךְ אֱלֹהִים"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-04",
+      "extra": true
+    },
+    {
+      "id": "c36-05.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אֲדֹנִי הַמֶּלֶךְ",
+      "stimulusIsScript": true,
+      "statement": "Our lord the king",
+      "answer": false,
+      "expected": "My lord the king",
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-05",
+      "extra": true
+    },
+    {
+      "id": "c36-05.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אֲדֹנִי הַמֶּלֶךְ",
+      "stimulusIsScript": true,
+      "options": [
+        "Your lord the king",
+        "My lord a king",
+        "Our lord the king",
+        "My lord the king"
+      ],
+      "answer": "My lord the king",
+      "optionIsScript": false,
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-05",
+      "extra": true
+    },
+    {
+      "id": "c36-05.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: My lord the king",
+      "stimulus": "אֲדֹנִי ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַמֶּלֶךְ"
+      ],
+      "answerIsScript": true,
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-05",
+      "extra": true
+    },
+    {
+      "id": "c36-05.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "My lord the king",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֲדֹנִי הַמֶּלֶךְ"
+      ],
+      "answerIsScript": true,
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-05",
+      "extra": true
+    },
+    {
+      "id": "c36-05.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "My lord the king",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֲדֹנִי הַמֶּלֶךְ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-05",
+      "extra": true
+    },
+    {
+      "id": "c36-06.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָעָם יֹשֵׁב בָּאָרֶץ",
+      "stimulusIsScript": true,
+      "statement": "The people are dwelling in the land.",
+      "answer": true,
+      "expected": "The people are dwelling in the land.",
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-06",
+      "extra": true
+    },
+    {
+      "id": "c36-06.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָעָם יֹשֵׁב בָּאָרֶץ",
+      "stimulusIsScript": true,
+      "options": [
+        "The people are dwelling to the land.",
+        "A people are dwelling in the land.",
+        "The people are dwelling from the land.",
+        "The people are dwelling in the land."
+      ],
+      "answer": "The people are dwelling in the land.",
+      "optionIsScript": false,
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-06",
+      "extra": true
+    },
+    {
+      "id": "c36-06.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The people are dwelling in the land.",
+      "stimulus": "הָעָם ＿＿＿ בָּאָרֶץ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "יֹשֵׁב"
+      ],
+      "answerIsScript": true,
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-06",
+      "extra": true
+    },
+    {
+      "id": "c36-06.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הָעָם יֹשֵׁב בָּאָרֶץ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The people are dwelling in the land."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-06",
+      "extra": true
+    },
+    {
+      "id": "c36-06.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The people are dwelling in the land.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָעָם יֹשֵׁב בָּאָרֶץ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-06",
+      "extra": true
+    },
+    {
+      "id": "c36-07.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַשֹּׁפֵט יֹשֵׁב בַּשַּׁעַר",
+      "stimulusIsScript": true,
+      "statement": "A judge sits in the gate.",
+      "answer": false,
+      "expected": "The judge sits in the gate.",
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-07",
+      "extra": true
+    },
+    {
+      "id": "c36-07.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַשֹּׁפֵט יֹשֵׁב בַּשַּׁעַר",
+      "stimulusIsScript": true,
+      "options": [
+        "The judge sits in a gate.",
+        "A judge sits in the gate.",
+        "The judge sits in the gate.",
+        "The judge sits from the gate."
+      ],
+      "answer": "The judge sits in the gate.",
+      "optionIsScript": false,
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-07",
+      "extra": true
+    },
+    {
+      "id": "c36-07.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The judge sits in the gate.",
+      "stimulus": "הַשֹּׁפֵט יֹשֵׁב ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "בַּשַּׁעַר"
+      ],
+      "answerIsScript": true,
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-07",
+      "extra": true
+    },
+    {
+      "id": "c36-07.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הַשֹּׁפֵט יֹשֵׁב בַּשַּׁעַר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The judge sits in the gate."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-07",
+      "extra": true
+    },
+    {
+      "id": "c36-07.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The judge sits in the gate.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַשֹּׁפֵט יֹשֵׁב בַּשַּׁעַר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-07",
+      "extra": true
+    },
+    {
+      "id": "c36-08.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אֲנִי שֹׁמֵר אֶת־הַמִּצְוָה",
+      "stimulusIsScript": true,
+      "statement": "I keep a commandment.",
+      "answer": false,
+      "expected": "I keep the commandment.",
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-08",
+      "extra": true
+    },
+    {
+      "id": "c36-08.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אֲנִי שֹׁמֵר אֶת־הַמִּצְוָה",
+      "stimulusIsScript": true,
+      "options": [
+        "I keep the commandment.",
+        "He keep the commandment.",
+        "You keep the commandment.",
+        "I keep a commandment."
+      ],
+      "answer": "I keep the commandment.",
+      "optionIsScript": false,
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-08",
+      "extra": true
+    },
+    {
+      "id": "c36-08.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: I keep the commandment.",
+      "stimulus": "אֲנִי שֹׁמֵר ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶת־הַמִּצְוָה"
+      ],
+      "answerIsScript": true,
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-08",
+      "extra": true
+    },
+    {
+      "id": "c36-08.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "I keep the commandment.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֲנִי שֹׁמֵר אֶת־הַמִּצְוָה"
+      ],
+      "answerIsScript": true,
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-08",
+      "extra": true
+    },
+    {
+      "id": "c36-08.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "I keep the commandment.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֲנִי שֹׁמֵר אֶת־הַמִּצְוָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-08",
+      "extra": true
+    },
+    {
+      "id": "c36-09.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָאֲנָשִׁים הֹלְכִים אֶל־הָעִיר",
+      "stimulusIsScript": true,
+      "statement": "The men are going to the city.",
+      "answer": true,
+      "expected": "The men are going to the city.",
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-09",
+      "extra": true
+    },
+    {
+      "id": "c36-09.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָאֲנָשִׁים הֹלְכִים אֶל־הָעִיר",
+      "stimulusIsScript": true,
+      "options": [
+        "The men are going from the city.",
+        "The men are going in the city.",
+        "A men are going to the city.",
+        "The men are going to the city."
+      ],
+      "answer": "The men are going to the city.",
+      "optionIsScript": false,
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-09",
+      "extra": true
+    },
+    {
+      "id": "c36-09.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The men are going to the city.",
+      "stimulus": "הָאֲנָשִׁים הֹלְכִים ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶל־הָעִיר"
+      ],
+      "answerIsScript": true,
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-09",
+      "extra": true
+    },
+    {
+      "id": "c36-09.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הָאֲנָשִׁים הֹלְכִים אֶל־הָעִיר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The men are going to the city."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-09",
+      "extra": true
+    },
+    {
+      "id": "c36-09.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The men are going to the city.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאֲנָשִׁים הֹלְכִים אֶל־הָעִיר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-09",
+      "extra": true
+    },
+    {
+      "id": "c36-10.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַדָּבָר כָּתוּב בַּסֵּפֶר",
+      "stimulusIsScript": true,
+      "statement": "The word is written in the book.",
+      "answer": true,
+      "expected": "The word is written in the book.",
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-10",
+      "extra": true
+    },
+    {
+      "id": "c36-10.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַדָּבָר כָּתוּב בַּסֵּפֶר",
+      "stimulusIsScript": true,
+      "options": [
+        "The word is written from the book.",
+        "The word is written to the book.",
+        "A word is written in the book.",
+        "The word is written in the book."
+      ],
+      "answer": "The word is written in the book.",
+      "optionIsScript": false,
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-10",
+      "extra": true
+    },
+    {
+      "id": "c36-10.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The word is written in the book.",
+      "stimulus": "הַדָּבָר ＿＿＿ בַּסֵּפֶר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "כָּתוּב"
+      ],
+      "answerIsScript": true,
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-10",
+      "extra": true
+    },
+    {
+      "id": "c36-10.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הַדָּבָר כָּתוּב בַּסֵּפֶר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The word is written in the book."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-10",
+      "extra": true
+    },
+    {
+      "id": "c36-10.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The word is written in the book.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַדָּבָר כָּתוּב בַּסֵּפֶר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-10",
+      "extra": true
+    },
+    {
+      "id": "c36-11.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָאִשָּׁה יֹשֶׁבֶת בָּאֹהֶל",
+      "stimulusIsScript": true,
+      "statement": "The woman is sitting in a tent.",
+      "answer": false,
+      "expected": "The woman is sitting in the tent.",
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-11",
+      "extra": true
+    },
+    {
+      "id": "c36-11.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָאִשָּׁה יֹשֶׁבֶת בָּאֹהֶל",
+      "stimulusIsScript": true,
+      "options": [
+        "A woman is sitting in the tent.",
+        "The woman is sitting in a tent.",
+        "The woman is sitting to the tent.",
+        "The woman is sitting in the tent."
+      ],
+      "answer": "The woman is sitting in the tent.",
+      "optionIsScript": false,
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-11",
+      "extra": true
+    },
+    {
+      "id": "c36-11.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The woman is sitting in the tent.",
+      "stimulus": "הָאִשָּׁה יֹשֶׁבֶת ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "בָּאֹהֶל"
+      ],
+      "answerIsScript": true,
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-11",
+      "extra": true
+    },
+    {
+      "id": "c36-11.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The woman is sitting in the tent.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאִשָּׁה יֹשֶׁבֶת בָּאֹהֶל"
+      ],
+      "answerIsScript": true,
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-11",
+      "extra": true
+    },
+    {
+      "id": "c36-11.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The woman is sitting in the tent.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאִשָּׁה יֹשֶׁבֶת בָּאֹהֶל"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-11",
+      "extra": true
+    },
+    {
+      "id": "c36-12.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָהָר נֶגֶד הָעִיר",
+      "stimulusIsScript": true,
+      "statement": "The mountain is opposite the city.",
+      "answer": true,
+      "expected": "The mountain is opposite the city.",
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-12",
+      "extra": true
+    },
+    {
+      "id": "c36-12.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָהָר נֶגֶד הָעִיר",
+      "stimulusIsScript": true,
+      "options": [
+        "The mountain is opposite a city.",
+        "A mountain is opposite the city.",
+        "My lord the king",
+        "The mountain is opposite the city."
+      ],
+      "answer": "The mountain is opposite the city.",
+      "optionIsScript": false,
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-12",
+      "extra": true
+    },
+    {
+      "id": "c36-12.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The mountain is opposite the city.",
+      "stimulus": "＿＿＿ נֶגֶד הָעִיר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הָהָר"
+      ],
+      "answerIsScript": true,
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-12",
+      "extra": true
+    },
+    {
+      "id": "c36-12.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הָהָר נֶגֶד הָעִיר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The mountain is opposite the city."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-12",
+      "extra": true
+    },
+    {
+      "id": "c36-12.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The mountain is opposite the city.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָהָר נֶגֶד הָעִיר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-12",
+      "extra": true
+    },
+    {
+      "id": "c36-13.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "שֹׁמְרֵי הַשַּׁעַר",
+      "stimulusIsScript": true,
+      "statement": "Keepers of the gate",
+      "answer": false,
+      "expected": "The keepers of the gate",
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-13",
+      "extra": true
+    },
+    {
+      "id": "c36-13.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "שֹׁמְרֵי הַשַּׁעַר",
+      "stimulusIsScript": true,
+      "options": [
+        "The keepers of a gate",
+        "My lord the king",
+        "The keepers of the gate",
+        "Keepers of the gate"
+      ],
+      "answer": "The keepers of the gate",
+      "optionIsScript": false,
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-13",
+      "extra": true
+    },
+    {
+      "id": "c36-13.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The keepers of the gate",
+      "stimulus": "＿＿＿ הַשַּׁעַר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "שֹׁמְרֵי"
+      ],
+      "answerIsScript": true,
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-13",
+      "extra": true
+    },
+    {
+      "id": "c36-13.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The keepers of the gate",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שֹׁמְרֵי הַשַּׁעַר"
+      ],
+      "answerIsScript": true,
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-13",
+      "extra": true
+    },
+    {
+      "id": "c36-13.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The keepers of the gate",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שֹׁמְרֵי הַשַּׁעַר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c36",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c36-13",
+      "extra": true
+    },
+    {
+      "id": "b-Ps-99-2.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "יְהוָה בְּצִיּוֹן גָּדוֹל וְרָם הוּא עַל־כָּל־הָעַמִּים",
+      "stimulusIsScript": true,
+      "statement": "Yahweh is great in Zion. He is high above all peoples.",
+      "answer": false,
+      "expected": "Yahweh is great in Zion. He is high above all the peoples.",
+      "block": "b36",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Ps-99-2",
+      "extra": true
+    },
+    {
+      "id": "b-Ps-99-2.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "יְהוָה בְּצִיּוֹן גָּדוֹל וְרָם הוּא עַל־כָּל־הָעַמִּים",
+      "stimulusIsScript": true,
+      "options": [
+        "Yahweh is great in Zion. He is high above all the peoples.",
+        "Yahweh is great in Zion. He is high above all peoples.",
+        "Yahweh is great in Zion. She is high above all the peoples.",
+        "Yahweh is great to Zion. He is high above all the peoples."
+      ],
+      "answer": "Yahweh is great in Zion. He is high above all the peoples.",
+      "optionIsScript": false,
+      "block": "b36",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Ps-99-2",
+      "extra": true
+    },
+    {
+      "id": "b-Ps-99-2.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Yahweh is great in Zion. He is high above all the peoples.",
+      "stimulus": "＿＿＿ בְּצִיּוֹן גָּדוֹל וְרָם הוּא עַל־כָּל־הָעַמִּים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "יְהוָה"
+      ],
+      "answerIsScript": true,
+      "block": "b36",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Ps-99-2",
+      "extra": true
+    },
+    {
+      "id": "b-Ps-99-2.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "יְהוָה בְּצִיּוֹן גָּדוֹל וְרָם הוּא עַל־כָּל־הָעַמִּים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Yahweh is great in Zion. He is high above all the peoples.",
+        "the Lord is great in Zion. He is high above all the peoples."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "b36",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Ps-99-2",
+      "extra": true
     }
   ]
 }

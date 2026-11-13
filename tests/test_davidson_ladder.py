@@ -46,7 +46,8 @@ class DistractorTests(unittest.TestCase):
 class PhraseDistractorTests(unittest.TestCase):
     def test_subject_change_keeps_the_verb_agreeing(self):
         cands = [c for _, c in L.mutations("I (am) a man.")]
-        self.assertIn("We (are) a man.", cands)
+        self.assertIn("You (are) a man.", cands)
+        self.assertNotIn("We (are) a man.", cands)
         self.assertNotIn("They (am) a man.", cands)
         self.assertIn("She is a woman.", [c for _, c in L.mutations("Thou (fem.) art a woman.")])
 

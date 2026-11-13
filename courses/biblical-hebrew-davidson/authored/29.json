@@ -55,6 +55,31 @@
       "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n142.jpg",
       "exwb": "davidson-s48#B6",
       "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "c29-01": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c29-02": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c29-03": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c29-04": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c29-05": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c29-06": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c29-07": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "b-1Chr-16-14": {
+      "citation": "1 Chronicles 16:14. Hebrew: Westminster Leningrad Codex (public domain) via the Open Scriptures Hebrew Bible (morphology CC BY 4.0). English: World English Bible (public domain)",
+      "url": "https://worldenglish.bible"
     }
   },
   "items": [
@@ -594,6 +619,750 @@
       "blockLabel": "Davidson §48",
       "shape": "en-he",
       "src": "s48-B6"
+    },
+    {
+      "id": "c29-01.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "טוֹב שֵׁם מֵעֹשֶׁר",
+      "stimulusIsScript": true,
+      "statement": "The name is better than wealth.",
+      "answer": false,
+      "expected": "A name is better than wealth.",
+      "block": "c29",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c29-01",
+      "extra": true
+    },
+    {
+      "id": "c29-01.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "טוֹב שֵׁם מֵעֹשֶׁר",
+      "stimulusIsScript": true,
+      "options": [
+        "The king is greater than the people.",
+        "His judgments are upright.",
+        "The name is better than wealth.",
+        "A name is better than wealth."
+      ],
+      "answer": "A name is better than wealth.",
+      "optionIsScript": false,
+      "block": "c29",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c29-01",
+      "extra": true
+    },
+    {
+      "id": "c29-01.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: A name is better than wealth.",
+      "stimulus": "טוֹב שֵׁם ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "מֵעֹשֶׁר"
+      ],
+      "answerIsScript": true,
+      "block": "c29",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c29-01",
+      "extra": true
+    },
+    {
+      "id": "c29-01.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "טוֹב שֵׁם מֵעֹשֶׁר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "A name is better than wealth."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c29",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c29-01",
+      "extra": true
+    },
+    {
+      "id": "c29-01.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "A name is better than wealth.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "טוֹב שֵׁם מֵעֹשֶׁר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c29",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c29-01",
+      "extra": true
+    },
+    {
+      "id": "c29-02.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַמֶּלֶךְ גָּדוֹל מִן־הָעָם",
+      "stimulusIsScript": true,
+      "statement": "The king is greater than a people.",
+      "answer": false,
+      "expected": "The king is greater than the people.",
+      "block": "c29",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c29-02",
+      "extra": true
+    },
+    {
+      "id": "c29-02.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַמֶּלֶךְ גָּדוֹל מִן־הָעָם",
+      "stimulusIsScript": true,
+      "options": [
+        "The king is greater than a people.",
+        "The king is greater than the people.",
+        "He is the greatest of them all.",
+        "A king is greater than the people."
+      ],
+      "answer": "The king is greater than the people.",
+      "optionIsScript": false,
+      "block": "c29",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c29-02",
+      "extra": true
+    },
+    {
+      "id": "c29-02.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The king is greater than the people.",
+      "stimulus": "הַמֶּלֶךְ גָּדוֹל ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "מִן־הָעָם"
+      ],
+      "answerIsScript": true,
+      "block": "c29",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c29-02",
+      "extra": true
+    },
+    {
+      "id": "c29-02.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The king is greater than the people.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַמֶּלֶךְ גָּדוֹל מִן־הָעָם",
+        "הַמֶּלֶךְ גָּדוֹל מֵהָעָם"
+      ],
+      "answerIsScript": true,
+      "block": "c29",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c29-02",
+      "extra": true
+    },
+    {
+      "id": "c29-02.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The king is greater than the people.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַמֶּלֶךְ גָּדוֹל מִן־הָעָם",
+        "הַמֶּלֶךְ גָּדוֹל מֵהָעָם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c29",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c29-02",
+      "extra": true
+    },
+    {
+      "id": "c29-03.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַזָּהָב טוֹב מִן־הַכֶּסֶף",
+      "stimulusIsScript": true,
+      "statement": "A gold is better than the silver.",
+      "answer": false,
+      "expected": "The gold is better than the silver.",
+      "block": "c29",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c29-03",
+      "extra": true
+    },
+    {
+      "id": "c29-03.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַזָּהָב טוֹב מִן־הַכֶּסֶף",
+      "stimulusIsScript": true,
+      "options": [
+        "A gold is better than the silver.",
+        "The king is greater than the people.",
+        "The gold is better than the silver.",
+        "The gold is better than a silver."
+      ],
+      "answer": "The gold is better than the silver.",
+      "optionIsScript": false,
+      "block": "c29",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c29-03",
+      "extra": true
+    },
+    {
+      "id": "c29-03.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The gold is better than the silver.",
+      "stimulus": "＿＿＿ טוֹב מִן־הַכֶּסֶף",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַזָּהָב"
+      ],
+      "answerIsScript": true,
+      "block": "c29",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c29-03",
+      "extra": true
+    },
+    {
+      "id": "c29-03.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הַזָּהָב טוֹב מִן־הַכֶּסֶף",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The gold is better than the silver."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c29",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c29-03",
+      "extra": true
+    },
+    {
+      "id": "c29-03.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The gold is better than the silver.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַזָּהָב טוֹב מִן־הַכֶּסֶף"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c29",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c29-03",
+      "extra": true
+    },
+    {
+      "id": "c29-04.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "חָכָם הוּא מִכָּל־הָאָדָם",
+      "stimulusIsScript": true,
+      "statement": "He is wiser than all men.",
+      "answer": true,
+      "expected": "He is wiser than all men.",
+      "block": "c29",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c29-04",
+      "extra": true
+    },
+    {
+      "id": "c29-04.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "חָכָם הוּא מִכָּל־הָאָדָם",
+      "stimulusIsScript": true,
+      "options": [
+        "His judgments are upright.",
+        "The gold is better than the silver.",
+        "She is wiser than all men.",
+        "He is wiser than all men."
+      ],
+      "answer": "He is wiser than all men.",
+      "optionIsScript": false,
+      "block": "c29",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c29-04",
+      "extra": true
+    },
+    {
+      "id": "c29-04.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: He is wiser than all men.",
+      "stimulus": "חָכָם הוּא ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "מִכָּל־הָאָדָם"
+      ],
+      "answerIsScript": true,
+      "block": "c29",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c29-04",
+      "extra": true
+    },
+    {
+      "id": "c29-04.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "חָכָם הוּא מִכָּל־הָאָדָם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "He is wiser than all men."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c29",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c29-04",
+      "extra": true
+    },
+    {
+      "id": "c29-04.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "He is wiser than all men.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "חָכָם הוּא מִכָּל־הָאָדָם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c29",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c29-04",
+      "extra": true
+    },
+    {
+      "id": "c29-05.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "מִשְׁפָּטָיו יְשָׁרִים",
+      "stimulusIsScript": true,
+      "statement": "His judgments are upright.",
+      "answer": true,
+      "expected": "His judgments are upright.",
+      "block": "c29",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c29-05",
+      "extra": true
+    },
+    {
+      "id": "c29-05.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "מִשְׁפָּטָיו יְשָׁרִים",
+      "stimulusIsScript": true,
+      "options": [
+        "His judgments are upright.",
+        "Her judgments are upright.",
+        "My judgments are upright.",
+        "Their judgments are upright."
+      ],
+      "answer": "His judgments are upright.",
+      "optionIsScript": false,
+      "block": "c29",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c29-05",
+      "extra": true
+    },
+    {
+      "id": "c29-05.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: His judgments are upright.",
+      "stimulus": "＿＿＿ יְשָׁרִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "מִשְׁפָּטָיו"
+      ],
+      "answerIsScript": true,
+      "block": "c29",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c29-05",
+      "extra": true
+    },
+    {
+      "id": "c29-05.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "His judgments are upright.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מִשְׁפָּטָיו יְשָׁרִים",
+        "יְשָׁרִים מִשְׁפָּטָיו"
+      ],
+      "answerIsScript": true,
+      "block": "c29",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c29-05",
+      "extra": true
+    },
+    {
+      "id": "c29-05.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "His judgments are upright.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מִשְׁפָּטָיו יְשָׁרִים",
+        "יְשָׁרִים מִשְׁפָּטָיו"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c29",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c29-05",
+      "extra": true
+    },
+    {
+      "id": "c29-06.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַמִּזְבֵּחַ לִפְנֵי הַהֵיכָל",
+      "stimulusIsScript": true,
+      "statement": "The altar is before the temple.",
+      "answer": true,
+      "expected": "The altar is before the temple.",
+      "block": "c29",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c29-06",
+      "extra": true
+    },
+    {
+      "id": "c29-06.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַמִּזְבֵּחַ לִפְנֵי הַהֵיכָל",
+      "stimulusIsScript": true,
+      "options": [
+        "The altar is before a temple.",
+        "The altar is before the temple.",
+        "The gold is better than the silver.",
+        "An altar is before the temple."
+      ],
+      "answer": "The altar is before the temple.",
+      "optionIsScript": false,
+      "block": "c29",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c29-06",
+      "extra": true
+    },
+    {
+      "id": "c29-06.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The altar is before the temple.",
+      "stimulus": "＿＿＿ לִפְנֵי הַהֵיכָל",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַמִּזְבֵּחַ"
+      ],
+      "answerIsScript": true,
+      "block": "c29",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c29-06",
+      "extra": true
+    },
+    {
+      "id": "c29-06.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הַמִּזְבֵּחַ לִפְנֵי הַהֵיכָל",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The altar is before the temple."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c29",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c29-06",
+      "extra": true
+    },
+    {
+      "id": "c29-06.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The altar is before the temple.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַמִּזְבֵּחַ לִפְנֵי הַהֵיכָל"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c29",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c29-06",
+      "extra": true
+    },
+    {
+      "id": "c29-07.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הוּא הַגָּדוֹל מִכֻּלָּם",
+      "stimulusIsScript": true,
+      "statement": "He is the greatest of them all.",
+      "answer": true,
+      "expected": "He is the greatest of them all.",
+      "block": "c29",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c29-07",
+      "extra": true
+    },
+    {
+      "id": "c29-07.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הוּא הַגָּדוֹל מִכֻּלָּם",
+      "stimulusIsScript": true,
+      "options": [
+        "He is the greatest of them all.",
+        "He is a greatest of them all.",
+        "He is the greatest of him all.",
+        "She is the greatest of them all."
+      ],
+      "answer": "He is the greatest of them all.",
+      "optionIsScript": false,
+      "block": "c29",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c29-07",
+      "extra": true
+    },
+    {
+      "id": "c29-07.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: He is the greatest of them all.",
+      "stimulus": "הוּא ＿＿＿ מִכֻּלָּם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַגָּדוֹל"
+      ],
+      "answerIsScript": true,
+      "block": "c29",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c29-07",
+      "extra": true
+    },
+    {
+      "id": "c29-07.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הוּא הַגָּדוֹל מִכֻּלָּם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "He is the greatest of them all."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c29",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c29-07",
+      "extra": true
+    },
+    {
+      "id": "c29-07.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "He is the greatest of them all.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הוּא הַגָּדוֹל מִכֻּלָּם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c29",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c29-07",
+      "extra": true
+    },
+    {
+      "id": "b-1Chr-16-14.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הוּא יְהוָה אֱלֹהֵינוּ בְּכָל־הָאָרֶץ מִשְׁפָּטָיו",
+      "stimulusIsScript": true,
+      "statement": "He is Yahweh our God. His judgments are to all the earth.",
+      "answer": false,
+      "expected": "He is Yahweh our God. His judgments are in all the earth.",
+      "block": "b29",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-1Chr-16-14",
+      "extra": true
+    },
+    {
+      "id": "b-1Chr-16-14.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הוּא יְהוָה אֱלֹהֵינוּ בְּכָל־הָאָרֶץ מִשְׁפָּטָיו",
+      "stimulusIsScript": true,
+      "options": [
+        "She is Yahweh our God. His judgments are in all the earth.",
+        "He is Yahweh our God. His judgments are in all the earth.",
+        "He is Yahweh our God. His judgments are to all the earth.",
+        "He is Yahweh our God. My judgments are in all the earth."
+      ],
+      "answer": "He is Yahweh our God. His judgments are in all the earth.",
+      "optionIsScript": false,
+      "block": "b29",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-1Chr-16-14",
+      "extra": true
+    },
+    {
+      "id": "b-1Chr-16-14.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: He is Yahweh our God. His judgments are in all the earth.",
+      "stimulus": "הוּא יְהוָה אֱלֹהֵינוּ ＿＿＿ מִשְׁפָּטָיו",
+      "stimulusIsScript": true,
+      "accepted": [
+        "בְּכָל־הָאָרֶץ"
+      ],
+      "answerIsScript": true,
+      "block": "b29",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-1Chr-16-14",
+      "extra": true
+    },
+    {
+      "id": "b-1Chr-16-14.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הוּא יְהוָה אֱלֹהֵינוּ בְּכָל־הָאָרֶץ מִשְׁפָּטָיו",
+      "stimulusIsScript": true,
+      "accepted": [
+        "He is Yahweh our God. His judgments are in all the earth.",
+        "He is the Lord our God. His judgments are in all the earth."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "b29",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-1Chr-16-14",
+      "extra": true
     }
   ]
 }

@@ -65,6 +65,9 @@ class DavidsonExercisesTests(unittest.TestCase):
             for item in items_of(path):
                 with self.subTest(file=path.name):
                     source = item.get("source", {})
+                    if item.get("extra"):
+                        self.assertTrue(source.get("citation"))
+                        continue
                     self.assertIn("promptUrl", source)
                     self.assertTrue(source["promptUrl"].startswith("https://archive.org/details/"))
                     self.assertIn("/page/n", source["promptUrl"])
@@ -113,13 +116,17 @@ class DavidsonExercisesTests(unittest.TestCase):
                 self.assertTrue({1, 2, 4} <= got, sorted(got))
 
     def test_ladder_index_matches_the_units(self):
-        index = json.loads((AUTHORED / "ladder.json").read_text(encoding="utf-8"))["units"]
+        ladder = json.loads((AUTHORED / "ladder.json").read_text(encoding="utf-8"))
         for path in self.files:
-            counts = {}
+            counts, extra = {}, {}
             for item in items_of(path):
-                counts[str(item["rung"])] = counts.get(str(item["rung"]), 0) + 1
+                target = extra if item.get("extra") else counts
+                target[str(item["rung"])] = target.get(str(item["rung"]), 0) + 1
+            for rung in extra:
+                counts.setdefault(rung, 0)
             with self.subTest(file=path.name):
-                self.assertEqual(index[str(int(path.stem))], dict(sorted(counts.items())))
+                self.assertEqual(ladder["units"][str(int(path.stem))], dict(sorted(counts.items())))
+                self.assertEqual(ladder["extra"].get(str(int(path.stem)), {}), dict(sorted(extra.items())))
 
     def test_phrases_without_the_article_come_before_it(self):
         """Article-less copies sit in units 14-15; the exercise with the article stays in its own unit."""
@@ -142,6 +149,8 @@ class DavidsonExercisesTests(unittest.TestCase):
         for path in self.files:
             unit = int(path.stem)
             for item in items_of(path):
+                if item.get("extra"):
+                    continue
                 if item["shape"] == "phrase":
                     with self.subTest(file=path.name, item=item["id"]):
                         self.assertEqual(phrases[item["source"]["adaptedFrom"]], unit)
@@ -276,7 +285,7 @@ class DavidsonExercisesTests(unittest.TestCase):
 
         for path in self.files:
             for item in items_of(path):
-                if item["shape"] == "recognition":
+                if item["shape"] == "recognition" or item.get("extra"):
                     continue
                 answer_leaf = re.search(r"/page/n(\d+)/", item["source"]["answerUrl"])
                 prompt_leaf = re.search(r"/page/n(\d+)/", item["source"]["promptUrl"])

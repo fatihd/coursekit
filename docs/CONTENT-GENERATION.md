@@ -192,6 +192,7 @@ still supplies the key's coordinate segmentation.
 | Kalisch, *A Hebrew Grammar, with Exercises* (1875) + *Key* (1881) | Hebrew | Public domain | Supplementary exercises |
 | Harper, *Hebrew Vocabularies* (1890) | Hebrew | Public domain | Frequency cross-check |
 | Brown–Driver–Briggs (1906), Strong's (1890) | Hebrew | Public domain | Glosses and Strong's references |
+| World English Bible (eBible.org, `engwebp`) | English | Public domain | Translations of the Bible verses in the Davidson corpus (P12-T5); `fetch_oer.py --source web` |
 
 - Each OER-sourced row must carry **attribution** + license in `extra.source`/`extra.license`
   (written into `vocab.json` or `units/NN.json` block metadata).

@@ -298,6 +298,42 @@
       "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n146.jpg",
       "exwb": "davidson-s49#A9",
       "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "c67-01": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c67-02": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c67-03": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c67-04": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c67-05": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c67-06": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c67-07": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c67-08": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c67-09": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c67-10": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c67-11": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c67-12": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
     }
   },
   "items": [
@@ -778,7 +814,7 @@
       "options": [
         "And there was strife between the herdsmen of Abram's cattle and a herdsmen of Lot's cattle; and they said to one another, Let there be no strife, I pray thee, between me and thee.",
         "And there was strife between the herdsmen of Abram's cattle and the herdsmen of Lot's cattle; and they said to one another, Let there be no strife, I pray me, between me and thee.",
-        "And there was strife between the herdsmen of Abram's cattle and the herdsmen of Lot's cattle; and I said to one another, Let there be no strife, I pray thee, between me and thee.",
+        "And there was strife between the herdsmen of Abram's cattle and the herdsmen of Lot's cattle; and you said to one another, Let there be no strife, I pray thee, between me and thee.",
         "And there was strife between the herdsmen of Abram's cattle and the herdsmen of Lot's cattle; and they said to one another, Let there be no strife, I pray thee, between me and thee."
       ],
       "answer": "And there was strife between the herdsmen of Abram's cattle and the herdsmen of Lot's cattle; and they said to one another, Let there be no strife, I pray thee, between me and thee.",
@@ -1231,7 +1267,7 @@
       "stimulusIsScript": true,
       "options": [
         "And he commanded priests, saying, Come up out of the Jordan; and they went up.",
-        "And he commanded the priests, saying, Come up out of the Jordan; and I went up.",
+        "And he commanded the priests, saying, Come up out of the Jordan; and you went up.",
         "And he commanded the priests, saying, Come up out of the Jordan; and we went up.",
         "And he commanded the priests, saying, Come up out of the Jordan; and they went up."
       ],
@@ -2131,7 +2167,7 @@
       "options": [
         "And he looked, and behold, a well in the field, and behold, there were flocks of sheep lying there by it, for out of that well they used to water the flocks.",
         "And he looked, and behold, a well from the field, and behold, there were flocks of sheep lying there by it, for out of that well they used to water the flocks.",
-        "And he looked, and behold, a well in the field, and behold, there were flocks of sheep lying there by it, for out of that well I used to water the flocks.",
+        "And he looked, and behold, a well in the field, and behold, there were flocks of sheep lying there by it, for out of that well you used to water the flocks.",
         "And he looked, and behold, a well in a field, and behold, there were flocks of sheep lying there by it, for out of that well they used to water the flocks."
       ],
       "answer": "And he looked, and behold, a well in the field, and behold, there were flocks of sheep lying there by it, for out of that well they used to water the flocks.",
@@ -3026,7 +3062,7 @@
       "options": [
         "And he wept; and thus he said, as he went, O that I had died instead of me, my son.",
         "And he wept; and thus he said, as he went, O that I had died instead of thee, my son.",
-        "And he wept; and thus he said, as he went, O that we had died instead of thee, my son.",
+        "And he wept; and thus he said, as he went, O that you had died instead of thee, my son.",
         "And he wept; and thus he said, as he went, O that I had died instead of thee, his son."
       ],
       "answer": "And he wept; and thus he said, as he went, O that I had died instead of thee, my son.",
@@ -3274,6 +3310,1128 @@
       "blockLabel": "Davidson §49",
       "shape": "he-en",
       "src": "s49-A9"
+    },
+    {
+      "id": "c67-01.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיַּרְא אֱלֹהִים כִּי־טוֹב",
+      "stimulusIsScript": true,
+      "statement": "And there was evening and there was morning.",
+      "answer": false,
+      "expected": "God saw that it was good.",
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-01",
+      "extra": true
+    },
+    {
+      "id": "c67-01.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיַּרְא אֱלֹהִים כִּי־טוֹב",
+      "stimulusIsScript": true,
+      "options": [
+        "Cursed is the man.",
+        "And there was evening and there was morning.",
+        "God saw that it was good.",
+        "Yahweh is my rock."
+      ],
+      "answer": "God saw that it was good.",
+      "optionIsScript": false,
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-01",
+      "extra": true
+    },
+    {
+      "id": "c67-01.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: God saw that it was good.",
+      "stimulus": "וַיַּרְא אֱלֹהִים ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "כִּי־טוֹב"
+      ],
+      "answerIsScript": true,
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-01",
+      "extra": true
+    },
+    {
+      "id": "c67-01.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וַיַּרְא אֱלֹהִים כִּי־טוֹב",
+      "stimulusIsScript": true,
+      "accepted": [
+        "God saw that it was good."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-01",
+      "extra": true
+    },
+    {
+      "id": "c67-01.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "God saw that it was good.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיַּרְא אֱלֹהִים כִּי־טוֹב"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-01",
+      "extra": true
+    },
+    {
+      "id": "c67-02.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיַּעַשׂ אֱלֹהִים אֶת־הָרָקִיעַ",
+      "stimulusIsScript": true,
+      "statement": "God made the expanse.",
+      "answer": true,
+      "expected": "God made the expanse.",
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-02",
+      "extra": true
+    },
+    {
+      "id": "c67-02.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיַּעַשׂ אֱלֹהִים אֶת־הָרָקִיעַ",
+      "stimulusIsScript": true,
+      "options": [
+        "God saw that it was good.",
+        "And he built an altar there.",
+        "God made an expanse.",
+        "God made the expanse."
+      ],
+      "answer": "God made the expanse.",
+      "optionIsScript": false,
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-02",
+      "extra": true
+    },
+    {
+      "id": "c67-02.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: God made the expanse.",
+      "stimulus": "＿＿＿ אֱלֹהִים אֶת־הָרָקִיעַ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וַיַּעַשׂ"
+      ],
+      "answerIsScript": true,
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-02",
+      "extra": true
+    },
+    {
+      "id": "c67-02.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "God made the expanse.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיַּעַשׂ אֱלֹהִים אֶת־הָרָקִיעַ"
+      ],
+      "answerIsScript": true,
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-02",
+      "extra": true
+    },
+    {
+      "id": "c67-02.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "God made the expanse.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיַּעַשׂ אֱלֹהִים אֶת־הָרָקִיעַ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-02",
+      "extra": true
+    },
+    {
+      "id": "c67-03.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיַּעַן הַמֶּלֶךְ",
+      "stimulusIsScript": true,
+      "statement": "The king answered.",
+      "answer": true,
+      "expected": "The king answered.",
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-03",
+      "extra": true
+    },
+    {
+      "id": "c67-03.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיַּעַן הַמֶּלֶךְ",
+      "stimulusIsScript": true,
+      "options": [
+        "And there was evening and there was morning.",
+        "The king answered.",
+        "A king answered.",
+        "Let there be light."
+      ],
+      "answer": "The king answered.",
+      "optionIsScript": false,
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-03",
+      "extra": true
+    },
+    {
+      "id": "c67-03.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The king answered.",
+      "stimulus": "＿＿＿ הַמֶּלֶךְ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וַיַּעַן"
+      ],
+      "answerIsScript": true,
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-03",
+      "extra": true
+    },
+    {
+      "id": "c67-03.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וַיַּעַן הַמֶּלֶךְ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The king answered."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-03",
+      "extra": true
+    },
+    {
+      "id": "c67-03.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The king answered.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיַּעַן הַמֶּלֶךְ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-03",
+      "extra": true
+    },
+    {
+      "id": "c67-04.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיְהִי עֶרֶב וַיְהִי בֹקֶר",
+      "stimulusIsScript": true,
+      "statement": "And there was evening and there was morning.",
+      "answer": true,
+      "expected": "And there was evening and there was morning.",
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-04",
+      "extra": true
+    },
+    {
+      "id": "c67-04.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיְהִי עֶרֶב וַיְהִי בֹקֶר",
+      "stimulusIsScript": true,
+      "options": [
+        "The king answered.",
+        "And there was evening and there was morning.",
+        "At the feast",
+        "Yahweh is my portion."
+      ],
+      "answer": "And there was evening and there was morning.",
+      "optionIsScript": false,
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-04",
+      "extra": true
+    },
+    {
+      "id": "c67-04.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: And there was evening and there was morning.",
+      "stimulus": "וַיְהִי ＿＿＿ וַיְהִי בֹקֶר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "עֶרֶב"
+      ],
+      "answerIsScript": true,
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-04",
+      "extra": true
+    },
+    {
+      "id": "c67-04.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וַיְהִי עֶרֶב וַיְהִי בֹקֶר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "And there was evening and there was morning."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-04",
+      "extra": true
+    },
+    {
+      "id": "c67-04.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And there was evening and there was morning.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיְהִי עֶרֶב וַיְהִי בֹקֶר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-04",
+      "extra": true
+    },
+    {
+      "id": "c67-05.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיַּעַל מֹשֶׁה אֶל־הָאֱלֹהִים",
+      "stimulusIsScript": true,
+      "statement": "Moses went up from God.",
+      "answer": false,
+      "expected": "Moses went up to God.",
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-05",
+      "extra": true
+    },
+    {
+      "id": "c67-05.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיַּעַל מֹשֶׁה אֶל־הָאֱלֹהִים",
+      "stimulusIsScript": true,
+      "options": [
+        "God made the expanse.",
+        "Moses went up from God.",
+        "Moses went up to God.",
+        "Moses went up in God."
+      ],
+      "answer": "Moses went up to God.",
+      "optionIsScript": false,
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-05",
+      "extra": true
+    },
+    {
+      "id": "c67-05.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Moses went up to God.",
+      "stimulus": "וַיַּעַל מֹשֶׁה ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶל־הָאֱלֹהִים"
+      ],
+      "answerIsScript": true,
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-05",
+      "extra": true
+    },
+    {
+      "id": "c67-05.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וַיַּעַל מֹשֶׁה אֶל־הָאֱלֹהִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Moses went up to God."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-05",
+      "extra": true
+    },
+    {
+      "id": "c67-05.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Moses went up to God.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיַּעַל מֹשֶׁה אֶל־הָאֱלֹהִים"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-05",
+      "extra": true
+    },
+    {
+      "id": "c67-06.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "יְהִי אוֹר",
+      "stimulusIsScript": true,
+      "statement": "And he built an altar there.",
+      "answer": false,
+      "expected": "Let there be light.",
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-06",
+      "extra": true
+    },
+    {
+      "id": "c67-06.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "יְהִי אוֹר",
+      "stimulusIsScript": true,
+      "options": [
+        "Cursed is the man.",
+        "Let there be light.",
+        "And he built an altar there.",
+        "Yahweh is my rock."
+      ],
+      "answer": "Let there be light.",
+      "optionIsScript": false,
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-06",
+      "extra": true
+    },
+    {
+      "id": "c67-06.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Let there be light.",
+      "stimulus": "＿＿＿ אוֹר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "יְהִי"
+      ],
+      "answerIsScript": true,
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-06",
+      "extra": true
+    },
+    {
+      "id": "c67-06.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "יְהִי אוֹר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Let there be light."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-06",
+      "extra": true
+    },
+    {
+      "id": "c67-06.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Let there be light.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "יְהִי אוֹר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-06",
+      "extra": true
+    },
+    {
+      "id": "c67-07.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "יְהוָה מָגִנִּי",
+      "stimulusIsScript": true,
+      "statement": "Yahweh is our shield.",
+      "answer": false,
+      "expected": "Yahweh is my shield.",
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-07",
+      "extra": true
+    },
+    {
+      "id": "c67-07.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "יְהוָה מָגִנִּי",
+      "stimulusIsScript": true,
+      "options": [
+        "Yahweh is his shield.",
+        "Yahweh is your shield.",
+        "Yahweh is my shield.",
+        "Yahweh is our shield."
+      ],
+      "answer": "Yahweh is my shield.",
+      "optionIsScript": false,
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-07",
+      "extra": true
+    },
+    {
+      "id": "c67-07.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Yahweh is my shield.",
+      "stimulus": "יְהוָה ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "מָגִנִּי"
+      ],
+      "answerIsScript": true,
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-07",
+      "extra": true
+    },
+    {
+      "id": "c67-07.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "יְהוָה מָגִנִּי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Yahweh is my shield.",
+        "the Lord is my shield."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-07",
+      "extra": true
+    },
+    {
+      "id": "c67-07.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Yahweh is my shield.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "יְהוָה מָגִנִּי"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-07",
+      "extra": true
+    },
+    {
+      "id": "c67-08.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אָרוּר הָאִישׁ",
+      "stimulusIsScript": true,
+      "statement": "Cursed is the man.",
+      "answer": true,
+      "expected": "Cursed is the man.",
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-08",
+      "extra": true
+    },
+    {
+      "id": "c67-08.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אָרוּר הָאִישׁ",
+      "stimulusIsScript": true,
+      "options": [
+        "Cursed is the man.",
+        "Moses went up to God.",
+        "Cursed is a man.",
+        "Yahweh is my shield."
+      ],
+      "answer": "Cursed is the man.",
+      "optionIsScript": false,
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-08",
+      "extra": true
+    },
+    {
+      "id": "c67-08.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Cursed is the man.",
+      "stimulus": "אָרוּר ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הָאִישׁ"
+      ],
+      "answerIsScript": true,
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-08",
+      "extra": true
+    },
+    {
+      "id": "c67-08.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "אָרוּר הָאִישׁ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Cursed is the man."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-08",
+      "extra": true
+    },
+    {
+      "id": "c67-08.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Cursed is the man.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אָרוּר הָאִישׁ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-08",
+      "extra": true
+    },
+    {
+      "id": "c67-09.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "חֶלְקִי יְהוָה",
+      "stimulusIsScript": true,
+      "statement": "Yahweh is my portion.",
+      "answer": true,
+      "expected": "Yahweh is my portion.",
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-09",
+      "extra": true
+    },
+    {
+      "id": "c67-09.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "חֶלְקִי יְהוָה",
+      "stimulusIsScript": true,
+      "options": [
+        "Yahweh is our portion.",
+        "Yahweh is my portion.",
+        "Yahweh is his portion.",
+        "Yahweh is your portion."
+      ],
+      "answer": "Yahweh is my portion.",
+      "optionIsScript": false,
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-09",
+      "extra": true
+    },
+    {
+      "id": "c67-09.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Yahweh is my portion.",
+      "stimulus": "חֶלְקִי ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "יְהוָה"
+      ],
+      "answerIsScript": true,
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-09",
+      "extra": true
+    },
+    {
+      "id": "c67-09.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "Yahweh is my portion.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "חֶלְקִי יְהוָה"
+      ],
+      "answerIsScript": true,
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-09",
+      "extra": true
+    },
+    {
+      "id": "c67-09.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Yahweh is my portion.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "חֶלְקִי יְהוָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-09",
+      "extra": true
+    },
+    {
+      "id": "c67-10.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "בֶּחָג",
+      "stimulusIsScript": true,
+      "statement": "The at the feast",
+      "answer": false,
+      "expected": "At the feast",
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-10",
+      "extra": true
+    },
+    {
+      "id": "c67-10.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "בֶּחָג",
+      "stimulusIsScript": true,
+      "options": [
+        "To the feast",
+        "At the feast",
+        "At a feast",
+        "The at the feast"
+      ],
+      "answer": "At the feast",
+      "optionIsScript": false,
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-10",
+      "extra": true
+    },
+    {
+      "id": "c67-10.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "בֶּחָג",
+      "stimulusIsScript": true,
+      "accepted": [
+        "At the feast"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-10",
+      "extra": true
+    },
+    {
+      "id": "c67-10.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "At the feast",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בֶּחָג"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-10",
+      "extra": true
+    },
+    {
+      "id": "c67-11.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "יְהוָה סַלְעִי",
+      "stimulusIsScript": true,
+      "statement": "Yahweh is my rock.",
+      "answer": true,
+      "expected": "Yahweh is my rock.",
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-11",
+      "extra": true
+    },
+    {
+      "id": "c67-11.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "יְהוָה סַלְעִי",
+      "stimulusIsScript": true,
+      "options": [
+        "Yahweh is our rock.",
+        "Yahweh is your rock.",
+        "Yahweh is my rock.",
+        "Yahweh is his rock."
+      ],
+      "answer": "Yahweh is my rock.",
+      "optionIsScript": false,
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-11",
+      "extra": true
+    },
+    {
+      "id": "c67-11.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Yahweh is my rock.",
+      "stimulus": "＿＿＿ סַלְעִי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "יְהוָה"
+      ],
+      "answerIsScript": true,
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-11",
+      "extra": true
+    },
+    {
+      "id": "c67-11.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "יְהוָה סַלְעִי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Yahweh is my rock.",
+        "the Lord is my rock."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-11",
+      "extra": true
+    },
+    {
+      "id": "c67-11.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Yahweh is my rock.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "יְהוָה סַלְעִי"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-11",
+      "extra": true
+    },
+    {
+      "id": "c67-12.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיִּבֶן שָׁם מִזְבֵּחַ",
+      "stimulusIsScript": true,
+      "statement": "And he built an altar there.",
+      "answer": true,
+      "expected": "And he built an altar there.",
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-12",
+      "extra": true
+    },
+    {
+      "id": "c67-12.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיִּבֶן שָׁם מִזְבֵּחַ",
+      "stimulusIsScript": true,
+      "options": [
+        "And he built the altar there.",
+        "And she built an altar there.",
+        "And he built an altar there.",
+        "At the feast"
+      ],
+      "answer": "And he built an altar there.",
+      "optionIsScript": false,
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-12",
+      "extra": true
+    },
+    {
+      "id": "c67-12.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: And he built an altar there.",
+      "stimulus": "＿＿＿ שָׁם מִזְבֵּחַ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וַיִּבֶן"
+      ],
+      "answerIsScript": true,
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-12",
+      "extra": true
+    },
+    {
+      "id": "c67-12.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וַיִּבֶן שָׁם מִזְבֵּחַ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "And he built an altar there."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-12",
+      "extra": true
+    },
+    {
+      "id": "c67-12.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And he built an altar there.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיִּבֶן שָׁם מִזְבֵּחַ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c67",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c67-12",
+      "extra": true
     }
   ]
 }

@@ -307,6 +307,33 @@
       "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n68.jpg",
       "exwb": "davidson-s28#AL29",
       "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "c51-01": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c51-02": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c51-03": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c51-04": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c51-05": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c51-06": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c51-07": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c51-08": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c51-09": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
     }
   },
   "items": [
@@ -425,9 +452,9 @@
       "stimulus": "מַה־נְּדַבֵּר וּמַה־נִּצְטַדָּק",
       "stimulusIsScript": true,
       "options": [
-        "What shall they speak, or how shall we justify ourselves?",
+        "What shall you speak, or how shall we justify ourselves?",
+        "What shall we speak, or how shall you justify ourselves?",
         "What shall we speak, or how shall they justify ourselves?",
-        "What shall we speak, or how shall I justify ourselves?",
         "What shall we speak, or how shall we justify ourselves?"
       ],
       "answer": "What shall we speak, or how shall we justify ourselves?",
@@ -606,7 +633,7 @@
       "options": [
         "We heard the voice of Yahweh walking in the garden and we hid ourselves from her face.",
         "We heard the voice of Yahweh walking in the garden and we hid ourselves from his face.",
-        "They heard the voice of Yahweh walking in the garden and we hid ourselves from his face.",
+        "You heard the voice of Yahweh walking in the garden and we hid ourselves from his face.",
         "We heard the voice of Yahweh walking in a garden and we hid ourselves from his face."
       ],
       "answer": "We heard the voice of Yahweh walking in the garden and we hid ourselves from his face.",
@@ -3688,6 +3715,841 @@
           "alt": "3 plur. fem. impf. Niph. of זכר"
         }
       }
+    },
+    {
+      "id": "c51-01.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הִתְהַלֵּךְ לְפָנַי",
+      "stimulusIsScript": true,
+      "statement": "Walk before me.",
+      "answer": true,
+      "expected": "Walk before me.",
+      "block": "c51",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c51-01",
+      "extra": true
+    },
+    {
+      "id": "c51-01.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הִתְהַלֵּךְ לְפָנַי",
+      "stimulusIsScript": true,
+      "options": [
+        "Walk before me.",
+        "The man is walking about in the city.",
+        "Walk before us.",
+        "Walk before him."
+      ],
+      "answer": "Walk before me.",
+      "optionIsScript": false,
+      "block": "c51",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c51-01",
+      "extra": true
+    },
+    {
+      "id": "c51-01.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Walk before me.",
+      "stimulus": "＿＿＿ לְפָנַי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הִתְהַלֵּךְ"
+      ],
+      "answerIsScript": true,
+      "block": "c51",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c51-01",
+      "extra": true
+    },
+    {
+      "id": "c51-01.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הִתְהַלֵּךְ לְפָנַי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Walk before me."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c51",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c51-01",
+      "extra": true
+    },
+    {
+      "id": "c51-01.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Walk before me.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הִתְהַלֵּךְ לְפָנַי"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c51",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c51-01",
+      "extra": true
+    },
+    {
+      "id": "c51-02.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הִתְקַדְּשׁוּ",
+      "stimulusIsScript": true,
+      "statement": "Sanctify yourselves.",
+      "answer": true,
+      "expected": "Sanctify yourselves.",
+      "block": "c51",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c51-02",
+      "extra": true
+    },
+    {
+      "id": "c51-02.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הִתְקַדְּשׁוּ",
+      "stimulusIsScript": true,
+      "options": [
+        "The great assembly",
+        "Walk before me.",
+        "The love of God",
+        "Sanctify yourselves."
+      ],
+      "answer": "Sanctify yourselves.",
+      "optionIsScript": false,
+      "block": "c51",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c51-02",
+      "extra": true
+    },
+    {
+      "id": "c51-02.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הִתְקַדְּשׁוּ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Sanctify yourselves."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c51",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c51-02",
+      "extra": true
+    },
+    {
+      "id": "c51-02.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Sanctify yourselves.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הִתְקַדְּשׁוּ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c51",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c51-02",
+      "extra": true
+    },
+    {
+      "id": "c51-03.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַשֶּׁמֶשׁ בַּשָּׁמַיִם",
+      "stimulusIsScript": true,
+      "statement": "The sun is in heavens.",
+      "answer": false,
+      "expected": "The sun is in the heavens.",
+      "block": "c51",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c51-03",
+      "extra": true
+    },
+    {
+      "id": "c51-03.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַשֶּׁמֶשׁ בַּשָּׁמַיִם",
+      "stimulusIsScript": true,
+      "options": [
+        "The sun is in heavens.",
+        "A sun is in the heavens.",
+        "The sun is in the heavens.",
+        "The sun is from the heavens."
+      ],
+      "answer": "The sun is in the heavens.",
+      "optionIsScript": false,
+      "block": "c51",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c51-03",
+      "extra": true
+    },
+    {
+      "id": "c51-03.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The sun is in the heavens.",
+      "stimulus": "הַשֶּׁמֶשׁ ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "בַּשָּׁמַיִם"
+      ],
+      "answerIsScript": true,
+      "block": "c51",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c51-03",
+      "extra": true
+    },
+    {
+      "id": "c51-03.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הַשֶּׁמֶשׁ בַּשָּׁמַיִם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The sun is in the heavens."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c51",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c51-03",
+      "extra": true
+    },
+    {
+      "id": "c51-03.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The sun is in the heavens.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַשֶּׁמֶשׁ בַּשָּׁמַיִם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c51",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c51-03",
+      "extra": true
+    },
+    {
+      "id": "c51-04.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אַהֲבַת אֱלֹהִים",
+      "stimulusIsScript": true,
+      "statement": "The love of God",
+      "answer": true,
+      "expected": "The love of God",
+      "block": "c51",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c51-04",
+      "extra": true
+    },
+    {
+      "id": "c51-04.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אַהֲבַת אֱלֹהִים",
+      "stimulusIsScript": true,
+      "options": [
+        "The sun is in the heavens.",
+        "The great assembly",
+        "The love of God",
+        "A love of God"
+      ],
+      "answer": "The love of God",
+      "optionIsScript": false,
+      "block": "c51",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c51-04",
+      "extra": true
+    },
+    {
+      "id": "c51-04.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The love of God",
+      "stimulus": "אַהֲבַת ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֱלֹהִים"
+      ],
+      "answerIsScript": true,
+      "block": "c51",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c51-04",
+      "extra": true
+    },
+    {
+      "id": "c51-04.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The love of God",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אַהֲבַת אֱלֹהִים"
+      ],
+      "answerIsScript": true,
+      "block": "c51",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c51-04",
+      "extra": true
+    },
+    {
+      "id": "c51-04.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The love of God",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אַהֲבַת אֱלֹהִים"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c51",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c51-04",
+      "extra": true
+    },
+    {
+      "id": "c51-05.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "קְהַל יִשְׂרָאֵל",
+      "stimulusIsScript": true,
+      "statement": "An assembly of Israel",
+      "answer": false,
+      "expected": "The assembly of Israel",
+      "block": "c51",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c51-05",
+      "extra": true
+    },
+    {
+      "id": "c51-05.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "קְהַל יִשְׂרָאֵל",
+      "stimulusIsScript": true,
+      "options": [
+        "Bone of my bones",
+        "The assembly of Israel",
+        "Sanctify yourselves.",
+        "An assembly of Israel"
+      ],
+      "answer": "The assembly of Israel",
+      "optionIsScript": false,
+      "block": "c51",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c51-05",
+      "extra": true
+    },
+    {
+      "id": "c51-05.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The assembly of Israel",
+      "stimulus": "קְהַל ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "יִשְׂרָאֵל"
+      ],
+      "answerIsScript": true,
+      "block": "c51",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c51-05",
+      "extra": true
+    },
+    {
+      "id": "c51-05.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "קְהַל יִשְׂרָאֵל",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The assembly of Israel"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c51",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c51-05",
+      "extra": true
+    },
+    {
+      "id": "c51-05.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The assembly of Israel",
+      "stimulusIsScript": false,
+      "accepted": [
+        "קְהַל יִשְׂרָאֵל"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c51",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c51-05",
+      "extra": true
+    },
+    {
+      "id": "c51-06.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "עֶצֶם מֵעֲצָמַי",
+      "stimulusIsScript": true,
+      "statement": "Bone of my bones",
+      "answer": true,
+      "expected": "Bone of my bones",
+      "block": "c51",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c51-06",
+      "extra": true
+    },
+    {
+      "id": "c51-06.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "עֶצֶם מֵעֲצָמַי",
+      "stimulusIsScript": true,
+      "options": [
+        "Bone of your bones",
+        "Bone of his bones",
+        "Bone of our bones",
+        "Bone of my bones"
+      ],
+      "answer": "Bone of my bones",
+      "optionIsScript": false,
+      "block": "c51",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c51-06",
+      "extra": true
+    },
+    {
+      "id": "c51-06.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Bone of my bones",
+      "stimulus": "עֶצֶם ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "מֵעֲצָמַי"
+      ],
+      "answerIsScript": true,
+      "block": "c51",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c51-06",
+      "extra": true
+    },
+    {
+      "id": "c51-06.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "עֶצֶם מֵעֲצָמַי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Bone of my bones"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c51",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c51-06",
+      "extra": true
+    },
+    {
+      "id": "c51-06.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Bone of my bones",
+      "stimulusIsScript": false,
+      "accepted": [
+        "עֶצֶם מֵעֲצָמַי"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c51",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c51-06",
+      "extra": true
+    },
+    {
+      "id": "c51-07.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיִּתְקַדְּשׁוּ הַכֹּהֲנִים",
+      "stimulusIsScript": true,
+      "statement": "Priests sanctified themselves.",
+      "answer": false,
+      "expected": "The priests sanctified themselves.",
+      "block": "c51",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c51-07",
+      "extra": true
+    },
+    {
+      "id": "c51-07.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיִּתְקַדְּשׁוּ הַכֹּהֲנִים",
+      "stimulusIsScript": true,
+      "options": [
+        "The great assembly",
+        "The man is walking about in the city.",
+        "Priests sanctified themselves.",
+        "The priests sanctified themselves."
+      ],
+      "answer": "The priests sanctified themselves.",
+      "optionIsScript": false,
+      "block": "c51",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c51-07",
+      "extra": true
+    },
+    {
+      "id": "c51-07.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The priests sanctified themselves.",
+      "stimulus": "וַיִּתְקַדְּשׁוּ ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַכֹּהֲנִים"
+      ],
+      "answerIsScript": true,
+      "block": "c51",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c51-07",
+      "extra": true
+    },
+    {
+      "id": "c51-07.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וַיִּתְקַדְּשׁוּ הַכֹּהֲנִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The priests sanctified themselves."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c51",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c51-07",
+      "extra": true
+    },
+    {
+      "id": "c51-07.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The priests sanctified themselves.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיִּתְקַדְּשׁוּ הַכֹּהֲנִים"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c51",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c51-07",
+      "extra": true
+    },
+    {
+      "id": "c51-08.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַקָּהָל הַגָּדוֹל",
+      "stimulusIsScript": true,
+      "statement": "The great assembly",
+      "answer": true,
+      "expected": "The great assembly",
+      "block": "c51",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c51-08",
+      "extra": true
+    },
+    {
+      "id": "c51-08.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַקָּהָל הַגָּדוֹל",
+      "stimulusIsScript": true,
+      "options": [
+        "A great assembly",
+        "The assembly of Israel",
+        "The great assembly",
+        "Walk before me."
+      ],
+      "answer": "The great assembly",
+      "optionIsScript": false,
+      "block": "c51",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c51-08",
+      "extra": true
+    },
+    {
+      "id": "c51-08.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The great assembly",
+      "stimulus": "＿＿＿ הַגָּדוֹל",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַקָּהָל"
+      ],
+      "answerIsScript": true,
+      "block": "c51",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c51-08",
+      "extra": true
+    },
+    {
+      "id": "c51-08.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The great assembly",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַקָּהָל הַגָּדוֹל"
+      ],
+      "answerIsScript": true,
+      "block": "c51",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c51-08",
+      "extra": true
+    },
+    {
+      "id": "c51-08.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The great assembly",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַקָּהָל הַגָּדוֹל"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c51",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c51-08",
+      "extra": true
+    },
+    {
+      "id": "c51-09.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָאִישׁ מִתְהַלֵּךְ בָּעִיר",
+      "stimulusIsScript": true,
+      "statement": "A man is walking about in the city.",
+      "answer": false,
+      "expected": "The man is walking about in the city.",
+      "block": "c51",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c51-09",
+      "extra": true
+    },
+    {
+      "id": "c51-09.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָאִישׁ מִתְהַלֵּךְ בָּעִיר",
+      "stimulusIsScript": true,
+      "options": [
+        "The man is walking about in the city.",
+        "The man is walking about in a city.",
+        "A man is walking about in the city.",
+        "The man is walking about to the city."
+      ],
+      "answer": "The man is walking about in the city.",
+      "optionIsScript": false,
+      "block": "c51",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c51-09",
+      "extra": true
+    },
+    {
+      "id": "c51-09.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The man is walking about in the city.",
+      "stimulus": "הָאִישׁ מִתְהַלֵּךְ ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "בָּעִיר"
+      ],
+      "answerIsScript": true,
+      "block": "c51",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c51-09",
+      "extra": true
+    },
+    {
+      "id": "c51-09.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הָאִישׁ מִתְהַלֵּךְ בָּעִיר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The man is walking about in the city."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c51",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c51-09",
+      "extra": true
+    },
+    {
+      "id": "c51-09.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The man is walking about in the city.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאִישׁ מִתְהַלֵּךְ בָּעִיר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c51",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c51-09",
+      "extra": true
     }
   ]
 }

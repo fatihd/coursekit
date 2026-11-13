@@ -69,6 +69,7 @@
         "targetItems": { "type": "integer", "minimum": 1 },
         "reviewItems": { "type": "integer", "minimum": 0 },
         "authoredPerSession": { "type": "integer", "minimum": 1 },
+        "ladderTarget": { "type": "integer", "minimum": 1, "description": "Right answers per ladder rung a unit needs: all of the book's exercises, topped up from the extra (corpus) items; without it every extra item is needed" },
         "vocabPerSession": { "type": "integer", "minimum": 0 },
         "unlockRung": { "type": "integer", "minimum": 1, "maximum": 9 },
         "wordLadder": { "type": "boolean" },

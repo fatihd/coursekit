@@ -131,7 +131,7 @@ large, growing exercise corpus. Applies to Davidson first.
 | P12-T12 | Words track | ✅ Done 2026-11-12 (ADR-023): per-unit Words section, four word rungs, own sessions and progress, word star on the roadmap, optional for unlocking | `e2e.py --words` |
 | P12-T13 | Drill mode | ✅ Done 2026-11-12 (ADR-024, feature `retries`): hinted retry, requeue at the end of the session, first-try credit only | `e2e.py --modes` |
 | P12-T14 | Test mode | ✅ Done 2026-11-12 (ADR-024, feature `tests`): unit test (testing out at 80%), part tests, mock final; one attempt, graded at the end, self-marking for English, results in `progress.tests` | `e2e.py --modes` |
-| P12-T5 | Corpus expansion (offline authoring pass, later) | Written into the static course data: new exercises per unit from its grammar and words, and Bible-prose excerpts (open texts) fitting what is taught; every rung populated in every unit | Count per unit per rung reported; a retake shows different items |
+| P12-T5 | Corpus expansion (offline authoring pass) | ✅ First pass done 2026-11-12 (ADR-026): 659 sentences written for the course (`build/_sources/davidson/corpus.json`, every word form attested in the Hebrew Bible, placed by the words and grammar its OSHB analyses show) and 65 whole Bible verses that use only course words (`bible-excerpts.json`, World English Bible translation), units 16–79; 8,281 ladder items (was 5,385). They top each rung up to `ladderTarget` (20) right answers; the rest are practice and test material. Later passes: more sentences for units 13–15 and 72–79 (few new words to build on), recognition items for units 1–5, 7, 8, 13 | Count per unit per rung reported; a retake shows different items |
 
 ---
 

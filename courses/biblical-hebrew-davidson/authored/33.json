@@ -10,6 +10,33 @@
       "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n146.jpg",
       "exwb": "davidson-s49#B3",
       "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "c33-01": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c33-02": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c33-03": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c33-04": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c33-05": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c33-06": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c33-07": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c33-08": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c33-09": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
     }
   },
   "items": [
@@ -101,6 +128,863 @@
       "blockLabel": "Davidson §49",
       "shape": "en-he",
       "src": "s49-B3"
+    },
+    {
+      "id": "c33-01.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אִם הָאִישׁ הַזֶּה נָבִיא אֱלֹהִים עִמּוֹ",
+      "stimulusIsScript": true,
+      "statement": "If this man is the prophet, God is with him.",
+      "answer": false,
+      "expected": "If this man is a prophet, God is with him.",
+      "block": "c33",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c33-01",
+      "extra": true
+    },
+    {
+      "id": "c33-01.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אִם הָאִישׁ הַזֶּה נָבִיא אֱלֹהִים עִמּוֹ",
+      "stimulusIsScript": true,
+      "options": [
+        "If this man is the prophet, God is with him.",
+        "If that man is a prophet, God is with him.",
+        "If this man is a prophet, God is with him.",
+        "If this man is a prophet, God is with me."
+      ],
+      "answer": "If this man is a prophet, God is with him.",
+      "optionIsScript": false,
+      "block": "c33",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c33-01",
+      "extra": true
+    },
+    {
+      "id": "c33-01.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: If this man is a prophet, God is with him.",
+      "stimulus": "אִם הָאִישׁ הַזֶּה נָבִיא ＿＿＿ עִמּוֹ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֱלֹהִים"
+      ],
+      "answerIsScript": true,
+      "block": "c33",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c33-01",
+      "extra": true
+    },
+    {
+      "id": "c33-01.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "אִם הָאִישׁ הַזֶּה נָבִיא אֱלֹהִים עִמּוֹ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "If this man is a prophet, God is with him."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c33",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c33-01",
+      "extra": true
+    },
+    {
+      "id": "c33-01.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "If this man is a prophet, God is with him.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אִם הָאִישׁ הַזֶּה נָבִיא אֱלֹהִים עִמּוֹ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c33",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c33-01",
+      "extra": true
+    },
+    {
+      "id": "c33-02.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָאִישׁ יָשַׁב בַּשַּׁעַר",
+      "stimulusIsScript": true,
+      "statement": "The man sat in the gate.",
+      "answer": true,
+      "expected": "The man sat in the gate.",
+      "block": "c33",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c33-02",
+      "extra": true
+    },
+    {
+      "id": "c33-02.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָאִישׁ יָשַׁב בַּשַּׁעַר",
+      "stimulusIsScript": true,
+      "options": [
+        "The man sat in a gate.",
+        "A man sat in the gate.",
+        "The man sat in the gate.",
+        "The man sat to the gate."
+      ],
+      "answer": "The man sat in the gate.",
+      "optionIsScript": false,
+      "block": "c33",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c33-02",
+      "extra": true
+    },
+    {
+      "id": "c33-02.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The man sat in the gate.",
+      "stimulus": "הָאִישׁ ＿＿＿ בַּשַּׁעַר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "יָשַׁב"
+      ],
+      "answerIsScript": true,
+      "block": "c33",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c33-02",
+      "extra": true
+    },
+    {
+      "id": "c33-02.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הָאִישׁ יָשַׁב בַּשַּׁעַר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The man sat in the gate."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c33",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c33-02",
+      "extra": true
+    },
+    {
+      "id": "c33-02.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The man sat in the gate.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאִישׁ יָשַׁב בַּשַּׁעַר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c33",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c33-02",
+      "extra": true
+    },
+    {
+      "id": "c33-03.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַנָּבִיא יָשַׁב בָּאֹהֶל",
+      "stimulusIsScript": true,
+      "statement": "A prophet sat in the tent.",
+      "answer": false,
+      "expected": "The prophet sat in the tent.",
+      "block": "c33",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c33-03",
+      "extra": true
+    },
+    {
+      "id": "c33-03.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַנָּבִיא יָשַׁב בָּאֹהֶל",
+      "stimulusIsScript": true,
+      "options": [
+        "The prophet sat in a tent.",
+        "The prophet sat in the tent.",
+        "The prophet sat to the tent.",
+        "A prophet sat in the tent."
+      ],
+      "answer": "The prophet sat in the tent.",
+      "optionIsScript": false,
+      "block": "c33",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c33-03",
+      "extra": true
+    },
+    {
+      "id": "c33-03.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The prophet sat in the tent.",
+      "stimulus": "הַנָּבִיא ＿＿＿ בָּאֹהֶל",
+      "stimulusIsScript": true,
+      "accepted": [
+        "יָשַׁב"
+      ],
+      "answerIsScript": true,
+      "block": "c33",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c33-03",
+      "extra": true
+    },
+    {
+      "id": "c33-03.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The prophet sat in the tent.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַנָּבִיא יָשַׁב בָּאֹהֶל",
+        "יָשַׁב הַנָּבִיא בָּאֹהֶל"
+      ],
+      "answerIsScript": true,
+      "block": "c33",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c33-03",
+      "extra": true
+    },
+    {
+      "id": "c33-03.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The prophet sat in the tent.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַנָּבִיא יָשַׁב בָּאֹהֶל",
+        "יָשַׁב הַנָּבִיא בָּאֹהֶל"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c33",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c33-03",
+      "extra": true
+    },
+    {
+      "id": "c33-04.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָעָם סָבִיב לָעִיר",
+      "stimulusIsScript": true,
+      "statement": "A people are around the city.",
+      "answer": false,
+      "expected": "The people are around the city.",
+      "block": "c33",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c33-04",
+      "extra": true
+    },
+    {
+      "id": "c33-04.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָעָם סָבִיב לָעִיר",
+      "stimulusIsScript": true,
+      "options": [
+        "The people are around a city.",
+        "A people are around the city.",
+        "The prophet sat in the tent.",
+        "The people are around the city."
+      ],
+      "answer": "The people are around the city.",
+      "optionIsScript": false,
+      "block": "c33",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c33-04",
+      "extra": true
+    },
+    {
+      "id": "c33-04.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The people are around the city.",
+      "stimulus": "הָעָם סָבִיב ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "לָעִיר"
+      ],
+      "answerIsScript": true,
+      "block": "c33",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c33-04",
+      "extra": true
+    },
+    {
+      "id": "c33-04.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הָעָם סָבִיב לָעִיר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The people are around the city."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c33",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c33-04",
+      "extra": true
+    },
+    {
+      "id": "c33-04.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The people are around the city.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָעָם סָבִיב לָעִיר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c33",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c33-04",
+      "extra": true
+    },
+    {
+      "id": "c33-05.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "שַׁעַר הָעִיר",
+      "stimulusIsScript": true,
+      "statement": "The gate of the city",
+      "answer": true,
+      "expected": "The gate of the city",
+      "block": "c33",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c33-05",
+      "extra": true
+    },
+    {
+      "id": "c33-05.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "שַׁעַר הָעִיר",
+      "stimulusIsScript": true,
+      "options": [
+        "The gate of the city",
+        "The gate of a city",
+        "A gate of the city",
+        "On the tenth day"
+      ],
+      "answer": "The gate of the city",
+      "optionIsScript": false,
+      "block": "c33",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c33-05",
+      "extra": true
+    },
+    {
+      "id": "c33-05.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The gate of the city",
+      "stimulus": "＿＿＿ הָעִיר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "שַׁעַר"
+      ],
+      "answerIsScript": true,
+      "block": "c33",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c33-05",
+      "extra": true
+    },
+    {
+      "id": "c33-05.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "שַׁעַר הָעִיר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The gate of the city"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c33",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c33-05",
+      "extra": true
+    },
+    {
+      "id": "c33-05.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The gate of the city",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שַׁעַר הָעִיר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c33",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c33-05",
+      "extra": true
+    },
+    {
+      "id": "c33-06.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַמֶּלֶךְ יָצָא מִן־הַשַּׁעַר",
+      "stimulusIsScript": true,
+      "statement": "The king went out from the gate.",
+      "answer": true,
+      "expected": "The king went out from the gate.",
+      "block": "c33",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c33-06",
+      "extra": true
+    },
+    {
+      "id": "c33-06.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַמֶּלֶךְ יָצָא מִן־הַשַּׁעַר",
+      "stimulusIsScript": true,
+      "options": [
+        "The king went out from a gate.",
+        "The king went out in the gate.",
+        "The king went out from the gate.",
+        "The king went out to the gate."
+      ],
+      "answer": "The king went out from the gate.",
+      "optionIsScript": false,
+      "block": "c33",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c33-06",
+      "extra": true
+    },
+    {
+      "id": "c33-06.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The king went out from the gate.",
+      "stimulus": "＿＿＿ יָצָא מִן־הַשַּׁעַר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַמֶּלֶךְ"
+      ],
+      "answerIsScript": true,
+      "block": "c33",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c33-06",
+      "extra": true
+    },
+    {
+      "id": "c33-06.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The king went out from the gate.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַמֶּלֶךְ יָצָא מִן־הַשַּׁעַר",
+        "יָצָא הַמֶּלֶךְ מִן־הַשַּׁעַר"
+      ],
+      "answerIsScript": true,
+      "block": "c33",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c33-06",
+      "extra": true
+    },
+    {
+      "id": "c33-06.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The king went out from the gate.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַמֶּלֶךְ יָצָא מִן־הַשַּׁעַר",
+        "יָצָא הַמֶּלֶךְ מִן־הַשַּׁעַר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c33",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c33-06",
+      "extra": true
+    },
+    {
+      "id": "c33-07.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אֹהֶל הַמֶּלֶךְ",
+      "stimulusIsScript": true,
+      "statement": "The tent of the king",
+      "answer": true,
+      "expected": "The tent of the king",
+      "block": "c33",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c33-07",
+      "extra": true
+    },
+    {
+      "id": "c33-07.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אֹהֶל הַמֶּלֶךְ",
+      "stimulusIsScript": true,
+      "options": [
+        "A tent of the king",
+        "The king went out from the gate.",
+        "The tent of the king",
+        "The tent of a king"
+      ],
+      "answer": "The tent of the king",
+      "optionIsScript": false,
+      "block": "c33",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c33-07",
+      "extra": true
+    },
+    {
+      "id": "c33-07.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The tent of the king",
+      "stimulus": "אֹהֶל ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַמֶּלֶךְ"
+      ],
+      "answerIsScript": true,
+      "block": "c33",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c33-07",
+      "extra": true
+    },
+    {
+      "id": "c33-07.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "אֹהֶל הַמֶּלֶךְ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The tent of the king"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c33",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c33-07",
+      "extra": true
+    },
+    {
+      "id": "c33-07.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The tent of the king",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֹהֶל הַמֶּלֶךְ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c33",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c33-07",
+      "extra": true
+    },
+    {
+      "id": "c33-08.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַחֹדֶשׁ הַשְּׁמִינִי",
+      "stimulusIsScript": true,
+      "statement": "The eighth month",
+      "answer": true,
+      "expected": "The eighth month",
+      "block": "c33",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c33-08",
+      "extra": true
+    },
+    {
+      "id": "c33-08.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַחֹדֶשׁ הַשְּׁמִינִי",
+      "stimulusIsScript": true,
+      "options": [
+        "If this man is a prophet, God is with him.",
+        "An eighth month",
+        "The eighth month",
+        "The gate of the city"
+      ],
+      "answer": "The eighth month",
+      "optionIsScript": false,
+      "block": "c33",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c33-08",
+      "extra": true
+    },
+    {
+      "id": "c33-08.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The eighth month",
+      "stimulus": "הַחֹדֶשׁ ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַשְּׁמִינִי"
+      ],
+      "answerIsScript": true,
+      "block": "c33",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c33-08",
+      "extra": true
+    },
+    {
+      "id": "c33-08.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הַחֹדֶשׁ הַשְּׁמִינִי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The eighth month"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c33",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c33-08",
+      "extra": true
+    },
+    {
+      "id": "c33-08.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The eighth month",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַחֹדֶשׁ הַשְּׁמִינִי"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c33",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c33-08",
+      "extra": true
+    },
+    {
+      "id": "c33-09.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "בַּיּוֹם הָעֲשִׂירִי",
+      "stimulusIsScript": true,
+      "statement": "On a tenth day",
+      "answer": false,
+      "expected": "On the tenth day",
+      "block": "c33",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c33-09",
+      "extra": true
+    },
+    {
+      "id": "c33-09.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "בַּיּוֹם הָעֲשִׂירִי",
+      "stimulusIsScript": true,
+      "options": [
+        "On a tenth day",
+        "To the tenth day",
+        "From the tenth day",
+        "On the tenth day"
+      ],
+      "answer": "On the tenth day",
+      "optionIsScript": false,
+      "block": "c33",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c33-09",
+      "extra": true
+    },
+    {
+      "id": "c33-09.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: On the tenth day",
+      "stimulus": "＿＿＿ הָעֲשִׂירִי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "בַּיּוֹם"
+      ],
+      "answerIsScript": true,
+      "block": "c33",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c33-09",
+      "extra": true
+    },
+    {
+      "id": "c33-09.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "בַּיּוֹם הָעֲשִׂירִי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "On the tenth day"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c33",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c33-09",
+      "extra": true
+    },
+    {
+      "id": "c33-09.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "On the tenth day",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בַּיּוֹם הָעֲשִׂירִי"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c33",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c33-09",
+      "extra": true
     }
   ]
 }

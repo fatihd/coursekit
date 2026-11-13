@@ -37,6 +37,17 @@ Hebrew review**; that review and editing is a release gate.
 - 19th edition (1914), historical: <https://archive.org/details/introductoryheb00daviuoft>
 - Edition-compatibility audit and local source checksums: `build/_sources/davidson/SOURCES.md`
 
+## New sentences and Bible verses
+
+- The drills marked **New sentences** were written for this course. Every Hebrew word form in them is
+  attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar; the English is the
+  course's own. Same license as the course's own content (below).
+- The drills marked **Bible verses** quote whole verses of the Hebrew Bible: Westminster Leningrad Codex
+  (public domain) as published by the Open Scriptures Hebrew Bible, whose morphology (CC BY 4.0) chose and
+  placed them, cantillation removed; English from the **World English Bible** (public domain;
+  "World English Bible" is a trademark of eBible.org), with LORD written Yahweh.
+  <https://github.com/openscriptures/morphhb>, <https://worldenglish.bible>
+
 ## Reference and supplementary sources
 
 - **Gesenius–Kautzsch–Cowley,** *Gesenius' Hebrew Grammar* (2nd English ed., 1910).

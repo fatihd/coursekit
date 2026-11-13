@@ -55,6 +55,43 @@
       "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n142.jpg",
       "exwb": "davidson-s48#A10",
       "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "c39-01": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c39-02": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c39-03": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c39-04": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c39-05": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c39-06": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c39-07": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c39-08": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c39-09": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c39-10": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c39-11": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "b-Exod-23-32": {
+      "citation": "Exodus 23:32. Hebrew: Westminster Leningrad Codex (public domain) via the Open Scriptures Hebrew Bible (morphology CC BY 4.0). English: World English Bible (public domain)",
+      "url": "https://worldenglish.bible"
     }
   },
   "items": [
@@ -264,8 +301,8 @@
       "stimulus": "וְאֶת־הָעֵגֶל לָקַחְתִּי וָאֶשְׂרֹף אֹתוֹ בָּאֵשׁ",
       "stimulusIsScript": true,
       "options": [
-        "And the calf we took and burnt it with (in the) fire.",
-        "And the calf they took and burnt it with (in the) fire.",
+        "And the calf you took and burnt it with (in the) fire.",
+        "And the calf he took and burnt it with (in the) fire.",
         "And the calf I took and burnt it with (in the) fire.",
         "And a calf I took and burnt it with (in the) fire."
       ],
@@ -445,7 +482,7 @@
         "And I remembered their words.",
         "And I remembered my words.",
         "And I remembered his words.",
-        "And we remembered his words."
+        "And you remembered his words."
       ],
       "answer": "And I remembered his words.",
       "optionIsScript": false,
@@ -597,6 +634,1124 @@
       "blockLabel": "Davidson §48",
       "shape": "he-en",
       "src": "s48-A10"
+    },
+    {
+      "id": "c39-01.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיִּזְכֹּר אֱלֹהִים אֶת־נֹחַ",
+      "stimulusIsScript": true,
+      "statement": "God remembered Noah.",
+      "answer": true,
+      "expected": "God remembered Noah.",
+      "block": "c39",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c39-01",
+      "extra": true
+    },
+    {
+      "id": "c39-01.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיִּזְכֹּר אֱלֹהִים אֶת־נֹחַ",
+      "stimulusIsScript": true,
+      "options": [
+        "They kept the covenant.",
+        "They pursued them.",
+        "He judged the people.",
+        "God remembered Noah."
+      ],
+      "answer": "God remembered Noah.",
+      "optionIsScript": false,
+      "block": "c39",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c39-01",
+      "extra": true
+    },
+    {
+      "id": "c39-01.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: God remembered Noah.",
+      "stimulus": "＿＿＿ אֱלֹהִים אֶת־נֹחַ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וַיִּזְכֹּר"
+      ],
+      "answerIsScript": true,
+      "block": "c39",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c39-01",
+      "extra": true
+    },
+    {
+      "id": "c39-01.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וַיִּזְכֹּר אֱלֹהִים אֶת־נֹחַ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "God remembered Noah."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c39",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c39-01",
+      "extra": true
+    },
+    {
+      "id": "c39-01.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "God remembered Noah.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיִּזְכֹּר אֱלֹהִים אֶת־נֹחַ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c39",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c39-01",
+      "extra": true
+    },
+    {
+      "id": "c39-02.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיִּמְלֹךְ הַמֶּלֶךְ אַרְבָּעִים שָׁנָה",
+      "stimulusIsScript": true,
+      "statement": "The king reigned forty years.",
+      "answer": true,
+      "expected": "The king reigned forty years.",
+      "block": "c39",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c39-02",
+      "extra": true
+    },
+    {
+      "id": "c39-02.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיִּמְלֹךְ הַמֶּלֶךְ אַרְבָּעִים שָׁנָה",
+      "stimulusIsScript": true,
+      "options": [
+        "The king reigned forty years.",
+        "He judged the people.",
+        "They buried him in the city.",
+        "A king reigned forty years."
+      ],
+      "answer": "The king reigned forty years.",
+      "optionIsScript": false,
+      "block": "c39",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c39-02",
+      "extra": true
+    },
+    {
+      "id": "c39-02.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The king reigned forty years.",
+      "stimulus": "וַיִּמְלֹךְ ＿＿＿ אַרְבָּעִים שָׁנָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַמֶּלֶךְ"
+      ],
+      "answerIsScript": true,
+      "block": "c39",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c39-02",
+      "extra": true
+    },
+    {
+      "id": "c39-02.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The king reigned forty years.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיִּמְלֹךְ הַמֶּלֶךְ אַרְבָּעִים שָׁנָה"
+      ],
+      "answerIsScript": true,
+      "block": "c39",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c39-02",
+      "extra": true
+    },
+    {
+      "id": "c39-02.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The king reigned forty years.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיִּמְלֹךְ הַמֶּלֶךְ אַרְבָּעִים שָׁנָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c39",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c39-02",
+      "extra": true
+    },
+    {
+      "id": "c39-03.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיִּשְׁמְרוּ אֶת־הַבְּרִית",
+      "stimulusIsScript": true,
+      "statement": "They kept a covenant.",
+      "answer": false,
+      "expected": "They kept the covenant.",
+      "block": "c39",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c39-03",
+      "extra": true
+    },
+    {
+      "id": "c39-03.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיִּשְׁמְרוּ אֶת־הַבְּרִית",
+      "stimulusIsScript": true,
+      "options": [
+        "We kept the covenant.",
+        "You kept the covenant.",
+        "They kept a covenant.",
+        "They kept the covenant."
+      ],
+      "answer": "They kept the covenant.",
+      "optionIsScript": false,
+      "block": "c39",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c39-03",
+      "extra": true
+    },
+    {
+      "id": "c39-03.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: They kept the covenant.",
+      "stimulus": "וַיִּשְׁמְרוּ ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶת־הַבְּרִית"
+      ],
+      "answerIsScript": true,
+      "block": "c39",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c39-03",
+      "extra": true
+    },
+    {
+      "id": "c39-03.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וַיִּשְׁמְרוּ אֶת־הַבְּרִית",
+      "stimulusIsScript": true,
+      "accepted": [
+        "They kept the covenant."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c39",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c39-03",
+      "extra": true
+    },
+    {
+      "id": "c39-03.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "They kept the covenant.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיִּשְׁמְרוּ אֶת־הַבְּרִית"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c39",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c39-03",
+      "extra": true
+    },
+    {
+      "id": "c39-04.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיִּרְדְּפוּ אַחֲרֵיהֶם",
+      "stimulusIsScript": true,
+      "statement": "We pursued them.",
+      "answer": false,
+      "expected": "They pursued them.",
+      "block": "c39",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c39-04",
+      "extra": true
+    },
+    {
+      "id": "c39-04.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיִּרְדְּפוּ אַחֲרֵיהֶם",
+      "stimulusIsScript": true,
+      "options": [
+        "We pursued them.",
+        "They pursued them.",
+        "They pursued him.",
+        "You pursued them."
+      ],
+      "answer": "They pursued them.",
+      "optionIsScript": false,
+      "block": "c39",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c39-04",
+      "extra": true
+    },
+    {
+      "id": "c39-04.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: They pursued them.",
+      "stimulus": "וַיִּרְדְּפוּ ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אַחֲרֵיהֶם"
+      ],
+      "answerIsScript": true,
+      "block": "c39",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c39-04",
+      "extra": true
+    },
+    {
+      "id": "c39-04.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וַיִּרְדְּפוּ אַחֲרֵיהֶם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "They pursued them."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c39",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c39-04",
+      "extra": true
+    },
+    {
+      "id": "c39-04.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "They pursued them.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיִּרְדְּפוּ אַחֲרֵיהֶם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c39",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c39-04",
+      "extra": true
+    },
+    {
+      "id": "c39-05.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיִּכְתֹּב מֹשֶׁה אֶת־הַתּוֹרָה הַזֹּאת",
+      "stimulusIsScript": true,
+      "statement": "Moses wrote that instruction.",
+      "answer": false,
+      "expected": "Moses wrote this instruction.",
+      "block": "c39",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c39-05",
+      "extra": true
+    },
+    {
+      "id": "c39-05.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיִּכְתֹּב מֹשֶׁה אֶת־הַתּוֹרָה הַזֹּאת",
+      "stimulusIsScript": true,
+      "options": [
+        "He lay down there.",
+        "Moses wrote that instruction.",
+        "Moses wrote this instruction.",
+        "They kept the covenant."
+      ],
+      "answer": "Moses wrote this instruction.",
+      "optionIsScript": false,
+      "block": "c39",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c39-05",
+      "extra": true
+    },
+    {
+      "id": "c39-05.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Moses wrote this instruction.",
+      "stimulus": "וַיִּכְתֹּב מֹשֶׁה ＿＿＿ הַזֹּאת",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶת־הַתּוֹרָה"
+      ],
+      "answerIsScript": true,
+      "block": "c39",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c39-05",
+      "extra": true
+    },
+    {
+      "id": "c39-05.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וַיִּכְתֹּב מֹשֶׁה אֶת־הַתּוֹרָה הַזֹּאת",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Moses wrote this instruction."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c39",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c39-05",
+      "extra": true
+    },
+    {
+      "id": "c39-05.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Moses wrote this instruction.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיִּכְתֹּב מֹשֶׁה אֶת־הַתּוֹרָה הַזֹּאת"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c39",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c39-05",
+      "extra": true
+    },
+    {
+      "id": "c39-06.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיִּכְרֹת בְּרִית עִם־הָעָם",
+      "stimulusIsScript": true,
+      "statement": "He made a covenant with the people.",
+      "answer": true,
+      "expected": "He made a covenant with the people.",
+      "block": "c39",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c39-06",
+      "extra": true
+    },
+    {
+      "id": "c39-06.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיִּכְרֹת בְּרִית עִם־הָעָם",
+      "stimulusIsScript": true,
+      "options": [
+        "He made the covenant with the people.",
+        "He made a covenant with the people.",
+        "She made a covenant with the people.",
+        "He made a covenant with a people."
+      ],
+      "answer": "He made a covenant with the people.",
+      "optionIsScript": false,
+      "block": "c39",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c39-06",
+      "extra": true
+    },
+    {
+      "id": "c39-06.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: He made a covenant with the people.",
+      "stimulus": "＿＿＿ בְּרִית עִם־הָעָם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וַיִּכְרֹת"
+      ],
+      "answerIsScript": true,
+      "block": "c39",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c39-06",
+      "extra": true
+    },
+    {
+      "id": "c39-06.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "He made a covenant with the people.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיִּכְרֹת בְּרִית עִם־הָעָם"
+      ],
+      "answerIsScript": true,
+      "block": "c39",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c39-06",
+      "extra": true
+    },
+    {
+      "id": "c39-06.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "He made a covenant with the people.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיִּכְרֹת בְּרִית עִם־הָעָם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c39",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c39-06",
+      "extra": true
+    },
+    {
+      "id": "c39-07.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיִּשְׁכַּב שָׁם",
+      "stimulusIsScript": true,
+      "statement": "She lay down there.",
+      "answer": false,
+      "expected": "He lay down there.",
+      "block": "c39",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c39-07",
+      "extra": true
+    },
+    {
+      "id": "c39-07.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיִּשְׁכַּב שָׁם",
+      "stimulusIsScript": true,
+      "options": [
+        "They captured the city.",
+        "She lay down there.",
+        "He lay down there.",
+        "They kept the covenant."
+      ],
+      "answer": "He lay down there.",
+      "optionIsScript": false,
+      "block": "c39",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c39-07",
+      "extra": true
+    },
+    {
+      "id": "c39-07.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: He lay down there.",
+      "stimulus": "וַיִּשְׁכַּב ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "שָׁם"
+      ],
+      "answerIsScript": true,
+      "block": "c39",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c39-07",
+      "extra": true
+    },
+    {
+      "id": "c39-07.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וַיִּשְׁכַּב שָׁם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "He lay down there."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c39",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c39-07",
+      "extra": true
+    },
+    {
+      "id": "c39-07.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "He lay down there.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיִּשְׁכַּב שָׁם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c39",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c39-07",
+      "extra": true
+    },
+    {
+      "id": "c39-08.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיִּקְבְּרוּ אֹתוֹ בָּעִיר",
+      "stimulusIsScript": true,
+      "statement": "They buried him in the city.",
+      "answer": true,
+      "expected": "They buried him in the city.",
+      "block": "c39",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c39-08",
+      "extra": true
+    },
+    {
+      "id": "c39-08.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיִּקְבְּרוּ אֹתוֹ בָּעִיר",
+      "stimulusIsScript": true,
+      "options": [
+        "They buried them in the city.",
+        "You buried him in the city.",
+        "They buried him in the city.",
+        "They buried him to the city."
+      ],
+      "answer": "They buried him in the city.",
+      "optionIsScript": false,
+      "block": "c39",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c39-08",
+      "extra": true
+    },
+    {
+      "id": "c39-08.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: They buried him in the city.",
+      "stimulus": "וַיִּקְבְּרוּ ＿＿＿ בָּעִיר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֹתוֹ"
+      ],
+      "answerIsScript": true,
+      "block": "c39",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c39-08",
+      "extra": true
+    },
+    {
+      "id": "c39-08.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וַיִּקְבְּרוּ אֹתוֹ בָּעִיר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "They buried him in the city."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c39",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c39-08",
+      "extra": true
+    },
+    {
+      "id": "c39-08.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "They buried him in the city.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיִּקְבְּרוּ אֹתוֹ בָּעִיר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c39",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c39-08",
+      "extra": true
+    },
+    {
+      "id": "c39-09.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיִּשְׁפֹּט אֶת־הָעָם",
+      "stimulusIsScript": true,
+      "statement": "She judged the people.",
+      "answer": false,
+      "expected": "He judged the people.",
+      "block": "c39",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c39-09",
+      "extra": true
+    },
+    {
+      "id": "c39-09.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיִּשְׁפֹּט אֶת־הָעָם",
+      "stimulusIsScript": true,
+      "options": [
+        "He judged the people.",
+        "They buried him in the city.",
+        "He judged a people.",
+        "She judged the people."
+      ],
+      "answer": "He judged the people.",
+      "optionIsScript": false,
+      "block": "c39",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c39-09",
+      "extra": true
+    },
+    {
+      "id": "c39-09.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: He judged the people.",
+      "stimulus": "וַיִּשְׁפֹּט ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶת־הָעָם"
+      ],
+      "answerIsScript": true,
+      "block": "c39",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c39-09",
+      "extra": true
+    },
+    {
+      "id": "c39-09.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "He judged the people.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיִּשְׁפֹּט אֶת־הָעָם"
+      ],
+      "answerIsScript": true,
+      "block": "c39",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c39-09",
+      "extra": true
+    },
+    {
+      "id": "c39-09.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "He judged the people.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיִּשְׁפֹּט אֶת־הָעָם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c39",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c39-09",
+      "extra": true
+    },
+    {
+      "id": "c39-10.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיִּלְכְּדוּ אֶת־הָעִיר",
+      "stimulusIsScript": true,
+      "statement": "You captured the city.",
+      "answer": false,
+      "expected": "They captured the city.",
+      "block": "c39",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c39-10",
+      "extra": true
+    },
+    {
+      "id": "c39-10.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיִּלְכְּדוּ אֶת־הָעִיר",
+      "stimulusIsScript": true,
+      "options": [
+        "You captured the city.",
+        "They captured a city.",
+        "We captured the city.",
+        "They captured the city."
+      ],
+      "answer": "They captured the city.",
+      "optionIsScript": false,
+      "block": "c39",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c39-10",
+      "extra": true
+    },
+    {
+      "id": "c39-10.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: They captured the city.",
+      "stimulus": "＿＿＿ אֶת־הָעִיר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וַיִּלְכְּדוּ"
+      ],
+      "answerIsScript": true,
+      "block": "c39",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c39-10",
+      "extra": true
+    },
+    {
+      "id": "c39-10.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וַיִּלְכְּדוּ אֶת־הָעִיר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "They captured the city."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c39",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c39-10",
+      "extra": true
+    },
+    {
+      "id": "c39-10.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "They captured the city.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיִּלְכְּדוּ אֶת־הָעִיר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c39",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c39-10",
+      "extra": true
+    },
+    {
+      "id": "c39-11.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיִּשְׂרְפוּ אֶת־הָעִיר בָּאֵשׁ",
+      "stimulusIsScript": true,
+      "statement": "We burned the city with fire.",
+      "answer": false,
+      "expected": "They burned the city with fire.",
+      "block": "c39",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c39-11",
+      "extra": true
+    },
+    {
+      "id": "c39-11.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיִּשְׂרְפוּ אֶת־הָעִיר בָּאֵשׁ",
+      "stimulusIsScript": true,
+      "options": [
+        "You burned the city with fire.",
+        "They burned a city with fire.",
+        "We burned the city with fire.",
+        "They burned the city with fire."
+      ],
+      "answer": "They burned the city with fire.",
+      "optionIsScript": false,
+      "block": "c39",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c39-11",
+      "extra": true
+    },
+    {
+      "id": "c39-11.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: They burned the city with fire.",
+      "stimulus": "וַיִּשְׂרְפוּ אֶת־הָעִיר ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "בָּאֵשׁ"
+      ],
+      "answerIsScript": true,
+      "block": "c39",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c39-11",
+      "extra": true
+    },
+    {
+      "id": "c39-11.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וַיִּשְׂרְפוּ אֶת־הָעִיר בָּאֵשׁ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "They burned the city with fire."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c39",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c39-11",
+      "extra": true
+    },
+    {
+      "id": "c39-11.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "They burned the city with fire.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיִּשְׂרְפוּ אֶת־הָעִיר בָּאֵשׁ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c39",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c39-11",
+      "extra": true
+    },
+    {
+      "id": "b-Exod-23-32.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "לֹא־תִכְרֹת לָהֶם וְלֵאלֹהֵיהֶם בְּרִית",
+      "stimulusIsScript": true,
+      "statement": "You shall make no covenant with us, nor with their gods.",
+      "answer": false,
+      "expected": "You shall make no covenant with them, nor with their gods.",
+      "block": "b39",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Exod-23-32",
+      "extra": true
+    },
+    {
+      "id": "b-Exod-23-32.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "לֹא־תִכְרֹת לָהֶם וְלֵאלֹהֵיהֶם בְּרִית",
+      "stimulusIsScript": true,
+      "options": [
+        "You shall make no covenant with them, nor with our gods.",
+        "You shall make no covenant with them, nor with their gods.",
+        "You shall make no covenant with him, nor with their gods.",
+        "You shall make no covenant with us, nor with their gods."
+      ],
+      "answer": "You shall make no covenant with them, nor with their gods.",
+      "optionIsScript": false,
+      "block": "b39",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Exod-23-32",
+      "extra": true
+    },
+    {
+      "id": "b-Exod-23-32.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: You shall make no covenant with them, nor with their gods.",
+      "stimulus": "לֹא־תִכְרֹת לָהֶם וְלֵאלֹהֵיהֶם ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "בְּרִית"
+      ],
+      "answerIsScript": true,
+      "block": "b39",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Exod-23-32",
+      "extra": true
+    },
+    {
+      "id": "b-Exod-23-32.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "לֹא־תִכְרֹת לָהֶם וְלֵאלֹהֵיהֶם בְּרִית",
+      "stimulusIsScript": true,
+      "accepted": [
+        "You shall make no covenant with them, nor with their gods."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "b39",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Exod-23-32",
+      "extra": true
     }
   ]
 }

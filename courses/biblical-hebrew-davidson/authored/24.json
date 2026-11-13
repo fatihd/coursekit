@@ -208,6 +208,42 @@
       "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n72.jpg",
       "exwb": "davidson-s30#C1",
       "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "c24-01": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c24-02": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c24-03": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c24-04": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c24-05": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c24-06": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c24-07": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c24-08": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c24-09": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c24-10": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c24-11": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c24-12": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
     }
   },
   "items": [
@@ -2189,7 +2225,7 @@
       "prompt": "Is this the right translation?",
       "stimulus": "זֶה בְּנִי וְאֵלֶּה בְּנֵי בְנִי",
       "stimulusIsScript": true,
-      "statement": "This (is) my son and these (are) thy son's sons.",
+      "statement": "This (is) my son and these (are) your son's sons.",
       "answer": false,
       "expected": "This (is) my son and these (are) my son's sons.",
       "block": "s30",
@@ -2208,8 +2244,8 @@
       "options": [
         "This (is) my son and these (are) my son's sons.",
         "That (is) my son and these (are) my son's sons.",
-        "This (is) thy son and these (are) my son's sons.",
-        "This (is) my son and these (are) thy son's sons."
+        "This (is) your son and these (are) my son's sons.",
+        "This (is) my son and these (are) your son's sons."
       ],
       "answer": "This (is) my son and these (are) my son's sons.",
       "optionIsScript": false,
@@ -2269,6 +2305,1148 @@
       "blockLabel": "Davidson §30",
       "shape": "en-he",
       "src": "s30-C1"
+    },
+    {
+      "id": "c24-01.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָאִישׁ הַזֶּה חָכָם",
+      "stimulusIsScript": true,
+      "statement": "That man is wise.",
+      "answer": false,
+      "expected": "This man is wise.",
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-01",
+      "extra": true
+    },
+    {
+      "id": "c24-01.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָאִישׁ הַזֶּה חָכָם",
+      "stimulusIsScript": true,
+      "options": [
+        "This is the day.",
+        "That man is wise.",
+        "This man is wise.",
+        "This day is good."
+      ],
+      "answer": "This man is wise.",
+      "optionIsScript": false,
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-01",
+      "extra": true
+    },
+    {
+      "id": "c24-01.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: This man is wise.",
+      "stimulus": "הָאִישׁ ＿＿＿ חָכָם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַזֶּה"
+      ],
+      "answerIsScript": true,
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-01",
+      "extra": true
+    },
+    {
+      "id": "c24-01.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הָאִישׁ הַזֶּה חָכָם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "This man is wise."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-01",
+      "extra": true
+    },
+    {
+      "id": "c24-01.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "This man is wise.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאִישׁ הַזֶּה חָכָם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-01",
+      "extra": true
+    },
+    {
+      "id": "c24-02.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָעִיר הַזֹּאת גְּדוֹלָה",
+      "stimulusIsScript": true,
+      "statement": "This city is great.",
+      "answer": true,
+      "expected": "This city is great.",
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-02",
+      "extra": true
+    },
+    {
+      "id": "c24-02.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָעִיר הַזֹּאת גְּדוֹלָה",
+      "stimulusIsScript": true,
+      "options": [
+        "This is the instruction.",
+        "This city is great.",
+        "That city is great.",
+        "This gold is from that land."
+      ],
+      "answer": "This city is great.",
+      "optionIsScript": false,
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-02",
+      "extra": true
+    },
+    {
+      "id": "c24-02.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: This city is great.",
+      "stimulus": "הָעִיר ＿＿＿ גְּדוֹלָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַזֹּאת"
+      ],
+      "answerIsScript": true,
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-02",
+      "extra": true
+    },
+    {
+      "id": "c24-02.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "This city is great.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָעִיר הַזֹּאת גְּדוֹלָה",
+        "גְּדוֹלָה הָעִיר הַזֹּאת"
+      ],
+      "answerIsScript": true,
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-02",
+      "extra": true
+    },
+    {
+      "id": "c24-02.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "This city is great.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָעִיר הַזֹּאת גְּדוֹלָה",
+        "גְּדוֹלָה הָעִיר הַזֹּאת"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-02",
+      "extra": true
+    },
+    {
+      "id": "c24-03.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "זֶה הַיּוֹם",
+      "stimulusIsScript": true,
+      "statement": "This is a day.",
+      "answer": false,
+      "expected": "This is the day.",
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-03",
+      "extra": true
+    },
+    {
+      "id": "c24-03.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "זֶה הַיּוֹם",
+      "stimulusIsScript": true,
+      "options": [
+        "That is the day.",
+        "This is a day.",
+        "This city is great.",
+        "This is the day."
+      ],
+      "answer": "This is the day.",
+      "optionIsScript": false,
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-03",
+      "extra": true
+    },
+    {
+      "id": "c24-03.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: This is the day.",
+      "stimulus": "＿＿＿ הַיּוֹם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "זֶה"
+      ],
+      "answerIsScript": true,
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-03",
+      "extra": true
+    },
+    {
+      "id": "c24-03.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "זֶה הַיּוֹם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "This is the day."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-03",
+      "extra": true
+    },
+    {
+      "id": "c24-03.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "This is the day.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "זֶה הַיּוֹם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-03",
+      "extra": true
+    },
+    {
+      "id": "c24-04.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אֵלֶּה הָאֲנָשִׁים",
+      "stimulusIsScript": true,
+      "statement": "These are a men.",
+      "answer": false,
+      "expected": "These are the men.",
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-04",
+      "extra": true
+    },
+    {
+      "id": "c24-04.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אֵלֶּה הָאֲנָשִׁים",
+      "stimulusIsScript": true,
+      "options": [
+        "Those are the men.",
+        "These are a men.",
+        "These are the men.",
+        "This woman is very wise."
+      ],
+      "answer": "These are the men.",
+      "optionIsScript": false,
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-04",
+      "extra": true
+    },
+    {
+      "id": "c24-04.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: These are the men.",
+      "stimulus": "אֵלֶּה ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הָאֲנָשִׁים"
+      ],
+      "answerIsScript": true,
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-04",
+      "extra": true
+    },
+    {
+      "id": "c24-04.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "אֵלֶּה הָאֲנָשִׁים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "These are the men."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-04",
+      "extra": true
+    },
+    {
+      "id": "c24-04.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "These are the men.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֵלֶּה הָאֲנָשִׁים"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-04",
+      "extra": true
+    },
+    {
+      "id": "c24-05.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָאֲנָשִׁים הָאֵלֶּה רָעִים",
+      "stimulusIsScript": true,
+      "statement": "Those men are evil.",
+      "answer": false,
+      "expected": "These men are evil.",
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-05",
+      "extra": true
+    },
+    {
+      "id": "c24-05.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָאֲנָשִׁים הָאֵלֶּה רָעִים",
+      "stimulusIsScript": true,
+      "options": [
+        "This gold is from that land.",
+        "These men are evil.",
+        "Those men are evil.",
+        "This man is wise."
+      ],
+      "answer": "These men are evil.",
+      "optionIsScript": false,
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-05",
+      "extra": true
+    },
+    {
+      "id": "c24-05.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: These men are evil.",
+      "stimulus": "＿＿＿ הָאֵלֶּה רָעִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הָאֲנָשִׁים"
+      ],
+      "answerIsScript": true,
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-05",
+      "extra": true
+    },
+    {
+      "id": "c24-05.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "These men are evil.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאֲנָשִׁים הָאֵלֶּה רָעִים",
+        "רָעִים הָאֲנָשִׁים הָאֵלֶּה"
+      ],
+      "answerIsScript": true,
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-05",
+      "extra": true
+    },
+    {
+      "id": "c24-05.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "These men are evil.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאֲנָשִׁים הָאֵלֶּה רָעִים",
+        "רָעִים הָאֲנָשִׁים הָאֵלֶּה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-05",
+      "extra": true
+    },
+    {
+      "id": "c24-06.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "בַּיּוֹם הַהוּא יָצָא הַנָּבִיא מִן־הָעִיר",
+      "stimulusIsScript": true,
+      "statement": "On that day the prophet went out from the city.",
+      "answer": true,
+      "expected": "On that day the prophet went out from the city.",
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-06",
+      "extra": true
+    },
+    {
+      "id": "c24-06.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "בַּיּוֹם הַהוּא יָצָא הַנָּבִיא מִן־הָעִיר",
+      "stimulusIsScript": true,
+      "options": [
+        "On that day the prophet went out from the city.",
+        "On this day the prophet went out from the city.",
+        "On that day a prophet went out from the city.",
+        "To that day the prophet went out from the city."
+      ],
+      "answer": "On that day the prophet went out from the city.",
+      "optionIsScript": false,
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-06",
+      "extra": true
+    },
+    {
+      "id": "c24-06.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: On that day the prophet went out from the city.",
+      "stimulus": "בַּיּוֹם הַהוּא יָצָא ＿＿＿ מִן־הָעִיר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַנָּבִיא"
+      ],
+      "answerIsScript": true,
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-06",
+      "extra": true
+    },
+    {
+      "id": "c24-06.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "בַּיּוֹם הַהוּא יָצָא הַנָּבִיא מִן־הָעִיר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "On that day the prophet went out from the city."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-06",
+      "extra": true
+    },
+    {
+      "id": "c24-06.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "On that day the prophet went out from the city.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בַּיּוֹם הַהוּא יָצָא הַנָּבִיא מִן־הָעִיר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-06",
+      "extra": true
+    },
+    {
+      "id": "c24-07.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "שָׁב הָאִישׁ אֶל־בֵּית אָבִיו",
+      "stimulusIsScript": true,
+      "statement": "The man returned to my father's house.",
+      "answer": false,
+      "expected": "The man returned to his father's house.",
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-07",
+      "extra": true
+    },
+    {
+      "id": "c24-07.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "שָׁב הָאִישׁ אֶל־בֵּית אָבִיו",
+      "stimulusIsScript": true,
+      "options": [
+        "The man returned to his father's house.",
+        "A man returned to his father's house.",
+        "The man returned to my father's house.",
+        "The man returned from his father's house."
+      ],
+      "answer": "The man returned to his father's house.",
+      "optionIsScript": false,
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-07",
+      "extra": true
+    },
+    {
+      "id": "c24-07.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The man returned to his father's house.",
+      "stimulus": "שָׁב הָאִישׁ ＿＿＿ אָבִיו",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶל־בֵּית"
+      ],
+      "answerIsScript": true,
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-07",
+      "extra": true
+    },
+    {
+      "id": "c24-07.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "שָׁב הָאִישׁ אֶל־בֵּית אָבִיו",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The man returned to his father's house."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-07",
+      "extra": true
+    },
+    {
+      "id": "c24-07.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The man returned to his father's house.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שָׁב הָאִישׁ אֶל־בֵּית אָבִיו"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-07",
+      "extra": true
+    },
+    {
+      "id": "c24-08.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָעָם שָׁב אֶל־הָאָרֶץ הַזֹּאת",
+      "stimulusIsScript": true,
+      "statement": "The people returned in this land.",
+      "answer": false,
+      "expected": "The people returned to this land.",
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-08",
+      "extra": true
+    },
+    {
+      "id": "c24-08.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָעָם שָׁב אֶל־הָאָרֶץ הַזֹּאת",
+      "stimulusIsScript": true,
+      "options": [
+        "A people returned to this land.",
+        "The people returned to that land.",
+        "The people returned to this land.",
+        "The people returned in this land."
+      ],
+      "answer": "The people returned to this land.",
+      "optionIsScript": false,
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-08",
+      "extra": true
+    },
+    {
+      "id": "c24-08.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The people returned to this land.",
+      "stimulus": "הָעָם שָׁב אֶל־הָאָרֶץ ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַזֹּאת"
+      ],
+      "answerIsScript": true,
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-08",
+      "extra": true
+    },
+    {
+      "id": "c24-08.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The people returned to this land.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָעָם שָׁב אֶל־הָאָרֶץ הַזֹּאת",
+        "שָׁב הָעָם אֶל־הָאָרֶץ הַזֹּאת"
+      ],
+      "answerIsScript": true,
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-08",
+      "extra": true
+    },
+    {
+      "id": "c24-08.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The people returned to this land.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָעָם שָׁב אֶל־הָאָרֶץ הַזֹּאת",
+        "שָׁב הָעָם אֶל־הָאָרֶץ הַזֹּאת"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-08",
+      "extra": true
+    },
+    {
+      "id": "c24-09.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "זֹאת הַתּוֹרָה",
+      "stimulusIsScript": true,
+      "statement": "This is the instruction.",
+      "answer": true,
+      "expected": "This is the instruction.",
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-09",
+      "extra": true
+    },
+    {
+      "id": "c24-09.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "זֹאת הַתּוֹרָה",
+      "stimulusIsScript": true,
+      "options": [
+        "This is an instruction.",
+        "This is the instruction.",
+        "The man returned to his father's house.",
+        "That is the instruction."
+      ],
+      "answer": "This is the instruction.",
+      "optionIsScript": false,
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-09",
+      "extra": true
+    },
+    {
+      "id": "c24-09.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: This is the instruction.",
+      "stimulus": "＿＿＿ הַתּוֹרָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "זֹאת"
+      ],
+      "answerIsScript": true,
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-09",
+      "extra": true
+    },
+    {
+      "id": "c24-09.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "זֹאת הַתּוֹרָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "This is the instruction."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-09",
+      "extra": true
+    },
+    {
+      "id": "c24-09.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "This is the instruction.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "זֹאת הַתּוֹרָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-09",
+      "extra": true
+    },
+    {
+      "id": "c24-10.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַזָּהָב הַזֶּה מִן־הָאָרֶץ הַהִיא",
+      "stimulusIsScript": true,
+      "statement": "This gold is from that land.",
+      "answer": true,
+      "expected": "This gold is from that land.",
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-10",
+      "extra": true
+    },
+    {
+      "id": "c24-10.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַזָּהָב הַזֶּה מִן־הָאָרֶץ הַהִיא",
+      "stimulusIsScript": true,
+      "options": [
+        "This gold is in that land.",
+        "That gold is from that land.",
+        "This gold is from this land.",
+        "This gold is from that land."
+      ],
+      "answer": "This gold is from that land.",
+      "optionIsScript": false,
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-10",
+      "extra": true
+    },
+    {
+      "id": "c24-10.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: This gold is from that land.",
+      "stimulus": "＿＿＿ הַזֶּה מִן־הָאָרֶץ הַהִיא",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַזָּהָב"
+      ],
+      "answerIsScript": true,
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-10",
+      "extra": true
+    },
+    {
+      "id": "c24-10.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הַזָּהָב הַזֶּה מִן־הָאָרֶץ הַהִיא",
+      "stimulusIsScript": true,
+      "accepted": [
+        "This gold is from that land."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-10",
+      "extra": true
+    },
+    {
+      "id": "c24-10.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "This gold is from that land.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַזָּהָב הַזֶּה מִן־הָאָרֶץ הַהִיא"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-10",
+      "extra": true
+    },
+    {
+      "id": "c24-11.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָאִשָּׁה הַזֹּאת חֲכָמָה מְאֹד",
+      "stimulusIsScript": true,
+      "statement": "This woman is very wise.",
+      "answer": true,
+      "expected": "This woman is very wise.",
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-11",
+      "extra": true
+    },
+    {
+      "id": "c24-11.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָאִשָּׁה הַזֹּאת חֲכָמָה מְאֹד",
+      "stimulusIsScript": true,
+      "options": [
+        "This woman is very wise.",
+        "That woman is very wise.",
+        "The man returned to his father's house.",
+        "This city is great."
+      ],
+      "answer": "This woman is very wise.",
+      "optionIsScript": false,
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-11",
+      "extra": true
+    },
+    {
+      "id": "c24-11.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: This woman is very wise.",
+      "stimulus": "הָאִשָּׁה הַזֹּאת ＿＿＿ מְאֹד",
+      "stimulusIsScript": true,
+      "accepted": [
+        "חֲכָמָה"
+      ],
+      "answerIsScript": true,
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-11",
+      "extra": true
+    },
+    {
+      "id": "c24-11.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "This woman is very wise.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאִשָּׁה הַזֹּאת חֲכָמָה מְאֹד"
+      ],
+      "answerIsScript": true,
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-11",
+      "extra": true
+    },
+    {
+      "id": "c24-11.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "This woman is very wise.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאִשָּׁה הַזֹּאת חֲכָמָה מְאֹד"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-11",
+      "extra": true
+    },
+    {
+      "id": "c24-12.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַיּוֹם הַזֶּה טוֹב",
+      "stimulusIsScript": true,
+      "statement": "That day is good.",
+      "answer": false,
+      "expected": "This day is good.",
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-12",
+      "extra": true
+    },
+    {
+      "id": "c24-12.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַיּוֹם הַזֶּה טוֹב",
+      "stimulusIsScript": true,
+      "options": [
+        "On that day the prophet went out from the city.",
+        "This day is good.",
+        "These men are evil.",
+        "That day is good."
+      ],
+      "answer": "This day is good.",
+      "optionIsScript": false,
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-12",
+      "extra": true
+    },
+    {
+      "id": "c24-12.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: This day is good.",
+      "stimulus": "הַיּוֹם הַזֶּה ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "טוֹב"
+      ],
+      "answerIsScript": true,
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-12",
+      "extra": true
+    },
+    {
+      "id": "c24-12.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הַיּוֹם הַזֶּה טוֹב",
+      "stimulusIsScript": true,
+      "accepted": [
+        "This day is good."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-12",
+      "extra": true
+    },
+    {
+      "id": "c24-12.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "This day is good.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַיּוֹם הַזֶּה טוֹב"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c24",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c24-12",
+      "extra": true
     }
   ]
 }

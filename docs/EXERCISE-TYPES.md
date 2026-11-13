@@ -251,7 +251,8 @@ Course difficulty is a ladder of five rungs (AGENTS.md §0). Davidson items carr
 `engine/session.js` `ladderSession`: a session takes review and a few vocabulary items, then the
 not-yet-right items of the lowest open rung, then the next rung, in rung order; when every item is right,
 a random practice mix. The next unit unlocks when rungs 1…`features.unlockRung` are all right once
-(Davidson 3); rungs 4–5 earn the unit's stars. Units without rung items keep the 70 %-session rule.
+(Davidson 3; items with `extra: true` — new sentences and Bible verses, P12-T5 — count only until the rung has
+`features.ladderTarget` right answers, Davidson 20, and are otherwise open for practice); rungs 4–5 earn the unit's stars. Units without rung items keep the 70 %-session rule.
 
 **Review (2026-11-11).** Each session opens with `features.reviewItems` review questions from *every earlier
 unit*, completed or not (so skipped units are probed): `knowledge.js` `reviewUnits` ranks earlier units with

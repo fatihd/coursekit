@@ -6,7 +6,8 @@ Rewrites the `unit` column of content/vocab.csv and the `## Vocabulary`, `## Tea
 
   * `pinned` ids keep their unit (alphabet units, derived-stem verbs, lesson examples);
   * from unit `first` on, every unit gets about the same number of words;
-  * a word used in a unit's authored exercises is taught in that unit or earlier;
+  * a word used in a unit's authored exercises (the book's, not the corpus expansion's) is taught in that unit
+    or earlier;
   * `topics` words (a verb class, the numerals) are taught from their topic unit on, the topic
     unit first, the overflow at most half of each following unit;
   * words with the same Strong's number and category move together (e.g. horse/mare);
@@ -43,7 +44,9 @@ def exercise_words(course):
     words = {}
     for path in sorted((course / "authored").glob("[0-9][0-9].json")):
         unit = int(path.stem)
-        text = path.read_text(encoding="utf-8")
+        data = json.loads(path.read_text(encoding="utf-8"))
+        book = [it for it in data["items"] if not it.get("extra")]
+        text = json.dumps(book, ensure_ascii=False)
         words[unit] = {consonants(w) for w in re.findall(r"[֐-׿]+", text)}
     return words
 

@@ -721,6 +721,51 @@
       "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n36.jpg",
       "exwb": "davidson-s18#D13",
       "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "c18-01": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c18-02": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c18-03": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c18-04": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c18-05": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c18-06": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c18-07": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c18-08": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c18-09": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c18-10": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c18-11": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c18-12": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c18-13": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c18-14": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c18-15": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
     }
   },
   "items": [
@@ -3595,8 +3640,8 @@
       "stimulus": "כְּבַד־לָשׁוֹן אָנֹכִי",
       "stimulusIsScript": true,
       "options": [
-        "They are heavy of tongue (i.e. slow of speech).",
-        "We are heavy of tongue (i.e. slow of speech).",
+        "He is heavy of tongue (i.e. slow of speech).",
+        "You are heavy of tongue (i.e. slow of speech).",
         "I (am) not a man of words.",
         "I am heavy of tongue (i.e. slow of speech)."
       ],
@@ -3865,7 +3910,7 @@
       "stimulusIsScript": true,
       "options": [
         "I (am) not the man of words.",
-        "We (are) not a man of words.",
+        "You (are) not a man of words.",
         "I (am) not a man of words.",
         "I a man of words."
       ],
@@ -4372,6 +4417,1435 @@
       "blockLabel": "Davidson §18",
       "shape": "en-he",
       "src": "s18-D13"
+    },
+    {
+      "id": "c18-01.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אִישׁ הָאֱלֹהִים הָלַךְ הָהָרָה",
+      "stimulusIsScript": true,
+      "statement": "The man of God went in the mountain.",
+      "answer": false,
+      "expected": "The man of God went to the mountain.",
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-01",
+      "extra": true
+    },
+    {
+      "id": "c18-01.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אִישׁ הָאֱלֹהִים הָלַךְ הָהָרָה",
+      "stimulusIsScript": true,
+      "options": [
+        "The man of God went in the mountain.",
+        "The man of God went to the mountain.",
+        "A man of God went to the mountain.",
+        "The man of God went from the mountain."
+      ],
+      "answer": "The man of God went to the mountain.",
+      "optionIsScript": false,
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-01",
+      "extra": true
+    },
+    {
+      "id": "c18-01.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The man of God went to the mountain.",
+      "stimulus": "אִישׁ ＿＿＿ הָלַךְ הָהָרָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הָאֱלֹהִים"
+      ],
+      "answerIsScript": true,
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-01",
+      "extra": true
+    },
+    {
+      "id": "c18-01.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "אִישׁ הָאֱלֹהִים הָלַךְ הָהָרָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The man of God went to the mountain."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-01",
+      "extra": true
+    },
+    {
+      "id": "c18-01.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The man of God went to the mountain.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אִישׁ הָאֱלֹהִים הָלַךְ הָהָרָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-01",
+      "extra": true
+    },
+    {
+      "id": "c18-02.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "עֶבֶד הַנָּבִיא יָשַׁב עַל־הָאֶבֶן",
+      "stimulusIsScript": true,
+      "statement": "The servant of a prophet sat on the stone.",
+      "answer": false,
+      "expected": "The servant of the prophet sat on the stone.",
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-02",
+      "extra": true
+    },
+    {
+      "id": "c18-02.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "עֶבֶד הַנָּבִיא יָשַׁב עַל־הָאֶבֶן",
+      "stimulusIsScript": true,
+      "options": [
+        "The servant of the prophet sat on the stone.",
+        "The servant of the prophet sat from the stone.",
+        "The servant of a prophet sat on the stone.",
+        "A servant of the prophet sat on the stone."
+      ],
+      "answer": "The servant of the prophet sat on the stone.",
+      "optionIsScript": false,
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-02",
+      "extra": true
+    },
+    {
+      "id": "c18-02.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The servant of the prophet sat on the stone.",
+      "stimulus": "＿＿＿ הַנָּבִיא יָשַׁב עַל־הָאֶבֶן",
+      "stimulusIsScript": true,
+      "accepted": [
+        "עֶבֶד"
+      ],
+      "answerIsScript": true,
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-02",
+      "extra": true
+    },
+    {
+      "id": "c18-02.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The servant of the prophet sat on the stone.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "עֶבֶד הַנָּבִיא יָשַׁב עַל־הָאֶבֶן",
+        "יָשַׁב עֶבֶד הַנָּבִיא עַל־הָאֶבֶן"
+      ],
+      "answerIsScript": true,
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-02",
+      "extra": true
+    },
+    {
+      "id": "c18-02.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The servant of the prophet sat on the stone.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "עֶבֶד הַנָּבִיא יָשַׁב עַל־הָאֶבֶן",
+        "יָשַׁב עֶבֶד הַנָּבִיא עַל־הָאֶבֶן"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-02",
+      "extra": true
+    },
+    {
+      "id": "c18-03.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "שֵׁם הָאִישׁ טוֹב",
+      "stimulusIsScript": true,
+      "statement": "The name of the man is good.",
+      "answer": true,
+      "expected": "The name of the man is good.",
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-03",
+      "extra": true
+    },
+    {
+      "id": "c18-03.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "שֵׁם הָאִישׁ טוֹב",
+      "stimulusIsScript": true,
+      "options": [
+        "The servant of the prophet sat on the stone.",
+        "The name of the man is good.",
+        "A name of the man is good.",
+        "The name of a man is good."
+      ],
+      "answer": "The name of the man is good.",
+      "optionIsScript": false,
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-03",
+      "extra": true
+    },
+    {
+      "id": "c18-03.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The name of the man is good.",
+      "stimulus": "שֵׁם הָאִישׁ ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "טוֹב"
+      ],
+      "answerIsScript": true,
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-03",
+      "extra": true
+    },
+    {
+      "id": "c18-03.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "שֵׁם הָאִישׁ טוֹב",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The name of the man is good."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-03",
+      "extra": true
+    },
+    {
+      "id": "c18-03.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The name of the man is good.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שֵׁם הָאִישׁ טוֹב"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-03",
+      "extra": true
+    },
+    {
+      "id": "c18-04.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַר הָאֱלֹהִים",
+      "stimulusIsScript": true,
+      "statement": "The mountain of God",
+      "answer": true,
+      "expected": "The mountain of God",
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-04",
+      "extra": true
+    },
+    {
+      "id": "c18-04.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַר הָאֱלֹהִים",
+      "stimulusIsScript": true,
+      "options": [
+        "A mountain of God",
+        "The name of the city is great.",
+        "The mountain of God",
+        "The queen of the city is wise."
+      ],
+      "answer": "The mountain of God",
+      "optionIsScript": false,
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-04",
+      "extra": true
+    },
+    {
+      "id": "c18-04.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The mountain of God",
+      "stimulus": "＿＿＿ הָאֱלֹהִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַר"
+      ],
+      "answerIsScript": true,
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-04",
+      "extra": true
+    },
+    {
+      "id": "c18-04.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הַר הָאֱלֹהִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The mountain of God"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-04",
+      "extra": true
+    },
+    {
+      "id": "c18-04.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The mountain of God",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַר הָאֱלֹהִים"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-04",
+      "extra": true
+    },
+    {
+      "id": "c18-05.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אֵשֶׁת הַנָּבִיא חֲכָמָה",
+      "stimulusIsScript": true,
+      "statement": "The wife of the prophet is wise.",
+      "answer": true,
+      "expected": "The wife of the prophet is wise.",
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-05",
+      "extra": true
+    },
+    {
+      "id": "c18-05.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אֵשֶׁת הַנָּבִיא חֲכָמָה",
+      "stimulusIsScript": true,
+      "options": [
+        "The hand of the man",
+        "The wife of the prophet is wise.",
+        "A wife of the prophet is wise.",
+        "The wife of a prophet is wise."
+      ],
+      "answer": "The wife of the prophet is wise.",
+      "optionIsScript": false,
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-05",
+      "extra": true
+    },
+    {
+      "id": "c18-05.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The wife of the prophet is wise.",
+      "stimulus": "＿＿＿ הַנָּבִיא חֲכָמָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֵשֶׁת"
+      ],
+      "answerIsScript": true,
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-05",
+      "extra": true
+    },
+    {
+      "id": "c18-05.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The wife of the prophet is wise.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֵשֶׁת הַנָּבִיא חֲכָמָה",
+        "חֲכָמָה אֵשֶׁת הַנָּבִיא"
+      ],
+      "answerIsScript": true,
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-05",
+      "extra": true
+    },
+    {
+      "id": "c18-05.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The wife of the prophet is wise.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֵשֶׁת הַנָּבִיא חֲכָמָה",
+        "חֲכָמָה אֵשֶׁת הַנָּבִיא"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-05",
+      "extra": true
+    },
+    {
+      "id": "c18-06.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "מַלְכַּת הָעִיר חֲכָמָה",
+      "stimulusIsScript": true,
+      "statement": "A queen of the city is wise.",
+      "answer": false,
+      "expected": "The queen of the city is wise.",
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-06",
+      "extra": true
+    },
+    {
+      "id": "c18-06.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "מַלְכַּת הָעִיר חֲכָמָה",
+      "stimulusIsScript": true,
+      "options": [
+        "The queen of a city is wise.",
+        "The name of the man is good.",
+        "A queen of the city is wise.",
+        "The queen of the city is wise."
+      ],
+      "answer": "The queen of the city is wise.",
+      "optionIsScript": false,
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-06",
+      "extra": true
+    },
+    {
+      "id": "c18-06.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The queen of the city is wise.",
+      "stimulus": "＿＿＿ הָעִיר חֲכָמָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "מַלְכַּת"
+      ],
+      "answerIsScript": true,
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-06",
+      "extra": true
+    },
+    {
+      "id": "c18-06.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "מַלְכַּת הָעִיר חֲכָמָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The queen of the city is wise."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-06",
+      "extra": true
+    },
+    {
+      "id": "c18-06.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The queen of the city is wise.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מַלְכַּת הָעִיר חֲכָמָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-06",
+      "extra": true
+    },
+    {
+      "id": "c18-07.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "יַד הָאִישׁ",
+      "stimulusIsScript": true,
+      "statement": "The hand of a man",
+      "answer": false,
+      "expected": "The hand of the man",
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-07",
+      "extra": true
+    },
+    {
+      "id": "c18-07.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "יַד הָאִישׁ",
+      "stimulusIsScript": true,
+      "options": [
+        "The hand of the man",
+        "The hand of a man",
+        "The eyes of the man",
+        "A hand of the man"
+      ],
+      "answer": "The hand of the man",
+      "optionIsScript": false,
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-07",
+      "extra": true
+    },
+    {
+      "id": "c18-07.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The hand of the man",
+      "stimulus": "＿＿＿ הָאִישׁ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "יַד"
+      ],
+      "answerIsScript": true,
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-07",
+      "extra": true
+    },
+    {
+      "id": "c18-07.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The hand of the man",
+      "stimulusIsScript": false,
+      "accepted": [
+        "יַד הָאִישׁ"
+      ],
+      "answerIsScript": true,
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-07",
+      "extra": true
+    },
+    {
+      "id": "c18-07.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The hand of the man",
+      "stimulusIsScript": false,
+      "accepted": [
+        "יַד הָאִישׁ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-07",
+      "extra": true
+    },
+    {
+      "id": "c18-08.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "עֵינֵי הָאִישׁ",
+      "stimulusIsScript": true,
+      "statement": "Eyes of the man",
+      "answer": false,
+      "expected": "The eyes of the man",
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-08",
+      "extra": true
+    },
+    {
+      "id": "c18-08.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "עֵינֵי הָאִישׁ",
+      "stimulusIsScript": true,
+      "options": [
+        "The mountain of God",
+        "The eyes of a man",
+        "Eyes of the man",
+        "The eyes of the man"
+      ],
+      "answer": "The eyes of the man",
+      "optionIsScript": false,
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-08",
+      "extra": true
+    },
+    {
+      "id": "c18-08.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The eyes of the man",
+      "stimulus": "＿＿＿ הָאִישׁ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "עֵינֵי"
+      ],
+      "answerIsScript": true,
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-08",
+      "extra": true
+    },
+    {
+      "id": "c18-08.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "עֵינֵי הָאִישׁ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The eyes of the man"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-08",
+      "extra": true
+    },
+    {
+      "id": "c18-08.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The eyes of the man",
+      "stimulusIsScript": false,
+      "accepted": [
+        "עֵינֵי הָאִישׁ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-08",
+      "extra": true
+    },
+    {
+      "id": "c18-09.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָאִישׁ הָלַךְ הָעִירָה",
+      "stimulusIsScript": true,
+      "statement": "A man went to the city.",
+      "answer": false,
+      "expected": "The man went to the city.",
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-09",
+      "extra": true
+    },
+    {
+      "id": "c18-09.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָאִישׁ הָלַךְ הָעִירָה",
+      "stimulusIsScript": true,
+      "options": [
+        "The man went to the city.",
+        "The man went from the city.",
+        "A man went to the city.",
+        "The man went to a city."
+      ],
+      "answer": "The man went to the city.",
+      "optionIsScript": false,
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-09",
+      "extra": true
+    },
+    {
+      "id": "c18-09.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The man went to the city.",
+      "stimulus": "הָאִישׁ הָלַךְ ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הָעִירָה"
+      ],
+      "answerIsScript": true,
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-09",
+      "extra": true
+    },
+    {
+      "id": "c18-09.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הָאִישׁ הָלַךְ הָעִירָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The man went to the city."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-09",
+      "extra": true
+    },
+    {
+      "id": "c18-09.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The man went to the city.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאִישׁ הָלַךְ הָעִירָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-09",
+      "extra": true
+    },
+    {
+      "id": "c18-10.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָעֶבֶד הָלַךְ הָהָרָה",
+      "stimulusIsScript": true,
+      "statement": "The servant went in the mountain.",
+      "answer": false,
+      "expected": "The servant went to the mountain.",
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-10",
+      "extra": true
+    },
+    {
+      "id": "c18-10.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָעֶבֶד הָלַךְ הָהָרָה",
+      "stimulusIsScript": true,
+      "options": [
+        "The servant went to a mountain.",
+        "The servant went from the mountain.",
+        "The servant went in the mountain.",
+        "The servant went to the mountain."
+      ],
+      "answer": "The servant went to the mountain.",
+      "optionIsScript": false,
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-10",
+      "extra": true
+    },
+    {
+      "id": "c18-10.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The servant went to the mountain.",
+      "stimulus": "הָעֶבֶד ＿＿＿ הָהָרָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הָלַךְ"
+      ],
+      "answerIsScript": true,
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-10",
+      "extra": true
+    },
+    {
+      "id": "c18-10.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The servant went to the mountain.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָעֶבֶד הָלַךְ הָהָרָה",
+        "הָלַךְ הָעֶבֶד הָהָרָה"
+      ],
+      "answerIsScript": true,
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-10",
+      "extra": true
+    },
+    {
+      "id": "c18-10.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The servant went to the mountain.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָעֶבֶד הָלַךְ הָהָרָה",
+        "הָלַךְ הָעֶבֶד הָהָרָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-10",
+      "extra": true
+    },
+    {
+      "id": "c18-11.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אֶרֶץ הָעָם טוֹבָה",
+      "stimulusIsScript": true,
+      "statement": "The land of a people is good.",
+      "answer": false,
+      "expected": "The land of the people is good.",
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-11",
+      "extra": true
+    },
+    {
+      "id": "c18-11.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אֶרֶץ הָעָם טוֹבָה",
+      "stimulusIsScript": true,
+      "options": [
+        "The man of God went to the mountain.",
+        "The land of the people is good.",
+        "The land of a people is good.",
+        "A land of the people is good."
+      ],
+      "answer": "The land of the people is good.",
+      "optionIsScript": false,
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-11",
+      "extra": true
+    },
+    {
+      "id": "c18-11.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The land of the people is good.",
+      "stimulus": "＿＿＿ הָעָם טוֹבָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶרֶץ"
+      ],
+      "answerIsScript": true,
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-11",
+      "extra": true
+    },
+    {
+      "id": "c18-11.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "אֶרֶץ הָעָם טוֹבָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The land of the people is good."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-11",
+      "extra": true
+    },
+    {
+      "id": "c18-11.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The land of the people is good.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֶרֶץ הָעָם טוֹבָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-11",
+      "extra": true
+    },
+    {
+      "id": "c18-12.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "שֵׁם הָעִיר גָּדוֹל",
+      "stimulusIsScript": true,
+      "statement": "The name of a city is great.",
+      "answer": false,
+      "expected": "The name of the city is great.",
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-12",
+      "extra": true
+    },
+    {
+      "id": "c18-12.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "שֵׁם הָעִיר גָּדוֹל",
+      "stimulusIsScript": true,
+      "options": [
+        "The man of God said that the city is evil.",
+        "The name of a city is great.",
+        "The name of the city is great.",
+        "A name of the city is great."
+      ],
+      "answer": "The name of the city is great.",
+      "optionIsScript": false,
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-12",
+      "extra": true
+    },
+    {
+      "id": "c18-12.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The name of the city is great.",
+      "stimulus": "שֵׁם הָעִיר ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "גָּדוֹל"
+      ],
+      "answerIsScript": true,
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-12",
+      "extra": true
+    },
+    {
+      "id": "c18-12.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The name of the city is great.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שֵׁם הָעִיר גָּדוֹל",
+        "גָּדוֹל שֵׁם הָעִיר"
+      ],
+      "answerIsScript": true,
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-12",
+      "extra": true
+    },
+    {
+      "id": "c18-12.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The name of the city is great.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שֵׁם הָעִיר גָּדוֹל",
+        "גָּדוֹל שֵׁם הָעִיר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-12",
+      "extra": true
+    },
+    {
+      "id": "c18-13.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אֱלֹהֵי הָאָרֶץ",
+      "stimulusIsScript": true,
+      "statement": "The God of a land",
+      "answer": false,
+      "expected": "The God of the land",
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-13",
+      "extra": true
+    },
+    {
+      "id": "c18-13.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אֱלֹהֵי הָאָרֶץ",
+      "stimulusIsScript": true,
+      "options": [
+        "The God of the land",
+        "A God of the land",
+        "The man of God said that the city is evil.",
+        "The God of a land"
+      ],
+      "answer": "The God of the land",
+      "optionIsScript": false,
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-13",
+      "extra": true
+    },
+    {
+      "id": "c18-13.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The God of the land",
+      "stimulus": "אֱלֹהֵי ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הָאָרֶץ"
+      ],
+      "answerIsScript": true,
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-13",
+      "extra": true
+    },
+    {
+      "id": "c18-13.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "אֱלֹהֵי הָאָרֶץ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The God of the land"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-13",
+      "extra": true
+    },
+    {
+      "id": "c18-13.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The God of the land",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֱלֹהֵי הָאָרֶץ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-13",
+      "extra": true
+    },
+    {
+      "id": "c18-14.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַנָּבִיא אָמַר כִּי טוֹב הָאוֹר",
+      "stimulusIsScript": true,
+      "statement": "The prophet said that the light is good.",
+      "answer": true,
+      "expected": "The prophet said that the light is good.",
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-14",
+      "extra": true
+    },
+    {
+      "id": "c18-14.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַנָּבִיא אָמַר כִּי טוֹב הָאוֹר",
+      "stimulusIsScript": true,
+      "options": [
+        "The prophet said this the light is good.",
+        "The prophet said that a light is good.",
+        "A prophet said that the light is good.",
+        "The prophet said that the light is good."
+      ],
+      "answer": "The prophet said that the light is good.",
+      "optionIsScript": false,
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-14",
+      "extra": true
+    },
+    {
+      "id": "c18-14.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The prophet said that the light is good.",
+      "stimulus": "הַנָּבִיא אָמַר כִּי טוֹב ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הָאוֹר"
+      ],
+      "answerIsScript": true,
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-14",
+      "extra": true
+    },
+    {
+      "id": "c18-14.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הַנָּבִיא אָמַר כִּי טוֹב הָאוֹר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The prophet said that the light is good."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-14",
+      "extra": true
+    },
+    {
+      "id": "c18-14.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The prophet said that the light is good.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַנָּבִיא אָמַר כִּי טוֹב הָאוֹר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-14",
+      "extra": true
+    },
+    {
+      "id": "c18-15.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אִישׁ הָאֱלֹהִים אָמַר כִּי הָעִיר רָעָה",
+      "stimulusIsScript": true,
+      "statement": "A man of God said that the city is evil.",
+      "answer": false,
+      "expected": "The man of God said that the city is evil.",
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-15",
+      "extra": true
+    },
+    {
+      "id": "c18-15.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אִישׁ הָאֱלֹהִים אָמַר כִּי הָעִיר רָעָה",
+      "stimulusIsScript": true,
+      "options": [
+        "The man of God said that a city is evil.",
+        "A man of God said that the city is evil.",
+        "The man of God said that the city is evil.",
+        "The man of God said this the city is evil."
+      ],
+      "answer": "The man of God said that the city is evil.",
+      "optionIsScript": false,
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-15",
+      "extra": true
+    },
+    {
+      "id": "c18-15.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The man of God said that the city is evil.",
+      "stimulus": "＿＿＿ הָאֱלֹהִים אָמַר כִּי הָעִיר רָעָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אִישׁ"
+      ],
+      "answerIsScript": true,
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-15",
+      "extra": true
+    },
+    {
+      "id": "c18-15.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The man of God said that the city is evil.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אִישׁ הָאֱלֹהִים אָמַר כִּי הָעִיר רָעָה",
+        "אָמַר אִישׁ הָאֱלֹהִים כִּי הָעִיר רָעָה"
+      ],
+      "answerIsScript": true,
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-15",
+      "extra": true
+    },
+    {
+      "id": "c18-15.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The man of God said that the city is evil.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אִישׁ הָאֱלֹהִים אָמַר כִּי הָעִיר רָעָה",
+        "אָמַר אִישׁ הָאֱלֹהִים כִּי הָעִיר רָעָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c18",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c18-15",
+      "extra": true
     }
   ]
 }

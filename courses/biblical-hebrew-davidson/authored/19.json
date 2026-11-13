@@ -244,6 +244,42 @@
       "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n90.jpg",
       "exwb": "davidson-s36#C1",
       "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "c19-01": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c19-02": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c19-03": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c19-04": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c19-05": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c19-06": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c19-07": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c19-08": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c19-09": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c19-10": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c19-11": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c19-12": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
     }
   },
   "items": [
@@ -2578,6 +2614,1151 @@
       "blockLabel": "Davidson §36",
       "shape": "en-he",
       "src": "s36-C1"
+    },
+    {
+      "id": "c19-01.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָאִישׁ יָשַׁב בָּעִיר",
+      "stimulusIsScript": true,
+      "statement": "The man dwelt from the city.",
+      "answer": false,
+      "expected": "The man dwelt in the city.",
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-01",
+      "extra": true
+    },
+    {
+      "id": "c19-01.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָאִישׁ יָשַׁב בָּעִיר",
+      "stimulusIsScript": true,
+      "options": [
+        "The man dwelt from the city.",
+        "The man dwelt in a city.",
+        "The man dwelt to the city.",
+        "The man dwelt in the city."
+      ],
+      "answer": "The man dwelt in the city.",
+      "optionIsScript": false,
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-01",
+      "extra": true
+    },
+    {
+      "id": "c19-01.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The man dwelt in the city.",
+      "stimulus": "הָאִישׁ יָשַׁב ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "בָּעִיר"
+      ],
+      "answerIsScript": true,
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-01",
+      "extra": true
+    },
+    {
+      "id": "c19-01.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הָאִישׁ יָשַׁב בָּעִיר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The man dwelt in the city."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-01",
+      "extra": true
+    },
+    {
+      "id": "c19-01.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The man dwelt in the city.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאִישׁ יָשַׁב בָּעִיר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-01",
+      "extra": true
+    },
+    {
+      "id": "c19-02.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַנָּבִיא הָלַךְ לָעִיר",
+      "stimulusIsScript": true,
+      "statement": "The prophet went to the city.",
+      "answer": true,
+      "expected": "The prophet went to the city.",
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-02",
+      "extra": true
+    },
+    {
+      "id": "c19-02.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַנָּבִיא הָלַךְ לָעִיר",
+      "stimulusIsScript": true,
+      "options": [
+        "The prophet went to the city.",
+        "The prophet went in the city.",
+        "The prophet went from the city.",
+        "The prophet went to a city."
+      ],
+      "answer": "The prophet went to the city.",
+      "optionIsScript": false,
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-02",
+      "extra": true
+    },
+    {
+      "id": "c19-02.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The prophet went to the city.",
+      "stimulus": "הַנָּבִיא הָלַךְ ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "לָעִיר"
+      ],
+      "answerIsScript": true,
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-02",
+      "extra": true
+    },
+    {
+      "id": "c19-02.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The prophet went to the city.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַנָּבִיא הָלַךְ לָעִיר",
+        "הַנָּבִיא הָלַךְ אֶל־הָעִיר",
+        "הָלַךְ הַנָּבִיא אֶל־הָעִיר"
+      ],
+      "answerIsScript": true,
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-02",
+      "extra": true
+    },
+    {
+      "id": "c19-02.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The prophet went to the city.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַנָּבִיא הָלַךְ לָעִיר",
+        "הַנָּבִיא הָלַךְ אֶל־הָעִיר",
+        "הָלַךְ הַנָּבִיא אֶל־הָעִיר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-02",
+      "extra": true
+    },
+    {
+      "id": "c19-03.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָעָם שָׁתָה מַיִם",
+      "stimulusIsScript": true,
+      "statement": "The people drank water.",
+      "answer": true,
+      "expected": "The people drank water.",
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-03",
+      "extra": true
+    },
+    {
+      "id": "c19-03.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָעָם שָׁתָה מַיִם",
+      "stimulusIsScript": true,
+      "options": [
+        "The prince sat in the palace.",
+        "A people drank water.",
+        "The people drank water.",
+        "The man called on the name of God."
+      ],
+      "answer": "The people drank water.",
+      "optionIsScript": false,
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-03",
+      "extra": true
+    },
+    {
+      "id": "c19-03.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The people drank water.",
+      "stimulus": "＿＿＿ שָׁתָה מַיִם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הָעָם"
+      ],
+      "answerIsScript": true,
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-03",
+      "extra": true
+    },
+    {
+      "id": "c19-03.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הָעָם שָׁתָה מַיִם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The people drank water."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-03",
+      "extra": true
+    },
+    {
+      "id": "c19-03.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The people drank water.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָעָם שָׁתָה מַיִם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-03",
+      "extra": true
+    },
+    {
+      "id": "c19-04.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַנָּבִיא יָשַׁב שָׁם",
+      "stimulusIsScript": true,
+      "statement": "The prophet sat there.",
+      "answer": true,
+      "expected": "The prophet sat there.",
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-04",
+      "extra": true
+    },
+    {
+      "id": "c19-04.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַנָּבִיא יָשַׁב שָׁם",
+      "stimulusIsScript": true,
+      "options": [
+        "The people dwelt in the land.",
+        "The man sat on the ground in the night.",
+        "A prophet sat there.",
+        "The prophet sat there."
+      ],
+      "answer": "The prophet sat there.",
+      "optionIsScript": false,
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-04",
+      "extra": true
+    },
+    {
+      "id": "c19-04.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The prophet sat there.",
+      "stimulus": "＿＿＿ יָשַׁב שָׁם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַנָּבִיא"
+      ],
+      "answerIsScript": true,
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-04",
+      "extra": true
+    },
+    {
+      "id": "c19-04.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The prophet sat there.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַנָּבִיא יָשַׁב שָׁם",
+        "יָשַׁב הַנָּבִיא שָׁם"
+      ],
+      "answerIsScript": true,
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-04",
+      "extra": true
+    },
+    {
+      "id": "c19-04.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The prophet sat there.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַנָּבִיא יָשַׁב שָׁם",
+        "יָשַׁב הַנָּבִיא שָׁם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-04",
+      "extra": true
+    },
+    {
+      "id": "c19-05.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָאִישׁ שָׂם אֶבֶן עַל־הָהָר",
+      "stimulusIsScript": true,
+      "statement": "The man placed a stone on the mountain.",
+      "answer": true,
+      "expected": "The man placed a stone on the mountain.",
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-05",
+      "extra": true
+    },
+    {
+      "id": "c19-05.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָאִישׁ שָׂם אֶבֶן עַל־הָהָר",
+      "stimulusIsScript": true,
+      "options": [
+        "The man placed a stone to the mountain.",
+        "The man placed a stone from the mountain.",
+        "The man placed a stone on a mountain.",
+        "The man placed a stone on the mountain."
+      ],
+      "answer": "The man placed a stone on the mountain.",
+      "optionIsScript": false,
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-05",
+      "extra": true
+    },
+    {
+      "id": "c19-05.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The man placed a stone on the mountain.",
+      "stimulus": "הָאִישׁ שָׂם ＿＿＿ עַל־הָהָר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶבֶן"
+      ],
+      "answerIsScript": true,
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-05",
+      "extra": true
+    },
+    {
+      "id": "c19-05.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הָאִישׁ שָׂם אֶבֶן עַל־הָהָר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The man placed a stone on the mountain."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-05",
+      "extra": true
+    },
+    {
+      "id": "c19-05.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The man placed a stone on the mountain.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאִישׁ שָׂם אֶבֶן עַל־הָהָר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-05",
+      "extra": true
+    },
+    {
+      "id": "c19-06.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָאִישׁ יָשַׁב בַּלַּיְלָה עַל־הָאֲדָמָה",
+      "stimulusIsScript": true,
+      "statement": "The man sat on the ground in the night.",
+      "answer": true,
+      "expected": "The man sat on the ground in the night.",
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-06",
+      "extra": true
+    },
+    {
+      "id": "c19-06.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָאִישׁ יָשַׁב בַּלַּיְלָה עַל־הָאֲדָמָה",
+      "stimulusIsScript": true,
+      "options": [
+        "The man sat on the ground in a night.",
+        "The man sat on the ground from the night.",
+        "The man sat on the ground to the night.",
+        "The man sat on the ground in the night."
+      ],
+      "answer": "The man sat on the ground in the night.",
+      "optionIsScript": false,
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-06",
+      "extra": true
+    },
+    {
+      "id": "c19-06.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The man sat on the ground in the night.",
+      "stimulus": "הָאִישׁ יָשַׁב בַּלַּיְלָה ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "עַל־הָאֲדָמָה"
+      ],
+      "answerIsScript": true,
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-06",
+      "extra": true
+    },
+    {
+      "id": "c19-06.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הָאִישׁ יָשַׁב בַּלַּיְלָה עַל־הָאֲדָמָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The man sat on the ground in the night."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-06",
+      "extra": true
+    },
+    {
+      "id": "c19-06.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The man sat on the ground in the night.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאִישׁ יָשַׁב בַּלַּיְלָה עַל־הָאֲדָמָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-06",
+      "extra": true
+    },
+    {
+      "id": "c19-07.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אֱלֹהִים בַּשָּׁמַיִם",
+      "stimulusIsScript": true,
+      "statement": "God is in heavens.",
+      "answer": false,
+      "expected": "God is in the heavens.",
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-07",
+      "extra": true
+    },
+    {
+      "id": "c19-07.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אֱלֹהִים בַּשָּׁמַיִם",
+      "stimulusIsScript": true,
+      "options": [
+        "God is from the heavens.",
+        "God is to the heavens.",
+        "God is in heavens.",
+        "God is in the heavens."
+      ],
+      "answer": "God is in the heavens.",
+      "optionIsScript": false,
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-07",
+      "extra": true
+    },
+    {
+      "id": "c19-07.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: God is in the heavens.",
+      "stimulus": "אֱלֹהִים ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "בַּשָּׁמַיִם"
+      ],
+      "answerIsScript": true,
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-07",
+      "extra": true
+    },
+    {
+      "id": "c19-07.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "God is in the heavens.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֱלֹהִים בַּשָּׁמַיִם",
+        "הָאֱלֹהִים בַּשָּׁמַיִם"
+      ],
+      "answerIsScript": true,
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-07",
+      "extra": true
+    },
+    {
+      "id": "c19-07.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "God is in the heavens.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֱלֹהִים בַּשָּׁמַיִם",
+        "הָאֱלֹהִים בַּשָּׁמַיִם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-07",
+      "extra": true
+    },
+    {
+      "id": "c19-08.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָעָם יָשַׁב בָּאָרֶץ",
+      "stimulusIsScript": true,
+      "statement": "The people dwelt in the land.",
+      "answer": true,
+      "expected": "The people dwelt in the land.",
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-08",
+      "extra": true
+    },
+    {
+      "id": "c19-08.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָעָם יָשַׁב בָּאָרֶץ",
+      "stimulusIsScript": true,
+      "options": [
+        "The people dwelt to the land.",
+        "A people dwelt in the land.",
+        "The people dwelt in a land.",
+        "The people dwelt in the land."
+      ],
+      "answer": "The people dwelt in the land.",
+      "optionIsScript": false,
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-08",
+      "extra": true
+    },
+    {
+      "id": "c19-08.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The people dwelt in the land.",
+      "stimulus": "הָעָם יָשַׁב ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "בָּאָרֶץ"
+      ],
+      "answerIsScript": true,
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-08",
+      "extra": true
+    },
+    {
+      "id": "c19-08.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הָעָם יָשַׁב בָּאָרֶץ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The people dwelt in the land."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-08",
+      "extra": true
+    },
+    {
+      "id": "c19-08.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The people dwelt in the land.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָעָם יָשַׁב בָּאָרֶץ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-08",
+      "extra": true
+    },
+    {
+      "id": "c19-09.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַשַּׂר יָשַׁב בַּהֵיכָל",
+      "stimulusIsScript": true,
+      "statement": "The prince sat from the palace.",
+      "answer": false,
+      "expected": "The prince sat in the palace.",
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-09",
+      "extra": true
+    },
+    {
+      "id": "c19-09.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַשַּׂר יָשַׁב בַּהֵיכָל",
+      "stimulusIsScript": true,
+      "options": [
+        "The prince sat from the palace.",
+        "The prince sat to the palace.",
+        "The prince sat in a palace.",
+        "The prince sat in the palace."
+      ],
+      "answer": "The prince sat in the palace.",
+      "optionIsScript": false,
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-09",
+      "extra": true
+    },
+    {
+      "id": "c19-09.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The prince sat in the palace.",
+      "stimulus": "הַשַּׂר ＿＿＿ בַּהֵיכָל",
+      "stimulusIsScript": true,
+      "accepted": [
+        "יָשַׁב"
+      ],
+      "answerIsScript": true,
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-09",
+      "extra": true
+    },
+    {
+      "id": "c19-09.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The prince sat in the palace.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַשַּׂר יָשַׁב בַּהֵיכָל",
+        "יָשַׁב הַשַּׂר בַּהֵיכָל"
+      ],
+      "answerIsScript": true,
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-09",
+      "extra": true
+    },
+    {
+      "id": "c19-09.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The prince sat in the palace.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַשַּׂר יָשַׁב בַּהֵיכָל",
+        "יָשַׁב הַשַּׂר בַּהֵיכָל"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-09",
+      "extra": true
+    },
+    {
+      "id": "c19-10.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָאִישׁ קָרָא בְּשֵׁם אֱלֹהִים",
+      "stimulusIsScript": true,
+      "statement": "The man called on the name of God.",
+      "answer": true,
+      "expected": "The man called on the name of God.",
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-10",
+      "extra": true
+    },
+    {
+      "id": "c19-10.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָאִישׁ קָרָא בְּשֵׁם אֱלֹהִים",
+      "stimulusIsScript": true,
+      "options": [
+        "The man called to the name of God.",
+        "The man called on the name of God.",
+        "The man called from the name of God.",
+        "The man called on a name of God."
+      ],
+      "answer": "The man called on the name of God.",
+      "optionIsScript": false,
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-10",
+      "extra": true
+    },
+    {
+      "id": "c19-10.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The man called on the name of God.",
+      "stimulus": "＿＿＿ קָרָא בְּשֵׁם אֱלֹהִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הָאִישׁ"
+      ],
+      "answerIsScript": true,
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-10",
+      "extra": true
+    },
+    {
+      "id": "c19-10.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הָאִישׁ קָרָא בְּשֵׁם אֱלֹהִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The man called on the name of God."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-10",
+      "extra": true
+    },
+    {
+      "id": "c19-10.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The man called on the name of God.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאִישׁ קָרָא בְּשֵׁם אֱלֹהִים"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-10",
+      "extra": true
+    },
+    {
+      "id": "c19-11.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַזָּהָב בָּאָרֶץ",
+      "stimulusIsScript": true,
+      "statement": "The gold is from the land.",
+      "answer": false,
+      "expected": "The gold is in the land.",
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-11",
+      "extra": true
+    },
+    {
+      "id": "c19-11.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַזָּהָב בָּאָרֶץ",
+      "stimulusIsScript": true,
+      "options": [
+        "The gold is to the land.",
+        "The gold is in the land.",
+        "The gold is from the land.",
+        "A gold is in the land."
+      ],
+      "answer": "The gold is in the land.",
+      "optionIsScript": false,
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-11",
+      "extra": true
+    },
+    {
+      "id": "c19-11.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The gold is in the land.",
+      "stimulus": "＿＿＿ בָּאָרֶץ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַזָּהָב"
+      ],
+      "answerIsScript": true,
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-11",
+      "extra": true
+    },
+    {
+      "id": "c19-11.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The gold is in the land.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַזָּהָב בָּאָרֶץ"
+      ],
+      "answerIsScript": true,
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-11",
+      "extra": true
+    },
+    {
+      "id": "c19-11.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The gold is in the land.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַזָּהָב בָּאָרֶץ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-11",
+      "extra": true
+    },
+    {
+      "id": "c19-12.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָאִישׁ עָבַר בַּמַּיִם",
+      "stimulusIsScript": true,
+      "statement": "The man passed through a water.",
+      "answer": false,
+      "expected": "The man passed through the water.",
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-12",
+      "extra": true
+    },
+    {
+      "id": "c19-12.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָאִישׁ עָבַר בַּמַּיִם",
+      "stimulusIsScript": true,
+      "options": [
+        "A man passed through the water.",
+        "The people drank water.",
+        "The man passed through the water.",
+        "The man passed through a water."
+      ],
+      "answer": "The man passed through the water.",
+      "optionIsScript": false,
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-12",
+      "extra": true
+    },
+    {
+      "id": "c19-12.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The man passed through the water.",
+      "stimulus": "הָאִישׁ עָבַר ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "בַּמַּיִם"
+      ],
+      "answerIsScript": true,
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-12",
+      "extra": true
+    },
+    {
+      "id": "c19-12.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הָאִישׁ עָבַר בַּמַּיִם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The man passed through the water."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-12",
+      "extra": true
+    },
+    {
+      "id": "c19-12.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The man passed through the water.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאִישׁ עָבַר בַּמַּיִם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c19",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c19-12",
+      "extra": true
     }
   ]
 }

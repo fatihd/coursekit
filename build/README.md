@@ -29,6 +29,11 @@
   translate, translate with vowel points), wrong options from one-point changes of the Key's English, English
   answer variants, pausal/contextual forms (P12-T4); used by `exwb_to_authored.py`, tested by
   `tests/test_davidson_ladder.py`.
+- `davidson_corpus.py` — corpus expansion (P12-T5): `forms` analyses every word of `_sources/davidson/corpus.json`
+  (sentences written for the course) from the OSHB into `corpus-forms.json` (attestation, lemma, grammar) and reports
+  unattested words; `bible` selects whole verses that use only course words into `bible-excerpts.json` (World
+  English Bible, `fetch_oer.py --source web`); `report` checks each sentence's declared unit against the computed one.
+  `exwb_to_authored.py` turns both into ladder items with `extra: true`.
 - `rebalance_vocab.py` — spreads a course's words evenly over its units (Davidson: `--layout
   _sources/davidson/vocab-layout.json`, pinned ids + topic units); rewrites the `unit` column of
   `content/vocab.csv` and the chapters' Vocabulary/Teaches/Assumes lists; `--recount _oer/morphhb/books`
@@ -46,6 +51,7 @@ python build/textify.py --course courses/<course>       # engine JSON -> content
 python build/generate-lessons.py --course courses/<course>   # optional OER enrichment
 python build/exwb_to_authored.py --course courses/biblical-hebrew-davidson   # exwb exercises -> drills
 python build/rebalance_vocab.py --course courses/biblical-hebrew-davidson --layout build/_sources/davidson/vocab-layout.json
+python build/davidson_corpus.py forms && python build/davidson_corpus.py bible   # then exwb_to_authored.py
 ```
 
 Part 2 of the three-part split (AGENTS.md §2): authoring writes course data for the app; it

@@ -1,0 +1,399 @@
+{
+  "schema": "authored-exercises-v1.json",
+  "unit": 79,
+  "sources": {
+    "c79-01": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c79-02": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c79-03": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c79-04": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    }
+  },
+  "items": [
+    {
+      "id": "c79-01.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "שִׂמְחַת גִּילִי",
+      "stimulusIsScript": true,
+      "statement": "The joy of our rejoicing",
+      "answer": false,
+      "expected": "The joy of my rejoicing",
+      "block": "c79",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c79-01",
+      "extra": true
+    },
+    {
+      "id": "c79-01.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "שִׂמְחַת גִּילִי",
+      "stimulusIsScript": true,
+      "options": [
+        "The joy of our rejoicing",
+        "A joy of my rejoicing",
+        "The joy of your rejoicing",
+        "The joy of my rejoicing"
+      ],
+      "answer": "The joy of my rejoicing",
+      "optionIsScript": false,
+      "block": "c79",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c79-01",
+      "extra": true
+    },
+    {
+      "id": "c79-01.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The joy of my rejoicing",
+      "stimulus": "שִׂמְחַת ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "גִּילִי"
+      ],
+      "answerIsScript": true,
+      "block": "c79",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c79-01",
+      "extra": true
+    },
+    {
+      "id": "c79-01.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "שִׂמְחַת גִּילִי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The joy of my rejoicing"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c79",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c79-01",
+      "extra": true
+    },
+    {
+      "id": "c79-01.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The joy of my rejoicing",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שִׂמְחַת גִּילִי"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c79",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c79-01",
+      "extra": true
+    },
+    {
+      "id": "c79-02.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "בְּכֶתֶר מַלְכוּת",
+      "stimulusIsScript": true,
+      "statement": "With the royal crown",
+      "answer": true,
+      "expected": "With the royal crown",
+      "block": "c79",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c79-02",
+      "extra": true
+    },
+    {
+      "id": "c79-02.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "בְּכֶתֶר מַלְכוּת",
+      "stimulusIsScript": true,
+      "options": [
+        "They took the key.",
+        "The joy of my rejoicing",
+        "With a royal crown",
+        "With the royal crown"
+      ],
+      "answer": "With the royal crown",
+      "optionIsScript": false,
+      "block": "c79",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c79-02",
+      "extra": true
+    },
+    {
+      "id": "c79-02.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: With the royal crown",
+      "stimulus": "בְּכֶתֶר ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "מַלְכוּת"
+      ],
+      "answerIsScript": true,
+      "block": "c79",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c79-02",
+      "extra": true
+    },
+    {
+      "id": "c79-02.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "בְּכֶתֶר מַלְכוּת",
+      "stimulusIsScript": true,
+      "accepted": [
+        "With the royal crown"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c79",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c79-02",
+      "extra": true
+    },
+    {
+      "id": "c79-02.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "With the royal crown",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בְּכֶתֶר מַלְכוּת"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c79",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c79-02",
+      "extra": true
+    },
+    {
+      "id": "c79-03.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיִּקְחוּ אֶת־הַמַּפְתֵּחַ",
+      "stimulusIsScript": true,
+      "statement": "They took a key.",
+      "answer": false,
+      "expected": "They took the key.",
+      "block": "c79",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c79-03",
+      "extra": true
+    },
+    {
+      "id": "c79-03.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיִּקְחוּ אֶת־הַמַּפְתֵּחַ",
+      "stimulusIsScript": true,
+      "options": [
+        "They took a key.",
+        "We took the key.",
+        "They took the key.",
+        "You took the key."
+      ],
+      "answer": "They took the key.",
+      "optionIsScript": false,
+      "block": "c79",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c79-03",
+      "extra": true
+    },
+    {
+      "id": "c79-03.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: They took the key.",
+      "stimulus": "＿＿＿ אֶת־הַמַּפְתֵּחַ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וַיִּקְחוּ"
+      ],
+      "answerIsScript": true,
+      "block": "c79",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c79-03",
+      "extra": true
+    },
+    {
+      "id": "c79-03.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "They took the key.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיִּקְחוּ אֶת־הַמַּפְתֵּחַ"
+      ],
+      "answerIsScript": true,
+      "block": "c79",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c79-03",
+      "extra": true
+    },
+    {
+      "id": "c79-03.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "They took the key.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיִּקְחוּ אֶת־הַמַּפְתֵּחַ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c79",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c79-03",
+      "extra": true
+    },
+    {
+      "id": "c79-04.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וְאַמִּיץ לִבּוֹ בַּגִּבּוֹרִים",
+      "stimulusIsScript": true,
+      "statement": "And she who is stout of heart among the mighty",
+      "answer": false,
+      "expected": "And he who is stout of heart among the mighty",
+      "block": "c79",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c79-04",
+      "extra": true
+    },
+    {
+      "id": "c79-04.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וְאַמִּיץ לִבּוֹ בַּגִּבּוֹרִים",
+      "stimulusIsScript": true,
+      "options": [
+        "With the royal crown",
+        "And he who is stout of heart among the mighty",
+        "And she who is stout of heart among the mighty",
+        "And he who is stout of heart among a mighty"
+      ],
+      "answer": "And he who is stout of heart among the mighty",
+      "optionIsScript": false,
+      "block": "c79",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c79-04",
+      "extra": true
+    },
+    {
+      "id": "c79-04.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: And he who is stout of heart among the mighty",
+      "stimulus": "וְאַמִּיץ לִבּוֹ ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "בַּגִּבּוֹרִים"
+      ],
+      "answerIsScript": true,
+      "block": "c79",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c79-04",
+      "extra": true
+    },
+    {
+      "id": "c79-04.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וְאַמִּיץ לִבּוֹ בַּגִּבּוֹרִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "And he who is stout of heart among the mighty"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c79",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c79-04",
+      "extra": true
+    },
+    {
+      "id": "c79-04.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And he who is stout of heart among the mighty",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וְאַמִּיץ לִבּוֹ בַּגִּבּוֹרִים"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c79",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c79-04",
+      "extra": true
+    }
+  ]
+}

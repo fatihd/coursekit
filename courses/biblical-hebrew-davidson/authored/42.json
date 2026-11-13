@@ -46,6 +46,30 @@
       "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n54.jpg",
       "exwb": "davidson-s23#B4",
       "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "c42-01": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c42-02": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c42-03": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c42-04": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c42-05": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c42-06": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c42-07": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c42-08": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
     }
   },
   "items": [
@@ -57,7 +81,7 @@
       "prompt": "Is this the right translation?",
       "stimulus": "אֶשְׁמְרָה תוֹרָתְךָ תָמִיד",
       "stimulusIsScript": true,
-      "statement": "They would keep thy law continually.",
+      "statement": "He would keep thy law continually.",
       "answer": false,
       "expected": "I would keep thy law continually.",
       "block": "s23",
@@ -74,10 +98,10 @@
       "stimulus": "אֶשְׁמְרָה תוֹרָתְךָ תָמִיד",
       "stimulusIsScript": true,
       "options": [
-        "We would keep thy law continually.",
+        "You would keep thy law continually.",
         "I would keep his law continually.",
         "I would keep thy law continually.",
-        "They would keep thy law continually."
+        "He would keep thy law continually."
       ],
       "answer": "I would keep thy law continually.",
       "optionIsScript": false,
@@ -167,7 +191,7 @@
       "options": [
         "Let us make the covenant, I and thou, and it shall be for a witness between me and thee.",
         "Let us make a covenant, I and thou, and it shall be for a witness between me and thee.",
-        "Let us make a covenant, they and thou, and it shall be for a witness between me and thee.",
+        "Let us make a covenant, he and thou, and it shall be for a witness between me and thee.",
         "Let me make a covenant, I and thou, and it shall be for a witness between me and thee."
       ],
       "answer": "Let us make a covenant, I and thou, and it shall be for a witness between me and thee.",
@@ -482,6 +506,768 @@
       "blockLabel": "Davidson §23",
       "shape": "en-he",
       "src": "s23-B4"
+    },
+    {
+      "id": "c42-01.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "יִמְלֹךְ הַמֶּלֶךְ",
+      "stimulusIsScript": true,
+      "statement": "Let a king reign.",
+      "answer": false,
+      "expected": "Let the king reign.",
+      "block": "c42",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c42-01",
+      "extra": true
+    },
+    {
+      "id": "c42-01.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "יִמְלֹךְ הַמֶּלֶךְ",
+      "stimulusIsScript": true,
+      "options": [
+        "Let the king reign.",
+        "Let us make a covenant.",
+        "Let a king reign.",
+        "The land is an inheritance for you."
+      ],
+      "answer": "Let the king reign.",
+      "optionIsScript": false,
+      "block": "c42",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c42-01",
+      "extra": true
+    },
+    {
+      "id": "c42-01.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Let the king reign.",
+      "stimulus": "＿＿＿ הַמֶּלֶךְ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "יִמְלֹךְ"
+      ],
+      "answerIsScript": true,
+      "block": "c42",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c42-01",
+      "extra": true
+    },
+    {
+      "id": "c42-01.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "יִמְלֹךְ הַמֶּלֶךְ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Let the king reign."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c42",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c42-01",
+      "extra": true
+    },
+    {
+      "id": "c42-01.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Let the king reign.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "יִמְלֹךְ הַמֶּלֶךְ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c42",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c42-01",
+      "extra": true
+    },
+    {
+      "id": "c42-02.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "נִכְרְתָה בְרִית",
+      "stimulusIsScript": true,
+      "statement": "Let us make a covenant.",
+      "answer": true,
+      "expected": "Let us make a covenant.",
+      "block": "c42",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c42-02",
+      "extra": true
+    },
+    {
+      "id": "c42-02.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "נִכְרְתָה בְרִית",
+      "stimulusIsScript": true,
+      "options": [
+        "Let us make the covenant.",
+        "Let me make a covenant.",
+        "Let us make a covenant.",
+        "Let them make a covenant."
+      ],
+      "answer": "Let us make a covenant.",
+      "optionIsScript": false,
+      "block": "c42",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c42-02",
+      "extra": true
+    },
+    {
+      "id": "c42-02.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Let us make a covenant.",
+      "stimulus": "＿＿＿ בְרִית",
+      "stimulusIsScript": true,
+      "accepted": [
+        "נִכְרְתָה"
+      ],
+      "answerIsScript": true,
+      "block": "c42",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c42-02",
+      "extra": true
+    },
+    {
+      "id": "c42-02.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "נִכְרְתָה בְרִית",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Let us make a covenant."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c42",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c42-02",
+      "extra": true
+    },
+    {
+      "id": "c42-02.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Let us make a covenant.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "נִכְרְתָה בְרִית",
+        "נִכְרְתָה בְּרִית"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c42",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c42-02",
+      "extra": true
+    },
+    {
+      "id": "c42-03.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אֶשְׁמְרָה תוֹרָתְךָ",
+      "stimulusIsScript": true,
+      "statement": "Let him keep your instruction.",
+      "answer": false,
+      "expected": "Let me keep your instruction.",
+      "block": "c42",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c42-03",
+      "extra": true
+    },
+    {
+      "id": "c42-03.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אֶשְׁמְרָה תוֹרָתְךָ",
+      "stimulusIsScript": true,
+      "options": [
+        "Let him keep your instruction.",
+        "Let us keep your instruction.",
+        "Let me keep your instruction.",
+        "Let me keep my instruction."
+      ],
+      "answer": "Let me keep your instruction.",
+      "optionIsScript": false,
+      "block": "c42",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c42-03",
+      "extra": true
+    },
+    {
+      "id": "c42-03.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Let me keep your instruction.",
+      "stimulus": "＿＿＿ תוֹרָתְךָ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶשְׁמְרָה"
+      ],
+      "answerIsScript": true,
+      "block": "c42",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c42-03",
+      "extra": true
+    },
+    {
+      "id": "c42-03.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "Let me keep your instruction.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֶשְׁמְרָה תוֹרָתְךָ",
+        "אֶשְׁמְרָה תּוֹרָתְךָ"
+      ],
+      "answerIsScript": true,
+      "block": "c42",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c42-03",
+      "extra": true
+    },
+    {
+      "id": "c42-03.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Let me keep your instruction.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֶשְׁמְרָה תוֹרָתְךָ",
+        "אֶשְׁמְרָה תּוֹרָתְךָ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c42",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c42-03",
+      "extra": true
+    },
+    {
+      "id": "c42-04.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אֶזְכְּרָה אֶת־מַעֲשֵׂי אֱלֹהִים",
+      "stimulusIsScript": true,
+      "statement": "Let me remember works of God.",
+      "answer": false,
+      "expected": "Let me remember the works of God.",
+      "block": "c42",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c42-04",
+      "extra": true
+    },
+    {
+      "id": "c42-04.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אֶזְכְּרָה אֶת־מַעֲשֵׂי אֱלֹהִים",
+      "stimulusIsScript": true,
+      "options": [
+        "Let me remember the works of God.",
+        "Let him remember the works of God.",
+        "Let me remember works of God.",
+        "Let us remember the works of God."
+      ],
+      "answer": "Let me remember the works of God.",
+      "optionIsScript": false,
+      "block": "c42",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c42-04",
+      "extra": true
+    },
+    {
+      "id": "c42-04.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Let me remember the works of God.",
+      "stimulus": "אֶזְכְּרָה ＿＿＿ אֱלֹהִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶת־מַעֲשֵׂי"
+      ],
+      "answerIsScript": true,
+      "block": "c42",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c42-04",
+      "extra": true
+    },
+    {
+      "id": "c42-04.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "אֶזְכְּרָה אֶת־מַעֲשֵׂי אֱלֹהִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Let me remember the works of God."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c42",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c42-04",
+      "extra": true
+    },
+    {
+      "id": "c42-04.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Let me remember the works of God.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֶזְכְּרָה אֶת־מַעֲשֵׂי אֱלֹהִים"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c42",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c42-04",
+      "extra": true
+    },
+    {
+      "id": "c42-05.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "יִשְׁפֹּט אֱלֹהִים בֵּינֵינוּ",
+      "stimulusIsScript": true,
+      "statement": "May God judge between us.",
+      "answer": true,
+      "expected": "May God judge between us.",
+      "block": "c42",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c42-05",
+      "extra": true
+    },
+    {
+      "id": "c42-05.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "יִשְׁפֹּט אֱלֹהִים בֵּינֵינוּ",
+      "stimulusIsScript": true,
+      "options": [
+        "May God judge between us.",
+        "May God judge between them.",
+        "May God judge between me.",
+        "Let me remember the works of God."
+      ],
+      "answer": "May God judge between us.",
+      "optionIsScript": false,
+      "block": "c42",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c42-05",
+      "extra": true
+    },
+    {
+      "id": "c42-05.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: May God judge between us.",
+      "stimulus": "יִשְׁפֹּט ＿＿＿ בֵּינֵינוּ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֱלֹהִים"
+      ],
+      "answerIsScript": true,
+      "block": "c42",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c42-05",
+      "extra": true
+    },
+    {
+      "id": "c42-05.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "יִשְׁפֹּט אֱלֹהִים בֵּינֵינוּ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "May God judge between us."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c42",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c42-05",
+      "extra": true
+    },
+    {
+      "id": "c42-05.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "May God judge between us.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "יִשְׁפֹּט אֱלֹהִים בֵּינֵינוּ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c42",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c42-05",
+      "extra": true
+    },
+    {
+      "id": "c42-06.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "לַמּוֹעֵד הַזֶּה",
+      "stimulusIsScript": true,
+      "statement": "At this appointed time",
+      "answer": true,
+      "expected": "At this appointed time",
+      "block": "c42",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c42-06",
+      "extra": true
+    },
+    {
+      "id": "c42-06.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "לַמּוֹעֵד הַזֶּה",
+      "stimulusIsScript": true,
+      "options": [
+        "At that appointed time",
+        "To this appointed time",
+        "From this appointed time",
+        "At this appointed time"
+      ],
+      "answer": "At this appointed time",
+      "optionIsScript": false,
+      "block": "c42",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c42-06",
+      "extra": true
+    },
+    {
+      "id": "c42-06.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: At this appointed time",
+      "stimulus": "לַמּוֹעֵד ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַזֶּה"
+      ],
+      "answerIsScript": true,
+      "block": "c42",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c42-06",
+      "extra": true
+    },
+    {
+      "id": "c42-06.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "לַמּוֹעֵד הַזֶּה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "At this appointed time"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c42",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c42-06",
+      "extra": true
+    },
+    {
+      "id": "c42-06.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "At this appointed time",
+      "stimulusIsScript": false,
+      "accepted": [
+        "לַמּוֹעֵד הַזֶּה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c42",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c42-06",
+      "extra": true
+    },
+    {
+      "id": "c42-07.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָאָרֶץ נַחֲלָה לָכֶם",
+      "stimulusIsScript": true,
+      "statement": "The land is the inheritance for you.",
+      "answer": false,
+      "expected": "The land is an inheritance for you.",
+      "block": "c42",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c42-07",
+      "extra": true
+    },
+    {
+      "id": "c42-07.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָאָרֶץ נַחֲלָה לָכֶם",
+      "stimulusIsScript": true,
+      "options": [
+        "The land is an inheritance for you.",
+        "Let me keep your instruction.",
+        "A land is an inheritance for you.",
+        "The land is the inheritance for you."
+      ],
+      "answer": "The land is an inheritance for you.",
+      "optionIsScript": false,
+      "block": "c42",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c42-07",
+      "extra": true
+    },
+    {
+      "id": "c42-07.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The land is an inheritance for you.",
+      "stimulus": "＿＿＿ נַחֲלָה לָכֶם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הָאָרֶץ"
+      ],
+      "answerIsScript": true,
+      "block": "c42",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c42-07",
+      "extra": true
+    },
+    {
+      "id": "c42-07.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הָאָרֶץ נַחֲלָה לָכֶם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The land is an inheritance for you."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c42",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c42-07",
+      "extra": true
+    },
+    {
+      "id": "c42-07.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The land is an inheritance for you.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאָרֶץ נַחֲלָה לָכֶם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c42",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c42-07",
+      "extra": true
+    },
+    {
+      "id": "c42-08.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אַל־תִּזְכֹּר עֲוֹנֵנוּ",
+      "stimulusIsScript": true,
+      "statement": "Do not remember our iniquity.",
+      "answer": true,
+      "expected": "Do not remember our iniquity.",
+      "block": "c42",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c42-08",
+      "extra": true
+    },
+    {
+      "id": "c42-08.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אַל־תִּזְכֹּר עֲוֹנֵנוּ",
+      "stimulusIsScript": true,
+      "options": [
+        "Do not remember their iniquity.",
+        "Do remember our iniquity.",
+        "Do not remember our iniquity.",
+        "Do not remember my iniquity."
+      ],
+      "answer": "Do not remember our iniquity.",
+      "optionIsScript": false,
+      "block": "c42",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c42-08",
+      "extra": true
+    },
+    {
+      "id": "c42-08.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Do not remember our iniquity.",
+      "stimulus": "אַל־תִּזְכֹּר ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "עֲוֹנֵנוּ"
+      ],
+      "answerIsScript": true,
+      "block": "c42",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c42-08",
+      "extra": true
+    },
+    {
+      "id": "c42-08.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "אַל־תִּזְכֹּר עֲוֹנֵנוּ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Do not remember our iniquity."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c42",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c42-08",
+      "extra": true
+    },
+    {
+      "id": "c42-08.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Do not remember our iniquity.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אַל־תִּזְכֹּר עֲוֹנֵנוּ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c42",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c42-08",
+      "extra": true
     }
   ]
 }

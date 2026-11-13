@@ -1,0 +1,460 @@
+{
+  "note": "Whole verses of the Hebrew Bible that use only course words, placed in the first unit whose words and grammar they need (grammar read from the OSHB morphology). Hebrew: Westminster Leningrad Codex via the Open Scriptures Hebrew Bible (text public domain, morphology CC BY 4.0), cantillation removed. English: World English Bible (public domain), with LORD written Yahweh. Only chapters with the same verse division in both are used. Written by build/davidson_corpus.py bible.",
+  "verses": [
+    {
+      "ref": "Exod.15.3",
+      "cite": "Exodus 15:3",
+      "unit": 25,
+      "hebrew": "יְהוָה אִישׁ מִלְחָמָה יְהוָה שְׁמוֹ",
+      "english": "Yahweh is a man of war. Yahweh is his name."
+    },
+    {
+      "ref": "1Chr.16.14",
+      "cite": "1 Chronicles 16:14",
+      "unit": 29,
+      "hebrew": "הוּא יְהוָה אֱלֹהֵינוּ בְּכָל־הָאָרֶץ מִשְׁפָּטָיו",
+      "english": "He is Yahweh our God. His judgments are in all the earth."
+    },
+    {
+      "ref": "Ps.99.2",
+      "cite": "Psalms 99:2",
+      "unit": 36,
+      "hebrew": "יְהוָה בְּצִיּוֹן גָּדוֹל וְרָם הוּא עַל־כָּל־הָעַמִּים",
+      "english": "Yahweh is great in Zion. He is high above all the peoples."
+    },
+    {
+      "ref": "Exod.23.32",
+      "cite": "Exodus 23:32",
+      "unit": 39,
+      "hebrew": "לֹא־תִכְרֹת לָהֶם וְלֵאלֹהֵיהֶם בְּרִית",
+      "english": "You shall make no covenant with them, nor with their gods."
+    },
+    {
+      "ref": "Ps.113.4",
+      "cite": "Psalms 113:4",
+      "unit": 45,
+      "hebrew": "רָם עַל־כָּל־גּוֹיִם יְהוָה עַל הַשָּׁמַיִם כְּבוֹדוֹ",
+      "english": "Yahweh is high above all nations, his glory above the heavens."
+    },
+    {
+      "ref": "Isa.14.18",
+      "cite": "Isaiah 14:18",
+      "unit": 45,
+      "hebrew": "כָּל־מַלְכֵי גוֹיִם כֻּלָּם שָׁכְבוּ בְכָבוֹד אִישׁ בְּבֵיתוֹ",
+      "english": "All the kings of the nations sleep in glory, everyone in his own house."
+    },
+    {
+      "ref": "Exod.25.30",
+      "cite": "Exodus 25:30",
+      "unit": 54,
+      "hebrew": "וְנָתַתָּ עַל־הַשֻּׁלְחָן לֶחֶם פָּנִים לְפָנַי תָּמִיד",
+      "english": "You shall set bread of the presence on the table before me always."
+    },
+    {
+      "ref": "Ps.115.1",
+      "cite": "Psalms 115:1",
+      "unit": 54,
+      "hebrew": "לֹא לָנוּ יְהוָה לֹא לָנוּ כִּי־לְשִׁמְךָ תֵּן כָּבוֹד עַל־חַסְדְּךָ עַל־אֲמִתֶּךָ",
+      "english": "Not to us, Yahweh, not to us, but to your name give glory, for your loving kindness, and for your truth's sake."
+    },
+    {
+      "ref": "Ps.116.9",
+      "cite": "Psalms 116:9",
+      "unit": 55,
+      "hebrew": "אֶתְהַלֵּךְ לִפְנֵי יְהוָה בְּאַרְצוֹת הַחַיִּים",
+      "english": "I will walk before Yahweh in the land of the living."
+    },
+    {
+      "ref": "Deut.15.23",
+      "cite": "Deuteronomy 15:23",
+      "unit": 56,
+      "hebrew": "רַק אֶת־דָּמוֹ לֹא תֹאכֵל עַל־הָאָרֶץ תִּשְׁפְּכֶנּוּ כַּמָּיִם",
+      "english": "Only you shall not eat its blood. You shall pour it out on the ground like water."
+    },
+    {
+      "ref": "Josh.23.11",
+      "cite": "Joshua 23:11",
+      "unit": 57,
+      "hebrew": "וְנִשְׁמַרְתֶּם מְאֹד לְנַפְשֹׁתֵיכֶם לְאַהֲבָה אֶת־יְהוָה אֱלֹהֵיכֶם",
+      "english": "Take good heed therefore to yourselves, that you love Yahweh your God."
+    },
+    {
+      "ref": "2Sam.6.1",
+      "cite": "2 Samuel 6:1",
+      "unit": 57,
+      "hebrew": "וַיֹּסֶף עוֹד דָּוִד אֶת־כָּל־בָּחוּר בְּיִשְׂרָאֵל שְׁלֹשִׁים אָלֶף",
+      "english": "David again gathered together all the chosen men of Israel, thirty thousand."
+    },
+    {
+      "ref": "Gen.21.27",
+      "cite": "Genesis 21:27",
+      "unit": 58,
+      "hebrew": "וַיִּקַּח אַבְרָהָם צֹאן וּבָקָר וַיִּתֵּן לַאֲבִימֶלֶךְ וַיִּכְרְתוּ שְׁנֵיהֶם בְּרִית",
+      "english": "Abraham took sheep and cattle, and gave them to Abimelech. Those two made a covenant."
+    },
+    {
+      "ref": "Gen.21.21",
+      "cite": "Genesis 21:21",
+      "unit": 60,
+      "hebrew": "וַיֵּשֶׁב בְּמִדְבַּר פָּארָן וַתִּקַּח־לוֹ אִמּוֹ אִשָּׁה מֵאֶרֶץ מִצְרָיִם",
+      "english": "He lived in the wilderness of Paran. His mother got a wife for him out of the land of Egypt."
+    },
+    {
+      "ref": "Gen.44.27",
+      "cite": "Genesis 44:27",
+      "unit": 60,
+      "hebrew": "וַיֹּאמֶר עַבְדְּךָ אָבִי אֵלֵינוּ אַתֶּם יְדַעְתֶּם כִּי שְׁנַיִם יָלְדָה־לִּי אִשְׁתִּי",
+      "english": "Your servant, my father, said to us, 'You know that my wife bore me two sons."
+    },
+    {
+      "ref": "Exod.19.25",
+      "cite": "Exodus 19:25",
+      "unit": 60,
+      "hebrew": "וַיֵּרֶד מֹשֶׁה אֶל־הָעָם וַיֹּאמֶר אֲלֵהֶם",
+      "english": "So Moses went down to the people, and told them."
+    },
+    {
+      "ref": "Ps.118.20",
+      "cite": "Psalms 118:20",
+      "unit": 61,
+      "hebrew": "זֶה־הַשַּׁעַר לַיהוָה צַדִּיקִים יָבֹאוּ בוֹ",
+      "english": "This is the gate of Yahweh; the righteous will enter into it."
+    },
+    {
+      "ref": "Ps.118.26",
+      "cite": "Psalms 118:26",
+      "unit": 61,
+      "hebrew": "בָּרוּךְ הַבָּא בְּשֵׁם יְהוָה בֵּרַכְנוּכֶם מִבֵּית יְהוָה",
+      "english": "Blessed is he who comes in Yahweh's name! We have blessed you out of Yahweh's house."
+    },
+    {
+      "ref": "Zech.12.9",
+      "cite": "Zechariah 12:9",
+      "unit": 61,
+      "hebrew": "וְהָיָה בַּיּוֹם הַהוּא אֲבַקֵּשׁ לְהַשְׁמִיד אֶת־כָּל־הַגּוֹיִם הַבָּאִים עַל־יְרוּשָׁלִָם",
+      "english": "It will happen in that day, that I will seek to destroy all the nations that come against Jerusalem."
+    },
+    {
+      "ref": "Gen.21.31",
+      "cite": "Genesis 21:31",
+      "unit": 62,
+      "hebrew": "עַל־כֵּן קָרָא לַמָּקוֹם הַהוּא בְּאֵר שָׁבַע כִּי שָׁם נִשְׁבְּעוּ שְׁנֵיהֶם",
+      "english": "Therefore he called that place Beersheba, because they both swore an oath there."
+    },
+    {
+      "ref": "Deut.15.20",
+      "cite": "Deuteronomy 15:20",
+      "unit": 62,
+      "hebrew": "לִפְנֵי יְהוָה אֱלֹהֶיךָ תֹאכֲלֶנּוּ שָׁנָה בְשָׁנָה בַּמָּקוֹם אֲשֶׁר־יִבְחַר יְהוָה אַתָּה וּבֵיתֶךָ",
+      "english": "You shall eat it before Yahweh your God year by year in the place which Yahweh shall choose, you and your household."
+    },
+    {
+      "ref": "Prov.29.4",
+      "cite": "Proverbs 29:4",
+      "unit": 63,
+      "hebrew": "מֶלֶךְ בְּמִשְׁפָּט יַעֲמִיד אָרֶץ וְאִישׁ תְּרוּמוֹת יֶהֶרְסֶנָּה",
+      "english": "The king by justice makes the land stable, but he who takes bribes tears it down."
+    },
+    {
+      "ref": "Gen.5.23",
+      "cite": "Genesis 5:23",
+      "unit": 65,
+      "hebrew": "וַיְהִי כָּל־יְמֵי חֲנוֹךְ חָמֵשׁ וְשִׁשִּׁים שָׁנָה וּשְׁלֹשׁ מֵאוֹת שָׁנָה",
+      "english": "All the days of Enoch were three hundred sixty-five years."
+    },
+    {
+      "ref": "Gen.11.1",
+      "cite": "Genesis 11:1",
+      "unit": 65,
+      "hebrew": "וַיְהִי כָל־הָאָרֶץ שָׂפָה אֶחָת וּדְבָרִים אֲחָדִים",
+      "english": "The whole earth was of one language and of one speech."
+    },
+    {
+      "ref": "Gen.23.1",
+      "cite": "Genesis 23:1",
+      "unit": 65,
+      "hebrew": "וַיִּהְיוּ חַיֵּי שָׂרָה מֵאָה שָׁנָה וְעֶשְׂרִים שָׁנָה וְשֶׁבַע שָׁנִים שְׁנֵי חַיֵּי שָׂרָה",
+      "english": "Sarah lived one hundred twenty-seven years. This was the length of Sarah's life."
+    },
+    {
+      "ref": "Gen.50.1",
+      "cite": "Genesis 50:1",
+      "unit": 65,
+      "hebrew": "וַיִּפֹּל יוֹסֵף עַל־פְּנֵי אָבִיו וַיֵּבְךְּ עָלָיו וַיִּשַּׁק־לוֹ",
+      "english": "Joseph fell on his father's face, wept on him, and kissed him."
+    },
+    {
+      "ref": "Exod.24.15",
+      "cite": "Exodus 24:15",
+      "unit": 65,
+      "hebrew": "וַיַּעַל מֹשֶׁה אֶל־הָהָר וַיְכַס הֶעָנָן אֶת־הָהָר",
+      "english": "Moses went up on the mountain, and the cloud covered the mountain."
+    },
+    {
+      "ref": "Exod.24.18",
+      "cite": "Exodus 24:18",
+      "unit": 65,
+      "hebrew": "וַיָּבֹא מֹשֶׁה בְּתוֹךְ הֶעָנָן וַיַּעַל אֶל־הָהָר וַיְהִי מֹשֶׁה בָּהָר אַרְבָּעִים יוֹם וְאַרְבָּעִים לָיְלָה",
+      "english": "Moses entered into the middle of the cloud, and went up on the mountain; and Moses was on the mountain forty days and forty nights."
+    },
+    {
+      "ref": "Num.4.36",
+      "cite": "Numbers 4:36",
+      "unit": 65,
+      "hebrew": "וַיִּהְיוּ פְקֻדֵיהֶם לְמִשְׁפְּחֹתָם אַלְפַּיִם שְׁבַע מֵאוֹת וַחֲמִשִּׁים",
+      "english": "Those who were counted of them by their families were two thousand seven hundred fifty."
+    },
+    {
+      "ref": "1Chr.16.34",
+      "cite": "1 Chronicles 16:34",
+      "unit": 65,
+      "hebrew": "הוֹדוּ לַיהוָה כִּי טוֹב כִּי לְעוֹלָם חַסְדּוֹ",
+      "english": "Oh give thanks to Yahweh, for he is good, for his loving kindness endures forever."
+    },
+    {
+      "ref": "2Chr.15.19",
+      "cite": "2 Chronicles 15:19",
+      "unit": 65,
+      "hebrew": "וּמִלְחָמָה לֹא הָיָתָה עַד שְׁנַת־שְׁלֹשִׁים וְחָמֵשׁ לְמַלְכוּת אָסָא",
+      "english": "There was no more war to the thirty-fifth year of Asa's reign."
+    },
+    {
+      "ref": "2Chr.23.16",
+      "cite": "2 Chronicles 23:16",
+      "unit": 65,
+      "hebrew": "וַיִּכְרֹת יְהוֹיָדָע בְּרִית בֵּינוֹ וּבֵין כָּל־הָעָם וּבֵין הַמֶּלֶךְ לִהְיוֹת לְעָם לַיהוָה",
+      "english": "Jehoiada made a covenant between himself, all the people, and the king, that they should be Yahweh's people."
+    },
+    {
+      "ref": "Esth.7.1",
+      "cite": "Esther 7:1",
+      "unit": 65,
+      "hebrew": "וַיָּבֹא הַמֶּלֶךְ וְהָמָן לִשְׁתּוֹת עִם־אֶסְתֵּר הַמַּלְכָּה",
+      "english": "So the king and Haman came to banquet with Esther the queen."
+    },
+    {
+      "ref": "Ps.99.3",
+      "cite": "Psalms 99:3",
+      "unit": 65,
+      "hebrew": "יוֹדוּ שִׁמְךָ גָּדוֹל וְנוֹרָא קָדוֹשׁ הוּא",
+      "english": "Let them praise your great and awesome name. He is Holy!"
+    },
+    {
+      "ref": "Ps.104.31",
+      "cite": "Psalms 104:31",
+      "unit": 65,
+      "hebrew": "יְהִי כְבוֹד יְהוָה לְעוֹלָם יִשְׂמַח יְהוָה בְּמַעֲשָׂיו",
+      "english": "Let Yahweh's glory endure forever. Let Yahweh rejoice in his works."
+    },
+    {
+      "ref": "Ps.113.2",
+      "cite": "Psalms 113:2",
+      "unit": 65,
+      "hebrew": "יְהִי שֵׁם יְהוָה מְבֹרָךְ מֵעַתָּה וְעַד־עוֹלָם",
+      "english": "Blessed be Yahweh's name, from this time forward and forever more."
+    },
+    {
+      "ref": "Ps.115.5",
+      "cite": "Psalms 115:5",
+      "unit": 65,
+      "hebrew": "פֶּה־לָהֶם וְלֹא יְדַבֵּרוּ עֵינַיִם לָהֶם וְלֹא יִרְאוּ",
+      "english": "They have mouths, but they don't speak. They have eyes, but they don't see."
+    },
+    {
+      "ref": "Ps.115.15",
+      "cite": "Psalms 115:15",
+      "unit": 65,
+      "hebrew": "בְּרוּכִים אַתֶּם לַיהוָה עֹשֵׂה שָׁמַיִם וָאָרֶץ",
+      "english": "Blessed are you by Yahweh, who made heaven and earth."
+    },
+    {
+      "ref": "Ps.118.19",
+      "cite": "Psalms 118:19",
+      "unit": 65,
+      "hebrew": "פִּתְחוּ־לִי שַׁעֲרֵי־צֶדֶק אָבֹא־בָם אוֹדֶה יָהּ",
+      "english": "Open to me the gates of righteousness. I will enter into them. I will give thanks to the LORD."
+    },
+    {
+      "ref": "Ps.118.21",
+      "cite": "Psalms 118:21",
+      "unit": 65,
+      "hebrew": "אוֹדְךָ כִּי עֲנִיתָנִי וַתְּהִי־לִי לִישׁוּעָה",
+      "english": "I will give thanks to you, for you have answered me, and have become my salvation."
+    },
+    {
+      "ref": "Ps.136.2",
+      "cite": "Psalms 136:2",
+      "unit": 65,
+      "hebrew": "הוֹדוּ לֵאלֹהֵי הָאֱלֹהִים כִּי לְעוֹלָם חַסְדּוֹ",
+      "english": "Give thanks to the God of gods, for his loving kindness endures forever."
+    },
+    {
+      "ref": "Ps.137.1",
+      "cite": "Psalms 137:1",
+      "unit": 65,
+      "hebrew": "עַל נַהֲרוֹת בָּבֶל שָׁם יָשַׁבְנוּ גַּם־בָּכִינוּ בְּזָכְרֵנוּ אֶת־צִיּוֹן",
+      "english": "By the rivers of Babylon, there we sat down. Yes, we wept, when we remembered Zion."
+    },
+    {
+      "ref": "Eccl.1.9",
+      "cite": "Ecclesiastes 1:9",
+      "unit": 65,
+      "hebrew": "מַה־שֶּׁהָיָה הוּא שֶׁיִּהְיֶה וּמַה־שֶׁנַּעֲשָׂה הוּא שֶׁיֵּעָשֶׂה וְאֵין כָּל־חָדָשׁ תַּחַת הַשָּׁמֶשׁ",
+      "english": "That which has been is that which shall be, and that which has been done is that which shall be done; and there is no new thing under the sun."
+    },
+    {
+      "ref": "Eccl.3.12",
+      "cite": "Ecclesiastes 3:12",
+      "unit": 65,
+      "hebrew": "יָדַעְתִּי כִּי אֵין טוֹב בָּם כִּי אִם־לִשְׂמוֹחַ וְלַעֲשׂוֹת טוֹב בְּחַיָּיו",
+      "english": "I know that there is nothing better for them than to rejoice, and to do good as long as they live."
+    },
+    {
+      "ref": "Isa.59.2",
+      "cite": "Isaiah 59:2",
+      "unit": 65,
+      "hebrew": "כִּי אִם־עֲוֺנֹתֵיכֶם הָיוּ מַבְדִּלִים בֵּינֵכֶם לְבֵין אֱלֹהֵיכֶם וְחַטֹּאותֵיכֶם הִסְתִּירוּ פָנִים מִכֶּם מִשְּׁמוֹעַ",
+      "english": "But your iniquities have separated you and your God, and your sins have hidden his face from you, so that he will not hear."
+    },
+    {
+      "ref": "Mal.3.18",
+      "cite": "Malachi 3:18",
+      "unit": 65,
+      "hebrew": "וְשַׁבְתֶּם וּרְאִיתֶם בֵּין צַדִּיק לְרָשָׁע בֵּין עֹבֵד אֱלֹהִים לַאֲשֶׁר לֹא עֲבָדוֹ",
+      "english": "Then you shall return and discern between the righteous and the wicked, between him who serves God and him who doesn't serve him."
+    },
+    {
+      "ref": "Gen.5.4",
+      "cite": "Genesis 5:4",
+      "unit": 66,
+      "hebrew": "וַיִּהְיוּ יְמֵי־אָדָם אַחֲרֵי הוֹלִידוֹ אֶת־שֵׁת שְׁמֹנֶה מֵאֹת שָׁנָה וַיּוֹלֶד בָּנִים וּבָנוֹת",
+      "english": "The days of Adam after he became the father of Seth were eight hundred years, and he became the father of other sons and daughters."
+    },
+    {
+      "ref": "Gen.10.20",
+      "cite": "Genesis 10:20",
+      "unit": 66,
+      "hebrew": "אֵלֶּה בְנֵי־חָם לְמִשְׁפְּחֹתָם לִלְשֹׁנֹתָם בְּאַרְצֹתָם בְּגוֹיֵהֶם",
+      "english": "These are the sons of Ham, after their families, according to their languages, in their lands and their nations."
+    },
+    {
+      "ref": "Gen.10.31",
+      "cite": "Genesis 10:31",
+      "unit": 66,
+      "hebrew": "אֵלֶּה בְנֵי־שֵׁם לְמִשְׁפְּחֹתָם לִלְשֹׁנֹתָם בְּאַרְצֹתָם לְגוֹיֵהֶם",
+      "english": "These are the sons of Shem, by their families, according to their languages, lands, and nations."
+    },
+    {
+      "ref": "Gen.21.5",
+      "cite": "Genesis 21:5",
+      "unit": 66,
+      "hebrew": "וְאַבְרָהָם בֶּן־מְאַת שָׁנָה בְּהִוָּלֶד לוֹ אֵת יִצְחָק בְּנוֹ",
+      "english": "Abraham was one hundred years old when his son, Isaac, was born to him."
+    },
+    {
+      "ref": "Gen.44.14",
+      "cite": "Genesis 44:14",
+      "unit": 66,
+      "hebrew": "וַיָּבֹא יְהוּדָה וְאֶחָיו בֵּיתָה יוֹסֵף וְהוּא עוֹדֶנּוּ שָׁם וַיִּפְּלוּ לְפָנָיו אָרְצָה",
+      "english": "Judah and his brothers came to Joseph's house, and he was still there. They fell on the ground before him."
+    },
+    {
+      "ref": "Gen.46.22",
+      "cite": "Genesis 46:22",
+      "unit": 66,
+      "hebrew": "אֵלֶּה בְּנֵי רָחֵל אֲשֶׁר יֻלַּד לְיַעֲקֹב כָּל־נֶפֶשׁ אַרְבָּעָה עָשָׂר",
+      "english": "These are the sons of Rachel, who were born to Jacob: all the souls were fourteen."
+    },
+    {
+      "ref": "Gen.46.23",
+      "cite": "Genesis 46:23",
+      "unit": 66,
+      "hebrew": "וּבְנֵי־דָן חֻשִׁים",
+      "english": "The son of Dan: Hushim."
+    },
+    {
+      "ref": "Exod.40.31",
+      "cite": "Exodus 40:31",
+      "unit": 66,
+      "hebrew": "וְרָחֲצוּ מִמֶּנּוּ מֹשֶׁה וְאַהֲרֹן וּבָנָיו אֶת־יְדֵיהֶם וְאֶת־רַגְלֵיהֶם",
+      "english": "Moses, Aaron, and his sons washed their hands and their feet there."
+    },
+    {
+      "ref": "Num.33.39",
+      "cite": "Numbers 33:39",
+      "unit": 66,
+      "hebrew": "וְאַהֲרֹן בֶּן־שָׁלֹשׁ וְעֶשְׂרִים וּמְאַת שָׁנָה בְּמֹתוֹ בְּהֹר הָהָר",
+      "english": "Aaron was one hundred twenty-three years old when he died in Mount Hor."
+    },
+    {
+      "ref": "Num.36.12",
+      "cite": "Numbers 36:12",
+      "unit": 66,
+      "hebrew": "מִמִּשְׁפְּחֹת בְּנֵי־מְנַשֶּׁה בֶן־יוֹסֵף הָיוּ לְנָשִׁים וַתְּהִי נַחֲלָתָן עַל־מַטֵּה מִשְׁפַּחַת אֲבִיהֶן",
+      "english": "They were married into the families of the sons of Manasseh the son of Joseph. Their inheritance remained in the tribe of the family of their father."
+    },
+    {
+      "ref": "Josh.13.28",
+      "cite": "Joshua 13:28",
+      "unit": 66,
+      "hebrew": "זֹאת נַחֲלַת בְּנֵי־גָד לְמִשְׁפְּחֹתָם הֶעָרִים וְחַצְרֵיהֶם",
+      "english": "This is the inheritance of the children of Gad according to their families, the cities and its villages."
+    },
+    {
+      "ref": "2Chr.15.1",
+      "cite": "2 Chronicles 15:1",
+      "unit": 66,
+      "hebrew": "וַעֲזַרְיָהוּ בֶּן־עוֹדֵד הָיְתָה עָלָיו רוּחַ אֱלֹהִים",
+      "english": "The Spirit of God came on Azariah the son of Oded."
+    },
+    {
+      "ref": "2Chr.21.5",
+      "cite": "2 Chronicles 21:5",
+      "unit": 66,
+      "hebrew": "בֶּן־שְׁלֹשִׁים וּשְׁתַּיִם שָׁנָה יְהוֹרָם בְּמָלְכוֹ וּשְׁמוֹנֶה שָׁנִים מָלַךְ בִּירוּשָׁלִָם",
+      "english": "Jehoram was thirty-two years old when he began to reign, and he reigned eight years in Jerusalem."
+    },
+    {
+      "ref": "2Chr.27.8",
+      "cite": "2 Chronicles 27:8",
+      "unit": 66,
+      "hebrew": "בֶּן־עֶשְׂרִים וְחָמֵשׁ שָׁנָה הָיָה בְמָלְכוֹ וְשֵׁשׁ־עֶשְׂרֵה שָׁנָה מָלַךְ בִּירוּשָׁלִָם",
+      "english": "He was twenty-five years old when he began to reign, and reigned sixteen years in Jerusalem."
+    },
+    {
+      "ref": "Gen.11.5",
+      "cite": "Genesis 11:5",
+      "unit": 69,
+      "hebrew": "וַיֵּרֶד יְהוָה לִרְאֹת אֶת־הָעִיר וְאֶת־הַמִּגְדָּל אֲשֶׁר בָּנוּ בְּנֵי הָאָדָם",
+      "english": "Yahweh came down to see the city and the tower, which the children of men built."
+    },
+    {
+      "ref": "Ps.135.9",
+      "cite": "Psalms 135:9",
+      "unit": 71,
+      "hebrew": "שָׁלַח אֹתוֹת וּמֹפְתִים בְּתוֹכֵכִי מִצְרָיִם בְּפַרְעֹה וּבְכָל־עֲבָדָיו",
+      "english": "He sent signs and wonders into the middle of you, Egypt, on Pharaoh, and on all his servants."
+    },
+    {
+      "ref": "Eccl.3.16",
+      "cite": "Ecclesiastes 3:16",
+      "unit": 73,
+      "hebrew": "וְעוֹד רָאִיתִי תַּחַת הַשָּׁמֶשׁ מְקוֹם הַמִּשְׁפָּט שָׁמָּה הָרֶשַׁע וּמְקוֹם הַצֶּדֶק שָׁמָּה הָרָשַׁע",
+      "english": "Moreover I saw under the sun, in the place of justice, that wickedness was there; and in the place of righteousness, that wickedness was there."
+    },
+    {
+      "ref": "Exod.9.26",
+      "cite": "Exodus 9:26",
+      "unit": 74,
+      "hebrew": "רַק בְּאֶרֶץ גֹּשֶׁן אֲשֶׁר־שָׁם בְּנֵי יִשְׂרָאֵל לֹא הָיָה בָּרָד",
+      "english": "Only in the land of Goshen, where the children of Israel were, there was no hail."
+    },
+    {
+      "ref": "Josh.11.7",
+      "cite": "Joshua 11:7",
+      "unit": 75,
+      "hebrew": "וַיָּבֹא יְהוֹשֻׁעַ וְכָל־עַם הַמִּלְחָמָה עִמּוֹ עֲלֵיהֶם עַל־מֵי מֵרוֹם פִּתְאֹם וַיִּפְּלוּ בָּהֶם",
+      "english": "So Joshua came suddenly, with all the warriors, against them by the waters of Merom, and attacked them."
+    }
+  ]
+}

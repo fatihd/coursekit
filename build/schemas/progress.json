@@ -86,7 +86,7 @@
     },
     "sessions": {
       "type": "object",
-      "description": "Open drill session per unit (seed, position, score) so a reload or link resumes it"
+      "description": "Open drill session per unit (seed, position, score, the session's item ids, questions queued to come back) so a reload or link resumes it"
     },
     "tests": {
       "type": "array",

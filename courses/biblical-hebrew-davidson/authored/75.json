@@ -1,0 +1,657 @@
+{
+  "schema": "authored-exercises-v1.json",
+  "unit": 75,
+  "sources": {
+    "c75-01": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c75-02": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c75-03": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c75-04": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c75-05": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c75-06": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "b-Josh-11-7": {
+      "citation": "Joshua 11:7. Hebrew: Westminster Leningrad Codex (public domain) via the Open Scriptures Hebrew Bible (morphology CC BY 4.0). English: World English Bible (public domain)",
+      "url": "https://worldenglish.bible"
+    }
+  },
+  "items": [
+    {
+      "id": "c75-01.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וְהָאִישׁ מֹשֶׁה עָנָו מְאֹד",
+      "stimulusIsScript": true,
+      "statement": "Now a man Moses was very humble.",
+      "answer": false,
+      "expected": "Now the man Moses was very humble.",
+      "block": "c75",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c75-01",
+      "extra": true
+    },
+    {
+      "id": "c75-01.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וְהָאִישׁ מֹשֶׁה עָנָו מְאֹד",
+      "stimulusIsScript": true,
+      "options": [
+        "A crown of gold",
+        "Now a man Moses was very humble.",
+        "His splendor is above earth and heaven.",
+        "Now the man Moses was very humble."
+      ],
+      "answer": "Now the man Moses was very humble.",
+      "optionIsScript": false,
+      "block": "c75",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c75-01",
+      "extra": true
+    },
+    {
+      "id": "c75-01.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Now the man Moses was very humble.",
+      "stimulus": "וְהָאִישׁ ＿＿＿ עָנָו מְאֹד",
+      "stimulusIsScript": true,
+      "accepted": [
+        "מֹשֶׁה"
+      ],
+      "answerIsScript": true,
+      "block": "c75",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c75-01",
+      "extra": true
+    },
+    {
+      "id": "c75-01.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וְהָאִישׁ מֹשֶׁה עָנָו מְאֹד",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Now the man Moses was very humble."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c75",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c75-01",
+      "extra": true
+    },
+    {
+      "id": "c75-01.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Now the man Moses was very humble.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וְהָאִישׁ מֹשֶׁה עָנָו מְאֹד"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c75",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c75-01",
+      "extra": true
+    },
+    {
+      "id": "c75-02.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "כִּדְמוּתֵנוּ",
+      "stimulusIsScript": true,
+      "statement": "According to my likeness",
+      "answer": false,
+      "expected": "According to our likeness",
+      "block": "c75",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c75-02",
+      "extra": true
+    },
+    {
+      "id": "c75-02.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "כִּדְמוּתֵנוּ",
+      "stimulusIsScript": true,
+      "options": [
+        "According to my likeness",
+        "According to our likeness",
+        "According from our likeness",
+        "According to their likeness"
+      ],
+      "answer": "According to our likeness",
+      "optionIsScript": false,
+      "block": "c75",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c75-02",
+      "extra": true
+    },
+    {
+      "id": "c75-02.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "According to our likeness",
+      "stimulusIsScript": false,
+      "accepted": [
+        "כִּדְמוּתֵנוּ"
+      ],
+      "answerIsScript": true,
+      "block": "c75",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c75-02",
+      "extra": true
+    },
+    {
+      "id": "c75-02.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "According to our likeness",
+      "stimulusIsScript": false,
+      "accepted": [
+        "כִּדְמוּתֵנוּ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c75",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c75-02",
+      "extra": true
+    },
+    {
+      "id": "c75-03.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיָּבֹא אֲלֵיהֶם פִּתְאֹם",
+      "stimulusIsScript": true,
+      "statement": "He came upon them suddenly.",
+      "answer": true,
+      "expected": "He came upon them suddenly.",
+      "block": "c75",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c75-03",
+      "extra": true
+    },
+    {
+      "id": "c75-03.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיָּבֹא אֲלֵיהֶם פִּתְאֹם",
+      "stimulusIsScript": true,
+      "options": [
+        "He came to them suddenly.",
+        "She came upon them suddenly.",
+        "He came upon him suddenly.",
+        "He came upon them suddenly."
+      ],
+      "answer": "He came upon them suddenly.",
+      "optionIsScript": false,
+      "block": "c75",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c75-03",
+      "extra": true
+    },
+    {
+      "id": "c75-03.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: He came upon them suddenly.",
+      "stimulus": "וַיָּבֹא ＿＿＿ פִּתְאֹם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֲלֵיהֶם"
+      ],
+      "answerIsScript": true,
+      "block": "c75",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c75-03",
+      "extra": true
+    },
+    {
+      "id": "c75-03.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וַיָּבֹא אֲלֵיהֶם פִּתְאֹם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "He came upon them suddenly."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c75",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c75-03",
+      "extra": true
+    },
+    {
+      "id": "c75-03.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "He came upon them suddenly.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיָּבֹא אֲלֵיהֶם פִּתְאֹם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c75",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c75-03",
+      "extra": true
+    },
+    {
+      "id": "c75-04.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הוֹדוֹ עַל־אֶרֶץ וְשָׁמָיִם",
+      "stimulusIsScript": true,
+      "statement": "His splendor is above earth and heaven.",
+      "answer": true,
+      "expected": "His splendor is above earth and heaven.",
+      "block": "c75",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c75-04",
+      "extra": true
+    },
+    {
+      "id": "c75-04.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הוֹדוֹ עַל־אֶרֶץ וְשָׁמָיִם",
+      "stimulusIsScript": true,
+      "options": [
+        "Her splendor is above earth and heaven.",
+        "My splendor is above earth and heaven.",
+        "His splendor is above earth and heaven.",
+        "Their splendor is above earth and heaven."
+      ],
+      "answer": "His splendor is above earth and heaven.",
+      "optionIsScript": false,
+      "block": "c75",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c75-04",
+      "extra": true
+    },
+    {
+      "id": "c75-04.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: His splendor is above earth and heaven.",
+      "stimulus": "הוֹדוֹ עַל־אֶרֶץ ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וְשָׁמָיִם"
+      ],
+      "answerIsScript": true,
+      "block": "c75",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c75-04",
+      "extra": true
+    },
+    {
+      "id": "c75-04.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הוֹדוֹ עַל־אֶרֶץ וְשָׁמָיִם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "His splendor is above earth and heaven."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c75",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c75-04",
+      "extra": true
+    },
+    {
+      "id": "c75-04.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "His splendor is above earth and heaven.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הוֹדוֹ עַל־אֶרֶץ וְשָׁמָיִם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c75",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c75-04",
+      "extra": true
+    },
+    {
+      "id": "c75-05.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אֲנִי בְּתֻמִּי הָלַכְתִּי",
+      "stimulusIsScript": true,
+      "statement": "I have walked in your integrity.",
+      "answer": false,
+      "expected": "I have walked in my integrity.",
+      "block": "c75",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c75-05",
+      "extra": true
+    },
+    {
+      "id": "c75-05.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אֲנִי בְּתֻמִּי הָלַכְתִּי",
+      "stimulusIsScript": true,
+      "options": [
+        "I have walked in your integrity.",
+        "I have walked in our integrity.",
+        "I have walked in my integrity.",
+        "I have walked to my integrity."
+      ],
+      "answer": "I have walked in my integrity.",
+      "optionIsScript": false,
+      "block": "c75",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c75-05",
+      "extra": true
+    },
+    {
+      "id": "c75-05.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: I have walked in my integrity.",
+      "stimulus": "אֲנִי בְּתֻמִּי ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הָלַכְתִּי"
+      ],
+      "answerIsScript": true,
+      "block": "c75",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c75-05",
+      "extra": true
+    },
+    {
+      "id": "c75-05.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "אֲנִי בְּתֻמִּי הָלַכְתִּי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "I have walked in my integrity."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c75",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c75-05",
+      "extra": true
+    },
+    {
+      "id": "c75-05.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "I have walked in my integrity.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֲנִי בְּתֻמִּי הָלַכְתִּי"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c75",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c75-05",
+      "extra": true
+    },
+    {
+      "id": "c75-06.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "עֲטֶרֶת זָהָב",
+      "stimulusIsScript": true,
+      "statement": "The crown of gold",
+      "answer": false,
+      "expected": "A crown of gold",
+      "block": "c75",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c75-06",
+      "extra": true
+    },
+    {
+      "id": "c75-06.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "עֲטֶרֶת זָהָב",
+      "stimulusIsScript": true,
+      "options": [
+        "The crown of gold",
+        "A crown of gold",
+        "I have walked in my integrity.",
+        "According to our likeness"
+      ],
+      "answer": "A crown of gold",
+      "optionIsScript": false,
+      "block": "c75",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c75-06",
+      "extra": true
+    },
+    {
+      "id": "c75-06.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: A crown of gold",
+      "stimulus": "＿＿＿ זָהָב",
+      "stimulusIsScript": true,
+      "accepted": [
+        "עֲטֶרֶת"
+      ],
+      "answerIsScript": true,
+      "block": "c75",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c75-06",
+      "extra": true
+    },
+    {
+      "id": "c75-06.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "עֲטֶרֶת זָהָב",
+      "stimulusIsScript": true,
+      "accepted": [
+        "A crown of gold"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c75",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c75-06",
+      "extra": true
+    },
+    {
+      "id": "c75-06.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "A crown of gold",
+      "stimulusIsScript": false,
+      "accepted": [
+        "עֲטֶרֶת זָהָב"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c75",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c75-06",
+      "extra": true
+    },
+    {
+      "id": "b-Josh-11-7.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיָּבֹא יְהוֹשֻׁעַ וְכָל־עַם הַמִּלְחָמָה עִמּוֹ עֲלֵיהֶם עַל־מֵי מֵרוֹם פִּתְאֹם וַיִּפְּלוּ בָּהֶם",
+      "stimulusIsScript": true,
+      "statement": "So Joshua came suddenly, with all the warriors, against them by the waters of Merom, and attacked him.",
+      "answer": false,
+      "expected": "So Joshua came suddenly, with all the warriors, against them by the waters of Merom, and attacked them.",
+      "block": "b75",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Josh-11-7",
+      "extra": true
+    },
+    {
+      "id": "b-Josh-11-7.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיָּבֹא יְהוֹשֻׁעַ וְכָל־עַם הַמִּלְחָמָה עִמּוֹ עֲלֵיהֶם עַל־מֵי מֵרוֹם פִּתְאֹם וַיִּפְּלוּ בָּהֶם",
+      "stimulusIsScript": true,
+      "options": [
+        "So Joshua came suddenly, with all the warriors, against them by the waters of Merom, and attacked him.",
+        "So Joshua came suddenly, with all the warriors, against us by the waters of Merom, and attacked them.",
+        "So Joshua came suddenly, with all the warriors, against them by the waters of Merom, and attacked them.",
+        "So Joshua came suddenly, with all the warriors, against them by waters of Merom, and attacked them."
+      ],
+      "answer": "So Joshua came suddenly, with all the warriors, against them by the waters of Merom, and attacked them.",
+      "optionIsScript": false,
+      "block": "b75",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Josh-11-7",
+      "extra": true
+    },
+    {
+      "id": "b-Josh-11-7.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: So Joshua came suddenly, with all the warriors, against them by the waters of Merom, and attacked them.",
+      "stimulus": "וַיָּבֹא ＿＿＿ וְכָל־עַם הַמִּלְחָמָה עִמּוֹ עֲלֵיהֶם עַל־מֵי מֵרוֹם פִּתְאֹם וַיִּפְּלוּ בָּהֶם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "יְהוֹשֻׁעַ"
+      ],
+      "answerIsScript": true,
+      "block": "b75",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Josh-11-7",
+      "extra": true
+    },
+    {
+      "id": "b-Josh-11-7.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וַיָּבֹא יְהוֹשֻׁעַ וְכָל־עַם הַמִּלְחָמָה עִמּוֹ עֲלֵיהֶם עַל־מֵי מֵרוֹם פִּתְאֹם וַיִּפְּלוּ בָּהֶם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "So Joshua came suddenly, with all the warriors, against them by the waters of Merom, and attacked them."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "b75",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Josh-11-7",
+      "extra": true
+    }
+  ]
+}

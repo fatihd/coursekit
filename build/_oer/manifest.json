@@ -1,7 +1,7 @@
 {
   "schema": "oer-manifest-v1.json",
   "purpose": "Local cache of approved OER sources for lesson enrichment (P6).",
-  "lastFetched": "2026-08-16",
+  "lastFetched": "2026-11-12",
   "disclaimer": "Cached text is license-marked per row. Engine/course output must paraphrase/attribute; never reproduce wholesale (see ADR-004).",
   "sources": [
     {
@@ -19,6 +19,14 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
       "homepage": "https://en.wiktionary.org",
       "rows": "build/_oer/wiktionary/index.json"
+    },
+    {
+      "id": "web",
+      "name": "World English Bible (eBible.org)",
+      "license": "Public domain",
+      "licenseUrl": "https://ebible.org/find/details.php?id=engwebp",
+      "homepage": "https://worldenglish.bible",
+      "rows": "build/_oer/web/engwebp_vpl.txt"
     }
   ]
 }

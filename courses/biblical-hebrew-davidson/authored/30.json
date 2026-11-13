@@ -82,6 +82,54 @@
       "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n142.jpg",
       "exwb": "davidson-s48#B4",
       "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "c30-01": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c30-02": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c30-03": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c30-04": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c30-05": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c30-06": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c30-07": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c30-08": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c30-09": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c30-10": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c30-11": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c30-12": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c30-13": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c30-14": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c30-15": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c30-16": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
     }
   },
   "items": [
@@ -897,6 +945,1522 @@
       "blockLabel": "Davidson §48",
       "shape": "en-he",
       "src": "s48-B4"
+    },
+    {
+      "id": "c30-01.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "שְׁנֵי אֲנָשִׁים",
+      "stimulusIsScript": true,
+      "statement": "Two men",
+      "answer": true,
+      "expected": "Two men",
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-01",
+      "extra": true
+    },
+    {
+      "id": "c30-01.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "שְׁנֵי אֲנָשִׁים",
+      "stimulusIsScript": true,
+      "options": [
+        "The two men",
+        "A hundred men",
+        "Two men",
+        "One man came to the city."
+      ],
+      "answer": "Two men",
+      "optionIsScript": false,
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-01",
+      "extra": true
+    },
+    {
+      "id": "c30-01.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Two men",
+      "stimulus": "שְׁנֵי ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֲנָשִׁים"
+      ],
+      "answerIsScript": true,
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-01",
+      "extra": true
+    },
+    {
+      "id": "c30-01.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "שְׁנֵי אֲנָשִׁים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Two men"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-01",
+      "extra": true
+    },
+    {
+      "id": "c30-01.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Two men",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שְׁנֵי אֲנָשִׁים"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-01",
+      "extra": true
+    },
+    {
+      "id": "c30-02.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "שָׁלֹשׁ עָרִים",
+      "stimulusIsScript": true,
+      "statement": "Three cities",
+      "answer": true,
+      "expected": "Three cities",
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-02",
+      "extra": true
+    },
+    {
+      "id": "c30-02.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "שָׁלֹשׁ עָרִים",
+      "stimulusIsScript": true,
+      "options": [
+        "One man came to the city.",
+        "Three cities",
+        "The three cities",
+        "On the seventh day is a Sabbath."
+      ],
+      "answer": "Three cities",
+      "optionIsScript": false,
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-02",
+      "extra": true
+    },
+    {
+      "id": "c30-02.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Three cities",
+      "stimulus": "שָׁלֹשׁ ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "עָרִים"
+      ],
+      "answerIsScript": true,
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-02",
+      "extra": true
+    },
+    {
+      "id": "c30-02.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "Three cities",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שָׁלֹשׁ עָרִים"
+      ],
+      "answerIsScript": true,
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-02",
+      "extra": true
+    },
+    {
+      "id": "c30-02.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Three cities",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שָׁלֹשׁ עָרִים"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-02",
+      "extra": true
+    },
+    {
+      "id": "c30-03.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "שִׁבְעָה יָמִים",
+      "stimulusIsScript": true,
+      "statement": "Seven days",
+      "answer": true,
+      "expected": "Seven days",
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-03",
+      "extra": true
+    },
+    {
+      "id": "c30-03.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "שִׁבְעָה יָמִים",
+      "stimulusIsScript": true,
+      "options": [
+        "Seven years",
+        "A thousand men",
+        "Seven days",
+        "The seven days"
+      ],
+      "answer": "Seven days",
+      "optionIsScript": false,
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-03",
+      "extra": true
+    },
+    {
+      "id": "c30-03.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Seven days",
+      "stimulus": "＿＿＿ יָמִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "שִׁבְעָה"
+      ],
+      "answerIsScript": true,
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-03",
+      "extra": true
+    },
+    {
+      "id": "c30-03.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "שִׁבְעָה יָמִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Seven days"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-03",
+      "extra": true
+    },
+    {
+      "id": "c30-03.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Seven days",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שִׁבְעָה יָמִים"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-03",
+      "extra": true
+    },
+    {
+      "id": "c30-04.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "שֶׁבַע שָׁנִים",
+      "stimulusIsScript": true,
+      "statement": "Seven years",
+      "answer": true,
+      "expected": "Seven years",
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-04",
+      "extra": true
+    },
+    {
+      "id": "c30-04.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "שֶׁבַע שָׁנִים",
+      "stimulusIsScript": true,
+      "options": [
+        "Seven years",
+        "A thousand men",
+        "A hundred men",
+        "The seven years"
+      ],
+      "answer": "Seven years",
+      "optionIsScript": false,
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-04",
+      "extra": true
+    },
+    {
+      "id": "c30-04.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Seven years",
+      "stimulus": "＿＿＿ שָׁנִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "שֶׁבַע"
+      ],
+      "answerIsScript": true,
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-04",
+      "extra": true
+    },
+    {
+      "id": "c30-04.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "Seven years",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שֶׁבַע שָׁנִים"
+      ],
+      "answerIsScript": true,
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-04",
+      "extra": true
+    },
+    {
+      "id": "c30-04.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Seven years",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שֶׁבַע שָׁנִים"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-04",
+      "extra": true
+    },
+    {
+      "id": "c30-05.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אִישׁ אֶחָד בָּא אֶל־הָעִיר",
+      "stimulusIsScript": true,
+      "statement": "One man came from the city.",
+      "answer": false,
+      "expected": "One man came to the city.",
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-05",
+      "extra": true
+    },
+    {
+      "id": "c30-05.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אִישׁ אֶחָד בָּא אֶל־הָעִיר",
+      "stimulusIsScript": true,
+      "options": [
+        "One man came to a city.",
+        "One man came from the city.",
+        "One man came to the city.",
+        "One man came in the city."
+      ],
+      "answer": "One man came to the city.",
+      "optionIsScript": false,
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-05",
+      "extra": true
+    },
+    {
+      "id": "c30-05.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: One man came to the city.",
+      "stimulus": "אִישׁ אֶחָד בָּא ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶל־הָעִיר"
+      ],
+      "answerIsScript": true,
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-05",
+      "extra": true
+    },
+    {
+      "id": "c30-05.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "אִישׁ אֶחָד בָּא אֶל־הָעִיר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "One man came to the city."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-05",
+      "extra": true
+    },
+    {
+      "id": "c30-05.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "One man came to the city.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אִישׁ אֶחָד בָּא אֶל־הָעִיר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-05",
+      "extra": true
+    },
+    {
+      "id": "c30-06.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "עֶשֶׂר שָׁנִים",
+      "stimulusIsScript": true,
+      "statement": "The ten years",
+      "answer": false,
+      "expected": "Ten years",
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-06",
+      "extra": true
+    },
+    {
+      "id": "c30-06.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "עֶשֶׂר שָׁנִים",
+      "stimulusIsScript": true,
+      "options": [
+        "Two women",
+        "The ten years",
+        "Two hundred men",
+        "Ten years"
+      ],
+      "answer": "Ten years",
+      "optionIsScript": false,
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-06",
+      "extra": true
+    },
+    {
+      "id": "c30-06.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Ten years",
+      "stimulus": "＿＿＿ שָׁנִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "עֶשֶׂר"
+      ],
+      "answerIsScript": true,
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-06",
+      "extra": true
+    },
+    {
+      "id": "c30-06.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "עֶשֶׂר שָׁנִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Ten years"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-06",
+      "extra": true
+    },
+    {
+      "id": "c30-06.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Ten years",
+      "stimulusIsScript": false,
+      "accepted": [
+        "עֶשֶׂר שָׁנִים"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-06",
+      "extra": true
+    },
+    {
+      "id": "c30-07.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "מֵאָה אִישׁ",
+      "stimulusIsScript": true,
+      "statement": "(Some) hundred mens",
+      "answer": false,
+      "expected": "A hundred men",
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-07",
+      "extra": true
+    },
+    {
+      "id": "c30-07.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "מֵאָה אִישׁ",
+      "stimulusIsScript": true,
+      "options": [
+        "A hundred men",
+        "(Some) hundred mens",
+        "The hundred men",
+        "Two men"
+      ],
+      "answer": "A hundred men",
+      "optionIsScript": false,
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-07",
+      "extra": true
+    },
+    {
+      "id": "c30-07.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: A hundred men",
+      "stimulus": "מֵאָה ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אִישׁ"
+      ],
+      "answerIsScript": true,
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-07",
+      "extra": true
+    },
+    {
+      "id": "c30-07.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "מֵאָה אִישׁ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "A hundred men"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-07",
+      "extra": true
+    },
+    {
+      "id": "c30-07.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "A hundred men",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מֵאָה אִישׁ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-07",
+      "extra": true
+    },
+    {
+      "id": "c30-08.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אֶלֶף אִישׁ",
+      "stimulusIsScript": true,
+      "statement": "A thousand men",
+      "answer": true,
+      "expected": "A thousand men",
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-08",
+      "extra": true
+    },
+    {
+      "id": "c30-08.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אֶלֶף אִישׁ",
+      "stimulusIsScript": true,
+      "options": [
+        "A thousand men",
+        "The thousand men",
+        "(Some) thousand mens",
+        "A hundred men"
+      ],
+      "answer": "A thousand men",
+      "optionIsScript": false,
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-08",
+      "extra": true
+    },
+    {
+      "id": "c30-08.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: A thousand men",
+      "stimulus": "＿＿＿ אִישׁ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶלֶף"
+      ],
+      "answerIsScript": true,
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-08",
+      "extra": true
+    },
+    {
+      "id": "c30-08.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "אֶלֶף אִישׁ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "A thousand men"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-08",
+      "extra": true
+    },
+    {
+      "id": "c30-08.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "A thousand men",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֶלֶף אִישׁ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-08",
+      "extra": true
+    },
+    {
+      "id": "c30-09.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָאִישׁ יָשַׁב שָׁם שִׁבְעָה יָמִים",
+      "stimulusIsScript": true,
+      "statement": "The man stayed there seven days.",
+      "answer": true,
+      "expected": "The man stayed there seven days.",
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-09",
+      "extra": true
+    },
+    {
+      "id": "c30-09.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָאִישׁ יָשַׁב שָׁם שִׁבְעָה יָמִים",
+      "stimulusIsScript": true,
+      "options": [
+        "The king reigned seven years.",
+        "The man stayed there seven days.",
+        "Two men",
+        "A man stayed there seven days."
+      ],
+      "answer": "The man stayed there seven days.",
+      "optionIsScript": false,
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-09",
+      "extra": true
+    },
+    {
+      "id": "c30-09.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The man stayed there seven days.",
+      "stimulus": "＿＿＿ יָשַׁב שָׁם שִׁבְעָה יָמִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הָאִישׁ"
+      ],
+      "answerIsScript": true,
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-09",
+      "extra": true
+    },
+    {
+      "id": "c30-09.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הָאִישׁ יָשַׁב שָׁם שִׁבְעָה יָמִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The man stayed there seven days."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-09",
+      "extra": true
+    },
+    {
+      "id": "c30-09.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The man stayed there seven days.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאִישׁ יָשַׁב שָׁם שִׁבְעָה יָמִים"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-09",
+      "extra": true
+    },
+    {
+      "id": "c30-10.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "שְׁנֵי הָאֲנָשִׁים בָּעִיר",
+      "stimulusIsScript": true,
+      "statement": "The two men are in a city.",
+      "answer": false,
+      "expected": "The two men are in the city.",
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-10",
+      "extra": true
+    },
+    {
+      "id": "c30-10.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "שְׁנֵי הָאֲנָשִׁים בָּעִיר",
+      "stimulusIsScript": true,
+      "options": [
+        "A two men are in the city.",
+        "The two men are in a city.",
+        "The two men are in the city.",
+        "The two men are to the city."
+      ],
+      "answer": "The two men are in the city.",
+      "optionIsScript": false,
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-10",
+      "extra": true
+    },
+    {
+      "id": "c30-10.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The two men are in the city.",
+      "stimulus": "שְׁנֵי ＿＿＿ בָּעִיר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הָאֲנָשִׁים"
+      ],
+      "answerIsScript": true,
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-10",
+      "extra": true
+    },
+    {
+      "id": "c30-10.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The two men are in the city.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שְׁנֵי הָאֲנָשִׁים בָּעִיר"
+      ],
+      "answerIsScript": true,
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-10",
+      "extra": true
+    },
+    {
+      "id": "c30-10.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The two men are in the city.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שְׁנֵי הָאֲנָשִׁים בָּעִיר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-10",
+      "extra": true
+    },
+    {
+      "id": "c30-11.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "חָמֵשׁ שָׁנִים",
+      "stimulusIsScript": true,
+      "statement": "The five years",
+      "answer": false,
+      "expected": "Five years",
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-11",
+      "extra": true
+    },
+    {
+      "id": "c30-11.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "חָמֵשׁ שָׁנִים",
+      "stimulusIsScript": true,
+      "options": [
+        "The two men are in the city.",
+        "Five years",
+        "The five years",
+        "The man stayed there seven days."
+      ],
+      "answer": "Five years",
+      "optionIsScript": false,
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-11",
+      "extra": true
+    },
+    {
+      "id": "c30-11.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Five years",
+      "stimulus": "＿＿＿ שָׁנִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "חָמֵשׁ"
+      ],
+      "answerIsScript": true,
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-11",
+      "extra": true
+    },
+    {
+      "id": "c30-11.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "חָמֵשׁ שָׁנִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Five years"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-11",
+      "extra": true
+    },
+    {
+      "id": "c30-11.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Five years",
+      "stimulusIsScript": false,
+      "accepted": [
+        "חָמֵשׁ שָׁנִים"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-11",
+      "extra": true
+    },
+    {
+      "id": "c30-12.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַמֶּלֶךְ מָלַךְ שֶׁבַע שָׁנִים",
+      "stimulusIsScript": true,
+      "statement": "The king reigned seven years.",
+      "answer": true,
+      "expected": "The king reigned seven years.",
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-12",
+      "extra": true
+    },
+    {
+      "id": "c30-12.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַמֶּלֶךְ מָלַךְ שֶׁבַע שָׁנִים",
+      "stimulusIsScript": true,
+      "options": [
+        "A king reigned seven years.",
+        "The king reigned seven years.",
+        "A hundred men",
+        "One man came to the city."
+      ],
+      "answer": "The king reigned seven years.",
+      "optionIsScript": false,
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-12",
+      "extra": true
+    },
+    {
+      "id": "c30-12.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The king reigned seven years.",
+      "stimulus": "＿＿＿ מָלַךְ שֶׁבַע שָׁנִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַמֶּלֶךְ"
+      ],
+      "answerIsScript": true,
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-12",
+      "extra": true
+    },
+    {
+      "id": "c30-12.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הַמֶּלֶךְ מָלַךְ שֶׁבַע שָׁנִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The king reigned seven years."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-12",
+      "extra": true
+    },
+    {
+      "id": "c30-12.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The king reigned seven years.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַמֶּלֶךְ מָלַךְ שֶׁבַע שָׁנִים"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-12",
+      "extra": true
+    },
+    {
+      "id": "c30-13.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "יוֹם אֶחָד",
+      "stimulusIsScript": true,
+      "statement": "The one day",
+      "answer": false,
+      "expected": "One day",
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-13",
+      "extra": true
+    },
+    {
+      "id": "c30-13.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "יוֹם אֶחָד",
+      "stimulusIsScript": true,
+      "options": [
+        "Seven years",
+        "One day",
+        "Two hundred men",
+        "The one day"
+      ],
+      "answer": "One day",
+      "optionIsScript": false,
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-13",
+      "extra": true
+    },
+    {
+      "id": "c30-13.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: One day",
+      "stimulus": "יוֹם ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶחָד"
+      ],
+      "answerIsScript": true,
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-13",
+      "extra": true
+    },
+    {
+      "id": "c30-13.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "One day",
+      "stimulusIsScript": false,
+      "accepted": [
+        "יוֹם אֶחָד"
+      ],
+      "answerIsScript": true,
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-13",
+      "extra": true
+    },
+    {
+      "id": "c30-13.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "One day",
+      "stimulusIsScript": false,
+      "accepted": [
+        "יוֹם אֶחָד"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-13",
+      "extra": true
+    },
+    {
+      "id": "c30-14.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "בַּיּוֹם הַשְּׁבִיעִי שַׁבָּת",
+      "stimulusIsScript": true,
+      "statement": "On a seventh day is a Sabbath.",
+      "answer": false,
+      "expected": "On the seventh day is a Sabbath.",
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-14",
+      "extra": true
+    },
+    {
+      "id": "c30-14.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "בַּיּוֹם הַשְּׁבִיעִי שַׁבָּת",
+      "stimulusIsScript": true,
+      "options": [
+        "From the seventh day is a Sabbath.",
+        "On the seventh day is the Sabbath.",
+        "On the seventh day is a Sabbath.",
+        "On a seventh day is a Sabbath."
+      ],
+      "answer": "On the seventh day is a Sabbath.",
+      "optionIsScript": false,
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-14",
+      "extra": true
+    },
+    {
+      "id": "c30-14.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: On the seventh day is a Sabbath.",
+      "stimulus": "בַּיּוֹם ＿＿＿ שַׁבָּת",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַשְּׁבִיעִי"
+      ],
+      "answerIsScript": true,
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-14",
+      "extra": true
+    },
+    {
+      "id": "c30-14.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "בַּיּוֹם הַשְּׁבִיעִי שַׁבָּת",
+      "stimulusIsScript": true,
+      "accepted": [
+        "On the seventh day is a Sabbath."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-14",
+      "extra": true
+    },
+    {
+      "id": "c30-14.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "On the seventh day is a Sabbath.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בַּיּוֹם הַשְּׁבִיעִי שַׁבָּת"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-14",
+      "extra": true
+    },
+    {
+      "id": "c30-15.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "שְׁתֵּי נָשִׁים",
+      "stimulusIsScript": true,
+      "statement": "The two women",
+      "answer": false,
+      "expected": "Two women",
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-15",
+      "extra": true
+    },
+    {
+      "id": "c30-15.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "שְׁתֵּי נָשִׁים",
+      "stimulusIsScript": true,
+      "options": [
+        "Two women",
+        "The two women",
+        "A hundred men",
+        "Five years"
+      ],
+      "answer": "Two women",
+      "optionIsScript": false,
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-15",
+      "extra": true
+    },
+    {
+      "id": "c30-15.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Two women",
+      "stimulus": "שְׁתֵּי ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "נָשִׁים"
+      ],
+      "answerIsScript": true,
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-15",
+      "extra": true
+    },
+    {
+      "id": "c30-15.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "שְׁתֵּי נָשִׁים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Two women"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-15",
+      "extra": true
+    },
+    {
+      "id": "c30-15.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Two women",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שְׁתֵּי נָשִׁים"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-15",
+      "extra": true
+    },
+    {
+      "id": "c30-16.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "מָאתַיִם אִישׁ",
+      "stimulusIsScript": true,
+      "statement": "The two hundred men",
+      "answer": false,
+      "expected": "Two hundred men",
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-16",
+      "extra": true
+    },
+    {
+      "id": "c30-16.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "מָאתַיִם אִישׁ",
+      "stimulusIsScript": true,
+      "options": [
+        "Five years",
+        "Two hundred men",
+        "The man stayed there seven days.",
+        "The two hundred men"
+      ],
+      "answer": "Two hundred men",
+      "optionIsScript": false,
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-16",
+      "extra": true
+    },
+    {
+      "id": "c30-16.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Two hundred men",
+      "stimulus": "מָאתַיִם ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אִישׁ"
+      ],
+      "answerIsScript": true,
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-16",
+      "extra": true
+    },
+    {
+      "id": "c30-16.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "מָאתַיִם אִישׁ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Two hundred men"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-16",
+      "extra": true
+    },
+    {
+      "id": "c30-16.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Two hundred men",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מָאתַיִם אִישׁ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c30",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c30-16",
+      "extra": true
     }
   ]
 }

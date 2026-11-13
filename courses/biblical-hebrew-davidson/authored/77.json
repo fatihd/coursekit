@@ -1,0 +1,497 @@
+{
+  "schema": "authored-exercises-v1.json",
+  "unit": 77,
+  "sources": {
+    "c77-01": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c77-02": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c77-03": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c77-04": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c77-05": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    }
+  },
+  "items": [
+    {
+      "id": "c77-01.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "בְּצֶלֶם אֱלֹהִים",
+      "stimulusIsScript": true,
+      "statement": "In an image of God",
+      "answer": false,
+      "expected": "In the image of God",
+      "block": "c77",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c77-01",
+      "extra": true
+    },
+    {
+      "id": "c77-01.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "בְּצֶלֶם אֱלֹהִים",
+      "stimulusIsScript": true,
+      "options": [
+        "From the image of God",
+        "To the image of God",
+        "In an image of God",
+        "In the image of God"
+      ],
+      "answer": "In the image of God",
+      "optionIsScript": false,
+      "block": "c77",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c77-01",
+      "extra": true
+    },
+    {
+      "id": "c77-01.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: In the image of God",
+      "stimulus": "＿＿＿ אֱלֹהִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "בְּצֶלֶם"
+      ],
+      "answerIsScript": true,
+      "block": "c77",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c77-01",
+      "extra": true
+    },
+    {
+      "id": "c77-01.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "בְּצֶלֶם אֱלֹהִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "In the image of God"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c77",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c77-01",
+      "extra": true
+    },
+    {
+      "id": "c77-01.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "In the image of God",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בְּצֶלֶם אֱלֹהִים"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c77",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c77-01",
+      "extra": true
+    },
+    {
+      "id": "c77-02.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיִּבְרָא אֱלֹהִים אֶת־הָאָדָם בְּצַלְמוֹ",
+      "stimulusIsScript": true,
+      "statement": "God created man in his own image.",
+      "answer": true,
+      "expected": "God created man in his own image.",
+      "block": "c77",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c77-02",
+      "extra": true
+    },
+    {
+      "id": "c77-02.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיִּבְרָא אֱלֹהִים אֶת־הָאָדָם בְּצַלְמוֹ",
+      "stimulusIsScript": true,
+      "options": [
+        "God created man to his own image.",
+        "God created man in his own image.",
+        "God created man in their own image.",
+        "God created man from his own image."
+      ],
+      "answer": "God created man in his own image.",
+      "optionIsScript": false,
+      "block": "c77",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c77-02",
+      "extra": true
+    },
+    {
+      "id": "c77-02.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: God created man in his own image.",
+      "stimulus": "וַיִּבְרָא אֱלֹהִים ＿＿＿ בְּצַלְמוֹ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶת־הָאָדָם"
+      ],
+      "answerIsScript": true,
+      "block": "c77",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c77-02",
+      "extra": true
+    },
+    {
+      "id": "c77-02.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "God created man in his own image.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיִּבְרָא אֱלֹהִים אֶת־הָאָדָם בְּצַלְמוֹ"
+      ],
+      "answerIsScript": true,
+      "block": "c77",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c77-02",
+      "extra": true
+    },
+    {
+      "id": "c77-02.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "God created man in his own image.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיִּבְרָא אֱלֹהִים אֶת־הָאָדָם בְּצַלְמוֹ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c77",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c77-02",
+      "extra": true
+    },
+    {
+      "id": "c77-03.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וְאוּלָם חַי־אָנִי",
+      "stimulusIsScript": true,
+      "statement": "But truly, as he live.",
+      "answer": false,
+      "expected": "But truly, as I live.",
+      "block": "c77",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c77-03",
+      "extra": true
+    },
+    {
+      "id": "c77-03.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וְאוּלָם חַי־אָנִי",
+      "stimulusIsScript": true,
+      "options": [
+        "But truly, as you live.",
+        "To rule the day",
+        "But truly, as he live.",
+        "But truly, as I live."
+      ],
+      "answer": "But truly, as I live.",
+      "optionIsScript": false,
+      "block": "c77",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c77-03",
+      "extra": true
+    },
+    {
+      "id": "c77-03.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: But truly, as I live.",
+      "stimulus": "＿＿＿ חַי־אָנִי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וְאוּלָם"
+      ],
+      "answerIsScript": true,
+      "block": "c77",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c77-03",
+      "extra": true
+    },
+    {
+      "id": "c77-03.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וְאוּלָם חַי־אָנִי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "But truly, as I live."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c77",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c77-03",
+      "extra": true
+    },
+    {
+      "id": "c77-03.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "But truly, as I live.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וְאוּלָם חַי־אָנִי"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c77",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c77-03",
+      "extra": true
+    },
+    {
+      "id": "c77-04.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "מַיִם עֲמֻקִּים",
+      "stimulusIsScript": true,
+      "statement": "The deep waters",
+      "answer": false,
+      "expected": "Deep waters",
+      "block": "c77",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c77-04",
+      "extra": true
+    },
+    {
+      "id": "c77-04.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "מַיִם עֲמֻקִּים",
+      "stimulusIsScript": true,
+      "options": [
+        "To rule the day",
+        "The deep waters",
+        "God created man in his own image.",
+        "Deep waters"
+      ],
+      "answer": "Deep waters",
+      "optionIsScript": false,
+      "block": "c77",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c77-04",
+      "extra": true
+    },
+    {
+      "id": "c77-04.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Deep waters",
+      "stimulus": "מַיִם ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "עֲמֻקִּים"
+      ],
+      "answerIsScript": true,
+      "block": "c77",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c77-04",
+      "extra": true
+    },
+    {
+      "id": "c77-04.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "מַיִם עֲמֻקִּים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Deep waters"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c77",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c77-04",
+      "extra": true
+    },
+    {
+      "id": "c77-04.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Deep waters",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מַיִם עֲמֻקִּים"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c77",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c77-04",
+      "extra": true
+    },
+    {
+      "id": "c77-05.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "לְמֶמְשֶׁלֶת הַיּוֹם",
+      "stimulusIsScript": true,
+      "statement": "To rule the day",
+      "answer": true,
+      "expected": "To rule the day",
+      "block": "c77",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c77-05",
+      "extra": true
+    },
+    {
+      "id": "c77-05.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "לְמֶמְשֶׁלֶת הַיּוֹם",
+      "stimulusIsScript": true,
+      "options": [
+        "In the image of God",
+        "To rule the day",
+        "To rule a day",
+        "Deep waters"
+      ],
+      "answer": "To rule the day",
+      "optionIsScript": false,
+      "block": "c77",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c77-05",
+      "extra": true
+    },
+    {
+      "id": "c77-05.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: To rule the day",
+      "stimulus": "＿＿＿ הַיּוֹם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "לְמֶמְשֶׁלֶת"
+      ],
+      "answerIsScript": true,
+      "block": "c77",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c77-05",
+      "extra": true
+    },
+    {
+      "id": "c77-05.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "לְמֶמְשֶׁלֶת הַיּוֹם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "To rule the day"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c77",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c77-05",
+      "extra": true
+    },
+    {
+      "id": "c77-05.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "To rule the day",
+      "stimulusIsScript": false,
+      "accepted": [
+        "לְמֶמְשֶׁלֶת הַיּוֹם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c77",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c77-05",
+      "extra": true
+    }
+  ]
+}

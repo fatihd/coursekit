@@ -1,0 +1,1050 @@
+{
+  "schema": "authored-exercises-v1.json",
+  "unit": 62,
+  "sources": {
+    "c62-01": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c62-02": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c62-03": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c62-04": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c62-05": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c62-06": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c62-07": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c62-08": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c62-09": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "b-Gen-21-31": {
+      "citation": "Genesis 21:31. Hebrew: Westminster Leningrad Codex (public domain) via the Open Scriptures Hebrew Bible (morphology CC BY 4.0). English: World English Bible (public domain)",
+      "url": "https://worldenglish.bible"
+    },
+    "b-Deut-15-20": {
+      "citation": "Deuteronomy 15:20. Hebrew: Westminster Leningrad Codex (public domain) via the Open Scriptures Hebrew Bible (morphology CC BY 4.0). English: World English Bible (public domain)",
+      "url": "https://worldenglish.bible"
+    }
+  },
+  "items": [
+    {
+      "id": "c62-01.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "קוֹל יְהוָה עַל־הַמָּיִם",
+      "stimulusIsScript": true,
+      "statement": "The voice of Yahweh is upon the waters.",
+      "answer": true,
+      "expected": "The voice of Yahweh is upon the waters.",
+      "block": "c62",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c62-01",
+      "extra": true
+    },
+    {
+      "id": "c62-01.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "קוֹל יְהוָה עַל־הַמָּיִם",
+      "stimulusIsScript": true,
+      "options": [
+        "A voice of Yahweh is upon the waters.",
+        "The voice of Yahweh is from the waters.",
+        "The voice of Yahweh is to the waters.",
+        "The voice of Yahweh is upon the waters."
+      ],
+      "answer": "The voice of Yahweh is upon the waters.",
+      "optionIsScript": false,
+      "block": "c62",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c62-01",
+      "extra": true
+    },
+    {
+      "id": "c62-01.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The voice of Yahweh is upon the waters.",
+      "stimulus": "קוֹל יְהוָה ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "עַל־הַמָּיִם"
+      ],
+      "answerIsScript": true,
+      "block": "c62",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c62-01",
+      "extra": true
+    },
+    {
+      "id": "c62-01.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "קוֹל יְהוָה עַל־הַמָּיִם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The voice of Yahweh is upon the waters.",
+        "The voice of the Lord is upon the waters."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c62",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c62-01",
+      "extra": true
+    },
+    {
+      "id": "c62-01.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The voice of Yahweh is upon the waters.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "קוֹל יְהוָה עַל־הַמָּיִם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c62",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c62-01",
+      "extra": true
+    },
+    {
+      "id": "c62-02.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אֶת־קֹלְךָ שָׁמַעְתִּי",
+      "stimulusIsScript": true,
+      "statement": "I heard my voice.",
+      "answer": false,
+      "expected": "I heard your voice.",
+      "block": "c62",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c62-02",
+      "extra": true
+    },
+    {
+      "id": "c62-02.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אֶת־קֹלְךָ שָׁמַעְתִּי",
+      "stimulusIsScript": true,
+      "options": [
+        "I heard my voice.",
+        "I heard our voice.",
+        "You heard your voice.",
+        "I heard your voice."
+      ],
+      "answer": "I heard your voice.",
+      "optionIsScript": false,
+      "block": "c62",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c62-02",
+      "extra": true
+    },
+    {
+      "id": "c62-02.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: I heard your voice.",
+      "stimulus": "＿＿＿ שָׁמַעְתִּי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶת־קֹלְךָ"
+      ],
+      "answerIsScript": true,
+      "block": "c62",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c62-02",
+      "extra": true
+    },
+    {
+      "id": "c62-02.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "I heard your voice.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֶת־קֹלְךָ שָׁמַעְתִּי"
+      ],
+      "answerIsScript": true,
+      "block": "c62",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c62-02",
+      "extra": true
+    },
+    {
+      "id": "c62-02.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "I heard your voice.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֶת־קֹלְךָ שָׁמַעְתִּי"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c62",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c62-02",
+      "extra": true
+    },
+    {
+      "id": "c62-03.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "בְּתוֹךְ הָעִיר",
+      "stimulusIsScript": true,
+      "statement": "In a midst of the city",
+      "answer": false,
+      "expected": "In the midst of the city",
+      "block": "c62",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c62-03",
+      "extra": true
+    },
+    {
+      "id": "c62-03.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "בְּתוֹךְ הָעִיר",
+      "stimulusIsScript": true,
+      "options": [
+        "In a midst of the city",
+        "In the midst of the city",
+        "In the midst of a city",
+        "To the midst of the city"
+      ],
+      "answer": "In the midst of the city",
+      "optionIsScript": false,
+      "block": "c62",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c62-03",
+      "extra": true
+    },
+    {
+      "id": "c62-03.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: In the midst of the city",
+      "stimulus": "＿＿＿ הָעִיר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "בְּתוֹךְ"
+      ],
+      "answerIsScript": true,
+      "block": "c62",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c62-03",
+      "extra": true
+    },
+    {
+      "id": "c62-03.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "בְּתוֹךְ הָעִיר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "In the midst of the city"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c62",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c62-03",
+      "extra": true
+    },
+    {
+      "id": "c62-03.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "In the midst of the city",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בְּתוֹךְ הָעִיר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c62",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c62-03",
+      "extra": true
+    },
+    {
+      "id": "c62-04.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַמָּקוֹם הַזֶּה",
+      "stimulusIsScript": true,
+      "statement": "The this place",
+      "answer": false,
+      "expected": "This place",
+      "block": "c62",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c62-04",
+      "extra": true
+    },
+    {
+      "id": "c62-04.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַמָּקוֹם הַזֶּה",
+      "stimulusIsScript": true,
+      "options": [
+        "The this place",
+        "That place",
+        "This place",
+        "A poor man"
+      ],
+      "answer": "This place",
+      "optionIsScript": false,
+      "block": "c62",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c62-04",
+      "extra": true
+    },
+    {
+      "id": "c62-04.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: This place",
+      "stimulus": "הַמָּקוֹם ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַזֶּה"
+      ],
+      "answerIsScript": true,
+      "block": "c62",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c62-04",
+      "extra": true
+    },
+    {
+      "id": "c62-04.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הַמָּקוֹם הַזֶּה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "This place"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c62",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c62-04",
+      "extra": true
+    },
+    {
+      "id": "c62-04.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "This place",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַמָּקוֹם הַזֶּה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c62",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c62-04",
+      "extra": true
+    },
+    {
+      "id": "c62-05.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַמָּקוֹם אֲשֶׁר בָּחַר יְהוָה",
+      "stimulusIsScript": true,
+      "statement": "The place which Yahweh chose",
+      "answer": true,
+      "expected": "The place which Yahweh chose",
+      "block": "c62",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c62-05",
+      "extra": true
+    },
+    {
+      "id": "c62-05.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַמָּקוֹם אֲשֶׁר בָּחַר יְהוָה",
+      "stimulusIsScript": true,
+      "options": [
+        "The place which Yahweh chose",
+        "A place which Yahweh chose",
+        "Life and death",
+        "Hear my prayer."
+      ],
+      "answer": "The place which Yahweh chose",
+      "optionIsScript": false,
+      "block": "c62",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c62-05",
+      "extra": true
+    },
+    {
+      "id": "c62-05.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The place which Yahweh chose",
+      "stimulus": "הַמָּקוֹם ＿＿＿ בָּחַר יְהוָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֲשֶׁר"
+      ],
+      "answerIsScript": true,
+      "block": "c62",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c62-05",
+      "extra": true
+    },
+    {
+      "id": "c62-05.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The place which Yahweh chose",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַמָּקוֹם אֲשֶׁר בָּחַר יְהוָה"
+      ],
+      "answerIsScript": true,
+      "block": "c62",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c62-05",
+      "extra": true
+    },
+    {
+      "id": "c62-05.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The place which Yahweh chose",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַמָּקוֹם אֲשֶׁר בָּחַר יְהוָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c62",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c62-05",
+      "extra": true
+    },
+    {
+      "id": "c62-06.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַחַיִּים וְהַמָּוֶת",
+      "stimulusIsScript": true,
+      "statement": "A poor man",
+      "answer": false,
+      "expected": "Life and death",
+      "block": "c62",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c62-06",
+      "extra": true
+    },
+    {
+      "id": "c62-06.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַחַיִּים וְהַמָּוֶת",
+      "stimulusIsScript": true,
+      "options": [
+        "Life and death",
+        "A poor man",
+        "The voice of Yahweh is upon the waters.",
+        "An ox and a donkey"
+      ],
+      "answer": "Life and death",
+      "optionIsScript": false,
+      "block": "c62",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c62-06",
+      "extra": true
+    },
+    {
+      "id": "c62-06.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Life and death",
+      "stimulus": "הַחַיִּים ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וְהַמָּוֶת"
+      ],
+      "answerIsScript": true,
+      "block": "c62",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c62-06",
+      "extra": true
+    },
+    {
+      "id": "c62-06.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הַחַיִּים וְהַמָּוֶת",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Life and death"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c62",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c62-06",
+      "extra": true
+    },
+    {
+      "id": "c62-06.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Life and death",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַחַיִּים וְהַמָּוֶת"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c62",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c62-06",
+      "extra": true
+    },
+    {
+      "id": "c62-07.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "שׁוֹר וַחֲמוֹר",
+      "stimulusIsScript": true,
+      "statement": "An ox and a donkey",
+      "answer": true,
+      "expected": "An ox and a donkey",
+      "block": "c62",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c62-07",
+      "extra": true
+    },
+    {
+      "id": "c62-07.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "שׁוֹר וַחֲמוֹר",
+      "stimulusIsScript": true,
+      "options": [
+        "The ox and a donkey",
+        "I heard your voice.",
+        "An ox and a donkey",
+        "An ox and the donkey"
+      ],
+      "answer": "An ox and a donkey",
+      "optionIsScript": false,
+      "block": "c62",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c62-07",
+      "extra": true
+    },
+    {
+      "id": "c62-07.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: An ox and a donkey",
+      "stimulus": "＿＿＿ וַחֲמוֹר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "שׁוֹר"
+      ],
+      "answerIsScript": true,
+      "block": "c62",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c62-07",
+      "extra": true
+    },
+    {
+      "id": "c62-07.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "שׁוֹר וַחֲמוֹר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "An ox and a donkey"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c62",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c62-07",
+      "extra": true
+    },
+    {
+      "id": "c62-07.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "An ox and a donkey",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שׁוֹר וַחֲמוֹר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c62",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c62-07",
+      "extra": true
+    },
+    {
+      "id": "c62-08.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אִישׁ עָנִי",
+      "stimulusIsScript": true,
+      "statement": "(Some) poor men",
+      "answer": false,
+      "expected": "A poor man",
+      "block": "c62",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c62-08",
+      "extra": true
+    },
+    {
+      "id": "c62-08.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אִישׁ עָנִי",
+      "stimulusIsScript": true,
+      "options": [
+        "I heard your voice.",
+        "(Some) poor men",
+        "A poor man",
+        "The poor man"
+      ],
+      "answer": "A poor man",
+      "optionIsScript": false,
+      "block": "c62",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c62-08",
+      "extra": true
+    },
+    {
+      "id": "c62-08.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: A poor man",
+      "stimulus": "＿＿＿ עָנִי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אִישׁ"
+      ],
+      "answerIsScript": true,
+      "block": "c62",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c62-08",
+      "extra": true
+    },
+    {
+      "id": "c62-08.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "אִישׁ עָנִי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "A poor man"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c62",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c62-08",
+      "extra": true
+    },
+    {
+      "id": "c62-08.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "A poor man",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אִישׁ עָנִי"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c62",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c62-08",
+      "extra": true
+    },
+    {
+      "id": "c62-09.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "שְׁמַע תְּפִלָּתִי",
+      "stimulusIsScript": true,
+      "statement": "Hear our prayer.",
+      "answer": false,
+      "expected": "Hear my prayer.",
+      "block": "c62",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c62-09",
+      "extra": true
+    },
+    {
+      "id": "c62-09.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "שְׁמַע תְּפִלָּתִי",
+      "stimulusIsScript": true,
+      "options": [
+        "Hear his prayer.",
+        "Hear our prayer.",
+        "Hear your prayer.",
+        "Hear my prayer."
+      ],
+      "answer": "Hear my prayer.",
+      "optionIsScript": false,
+      "block": "c62",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c62-09",
+      "extra": true
+    },
+    {
+      "id": "c62-09.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Hear my prayer.",
+      "stimulus": "＿＿＿ תְּפִלָּתִי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "שְׁמַע"
+      ],
+      "answerIsScript": true,
+      "block": "c62",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c62-09",
+      "extra": true
+    },
+    {
+      "id": "c62-09.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "שְׁמַע תְּפִלָּתִי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Hear my prayer."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c62",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c62-09",
+      "extra": true
+    },
+    {
+      "id": "c62-09.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Hear my prayer.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שְׁמַע תְּפִלָּתִי"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c62",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c62-09",
+      "extra": true
+    },
+    {
+      "id": "b-Gen-21-31.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "עַל־כֵּן קָרָא לַמָּקוֹם הַהוּא בְּאֵר שָׁבַע כִּי שָׁם נִשְׁבְּעוּ שְׁנֵיהֶם",
+      "stimulusIsScript": true,
+      "statement": "Therefore he called that place Beersheba, because we both swore an oath there.",
+      "answer": false,
+      "expected": "Therefore he called that place Beersheba, because they both swore an oath there.",
+      "block": "b62",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Gen-21-31",
+      "extra": true
+    },
+    {
+      "id": "b-Gen-21-31.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "עַל־כֵּן קָרָא לַמָּקוֹם הַהוּא בְּאֵר שָׁבַע כִּי שָׁם נִשְׁבְּעוּ שְׁנֵיהֶם",
+      "stimulusIsScript": true,
+      "options": [
+        "Therefore he called that place Beersheba, because we both swore an oath there.",
+        "Therefore he called this place Beersheba, because they both swore an oath there.",
+        "Therefore he called that place Beersheba, because they both swore the oath there.",
+        "Therefore he called that place Beersheba, because they both swore an oath there."
+      ],
+      "answer": "Therefore he called that place Beersheba, because they both swore an oath there.",
+      "optionIsScript": false,
+      "block": "b62",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Gen-21-31",
+      "extra": true
+    },
+    {
+      "id": "b-Gen-21-31.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Therefore he called that place Beersheba, because they both swore an oath there.",
+      "stimulus": "עַל־כֵּן קָרָא לַמָּקוֹם הַהוּא בְּאֵר שָׁבַע כִּי שָׁם ＿＿＿ שְׁנֵיהֶם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "נִשְׁבְּעוּ"
+      ],
+      "answerIsScript": true,
+      "block": "b62",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Gen-21-31",
+      "extra": true
+    },
+    {
+      "id": "b-Gen-21-31.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "עַל־כֵּן קָרָא לַמָּקוֹם הַהוּא בְּאֵר שָׁבַע כִּי שָׁם נִשְׁבְּעוּ שְׁנֵיהֶם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Therefore he called that place Beersheba, because they both swore an oath there."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "b62",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Gen-21-31",
+      "extra": true
+    },
+    {
+      "id": "b-Deut-15-20.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "לִפְנֵי יְהוָה אֱלֹהֶיךָ תֹאכֲלֶנּוּ שָׁנָה בְשָׁנָה בַּמָּקוֹם אֲשֶׁר־יִבְחַר יְהוָה אַתָּה וּבֵיתֶךָ",
+      "stimulusIsScript": true,
+      "statement": "You shall eat it before Yahweh your God year by year in the place which Yahweh shall choose, you and your household.",
+      "answer": true,
+      "expected": "You shall eat it before Yahweh your God year by year in the place which Yahweh shall choose, you and your household.",
+      "block": "b62",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Deut-15-20",
+      "extra": true
+    },
+    {
+      "id": "b-Deut-15-20.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "לִפְנֵי יְהוָה אֱלֹהֶיךָ תֹאכֲלֶנּוּ שָׁנָה בְשָׁנָה בַּמָּקוֹם אֲשֶׁר־יִבְחַר יְהוָה אַתָּה וּבֵיתֶךָ",
+      "stimulusIsScript": true,
+      "options": [
+        "You shall eat it before Yahweh your God year by year in a place which Yahweh shall choose, you and your household.",
+        "You shall eat it before Yahweh their God year by year in the place which Yahweh shall choose, you and your household.",
+        "You shall eat it before Yahweh your God year by year to the place which Yahweh shall choose, you and your household.",
+        "You shall eat it before Yahweh your God year by year in the place which Yahweh shall choose, you and your household."
+      ],
+      "answer": "You shall eat it before Yahweh your God year by year in the place which Yahweh shall choose, you and your household.",
+      "optionIsScript": false,
+      "block": "b62",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Deut-15-20",
+      "extra": true
+    },
+    {
+      "id": "b-Deut-15-20.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: You shall eat it before Yahweh your God year by year in the place which Yahweh shall choose, you and your household.",
+      "stimulus": "לִפְנֵי יְהוָה ＿＿＿ תֹאכֲלֶנּוּ שָׁנָה בְשָׁנָה בַּמָּקוֹם אֲשֶׁר־יִבְחַר יְהוָה אַתָּה וּבֵיתֶךָ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֱלֹהֶיךָ"
+      ],
+      "answerIsScript": true,
+      "block": "b62",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Deut-15-20",
+      "extra": true
+    },
+    {
+      "id": "b-Deut-15-20.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "לִפְנֵי יְהוָה אֱלֹהֶיךָ תֹאכֲלֶנּוּ שָׁנָה בְשָׁנָה בַּמָּקוֹם אֲשֶׁר־יִבְחַר יְהוָה אַתָּה וּבֵיתֶךָ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "You shall eat it before Yahweh your God year by year in the place which Yahweh shall choose, you and your household.",
+        "You shall eat it before the Lord your God year by year in the place which the Lord shall choose, you and your household."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "b62",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Deut-15-20",
+      "extra": true
+    }
+  ]
+}

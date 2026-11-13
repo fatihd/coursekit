@@ -44,7 +44,7 @@
   features; old progress not migrated (user). P12-T7 (deep links, per-block progress) recorded as ideas.
 - 2026-11-11: pushed P12-T6 to both repos (public 97df8d8). P12-T7 done: item codes, hash routes with seeds
   (`#/<slug>/drill/<seed>/<q>`, `/block/…`, `/item/<id>`), resume after reload, per-block progress; `e2e.py --routes`.
-  AGENTS.md §0 gained the goal (exam-ready literacy) and a private note on why not Duolingo-style apps.
+  AGENTS.md §0 gained the goal (exam-ready literacy) and a private note.
 - 2026-11-11: keyboard — shin dot, sin dot, maqqef keys; mark keys drawn on a letter with their names (all four courses' CSS).
 - 2026-11-11: P12-T2/T3/T4 done — exercise ladder (`build/davidson_ladder.py`, 4,510 items), `true-false` type, typed
   English with self-check, pointed grading with red marks, ladder sessions, unlock at rungs 1–3 (`unlockRung`), stars,
@@ -58,4 +58,6 @@
 - 2026-11-12: pushed to `coursekit` (9b47df2): phrases, noun-phrase-first order, recognition. P12-T10 done — progress operations: reset all (roadmap), mark unit done / reset unit (lesson), mark an exercise done / not done (drill item toggle); in-page confirms; stale async renders dropped; gate `e2e.py --progress-ops`.
 - 2026-11-12: P12-T11/T12 done (ADR-023) — tap-to-pair matching (per-pair feedback, ≤ 1 miss, extras, no duplicate glosses, both directions, plural sets, word cards) and a per-unit Words track (four word rungs, own sessions, word star, optional for unlocking); gate `e2e.py --words`.
 - 2026-11-12: P12-T13/T14 done (ADR-024) — drill mode (hinted retry, requeue at the end, first-try credit) and test mode (unit tests that test out at 80%, part tests, mock final; graded at the end, self-marked English, `progress.tests`); gate `e2e.py --modes`. Fixed: lesson/test feedback buttons shared one grid cell; e2e clicks scoped to the drills gate.
-- Next up: P12-T5 offline corpus expansion — on hold until the user says go.
+- 2026-11-12: P12-T5 first pass done (ADR-026) — corpus expansion for Davidson: `build/davidson_corpus.py` checks every word of `build/_sources/davidson/corpus.json` (659 sentences written for the course, units 16–79) against the Hebrew Bible (OSHB forms, `corpus-forms.json`) and places each sentence by its words' lemmas and the grammar their morphology shows (plus tags for verbless sentences, look-alike constructs, segholates, apocopated forms); `bible-excerpts.json` holds 65 whole verses that use only course words, with the World English Bible (`fetch_oer.py --source web`). Items carry `extra: true`; a unit needs every book exercise plus new sentences up to `features.ladderTarget` (20) per rung, the rest stay for practice and tests (`ladder.json` `extra`, progress keys `x1`…`x5`). Drill sessions now save their item ids so a resumed session is the same session. Numerals got Strong's numbers; possessive and subject swaps in wrong options keep the number (no "I am evil men"). Gate `e2e.py --corpus`, `tests/test_davidson_corpus.py`.
+- Greek (P11): Nunn + Key evaluated (report pending merge); open question: Nunn is public domain in the US only until 2033.
+- Next up: user decisions on the Greek report; optional corpus pass 2 (units 13–15, 72–79).

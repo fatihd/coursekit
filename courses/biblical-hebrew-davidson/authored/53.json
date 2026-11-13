@@ -1,0 +1,597 @@
+{
+  "schema": "authored-exercises-v1.json",
+  "unit": 53,
+  "sources": {
+    "c53-01": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c53-02": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c53-03": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c53-04": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c53-05": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c53-06": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    }
+  },
+  "items": [
+    {
+      "id": "c53-01.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "תַּחַת כְּנָפָיו",
+      "stimulusIsScript": true,
+      "statement": "Under his wings",
+      "answer": true,
+      "expected": "Under his wings",
+      "block": "c53",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c53-01",
+      "extra": true
+    },
+    {
+      "id": "c53-01.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "תַּחַת כְּנָפָיו",
+      "stimulusIsScript": true,
+      "options": [
+        "Under my wings",
+        "The under his wings",
+        "Under his wings",
+        "Under her wings"
+      ],
+      "answer": "Under his wings",
+      "optionIsScript": false,
+      "block": "c53",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c53-01",
+      "extra": true
+    },
+    {
+      "id": "c53-01.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Under his wings",
+      "stimulus": "תַּחַת ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "כְּנָפָיו"
+      ],
+      "answerIsScript": true,
+      "block": "c53",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c53-01",
+      "extra": true
+    },
+    {
+      "id": "c53-01.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "תַּחַת כְּנָפָיו",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Under his wings"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c53",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c53-01",
+      "extra": true
+    },
+    {
+      "id": "c53-01.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Under his wings",
+      "stimulusIsScript": false,
+      "accepted": [
+        "תַּחַת כְּנָפָיו"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c53",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c53-01",
+      "extra": true
+    },
+    {
+      "id": "c53-02.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "שִׂמְחָה גְדוֹלָה",
+      "stimulusIsScript": true,
+      "statement": "Great joy",
+      "answer": true,
+      "expected": "Great joy",
+      "block": "c53",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c53-02",
+      "extra": true
+    },
+    {
+      "id": "c53-02.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "שִׂמְחָה גְדוֹלָה",
+      "stimulusIsScript": true,
+      "options": [
+        "The great joy",
+        "Great joy",
+        "And the rest of the words of the king",
+        "And gladness of heart"
+      ],
+      "answer": "Great joy",
+      "optionIsScript": false,
+      "block": "c53",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c53-02",
+      "extra": true
+    },
+    {
+      "id": "c53-02.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Great joy",
+      "stimulus": "שִׂמְחָה ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "גְדוֹלָה"
+      ],
+      "answerIsScript": true,
+      "block": "c53",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c53-02",
+      "extra": true
+    },
+    {
+      "id": "c53-02.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "Great joy",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שִׂמְחָה גְדוֹלָה",
+        "שִׂמְחָה גְּדוֹלָה"
+      ],
+      "answerIsScript": true,
+      "block": "c53",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c53-02",
+      "extra": true
+    },
+    {
+      "id": "c53-02.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Great joy",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שִׂמְחָה גְדוֹלָה",
+        "שִׂמְחָה גְּדוֹלָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c53",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c53-02",
+      "extra": true
+    },
+    {
+      "id": "c53-03.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַכֶּבֶשׂ הָאֶחָד",
+      "stimulusIsScript": true,
+      "statement": "The one lamb",
+      "answer": true,
+      "expected": "The one lamb",
+      "block": "c53",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c53-03",
+      "extra": true
+    },
+    {
+      "id": "c53-03.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַכֶּבֶשׂ הָאֶחָד",
+      "stimulusIsScript": true,
+      "options": [
+        "The people dwell in the Negeb.",
+        "The one lamb",
+        "An one lamb",
+        "Under his wings"
+      ],
+      "answer": "The one lamb",
+      "optionIsScript": false,
+      "block": "c53",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c53-03",
+      "extra": true
+    },
+    {
+      "id": "c53-03.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The one lamb",
+      "stimulus": "＿＿＿ הָאֶחָד",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַכֶּבֶשׂ"
+      ],
+      "answerIsScript": true,
+      "block": "c53",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c53-03",
+      "extra": true
+    },
+    {
+      "id": "c53-03.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הַכֶּבֶשׂ הָאֶחָד",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The one lamb"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c53",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c53-03",
+      "extra": true
+    },
+    {
+      "id": "c53-03.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The one lamb",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַכֶּבֶשׂ הָאֶחָד"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c53",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c53-03",
+      "extra": true
+    },
+    {
+      "id": "c53-04.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָעָם יֹשֵׁב בַּנֶּגֶב",
+      "stimulusIsScript": true,
+      "statement": "The people dwell to the Negeb.",
+      "answer": false,
+      "expected": "The people dwell in the Negeb.",
+      "block": "c53",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c53-04",
+      "extra": true
+    },
+    {
+      "id": "c53-04.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָעָם יֹשֵׁב בַּנֶּגֶב",
+      "stimulusIsScript": true,
+      "options": [
+        "The people dwell to the Negeb.",
+        "The people dwell in the Negeb.",
+        "A people dwell in the Negeb.",
+        "The people dwell from the Negeb."
+      ],
+      "answer": "The people dwell in the Negeb.",
+      "optionIsScript": false,
+      "block": "c53",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c53-04",
+      "extra": true
+    },
+    {
+      "id": "c53-04.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The people dwell in the Negeb.",
+      "stimulus": "＿＿＿ יֹשֵׁב בַּנֶּגֶב",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הָעָם"
+      ],
+      "answerIsScript": true,
+      "block": "c53",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c53-04",
+      "extra": true
+    },
+    {
+      "id": "c53-04.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הָעָם יֹשֵׁב בַּנֶּגֶב",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The people dwell in the Negeb."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c53",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c53-04",
+      "extra": true
+    },
+    {
+      "id": "c53-04.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The people dwell in the Negeb.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָעָם יֹשֵׁב בַּנֶּגֶב"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c53",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c53-04",
+      "extra": true
+    },
+    {
+      "id": "c53-05.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וְיֶתֶר דִּבְרֵי הַמֶּלֶךְ",
+      "stimulusIsScript": true,
+      "statement": "And the rest of the words of the king",
+      "answer": true,
+      "expected": "And the rest of the words of the king",
+      "block": "c53",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c53-05",
+      "extra": true
+    },
+    {
+      "id": "c53-05.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וְיֶתֶר דִּבְרֵי הַמֶּלֶךְ",
+      "stimulusIsScript": true,
+      "options": [
+        "And the rest of words of the king",
+        "And the rest of the words of a king",
+        "And a rest of the words of the king",
+        "And the rest of the words of the king"
+      ],
+      "answer": "And the rest of the words of the king",
+      "optionIsScript": false,
+      "block": "c53",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c53-05",
+      "extra": true
+    },
+    {
+      "id": "c53-05.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: And the rest of the words of the king",
+      "stimulus": "וְיֶתֶר דִּבְרֵי ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַמֶּלֶךְ"
+      ],
+      "answerIsScript": true,
+      "block": "c53",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c53-05",
+      "extra": true
+    },
+    {
+      "id": "c53-05.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וְיֶתֶר דִּבְרֵי הַמֶּלֶךְ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "And the rest of the words of the king"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c53",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c53-05",
+      "extra": true
+    },
+    {
+      "id": "c53-05.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And the rest of the words of the king",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וְיֶתֶר דִּבְרֵי הַמֶּלֶךְ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c53",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c53-05",
+      "extra": true
+    },
+    {
+      "id": "c53-06.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וְשִׂמְחַת לֵב",
+      "stimulusIsScript": true,
+      "statement": "The one lamb",
+      "answer": false,
+      "expected": "And gladness of heart",
+      "block": "c53",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c53-06",
+      "extra": true
+    },
+    {
+      "id": "c53-06.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וְשִׂמְחַת לֵב",
+      "stimulusIsScript": true,
+      "options": [
+        "The one lamb",
+        "Great joy",
+        "And gladness of heart",
+        "Under his wings"
+      ],
+      "answer": "And gladness of heart",
+      "optionIsScript": false,
+      "block": "c53",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c53-06",
+      "extra": true
+    },
+    {
+      "id": "c53-06.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: And gladness of heart",
+      "stimulus": "וְשִׂמְחַת ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "לֵב"
+      ],
+      "answerIsScript": true,
+      "block": "c53",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c53-06",
+      "extra": true
+    },
+    {
+      "id": "c53-06.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וְשִׂמְחַת לֵב",
+      "stimulusIsScript": true,
+      "accepted": [
+        "And gladness of heart"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c53",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c53-06",
+      "extra": true
+    },
+    {
+      "id": "c53-06.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And gladness of heart",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וְשִׂמְחַת לֵב"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c53",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c53-06",
+      "extra": true
+    }
+  ]
+}

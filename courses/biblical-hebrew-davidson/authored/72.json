@@ -1,0 +1,595 @@
+{
+  "schema": "authored-exercises-v1.json",
+  "unit": 72,
+  "sources": {
+    "c72-01": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c72-02": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c72-03": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c72-04": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c72-05": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c72-06": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    }
+  },
+  "items": [
+    {
+      "id": "c72-01.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "שֹׁמֵר נַפְשׁוֹת חֲסִידָיו",
+      "stimulusIsScript": true,
+      "statement": "He keeps the lives of his faithful ones.",
+      "answer": true,
+      "expected": "He keeps the lives of his faithful ones.",
+      "block": "c72",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c72-01",
+      "extra": true
+    },
+    {
+      "id": "c72-01.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "שֹׁמֵר נַפְשׁוֹת חֲסִידָיו",
+      "stimulusIsScript": true,
+      "options": [
+        "He keeps the lives of his faithful ones.",
+        "She keeps the lives of his faithful ones.",
+        "He keeps lives of his faithful ones.",
+        "He keeps the lives of her faithful ones."
+      ],
+      "answer": "He keeps the lives of his faithful ones.",
+      "optionIsScript": false,
+      "block": "c72",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c72-01",
+      "extra": true
+    },
+    {
+      "id": "c72-01.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: He keeps the lives of his faithful ones.",
+      "stimulus": "שֹׁמֵר ＿＿＿ חֲסִידָיו",
+      "stimulusIsScript": true,
+      "accepted": [
+        "נַפְשׁוֹת"
+      ],
+      "answerIsScript": true,
+      "block": "c72",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c72-01",
+      "extra": true
+    },
+    {
+      "id": "c72-01.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "שֹׁמֵר נַפְשׁוֹת חֲסִידָיו",
+      "stimulusIsScript": true,
+      "accepted": [
+        "He keeps the lives of his faithful ones."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c72",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c72-01",
+      "extra": true
+    },
+    {
+      "id": "c72-01.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "He keeps the lives of his faithful ones.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שֹׁמֵר נַפְשׁוֹת חֲסִידָיו"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c72",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c72-01",
+      "extra": true
+    },
+    {
+      "id": "c72-02.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַבְּרָכָה וְהַקְּלָלָה",
+      "stimulusIsScript": true,
+      "statement": "The blessing and a curse",
+      "answer": false,
+      "expected": "The blessing and the curse",
+      "block": "c72",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c72-02",
+      "extra": true
+    },
+    {
+      "id": "c72-02.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַבְּרָכָה וְהַקְּלָלָה",
+      "stimulusIsScript": true,
+      "options": [
+        "The blessing and a curse",
+        "The tithe of the land",
+        "The blessing and the curse",
+        "A blessing and the curse"
+      ],
+      "answer": "The blessing and the curse",
+      "optionIsScript": false,
+      "block": "c72",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c72-02",
+      "extra": true
+    },
+    {
+      "id": "c72-02.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The blessing and the curse",
+      "stimulus": "＿＿＿ וְהַקְּלָלָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַבְּרָכָה"
+      ],
+      "answerIsScript": true,
+      "block": "c72",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c72-02",
+      "extra": true
+    },
+    {
+      "id": "c72-02.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The blessing and the curse",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַבְּרָכָה וְהַקְּלָלָה"
+      ],
+      "answerIsScript": true,
+      "block": "c72",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c72-02",
+      "extra": true
+    },
+    {
+      "id": "c72-02.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The blessing and the curse",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַבְּרָכָה וְהַקְּלָלָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c72",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c72-02",
+      "extra": true
+    },
+    {
+      "id": "c72-03.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "קוֹל תּוֹדָה",
+      "stimulusIsScript": true,
+      "statement": "The voice of thanksgiving",
+      "answer": true,
+      "expected": "The voice of thanksgiving",
+      "block": "c72",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c72-03",
+      "extra": true
+    },
+    {
+      "id": "c72-03.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "קוֹל תּוֹדָה",
+      "stimulusIsScript": true,
+      "options": [
+        "The tithe of the land",
+        "He keeps the lives of his faithful ones.",
+        "The voice of thanksgiving",
+        "A voice of thanksgiving"
+      ],
+      "answer": "The voice of thanksgiving",
+      "optionIsScript": false,
+      "block": "c72",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c72-03",
+      "extra": true
+    },
+    {
+      "id": "c72-03.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The voice of thanksgiving",
+      "stimulus": "＿＿＿ תּוֹדָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "קוֹל"
+      ],
+      "answerIsScript": true,
+      "block": "c72",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c72-03",
+      "extra": true
+    },
+    {
+      "id": "c72-03.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "קוֹל תּוֹדָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The voice of thanksgiving"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c72",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c72-03",
+      "extra": true
+    },
+    {
+      "id": "c72-03.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The voice of thanksgiving",
+      "stimulusIsScript": false,
+      "accepted": [
+        "קוֹל תּוֹדָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c72",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c72-03",
+      "extra": true
+    },
+    {
+      "id": "c72-04.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "מַעְשַׂר הָאָרֶץ",
+      "stimulusIsScript": true,
+      "statement": "The tithe of the land",
+      "answer": true,
+      "expected": "The tithe of the land",
+      "block": "c72",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c72-04",
+      "extra": true
+    },
+    {
+      "id": "c72-04.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "מַעְשַׂר הָאָרֶץ",
+      "stimulusIsScript": true,
+      "options": [
+        "The tithe of a land",
+        "The tithe of the land",
+        "A tithe of the land",
+        "The voice of thanksgiving"
+      ],
+      "answer": "The tithe of the land",
+      "optionIsScript": false,
+      "block": "c72",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c72-04",
+      "extra": true
+    },
+    {
+      "id": "c72-04.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The tithe of the land",
+      "stimulus": "מַעְשַׂר ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הָאָרֶץ"
+      ],
+      "answerIsScript": true,
+      "block": "c72",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c72-04",
+      "extra": true
+    },
+    {
+      "id": "c72-04.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "מַעְשַׂר הָאָרֶץ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The tithe of the land"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c72",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c72-04",
+      "extra": true
+    },
+    {
+      "id": "c72-04.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The tithe of the land",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מַעְשַׂר הָאָרֶץ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c72",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c72-04",
+      "extra": true
+    },
+    {
+      "id": "c72-05.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "מֵעַי מֵעַי",
+      "stimulusIsScript": true,
+      "statement": "My bowels, my bowels!",
+      "answer": true,
+      "expected": "My bowels, my bowels!",
+      "block": "c72",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c72-05",
+      "extra": true
+    },
+    {
+      "id": "c72-05.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "מֵעַי מֵעַי",
+      "stimulusIsScript": true,
+      "options": [
+        "My bowels, our bowels!",
+        "His bowels, my bowels!",
+        "Our bowels, my bowels!",
+        "My bowels, my bowels!"
+      ],
+      "answer": "My bowels, my bowels!",
+      "optionIsScript": false,
+      "block": "c72",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c72-05",
+      "extra": true
+    },
+    {
+      "id": "c72-05.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: My bowels, my bowels!",
+      "stimulus": "＿＿＿ מֵעַי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "מֵעַי"
+      ],
+      "answerIsScript": true,
+      "block": "c72",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c72-05",
+      "extra": true
+    },
+    {
+      "id": "c72-05.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "מֵעַי מֵעַי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "My bowels, my bowels!"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c72",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c72-05",
+      "extra": true
+    },
+    {
+      "id": "c72-05.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "My bowels, my bowels!",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מֵעַי מֵעַי"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c72",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c72-05",
+      "extra": true
+    },
+    {
+      "id": "c72-06.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "כִּי־חָסִיד אָנִי",
+      "stimulusIsScript": true,
+      "statement": "For you are faithful.",
+      "answer": false,
+      "expected": "For I am faithful.",
+      "block": "c72",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c72-06",
+      "extra": true
+    },
+    {
+      "id": "c72-06.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "כִּי־חָסִיד אָנִי",
+      "stimulusIsScript": true,
+      "options": [
+        "The voice of thanksgiving",
+        "For he is faithful.",
+        "For I am faithful.",
+        "For you are faithful."
+      ],
+      "answer": "For I am faithful.",
+      "optionIsScript": false,
+      "block": "c72",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c72-06",
+      "extra": true
+    },
+    {
+      "id": "c72-06.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: For I am faithful.",
+      "stimulus": "＿＿＿ אָנִי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "כִּי־חָסִיד"
+      ],
+      "answerIsScript": true,
+      "block": "c72",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c72-06",
+      "extra": true
+    },
+    {
+      "id": "c72-06.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "כִּי־חָסִיד אָנִי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "For I am faithful."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c72",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c72-06",
+      "extra": true
+    },
+    {
+      "id": "c72-06.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "For I am faithful.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "כִּי־חָסִיד אָנִי"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c72",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c72-06",
+      "extra": true
+    }
+  ]
+}

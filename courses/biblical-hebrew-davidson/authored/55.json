@@ -127,6 +127,40 @@
       "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n134.jpg",
       "exwb": "davidson-s46#B8",
       "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "c55-01": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c55-02": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c55-03": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c55-04": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c55-05": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c55-06": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c55-07": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c55-08": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c55-09": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c55-10": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "b-Ps-116-9": {
+      "citation": "Psalms 116:9. Hebrew: Westminster Leningrad Codex (public domain) via the Open Scriptures Hebrew Bible (morphology CC BY 4.0). English: World English Bible (public domain)",
+      "url": "https://worldenglish.bible"
     }
   },
   "items": [
@@ -246,7 +280,7 @@
       "stimulusIsScript": true,
       "options": [
         "Behold, the two kings did not stand before him, and how shall we stand?",
-        "Behold, the two kings did not stand before him, and how shall I stand?",
+        "Behold, the two kings did not stand before him, and how shall they stand?",
         "Behold, a two kings did not stand before him, and how shall we stand?",
         "Behold, the two kings did not stand before them, and how shall we stand?"
       ],
@@ -408,7 +442,7 @@
       "prompt": "Is this the right translation?",
       "stimulus": "וַנַּחַלְמָה חֲלוֹם בְּלַיְלָה אֶחָד אֲנִי וָהוּא",
       "stimulusIsScript": true,
-      "statement": "And he and we dreamed a dream in one night.",
+      "statement": "And he and you dreamed a dream in one night.",
       "answer": false,
       "expected": "And he and I dreamed a dream in one night.",
       "block": "s34",
@@ -425,8 +459,8 @@
       "stimulus": "וַנַּחַלְמָה חֲלוֹם בְּלַיְלָה אֶחָד אֲנִי וָהוּא",
       "stimulusIsScript": true,
       "options": [
-        "And he and we dreamed a dream in one night.",
-        "And he and they dreamed a dream in one night.",
+        "And he and you dreamed a dream in one night.",
+        "And he and he dreamed a dream in one night.",
         "And he and I dreamed a dream in one night.",
         "And he and I dreamed the dream in one night."
       ],
@@ -1244,7 +1278,7 @@
         "My father and my mother have forsaken him.",
         "My father and my mother have forsaken us.",
         "My father and my mother have forsaken me.",
-        "Thy father and my mother have forsaken me."
+        "Your father and my mother have forsaken me."
       ],
       "answer": "My father and my mother have forsaken me.",
       "optionIsScript": false,
@@ -1393,6 +1427,1036 @@
       "blockLabel": "Davidson §46",
       "shape": "en-he",
       "src": "s46-B8"
+    },
+    {
+      "id": "c55-01.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיַּעֲמֹד הָעָם",
+      "stimulusIsScript": true,
+      "statement": "A people stood.",
+      "answer": false,
+      "expected": "The people stood.",
+      "block": "c55",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c55-01",
+      "extra": true
+    },
+    {
+      "id": "c55-01.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיַּעֲמֹד הָעָם",
+      "stimulusIsScript": true,
+      "options": [
+        "I will not forsake you.",
+        "A people stood.",
+        "Stand by the ways.",
+        "The people stood."
+      ],
+      "answer": "The people stood.",
+      "optionIsScript": false,
+      "block": "c55",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c55-01",
+      "extra": true
+    },
+    {
+      "id": "c55-01.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The people stood.",
+      "stimulus": "＿＿＿ הָעָם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וַיַּעֲמֹד"
+      ],
+      "answerIsScript": true,
+      "block": "c55",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c55-01",
+      "extra": true
+    },
+    {
+      "id": "c55-01.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וַיַּעֲמֹד הָעָם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The people stood."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c55",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c55-01",
+      "extra": true
+    },
+    {
+      "id": "c55-01.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The people stood.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיַּעֲמֹד הָעָם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c55",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c55-01",
+      "extra": true
+    },
+    {
+      "id": "c55-02.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "עִמְדוּ עַל־הַדְּרָכִים",
+      "stimulusIsScript": true,
+      "statement": "Stand by the ways.",
+      "answer": true,
+      "expected": "Stand by the ways.",
+      "block": "c55",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c55-02",
+      "extra": true
+    },
+    {
+      "id": "c55-02.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "עִמְדוּ עַל־הַדְּרָכִים",
+      "stimulusIsScript": true,
+      "options": [
+        "Standing before the king",
+        "Stand by the ways.",
+        "Stand by ways.",
+        "They have forsaken Yahweh."
+      ],
+      "answer": "Stand by the ways.",
+      "optionIsScript": false,
+      "block": "c55",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c55-02",
+      "extra": true
+    },
+    {
+      "id": "c55-02.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Stand by the ways.",
+      "stimulus": "עִמְדוּ ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "עַל־הַדְּרָכִים"
+      ],
+      "answerIsScript": true,
+      "block": "c55",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c55-02",
+      "extra": true
+    },
+    {
+      "id": "c55-02.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "Stand by the ways.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "עִמְדוּ עַל־הַדְּרָכִים"
+      ],
+      "answerIsScript": true,
+      "block": "c55",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c55-02",
+      "extra": true
+    },
+    {
+      "id": "c55-02.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Stand by the ways.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "עִמְדוּ עַל־הַדְּרָכִים"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c55",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c55-02",
+      "extra": true
+    },
+    {
+      "id": "c55-03.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "עָזְבוּ אֶת־יְהוָה",
+      "stimulusIsScript": true,
+      "statement": "They have forsaken Yahweh.",
+      "answer": true,
+      "expected": "They have forsaken Yahweh.",
+      "block": "c55",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c55-03",
+      "extra": true
+    },
+    {
+      "id": "c55-03.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "עָזְבוּ אֶת־יְהוָה",
+      "stimulusIsScript": true,
+      "options": [
+        "They have forsaken Yahweh.",
+        "He appointed the priests.",
+        "You prepare a table before me.",
+        "The people stood."
+      ],
+      "answer": "They have forsaken Yahweh.",
+      "optionIsScript": false,
+      "block": "c55",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c55-03",
+      "extra": true
+    },
+    {
+      "id": "c55-03.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: They have forsaken Yahweh.",
+      "stimulus": "עָזְבוּ ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶת־יְהוָה"
+      ],
+      "answerIsScript": true,
+      "block": "c55",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c55-03",
+      "extra": true
+    },
+    {
+      "id": "c55-03.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "עָזְבוּ אֶת־יְהוָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "They have forsaken Yahweh.",
+        "They have forsaken the Lord."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c55",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c55-03",
+      "extra": true
+    },
+    {
+      "id": "c55-03.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "They have forsaken Yahweh.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "עָזְבוּ אֶת־יְהוָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c55",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c55-03",
+      "extra": true
+    },
+    {
+      "id": "c55-04.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "לֹא אֶעֱזָבְךָ",
+      "stimulusIsScript": true,
+      "statement": "I will not forsake you.",
+      "answer": true,
+      "expected": "I will not forsake you.",
+      "block": "c55",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c55-04",
+      "extra": true
+    },
+    {
+      "id": "c55-04.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "לֹא אֶעֱזָבְךָ",
+      "stimulusIsScript": true,
+      "options": [
+        "I will not forsake you.",
+        "You will not forsake you.",
+        "He will not forsake you.",
+        "I will forsake you."
+      ],
+      "answer": "I will not forsake you.",
+      "optionIsScript": false,
+      "block": "c55",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c55-04",
+      "extra": true
+    },
+    {
+      "id": "c55-04.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: I will not forsake you.",
+      "stimulus": "＿＿＿ אֶעֱזָבְךָ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "לֹא"
+      ],
+      "answerIsScript": true,
+      "block": "c55",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c55-04",
+      "extra": true
+    },
+    {
+      "id": "c55-04.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "לֹא אֶעֱזָבְךָ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "I will not forsake you."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c55",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c55-04",
+      "extra": true
+    },
+    {
+      "id": "c55-04.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "I will not forsake you.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "לֹא אֶעֱזָבְךָ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c55",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c55-04",
+      "extra": true
+    },
+    {
+      "id": "c55-05.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיַּעֲמֵד אֶת־הַכֹּהֲנִים",
+      "stimulusIsScript": true,
+      "statement": "He appointed priests.",
+      "answer": false,
+      "expected": "He appointed the priests.",
+      "block": "c55",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c55-05",
+      "extra": true
+    },
+    {
+      "id": "c55-05.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיַּעֲמֵד אֶת־הַכֹּהֲנִים",
+      "stimulusIsScript": true,
+      "options": [
+        "He appointed priests.",
+        "You prepare a table before me.",
+        "He appointed the priests.",
+        "She appointed the priests."
+      ],
+      "answer": "He appointed the priests.",
+      "optionIsScript": false,
+      "block": "c55",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c55-05",
+      "extra": true
+    },
+    {
+      "id": "c55-05.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: He appointed the priests.",
+      "stimulus": "וַיַּעֲמֵד ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶת־הַכֹּהֲנִים"
+      ],
+      "answerIsScript": true,
+      "block": "c55",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c55-05",
+      "extra": true
+    },
+    {
+      "id": "c55-05.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וַיַּעֲמֵד אֶת־הַכֹּהֲנִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "He appointed the priests."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c55",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c55-05",
+      "extra": true
+    },
+    {
+      "id": "c55-05.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "He appointed the priests.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיַּעֲמֵד אֶת־הַכֹּהֲנִים"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c55",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c55-05",
+      "extra": true
+    },
+    {
+      "id": "c55-06.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "עֹמֵד לִפְנֵי הַמֶּלֶךְ",
+      "stimulusIsScript": true,
+      "statement": "Standing before the king",
+      "answer": true,
+      "expected": "Standing before the king",
+      "block": "c55",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c55-06",
+      "extra": true
+    },
+    {
+      "id": "c55-06.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "עֹמֵד לִפְנֵי הַמֶּלֶךְ",
+      "stimulusIsScript": true,
+      "options": [
+        "Standing before a king",
+        "They have forsaken Yahweh.",
+        "Standing before the king",
+        "I will not forsake you."
+      ],
+      "answer": "Standing before the king",
+      "optionIsScript": false,
+      "block": "c55",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c55-06",
+      "extra": true
+    },
+    {
+      "id": "c55-06.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Standing before the king",
+      "stimulus": "עֹמֵד ＿＿＿ הַמֶּלֶךְ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "לִפְנֵי"
+      ],
+      "answerIsScript": true,
+      "block": "c55",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c55-06",
+      "extra": true
+    },
+    {
+      "id": "c55-06.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "עֹמֵד לִפְנֵי הַמֶּלֶךְ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Standing before the king"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c55",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c55-06",
+      "extra": true
+    },
+    {
+      "id": "c55-06.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Standing before the king",
+      "stimulusIsScript": false,
+      "accepted": [
+        "עֹמֵד לִפְנֵי הַמֶּלֶךְ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c55",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c55-06",
+      "extra": true
+    },
+    {
+      "id": "c55-07.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "לֹא חָפַצְתִּי",
+      "stimulusIsScript": true,
+      "statement": "I do delight.",
+      "answer": false,
+      "expected": "I do not delight.",
+      "block": "c55",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c55-07",
+      "extra": true
+    },
+    {
+      "id": "c55-07.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "לֹא חָפַצְתִּי",
+      "stimulusIsScript": true,
+      "options": [
+        "You prepare a table before me.",
+        "I do delight.",
+        "I do not delight.",
+        "Standing before the king"
+      ],
+      "answer": "I do not delight.",
+      "optionIsScript": false,
+      "block": "c55",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c55-07",
+      "extra": true
+    },
+    {
+      "id": "c55-07.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: I do not delight.",
+      "stimulus": "＿＿＿ חָפַצְתִּי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "לֹא"
+      ],
+      "answerIsScript": true,
+      "block": "c55",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c55-07",
+      "extra": true
+    },
+    {
+      "id": "c55-07.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "לֹא חָפַצְתִּי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "I do not delight."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c55",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c55-07",
+      "extra": true
+    },
+    {
+      "id": "c55-07.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "I do not delight.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "לֹא חָפַצְתִּי"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c55",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c55-07",
+      "extra": true
+    },
+    {
+      "id": "c55-08.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "תַּעֲרֹךְ לְפָנַי שֻׁלְחָן",
+      "stimulusIsScript": true,
+      "statement": "You prepare a table before us.",
+      "answer": false,
+      "expected": "You prepare a table before me.",
+      "block": "c55",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c55-08",
+      "extra": true
+    },
+    {
+      "id": "c55-08.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "תַּעֲרֹךְ לְפָנַי שֻׁלְחָן",
+      "stimulusIsScript": true,
+      "options": [
+        "You prepare the table before me.",
+        "You prepare a table before us.",
+        "You prepare a table before him.",
+        "You prepare a table before me."
+      ],
+      "answer": "You prepare a table before me.",
+      "optionIsScript": false,
+      "block": "c55",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c55-08",
+      "extra": true
+    },
+    {
+      "id": "c55-08.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: You prepare a table before me.",
+      "stimulus": "תַּעֲרֹךְ ＿＿＿ שֻׁלְחָן",
+      "stimulusIsScript": true,
+      "accepted": [
+        "לְפָנַי"
+      ],
+      "answerIsScript": true,
+      "block": "c55",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c55-08",
+      "extra": true
+    },
+    {
+      "id": "c55-08.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "תַּעֲרֹךְ לְפָנַי שֻׁלְחָן",
+      "stimulusIsScript": true,
+      "accepted": [
+        "You prepare a table before me."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c55",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c55-08",
+      "extra": true
+    },
+    {
+      "id": "c55-08.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "You prepare a table before me.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "תַּעֲרֹךְ לְפָנַי שֻׁלְחָן",
+        "תַּעֲרֹךְ לְפָנַי שֻׁלְחַן"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c55",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c55-08",
+      "extra": true
+    },
+    {
+      "id": "c55-09.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "עִבְדוּ אֶת־יְהוָה",
+      "stimulusIsScript": true,
+      "statement": "Standing before the king",
+      "answer": false,
+      "expected": "Serve Yahweh.",
+      "block": "c55",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c55-09",
+      "extra": true
+    },
+    {
+      "id": "c55-09.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "עִבְדוּ אֶת־יְהוָה",
+      "stimulusIsScript": true,
+      "options": [
+        "He appointed the priests.",
+        "Standing before the king",
+        "We will serve Yahweh.",
+        "Serve Yahweh."
+      ],
+      "answer": "Serve Yahweh.",
+      "optionIsScript": false,
+      "block": "c55",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c55-09",
+      "extra": true
+    },
+    {
+      "id": "c55-09.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Serve Yahweh.",
+      "stimulus": "עִבְדוּ ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶת־יְהוָה"
+      ],
+      "answerIsScript": true,
+      "block": "c55",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c55-09",
+      "extra": true
+    },
+    {
+      "id": "c55-09.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "עִבְדוּ אֶת־יְהוָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Serve Yahweh.",
+        "Serve the Lord."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c55",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c55-09",
+      "extra": true
+    },
+    {
+      "id": "c55-09.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Serve Yahweh.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "עִבְדוּ אֶת־יְהוָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c55",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c55-09",
+      "extra": true
+    },
+    {
+      "id": "c55-10.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "נַעֲבֹד אֶת־יְהוָה",
+      "stimulusIsScript": true,
+      "statement": "You will serve Yahweh.",
+      "answer": false,
+      "expected": "We will serve Yahweh.",
+      "block": "c55",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c55-10",
+      "extra": true
+    },
+    {
+      "id": "c55-10.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "נַעֲבֹד אֶת־יְהוָה",
+      "stimulusIsScript": true,
+      "options": [
+        "You will serve Yahweh.",
+        "He appointed the priests.",
+        "We will serve Yahweh.",
+        "They will serve Yahweh."
+      ],
+      "answer": "We will serve Yahweh.",
+      "optionIsScript": false,
+      "block": "c55",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c55-10",
+      "extra": true
+    },
+    {
+      "id": "c55-10.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: We will serve Yahweh.",
+      "stimulus": "נַעֲבֹד ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶת־יְהוָה"
+      ],
+      "answerIsScript": true,
+      "block": "c55",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c55-10",
+      "extra": true
+    },
+    {
+      "id": "c55-10.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "We will serve Yahweh.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "נַעֲבֹד אֶת־יְהוָה",
+        "אֲנַחְנוּ נַעֲבֹד אֶת־יְהוָה"
+      ],
+      "answerIsScript": true,
+      "block": "c55",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c55-10",
+      "extra": true
+    },
+    {
+      "id": "c55-10.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "We will serve Yahweh.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "נַעֲבֹד אֶת־יְהוָה",
+        "אֲנַחְנוּ נַעֲבֹד אֶת־יְהוָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c55",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c55-10",
+      "extra": true
+    },
+    {
+      "id": "b-Ps-116-9.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אֶתְהַלֵּךְ לִפְנֵי יְהוָה בְּאַרְצוֹת הַחַיִּים",
+      "stimulusIsScript": true,
+      "statement": "I will walk before Yahweh in the land of the living.",
+      "answer": true,
+      "expected": "I will walk before Yahweh in the land of the living.",
+      "block": "b55",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Ps-116-9",
+      "extra": true
+    },
+    {
+      "id": "b-Ps-116-9.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אֶתְהַלֵּךְ לִפְנֵי יְהוָה בְּאַרְצוֹת הַחַיִּים",
+      "stimulusIsScript": true,
+      "options": [
+        "I will walk before Yahweh in the land of the living.",
+        "I will walk before Yahweh from the land of the living.",
+        "I will walk before Yahweh in the land of a living.",
+        "He will walk before Yahweh in the land of the living."
+      ],
+      "answer": "I will walk before Yahweh in the land of the living.",
+      "optionIsScript": false,
+      "block": "b55",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Ps-116-9",
+      "extra": true
+    },
+    {
+      "id": "b-Ps-116-9.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: I will walk before Yahweh in the land of the living.",
+      "stimulus": "אֶתְהַלֵּךְ לִפְנֵי יְהוָה בְּאַרְצוֹת ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַחַיִּים"
+      ],
+      "answerIsScript": true,
+      "block": "b55",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Ps-116-9",
+      "extra": true
+    },
+    {
+      "id": "b-Ps-116-9.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "אֶתְהַלֵּךְ לִפְנֵי יְהוָה בְּאַרְצוֹת הַחַיִּים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "I will walk before Yahweh in the land of the living.",
+        "I will walk before the Lord in the land of the living."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "b55",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Ps-116-9",
+      "extra": true
     }
   ]
 }

@@ -1,0 +1,497 @@
+{
+  "schema": "authored-exercises-v1.json",
+  "unit": 78,
+  "sources": {
+    "c78-01": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c78-02": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c78-03": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c78-04": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c78-05": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    }
+  },
+  "items": [
+    {
+      "id": "c78-01.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "עֵקֶב אֲשֶׁר שָׁמַע אַבְרָהָם בְּקֹלִי",
+      "stimulusIsScript": true,
+      "statement": "Because Abraham obeyed my voice.",
+      "answer": true,
+      "expected": "Because Abraham obeyed my voice.",
+      "block": "c78",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c78-01",
+      "extra": true
+    },
+    {
+      "id": "c78-01.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "עֵקֶב אֲשֶׁר שָׁמַע אַבְרָהָם בְּקֹלִי",
+      "stimulusIsScript": true,
+      "options": [
+        "Because Abraham obeyed our voice.",
+        "Because Abraham obeyed your voice.",
+        "Because Abraham obeyed my voice.",
+        "Because Abraham obeyed his voice."
+      ],
+      "answer": "Because Abraham obeyed my voice.",
+      "optionIsScript": false,
+      "block": "c78",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c78-01",
+      "extra": true
+    },
+    {
+      "id": "c78-01.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Because Abraham obeyed my voice.",
+      "stimulus": "עֵקֶב אֲשֶׁר שָׁמַע ＿＿＿ בְּקֹלִי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אַבְרָהָם"
+      ],
+      "answerIsScript": true,
+      "block": "c78",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c78-01",
+      "extra": true
+    },
+    {
+      "id": "c78-01.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "עֵקֶב אֲשֶׁר שָׁמַע אַבְרָהָם בְּקֹלִי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Because Abraham obeyed my voice."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c78",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c78-01",
+      "extra": true
+    },
+    {
+      "id": "c78-01.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Because Abraham obeyed my voice.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "עֵקֶב אֲשֶׁר שָׁמַע אַבְרָהָם בְּקֹלִי"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c78",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c78-01",
+      "extra": true
+    },
+    {
+      "id": "c78-02.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "מָתוֹק מִדְּבַשׁ",
+      "stimulusIsScript": true,
+      "statement": "Sweeter than honey",
+      "answer": true,
+      "expected": "Sweeter than honey",
+      "block": "c78",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c78-02",
+      "extra": true
+    },
+    {
+      "id": "c78-02.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "מָתוֹק מִדְּבַשׁ",
+      "stimulusIsScript": true,
+      "options": [
+        "The sweeter than honey",
+        "Sweeter than honey",
+        "Because Abraham obeyed my voice.",
+        "Each man by his banner"
+      ],
+      "answer": "Sweeter than honey",
+      "optionIsScript": false,
+      "block": "c78",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c78-02",
+      "extra": true
+    },
+    {
+      "id": "c78-02.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Sweeter than honey",
+      "stimulus": "מָתוֹק ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "מִדְּבַשׁ"
+      ],
+      "answerIsScript": true,
+      "block": "c78",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c78-02",
+      "extra": true
+    },
+    {
+      "id": "c78-02.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "Sweeter than honey",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מָתוֹק מִדְּבַשׁ"
+      ],
+      "answerIsScript": true,
+      "block": "c78",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c78-02",
+      "extra": true
+    },
+    {
+      "id": "c78-02.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Sweeter than honey",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מָתוֹק מִדְּבַשׁ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c78",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c78-02",
+      "extra": true
+    },
+    {
+      "id": "c78-03.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "כֵּלִים רֵקִים",
+      "stimulusIsScript": true,
+      "statement": "Empty vessels",
+      "answer": true,
+      "expected": "Empty vessels",
+      "block": "c78",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c78-03",
+      "extra": true
+    },
+    {
+      "id": "c78-03.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "כֵּלִים רֵקִים",
+      "stimulusIsScript": true,
+      "options": [
+        "Because Abraham obeyed my voice.",
+        "The empty vessels",
+        "Empty vessels",
+        "Each man by his banner"
+      ],
+      "answer": "Empty vessels",
+      "optionIsScript": false,
+      "block": "c78",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c78-03",
+      "extra": true
+    },
+    {
+      "id": "c78-03.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Empty vessels",
+      "stimulus": "כֵּלִים ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "רֵקִים"
+      ],
+      "answerIsScript": true,
+      "block": "c78",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c78-03",
+      "extra": true
+    },
+    {
+      "id": "c78-03.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "כֵּלִים רֵקִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Empty vessels"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c78",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c78-03",
+      "extra": true
+    },
+    {
+      "id": "c78-03.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Empty vessels",
+      "stimulusIsScript": false,
+      "accepted": [
+        "כֵּלִים רֵקִים"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c78",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c78-03",
+      "extra": true
+    },
+    {
+      "id": "c78-04.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "לְרֹאשׁ וְלֹא לְזָנָב",
+      "stimulusIsScript": true,
+      "statement": "The head and not the tail",
+      "answer": true,
+      "expected": "The head and not the tail",
+      "block": "c78",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c78-04",
+      "extra": true
+    },
+    {
+      "id": "c78-04.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "לְרֹאשׁ וְלֹא לְזָנָב",
+      "stimulusIsScript": true,
+      "options": [
+        "A head and not the tail",
+        "The head and the tail",
+        "The head and not the tail",
+        "The head and not a tail"
+      ],
+      "answer": "The head and not the tail",
+      "optionIsScript": false,
+      "block": "c78",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c78-04",
+      "extra": true
+    },
+    {
+      "id": "c78-04.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The head and not the tail",
+      "stimulus": "לְרֹאשׁ וְלֹא ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "לְזָנָב"
+      ],
+      "answerIsScript": true,
+      "block": "c78",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c78-04",
+      "extra": true
+    },
+    {
+      "id": "c78-04.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "לְרֹאשׁ וְלֹא לְזָנָב",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The head and not the tail"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c78",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c78-04",
+      "extra": true
+    },
+    {
+      "id": "c78-04.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The head and not the tail",
+      "stimulusIsScript": false,
+      "accepted": [
+        "לְרֹאשׁ וְלֹא לְזָנָב"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c78",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c78-04",
+      "extra": true
+    },
+    {
+      "id": "c78-05.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אִישׁ עַל־דִּגְלוֹ",
+      "stimulusIsScript": true,
+      "statement": "Each man by my banner",
+      "answer": false,
+      "expected": "Each man by his banner",
+      "block": "c78",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c78-05",
+      "extra": true
+    },
+    {
+      "id": "c78-05.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אִישׁ עַל־דִּגְלוֹ",
+      "stimulusIsScript": true,
+      "options": [
+        "Each man by his banner",
+        "Each man by my banner",
+        "Each man by their banner",
+        "Each man by her banner"
+      ],
+      "answer": "Each man by his banner",
+      "optionIsScript": false,
+      "block": "c78",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c78-05",
+      "extra": true
+    },
+    {
+      "id": "c78-05.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Each man by his banner",
+      "stimulus": "אִישׁ ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "עַל־דִּגְלוֹ"
+      ],
+      "answerIsScript": true,
+      "block": "c78",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c78-05",
+      "extra": true
+    },
+    {
+      "id": "c78-05.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "אִישׁ עַל־דִּגְלוֹ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Each man by his banner"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c78",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c78-05",
+      "extra": true
+    },
+    {
+      "id": "c78-05.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Each man by his banner",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אִישׁ עַל־דִּגְלוֹ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c78",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c78-05",
+      "extra": true
+    }
+  ]
+}

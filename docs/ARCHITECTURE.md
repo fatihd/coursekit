@@ -111,7 +111,8 @@ Each question shows its item code (`Item s20-B3.tf`) so a student can report a s
 Davidson units have five rungs (true/false, choose, fill in, translate, translate with vowel points;
 `docs/EXERCISE-TYPES.md` §6b). A session climbs from the lowest rung with items not yet answered right; right
 answers are stored per rung in `progress.units[n].done`. The next unit unlocks when rungs 1…`unlockRung` are all
-right once; the roadmap shows a star per completed rung (`authored/ladder.json` gives the totals), and the lesson
+right once (the book's exercises all, plus the corpus items marked `extra` until a rung reaches `features.ladderTarget`
+right answers; P12-T5, ADR-026); the roadmap shows a star per completed rung (`authored/ladder.json` gives the totals), and the lesson
 lists the ladder with a progress bar and a Practice link (`#/<slug>/rung/<n>/<seed>/<q>`) per rung, plus the
 Davidson sections. The on-screen keyboard pads the page while open so it never covers the Check button.
 

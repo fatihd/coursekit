@@ -1,0 +1,692 @@
+{
+  "schema": "authored-exercises-v1.json",
+  "unit": 68,
+  "sources": {
+    "c68-01": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c68-02": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c68-03": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c68-04": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c68-05": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c68-06": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c68-07": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    }
+  },
+  "items": [
+    {
+      "id": "c68-01.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אֲרוֹן הָעֵדוּת",
+      "stimulusIsScript": true,
+      "statement": "An ark of the testimony",
+      "answer": false,
+      "expected": "The ark of the testimony",
+      "block": "c68",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c68-01",
+      "extra": true
+    },
+    {
+      "id": "c68-01.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אֲרוֹן הָעֵדוּת",
+      "stimulusIsScript": true,
+      "options": [
+        "A psalm of David",
+        "The ark of a testimony",
+        "An ark of the testimony",
+        "The ark of the testimony"
+      ],
+      "answer": "The ark of the testimony",
+      "optionIsScript": false,
+      "block": "c68",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c68-01",
+      "extra": true
+    },
+    {
+      "id": "c68-01.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The ark of the testimony",
+      "stimulus": "אֲרוֹן ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הָעֵדוּת"
+      ],
+      "answerIsScript": true,
+      "block": "c68",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c68-01",
+      "extra": true
+    },
+    {
+      "id": "c68-01.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "אֲרוֹן הָעֵדוּת",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The ark of the testimony"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c68",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c68-01",
+      "extra": true
+    },
+    {
+      "id": "c68-01.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The ark of the testimony",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֲרוֹן הָעֵדוּת"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c68",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c68-01",
+      "extra": true
+    },
+    {
+      "id": "c68-02.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "מִזְמוֹר לְדָוִד",
+      "stimulusIsScript": true,
+      "statement": "A psalm of David",
+      "answer": true,
+      "expected": "A psalm of David",
+      "block": "c68",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c68-02",
+      "extra": true
+    },
+    {
+      "id": "c68-02.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "מִזְמוֹר לְדָוִד",
+      "stimulusIsScript": true,
+      "options": [
+        "His praise is continually in my mouth.",
+        "The ark of the testimony",
+        "The psalm of David",
+        "A psalm of David"
+      ],
+      "answer": "A psalm of David",
+      "optionIsScript": false,
+      "block": "c68",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c68-02",
+      "extra": true
+    },
+    {
+      "id": "c68-02.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: A psalm of David",
+      "stimulus": "＿＿＿ לְדָוִד",
+      "stimulusIsScript": true,
+      "accepted": [
+        "מִזְמוֹר"
+      ],
+      "answerIsScript": true,
+      "block": "c68",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c68-02",
+      "extra": true
+    },
+    {
+      "id": "c68-02.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "A psalm of David",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מִזְמוֹר לְדָוִד"
+      ],
+      "answerIsScript": true,
+      "block": "c68",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c68-02",
+      "extra": true
+    },
+    {
+      "id": "c68-02.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "A psalm of David",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מִזְמוֹר לְדָוִד"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c68",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c68-02",
+      "extra": true
+    },
+    {
+      "id": "c68-03.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "תָּמִיד תְּהִלָּתוֹ בְּפִי",
+      "stimulusIsScript": true,
+      "statement": "His praise is continually in my mouth.",
+      "answer": true,
+      "expected": "His praise is continually in my mouth.",
+      "block": "c68",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c68-03",
+      "extra": true
+    },
+    {
+      "id": "c68-03.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "תָּמִיד תְּהִלָּתוֹ בְּפִי",
+      "stimulusIsScript": true,
+      "options": [
+        "His praise is continually in his mouth.",
+        "His praise is continually from my mouth.",
+        "His praise is continually in my mouth.",
+        "His praise is continually in our mouth."
+      ],
+      "answer": "His praise is continually in my mouth.",
+      "optionIsScript": false,
+      "block": "c68",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c68-03",
+      "extra": true
+    },
+    {
+      "id": "c68-03.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: His praise is continually in my mouth.",
+      "stimulus": "תָּמִיד ＿＿＿ בְּפִי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "תְּהִלָּתוֹ"
+      ],
+      "answerIsScript": true,
+      "block": "c68",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c68-03",
+      "extra": true
+    },
+    {
+      "id": "c68-03.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "תָּמִיד תְּהִלָּתוֹ בְּפִי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "His praise is continually in my mouth."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c68",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c68-03",
+      "extra": true
+    },
+    {
+      "id": "c68-03.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "His praise is continually in my mouth.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "תָּמִיד תְּהִלָּתוֹ בְּפִי"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c68",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c68-03",
+      "extra": true
+    },
+    {
+      "id": "c68-04.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אִשָּׁה אַלְמָנָה",
+      "stimulusIsScript": true,
+      "statement": "(Some) widow women",
+      "answer": false,
+      "expected": "A widow woman",
+      "block": "c68",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c68-04",
+      "extra": true
+    },
+    {
+      "id": "c68-04.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אִשָּׁה אַלְמָנָה",
+      "stimulusIsScript": true,
+      "options": [
+        "The widow woman",
+        "(Some) widow women",
+        "A widow woman",
+        "Under his vine"
+      ],
+      "answer": "A widow woman",
+      "optionIsScript": false,
+      "block": "c68",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c68-04",
+      "extra": true
+    },
+    {
+      "id": "c68-04.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: A widow woman",
+      "stimulus": "אִשָּׁה ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אַלְמָנָה"
+      ],
+      "answerIsScript": true,
+      "block": "c68",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c68-04",
+      "extra": true
+    },
+    {
+      "id": "c68-04.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "אִשָּׁה אַלְמָנָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "A widow woman"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c68",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c68-04",
+      "extra": true
+    },
+    {
+      "id": "c68-04.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "A widow woman",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אִשָּׁה אַלְמָנָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c68",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c68-04",
+      "extra": true
+    },
+    {
+      "id": "c68-05.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ",
+      "stimulusIsScript": true,
+      "statement": "In the beginning God created the heavens and the earth.",
+      "answer": true,
+      "expected": "In the beginning God created the heavens and the earth.",
+      "block": "c68",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c68-05",
+      "extra": true
+    },
+    {
+      "id": "c68-05.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ",
+      "stimulusIsScript": true,
+      "options": [
+        "To the beginning God created the heavens and the earth.",
+        "In a beginning God created the heavens and the earth.",
+        "In the beginning God created the heavens and the earth.",
+        "From the beginning God created the heavens and the earth."
+      ],
+      "answer": "In the beginning God created the heavens and the earth.",
+      "optionIsScript": false,
+      "block": "c68",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c68-05",
+      "extra": true
+    },
+    {
+      "id": "c68-05.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: In the beginning God created the heavens and the earth.",
+      "stimulus": "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת ＿＿＿ וְאֵת הָאָרֶץ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַשָּׁמַיִם"
+      ],
+      "answerIsScript": true,
+      "block": "c68",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c68-05",
+      "extra": true
+    },
+    {
+      "id": "c68-05.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "In the beginning God created the heavens and the earth."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c68",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c68-05",
+      "extra": true
+    },
+    {
+      "id": "c68-05.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "In the beginning God created the heavens and the earth.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c68",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c68-05",
+      "extra": true
+    },
+    {
+      "id": "c68-06.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "תַּחַת גַּפְנוֹ",
+      "stimulusIsScript": true,
+      "statement": "Under his vine",
+      "answer": true,
+      "expected": "Under his vine",
+      "block": "c68",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c68-06",
+      "extra": true
+    },
+    {
+      "id": "c68-06.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "תַּחַת גַּפְנוֹ",
+      "stimulusIsScript": true,
+      "options": [
+        "Under my vine",
+        "Under her vine",
+        "Under his vine",
+        "The under his vine"
+      ],
+      "answer": "Under his vine",
+      "optionIsScript": false,
+      "block": "c68",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c68-06",
+      "extra": true
+    },
+    {
+      "id": "c68-06.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Under his vine",
+      "stimulus": "תַּחַת ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "גַּפְנוֹ"
+      ],
+      "answerIsScript": true,
+      "block": "c68",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c68-06",
+      "extra": true
+    },
+    {
+      "id": "c68-06.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "תַּחַת גַּפְנוֹ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Under his vine"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c68",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c68-06",
+      "extra": true
+    },
+    {
+      "id": "c68-06.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Under his vine",
+      "stimulusIsScript": false,
+      "accepted": [
+        "תַּחַת גַּפְנוֹ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c68",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c68-06",
+      "extra": true
+    },
+    {
+      "id": "c68-07.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "תְּהִלַּת יְהוָה",
+      "stimulusIsScript": true,
+      "statement": "The praise of Yahweh",
+      "answer": true,
+      "expected": "The praise of Yahweh",
+      "block": "c68",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c68-07",
+      "extra": true
+    },
+    {
+      "id": "c68-07.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "תְּהִלַּת יְהוָה",
+      "stimulusIsScript": true,
+      "options": [
+        "Under his vine",
+        "A praise of Yahweh",
+        "The praise of Yahweh",
+        "A widow woman"
+      ],
+      "answer": "The praise of Yahweh",
+      "optionIsScript": false,
+      "block": "c68",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c68-07",
+      "extra": true
+    },
+    {
+      "id": "c68-07.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The praise of Yahweh",
+      "stimulus": "תְּהִלַּת ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "יְהוָה"
+      ],
+      "answerIsScript": true,
+      "block": "c68",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c68-07",
+      "extra": true
+    },
+    {
+      "id": "c68-07.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The praise of Yahweh",
+      "stimulusIsScript": false,
+      "accepted": [
+        "תְּהִלַּת יְהוָה"
+      ],
+      "answerIsScript": true,
+      "block": "c68",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c68-07",
+      "extra": true
+    },
+    {
+      "id": "c68-07.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The praise of Yahweh",
+      "stimulusIsScript": false,
+      "accepted": [
+        "תְּהִלַּת יְהוָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c68",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c68-07",
+      "extra": true
+    }
+  ]
+}

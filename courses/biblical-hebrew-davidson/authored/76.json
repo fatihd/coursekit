@@ -1,0 +1,399 @@
+{
+  "schema": "authored-exercises-v1.json",
+  "unit": 76,
+  "sources": {
+    "c76-01": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c76-02": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c76-03": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c76-04": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    }
+  },
+  "items": [
+    {
+      "id": "c76-01.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "נַעֲלֵיכֶם בְּרַגְלֵיכֶם",
+      "stimulusIsScript": true,
+      "statement": "Our sandals on your feet",
+      "answer": false,
+      "expected": "Your sandals on your feet",
+      "block": "c76",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c76-01",
+      "extra": true
+    },
+    {
+      "id": "c76-01.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "נַעֲלֵיכֶם בְּרַגְלֵיכֶם",
+      "stimulusIsScript": true,
+      "options": [
+        "Our sandals on your feet",
+        "Your sandals on my feet",
+        "Your sandals to your feet",
+        "Your sandals on your feet"
+      ],
+      "answer": "Your sandals on your feet",
+      "optionIsScript": false,
+      "block": "c76",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c76-01",
+      "extra": true
+    },
+    {
+      "id": "c76-01.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Your sandals on your feet",
+      "stimulus": "＿＿＿ בְּרַגְלֵיכֶם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "נַעֲלֵיכֶם"
+      ],
+      "answerIsScript": true,
+      "block": "c76",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c76-01",
+      "extra": true
+    },
+    {
+      "id": "c76-01.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "נַעֲלֵיכֶם בְּרַגְלֵיכֶם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Your sandals on your feet"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c76",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c76-01",
+      "extra": true
+    },
+    {
+      "id": "c76-01.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Your sandals on your feet",
+      "stimulusIsScript": false,
+      "accepted": [
+        "נַעֲלֵיכֶם בְּרַגְלֵיכֶם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c76",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c76-01",
+      "extra": true
+    },
+    {
+      "id": "c76-02.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "טוֹב שָׁכֵן קָרוֹב מֵאָח רָחוֹק",
+      "stimulusIsScript": true,
+      "statement": "Better is a neighbor who is near than a brother far away.",
+      "answer": true,
+      "expected": "Better is a neighbor who is near than a brother far away.",
+      "block": "c76",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c76-02",
+      "extra": true
+    },
+    {
+      "id": "c76-02.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "טוֹב שָׁכֵן קָרוֹב מֵאָח רָחוֹק",
+      "stimulusIsScript": true,
+      "options": [
+        "Better is the neighbor who is near than a brother far away.",
+        "Flames of fire",
+        "Better is a neighbor who is near than a brother far away.",
+        "Better is a neighbor who is near than the brother far away."
+      ],
+      "answer": "Better is a neighbor who is near than a brother far away.",
+      "optionIsScript": false,
+      "block": "c76",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c76-02",
+      "extra": true
+    },
+    {
+      "id": "c76-02.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Better is a neighbor who is near than a brother far away.",
+      "stimulus": "טוֹב שָׁכֵן ＿＿＿ מֵאָח רָחוֹק",
+      "stimulusIsScript": true,
+      "accepted": [
+        "קָרוֹב"
+      ],
+      "answerIsScript": true,
+      "block": "c76",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c76-02",
+      "extra": true
+    },
+    {
+      "id": "c76-02.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "Better is a neighbor who is near than a brother far away.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "טוֹב שָׁכֵן קָרוֹב מֵאָח רָחוֹק"
+      ],
+      "answerIsScript": true,
+      "block": "c76",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c76-02",
+      "extra": true
+    },
+    {
+      "id": "c76-02.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Better is a neighbor who is near than a brother far away.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "טוֹב שָׁכֵן קָרוֹב מֵאָח רָחוֹק"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c76",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c76-02",
+      "extra": true
+    },
+    {
+      "id": "c76-03.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "שִׁבְעָה שָׁבֻעֹת",
+      "stimulusIsScript": true,
+      "statement": "The seven weeks",
+      "answer": false,
+      "expected": "Seven weeks",
+      "block": "c76",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c76-03",
+      "extra": true
+    },
+    {
+      "id": "c76-03.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "שִׁבְעָה שָׁבֻעֹת",
+      "stimulusIsScript": true,
+      "options": [
+        "Better is a neighbor who is near than a brother far away.",
+        "The seven weeks",
+        "Your sandals on your feet",
+        "Seven weeks"
+      ],
+      "answer": "Seven weeks",
+      "optionIsScript": false,
+      "block": "c76",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c76-03",
+      "extra": true
+    },
+    {
+      "id": "c76-03.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Seven weeks",
+      "stimulus": "＿＿＿ שָׁבֻעֹת",
+      "stimulusIsScript": true,
+      "accepted": [
+        "שִׁבְעָה"
+      ],
+      "answerIsScript": true,
+      "block": "c76",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c76-03",
+      "extra": true
+    },
+    {
+      "id": "c76-03.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "שִׁבְעָה שָׁבֻעֹת",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Seven weeks"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c76",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c76-03",
+      "extra": true
+    },
+    {
+      "id": "c76-03.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Seven weeks",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שִׁבְעָה שָׁבֻעֹת"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c76",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c76-03",
+      "extra": true
+    },
+    {
+      "id": "c76-04.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "לַהֲבוֹת אֵשׁ",
+      "stimulusIsScript": true,
+      "statement": "Seven weeks",
+      "answer": false,
+      "expected": "Flames of fire",
+      "block": "c76",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c76-04",
+      "extra": true
+    },
+    {
+      "id": "c76-04.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "לַהֲבוֹת אֵשׁ",
+      "stimulusIsScript": true,
+      "options": [
+        "Flames of fire",
+        "Better is a neighbor who is near than a brother far away.",
+        "Your sandals on your feet",
+        "Seven weeks"
+      ],
+      "answer": "Flames of fire",
+      "optionIsScript": false,
+      "block": "c76",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c76-04",
+      "extra": true
+    },
+    {
+      "id": "c76-04.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Flames of fire",
+      "stimulus": "＿＿＿ אֵשׁ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "לַהֲבוֹת"
+      ],
+      "answerIsScript": true,
+      "block": "c76",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c76-04",
+      "extra": true
+    },
+    {
+      "id": "c76-04.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "לַהֲבוֹת אֵשׁ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Flames of fire"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c76",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c76-04",
+      "extra": true
+    },
+    {
+      "id": "c76-04.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Flames of fire",
+      "stimulusIsScript": false,
+      "accepted": [
+        "לַהֲבוֹת אֵשׁ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c76",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c76-04",
+      "extra": true
+    }
+  ]
+}

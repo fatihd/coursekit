@@ -144,7 +144,9 @@ export function renderLesson(root, ctx, unit, lesson) {
     const box = el("section", "ladder");
     box.appendChild(el("h2", "blocks-title", "Exercise ladder"));
     if (ctx.unlockRung) {
-      box.appendChild(el("p", "ladder-note", `Get every exercise right once on rungs 1–${ctx.unlockRung} to unlock the next unit; the higher rungs earn its stars.`));
+      const topUp = ctx.ladderTarget && ctx.ladder.some((r) => r.pool)
+        ? ` (the book's exercises, topped up with new sentences to ${ctx.ladderTarget} per rung)` : "";
+      box.appendChild(el("p", "ladder-note", `Get every exercise right once on rungs 1–${ctx.unlockRung}${topUp} to unlock the next unit; the higher rungs earn its stars.`));
     }
     const list = el("ol", "ladder-list");
     for (const r of ctx.ladder) {
@@ -160,6 +162,7 @@ export function renderLesson(root, ctx, unit, lesson) {
       const practice = el("a", "blocks-practice", "Practice");
       practice.href = r.href;
       row.appendChild(practice);
+      if (r.more > 0) row.appendChild(el("span", "ladder-more", `+${r.more} more to practise`));
       list.appendChild(row);
     }
     box.appendChild(list);

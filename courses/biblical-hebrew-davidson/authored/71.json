@@ -1,0 +1,772 @@
+{
+  "schema": "authored-exercises-v1.json",
+  "unit": 71,
+  "sources": {
+    "c71-01": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c71-02": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c71-03": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c71-04": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c71-05": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c71-06": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c71-07": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "b-Ps-135-9": {
+      "citation": "Psalms 135:9. Hebrew: Westminster Leningrad Codex (public domain) via the Open Scriptures Hebrew Bible (morphology CC BY 4.0). English: World English Bible (public domain)",
+      "url": "https://worldenglish.bible"
+    }
+  },
+  "items": [
+    {
+      "id": "c71-01.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "גַּם־צִפּוֹר מָצְאָה בַיִת",
+      "stimulusIsScript": true,
+      "statement": "Even the bird has found the home.",
+      "answer": false,
+      "expected": "Even the bird has found a home.",
+      "block": "c71",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c71-01",
+      "extra": true
+    },
+    {
+      "id": "c71-01.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "גַּם־צִפּוֹר מָצְאָה בַיִת",
+      "stimulusIsScript": true,
+      "options": [
+        "Even the bird has found the home.",
+        "I will give your rains in their season.",
+        "Even a bird has found a home.",
+        "Even the bird has found a home."
+      ],
+      "answer": "Even the bird has found a home.",
+      "optionIsScript": false,
+      "block": "c71",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c71-01",
+      "extra": true
+    },
+    {
+      "id": "c71-01.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Even the bird has found a home.",
+      "stimulus": "＿＿＿ מָצְאָה בַיִת",
+      "stimulusIsScript": true,
+      "accepted": [
+        "גַּם־צִפּוֹר"
+      ],
+      "answerIsScript": true,
+      "block": "c71",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c71-01",
+      "extra": true
+    },
+    {
+      "id": "c71-01.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "גַּם־צִפּוֹר מָצְאָה בַיִת",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Even the bird has found a home."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c71",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c71-01",
+      "extra": true
+    },
+    {
+      "id": "c71-01.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Even the bird has found a home.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "גַּם־צִפּוֹר מָצְאָה בַיִת"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c71",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c71-01",
+      "extra": true
+    },
+    {
+      "id": "c71-02.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "שֶׁמֶן זַיִת",
+      "stimulusIsScript": true,
+      "statement": "The olive oil",
+      "answer": false,
+      "expected": "Olive oil",
+      "block": "c71",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c71-02",
+      "extra": true
+    },
+    {
+      "id": "c71-02.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "שֶׁמֶן זַיִת",
+      "stimulusIsScript": true,
+      "options": [
+        "The vision of Isaiah",
+        "Olive oil",
+        "The olive oil",
+        "Even the bird has found a home."
+      ],
+      "answer": "Olive oil",
+      "optionIsScript": false,
+      "block": "c71",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c71-02",
+      "extra": true
+    },
+    {
+      "id": "c71-02.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Olive oil",
+      "stimulus": "＿＿＿ זַיִת",
+      "stimulusIsScript": true,
+      "accepted": [
+        "שֶׁמֶן"
+      ],
+      "answerIsScript": true,
+      "block": "c71",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c71-02",
+      "extra": true
+    },
+    {
+      "id": "c71-02.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "שֶׁמֶן זַיִת",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Olive oil"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c71",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c71-02",
+      "extra": true
+    },
+    {
+      "id": "c71-02.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Olive oil",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שֶׁמֶן זַיִת"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c71",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c71-02",
+      "extra": true
+    },
+    {
+      "id": "c71-03.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אֹתוֹת וּמֹפְתִים",
+      "stimulusIsScript": true,
+      "statement": "A spirit of wisdom and understanding",
+      "answer": false,
+      "expected": "Signs and wonders",
+      "block": "c71",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c71-03",
+      "extra": true
+    },
+    {
+      "id": "c71-03.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אֹתוֹת וּמֹפְתִים",
+      "stimulusIsScript": true,
+      "options": [
+        "I will give your rains in their season.",
+        "The vision of Isaiah",
+        "A spirit of wisdom and understanding",
+        "Signs and wonders"
+      ],
+      "answer": "Signs and wonders",
+      "optionIsScript": false,
+      "block": "c71",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c71-03",
+      "extra": true
+    },
+    {
+      "id": "c71-03.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Signs and wonders",
+      "stimulus": "אֹתוֹת ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וּמֹפְתִים"
+      ],
+      "answerIsScript": true,
+      "block": "c71",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c71-03",
+      "extra": true
+    },
+    {
+      "id": "c71-03.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "Signs and wonders",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֹתוֹת וּמֹפְתִים"
+      ],
+      "answerIsScript": true,
+      "block": "c71",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c71-03",
+      "extra": true
+    },
+    {
+      "id": "c71-03.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Signs and wonders",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֹתוֹת וּמֹפְתִים"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c71",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c71-03",
+      "extra": true
+    },
+    {
+      "id": "c71-04.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיְהִי הַגֶּשֶׁם עַל־הָאָרֶץ אַרְבָּעִים יוֹם",
+      "stimulusIsScript": true,
+      "statement": "The rain was on the earth forty days.",
+      "answer": true,
+      "expected": "The rain was on the earth forty days.",
+      "block": "c71",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c71-04",
+      "extra": true
+    },
+    {
+      "id": "c71-04.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיְהִי הַגֶּשֶׁם עַל־הָאָרֶץ אַרְבָּעִים יוֹם",
+      "stimulusIsScript": true,
+      "options": [
+        "A rain was on the earth forty days.",
+        "The rain was from the earth forty days.",
+        "The rain was to the earth forty days.",
+        "The rain was on the earth forty days."
+      ],
+      "answer": "The rain was on the earth forty days.",
+      "optionIsScript": false,
+      "block": "c71",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c71-04",
+      "extra": true
+    },
+    {
+      "id": "c71-04.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The rain was on the earth forty days.",
+      "stimulus": "וַיְהִי הַגֶּשֶׁם עַל־הָאָרֶץ ＿＿＿ יוֹם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אַרְבָּעִים"
+      ],
+      "answerIsScript": true,
+      "block": "c71",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c71-04",
+      "extra": true
+    },
+    {
+      "id": "c71-04.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וַיְהִי הַגֶּשֶׁם עַל־הָאָרֶץ אַרְבָּעִים יוֹם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The rain was on the earth forty days."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c71",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c71-04",
+      "extra": true
+    },
+    {
+      "id": "c71-04.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The rain was on the earth forty days.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיְהִי הַגֶּשֶׁם עַל־הָאָרֶץ אַרְבָּעִים יוֹם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c71",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c71-04",
+      "extra": true
+    },
+    {
+      "id": "c71-05.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "חֲזוֹן יְשַׁעְיָהוּ",
+      "stimulusIsScript": true,
+      "statement": "The vision of Isaiah",
+      "answer": true,
+      "expected": "The vision of Isaiah",
+      "block": "c71",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c71-05",
+      "extra": true
+    },
+    {
+      "id": "c71-05.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "חֲזוֹן יְשַׁעְיָהוּ",
+      "stimulusIsScript": true,
+      "options": [
+        "The vision of Isaiah",
+        "A vision of Isaiah",
+        "Even the bird has found a home.",
+        "Olive oil"
+      ],
+      "answer": "The vision of Isaiah",
+      "optionIsScript": false,
+      "block": "c71",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c71-05",
+      "extra": true
+    },
+    {
+      "id": "c71-05.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The vision of Isaiah",
+      "stimulus": "＿＿＿ יְשַׁעְיָהוּ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "חֲזוֹן"
+      ],
+      "answerIsScript": true,
+      "block": "c71",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c71-05",
+      "extra": true
+    },
+    {
+      "id": "c71-05.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "חֲזוֹן יְשַׁעְיָהוּ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The vision of Isaiah"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c71",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c71-05",
+      "extra": true
+    },
+    {
+      "id": "c71-05.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The vision of Isaiah",
+      "stimulusIsScript": false,
+      "accepted": [
+        "חֲזוֹן יְשַׁעְיָהוּ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c71",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c71-05",
+      "extra": true
+    },
+    {
+      "id": "c71-06.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וְנָתַתִּי גִשְׁמֵיכֶם בְּעִתָּם",
+      "stimulusIsScript": true,
+      "statement": "I will give my rains in their season.",
+      "answer": false,
+      "expected": "I will give your rains in their season.",
+      "block": "c71",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c71-06",
+      "extra": true
+    },
+    {
+      "id": "c71-06.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וְנָתַתִּי גִשְׁמֵיכֶם בְּעִתָּם",
+      "stimulusIsScript": true,
+      "options": [
+        "He will give your rains in their season.",
+        "I will give my rains in their season.",
+        "I will give your rains in their season.",
+        "I will give your rains from their season."
+      ],
+      "answer": "I will give your rains in their season.",
+      "optionIsScript": false,
+      "block": "c71",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c71-06",
+      "extra": true
+    },
+    {
+      "id": "c71-06.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: I will give your rains in their season.",
+      "stimulus": "וְנָתַתִּי ＿＿＿ בְּעִתָּם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "גִשְׁמֵיכֶם"
+      ],
+      "answerIsScript": true,
+      "block": "c71",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c71-06",
+      "extra": true
+    },
+    {
+      "id": "c71-06.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וְנָתַתִּי גִשְׁמֵיכֶם בְּעִתָּם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "I will give your rains in their season."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c71",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c71-06",
+      "extra": true
+    },
+    {
+      "id": "c71-06.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "I will give your rains in their season.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וְנָתַתִּי גִשְׁמֵיכֶם בְּעִתָּם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c71",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c71-06",
+      "extra": true
+    },
+    {
+      "id": "c71-07.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "רוּחַ חָכְמָה וּבִינָה",
+      "stimulusIsScript": true,
+      "statement": "The spirit of wisdom and understanding",
+      "answer": false,
+      "expected": "A spirit of wisdom and understanding",
+      "block": "c71",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c71-07",
+      "extra": true
+    },
+    {
+      "id": "c71-07.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "רוּחַ חָכְמָה וּבִינָה",
+      "stimulusIsScript": true,
+      "options": [
+        "The vision of Isaiah",
+        "A spirit of wisdom and understanding",
+        "The spirit of wisdom and understanding",
+        "The rain was on the earth forty days."
+      ],
+      "answer": "A spirit of wisdom and understanding",
+      "optionIsScript": false,
+      "block": "c71",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c71-07",
+      "extra": true
+    },
+    {
+      "id": "c71-07.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: A spirit of wisdom and understanding",
+      "stimulus": "רוּחַ חָכְמָה ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וּבִינָה"
+      ],
+      "answerIsScript": true,
+      "block": "c71",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c71-07",
+      "extra": true
+    },
+    {
+      "id": "c71-07.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "A spirit of wisdom and understanding",
+      "stimulusIsScript": false,
+      "accepted": [
+        "רוּחַ חָכְמָה וּבִינָה"
+      ],
+      "answerIsScript": true,
+      "block": "c71",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c71-07",
+      "extra": true
+    },
+    {
+      "id": "c71-07.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "A spirit of wisdom and understanding",
+      "stimulusIsScript": false,
+      "accepted": [
+        "רוּחַ חָכְמָה וּבִינָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c71",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c71-07",
+      "extra": true
+    },
+    {
+      "id": "b-Ps-135-9.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "שָׁלַח אֹתוֹת וּמֹפְתִים בְּתוֹכֵכִי מִצְרָיִם בְּפַרְעֹה וּבְכָל־עֲבָדָיו",
+      "stimulusIsScript": true,
+      "statement": "He sent signs and wonders into the middle of you, Egypt, on Pharaoh, and on all his servants.",
+      "answer": true,
+      "expected": "He sent signs and wonders into the middle of you, Egypt, on Pharaoh, and on all his servants.",
+      "block": "b71",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Ps-135-9",
+      "extra": true
+    },
+    {
+      "id": "b-Ps-135-9.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "שָׁלַח אֹתוֹת וּמֹפְתִים בְּתוֹכֵכִי מִצְרָיִם בְּפַרְעֹה וּבְכָל־עֲבָדָיו",
+      "stimulusIsScript": true,
+      "options": [
+        "He sent signs and wonders into the middle of you, Egypt, on Pharaoh, and on all his servants.",
+        "He sent signs and wonders into the middle of you, Egypt, on Pharaoh, and on all her servants.",
+        "She sent signs and wonders into the middle of you, Egypt, on Pharaoh, and on all his servants.",
+        "He sent signs and wonders into the middle of you, Egypt, on Pharaoh, and from all his servants."
+      ],
+      "answer": "He sent signs and wonders into the middle of you, Egypt, on Pharaoh, and on all his servants.",
+      "optionIsScript": false,
+      "block": "b71",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Ps-135-9",
+      "extra": true
+    },
+    {
+      "id": "b-Ps-135-9.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: He sent signs and wonders into the middle of you, Egypt, on Pharaoh, and on all his servants.",
+      "stimulus": "שָׁלַח אֹתוֹת וּמֹפְתִים בְּתוֹכֵכִי מִצְרָיִם בְּפַרְעֹה ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וּבְכָל־עֲבָדָיו"
+      ],
+      "answerIsScript": true,
+      "block": "b71",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Ps-135-9",
+      "extra": true
+    },
+    {
+      "id": "b-Ps-135-9.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "שָׁלַח אֹתוֹת וּמֹפְתִים בְּתוֹכֵכִי מִצְרָיִם בְּפַרְעֹה וּבְכָל־עֲבָדָיו",
+      "stimulusIsScript": true,
+      "accepted": [
+        "He sent signs and wonders into the middle of you, Egypt, on Pharaoh, and on all his servants."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "b71",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Ps-135-9",
+      "extra": true
+    }
+  ]
+}

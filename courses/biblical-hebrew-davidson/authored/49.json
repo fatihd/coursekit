@@ -199,6 +199,36 @@
       "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n140.jpg",
       "exwb": "davidson-s47#A7",
       "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "c49-01": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c49-02": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c49-03": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c49-04": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c49-05": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c49-06": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c49-07": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c49-08": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c49-09": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c49-10": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
     }
   },
   "items": [
@@ -228,7 +258,7 @@
       "stimulusIsScript": true,
       "options": [
         "Thou hast made me king instead of David our father.",
-        "Thou hast made me king instead of David thy father.",
+        "Thou hast made me king instead of David your father.",
         "Thou hast made me king instead of David my father.",
         "Thou hast made us king instead of David my father."
       ],
@@ -318,7 +348,7 @@
       "stimulus": "הִנֵּה פָנַי בָּעָם הַזֶּה וְהִשְׁמַדְתִּי אֹתָם מֵעַל־פְּנֵי הָאֲדָמָה",
       "stimulusIsScript": true,
       "options": [
-        "Behold my face is against this people and we will destroy them from off the face of the ground.",
+        "Behold my face is against this people and you will destroy them from off the face of the ground.",
         "Behold my face is against this people and I will destroy them from off a face of the ground.",
         "Behold my face is against this people and I will destroy them from off the face of the ground.",
         "Behold my face is against this people and I will destroy us from off the face of the ground."
@@ -591,7 +621,7 @@
       "options": [
         "And I will assuredly hide my face on that day.",
         "And I will assuredly hide his face on that day.",
-        "And we will assuredly hide my face on that day.",
+        "And you will assuredly hide my face on that day.",
         "And I will assuredly hide my face on this day."
       ],
       "answer": "And I will assuredly hide my face on that day.",
@@ -1848,10 +1878,10 @@
       "stimulus": "אַכְרִית קַשְׁתָּם וְכָל־כְּלֵי מִלְחַמְתָּם",
       "stimulusIsScript": true,
       "options": [
-        "We will cut off their bow and all their weapons of warfare.",
+        "You will cut off their bow and all their weapons of warfare.",
         "I will cut off their bow and all his weapons of warfare.",
         "I will cut off their bow and all their weapons of warfare.",
-        "They will cut off their bow and all their weapons of warfare."
+        "He will cut off their bow and all their weapons of warfare."
       ],
       "answer": "I will cut off their bow and all their weapons of warfare.",
       "optionIsScript": false,
@@ -1938,7 +1968,7 @@
       "stimulusIsScript": true,
       "options": [
         "In the day when I visit (of my visiting) Israel, I will destroy the altars of Bethel.",
-        "In the day when they visit (of my visiting) Israel, I will destroy the altars of Bethel.",
+        "In the day when he visit (of my visiting) Israel, I will destroy the altars of Bethel.",
         "From the day when I visit (of my visiting) Israel, I will destroy the altars of Bethel.",
         "In a day when I visit (of my visiting) Israel, I will destroy the altars of Bethel."
       ],
@@ -2179,6 +2209,939 @@
       "blockLabel": "Davidson §47",
       "shape": "he-en",
       "src": "s47-A7"
+    },
+    {
+      "id": "c49-01.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיַּבְדֵּל אֱלֹהִים בֵּין הָאוֹר וּבֵין הַחֹשֶׁךְ",
+      "stimulusIsScript": true,
+      "statement": "God separated between the light and the darkness.",
+      "answer": true,
+      "expected": "God separated between the light and the darkness.",
+      "block": "c49",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c49-01",
+      "extra": true
+    },
+    {
+      "id": "c49-01.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיַּבְדֵּל אֱלֹהִים בֵּין הָאוֹר וּבֵין הַחֹשֶׁךְ",
+      "stimulusIsScript": true,
+      "options": [
+        "The shepherd and the flock",
+        "God separated between the light and the darkness.",
+        "God separated between the light and a darkness.",
+        "God separated between a light and the darkness."
+      ],
+      "answer": "God separated between the light and the darkness.",
+      "optionIsScript": false,
+      "block": "c49",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c49-01",
+      "extra": true
+    },
+    {
+      "id": "c49-01.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: God separated between the light and the darkness.",
+      "stimulus": "＿＿＿ אֱלֹהִים בֵּין הָאוֹר וּבֵין הַחֹשֶׁךְ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וַיַּבְדֵּל"
+      ],
+      "answerIsScript": true,
+      "block": "c49",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c49-01",
+      "extra": true
+    },
+    {
+      "id": "c49-01.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וַיַּבְדֵּל אֱלֹהִים בֵּין הָאוֹר וּבֵין הַחֹשֶׁךְ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "God separated between the light and the darkness."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c49",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c49-01",
+      "extra": true
+    },
+    {
+      "id": "c49-01.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "God separated between the light and the darkness.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיַּבְדֵּל אֱלֹהִים בֵּין הָאוֹר וּבֵין הַחֹשֶׁךְ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c49",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c49-01",
+      "extra": true
+    },
+    {
+      "id": "c49-02.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הִשְׁמִיד הַמֶּלֶךְ אֶת־הָעִיר",
+      "stimulusIsScript": true,
+      "statement": "The king destroyed the city.",
+      "answer": true,
+      "expected": "The king destroyed the city.",
+      "block": "c49",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c49-02",
+      "extra": true
+    },
+    {
+      "id": "c49-02.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הִשְׁמִיד הַמֶּלֶךְ אֶת־הָעִיר",
+      "stimulusIsScript": true,
+      "options": [
+        "The king destroyed the city.",
+        "Wisdom is better than silver.",
+        "A king destroyed the city.",
+        "The king destroyed a city."
+      ],
+      "answer": "The king destroyed the city.",
+      "optionIsScript": false,
+      "block": "c49",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c49-02",
+      "extra": true
+    },
+    {
+      "id": "c49-02.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The king destroyed the city.",
+      "stimulus": "הִשְׁמִיד ＿＿＿ אֶת־הָעִיר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַמֶּלֶךְ"
+      ],
+      "answerIsScript": true,
+      "block": "c49",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c49-02",
+      "extra": true
+    },
+    {
+      "id": "c49-02.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The king destroyed the city.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הִשְׁמִיד הַמֶּלֶךְ אֶת־הָעִיר",
+        "הַמֶּלֶךְ הִשְׁמִיד אֶת־הָעִיר"
+      ],
+      "answerIsScript": true,
+      "block": "c49",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c49-02",
+      "extra": true
+    },
+    {
+      "id": "c49-02.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The king destroyed the city.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הִשְׁמִיד הַמֶּלֶךְ אֶת־הָעִיר",
+        "הַמֶּלֶךְ הִשְׁמִיד אֶת־הָעִיר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c49",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c49-02",
+      "extra": true
+    },
+    {
+      "id": "c49-03.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיַּשְׁלֵךְ אַהֲרֹן אֶת־מַטֵּהוּ",
+      "stimulusIsScript": true,
+      "statement": "Aaron threw down his staff.",
+      "answer": true,
+      "expected": "Aaron threw down his staff.",
+      "block": "c49",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c49-03",
+      "extra": true
+    },
+    {
+      "id": "c49-03.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיַּשְׁלֵךְ אַהֲרֹן אֶת־מַטֵּהוּ",
+      "stimulusIsScript": true,
+      "options": [
+        "Aaron threw down her staff.",
+        "Aaron threw down their staff.",
+        "Aaron threw down my staff.",
+        "Aaron threw down his staff."
+      ],
+      "answer": "Aaron threw down his staff.",
+      "optionIsScript": false,
+      "block": "c49",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c49-03",
+      "extra": true
+    },
+    {
+      "id": "c49-03.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Aaron threw down his staff.",
+      "stimulus": "וַיַּשְׁלֵךְ ＿＿＿ אֶת־מַטֵּהוּ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אַהֲרֹן"
+      ],
+      "answerIsScript": true,
+      "block": "c49",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c49-03",
+      "extra": true
+    },
+    {
+      "id": "c49-03.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וַיַּשְׁלֵךְ אַהֲרֹן אֶת־מַטֵּהוּ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Aaron threw down his staff."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c49",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c49-03",
+      "extra": true
+    },
+    {
+      "id": "c49-03.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Aaron threw down his staff.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיַּשְׁלֵךְ אַהֲרֹן אֶת־מַטֵּהוּ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c49",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c49-03",
+      "extra": true
+    },
+    {
+      "id": "c49-04.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הִגְדִּיל אֱלֹהִים אֶת־חַסְדּוֹ",
+      "stimulusIsScript": true,
+      "statement": "God made his steadfast love great.",
+      "answer": true,
+      "expected": "God made his steadfast love great.",
+      "block": "c49",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c49-04",
+      "extra": true
+    },
+    {
+      "id": "c49-04.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הִגְדִּיל אֱלֹהִים אֶת־חַסְדּוֹ",
+      "stimulusIsScript": true,
+      "options": [
+        "God made my steadfast love great.",
+        "God made her steadfast love great.",
+        "God made their steadfast love great.",
+        "God made his steadfast love great."
+      ],
+      "answer": "God made his steadfast love great.",
+      "optionIsScript": false,
+      "block": "c49",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c49-04",
+      "extra": true
+    },
+    {
+      "id": "c49-04.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: God made his steadfast love great.",
+      "stimulus": "＿＿＿ אֱלֹהִים אֶת־חַסְדּוֹ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הִגְדִּיל"
+      ],
+      "answerIsScript": true,
+      "block": "c49",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c49-04",
+      "extra": true
+    },
+    {
+      "id": "c49-04.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הִגְדִּיל אֱלֹהִים אֶת־חַסְדּוֹ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "God made his steadfast love great."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c49",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c49-04",
+      "extra": true
+    },
+    {
+      "id": "c49-04.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "God made his steadfast love great.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הִגְדִּיל אֱלֹהִים אֶת־חַסְדּוֹ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c49",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c49-04",
+      "extra": true
+    },
+    {
+      "id": "c49-05.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָרֹעֶה וְהַצֹּאן",
+      "stimulusIsScript": true,
+      "statement": "A shepherd and the flock",
+      "answer": false,
+      "expected": "The shepherd and the flock",
+      "block": "c49",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c49-05",
+      "extra": true
+    },
+    {
+      "id": "c49-05.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָרֹעֶה וְהַצֹּאן",
+      "stimulusIsScript": true,
+      "options": [
+        "Aaron threw down his staff.",
+        "A shepherd and the flock",
+        "The shepherd and a flock",
+        "The shepherd and the flock"
+      ],
+      "answer": "The shepherd and the flock",
+      "optionIsScript": false,
+      "block": "c49",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c49-05",
+      "extra": true
+    },
+    {
+      "id": "c49-05.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The shepherd and the flock",
+      "stimulus": "הָרֹעֶה ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וְהַצֹּאן"
+      ],
+      "answerIsScript": true,
+      "block": "c49",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c49-05",
+      "extra": true
+    },
+    {
+      "id": "c49-05.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The shepherd and the flock",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָרֹעֶה וְהַצֹּאן"
+      ],
+      "answerIsScript": true,
+      "block": "c49",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c49-05",
+      "extra": true
+    },
+    {
+      "id": "c49-05.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The shepherd and the flock",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָרֹעֶה וְהַצֹּאן"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c49",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c49-05",
+      "extra": true
+    },
+    {
+      "id": "c49-06.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "חָכְמָה טוֹבָה מִכֶּסֶף",
+      "stimulusIsScript": true,
+      "statement": "To destroy the city",
+      "answer": false,
+      "expected": "Wisdom is better than silver.",
+      "block": "c49",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c49-06",
+      "extra": true
+    },
+    {
+      "id": "c49-06.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "חָכְמָה טוֹבָה מִכֶּסֶף",
+      "stimulusIsScript": true,
+      "options": [
+        "To destroy the city",
+        "Wisdom is better than silver.",
+        "The wisdom of Solomon",
+        "Aaron threw down his staff."
+      ],
+      "answer": "Wisdom is better than silver.",
+      "optionIsScript": false,
+      "block": "c49",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c49-06",
+      "extra": true
+    },
+    {
+      "id": "c49-06.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Wisdom is better than silver.",
+      "stimulus": "＿＿＿ טוֹבָה מִכֶּסֶף",
+      "stimulusIsScript": true,
+      "accepted": [
+        "חָכְמָה"
+      ],
+      "answerIsScript": true,
+      "block": "c49",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c49-06",
+      "extra": true
+    },
+    {
+      "id": "c49-06.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "חָכְמָה טוֹבָה מִכֶּסֶף",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Wisdom is better than silver."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c49",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c49-06",
+      "extra": true
+    },
+    {
+      "id": "c49-06.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Wisdom is better than silver.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "חָכְמָה טוֹבָה מִכֶּסֶף"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c49",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c49-06",
+      "extra": true
+    },
+    {
+      "id": "c49-07.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "חָכְמַת שְׁלֹמֹה",
+      "stimulusIsScript": true,
+      "statement": "The wisdom of Solomon",
+      "answer": true,
+      "expected": "The wisdom of Solomon",
+      "block": "c49",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c49-07",
+      "extra": true
+    },
+    {
+      "id": "c49-07.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "חָכְמַת שְׁלֹמֹה",
+      "stimulusIsScript": true,
+      "options": [
+        "A wisdom of Solomon",
+        "The wisdom of Solomon",
+        "Aaron threw down his staff.",
+        "The shepherd and the flock"
+      ],
+      "answer": "The wisdom of Solomon",
+      "optionIsScript": false,
+      "block": "c49",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c49-07",
+      "extra": true
+    },
+    {
+      "id": "c49-07.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The wisdom of Solomon",
+      "stimulus": "חָכְמַת ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "שְׁלֹמֹה"
+      ],
+      "answerIsScript": true,
+      "block": "c49",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c49-07",
+      "extra": true
+    },
+    {
+      "id": "c49-07.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "חָכְמַת שְׁלֹמֹה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The wisdom of Solomon"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c49",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c49-07",
+      "extra": true
+    },
+    {
+      "id": "c49-07.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The wisdom of Solomon",
+      "stimulusIsScript": false,
+      "accepted": [
+        "חָכְמַת שְׁלֹמֹה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c49",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c49-07",
+      "extra": true
+    },
+    {
+      "id": "c49-08.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "לְהַשְׁמִיד אֶת־הָעִיר",
+      "stimulusIsScript": true,
+      "statement": "To destroy a city",
+      "answer": false,
+      "expected": "To destroy the city",
+      "block": "c49",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c49-08",
+      "extra": true
+    },
+    {
+      "id": "c49-08.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "לְהַשְׁמִיד אֶת־הָעִיר",
+      "stimulusIsScript": true,
+      "options": [
+        "Wisdom is better than silver.",
+        "To destroy the city",
+        "The wisdom of Solomon",
+        "To destroy a city"
+      ],
+      "answer": "To destroy the city",
+      "optionIsScript": false,
+      "block": "c49",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c49-08",
+      "extra": true
+    },
+    {
+      "id": "c49-08.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: To destroy the city",
+      "stimulus": "＿＿＿ אֶת־הָעִיר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "לְהַשְׁמִיד"
+      ],
+      "answerIsScript": true,
+      "block": "c49",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c49-08",
+      "extra": true
+    },
+    {
+      "id": "c49-08.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "לְהַשְׁמִיד אֶת־הָעִיר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "To destroy the city"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c49",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c49-08",
+      "extra": true
+    },
+    {
+      "id": "c49-08.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "To destroy the city",
+      "stimulusIsScript": false,
+      "accepted": [
+        "לְהַשְׁמִיד אֶת־הָעִיר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c49",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c49-08",
+      "extra": true
+    },
+    {
+      "id": "c49-09.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַמֶּלֶךְ הִשְׁלִיךְ אֶת־הַחֶרֶב",
+      "stimulusIsScript": true,
+      "statement": "The king threw down a sword.",
+      "answer": false,
+      "expected": "The king threw down the sword.",
+      "block": "c49",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c49-09",
+      "extra": true
+    },
+    {
+      "id": "c49-09.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַמֶּלֶךְ הִשְׁלִיךְ אֶת־הַחֶרֶב",
+      "stimulusIsScript": true,
+      "options": [
+        "A king threw down the sword.",
+        "The king threw down the sword.",
+        "The king destroyed the city.",
+        "The king threw down a sword."
+      ],
+      "answer": "The king threw down the sword.",
+      "optionIsScript": false,
+      "block": "c49",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c49-09",
+      "extra": true
+    },
+    {
+      "id": "c49-09.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The king threw down the sword.",
+      "stimulus": "＿＿＿ הִשְׁלִיךְ אֶת־הַחֶרֶב",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַמֶּלֶךְ"
+      ],
+      "answerIsScript": true,
+      "block": "c49",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c49-09",
+      "extra": true
+    },
+    {
+      "id": "c49-09.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The king threw down the sword.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַמֶּלֶךְ הִשְׁלִיךְ אֶת־הַחֶרֶב",
+        "הִשְׁלִיךְ הַמֶּלֶךְ אֶת־הַחֶרֶב"
+      ],
+      "answerIsScript": true,
+      "block": "c49",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c49-09",
+      "extra": true
+    },
+    {
+      "id": "c49-09.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The king threw down the sword.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַמֶּלֶךְ הִשְׁלִיךְ אֶת־הַחֶרֶב",
+        "הִשְׁלִיךְ הַמֶּלֶךְ אֶת־הַחֶרֶב"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c49",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c49-09",
+      "extra": true
+    },
+    {
+      "id": "c49-10.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "מִן־הַצָּפוֹן",
+      "stimulusIsScript": true,
+      "statement": "From the north",
+      "answer": true,
+      "expected": "From the north",
+      "block": "c49",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c49-10",
+      "extra": true
+    },
+    {
+      "id": "c49-10.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "מִן־הַצָּפוֹן",
+      "stimulusIsScript": true,
+      "options": [
+        "From a north",
+        "To the north",
+        "From the north",
+        "In the north"
+      ],
+      "answer": "From the north",
+      "optionIsScript": false,
+      "block": "c49",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c49-10",
+      "extra": true
+    },
+    {
+      "id": "c49-10.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "מִן־הַצָּפוֹן",
+      "stimulusIsScript": true,
+      "accepted": [
+        "From the north"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c49",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c49-10",
+      "extra": true
+    },
+    {
+      "id": "c49-10.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "From the north",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מִן־הַצָּפוֹן"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c49",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c49-10",
+      "extra": true
     }
   ]
 }

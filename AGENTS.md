@@ -138,6 +138,12 @@ python scripts/e2e.py courses/biblical-hebrew-davidson --words
 # Drill mode (hinted retry, requeue, first-try credit) and test mode (unit, part, mock final)
 python scripts/e2e.py courses/biblical-hebrew-davidson --modes
 
+# Corpus expansion: new sentences top a rung up to ladderTarget, the rest stay for practice, retakes differ
+python scripts/e2e.py courses/biblical-hebrew-davidson --corpus
+
+# Corpus expansion data: check new sentences against the Hebrew Bible, select Bible verses (needs fetch_oer.py caches)
+python build/davidson_corpus.py forms && python build/davidson_corpus.py bible && python build/davidson_corpus.py report
+
 # Progress operations: reset all, reset a unit, mark a unit or an exercise done / not done
 python scripts/e2e.py courses/biblical-hebrew-davidson --progress-ops
 
@@ -341,3 +347,4 @@ ADR files any more: to make or change a decision, add or edit its line here.
 | ADR-022 | The course vision of §0: exercise ladder, sentences from the start, per-sentence placement, typed translation, no transliteration, a large exercise corpus built offline (static course data, no live agent). |
 | ADR-023 | Words are a separate per-unit track (four rungs per word: recognize, recall, type, type with points), optional for unlocking; book sessions open with a few word questions; word drills use only the unit's own words (earlier words only as wrong options) (user, 2026-11-12). |
 | ADR-024 | Drill mode: one hinted retry, a question still wrong returns once at the end of the same session, credit only for right first answers, no hearts/lives. Test mode: unit tests (80% tests out of the unit), part tests, a mock final; one attempt, graded at the end, results kept separately (user, 2026-11-12). |
+| ADR-026 | Corpus expansion (P12-T5): sentences written for the course must use only word forms attested in the Hebrew Bible (or Davidson / the word list) and sit in the first unit their words and grammar allow (computed from OSHB morphology); whole Bible verses using only course words come with the World English Bible. They are `extra` items: a rung needs every book exercise plus extras up to `ladderTarget` (20) right answers; the rest are practice and test material (2026-11-12). |

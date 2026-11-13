@@ -37,6 +37,51 @@
       "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n42.jpg",
       "exwb": "davidson-s19#A1",
       "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "c23-01": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c23-02": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c23-03": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c23-04": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c23-05": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c23-06": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c23-07": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c23-08": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c23-09": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c23-10": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c23-11": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c23-12": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c23-13": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c23-14": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c23-15": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
     }
   },
   "items": [
@@ -365,6 +410,1433 @@
       "blockLabel": "Davidson §19",
       "shape": "he-en",
       "src": "s19-A1"
+    },
+    {
+      "id": "c23-01.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אֱלֹהִים עִמָּנוּ",
+      "stimulusIsScript": true,
+      "statement": "God is with us.",
+      "answer": true,
+      "expected": "God is with us.",
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-01",
+      "extra": true
+    },
+    {
+      "id": "c23-01.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אֱלֹהִים עִמָּנוּ",
+      "stimulusIsScript": true,
+      "options": [
+        "God is with them.",
+        "The land is ours.",
+        "God is with me.",
+        "God is with us."
+      ],
+      "answer": "God is with us.",
+      "optionIsScript": false,
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-01",
+      "extra": true
+    },
+    {
+      "id": "c23-01.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: God is with us.",
+      "stimulus": "אֱלֹהִים ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "עִמָּנוּ"
+      ],
+      "answerIsScript": true,
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-01",
+      "extra": true
+    },
+    {
+      "id": "c23-01.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "אֱלֹהִים עִמָּנוּ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "God is with us."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-01",
+      "extra": true
+    },
+    {
+      "id": "c23-01.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "God is with us.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֱלֹהִים עִמָּנוּ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-01",
+      "extra": true
+    },
+    {
+      "id": "c23-02.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַנָּבִיא הָלַךְ עִמּוֹ",
+      "stimulusIsScript": true,
+      "statement": "The prophet went with them.",
+      "answer": false,
+      "expected": "The prophet went with him.",
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-02",
+      "extra": true
+    },
+    {
+      "id": "c23-02.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַנָּבִיא הָלַךְ עִמּוֹ",
+      "stimulusIsScript": true,
+      "options": [
+        "The prophet went with me.",
+        "The prophet went with them.",
+        "A prophet went with him.",
+        "The prophet went with him."
+      ],
+      "answer": "The prophet went with him.",
+      "optionIsScript": false,
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-02",
+      "extra": true
+    },
+    {
+      "id": "c23-02.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The prophet went with him.",
+      "stimulus": "הַנָּבִיא הָלַךְ ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "עִמּוֹ"
+      ],
+      "answerIsScript": true,
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-02",
+      "extra": true
+    },
+    {
+      "id": "c23-02.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The prophet went with him.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַנָּבִיא הָלַךְ עִמּוֹ",
+        "הָלַךְ הַנָּבִיא עִמּוֹ"
+      ],
+      "answerIsScript": true,
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-02",
+      "extra": true
+    },
+    {
+      "id": "c23-02.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The prophet went with him.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַנָּבִיא הָלַךְ עִמּוֹ",
+        "הָלַךְ הַנָּבִיא עִמּוֹ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-02",
+      "extra": true
+    },
+    {
+      "id": "c23-03.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "שָׁלוֹם לְךָ",
+      "stimulusIsScript": true,
+      "statement": "Peace from you.",
+      "answer": false,
+      "expected": "Peace to you.",
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-03",
+      "extra": true
+    },
+    {
+      "id": "c23-03.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "שָׁלוֹם לְךָ",
+      "stimulusIsScript": true,
+      "options": [
+        "The prophet went with him.",
+        "Peace to you.",
+        "Peace from you.",
+        "Peace in you."
+      ],
+      "answer": "Peace to you.",
+      "optionIsScript": false,
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-03",
+      "extra": true
+    },
+    {
+      "id": "c23-03.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Peace to you.",
+      "stimulus": "＿＿＿ לְךָ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "שָׁלוֹם"
+      ],
+      "answerIsScript": true,
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-03",
+      "extra": true
+    },
+    {
+      "id": "c23-03.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "שָׁלוֹם לְךָ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Peace to you."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-03",
+      "extra": true
+    },
+    {
+      "id": "c23-03.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Peace to you.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שָׁלוֹם לְךָ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-03",
+      "extra": true
+    },
+    {
+      "id": "c23-04.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "יְשׁוּעָתִי בֵּאלֹהִים",
+      "stimulusIsScript": true,
+      "statement": "My salvation is in God.",
+      "answer": true,
+      "expected": "My salvation is in God.",
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-04",
+      "extra": true
+    },
+    {
+      "id": "c23-04.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "יְשׁוּעָתִי בֵּאלֹהִים",
+      "stimulusIsScript": true,
+      "options": [
+        "My salvation is in God.",
+        "My salvation is to God.",
+        "My salvation is from God.",
+        "His salvation is in God."
+      ],
+      "answer": "My salvation is in God.",
+      "optionIsScript": false,
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-04",
+      "extra": true
+    },
+    {
+      "id": "c23-04.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: My salvation is in God.",
+      "stimulus": "יְשׁוּעָתִי ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "בֵּאלֹהִים"
+      ],
+      "answerIsScript": true,
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-04",
+      "extra": true
+    },
+    {
+      "id": "c23-04.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "יְשׁוּעָתִי בֵּאלֹהִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "My salvation is in God."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-04",
+      "extra": true
+    },
+    {
+      "id": "c23-04.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "My salvation is in God.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "יְשׁוּעָתִי בֵּאלֹהִים"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-04",
+      "extra": true
+    },
+    {
+      "id": "c23-05.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "יָדוֹ עָלֵינוּ",
+      "stimulusIsScript": true,
+      "statement": "His hand is upon me.",
+      "answer": false,
+      "expected": "His hand is upon us.",
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-05",
+      "extra": true
+    },
+    {
+      "id": "c23-05.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "יָדוֹ עָלֵינוּ",
+      "stimulusIsScript": true,
+      "options": [
+        "His hand is to us.",
+        "My hand is upon us.",
+        "His hand is upon me.",
+        "His hand is upon us."
+      ],
+      "answer": "His hand is upon us.",
+      "optionIsScript": false,
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-05",
+      "extra": true
+    },
+    {
+      "id": "c23-05.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: His hand is upon us.",
+      "stimulus": "יָדוֹ ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "עָלֵינוּ"
+      ],
+      "answerIsScript": true,
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-05",
+      "extra": true
+    },
+    {
+      "id": "c23-05.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "יָדוֹ עָלֵינוּ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "His hand is upon us."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-05",
+      "extra": true
+    },
+    {
+      "id": "c23-05.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "His hand is upon us.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "יָדוֹ עָלֵינוּ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-05",
+      "extra": true
+    },
+    {
+      "id": "c23-06.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָאִשָּׁה עִמִּי",
+      "stimulusIsScript": true,
+      "statement": "The woman is with me.",
+      "answer": true,
+      "expected": "The woman is with me.",
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-06",
+      "extra": true
+    },
+    {
+      "id": "c23-06.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָאִשָּׁה עִמִּי",
+      "stimulusIsScript": true,
+      "options": [
+        "The woman is with me.",
+        "The woman is with us.",
+        "The woman is with him.",
+        "A woman is with me."
+      ],
+      "answer": "The woman is with me.",
+      "optionIsScript": false,
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-06",
+      "extra": true
+    },
+    {
+      "id": "c23-06.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The woman is with me.",
+      "stimulus": "＿＿＿ עִמִּי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הָאִשָּׁה"
+      ],
+      "answerIsScript": true,
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-06",
+      "extra": true
+    },
+    {
+      "id": "c23-06.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The woman is with me.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאִשָּׁה עִמִּי"
+      ],
+      "answerIsScript": true,
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-06",
+      "extra": true
+    },
+    {
+      "id": "c23-06.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The woman is with me.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאִשָּׁה עִמִּי"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-06",
+      "extra": true
+    },
+    {
+      "id": "c23-07.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַנָּבִיא אָמַר אֵלָיו",
+      "stimulusIsScript": true,
+      "statement": "A prophet said to him.",
+      "answer": false,
+      "expected": "The prophet said to him.",
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-07",
+      "extra": true
+    },
+    {
+      "id": "c23-07.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַנָּבִיא אָמַר אֵלָיו",
+      "stimulusIsScript": true,
+      "options": [
+        "The prophet said in him.",
+        "The prophet said to him.",
+        "A prophet said to him.",
+        "The prophet said to me."
+      ],
+      "answer": "The prophet said to him.",
+      "optionIsScript": false,
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-07",
+      "extra": true
+    },
+    {
+      "id": "c23-07.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The prophet said to him.",
+      "stimulus": "הַנָּבִיא ＿＿＿ אֵלָיו",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אָמַר"
+      ],
+      "answerIsScript": true,
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-07",
+      "extra": true
+    },
+    {
+      "id": "c23-07.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The prophet said to him.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַנָּבִיא אָמַר אֵלָיו",
+        "אָמַר הַנָּבִיא אֵלָיו"
+      ],
+      "answerIsScript": true,
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-07",
+      "extra": true
+    },
+    {
+      "id": "c23-07.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The prophet said to him.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַנָּבִיא אָמַר אֵלָיו",
+        "אָמַר הַנָּבִיא אֵלָיו"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-07",
+      "extra": true
+    },
+    {
+      "id": "c23-08.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אֱלֹהִים אָמַר אֵלֵינוּ",
+      "stimulusIsScript": true,
+      "statement": "God said to them.",
+      "answer": false,
+      "expected": "God said to us.",
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-08",
+      "extra": true
+    },
+    {
+      "id": "c23-08.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אֱלֹהִים אָמַר אֵלֵינוּ",
+      "stimulusIsScript": true,
+      "options": [
+        "God said to me.",
+        "God said in us.",
+        "God said to us.",
+        "God said to them."
+      ],
+      "answer": "God said to us.",
+      "optionIsScript": false,
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-08",
+      "extra": true
+    },
+    {
+      "id": "c23-08.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: God said to us.",
+      "stimulus": "＿＿＿ אָמַר אֵלֵינוּ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֱלֹהִים"
+      ],
+      "answerIsScript": true,
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-08",
+      "extra": true
+    },
+    {
+      "id": "c23-08.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "אֱלֹהִים אָמַר אֵלֵינוּ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "God said to us."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-08",
+      "extra": true
+    },
+    {
+      "id": "c23-08.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "God said to us.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֱלֹהִים אָמַר אֵלֵינוּ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-08",
+      "extra": true
+    },
+    {
+      "id": "c23-09.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָאִישׁ יָשַׁב עַל־הָהָר עַד־הָעֶרֶב",
+      "stimulusIsScript": true,
+      "statement": "The man sat on a mountain until the evening.",
+      "answer": false,
+      "expected": "The man sat on the mountain until the evening.",
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-09",
+      "extra": true
+    },
+    {
+      "id": "c23-09.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָאִישׁ יָשַׁב עַל־הָהָר עַד־הָעֶרֶב",
+      "stimulusIsScript": true,
+      "options": [
+        "The man sat on a mountain until the evening.",
+        "The man sat from the mountain until the evening.",
+        "The man sat on the mountain until the evening.",
+        "A man sat on the mountain until the evening."
+      ],
+      "answer": "The man sat on the mountain until the evening.",
+      "optionIsScript": false,
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-09",
+      "extra": true
+    },
+    {
+      "id": "c23-09.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The man sat on the mountain until the evening.",
+      "stimulus": "＿＿＿ יָשַׁב עַל־הָהָר עַד־הָעֶרֶב",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הָאִישׁ"
+      ],
+      "answerIsScript": true,
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-09",
+      "extra": true
+    },
+    {
+      "id": "c23-09.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הָאִישׁ יָשַׁב עַל־הָהָר עַד־הָעֶרֶב",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The man sat on the mountain until the evening."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-09",
+      "extra": true
+    },
+    {
+      "id": "c23-09.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The man sat on the mountain until the evening.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאִישׁ יָשַׁב עַל־הָהָר עַד־הָעֶרֶב"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-09",
+      "extra": true
+    },
+    {
+      "id": "c23-10.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָעָם יָשַׁב שָׁם עַד־הַבֹּקֶר",
+      "stimulusIsScript": true,
+      "statement": "The people stayed there until a morning.",
+      "answer": false,
+      "expected": "The people stayed there until the morning.",
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-10",
+      "extra": true
+    },
+    {
+      "id": "c23-10.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָעָם יָשַׁב שָׁם עַד־הַבֹּקֶר",
+      "stimulusIsScript": true,
+      "options": [
+        "The people stayed there until the morning.",
+        "A people stayed there until the morning.",
+        "The people stayed there until a morning.",
+        "The woman is with me."
+      ],
+      "answer": "The people stayed there until the morning.",
+      "optionIsScript": false,
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-10",
+      "extra": true
+    },
+    {
+      "id": "c23-10.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The people stayed there until the morning.",
+      "stimulus": "＿＿＿ יָשַׁב שָׁם עַד־הַבֹּקֶר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הָעָם"
+      ],
+      "answerIsScript": true,
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-10",
+      "extra": true
+    },
+    {
+      "id": "c23-10.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The people stayed there until the morning.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָעָם יָשַׁב שָׁם עַד־הַבֹּקֶר",
+        "יָשַׁב הָעָם שָׁם עַד־הַבֹּקֶר"
+      ],
+      "answerIsScript": true,
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-10",
+      "extra": true
+    },
+    {
+      "id": "c23-10.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The people stayed there until the morning.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָעָם יָשַׁב שָׁם עַד־הַבֹּקֶר",
+        "יָשַׁב הָעָם שָׁם עַד־הַבֹּקֶר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-10",
+      "extra": true
+    },
+    {
+      "id": "c23-11.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "דָּמוֹ בְּרֹאשׁוֹ",
+      "stimulusIsScript": true,
+      "statement": "His blood is on his head.",
+      "answer": true,
+      "expected": "His blood is on his head.",
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-11",
+      "extra": true
+    },
+    {
+      "id": "c23-11.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "דָּמוֹ בְּרֹאשׁוֹ",
+      "stimulusIsScript": true,
+      "options": [
+        "His blood is on their head.",
+        "His blood is on his head.",
+        "His blood is to his head.",
+        "His blood is from his head."
+      ],
+      "answer": "His blood is on his head.",
+      "optionIsScript": false,
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-11",
+      "extra": true
+    },
+    {
+      "id": "c23-11.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: His blood is on his head.",
+      "stimulus": "דָּמוֹ ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "בְּרֹאשׁוֹ"
+      ],
+      "answerIsScript": true,
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-11",
+      "extra": true
+    },
+    {
+      "id": "c23-11.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "דָּמוֹ בְּרֹאשׁוֹ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "His blood is on his head."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-11",
+      "extra": true
+    },
+    {
+      "id": "c23-11.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "His blood is on his head.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "דָּמוֹ בְּרֹאשׁוֹ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-11",
+      "extra": true
+    },
+    {
+      "id": "c23-12.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָאָרֶץ לָנוּ",
+      "stimulusIsScript": true,
+      "statement": "A land is ours.",
+      "answer": false,
+      "expected": "The land is ours.",
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-12",
+      "extra": true
+    },
+    {
+      "id": "c23-12.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָאָרֶץ לָנוּ",
+      "stimulusIsScript": true,
+      "options": [
+        "A land is ours.",
+        "His hand is upon us.",
+        "His blood is on his head.",
+        "The land is ours."
+      ],
+      "answer": "The land is ours.",
+      "optionIsScript": false,
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-12",
+      "extra": true
+    },
+    {
+      "id": "c23-12.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The land is ours.",
+      "stimulus": "הָאָרֶץ ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "לָנוּ"
+      ],
+      "answerIsScript": true,
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-12",
+      "extra": true
+    },
+    {
+      "id": "c23-12.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הָאָרֶץ לָנוּ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The land is ours."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-12",
+      "extra": true
+    },
+    {
+      "id": "c23-12.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The land is ours.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאָרֶץ לָנוּ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-12",
+      "extra": true
+    },
+    {
+      "id": "c23-13.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַכֶּסֶף לוֹ",
+      "stimulusIsScript": true,
+      "statement": "The silver is his.",
+      "answer": true,
+      "expected": "The silver is his.",
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-13",
+      "extra": true
+    },
+    {
+      "id": "c23-13.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַכֶּסֶף לוֹ",
+      "stimulusIsScript": true,
+      "options": [
+        "The silver is their.",
+        "A silver is his.",
+        "The silver is my.",
+        "The silver is his."
+      ],
+      "answer": "The silver is his.",
+      "optionIsScript": false,
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-13",
+      "extra": true
+    },
+    {
+      "id": "c23-13.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The silver is his.",
+      "stimulus": "הַכֶּסֶף ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "לוֹ"
+      ],
+      "answerIsScript": true,
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-13",
+      "extra": true
+    },
+    {
+      "id": "c23-13.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The silver is his.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַכֶּסֶף לוֹ"
+      ],
+      "answerIsScript": true,
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-13",
+      "extra": true
+    },
+    {
+      "id": "c23-13.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The silver is his.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַכֶּסֶף לוֹ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-13",
+      "extra": true
+    },
+    {
+      "id": "c23-14.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַזָּהָב לָהֶם",
+      "stimulusIsScript": true,
+      "statement": "The gold is theirs.",
+      "answer": true,
+      "expected": "The gold is theirs.",
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-14",
+      "extra": true
+    },
+    {
+      "id": "c23-14.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַזָּהָב לָהֶם",
+      "stimulusIsScript": true,
+      "options": [
+        "The land is ours.",
+        "A gold is theirs.",
+        "The gold is theirs.",
+        "The prophet said to him."
+      ],
+      "answer": "The gold is theirs.",
+      "optionIsScript": false,
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-14",
+      "extra": true
+    },
+    {
+      "id": "c23-14.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The gold is theirs.",
+      "stimulus": "＿＿＿ לָהֶם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַזָּהָב"
+      ],
+      "answerIsScript": true,
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-14",
+      "extra": true
+    },
+    {
+      "id": "c23-14.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הַזָּהָב לָהֶם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The gold is theirs."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-14",
+      "extra": true
+    },
+    {
+      "id": "c23-14.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The gold is theirs.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַזָּהָב לָהֶם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-14",
+      "extra": true
+    },
+    {
+      "id": "c23-15.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָאִישׁ רָאָה עִיר גְּדוֹלָה",
+      "stimulusIsScript": true,
+      "statement": "The man saw a great city.",
+      "answer": true,
+      "expected": "The man saw a great city.",
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-15",
+      "extra": true
+    },
+    {
+      "id": "c23-15.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָאִישׁ רָאָה עִיר גְּדוֹלָה",
+      "stimulusIsScript": true,
+      "options": [
+        "The man saw a great city.",
+        "The silver is his.",
+        "The man saw the great city.",
+        "A man saw a great city."
+      ],
+      "answer": "The man saw a great city.",
+      "optionIsScript": false,
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-15",
+      "extra": true
+    },
+    {
+      "id": "c23-15.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The man saw a great city.",
+      "stimulus": "הָאִישׁ ＿＿＿ עִיר גְּדוֹלָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "רָאָה"
+      ],
+      "answerIsScript": true,
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-15",
+      "extra": true
+    },
+    {
+      "id": "c23-15.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The man saw a great city.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאִישׁ רָאָה עִיר גְּדוֹלָה",
+        "רָאָה הָאִישׁ עִיר גְּדוֹלָה"
+      ],
+      "answerIsScript": true,
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-15",
+      "extra": true
+    },
+    {
+      "id": "c23-15.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The man saw a great city.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאִישׁ רָאָה עִיר גְּדוֹלָה",
+        "רָאָה הָאִישׁ עִיר גְּדוֹלָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c23",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c23-15",
+      "extra": true
     }
   ]
 }

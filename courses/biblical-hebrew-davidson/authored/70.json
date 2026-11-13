@@ -1,0 +1,674 @@
+{
+  "schema": "authored-exercises-v1.json",
+  "unit": 70,
+  "sources": {
+    "c70-01": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c70-02": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c70-03": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c70-04": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c70-05": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c70-06": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c70-07": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    }
+  },
+  "items": [
+    {
+      "id": "c70-01.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַחֲנִית בְּיָדוֹ",
+      "stimulusIsScript": true,
+      "statement": "The spear is in their hand.",
+      "answer": false,
+      "expected": "The spear is in his hand.",
+      "block": "c70",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c70-01",
+      "extra": true
+    },
+    {
+      "id": "c70-01.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַחֲנִית בְּיָדוֹ",
+      "stimulusIsScript": true,
+      "options": [
+        "The spear is in their hand.",
+        "A spear is in his hand.",
+        "The spear is in his hand.",
+        "The spear is to his hand."
+      ],
+      "answer": "The spear is in his hand.",
+      "optionIsScript": false,
+      "block": "c70",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c70-01",
+      "extra": true
+    },
+    {
+      "id": "c70-01.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The spear is in his hand.",
+      "stimulus": "＿＿＿ בְּיָדוֹ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַחֲנִית"
+      ],
+      "answerIsScript": true,
+      "block": "c70",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c70-01",
+      "extra": true
+    },
+    {
+      "id": "c70-01.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הַחֲנִית בְּיָדוֹ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The spear is in his hand."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c70",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c70-01",
+      "extra": true
+    },
+    {
+      "id": "c70-01.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The spear is in his hand.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַחֲנִית בְּיָדוֹ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c70",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c70-01",
+      "extra": true
+    },
+    {
+      "id": "c70-02.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "רַחֲמִים רַבִּים",
+      "stimulusIsScript": true,
+      "statement": "The great compassion",
+      "answer": false,
+      "expected": "Great compassion",
+      "block": "c70",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c70-02",
+      "extra": true
+    },
+    {
+      "id": "c70-02.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "רַחֲמִים רַבִּים",
+      "stimulusIsScript": true,
+      "options": [
+        "The orphan and the widow",
+        "Great compassion",
+        "The spear is in his hand.",
+        "The great compassion"
+      ],
+      "answer": "Great compassion",
+      "optionIsScript": false,
+      "block": "c70",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c70-02",
+      "extra": true
+    },
+    {
+      "id": "c70-02.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Great compassion",
+      "stimulus": "רַחֲמִים ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "רַבִּים"
+      ],
+      "answerIsScript": true,
+      "block": "c70",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c70-02",
+      "extra": true
+    },
+    {
+      "id": "c70-02.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "Great compassion",
+      "stimulusIsScript": false,
+      "accepted": [
+        "רַחֲמִים רַבִּים"
+      ],
+      "answerIsScript": true,
+      "block": "c70",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c70-02",
+      "extra": true
+    },
+    {
+      "id": "c70-02.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Great compassion",
+      "stimulusIsScript": false,
+      "accepted": [
+        "רַחֲמִים רַבִּים"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c70",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c70-02",
+      "extra": true
+    },
+    {
+      "id": "c70-03.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "יָתוֹם וְאַלְמָנָה",
+      "stimulusIsScript": true,
+      "statement": "The orphan and a widow",
+      "answer": false,
+      "expected": "The orphan and the widow",
+      "block": "c70",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c70-03",
+      "extra": true
+    },
+    {
+      "id": "c70-03.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "יָתוֹם וְאַלְמָנָה",
+      "stimulusIsScript": true,
+      "options": [
+        "The orphan and a widow",
+        "With understanding",
+        "The orphan and the widow",
+        "An orphan and the widow"
+      ],
+      "answer": "The orphan and the widow",
+      "optionIsScript": false,
+      "block": "c70",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c70-03",
+      "extra": true
+    },
+    {
+      "id": "c70-03.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The orphan and the widow",
+      "stimulus": "＿＿＿ וְאַלְמָנָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "יָתוֹם"
+      ],
+      "answerIsScript": true,
+      "block": "c70",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c70-03",
+      "extra": true
+    },
+    {
+      "id": "c70-03.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "יָתוֹם וְאַלְמָנָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The orphan and the widow"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c70",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c70-03",
+      "extra": true
+    },
+    {
+      "id": "c70-03.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The orphan and the widow",
+      "stimulusIsScript": false,
+      "accepted": [
+        "יָתוֹם וְאַלְמָנָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c70",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c70-03",
+      "extra": true
+    },
+    {
+      "id": "c70-04.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "מְנֹרַת זָהָב",
+      "stimulusIsScript": true,
+      "statement": "The lampstand of gold",
+      "answer": false,
+      "expected": "A lampstand of gold",
+      "block": "c70",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c70-04",
+      "extra": true
+    },
+    {
+      "id": "c70-04.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "מְנֹרַת זָהָב",
+      "stimulusIsScript": true,
+      "options": [
+        "A lampstand of gold",
+        "A father of orphans",
+        "With understanding",
+        "The lampstand of gold"
+      ],
+      "answer": "A lampstand of gold",
+      "optionIsScript": false,
+      "block": "c70",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c70-04",
+      "extra": true
+    },
+    {
+      "id": "c70-04.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: A lampstand of gold",
+      "stimulus": "מְנֹרַת ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "זָהָב"
+      ],
+      "answerIsScript": true,
+      "block": "c70",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c70-04",
+      "extra": true
+    },
+    {
+      "id": "c70-04.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "מְנֹרַת זָהָב",
+      "stimulusIsScript": true,
+      "accepted": [
+        "A lampstand of gold"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c70",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c70-04",
+      "extra": true
+    },
+    {
+      "id": "c70-04.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "A lampstand of gold",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מְנֹרַת זָהָב"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c70",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c70-04",
+      "extra": true
+    },
+    {
+      "id": "c70-05.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיִּשְׁלַח חִצָּיו",
+      "stimulusIsScript": true,
+      "statement": "He sent out my arrows.",
+      "answer": false,
+      "expected": "He sent out his arrows.",
+      "block": "c70",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c70-05",
+      "extra": true
+    },
+    {
+      "id": "c70-05.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיִּשְׁלַח חִצָּיו",
+      "stimulusIsScript": true,
+      "options": [
+        "He sent out his arrows.",
+        "She sent out his arrows.",
+        "He sent out their arrows.",
+        "He sent out my arrows."
+      ],
+      "answer": "He sent out his arrows.",
+      "optionIsScript": false,
+      "block": "c70",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c70-05",
+      "extra": true
+    },
+    {
+      "id": "c70-05.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: He sent out his arrows.",
+      "stimulus": "וַיִּשְׁלַח ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "חִצָּיו"
+      ],
+      "answerIsScript": true,
+      "block": "c70",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c70-05",
+      "extra": true
+    },
+    {
+      "id": "c70-05.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וַיִּשְׁלַח חִצָּיו",
+      "stimulusIsScript": true,
+      "accepted": [
+        "He sent out his arrows."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c70",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c70-05",
+      "extra": true
+    },
+    {
+      "id": "c70-05.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "He sent out his arrows.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיִּשְׁלַח חִצָּיו"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c70",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c70-05",
+      "extra": true
+    },
+    {
+      "id": "c70-06.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "בִּתְבוּנָה",
+      "stimulusIsScript": true,
+      "statement": "He sent out his arrows.",
+      "answer": false,
+      "expected": "With understanding",
+      "block": "c70",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c70-06",
+      "extra": true
+    },
+    {
+      "id": "c70-06.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "בִּתְבוּנָה",
+      "stimulusIsScript": true,
+      "options": [
+        "With understanding",
+        "The orphan and the widow",
+        "He sent out his arrows.",
+        "The spear is in his hand."
+      ],
+      "answer": "With understanding",
+      "optionIsScript": false,
+      "block": "c70",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c70-06",
+      "extra": true
+    },
+    {
+      "id": "c70-06.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "בִּתְבוּנָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "With understanding"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c70",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c70-06",
+      "extra": true
+    },
+    {
+      "id": "c70-06.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "With understanding",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בִּתְבוּנָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c70",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c70-06",
+      "extra": true
+    },
+    {
+      "id": "c70-07.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אֲבִי יְתוֹמִים",
+      "stimulusIsScript": true,
+      "statement": "A father of orphans",
+      "answer": true,
+      "expected": "A father of orphans",
+      "block": "c70",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c70-07",
+      "extra": true
+    },
+    {
+      "id": "c70-07.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אֲבִי יְתוֹמִים",
+      "stimulusIsScript": true,
+      "options": [
+        "The father of orphans",
+        "He sent out his arrows.",
+        "A father of orphans",
+        "Great compassion"
+      ],
+      "answer": "A father of orphans",
+      "optionIsScript": false,
+      "block": "c70",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c70-07",
+      "extra": true
+    },
+    {
+      "id": "c70-07.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: A father of orphans",
+      "stimulus": "אֲבִי ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "יְתוֹמִים"
+      ],
+      "answerIsScript": true,
+      "block": "c70",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c70-07",
+      "extra": true
+    },
+    {
+      "id": "c70-07.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "A father of orphans",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֲבִי יְתוֹמִים"
+      ],
+      "answerIsScript": true,
+      "block": "c70",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c70-07",
+      "extra": true
+    },
+    {
+      "id": "c70-07.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "A father of orphans",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֲבִי יְתוֹמִים"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c70",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c70-07",
+      "extra": true
+    }
+  ]
+}

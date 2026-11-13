@@ -100,6 +100,42 @@
       "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n31.jpg",
       "exwb": "davidson-s16#B11",
       "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "c16-01": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c16-02": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c16-03": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c16-04": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c16-05": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c16-06": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c16-07": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c16-08": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c16-09": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c16-10": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c16-11": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c16-12": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
     }
   },
   "items": [
@@ -918,6 +954,1151 @@
       "blockLabel": "Davidson §16",
       "shape": "en-he",
       "src": "s16-B11"
+    },
+    {
+      "id": "c16-01.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָאִישׁ יָשַׁב עַל־הָהָר",
+      "stimulusIsScript": true,
+      "statement": "The man sat on the mountain.",
+      "answer": true,
+      "expected": "The man sat on the mountain.",
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-01",
+      "extra": true
+    },
+    {
+      "id": "c16-01.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָאִישׁ יָשַׁב עַל־הָהָר",
+      "stimulusIsScript": true,
+      "options": [
+        "A man sat on the mountain.",
+        "The man sat on a mountain.",
+        "The man sat on the mountain.",
+        "The man sat from the mountain."
+      ],
+      "answer": "The man sat on the mountain.",
+      "optionIsScript": false,
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-01",
+      "extra": true
+    },
+    {
+      "id": "c16-01.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The man sat on the mountain.",
+      "stimulus": "＿＿＿ יָשַׁב עַל־הָהָר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הָאִישׁ"
+      ],
+      "answerIsScript": true,
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-01",
+      "extra": true
+    },
+    {
+      "id": "c16-01.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הָאִישׁ יָשַׁב עַל־הָהָר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The man sat on the mountain."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-01",
+      "extra": true
+    },
+    {
+      "id": "c16-01.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The man sat on the mountain.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאִישׁ יָשַׁב עַל־הָהָר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-01",
+      "extra": true
+    },
+    {
+      "id": "c16-02.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָעֶבֶד יָשַׁב עִם־הָאִישׁ",
+      "stimulusIsScript": true,
+      "statement": "A servant sat with the man.",
+      "answer": false,
+      "expected": "The servant sat with the man.",
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-02",
+      "extra": true
+    },
+    {
+      "id": "c16-02.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָעֶבֶד יָשַׁב עִם־הָאִישׁ",
+      "stimulusIsScript": true,
+      "options": [
+        "The man sat with the woman.",
+        "A servant sat with the man.",
+        "The servant sat with the man.",
+        "The servant sat with a man."
+      ],
+      "answer": "The servant sat with the man.",
+      "optionIsScript": false,
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-02",
+      "extra": true
+    },
+    {
+      "id": "c16-02.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The servant sat with the man.",
+      "stimulus": "הָעֶבֶד ＿＿＿ עִם־הָאִישׁ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "יָשַׁב"
+      ],
+      "answerIsScript": true,
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-02",
+      "extra": true
+    },
+    {
+      "id": "c16-02.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The servant sat with the man.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָעֶבֶד יָשַׁב עִם־הָאִישׁ",
+        "יָשַׁב הָעֶבֶד עִם־הָאִישׁ"
+      ],
+      "answerIsScript": true,
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-02",
+      "extra": true
+    },
+    {
+      "id": "c16-02.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The servant sat with the man.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָעֶבֶד יָשַׁב עִם־הָאִישׁ",
+        "יָשַׁב הָעֶבֶד עִם־הָאִישׁ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-02",
+      "extra": true
+    },
+    {
+      "id": "c16-03.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אֱלֹהִים מָלַךְ עַל־הָעָם",
+      "stimulusIsScript": true,
+      "statement": "God reigned over the people.",
+      "answer": true,
+      "expected": "God reigned over the people.",
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-03",
+      "extra": true
+    },
+    {
+      "id": "c16-03.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אֱלֹהִים מָלַךְ עַל־הָעָם",
+      "stimulusIsScript": true,
+      "options": [
+        "God reigned over the people.",
+        "God reigned over a people.",
+        "The mountain was desolate.",
+        "The man sat on the mountain."
+      ],
+      "answer": "God reigned over the people.",
+      "optionIsScript": false,
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-03",
+      "extra": true
+    },
+    {
+      "id": "c16-03.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: God reigned over the people.",
+      "stimulus": "אֱלֹהִים מָלַךְ ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "עַל־הָעָם"
+      ],
+      "answerIsScript": true,
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-03",
+      "extra": true
+    },
+    {
+      "id": "c16-03.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "אֱלֹהִים מָלַךְ עַל־הָעָם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "God reigned over the people."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-03",
+      "extra": true
+    },
+    {
+      "id": "c16-03.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "God reigned over the people.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֱלֹהִים מָלַךְ עַל־הָעָם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-03",
+      "extra": true
+    },
+    {
+      "id": "c16-04.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָאִישׁ מָלַךְ עַל־הָעִיר",
+      "stimulusIsScript": true,
+      "statement": "A man reigned over the city.",
+      "answer": false,
+      "expected": "The man reigned over the city.",
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-04",
+      "extra": true
+    },
+    {
+      "id": "c16-04.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָאִישׁ מָלַךְ עַל־הָעִיר",
+      "stimulusIsScript": true,
+      "options": [
+        "God reigned over the people.",
+        "The man reigned over a city.",
+        "A man reigned over the city.",
+        "The man reigned over the city."
+      ],
+      "answer": "The man reigned over the city.",
+      "optionIsScript": false,
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-04",
+      "extra": true
+    },
+    {
+      "id": "c16-04.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The man reigned over the city.",
+      "stimulus": "הָאִישׁ מָלַךְ ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "עַל־הָעִיר"
+      ],
+      "answerIsScript": true,
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-04",
+      "extra": true
+    },
+    {
+      "id": "c16-04.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The man reigned over the city.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאִישׁ מָלַךְ עַל־הָעִיר",
+        "מָלַךְ הָאִישׁ עַל־הָעִיר"
+      ],
+      "answerIsScript": true,
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-04",
+      "extra": true
+    },
+    {
+      "id": "c16-04.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The man reigned over the city.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאִישׁ מָלַךְ עַל־הָעִיר",
+        "מָלַךְ הָאִישׁ עַל־הָעִיר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-04",
+      "extra": true
+    },
+    {
+      "id": "c16-05.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הוּא יָשַׁב עַל־הָאֶבֶן",
+      "stimulusIsScript": true,
+      "statement": "He sat from the stone.",
+      "answer": false,
+      "expected": "He sat on the stone.",
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-05",
+      "extra": true
+    },
+    {
+      "id": "c16-05.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הוּא יָשַׁב עַל־הָאֶבֶן",
+      "stimulusIsScript": true,
+      "options": [
+        "He sat from the stone.",
+        "He sat on a stone.",
+        "He sat on the stone.",
+        "She sat on the stone."
+      ],
+      "answer": "He sat on the stone.",
+      "optionIsScript": false,
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-05",
+      "extra": true
+    },
+    {
+      "id": "c16-05.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: He sat on the stone.",
+      "stimulus": "הוּא ＿＿＿ עַל־הָאֶבֶן",
+      "stimulusIsScript": true,
+      "accepted": [
+        "יָשַׁב"
+      ],
+      "answerIsScript": true,
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-05",
+      "extra": true
+    },
+    {
+      "id": "c16-05.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הוּא יָשַׁב עַל־הָאֶבֶן",
+      "stimulusIsScript": true,
+      "accepted": [
+        "He sat on the stone."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-05",
+      "extra": true
+    },
+    {
+      "id": "c16-05.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "He sat on the stone.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הוּא יָשַׁב עַל־הָאֶבֶן"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-05",
+      "extra": true
+    },
+    {
+      "id": "c16-06.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָאָב יָשַׁב עִם־הָעֶבֶד",
+      "stimulusIsScript": true,
+      "statement": "The father sat with the servant.",
+      "answer": true,
+      "expected": "The father sat with the servant.",
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-06",
+      "extra": true
+    },
+    {
+      "id": "c16-06.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָאָב יָשַׁב עִם־הָעֶבֶד",
+      "stimulusIsScript": true,
+      "options": [
+        "The mountain was desolate.",
+        "The father sat with a servant.",
+        "The father sat with the servant.",
+        "A father sat with the servant."
+      ],
+      "answer": "The father sat with the servant.",
+      "optionIsScript": false,
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-06",
+      "extra": true
+    },
+    {
+      "id": "c16-06.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The father sat with the servant.",
+      "stimulus": "הָאָב ＿＿＿ עִם־הָעֶבֶד",
+      "stimulusIsScript": true,
+      "accepted": [
+        "יָשַׁב"
+      ],
+      "answerIsScript": true,
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-06",
+      "extra": true
+    },
+    {
+      "id": "c16-06.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The father sat with the servant.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאָב יָשַׁב עִם־הָעֶבֶד",
+        "יָשַׁב הָאָב עִם־הָעֶבֶד"
+      ],
+      "answerIsScript": true,
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-06",
+      "extra": true
+    },
+    {
+      "id": "c16-06.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The father sat with the servant.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאָב יָשַׁב עִם־הָעֶבֶד",
+        "יָשַׁב הָאָב עִם־הָעֶבֶד"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-06",
+      "extra": true
+    },
+    {
+      "id": "c16-07.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָעָם יָשַׁב עַל־הַיָּם",
+      "stimulusIsScript": true,
+      "statement": "The people dwelt by the sea.",
+      "answer": true,
+      "expected": "The people dwelt by the sea.",
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-07",
+      "extra": true
+    },
+    {
+      "id": "c16-07.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָעָם יָשַׁב עַל־הַיָּם",
+      "stimulusIsScript": true,
+      "options": [
+        "A people dwelt by the sea.",
+        "The man sat on the mountain.",
+        "The people dwelt by the sea.",
+        "The people dwelt by a sea."
+      ],
+      "answer": "The people dwelt by the sea.",
+      "optionIsScript": false,
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-07",
+      "extra": true
+    },
+    {
+      "id": "c16-07.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The people dwelt by the sea.",
+      "stimulus": "＿＿＿ יָשַׁב עַל־הַיָּם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הָעָם"
+      ],
+      "answerIsScript": true,
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-07",
+      "extra": true
+    },
+    {
+      "id": "c16-07.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הָעָם יָשַׁב עַל־הַיָּם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The people dwelt by the sea."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-07",
+      "extra": true
+    },
+    {
+      "id": "c16-07.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The people dwelt by the sea.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָעָם יָשַׁב עַל־הַיָּם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-07",
+      "extra": true
+    },
+    {
+      "id": "c16-08.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הוּא מָלַךְ עַל־הָאָרֶץ",
+      "stimulusIsScript": true,
+      "statement": "She reigned over the land.",
+      "answer": false,
+      "expected": "He reigned over the land.",
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-08",
+      "extra": true
+    },
+    {
+      "id": "c16-08.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הוּא מָלַךְ עַל־הָאָרֶץ",
+      "stimulusIsScript": true,
+      "options": [
+        "He reigned over the land.",
+        "God reigned over the people.",
+        "He reigned over a land.",
+        "She reigned over the land."
+      ],
+      "answer": "He reigned over the land.",
+      "optionIsScript": false,
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-08",
+      "extra": true
+    },
+    {
+      "id": "c16-08.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: He reigned over the land.",
+      "stimulus": "＿＿＿ מָלַךְ עַל־הָאָרֶץ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הוּא"
+      ],
+      "answerIsScript": true,
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-08",
+      "extra": true
+    },
+    {
+      "id": "c16-08.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "He reigned over the land.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הוּא מָלַךְ עַל־הָאָרֶץ",
+        "מָלַךְ עַל־הָאָרֶץ"
+      ],
+      "answerIsScript": true,
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-08",
+      "extra": true
+    },
+    {
+      "id": "c16-08.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "He reigned over the land.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הוּא מָלַךְ עַל־הָאָרֶץ",
+        "מָלַךְ עַל־הָאָרֶץ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-08",
+      "extra": true
+    },
+    {
+      "id": "c16-09.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הוּא יָשַׁב עִם־הָעָם",
+      "stimulusIsScript": true,
+      "statement": "He dwelt with the people.",
+      "answer": true,
+      "expected": "He dwelt with the people.",
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-09",
+      "extra": true
+    },
+    {
+      "id": "c16-09.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הוּא יָשַׁב עִם־הָעָם",
+      "stimulusIsScript": true,
+      "options": [
+        "She dwelt with the people.",
+        "He dwelt with the people.",
+        "The people dwelt by the sea.",
+        "He dwelt with a people."
+      ],
+      "answer": "He dwelt with the people.",
+      "optionIsScript": false,
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-09",
+      "extra": true
+    },
+    {
+      "id": "c16-09.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: He dwelt with the people.",
+      "stimulus": "＿＿＿ יָשַׁב עִם־הָעָם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הוּא"
+      ],
+      "answerIsScript": true,
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-09",
+      "extra": true
+    },
+    {
+      "id": "c16-09.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הוּא יָשַׁב עִם־הָעָם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "He dwelt with the people."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-09",
+      "extra": true
+    },
+    {
+      "id": "c16-09.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "He dwelt with the people.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הוּא יָשַׁב עִם־הָעָם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-09",
+      "extra": true
+    },
+    {
+      "id": "c16-10.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָאִישׁ יָשַׁב עִם־הָאִשָּׁה",
+      "stimulusIsScript": true,
+      "statement": "The man sat with the woman.",
+      "answer": true,
+      "expected": "The man sat with the woman.",
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-10",
+      "extra": true
+    },
+    {
+      "id": "c16-10.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָאִישׁ יָשַׁב עִם־הָאִשָּׁה",
+      "stimulusIsScript": true,
+      "options": [
+        "A man sat with the woman.",
+        "The man sat with a woman.",
+        "The man sat with the woman.",
+        "The father sat with the servant."
+      ],
+      "answer": "The man sat with the woman.",
+      "optionIsScript": false,
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-10",
+      "extra": true
+    },
+    {
+      "id": "c16-10.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The man sat with the woman.",
+      "stimulus": "הָאִישׁ יָשַׁב ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "עִם־הָאִשָּׁה"
+      ],
+      "answerIsScript": true,
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-10",
+      "extra": true
+    },
+    {
+      "id": "c16-10.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The man sat with the woman.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאִישׁ יָשַׁב עִם־הָאִשָּׁה",
+        "יָשַׁב הָאִישׁ עִם־הָאִשָּׁה"
+      ],
+      "answerIsScript": true,
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-10",
+      "extra": true
+    },
+    {
+      "id": "c16-10.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The man sat with the woman.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאִישׁ יָשַׁב עִם־הָאִשָּׁה",
+        "יָשַׁב הָאִישׁ עִם־הָאִשָּׁה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-10",
+      "extra": true
+    },
+    {
+      "id": "c16-11.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָעֶבֶד עָבַד עִם־הָאָב",
+      "stimulusIsScript": true,
+      "statement": "A servant served with the father.",
+      "answer": false,
+      "expected": "The servant served with the father.",
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-11",
+      "extra": true
+    },
+    {
+      "id": "c16-11.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָעֶבֶד עָבַד עִם־הָאָב",
+      "stimulusIsScript": true,
+      "options": [
+        "A servant served with the father.",
+        "The servant served with the father.",
+        "The servant served with a father.",
+        "The servant sat with the man."
+      ],
+      "answer": "The servant served with the father.",
+      "optionIsScript": false,
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-11",
+      "extra": true
+    },
+    {
+      "id": "c16-11.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The servant served with the father.",
+      "stimulus": "＿＿＿ עָבַד עִם־הָאָב",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הָעֶבֶד"
+      ],
+      "answerIsScript": true,
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-11",
+      "extra": true
+    },
+    {
+      "id": "c16-11.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הָעֶבֶד עָבַד עִם־הָאָב",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The servant served with the father."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-11",
+      "extra": true
+    },
+    {
+      "id": "c16-11.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The servant served with the father.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָעֶבֶד עָבַד עִם־הָאָב"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-11",
+      "extra": true
+    },
+    {
+      "id": "c16-12.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "חָרַב הָהָר",
+      "stimulusIsScript": true,
+      "statement": "The mountain was desolate.",
+      "answer": true,
+      "expected": "The mountain was desolate.",
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-12",
+      "extra": true
+    },
+    {
+      "id": "c16-12.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "חָרַב הָהָר",
+      "stimulusIsScript": true,
+      "options": [
+        "The man sat with the woman.",
+        "He dwelt with the people.",
+        "The mountain was desolate.",
+        "A mountain was desolate."
+      ],
+      "answer": "The mountain was desolate.",
+      "optionIsScript": false,
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-12",
+      "extra": true
+    },
+    {
+      "id": "c16-12.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The mountain was desolate.",
+      "stimulus": "חָרַב ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הָהָר"
+      ],
+      "answerIsScript": true,
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-12",
+      "extra": true
+    },
+    {
+      "id": "c16-12.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "חָרַב הָהָר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The mountain was desolate."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-12",
+      "extra": true
+    },
+    {
+      "id": "c16-12.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The mountain was desolate.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "חָרַב הָהָר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c16",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c16-12",
+      "extra": true
     }
   ]
 }

@@ -280,6 +280,39 @@
       "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n72.jpg",
       "exwb": "davidson-s30#C7",
       "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "c38-01": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c38-02": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c38-03": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c38-04": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c38-05": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c38-06": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c38-07": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c38-08": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c38-09": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c38-10": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c38-11": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
     }
   },
   "items": [
@@ -2327,7 +2360,7 @@
       "stimulus": "בַּיּוֹם הַהוּא אֶשְׁפֹּךְ אֶת־רוּחִי עַל־כָּל־בָּשָׂר",
       "stimulusIsScript": true,
       "options": [
-        "On that day they will pour out my spirit upon all flesh.",
+        "On that day he will pour out my spirit upon all flesh.",
         "From that day I will pour out my spirit upon all flesh.",
         "On that day I will pour out our spirit upon all flesh.",
         "On that day I will pour out my spirit upon all flesh."
@@ -2418,9 +2451,9 @@
       "stimulus": "אֶרְדֹּף אַחֲרֶיהָ",
       "stimulusIsScript": true,
       "options": [
-        "We will pursue after her.",
+        "You will pursue after her.",
         "I will pursue after her.",
-        "They will pursue after her.",
+        "He will pursue after her.",
         "Yahweh will judge this people."
       ],
       "answer": "I will pursue after her.",
@@ -2687,7 +2720,7 @@
       "options": [
         "His commandments and her words will we keep.",
         "His commandments and his words will we keep.",
-        "His commandments and his words will they keep.",
+        "His commandments and his words will you keep.",
         "Their commandments and his words will we keep."
       ],
       "answer": "His commandments and his words will we keep.",
@@ -2864,7 +2897,7 @@
       "stimulusIsScript": true,
       "options": [
         "But I would seek unto God.",
-        "But they would seek unto God.",
+        "But he would seek unto God.",
         "But I would seek from God.",
         "But I would seek in God."
       ],
@@ -2952,10 +2985,10 @@
       "stimulus": "נִשְׂרֹף אֶת־עִירְכֶם בָּאֵשׁ",
       "stimulusIsScript": true,
       "options": [
-        "I will burn your city with (in the) fire.",
+        "They will burn your city with (in the) fire.",
         "We will burn your city with (in the) fire.",
         "We will burn their city with (in the) fire.",
-        "They will burn your city with (in the) fire."
+        "You will burn your city with (in the) fire."
       ],
       "answer": "We will burn your city with (in the) fire.",
       "optionIsScript": false,
@@ -3193,6 +3226,1054 @@
       "blockLabel": "Davidson §30",
       "shape": "en-he",
       "src": "s30-C7"
+    },
+    {
+      "id": "c38-01.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אֶשְׁמֹר אֶת־תּוֹרָתְךָ",
+      "stimulusIsScript": true,
+      "statement": "I will keep your instruction.",
+      "answer": true,
+      "expected": "I will keep your instruction.",
+      "block": "c38",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c38-01",
+      "extra": true
+    },
+    {
+      "id": "c38-01.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אֶשְׁמֹר אֶת־תּוֹרָתְךָ",
+      "stimulusIsScript": true,
+      "options": [
+        "I will keep our instruction.",
+        "He will keep your instruction.",
+        "I will keep your instruction.",
+        "I will keep my instruction."
+      ],
+      "answer": "I will keep your instruction.",
+      "optionIsScript": false,
+      "block": "c38",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c38-01",
+      "extra": true
+    },
+    {
+      "id": "c38-01.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: I will keep your instruction.",
+      "stimulus": "אֶשְׁמֹר ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶת־תּוֹרָתְךָ"
+      ],
+      "answerIsScript": true,
+      "block": "c38",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c38-01",
+      "extra": true
+    },
+    {
+      "id": "c38-01.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "אֶשְׁמֹר אֶת־תּוֹרָתְךָ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "I will keep your instruction."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c38",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c38-01",
+      "extra": true
+    },
+    {
+      "id": "c38-01.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "I will keep your instruction.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֶשְׁמֹר אֶת־תּוֹרָתְךָ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c38",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c38-01",
+      "extra": true
+    },
+    {
+      "id": "c38-02.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַמֶּלֶךְ יִמְלֹךְ עַל־הָעָם",
+      "stimulusIsScript": true,
+      "statement": "The king will reign over the people.",
+      "answer": true,
+      "expected": "The king will reign over the people.",
+      "block": "c38",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c38-02",
+      "extra": true
+    },
+    {
+      "id": "c38-02.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַמֶּלֶךְ יִמְלֹךְ עַל־הָעָם",
+      "stimulusIsScript": true,
+      "options": [
+        "The king will reign over a people.",
+        "A king will reign over the people.",
+        "The king will reign over the people.",
+        "Who will reign over us?"
+      ],
+      "answer": "The king will reign over the people.",
+      "optionIsScript": false,
+      "block": "c38",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c38-02",
+      "extra": true
+    },
+    {
+      "id": "c38-02.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The king will reign over the people.",
+      "stimulus": "הַמֶּלֶךְ יִמְלֹךְ ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "עַל־הָעָם"
+      ],
+      "answerIsScript": true,
+      "block": "c38",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c38-02",
+      "extra": true
+    },
+    {
+      "id": "c38-02.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The king will reign over the people.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַמֶּלֶךְ יִמְלֹךְ עַל־הָעָם",
+        "יִמְלֹךְ הַמֶּלֶךְ עַל־הָעָם"
+      ],
+      "answerIsScript": true,
+      "block": "c38",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c38-02",
+      "extra": true
+    },
+    {
+      "id": "c38-02.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The king will reign over the people.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַמֶּלֶךְ יִמְלֹךְ עַל־הָעָם",
+        "יִמְלֹךְ הַמֶּלֶךְ עַל־הָעָם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c38",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c38-02",
+      "extra": true
+    },
+    {
+      "id": "c38-03.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "לֹא תִּגְנֹב",
+      "stimulusIsScript": true,
+      "statement": "You shall not steal.",
+      "answer": true,
+      "expected": "You shall not steal.",
+      "block": "c38",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c38-03",
+      "extra": true
+    },
+    {
+      "id": "c38-03.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "לֹא תִּגְנֹב",
+      "stimulusIsScript": true,
+      "options": [
+        "You shall not steal.",
+        "You shall steal.",
+        "The king will reign over the people.",
+        "Who will reign over us?"
+      ],
+      "answer": "You shall not steal.",
+      "optionIsScript": false,
+      "block": "c38",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c38-03",
+      "extra": true
+    },
+    {
+      "id": "c38-03.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: You shall not steal.",
+      "stimulus": "＿＿＿ תִּגְנֹב",
+      "stimulusIsScript": true,
+      "accepted": [
+        "לֹא"
+      ],
+      "answerIsScript": true,
+      "block": "c38",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c38-03",
+      "extra": true
+    },
+    {
+      "id": "c38-03.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "לֹא תִּגְנֹב",
+      "stimulusIsScript": true,
+      "accepted": [
+        "You shall not steal."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c38",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c38-03",
+      "extra": true
+    },
+    {
+      "id": "c38-03.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "You shall not steal.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "לֹא תִּגְנֹב"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c38",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c38-03",
+      "extra": true
+    },
+    {
+      "id": "c38-04.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אֶזְכֹּר אֶת־הַיּוֹם הַזֶּה",
+      "stimulusIsScript": true,
+      "statement": "I will remember this day.",
+      "answer": true,
+      "expected": "I will remember this day.",
+      "block": "c38",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c38-04",
+      "extra": true
+    },
+    {
+      "id": "c38-04.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אֶזְכֹּר אֶת־הַיּוֹם הַזֶּה",
+      "stimulusIsScript": true,
+      "options": [
+        "I will remember this day.",
+        "You will remember this day.",
+        "He will remember this day.",
+        "I will remember that day."
+      ],
+      "answer": "I will remember this day.",
+      "optionIsScript": false,
+      "block": "c38",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c38-04",
+      "extra": true
+    },
+    {
+      "id": "c38-04.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: I will remember this day.",
+      "stimulus": "אֶזְכֹּר ＿＿＿ הַזֶּה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶת־הַיּוֹם"
+      ],
+      "answerIsScript": true,
+      "block": "c38",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c38-04",
+      "extra": true
+    },
+    {
+      "id": "c38-04.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "אֶזְכֹּר אֶת־הַיּוֹם הַזֶּה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "I will remember this day."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c38",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c38-04",
+      "extra": true
+    },
+    {
+      "id": "c38-04.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "I will remember this day.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֶזְכֹּר אֶת־הַיּוֹם הַזֶּה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c38",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c38-04",
+      "extra": true
+    },
+    {
+      "id": "c38-05.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הֵם יִשְׁמְרוּ אֶת־הַמִּצְוֹת",
+      "stimulusIsScript": true,
+      "statement": "We will keep the commandments.",
+      "answer": false,
+      "expected": "They will keep the commandments.",
+      "block": "c38",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c38-05",
+      "extra": true
+    },
+    {
+      "id": "c38-05.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הֵם יִשְׁמְרוּ אֶת־הַמִּצְוֹת",
+      "stimulusIsScript": true,
+      "options": [
+        "They will keep commandments.",
+        "They will keep the commandments.",
+        "We will keep the commandments.",
+        "You will keep the commandments."
+      ],
+      "answer": "They will keep the commandments.",
+      "optionIsScript": false,
+      "block": "c38",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c38-05",
+      "extra": true
+    },
+    {
+      "id": "c38-05.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: They will keep the commandments.",
+      "stimulus": "הֵם ＿＿＿ אֶת־הַמִּצְוֹת",
+      "stimulusIsScript": true,
+      "accepted": [
+        "יִשְׁמְרוּ"
+      ],
+      "answerIsScript": true,
+      "block": "c38",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c38-05",
+      "extra": true
+    },
+    {
+      "id": "c38-05.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "They will keep the commandments.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הֵם יִשְׁמְרוּ אֶת־הַמִּצְוֹת",
+        "יִשְׁמְרוּ אֶת־הַמִּצְוֹת"
+      ],
+      "answerIsScript": true,
+      "block": "c38",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c38-05",
+      "extra": true
+    },
+    {
+      "id": "c38-05.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "They will keep the commandments.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הֵם יִשְׁמְרוּ אֶת־הַמִּצְוֹת",
+        "יִשְׁמְרוּ אֶת־הַמִּצְוֹת"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c38",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c38-05",
+      "extra": true
+    },
+    {
+      "id": "c38-06.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "מִי יִמְלֹךְ עָלֵינוּ",
+      "stimulusIsScript": true,
+      "statement": "Who will reign over us?",
+      "answer": true,
+      "expected": "Who will reign over us?",
+      "block": "c38",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c38-06",
+      "extra": true
+    },
+    {
+      "id": "c38-06.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "מִי יִמְלֹךְ עָלֵינוּ",
+      "stimulusIsScript": true,
+      "options": [
+        "Who will reign over them?",
+        "Who will reign over us?",
+        "Who will reign over me?",
+        "You will judge the people."
+      ],
+      "answer": "Who will reign over us?",
+      "optionIsScript": false,
+      "block": "c38",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c38-06",
+      "extra": true
+    },
+    {
+      "id": "c38-06.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Who will reign over us?",
+      "stimulus": "מִי יִמְלֹךְ ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "עָלֵינוּ"
+      ],
+      "answerIsScript": true,
+      "block": "c38",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c38-06",
+      "extra": true
+    },
+    {
+      "id": "c38-06.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "מִי יִמְלֹךְ עָלֵינוּ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Who will reign over us?"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c38",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c38-06",
+      "extra": true
+    },
+    {
+      "id": "c38-06.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Who will reign over us?",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מִי יִמְלֹךְ עָלֵינוּ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c38",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c38-06",
+      "extra": true
+    },
+    {
+      "id": "c38-07.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "תִּשְׁפֹּט אֶת־הָעָם",
+      "stimulusIsScript": true,
+      "statement": "You will judge the people.",
+      "answer": true,
+      "expected": "You will judge the people.",
+      "block": "c38",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c38-07",
+      "extra": true
+    },
+    {
+      "id": "c38-07.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "תִּשְׁפֹּט אֶת־הָעָם",
+      "stimulusIsScript": true,
+      "options": [
+        "You will judge a people.",
+        "You shall not steal.",
+        "You will judge the people.",
+        "They will pursue you."
+      ],
+      "answer": "You will judge the people.",
+      "optionIsScript": false,
+      "block": "c38",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c38-07",
+      "extra": true
+    },
+    {
+      "id": "c38-07.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: You will judge the people.",
+      "stimulus": "＿＿＿ אֶת־הָעָם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "תִּשְׁפֹּט"
+      ],
+      "answerIsScript": true,
+      "block": "c38",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c38-07",
+      "extra": true
+    },
+    {
+      "id": "c38-07.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "תִּשְׁפֹּט אֶת־הָעָם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "You will judge the people."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c38",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c38-07",
+      "extra": true
+    },
+    {
+      "id": "c38-07.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "You will judge the people.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "תִּשְׁפֹּט אֶת־הָעָם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c38",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c38-07",
+      "extra": true
+    },
+    {
+      "id": "c38-08.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "יִזְכֹּר אֱלֹהִים אֶת־עַמּוֹ",
+      "stimulusIsScript": true,
+      "statement": "God will remember my people.",
+      "answer": false,
+      "expected": "God will remember his people.",
+      "block": "c38",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c38-08",
+      "extra": true
+    },
+    {
+      "id": "c38-08.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "יִזְכֹּר אֱלֹהִים אֶת־עַמּוֹ",
+      "stimulusIsScript": true,
+      "options": [
+        "God will remember her people.",
+        "God will remember their people.",
+        "God will remember his people.",
+        "God will remember my people."
+      ],
+      "answer": "God will remember his people.",
+      "optionIsScript": false,
+      "block": "c38",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c38-08",
+      "extra": true
+    },
+    {
+      "id": "c38-08.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: God will remember his people.",
+      "stimulus": "יִזְכֹּר אֱלֹהִים ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶת־עַמּוֹ"
+      ],
+      "answerIsScript": true,
+      "block": "c38",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c38-08",
+      "extra": true
+    },
+    {
+      "id": "c38-08.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "יִזְכֹּר אֱלֹהִים אֶת־עַמּוֹ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "God will remember his people."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c38",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c38-08",
+      "extra": true
+    },
+    {
+      "id": "c38-08.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "God will remember his people.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "יִזְכֹּר אֱלֹהִים אֶת־עַמּוֹ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c38",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c38-08",
+      "extra": true
+    },
+    {
+      "id": "c38-09.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אֲנִי אֶשְׁפֹּט אֶת־הָעָם",
+      "stimulusIsScript": true,
+      "statement": "You will judge the people.",
+      "answer": false,
+      "expected": "I will judge the people.",
+      "block": "c38",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c38-09",
+      "extra": true
+    },
+    {
+      "id": "c38-09.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אֲנִי אֶשְׁפֹּט אֶת־הָעָם",
+      "stimulusIsScript": true,
+      "options": [
+        "You will judge the people.",
+        "I will judge a people.",
+        "I will judge the people.",
+        "He will judge the people."
+      ],
+      "answer": "I will judge the people.",
+      "optionIsScript": false,
+      "block": "c38",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c38-09",
+      "extra": true
+    },
+    {
+      "id": "c38-09.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: I will judge the people.",
+      "stimulus": "אֲנִי אֶשְׁפֹּט ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶת־הָעָם"
+      ],
+      "answerIsScript": true,
+      "block": "c38",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c38-09",
+      "extra": true
+    },
+    {
+      "id": "c38-09.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "I will judge the people.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֲנִי אֶשְׁפֹּט אֶת־הָעָם",
+        "אֶשְׁפֹּט אֶת־הָעָם"
+      ],
+      "answerIsScript": true,
+      "block": "c38",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c38-09",
+      "extra": true
+    },
+    {
+      "id": "c38-09.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "I will judge the people.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֲנִי אֶשְׁפֹּט אֶת־הָעָם",
+        "אֶשְׁפֹּט אֶת־הָעָם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c38",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c38-09",
+      "extra": true
+    },
+    {
+      "id": "c38-10.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "כָּל־מִשְׁפְּחוֹת הָאֲדָמָה",
+      "stimulusIsScript": true,
+      "statement": "All the families of the earth",
+      "answer": true,
+      "expected": "All the families of the earth",
+      "block": "c38",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c38-10",
+      "extra": true
+    },
+    {
+      "id": "c38-10.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "כָּל־מִשְׁפְּחוֹת הָאֲדָמָה",
+      "stimulusIsScript": true,
+      "options": [
+        "All families of the earth",
+        "All the families of an earth",
+        "All the families of the earth",
+        "You will judge the people."
+      ],
+      "answer": "All the families of the earth",
+      "optionIsScript": false,
+      "block": "c38",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c38-10",
+      "extra": true
+    },
+    {
+      "id": "c38-10.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: All the families of the earth",
+      "stimulus": "＿＿＿ הָאֲדָמָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "כָּל־מִשְׁפְּחוֹת"
+      ],
+      "answerIsScript": true,
+      "block": "c38",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c38-10",
+      "extra": true
+    },
+    {
+      "id": "c38-10.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "כָּל־מִשְׁפְּחוֹת הָאֲדָמָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "All the families of the earth"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c38",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c38-10",
+      "extra": true
+    },
+    {
+      "id": "c38-10.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "All the families of the earth",
+      "stimulusIsScript": false,
+      "accepted": [
+        "כָּל־מִשְׁפְּחוֹת הָאֲדָמָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c38",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c38-10",
+      "extra": true
+    },
+    {
+      "id": "c38-11.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הֵם יִרְדְּפוּ אַחֲרֵיכֶם",
+      "stimulusIsScript": true,
+      "statement": "We will pursue you.",
+      "answer": false,
+      "expected": "They will pursue you.",
+      "block": "c38",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c38-11",
+      "extra": true
+    },
+    {
+      "id": "c38-11.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הֵם יִרְדְּפוּ אַחֲרֵיכֶם",
+      "stimulusIsScript": true,
+      "options": [
+        "You will pursue you.",
+        "They will pursue you.",
+        "I will keep your instruction.",
+        "We will pursue you."
+      ],
+      "answer": "They will pursue you.",
+      "optionIsScript": false,
+      "block": "c38",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c38-11",
+      "extra": true
+    },
+    {
+      "id": "c38-11.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: They will pursue you.",
+      "stimulus": "הֵם ＿＿＿ אַחֲרֵיכֶם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "יִרְדְּפוּ"
+      ],
+      "answerIsScript": true,
+      "block": "c38",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c38-11",
+      "extra": true
+    },
+    {
+      "id": "c38-11.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הֵם יִרְדְּפוּ אַחֲרֵיכֶם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "They will pursue you."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c38",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c38-11",
+      "extra": true
+    },
+    {
+      "id": "c38-11.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "They will pursue you.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הֵם יִרְדְּפוּ אַחֲרֵיכֶם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c38",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c38-11",
+      "extra": true
     }
   ]
 }

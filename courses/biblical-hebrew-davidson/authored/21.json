@@ -307,6 +307,36 @@
       "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n44.jpg",
       "exwb": "davidson-s20#B5",
       "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "c21-01": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c21-02": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c21-03": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c21-04": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c21-05": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c21-06": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c21-07": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c21-08": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c21-09": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c21-10": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
     }
   },
   "items": [
@@ -3358,6 +3388,960 @@
       "blockLabel": "Davidson §20",
       "shape": "en-he",
       "src": "s20-B5"
+    },
+    {
+      "id": "c21-01.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַכֶּסֶף וְהַזָּהָב בָּעִיר",
+      "stimulusIsScript": true,
+      "statement": "The silver and the gold are to the city.",
+      "answer": false,
+      "expected": "The silver and the gold are in the city.",
+      "block": "c21",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c21-01",
+      "extra": true
+    },
+    {
+      "id": "c21-01.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַכֶּסֶף וְהַזָּהָב בָּעִיר",
+      "stimulusIsScript": true,
+      "options": [
+        "The silver and the gold are in a city.",
+        "The silver and the gold are in the city.",
+        "The silver and the gold are to the city.",
+        "The silver and the gold are from the city."
+      ],
+      "answer": "The silver and the gold are in the city.",
+      "optionIsScript": false,
+      "block": "c21",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c21-01",
+      "extra": true
+    },
+    {
+      "id": "c21-01.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The silver and the gold are in the city.",
+      "stimulus": "הַכֶּסֶף ＿＿＿ בָּעִיר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וְהַזָּהָב"
+      ],
+      "answerIsScript": true,
+      "block": "c21",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c21-01",
+      "extra": true
+    },
+    {
+      "id": "c21-01.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הַכֶּסֶף וְהַזָּהָב בָּעִיר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The silver and the gold are in the city."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c21",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c21-01",
+      "extra": true
+    },
+    {
+      "id": "c21-01.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The silver and the gold are in the city.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַכֶּסֶף וְהַזָּהָב בָּעִיר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c21",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c21-01",
+      "extra": true
+    },
+    {
+      "id": "c21-02.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָאִישׁ בָּא הָעִירָה",
+      "stimulusIsScript": true,
+      "statement": "The man came from the city.",
+      "answer": false,
+      "expected": "The man came to the city.",
+      "block": "c21",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c21-02",
+      "extra": true
+    },
+    {
+      "id": "c21-02.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָאִישׁ בָּא הָעִירָה",
+      "stimulusIsScript": true,
+      "options": [
+        "The man came to the city.",
+        "The man came from the city.",
+        "The man came to a city.",
+        "The man came in the city."
+      ],
+      "answer": "The man came to the city.",
+      "optionIsScript": false,
+      "block": "c21",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c21-02",
+      "extra": true
+    },
+    {
+      "id": "c21-02.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The man came to the city.",
+      "stimulus": "הָאִישׁ בָּא ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הָעִירָה"
+      ],
+      "answerIsScript": true,
+      "block": "c21",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c21-02",
+      "extra": true
+    },
+    {
+      "id": "c21-02.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The man came to the city.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאִישׁ בָּא הָעִירָה",
+        "הָאִישׁ בָּא אֶל־הָעִיר",
+        "בָּא הָאִישׁ הָעִירָה"
+      ],
+      "answerIsScript": true,
+      "block": "c21",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c21-02",
+      "extra": true
+    },
+    {
+      "id": "c21-02.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The man came to the city.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאִישׁ בָּא הָעִירָה",
+        "הָאִישׁ בָּא אֶל־הָעִיר",
+        "בָּא הָאִישׁ הָעִירָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c21",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c21-02",
+      "extra": true
+    },
+    {
+      "id": "c21-03.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "טוֹב וְיָשָׁר הָאִישׁ",
+      "stimulusIsScript": true,
+      "statement": "A man is good and upright.",
+      "answer": false,
+      "expected": "The man is good and upright.",
+      "block": "c21",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c21-03",
+      "extra": true
+    },
+    {
+      "id": "c21-03.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "טוֹב וְיָשָׁר הָאִישׁ",
+      "stimulusIsScript": true,
+      "options": [
+        "The man is good and wise.",
+        "A man is good and upright.",
+        "The man is good and upright.",
+        "The steadfast love of God is forever."
+      ],
+      "answer": "The man is good and upright.",
+      "optionIsScript": false,
+      "block": "c21",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c21-03",
+      "extra": true
+    },
+    {
+      "id": "c21-03.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The man is good and upright.",
+      "stimulus": "＿＿＿ וְיָשָׁר הָאִישׁ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "טוֹב"
+      ],
+      "answerIsScript": true,
+      "block": "c21",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c21-03",
+      "extra": true
+    },
+    {
+      "id": "c21-03.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "טוֹב וְיָשָׁר הָאִישׁ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The man is good and upright."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c21",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c21-03",
+      "extra": true
+    },
+    {
+      "id": "c21-03.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The man is good and upright.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "טוֹב וְיָשָׁר הָאִישׁ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c21",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c21-03",
+      "extra": true
+    },
+    {
+      "id": "c21-04.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָאִישׁ טוֹב וְחָכָם",
+      "stimulusIsScript": true,
+      "statement": "The man is good and wise.",
+      "answer": true,
+      "expected": "The man is good and wise.",
+      "block": "c21",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c21-04",
+      "extra": true
+    },
+    {
+      "id": "c21-04.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָאִישׁ טוֹב וְחָכָם",
+      "stimulusIsScript": true,
+      "options": [
+        "The man is good and wise.",
+        "A man is good and wise.",
+        "The silver and the gold are in the city.",
+        "God is good and upright."
+      ],
+      "answer": "The man is good and wise.",
+      "optionIsScript": false,
+      "block": "c21",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c21-04",
+      "extra": true
+    },
+    {
+      "id": "c21-04.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The man is good and wise.",
+      "stimulus": "הָאִישׁ ＿＿＿ וְחָכָם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "טוֹב"
+      ],
+      "answerIsScript": true,
+      "block": "c21",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c21-04",
+      "extra": true
+    },
+    {
+      "id": "c21-04.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The man is good and wise.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאִישׁ טוֹב וְחָכָם",
+        "טוֹב וְחָכָם הָאִישׁ"
+      ],
+      "answerIsScript": true,
+      "block": "c21",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c21-04",
+      "extra": true
+    },
+    {
+      "id": "c21-04.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The man is good and wise.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאִישׁ טוֹב וְחָכָם",
+        "טוֹב וְחָכָם הָאִישׁ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c21",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c21-04",
+      "extra": true
+    },
+    {
+      "id": "c21-05.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַסּוּס וְהַחֲמוֹר",
+      "stimulusIsScript": true,
+      "statement": "The horse and the donkey",
+      "answer": true,
+      "expected": "The horse and the donkey",
+      "block": "c21",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c21-05",
+      "extra": true
+    },
+    {
+      "id": "c21-05.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַסּוּס וְהַחֲמוֹר",
+      "stimulusIsScript": true,
+      "options": [
+        "The horse and the donkey",
+        "The man is good and wise.",
+        "A horse and the donkey",
+        "The horse and a donkey"
+      ],
+      "answer": "The horse and the donkey",
+      "optionIsScript": false,
+      "block": "c21",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c21-05",
+      "extra": true
+    },
+    {
+      "id": "c21-05.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The horse and the donkey",
+      "stimulus": "הַסּוּס ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וְהַחֲמוֹר"
+      ],
+      "answerIsScript": true,
+      "block": "c21",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c21-05",
+      "extra": true
+    },
+    {
+      "id": "c21-05.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הַסּוּס וְהַחֲמוֹר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The horse and the donkey"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c21",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c21-05",
+      "extra": true
+    },
+    {
+      "id": "c21-05.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The horse and the donkey",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַסּוּס וְהַחֲמוֹר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c21",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c21-05",
+      "extra": true
+    },
+    {
+      "id": "c21-06.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָאָב וְהָאֵם בָּעִיר",
+      "stimulusIsScript": true,
+      "statement": "The father and the mother are in the city.",
+      "answer": true,
+      "expected": "The father and the mother are in the city.",
+      "block": "c21",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c21-06",
+      "extra": true
+    },
+    {
+      "id": "c21-06.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָאָב וְהָאֵם בָּעִיר",
+      "stimulusIsScript": true,
+      "options": [
+        "The father and the mother are in a city.",
+        "The father and the mother are in the city.",
+        "The father and a mother are in the city.",
+        "The father and the mother are to the city."
+      ],
+      "answer": "The father and the mother are in the city.",
+      "optionIsScript": false,
+      "block": "c21",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c21-06",
+      "extra": true
+    },
+    {
+      "id": "c21-06.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The father and the mother are in the city.",
+      "stimulus": "הָאָב וְהָאֵם ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "בָּעִיר"
+      ],
+      "answerIsScript": true,
+      "block": "c21",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c21-06",
+      "extra": true
+    },
+    {
+      "id": "c21-06.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The father and the mother are in the city.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאָב וְהָאֵם בָּעִיר"
+      ],
+      "answerIsScript": true,
+      "block": "c21",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c21-06",
+      "extra": true
+    },
+    {
+      "id": "c21-06.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The father and the mother are in the city.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאָב וְהָאֵם בָּעִיר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c21",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c21-06",
+      "extra": true
+    },
+    {
+      "id": "c21-07.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָעֶבֶד לָקַח לֶחֶם וּמַיִם",
+      "stimulusIsScript": true,
+      "statement": "A servant took bread and water.",
+      "answer": false,
+      "expected": "The servant took bread and water.",
+      "block": "c21",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c21-07",
+      "extra": true
+    },
+    {
+      "id": "c21-07.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָעֶבֶד לָקַח לֶחֶם וּמַיִם",
+      "stimulusIsScript": true,
+      "options": [
+        "The servant took bread and water.",
+        "Heaven and earth",
+        "The man is good and wise.",
+        "A servant took bread and water."
+      ],
+      "answer": "The servant took bread and water.",
+      "optionIsScript": false,
+      "block": "c21",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c21-07",
+      "extra": true
+    },
+    {
+      "id": "c21-07.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The servant took bread and water.",
+      "stimulus": "הָעֶבֶד ＿＿＿ לֶחֶם וּמַיִם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "לָקַח"
+      ],
+      "answerIsScript": true,
+      "block": "c21",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c21-07",
+      "extra": true
+    },
+    {
+      "id": "c21-07.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הָעֶבֶד לָקַח לֶחֶם וּמַיִם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The servant took bread and water."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c21",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c21-07",
+      "extra": true
+    },
+    {
+      "id": "c21-07.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The servant took bread and water.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָעֶבֶד לָקַח לֶחֶם וּמַיִם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c21",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c21-07",
+      "extra": true
+    },
+    {
+      "id": "c21-08.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "שָׁמַיִם וָאָרֶץ",
+      "stimulusIsScript": true,
+      "statement": "Heaven and earth",
+      "answer": true,
+      "expected": "Heaven and earth",
+      "block": "c21",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c21-08",
+      "extra": true
+    },
+    {
+      "id": "c21-08.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "שָׁמַיִם וָאָרֶץ",
+      "stimulusIsScript": true,
+      "options": [
+        "Heaven and earth",
+        "The steadfast love of God is forever.",
+        "The silver and the gold are in the city.",
+        "The servant took bread and water."
+      ],
+      "answer": "Heaven and earth",
+      "optionIsScript": false,
+      "block": "c21",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c21-08",
+      "extra": true
+    },
+    {
+      "id": "c21-08.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Heaven and earth",
+      "stimulus": "שָׁמַיִם ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וָאָרֶץ"
+      ],
+      "answerIsScript": true,
+      "block": "c21",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c21-08",
+      "extra": true
+    },
+    {
+      "id": "c21-08.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "שָׁמַיִם וָאָרֶץ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Heaven and earth"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c21",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c21-08",
+      "extra": true
+    },
+    {
+      "id": "c21-08.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Heaven and earth",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שָׁמַיִם וָאָרֶץ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c21",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c21-08",
+      "extra": true
+    },
+    {
+      "id": "c21-09.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "חֶסֶד אֱלֹהִים לְעוֹלָם",
+      "stimulusIsScript": true,
+      "statement": "A steadfast love of God is forever.",
+      "answer": false,
+      "expected": "The steadfast love of God is forever.",
+      "block": "c21",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c21-09",
+      "extra": true
+    },
+    {
+      "id": "c21-09.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "חֶסֶד אֱלֹהִים לְעוֹלָם",
+      "stimulusIsScript": true,
+      "options": [
+        "A steadfast love of God is forever.",
+        "The horse and the donkey",
+        "The steadfast love of God is forever.",
+        "The man is good and upright."
+      ],
+      "answer": "The steadfast love of God is forever.",
+      "optionIsScript": false,
+      "block": "c21",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c21-09",
+      "extra": true
+    },
+    {
+      "id": "c21-09.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The steadfast love of God is forever.",
+      "stimulus": "חֶסֶד אֱלֹהִים ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "לְעוֹלָם"
+      ],
+      "answerIsScript": true,
+      "block": "c21",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c21-09",
+      "extra": true
+    },
+    {
+      "id": "c21-09.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "חֶסֶד אֱלֹהִים לְעוֹלָם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The steadfast love of God is forever."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c21",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c21-09",
+      "extra": true
+    },
+    {
+      "id": "c21-09.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The steadfast love of God is forever.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "חֶסֶד אֱלֹהִים לְעוֹלָם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c21",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c21-09",
+      "extra": true
+    },
+    {
+      "id": "c21-10.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אֱלֹהִים טוֹב וְיָשָׁר",
+      "stimulusIsScript": true,
+      "statement": "God is good and upright.",
+      "answer": true,
+      "expected": "God is good and upright.",
+      "block": "c21",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c21-10",
+      "extra": true
+    },
+    {
+      "id": "c21-10.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אֱלֹהִים טוֹב וְיָשָׁר",
+      "stimulusIsScript": true,
+      "options": [
+        "The man is good and wise.",
+        "The father and the mother are in the city.",
+        "The steadfast love of God is forever.",
+        "God is good and upright."
+      ],
+      "answer": "God is good and upright.",
+      "optionIsScript": false,
+      "block": "c21",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c21-10",
+      "extra": true
+    },
+    {
+      "id": "c21-10.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: God is good and upright.",
+      "stimulus": "＿＿＿ טוֹב וְיָשָׁר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֱלֹהִים"
+      ],
+      "answerIsScript": true,
+      "block": "c21",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c21-10",
+      "extra": true
+    },
+    {
+      "id": "c21-10.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "God is good and upright.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֱלֹהִים טוֹב וְיָשָׁר",
+        "טוֹב וְיָשָׁר אֱלֹהִים"
+      ],
+      "answerIsScript": true,
+      "block": "c21",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c21-10",
+      "extra": true
+    },
+    {
+      "id": "c21-10.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "God is good and upright.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֱלֹהִים טוֹב וְיָשָׁר",
+        "טוֹב וְיָשָׁר אֱלֹהִים"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c21",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c21-10",
+      "extra": true
     }
   ]
 }

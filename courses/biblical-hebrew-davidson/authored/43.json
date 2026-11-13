@@ -100,6 +100,42 @@
       "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n146.jpg",
       "exwb": "davidson-s49#A8",
       "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "c43-01": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c43-02": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c43-03": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c43-04": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c43-05": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c43-06": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c43-07": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c43-08": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c43-09": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c43-10": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c43-11": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c43-12": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
     }
   },
   "items": [
@@ -399,9 +435,9 @@
       "stimulus": "אָמַרְתִּי לִרְדֹּף אַחֲרֵיהֶם",
       "stimulusIsScript": true,
       "options": [
-        "They promised (said) to pursue after them.",
+        "He promised (said) to pursue after them.",
         "I promised (said) to pursue after him.",
-        "We promised (said) to pursue after them.",
+        "You promised (said) to pursue after them.",
         "I promised (said) to pursue after them."
       ],
       "answer": "I promised (said) to pursue after them.",
@@ -1073,6 +1109,1147 @@
       "blockLabel": "Davidson §49",
       "shape": "he-en",
       "src": "s49-A8"
+    },
+    {
+      "id": "c43-01.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "מְלֹךְ עָלֵינוּ",
+      "stimulusIsScript": true,
+      "statement": "Reign over me.",
+      "answer": false,
+      "expected": "Reign over us.",
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-01",
+      "extra": true
+    },
+    {
+      "id": "c43-01.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "מְלֹךְ עָלֵינוּ",
+      "stimulusIsScript": true,
+      "options": [
+        "Reign over them.",
+        "God is near.",
+        "Reign over us.",
+        "Reign over me."
+      ],
+      "answer": "Reign over us.",
+      "optionIsScript": false,
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-01",
+      "extra": true
+    },
+    {
+      "id": "c43-01.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Reign over us.",
+      "stimulus": "＿＿＿ עָלֵינוּ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "מְלֹךְ"
+      ],
+      "answerIsScript": true,
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-01",
+      "extra": true
+    },
+    {
+      "id": "c43-01.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "מְלֹךְ עָלֵינוּ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Reign over us."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-01",
+      "extra": true
+    },
+    {
+      "id": "c43-01.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Reign over us.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מְלֹךְ עָלֵינוּ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-01",
+      "extra": true
+    },
+    {
+      "id": "c43-02.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "לִשְׁמֹר אֶת־מִצְוֹתָיו",
+      "stimulusIsScript": true,
+      "statement": "To keep his commandments",
+      "answer": true,
+      "expected": "To keep his commandments",
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-02",
+      "extra": true
+    },
+    {
+      "id": "c43-02.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "לִשְׁמֹר אֶת־מִצְוֹתָיו",
+      "stimulusIsScript": true,
+      "options": [
+        "To keep his commandments",
+        "To keep my commandments",
+        "To keep her commandments",
+        "To keep their commandments"
+      ],
+      "answer": "To keep his commandments",
+      "optionIsScript": false,
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-02",
+      "extra": true
+    },
+    {
+      "id": "c43-02.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: To keep his commandments",
+      "stimulus": "＿＿＿ אֶת־מִצְוֹתָיו",
+      "stimulusIsScript": true,
+      "accepted": [
+        "לִשְׁמֹר"
+      ],
+      "answerIsScript": true,
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-02",
+      "extra": true
+    },
+    {
+      "id": "c43-02.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "לִשְׁמֹר אֶת־מִצְוֹתָיו",
+      "stimulusIsScript": true,
+      "accepted": [
+        "To keep his commandments"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-02",
+      "extra": true
+    },
+    {
+      "id": "c43-02.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "To keep his commandments",
+      "stimulusIsScript": false,
+      "accepted": [
+        "לִשְׁמֹר אֶת־מִצְוֹתָיו"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-02",
+      "extra": true
+    },
+    {
+      "id": "c43-03.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָלַךְ לִקְבֹּר אֶת־אָבִיו",
+      "stimulusIsScript": true,
+      "statement": "He went to bury his father.",
+      "answer": true,
+      "expected": "He went to bury his father.",
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-03",
+      "extra": true
+    },
+    {
+      "id": "c43-03.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָלַךְ לִקְבֹּר אֶת־אָבִיו",
+      "stimulusIsScript": true,
+      "options": [
+        "She went to bury his father.",
+        "He went to bury my father.",
+        "He went to bury her father.",
+        "He went to bury his father."
+      ],
+      "answer": "He went to bury his father.",
+      "optionIsScript": false,
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-03",
+      "extra": true
+    },
+    {
+      "id": "c43-03.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: He went to bury his father.",
+      "stimulus": "＿＿＿ לִקְבֹּר אֶת־אָבִיו",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הָלַךְ"
+      ],
+      "answerIsScript": true,
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-03",
+      "extra": true
+    },
+    {
+      "id": "c43-03.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "He went to bury his father.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָלַךְ לִקְבֹּר אֶת־אָבִיו"
+      ],
+      "answerIsScript": true,
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-03",
+      "extra": true
+    },
+    {
+      "id": "c43-03.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "He went to bury his father.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָלַךְ לִקְבֹּר אֶת־אָבִיו"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-03",
+      "extra": true
+    },
+    {
+      "id": "c43-04.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "זָכוֹר אֶת־יוֹם הַשַּׁבָּת",
+      "stimulusIsScript": true,
+      "statement": "Remember the Sabbath day.",
+      "answer": true,
+      "expected": "Remember the Sabbath day.",
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-04",
+      "extra": true
+    },
+    {
+      "id": "c43-04.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "זָכוֹר אֶת־יוֹם הַשַּׁבָּת",
+      "stimulusIsScript": true,
+      "options": [
+        "He went to bury his father.",
+        "To write the words",
+        "Remember the Sabbath day.",
+        "Reign over us."
+      ],
+      "answer": "Remember the Sabbath day.",
+      "optionIsScript": false,
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-04",
+      "extra": true
+    },
+    {
+      "id": "c43-04.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Remember the Sabbath day.",
+      "stimulus": "זָכוֹר אֶת־יוֹם ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַשַּׁבָּת"
+      ],
+      "answerIsScript": true,
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-04",
+      "extra": true
+    },
+    {
+      "id": "c43-04.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "זָכוֹר אֶת־יוֹם הַשַּׁבָּת",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Remember the Sabbath day."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-04",
+      "extra": true
+    },
+    {
+      "id": "c43-04.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Remember the Sabbath day.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "זָכוֹר אֶת־יוֹם הַשַּׁבָּת"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-04",
+      "extra": true
+    },
+    {
+      "id": "c43-05.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "שָׁמוֹר אֶת־יוֹם הַשַּׁבָּת",
+      "stimulusIsScript": true,
+      "statement": "Keep the Sabbath day.",
+      "answer": true,
+      "expected": "Keep the Sabbath day.",
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-05",
+      "extra": true
+    },
+    {
+      "id": "c43-05.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "שָׁמוֹר אֶת־יוֹם הַשַּׁבָּת",
+      "stimulusIsScript": true,
+      "options": [
+        "The small dog",
+        "Reign over us.",
+        "The king came to judge the land.",
+        "Keep the Sabbath day."
+      ],
+      "answer": "Keep the Sabbath day.",
+      "optionIsScript": false,
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-05",
+      "extra": true
+    },
+    {
+      "id": "c43-05.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Keep the Sabbath day.",
+      "stimulus": "שָׁמוֹר ＿＿＿ הַשַּׁבָּת",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶת־יוֹם"
+      ],
+      "answerIsScript": true,
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-05",
+      "extra": true
+    },
+    {
+      "id": "c43-05.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "שָׁמוֹר אֶת־יוֹם הַשַּׁבָּת",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Keep the Sabbath day."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-05",
+      "extra": true
+    },
+    {
+      "id": "c43-05.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Keep the Sabbath day.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שָׁמוֹר אֶת־יוֹם הַשַּׁבָּת"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-05",
+      "extra": true
+    },
+    {
+      "id": "c43-06.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַכֶּלֶב הַקָּטֹן",
+      "stimulusIsScript": true,
+      "statement": "The small dog",
+      "answer": true,
+      "expected": "The small dog",
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-06",
+      "extra": true
+    },
+    {
+      "id": "c43-06.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַכֶּלֶב הַקָּטֹן",
+      "stimulusIsScript": true,
+      "options": [
+        "The small dog",
+        "He went to bury his father.",
+        "A small dog",
+        "The day is near."
+      ],
+      "answer": "The small dog",
+      "optionIsScript": false,
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-06",
+      "extra": true
+    },
+    {
+      "id": "c43-06.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The small dog",
+      "stimulus": "הַכֶּלֶב ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַקָּטֹן"
+      ],
+      "answerIsScript": true,
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-06",
+      "extra": true
+    },
+    {
+      "id": "c43-06.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הַכֶּלֶב הַקָּטֹן",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The small dog"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-06",
+      "extra": true
+    },
+    {
+      "id": "c43-06.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The small dog",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַכֶּלֶב הַקָּטֹן"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-06",
+      "extra": true
+    },
+    {
+      "id": "c43-07.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַיּוֹם קָרוֹב",
+      "stimulusIsScript": true,
+      "statement": "A day is near.",
+      "answer": false,
+      "expected": "The day is near.",
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-07",
+      "extra": true
+    },
+    {
+      "id": "c43-07.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַיּוֹם קָרוֹב",
+      "stimulusIsScript": true,
+      "options": [
+        "The day is near.",
+        "A day is near.",
+        "Keep the Sabbath day.",
+        "God is near."
+      ],
+      "answer": "The day is near.",
+      "optionIsScript": false,
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-07",
+      "extra": true
+    },
+    {
+      "id": "c43-07.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The day is near.",
+      "stimulus": "הַיּוֹם ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "קָרוֹב"
+      ],
+      "answerIsScript": true,
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-07",
+      "extra": true
+    },
+    {
+      "id": "c43-07.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The day is near.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַיּוֹם קָרוֹב",
+        "קָרוֹב הַיּוֹם"
+      ],
+      "answerIsScript": true,
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-07",
+      "extra": true
+    },
+    {
+      "id": "c43-07.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The day is near.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַיּוֹם קָרוֹב",
+        "קָרוֹב הַיּוֹם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-07",
+      "extra": true
+    },
+    {
+      "id": "c43-08.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַהֵיכָל מָלֵא",
+      "stimulusIsScript": true,
+      "statement": "The temple is full.",
+      "answer": true,
+      "expected": "The temple is full.",
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-08",
+      "extra": true
+    },
+    {
+      "id": "c43-08.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַהֵיכָל מָלֵא",
+      "stimulusIsScript": true,
+      "options": [
+        "A temple is full.",
+        "The temple is full.",
+        "He went to bury his father.",
+        "The day is near."
+      ],
+      "answer": "The temple is full.",
+      "optionIsScript": false,
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-08",
+      "extra": true
+    },
+    {
+      "id": "c43-08.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The temple is full.",
+      "stimulus": "הַהֵיכָל ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "מָלֵא"
+      ],
+      "answerIsScript": true,
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-08",
+      "extra": true
+    },
+    {
+      "id": "c43-08.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הַהֵיכָל מָלֵא",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The temple is full."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-08",
+      "extra": true
+    },
+    {
+      "id": "c43-08.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The temple is full.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַהֵיכָל מָלֵא"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-08",
+      "extra": true
+    },
+    {
+      "id": "c43-09.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "מָכַר אֶת־עַבְדּוֹ",
+      "stimulusIsScript": true,
+      "statement": "He sold their servant.",
+      "answer": false,
+      "expected": "He sold his servant.",
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-09",
+      "extra": true
+    },
+    {
+      "id": "c43-09.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "מָכַר אֶת־עַבְדּוֹ",
+      "stimulusIsScript": true,
+      "options": [
+        "He sold their servant.",
+        "He sold her servant.",
+        "He sold his servant.",
+        "She sold his servant."
+      ],
+      "answer": "He sold his servant.",
+      "optionIsScript": false,
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-09",
+      "extra": true
+    },
+    {
+      "id": "c43-09.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: He sold his servant.",
+      "stimulus": "＿＿＿ אֶת־עַבְדּוֹ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "מָכַר"
+      ],
+      "answerIsScript": true,
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-09",
+      "extra": true
+    },
+    {
+      "id": "c43-09.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "מָכַר אֶת־עַבְדּוֹ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "He sold his servant."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-09",
+      "extra": true
+    },
+    {
+      "id": "c43-09.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "He sold his servant.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מָכַר אֶת־עַבְדּוֹ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-09",
+      "extra": true
+    },
+    {
+      "id": "c43-10.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "לִכְתֹּב אֶת־הַדְּבָרִים",
+      "stimulusIsScript": true,
+      "statement": "To write words",
+      "answer": false,
+      "expected": "To write the words",
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-10",
+      "extra": true
+    },
+    {
+      "id": "c43-10.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "לִכְתֹּב אֶת־הַדְּבָרִים",
+      "stimulusIsScript": true,
+      "options": [
+        "Remember the Sabbath day.",
+        "To write words",
+        "To write the words",
+        "The temple is full."
+      ],
+      "answer": "To write the words",
+      "optionIsScript": false,
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-10",
+      "extra": true
+    },
+    {
+      "id": "c43-10.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: To write the words",
+      "stimulus": "לִכְתֹּב ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶת־הַדְּבָרִים"
+      ],
+      "answerIsScript": true,
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-10",
+      "extra": true
+    },
+    {
+      "id": "c43-10.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "לִכְתֹּב אֶת־הַדְּבָרִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "To write the words"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-10",
+      "extra": true
+    },
+    {
+      "id": "c43-10.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "To write the words",
+      "stimulusIsScript": false,
+      "accepted": [
+        "לִכְתֹּב אֶת־הַדְּבָרִים"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-10",
+      "extra": true
+    },
+    {
+      "id": "c43-11.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "בָּא הַמֶּלֶךְ לִשְׁפֹּט אֶת־הָאָרֶץ",
+      "stimulusIsScript": true,
+      "statement": "A king came to judge the land.",
+      "answer": false,
+      "expected": "The king came to judge the land.",
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-11",
+      "extra": true
+    },
+    {
+      "id": "c43-11.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "בָּא הַמֶּלֶךְ לִשְׁפֹּט אֶת־הָאָרֶץ",
+      "stimulusIsScript": true,
+      "options": [
+        "The king came to judge a land.",
+        "The king came to judge the land.",
+        "To keep his commandments",
+        "A king came to judge the land."
+      ],
+      "answer": "The king came to judge the land.",
+      "optionIsScript": false,
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-11",
+      "extra": true
+    },
+    {
+      "id": "c43-11.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The king came to judge the land.",
+      "stimulus": "בָּא הַמֶּלֶךְ לִשְׁפֹּט ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶת־הָאָרֶץ"
+      ],
+      "answerIsScript": true,
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-11",
+      "extra": true
+    },
+    {
+      "id": "c43-11.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The king came to judge the land.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בָּא הַמֶּלֶךְ לִשְׁפֹּט אֶת־הָאָרֶץ",
+        "הַמֶּלֶךְ בָּא לִשְׁפֹּט אֶת־הָאָרֶץ"
+      ],
+      "answerIsScript": true,
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-11",
+      "extra": true
+    },
+    {
+      "id": "c43-11.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The king came to judge the land.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בָּא הַמֶּלֶךְ לִשְׁפֹּט אֶת־הָאָרֶץ",
+        "הַמֶּלֶךְ בָּא לִשְׁפֹּט אֶת־הָאָרֶץ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-11",
+      "extra": true
+    },
+    {
+      "id": "c43-12.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "קָרוֹב אֱלֹהִים",
+      "stimulusIsScript": true,
+      "statement": "To write the words",
+      "answer": false,
+      "expected": "God is near.",
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-12",
+      "extra": true
+    },
+    {
+      "id": "c43-12.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "קָרוֹב אֱלֹהִים",
+      "stimulusIsScript": true,
+      "options": [
+        "The day is near.",
+        "To write the words",
+        "The small dog",
+        "God is near."
+      ],
+      "answer": "God is near.",
+      "optionIsScript": false,
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-12",
+      "extra": true
+    },
+    {
+      "id": "c43-12.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: God is near.",
+      "stimulus": "קָרוֹב ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֱלֹהִים"
+      ],
+      "answerIsScript": true,
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-12",
+      "extra": true
+    },
+    {
+      "id": "c43-12.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "קָרוֹב אֱלֹהִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "God is near."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-12",
+      "extra": true
+    },
+    {
+      "id": "c43-12.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "God is near.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "קָרוֹב אֱלֹהִים"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c43",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c43-12",
+      "extra": true
     }
   ]
 }

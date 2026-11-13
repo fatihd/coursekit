@@ -82,6 +82,39 @@
       "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n79.jpg",
       "exwb": "davidson-s33#AL3",
       "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "c41-01": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c41-02": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c41-03": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c41-04": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c41-05": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c41-06": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c41-07": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c41-08": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c41-09": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c41-10": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c41-11": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
     }
   },
   "items": [
@@ -652,7 +685,7 @@
       "stimulus": "שְׁמַע תְּפִלָּתִי אֱלֹהֵינוּ",
       "stimulusIsScript": true,
       "options": [
-        "Hear thy prayer (O) our God.",
+        "Hear your prayer (O) our God.",
         "Hear my prayer (O) my God.",
         "Hear my prayer (O) our God.",
         "Hear his prayer (O) our God."
@@ -726,7 +759,7 @@
       "prompt": "Is this the right translation?",
       "stimulus": "וְעַתָּה יוֹשֵׁב יְרוּשָׁלַםִ וְאִישׁ יְהוּדָה שִׁפְטוּ־נָא בֵּינִי וּבֵין כַּרְמִי",
       "stimulusIsScript": true,
-      "statement": "And now, ye inhabitants of Jerusalem and ye men of Judah, judge, we pray you, between me and my vineyard.",
+      "statement": "And now, ye inhabitants of Jerusalem and ye men of Judah, judge, you pray you, between me and my vineyard.",
       "answer": false,
       "expected": "And now, ye inhabitants of Jerusalem and ye men of Judah, judge, I pray you, between me and my vineyard.",
       "block": "s29",
@@ -744,8 +777,8 @@
       "stimulusIsScript": true,
       "options": [
         "And now, ye inhabitants of Jerusalem and ye men of Judah, judge, I pray you, between him and my vineyard.",
-        "And now, ye inhabitants of Jerusalem and ye men of Judah, judge, I pray you, between me and thy vineyard.",
-        "And now, ye inhabitants of Jerusalem and ye men of Judah, judge, we pray you, between me and my vineyard.",
+        "And now, ye inhabitants of Jerusalem and ye men of Judah, judge, I pray you, between me and your vineyard.",
+        "And now, ye inhabitants of Jerusalem and ye men of Judah, judge, you pray you, between me and my vineyard.",
         "And now, ye inhabitants of Jerusalem and ye men of Judah, judge, I pray you, between me and my vineyard."
       ],
       "answer": "And now, ye inhabitants of Jerusalem and ye men of Judah, judge, I pray you, between me and my vineyard.",
@@ -881,6 +914,1047 @@
       "blockLabel": "Davidson §33",
       "shape": "he-en",
       "src": "s33-AL3"
+    },
+    {
+      "id": "c41-01.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "שְׁמֹר אֶת־הַמִּצְוָה",
+      "stimulusIsScript": true,
+      "statement": "Keep a commandment.",
+      "answer": false,
+      "expected": "Keep the commandment.",
+      "block": "c41",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c41-01",
+      "extra": true
+    },
+    {
+      "id": "c41-01.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "שְׁמֹר אֶת־הַמִּצְוָה",
+      "stimulusIsScript": true,
+      "options": [
+        "Keep the commandment.",
+        "Keep a commandment.",
+        "Remember the instruction.",
+        "Guard your foot."
+      ],
+      "answer": "Keep the commandment.",
+      "optionIsScript": false,
+      "block": "c41",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c41-01",
+      "extra": true
+    },
+    {
+      "id": "c41-01.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Keep the commandment.",
+      "stimulus": "＿＿＿ אֶת־הַמִּצְוָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "שְׁמֹר"
+      ],
+      "answerIsScript": true,
+      "block": "c41",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c41-01",
+      "extra": true
+    },
+    {
+      "id": "c41-01.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "שְׁמֹר אֶת־הַמִּצְוָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Keep the commandment."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c41",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c41-01",
+      "extra": true
+    },
+    {
+      "id": "c41-01.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Keep the commandment.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שְׁמֹר אֶת־הַמִּצְוָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c41",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c41-01",
+      "extra": true
+    },
+    {
+      "id": "c41-02.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "זְכֹר אֶת־יוֹם הַשַּׁבָּת",
+      "stimulusIsScript": true,
+      "statement": "Remember the Sabbath day.",
+      "answer": true,
+      "expected": "Remember the Sabbath day.",
+      "block": "c41",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c41-02",
+      "extra": true
+    },
+    {
+      "id": "c41-02.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "זְכֹר אֶת־יוֹם הַשַּׁבָּת",
+      "stimulusIsScript": true,
+      "options": [
+        "Keep my commandments.",
+        "Write these words.",
+        "Remember the Sabbath day.",
+        "The staff is in his hand."
+      ],
+      "answer": "Remember the Sabbath day.",
+      "optionIsScript": false,
+      "block": "c41",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c41-02",
+      "extra": true
+    },
+    {
+      "id": "c41-02.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Remember the Sabbath day.",
+      "stimulus": "זְכֹר אֶת־יוֹם ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַשַּׁבָּת"
+      ],
+      "answerIsScript": true,
+      "block": "c41",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c41-02",
+      "extra": true
+    },
+    {
+      "id": "c41-02.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "Remember the Sabbath day.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "זְכֹר אֶת־יוֹם הַשַּׁבָּת"
+      ],
+      "answerIsScript": true,
+      "block": "c41",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c41-02",
+      "extra": true
+    },
+    {
+      "id": "c41-02.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Remember the Sabbath day.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "זְכֹר אֶת־יוֹם הַשַּׁבָּת"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c41",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c41-02",
+      "extra": true
+    },
+    {
+      "id": "c41-03.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "שִׁמְרוּ אֶת־מִצְוֹתַי",
+      "stimulusIsScript": true,
+      "statement": "Keep your commandments.",
+      "answer": false,
+      "expected": "Keep my commandments.",
+      "block": "c41",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c41-03",
+      "extra": true
+    },
+    {
+      "id": "c41-03.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "שִׁמְרוּ אֶת־מִצְוֹתַי",
+      "stimulusIsScript": true,
+      "options": [
+        "Keep my commandments.",
+        "Keep your commandments.",
+        "Keep our commandments.",
+        "Keep his commandments."
+      ],
+      "answer": "Keep my commandments.",
+      "optionIsScript": false,
+      "block": "c41",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c41-03",
+      "extra": true
+    },
+    {
+      "id": "c41-03.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Keep my commandments.",
+      "stimulus": "שִׁמְרוּ ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶת־מִצְוֹתַי"
+      ],
+      "answerIsScript": true,
+      "block": "c41",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c41-03",
+      "extra": true
+    },
+    {
+      "id": "c41-03.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "שִׁמְרוּ אֶת־מִצְוֹתַי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Keep my commandments."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c41",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c41-03",
+      "extra": true
+    },
+    {
+      "id": "c41-03.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Keep my commandments.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שִׁמְרוּ אֶת־מִצְוֹתַי"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c41",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c41-03",
+      "extra": true
+    },
+    {
+      "id": "c41-04.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "כִּתְבוּ אֶת־הַדְּבָרִים הָאֵלֶּה",
+      "stimulusIsScript": true,
+      "statement": "Write these words.",
+      "answer": true,
+      "expected": "Write these words.",
+      "block": "c41",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c41-04",
+      "extra": true
+    },
+    {
+      "id": "c41-04.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "כִּתְבוּ אֶת־הַדְּבָרִים הָאֵלֶּה",
+      "stimulusIsScript": true,
+      "options": [
+        "Write these words.",
+        "Write those words.",
+        "The work of God",
+        "Guard your foot."
+      ],
+      "answer": "Write these words.",
+      "optionIsScript": false,
+      "block": "c41",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c41-04",
+      "extra": true
+    },
+    {
+      "id": "c41-04.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Write these words.",
+      "stimulus": "כִּתְבוּ אֶת־הַדְּבָרִים ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הָאֵלֶּה"
+      ],
+      "answerIsScript": true,
+      "block": "c41",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c41-04",
+      "extra": true
+    },
+    {
+      "id": "c41-04.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "כִּתְבוּ אֶת־הַדְּבָרִים הָאֵלֶּה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Write these words."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c41",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c41-04",
+      "extra": true
+    },
+    {
+      "id": "c41-04.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Write these words.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "כִּתְבוּ אֶת־הַדְּבָרִים הָאֵלֶּה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c41",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c41-04",
+      "extra": true
+    },
+    {
+      "id": "c41-05.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "שִׁפְטוּ בְּצֶדֶק",
+      "stimulusIsScript": true,
+      "statement": "Judge in righteousness.",
+      "answer": true,
+      "expected": "Judge in righteousness.",
+      "block": "c41",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c41-05",
+      "extra": true
+    },
+    {
+      "id": "c41-05.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "שִׁפְטוּ בְּצֶדֶק",
+      "stimulusIsScript": true,
+      "options": [
+        "Judge in righteousness.",
+        "Remember the instruction.",
+        "The staff is in his hand.",
+        "Keep the commandment."
+      ],
+      "answer": "Judge in righteousness.",
+      "optionIsScript": false,
+      "block": "c41",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c41-05",
+      "extra": true
+    },
+    {
+      "id": "c41-05.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Judge in righteousness.",
+      "stimulus": "＿＿＿ בְּצֶדֶק",
+      "stimulusIsScript": true,
+      "accepted": [
+        "שִׁפְטוּ"
+      ],
+      "answerIsScript": true,
+      "block": "c41",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c41-05",
+      "extra": true
+    },
+    {
+      "id": "c41-05.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "Judge in righteousness.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שִׁפְטוּ בְּצֶדֶק"
+      ],
+      "answerIsScript": true,
+      "block": "c41",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c41-05",
+      "extra": true
+    },
+    {
+      "id": "c41-05.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Judge in righteousness.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שִׁפְטוּ בְּצֶדֶק"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c41",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c41-05",
+      "extra": true
+    },
+    {
+      "id": "c41-06.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַמַּטֶּה בְּיָדוֹ",
+      "stimulusIsScript": true,
+      "statement": "The staff is in his hand.",
+      "answer": true,
+      "expected": "The staff is in his hand.",
+      "block": "c41",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c41-06",
+      "extra": true
+    },
+    {
+      "id": "c41-06.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַמַּטֶּה בְּיָדוֹ",
+      "stimulusIsScript": true,
+      "options": [
+        "The staff is in his hand.",
+        "A staff is in his hand.",
+        "The staff is in her hand.",
+        "The staff is to his hand."
+      ],
+      "answer": "The staff is in his hand.",
+      "optionIsScript": false,
+      "block": "c41",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c41-06",
+      "extra": true
+    },
+    {
+      "id": "c41-06.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The staff is in his hand.",
+      "stimulus": "הַמַּטֶּה ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "בְּיָדוֹ"
+      ],
+      "answerIsScript": true,
+      "block": "c41",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c41-06",
+      "extra": true
+    },
+    {
+      "id": "c41-06.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הַמַּטֶּה בְּיָדוֹ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The staff is in his hand."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c41",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c41-06",
+      "extra": true
+    },
+    {
+      "id": "c41-06.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The staff is in his hand.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַמַּטֶּה בְּיָדוֹ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c41",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c41-06",
+      "extra": true
+    },
+    {
+      "id": "c41-07.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "שְׁמֹר רַגְלְךָ",
+      "stimulusIsScript": true,
+      "statement": "Guard your foot.",
+      "answer": true,
+      "expected": "Guard your foot.",
+      "block": "c41",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c41-07",
+      "extra": true
+    },
+    {
+      "id": "c41-07.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "שְׁמֹר רַגְלְךָ",
+      "stimulusIsScript": true,
+      "options": [
+        "Guard their foot.",
+        "Guard your foot.",
+        "Guard my foot.",
+        "Guard our foot."
+      ],
+      "answer": "Guard your foot.",
+      "optionIsScript": false,
+      "block": "c41",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c41-07",
+      "extra": true
+    },
+    {
+      "id": "c41-07.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Guard your foot.",
+      "stimulus": "שְׁמֹר ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "רַגְלְךָ"
+      ],
+      "answerIsScript": true,
+      "block": "c41",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c41-07",
+      "extra": true
+    },
+    {
+      "id": "c41-07.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "שְׁמֹר רַגְלְךָ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Guard your foot."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c41",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c41-07",
+      "extra": true
+    },
+    {
+      "id": "c41-07.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Guard your foot.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שְׁמֹר רַגְלְךָ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c41",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c41-07",
+      "extra": true
+    },
+    {
+      "id": "c41-08.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "מַעֲשֵׂה אֱלֹהִים",
+      "stimulusIsScript": true,
+      "statement": "A work of God",
+      "answer": false,
+      "expected": "The work of God",
+      "block": "c41",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c41-08",
+      "extra": true
+    },
+    {
+      "id": "c41-08.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "מַעֲשֵׂה אֱלֹהִים",
+      "stimulusIsScript": true,
+      "options": [
+        "Guard your foot.",
+        "Judge in righteousness.",
+        "The work of God",
+        "A work of God"
+      ],
+      "answer": "The work of God",
+      "optionIsScript": false,
+      "block": "c41",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c41-08",
+      "extra": true
+    },
+    {
+      "id": "c41-08.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The work of God",
+      "stimulus": "מַעֲשֵׂה ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֱלֹהִים"
+      ],
+      "answerIsScript": true,
+      "block": "c41",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c41-08",
+      "extra": true
+    },
+    {
+      "id": "c41-08.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The work of God",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מַעֲשֵׂה אֱלֹהִים"
+      ],
+      "answerIsScript": true,
+      "block": "c41",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c41-08",
+      "extra": true
+    },
+    {
+      "id": "c41-08.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The work of God",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מַעֲשֵׂה אֱלֹהִים"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c41",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c41-08",
+      "extra": true
+    },
+    {
+      "id": "c41-09.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "גְּבוּל הָאָרֶץ",
+      "stimulusIsScript": true,
+      "statement": "The border of the land",
+      "answer": true,
+      "expected": "The border of the land",
+      "block": "c41",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c41-09",
+      "extra": true
+    },
+    {
+      "id": "c41-09.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "גְּבוּל הָאָרֶץ",
+      "stimulusIsScript": true,
+      "options": [
+        "The border of the land",
+        "The border of a land",
+        "A border of the land",
+        "Write these words."
+      ],
+      "answer": "The border of the land",
+      "optionIsScript": false,
+      "block": "c41",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c41-09",
+      "extra": true
+    },
+    {
+      "id": "c41-09.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The border of the land",
+      "stimulus": "גְּבוּל ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הָאָרֶץ"
+      ],
+      "answerIsScript": true,
+      "block": "c41",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c41-09",
+      "extra": true
+    },
+    {
+      "id": "c41-09.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "גְּבוּל הָאָרֶץ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The border of the land"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c41",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c41-09",
+      "extra": true
+    },
+    {
+      "id": "c41-09.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The border of the land",
+      "stimulusIsScript": false,
+      "accepted": [
+        "גְּבוּל הָאָרֶץ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c41",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c41-09",
+      "extra": true
+    },
+    {
+      "id": "c41-10.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "זִכְרוּ אֶת־הַתּוֹרָה",
+      "stimulusIsScript": true,
+      "statement": "Remember an instruction.",
+      "answer": false,
+      "expected": "Remember the instruction.",
+      "block": "c41",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c41-10",
+      "extra": true
+    },
+    {
+      "id": "c41-10.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "זִכְרוּ אֶת־הַתּוֹרָה",
+      "stimulusIsScript": true,
+      "options": [
+        "Keep the commandment.",
+        "Remember the instruction.",
+        "Judge in righteousness.",
+        "Remember an instruction."
+      ],
+      "answer": "Remember the instruction.",
+      "optionIsScript": false,
+      "block": "c41",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c41-10",
+      "extra": true
+    },
+    {
+      "id": "c41-10.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Remember the instruction.",
+      "stimulus": "זִכְרוּ ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶת־הַתּוֹרָה"
+      ],
+      "answerIsScript": true,
+      "block": "c41",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c41-10",
+      "extra": true
+    },
+    {
+      "id": "c41-10.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "זִכְרוּ אֶת־הַתּוֹרָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Remember the instruction."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c41",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c41-10",
+      "extra": true
+    },
+    {
+      "id": "c41-10.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Remember the instruction.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "זִכְרוּ אֶת־הַתּוֹרָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c41",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c41-10",
+      "extra": true
+    },
+    {
+      "id": "c41-11.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "שִׁמְרוּ אֶת־הַשַּׁבָּת",
+      "stimulusIsScript": true,
+      "statement": "Keep the Sabbath.",
+      "answer": true,
+      "expected": "Keep the Sabbath.",
+      "block": "c41",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c41-11",
+      "extra": true
+    },
+    {
+      "id": "c41-11.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "שִׁמְרוּ אֶת־הַשַּׁבָּת",
+      "stimulusIsScript": true,
+      "options": [
+        "Write these words.",
+        "Keep the Sabbath.",
+        "The work of God",
+        "Keep the commandment."
+      ],
+      "answer": "Keep the Sabbath.",
+      "optionIsScript": false,
+      "block": "c41",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c41-11",
+      "extra": true
+    },
+    {
+      "id": "c41-11.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Keep the Sabbath.",
+      "stimulus": "＿＿＿ אֶת־הַשַּׁבָּת",
+      "stimulusIsScript": true,
+      "accepted": [
+        "שִׁמְרוּ"
+      ],
+      "answerIsScript": true,
+      "block": "c41",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c41-11",
+      "extra": true
+    },
+    {
+      "id": "c41-11.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "Keep the Sabbath.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שִׁמְרוּ אֶת־הַשַּׁבָּת"
+      ],
+      "answerIsScript": true,
+      "block": "c41",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c41-11",
+      "extra": true
+    },
+    {
+      "id": "c41-11.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Keep the Sabbath.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שִׁמְרוּ אֶת־הַשַּׁבָּת"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c41",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c41-11",
+      "extra": true
     }
   ]
 }

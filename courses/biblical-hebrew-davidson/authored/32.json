@@ -10,6 +10,51 @@
       "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n140.jpg",
       "exwb": "davidson-s47#A5",
       "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "c32-01": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c32-02": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c32-03": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c32-04": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c32-05": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c32-06": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c32-07": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c32-08": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c32-09": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c32-10": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c32-11": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c32-12": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c32-13": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c32-14": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c32-15": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
     }
   },
   "items": [
@@ -102,6 +147,1426 @@
       "blockLabel": "Davidson §47",
       "shape": "he-en",
       "src": "s47-A5"
+    },
+    {
+      "id": "c32-01.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הֲטוֹב הַדָּבָר",
+      "stimulusIsScript": true,
+      "statement": "Is the word good?",
+      "answer": true,
+      "expected": "Is the word good?",
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-01",
+      "extra": true
+    },
+    {
+      "id": "c32-01.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הֲטוֹב הַדָּבָר",
+      "stimulusIsScript": true,
+      "options": [
+        "The king built a city.",
+        "Is the word good?",
+        "Is a word good?",
+        "Is the land good?"
+      ],
+      "answer": "Is the word good?",
+      "optionIsScript": false,
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-01",
+      "extra": true
+    },
+    {
+      "id": "c32-01.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Is the word good?",
+      "stimulus": "＿＿＿ הַדָּבָר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הֲטוֹב"
+      ],
+      "answerIsScript": true,
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-01",
+      "extra": true
+    },
+    {
+      "id": "c32-01.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הֲטוֹב הַדָּבָר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Is the word good?"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-01",
+      "extra": true
+    },
+    {
+      "id": "c32-01.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Is the word good?",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הֲטוֹב הַדָּבָר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-01",
+      "extra": true
+    },
+    {
+      "id": "c32-02.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַאַתָּה הָאִישׁ",
+      "stimulusIsScript": true,
+      "statement": "Are you a man?",
+      "answer": false,
+      "expected": "Are you the man?",
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-02",
+      "extra": true
+    },
+    {
+      "id": "c32-02.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַאַתָּה הָאִישׁ",
+      "stimulusIsScript": true,
+      "options": [
+        "Are you a man?",
+        "The fire is on the altar.",
+        "Is not God in the heavens?",
+        "Are you the man?"
+      ],
+      "answer": "Are you the man?",
+      "optionIsScript": false,
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-02",
+      "extra": true
+    },
+    {
+      "id": "c32-02.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Are you the man?",
+      "stimulus": "הַאַתָּה ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הָאִישׁ"
+      ],
+      "answerIsScript": true,
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-02",
+      "extra": true
+    },
+    {
+      "id": "c32-02.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "Are you the man?",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַאַתָּה הָאִישׁ"
+      ],
+      "answerIsScript": true,
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-02",
+      "extra": true
+    },
+    {
+      "id": "c32-02.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Are you the man?",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַאַתָּה הָאִישׁ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-02",
+      "extra": true
+    },
+    {
+      "id": "c32-03.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אֵין לֶחֶם בָּעִיר",
+      "stimulusIsScript": true,
+      "statement": "There is no bread in the city.",
+      "answer": true,
+      "expected": "There is no bread in the city.",
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-03",
+      "extra": true
+    },
+    {
+      "id": "c32-03.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אֵין לֶחֶם בָּעִיר",
+      "stimulusIsScript": true,
+      "options": [
+        "There is no bread to the city.",
+        "There is no bread from the city.",
+        "There is no bread in the city.",
+        "There is no bread in a city."
+      ],
+      "answer": "There is no bread in the city.",
+      "optionIsScript": false,
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-03",
+      "extra": true
+    },
+    {
+      "id": "c32-03.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: There is no bread in the city.",
+      "stimulus": "אֵין ＿＿＿ בָּעִיר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "לֶחֶם"
+      ],
+      "answerIsScript": true,
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-03",
+      "extra": true
+    },
+    {
+      "id": "c32-03.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "אֵין לֶחֶם בָּעִיר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "There is no bread in the city."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-03",
+      "extra": true
+    },
+    {
+      "id": "c32-03.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "There is no bread in the city.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֵין לֶחֶם בָּעִיר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-03",
+      "extra": true
+    },
+    {
+      "id": "c32-04.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אֵין אִישׁ בָּעִיר",
+      "stimulusIsScript": true,
+      "statement": "There is no man in a city.",
+      "answer": false,
+      "expected": "There is no man in the city.",
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-04",
+      "extra": true
+    },
+    {
+      "id": "c32-04.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אֵין אִישׁ בָּעִיר",
+      "stimulusIsScript": true,
+      "options": [
+        "There is no man from the city.",
+        "There is no man in a city.",
+        "There is no man in the city.",
+        "There is no man to the city."
+      ],
+      "answer": "There is no man in the city.",
+      "optionIsScript": false,
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-04",
+      "extra": true
+    },
+    {
+      "id": "c32-04.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: There is no man in the city.",
+      "stimulus": "אֵין ＿＿＿ בָּעִיר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אִישׁ"
+      ],
+      "answerIsScript": true,
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-04",
+      "extra": true
+    },
+    {
+      "id": "c32-04.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "There is no man in the city.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֵין אִישׁ בָּעִיר"
+      ],
+      "answerIsScript": true,
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-04",
+      "extra": true
+    },
+    {
+      "id": "c32-04.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "There is no man in the city.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֵין אִישׁ בָּעִיר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-04",
+      "extra": true
+    },
+    {
+      "id": "c32-05.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַמֶּלֶךְ בָּנָה עִיר",
+      "stimulusIsScript": true,
+      "statement": "The king built a city.",
+      "answer": true,
+      "expected": "The king built a city.",
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-05",
+      "extra": true
+    },
+    {
+      "id": "c32-05.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַמֶּלֶךְ בָּנָה עִיר",
+      "stimulusIsScript": true,
+      "options": [
+        "The king built a city.",
+        "A king built a city.",
+        "The king built the city.",
+        "This is none other than the house of God."
+      ],
+      "answer": "The king built a city.",
+      "optionIsScript": false,
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-05",
+      "extra": true
+    },
+    {
+      "id": "c32-05.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The king built a city.",
+      "stimulus": "＿＿＿ בָּנָה עִיר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַמֶּלֶךְ"
+      ],
+      "answerIsScript": true,
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-05",
+      "extra": true
+    },
+    {
+      "id": "c32-05.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הַמֶּלֶךְ בָּנָה עִיר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The king built a city."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-05",
+      "extra": true
+    },
+    {
+      "id": "c32-05.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The king built a city.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַמֶּלֶךְ בָּנָה עִיר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-05",
+      "extra": true
+    },
+    {
+      "id": "c32-06.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָהָר גָּבֹהַּ מְאֹד",
+      "stimulusIsScript": true,
+      "statement": "A mountain is very high.",
+      "answer": false,
+      "expected": "The mountain is very high.",
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-06",
+      "extra": true
+    },
+    {
+      "id": "c32-06.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָהָר גָּבֹהַּ מְאֹד",
+      "stimulusIsScript": true,
+      "options": [
+        "The fire is on the altar.",
+        "Is not God in the heavens?",
+        "The mountain is very high.",
+        "A mountain is very high."
+      ],
+      "answer": "The mountain is very high.",
+      "optionIsScript": false,
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-06",
+      "extra": true
+    },
+    {
+      "id": "c32-06.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The mountain is very high.",
+      "stimulus": "＿＿＿ גָּבֹהַּ מְאֹד",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הָהָר"
+      ],
+      "answerIsScript": true,
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-06",
+      "extra": true
+    },
+    {
+      "id": "c32-06.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הָהָר גָּבֹהַּ מְאֹד",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The mountain is very high."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-06",
+      "extra": true
+    },
+    {
+      "id": "c32-06.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The mountain is very high.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָהָר גָּבֹהַּ מְאֹד"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-06",
+      "extra": true
+    },
+    {
+      "id": "c32-07.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָאֵשׁ עַל־הַמִּזְבֵּחַ",
+      "stimulusIsScript": true,
+      "statement": "The fire is on an altar.",
+      "answer": false,
+      "expected": "The fire is on the altar.",
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-07",
+      "extra": true
+    },
+    {
+      "id": "c32-07.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָאֵשׁ עַל־הַמִּזְבֵּחַ",
+      "stimulusIsScript": true,
+      "options": [
+        "The fire is on an altar.",
+        "The fire is on the altar.",
+        "The fire is to the altar.",
+        "A fire is on the altar."
+      ],
+      "answer": "The fire is on the altar.",
+      "optionIsScript": false,
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-07",
+      "extra": true
+    },
+    {
+      "id": "c32-07.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The fire is on the altar.",
+      "stimulus": "הָאֵשׁ ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "עַל־הַמִּזְבֵּחַ"
+      ],
+      "answerIsScript": true,
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-07",
+      "extra": true
+    },
+    {
+      "id": "c32-07.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The fire is on the altar.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאֵשׁ עַל־הַמִּזְבֵּחַ"
+      ],
+      "answerIsScript": true,
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-07",
+      "extra": true
+    },
+    {
+      "id": "c32-07.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The fire is on the altar.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאֵשׁ עַל־הַמִּזְבֵּחַ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-07",
+      "extra": true
+    },
+    {
+      "id": "c32-08.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "בֵּין הָעִיר וּבֵין הָהָר",
+      "stimulusIsScript": true,
+      "statement": "Between a city and the mountain",
+      "answer": false,
+      "expected": "Between the city and the mountain",
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-08",
+      "extra": true
+    },
+    {
+      "id": "c32-08.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "בֵּין הָעִיר וּבֵין הָהָר",
+      "stimulusIsScript": true,
+      "options": [
+        "The mountain is very high.",
+        "Between a city and the mountain",
+        "Between the city and the mountain",
+        "Between the city and a mountain"
+      ],
+      "answer": "Between the city and the mountain",
+      "optionIsScript": false,
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-08",
+      "extra": true
+    },
+    {
+      "id": "c32-08.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Between the city and the mountain",
+      "stimulus": "בֵּין הָעִיר ＿＿＿ הָהָר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וּבֵין"
+      ],
+      "answerIsScript": true,
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-08",
+      "extra": true
+    },
+    {
+      "id": "c32-08.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "בֵּין הָעִיר וּבֵין הָהָר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Between the city and the mountain"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-08",
+      "extra": true
+    },
+    {
+      "id": "c32-08.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Between the city and the mountain",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בֵּין הָעִיר וּבֵין הָהָר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-08",
+      "extra": true
+    },
+    {
+      "id": "c32-09.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הֲשָׁלוֹם לָאִישׁ",
+      "stimulusIsScript": true,
+      "statement": "Is it well with the man?",
+      "answer": true,
+      "expected": "Is it well with the man?",
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-09",
+      "extra": true
+    },
+    {
+      "id": "c32-09.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הֲשָׁלוֹם לָאִישׁ",
+      "stimulusIsScript": true,
+      "options": [
+        "The fire is on the altar.",
+        "Is it well with a man?",
+        "Is the land good?",
+        "Is it well with the man?"
+      ],
+      "answer": "Is it well with the man?",
+      "optionIsScript": false,
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-09",
+      "extra": true
+    },
+    {
+      "id": "c32-09.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Is it well with the man?",
+      "stimulus": "＿＿＿ לָאִישׁ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הֲשָׁלוֹם"
+      ],
+      "answerIsScript": true,
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-09",
+      "extra": true
+    },
+    {
+      "id": "c32-09.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הֲשָׁלוֹם לָאִישׁ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Is it well with the man?"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-09",
+      "extra": true
+    },
+    {
+      "id": "c32-09.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Is it well with the man?",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הֲשָׁלוֹם לָאִישׁ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-09",
+      "extra": true
+    },
+    {
+      "id": "c32-10.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אֵין אֱלֹהִים כֵּאלֹהֵינוּ",
+      "stimulusIsScript": true,
+      "statement": "There is no god like my God.",
+      "answer": false,
+      "expected": "There is no god like our God.",
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-10",
+      "extra": true
+    },
+    {
+      "id": "c32-10.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אֵין אֱלֹהִים כֵּאלֹהֵינוּ",
+      "stimulusIsScript": true,
+      "options": [
+        "There is no god like their God.",
+        "There is no god like my God.",
+        "There is no god like your God.",
+        "There is no god like our God."
+      ],
+      "answer": "There is no god like our God.",
+      "optionIsScript": false,
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-10",
+      "extra": true
+    },
+    {
+      "id": "c32-10.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: There is no god like our God.",
+      "stimulus": "אֵין אֱלֹהִים ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "כֵּאלֹהֵינוּ"
+      ],
+      "answerIsScript": true,
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-10",
+      "extra": true
+    },
+    {
+      "id": "c32-10.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "There is no god like our God.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֵין אֱלֹהִים כֵּאלֹהֵינוּ"
+      ],
+      "answerIsScript": true,
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-10",
+      "extra": true
+    },
+    {
+      "id": "c32-10.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "There is no god like our God.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֵין אֱלֹהִים כֵּאלֹהֵינוּ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-10",
+      "extra": true
+    },
+    {
+      "id": "c32-11.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַיּוֹם הַשְּׁלִישִׁי",
+      "stimulusIsScript": true,
+      "statement": "The third day",
+      "answer": true,
+      "expected": "The third day",
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-11",
+      "extra": true
+    },
+    {
+      "id": "c32-11.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַיּוֹם הַשְּׁלִישִׁי",
+      "stimulusIsScript": true,
+      "options": [
+        "A third day",
+        "The fire is on the altar.",
+        "The third day",
+        "There is no bread in the city."
+      ],
+      "answer": "The third day",
+      "optionIsScript": false,
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-11",
+      "extra": true
+    },
+    {
+      "id": "c32-11.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The third day",
+      "stimulus": "הַיּוֹם ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַשְּׁלִישִׁי"
+      ],
+      "answerIsScript": true,
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-11",
+      "extra": true
+    },
+    {
+      "id": "c32-11.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הַיּוֹם הַשְּׁלִישִׁי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The third day"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-11",
+      "extra": true
+    },
+    {
+      "id": "c32-11.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The third day",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַיּוֹם הַשְּׁלִישִׁי"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-11",
+      "extra": true
+    },
+    {
+      "id": "c32-12.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַמֶּלֶךְ בָּנָה מִזְבֵּחַ",
+      "stimulusIsScript": true,
+      "statement": "The king built an altar.",
+      "answer": true,
+      "expected": "The king built an altar.",
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-12",
+      "extra": true
+    },
+    {
+      "id": "c32-12.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַמֶּלֶךְ בָּנָה מִזְבֵּחַ",
+      "stimulusIsScript": true,
+      "options": [
+        "The king built an altar.",
+        "A king built an altar.",
+        "The king built the altar.",
+        "Is not God in the heavens?"
+      ],
+      "answer": "The king built an altar.",
+      "optionIsScript": false,
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-12",
+      "extra": true
+    },
+    {
+      "id": "c32-12.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The king built an altar.",
+      "stimulus": "הַמֶּלֶךְ בָּנָה ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "מִזְבֵּחַ"
+      ],
+      "answerIsScript": true,
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-12",
+      "extra": true
+    },
+    {
+      "id": "c32-12.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הַמֶּלֶךְ בָּנָה מִזְבֵּחַ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The king built an altar."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-12",
+      "extra": true
+    },
+    {
+      "id": "c32-12.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The king built an altar.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַמֶּלֶךְ בָּנָה מִזְבֵּחַ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-12",
+      "extra": true
+    },
+    {
+      "id": "c32-13.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הֲטוֹבָה הָאָרֶץ",
+      "stimulusIsScript": true,
+      "statement": "Is the land good?",
+      "answer": true,
+      "expected": "Is the land good?",
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-13",
+      "extra": true
+    },
+    {
+      "id": "c32-13.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הֲטוֹבָה הָאָרֶץ",
+      "stimulusIsScript": true,
+      "options": [
+        "Is not God in the heavens?",
+        "Is the land good?",
+        "There is no god like our God.",
+        "Is a land good?"
+      ],
+      "answer": "Is the land good?",
+      "optionIsScript": false,
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-13",
+      "extra": true
+    },
+    {
+      "id": "c32-13.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Is the land good?",
+      "stimulus": "＿＿＿ הָאָרֶץ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הֲטוֹבָה"
+      ],
+      "answerIsScript": true,
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-13",
+      "extra": true
+    },
+    {
+      "id": "c32-13.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "Is the land good?",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הֲטוֹבָה הָאָרֶץ"
+      ],
+      "answerIsScript": true,
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-13",
+      "extra": true
+    },
+    {
+      "id": "c32-13.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Is the land good?",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הֲטוֹבָה הָאָרֶץ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-13",
+      "extra": true
+    },
+    {
+      "id": "c32-14.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הֲלֹא אֱלֹהִים בַּשָּׁמַיִם",
+      "stimulusIsScript": true,
+      "statement": "Is not God to the heavens?",
+      "answer": false,
+      "expected": "Is not God in the heavens?",
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-14",
+      "extra": true
+    },
+    {
+      "id": "c32-14.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הֲלֹא אֱלֹהִים בַּשָּׁמַיִם",
+      "stimulusIsScript": true,
+      "options": [
+        "Is not God in the heavens?",
+        "Is not God in heavens?",
+        "Is God in the heavens?",
+        "Is not God to the heavens?"
+      ],
+      "answer": "Is not God in the heavens?",
+      "optionIsScript": false,
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-14",
+      "extra": true
+    },
+    {
+      "id": "c32-14.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Is not God in the heavens?",
+      "stimulus": "＿＿＿ אֱלֹהִים בַּשָּׁמַיִם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הֲלֹא"
+      ],
+      "answerIsScript": true,
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-14",
+      "extra": true
+    },
+    {
+      "id": "c32-14.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הֲלֹא אֱלֹהִים בַּשָּׁמַיִם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Is not God in the heavens?"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-14",
+      "extra": true
+    },
+    {
+      "id": "c32-14.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Is not God in the heavens?",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הֲלֹא אֱלֹהִים בַּשָּׁמַיִם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-14",
+      "extra": true
+    },
+    {
+      "id": "c32-15.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אֵין זֶה כִּי אִם־בֵּית אֱלֹהִים",
+      "stimulusIsScript": true,
+      "statement": "This is none other than the house of God.",
+      "answer": true,
+      "expected": "This is none other than the house of God.",
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-15",
+      "extra": true
+    },
+    {
+      "id": "c32-15.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אֵין זֶה כִּי אִם־בֵּית אֱלֹהִים",
+      "stimulusIsScript": true,
+      "options": [
+        "This is none other than a house of God.",
+        "This is none other than the house of God.",
+        "The fire is on the altar.",
+        "That is none other than the house of God."
+      ],
+      "answer": "This is none other than the house of God.",
+      "optionIsScript": false,
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-15",
+      "extra": true
+    },
+    {
+      "id": "c32-15.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: This is none other than the house of God.",
+      "stimulus": "＿＿＿ זֶה כִּי אִם־בֵּית אֱלֹהִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֵין"
+      ],
+      "answerIsScript": true,
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-15",
+      "extra": true
+    },
+    {
+      "id": "c32-15.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "אֵין זֶה כִּי אִם־בֵּית אֱלֹהִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "This is none other than the house of God."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-15",
+      "extra": true
+    },
+    {
+      "id": "c32-15.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "This is none other than the house of God.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֵין זֶה כִּי אִם־בֵּית אֱלֹהִים"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c32",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c32-15",
+      "extra": true
     }
   ]
 }

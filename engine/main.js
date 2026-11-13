@@ -17,6 +17,7 @@ const ctx = {
   progress: null,
   root: null,
   ladder: {},
+  ladderExtra: {},
 };
 
 const RUNG_NAMES = { 1: "True or false", 2: "Choose", 3: "Fill in", 4: "Translate", 5: "Translate with vowel points" };
@@ -151,32 +152,66 @@ function blockSummary(unitN, authored) {
   return [...blocks.values()].map((b) => ({ ...b, href: routeFor("block", unitN, { block: b.id }) }));
 }
 
+function rungKey(item) {
+  return `${item.extra ? "x" : ""}${item.rung || 0}`;
+}
+
+function extraNeeded(unitN, rung) {
+  const core = (ctx.ladder[String(unitN)] || {})[String(rung)] || 0;
+  const extra = (ctx.ladderExtra[String(unitN)] || {})[String(rung)] || 0;
+  const target = ctx.features && ctx.features.ladderTarget;
+  return target ? Math.min(extra, Math.max(0, target - core)) : extra;
+}
+
+function extraDone(unitN, rung) {
+  return (doneIds(unitN)[`x${rung}`] || []).length;
+}
+
+function satisfiedIn(unitN, authored) {
+  const out = masteredIn(unitN);
+  for (const it of authored) {
+    if (it.extra && it.rung && extraDone(unitN, it.rung) >= extraNeeded(unitN, it.rung)) out.add(it.id);
+  }
+  return out;
+}
+
 function ladderSummary(unitN, authored) {
   const mastered = masteredIn(unitN);
   const rungs = new Map();
   for (const it of authored) {
     if (!it.rung) continue;
-    const r = rungs.get(it.rung) || { rung: it.rung, label: RUNG_NAMES[it.rung] || `Rung ${it.rung}`, total: 0, done: 0 };
-    r.total += 1;
-    if (mastered.has(it.id)) r.done += 1;
+    const r = rungs.get(it.rung) || { rung: it.rung, label: RUNG_NAMES[it.rung] || `Rung ${it.rung}`, total: 0, done: 0, pool: 0 };
+    if (it.extra) r.pool += 1;
+    else {
+      r.total += 1;
+      if (mastered.has(it.id)) r.done += 1;
+    }
     rungs.set(it.rung, r);
   }
-  return [...rungs.values()].sort((a, b) => a.rung - b.rung)
-    .map((r) => ({ ...r, href: routeFor("rung", unitN, { rung: r.rung }) }));
+  return [...rungs.values()].sort((a, b) => a.rung - b.rung).map((r) => {
+    const need = extraNeeded(unitN, r.rung);
+    return {
+      ...r,
+      total: r.total + need,
+      done: r.done + Math.min(need, extraDone(unitN, r.rung)),
+      more: r.pool - need,
+      href: routeFor("rung", unitN, { rung: r.rung }),
+    };
+  });
 }
 
 function ladderComplete(unitN, authored) {
   const limit = (ctx.features && ctx.features.unlockRung) || 99;
-  const mastered = masteredIn(unitN);
+  const satisfied = satisfiedIn(unitN, authored);
   const needed = authored.filter((it) => it.rung && it.rung <= limit);
-  return needed.length > 0 && needed.every((it) => mastered.has(it.id));
+  return needed.length > 0 && needed.every((it) => satisfied.has(it.id));
 }
 
 function ladderStars(unitN) {
   const totals = ctx.ladder[String(unitN)];
   if (!totals) return null;
   const done = doneIds(unitN);
-  return Object.keys(totals).sort().map((r) => (done[r] || []).length >= totals[r]);
+  return Object.keys(totals).sort().map((r) => (done[r] || []).length >= totals[r] && extraDone(unitN, r) >= extraNeeded(unitN, r));
 }
 
 function unitWords(unitN) {
@@ -256,6 +291,7 @@ async function loadLesson(unitN) {
       : null,
     ladder: ladderSummary(unitN, authored),
     unlockRung: ctx.features && ctx.features.unlockRung,
+    ladderTarget: ctx.features && ctx.features.ladderTarget,
     resume: saved ? { href: routeFor("drill", unitN, saved), pos: saved.pos, total: saved.total } : null,
     unitDone: (ctx.progress.units[unitN] || {}).state === "done",
     test: ctx.features && ctx.features.tests && (ctx.ladder[String(unitN)] || unitWords(unitN).length)
@@ -286,7 +322,7 @@ function recordAnswer(unitN, item, correct) {
   if (!correct || !item.id || !(item.rung || item.block)) return;
   if (item.spiral && !item.rung) return;
   const u = ctx.progress.units[unitN] || {};
-  const key = String(item.rung || 0);
+  const key = rungKey(item);
   const done = { ...(u.done || {}) };
   const list = done[key] || [];
   if (!list.includes(item.id)) done[key] = [...list, item.id];
@@ -325,7 +361,7 @@ async function setItemDone(unitN, item, done) {
   } else {
     const u = ctx.progress.units[owner];
     if (u && u.done) {
-      const key = String(item.rung || 0);
+      const key = rungKey(item);
       u.done = { ...u.done, [key]: (u.done[key] || []).filter((id) => id !== item.id) };
     }
   }
@@ -449,6 +485,7 @@ async function loadDrill(unitN, opts = {}) {
   }
 
   const mastered = masteredIn(unitN);
+  const satisfied = satisfiedIn(unitN, authored);
   const reviewPlan = opts.block || opts.rung ? null : await buildReviewPlan(unitN, opts.seed);
   if (seq !== routeSeq) return;
   const items = withSeed(opts.seed, () => {
@@ -466,22 +503,31 @@ async function loadDrill(unitN, opts = {}) {
       vocabList: ctx.vocabList,
       progress: ctx.progress,
       authored,
-      mastered,
+      mastered: satisfied,
       reviewPlan,
       features: ctx.features,
     });
   });
   opts.ladder = authored.some((it) => it.rung);
+  opts.pool = authored;
   if (!items.length) return loadLesson(unitN);
   showDrill(unit, items, opts);
 }
 
-function showDrill(unit, items, opts) {
+function savedItems(saved, items, pool) {
+  if (!saved || !saved.ids) return items;
+  const byId = new Map([...(pool || []), ...items].map((it) => [it.id, it]));
+  const restored = saved.ids.map((id) => byId.get(id));
+  return restored.every(Boolean) ? restored : items;
+}
+
+function showDrill(unit, built, opts) {
   const unitN = unit.n;
   const group = opts.block || (opts.rung ? `rung${opts.rung}` : opts.words ? `words${opts.words}` : null);
   const key = sessionKey(unitN, group);
   const sessions = ctx.progress.sessions || {};
   const saved = !opts.single && sessions[key] && sessions[key].seed === opts.seed ? sessions[key] : null;
+  const items = savedItems(saved, built, opts.pool);
   const pos = saved ? saved.pos : Math.min(Math.max(parseInt(opts.pos, 10) || 1, 1), items.length);
   const where = (p) => (opts.words
     ? routeFor("words", unitN, { rung: opts.words, seed: opts.seed, pos: p })
@@ -515,7 +561,7 @@ function showDrill(unit, items, opts) {
       if (correct && item.rung && ladderComplete(owner, await authoredFor(owner))) markDone(owner);
       if (!opts.single) {
         ctx.progress.sessions = { ...(ctx.progress.sessions || {}) };
-        ctx.progress.sessions[key] = { seed: opts.seed, block: opts.block || null, rung: opts.rung || null, pos: state.next + 1, total: items.length, correct: state.correct, answered: state.answered, detail: state.detail, requeue: state.requeue || [] };
+        ctx.progress.sessions[key] = { seed: opts.seed, block: opts.block || null, rung: opts.rung || null, pos: state.next + 1, total: items.length, correct: state.correct, answered: state.answered, detail: state.detail, requeue: state.requeue || [], ids: items.map((it) => it.id) };
       }
       commit();
     },
@@ -565,9 +611,12 @@ async function bootstrap() {
   for (const item of vocabData.items) ctx.vocab[item.id] = item;
   ctx.progress = await loadProgress(ctx.course.id);
   try {
-    ctx.ladder = (await fetchJSON(ctx.base + "authored/ladder.json")).units || {};
+    const ladder = await fetchJSON(ctx.base + "authored/ladder.json");
+    ctx.ladder = ladder.units || {};
+    ctx.ladderExtra = ladder.extra || {};
   } catch {
     ctx.ladder = {};
+    ctx.ladderExtra = {};
   }
   initKeyboard(document.body, ctx.course.script.keyboard);
   window.addEventListener("hashchange", route);

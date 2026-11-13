@@ -19,6 +19,24 @@
       "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n72.jpg",
       "exwb": "davidson-s30#B5",
       "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "c48-01": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c48-02": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c48-03": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c48-04": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c48-05": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c48-06": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
     }
   },
   "items": [
@@ -201,6 +219,577 @@
       "blockLabel": "Davidson §30",
       "shape": "he-en",
       "src": "s30-B5"
+    },
+    {
+      "id": "c48-01.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "חוֹמַת הָעִיר",
+      "stimulusIsScript": true,
+      "statement": "A wall of the city",
+      "answer": false,
+      "expected": "The wall of the city",
+      "block": "c48",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c48-01",
+      "extra": true
+    },
+    {
+      "id": "c48-01.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "חוֹמַת הָעִיר",
+      "stimulusIsScript": true,
+      "options": [
+        "A wall of the city",
+        "Only he is wise.",
+        "The wall of a city",
+        "The wall of the city"
+      ],
+      "answer": "The wall of the city",
+      "optionIsScript": false,
+      "block": "c48",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c48-01",
+      "extra": true
+    },
+    {
+      "id": "c48-01.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The wall of the city",
+      "stimulus": "חוֹמַת ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הָעִיר"
+      ],
+      "answerIsScript": true,
+      "block": "c48",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c48-01",
+      "extra": true
+    },
+    {
+      "id": "c48-01.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "חוֹמַת הָעִיר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The wall of the city"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c48",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c48-01",
+      "extra": true
+    },
+    {
+      "id": "c48-01.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The wall of the city",
+      "stimulusIsScript": false,
+      "accepted": [
+        "חוֹמַת הָעִיר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c48",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c48-01",
+      "extra": true
+    },
+    {
+      "id": "c48-02.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַמְּלָאכָה גְּדוֹלָה",
+      "stimulusIsScript": true,
+      "statement": "The work is great.",
+      "answer": true,
+      "expected": "The work is great.",
+      "block": "c48",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c48-02",
+      "extra": true
+    },
+    {
+      "id": "c48-02.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַמְּלָאכָה גְּדוֹלָה",
+      "stimulusIsScript": true,
+      "options": [
+        "And your sin is atoned for.",
+        "A work is great.",
+        "The wall of the city",
+        "The work is great."
+      ],
+      "answer": "The work is great.",
+      "optionIsScript": false,
+      "block": "c48",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c48-02",
+      "extra": true
+    },
+    {
+      "id": "c48-02.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The work is great.",
+      "stimulus": "הַמְּלָאכָה ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "גְּדוֹלָה"
+      ],
+      "answerIsScript": true,
+      "block": "c48",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c48-02",
+      "extra": true
+    },
+    {
+      "id": "c48-02.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The work is great.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַמְּלָאכָה גְּדוֹלָה",
+        "גְּדוֹלָה הַמְּלָאכָה"
+      ],
+      "answerIsScript": true,
+      "block": "c48",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c48-02",
+      "extra": true
+    },
+    {
+      "id": "c48-02.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The work is great.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַמְּלָאכָה גְּדוֹלָה",
+        "גְּדוֹלָה הַמְּלָאכָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c48",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c48-02",
+      "extra": true
+    },
+    {
+      "id": "c48-03.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַכֹּהֵן זָבַח עַל־הַמִּזְבֵּחַ",
+      "stimulusIsScript": true,
+      "statement": "The priest sacrificed to the altar.",
+      "answer": false,
+      "expected": "The priest sacrificed on the altar.",
+      "block": "c48",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c48-03",
+      "extra": true
+    },
+    {
+      "id": "c48-03.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַכֹּהֵן זָבַח עַל־הַמִּזְבֵּחַ",
+      "stimulusIsScript": true,
+      "options": [
+        "A priest sacrificed on the altar.",
+        "The priest sacrificed on the altar.",
+        "The priest sacrificed from the altar.",
+        "The priest sacrificed to the altar."
+      ],
+      "answer": "The priest sacrificed on the altar.",
+      "optionIsScript": false,
+      "block": "c48",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c48-03",
+      "extra": true
+    },
+    {
+      "id": "c48-03.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The priest sacrificed on the altar.",
+      "stimulus": "הַכֹּהֵן זָבַח ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "עַל־הַמִּזְבֵּחַ"
+      ],
+      "answerIsScript": true,
+      "block": "c48",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c48-03",
+      "extra": true
+    },
+    {
+      "id": "c48-03.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הַכֹּהֵן זָבַח עַל־הַמִּזְבֵּחַ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The priest sacrificed on the altar."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c48",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c48-03",
+      "extra": true
+    },
+    {
+      "id": "c48-03.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The priest sacrificed on the altar.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַכֹּהֵן זָבַח עַל־הַמִּזְבֵּחַ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c48",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c48-03",
+      "extra": true
+    },
+    {
+      "id": "c48-04.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "רַק הוּא חָכָם",
+      "stimulusIsScript": true,
+      "statement": "Only she is wise.",
+      "answer": false,
+      "expected": "Only he is wise.",
+      "block": "c48",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c48-04",
+      "extra": true
+    },
+    {
+      "id": "c48-04.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "רַק הוּא חָכָם",
+      "stimulusIsScript": true,
+      "options": [
+        "Only he is wise.",
+        "The wall of the city",
+        "The priest sacrificed on the altar.",
+        "Only she is wise."
+      ],
+      "answer": "Only he is wise.",
+      "optionIsScript": false,
+      "block": "c48",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c48-04",
+      "extra": true
+    },
+    {
+      "id": "c48-04.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Only he is wise.",
+      "stimulus": "רַק הוּא ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "חָכָם"
+      ],
+      "answerIsScript": true,
+      "block": "c48",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c48-04",
+      "extra": true
+    },
+    {
+      "id": "c48-04.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "רַק הוּא חָכָם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Only he is wise."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c48",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c48-04",
+      "extra": true
+    },
+    {
+      "id": "c48-04.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Only he is wise.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "רַק הוּא חָכָם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c48",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c48-04",
+      "extra": true
+    },
+    {
+      "id": "c48-05.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וְחַטָּאתְךָ תְּכֻפָּר",
+      "stimulusIsScript": true,
+      "statement": "And your sin is atoned for.",
+      "answer": true,
+      "expected": "And your sin is atoned for.",
+      "block": "c48",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c48-05",
+      "extra": true
+    },
+    {
+      "id": "c48-05.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וְחַטָּאתְךָ תְּכֻפָּר",
+      "stimulusIsScript": true,
+      "options": [
+        "And our sin is atoned for.",
+        "And my sin is atoned for.",
+        "And your sin is atoned for.",
+        "And their sin is atoned for."
+      ],
+      "answer": "And your sin is atoned for.",
+      "optionIsScript": false,
+      "block": "c48",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c48-05",
+      "extra": true
+    },
+    {
+      "id": "c48-05.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: And your sin is atoned for.",
+      "stimulus": "וְחַטָּאתְךָ ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "תְּכֻפָּר"
+      ],
+      "answerIsScript": true,
+      "block": "c48",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c48-05",
+      "extra": true
+    },
+    {
+      "id": "c48-05.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וְחַטָּאתְךָ תְּכֻפָּר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "And your sin is atoned for."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c48",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c48-05",
+      "extra": true
+    },
+    {
+      "id": "c48-05.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And your sin is atoned for.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וְחַטָּאתְךָ תְּכֻפָּר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c48",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c48-05",
+      "extra": true
+    },
+    {
+      "id": "c48-06.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "שָׁלַט הָאָדָם בָּאָדָם",
+      "stimulusIsScript": true,
+      "statement": "Man ruled over man.",
+      "answer": true,
+      "expected": "Man ruled over man.",
+      "block": "c48",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c48-06",
+      "extra": true
+    },
+    {
+      "id": "c48-06.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "שָׁלַט הָאָדָם בָּאָדָם",
+      "stimulusIsScript": true,
+      "options": [
+        "Only he is wise.",
+        "Man ruled over man.",
+        "The wall of the city",
+        "And your sin is atoned for."
+      ],
+      "answer": "Man ruled over man.",
+      "optionIsScript": false,
+      "block": "c48",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c48-06",
+      "extra": true
+    },
+    {
+      "id": "c48-06.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Man ruled over man.",
+      "stimulus": "שָׁלַט ＿＿＿ בָּאָדָם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הָאָדָם"
+      ],
+      "answerIsScript": true,
+      "block": "c48",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c48-06",
+      "extra": true
+    },
+    {
+      "id": "c48-06.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "שָׁלַט הָאָדָם בָּאָדָם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Man ruled over man."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c48",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c48-06",
+      "extra": true
+    },
+    {
+      "id": "c48-06.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Man ruled over man.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שָׁלַט הָאָדָם בָּאָדָם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c48",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c48-06",
+      "extra": true
     }
   ]
 }

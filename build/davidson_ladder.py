@@ -32,12 +32,12 @@ ARCHAIC = {
     "art": "are", "hast": "have", "hath": "has", "doth": "does", "dost": "do", "shalt": "shall",
     "wilt": "will", "wast": "were", "canst": "can", "saith": "says", "spake": "spoke", "unto": "to",
 }
-POSS = {"my": ["thy", "his", "our"], "thy": ["my", "his", "your"], "his": ["her", "my", "their"],
+POSS = {"my": ["your", "his", "our"], "thy": ["my", "his", "your"], "his": ["her", "my", "their"],
         "her": ["his", "my", "their"], "our": ["my", "their", "your"], "your": ["our", "my", "their"],
         "their": ["his", "our", "your"], "thine": ["my", "his", "their"]}
 DEMS = {"this": "that", "that": "this", "these": "those", "those": "these"}
 PREP_GROUPS = [{"in", "on", "upon", "at"}, {"to", "unto", "toward", "towards"}, {"from"}]
-SUBJ = {"i": ["we", "they"], "we": ["I", "they"], "they": ["we", "I"], "he": ["she"], "she": ["he"],
+SUBJ = {"i": ["you", "he"], "we": ["they", "you"], "they": ["we", "you"], "he": ["she"], "she": ["he"],
         "thou": ["I", "she"]}
 OBJ = {"me": ["him", "us"], "him": ["me", "them"], "us": ["them", "me"], "them": ["us", "him"],
        "thee": ["me", "him"]}

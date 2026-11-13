@@ -180,6 +180,11 @@ def click_option(page, selector, answer):
     return False
 
 
+def rung_key(item):
+    """Progress key of a ladder item: its rung, prefixed with x for corpus items (they top up a rung)."""
+    return ("x" if item.get("extra") else "") + str(item["rung"])
+
+
 def submit(page):
     """Click Check; if the drill offers a retry (course feature `retries`), give up so the answer is shown."""
     page.click(".drill-feedback .gate-btn")
@@ -983,7 +988,7 @@ def run_modes(browser, page, url, vocab, authored, course_dir, failures):
     page.click(".drill-feedback .gate-btn")
     page.wait_for_selector(".drill-ok")
     check("Practised" in page.text_content(".drill-ok"), "right on the second try is practised, not done", failures)
-    check(it["id"] not in (stored().get("units", {}).get(str(n), {}).get("done", {}).get("2", [])),
+    check(it["id"] not in (stored().get("units", {}).get(str(n), {}).get("done", {}).get(rung_key(it), [])),
           "a second-try answer earns no credit", failures)
     page.click(".drill-feedback .gate-btn")
     page.wait_for_selector(".ex--mcq")
@@ -1001,7 +1006,7 @@ def run_modes(browser, page, url, vocab, authored, course_dir, failures):
     click_value(it["answer"])
     page.click(".drill-feedback .gate-btn")
     page.wait_for_selector(".drill-ok")
-    check(it["id"] in stored()["units"][str(n)]["done"]["2"], "a first-try answer is credited", failures)
+    check(it["id"] in stored()["units"][str(n)]["done"][rung_key(it)], "a first-try answer is credited", failures)
     page.click(".drill-feedback .gate-btn")
     page.wait_for_selector(".ex--mcq")
     page.reload()
@@ -1094,11 +1099,11 @@ def run_progress_ops(page, url, authored, course_dir, failures):
     check(page.text_content(".item-mark") == "Mark as done", "an unanswered exercise offers Mark as done", failures)
     page.click(".item-mark")
     page.wait_for_selector(".item-mark--done")
-    done = (stored()["units"].get(str(n)) or {}).get("done", {}).get(str(item["rung"]), [])
+    done = (stored()["units"].get(str(n)) or {}).get("done", {}).get(rung_key(item), [])
     check(item["id"] in done, f"Mark as done records {item['id']} as done", failures)
     page.click(".item-mark")
     page.wait_for_selector(".item-mark:not(.item-mark--done)")
-    done = (stored()["units"].get(str(n)) or {}).get("done", {}).get(str(item["rung"]), [])
+    done = (stored()["units"].get(str(n)) or {}).get("done", {}).get(rung_key(item), [])
     check(item["id"] not in done, "Mark as not done removes it again", failures)
     page.click(".item-mark")
     page.wait_for_selector(".item-mark--done")
@@ -1291,7 +1296,7 @@ def run_ladder(browser, page, url, vocab, authored, course_dir, failures):
     need = [it for it in authored[small] if it.get("rung") and it["rung"] <= limit]
     done = {}
     for it in need[:-1]:
-        done.setdefault(str(it["rung"]), []).append(it["id"])
+        done.setdefault(rung_key(it), []).append(it["id"])
     cid = course["id"]
     page.evaluate("""([cid, n, done]) => {
       const k = "lang-research.progress." + cid;
@@ -1316,6 +1321,86 @@ def run_ladder(browser, page, url, vocab, authored, course_dir, failures):
           f"unit {small} unlocks the next once rungs 1–{limit} are all right", failures)
     stars = page.text_content(f".unit[data-unit='{small}'] .unit-stars") or ""
     check(stars.startswith("★" * limit), f"unit {small} tile shows {limit} stars ({stars})", failures)
+    return 1
+
+
+def run_corpus(page, url, authored, course_dir, failures):
+    """P12-T5: new sentences top a rung up to the course's target; the rest are practice; retakes differ."""
+    course = json.loads((Path(course_dir) / "course.json").read_text(encoding="utf-8"))
+    ladder = json.loads((Path(course_dir) / "authored" / "ladder.json").read_text(encoding="utf-8"))
+    target = (course.get("features") or {}).get("ladderTarget")
+    limit = (course.get("features") or {}).get("unlockRung", 3)
+    base = url.split("#")[0]
+    units = {u["n"]: u for u in course["units"]}
+    cid = course["id"]
+    print("items per unit per rung (book + new):")
+    for n in sorted(set(ladder["units"]) | set(ladder["extra"]), key=int):
+        core, extra = ladder["units"].get(n, {}), ladder["extra"].get(n, {})
+        print(f"  {n:>2}: " + "  ".join(f"{r}:{core.get(r, 0)}+{extra.get(r, 0)}" for r in sorted(set(core) | set(extra))))
+    check(bool(target), "course sets ladderTarget", failures)
+    if not target:
+        return 0
+    cands = [int(n) for n in ladder["extra"] if 0 < ladder["units"][n].get("1", 0) < target
+             and target - ladder["units"][n]["1"] < ladder["extra"][n].get("1", 0)]
+    check(bool(cands), "a unit has book exercises topped up from a larger pool of new sentences", failures)
+    if not cands:
+        return 0
+    n = min(cands)
+    slug = units[n].get("slug") or f"u{n}"
+    items = [it for it in authored[n] if it.get("rung")]
+    core = {r: [it for it in items if it["rung"] == r and not it.get("extra")] for r in range(1, limit + 1)}
+    extra = {r: [it for it in items if it["rung"] == r and it.get("extra")] for r in range(1, limit + 1)}
+    need = {r: min(len(extra[r]), target - len(core[r])) for r in core}
+
+    page.goto(f"{base}#/{slug}")
+    page.wait_for_selector(".ladder .ladder-row")
+    row = page.query_selector(".ladder .ladder-row[data-rung='1']")
+    count = row.query_selector(".blocks-count").text_content()
+    check(count == f"0 / {len(core[1]) + need[1]}", f"rung 1 counts the book's exercises plus the top-up ({count})", failures)
+    more = row.query_selector(".ladder-more")
+    check(more is not None and f"+{len(extra[1]) - need[1]}" in more.text_content(), "rung 1 shows the extra sentences left to practise", failures)
+    check("topped up" in page.text_content(".ladder .ladder-note"), "the ladder note explains the top-up", failures)
+
+    done = {}
+    for r in core:
+        done[str(r)] = [it["id"] for it in core[r]]
+        done[f"x{r}"] = [it["id"] for it in extra[r][: need[r] - (1 if r == limit else 0)]]
+    page.evaluate("""([cid, n, done]) => {
+      const k = "lang-research.progress." + cid;
+      const p = JSON.parse(localStorage.getItem(k) || "null") || { schema: "progress-v1.json", courseId: cid,
+        student: { name: "", forkRemote: "" }, currentUnit: 1, units: {}, knownSet: [], xp: 0, lastAttemptBranch: null, updatedAt: null };
+      p.units[n] = { state: "in-progress", lessonRead: true, done };
+      p.currentUnit = n;
+      p.sessions = {};
+      localStorage.setItem(k, JSON.stringify(p));
+    }""", [cid, n, done])
+    page.reload()
+    page.wait_for_selector(".ladder .ladder-row")
+    page.goto(f"{base}#/")
+    page.wait_for_selector(".roadmap")
+    cls = page.get_attribute(f".unit[data-unit='{n}']", "class") or ""
+    check("unit--done" not in cls, f"unit {n} is not done one new sentence short of the target", failures)
+    last = extra[limit][need[limit] - 1]
+    page.goto(f"{base}#/{slug}/item/{last['id']}")
+    page.wait_for_selector(".drill-stage")
+    answer_authored(page, [last])
+    submit(page)
+    page.wait_for_selector(".drill-ok, .drill-no")
+    page.goto(f"{base}#/")
+    page.wait_for_selector(".roadmap")
+    cls = page.get_attribute(f".unit[data-unit='{n}']", "class") or ""
+    check("unit--done" in cls, f"unit {n} is done once every rung reaches {target} with new sentences", failures)
+    left = [it for r in core for it in extra[r][need[r]:]]
+    check(bool(left), f"{len(left)} new sentences stay for practice after unlocking", failures)
+
+    big = max((int(u) for u in ladder["extra"]), key=lambda u: sum(ladder["extra"][str(u)].values()) + sum(ladder["units"][str(u)].values()))
+    big_slug = units[big].get("slug") or f"u{big}"
+    firsts = set()
+    for seed in ("a1", "b2", "c3", "d4"):
+        page.goto(f"{base}#/{big_slug}/test/{seed}")
+        page.wait_for_selector(".test-next")
+        firsts.add(page.text_content(".drill-stage"))
+    check(len(firsts) >= 3, f"unit {big} tests with different seeds start with different questions ({len(firsts)} of 4)", failures)
     return 1
 
 
@@ -1540,6 +1625,11 @@ def main():
         help="drill mode (retry with a hint, requeue, first-try credit) and test mode (unit, part, final)",
     )
     ap.add_argument(
+        "--corpus",
+        action="store_true",
+        help="corpus expansion: new sentences top a rung up to ladderTarget, the rest stay for practice, retakes differ",
+    )
+    ap.add_argument(
         "--words",
         action="store_true",
         help="words track: per-word ladder, tap-to-pair matching (misses, keys, cards, phone width)",
@@ -1588,6 +1678,10 @@ def main():
                 print("=== routes / sessions / block progress ===")
                 check(run_routes(browser, page, url, vocab, authored, args.course, failures) == 1,
                       "course has authored items with blocks to route to", failures)
+                browser.close()
+            elif args.corpus:
+                print("=== corpus expansion ===")
+                check(run_corpus(page, url, authored, args.course, failures) == 1, "course has new sentences", failures)
                 browser.close()
             elif args.modes:
                 print("=== drill mode and test mode ===")
@@ -1647,13 +1741,13 @@ def main():
                         )
 
             stored = None
-            if not (args.exercise_types or args.authored or args.accessibility or args.keyboard or args.routes or args.ladder or args.progress_ops or args.words or args.modes):
+            if not (args.exercise_types or args.authored or args.accessibility or args.keyboard or args.routes or args.ladder or args.progress_ops or args.words or args.modes or args.corpus):
                 with open(f"{args.course}/course.json", encoding="utf-8") as f:
                     cid = json.load(f)["id"]
                 stored = page.evaluate("k => localStorage.getItem(k)", f"lang-research.progress.{cid}")
             browser.close()
 
-        if stored is not None or (not (args.exercise_types or args.authored or args.accessibility or args.keyboard or args.routes or args.ladder or args.progress_ops or args.words or args.modes)):
+        if stored is not None or (not (args.exercise_types or args.authored or args.accessibility or args.keyboard or args.routes or args.ladder or args.progress_ops or args.words or args.modes or args.corpus)):
             progress = json.loads(stored or "{}")
             for unit_n in range(1, args.units + 1):
                 state = progress.get("units", {}).get(str(unit_n), {}).get("state")
@@ -1687,6 +1781,8 @@ def main():
         print("\nE2E PASS — keyboard/single-option harness: Enter advances after checking; no single-option choices")
     elif args.routes:
         print("\nE2E PASS — routes: seeded URLs resume after reload, item codes, per-block progress")
+    elif args.corpus:
+        print("\nE2E PASS — corpus: new sentences top rungs up to the target, the rest stay for practice, retakes differ")
     elif args.modes:
         print("\nE2E PASS — drill mode (retry, requeue, first-try credit) and test mode (unit, part, final)")
     elif args.words:

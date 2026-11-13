@@ -262,6 +262,40 @@
       "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n121.jpg",
       "exwb": "davidson-s43#B4",
       "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "c63-01": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c63-02": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c63-03": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c63-04": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c63-05": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c63-06": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c63-07": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c63-08": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c63-09": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c63-10": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "b-Prov-29-4": {
+      "citation": "Proverbs 29:4. Hebrew: Westminster Leningrad Codex (public domain) via the Open Scriptures Hebrew Bible (morphology CC BY 4.0). English: World English Bible (public domain)",
+      "url": "https://worldenglish.bible"
     }
   },
   "items": [
@@ -2060,7 +2094,7 @@
       "stimulusIsScript": true,
       "options": [
         "As for me, I will make all my goodness pass before him, and I will be gracious to whomsoever I will be gracious, and I will have compassion on whomsoever I will have compassion.",
-        "As for me, we will make all my goodness pass before thee, and I will be gracious to whomsoever I will be gracious, and I will have compassion on whomsoever I will have compassion.",
+        "As for me, you will make all my goodness pass before thee, and I will be gracious to whomsoever I will be gracious, and I will have compassion on whomsoever I will have compassion.",
         "As for me, I will make all my goodness pass before thee, and I will be gracious to whomsoever I will be gracious, and I will have compassion on whomsoever I will have compassion.",
         "As for me, I will make all his goodness pass before thee, and I will be gracious to whomsoever I will be gracious, and I will have compassion on whomsoever I will have compassion."
       ],
@@ -2428,7 +2462,7 @@
       "options": [
         "I will curse (אר) them that curse (קל) me.",
         "I will curse (אר) them this curse (קל) thee.",
-        "We will curse (אר) them that curse (קל) thee.",
+        "You will curse (אר) them that curse (קל) thee.",
         "I will curse (אר) them that curse (קל) thee."
       ],
       "answer": "I will curse (אר) them that curse (קל) thee.",
@@ -3026,6 +3060,1016 @@
       "blockLabel": "Davidson §43",
       "shape": "en-he",
       "src": "s43-B4"
+    },
+    {
+      "id": "c63-01.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "חָנֵּנִי אֱלֹהִים",
+      "stimulusIsScript": true,
+      "statement": "Be gracious from me, O God.",
+      "answer": false,
+      "expected": "Be gracious to me, O God.",
+      "block": "c63",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c63-01",
+      "extra": true
+    },
+    {
+      "id": "c63-01.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "חָנֵּנִי אֱלֹהִים",
+      "stimulusIsScript": true,
+      "options": [
+        "Be gracious to him, O God.",
+        "Be gracious in me, O God.",
+        "Be gracious to me, O God.",
+        "Be gracious from me, O God."
+      ],
+      "answer": "Be gracious to me, O God.",
+      "optionIsScript": false,
+      "block": "c63",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c63-01",
+      "extra": true
+    },
+    {
+      "id": "c63-01.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Be gracious to me, O God.",
+      "stimulus": "＿＿＿ אֱלֹהִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "חָנֵּנִי"
+      ],
+      "answerIsScript": true,
+      "block": "c63",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c63-01",
+      "extra": true
+    },
+    {
+      "id": "c63-01.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "חָנֵּנִי אֱלֹהִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Be gracious to me, O God."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c63",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c63-01",
+      "extra": true
+    },
+    {
+      "id": "c63-01.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Be gracious to me, O God.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "חָנֵּנִי אֱלֹהִים"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c63",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c63-01",
+      "extra": true
+    },
+    {
+      "id": "c63-02.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיִּתְפַּלֵּל אֶל־יְהוָה",
+      "stimulusIsScript": true,
+      "statement": "She prayed to Yahweh.",
+      "answer": false,
+      "expected": "He prayed to Yahweh.",
+      "block": "c63",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c63-02",
+      "extra": true
+    },
+    {
+      "id": "c63-02.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיִּתְפַּלֵּל אֶל־יְהוָה",
+      "stimulusIsScript": true,
+      "options": [
+        "He prayed to Yahweh.",
+        "He prayed in Yahweh.",
+        "He prayed from Yahweh.",
+        "She prayed to Yahweh."
+      ],
+      "answer": "He prayed to Yahweh.",
+      "optionIsScript": false,
+      "block": "c63",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c63-02",
+      "extra": true
+    },
+    {
+      "id": "c63-02.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: He prayed to Yahweh.",
+      "stimulus": "＿＿＿ אֶל־יְהוָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וַיִּתְפַּלֵּל"
+      ],
+      "answerIsScript": true,
+      "block": "c63",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c63-02",
+      "extra": true
+    },
+    {
+      "id": "c63-02.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וַיִּתְפַּלֵּל אֶל־יְהוָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "He prayed to Yahweh.",
+        "He prayed to the Lord."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c63",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c63-02",
+      "extra": true
+    },
+    {
+      "id": "c63-02.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "He prayed to Yahweh.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיִּתְפַּלֵּל אֶל־יְהוָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c63",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c63-02",
+      "extra": true
+    },
+    {
+      "id": "c63-03.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַגּוֹרָל הָרִאשׁוֹן",
+      "stimulusIsScript": true,
+      "statement": "A first lot",
+      "answer": false,
+      "expected": "The first lot",
+      "block": "c63",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c63-03",
+      "extra": true
+    },
+    {
+      "id": "c63-03.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַגּוֹרָל הָרִאשׁוֹן",
+      "stimulusIsScript": true,
+      "options": [
+        "A first lot",
+        "A contribution to Yahweh",
+        "The first lot",
+        "From the east"
+      ],
+      "answer": "The first lot",
+      "optionIsScript": false,
+      "block": "c63",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c63-03",
+      "extra": true
+    },
+    {
+      "id": "c63-03.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The first lot",
+      "stimulus": "הַגּוֹרָל ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הָרִאשׁוֹן"
+      ],
+      "answerIsScript": true,
+      "block": "c63",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c63-03",
+      "extra": true
+    },
+    {
+      "id": "c63-03.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הַגּוֹרָל הָרִאשׁוֹן",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The first lot"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c63",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c63-03",
+      "extra": true
+    },
+    {
+      "id": "c63-03.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The first lot",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַגּוֹרָל הָרִאשׁוֹן"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c63",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c63-03",
+      "extra": true
+    },
+    {
+      "id": "c63-04.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "כְּלֵי בַרְזֶל",
+      "stimulusIsScript": true,
+      "statement": "Vessels of iron",
+      "answer": true,
+      "expected": "Vessels of iron",
+      "block": "c63",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c63-04",
+      "extra": true
+    },
+    {
+      "id": "c63-04.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "כְּלֵי בַרְזֶל",
+      "stimulusIsScript": true,
+      "options": [
+        "I have set my bow in the cloud.",
+        "The horns of the altar",
+        "Vessels of iron",
+        "He measured the gate."
+      ],
+      "answer": "Vessels of iron",
+      "optionIsScript": false,
+      "block": "c63",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c63-04",
+      "extra": true
+    },
+    {
+      "id": "c63-04.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Vessels of iron",
+      "stimulus": "＿＿＿ בַרְזֶל",
+      "stimulusIsScript": true,
+      "accepted": [
+        "כְּלֵי"
+      ],
+      "answerIsScript": true,
+      "block": "c63",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c63-04",
+      "extra": true
+    },
+    {
+      "id": "c63-04.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "כְּלֵי בַרְזֶל",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Vessels of iron"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c63",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c63-04",
+      "extra": true
+    },
+    {
+      "id": "c63-04.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Vessels of iron",
+      "stimulusIsScript": false,
+      "accepted": [
+        "כְּלֵי בַרְזֶל"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c63",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c63-04",
+      "extra": true
+    },
+    {
+      "id": "c63-05.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "קַרְנוֹת הַמִּזְבֵּחַ",
+      "stimulusIsScript": true,
+      "statement": "The horns of an altar",
+      "answer": false,
+      "expected": "The horns of the altar",
+      "block": "c63",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c63-05",
+      "extra": true
+    },
+    {
+      "id": "c63-05.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "קַרְנוֹת הַמִּזְבֵּחַ",
+      "stimulusIsScript": true,
+      "options": [
+        "The horns of an altar",
+        "Horns of the altar",
+        "A contribution to Yahweh",
+        "The horns of the altar"
+      ],
+      "answer": "The horns of the altar",
+      "optionIsScript": false,
+      "block": "c63",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c63-05",
+      "extra": true
+    },
+    {
+      "id": "c63-05.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The horns of the altar",
+      "stimulus": "קַרְנוֹת ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַמִּזְבֵּחַ"
+      ],
+      "answerIsScript": true,
+      "block": "c63",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c63-05",
+      "extra": true
+    },
+    {
+      "id": "c63-05.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "קַרְנוֹת הַמִּזְבֵּחַ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The horns of the altar"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c63",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c63-05",
+      "extra": true
+    },
+    {
+      "id": "c63-05.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The horns of the altar",
+      "stimulusIsScript": false,
+      "accepted": [
+        "קַרְנוֹת הַמִּזְבֵּחַ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c63",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c63-05",
+      "extra": true
+    },
+    {
+      "id": "c63-06.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אֶת־קַשְׁתִּי נָתַתִּי בֶּעָנָן",
+      "stimulusIsScript": true,
+      "statement": "I have set my bow in a cloud.",
+      "answer": false,
+      "expected": "I have set my bow in the cloud.",
+      "block": "c63",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c63-06",
+      "extra": true
+    },
+    {
+      "id": "c63-06.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אֶת־קַשְׁתִּי נָתַתִּי בֶּעָנָן",
+      "stimulusIsScript": true,
+      "options": [
+        "I have set my bow in a cloud.",
+        "I have set my bow to the cloud.",
+        "I have set our bow in the cloud.",
+        "I have set my bow in the cloud."
+      ],
+      "answer": "I have set my bow in the cloud.",
+      "optionIsScript": false,
+      "block": "c63",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c63-06",
+      "extra": true
+    },
+    {
+      "id": "c63-06.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: I have set my bow in the cloud.",
+      "stimulus": "אֶת־קַשְׁתִּי ＿＿＿ בֶּעָנָן",
+      "stimulusIsScript": true,
+      "accepted": [
+        "נָתַתִּי"
+      ],
+      "answerIsScript": true,
+      "block": "c63",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c63-06",
+      "extra": true
+    },
+    {
+      "id": "c63-06.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "I have set my bow in the cloud.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֶת־קַשְׁתִּי נָתַתִּי בֶּעָנָן"
+      ],
+      "answerIsScript": true,
+      "block": "c63",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c63-06",
+      "extra": true
+    },
+    {
+      "id": "c63-06.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "I have set my bow in the cloud.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֶת־קַשְׁתִּי נָתַתִּי בֶּעָנָן"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c63",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c63-06",
+      "extra": true
+    },
+    {
+      "id": "c63-07.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "מִקְדַּשׁ יְהוָה",
+      "stimulusIsScript": true,
+      "statement": "The sanctuary of Yahweh",
+      "answer": true,
+      "expected": "The sanctuary of Yahweh",
+      "block": "c63",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c63-07",
+      "extra": true
+    },
+    {
+      "id": "c63-07.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "מִקְדַּשׁ יְהוָה",
+      "stimulusIsScript": true,
+      "options": [
+        "A contribution to Yahweh",
+        "The first lot",
+        "A sanctuary of Yahweh",
+        "The sanctuary of Yahweh"
+      ],
+      "answer": "The sanctuary of Yahweh",
+      "optionIsScript": false,
+      "block": "c63",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c63-07",
+      "extra": true
+    },
+    {
+      "id": "c63-07.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The sanctuary of Yahweh",
+      "stimulus": "＿＿＿ יְהוָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "מִקְדַּשׁ"
+      ],
+      "answerIsScript": true,
+      "block": "c63",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c63-07",
+      "extra": true
+    },
+    {
+      "id": "c63-07.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "מִקְדַּשׁ יְהוָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The sanctuary of Yahweh",
+        "The sanctuary of the Lord"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c63",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c63-07",
+      "extra": true
+    },
+    {
+      "id": "c63-07.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The sanctuary of Yahweh",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מִקְדַּשׁ יְהוָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c63",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c63-07",
+      "extra": true
+    },
+    {
+      "id": "c63-08.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "מִמִּזְרָח",
+      "stimulusIsScript": true,
+      "statement": "From an east",
+      "answer": false,
+      "expected": "From the east",
+      "block": "c63",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c63-08",
+      "extra": true
+    },
+    {
+      "id": "c63-08.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "מִמִּזְרָח",
+      "stimulusIsScript": true,
+      "options": [
+        "To the east",
+        "From an east",
+        "From the east",
+        "In the east"
+      ],
+      "answer": "From the east",
+      "optionIsScript": false,
+      "block": "c63",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c63-08",
+      "extra": true
+    },
+    {
+      "id": "c63-08.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "מִמִּזְרָח",
+      "stimulusIsScript": true,
+      "accepted": [
+        "From the east"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c63",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c63-08",
+      "extra": true
+    },
+    {
+      "id": "c63-08.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "From the east",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מִמִּזְרָח"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c63",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c63-08",
+      "extra": true
+    },
+    {
+      "id": "c63-09.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיָּמָד אֶת־הַשַּׁעַר",
+      "stimulusIsScript": true,
+      "statement": "He measured the gate.",
+      "answer": true,
+      "expected": "He measured the gate.",
+      "block": "c63",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c63-09",
+      "extra": true
+    },
+    {
+      "id": "c63-09.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיָּמָד אֶת־הַשַּׁעַר",
+      "stimulusIsScript": true,
+      "options": [
+        "He measured the gate.",
+        "Vessels of iron",
+        "She measured the gate.",
+        "He measured a gate."
+      ],
+      "answer": "He measured the gate.",
+      "optionIsScript": false,
+      "block": "c63",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c63-09",
+      "extra": true
+    },
+    {
+      "id": "c63-09.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: He measured the gate.",
+      "stimulus": "וַיָּמָד ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶת־הַשַּׁעַר"
+      ],
+      "answerIsScript": true,
+      "block": "c63",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c63-09",
+      "extra": true
+    },
+    {
+      "id": "c63-09.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וַיָּמָד אֶת־הַשַּׁעַר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "He measured the gate."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c63",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c63-09",
+      "extra": true
+    },
+    {
+      "id": "c63-09.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "He measured the gate.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיָּמָד אֶת־הַשַּׁעַר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c63",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c63-09",
+      "extra": true
+    },
+    {
+      "id": "c63-10.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "תְּרוּמָה לַיהוָה",
+      "stimulusIsScript": true,
+      "statement": "A contribution in Yahweh",
+      "answer": false,
+      "expected": "A contribution to Yahweh",
+      "block": "c63",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c63-10",
+      "extra": true
+    },
+    {
+      "id": "c63-10.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "תְּרוּמָה לַיהוָה",
+      "stimulusIsScript": true,
+      "options": [
+        "A contribution to Yahweh",
+        "A contribution in Yahweh",
+        "The contribution to Yahweh",
+        "A contribution from Yahweh"
+      ],
+      "answer": "A contribution to Yahweh",
+      "optionIsScript": false,
+      "block": "c63",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c63-10",
+      "extra": true
+    },
+    {
+      "id": "c63-10.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: A contribution to Yahweh",
+      "stimulus": "תְּרוּמָה ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "לַיהוָה"
+      ],
+      "answerIsScript": true,
+      "block": "c63",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c63-10",
+      "extra": true
+    },
+    {
+      "id": "c63-10.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "תְּרוּמָה לַיהוָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "A contribution to Yahweh",
+        "A contribution to the Lord"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c63",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c63-10",
+      "extra": true
+    },
+    {
+      "id": "c63-10.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "A contribution to Yahweh",
+      "stimulusIsScript": false,
+      "accepted": [
+        "תְּרוּמָה לַיהוָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c63",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c63-10",
+      "extra": true
+    },
+    {
+      "id": "b-Prov-29-4.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "מֶלֶךְ בְּמִשְׁפָּט יַעֲמִיד אָרֶץ וְאִישׁ תְּרוּמוֹת יֶהֶרְסֶנָּה",
+      "stimulusIsScript": true,
+      "statement": "The king by justice makes the land stable, but he who takes bribes tears it down.",
+      "answer": true,
+      "expected": "The king by justice makes the land stable, but he who takes bribes tears it down.",
+      "block": "b63",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Prov-29-4",
+      "extra": true
+    },
+    {
+      "id": "b-Prov-29-4.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "מֶלֶךְ בְּמִשְׁפָּט יַעֲמִיד אָרֶץ וְאִישׁ תְּרוּמוֹת יֶהֶרְסֶנָּה",
+      "stimulusIsScript": true,
+      "options": [
+        "The king by justice makes a land stable, but he who takes bribes tears it down.",
+        "A king by justice makes the land stable, but he who takes bribes tears it down.",
+        "The king by justice makes the land stable, but he who takes bribes tears it down.",
+        "The king by justice makes the land stable, but she who takes bribes tears it down."
+      ],
+      "answer": "The king by justice makes the land stable, but he who takes bribes tears it down.",
+      "optionIsScript": false,
+      "block": "b63",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Prov-29-4",
+      "extra": true
+    },
+    {
+      "id": "b-Prov-29-4.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The king by justice makes the land stable, but he who takes bribes tears it down.",
+      "stimulus": "מֶלֶךְ בְּמִשְׁפָּט יַעֲמִיד אָרֶץ וְאִישׁ תְּרוּמוֹת ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "יֶהֶרְסֶנָּה"
+      ],
+      "answerIsScript": true,
+      "block": "b63",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Prov-29-4",
+      "extra": true
+    },
+    {
+      "id": "b-Prov-29-4.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "מֶלֶךְ בְּמִשְׁפָּט יַעֲמִיד אָרֶץ וְאִישׁ תְּרוּמוֹת יֶהֶרְסֶנָּה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The king by justice makes the land stable, but he who takes bribes tears it down."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "b63",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Prov-29-4",
+      "extra": true
     }
   ]
 }

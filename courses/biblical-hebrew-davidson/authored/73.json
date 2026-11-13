@@ -1,0 +1,756 @@
+{
+  "schema": "authored-exercises-v1.json",
+  "unit": 73,
+  "sources": {
+    "c73-01": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c73-02": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c73-03": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c73-04": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c73-05": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c73-06": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c73-07": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "b-Eccl-3-16": {
+      "citation": "Ecclesiastes 3:16. Hebrew: Westminster Leningrad Codex (public domain) via the Open Scriptures Hebrew Bible (morphology CC BY 4.0). English: World English Bible (public domain)",
+      "url": "https://worldenglish.bible"
+    }
+  },
+  "items": [
+    {
+      "id": "c73-01.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַחִנָּם יָרֵא אִיּוֹב אֱלֹהִים",
+      "stimulusIsScript": true,
+      "statement": "And all the people shall say, Amen.",
+      "answer": false,
+      "expected": "Does Job fear God for nothing?",
+      "block": "c73",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c73-01",
+      "extra": true
+    },
+    {
+      "id": "c73-01.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַחִנָּם יָרֵא אִיּוֹב אֱלֹהִים",
+      "stimulusIsScript": true,
+      "options": [
+        "Does Job fear God for nothing?",
+        "And all the people shall say, Amen.",
+        "On the roof of the house",
+        "Amen, amen."
+      ],
+      "answer": "Does Job fear God for nothing?",
+      "optionIsScript": false,
+      "block": "c73",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c73-01",
+      "extra": true
+    },
+    {
+      "id": "c73-01.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Does Job fear God for nothing?",
+      "stimulus": "הַחִנָּם יָרֵא ＿＿＿ אֱלֹהִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אִיּוֹב"
+      ],
+      "answerIsScript": true,
+      "block": "c73",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c73-01",
+      "extra": true
+    },
+    {
+      "id": "c73-01.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הַחִנָּם יָרֵא אִיּוֹב אֱלֹהִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Does Job fear God for nothing?"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c73",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c73-01",
+      "extra": true
+    },
+    {
+      "id": "c73-01.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Does Job fear God for nothing?",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַחִנָּם יָרֵא אִיּוֹב אֱלֹהִים"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c73",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c73-01",
+      "extra": true
+    },
+    {
+      "id": "c73-02.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "עַל־הַגָּג",
+      "stimulusIsScript": true,
+      "statement": "On the roof",
+      "answer": true,
+      "expected": "On the roof",
+      "block": "c73",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c73-02",
+      "extra": true
+    },
+    {
+      "id": "c73-02.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "עַל־הַגָּג",
+      "stimulusIsScript": true,
+      "options": [
+        "From the roof",
+        "On the roof",
+        "To the roof",
+        "On a roof"
+      ],
+      "answer": "On the roof",
+      "optionIsScript": false,
+      "block": "c73",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c73-02",
+      "extra": true
+    },
+    {
+      "id": "c73-02.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "On the roof",
+      "stimulusIsScript": false,
+      "accepted": [
+        "עַל־הַגָּג"
+      ],
+      "answerIsScript": true,
+      "block": "c73",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c73-02",
+      "extra": true
+    },
+    {
+      "id": "c73-02.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "On the roof",
+      "stimulusIsScript": false,
+      "accepted": [
+        "עַל־הַגָּג"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c73",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c73-02",
+      "extra": true
+    },
+    {
+      "id": "c73-03.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיִּקַּח שֵׁם וָיֶפֶת אֶת־הַשִּׂמְלָה",
+      "stimulusIsScript": true,
+      "statement": "Shem and Japheth took the garment.",
+      "answer": true,
+      "expected": "Shem and Japheth took the garment.",
+      "block": "c73",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c73-03",
+      "extra": true
+    },
+    {
+      "id": "c73-03.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיִּקַּח שֵׁם וָיֶפֶת אֶת־הַשִּׂמְלָה",
+      "stimulusIsScript": true,
+      "options": [
+        "Shem and Japheth took a garment.",
+        "On the roof of the house",
+        "Shem and Japheth took the garment.",
+        "The oath of Yahweh"
+      ],
+      "answer": "Shem and Japheth took the garment.",
+      "optionIsScript": false,
+      "block": "c73",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c73-03",
+      "extra": true
+    },
+    {
+      "id": "c73-03.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Shem and Japheth took the garment.",
+      "stimulus": "וַיִּקַּח שֵׁם וָיֶפֶת ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶת־הַשִּׂמְלָה"
+      ],
+      "answerIsScript": true,
+      "block": "c73",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c73-03",
+      "extra": true
+    },
+    {
+      "id": "c73-03.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וַיִּקַּח שֵׁם וָיֶפֶת אֶת־הַשִּׂמְלָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Shem and Japheth took the garment."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c73",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c73-03",
+      "extra": true
+    },
+    {
+      "id": "c73-03.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Shem and Japheth took the garment.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיִּקַּח שֵׁם וָיֶפֶת אֶת־הַשִּׂמְלָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c73",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c73-03",
+      "extra": true
+    },
+    {
+      "id": "c73-04.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "שְׁבֻעַת יְהוָה",
+      "stimulusIsScript": true,
+      "statement": "The oath of Yahweh",
+      "answer": true,
+      "expected": "The oath of Yahweh",
+      "block": "c73",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c73-04",
+      "extra": true
+    },
+    {
+      "id": "c73-04.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "שְׁבֻעַת יְהוָה",
+      "stimulusIsScript": true,
+      "options": [
+        "Amen, amen.",
+        "The oath of Yahweh",
+        "An oath of Yahweh",
+        "On the roof of the house"
+      ],
+      "answer": "The oath of Yahweh",
+      "optionIsScript": false,
+      "block": "c73",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c73-04",
+      "extra": true
+    },
+    {
+      "id": "c73-04.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The oath of Yahweh",
+      "stimulus": "שְׁבֻעַת ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "יְהוָה"
+      ],
+      "answerIsScript": true,
+      "block": "c73",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c73-04",
+      "extra": true
+    },
+    {
+      "id": "c73-04.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "שְׁבֻעַת יְהוָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The oath of Yahweh",
+        "The oath of the Lord"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c73",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c73-04",
+      "extra": true
+    },
+    {
+      "id": "c73-04.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The oath of Yahweh",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שְׁבֻעַת יְהוָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c73",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c73-04",
+      "extra": true
+    },
+    {
+      "id": "c73-05.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אָמֵן אָמֵן",
+      "stimulusIsScript": true,
+      "statement": "Amen, amen.",
+      "answer": true,
+      "expected": "Amen, amen.",
+      "block": "c73",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c73-05",
+      "extra": true
+    },
+    {
+      "id": "c73-05.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אָמֵן אָמֵן",
+      "stimulusIsScript": true,
+      "options": [
+        "Does Job fear God for nothing?",
+        "The oath of Yahweh",
+        "On the roof of the house",
+        "Amen, amen."
+      ],
+      "answer": "Amen, amen.",
+      "optionIsScript": false,
+      "block": "c73",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c73-05",
+      "extra": true
+    },
+    {
+      "id": "c73-05.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Amen, amen.",
+      "stimulus": "אָמֵן ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אָמֵן"
+      ],
+      "answerIsScript": true,
+      "block": "c73",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c73-05",
+      "extra": true
+    },
+    {
+      "id": "c73-05.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "אָמֵן אָמֵן",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Amen, amen."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c73",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c73-05",
+      "extra": true
+    },
+    {
+      "id": "c73-05.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Amen, amen.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אָמֵן אָמֵן"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c73",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c73-05",
+      "extra": true
+    },
+    {
+      "id": "c73-06.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "עַל־גַּג הַבַּיִת",
+      "stimulusIsScript": true,
+      "statement": "On the roof of a house",
+      "answer": false,
+      "expected": "On the roof of the house",
+      "block": "c73",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c73-06",
+      "extra": true
+    },
+    {
+      "id": "c73-06.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "עַל־גַּג הַבַּיִת",
+      "stimulusIsScript": true,
+      "options": [
+        "On a roof of the house",
+        "On the roof of a house",
+        "On the roof of the house",
+        "To the roof of the house"
+      ],
+      "answer": "On the roof of the house",
+      "optionIsScript": false,
+      "block": "c73",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c73-06",
+      "extra": true
+    },
+    {
+      "id": "c73-06.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: On the roof of the house",
+      "stimulus": "＿＿＿ הַבַּיִת",
+      "stimulusIsScript": true,
+      "accepted": [
+        "עַל־גַּג"
+      ],
+      "answerIsScript": true,
+      "block": "c73",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c73-06",
+      "extra": true
+    },
+    {
+      "id": "c73-06.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "עַל־גַּג הַבַּיִת",
+      "stimulusIsScript": true,
+      "accepted": [
+        "On the roof of the house"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c73",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c73-06",
+      "extra": true
+    },
+    {
+      "id": "c73-06.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "On the roof of the house",
+      "stimulusIsScript": false,
+      "accepted": [
+        "עַל־גַּג הַבַּיִת"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c73",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c73-06",
+      "extra": true
+    },
+    {
+      "id": "c73-07.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וְאָמַר כָּל־הָעָם אָמֵן",
+      "stimulusIsScript": true,
+      "statement": "And all a people shall say, Amen.",
+      "answer": false,
+      "expected": "And all the people shall say, Amen.",
+      "block": "c73",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c73-07",
+      "extra": true
+    },
+    {
+      "id": "c73-07.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וְאָמַר כָּל־הָעָם אָמֵן",
+      "stimulusIsScript": true,
+      "options": [
+        "The oath of Yahweh",
+        "And all the people shall say, Amen.",
+        "Shem and Japheth took the garment.",
+        "And all a people shall say, Amen."
+      ],
+      "answer": "And all the people shall say, Amen.",
+      "optionIsScript": false,
+      "block": "c73",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c73-07",
+      "extra": true
+    },
+    {
+      "id": "c73-07.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: And all the people shall say, Amen.",
+      "stimulus": "＿＿＿ כָּל־הָעָם אָמֵן",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וְאָמַר"
+      ],
+      "answerIsScript": true,
+      "block": "c73",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c73-07",
+      "extra": true
+    },
+    {
+      "id": "c73-07.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וְאָמַר כָּל־הָעָם אָמֵן",
+      "stimulusIsScript": true,
+      "accepted": [
+        "And all the people shall say, Amen."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c73",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c73-07",
+      "extra": true
+    },
+    {
+      "id": "c73-07.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And all the people shall say, Amen.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וְאָמַר כָּל־הָעָם אָמֵן"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c73",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c73-07",
+      "extra": true
+    },
+    {
+      "id": "b-Eccl-3-16.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וְעוֹד רָאִיתִי תַּחַת הַשָּׁמֶשׁ מְקוֹם הַמִּשְׁפָּט שָׁמָּה הָרֶשַׁע וּמְקוֹם הַצֶּדֶק שָׁמָּה הָרָשַׁע",
+      "stimulusIsScript": true,
+      "statement": "Moreover I saw under the sun, in the place of justice, that wickedness was there; and in the place of righteousness, that wickedness was there.",
+      "answer": true,
+      "expected": "Moreover I saw under the sun, in the place of justice, that wickedness was there; and in the place of righteousness, that wickedness was there.",
+      "block": "b73",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Eccl-3-16",
+      "extra": true
+    },
+    {
+      "id": "b-Eccl-3-16.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וְעוֹד רָאִיתִי תַּחַת הַשָּׁמֶשׁ מְקוֹם הַמִּשְׁפָּט שָׁמָּה הָרֶשַׁע וּמְקוֹם הַצֶּדֶק שָׁמָּה הָרָשַׁע",
+      "stimulusIsScript": true,
+      "options": [
+        "Moreover I saw under the sun, in the place of justice, this wickedness was there; and in the place of righteousness, that wickedness was there.",
+        "Moreover he saw under the sun, in the place of justice, that wickedness was there; and in the place of righteousness, that wickedness was there.",
+        "Moreover I saw under the sun, in the place of justice, that wickedness was there; and in the place of righteousness, that wickedness was there.",
+        "Moreover I saw under the sun, to the place of justice, that wickedness was there; and in the place of righteousness, that wickedness was there."
+      ],
+      "answer": "Moreover I saw under the sun, in the place of justice, that wickedness was there; and in the place of righteousness, that wickedness was there.",
+      "optionIsScript": false,
+      "block": "b73",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Eccl-3-16",
+      "extra": true
+    },
+    {
+      "id": "b-Eccl-3-16.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Moreover I saw under the sun, in the place of justice, that wickedness was there; and in the place of righteousness, that wickedness was there.",
+      "stimulus": "וְעוֹד רָאִיתִי תַּחַת הַשָּׁמֶשׁ מְקוֹם ＿＿＿ שָׁמָּה הָרֶשַׁע וּמְקוֹם הַצֶּדֶק שָׁמָּה הָרָשַׁע",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַמִּשְׁפָּט"
+      ],
+      "answerIsScript": true,
+      "block": "b73",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Eccl-3-16",
+      "extra": true
+    },
+    {
+      "id": "b-Eccl-3-16.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וְעוֹד רָאִיתִי תַּחַת הַשָּׁמֶשׁ מְקוֹם הַמִּשְׁפָּט שָׁמָּה הָרֶשַׁע וּמְקוֹם הַצֶּדֶק שָׁמָּה הָרָשַׁע",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Moreover I saw under the sun, in the place of justice, that wickedness was there; and in the place of righteousness, that wickedness was there."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "b73",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Eccl-3-16",
+      "extra": true
+    }
+  ]
+}

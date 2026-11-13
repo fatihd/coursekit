@@ -1,0 +1,772 @@
+{
+  "schema": "authored-exercises-v1.json",
+  "unit": 64,
+  "sources": {
+    "c64-01": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c64-02": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c64-03": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c64-04": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c64-05": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c64-06": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c64-07": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c64-08": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    }
+  },
+  "items": [
+    {
+      "id": "c64-01.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "חֻקִּים וּמִשְׁפָּטִים",
+      "stimulusIsScript": true,
+      "statement": "Statutes and judgments",
+      "answer": true,
+      "expected": "Statutes and judgments",
+      "block": "c64",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c64-01",
+      "extra": true
+    },
+    {
+      "id": "c64-01.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "חֻקִּים וּמִשְׁפָּטִים",
+      "stimulusIsScript": true,
+      "options": [
+        "In the garden of Eden",
+        "The man is in the garden.",
+        "Statutes and judgments",
+        "In the day of distress"
+      ],
+      "answer": "Statutes and judgments",
+      "optionIsScript": false,
+      "block": "c64",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c64-01",
+      "extra": true
+    },
+    {
+      "id": "c64-01.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Statutes and judgments",
+      "stimulus": "＿＿＿ וּמִשְׁפָּטִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "חֻקִּים"
+      ],
+      "answerIsScript": true,
+      "block": "c64",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c64-01",
+      "extra": true
+    },
+    {
+      "id": "c64-01.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "חֻקִּים וּמִשְׁפָּטִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Statutes and judgments"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c64",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c64-01",
+      "extra": true
+    },
+    {
+      "id": "c64-01.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Statutes and judgments",
+      "stimulusIsScript": false,
+      "accepted": [
+        "חֻקִּים וּמִשְׁפָּטִים"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c64",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c64-01",
+      "extra": true
+    },
+    {
+      "id": "c64-02.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אֶת־חֻקֶּיךָ אֶשְׁמֹר",
+      "stimulusIsScript": true,
+      "statement": "I will keep our statutes.",
+      "answer": false,
+      "expected": "I will keep your statutes.",
+      "block": "c64",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c64-02",
+      "extra": true
+    },
+    {
+      "id": "c64-02.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אֶת־חֻקֶּיךָ אֶשְׁמֹר",
+      "stimulusIsScript": true,
+      "options": [
+        "I will keep my statutes.",
+        "You will keep your statutes.",
+        "I will keep your statutes.",
+        "I will keep our statutes."
+      ],
+      "answer": "I will keep your statutes.",
+      "optionIsScript": false,
+      "block": "c64",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c64-02",
+      "extra": true
+    },
+    {
+      "id": "c64-02.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: I will keep your statutes.",
+      "stimulus": "＿＿＿ אֶשְׁמֹר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶת־חֻקֶּיךָ"
+      ],
+      "answerIsScript": true,
+      "block": "c64",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c64-02",
+      "extra": true
+    },
+    {
+      "id": "c64-02.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "I will keep your statutes.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֶת־חֻקֶּיךָ אֶשְׁמֹר"
+      ],
+      "answerIsScript": true,
+      "block": "c64",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c64-02",
+      "extra": true
+    },
+    {
+      "id": "c64-02.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "I will keep your statutes.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֶת־חֻקֶּיךָ אֶשְׁמֹר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c64",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c64-02",
+      "extra": true
+    },
+    {
+      "id": "c64-03.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "עֲצֵי אֲרָזִים",
+      "stimulusIsScript": true,
+      "statement": "Cedar trees",
+      "answer": true,
+      "expected": "Cedar trees",
+      "block": "c64",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c64-03",
+      "extra": true
+    },
+    {
+      "id": "c64-03.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "עֲצֵי אֲרָזִים",
+      "stimulusIsScript": true,
+      "options": [
+        "Cedar trees",
+        "The cedar trees",
+        "The man is in the garden.",
+        "In the day of distress"
+      ],
+      "answer": "Cedar trees",
+      "optionIsScript": false,
+      "block": "c64",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c64-03",
+      "extra": true
+    },
+    {
+      "id": "c64-03.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Cedar trees",
+      "stimulus": "עֲצֵי ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֲרָזִים"
+      ],
+      "answerIsScript": true,
+      "block": "c64",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c64-03",
+      "extra": true
+    },
+    {
+      "id": "c64-03.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "עֲצֵי אֲרָזִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Cedar trees"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c64",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c64-03",
+      "extra": true
+    },
+    {
+      "id": "c64-03.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Cedar trees",
+      "stimulusIsScript": false,
+      "accepted": [
+        "עֲצֵי אֲרָזִים"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c64",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c64-03",
+      "extra": true
+    },
+    {
+      "id": "c64-04.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "בְּיוֹם צָרָה",
+      "stimulusIsScript": true,
+      "statement": "To the day of distress",
+      "answer": false,
+      "expected": "In the day of distress",
+      "block": "c64",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c64-04",
+      "extra": true
+    },
+    {
+      "id": "c64-04.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "בְּיוֹם צָרָה",
+      "stimulusIsScript": true,
+      "options": [
+        "To the day of distress",
+        "In the day of distress",
+        "From the day of distress",
+        "In a day of distress"
+      ],
+      "answer": "In the day of distress",
+      "optionIsScript": false,
+      "block": "c64",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c64-04",
+      "extra": true
+    },
+    {
+      "id": "c64-04.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: In the day of distress",
+      "stimulus": "＿＿＿ צָרָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "בְּיוֹם"
+      ],
+      "answerIsScript": true,
+      "block": "c64",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c64-04",
+      "extra": true
+    },
+    {
+      "id": "c64-04.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "בְּיוֹם צָרָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "In the day of distress"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c64",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c64-04",
+      "extra": true
+    },
+    {
+      "id": "c64-04.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "In the day of distress",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בְּיוֹם צָרָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c64",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c64-04",
+      "extra": true
+    },
+    {
+      "id": "c64-05.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "קֵץ כָּל־בָּשָׂר",
+      "stimulusIsScript": true,
+      "statement": "The end of all flesh",
+      "answer": true,
+      "expected": "The end of all flesh",
+      "block": "c64",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c64-05",
+      "extra": true
+    },
+    {
+      "id": "c64-05.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "קֵץ כָּל־בָּשָׂר",
+      "stimulusIsScript": true,
+      "options": [
+        "In the garden of Eden",
+        "The end of all flesh",
+        "An end of all flesh",
+        "In the day of distress"
+      ],
+      "answer": "The end of all flesh",
+      "optionIsScript": false,
+      "block": "c64",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c64-05",
+      "extra": true
+    },
+    {
+      "id": "c64-05.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The end of all flesh",
+      "stimulus": "＿＿＿ כָּל־בָּשָׂר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "קֵץ"
+      ],
+      "answerIsScript": true,
+      "block": "c64",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c64-05",
+      "extra": true
+    },
+    {
+      "id": "c64-05.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "קֵץ כָּל־בָּשָׂר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The end of all flesh"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c64",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c64-05",
+      "extra": true
+    },
+    {
+      "id": "c64-05.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The end of all flesh",
+      "stimulusIsScript": false,
+      "accepted": [
+        "קֵץ כָּל־בָּשָׂר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c64",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c64-05",
+      "extra": true
+    },
+    {
+      "id": "c64-06.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "בְּגַן־עֵדֶן",
+      "stimulusIsScript": true,
+      "statement": "From the garden of Eden",
+      "answer": false,
+      "expected": "In the garden of Eden",
+      "block": "c64",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c64-06",
+      "extra": true
+    },
+    {
+      "id": "c64-06.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "בְּגַן־עֵדֶן",
+      "stimulusIsScript": true,
+      "options": [
+        "In a garden of Eden",
+        "To the garden of Eden",
+        "In the garden of Eden",
+        "From the garden of Eden"
+      ],
+      "answer": "In the garden of Eden",
+      "optionIsScript": false,
+      "block": "c64",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c64-06",
+      "extra": true
+    },
+    {
+      "id": "c64-06.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "בְּגַן־עֵדֶן",
+      "stimulusIsScript": true,
+      "accepted": [
+        "In the garden of Eden"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c64",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c64-06",
+      "extra": true
+    },
+    {
+      "id": "c64-06.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "In the garden of Eden",
+      "stimulusIsScript": false,
+      "accepted": [
+        "בְּגַן־עֵדֶן"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c64",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c64-06",
+      "extra": true
+    },
+    {
+      "id": "c64-07.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָאִישׁ בַּגָּן",
+      "stimulusIsScript": true,
+      "statement": "The man is in the garden.",
+      "answer": true,
+      "expected": "The man is in the garden.",
+      "block": "c64",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c64-07",
+      "extra": true
+    },
+    {
+      "id": "c64-07.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָאִישׁ בַּגָּן",
+      "stimulusIsScript": true,
+      "options": [
+        "The man is in a garden.",
+        "The man is from the garden.",
+        "The man is in the garden.",
+        "The man is to the garden."
+      ],
+      "answer": "The man is in the garden.",
+      "optionIsScript": false,
+      "block": "c64",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c64-07",
+      "extra": true
+    },
+    {
+      "id": "c64-07.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The man is in the garden.",
+      "stimulus": "＿＿＿ בַּגָּן",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הָאִישׁ"
+      ],
+      "answerIsScript": true,
+      "block": "c64",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c64-07",
+      "extra": true
+    },
+    {
+      "id": "c64-07.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The man is in the garden.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאִישׁ בַּגָּן"
+      ],
+      "answerIsScript": true,
+      "block": "c64",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c64-07",
+      "extra": true
+    },
+    {
+      "id": "c64-07.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The man is in the garden.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאִישׁ בַּגָּן"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c64",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c64-07",
+      "extra": true
+    },
+    {
+      "id": "c64-08.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "מִבֶּטֶן אִמִּי",
+      "stimulusIsScript": true,
+      "statement": "From my mother's womb",
+      "answer": true,
+      "expected": "From my mother's womb",
+      "block": "c64",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c64-08",
+      "extra": true
+    },
+    {
+      "id": "c64-08.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "מִבֶּטֶן אִמִּי",
+      "stimulusIsScript": true,
+      "options": [
+        "From our mother's womb",
+        "To my mother's womb",
+        "From his mother's womb",
+        "From my mother's womb"
+      ],
+      "answer": "From my mother's womb",
+      "optionIsScript": false,
+      "block": "c64",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c64-08",
+      "extra": true
+    },
+    {
+      "id": "c64-08.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: From my mother's womb",
+      "stimulus": "מִבֶּטֶן ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אִמִּי"
+      ],
+      "answerIsScript": true,
+      "block": "c64",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c64-08",
+      "extra": true
+    },
+    {
+      "id": "c64-08.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "מִבֶּטֶן אִמִּי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "From my mother's womb"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c64",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c64-08",
+      "extra": true
+    },
+    {
+      "id": "c64-08.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "From my mother's womb",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מִבֶּטֶן אִמִּי"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c64",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c64-08",
+      "extra": true
+    }
+  ]
+}

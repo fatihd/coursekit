@@ -1,0 +1,1380 @@
+{
+  "schema": "authored-exercises-v1.json",
+  "unit": 27,
+  "sources": {
+    "c27-01": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c27-02": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c27-03": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c27-04": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c27-05": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c27-06": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c27-07": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c27-08": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c27-09": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c27-10": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c27-11": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c27-12": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c27-13": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c27-14": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    }
+  },
+  "items": [
+    {
+      "id": "c27-01.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַדָּבָר הַזֶּה טוֹב",
+      "stimulusIsScript": true,
+      "statement": "That word is good.",
+      "answer": false,
+      "expected": "This word is good.",
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-01",
+      "extra": true
+    },
+    {
+      "id": "c27-01.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַדָּבָר הַזֶּה טוֹב",
+      "stimulusIsScript": true,
+      "options": [
+        "This word is good.",
+        "The great nation",
+        "That word is good.",
+        "After these things"
+      ],
+      "answer": "This word is good.",
+      "optionIsScript": false,
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-01",
+      "extra": true
+    },
+    {
+      "id": "c27-01.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: This word is good.",
+      "stimulus": "＿＿＿ הַזֶּה טוֹב",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַדָּבָר"
+      ],
+      "answerIsScript": true,
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-01",
+      "extra": true
+    },
+    {
+      "id": "c27-01.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הַדָּבָר הַזֶּה טוֹב",
+      "stimulusIsScript": true,
+      "accepted": [
+        "This word is good."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-01",
+      "extra": true
+    },
+    {
+      "id": "c27-01.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "This word is good.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַדָּבָר הַזֶּה טוֹב"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-01",
+      "extra": true
+    },
+    {
+      "id": "c27-02.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "כֹּה אָמַר הַנָּבִיא",
+      "stimulusIsScript": true,
+      "statement": "Thus said the prophet.",
+      "answer": true,
+      "expected": "Thus said the prophet.",
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-02",
+      "extra": true
+    },
+    {
+      "id": "c27-02.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "כֹּה אָמַר הַנָּבִיא",
+      "stimulusIsScript": true,
+      "options": [
+        "The matter is very heavy.",
+        "Thus said the prophet.",
+        "Thus said a prophet.",
+        "The word which the prophet spoke is good."
+      ],
+      "answer": "Thus said the prophet.",
+      "optionIsScript": false,
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-02",
+      "extra": true
+    },
+    {
+      "id": "c27-02.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Thus said the prophet.",
+      "stimulus": "＿＿＿ אָמַר הַנָּבִיא",
+      "stimulusIsScript": true,
+      "accepted": [
+        "כֹּה"
+      ],
+      "answerIsScript": true,
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-02",
+      "extra": true
+    },
+    {
+      "id": "c27-02.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "Thus said the prophet.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "כֹּה אָמַר הַנָּבִיא"
+      ],
+      "answerIsScript": true,
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-02",
+      "extra": true
+    },
+    {
+      "id": "c27-02.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Thus said the prophet.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "כֹּה אָמַר הַנָּבִיא"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-02",
+      "extra": true
+    },
+    {
+      "id": "c27-03.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "דִּבְרֵי הַנָּבִיא",
+      "stimulusIsScript": true,
+      "statement": "The words of the prophet",
+      "answer": true,
+      "expected": "The words of the prophet",
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-03",
+      "extra": true
+    },
+    {
+      "id": "c27-03.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "דִּבְרֵי הַנָּבִיא",
+      "stimulusIsScript": true,
+      "options": [
+        "The words of a prophet",
+        "Words of the prophet",
+        "Thus said God to the people.",
+        "The words of the prophet"
+      ],
+      "answer": "The words of the prophet",
+      "optionIsScript": false,
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-03",
+      "extra": true
+    },
+    {
+      "id": "c27-03.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The words of the prophet",
+      "stimulus": "＿＿＿ הַנָּבִיא",
+      "stimulusIsScript": true,
+      "accepted": [
+        "דִּבְרֵי"
+      ],
+      "answerIsScript": true,
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-03",
+      "extra": true
+    },
+    {
+      "id": "c27-03.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "דִּבְרֵי הַנָּבִיא",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The words of the prophet"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-03",
+      "extra": true
+    },
+    {
+      "id": "c27-03.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The words of the prophet",
+      "stimulusIsScript": false,
+      "accepted": [
+        "דִּבְרֵי הַנָּבִיא"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-03",
+      "extra": true
+    },
+    {
+      "id": "c27-04.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אַחֲרֵי הַדְּבָרִים הָאֵלֶּה",
+      "stimulusIsScript": true,
+      "statement": "After these things",
+      "answer": true,
+      "expected": "After these things",
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-04",
+      "extra": true
+    },
+    {
+      "id": "c27-04.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אַחֲרֵי הַדְּבָרִים הָאֵלֶּה",
+      "stimulusIsScript": true,
+      "options": [
+        "After these things",
+        "After those things",
+        "The after these things",
+        "This word is good."
+      ],
+      "answer": "After these things",
+      "optionIsScript": false,
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-04",
+      "extra": true
+    },
+    {
+      "id": "c27-04.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: After these things",
+      "stimulus": "אַחֲרֵי הַדְּבָרִים ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הָאֵלֶּה"
+      ],
+      "answerIsScript": true,
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-04",
+      "extra": true
+    },
+    {
+      "id": "c27-04.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "After these things",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אַחֲרֵי הַדְּבָרִים הָאֵלֶּה",
+        "אַחַר הַדְּבָרִים הָאֵלֶּה"
+      ],
+      "answerIsScript": true,
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-04",
+      "extra": true
+    },
+    {
+      "id": "c27-04.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "After these things",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אַחֲרֵי הַדְּבָרִים הָאֵלֶּה",
+        "אַחַר הַדְּבָרִים הָאֵלֶּה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-04",
+      "extra": true
+    },
+    {
+      "id": "c27-05.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַגּוֹי הַגָּדוֹל",
+      "stimulusIsScript": true,
+      "statement": "The great nation",
+      "answer": true,
+      "expected": "The great nation",
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-05",
+      "extra": true
+    },
+    {
+      "id": "c27-05.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַגּוֹי הַגָּדוֹל",
+      "stimulusIsScript": true,
+      "options": [
+        "The people sat beneath the mountain.",
+        "A great nation",
+        "Thus said the prophet.",
+        "The great nation"
+      ],
+      "answer": "The great nation",
+      "optionIsScript": false,
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-05",
+      "extra": true
+    },
+    {
+      "id": "c27-05.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The great nation",
+      "stimulus": "＿＿＿ הַגָּדוֹל",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַגּוֹי"
+      ],
+      "answerIsScript": true,
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-05",
+      "extra": true
+    },
+    {
+      "id": "c27-05.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הַגּוֹי הַגָּדוֹל",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The great nation"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-05",
+      "extra": true
+    },
+    {
+      "id": "c27-05.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The great nation",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַגּוֹי הַגָּדוֹל"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-05",
+      "extra": true
+    },
+    {
+      "id": "c27-06.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָעָם הָלַךְ אַחֲרֵי הַנָּבִיא",
+      "stimulusIsScript": true,
+      "statement": "A people went after the prophet.",
+      "answer": false,
+      "expected": "The people went after the prophet.",
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-06",
+      "extra": true
+    },
+    {
+      "id": "c27-06.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָעָם הָלַךְ אַחֲרֵי הַנָּבִיא",
+      "stimulusIsScript": true,
+      "options": [
+        "A people went after the prophet.",
+        "The people went after the prophet.",
+        "The people went after a prophet.",
+        "The people sat beneath the mountain."
+      ],
+      "answer": "The people went after the prophet.",
+      "optionIsScript": false,
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-06",
+      "extra": true
+    },
+    {
+      "id": "c27-06.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The people went after the prophet.",
+      "stimulus": "＿＿＿ הָלַךְ אַחֲרֵי הַנָּבִיא",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הָעָם"
+      ],
+      "answerIsScript": true,
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-06",
+      "extra": true
+    },
+    {
+      "id": "c27-06.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הָעָם הָלַךְ אַחֲרֵי הַנָּבִיא",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The people went after the prophet."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-06",
+      "extra": true
+    },
+    {
+      "id": "c27-06.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The people went after the prophet.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָעָם הָלַךְ אַחֲרֵי הַנָּבִיא"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-06",
+      "extra": true
+    },
+    {
+      "id": "c27-07.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָאִישׁ חַי",
+      "stimulusIsScript": true,
+      "statement": "A man is alive.",
+      "answer": false,
+      "expected": "The man is alive.",
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-07",
+      "extra": true
+    },
+    {
+      "id": "c27-07.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָאִישׁ חַי",
+      "stimulusIsScript": true,
+      "options": [
+        "The matter is very heavy.",
+        "A man is alive.",
+        "The man is alive.",
+        "This word is good."
+      ],
+      "answer": "The man is alive.",
+      "optionIsScript": false,
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-07",
+      "extra": true
+    },
+    {
+      "id": "c27-07.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The man is alive.",
+      "stimulus": "＿＿＿ חַי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הָאִישׁ"
+      ],
+      "answerIsScript": true,
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-07",
+      "extra": true
+    },
+    {
+      "id": "c27-07.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "The man is alive.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאִישׁ חַי"
+      ],
+      "answerIsScript": true,
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-07",
+      "extra": true
+    },
+    {
+      "id": "c27-07.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The man is alive.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָאִישׁ חַי"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-07",
+      "extra": true
+    },
+    {
+      "id": "c27-08.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "דְּבָרֶיךָ טוֹבִים",
+      "stimulusIsScript": true,
+      "statement": "My words are good.",
+      "answer": false,
+      "expected": "Your words are good.",
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-08",
+      "extra": true
+    },
+    {
+      "id": "c27-08.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "דְּבָרֶיךָ טוֹבִים",
+      "stimulusIsScript": true,
+      "options": [
+        "My words are good.",
+        "Your words are good.",
+        "Our words are good.",
+        "Their words are good."
+      ],
+      "answer": "Your words are good.",
+      "optionIsScript": false,
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-08",
+      "extra": true
+    },
+    {
+      "id": "c27-08.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Your words are good.",
+      "stimulus": "＿＿＿ טוֹבִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "דְּבָרֶיךָ"
+      ],
+      "answerIsScript": true,
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-08",
+      "extra": true
+    },
+    {
+      "id": "c27-08.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "דְּבָרֶיךָ טוֹבִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Your words are good."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-08",
+      "extra": true
+    },
+    {
+      "id": "c27-08.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Your words are good.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "דְּבָרֶיךָ טוֹבִים"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-08",
+      "extra": true
+    },
+    {
+      "id": "c27-09.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הוּא שָׁמַע אֶת־דִּבְרֵי הַנָּבִיא",
+      "stimulusIsScript": true,
+      "statement": "He heard the words of the prophet.",
+      "answer": true,
+      "expected": "He heard the words of the prophet.",
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-09",
+      "extra": true
+    },
+    {
+      "id": "c27-09.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הוּא שָׁמַע אֶת־דִּבְרֵי הַנָּבִיא",
+      "stimulusIsScript": true,
+      "options": [
+        "He heard words of the prophet.",
+        "He heard the words of a prophet.",
+        "He heard the words of the prophet.",
+        "She heard the words of the prophet."
+      ],
+      "answer": "He heard the words of the prophet.",
+      "optionIsScript": false,
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-09",
+      "extra": true
+    },
+    {
+      "id": "c27-09.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: He heard the words of the prophet.",
+      "stimulus": "＿＿＿ שָׁמַע אֶת־דִּבְרֵי הַנָּבִיא",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הוּא"
+      ],
+      "answerIsScript": true,
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-09",
+      "extra": true
+    },
+    {
+      "id": "c27-09.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "He heard the words of the prophet.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הוּא שָׁמַע אֶת־דִּבְרֵי הַנָּבִיא",
+        "שָׁמַע אֶת־דִּבְרֵי הַנָּבִיא"
+      ],
+      "answerIsScript": true,
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-09",
+      "extra": true
+    },
+    {
+      "id": "c27-09.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "He heard the words of the prophet.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הוּא שָׁמַע אֶת־דִּבְרֵי הַנָּבִיא",
+        "שָׁמַע אֶת־דִּבְרֵי הַנָּבִיא"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-09",
+      "extra": true
+    },
+    {
+      "id": "c27-10.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "אֱלֹהִים חַיִּים",
+      "stimulusIsScript": true,
+      "statement": "A living God",
+      "answer": false,
+      "expected": "The living God",
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-10",
+      "extra": true
+    },
+    {
+      "id": "c27-10.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "אֱלֹהִים חַיִּים",
+      "stimulusIsScript": true,
+      "options": [
+        "A living God",
+        "The people went after the prophet.",
+        "The word which the prophet spoke is good.",
+        "The living God"
+      ],
+      "answer": "The living God",
+      "optionIsScript": false,
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-10",
+      "extra": true
+    },
+    {
+      "id": "c27-10.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The living God",
+      "stimulus": "＿＿＿ חַיִּים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֱלֹהִים"
+      ],
+      "answerIsScript": true,
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-10",
+      "extra": true
+    },
+    {
+      "id": "c27-10.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "אֱלֹהִים חַיִּים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The living God"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-10",
+      "extra": true
+    },
+    {
+      "id": "c27-10.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The living God",
+      "stimulusIsScript": false,
+      "accepted": [
+        "אֱלֹהִים חַיִּים"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-10",
+      "extra": true
+    },
+    {
+      "id": "c27-11.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָעָם יָשַׁב תַּחַת הָהָר",
+      "stimulusIsScript": true,
+      "statement": "A people sat beneath the mountain.",
+      "answer": false,
+      "expected": "The people sat beneath the mountain.",
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-11",
+      "extra": true
+    },
+    {
+      "id": "c27-11.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָעָם יָשַׁב תַּחַת הָהָר",
+      "stimulusIsScript": true,
+      "options": [
+        "The people sat beneath a mountain.",
+        "The people sat beneath the mountain.",
+        "The people went after the prophet.",
+        "A people sat beneath the mountain."
+      ],
+      "answer": "The people sat beneath the mountain.",
+      "optionIsScript": false,
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-11",
+      "extra": true
+    },
+    {
+      "id": "c27-11.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The people sat beneath the mountain.",
+      "stimulus": "הָעָם יָשַׁב ＿＿＿ הָהָר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "תַּחַת"
+      ],
+      "answerIsScript": true,
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-11",
+      "extra": true
+    },
+    {
+      "id": "c27-11.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הָעָם יָשַׁב תַּחַת הָהָר",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The people sat beneath the mountain."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-11",
+      "extra": true
+    },
+    {
+      "id": "c27-11.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The people sat beneath the mountain.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָעָם יָשַׁב תַּחַת הָהָר"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-11",
+      "extra": true
+    },
+    {
+      "id": "c27-12.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "כֹּה אָמַר אֱלֹהִים אֶל־הָעָם",
+      "stimulusIsScript": true,
+      "statement": "Thus said God to the people.",
+      "answer": true,
+      "expected": "Thus said God to the people.",
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-12",
+      "extra": true
+    },
+    {
+      "id": "c27-12.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "כֹּה אָמַר אֱלֹהִים אֶל־הָעָם",
+      "stimulusIsScript": true,
+      "options": [
+        "Thus said God in the people.",
+        "Thus said God to a people.",
+        "Thus said God to the people.",
+        "Thus said God from the people."
+      ],
+      "answer": "Thus said God to the people.",
+      "optionIsScript": false,
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-12",
+      "extra": true
+    },
+    {
+      "id": "c27-12.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Thus said God to the people.",
+      "stimulus": "כֹּה ＿＿＿ אֱלֹהִים אֶל־הָעָם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אָמַר"
+      ],
+      "answerIsScript": true,
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-12",
+      "extra": true
+    },
+    {
+      "id": "c27-12.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "כֹּה אָמַר אֱלֹהִים אֶל־הָעָם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Thus said God to the people."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-12",
+      "extra": true
+    },
+    {
+      "id": "c27-12.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Thus said God to the people.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "כֹּה אָמַר אֱלֹהִים אֶל־הָעָם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-12",
+      "extra": true
+    },
+    {
+      "id": "c27-13.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַדָּבָר אֲשֶׁר אָמַר הַנָּבִיא טוֹב",
+      "stimulusIsScript": true,
+      "statement": "The word which the prophet spoke is good.",
+      "answer": true,
+      "expected": "The word which the prophet spoke is good.",
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-13",
+      "extra": true
+    },
+    {
+      "id": "c27-13.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַדָּבָר אֲשֶׁר אָמַר הַנָּבִיא טוֹב",
+      "stimulusIsScript": true,
+      "options": [
+        "The living God",
+        "A word which the prophet spoke is good.",
+        "The word which a prophet spoke is good.",
+        "The word which the prophet spoke is good."
+      ],
+      "answer": "The word which the prophet spoke is good.",
+      "optionIsScript": false,
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-13",
+      "extra": true
+    },
+    {
+      "id": "c27-13.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The word which the prophet spoke is good.",
+      "stimulus": "הַדָּבָר אֲשֶׁר אָמַר ＿＿＿ טוֹב",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַנָּבִיא"
+      ],
+      "answerIsScript": true,
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-13",
+      "extra": true
+    },
+    {
+      "id": "c27-13.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הַדָּבָר אֲשֶׁר אָמַר הַנָּבִיא טוֹב",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The word which the prophet spoke is good."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-13",
+      "extra": true
+    },
+    {
+      "id": "c27-13.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The word which the prophet spoke is good.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַדָּבָר אֲשֶׁר אָמַר הַנָּבִיא טוֹב"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-13",
+      "extra": true
+    },
+    {
+      "id": "c27-14.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "כָּבֵד הַדָּבָר מְאֹד",
+      "stimulusIsScript": true,
+      "statement": "The matter is very heavy.",
+      "answer": true,
+      "expected": "The matter is very heavy.",
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-14",
+      "extra": true
+    },
+    {
+      "id": "c27-14.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "כָּבֵד הַדָּבָר מְאֹד",
+      "stimulusIsScript": true,
+      "options": [
+        "The living God",
+        "A matter is very heavy.",
+        "The matter is very heavy.",
+        "Thus said God to the people."
+      ],
+      "answer": "The matter is very heavy.",
+      "optionIsScript": false,
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-14",
+      "extra": true
+    },
+    {
+      "id": "c27-14.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The matter is very heavy.",
+      "stimulus": "כָּבֵד הַדָּבָר ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "מְאֹד"
+      ],
+      "answerIsScript": true,
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-14",
+      "extra": true
+    },
+    {
+      "id": "c27-14.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "כָּבֵד הַדָּבָר מְאֹד",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The matter is very heavy."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-14",
+      "extra": true
+    },
+    {
+      "id": "c27-14.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The matter is very heavy.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "כָּבֵד הַדָּבָר מְאֹד"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c27",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c27-14",
+      "extra": true
+    }
+  ]
+}

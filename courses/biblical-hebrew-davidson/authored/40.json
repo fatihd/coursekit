@@ -46,6 +46,33 @@
       "answerImageUrl": "https://archive.org/download/keytoexercisesin0000mcfa/page/n142.jpg",
       "exwb": "davidson-s48#A7",
       "note": "Transcribed by hand from the scans and checked against the Key."
+    },
+    "c40-01": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c40-02": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c40-03": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c40-04": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c40-05": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c40-06": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c40-07": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c40-08": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c40-09": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
     }
   },
   "items": [
@@ -497,6 +524,858 @@
       "blockLabel": "Davidson §48",
       "shape": "he-en",
       "src": "s48-A7"
+    },
+    {
+      "id": "c40-01.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וְשָׁמַרְתָּ אֶת־מִצְוֹתָיו",
+      "stimulusIsScript": true,
+      "statement": "And you shall keep my commandments.",
+      "answer": false,
+      "expected": "And you shall keep his commandments.",
+      "block": "c40",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c40-01",
+      "extra": true
+    },
+    {
+      "id": "c40-01.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וְשָׁמַרְתָּ אֶת־מִצְוֹתָיו",
+      "stimulusIsScript": true,
+      "options": [
+        "And you shall keep his commandments.",
+        "And you shall keep her commandments.",
+        "And you shall keep my commandments.",
+        "And you shall keep their commandments."
+      ],
+      "answer": "And you shall keep his commandments.",
+      "optionIsScript": false,
+      "block": "c40",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c40-01",
+      "extra": true
+    },
+    {
+      "id": "c40-01.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: And you shall keep his commandments.",
+      "stimulus": "וְשָׁמַרְתָּ ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶת־מִצְוֹתָיו"
+      ],
+      "answerIsScript": true,
+      "block": "c40",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c40-01",
+      "extra": true
+    },
+    {
+      "id": "c40-01.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וְשָׁמַרְתָּ אֶת־מִצְוֹתָיו",
+      "stimulusIsScript": true,
+      "accepted": [
+        "And you shall keep his commandments."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c40",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c40-01",
+      "extra": true
+    },
+    {
+      "id": "c40-01.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And you shall keep his commandments.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וְשָׁמַרְתָּ אֶת־מִצְוֹתָיו"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c40",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c40-01",
+      "extra": true
+    },
+    {
+      "id": "c40-02.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וְזָכַרְתָּ אֶת־הַיּוֹם הַזֶּה",
+      "stimulusIsScript": true,
+      "statement": "And you shall remember this day.",
+      "answer": true,
+      "expected": "And you shall remember this day.",
+      "block": "c40",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c40-02",
+      "extra": true
+    },
+    {
+      "id": "c40-02.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וְזָכַרְתָּ אֶת־הַיּוֹם הַזֶּה",
+      "stimulusIsScript": true,
+      "options": [
+        "And you shall remember that day.",
+        "The people walked in the wilderness forty years.",
+        "The wicked pursued the righteous.",
+        "And you shall remember this day."
+      ],
+      "answer": "And you shall remember this day.",
+      "optionIsScript": false,
+      "block": "c40",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c40-02",
+      "extra": true
+    },
+    {
+      "id": "c40-02.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: And you shall remember this day.",
+      "stimulus": "וְזָכַרְתָּ אֶת־הַיּוֹם ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַזֶּה"
+      ],
+      "answerIsScript": true,
+      "block": "c40",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c40-02",
+      "extra": true
+    },
+    {
+      "id": "c40-02.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "And you shall remember this day.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וְזָכַרְתָּ אֶת־הַיּוֹם הַזֶּה"
+      ],
+      "answerIsScript": true,
+      "block": "c40",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c40-02",
+      "extra": true
+    },
+    {
+      "id": "c40-02.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And you shall remember this day.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וְזָכַרְתָּ אֶת־הַיּוֹם הַזֶּה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c40",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c40-02",
+      "extra": true
+    },
+    {
+      "id": "c40-03.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וְשָׁפַט אֶת־הָעָם",
+      "stimulusIsScript": true,
+      "statement": "And he will judge the people.",
+      "answer": true,
+      "expected": "And he will judge the people.",
+      "block": "c40",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c40-03",
+      "extra": true
+    },
+    {
+      "id": "c40-03.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וְשָׁפַט אֶת־הָעָם",
+      "stimulusIsScript": true,
+      "options": [
+        "And he will judge the people.",
+        "And she will judge the people.",
+        "And you shall remember this day.",
+        "And he will judge a people."
+      ],
+      "answer": "And he will judge the people.",
+      "optionIsScript": false,
+      "block": "c40",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c40-03",
+      "extra": true
+    },
+    {
+      "id": "c40-03.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: And he will judge the people.",
+      "stimulus": "וְשָׁפַט ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אֶת־הָעָם"
+      ],
+      "answerIsScript": true,
+      "block": "c40",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c40-03",
+      "extra": true
+    },
+    {
+      "id": "c40-03.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וְשָׁפַט אֶת־הָעָם",
+      "stimulusIsScript": true,
+      "accepted": [
+        "And he will judge the people."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c40",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c40-03",
+      "extra": true
+    },
+    {
+      "id": "c40-03.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And he will judge the people.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וְשָׁפַט אֶת־הָעָם"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c40",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c40-03",
+      "extra": true
+    },
+    {
+      "id": "c40-04.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וְכָתַבְתָּ אֶת־הַדְּבָרִים",
+      "stimulusIsScript": true,
+      "statement": "And you shall write words.",
+      "answer": false,
+      "expected": "And you shall write the words.",
+      "block": "c40",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c40-04",
+      "extra": true
+    },
+    {
+      "id": "c40-04.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וְכָתַבְתָּ אֶת־הַדְּבָרִים",
+      "stimulusIsScript": true,
+      "options": [
+        "And you shall write the words.",
+        "And you shall write words.",
+        "And you shall remember this day.",
+        "The bread is on the table."
+      ],
+      "answer": "And you shall write the words.",
+      "optionIsScript": false,
+      "block": "c40",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c40-04",
+      "extra": true
+    },
+    {
+      "id": "c40-04.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: And you shall write the words.",
+      "stimulus": "＿＿＿ אֶת־הַדְּבָרִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וְכָתַבְתָּ"
+      ],
+      "answerIsScript": true,
+      "block": "c40",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c40-04",
+      "extra": true
+    },
+    {
+      "id": "c40-04.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וְכָתַבְתָּ אֶת־הַדְּבָרִים",
+      "stimulusIsScript": true,
+      "accepted": [
+        "And you shall write the words."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c40",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c40-04",
+      "extra": true
+    },
+    {
+      "id": "c40-04.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And you shall write the words.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וְכָתַבְתָּ אֶת־הַדְּבָרִים"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c40",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c40-04",
+      "extra": true
+    },
+    {
+      "id": "c40-05.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָרָשָׁע רָדַף אַחֲרֵי הַצַּדִּיק",
+      "stimulusIsScript": true,
+      "statement": "A wicked pursued the righteous.",
+      "answer": false,
+      "expected": "The wicked pursued the righteous.",
+      "block": "c40",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c40-05",
+      "extra": true
+    },
+    {
+      "id": "c40-05.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָרָשָׁע רָדַף אַחֲרֵי הַצַּדִּיק",
+      "stimulusIsScript": true,
+      "options": [
+        "The wicked pursued the righteous.",
+        "A wicked pursued the righteous.",
+        "The wicked pursued righteous.",
+        "And he will judge the people."
+      ],
+      "answer": "The wicked pursued the righteous.",
+      "optionIsScript": false,
+      "block": "c40",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c40-05",
+      "extra": true
+    },
+    {
+      "id": "c40-05.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The wicked pursued the righteous.",
+      "stimulus": "הָרָשָׁע רָדַף ＿＿＿ הַצַּדִּיק",
+      "stimulusIsScript": true,
+      "accepted": [
+        "אַחֲרֵי"
+      ],
+      "answerIsScript": true,
+      "block": "c40",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c40-05",
+      "extra": true
+    },
+    {
+      "id": "c40-05.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הָרָשָׁע רָדַף אַחֲרֵי הַצַּדִּיק",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The wicked pursued the righteous."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c40",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c40-05",
+      "extra": true
+    },
+    {
+      "id": "c40-05.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The wicked pursued the righteous.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָרָשָׁע רָדַף אַחֲרֵי הַצַּדִּיק"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c40",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c40-05",
+      "extra": true
+    },
+    {
+      "id": "c40-06.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַלֶּחֶם עַל־הַשֻּׁלְחָן",
+      "stimulusIsScript": true,
+      "statement": "The bread is from the table.",
+      "answer": false,
+      "expected": "The bread is on the table.",
+      "block": "c40",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c40-06",
+      "extra": true
+    },
+    {
+      "id": "c40-06.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַלֶּחֶם עַל־הַשֻּׁלְחָן",
+      "stimulusIsScript": true,
+      "options": [
+        "The bread is to the table.",
+        "The bread is from the table.",
+        "The bread is on the table.",
+        "A bread is on the table."
+      ],
+      "answer": "The bread is on the table.",
+      "optionIsScript": false,
+      "block": "c40",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c40-06",
+      "extra": true
+    },
+    {
+      "id": "c40-06.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The bread is on the table.",
+      "stimulus": "＿＿＿ עַל־הַשֻּׁלְחָן",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַלֶּחֶם"
+      ],
+      "answerIsScript": true,
+      "block": "c40",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c40-06",
+      "extra": true
+    },
+    {
+      "id": "c40-06.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הַלֶּחֶם עַל־הַשֻּׁלְחָן",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The bread is on the table."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c40",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c40-06",
+      "extra": true
+    },
+    {
+      "id": "c40-06.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The bread is on the table.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַלֶּחֶם עַל־הַשֻּׁלְחָן"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c40",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c40-06",
+      "extra": true
+    },
+    {
+      "id": "c40-07.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וְהָיָה לְאוֹת",
+      "stimulusIsScript": true,
+      "statement": "And it shall be for a sign.",
+      "answer": true,
+      "expected": "And it shall be for a sign.",
+      "block": "c40",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c40-07",
+      "extra": true
+    },
+    {
+      "id": "c40-07.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וְהָיָה לְאוֹת",
+      "stimulusIsScript": true,
+      "options": [
+        "And it shall be for a sign.",
+        "And you shall remember the covenant.",
+        "The wicked pursued the righteous.",
+        "And it shall be for the sign."
+      ],
+      "answer": "And it shall be for a sign.",
+      "optionIsScript": false,
+      "block": "c40",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c40-07",
+      "extra": true
+    },
+    {
+      "id": "c40-07.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: And it shall be for a sign.",
+      "stimulus": "וְהָיָה ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "לְאוֹת"
+      ],
+      "answerIsScript": true,
+      "block": "c40",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c40-07",
+      "extra": true
+    },
+    {
+      "id": "c40-07.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "And it shall be for a sign.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וְהָיָה לְאוֹת"
+      ],
+      "answerIsScript": true,
+      "block": "c40",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c40-07",
+      "extra": true
+    },
+    {
+      "id": "c40-07.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And it shall be for a sign.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וְהָיָה לְאוֹת"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c40",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c40-07",
+      "extra": true
+    },
+    {
+      "id": "c40-08.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הָעָם הָלַךְ בַּמִּדְבָּר אַרְבָּעִים שָׁנָה",
+      "stimulusIsScript": true,
+      "statement": "The people walked in the wilderness forty years.",
+      "answer": true,
+      "expected": "The people walked in the wilderness forty years.",
+      "block": "c40",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c40-08",
+      "extra": true
+    },
+    {
+      "id": "c40-08.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הָעָם הָלַךְ בַּמִּדְבָּר אַרְבָּעִים שָׁנָה",
+      "stimulusIsScript": true,
+      "options": [
+        "A people walked in the wilderness forty years.",
+        "The people walked in a wilderness forty years.",
+        "The people walked in the wilderness forty years.",
+        "The people walked to the wilderness forty years."
+      ],
+      "answer": "The people walked in the wilderness forty years.",
+      "optionIsScript": false,
+      "block": "c40",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c40-08",
+      "extra": true
+    },
+    {
+      "id": "c40-08.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The people walked in the wilderness forty years.",
+      "stimulus": "＿＿＿ הָלַךְ בַּמִּדְבָּר אַרְבָּעִים שָׁנָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הָעָם"
+      ],
+      "answerIsScript": true,
+      "block": "c40",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c40-08",
+      "extra": true
+    },
+    {
+      "id": "c40-08.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הָעָם הָלַךְ בַּמִּדְבָּר אַרְבָּעִים שָׁנָה",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The people walked in the wilderness forty years."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c40",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c40-08",
+      "extra": true
+    },
+    {
+      "id": "c40-08.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The people walked in the wilderness forty years.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הָעָם הָלַךְ בַּמִּדְבָּר אַרְבָּעִים שָׁנָה"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c40",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c40-08",
+      "extra": true
+    },
+    {
+      "id": "c40-09.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וְזָכַרְתָּ אֶת־הַבְּרִית",
+      "stimulusIsScript": true,
+      "statement": "And you shall remember a covenant.",
+      "answer": false,
+      "expected": "And you shall remember the covenant.",
+      "block": "c40",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c40-09",
+      "extra": true
+    },
+    {
+      "id": "c40-09.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וְזָכַרְתָּ אֶת־הַבְּרִית",
+      "stimulusIsScript": true,
+      "options": [
+        "And you shall remember this day.",
+        "And you shall remember a covenant.",
+        "And you shall remember the covenant.",
+        "The people walked in the wilderness forty years."
+      ],
+      "answer": "And you shall remember the covenant.",
+      "optionIsScript": false,
+      "block": "c40",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c40-09",
+      "extra": true
+    },
+    {
+      "id": "c40-09.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: And you shall remember the covenant.",
+      "stimulus": "＿＿＿ אֶת־הַבְּרִית",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וְזָכַרְתָּ"
+      ],
+      "answerIsScript": true,
+      "block": "c40",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c40-09",
+      "extra": true
+    },
+    {
+      "id": "c40-09.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "And you shall remember the covenant.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וְזָכַרְתָּ אֶת־הַבְּרִית"
+      ],
+      "answerIsScript": true,
+      "block": "c40",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c40-09",
+      "extra": true
+    },
+    {
+      "id": "c40-09.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And you shall remember the covenant.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וְזָכַרְתָּ אֶת־הַבְּרִית"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c40",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c40-09",
+      "extra": true
     }
   ]
 }

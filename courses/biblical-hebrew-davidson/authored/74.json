@@ -1,0 +1,773 @@
+{
+  "schema": "authored-exercises-v1.json",
+  "unit": 74,
+  "sources": {
+    "c74-01": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c74-02": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c74-03": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c74-04": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c74-05": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c74-06": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "c74-07": {
+      "citation": "Written for this course; every Hebrew word form is attested in the Hebrew Bible (Westminster Leningrad Codex) or in Davidson's grammar"
+    },
+    "b-Exod-9-26": {
+      "citation": "Exodus 9:26. Hebrew: Westminster Leningrad Codex (public domain) via the Open Scriptures Hebrew Bible (morphology CC BY 4.0). English: World English Bible (public domain)",
+      "url": "https://worldenglish.bible"
+    }
+  },
+  "items": [
+    {
+      "id": "c74-01.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וַיְהִי בָרָד",
+      "stimulusIsScript": true,
+      "statement": "And there was hail.",
+      "answer": true,
+      "expected": "And there was hail.",
+      "block": "c74",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c74-01",
+      "extra": true
+    },
+    {
+      "id": "c74-01.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וַיְהִי בָרָד",
+      "stimulusIsScript": true,
+      "options": [
+        "And there was hail.",
+        "The sun and the moon",
+        "Sun and moon",
+        "And it shall be my wage."
+      ],
+      "answer": "And there was hail.",
+      "optionIsScript": false,
+      "block": "c74",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c74-01",
+      "extra": true
+    },
+    {
+      "id": "c74-01.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: And there was hail.",
+      "stimulus": "＿＿＿ בָרָד",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וַיְהִי"
+      ],
+      "answerIsScript": true,
+      "block": "c74",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c74-01",
+      "extra": true
+    },
+    {
+      "id": "c74-01.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "וַיְהִי בָרָד",
+      "stimulusIsScript": true,
+      "accepted": [
+        "And there was hail."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c74",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c74-01",
+      "extra": true
+    },
+    {
+      "id": "c74-01.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And there was hail.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וַיְהִי בָרָד"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c74",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c74-01",
+      "extra": true
+    },
+    {
+      "id": "c74-02.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "וְהָיָה שְׂכָרִי",
+      "stimulusIsScript": true,
+      "statement": "And it shall be my wage.",
+      "answer": true,
+      "expected": "And it shall be my wage.",
+      "block": "c74",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c74-02",
+      "extra": true
+    },
+    {
+      "id": "c74-02.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "וְהָיָה שְׂכָרִי",
+      "stimulusIsScript": true,
+      "options": [
+        "And it shall be our wage.",
+        "And it shall be your wage.",
+        "And it shall be my wage.",
+        "And it shall be his wage."
+      ],
+      "answer": "And it shall be my wage.",
+      "optionIsScript": false,
+      "block": "c74",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c74-02",
+      "extra": true
+    },
+    {
+      "id": "c74-02.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: And it shall be my wage.",
+      "stimulus": "＿＿＿ שְׂכָרִי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וְהָיָה"
+      ],
+      "answerIsScript": true,
+      "block": "c74",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c74-02",
+      "extra": true
+    },
+    {
+      "id": "c74-02.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew (vowel points not checked)",
+      "stimulus": "And it shall be my wage.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וְהָיָה שְׂכָרִי"
+      ],
+      "answerIsScript": true,
+      "block": "c74",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c74-02",
+      "extra": true
+    },
+    {
+      "id": "c74-02.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "And it shall be my wage.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "וְהָיָה שְׂכָרִי"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c74",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c74-02",
+      "extra": true
+    },
+    {
+      "id": "c74-03.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "קוֹל בְּכִי",
+      "stimulusIsScript": true,
+      "statement": "A sound of weeping",
+      "answer": false,
+      "expected": "The sound of weeping",
+      "block": "c74",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c74-03",
+      "extra": true
+    },
+    {
+      "id": "c74-03.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "קוֹל בְּכִי",
+      "stimulusIsScript": true,
+      "options": [
+        "And it shall be my wage.",
+        "The sound of weeping",
+        "A sound of weeping",
+        "The sun and the moon"
+      ],
+      "answer": "The sound of weeping",
+      "optionIsScript": false,
+      "block": "c74",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c74-03",
+      "extra": true
+    },
+    {
+      "id": "c74-03.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The sound of weeping",
+      "stimulus": "＿＿＿ בְּכִי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "קוֹל"
+      ],
+      "answerIsScript": true,
+      "block": "c74",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c74-03",
+      "extra": true
+    },
+    {
+      "id": "c74-03.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "קוֹל בְּכִי",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The sound of weeping"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c74",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c74-03",
+      "extra": true
+    },
+    {
+      "id": "c74-03.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The sound of weeping",
+      "stimulusIsScript": false,
+      "accepted": [
+        "קוֹל בְּכִי"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c74",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c74-03",
+      "extra": true
+    },
+    {
+      "id": "c74-04.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "מָה־אַדִּיר שִׁמְךָ",
+      "stimulusIsScript": true,
+      "statement": "How majestic is your name!",
+      "answer": true,
+      "expected": "How majestic is your name!",
+      "block": "c74",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c74-04",
+      "extra": true
+    },
+    {
+      "id": "c74-04.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "מָה־אַדִּיר שִׁמְךָ",
+      "stimulusIsScript": true,
+      "options": [
+        "How majestic is their name!",
+        "How majestic is your name!",
+        "How majestic is our name!",
+        "How majestic is my name!"
+      ],
+      "answer": "How majestic is your name!",
+      "optionIsScript": false,
+      "block": "c74",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c74-04",
+      "extra": true
+    },
+    {
+      "id": "c74-04.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: How majestic is your name!",
+      "stimulus": "＿＿＿ שִׁמְךָ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "מָה־אַדִּיר"
+      ],
+      "answerIsScript": true,
+      "block": "c74",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c74-04",
+      "extra": true
+    },
+    {
+      "id": "c74-04.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "מָה־אַדִּיר שִׁמְךָ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "How majestic is your name!"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c74",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c74-04",
+      "extra": true
+    },
+    {
+      "id": "c74-04.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "How majestic is your name!",
+      "stimulusIsScript": false,
+      "accepted": [
+        "מָה־אַדִּיר שִׁמְךָ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c74",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c74-04",
+      "extra": true
+    },
+    {
+      "id": "c74-05.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "שְׁאָר יָשׁוּב",
+      "stimulusIsScript": true,
+      "statement": "A remnant will return.",
+      "answer": true,
+      "expected": "A remnant will return.",
+      "block": "c74",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c74-05",
+      "extra": true
+    },
+    {
+      "id": "c74-05.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "שְׁאָר יָשׁוּב",
+      "stimulusIsScript": true,
+      "options": [
+        "Sun and moon",
+        "The sound of weeping",
+        "The remnant will return.",
+        "A remnant will return."
+      ],
+      "answer": "A remnant will return.",
+      "optionIsScript": false,
+      "block": "c74",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c74-05",
+      "extra": true
+    },
+    {
+      "id": "c74-05.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: A remnant will return.",
+      "stimulus": "＿＿＿ יָשׁוּב",
+      "stimulusIsScript": true,
+      "accepted": [
+        "שְׁאָר"
+      ],
+      "answerIsScript": true,
+      "block": "c74",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c74-05",
+      "extra": true
+    },
+    {
+      "id": "c74-05.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "שְׁאָר יָשׁוּב",
+      "stimulusIsScript": true,
+      "accepted": [
+        "A remnant will return."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c74",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c74-05",
+      "extra": true
+    },
+    {
+      "id": "c74-05.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "A remnant will return.",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שְׁאָר יָשׁוּב"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c74",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c74-05",
+      "extra": true
+    },
+    {
+      "id": "c74-06.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "שֶׁמֶשׁ וְיָרֵחַ",
+      "stimulusIsScript": true,
+      "statement": "Sun and moon",
+      "answer": true,
+      "expected": "Sun and moon",
+      "block": "c74",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c74-06",
+      "extra": true
+    },
+    {
+      "id": "c74-06.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "שֶׁמֶשׁ וְיָרֵחַ",
+      "stimulusIsScript": true,
+      "options": [
+        "The sun and the moon",
+        "Sun and moon",
+        "And there was hail.",
+        "A remnant will return."
+      ],
+      "answer": "Sun and moon",
+      "optionIsScript": false,
+      "block": "c74",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c74-06",
+      "extra": true
+    },
+    {
+      "id": "c74-06.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Sun and moon",
+      "stimulus": "שֶׁמֶשׁ ＿＿＿",
+      "stimulusIsScript": true,
+      "accepted": [
+        "וְיָרֵחַ"
+      ],
+      "answerIsScript": true,
+      "block": "c74",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c74-06",
+      "extra": true
+    },
+    {
+      "id": "c74-06.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "שֶׁמֶשׁ וְיָרֵחַ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Sun and moon"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c74",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c74-06",
+      "extra": true
+    },
+    {
+      "id": "c74-06.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "Sun and moon",
+      "stimulusIsScript": false,
+      "accepted": [
+        "שֶׁמֶשׁ וְיָרֵחַ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c74",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c74-06",
+      "extra": true
+    },
+    {
+      "id": "c74-07.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "הַשֶּׁמֶשׁ וְהַיָּרֵחַ",
+      "stimulusIsScript": true,
+      "statement": "The sun and the moon",
+      "answer": true,
+      "expected": "The sun and the moon",
+      "block": "c74",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c74-07",
+      "extra": true
+    },
+    {
+      "id": "c74-07.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "הַשֶּׁמֶשׁ וְהַיָּרֵחַ",
+      "stimulusIsScript": true,
+      "options": [
+        "And there was hail.",
+        "The sun and the moon",
+        "The sun and a moon",
+        "A sun and the moon"
+      ],
+      "answer": "The sun and the moon",
+      "optionIsScript": false,
+      "block": "c74",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c74-07",
+      "extra": true
+    },
+    {
+      "id": "c74-07.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: The sun and the moon",
+      "stimulus": "＿＿＿ וְהַיָּרֵחַ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "הַשֶּׁמֶשׁ"
+      ],
+      "answerIsScript": true,
+      "block": "c74",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c74-07",
+      "extra": true
+    },
+    {
+      "id": "c74-07.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "הַשֶּׁמֶשׁ וְהַיָּרֵחַ",
+      "stimulusIsScript": true,
+      "accepted": [
+        "The sun and the moon"
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "c74",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c74-07",
+      "extra": true
+    },
+    {
+      "id": "c74-07.pointed",
+      "rung": 5,
+      "rungLabel": "Translate with vowel points",
+      "type": "translate-phrase",
+      "prompt": "Translate into Hebrew with full vowel points",
+      "stimulus": "The sun and the moon",
+      "stimulusIsScript": false,
+      "accepted": [
+        "הַשֶּׁמֶשׁ וְהַיָּרֵחַ"
+      ],
+      "answerIsScript": true,
+      "pointing": "required",
+      "block": "c74",
+      "blockLabel": "New sentences",
+      "shape": "corpus",
+      "src": "c74-07",
+      "extra": true
+    },
+    {
+      "id": "b-Exod-9-26.tf",
+      "rung": 1,
+      "rungLabel": "True or false",
+      "type": "true-false",
+      "prompt": "Is this the right translation?",
+      "stimulus": "רַק בְּאֶרֶץ גֹּשֶׁן אֲשֶׁר־שָׁם בְּנֵי יִשְׂרָאֵל לֹא הָיָה בָּרָד",
+      "stimulusIsScript": true,
+      "statement": "Only to the land of Goshen, where the children of Israel were, there was no hail.",
+      "answer": false,
+      "expected": "Only in the land of Goshen, where the children of Israel were, there was no hail.",
+      "block": "b74",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Exod-9-26",
+      "extra": true
+    },
+    {
+      "id": "b-Exod-9-26.choice",
+      "rung": 2,
+      "rungLabel": "Choose",
+      "type": "mcq",
+      "prompt": "Choose the translation",
+      "stimulus": "רַק בְּאֶרֶץ גֹּשֶׁן אֲשֶׁר־שָׁם בְּנֵי יִשְׂרָאֵל לֹא הָיָה בָּרָד",
+      "stimulusIsScript": true,
+      "options": [
+        "Only to the land of Goshen, where the children of Israel were, there was no hail.",
+        "Only in the land of Goshen, where a children of Israel were, there was no hail.",
+        "Only in the land of Goshen, where the children of Israel were, there was no hail.",
+        "Only from the land of Goshen, where the children of Israel were, there was no hail."
+      ],
+      "answer": "Only in the land of Goshen, where the children of Israel were, there was no hail.",
+      "optionIsScript": false,
+      "block": "b74",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Exod-9-26",
+      "extra": true
+    },
+    {
+      "id": "b-Exod-9-26.fill",
+      "rung": 3,
+      "rungLabel": "Fill in",
+      "type": "translate-phrase",
+      "prompt": "Fill in the missing word: Only in the land of Goshen, where the children of Israel were, there was no hail.",
+      "stimulus": "רַק בְּאֶרֶץ גֹּשֶׁן אֲשֶׁר־שָׁם בְּנֵי ＿＿＿ לֹא הָיָה בָּרָד",
+      "stimulusIsScript": true,
+      "accepted": [
+        "יִשְׂרָאֵל"
+      ],
+      "answerIsScript": true,
+      "block": "b74",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Exod-9-26",
+      "extra": true
+    },
+    {
+      "id": "b-Exod-9-26.translate",
+      "rung": 4,
+      "rungLabel": "Translate",
+      "type": "translate-phrase",
+      "prompt": "Translate into English",
+      "stimulus": "רַק בְּאֶרֶץ גֹּשֶׁן אֲשֶׁר־שָׁם בְּנֵי יִשְׂרָאֵל לֹא הָיָה בָּרָד",
+      "stimulusIsScript": true,
+      "accepted": [
+        "Only in the land of Goshen, where the children of Israel were, there was no hail."
+      ],
+      "answerIsScript": false,
+      "selfCheck": true,
+      "block": "b74",
+      "blockLabel": "Bible verses",
+      "shape": "bible",
+      "src": "b-Exod-9-26",
+      "extra": true
+    }
+  ]
+}
