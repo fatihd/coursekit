@@ -76,4 +76,5 @@
   `e2e.py --units 7`, `--ladder`, `--keyboard`, `--accessibility`; not on the site yet (P11-T6).
 - 2026-11-14: Machen Lessons IX–XXIII curated and their units 9–23 added; the Greek course is in the public repo
   (not on the site yet).
-- Next up: Machen Lessons XXIV–XXXIII and their units; vocabulary layers; optional corpus pass 2 (units 13–15, 72–79).
+- 2026-11-14: the Greek course builds from the repo alone; Lesson XXIV and unit 24 added.
+- Next up: Machen Lessons XXV–XXXIII and their units; vocabulary layers; optional corpus pass 2 (units 13–15, 72–79).

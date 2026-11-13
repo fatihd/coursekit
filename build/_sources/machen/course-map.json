@@ -1,11 +1,21 @@
 {
-  "note": "Unit map and lesson vocabularies of courses/biblical-greek-machen (ROADMAP P11-T5), read by build/machen_course.py. One unit per Machen lesson. Vocabulary entries are [headword, gloss, category, gender, lemma]: glosses after Machen's own (public domain); gender only for nouns; lemma, when given, is the MorphGNT lemma used for the NT frequency (a principal part such as ἐλεύσομαι counts as ἔρχομαι). Pages are Machen's printed pages (1923 plates).",
+  "note": "Unit map and lesson vocabularies of courses/biblical-greek-machen (ROADMAP P11-T5), read by build/machen_course.py. One unit per Machen lesson. Vocabulary entries are [headword, gloss, category, gender, lemma]: glosses after Machen's own (public domain); gender only for nouns; lemma, when given, is the MorphGNT lemma used for the NT frequency (a principal part such as ἐλεύσομαι counts as ἔρχομαι). Pages are Machen's printed pages (1923 plates). `course` holds the settings copied into course.json.",
+  "course": {
+    "id": "biblical-greek-machen",
+    "title": "New Testament Greek — Machen Course",
+    "language": "grc",
+    "level": "A",
+    "script": {"direction": "ltr", "font": "GentiumPlus", "fontFile": "fonts/GentiumPlus-Regular.woff2", "keyboard": "el_GR", "translitScheme": "none", "profile": "greek", "code": "grc"},
+    "prerequisites": [],
+    "knowledgeGraph": "prerequisites/knowledge.json",
+    "features": {"diagnostics": true, "reviewWarmup": true, "targetItems": 24, "reviewItems": 5, "authoredPerSession": 10, "unlockRung": 3, "transliteration": false, "wordLadder": true, "retries": true, "tests": true}
+  },
   "parts": [
     {"n": 1, "title": "Letters and Accents", "units": [1, 2]},
     {"n": 2, "title": "Verbs, Nouns and Adjectives", "units": [3, 8]},
     {"n": 3, "title": "Pronouns, Voices and Past Tenses", "units": [9, 15]},
     {"n": 4, "title": "Passives, the Third Declension and Participles", "units": [16, 20]},
-    {"n": 5, "title": "Moods and Contract Verbs", "units": [21, 23]}
+    {"n": 5, "title": "Moods, Contract and Liquid Verbs", "units": [21, 24]}
   ],
   "units": [
     {"n": 1, "lesson": 1, "title": "The Alphabet", "slug": "the-alphabet", "page": 9,
@@ -217,6 +227,23 @@
        ["παρακαλέω", "I exhort, I comfort", "verb"], ["περιπατέω", "I walk", "verb"],
        ["ποιέω", "I do, I make", "verb"], ["προσκυνέω", "I worship (usually with dat.)", "verb"],
        ["σταυρόω", "I crucify", "verb"], ["τηρέω", "I keep", "verb"], ["τιμάω", "I honor", "verb"],
-       ["φιλέω", "I love (as a friend)", "verb"], ["χώρα", "a country", "noun", "f"]]}
+       ["φιλέω", "I love (as a friend)", "verb"], ["χώρα", "a country", "noun", "f"]]},
+    {"n": 24, "lesson": 24, "title": "Liquid Verbs; Reflexive Pronouns", "slug": "liquid-verbs-reflexive-pronouns", "page": 150, "exercise": "machen-l24",
+     "description": "The future and first aorist of liquid verbs, the future of εἰμί, and the reflexive pronouns.",
+     "vocab": [
+       ["ἀλλήλων", "of one another, of each other", "pronoun"],
+       ["ἀποθανοῦμαι", "I shall die (future of ἀποθνήσκω)", "verb", "", "ἀποθνῄσκω"],
+       ["ἀποκτενῶ", "I shall kill (future of ἀποκτείνω; aorist ἀπέκτεινα)", "verb", "", "ἀποκτείνω"],
+       ["ἀποστελῶ", "I shall send (future of ἀποστέλλω; aorist ἀπέστειλα)", "verb", "", "ἀποστέλλω"],
+       ["ἀρῶ", "I shall take up, I shall take away (future of αἴρω; aorist ἦρα)", "verb", "", "αἴρω"],
+       ["βαλῶ", "I shall throw, I shall cast (future of βάλλω)", "verb", "", "βάλλω"],
+       ["ἑαυτοῦ", "of himself (reflexive)", "pronoun"],
+       ["ἐγερῶ", "I shall raise up (future of ἐγείρω; aorist ἤγειρα)", "verb", "", "ἐγείρω"],
+       ["ἐμαυτοῦ", "of myself (reflexive)", "pronoun"],
+       ["ἐπί", "over, on, at the time of (gen.); on, on the basis of, at (dat.); on, to, against (acc.)", "preposition"],
+       ["ἔσομαι", "I shall be (future of εἰμί)", "verb", "", "εἰμί"],
+       ["μενῶ", "I shall remain (future of μένω; aorist ἔμεινα)", "verb", "", "μένω"],
+       ["μετανοέω", "I repent", "verb"], ["σεαυτοῦ", "of yourself (sg., reflexive)", "pronoun"],
+       ["σπείρω", "I sow", "verb"], ["φοβέομαι", "I am afraid, I fear", "verb"]]}
   ]
 }

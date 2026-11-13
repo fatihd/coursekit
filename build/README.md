@@ -30,7 +30,9 @@
   `greek_text.py` — Python twin of `engine/greek.js` (`tests/test_greek_text.py` keeps them in step).
   `greek_corpus.py` — every Greek word of `exwb/curated/machen-*.json` must be in SBLGNT/MorphGNT, Machen's text
   (`_sources/machen/attested.json` with pages) or the course word list; `forms` writes `_sources/machen/greek-forms.json`.
-- `machen_course.py` — the Machen Greek course data (P11-T5): `content/vocab.csv` from
+- `machen_course.py` — the Machen Greek course data (P11-T5): `course.json` and `units.json` (settings from the
+  `course` entry of the map), the source line and word lists at the foot of `content/chapters/NN.md` (the lesson
+  text above `## Source` is hand-written and kept), `content/vocab.csv` from
   `_sources/machen/course-map.json` (Machen's lesson vocabularies as `[headword, gloss, category, gender, lemma]`;
   NT frequencies from MorphGNT or `lemma-counts.json`, counted on the lemma when one is given, e.g. ἐλεύσομαι → ἔρχομαι),
   `authored/` + `exercises/` + `ladder.json` from `exwb/curated/machen-lNN.json` (Greek ladder) and

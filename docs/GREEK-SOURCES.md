@@ -150,7 +150,9 @@ lesson adds the lemmas that occur 10–49 times (Words track, ADR-023; optional 
   `sameWordsAnyOrder`, `build/greek_text.py` `same_any_order`). Greek profile only.
 - **exwb numbering:** in Greek mode, OCR look-alikes of item numbers (ὃ./ὅ. for 3/5, δ. for 5/6, Ἴ./τ. for 7, 1]. for
   11, 18. for 13) count as numbers when they are the expected next one; Davidson is unchanged (48 blocks).
-- **Course (P11-T5):** `courses/biblical-greek-machen`, units 1–23 = Lessons I–XXIII (parts 1–5); units 1–2 have
+- **Curated 2026-11-14:** Lesson XXIV (`machen-l24.json`, 36 items; liquid-verb forms recorded against §333, p. 152;
+  no 1927 differences). Lessons III–XXIV: 764 items, 8,791 Greek words attested.
+- **Course (P11-T5):** `courses/biblical-greek-machen`, units 1–24 = Lessons I–XXIV (parts 1–5); units 1–2 have
   recognition questions (`build/_sources/machen/recognition.json`), units 3–8 Machen's exercises as five-rung ladders;
   `build/machen_course.py` writes `content/vocab.csv` (Machen's lesson vocabularies with NT frequencies) and
   `authored/`; lesson text written for the course; CC BY-SA 4.0.

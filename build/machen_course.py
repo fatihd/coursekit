@@ -5,6 +5,9 @@ Reads `build/_sources/machen/course-map.json` (units and Machen's lesson vocabul
 (questions for the letter and accent units) and the curated exercises `exwb/curated/machen-lNN.json` (Machen's
 sentences with the answers written for this course), and writes into `courses/biblical-greek-machen`:
 
+* `course.json`, `units.json` — the unit map and parts (course settings from the `course` entry of the map);
+* the source line and the Vocabulary / Teaches / Assumes lists of `content/chapters/NN.md` (the lesson text above
+  `## Source` is written by hand and kept);
 * `content/vocab.csv` — the lesson vocabularies, with NT frequencies from MorphGNT (`build/_sources/morphgnt/`,
   or the counts kept in `build/_sources/machen/lemma-counts.json` when MorphGNT is not downloaded);
 * `authored/NN.json`, `exercises/NN.json`, `authored/ladder.json` — five ladder rungs per sentence made by the Greek
@@ -189,6 +192,52 @@ def build(cmap: dict) -> dict[int, list[dict]]:
     return units
 
 
+def part_of(cmap: dict, n: int) -> int:
+    return next(p["n"] for p in cmap["parts"] if p["units"][0] <= n <= p["units"][1])
+
+
+def course_json(cmap: dict) -> dict:
+    meta = cmap["course"]
+    units = [{"id": f"u{u['n']:02d}", "n": u["n"], "title": u["title"], "slug": u["slug"], "part": part_of(cmap, u["n"])}
+             for u in cmap["units"]]
+    return {"id": meta["id"], "title": meta["title"], "language": meta["language"], "level": meta["level"],
+            "script": meta["script"], "units": units, "parts": cmap["parts"], "prerequisites": meta["prerequisites"],
+            "knowledgeGraph": meta["knowledgeGraph"], "features": meta["features"]}
+
+
+def units_json(cmap: dict) -> dict:
+    return {"schema": "units-v1.json",
+            "source": "J. Gresham Machen, New Testament Greek for Beginners (1923, public domain)",
+            "titlesSource": "Public-domain Machen grammar; see content/ATTRIBUTION.md",
+            "units": [{"id": f"u{u['n']:02d}", "n": u["n"], "title": u["title"], "slug": u["slug"],
+                       "description": u["description"], "part": part_of(cmap, u["n"])} for u in cmap["units"]]}
+
+
+def chapter_text(path: Path, u: dict, vocab: list[str], prev: list[str]) -> str:
+    """The lesson text above `## Source` is written by hand; the source line and the word lists below it are built."""
+    if not path.is_file():
+        sys.exit(f"missing lesson text: {path} (write the chapter body first)")
+    body = path.read_text(encoding="utf-8").split("\n## Source\n")[0].rstrip()
+    parts = [body, "", "## Source", "",
+             f"Machen, *New Testament Greek for Beginners* (1923), Lesson {u['lesson']} (p. {u['page']}).", ""]
+    if vocab:
+        parts += ["## Vocabulary", ""] + [f"- {i}" for i in vocab] + ["", "## Teaches", ""] + [f"- {i}" for i in vocab] + [""]
+    if prev:
+        parts += ["## Assumes", ""] + [f"- {i}" for i in prev] + [""]
+    return "\n".join(parts).rstrip() + "\n"
+
+
+def chapter_files(course: Path, cmap: dict, rows: list[dict]) -> dict[Path, str]:
+    ids: dict[int, list[str]] = defaultdict(list)
+    for r in rows:
+        ids[int(r["unit"])].append(r["id"])
+    out = {}
+    for u in cmap["units"]:
+        path = course / "content" / "chapters" / f"{u['n']:02d}.md"
+        out[path] = chapter_text(path, u, ids.get(u["n"], []), ids.get(u["n"] - 1, []))
+    return out
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument("--course", required=True)
@@ -196,7 +245,11 @@ def main() -> int:
     args = ap.parse_args()
     course = Path(args.course)
     cmap = json.loads(MAP.read_text(encoding="utf-8"))
-    wanted: dict[Path, str] = {course / "content" / "vocab.csv": vocab_csv(vocab_rows(cmap))}
+    rows = vocab_rows(cmap)
+    wanted: dict[Path, str] = {course / "content" / "vocab.csv": vocab_csv(rows),
+                               course / "course.json": dump(course_json(cmap)),
+                               course / "units.json": dump(units_json(cmap)),
+                               **chapter_files(course, cmap, rows)}
     ladder_index = {}
     for unit, entries in sorted(build(cmap).items()):
         items = [it for e in entries for it in e["items"]]
