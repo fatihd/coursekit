@@ -99,6 +99,10 @@ accepted: ἄνθρωπός τις = ἄνθρωπος τις, ἐστίν = ἐ
 its breathing. Defaults (each can be switched off in `options`): `movableNu` (-σι/-σιν, -ε/-εν, ἐστι/ἐστιν; not
 οὐδέν/μηδέν or words of three letters), `elision` (δι’ = διά, ἀλλ’ = ἀλλά, καθ’ = κατά, …), `clitics`.
 `accentDiff(answer, expected)` marks letters whose marks differ, for a red-marks view like `pointingDiff`.
+**Word order (Greek only):** `sameWordsAnyOrder(a, b, level)` accepts the same words in any order if `wordOrderOk(a)`:
+no postpositive (δέ, γάρ, οὖν, μέν, τε, γε, ἄν, δή, τοι, μέντοι, τοίνυν, μου, μοι, με, σου, σοι, σε) first and no
+article last in any clause. The Greek profile's `match` uses it; `translate-phrase` then returns `note: "Our word
+order: …"`, which the drill shows with a right answer. Hebrew keeps exact order.
 Test: `python scripts/e2e-greek.py`.
 
 ### `arc` (Aramaic square) — not started

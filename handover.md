@@ -69,5 +69,9 @@
   typed rungs, full accents on the top rung); the ladder builder split into a shared core with Hebrew and Greek
   profiles (Davidson unchanged); exwb reads Greek books (`profiles/machen.json`); Machen Lessons IV–V curated with
   our answers, every Greek word checked against SBLGNT/MorphGNT (`build/greek_corpus.py`).
-- Next up: Machen Lessons VI–XXXIII, then the Greek course scaffold (P11-T5); optional corpus pass 2 (units 13–15,
-  72–79).
+- 2026-11-13: no separate review step (user, ADR-027): the courses are corrected as they are used; human-review
+  gates removed from the roadmap, rescue plan and site notice.
+- 2026-11-13: typed Greek accepted in any valid word order (no postpositive first, no article last; feedback shows our
+  order); Machen Lessons III–VIII curated; `courses/biblical-greek-machen` scaffold (units 1–8) validates and passes
+  `e2e.py --units 7`, `--ladder`, `--keyboard`, `--accessibility`; not on the site yet (P11-T6).
+- Next up: Machen Lessons IX–XXXIII and their units; vocabulary layers; optional corpus pass 2 (units 13–15, 72–79).

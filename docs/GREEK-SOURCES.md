@@ -97,7 +97,7 @@ lesson adds the lemmas that occur 10–49 times (Words track, ADR-023; optional 
   and adapted sentences. Early lessons use phrases and NT fragments; from about Lesson 33 most items are verses.
 - **Use:** good extra material for replayability, especially real NT sentences in the middle units, where Machen is
   still constructed. Each item is placed by its grammar and words like any other. Answers for NT-derived items can
-  start from the World English Bible (public domain) and must be reviewed; constructed items get our own answers.
+  use the World English Bible (public domain) as a reference for our own answers; constructed items get our own answers.
 - **Not the spine:** sets are small, Lesson 1 is a transliteration drill (§0: dropped), and there is no key.
 
 ## 6. Answers and grading (user, 2026-11-13)
@@ -124,16 +124,28 @@ lesson adds the lemmas that occur 10–49 times (Words track, ADR-023; optional 
   `exwb/profiles/machen.json` (32 blocks = the 32 exercise sets); `build/greek_corpus.py` with
   `build/_sources/machen/attested.json` (book forms with their pages), `greek-forms.json` (MorphGNT analyses of the
   forms used, CC BY-SA) and `corrections.json` (1927 comparison, page by page; no misprints in Lessons IV–V).
-- **Curated:** Lessons IV and V (`exwb/curated/machen-l04.json`, `-l05.json`): 38 Greek→English items with our English,
-  27 English→Greek items with our Greek; 314 Greek words, all attested (306 in SBLGNT, 8 in Machen's own text).
-- **Word order:** typed Greek is compared as typed, so a correct answer in another word order is marked wrong unless
-  it is listed in `data.accept`; Greek→English answers fall back to self-checking. Open question for the user.
+- **Curated:** Lessons III–VIII (`exwb/curated/machen-l03.json` … `-l08.json`): 107 Greek→English items with our
+  English, 85 English→Greek items with our Greek; 1,418 Greek words, all attested (in SBLGNT, in Machen's text, or
+  formed exactly on a paradigm Machen prints, listed with its page in `attested.json`). One misprint fixed from the
+  1927 printing (p. 50, VIII I.3: ἄγει με ὁ κύριος …); Machen's thou/thy/ye/your are given as you/your (sg.)/(pl.)
+  with his wording in `data.book_prompt`.
+- **Word order (user, 2026-11-13):** typed Greek is accepted in any order of the same words, as long as no postpositive
+  (δέ, γάρ, οὖν, μέν, τε, γε, ἄν, δή, τοι, μέντοι, τοίνυν, and the enclitic pronouns μου/μοι/με/σου/σοι/σε) stands
+  first and no article stands last in a clause; the feedback then shows our order (`engine/greek.js`
+  `sameWordsAnyOrder`, `build/greek_text.py` `same_any_order`). Greek profile only.
+- **exwb numbering:** in Greek mode, OCR look-alikes of item numbers (ὃ./ὅ. for 3/5, δ. for 5/6, Ἴ./τ. for 7, 1]. for
+  11, 18. for 13) count as numbers when they are the expected next one; Davidson is unchanged (48 blocks).
+- **Course scaffold (P11-T5):** `courses/biblical-greek-machen`, units 1–8 = Lessons I–VIII; units 1–2 have
+  recognition questions (`build/_sources/machen/recognition.json`), units 3–8 Machen's exercises as five-rung ladders;
+  `build/machen_course.py` writes `content/vocab.csv` (Machen's lesson vocabularies with NT frequencies) and
+  `authored/`; lesson text written for the course; CC BY-SA 4.0.
 
 ## 8. Next steps
 
-1. Curate Lessons VI–XXXIII the same way (exwb `ocr`, transcribe from the scan, our answers, `greek_corpus.py check`,
-   1927 comparison into `corrections.json`); then the Davis items.
-2. A Machen builder on `ladder_core` + `ladder_greek` (wrong options by case, number, voice, tense), lemma-based
-   vocabulary layout from MorphGNT (core: Machen + all 50+ lemmas; optional reading vocabulary 10–49), sentence
-   tagging from MorphGNT parses.
+1. Curate Lessons IX–XXXIII the same way (exwb `ocr`, transcribe from the scan, our answers, `greek_corpus.py check`,
+   1927 comparison into `corrections.json`) and add their units to `course-map.json`; then the Davis items.
+2. Vocabulary layers: the 50+ NT lemmas that Machen's lists lack (32 of 309) placed in the core units at first use,
+   and an optional reading-vocabulary part for the 10–49 lemmas; both need glosses, e.g. from the public-domain
+   Dodson lexicon (GitHub).
+3. Greek-specific wrong options (case, number, voice, tense) and sentence placement by MorphGNT parses.
 4. Unit map: Machen's 33 lessons split into one-topic units (as Davidson's 49 sections became 79 units).

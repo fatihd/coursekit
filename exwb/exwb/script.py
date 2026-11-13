@@ -23,6 +23,7 @@ def apply(profile):
     ACTIVE.clear(); ACTIVE.update(name=name, **s)
     detect.HEB = re.compile(s["letters"])
     detect.SCRIPT_RTL = s["rtl"]
+    detect.NUM_LOOKALIKES = name == "greek"
     ocr.LETTERS = re.compile(s["ocr_letters"])
     ocr.POINTS = re.compile(s["marks"])
     return ACTIVE

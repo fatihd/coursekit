@@ -23,6 +23,11 @@ class EngineParityTests(unittest.TestCase):
                     self.assertEqual(G.compose(args[0]), want)
                 elif fn == "hasAccents":
                     self.assertEqual(G.has_accents(args[0]), want)
+                elif fn == "wordOrderOk":
+                    self.assertEqual(G.order_ok(args[0]), want)
+                elif fn == "sameWordsAnyOrder":
+                    level = args[2] if len(args) > 2 else "full"
+                    self.assertEqual(G.same_any_order(args[0], args[1], level), want)
                 elif fn == "sameGreek":
                     level = args[2] if len(args) > 2 else "full"
                     opts = {OPTION_NAMES[k]: v for k, v in (args[3] if len(args) > 3 else {}).items()}

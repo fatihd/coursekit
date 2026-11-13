@@ -252,7 +252,8 @@ export function renderDrill(root, ctx) {
           ? (res.selfMarked ? "Marked right." : "Correct!")
           : (res.selfMarked ? "Marked wrong." : `Not quite — answer: ${res.expected}`);
         const note = res.correct && !firstTry ? " Practised — it counts once you get it right first time." : requeued ? " It will come back at the end." : "";
-        const msg = el("p", res.correct ? "drill-ok" : "drill-no", (res.message && !res.correct ? `${res.message} ${text}` : text) + note);
+        const order = res.correct && res.note ? ` ${res.note}` : "";
+        const msg = el("p", res.correct ? "drill-ok" : "drill-no", (res.message && !res.correct ? `${res.message} ${text}` : text) + order + note);
         msg.dir = "auto";
         feedback.appendChild(msg);
         if (item.explain) {

@@ -18,6 +18,15 @@ function bestExpected(item, answer) {
   return best;
 }
 
+function matchScript(item, answer, key) {
+  const profile = script();
+  const hits = item.accepted.map((acc) => [acc, profile.match(answer, acc, key)]);
+  if (hits.some(([, m]) => m === "same")) return { correct: true };
+  const moved = hits.find(([, m]) => m === "reordered");
+  if (moved) return { correct: true, note: `${profile.orderNote} ${moved[0]}` };
+  return { correct: false };
+}
+
 export default {
   id: "translate-phrase",
 
@@ -65,17 +74,14 @@ export default {
   grade(item, answer) {
     if (item.answerIsScript && item.pointing === "required") {
       const { full, hasMarks, missing } = script();
-      const a = full(answer);
-      const correct = item.accepted.some((acc) => full(acc) === a);
+      const { correct, note } = matchScript(item, answer, full);
       const expected = correct ? item.accepted[0] : bestExpected(item, answer);
       const message = hasMarks(answer) ? null : missing;
-      return { correct, expected, message };
+      return note ? { correct, expected, message, note } : { correct, expected, message };
     }
     if (item.answerIsScript) {
-      const { plain } = script();
-      const a = plain(answer);
-      const correct = item.accepted.some((acc) => plain(acc) === a);
-      return { correct, expected: item.accepted[0] };
+      const { correct, note } = matchScript(item, answer, script().plain);
+      return note ? { correct, expected: item.accepted[0], note } : { correct, expected: item.accepted[0] };
     }
     if (item.selfCheck) {
       const a = normalizeEnglish(answer);

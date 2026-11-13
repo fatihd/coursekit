@@ -20,6 +20,7 @@ class MachenCuratedTests(unittest.TestCase):
     def setUpClass(cls):
         cls.files = GC.curated_files()
 
+    @unittest.skipUnless((ROOT / "courses" / "biblical-greek-machen").exists(), "course word list not in this tree")
     def test_every_greek_word_is_attested(self):
         self.assertEqual(GC.check(), 0)
 

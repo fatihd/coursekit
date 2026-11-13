@@ -1,0 +1,29 @@
+{
+  "note": "Recognition questions written for this course on Machen's Lessons I-II (alphabet; breathings and accents), read by build/machen_course.py: rung 1 true/false, rung 2 choose, rung 3 typed Greek. `claim` takes {x}.",
+  "units": {
+    "1": {"lesson": 1, "page": 9, "questions": [
+      {"stimulus": "λ", "prompt": "Which letter is this?", "answer": "lambda", "wrong": ["delta", "alpha", "mu"], "claim": "This letter is {x}.", "typed": {"prompt": "Type the Greek letter lambda", "accepted": ["λ"]}},
+      {"stimulus": "ξ", "prompt": "Which letter is this?", "answer": "xi", "wrong": ["zeta", "chi", "psi"], "claim": "This letter is {x}.", "typed": {"prompt": "Type the Greek letter xi", "accepted": ["ξ"]}},
+      {"stimulus": "η", "prompt": "Which letter is this?", "answer": "eta", "wrong": ["nu", "epsilon", "iota"], "claim": "This letter is {x}.", "typed": {"prompt": "Type the Greek letter eta", "accepted": ["η"]}},
+      {"stimulus": "ω", "prompt": "Which letter is this?", "answer": "omega", "wrong": ["omicron", "upsilon", "psi"], "claim": "This letter is {x}.", "typed": {"prompt": "Type the Greek letter omega", "accepted": ["ω"]}},
+      {"stimulus": "θ", "prompt": "Which letter is this?", "answer": "theta", "wrong": ["phi", "omicron", "delta"], "claim": "This letter is {x}.", "typed": {"prompt": "Type the Greek letter theta", "accepted": ["θ"]}},
+      {"stimulus": "χ", "prompt": "Which letter is this?", "answer": "chi", "wrong": ["xi", "kappa", "psi"], "claim": "This letter is {x}.", "typed": {"prompt": "Type the Greek letter chi", "accepted": ["χ"]}},
+      {"stimulus": "ψ", "prompt": "Which letter is this?", "answer": "psi", "wrong": ["phi", "upsilon", "chi"], "claim": "This letter is {x}.", "typed": {"prompt": "Type the Greek letter psi", "accepted": ["ψ"]}},
+      {"stimulus": "ρ", "prompt": "Which letter is this?", "answer": "rho", "wrong": ["pi", "beta", "nu"], "claim": "This letter is {x}.", "typed": {"prompt": "Type the Greek letter rho", "accepted": ["ρ"]}},
+      {"stimulus": "ς", "prompt": "Where is this form of sigma written?", "answer": "only at the end of a word", "wrong": ["only at the beginning of a word", "anywhere in a word"], "claim": "This form of sigma is written {x}.", "typed": {"prompt": "Type the word λόγος (the final sigma comes by itself)", "accepted": ["λόγος"]}},
+      {"stimulus": "γγ", "prompt": "How is γγ pronounced?", "answer": "ng (as in finger)", "wrong": ["gg (as in egg)", "j (as in judge)"], "claim": "γγ is pronounced {x}.", "typed": {"prompt": "Type the word ἄγγελος", "accepted": ["ἄγγελος"]}}
+    ]},
+    "2": {"lesson": 2, "page": 13, "questions": [
+      {"stimulus": "ὁδός", "prompt": "Which breathing does the first vowel have?", "answer": "rough (an h sound)", "wrong": ["smooth (no sound)", "no breathing"], "claim": "The first vowel has a {x} breathing.", "typed": {"prompt": "Type ὁδός with its breathing", "accepted": ["ὁδός"]}},
+      {"stimulus": "ἀπόστολος", "prompt": "Which breathing does the first vowel have?", "answer": "smooth (no sound)", "wrong": ["rough (an h sound)", "no breathing"], "claim": "The first vowel has a {x} breathing.", "typed": {"prompt": "Type ἀπόστολος with its breathing", "accepted": ["ἀπόστολος"]}},
+      {"stimulus": "υἱός", "prompt": "Where does the breathing of a diphthong stand?", "answer": "over the second vowel", "wrong": ["over the first vowel", "before the word"], "claim": "In a diphthong the breathing stands {x}.", "typed": {"prompt": "Type υἱός with its breathing", "accepted": ["υἱός"]}},
+      {"stimulus": "δῶρον", "prompt": "Which accent is on this word?", "answer": "circumflex", "wrong": ["acute", "grave"], "claim": "The accent on this word is the {x}.", "typed": {"prompt": "Type δῶρον with its breathing", "accepted": ["δῶρον"]}},
+      {"stimulus": "λόγος", "prompt": "Which accent is on this word?", "answer": "acute", "wrong": ["circumflex", "grave"], "claim": "The accent on this word is the {x}.", "typed": {"prompt": "Type λόγος", "accepted": ["λόγος"]}},
+      {"stimulus": "ἀδελφὸς βλέπει", "prompt": "Why does ἀδελφὸς have a grave accent here?", "answer": "an acute on the ultima becomes grave before another word", "wrong": ["the word is a verb", "the ultima is long"], "claim": "ἀδελφὸς has a grave because {x}.", "typed": {"prompt": "Type ἀδελφός (alone, with its breathing)", "accepted": ["ἀδελφός"]}},
+      {"stimulus": "ἄνθρωπος", "prompt": "On which syllable is the accent?", "answer": "the antepenult", "wrong": ["the penult", "the ultima"], "claim": "The accent is on {x}.", "typed": {"prompt": "Type ἄνθρωπος with its breathing", "accepted": ["ἄνθρωπος"]}},
+      {"stimulus": "ἀνθρώπου", "prompt": "Why has the accent moved from ἄνθρωπος?", "answer": "the ultima is long", "wrong": ["the word is plural", "a circumflex cannot stand there"], "claim": "The accent moved because {x}.", "typed": {"prompt": "Type ἀνθρώπου with its breathing", "accepted": ["ἀνθρώπου"]}},
+      {"stimulus": "τῷ λόγῳ", "prompt": "What is the small mark under the ω?", "answer": "iota subscript", "wrong": ["a breathing", "a grave accent"], "claim": "The mark under the ω is {x}.", "typed": {"prompt": "Type τῷ λόγῳ with the iota subscripts", "accepted": ["τῷ λόγῳ"]}},
+      {"stimulus": "ἡμέρα", "prompt": "Which breathing does ἡμέρα have?", "answer": "rough (an h sound)", "wrong": ["smooth (no sound)", "no breathing"], "claim": "ἡμέρα has a {x} breathing.", "typed": {"prompt": "Type ἡμέρα with its breathing", "accepted": ["ἡμέρα"]}}
+    ]}
+  }
+}

@@ -1,8 +1,68 @@
 {
   "note": "Misprints in the course text (1923 plates, January 1924 printing) found by comparing it with the 1927 corrected printing (archive.org newtestamentgree00mach, February 1937 printing: 'Reprinted with corrections September, 1927'), word by word on the exercise pages. Each fix names the page; `checked` lists the exercise pages compared with no difference except OCR noise.",
   "checked": [
-    {"lesson": 4, "section": "45", "pages": [27, 28], "result": "same text"},
-    {"lesson": 5, "section": "59", "pages": [31, 32], "result": "same text"}
+    {
+      "lesson": 3,
+      "section": "23",
+      "pages": [
+        22
+      ],
+      "result": "same text"
+    },
+    {
+      "lesson": 4,
+      "section": "45",
+      "pages": [
+        27,
+        28
+      ],
+      "result": "same text"
+    },
+    {
+      "lesson": 5,
+      "section": "59",
+      "pages": [
+        31,
+        32
+      ],
+      "result": "same text"
+    },
+    {
+      "lesson": 6,
+      "section": "76",
+      "pages": [
+        37,
+        38
+      ],
+      "result": "same text"
+    },
+    {
+      "lesson": 7,
+      "section": "89",
+      "pages": [
+        42,
+        43
+      ],
+      "result": "same text"
+    },
+    {
+      "lesson": 8,
+      "section": "100",
+      "pages": [
+        50,
+        51
+      ],
+      "result": "same text"
+    }
   ],
-  "fixes": []
+  "fixes": [
+    {
+      "lesson": 8,
+      "page": 50,
+      "item": "I.3",
+      "printed": "ἄγει ὁ κύριός μου πρὸς τοὺς μαθητὰς αὐτοῦ.",
+      "corrected": "ἄγει με ὁ κύριος πρὸς τοὺς μαθητὰς αὐτοῦ.",
+      "basis": "1927 corrected printing"
+    }
+  ]
 }

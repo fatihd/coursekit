@@ -103,7 +103,9 @@ talking JSON to the stdlib server. The only shared code is the engine keyboard m
 ## Greek books (P11, 2026-11-13)
 The profile's `"script"` (`"hebrew"` default, `"greek"`) sets the script side's letters (`exwb/script.py`): Greek
 lines are not re-ordered, local OCR uses the profile's `ocr` languages (`grc`; `ocr` needs `grc`+`eng` tessdata), and the
-UI loads the `el_GR` keyboard (served with `greek.js`). `profiles/machen.json`: Machen's 32 exercise sets (part I
+UI loads the `el_GR` keyboard (served with `greek.js`). In Greek mode an item number that OCR read as a look-alike
+(ὃ. or ὅ. for 3/5, δ. for 5/6, Ἴ. or τ. for 7, 1]. for 11, 18. for 13) counts when it is the expected next number
+(`detect.lookalike_values`, `tests/test_exwb_greek.py`). `profiles/machen.json`: Machen's 32 exercise sets (part I
 Greek→English, part II English→Greek); no key, so answers are ours. Curated files `curated/machen-lNN.json` carry
 `block_id`, `lesson`, `pages`, items with `data.accept` (more accepted answers) and `data.book_prompt` (Machen's
 wording when a prompt is modernised, e.g. thou → you (sg.)); `python build/greek_corpus.py check` checks every Greek word.

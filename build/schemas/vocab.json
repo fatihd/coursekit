@@ -22,7 +22,7 @@
           "transliteration": { "type": "string" },
           "pronunciation": { "type": "string" },
           "gloss": { "type": "string", "minLength": 1 },
-          "gender": { "enum": ["m", "f", "c", null] },
+          "gender": { "enum": ["m", "f", "n", "c", null], "description": "m, f, n (neuter, Greek), c (common)" },
           "number": { "enum": ["s", "p", "d", null] },
           "frequency": { "type": ["integer", "null"] },
           "root": { "type": ["string", "null"] },

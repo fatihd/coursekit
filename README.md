@@ -6,8 +6,8 @@ courses teach Biblical Hebrew. No accounts, no server, no spaced-repetition
 queue — progress stays in your browser, and **Export progress / Import progress** moves it
 between browsers.
 
-> **Preview quality.** Both Hebrew courses are playable end to end, but their lessons have not yet had a
-> full human review. Corrections are welcome.
+> Both Hebrew courses are playable end to end and are corrected as they are used. Report mistakes as GitHub
+> issues.
 
 ## Courses
 

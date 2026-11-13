@@ -95,6 +95,27 @@ export function greekKey(s, level = "full", options = {}) {
   return words.join(" ").normalize("NFC");
 }
 
+const POSTPOSITIVE = new Set(("δε γαρ ουν μεν τε γε αν δη τοι μεντοι τοινυν μου μοι με σου σοι σε")
+  .split(" "));
+const ARTICLE = new Set("ο η το οι αι τα του της τω τη τον την των τοις ταις τους τας".replace(/ς/g, "σ").split(" "));
+const CLAUSE_END = /[.;:··;!?]+/;
+
+export function wordOrderOk(s) {
+  const text = composeGreek(spacingBreathings((s || "").toString())).replace(ELISION, "’");
+  for (const clause of text.split(CLAUSE_END)) {
+    const words = clause.replace(PUNCT, " ").split(/\s+/).filter((w) => GREEK_LETTER.test(w)).map(bare);
+    if (!words.length) continue;
+    if (POSTPOSITIVE.has(words[0])) return false;
+    if (ARTICLE.has(words[words.length - 1])) return false;
+  }
+  return true;
+}
+
+export function sameWordsAnyOrder(a, b, level = "full", options = {}) {
+  const sort = (s) => greekKey(s, level, options).split(" ").sort().join(" ");
+  return sort(a) === sort(b) && wordOrderOk(a);
+}
+
 export function sameGreek(a, b, level = "full", options = {}) {
   return greekKey(a, level, options) === greekKey(b, level, options);
 }

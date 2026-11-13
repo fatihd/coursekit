@@ -1,0 +1,57 @@
+{
+  "note": "Unit map and lesson vocabularies of courses/biblical-greek-machen (ROADMAP P11-T5), read by build/machen_course.py. One unit per Machen lesson for now (topic splits come with the later lessons). Vocabulary: Machen's lesson vocabularies (glosses after Machen's own, public domain); `lemma` is the MorphGNT lemma when it differs from the headword. Pages are Machen's printed pages (1923 plates).",
+  "parts": [
+    {"n": 1, "title": "Letters and Accents", "units": [1, 2]},
+    {"n": 2, "title": "Verbs, Nouns and Adjectives", "units": [3, 8]}
+  ],
+  "units": [
+    {"n": 1, "lesson": 1, "title": "The Alphabet", "slug": "the-alphabet", "page": 9,
+     "description": "Read and write the twenty-four letters of the Greek alphabet.", "vocab": []},
+    {"n": 2, "lesson": 2, "title": "Breathings and Accents", "slug": "breathings-and-accents", "page": 13,
+     "description": "Breathings, the three accents, and the rules that fix where an accent may stand.", "vocab": []},
+    {"n": 3, "lesson": 3, "title": "Present Active Indicative", "slug": "present-active-indicative", "page": 20, "exercise": "machen-l03",
+     "description": "The present tense of λύω and the verb endings that show the subject.",
+     "vocab": [
+       ["βλέπω", "I see", "verb"], ["γινώσκω", "I know", "verb"], ["γράφω", "I write", "verb"], ["διδάσκω", "I teach", "verb"],
+       ["ἔχω", "I have", "verb"], ["λαμβάνω", "I take", "verb"], ["λέγω", "I say", "verb"], ["λύω", "I loose, I destroy", "verb"]]},
+    {"n": 4, "lesson": 4, "title": "The Second Declension", "slug": "the-second-declension", "page": 23, "exercise": "machen-l04",
+     "description": "Masculine and neuter nouns in -ος and -ον; cases, word order and movable ν.",
+     "vocab": [
+       ["ἀδελφός", "a brother", "noun", "m"], ["ἄνθρωπος", "a man", "noun", "m"], ["ἀπόστολος", "an apostle", "noun", "m"],
+       ["δοῦλος", "a slave, a servant", "noun", "m"], ["δῶρον", "a gift", "noun", "n"], ["θάνατος", "a death", "noun", "m"],
+       ["ἱερόν", "a temple", "noun", "n"], ["καί", "and", "conjunction"], ["λόγος", "a word", "noun", "m"],
+       ["νόμος", "a law", "noun", "m"], ["οἶκος", "a house", "noun", "m"], ["υἱός", "a son", "noun", "m"]]},
+    {"n": 5, "lesson": 5, "title": "The First Declension", "slug": "the-first-declension", "page": 29, "exercise": "machen-l05",
+     "description": "Feminine nouns in -α and -η.",
+     "vocab": [
+       ["ἀλήθεια", "truth", "noun", "f"], ["βασιλεία", "a kingdom", "noun", "f"], ["γραφή", "a writing, a Scripture", "noun", "f"],
+       ["δόξα", "glory", "noun", "f"], ["εἰρήνη", "peace", "noun", "f"], ["ἐκκλησία", "a church", "noun", "f"],
+       ["ἐντολή", "a commandment", "noun", "f"], ["ζωή", "life", "noun", "f"], ["ἡμέρα", "a day", "noun", "f"],
+       ["καρδία", "a heart", "noun", "f"], ["παραβολή", "a parable", "noun", "f"], ["φωνή", "a voice", "noun", "f"],
+       ["ψυχή", "a soul, a life", "noun", "f"], ["ὥρα", "an hour", "noun", "f"]]},
+    {"n": 6, "lesson": 6, "title": "The Article and Adjectives", "slug": "the-article-and-adjectives", "page": 33, "exercise": "machen-l06",
+     "description": "The definite article, adjectives of the second and first declension, attributive and predicate positions.",
+     "vocab": [
+       ["ἀγαθός", "good", "adjective"], ["ἄλλος", "other", "adjective"], ["δίκαιος", "righteous", "adjective"],
+       ["ἐγείρω", "I raise up", "verb"], ["ἔρημος", "a desert", "noun", "f"], ["ἔσχατος", "last", "adjective"],
+       ["κακός", "bad", "adjective"], ["καλός", "good, beautiful", "adjective"], ["κύριος", "a lord, the Lord", "noun", "m"],
+       ["μικρός", "small, little", "adjective"], ["νεκρός", "dead", "adjective"], ["ὁ", "the", "article"],
+       ["ὁδός", "a road, a way", "noun", "f"], ["πιστός", "faithful", "adjective"], ["πρῶτος", "first", "adjective"]]},
+    {"n": 7, "lesson": 7, "title": "Masculine First Declension; Prepositions", "slug": "prepositions", "page": 39, "exercise": "machen-l07",
+     "description": "Nouns in -ης like προφήτης, and prepositions with the genitive, dative and accusative.",
+     "vocab": [
+       ["ἄγγελος", "an angel, a messenger", "noun", "m"], ["ἄγω", "I lead", "verb"], ["ἀπό", "from (with gen.)", "preposition"],
+       ["βάλλω", "I throw, I cast, I put", "verb"], ["διά", "through (with gen.); on account of (with acc.)", "preposition"],
+       ["εἰς", "into (with acc.)", "preposition"], ["ἐκ", "out of (with gen.)", "preposition"], ["ἐν", "in (with dat.)", "preposition"],
+       ["θεός", "a god, God", "noun", "m"], ["κόσμος", "a world", "noun", "m"], ["λίθος", "a stone", "noun", "m"],
+       ["μαθητής", "a disciple", "noun", "m"], ["μένω", "I remain", "verb"], ["μετά", "with (with gen.); after (with acc.)", "preposition"],
+       ["οὐρανός", "heaven", "noun", "m"], ["πέμπω", "I send", "verb"], ["πρός", "to (with acc.)", "preposition"],
+       ["προφήτης", "a prophet", "noun", "m"], ["τέκνον", "a child", "noun", "n"], ["τόπος", "a place", "noun", "m"],
+       ["φέρω", "I bear, I bring", "verb"]]},
+    {"n": 8, "lesson": 8, "title": "Enclitics, Personal Pronouns, εἰμί", "slug": "personal-pronouns", "page": 44, "exercise": "machen-l08",
+     "description": "Enclitics and their accents, the personal pronouns, and the present of εἰμί.",
+     "vocab": [
+       ["αὐτός", "he", "pronoun"], ["δέ", "but, and", "conjunction"], ["ἐγώ", "I", "pronoun"], ["εἰμί", "I am", "verb"],
+       ["σύ", "you (sg.)", "pronoun"]]}
+  ]
+}

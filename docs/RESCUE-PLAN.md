@@ -25,7 +25,7 @@ is the primary content benchmark; **Unit 38** (Qal Yiqtol) is the later grammar 
 - **R2 — Runtime foundations:** launch, release, browser-only progress with Export/Import
   (ADR-019), read-only Docker/static serve (done).
 - **R3 — Meaningful courseware:** Davidson Units 35 and 38 lessons and their authored/parsing
-  exercises reviewed for accuracy; exwb exercises wired into the course (ROADMAP P9-T6).
+  exercises built to final quality and covered by tests (no review step, ADR-027); exwb exercises wired into the course (ROADMAP P9-T6).
 - **R4 — Student acceptance:** the acceptance tests below pass on the exact release / site.
 
 ## 4. Acceptance tests
@@ -48,7 +48,6 @@ is the primary content benchmark; **Unit 38** (Qal Yiqtol) is the later grammar 
 ### Human checks
 
 - A non-developer can follow the README.
-- A human reviewer approves Davidson Units 35 and 38 and a sample of OER units.
 - A keyboard-only user can operate the roadmap, lesson gate, and drill.
 - Errors explain the next action in ordinary language.
 

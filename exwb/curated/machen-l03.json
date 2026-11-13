@@ -1,0 +1,24 @@
+{
+  "block_id": 2,
+  "book": "machen",
+  "lesson": 3,
+  "section": "23",
+  "pages": [22],
+  "note": "Transcribed from the scan (Machen 1923 plates, January 1924 printing, p. 22): groups of verb forms of the present active indicative. Answers written for this course (every Greek form checked by build/greek_corpus.py). Machen's thou/ye are given as you (sg.)/you (pl.); the book's wording is in data.book_prompt.",
+  "items": [
+    {"part": "I", "num": "1", "prompt": "βλέπεις, γινώσκεις, λαμβάνεις.", "answer": "You (sg.) see, you (sg.) know, you (sg.) take.", "data": {"accept": ["Thou seest, thou knowest, thou takest."]}},
+    {"part": "I", "num": "2", "prompt": "γράφει, ἔχει, λέγει.", "answer": "He writes, he has, he says.", "data": {"accept": ["She writes, she has, she says."]}},
+    {"part": "I", "num": "3", "prompt": "λύει, διδάσκει, βλέπει.", "answer": "He looses, he teaches, he sees.", "data": {"accept": ["She looses, she teaches, she sees."]}},
+    {"part": "I", "num": "4", "prompt": "λαμβάνομεν, ἔχομεν, γινώσκομεν.", "answer": "We take, we have, we know."},
+    {"part": "I", "num": "5", "prompt": "βλέπετε, λέγετε, γράφετε.", "answer": "You (pl.) see, you (pl.) say, you (pl.) write.", "data": {"accept": ["Ye see, ye say, ye write."]}},
+    {"part": "I", "num": "6", "prompt": "διδάσκουσι, λαμβάνουσι, λύουσι.", "answer": "They teach, they take, they loose."},
+    {"part": "I", "num": "7", "prompt": "γινώσκετε, γινώσκεις, γινώσκομεν.", "answer": "You (pl.) know, you (sg.) know, we know.", "data": {"accept": ["Ye know, thou knowest, we know."]}},
+    {"part": "I", "num": "8", "prompt": "βλέπομεν, διδάσκουσι, λέγει.", "answer": "We see, they teach, he says."},
+    {"part": "I", "num": "9", "prompt": "ἔχεις, βλέπουσι, λαμβάνομεν.", "answer": "You (sg.) have, they see, we take.", "data": {"accept": ["Thou hast, they see, we take."]}},
+    {"part": "II", "num": "1", "prompt": "We are knowing, we see, we are seeing.", "answer": "γινώσκομεν, βλέπομεν, βλέπομεν."},
+    {"part": "II", "num": "2", "prompt": "They are loosing, they loose, he looses.", "answer": "λύουσι, λύουσι, λύει."},
+    {"part": "II", "num": "3", "prompt": "He is loosing, you (pl.) have, you (sg.) know.", "answer": "λύει, ἔχετε, γινώσκεις.", "data": {"book_prompt": "He is loosing, ye have, thou knowest."}},
+    {"part": "II", "num": "4", "prompt": "I am taking, we know, they say.", "answer": "λαμβάνω, γινώσκομεν, λέγουσι."},
+    {"part": "II", "num": "5", "prompt": "He has, we are writing, they see.", "answer": "ἔχει, γράφομεν, βλέπουσι."}
+  ]
+}

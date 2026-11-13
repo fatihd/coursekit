@@ -102,7 +102,10 @@ function buildKeyboard(root, layout) {
       document.body.style.paddingBottom = `${overlay.offsetHeight + 16}px`;
       const area = e.target.closest(".drill-wrap") || e.target;
       const feedback = area.querySelector ? area.querySelector(".drill-feedback") : null;
-      (feedback || e.target).scrollIntoView({ block: "nearest" });
+      const target = feedback || e.target;
+      target.scrollIntoView({ block: "nearest" });
+      const hidden = target.getBoundingClientRect().bottom - (window.innerHeight - overlay.offsetHeight) + 8;
+      if (hidden > 0) window.scrollBy(0, hidden);
     }
   });
   document.addEventListener("focusout", (e) => {
@@ -112,6 +115,7 @@ function buildKeyboard(root, layout) {
     }
   });
   window.addEventListener("hashchange", () => {
+    if (activeInput && document.activeElement === activeInput && overlay.style.display !== "none") return;
     document.body.style.paddingBottom = "";
   });
 }

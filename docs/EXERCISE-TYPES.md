@@ -173,7 +173,7 @@ units), so it was removed from `buildSession` to avoid trivial one-column sorts.
 | `translit-normalize` | `direction, stimulus, stimulusIsScript, answer, answerIsScript` (`prompt` optional) |
 | `match-by-line` | `prompt, left[], right[], answer{left→right}, leftIsScript` |
 | `categorize` | `prompt, columns[], words[{text,cat}], isScript` |
-| `translate-phrase` | `prompt, stimulus, stimulusIsScript, accepted[]` (`answerIsScript` optional → typed script answer graded by the course's script profile (`engine/script.js`): Hebrew RTL input, niqqud-insensitive; Greek LTR input, letters + breathings + iota subscript; `pointing: "required"` → full marks (Hebrew vowel points / Greek accents) with red marks; `selfCheck: true` → typed English, Key comparison with self-marking fallback; `source` optional → scan links) |
+| `translate-phrase` | `prompt, stimulus, stimulusIsScript, accepted[]` (`answerIsScript` optional → typed script answer graded by the course's script profile (`engine/script.js`): Hebrew RTL input, niqqud-insensitive; Greek LTR input, letters + breathings + iota subscript, any valid word order (result `note` shows our order); `pointing: "required"` → full marks (Hebrew vowel points / Greek accents) with red marks; `selfCheck: true` → typed English, Key comparison with self-marking fallback; `source` optional → scan links) |
 | `true-false` | `stimulus, stimulusIsScript, statement, answer (bool), expected` |
 | `dictation` | `prompt, stimulus, stimulusIsScript, answer, transliteration` |
 | `paradigm-fill` | `prompt, rows[{label, answer, options[]}], isScript` |

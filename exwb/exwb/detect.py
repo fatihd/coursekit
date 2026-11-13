@@ -144,6 +144,20 @@ def span_lines(pages, s_scan, s_line, e_scan, e_line, skip_first=True):
     return out
 
 NUMTOK = re.compile(r"^\W*(\d{1,3})\W*$")
+NUM_LOOKALIKES = False
+LOOKALIKE = {"ὅ": "53", "ὃ": "35", "ὄ": "5", "δ": "56", "Ἴ": "7", "τ": "7", "ϑ": "9", "l": "1", "I": "1", "]": "1",
+             "!": "1", "8": "83", "3": "38", "Ο": "0", "ο": "0", "S": "5", "s": "5", "ά": "4", "Α": "4"}
+LOOKTOK = re.compile(r"^\W*([0-9ὅὃὄδἼτϑlI\]!ΟοSsάΑ]{1,2})ϑ?[.,]\W*$")
+
+def lookalike_values(t):
+    """Greek-mode OCR: item numbers read as Greek letters (ὃ. = 3, ὅ. = 5, 1]. = 11, 18. = 13): candidate values."""
+    m = LOOKTOK.match(t)
+    if not m: return []
+    vals = [""]
+    for ch in m.group(1):
+        opts = (ch if ch.isdigit() else "") + LOOKALIKE.get(ch, "")
+        vals = [v + o for v in vals for o in dict.fromkeys(opts)]
+    return sorted({int(v) for v in vals if v and v[0] != "0"})
 def first_number_index(text, tolerant=False):
     """Token index where split_numbered's first accepted item number sits (None if no numbering)."""
     return split_numbered(text, tolerant, _first=True)
@@ -155,13 +169,23 @@ def split_numbered(text, tolerant=False, min_items=3, _first=False):
     bounds, k = [], 1
     for i, t in enumerate(toks):
         m = NUMTOK.match(t)
+        if not m and NUM_LOOKALIKES:
+            vals = lookalike_values(t)
+            hit = next((c for c in ((k, k + 1, k + 2) if tolerant else (k,)) if c in vals), None)
+            if hit: bounds.append((i, str(hit))); k = hit + 1
+            continue
         if not m: continue
         v = int(m.group(1)); sv, sk = str(v), str(k)
         if v == k: bounds.append((i, sk)); k += 1
         elif tolerant and v in (k + 1, k + 2): bounds.append((i, sv)); k = v + 1
         elif tolerant:
             hit = next((c for c in (k, k + 1, k + 2) if len(sv) < len(str(c)) and str(c).endswith(sv)), None)
+            if not hit and NUM_LOOKALIKES:
+                vals = lookalike_values(t)
+                hit = next((c for c in (k, k + 1, k + 2) if c in vals), None)
             if hit: bounds.append((i, str(hit))); k = hit + 1
+        elif NUM_LOOKALIKES and k in lookalike_values(t):
+            bounds.append((i, sk)); k += 1
     if len(bounds) < (2 if tolerant else min_items): return None
     if _first: return bounds[0][0]
     items = []

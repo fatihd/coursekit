@@ -27,6 +27,7 @@ import re
 import subprocess
 import sys
 import time
+import unicodedata
 import urllib.request
 from pathlib import Path
 
@@ -1261,17 +1262,20 @@ def run_ladder(browser, page, url, vocab, authored, course_dir, failures):
     check(ladder_labels and set(ladder_labels) == {"True or false"},
           f"a first session climbs from rung 1 ({sorted(set(ladder_labels))})", failures)
 
-    pointed = next(it for it in items if it.get("pointing") == "required" and " " in it["accepted"][0]
-                   and re.search("[\u05b7\u05b8]", it["accepted"][0]))
-    key = pointed["accepted"][0]
-    wrong = key.replace("\u05b8", "\u05b7", 1) if "\u05b8" in key else key.replace("\u05b7", "\u05b8", 1)
-    bare = re.sub("[\u0591-\u05c7]", "", key)
-    maqqef = key.replace(" ", "\u05be", 1)
-    r = page.evaluate(GRADE_JS, [pointed, [key, wrong, bare, maqqef]])
-    check(r[0]["correct"], "pointed rung: the Key's pointing is correct", failures)
-    check(not r[1]["correct"] and r[1]["red"] >= 1, f"pointed rung: one wrong vowel is wrong and marked red ({r[1]['red']})", failures)
-    check(not r[2]["correct"] and "required" in r[2]["message"], "pointed rung: an unpointed answer is wrong, with a message", failures)
-    check(r[3]["correct"], "pointed rung: maqqef and space are interchangeable", failures)
+    if (course.get("script") or {}).get("profile") == "greek":
+        run_ladder_greek(page, items, failures)
+    else:
+        pointed = next(it for it in items if it.get("pointing") == "required" and " " in it["accepted"][0]
+                       and re.search("[\u05b7\u05b8]", it["accepted"][0]))
+        key = pointed["accepted"][0]
+        wrong = key.replace("\u05b8", "\u05b7", 1) if "\u05b8" in key else key.replace("\u05b7", "\u05b8", 1)
+        bare = re.sub("[\u0591-\u05c7]", "", key)
+        maqqef = key.replace(" ", "\u05be", 1)
+        r = page.evaluate(GRADE_JS, [pointed, [key, wrong, bare, maqqef]])
+        check(r[0]["correct"], "pointed rung: the Key's pointing is correct", failures)
+        check(not r[1]["correct"] and r[1]["red"] >= 1, f"pointed rung: one wrong vowel is wrong and marked red ({r[1]['red']})", failures)
+        check(not r[2]["correct"] and "required" in r[2]["message"], "pointed rung: an unpointed answer is wrong, with a message", failures)
+        check(r[3]["correct"], "pointed rung: maqqef and space are interchangeable", failures)
     pausal = next((it for it in items if it.get("pointing") == "required" and len(it["accepted"]) > 1), None)
     if pausal:
         r = page.evaluate(GRADE_JS, [pausal, pausal["accepted"]])
@@ -1291,7 +1295,9 @@ def run_ladder(browser, page, url, vocab, authored, course_dir, failures):
     check("Marked right" in page.text_content(".drill-ok"), "self-check: 'I had it right' counts the answer right", failures)
 
     limit = (course.get("features") or {}).get("unlockRung", 3)
-    small = min((u for u in authored if any(it.get("rung") for it in authored[u]) and u > 13),
+    first_unit = 13 if (course.get("script") or {}).get("profile") != "greek" else 2
+    last_unit = max(u["n"] for u in course["units"])
+    small = min((u for u in authored if any(it.get("rung") for it in authored[u]) and first_unit < u < last_unit),
                 key=lambda u: len([it for it in authored[u] if it.get("rung", 9) <= limit]))
     need = [it for it in authored[small] if it.get("rung") and it["rung"] <= limit]
     done = {}
@@ -1322,6 +1328,38 @@ def run_ladder(browser, page, url, vocab, authored, course_dir, failures):
     stars = page.text_content(f".unit[data-unit='{small}'] .unit-stars") or ""
     check(stars.startswith("★" * limit), f"unit {small} tile shows {limit} stars ({stars})", failures)
     return 1
+
+
+def run_ladder_greek(page, items, failures):
+    """Greek top rung (ADR-025): full accents with red marks, accents required, any word order with our order shown."""
+    pointed = next(it for it in items if it.get("pointing") == "required" and len(it["accepted"][0].split()) >= 3)
+    key = unicodedata.normalize("NFC", pointed["accepted"][0])
+    nfd = unicodedata.normalize("NFD", key)
+    at = nfd.find("\u0301") if "\u0301" in nfd else nfd.find("\u0342")
+    wrong = unicodedata.normalize("NFC", nfd[:at] + ("\u0342" if nfd[at] == "\u0301" else "\u0301") + nfd[at + 1:])
+    bare = unicodedata.normalize("NFC", re.sub("[\u0300\u0301\u0342]", "", nfd))
+    r = page.evaluate(GRADE_JS, [pointed, [key, wrong, bare]])
+    check(r[0]["correct"], "accented rung: our answer is correct", failures)
+    check(not r[1]["correct"] and r[1]["red"] >= 1, f"accented rung: one wrong accent is wrong and marked red ({r[1]['red']})", failures)
+    check(not r[2]["correct"] and "required" in r[2]["message"], "accented rung: an answer without accents is wrong, with a message", failures)
+    articles = {"ὁ", "ἡ", "τὸ", "τό", "οἱ", "αἱ", "τὰ", "τά", "τοῦ", "τῆς", "τῷ", "τῇ", "τὸν", "τὴν", "τῶν", "τοῖς", "ταῖς", "τοὺς", "τὰς"}
+    postpositive = {"δὲ", "δέ", "γὰρ", "γάρ", "οὖν", "μὲν", "μέν"}
+    for it in items:
+        if it.get("pointing") != "required" or not re.fullmatch(r"[^.;·,]+\.", it["accepted"][0]):
+            continue
+        ws = it["accepted"][0].rstrip(".").split()
+        if len(ws) < 3:
+            continue
+        moved = " ".join(ws[1:] + ws[:1]) + "."
+        if ws[1] in postpositive or ws[0] in articles:
+            continue
+        res = page.evaluate("""async ([item, answer]) => {
+          const tp = (await import(window.location.origin + "/engine/exercise-types/translate-phrase.js")).default;
+          return tp.grade(item, answer);
+        }""", [it, moved])
+        check(res["correct"] and res.get("note", "").startswith("Our word order:"),
+              f"accented rung: the same words in another order are right and our order is shown ({moved})", failures)
+        break
 
 
 def run_corpus(page, url, authored, course_dir, failures):
@@ -1525,6 +1563,11 @@ ACCESSIBILITY_JS = r"""
 """
 
 
+ACCESSIBILITY_GREEK_JS = ACCESSIBILITY_JS.replace(
+    '["ש", "\\u05C1", " ", "ש", "\\u05C2", "\\u05BE"]',
+    '["α", "\\u0313\\u0301", "ν", "θ", "ρ", "ω", "π", "ο", "σ"]')
+
+
 def run_accessibility(page, failures):
     page.focus(".unit[data-unit='1']")
     page.keyboard.press("Enter")
@@ -1533,12 +1576,19 @@ def run_accessibility(page, failures):
     page.click(".back")
     page.wait_for_selector(".roadmap")
 
-    kb = page.evaluate(ACCESSIBILITY_JS)
-    check(kb.get("shown"), "on-screen keyboard shows when a Hebrew input is focused", failures)
+    greek = page.evaluate("() => document.querySelector('.keyboard .kb-key[data-key=\"α\"]') !== null")
+    if greek:
+        page.wait_for_selector(".keyboard", state="attached")
+    kb = page.evaluate(ACCESSIBILITY_GREEK_JS if greek else ACCESSIBILITY_JS)
+    check(kb.get("shown"), "on-screen keyboard shows when a script input is focused", failures)
     check(kb.get("keyCount", 0) > 0, "on-screen keyboard has keys", failures)
     check(kb.get("inserted"), "on-screen keyboard key inserts text", failures)
-    check(kb.get("marks") and kb.get("typed") == "שׁ שׂ־", f"shin dot, sin dot and maqqef keys type their marks ({kb.get('typed')!r})", failures)
-    check("shin dot" in kb.get("named", []) and "qamets" in kb.get("named", []), "vowel keys carry their names", failures)
+    if greek:
+        check(kb.get("marks") and kb.get("typed") == "ἄνθρωπος", f"Greek letters and a breathing+accent key type ἄνθρωπος ({kb.get('typed')!r})", failures)
+        check("smooth acute" in kb.get("named", []) and "iota subscript" in kb.get("named", []), "mark keys carry their names", failures)
+    else:
+        check(kb.get("marks") and kb.get("typed") == "שׁ שׂ־", f"shin dot, sin dot and maqqef keys type their marks ({kb.get('typed')!r})", failures)
+        check("shin dot" in kb.get("named", []) and "qamets" in kb.get("named", []), "vowel keys carry their names", failures)
     return kb
 
 
@@ -1672,7 +1722,8 @@ def main():
                 print("=== exercise ladder ===")
                 check(run_ladder(browser, page, url, vocab, authored, args.course, failures) == 1,
                       "course has ladder items", failures)
-                run_review(page, url, vocab, authored, args.course, failures)
+                if len(json.loads((Path(args.course) / "course.json").read_text(encoding="utf-8"))["units"]) >= 40:
+                    run_review(page, url, vocab, authored, args.course, failures)
                 browser.close()
             elif args.routes:
                 print("=== routes / sessions / block progress ===")

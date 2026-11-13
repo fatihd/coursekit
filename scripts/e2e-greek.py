@@ -71,6 +71,14 @@ UNIT_CASES = [
     ("sameGreek", ["ὁ λόγος", "ὅ λόγος", "full"], False, "the article ὁ and the relative ὅ stay distinct"),
     ("sameGreek", ["ἀγαπᾶν", "ἀγαπᾷν", "breathings"], False, "iota subscript is required even when accents are not"),
     ("sameGreek", ["\u1fbfΙησοῦς", "Ἰησοῦς", "full"], True, "a spacing breathing before a capital counts as its breathing"),
+    ("sameWordsAnyOrder", ["βλέπει ἄνθρωπον ἀδελφός", "ἀδελφὸς βλέπει ἄνθρωπον"], True, "any order of the same words"),
+    ("sameWordsAnyOrder", ["ὁ δὲ λόγος μένει", "ὁ λόγος δὲ μένει"], True, "postpositive in second place"),
+    ("sameWordsAnyOrder", ["δὲ ὁ λόγος μένει", "ὁ δὲ λόγος μένει"], False, "a postpositive may not stand first"),
+    ("sameWordsAnyOrder", ["λόγος μένει ὁ", "ὁ λόγος μένει"], False, "an article may not stand last"),
+    ("sameWordsAnyOrder", ["βλέπει ἄνθρωπον", "ἀδελφὸς βλέπει ἄνθρωπον"], False, "the same words, not a subset"),
+    ("sameWordsAnyOrder", ["ἄνθρωπον βλέπει. γάρ ἐστιν", "βλέπει ἄνθρωπον. ἐστιν γάρ"], False, "the rule holds in every clause"),
+    ("wordOrderOk", ["οὐ γὰρ ἔχομεν"], True, "γάρ in second place is fine"),
+    ("wordOrderOk", ["γὰρ οὐκ ἔχομεν"], False, "γάρ first is not Greek"),
     ("hasAccents", ["λογος"], False, "hasAccents false without accents"),
     ("hasAccents", ["λόγος"], True, "hasAccents true with accents"),
 ]
@@ -177,9 +185,19 @@ def main():
                 ("τῷ λόγῳ", "τῶ λόγω", False, False, "typed rung: the iota subscript is required"),
                 ("ἀλλὰ ἐστίν", "ἀλλ’ ἐστι", True, True, "top rung: elision, movable nu and an enclitic's accent are tolerated"),
                 ("ἄνθρωπός τις", "ἄνθρωπος τις", True, True, "top rung: an accent thrown back from an enclitic is optional"),
+                ("ἀδελφὸς βλέπει ἄνθρωπον.", "βλέπει ἄνθρωπον ἀδελφός.", True, True, "top rung: another word order of the same words"),
+                ("ἀδελφὸς βλέπει ἄνθρωπον.", "βλεπει ἀνθρωπον ἀδελφος.", False, True, "typed rung: another word order with breathings"),
+                ("ἀδελφὸς βλέπει ἄνθρωπον.", "βλεπει ανθρωπον ἀδελφος.", False, False, "typed rung: another word order, a breathing missing"),
+                ("ὁ δὲ λόγος μένει.", "δὲ ὁ λόγος μένει.", False, False, "a postpositive first is wrong"),
+                ("ὁ λόγος μένει.", "λόγος μένει ὁ.", False, False, "an article last is wrong"),
             ]:
                 got = grade(accepted, answer, pointed)
                 check(got["correct"] == want, f"{msg} (got {got['correct']})", failures)
+            got = grade("ἀδελφὸς βλέπει ἄνθρωπον.", "ἄνθρωπον βλέπει ἀδελφός.", True)
+            check(got["correct"] and got.get("note") == "Our word order: ἀδελφὸς βλέπει ἄνθρωπον.",
+                  f"a reordered answer is right and the feedback shows our order (got {got})", failures)
+            got = grade("ἀδελφὸς βλέπει ἄνθρωπον.", "ἀδελφὸς βλέπει ἄνθρωπον.", True)
+            check(got["correct"] and "note" not in got, f"our own order gets no order note (got {got})", failures)
             got = grade("λόγος", "λογος", True)
             check(got.get("message") == "Accents are required here.", f"top rung asks for accents (got {got.get('message')!r})", failures)
 
@@ -211,6 +229,9 @@ def main():
             heb = [grade("דָּבָר", "דבר", False)["correct"], grade("דָּבָר", "דבר", True)["correct"],
                    grade("דָּבָר", "דבר", True).get("message")]
             check(heb == [True, False, "Vowel points are required here."], f"Hebrew profile unchanged (got {heb})", failures)
+            heb_order = grade("אִישׁ טוֹב", "טוֹב אִישׁ", True)
+            check(heb_order == {"correct": False, "expected": "אִישׁ טוֹב", "message": None},
+                  f"Hebrew grading keeps word order and adds no note (got {heb_order})", failures)
 
             check(not errors, f"no page errors ({errors})", failures)
             browser.close()

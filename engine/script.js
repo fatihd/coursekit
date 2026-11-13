@@ -1,5 +1,5 @@
 import { hasPoints, normalizeHebrew, pointedForm, pointingDiff } from "./exercise-types/util.js";
-import { accentDiff, greekKey, hasAccents } from "./greek.js";
+import { accentDiff, greekKey, hasAccents, sameWordsAnyOrder } from "./greek.js";
 
 const HEBREW = {
   id: "hebrew",
@@ -17,6 +17,7 @@ const HEBREW = {
   missing: "Vowel points are required here.",
   marked: "Letters marked red have wrong or missing vowel points.",
   yours: "Your pointing: ",
+  match: (answer, accepted, key) => (key(answer) === key(accepted) ? "same" : null),
 };
 
 function greekProfile(grading = {}) {
@@ -39,6 +40,12 @@ function greekProfile(grading = {}) {
     missing: "Accents are required here.",
     marked: "Letters marked red have wrong or missing accents, breathings or iota subscripts.",
     yours: "Your accents: ",
+    orderNote: "Our word order:",
+    match(answer, accepted, key) {
+      if (key(answer) === key(accepted)) return "same";
+      const level = key === this.full ? fullLevel : plainLevel;
+      return sameWordsAnyOrder(answer, accepted, level, opts) ? "reordered" : null;
+    },
   };
 }
 

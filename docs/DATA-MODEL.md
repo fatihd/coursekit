@@ -22,6 +22,7 @@
     "translitScheme": "he-sbl"       // maps to engine/translit/he-sbl
     // Greek courses add: "profile": "greek" (engine/script.js grading), "code": "grc" (input lang),
     // optional "grading": { "plain": "breathings", "full": "full", "movableNu": true, "elision": true, "clitics": true }
+    // vocab rows: gender may be "n" (neuter) for Greek
   },
    "units": [
     { "id": "u01", "n": 1, "title": "The Aleph-Bet", "slug": "the-aleph-bet",

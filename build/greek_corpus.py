@@ -24,6 +24,7 @@ import argparse
 import csv
 import json
 import sys
+import unicodedata
 from collections import Counter, defaultdict
 from pathlib import Path
 
@@ -40,6 +41,16 @@ BOOKS = {"61": "Matt", "62": "Mark", "63": "Luke", "64": "John", "65": "Acts", "
          "69": "Gal", "70": "Eph", "71": "Phil", "72": "Col", "73": "1Thess", "74": "2Thess", "75": "1Tim", "76": "2Tim",
          "77": "Titus", "78": "Phlm", "79": "Heb", "80": "Jas", "81": "1Pet", "82": "2Pet", "83": "1John", "84": "2John",
          "85": "3John", "86": "Jude", "87": "Rev"}
+
+
+def wkey(w: str) -> str:
+    """Key of one word on its own: an accent thrown back from a following enclitic (δίκαιαί εἰσιν) is dropped."""
+    k = G.key(w)
+    if len(G.ACCENTS.findall(unicodedata.normalize("NFD", k))) > 1:
+        d = unicodedata.normalize("NFD", k)
+        at = d.rfind("\u0301")
+        k = unicodedata.normalize("NFC", d[:at] + d[at + 1:])
+    return k
 
 
 def curated_files() -> list[Path]:
@@ -63,7 +74,7 @@ def morphgnt() -> dict[str, Counter]:
         for line in f.read_text(encoding="utf-8").splitlines():
             ref, pos, parse, _text, word, norm, lemma = line.split(" ")
             for w in {word, norm}:
-                out[G.key(w)][(lemma, pos.strip("-") + ":" + parse)] += 1
+                out[wkey(w)][(lemma, pos.strip("-") + ":" + parse)] += 1
     return out
 
 
@@ -72,9 +83,9 @@ def book_forms() -> set[str]:
     for path in curated_files():
         for it in json.loads(path.read_text(encoding="utf-8"))["items"]:
             if it["part"] == "I":
-                keys |= {G.key(w) for w in G.greek_words(it["prompt"])}
+                keys |= {wkey(w) for w in G.greek_words(it["prompt"])}
     if ATTESTED.exists():
-        keys |= {G.key(e["form"]) for e in json.loads(ATTESTED.read_text(encoding="utf-8"))["forms"]}
+        keys |= {wkey(e["form"]) for e in json.loads(ATTESTED.read_text(encoding="utf-8"))["forms"]}
     return keys
 
 
@@ -82,7 +93,7 @@ def vocab_forms() -> set[str]:
     if not VOCAB.exists():
         return set()
     with VOCAB.open(encoding="utf-8") as f:
-        return {G.key(w) for row in csv.DictReader(f) for w in G.greek_words(row.get("scriptForm", ""))}
+        return {wkey(w) for row in csv.DictReader(f) for w in G.greek_words(row.get("scriptForm", ""))}
 
 
 def used_words() -> list[tuple[str, str, str, str]]:
@@ -103,7 +114,7 @@ def check(nt: dict | None = None) -> int:
     where = Counter()
     missing = []
     for w, origin, fname, ref in words:
-        k = G.key(w)
+        k = wkey(w)
         if k in nt_keys:
             where["SBLGNT/MorphGNT"] += 1
         elif k in book:
@@ -119,7 +130,7 @@ def check(nt: dict | None = None) -> int:
 
 
 def forms_json(nt: dict[str, Counter]) -> dict:
-    used = sorted({G.key(w) for w, *_ in used_words()})
+    used = sorted({wkey(w) for w, *_ in used_words()})
     out = {}
     for k in used:
         if k in nt:

@@ -30,6 +30,10 @@
   `greek_text.py` — Python twin of `engine/greek.js` (`tests/test_greek_text.py` keeps them in step).
   `greek_corpus.py` — every Greek word of `exwb/curated/machen-*.json` must be in SBLGNT/MorphGNT, Machen's text
   (`_sources/machen/attested.json` with pages) or the course word list; `forms` writes `_sources/machen/greek-forms.json`.
+- `machen_course.py` — the Machen Greek course data (P11-T5): `content/vocab.csv` from
+  `_sources/machen/course-map.json` (Machen's lesson vocabularies, NT frequencies from MorphGNT or `lemma-counts.json`),
+  `authored/` + `exercises/` + `ladder.json` from `exwb/curated/machen-lNN.json` (Greek ladder) and
+  `_sources/machen/recognition.json`; `--check` verifies.
 - `davidson_ladder.py` — Hebrew profile of the ladder (pointing, pausal forms) and the Davidson entry point: (true/false, choose, fill in,
   translate, translate with vowel points), wrong options from one-point changes of the Key's English, English
   answer variants, pausal/contextual forms (P12-T4); used by `exwb_to_authored.py`, tested by

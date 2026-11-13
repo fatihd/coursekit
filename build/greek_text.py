@@ -3,6 +3,8 @@
 `compose` puts marks in canonical order (diaeresis, breathing, accent, iota subscript), NFC-composes and fixes final
 sigma. `key(s, level)` is the grading key: `letters` (all marks dropped), `breathings` (breathings and iota subscript
 kept), `full` (accents too; grave = acute; enclitic/proclitic accent variants, movable nu and elision tolerated).
+`same_any_order` is the word-order rule of the Greek profile (ADR-025): any order of the same words, as long as no
+postpositive stands first and no article last in a clause.
 `tests/test_greek_text.py` checks that it agrees with the engine on the cases of `scripts/e2e-greek.py`.
 """
 
@@ -106,6 +108,26 @@ def key(s: str, level: str = "full", movable_nu: bool = True, elision: bool = Tr
     if movable_nu:
         ws = [_drop_movable_nu(w) for w in ws]
     return unicodedata.normalize("NFC", " ".join(ws))
+
+
+POSTPOSITIVE = {"δε", "γαρ", "ουν", "μεν", "τε", "γε", "αν", "δη", "τοι", "μεντοι", "τοινυν", "μου", "μοι", "με", "σου", "σοι", "σε"}
+ARTICLE = {"ο", "η", "το", "οι", "αι", "τα", "του", "τησ", "τω", "τη", "τον", "την", "των", "τοισ", "ταισ", "τουσ", "τασ"}
+CLAUSE_END = re.compile("[.;:·\u0387\u037e!?]+")
+
+
+def order_ok(s: str) -> bool:
+    """No postpositive (δέ, γάρ, οὖν, …) first and no article last in any clause."""
+    text = ELISION.sub("’", compose(_spacing_breathings(s or "")))
+    for clause in CLAUSE_END.split(text):
+        ws = [bare(w) for w in PUNCT.sub(" ", clause).split() if GREEK_LETTER.search(w)]
+        if ws and (ws[0] in POSTPOSITIVE or ws[-1] in ARTICLE):
+            return False
+    return True
+
+
+def same_any_order(a: str, b: str, level: str = "full", **opts) -> bool:
+    """The engine's Greek rule: the same words in any order, if the order is possible Greek."""
+    return sorted(key(a, level, **opts).split()) == sorted(key(b, level, **opts).split()) and order_ok(a)
 
 
 def greek_words(s: str) -> list[str]:
