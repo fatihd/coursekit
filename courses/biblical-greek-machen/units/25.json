@@ -1,0 +1,203 @@
+{
+  "schema": "unit-lesson-v1.json",
+  "unit": 25,
+  "title": "More Third-Declension Nouns; Adjectives in -ης",
+  "description": "Third-declension nouns like χάρις, πόλις, γένος, βασιλεύς and πατήρ, and adjectives in -ης, -ες.",
+  "teaches": [
+    "gr-mac-25-001",
+    "gr-mac-25-002",
+    "gr-mac-25-003",
+    "gr-mac-25-004",
+    "gr-mac-25-005",
+    "gr-mac-25-006",
+    "gr-mac-25-007",
+    "gr-mac-25-008",
+    "gr-mac-25-009",
+    "gr-mac-25-010",
+    "gr-mac-25-011",
+    "gr-mac-25-012",
+    "gr-mac-25-013",
+    "gr-mac-25-014",
+    "gr-mac-25-015"
+  ],
+  "assumes": [
+    "gr-mac-24-001",
+    "gr-mac-24-002",
+    "gr-mac-24-003",
+    "gr-mac-24-004",
+    "gr-mac-24-005",
+    "gr-mac-24-006",
+    "gr-mac-24-007",
+    "gr-mac-24-008",
+    "gr-mac-24-009",
+    "gr-mac-24-010",
+    "gr-mac-24-011",
+    "gr-mac-24-012",
+    "gr-mac-24-013",
+    "gr-mac-24-014",
+    "gr-mac-24-015",
+    "gr-mac-24-016"
+  ],
+  "blocks": [
+    {
+      "type": "prose",
+      "caption": "Summary",
+      "html": "<p>Once the genitive singular and the gender are known, most third-declension nouns are easy to recognize. χάρις, χάριτος has the accusative χάριν. Nouns in -ις, -εως (πόλις, πίστις) are feminine; nouns in -ος, -ους (γένος, ἔθνος, ὄρος) are neuter; nouns in -ευς, -εως (βασιλεύς, ἱερεύς, γραμματεύς) are masculine. In the last two classes a stem σ or υ has dropped out and the vowels have contracted. πατήρ, μήτηρ and ἀνήρ lose the ε of the stem in some cases (πατρός, μητρός, ἀνδρός). ἀληθής, ἀληθές is the first adjective declined by the third declension in all three genders.</p>"
+    },
+    {
+      "type": "table",
+      "caption": "πόλις, γένος, βασιλεύς",
+      "columns": [
+        "Case",
+        "πόλις (f)",
+        "γένος (n)",
+        "βασιλεύς (m)"
+      ],
+      "rows": [
+        [
+          "Nom. sg.",
+          "πόλις",
+          "γένος",
+          "βασιλεύς"
+        ],
+        [
+          "Gen. sg.",
+          "πόλεως",
+          "γένους",
+          "βασιλέως"
+        ],
+        [
+          "Dat. sg.",
+          "πόλει",
+          "γένει",
+          "βασιλεῖ"
+        ],
+        [
+          "Acc. sg.",
+          "πόλιν",
+          "γένος",
+          "βασιλέα"
+        ],
+        [
+          "Nom. pl.",
+          "πόλεις",
+          "γένη",
+          "βασιλεῖς"
+        ],
+        [
+          "Gen. pl.",
+          "πόλεων",
+          "γενῶν",
+          "βασιλέων"
+        ],
+        [
+          "Dat. pl.",
+          "πόλεσι(ν)",
+          "γένεσι(ν)",
+          "βασιλεῦσι(ν)"
+        ],
+        [
+          "Acc. pl.",
+          "πόλεις",
+          "γένη",
+          "βασιλεῖς"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "πατήρ, ἀνήρ",
+      "columns": [
+        "Case",
+        "πατήρ",
+        "ἀνήρ"
+      ],
+      "rows": [
+        [
+          "Nom. sg.",
+          "πατήρ",
+          "ἀνήρ"
+        ],
+        [
+          "Gen. sg.",
+          "πατρός",
+          "ἀνδρός"
+        ],
+        [
+          "Dat. sg.",
+          "πατρί",
+          "ἀνδρί"
+        ],
+        [
+          "Acc. sg.",
+          "πατέρα",
+          "ἄνδρα"
+        ],
+        [
+          "Voc. sg.",
+          "πάτερ",
+          "ἄνερ"
+        ],
+        [
+          "Nom. pl.",
+          "πατέρες",
+          "ἄνδρες"
+        ],
+        [
+          "Gen. pl.",
+          "πατέρων",
+          "ἀνδρῶν"
+        ],
+        [
+          "Dat. pl.",
+          "πατράσι(ν)",
+          "ἀνδράσι(ν)"
+        ],
+        [
+          "Acc. pl.",
+          "πατέρας",
+          "ἄνδρας"
+        ],
+        [
+          "μήτηρ, μητρός is declined like πατήρ."
+        ]
+      ]
+    },
+    {
+      "type": "prose",
+      "caption": "ἀληθής, true",
+      "html": "<p>Masculine and feminine: ἀληθής, ἀληθοῦς, ἀληθεῖ, ἀληθῆ; plural ἀληθεῖς, ἀληθῶν, ἀληθέσι(ν), ἀληθεῖς. Neuter: ἀληθές, ἀληθοῦς, ἀληθεῖ, ἀληθές; plural ἀληθῆ. πλήρης, full, goes the same way.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Common confusion",
+      "html": "<p>ἀνήρ is a man as opposed to a woman or child; ἄνθρωπος is a human being. τὰ ἔθνη, the nations, often means the Gentiles. γένη (races) and γενῶν are from γένος, not from γίνομαι.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Source",
+      "html": "<p>Machen, *New Testament Greek for Beginners* (1923), Lesson 25 (p. 157).</p>"
+    },
+    {
+      "type": "vocab",
+      "refs": [
+        "gr-mac-25-001",
+        "gr-mac-25-002",
+        "gr-mac-25-003",
+        "gr-mac-25-004",
+        "gr-mac-25-005",
+        "gr-mac-25-006",
+        "gr-mac-25-007",
+        "gr-mac-25-008",
+        "gr-mac-25-009",
+        "gr-mac-25-010",
+        "gr-mac-25-011",
+        "gr-mac-25-012",
+        "gr-mac-25-013",
+        "gr-mac-25-014",
+        "gr-mac-25-015"
+      ]
+    }
+  ],
+  "didYouKnow": ""
+}
