@@ -1,6 +1,7 @@
 import argparse, json, sys
 from .db import connect
-from . import core, server
+from . import core, script, server
+from .db import get_meta
 
 def main():
     ap = argparse.ArgumentParser(prog="exwb", description="Exercise workbench")
@@ -23,6 +24,7 @@ def main():
     h.add_argument("--release", action="store_true")
     a = ap.parse_args()
     con = connect(a.project)
+    if a.cmd != "build": script.apply(get_meta(con, "profile") or {})
     if a.cmd == "build": core.build(con, a.profile)
     elif a.cmd == "serve": server.serve(con, a.project, a.port)
     elif a.cmd == "reset":
@@ -32,7 +34,7 @@ def main():
         print(f"backup: {bak}\nreset {core.reset(con, set(a.block or []))} blocks")
     elif a.cmd == "ocr":
         from . import ocr
-        st = ocr.available()
+        st = ocr.available(("grc", "eng") if script.ACTIVE["name"] == "greek" else ("heb", "eng"))
         if not st["ok"]: sys.exit("local OCR unavailable: " + st["why"])
         ids = a.block or [r["id"] for r in con.execute("SELECT id FROM block WHERE status!='skipped' ORDER BY start_scan")]
         for bid in ids: ocr.ocr_block(con, bid, a.project, force=a.force)

@@ -17,7 +17,21 @@
         "font": { "type": "string", "minLength": 1 },
         "fontFile": { "type": "string", "minLength": 1 },
         "keyboard": { "type": "string", "minLength": 1 },
-        "translitScheme": { "type": "string", "minLength": 1 }
+        "translitScheme": { "type": "string", "minLength": 1 },
+        "profile": { "enum": ["hebrew", "greek"], "description": "Script profile used by the graders (engine/script.js); default hebrew" },
+        "code": { "type": "string", "minLength": 2, "description": "BCP 47 language of typed script answers (input lang attribute)" },
+        "grading": {
+          "type": "object",
+          "description": "Greek only: strictness of typed answers (engine/greek.js levels and tolerances)",
+          "properties": {
+            "plain": { "enum": ["letters", "breathings", "full"] },
+            "full": { "enum": ["letters", "breathings", "full"] },
+            "movableNu": { "type": "boolean" },
+            "elision": { "type": "boolean" },
+            "clitics": { "type": "boolean" }
+          },
+          "additionalProperties": false
+        }
       }
     },
     "units": {

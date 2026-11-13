@@ -32,11 +32,11 @@ def pick_hebrew(texts):
     ok = [i for i in range(len(c)) if sim(sk[i], sk[medoid]) >= 0.85]
     return c[max(ok, key=lambda i: (dens(c[i]), i == medoid))]
 
-def available():
+def available(need=("heb", "eng")):
     if not (shutil.which("tesseract") and shutil.which("pdfimages") and shutil.which("pdftoppm")):
         return {"ok": False, "why": "needs tesseract + poppler (brew install tesseract poppler)"}
     langs = subprocess.run(["tesseract", "--list-langs"], capture_output=True, text=True).stdout.split()
-    missing = [l for l in ("heb", "eng") if l not in langs]
+    missing = [l for l in need if l not in langs]
     return {"ok": not missing, "engine": ENGINE, "why": f"missing tessdata: {missing}" if missing else ""}
 
 def _read_pbm(path):

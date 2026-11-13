@@ -1,0 +1,20 @@
+{
+  "name": "Machen, New Testament Greek for Beginners (1923 plates, January 1924 printing)",
+  "script": "greek",
+  "leaf_delta": -1,
+  "sources": [
+    {"id": "book", "role": "book", "name": "Machen", "format": "djvu-xml", "path": "../../build/_sources/machen/machen-1924-djvu.xml",
+     "pdf": "../../build/_sources/machen/machen-1924.pdf",
+     "page_offset": 18,
+     "url_template": "https://archive.org/details/newtestamentgree00mach_0/page/n{leaf}/mode/1up",
+     "images_dir": ""}
+  ],
+  "detect": {
+    "first_scan": 27, "last_scan": 250,
+    "block_start": ["^\\W*\\d{1,3}\\W*\\s*\\|?\\s*Exercises\\W*$"],
+    "section_heading": "^\\W*(\\d{1,3})\\.\\s*\\|?\\s*Exercises\\W*$",
+    "hebrew_part": "I", "latin_part": "II"
+  },
+  "ocr": {"he": "grc", "la": "eng+grc", "psm": ["7", "6", "13"], "pad": 10, "workers": 6,
+          "he_variants": [["grc", "7"], ["grc", "6"], ["grc+eng", "7"]]}
+}

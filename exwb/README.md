@@ -100,6 +100,14 @@ Project folders (`myproject/` etc.) hold `exwb.db` and are git-ignored; use `exp
 One file, `exwb/static/index.html`: vanilla JS (an ES module, no framework, no build step, no npm) + inline CSS,
 talking JSON to the stdlib server. The only shared code is the engine keyboard module, imported at runtime.
 
+## Greek books (P11, 2026-11-13)
+The profile's `"script"` (`"hebrew"` default, `"greek"`) sets the script side's letters (`exwb/script.py`): Greek
+lines are not re-ordered, local OCR uses the profile's `ocr` languages (`grc`; `ocr` needs `grc`+`eng` tessdata), and the
+UI loads the `el_GR` keyboard (served with `greek.js`). `profiles/machen.json`: Machen's 32 exercise sets (part I
+Greek→English, part II English→Greek); no key, so answers are ours. Curated files `curated/machen-lNN.json` carry
+`block_id`, `lesson`, `pages`, items with `data.accept` (more accepted answers) and `data.book_prompt` (Machen's
+wording when a prompt is modernised, e.g. thou → you (sg.)); `python build/greek_corpus.py check` checks every Greek word.
+
 ## Generalising to another book
 Everything book-specific is in the profile JSON: source files + format (`djvu-xml`, `hocr`, `text`), printed-page offset
 (auto-detected when omitted), URL template, and regexes: `block_start` (what starts an exercise), `section_heading`

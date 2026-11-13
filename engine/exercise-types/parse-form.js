@@ -1,4 +1,5 @@
 import { el, scriptSpan } from "../dom.js";
+import { script } from "../script.js";
 
 export const NOT_APPLICABLE = "—";
 
@@ -50,7 +51,7 @@ export default {
       const sel = document.createElement("select");
       sel.className = "ex-select";
       sel.dataset.field = field.key;
-      if (field.isScript) sel.dir = "rtl";
+      if (field.isScript) sel.dir = script().dir;
       const blank = document.createElement("option");
       blank.value = "";
       blank.textContent = "— choose —";

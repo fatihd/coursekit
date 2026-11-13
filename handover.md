@@ -65,5 +65,9 @@
   course data CC BY-SA 4.0; core vocabulary = Machen + every NT lemma occurring 50+ times, optional reading vocabulary
   for 10–49. Sources, local OCR, inventory and grading policy in `docs/GREEK-SOURCES.md`; `el_GR` keyboard and
   `engine/greek.js` groundwork (`scripts/e2e-greek.py`).
-- Next up: Greek P11-T2 (wire the graders), builder refactor, exwb Greek profile, Machen answers checked against
-  MorphGNT; optional corpus pass 2 (units 13–15, 72–79).
+- 2026-11-13: P11-T2 done — Greek answers graded through `engine/script.js` (letters + breathings + iota subscript on
+  typed rungs, full accents on the top rung); the ladder builder split into a shared core with Hebrew and Greek
+  profiles (Davidson unchanged); exwb reads Greek books (`profiles/machen.json`); Machen Lessons IV–V curated with
+  our answers, every Greek word checked against SBLGNT/MorphGNT (`build/greek_corpus.py`).
+- Next up: Machen Lessons VI–XXXIII, then the Greek course scaffold (P11-T5); optional corpus pass 2 (units 13–15,
+  72–79).

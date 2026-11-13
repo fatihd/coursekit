@@ -1,8 +1,13 @@
 import { getType } from "./exercise-types/index.js";
 import { distinctOptions } from "./exercise-types/mcq.js";
 import { random, shuffle } from "./exercise-types/util.js";
+import { script } from "./script.js";
 
 export const WORD_RUNGS = { 1: "Recognize", 2: "Recall", 3: "Type the word", 4: "Type with vowel points" };
+
+export function wordRungs() {
+  return { ...WORD_RUNGS, 4: `Type with ${script().marks}` };
+}
 export const WORD_RUNG_COUNT = 4;
 
 function chooseItem(word, others, toScript) {
@@ -14,7 +19,7 @@ function chooseItem(word, others, toScript) {
   return {
     type: "mcq",
     direction: toScript ? "gloss->script" : "script->gloss",
-    prompt: toScript ? "Choose the Hebrew word" : "Choose the translation",
+    prompt: toScript ? `Choose the ${script().name} word` : "Choose the translation",
     stimulus: toScript ? word.gloss : word.scriptForm,
     stimulusIsScript: !toScript,
     options: shuffle(options),
@@ -26,7 +31,7 @@ function chooseItem(word, others, toScript) {
 function typeItem(word, pointed) {
   return {
     type: "translate-phrase",
-    prompt: pointed ? "Type the Hebrew word with full vowel points" : "Type the Hebrew word (vowel points not checked)",
+    prompt: pointed ? script().fullPrompt : script().plainPrompt,
     stimulus: word.gloss,
     stimulusIsScript: false,
     accepted: [word.scriptForm],
@@ -37,7 +42,7 @@ function typeItem(word, pointed) {
 
 function tag(item, rung, ids, id) {
   const wordIds = item.words ? ids.filter((x) => Object.values(item.words).includes(x)) : ids;
-  return { ...item, id, wordRung: rung, rungLabel: `Words · ${WORD_RUNGS[rung]}`, wordIds };
+  return { ...item, id, wordRung: rung, rungLabel: `Words · ${wordRungs()[rung]}`, wordIds };
 }
 
 export function wordItemsFor(rung, words, distractors) {
@@ -72,7 +77,7 @@ export function wordSummary(words, done) {
   const out = [];
   for (let r = 1; r <= WORD_RUNG_COUNT; r++) {
     const set = new Set((done && done[r]) || []);
-    out.push({ rung: r, label: WORD_RUNGS[r], total: words.length, done: words.filter((w) => set.has(w.id)).length });
+    out.push({ rung: r, label: wordRungs()[r], total: words.length, done: words.filter((w) => set.has(w.id)).length });
   }
   return out;
 }

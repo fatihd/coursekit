@@ -13,12 +13,12 @@
 | `exwb/` | Davidson exercises transcribed: 47 files, 1,431 items (40 blocks / 1,138 items exported; reading drills §1–5/7/9 held); in the course as drills since 2026-11-10 (P9-T6) |
 | Tests | `e2e.py` (units, exercise types, authored, accessibility, keyboard, ladder, routes, progress-ops, words, modes, corpus), `e2e-synthetic.py`, `e2e-fork.py`, `e2e-docker.py`, `unittest`, `public-audit` — green on Davidson/OER |
 | Hosting | Live at <https://fatihd.github.io/coursekit/> (GitHub Pages, deployed by `.github/workflows/pages.yml` on push); Cloudflare Pages mirror parked (P10-T10) |
-| Greek | P11 restarted 2026-11-12: backbone Machen (1923) + Davis (1923) sentences (ADR-025); sources fetched, OCR and inventory done (`docs/GREEK-SOURCES.md`); `el_GR` keyboard and Greek grading-policy groundwork; no course yet |
+| Greek | P11 restarted 2026-11-12: backbone Machen (1923) + Davis (1923) sentences (ADR-025); sources fetched, OCR and inventory done (`docs/GREEK-SOURCES.md`); Greek graders wired (`engine/script.js`); shared ladder core with Hebrew/Greek profiles; exwb Greek support + Machen profile; Lessons IV–V curated with our answers, every Greek word attested (`build/greek_corpus.py`); no course yet |
 
 ## Open items
 
 - R3/R4 human review: Davidson Units 21–22 and a sample of OER units.
 - Deferred (user, 2026-11-10): P9-T11 pointing in typed answers, P9-T9 reading exercises.
 - Parked (user, 2026-11-10): P10-T10 Cloudflare Pages mirror.
-- Greek (P11): wire the Greek graders and do the builder refactor; then exwb Greek support and Machen curation (`docs/GREEK-SOURCES.md` §7).
+- Greek (P11): curate Machen Lessons VI–XXXIII with our answers; then scaffold `courses/biblical-greek-machen` (P11-T5).
 - Bundled Hebrew font still deferred.

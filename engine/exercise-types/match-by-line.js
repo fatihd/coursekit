@@ -1,4 +1,5 @@
 import { el, scriptSpan } from "../dom.js";
+import { script } from "../script.js";
 import { random, shuffle } from "./util.js";
 
 const LEFT_KEYS = "123456789";
@@ -64,7 +65,7 @@ export default {
     }
     return [{
       type: "match-by-line",
-      prompt: kind === "plural" ? "Match each word to its plural" : reverse ? "Match each translation to its Hebrew word" : "Match each Hebrew word to its translation",
+      prompt: kind === "plural" ? "Match each word to its plural" : reverse ? `Match each translation to its ${script().name} word` : `Match each ${script().name} word to its translation`,
       left,
       right,
       answer,
@@ -251,11 +252,11 @@ export default {
       const row = el("div", "ex-match-card");
       const word = el("span", "ex-match-card-word");
       word.appendChild(el("span", "script", c.script));
-      word.firstChild.dir = "rtl";
+      word.firstChild.dir = script().dir;
       if (c.plural) {
         word.appendChild(el("span", "ex-match-card-sep", " · "));
         const pl = el("span", "script", c.plural);
-        pl.dir = "rtl";
+        pl.dir = script().dir;
         word.appendChild(pl);
       }
       row.appendChild(word);

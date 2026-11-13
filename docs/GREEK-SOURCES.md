@@ -116,12 +116,24 @@ lesson adds the lemmas that occur 10–49 times (Words track, ADR-023; optional 
 - **thou / ye:** English→Greek prompts say "you (sg.)" / "you (pl.)"; Greek→English typed answers still accept
   thou/thee/thy/ye and archaic verb forms.
 
-## 7. Next steps (Davidson corpus work merged 2026-11-13)
+## 7. Progress (2026-11-13)
 
-1. Wire `engine/greek.js` into the typed-answer graders; script-neutral input class; course setting for the accent
-   levels (`docs/I18N-SCRIPTS.md`).
-2. Builder refactor (shared core + Hebrew/Greek profiles): Greek ladder (rung 5 "with accents", one-point wrong options
-   by case, number, voice, tense), lemma-based vocabulary layout from MorphGNT, sentence tagging from MorphGNT parses.
-3. exwb Greek support (script switch in `detect.py`/`ocr.py`, LTR editing, `el_GR` keyboard), a Machen profile, then
-   curation of the ~980 Machen and ~580 Davis items with our answers and the MorphGNT form check.
+- **Done:** Greek graders (`engine/script.js`; `course.json` `script.profile: "greek"`; `scripts/e2e-greek.py`);
+  ladder core with Hebrew and Greek profiles (`build/ladder_core.py`, `davidson_ladder.py`, `ladder_greek.py`; the
+  Davidson output is byte-identical); `build/greek_text.py` (Python twin of `engine/greek.js`); exwb Greek support and
+  `exwb/profiles/machen.json` (32 blocks = the 32 exercise sets); `build/greek_corpus.py` with
+  `build/_sources/machen/attested.json` (book forms with their pages), `greek-forms.json` (MorphGNT analyses of the
+  forms used, CC BY-SA) and `corrections.json` (1927 comparison, page by page; no misprints in Lessons IV–V).
+- **Curated:** Lessons IV and V (`exwb/curated/machen-l04.json`, `-l05.json`): 38 Greek→English items with our English,
+  27 English→Greek items with our Greek; 314 Greek words, all attested (306 in SBLGNT, 8 in Machen's own text).
+- **Word order:** typed Greek is compared as typed, so a correct answer in another word order is marked wrong unless
+  it is listed in `data.accept`; Greek→English answers fall back to self-checking. Open question for the user.
+
+## 8. Next steps
+
+1. Curate Lessons VI–XXXIII the same way (exwb `ocr`, transcribe from the scan, our answers, `greek_corpus.py check`,
+   1927 comparison into `corrections.json`); then the Davis items.
+2. A Machen builder on `ladder_core` + `ladder_greek` (wrong options by case, number, voice, tense), lemma-based
+   vocabulary layout from MorphGNT (core: Machen + all 50+ lemmas; optional reading vocabulary 10–49), sentence
+   tagging from MorphGNT parses.
 4. Unit map: Machen's 33 lessons split into one-topic units (as Davidson's 49 sections became 79 units).

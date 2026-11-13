@@ -6,7 +6,7 @@ from .db import set_meta
 
 STATIC = os.path.join(os.path.dirname(__file__), "static")
 ENGINE = os.environ.get("EXWB_ENGINE_DIR") or os.path.join(os.path.dirname(__file__), "..", "..", "engine")
-ENGINE_FILES = {"keyboard.js", "dom.js", "keyboards/he_IL.js"}
+ENGINE_FILES = {"keyboard.js", "dom.js", "keyboards/he_IL.js", "keyboards/el_GR.js", "greek.js"}
 
 def render_pdf_page(pdf, page, cache):
     os.makedirs(cache, exist_ok=True)

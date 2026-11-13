@@ -1,4 +1,5 @@
 import { confirmAction, el, scriptSpan } from "../dom.js";
+import { script } from "../script.js";
 import { weakUnits } from "../knowledge.js";
 
 function renderVocabCard(course, item, showTranslit = true) {
@@ -116,7 +117,7 @@ export function renderLesson(root, ctx, unit, lesson) {
   if (ctx.words) {
     const box = el("section", "words");
     box.appendChild(el("h2", "blocks-title", "Words"));
-    box.appendChild(el("p", "ladder-note", "Learn this unit's words: recognize, recall, type, type with vowel points. Optional for unlocking."));
+    box.appendChild(el("p", "ladder-note", `Learn this unit's words: recognize, recall, type, type with ${script().marks}. Optional for unlocking.`));
     const list = el("ol", "ladder-list");
     for (const r of ctx.words.rows) {
       const row = el("li", r.done >= r.total ? "ladder-row ladder-row--done" : "ladder-row");

@@ -6,6 +6,7 @@ import { PASS_MARK, renderTest } from "./views/test.js";
 import { buildSession } from "./session.js";
 import { buildRecap, reviewUnits, weakUnits } from "./knowledge.js";
 import { initKeyboard } from "./keyboard.js";
+import { script, setScript } from "./script.js";
 import { newSeed, shuffle, withSeed } from "./exercise-types/util.js";
 import { WORD_RUNG_COUNT, openRung, warmupWords, wordItemsFor, wordSummary, wordsSession } from "./words.js";
 
@@ -21,6 +22,10 @@ const ctx = {
 };
 
 const RUNG_NAMES = { 1: "True or false", 2: "Choose", 3: "Fill in", 4: "Translate", 5: "Translate with vowel points" };
+
+function rungName(n) {
+  return n === 5 ? `Translate with ${script().marks}` : RUNG_NAMES[n];
+}
 
 const authoredCache = new Map();
 
@@ -180,7 +185,7 @@ function ladderSummary(unitN, authored) {
   const rungs = new Map();
   for (const it of authored) {
     if (!it.rung) continue;
-    const r = rungs.get(it.rung) || { rung: it.rung, label: RUNG_NAMES[it.rung] || `Rung ${it.rung}`, total: 0, done: 0, pool: 0 };
+    const r = rungs.get(it.rung) || { rung: it.rung, label: rungName(it.rung) || `Rung ${it.rung}`, total: 0, done: 0, pool: 0 };
     if (it.extra) r.pool += 1;
     else {
       r.total += 1;
@@ -606,6 +611,7 @@ async function bootstrap() {
   ctx.base = document.body.dataset.courseBase || "../";
   ctx.course = await fetchJSON(ctx.base + "course.json");
   ctx.features = ctx.course.features || {};
+  setScript(ctx.course);
   const vocabData = await fetchJSON(ctx.base + "vocab.json");
   ctx.vocabList = vocabData.items;
   for (const item of vocabData.items) ctx.vocab[item.id] = item;

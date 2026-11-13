@@ -1,4 +1,5 @@
 import { confirmAction } from "../dom.js";
+import { script } from "../script.js";
 import { unitState } from "../store.js";
 
 export function renderRoadmap(root, course, progress, navigate, sync) {
@@ -153,7 +154,7 @@ export function renderRoadmap(root, course, progress, navigate, sync) {
     box.appendChild(h2);
     const p = document.createElement("p");
     p.className = "part-test";
-    p.textContent = "Unseen-style questions from the whole course, translation both ways with vowel points, and words. One attempt each, checked at the end. ";
+    p.textContent = `Unseen-style questions from the whole course, translation both ways with ${script().marks}, and words. One attempt each, checked at the end. `;
     const a = document.createElement("a");
     a.href = sync.tests.final;
     a.className = "part-test-link final-test-link";

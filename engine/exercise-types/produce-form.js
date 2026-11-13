@@ -1,4 +1,5 @@
 import { el, scriptSpan } from "../dom.js";
+import { script } from "../script.js";
 import { shuffle } from "./util.js";
 import { distinctOptions } from "./mcq.js";
 
@@ -65,7 +66,7 @@ export default {
         items.push({
           type: "produce-form",
           variant: "verb-form",
-          prompt: "Choose the Hebrew form that matches this description",
+          prompt: `Choose the ${script().name} form that matches this description`,
           stimulus,
           stimulusIsScript: false,
           optionIsScript: true,

@@ -20,6 +20,8 @@
     "fontFile": "fonts/EzraSIL-Regular.woff2",
     "keyboard": "he_IL",            // maps to engine/keyboards/he_IL
     "translitScheme": "he-sbl"       // maps to engine/translit/he-sbl
+    // Greek courses add: "profile": "greek" (engine/script.js grading), "code": "grc" (input lang),
+    // optional "grading": { "plain": "breathings", "full": "full", "movableNu": true, "elision": true, "clitics": true }
   },
    "units": [
     { "id": "u01", "n": 1, "title": "The Aleph-Bet", "slug": "the-aleph-bet",

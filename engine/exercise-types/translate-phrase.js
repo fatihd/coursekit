@@ -1,14 +1,14 @@
 import { el, scriptSpan } from "../dom.js";
-import {
-  hasPoints, normalize, normalizeEnglish, normalizeHebrew, pointedForm, pointingDiff, shuffle,
-} from "./util.js";
+import { script, usesKeyboard } from "../script.js";
+import { normalize, normalizeEnglish, shuffle } from "./util.js";
 
 function bestExpected(item, answer) {
-  const mine = pointedForm(answer).split(" ");
+  const { full } = script();
+  const mine = full(answer).split(" ");
   let best = item.accepted[0];
   let bestScore = -1;
   for (const acc of item.accepted) {
-    const theirs = pointedForm(acc).split(" ");
+    const theirs = full(acc).split(" ");
     const score = mine.filter((w, i) => w === theirs[i]).length - Math.abs(mine.length - theirs.length);
     if (score > bestScore) {
       best = acc;
@@ -27,7 +27,7 @@ export default {
       .slice(0, count)
       .map((x) => ({
         type: "translate-phrase",
-        prompt: "Translate this Hebrew word into English",
+        prompt: `Translate this ${script().name} word into English`,
         stimulus: x.scriptForm,
         stimulusIsScript: true,
         accepted: [x.gloss],
@@ -48,10 +48,10 @@ export default {
     input.type = "text";
     input.autocomplete = "off";
     input.spellcheck = false;
-    if (item.answerIsScript && ctx.course.script && ctx.course.script.direction === "rtl") {
+    if (item.answerIsScript && ctx.course.script && usesKeyboard(ctx.course)) {
       input.classList.add("hebrew-input");
-      input.dir = "rtl";
-      input.lang = ctx.course.script.code || "he";
+      input.dir = script().dir;
+      input.lang = ctx.course.script.code || script().lang;
     }
     root.appendChild(input);
     return root;
@@ -64,15 +64,17 @@ export default {
 
   grade(item, answer) {
     if (item.answerIsScript && item.pointing === "required") {
-      const a = pointedForm(answer);
-      const correct = item.accepted.some((acc) => pointedForm(acc) === a);
+      const { full, hasMarks, missing } = script();
+      const a = full(answer);
+      const correct = item.accepted.some((acc) => full(acc) === a);
       const expected = correct ? item.accepted[0] : bestExpected(item, answer);
-      const message = hasPoints(answer) ? null : "Vowel points are required here.";
+      const message = hasMarks(answer) ? null : missing;
       return { correct, expected, message };
     }
     if (item.answerIsScript) {
-      const a = normalizeHebrew(answer);
-      const correct = item.accepted.some((acc) => normalizeHebrew(acc) === a);
+      const { plain } = script();
+      const a = plain(answer);
+      const correct = item.accepted.some((acc) => plain(acc) === a);
       return { correct, expected: item.accepted[0] };
     }
     if (item.selfCheck) {
@@ -88,10 +90,10 @@ export default {
   hint(node, item, answer, result) {
     if (item.answerIsScript && item.pointing === "required") {
       this.annotate(node, item, answer, result);
-      return "Letters marked red have wrong or missing vowel points.";
+      return script().marked;
     }
     if (item.answerIsScript) {
-      const first = (item.accepted[0] || "").split(/\s+/).map((w) => w.replace(/[\u0591-\u05c7]/g, "").charAt(0)).filter(Boolean);
+      const first = (item.accepted[0] || "").split(/\s+/).map((w) => script().strip(w).charAt(0)).filter(Boolean);
       return first.length ? `It starts with ${first.join(" … ")}.` : null;
     }
     return null;
@@ -102,10 +104,10 @@ export default {
     if (old) old.remove();
     if (!(item.answerIsScript && item.pointing === "required") || result.correct) return;
     const box = el("div", "ex-pointing");
-    box.appendChild(el("span", "ex-pointing-label", "Your pointing: "));
+    box.appendChild(el("span", "ex-pointing-label", script().yours));
     const line = el("span", "ex-pointing-words script");
-    line.dir = "rtl";
-    pointingDiff(answer, result.expected).forEach((w, i) => {
+    line.dir = script().dir;
+    script().diff(answer, result.expected).forEach((w, i) => {
       if (i) line.appendChild(document.createTextNode(" "));
       const word = el("span", w.ok ? "pt-word" : "pt-word pt-word--no");
       for (const c of w.clusters) word.appendChild(el("span", c.ok ? "pt-ok" : "pt-no", c.text));

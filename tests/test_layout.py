@@ -5,7 +5,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 JS_IMPORT = re.compile(r"""(?:\bfrom\s*|\bimport\s*\(\s*|\bimport\s+)["']([^"']+)["']""")
-EXWB_ENGINE_FILES = {"keyboard.js", "dom.js", "keyboards/he_IL.js"}
+EXWB_ENGINE_FILES = {"keyboard.js", "dom.js", "keyboards/he_IL.js", "keyboards/el_GR.js", "greek.js"}
 
 
 def py_imports(path):

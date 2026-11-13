@@ -1,12 +1,13 @@
 import json, os, re
 from .db import now, get_meta, set_meta
-from . import ingest, detect, ocr
+from . import ingest, detect, ocr, script
 
 # ---------- build pipeline ----------
 def build(con, profile_path):
     base = os.path.dirname(os.path.abspath(profile_path))
     prof = json.load(open(profile_path, encoding="utf8"))
     set_meta(con, "profile", prof)
+    script.apply(prof)
     if get_meta(con, "leaf_delta") is None: set_meta(con, "leaf_delta", prof.get("leaf_delta", 0))
     P = detect.cfg(prof.get("detect"))
     rel = lambda x: "" if not x else (x if os.path.isabs(x) else os.path.normpath(os.path.join(base, x)))
@@ -255,7 +256,8 @@ def state(con):
             ORDER BY b.source, b.start_scan, b.start_line"""):
         d = dict(r); d["printed"] = _printed(con, r["source"], r["start_scan"]); blocks.append(d)
     return {"sources": srcs, "blocks": blocks, "leaf_delta": get_meta(con, "leaf_delta", 0),
-            "profile_name": (get_meta(con, "profile") or {}).get("name", "")}
+            "profile_name": (get_meta(con, "profile") or {}).get("name", ""),
+            "script": {k: script.ACTIVE[k] for k in ("name", "rtl", "keyboard", "label")}}
 
 def _printed(con, source, scan):
     r = con.execute("SELECT printed FROM page WHERE source=? AND scan=?", (source, scan)).fetchone()

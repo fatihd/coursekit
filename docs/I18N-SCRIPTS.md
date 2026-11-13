@@ -2,9 +2,9 @@
 
 > Per-script runtime config: direction, fonts, on-screen keyboards, normalisation. Language config
 > arrives via `course.json.script`; keyboards load from `engine/keyboards/`.
-> Last updated: 2026-11-12. **Implemented:** Hebrew (keyboard `he_IL`, pointed grading). **Greek: groundwork
-> only** — keyboard `el_GR` and `engine/greek.js` exist and are tested (`scripts/e2e-greek.py`), but no grader uses
-> them yet and no Greek course exists (ROADMAP P11). **Aramaic: planned, nothing implemented.** No font is
+> Last updated: 2026-11-13. **Implemented:** Hebrew (keyboard `he_IL`, pointed grading) and Greek (keyboard
+> `el_GR`, grading through `engine/script.js` + `engine/greek.js`, tested by `scripts/e2e-greek.py`); no Greek course
+> exists yet (ROADMAP P11-T5). **Aramaic: planned, nothing implemented.** No font is
 > bundled and there is no `engine/fonts/` or `engine/translit/` folder.
 
 ## 1. Script registry
@@ -12,7 +12,7 @@
 | Script | Languages | Direction | Font | Keyboard | State |
 |---|---|---|---|---|---|
 | Hebrew square (+ niqqud) | Biblical Hebrew | `rtl` | system fonts (Ezra SIL / SBL Hebrew if installed); none bundled | `he_IL` (incl. niqqud) | implemented |
-| Greek polytonic | Biblical Greek | `ltr` | none yet; candidates Gentium Plus or GFS Didot (OFL) | `el_GR` (polytonic) | keyboard + normalisation module; graders not wired (P11-T2) |
+| Greek polytonic | Biblical Greek | `ltr` | none yet; candidates Gentium Plus or GFS Didot (OFL) | `el_GR` (polytonic) | keyboard + graders (P11-T2, 2026-11-13); `script.profile: "greek"` |
 | Aramaic square | Aramaic A | `rtl` | (would share the Hebrew font) | (`arc`, planned) | not started |
 
 Transliteration schemes (`he-sbl`, `el-translit`, `arc-translit`) were planned but never built as modules; the
@@ -81,7 +81,15 @@ NFC-composed to precomposed polytonic letters, and σ at the end of a word becom
 only `keyboard.js`, `dom.js` and `keyboards/he_IL.js`, is unaffected. Inputs still need the `hebrew-input` class
 to open the keyboard (a script-neutral name is planned with the grader work).
 
-**Greek normalisation (`engine/greek.js`, not yet called by graders; policy ADR-025, 2026-11-13):**
+**Script profiles (`engine/script.js`, 2026-11-13).** `main.js` calls `setScript(course)` at start-up; graders and
+prompts ask `script()` for the active profile. `course.json` `script.profile` picks it: absent or `"hebrew"` = the
+Hebrew behaviour unchanged (`normalizeHebrew` for typed rungs, `pointedForm`/`pointingDiff` with points required);
+`"greek"` = `greekKey(…, "breathings")` on typed rungs and `greekKey(…, "full")`/`accentDiff` where
+`pointing: "required"`, LTR answer inputs with the on-screen keyboard, `lang` from `script.code` (default `grc`),
+and wording ("Greek word", "with accents"). `script.grading` may change the levels or switch off `movableNu`,
+`elision`, `clitics`.
+
+**Greek normalisation (`engine/greek.js`; policy ADR-025, 2026-11-13):**
 `sameGreek(a, b, level, options)` compares typed and expected Greek. Levels: `breathings` for the lower typed rungs
 (letters, breathings and iota subscript must match; accents and diaeresis ignored — the iota subscript is required on
 every rung), `full` for the top rung (accents too, but grave = acute, and enclitic/proclitic accent variants are

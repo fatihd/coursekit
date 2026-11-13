@@ -1,4 +1,5 @@
 import { el } from "../dom.js";
+import { script } from "../script.js";
 import { normalize, shuffle } from "./util.js";
 
 export default {
@@ -10,7 +11,7 @@ export default {
       .slice(0, count)
       .map((x) => ({
         type: "dictation",
-        prompt: "Type the Hebrew word for this gloss",
+        prompt: `Type the ${script().name} word for this gloss`,
         stimulus: x.gloss,
         stimulusIsScript: false,
         answer: x.scriptForm,
@@ -27,7 +28,7 @@ export default {
     const input = document.createElement("input");
     input.className = "ex-text hebrew-input";
     input.type = "text";
-    input.dir = "rtl";
+    input.dir = script().dir;
     input.autocomplete = "off";
     input.spellcheck = false;
     root.appendChild(input);
@@ -44,8 +45,9 @@ export default {
   },
 
   grade(item, answer) {
-    const a = answer.normalize("NFC");
-    const exp = item.answer.normalize("NFC");
+    const greek = script().id === "greek";
+    const a = greek ? script().full(answer) : answer.normalize("NFC");
+    const exp = greek ? script().full(item.answer) : item.answer.normalize("NFC");
     const translitOk = item.transliteration && normalize(answer) === normalize(item.transliteration);
     const correct = a === exp || translitOk;
     return { correct, expected: item.answer };

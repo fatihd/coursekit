@@ -44,6 +44,13 @@ implemented. The `app/` shell lives in `courses/<course>/app/` (`index.html` +
 `engine/` into the course dir for development (the symlink is gitignored; real
 vendoring happens at `release-course` time).
 
+### Script profiles (P11-T2, 2026-11-13)
+
+`engine/script.js` holds what differs between scripts: name and direction, the typed-rung key and the full-marks key,
+the red-marks diff and the wording ("vowel points" / "accents"). `main.js` sets it from `course.json`
+`script.profile` at start-up; `translate-phrase`, `dictation`, `match-by-line`, `produce-form`, `parse-form`, the
+Words track and the rung names read it. Hebrew is the default, so existing courses behave exactly as before.
+
 ## 3. Layer 2 — Course content repo (`courses/<course>/`, what students fork)
 
 ```

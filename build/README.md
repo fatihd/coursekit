@@ -25,7 +25,12 @@
   `grammar-units.json` feature → unit; P12-T1). Article-less copies of early phrases for units 14–15 come from
   `_sources/davidson/indefinite-phrases.json`; recognition questions for units 6 and 9–12 from
   `_sources/davidson/recognition.json`.
-- `davidson_ladder.py` — the five-rung exercise ladder per Davidson sentence (true/false, choose, fill in,
+- `ladder_core.py` — the language-neutral ladder (P11, 2026-11-13): English variants and one-point wrong options,
+  the five rungs; script details come from a profile. `ladder_greek.py` — Greek profile (rung 5 "with accents").
+  `greek_text.py` — Python twin of `engine/greek.js` (`tests/test_greek_text.py` keeps them in step).
+  `greek_corpus.py` — every Greek word of `exwb/curated/machen-*.json` must be in SBLGNT/MorphGNT, Machen's text
+  (`_sources/machen/attested.json` with pages) or the course word list; `forms` writes `_sources/machen/greek-forms.json`.
+- `davidson_ladder.py` — Hebrew profile of the ladder (pointing, pausal forms) and the Davidson entry point: (true/false, choose, fill in,
   translate, translate with vowel points), wrong options from one-point changes of the Key's English, English
   answer variants, pausal/contextual forms (P12-T4); used by `exwb_to_authored.py`, tested by
   `tests/test_davidson_ladder.py`.

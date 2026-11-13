@@ -5,7 +5,9 @@ Serves the hub `engine/` with a one-page harness and drives it headlessly:
   * `engine/greek.js`: polytonic composition (mark order, NFC, final sigma), grading keys at three
     strictness levels (letters / breathings / full accents), punctuation and movable-nu tolerance,
     and the per-letter accent diff;
-  * `engine/keyboard.js` with the `el_GR` layout: typing ἄνθρωπος and ᾠδῇ with the on-screen keys.
+  * `engine/keyboard.js` with the `el_GR` layout: typing ἄνθρωπος and ᾠδῇ with the on-screen keys;
+  * the `translate-phrase` grader under the Greek script profile (`engine/script.js`): a typed rung grades
+    letters + breathings + iota subscript, the top rung full accents; the Hebrew profile is unchanged.
 
 No course is needed and no progress is touched.
 
@@ -29,7 +31,11 @@ HARNESS = """<!doctype html>
 <script type="module">
 import * as greek from "/engine/greek.js";
 import { initKeyboard } from "/engine/keyboard.js";
+import { setScript } from "/engine/script.js";
+import translatePhrase from "/engine/exercise-types/translate-phrase.js";
 window.greek = greek;
+window.setScript = setScript;
+window.tp = translatePhrase;
 await initKeyboard(document.body, "el_GR");
 window.ready = true;
 </script>
@@ -153,6 +159,59 @@ def main():
 
             glyph = page.text_content(".keyboard button[data-key='̔́'] .kb-glyph")
             check(glyph == "ἅ", f"mark key shows its mark on a carrier letter (got {glyph})", failures)
+            print("translate-phrase under the Greek and Hebrew script profiles")
+            greek_course = {"script": {"direction": "ltr", "keyboard": "el_GR", "profile": "greek", "code": "grc"}}
+            page.evaluate("(c) => window.setScript(c)", greek_course)
+
+            def grade(accepted, answer, pointed):
+                item = {"type": "translate-phrase", "prompt": "p", "stimulus": "s", "accepted": [accepted], "answerIsScript": True}
+                if pointed:
+                    item["pointing"] = "required"
+                return page.evaluate("([i, a]) => window.tp.grade(i, a)", [item, answer])
+
+            for accepted, answer, pointed, want, msg in [
+                ("λόγος", "λογος", False, True, "typed rung: λογος = λόγος (accents not checked)"),
+                ("λόγος", "λογος", True, False, "top rung: λογος ≠ λόγος"),
+                ("λόγος", "λόγος", True, True, "top rung: λόγος = λόγος"),
+                ("ἄνθρωπος", "ανθρωπος", False, False, "typed rung: a missing breathing is wrong"),
+                ("τῷ λόγῳ", "τῶ λόγω", False, False, "typed rung: the iota subscript is required"),
+                ("ἀλλὰ ἐστίν", "ἀλλ’ ἐστι", True, True, "top rung: elision, movable nu and an enclitic's accent are tolerated"),
+                ("ἄνθρωπός τις", "ἄνθρωπος τις", True, True, "top rung: an accent thrown back from an enclitic is optional"),
+            ]:
+                got = grade(accepted, answer, pointed)
+                check(got["correct"] == want, f"{msg} (got {got['correct']})", failures)
+            got = grade("λόγος", "λογος", True)
+            check(got.get("message") == "Accents are required here.", f"top rung asks for accents (got {got.get('message')!r})", failures)
+
+            page.evaluate("""(c) => {
+              const item = { type: "translate-phrase", prompt: "Translate", stimulus: "word", accepted: ["λόγος"], answerIsScript: true, pointing: "required" };
+              const node = window.tp.render(item, { course: c });
+              node.id = "tp";
+              document.body.appendChild(node);
+            }""", greek_course)
+            attrs = page.evaluate("() => { const i = document.querySelector('#tp .ex-text'); return [i.className, i.dir, i.lang]; }")
+            check("hebrew-input" in attrs[0] and attrs[1] == "ltr" and attrs[2] == "grc",
+                  f"Greek answer input opens the keyboard, LTR, lang grc (got {attrs})", failures)
+            page.focus("#tp .ex-text")
+            for k in ["λ", "ο", "\u0301", "γ", "ο", "σ"]:
+                press(k)
+            typed = page.input_value("#tp .ex-text")
+            res = page.evaluate("() => { const n = document.querySelector('#tp'); const a = window.tp.collect(n); return [a, window.tp.grade({ accepted: ['λόγος'], answerIsScript: true, pointing: 'required' }, a).correct]; }")
+            check(typed == "λόγος" and res[1], f"typing λόγος on the on-screen keyboard passes the top rung (typed {typed!r}, graded {res[1]})", failures)
+            marks = page.evaluate("""() => {
+              const item = { accepted: ['λόγος'], answerIsScript: true, pointing: 'required' };
+              const node = document.querySelector('#tp');
+              const result = window.tp.grade(item, 'λογός');
+              window.tp.annotate(node, item, 'λογός', result);
+              return [...node.querySelectorAll('.ex-pointing-words span span')].map((s) => s.className);
+            }""")
+            check(marks == ["pt-ok", "pt-no", "pt-ok", "pt-no", "pt-ok"], f"wrong accents are marked letter by letter (got {marks})", failures)
+
+            page.evaluate("() => window.setScript({ script: { direction: 'rtl', keyboard: 'he_IL' } })")
+            heb = [grade("דָּבָר", "דבר", False)["correct"], grade("דָּבָר", "דבר", True)["correct"],
+                   grade("דָּבָר", "דבר", True).get("message")]
+            check(heb == [True, False, "Vowel points are required here."], f"Hebrew profile unchanged (got {heb})", failures)
+
             check(not errors, f"no page errors ({errors})", failures)
             browser.close()
     finally:

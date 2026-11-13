@@ -3,6 +3,7 @@ import re, json
 from .db import now
 
 HEB = re.compile(r"[֐-׿]")
+SCRIPT_RTL = True
 LAT = re.compile(r"[A-Za-z]")
 BIDI = dict.fromkeys([0x200e, 0x200f])
 
@@ -27,7 +28,7 @@ def line_is_rtl(s):
     """Reverse word order only when Hebrew words outnumber English-looking words (prose with Hebrew examples stays LTR)."""
     hw = sum(1 for t in s.split() if HEB.search(t))
     hits = sum(w.lower() in STOP or w.lower() in SHORT for w in re.findall(r"[A-Za-z]+", s))
-    return hw >= 2 and hits <= hw
+    return SCRIPT_RTL and hw >= 2 and hits <= hw
 
 def line_kind(s):
     """he = Hebrew (incl. garbled), la = English prose, x = Latin junk (inherits neighbour), o = digits/punct only."""
