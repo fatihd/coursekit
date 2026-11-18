@@ -1,0 +1,245 @@
+{
+  "note": "Hand decisions for build/machen_layers.py. aliases: MorphGNT lemma -> Dodson headword to look up, or null when Machen's vocabulary already teaches the word under another spelling. words: per MorphGNT lemma, any of headword, gloss, category, gender, unit (core layer), force (add even though a Machen entry carries the lemma), skip.",
+  "aliases": {
+    "Μωϋσῆς": "Μωσῆς",
+    "ἐλεάω": null,
+    "προσκαλέομαι": "προσκαλέω",
+    "Μαριάμ": "Μαρία",
+    "πίμπλημι": "πλήθω",
+    "τεσσεράκοντα": "τεσσαράκοντα",
+    "μέχρι(ς)": "μέχρι",
+    "Καφαρναούμ": "Καπερναούμ",
+    "ἀφίσταμαι": "ἀφίστημι",
+    "ὀψία": "ὄψιος",
+    "ἐκπλήσσομαι": "ἐκπλήσσω",
+    "κολλάομαι": "κολλάω",
+    "περισσοτέρως": "περισσότερος",
+    "προσλαμβάνομαι": "προσλαμβάνω",
+    "εἴκοσι(ν)": "εἴκοσι",
+    "σπλάγχνον": "σπλάγχνα"
+  },
+  "words": {
+    "ἐκβάλλω": {
+      "unit": 7,
+      "gloss": "I cast out, I throw out, I drive out"
+    },
+    "ὑπάρχω": {
+      "gloss": "I am, I exist; τὰ ὑπάρχοντα, possessions"
+    },
+    "κράζω": {
+      "gloss": "I cry out"
+    },
+    "τέ": {
+      "unit": 8,
+      "gloss": "and (enclitic); τε … καί, both … and"
+    },
+    "ἄν": {
+      "unit": 27,
+      "gloss": "a particle of contingency, often untranslated (ὃς ἄν, whoever)"
+    },
+    "ἀμήν": {
+      "gloss": "truly, amen"
+    },
+    "Ἰερουσαλήμ": {
+      "gloss": "Jerusalem (indeclinable)"
+    },
+    "Ἱεροσόλυμα": {
+      "unit": 4,
+      "gender": "n",
+      "gloss": "Jerusalem (τὰ Ἱεροσόλυμα, declined)"
+    },
+    "εἴτε": {
+      "unit": 21,
+      "gloss": "whether, if; εἴτε … εἴτε, whether … or"
+    },
+    "θρόνος": {
+      "gloss": "a throne"
+    },
+    "διό": {
+      "gloss": "therefore, wherefore"
+    },
+    "οὐχί": {
+      "unit": 10,
+      "gloss": "not, no (a strengthened οὐ)"
+    },
+    "κεφαλή": {
+      "gloss": "a head"
+    },
+    "γλῶσσα": {
+      "gloss": "a tongue, a language"
+    },
+    "ἑπτά": {
+      "unit": 26,
+      "category": "numeral",
+      "gloss": "seven"
+    },
+    "δώδεκα": {
+      "unit": 26,
+      "category": "numeral",
+      "gloss": "twelve"
+    },
+    "τρίτος": {
+      "unit": 26,
+      "gloss": "third"
+    },
+    "ἕκαστος": {
+      "gloss": "each, every"
+    },
+    "πρεσβύτερος": {
+      "gloss": "older; an elder"
+    },
+    "ἀγαπητός": {
+      "gloss": "beloved"
+    },
+    "εὐθύς": {
+      "unit": 20,
+      "category": "adverb",
+      "gloss": "immediately; straight"
+    },
+    "δεξιός": {
+      "gloss": "right (hand); ἐκ δεξιῶν, on the right"
+    },
+    "κἀγώ": {
+      "gloss": "and I, I also (καί + ἐγώ)"
+    },
+    "τοιοῦτος": {
+      "unit": 9,
+      "gloss": "such, of such a kind"
+    },
+    "ἐξέρχομαι": {
+      "gloss": "I go out, I come out"
+    },
+    "ἀσπάζομαι": {
+      "gloss": "I greet"
+    },
+    "Μωϋσῆς": {
+      "gloss": "Moses"
+    },
+    "δέω": {
+      "force": true,
+      "unit": 23,
+      "gloss": "I bind"
+    },
+    "ἐργάζομαι": {
+      "gloss": "I work, I do, I trade"
+    },
+    "φωνέω": {
+      "gloss": "I call, I summon, I crow"
+    },
+    "καθίζω": {
+      "gloss": "I sit; I seat, I make to sit"
+    },
+    "ἅπτω": {
+      "gloss": "I light; middle, I touch"
+    },
+    "Σατανᾶς": {
+      "gloss": "Satan, the adversary"
+    },
+    "ποτέ": {
+      "gloss": "once, at some time, ever"
+    },
+    "ἐπικαλέω": {
+      "gloss": "I call upon, I name; middle, I appeal to"
+    },
+    "Μαρία": {
+      "gloss": "Mary (declined form)"
+    },
+    "Μαριάμ": {
+      "gloss": "Mary, Miriam (indeclinable form)"
+    },
+    "Ἀσία": {
+      "gloss": "Asia (the Roman province)"
+    },
+    "θεμέλιος": {
+      "gloss": "a foundation"
+    },
+    "βῆμα": {
+      "gloss": "a judgment seat, a step"
+    },
+    "ἀνά": {
+      "gloss": "up; apiece, each (with numbers)"
+    },
+    "μέλει": {
+      "gloss": "it is a care, it concerns (with dat.)"
+    },
+    "συμφέρω": {
+      "gloss": "I bring together; it is profitable"
+    },
+    "ἐξομολογέω": {
+      "gloss": "I confess, I praise; I consent"
+    },
+    "πρόθεσις": {
+      "gloss": "a purpose; a setting forth (of the bread)"
+    },
+    "ἀφορίζω": {
+      "gloss": "I separate, I set apart"
+    },
+    "χρυσός": {
+      "gloss": "gold"
+    },
+    "χρυσίον": {
+      "gloss": "gold, a gold ornament"
+    },
+    "δικαίωμα": {
+      "gloss": "a righteous act, a requirement"
+    },
+    "γυμνός": {
+      "gloss": "naked, bare"
+    },
+    "ὅριον": {
+      "gloss": "a boundary; plural, a region"
+    },
+    "περισσοτέρως": {
+      "gloss": "more abundantly, especially"
+    },
+    "ὀψία": {
+      "gloss": "evening"
+    },
+    "ἀφίσταμαι": {
+      "gloss": "I depart, I withdraw, I fall away"
+    },
+    "κολλάομαι": {
+      "gloss": "I join, I cleave to"
+    },
+    "ἀναστρέφω": {
+      "gloss": "I return; middle, I live, I conduct myself"
+    },
+    "Λάζαρος": {
+      "gloss": "Lazarus"
+    },
+    "ὦ": {
+      "gloss": "O!"
+    },
+    "αὔριον": {
+      "gloss": "tomorrow"
+    },
+    "ἐπαύριον": {
+      "gloss": "on the next day (ἡ ἐπαύριον)"
+    },
+    "διάβολος": {
+      "category": "noun",
+      "gender": "m",
+      "gloss": "the devil, a slanderer"
+    },
+    "φίλος": {
+      "category": "noun",
+      "gender": "m",
+      "gloss": "a friend"
+    },
+    "χήρα": {
+      "category": "noun",
+      "gender": "f",
+      "gloss": "a widow"
+    },
+    "παῖς": {
+      "category": "noun",
+      "gender": "m",
+      "gloss": "a child, a boy, a servant"
+    },
+    "διάκονος": {
+      "category": "noun",
+      "gender": "m",
+      "gloss": "a servant, a deacon"
+    }
+  }
+}

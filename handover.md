@@ -1,6 +1,6 @@
 # handover.md — Session continuity
 
-> Pair with `docs/STATUS.md` (long-term) + `docs/ROADMAP.md` (plan). Last updated: 2026-11-10.
+> Pair with `docs/STATUS.md` (long-term) + `docs/ROADMAP.md` (plan). Last updated: 2026-11-18.
 ## Resume — 2026-11-09
 
 - Read `AGENTS.md`, then `docs/STATUS.md` and `docs/ROADMAP.md`.
@@ -77,4 +77,9 @@
 - 2026-11-14: Machen Lessons IX–XXIII curated and their units 9–23 added; the Greek course is in the public repo
   (not on the site yet).
 - 2026-11-14: the Greek course builds from the repo alone; Lessons XXIV–XXV and units 24–25 added.
-- Next up: Machen Lessons XXVI–XXXIII and their units; vocabulary layers; optional corpus pass 2 (units 13–15, 72–79).
+- 2026-11-14: Machen Lessons XXVI–XXXIII curated and units 26–33 added (all 33 lessons in; 5,400 ladder items, 13,340
+  Greek words attested). Vocabulary layers: every NT lemma used 50+ times is taught (36 added to the lesson units) and
+  an optional reading vocabulary (724 lemmas used 10–49 times, units 34–48, words only) follows the last lesson; glosses
+  from the public-domain Dodson lexicon (`python scripts/fetch-sources dodson`, `python build/machen_layers.py`).
+- Next up: the Davis sentences placed in the Machen units; Greek corpus expansion; optional corpus pass 2 (units
+  13–15, 72–79).

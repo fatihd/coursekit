@@ -207,6 +207,83 @@
         162
       ],
       "result": "same text"
+    },
+    {
+      "lesson": 26,
+      "section": "383",
+      "pages": [
+        167,
+        168,
+        169
+      ],
+      "result": "three differences: I.18, I.20, II.2 (see fixes); same numbering"
+    },
+    {
+      "lesson": 27,
+      "section": "402",
+      "pages": [
+        175,
+        176
+      ],
+      "result": "same text"
+    },
+    {
+      "lesson": 28,
+      "section": "424",
+      "pages": [
+        181,
+        182
+      ],
+      "result": "one difference: I.12 (see fixes); same numbering"
+    },
+    {
+      "lesson": 29,
+      "section": "454",
+      "pages": [
+        189,
+        190,
+        191
+      ],
+      "result": "one difference: I.15 (see fixes); same numbering"
+    },
+    {
+      "lesson": 30,
+      "section": "480",
+      "pages": [
+        197,
+        198,
+        199
+      ],
+      "result": "same text"
+    },
+    {
+      "lesson": 31,
+      "section": "522",
+      "pages": [
+        207,
+        208,
+        209
+      ],
+      "result": "same text"
+    },
+    {
+      "lesson": 32,
+      "section": "537",
+      "pages": [
+        213,
+        214,
+        215
+      ],
+      "result": "same text"
+    },
+    {
+      "lesson": 33,
+      "section": "554",
+      "pages": [
+        220,
+        221
+      ],
+      "result": "one difference: I.18 (see fixes); the 1927 printing renumbers part I 4-19 and part II 9-11 (see fixes)"
     }
   ],
   "fixes": [
@@ -256,6 +333,70 @@
       "item": "II.12-15",
       "printed": "numbered 13-16 (no 12)",
       "corrected": "numbered 12-15",
+      "basis": "1927 corrected printing"
+    },
+    {
+      "lesson": 26,
+      "page": 168,
+      "item": "I.18",
+      "printed": "σωθήσεται οὐδεὶς ἐὰν μὴ διὰ πίστεως· ἐτήρησε γὰρ οὐδεὶς πάντας τὰς ἐντολὰς τοῦ θεοῦ.",
+      "corrected": "σωθήσεται οὐδεὶς ἐὰν μὴ διὰ πίστεως· ἐτήρησε γὰρ οὐδεὶς πάσας τὰς ἐντολὰς τοῦ θεοῦ.",
+      "basis": "1927 corrected printing"
+    },
+    {
+      "lesson": 26,
+      "page": 168,
+      "item": "I.20",
+      "printed": "μακάριοι οἱ καθαροὶ, αὐτοὶ γὰρ τὸν θεὸν ὄψονται.",
+      "corrected": "μακάριοι οἱ καθαροί, αὐτοὶ γὰρ τὸν θεὸν ὄψονται.",
+      "basis": "1927 corrected printing"
+    },
+    {
+      "lesson": 26,
+      "page": 168,
+      "item": "II.2",
+      "printed": "In that place there were about five thousand men with many women and many children.",
+      "corrected": "In that place there were about five thousand men with many gifts and many garments.",
+      "basis": "1927 corrected printing; the 1923 sentence needs γυνή, which Machen does not teach until Lesson XXXI"
+    },
+    {
+      "lesson": 28,
+      "page": 181,
+      "item": "I.12",
+      "printed": "ἔλεγεν αὐτῷ μαθητής τις Κύριε, κέλευσόν με ἐλθεῖν πρὸς σὲ ἐπὶ τὰ ὕδατα. ὁ δὲ Ἰησοῦς εἶπε Ἐλθέ.",
+      "corrected": "ἔλεγεν αὐτῷ μαθητής τις Κύριε, κέλευσόν με ἐλθεῖν πρὸς σὲ ἐπὶ τὰ ὕδατα. ὁ δὲ Ἰησοῦς εἶπεν Ἐλθέ.",
+      "basis": "1927 corrected printing (movable ν before a vowel, §44)"
+    },
+    {
+      "lesson": 29,
+      "page": 190,
+      "item": "I.15",
+      "printed": "… καὶ ἡμεῖς πεπιστεύκαμεν καὶ ἐγώκαμεν ὅτι σὺ εἶ ὁ ἅγιος τοῦ θεοῦ.",
+      "corrected": "… καὶ ἡμεῖς πεπιστεύκαμεν καὶ ἐγνώκαμεν ὅτι σὺ εἶ ὁ ἅγιος τοῦ θεοῦ.",
+      "basis": "1927 corrected printing"
+    },
+    {
+      "lesson": 33,
+      "page": 220,
+      "item": "I.4-19",
+      "printed": "numbered 1, 2, 3, 3, 4-18 (3 twice)",
+      "corrected": "numbered 1-19",
+      "basis": "1927 corrected printing"
+    },
+    {
+      "lesson": 33,
+      "page": 221,
+      "item": "I.18",
+      "printed": "περὶ τίνος· ὁ προφήτης λέγει τοῦτο; περὶ ἑαυτοῦ ἢ περὶ ἑτέρου τινός;",
+      "corrected": "περὶ τίνος ὁ προφήτης λέγει τοῦτο; περὶ ἑαυτοῦ ἢ περὶ ἑτέρου τινός;",
+      "basis": "1927 corrected printing"
+    },
+    {
+      "lesson": 33,
+      "page": 221,
+      "item": "II.9-11",
+      "printed": "numbered 10-12 (no 9)",
+      "corrected": "numbered 9-11",
       "basis": "1927 corrected printing"
     }
   ]

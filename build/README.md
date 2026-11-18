@@ -36,7 +36,13 @@
   `_sources/machen/course-map.json` (Machen's lesson vocabularies as `[headword, gloss, category, gender, lemma]`;
   NT frequencies from MorphGNT or `lemma-counts.json`, counted on the lemma when one is given, e.g. ἐλεύσομαι → ἔρχομαι),
   `authored/` + `exercises/` + `ladder.json` from `exwb/curated/machen-lNN.json` (Greek ladder) and
-  `_sources/machen/recognition.json`; `--check` verifies.
+  `_sources/machen/recognition.json`; `--check` verifies. It merges the frequency layers of
+  `_sources/machen/frequency-layers.json`: NT lemmas used 50+ times that Machen lacks go into the lesson units, the
+  lemmas used 10–49 times into optional words-only reading units after the last lesson (part "Reading Vocabulary").
+- `machen_layers.py` — writes `_sources/machen/frequency-layers.json` from MorphGNT lemma counts and Jeffrey Dodson's
+  public-domain lexicon (`python scripts/fetch-sources dodson`), with hand decisions (glosses, units, aliases) in
+  `_sources/machen/layers-overrides.json`; each core word goes to the first unit whose grammar it needs, or earlier
+  when Machen's sentences use it; `--check` verifies.
 - `davidson_ladder.py` — Hebrew profile of the ladder (pointing, pausal forms) and the Davidson entry point: (true/false, choose, fill in,
   translate, translate with vowel points), wrong options from one-point changes of the Key's English, English
   answer variants, pausal/contextual forms (P12-T4); used by `exwb_to_authored.py`, tested by

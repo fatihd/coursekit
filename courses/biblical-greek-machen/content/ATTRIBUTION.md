@@ -22,4 +22,8 @@ built from them are released under the **Creative Commons Attribution-ShareAlike
 - **MorphGNT** (SBLGNT edition, github.com/morphgnt/sblgnt): parsing and lemmas, CC BY-SA 3.0, used for the NT
   frequencies in `content/vocab.csv` and to check the Greek of the answers.
 - **SBLGNT** (Society of Biblical Literature Greek New Testament, CC BY 4.0) through MorphGNT.
-- Vocabulary glosses follow Machen's lesson vocabularies (public domain).
+- Vocabulary glosses follow Machen's lesson vocabularies (public domain). The words Machen does not list but the
+  New Testament uses 50 times or more (added to the lesson units), and the optional reading vocabulary (words used
+  10–49 times, units 34–48), have glosses after **Jeffrey Dodson's Greek-English lexicon of the New Testament**,
+  which its author released into the public domain in 2010 (github.com/biblicalhumanities/Dodson-Greek-Lexicon,
+  repository CC0 1.0); the glosses are shortened, and some are reworded for this course.

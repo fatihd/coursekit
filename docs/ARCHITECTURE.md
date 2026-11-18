@@ -122,6 +122,10 @@ right once (the book's exercises all, plus the corpus items marked `extra` until
 right answers; P12-T5, ADR-026); the roadmap shows a star per completed rung (`authored/ladder.json` gives the totals), and the lesson
 lists the ladder with a progress bar and a Practice link (`#/<slug>/rung/<n>/<seed>/<q>`) per rung, plus the
 Davidson sections. The on-screen keyboard pads the page while open so it never covers the Check button.
+A unit with words but no ladder items in a ladder course (the Machen course's optional reading-vocabulary units
+34–48) uses the generic word session (choose, match, translate, type the word); a session at 70% or better marks it
+done, as in a course without a ladder; no engine branch exists for it (checked 2026-11-18, `e2e.py
+courses/biblical-greek-machen --units 35`).
 
 ### Drill mode and test mode (P12-T13/T14, ADR-024)
 

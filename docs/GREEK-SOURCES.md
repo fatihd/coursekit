@@ -1,6 +1,6 @@
 # Greek course sources: Machen (backbone) and Davis (extra sentences)
 
-Last updated: 2026-11-13. ROADMAP P11. Decision: ADR-025 (AGENTS.md §12).
+Last updated: 2026-11-18. ROADMAP P11. Decision: ADR-025 (AGENTS.md §12).
 
 **Decision (user, 2026-11-13).** The open Greek course is built on J. Gresham Machen, *New Testament Greek for
 Beginners* (1923), which is public domain everywhere. W. Hersey Davis, *Beginner's Grammar of the Greek New Testament*
@@ -18,6 +18,7 @@ machine: scans came from archive.org, MorphGNT from GitHub, and OCR ran with loc
 | Davis, *Beginner's Grammar of the Greek New Testament*, George H. Doran, © 1923 Sunday School Board of the Southern Baptist Convention | archive.org `beginnersgrammar0000will_n9j4`: Doran printing (before 1928) without the 1942 "Note to fifth edition" | US: published 1923, ended by 2018-12-31. Life + 70: Davis 1887–1950, public domain since 2021-01-01 | `build/_sources/davis/` |
 | SBLGNT text | inside MorphGNT, commit `aaed91e5` (2024-01-21) | CC BY 4.0 (sblgnt.com/license, checked 2026-11-12) | `build/_sources/morphgnt/` |
 | MorphGNT parsing and lemmas | github.com/morphgnt/sblgnt | CC BY-SA 3.0 | same |
+| Jeffrey Dodson, *Greek-English Lexicon of the NT* (2010) | github.com/biblicalhumanities/Dodson-Greek-Lexicon, commit `74f70358` (2018-01-11), `dodson.xml` | Public domain: released by its author in 2010, compiled from public-domain lexicons (Abbott-Smith 1922, Berry 1897, Souter 1917, Strong 1890); the repository is CC0 1.0 | `build/_sources/dodson/` |
 
 Not used: the Harper printings of Davis (1942 fifth edition, corrected and enlarged), later Machen printings
 "reprinted with corrections" from 1927 (kept only as a text file to look up misprints; decided 2026-11-13: every
@@ -87,6 +88,16 @@ the top 200: τέ, Ἰωάννης, ἀμήν, ἑπτά, πληρόω. For §0 
 the 32 lemmas that occur 50+ times and Machen lacks (so all 309), and an optional reading-vocabulary part after the last
 lesson adds the lemmas that occur 10–49 times (Words track, ADR-023; optional for unlocking).
 
+**Built 2026-11-14** (`build/machen_layers.py` → `build/_sources/machen/frequency-layers.json`, glosses from the
+Dodson lexicon, hand decisions in `layers-overrides.json`): with all 33 lessons in, Machen's vocabularies plus three
+lemma fixes (ἱερόν → ἱερός, δεῖ → δέω, εὐαγγελίζομαι → εὐαγγελίζω, the MorphGNT lemmas) cover 273 of the 309 lemmas that
+occur 50+ times; the other **36 core words** go into the lesson units, each in the first unit whose grammar it needs
+(second-declension nouns and indeclinable names in unit 4, first-declension nouns in 5, adjectives in 6, …, numerals in 26)
+or earlier when Machen's sentences already use it (e.g. ἐκβάλλω in 7 with βάλλω, ἄν in 27 with the conditional relative
+clauses, δέω "I bind" in 23). The **reading vocabulary** is 724 lemmas that occur 10–49 times and are not in the lessons,
+in 15 optional units (34–48, part 8, about 50 words each, most frequent first). The course word list has 1,193 words; all
+309 lemmas that occur 50+ times are in it (`tests/test_machen_course.py`).
+
 ## 5. Davis as an extra sentence source
 
 - **59 short lessons** (alphabet to -μι verbs), an exercise set in almost every lesson: part I Greek→English and
@@ -141,9 +152,9 @@ lesson adds the lemmas that occur 10–49 times (Words track, ADR-023; optional 
   with a required `content/ATTRIBUTION.md` (not on the site yet). MorphGNT-derived files (`greek-forms.json`,
   `lemma-counts.json`, the NT frequencies in the course word list) keep CC BY-SA 3.0, SBLGNT text CC BY 4.0; the
   public LICENSE says so. `exwb/curated` (CC0) holds only Machen's text and our answers.
-- **Glosses for the frequency layers (user, 2026-11-13):** the Dodson Greek–English lexicon (public domain, GitHub
-  `biblicalhumanities/Dodson-Greek-Lexicon`) may be downloaded for the 50+ and 10–49 layers; to be recorded in a
-  manifest with sha256 when it is fetched.
+- **Glosses for the frequency layers (user, 2026-11-13; fetched 2026-11-14):** the Dodson Greek–English lexicon
+  (public domain, GitHub `biblicalhumanities/Dodson-Greek-Lexicon`, commit `74f70358`), `python scripts/fetch-sources
+  dodson` into git-ignored `build/_sources/dodson/` (manifest with sha256; audit in `build/_sources/dodson/SOURCES.md`).
 - **Word order (user, 2026-11-13):** typed Greek is accepted in any order of the same words, as long as no postpositive
   (δέ, γάρ, οὖν, μέν, τε, γε, ἄν, δή, τοι, μέντοι, τοίνυν, and the enclitic pronouns μου/μοι/με/σου/σοι/σε) stands
   first and no article stands last in a clause; the feedback then shows our order (`engine/greek.js`
@@ -154,17 +165,27 @@ lesson adds the lemmas that occur 10–49 times (Words track, ADR-023; optional 
   no 1927 differences). Lessons III–XXIV: 764 items, 8,791 Greek words attested.
 - **Curated 2026-11-14:** Lesson XXV (`machen-l25.json`, 36 items, pp. 160–162; no 1927 differences); πατήρ/μήτηρ
   forms recorded against §565 (p. 229). Lessons III–XXV: 800 items, 9,282 Greek words attested.
-- **Course (P11-T5):** `courses/biblical-greek-machen`, units 1–25 = Lessons I–XXV (parts 1–6); units 1–2 have
-  recognition questions (`build/_sources/machen/recognition.json`), units 3–8 Machen's exercises as five-rung ladders;
-  `build/machen_course.py` writes `content/vocab.csv` (Machen's lesson vocabularies with NT frequencies) and
-  `authored/`; lesson text written for the course; CC BY-SA 4.0.
+- **Curated 2026-11-14:** Lessons XXVI–XXXIII (`machen-l26.json` … `-l33.json`, 268 items, pp. 167–221): Lessons
+  III–XXXIII now hold 1,068 items and 13,340 Greek words, all attested. 1927 comparison: misprints fixed in XXVI I.18
+  πάσας and I.20 καθαροί (p. 168), XXVIII I.12 εἶπεν (p. 181), XXIX I.15 ἐγνώκαμεν (p. 190), XXXIII I.18 (p. 221, a
+  stray point after τίνος); XXVI II.2 asks for gifts and garments as in 1927 (the 1923 plates ask for women, a word
+  Machen teaches only in Lesson XXXI); XXXIII is numbered as in 1927 (the plates have two items 3 in part I and skip 9
+  in part II). From Lesson XXIX on most part I sentences are NT verses; their English answers are ours. Paradigm-made
+  forms are recorded as before, including the μι-verb paradigms (§§598–601, pp. 246–249) and οἶδα (§603, p. 251).
+- **Course (P11-T5):** `courses/biblical-greek-machen`, units 1–33 = Lessons I–XXXIII (parts 1–7) and units 34–48 =
+  the optional reading vocabulary (part 8, words only); units 1–2 have
+  recognition questions (`build/_sources/machen/recognition.json`), units 3–33 Machen's exercises as five-rung ladders
+  (5,400 ladder items); `build/machen_course.py` writes `content/vocab.csv` (Machen's lesson vocabularies plus the
+  frequency layers, with NT frequencies) and `authored/`; lesson text written for the course; CC BY-SA 4.0. A
+  words-only unit needed no engine change: it has no ladder, so its drill is the generic word session (choose, match,
+  translate, type the Greek) and a session at 70% or better completes it, as in the Hebrew OER course; nothing after
+  the reading part waits for it. `scripts/validate` and `e2e.py --units 35` pass with units 34–35 words-only.
 
 ## 8. Next steps
 
-1. Curate Lessons IX–XXXIII the same way (exwb `ocr`, transcribe from the scan, our answers, `greek_corpus.py check`,
-   1927 comparison into `corrections.json`) and add their units to `course-map.json`; then the Davis items.
-2. Vocabulary layers: the 50+ NT lemmas that Machen's lists lack (32 of 309) placed in the core units at first use,
-   and an optional reading-vocabulary part for the 10–49 lemmas; both need glosses, e.g. from the public-domain
-   Dodson lexicon (GitHub).
+1. The Davis items (about 280 + 290), placed sentence by sentence in the Machen unit map, answers ours, every Greek
+   word attested (`greek_corpus.py`).
+2. Corpus expansion for Greek like Davidson's (ADR-026): new sentences and NT verses that use only course words, up to
+   `ladderTarget` per rung.
 3. Greek-specific wrong options (case, number, voice, tense) and sentence placement by MorphGNT parses.
 4. Unit map: Machen's 33 lessons split into one-topic units (as Davidson's 49 sections became 79 units).

@@ -1,0 +1,201 @@
+{
+  "schema": "unit-lesson-v1.json",
+  "unit": 33,
+  "title": "ἵστημι and οἶδα; the Optative; Conditions Contrary to Fact",
+  "description": "ἵστημι and its two aorists, οἶδα, the optative of wish, conditions contrary to fact, and the uses of γίνομαι (καὶ ἐγένετο).",
+  "teaches": [
+    "gr-mac-33-001",
+    "gr-mac-33-002",
+    "gr-mac-33-003",
+    "gr-mac-33-004",
+    "gr-mac-33-005",
+    "gr-mac-33-006",
+    "gr-mac-33-007",
+    "gr-mac-33-008",
+    "gr-mac-33-009",
+    "gr-mac-33-010",
+    "gr-mac-33-011",
+    "gr-mac-33-012",
+    "gr-mac-33-013",
+    "gr-mac-33-014",
+    "gr-mac-33-015"
+  ],
+  "assumes": [
+    "gr-mac-32-001",
+    "gr-mac-32-002",
+    "gr-mac-32-003",
+    "gr-mac-32-004",
+    "gr-mac-32-005",
+    "gr-mac-32-006",
+    "gr-mac-32-007",
+    "gr-mac-32-008",
+    "gr-mac-32-009",
+    "gr-mac-32-010",
+    "gr-mac-32-011",
+    "gr-mac-32-012",
+    "gr-mac-32-013",
+    "gr-mac-32-014",
+    "gr-mac-32-015",
+    "gr-mac-32-016",
+    "gr-mac-32-017",
+    "gr-mac-32-018",
+    "gr-mac-32-019",
+    "gr-mac-32-020",
+    "gr-mac-32-021",
+    "gr-mac-32-022"
+  ],
+  "blocks": [
+    {
+      "type": "prose",
+      "caption": "Summary",
+      "html": "<p>ἵστημι has the principal parts ἵστημι, στήσω, ἔστησα, ἕστηκα, ἕσταμαι, ἐστάθην, and a second aorist ἔστην. The stem is στα-; the present system prefixes ἱ- (ἱστα-). The present, future and first aorist active are transitive: I cause to stand, I set (ἀναστήσει, he will raise up). The second aorist and the perfect are intransitive: ἔστην, I stood; ἕστηκα, I stand; the participles ἑστηκώς and ἑστώς (gen. ἑστῶτος) mean standing. ἀνίστημι works the same way: ἀναστάς, having stood up. The participles ἱστάς and στάς are declined like λύσας.</p><p>οἶδα, I know, is a perfect used as a present; its pluperfect ἤδειν (SBLGNT ᾔδειν) is used as an imperfect, I knew. δύναμαι, I am able, is conjugated in the present like the middle of ἵστημι (δύναμαι, δύνασαι, δύναται, δυνάμεθα); κάθημαι, I sit, is a deponent of the same kind (participle καθήμενος). φημί, I say, is a μι verb (ἔφη, he said).</p><p>The optative, common in classical Greek, survives in the NT mainly in wishes: μὴ γένοιτο, may it not be, God forbid. A condition contrary to fact has a past tense of the indicative in both clauses, εἰ in the if-clause and usually ἄν in the other: εἰ ἦς ὧδε, οὐκ ἂν ἀπέθανεν ὁ ἀδελφός μου, if you had been here, my brother would not have died.</p><p>γίνομαι often cannot be translated become: it means happen, come into being, be made, appear, be. τὰ γενόμενα, the things that had happened; πάντα δι’ αὐτοῦ ἐγένετο, all things were made through him. καὶ ἐγένετο or ἐγένετο δέ, it came to pass, is followed by an accusative and infinitive (ἐγένετο αὐτὸν ἐλθεῖν), by καί and a verb, or by a verb alone; all three are translated it came to pass that he came.</p>"
+    },
+    {
+      "type": "table",
+      "caption": "ἵστημι",
+      "columns": [
+        "",
+        "Present",
+        "Second aorist",
+        "First aorist"
+      ],
+      "rows": [
+        [
+          "1 sg.",
+          "ἵστημι",
+          "ἔστην",
+          "ἔστησα"
+        ],
+        [
+          "2 sg.",
+          "ἵστης",
+          "ἔστης",
+          "ἔστησας"
+        ],
+        [
+          "3 sg.",
+          "ἵστησι(ν)",
+          "ἔστη",
+          "ἔστησε(ν)"
+        ],
+        [
+          "1 pl.",
+          "ἵσταμεν",
+          "ἔστημεν",
+          "ἐστήσαμεν"
+        ],
+        [
+          "2 pl.",
+          "ἵστατε",
+          "ἔστητε",
+          "ἐστήσατε"
+        ],
+        [
+          "3 pl.",
+          "ἱστᾶσι(ν)",
+          "ἔστησαν",
+          "ἔστησαν"
+        ],
+        [
+          "Subjunctive",
+          "ἱστῶ, ἱστῇς, ἱστῇ",
+          "στῶ, στῇς, στῇ",
+          "στήσω, στήσῃς, στήσῃ"
+        ],
+        [
+          "Imperative",
+          "ἵστη, ἱστάτω",
+          "στῆθι, στήτω",
+          "στῆσον, στησάτω"
+        ],
+        [
+          "Infinitive",
+          "ἱστάναι",
+          "στῆναι",
+          "στῆσαι"
+        ],
+        [
+          "Participle",
+          "ἱστάς, ἱστᾶσα, ἱστάν",
+          "στάς, στᾶσα, στάν",
+          "στήσας"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "οἶδα",
+      "columns": [
+        "Person",
+        "Perfect (present sense)",
+        "Pluperfect (past sense)"
+      ],
+      "rows": [
+        [
+          "1 sg.",
+          "οἶδα",
+          "ἤδειν"
+        ],
+        [
+          "2 sg.",
+          "οἶδας",
+          "ἤδεις"
+        ],
+        [
+          "3 sg.",
+          "οἶδε(ν)",
+          "ἤδει"
+        ],
+        [
+          "1 pl.",
+          "οἴδαμεν",
+          "ἤδειμεν"
+        ],
+        [
+          "2 pl.",
+          "οἴδατε",
+          "ἤδειτε"
+        ],
+        [
+          "3 pl.",
+          "οἴδασι(ν)",
+          "ἤδεισαν"
+        ],
+        [
+          "Subjunctive εἰδῶ; infinitive εἰδέναι; participle εἰδώς, εἰδυῖα, εἰδός. The SBLGNT spells the pluperfect with iota subscript (ᾔδει); both spellings are accepted."
+        ]
+      ]
+    },
+    {
+      "type": "prose",
+      "caption": "Common confusion",
+      "html": "<p>ἔστησα (I set up, transitive) and ἔστην (I stood, intransitive) are both aorists of ἵστημι; ἑστῶτας means standing, not having been set. ἔστησαν is the third person plural of both aorists. ἕστηκα, with rough breathing, is a perfect; ἔστην, with smooth breathing and augment, an aorist. οἶδα looks like a perfect but means I know; ἤδειν means I knew. ὡς with a past tense often means when (ὡς ἐπαύσατο, when he ceased); with numbers it means about (Lesson XXVI). ἕτερος is another of a different kind, ἄλλος simply another.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Source",
+      "html": "<p>Machen, *New Testament Greek for Beginners* (1923), Lesson 33 (p. 216).</p>"
+    },
+    {
+      "type": "vocab",
+      "refs": [
+        "gr-mac-33-001",
+        "gr-mac-33-002",
+        "gr-mac-33-003",
+        "gr-mac-33-004",
+        "gr-mac-33-005",
+        "gr-mac-33-006",
+        "gr-mac-33-007",
+        "gr-mac-33-008",
+        "gr-mac-33-009",
+        "gr-mac-33-010",
+        "gr-mac-33-011",
+        "gr-mac-33-012",
+        "gr-mac-33-013",
+        "gr-mac-33-014",
+        "gr-mac-33-015"
+      ]
+    }
+  ],
+  "didYouKnow": ""
+}

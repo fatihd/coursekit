@@ -35,7 +35,8 @@ export default {
 
     root.appendChild(el("p", "ex-hint", item.transliteration
       ? "Use the on-screen keyboard, or type the transliteration."
-      : "Use the on-screen keyboard; type the pointed word."));
+      : script().id === "greek" ? "Use the on-screen keyboard; type the word with its accents."
+        : "Use the on-screen keyboard; type the pointed word."));
     return root;
   },
 

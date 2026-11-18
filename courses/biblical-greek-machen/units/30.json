@@ -1,0 +1,144 @@
+{
+  "schema": "unit-lesson-v1.json",
+  "unit": 30,
+  "title": "Comparison; More Uses of the Cases",
+  "description": "Comparatives and μείζων, the genitive of comparison and ἤ, adverbs, more uses of the genitive, dative and accusative, possessive adjectives, μή meaning lest, ἵνα after verbs of asking, and questions with μή.",
+  "teaches": [
+    "gr-mac-30-001",
+    "gr-mac-30-002",
+    "gr-mac-30-003",
+    "gr-mac-30-004",
+    "gr-mac-30-005",
+    "gr-mac-30-006",
+    "gr-mac-30-007",
+    "gr-mac-30-008",
+    "gr-mac-30-009",
+    "gr-mac-30-010",
+    "gr-mac-30-011",
+    "gr-mac-30-012",
+    "gr-mac-30-013",
+    "gr-mac-30-014",
+    "gr-mac-30-015",
+    "gr-mac-30-016",
+    "gr-mac-30-017",
+    "gr-mac-30-018",
+    "gr-mac-30-019",
+    "gr-mac-30-020",
+    "gr-mac-30-021"
+  ],
+  "assumes": [
+    "gr-mac-29-001",
+    "gr-mac-29-002",
+    "gr-mac-29-003",
+    "gr-mac-29-004",
+    "gr-mac-29-005",
+    "gr-mac-29-006",
+    "gr-mac-29-007",
+    "gr-mac-29-008",
+    "gr-mac-29-009",
+    "gr-mac-29-010",
+    "gr-mac-29-011",
+    "gr-mac-29-012",
+    "gr-mac-29-013",
+    "gr-mac-29-014",
+    "gr-mac-29-015"
+  ],
+  "blocks": [
+    {
+      "type": "prose",
+      "caption": "Summary",
+      "html": "<p>The comparative ends either in -τερος, -α, -ον (ἰσχυρότερος, declined like μικρός) or in -ίων / -ων, -ον, declined by the third declension (μείζων, πλείων, κρείσσων). The superlative (-τατος, -ιστος) is rare in the NT. Some adjectives compare irregularly: μικρός, ἐλάσσων, ἐλάχιστος; ἀγαθός, κρείσσων; μέγας, μείζων; πολύς, πλείων. Where English says than, Greek uses the genitive of comparison (μείζονα τούτων, greater things than these) or ἤ with the same case on both sides (μᾶλλον τὸ σκότος ἢ τὸ φῶς, darkness rather than light).</p><p>Many adverbs come from adjectives by putting ς for the ν of the genitive plural: καλῶν, καλῶς, well. Adverbs of place take the genitive: ἔξω τῆς πόλεως, ἐγγὺς τῆς πόλεως, ἔμπροσθεν αὐτοῦ, ἐνώπιον τοῦ θεοῦ.</p><p>More case uses: the genitive of time within which (νυκτός, by night); the genitive of the articular infinitive for purpose (τοῦ βαπτισθῆναι, in order to be baptized); the dative of respect (καθαρὸς τῇ καρδίᾳ, pure in heart; ὀνόματι, by name); the accusative of specification (τὸν ἀριθμόν, in number); the dative of time when (τῷ σαββάτῳ, on the sabbath).</p><p>The possessive adjectives ἐμός, σός, ἡμέτερος, ὑμέτερος stand in the attributive position and give emphasis (ὁ λόγος ὁ ἐμός, my word); the ordinary way is ὁ λόγος μου. After words of fearing, μή with the subjunctive means lest (φοβοῦμαι μὴ ἔλθῃ, I fear lest he come); μή alone may also begin a negative purpose clause. ἵνα with the subjunctive often follows words of exhorting, wishing and striving: εἰπὲ ἵνα γένηται ἄρτος, say that it become bread. A question with μή and the indicative expects the answer no (μὴ ἰσχυρότεροι αὐτοῦ ἐσμεν; we are not stronger than he, are we?); with οὐ it expects yes.</p>"
+    },
+    {
+      "type": "table",
+      "caption": "μείζων, greater",
+      "columns": [
+        "Case",
+        "Masc. and fem.",
+        "Neut."
+      ],
+      "rows": [
+        [
+          "Nom. sg.",
+          "μείζων",
+          "μεῖζον"
+        ],
+        [
+          "Gen. sg.",
+          "μείζονος",
+          "μείζονος"
+        ],
+        [
+          "Dat. sg.",
+          "μείζονι",
+          "μείζονι"
+        ],
+        [
+          "Acc. sg.",
+          "μείζονα (μείζω)",
+          "μεῖζον"
+        ],
+        [
+          "Nom. pl.",
+          "μείζονες (μείζους)",
+          "μείζονα (μείζω)"
+        ],
+        [
+          "Gen. pl.",
+          "μειζόνων",
+          "μειζόνων"
+        ],
+        [
+          "Dat. pl.",
+          "μείζοσι(ν)",
+          "μείζοσι(ν)"
+        ],
+        [
+          "Acc. pl.",
+          "μείζονας (μείζους)",
+          "μείζονα (μείζω)"
+        ],
+        [
+          "πλείων, more, κρείσσων, better, ἐλάσσων, less, σώφρων, wise, and ἄφρων, foolish, are declined the same way; the short forms in brackets are common."
+        ]
+      ]
+    },
+    {
+      "type": "prose",
+      "caption": "Common confusion",
+      "html": "<p>ἤ means or (Lesson XXVI) and than; the context decides. μή is not only not: after a word of fearing it means lest. μὴ … ; in a question expects no, οὐ … ; expects yes. ἴδιος is one&#x27;s own, not idiot: εἰς τὰ ἴδια, to his own home, to his own things. ἐμός, σός are adjectives agreeing with the noun (ἡ χαρὰ ἡ ἐμή); μου, σου are genitives of the pronoun.</p>"
+    },
+    {
+      "type": "prose",
+      "caption": "Source",
+      "html": "<p>Machen, *New Testament Greek for Beginners* (1923), Lesson 30 (p. 192).</p>"
+    },
+    {
+      "type": "vocab",
+      "refs": [
+        "gr-mac-30-001",
+        "gr-mac-30-002",
+        "gr-mac-30-003",
+        "gr-mac-30-004",
+        "gr-mac-30-005",
+        "gr-mac-30-006",
+        "gr-mac-30-007",
+        "gr-mac-30-008",
+        "gr-mac-30-009",
+        "gr-mac-30-010",
+        "gr-mac-30-011",
+        "gr-mac-30-012",
+        "gr-mac-30-013",
+        "gr-mac-30-014",
+        "gr-mac-30-015",
+        "gr-mac-30-016",
+        "gr-mac-30-017",
+        "gr-mac-30-018",
+        "gr-mac-30-019",
+        "gr-mac-30-020",
+        "gr-mac-30-021"
+      ]
+    }
+  ],
+  "didYouKnow": ""
+}

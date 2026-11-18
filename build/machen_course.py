@@ -9,7 +9,9 @@ sentences with the answers written for this course), and writes into `courses/bi
 * the source line and the Vocabulary / Teaches / Assumes lists of `content/chapters/NN.md` (the lesson text above
   `## Source` is written by hand and kept);
 * `content/vocab.csv` — the lesson vocabularies, with NT frequencies from MorphGNT (`build/_sources/morphgnt/`,
-  or the counts kept in `build/_sources/machen/lemma-counts.json` when MorphGNT is not downloaded);
+  or the counts kept in `build/_sources/machen/lemma-counts.json` when MorphGNT is not downloaded), plus the frequency
+  layers of `frequency-layers.json` (`build/machen_layers.py`): core words in the lesson units and the optional
+  words-only reading units after the last lesson;
 * `authored/NN.json`, `exercises/NN.json`, `authored/ladder.json` — five ladder rungs per sentence made by the Greek
   profile of the ladder (`build/ladder_greek.py` on `build/ladder_core.py`), recognition questions for units 1-2.
 
@@ -41,6 +43,7 @@ SRC = ROOT / "build" / "_sources" / "machen"
 MAP = SRC / "course-map.json"
 RECOGNITION = SRC / "recognition.json"
 COUNTS = SRC / "lemma-counts.json"
+LAYERS = SRC / "frequency-layers.json"
 MORPHGNT = ROOT / "build" / "_sources" / "morphgnt"
 CURATED = ROOT / "exwb" / "curated"
 BOOK_ID = "newtestamentgree00mach_0"
@@ -48,6 +51,8 @@ PAGE_TO_LEAF = 17
 VOCAB_COLUMNS = ["id", "unit", "category", "scriptForm", "plural", "transliteration", "pronunciation", "gloss", "gender",
                  "number", "frequency", "root", "strong", "pos", "binyan", "parse", "forms", "oer_source", "oer_license"]
 CITATION = "Machen, New Testament Greek for Beginners (1923)"
+READING_PART = "Reading Vocabulary (optional)"
+LAYER_SOURCE = "Dodson lexicon (public domain); MorphGNT"
 
 
 def dump(obj) -> str:
@@ -85,6 +90,26 @@ def lemma_of(w: list) -> str:
     return w[4] if len(w) > 4 and w[4] else w[0]
 
 
+def layer_word(e: dict) -> list:
+    return [e["headword"], e["gloss"], e["category"], e["gender"], e["lemma"], "layer"]
+
+
+def with_layers(cmap: dict) -> dict:
+    """Machen's units plus the frequency layers of `frequency-layers.json` (build/machen_layers.py)."""
+    layers = json.loads(LAYERS.read_text(encoding="utf-8"))
+    core = defaultdict(list)
+    for e in layers["core"]:
+        core[e["unit"]].append(layer_word(e))
+    units = [{**u, "vocab": u["vocab"] + core.get(u["n"], [])} for u in cmap["units"]]
+    reading = layers["reading"]["units"]
+    units += [{"n": r["n"], "lesson": None, "title": r["title"], "slug": r["slug"], "page": None,
+               "description": r["description"], "vocab": [layer_word(e) for e in r["words"]]} for r in reading]
+    parts = list(cmap["parts"])
+    if reading:
+        parts.append({"n": parts[-1]["n"] + 1, "title": READING_PART, "units": [reading[0]["n"], reading[-1]["n"]]})
+    return {**cmap, "units": units, "parts": parts}
+
+
 def vocab_rows(cmap: dict) -> list[dict]:
     words = [(u["n"], w) for u in cmap["units"] for w in u["vocab"]]
     counts = lemma_counts(sorted({lemma_of(w) for _, w in words}))
@@ -97,7 +122,8 @@ def vocab_rows(cmap: dict) -> list[dict]:
             "plural": "", "transliteration": "", "pronunciation": "", "gloss": gloss,
             "gender": w[3] if len(w) > 3 else "", "number": "", "frequency": str(counts.get(lemma_of(w), 0)),
             "root": "", "strong": "", "pos": category, "binyan": "", "parse": "", "forms": "",
-            "oer_source": "Machen (1923); MorphGNT", "oer_license": "public domain; CC BY-SA 3.0",
+            "oer_source": LAYER_SOURCE if len(w) > 5 else "Machen (1923); MorphGNT",
+            "oer_license": "public domain; CC BY-SA 3.0",
         })
     return rows
 
@@ -218,8 +244,15 @@ def chapter_text(path: Path, u: dict, vocab: list[str], prev: list[str]) -> str:
     if not path.is_file():
         sys.exit(f"missing lesson text: {path} (write the chapter body first)")
     body = path.read_text(encoding="utf-8").split("\n## Source\n")[0].rstrip()
-    parts = [body, "", "## Source", "",
-             f"Machen, *New Testament Greek for Beginners* (1923), Lesson {u['lesson']} (p. {u['page']}).", ""]
+    if u.get("lesson"):
+        source = f"Machen, *New Testament Greek for Beginners* (1923), Lesson {u['lesson']} (p. {u['page']})."
+        if any(len(w) > 5 for w in u["vocab"]):
+            source += (" Words Machen does not list but the New Testament uses 50 times or more are added with glosses "
+                       "after Jeffrey Dodson's Greek-English lexicon (public domain).")
+    else:
+        source = ("Words chosen by their New Testament frequency (MorphGNT); glosses after Jeffrey Dodson's "
+                  "Greek-English lexicon (public domain).")
+    parts = [body, "", "## Source", "", source, ""]
     if vocab:
         parts += ["## Vocabulary", ""] + [f"- {i}" for i in vocab] + ["", "## Teaches", ""] + [f"- {i}" for i in vocab] + [""]
     if prev:
@@ -244,7 +277,7 @@ def main() -> int:
     ap.add_argument("--check", action="store_true", help="fail if the course files are out of date")
     args = ap.parse_args()
     course = Path(args.course)
-    cmap = json.loads(MAP.read_text(encoding="utf-8"))
+    cmap = with_layers(json.loads(MAP.read_text(encoding="utf-8")))
     rows = vocab_rows(cmap)
     wanted: dict[Path, str] = {course / "content" / "vocab.csv": vocab_csv(rows),
                                course / "course.json": dump(course_json(cmap)),
@@ -267,7 +300,9 @@ def main() -> int:
     stale = sorted(existing - set(wanted))
     changed = sorted(p for p, text in wanted.items() if not p.is_file() or p.read_text(encoding="utf-8") != text)
     total = sum(n for u in ladder_index.values() for n in u.values())
-    summary = f"{total} ladder items in {len(ladder_index)} units; rungs per unit: {ladder_index}"
+    words_only = len(cmap["units"]) - len(ladder_index)
+    summary = (f"{len(cmap['units'])} units, {len(rows)} words; {total} ladder items in {len(ladder_index)} units "
+               f"({words_only} words-only units); rungs per unit: {ladder_index}")
     if args.check:
         for p in changed + stale:
             print(f"out of date: {p.relative_to(course)}")

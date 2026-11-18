@@ -81,7 +81,7 @@ words first. A book-exercise session opens with `vocabPerSession` (default 3) wo
 |---|---|---|
 | `root-pattern-compose` | Compose | Build a word from a given root (`shoresh`) + pattern (`mishqal`) — choose the correct resulting form. |
 | `spot-error` | Error splice | A phrase contains one error (wrong vowel, wrong agreement, wrong binyan); locate and correct it. |
-| `dictation` | Type pointed script | Hear/see the gloss, type the fully-pointed Hebrew/Aramaic word (uses on-screen keyboard + niqqud). |
+| `dictation` | Type pointed script | Hear/see the gloss, type the fully-pointed Hebrew/Aramaic word (uses on-screen keyboard + niqqud); on the Greek profile, the word with its accents (graded at the `full` level). |
 | `translit-normalize` | Transliteration | Given a transliteration, produce the pointed script form (or vice versa); compares under NFC. |
 | `gap-fill-verse` | Gap-fill a verse | A Bible verse with multiple gaps drawn from the unit's vocab; fill all. |
 | `flash-timed` | Timed translate | Quick translation prompts under a per-item timer; form is MCQ but time-bounded. |

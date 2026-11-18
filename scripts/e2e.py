@@ -313,8 +313,8 @@ def answer_current(page, vocab, unit_n, authored=None):
 
     if page.query_selector(".ex--dictation"):
         stim = page.text_content(".ex--dictation .ex-stimulus").strip()
-        item = vocab["gloss"].get(stim)
-        page.fill(".ex--dictation .hebrew-input", item["transliteration"])
+        item = unit_gloss.get(stim) or vocab["gloss"].get(stim)
+        page.fill(".ex--dictation .hebrew-input", item["transliteration"] or item["scriptForm"])
         return
 
     raise RuntimeError("unknown question type")

@@ -1,6 +1,6 @@
 # Machen source audit
 
-Last updated: 2026-11-13.
+Last updated: 2026-11-14.
 
 Backbone of the open Greek course (ROADMAP P11, ADR-025). Scans, DjVu files and OCR output are git-ignored here;
 `manifest.json` lists each Internet Archive file with URL and sha256. Fetch with `python scripts/fetch-sources machen`
@@ -42,6 +42,7 @@ voted against the archive.org text with MorphGNT word forms 96.6%. Details: `doc
 | `greek-forms.json` | MorphGNT `sblgnt` word forms and lemmas (SBLGNT text) | CC BY-SA 3.0 (MorphGNT); SBLGNT text CC BY 4.0 |
 | `lemma-counts.json` | MorphGNT lemma counts | CC BY-SA 3.0 (MorphGNT) |
 | `attested.json`, `corrections.json`, `course-map.json`, `recognition.json` | Machen (public domain) plus our own data | CC BY-SA 4.0, like the course |
+| `frequency-layers.json`, `layers-overrides.json` | MorphGNT lemma counts and parts of speech; glosses from Jeffrey Dodson's Greek-English lexicon (public domain, `build/_sources/dodson/SOURCES.md`), shortened or reworded by hand | CC BY-SA 3.0 (MorphGNT counts) / CC BY-SA 4.0 (our wording); the Dodson glosses are public domain |
 | `exwb/curated/machen-*.json` | Machen's exercises plus our answers only | CC0 1.0 (no MorphGNT or SBLGNT data) |
 
 The course credits MorphGNT and the SBLGNT in `courses/biblical-greek-machen/content/ATTRIBUTION.md`.

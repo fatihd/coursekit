@@ -33,9 +33,11 @@ import * as greek from "/engine/greek.js";
 import { initKeyboard } from "/engine/keyboard.js";
 import { setScript } from "/engine/script.js";
 import translatePhrase from "/engine/exercise-types/translate-phrase.js";
+import dictation from "/engine/exercise-types/dictation.js";
 window.greek = greek;
 window.setScript = setScript;
 window.tp = translatePhrase;
+window.dict = dictation;
 await initKeyboard(document.body, "el_GR");
 window.ready = true;
 </script>
@@ -225,7 +227,18 @@ def main():
             }""")
             check(marks == ["pt-ok", "pt-no", "pt-ok", "pt-no", "pt-ok"], f"wrong accents are marked letter by letter (got {marks})", failures)
 
+            dict_greek = page.evaluate("""() => {
+              const item = { type: "dictation", prompt: "p", stimulus: "a word", answer: "λόγος" };
+              const hint = window.dict.render(item, {}).querySelector(".ex-hint").textContent;
+              return [hint, Boolean(window.dict.grade(item, "λόγος").correct), Boolean(window.dict.grade(item, "λογος").correct)];
+            }""")
+            check(dict_greek == ["Use the on-screen keyboard; type the word with its accents.", True, False],
+                  f"Greek word typing (dictation) asks for and grades accents (got {dict_greek})", failures)
+
             page.evaluate("() => window.setScript({ script: { direction: 'rtl', keyboard: 'he_IL' } })")
+            dict_heb = page.evaluate("""() => window.dict.render({ type: "dictation", prompt: "p", stimulus: "w", answer: "דָּבָר" }, {})
+              .querySelector(".ex-hint").textContent""")
+            check(dict_heb == "Use the on-screen keyboard; type the pointed word.", f"Hebrew dictation hint unchanged (got {dict_heb!r})", failures)
             heb = [grade("דָּבָר", "דבר", False)["correct"], grade("דָּבָר", "דבר", True)["correct"],
                    grade("דָּבָר", "דבר", True).get("message")]
             check(heb == [True, False, "Vowel points are required here."], f"Hebrew profile unchanged (got {heb})", failures)
