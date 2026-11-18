@@ -81,5 +81,6 @@
   Greek words attested). Vocabulary layers: every NT lemma used 50+ times is taught (36 added to the lesson units) and
   an optional reading vocabulary (724 lemmas used 10–49 times, units 34–48, words only) follows the last lesson; glosses
   from the public-domain Dodson lexicon (`python scripts/fetch-sources dodson`, `python build/machen_layers.py`).
+- 2026-11-18: the Greek course is on the hosted site (third course).
 - Next up: the Davis sentences placed in the Machen units; Greek corpus expansion; optional corpus pass 2 (units
   13–15, 72–79).

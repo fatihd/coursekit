@@ -22,7 +22,7 @@ machine: scans came from archive.org, MorphGNT from GitHub, and OCR ran with loc
 
 Not used: the Harper printings of Davis (1942 fifth edition, corrected and enlarged), later Machen printings
 "reprinted with corrections" from 1927 (kept only as a text file to look up misprints; decided 2026-11-13: every
-correction taken from it is recorded with its page), and the copyrighted answer
+correction taken from it is recorded with its page; one wording change beyond misprints, XXVI II.2, decided 2026-11-18), and the copyrighted answer
 books to Machen (Zodhiates 1976; Thompson's study guide 1980).
 
 **License compatibility.** The Davidson course data is CC BY-SA 3.0. SBLGNT text (CC BY 4.0) may be used in a
@@ -149,7 +149,7 @@ in 15 optional units (34–48, part 8, about 50 words each, most frequent first)
   IX part II has 14 twice in both printings (the second is `14b`). Machen spells σώζω without iota subscript; the
   SBLGNT spelling σῴζω is accepted as an alternate.
 - **Licences in the public repo (user, 2026-11-13):** `courses/biblical-greek-machen` is in `scripts/public-allowlist.txt`
-  with a required `content/ATTRIBUTION.md` (not on the site yet). MorphGNT-derived files (`greek-forms.json`,
+  with a required `content/ATTRIBUTION.md`; on the hosted site since 2026-11-18 (P11-T6). MorphGNT-derived files (`greek-forms.json`,
   `lemma-counts.json`, the NT frequencies in the course word list) keep CC BY-SA 3.0, SBLGNT text CC BY 4.0; the
   public LICENSE says so. `exwb/curated` (CC0) holds only Machen's text and our answers.
 - **Glosses for the frequency layers (user, 2026-11-13; fetched 2026-11-14):** the Dodson Greek–English lexicon
@@ -169,7 +169,7 @@ in 15 optional units (34–48, part 8, about 50 words each, most frequent first)
   III–XXXIII now hold 1,068 items and 13,340 Greek words, all attested. 1927 comparison: misprints fixed in XXVI I.18
   πάσας and I.20 καθαροί (p. 168), XXVIII I.12 εἶπεν (p. 181), XXIX I.15 ἐγνώκαμεν (p. 190), XXXIII I.18 (p. 221, a
   stray point after τίνος); XXVI II.2 asks for gifts and garments as in 1927 (the 1923 plates ask for women, a word
-  Machen teaches only in Lesson XXXI); XXXIII is numbered as in 1927 (the plates have two items 3 in part I and skip 9
+  Machen teaches only in Lesson XXXI; kept, user 2026-11-18); XXXIII is numbered as in 1927 (the plates have two items 3 in part I and skip 9
   in part II). From Lesson XXIX on most part I sentences are NT verses; their English answers are ours. Paradigm-made
   forms are recorded as before, including the μι-verb paradigms (§§598–601, pp. 246–249) and οἶδα (§603, p. 251).
 - **Course (P11-T5):** `courses/biblical-greek-machen`, units 1–33 = Lessons I–XXXIII (parts 1–7) and units 34–48 =
